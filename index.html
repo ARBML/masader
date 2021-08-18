@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css"></link>
+
+<script type="text/javascript">
+  var url = "https://sheets.googleapis.com/v4/spreadsheets/18KW4Vs4x3uE2yD0XbAknxH6JNj91dS6e9ZCmsDiwhyY/?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";                                                             
+  function linkuize(text, link)
+  {
+	  return `<a href = "${link}" target="_blank"> ${text}</a>`
+  }
+ 
+  axios.get(url).then(function (response) {
+	const startIdx = 1 
+	var rowData = response.data.sheets[0].data[0].rowData
+	var dataset = []
+	var headers = []
+
+	
+	const MaxColLength = 26 
+	const MaxRowLength = 343
+
+	var firstRow = rowData[startIdx].values
+	var dataCardIndices = [4, 6, 7, 8, 9, 10, 14, 15, 16, 19, 20, 21, 23, 24]
+	var ignoredIndices = [2, 17]
+	var dataCardHeaders = []
+	var allDataCard = []
+	for (let j = 0; j < MaxColLength; j++) {
+		const header = firstRow[j].formattedValue
+		if (dataCardIndices.includes(j))
+			dataCardHeaders.push(header)
+		
+		else if (ignoredIndices.includes(j))
+			continue
+		else
+			headers.push({title:header})
+	}
+		
+	for (let i = startIdx + 1; i < MaxRowLength; i++) {
+		var colData = rowData[i].values
+		var currData = []
+		var currDataCard = []
+
+		if (colData[0].formattedValue === undefined){
+			continue
+		}
+		dataName = ''
+		for (let j = 0; j < MaxColLength; j++) {
+			const item = colData[j].formattedValue
+			if (ignoredIndices.includes(j))
+			{
+				continue
+			}
+			if (dataCardIndices.includes(j)){
+				if (item)
+					currDataCard.push(item)
+				else
+					currDataCard.push("")
+				continue
+			}
+			if (item){
+				if (j == 1){
+					dataName = item
+				}
+				else if (j == 3){
+					text = colData[21].formattedValue
+					currData.push(linkuize(text, item))
+				}
+				else if (j == 18){
+					text = colData[j-1].formattedValue
+					currData.push(linkuize(text, item))
+				}
+				else{
+					currData.push(item)
+				}
+			}	
+			else
+			 currData.push("")
+		}
+
+		dataset.push(currData)
+		allDataCard.push(currDataCard)
+		params = ''
+		for (let j = 0; j < currDataCard.length; j++) {
+			name = dataCardHeaders[j]
+			value = currDataCard[j]
+			params += `${name}=${value}&`
+		}
+		currData.splice(1, 0, `<a href = 'card.html?${params}'> ${dataName}</a>`)
+	}
+	$('#example').DataTable( {
+        data: dataset,
+        columns: headers,
+		"lengthMenu": [[-1], ["All"]]
+    } );
+
+  })
+  .catch(function (error) {
+    console.log(error);                                                                                                                                                       
+  });  
+</script>   
+
+</head>
+<body>
+<table id="example" class="display" width="100%"></table>
+</body>
+</html> 

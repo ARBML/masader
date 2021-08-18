@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css"></link>
+
+<script type="text/javascript">
+    function getParams() {
+        var idx = document.URL.indexOf('?');
+        var dataset = []
+        if (idx != -1) {
+            var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
+            for (var i=0; i<pairs.length - 1; i++) {
+                data = pairs[i].split('=') 
+                console.log(data)
+                const name = data[0].replace(/%20/g, " ");
+                const value = data[1].replace(/%20/g, " ");
+                dataset.push([name, value]);
+            }
+        }
+    return dataset;
+    }
+    dataset = getParams();
+    console.log(dataset)
+ 
+$(document).ready(function() {
+    $('#example').DataTable( {
+        data: dataset,
+        columns: [
+            { title: "Data" },
+            { title: "Description" },
+        ],
+        "lengthMenu": [[-1], ["All"]]
+    } );
+} );
+</script>   
+
+</head>
+<body>
+<table id="example" class="display" width="100%"></table>
+</body>
+</html> 
