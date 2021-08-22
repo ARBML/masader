@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css"></link>
 
 <script type="text/javascript">
-  var url = "https://sheets.googleapis.com/v4/spreadsheets/18KW4Vs4x3uE2yD0XbAknxH6JNj91dS6e9ZCmsDiwhyY/?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";                                                             
+  var url = "https://sheets.googleapis.com/v4/spreadsheets/18KW4Vs4x3uE2yD0XbAknxH6JNj91dS6e9ZCmsDiwhyY?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";                                                             
   function linkuize(text, link)
   {
 	  return `<a href = "${link}" target="_blank"> ${text}</a>`
   }
  
   axios.get(url).then(function (response) {
-	const startIdx = 1 
-	var rowData = response.data.sheets[0].data[0].rowData
+	const startIdx = 0
+	var rowData = response.data.sheets[1].data[0].rowData
 	var dataset = []
 	var headers = []
 
@@ -72,6 +72,10 @@
 				else if (j == 18){
 					text = colData[j-1].formattedValue
 					currData.push(linkuize(text, item))
+				}
+				else if (j == 25)
+				{
+					currData.push(item.toLowerCase())
 				}
 				else{
 					currData.push(item)
