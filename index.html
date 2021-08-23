@@ -8,9 +8,22 @@
 
 <script type="text/javascript">
   var url = "https://sheets.googleapis.com/v4/spreadsheets/18KW4Vs4x3uE2yD0XbAknxH6JNj91dS6e9ZCmsDiwhyY?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";                                                             
+  
   function linkuize(text, link)
   {
 	  return `<a href = "${link}" target="_blank"> ${text}</a>`
+  }
+
+  function itemize(text)
+  {
+	tasks = text.split(",")
+	output = "<ul>"
+	for(let i = 0; i < tasks.length; i++)
+	{
+		output += "<li>"+tasks[i]+"</li>"
+	}
+	output += "</ul>"
+	return output
   }
  
   axios.get(url).then(function (response) {
@@ -75,7 +88,7 @@
 				}
 				else if (j == 25)
 				{
-					currData.push(item.toLowerCase())
+					currData.push(itemize(item.toLowerCase()))
 				}
 				else{
 					currData.push(item)
