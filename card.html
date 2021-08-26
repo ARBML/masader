@@ -19,7 +19,7 @@
                 var name = data[0].replace(/%20/g, " ");
                 var value = data[1].replace(/%20/g, " ");
                 if(name.includes("subset")){
-                    name = data[0].replace("subset-", "");
+                    name = name.replace("subset-", "");
                     subsetList += `<tr> <td>${name}</td> <td> ${value} </td> </tr>`
                 }
                     
