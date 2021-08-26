@@ -51,7 +51,7 @@
 	{
 		var colData = rowData[i].values
 
-		if (colData[0].formattedValue !== undefined)
+		if (colData[0].formattedValue !== undefined || colData[2].formattedValue === undefined)
 			break
 
 		subset_name = colData[2].formattedValue
@@ -71,7 +71,7 @@
 
 	
 	const MaxColLength = 26 
-	const MaxRowLength = 350
+	const MaxRowLength = 378
 
 	var firstRow = rowData[startIdx].values
 	var dataCardIndices = [4, 6, 7, 8, 9, 10, 14, 15, 16, 19, 20, 21, 23, 24]
