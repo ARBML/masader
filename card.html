@@ -9,23 +9,34 @@
     function getParams() {
         var idx = document.URL.indexOf('?');
         var dataset = []
+        var subsets = []
+        var subsetList = '<table>'
         if (idx != -1) {
             var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
             for (var i=0; i<pairs.length - 1; i++) {
                 data = pairs[i].split('=') 
-                console.log(data)
-                const name = data[0].replace(/%20/g, " ");
-                const value = data[1].replace(/%20/g, " ");
-                dataset.push([name, value]);
+                
+                var name = data[0].replace(/%20/g, " ");
+                var value = data[1].replace(/%20/g, " ");
+                if(name.includes("subset")){
+                    name = data[0].replace("subset-", "");
+                    subsetList += `<tr> <td>${name}</td> <td> ${value} </td> </tr>`
+                }
+                    
+                else
+                    dataset.push([name, value]);
+
             }
+            subsetList += '</table>'
+            dataset.push(['Subsets', subsetList])
+
         }
     return dataset;
     }
-    dataset = getParams();
-    console.log(dataset)
- 
+    const dataset = getParams();
+    
 $(document).ready(function() {
-    $('#example').DataTable( {
+    $('#card').DataTable( {
         data: dataset,
         columns: [
             { title: "Data" },
@@ -33,11 +44,12 @@ $(document).ready(function() {
         ],
         "lengthMenu": [[-1], ["All"]]
     } );
+  
 } );
 </script>   
 
 </head>
 <body>
-<table id="example" class="display" width="100%"></table>
+<table id="card" class="display" width="100%"></table>
 </body>
 </html> 

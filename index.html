@@ -25,7 +25,44 @@
 	output += "</ul>"
 	return output
   }
- 
+
+  function reformat_numbers(num)
+  {
+	values = num.split(',')
+	console.log(values)
+	if (values.length <2)
+	{
+		return num
+	}else if (values.length == 2)
+	{
+		return values[0]+'K'
+	}else 
+		return values[0]+'M'
+  }
+  
+  function getSubsets(rowData, i)
+  {
+	
+	var currData = []
+	var currDataCard = []
+	params = ''
+	i += 1
+	while(true)
+	{
+		var colData = rowData[i].values
+
+		if (colData[0].formattedValue !== undefined)
+			break
+
+		subset_name = colData[2].formattedValue
+		volume = colData[12].formattedValue
+		unit = colData[13].formattedValue
+		console.log(subset_name)
+		params += `subset-${subset_name}=${volume} ${unit}&`
+		i+= 1
+	}
+	return params
+  }
   axios.get(url).then(function (response) {
 	const startIdx = 1
 	var rowData = response.data.sheets[1].data[0].rowData
@@ -34,7 +71,7 @@
 
 	
 	const MaxColLength = 26 
-	const MaxRowLength = rowData.length
+	const MaxRowLength = 350
 
 	var firstRow = rowData[startIdx].values
 	var dataCardIndices = [4, 6, 7, 8, 9, 10, 14, 15, 16, 19, 20, 21, 23, 24]
@@ -82,6 +119,12 @@
 					text = colData[21].formattedValue
 					currData.push(linkuize(text, item))
 				}
+				else if (j == 12)
+				{
+					//maybe use formatting ?
+					// currData.push(reformat_numbers(item))
+					currData.push(item)
+				}
 				else if (j == 18){
 					text = colData[j-1].formattedValue
 					currData.push(linkuize(text, item))
@@ -106,6 +149,7 @@
 			value = currDataCard[j]
 			params += `${name}=${value}&`
 		}
+		params += getSubsets(rowData, i)
 		currData.splice(1, 0, `<a href = 'card.html?${params}'> ${dataName}</a>`)
 	}
 	$('#example').DataTable( {
