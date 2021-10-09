@@ -46,12 +46,17 @@ function getSubsets(rowData, i) {
     }
     return params
 }
-axios.get(url).then(function (response) {
+// this, alternatively, can be used for loading spinner
+// {
+//     onDownloadProgress: (pe) => document.querySelector('.main-container').innerHTML = "loading spinnehingie"
+// }
+axios.get(url,).then(function (response) {
+
     const startIdx = 1
     var rowData = response.data.sheets[0].data[0].rowData
     var dataset = []
     var headers = []
-
+    $('.loading-spinner').hide()
 
     const MaxColLength = 26
     const MaxRowLength = 378
