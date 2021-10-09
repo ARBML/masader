@@ -58,7 +58,7 @@ axios.get(url).then(function (response) {
 
     var firstRow = rowData[startIdx].values
     var dataCardIndices = [4, 6, 7, 8, 9, 10, 14, 15, 16, 19, 20, 21, 23, 24]
-    var ignoredIndices = [2, 17]
+    var ignoredIndices = [2, 17, 11] //ignore description
     var dataCardHeaders = []
     var allDataCard = []
     for (let j = 0; j < MaxColLength; j++) {
