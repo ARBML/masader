@@ -135,7 +135,9 @@ axios.get(url).then(function (response) {
     $('#example').DataTable({
         data: dataset,
         columns: headers,
-        "lengthMenu": [[-1], ["All"]]
+        "lengthMenu": [[-1], ["All"]],
+        scrollY: 1000,
+        paging: false,
     });
 
 })
