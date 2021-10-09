@@ -136,7 +136,8 @@ axios.get(url).then(function (response) {
         data: dataset,
         columns: headers,
         "lengthMenu": [[-1], ["All"]],
-        scrollY: 1000,
+        scrollY: "720px",
+        scrollCollapse: true,
         paging: false,
     });
 
