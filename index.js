@@ -137,14 +137,19 @@ axios.get(url,).then(function (response) {
         params += getSubsets(rowData, i)
         currData.splice(1, 0, `<a href = 'card.html?${params}'> ${dataName}</a>`)
     }
-    $('#example').DataTable({
-        data: dataset,
-        columns: headers,
-        "lengthMenu": [[-1], ["All"]],
-        scrollY: "720px",
-        scrollCollapse: true,
-        paging: false,
-    });
+
+    $(document).ready(function() {
+        $('#example').DataTable({
+            data: dataset,
+            columns: headers,
+            "lengthMenu": [[-1], ["All"]],
+            // scrollY: "720px",
+            scrollCollapse: true,
+            paging: false,
+        });
+    } );
+
+    
 
 })
     .catch(function (error) {
