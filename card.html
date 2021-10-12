@@ -1,57 +1,50 @@
 <!doctype html>
 <html>
+
 <head>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css"></link>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap4.min.css">
 
-<script type="text/javascript">
-    function getParams() {
-        var idx = document.URL.indexOf('?');
-        var dataset = []
-        var subsets = []
-        var subsetList = '<table>'
-        if (idx != -1) {
-            var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
-            for (var i=0; i<pairs.length - 1; i++) {
-                data = pairs[i].split('=') 
-                
-                var name = data[0].replace(/%20/g, " ");
-                var value = data[1].replace(/%20/g, " ");
-                if(name.includes("subset")){
-                    name = name.replace("subset-", "");
-                    subsetList += `<tr> <td>${name}</td> <td> ${value} </td> </tr>`
-                }
-                    
-                else
-                    dataset.push([name, value]);
-
-            }
-            subsetList += '</table>'
-            dataset.push(['Subsets', subsetList])
-
-        }
-    return dataset;
-    }
-    const dataset = getParams();
-    
-$(document).ready(function() {
-    $('#card').DataTable( {
-        data: dataset,
-        columns: [
-            { title: "Data" },
-            { title: "Description" },
-        ],
-        lengthMenu: [[-1], ["All"]],
-        searching: false,
-        paging: false,
-    } );
-  
-} );
-</script>   
 
 </head>
+
 <body>
-<table id="card" class="display" width="100%"></table>
+	<div class="container-fluid">
+		<header class="blog-header py-3">
+			<div class="row flex-nowrap justify-content-between align-items-center">
+				<div class="col-3 pt-1">
+
+				</div>
+				<div class="col-6 text-center">
+					<h2 class="text-dark h2" href="#">Masader Project</h2>
+					<h5>Online Catalogue for Arabic NLP Datasets</h5>
+					<hr>
+					<h6 class="text-muted"><b>Want to contribute?</b> Follow the instructions in this <a
+							href="https://docs.google.com/spreadsheets/d/11ZBav_z0IAXlKmvoEAGRq-ZdobgP5boYtbvtK3YWVqo/edit#gid=0">sheet</a>
+							<!-- <a href="https://github.com/ARBML/masader#contribution">README</a> -->
+					</h6>
+				</div>
+				<div class="col-3 d-flex justify-content-end align-items-center">
+				</div>
+			</div>
+			<hr>
+		</header>
+		<div class="container-fluid px-4">
+			<div class="fa-3x loading-spinner">
+				<h5 class="text-center">Fetching data <i class="fas fa-spinner fa-pulse"></i></h5>
+			</div>
+			<h3 id="header"></h3>
+			<table id="example" class="table table-striped" style = "margin-top:100px">
+
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap4.min.js"></script>
+	<script type="text/javascript" src="card.js"></script>
 </body>
-</html> 
+
+</html>

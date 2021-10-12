@@ -57,16 +57,20 @@ axios.get(url,).then(function (response) {
     var dataset = []
     var headers = []
     $('.loading-spinner').hide()
-
+    function getIndex() {
+        var idx = document.URL.indexOf('?');
+        var index = document.URL.substring(idx+1, document.URL.length)
+        return index
+    }
     const MaxColLength = 26
     const MaxRowLength = 378
+    const idx = getIndex();
 
     var firstRow = rowData[startIdx].values
     var dataCardIndices = [4, 6, 7, 8, 9, 10, 14, 15, 16, 19, 20, 21, 23, 24]
     var ignoredIndices = [2, 17, 11] //ignore description
     var dataCardHeaders = []
     var allDataCard = []
-    var dataCounter; 
     for (let j = 0; j < MaxColLength; j++) {
         const header = firstRow[j].formattedValue
         if (dataCardIndices.includes(j))
@@ -77,7 +81,6 @@ axios.get(url,).then(function (response) {
         else
             headers.push({ title: header })
     }
-    datasetNames = []
 
     for (let i = startIdx + 1; i < MaxRowLength; i++) {
         var colData = rowData[i].values
@@ -103,7 +106,6 @@ axios.get(url,).then(function (response) {
             if (item) {
                 if (j == 1) {
                     dataName = item
-                    datasetNames.push(dataName)
                 }
                 else if (j == 3) {
                     text = colData[21].formattedValue
@@ -130,45 +132,63 @@ axios.get(url,).then(function (response) {
         }
 
         
-        allDataCard.push(currDataCard)
-        params = ''
+        
+        params = `dataname=${dataName}&`
         for (let j = 0; j < currDataCard.length; j++) {
             const name = dataCardHeaders[j]
             value = currDataCard[j]
             params += `${name}=${value}&`
         }
         params += getSubsets(rowData, i)
-        dataCounter = datasetNames.indexOf(dataName)
-        currData.splice(1, 0, `<a href = 'card.html?${dataCounter}'>${dataName}</a>`)
-        // currData.splice(1, 0, dataName)
-        dataset.push(currData)
+        allDataCard.push(params)
     }
 
-    $.extend($.fn.dataTableExt.oSort, {
-        "data-custom-pre":function(a){
-            console.log(a)
-        }
-    });
-
     $(document).ready(function() {
+
+        function getParams(idx) {
+            var dataset = []
+            var subsets = []
+            var subsetList = '<table>'
+            var pairs = allDataCard[idx].split('&');
+            var dataName = ""
+
+            for (var i=0; i<pairs.length - 1; i++) {
+                data = pairs[i].split('=') 
+                
+                var name = data[0].replace(/%20/g, " ");
+                var value = data[1].replace(/%20/g, " ");
+                if(name.includes("subset")){
+                    name = name.replace("subset-", "");
+                    subsetList += `<tr> <td>${name}</td> <td> ${value} </td> </tr>`
+                }
+                else if(name.includes("dataname"))
+                {
+                    $("h3").text(`Data Card for ${value}`)
+                }  
+                else
+                    dataset.push([name, value]);
+
+            }
+            subsetList += '</table>'
+            dataset.push(['Subsets', subsetList])
+    
+            
+        return dataset;
+        }
+        const dataset = getParams(idx);
+        console.log(dataset)
         $('#example').DataTable({
             data: dataset,
-            columns: headers,
+            columns: [
+                { title: "Attribute" },
+                { title: "Value" },
+            ],
             "lengthMenu": [[-1], ["All"]],
             // scrollY: "720px",
             scrollCollapse: true,
             paging: false,
-            // columns: [
-            //     null,
-            //     { "orderDataType": "data-custom", type:'string' },
-            //     null,
-            //     null,
-            //     null,
-            //     null,
-            //     null,
-            //     null,
-            //     null
-            // ]
+            "order": [],
+            "bInfo" : false
         });
     } );
 
