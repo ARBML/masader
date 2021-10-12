@@ -158,17 +158,7 @@ axios.get(url,).then(function (response) {
             // scrollY: "720px",
             scrollCollapse: true,
             paging: false,
-            // columns: [
-            //     null,
-            //     { "orderDataType": "data-custom", type:'string' },
-            //     null,
-            //     null,
-            //     null,
-            //     null,
-            //     null,
-            //     null,
-            //     null
-            // ]
+            "bInfo" : false
         });
     } );
 
