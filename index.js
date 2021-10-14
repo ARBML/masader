@@ -139,7 +139,7 @@ axios.get(url,).then(function (response) {
         }
         params += getSubsets(rowData, i)
         dataCounter = datasetNames.indexOf(dataName)
-        currData.splice(1, 0, `<a href = 'card.html?${dataCounter}'>${dataName}</a>`)
+        currData.splice(1, 0, `<a href = 'card.html?${dataCounter}' target='_blank'>${dataName}</a>`)
         // currData.splice(1, 0, dataName)
         dataset.push(currData)
     }
