@@ -1,11 +1,12 @@
 # Masader 
 The first online catalogue for Arabic NLP datasets. This catalogue contains 200 datasets with more than 25 metadata annotations for each dataset. You can view the list of all datasets using the link of the webiste [https://arbml.github.io/masader/](https://arbml.github.io/masader/)
 
-> **Title**<br>
-> Authors<br>
-> https://arxiv.org/abs/
+> **Title** Masader: Metadata Sourcing for Arabic Text and Speech Data Resources
+<br>
+> Authors Zaid Alyafeai, Maraim Masoud, Mustafa Ghaleb, Maged S. Al-shaibani <br>
+> https://arxiv.org/abs/2110.06744
 >
-> **Abstract:** *
+> **Abstract:** The NLP pipeline has evolved dramatically in the last few years. The first step in the pipeline is to find suitable annotated datasets to evaluate the tasks we are trying to solve. Unfortunately, most of the published datasets lack metadata annotations that describe their attributes. Not to mention, the absence of a public catalogue that indexes all the publicly available datasets related to specific regions or languages. When we consider low-resource dialectical languages, for example, this issue becomes more prominent. In this paper we create \textit{Masader}, the largest public catalogue for Arabic NLP datasets, which consists of 200 datasets annotated with 25 attributes. Furthermore, We develop a metadata annotation strategy that could be extended to other languages. We also make remarks and highlight some issues about the current status of Arabic NLP datasets and suggest recommendations to address them.*
 
 ## Metadata 
 
@@ -52,7 +53,13 @@ If you want to add a new dataset feel free to update the [sheet](https://docs.go
 ## Citation 
 
 ```
-@misc{
+@misc{alyafeai2021masader,
+      title={Masader: Metadata Sourcing for Arabic Text and Speech Data Resources}, 
+      author={Zaid Alyafeai and Maraim Masoud and Mustafa Ghaleb and Maged S. Al-shaibani},
+      year={2021},
+      eprint={2110.06744},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
 
