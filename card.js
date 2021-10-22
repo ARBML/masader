@@ -63,7 +63,7 @@ axios.get(url,).then(function (response) {
         return index
     }
     const MaxColLength = 26
-    const MaxRowLength = 378
+    const MaxRowLength = 381
     const idx = getIndex();
 
     var firstRow = rowData[startIdx].values
