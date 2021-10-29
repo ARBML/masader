@@ -30,11 +30,11 @@ The first online catalogue for Arabic NLP datasets. This catalogue contains 200 
 * `Script` writing system either Arab, Latn, Arab-Latn or other
 * `Tokenized` whether the dataset is segmented using morphology: Yes or No 
 * `Host` the host website for the data i.e GitHub 
-* `Access` is the data free, upon-request or with-fee.
+* `Access` the data free, upon-request or with-fee.
 * `Cost` cost of the data is with-fee. 
 * `Test split` does the data contain test split: Yes or No
 * `Tasks` the tasks included in the dataset spearated by comma
-* `Evaluation Set` is the data included in the evaluation suit by BigScience 
+* `Evaluation Set` the data included in the evaluation suit by BigScience 
 * `Venue Title` the venue title i.e ACL
 * `Citations` the number of citations 
 * `Venue Type` conference, workshop, journal or preprint 
