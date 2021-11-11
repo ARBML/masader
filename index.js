@@ -59,7 +59,7 @@ axios.get(url,).then(function (response) {
     $('.loading-spinner').hide()
 
     const MaxColLength = 26
-    const MaxRowLength = 381
+    const MaxRowLength = 384
 
     var firstRow = rowData[startIdx].values
     var dataCardIndices = [4, 6, 7, 8, 9, 10, 14, 15, 16, 19, 20, 21, 23, 24]
