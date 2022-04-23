@@ -31,11 +31,6 @@ function reformat_numbers(num) {
         return values[0] + 'M'
 }
 
-// this, alternatively, can be used for loading spinner
-// {
-//     onDownloadProgress: (pe) => document.querySelector('.main-container').innerHTML = "loading spinnehingie"
-// }
-
 axios.get(url, {
     // TODO:: Adding a download progress bar. * IT CANNOT BE APPLIED BECAUSE THE SIZE OF THE ENCODING DATA. *
     onDownloadProgress: progressEvent => {
