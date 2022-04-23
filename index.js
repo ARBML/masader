@@ -52,38 +52,6 @@ function getSubsets(rowData, i) {
     }
     return params
 }
-// this, alternatively, can be used for loading spinner
-// {
-//     onDownloadProgress: (pe) => document.querySelector('.main-container').innerHTML = "loading spinnehingie"
-// }
-axios.get(url,).then(function (response) {
-
-    const startIdx = 1
-    var rowData = response.data.sheets[0].data[0].rowData
-    var dataset = []
-    var headers = []
-    $('.loading-spinner').hide()
-
-    const MaxColLength = 26
-    const MaxRowLength = 406
-
-    var firstRow = rowData[startIdx].values
-    var dataCardIndices = [4, 6, 7, 8, 9, 10, 14, 15, 16, 19, 20, 21, 23, 24]
-    var ignoredIndices = [2, 17, 11] //ignore description
-    var dataCardHeaders = []
-    var allDataCard = []
-    var dataCounter; 
-    for (let j = 0; j < MaxColLength; j++) {
-        const header = firstRow[j].formattedValue
-        if (dataCardIndices.includes(j))
-            dataCardHeaders.push(header)
-
-        else if (ignoredIndices.includes(j))
-            continue
-        else
-            headers.push({ title: header })
-    }
-    datasetNames = []
 
 axios.get(url, {
     // TODO:: Adding a download progress bar. * IT CANNOT BE APPLIED BECAUSE THE SIZE OF THE ENCODING DATA. *
