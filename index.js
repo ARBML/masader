@@ -100,7 +100,7 @@ axios.get(url, {
             var colData = rowData[i].values
             var currData = []
             var currDataCard = []
-
+            console.log(colData)
             if (colData[0].formattedValue === undefined) {
                 continue
             }
@@ -172,7 +172,7 @@ axios.get(url, {
                 // scrollY: "720px",
                 scrollCollapse: true,
                 paging: true,
-                "pagingType": "full_numbers",
+                "pagingType": "numbers",
                 "bInfo": false
             });
 
