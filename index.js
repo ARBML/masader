@@ -73,7 +73,7 @@ axios.get(url, {
         $('.loading-spinner').hide()
 
         const MaxColLength = 26
-        const MaxRowLength = 392
+        const MaxRowLength = 406
 
         var firstRow = rowData[startIdx].values
         var dataCardIndices = [4, 6, 7, 8, 9, 10, 14, 15, 16, 19, 20, 21, 23, 24] // extract from request thoes headers(title,paper-link..etc).
