@@ -1,9 +1,0 @@
-#filter_example {
-    border-radius: 5px;
-    float: right !important;
-}
-
-.table-striped>tbody>tr:nth-child(odd)>td, 
-.table-striped>tbody>tr:nth-child(odd)>th {
-   background-color: #fafafa; 
- }

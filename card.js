@@ -1,29 +1,14 @@
 var url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
+// var url = "http://localhost/data.json";
 
-function linkuize(text, link) {
-    return `<a href = "${link}" target="_blank"> ${text}</a>`
+
+function ethicalBadge(text){
+    text = text.toLowerCase();
+    if(text == "low") return '<span class="badge bg-success">Low</span>';
+    else if(text == "medium") return '<span class="badge bg-warning">Medium</span>';
+    else return '<span class="badge bg-danger text-light">High</span>';
 }
 
-function itemize(text) {
-    tasks = text.split(",")
-    output = "<ul>"
-    for (let i = 0; i < tasks.length; i++) {
-        output += "<li>" + tasks[i] + "</li>"
-    }
-    output += "</ul>"
-    return output
-}
-
-function reformat_numbers(num) {
-    values = num.split(',')
-    console.log(values)
-    if (values.length < 2) {
-        return num
-    } else if (values.length == 2) {
-        return values[0] + 'K'
-    } else
-        return values[0] + 'M'
-}
 
 function getSubsets(rowData, i) {
 
@@ -90,45 +75,28 @@ axios.get(url,).then(function (response) {
         if (colData[0].formattedValue === undefined) {
             continue
         }
+
+       
+
         dataName = ''
         for (let j = 0; j < MaxColLength; j++) {
-            const item = colData[j].formattedValue
+            var item = colData[j].formattedValue
+            //console.log(item);
             if (ignoredIndices.includes(j)) {
                 continue
             }
             if (dataCardIndices.includes(j)) {
-                if (item)
+                if (item) {
+                    if(j == 14){
+                        // item = ethicalBadge(colData[j].formattedValue);
+                        item = item;
+                    }
                     currDataCard.push(item)
+                }
                 else
                     currDataCard.push("")
                 continue
             }
-            if (item) {
-                if (j == 1) {
-                    dataName = item
-                }
-                else if (j == 3) {
-                    text = colData[21].formattedValue
-                    currData.push(linkuize(text, item))
-                }
-                else if (j == 12) {
-                    //maybe use formatting ?
-                    // currData.push(reformat_numbers(item))
-                    currData.push(item)
-                }
-                else if (j == 18) {
-                    text = colData[j - 1].formattedValue
-                    currData.push(linkuize(text, item))
-                }
-                else if (j == 25) {
-                    currData.push(itemize(item.toLowerCase()))
-                }
-                else {
-                    currData.push(item)
-                }
-            }
-            else
-                currData.push("")
         }
 
         
@@ -157,9 +125,17 @@ axios.get(url,).then(function (response) {
                 
                 var name = data[0].replace(/%20/g, " ");
                 var value = data[1].replace(/%20/g, " ");
+
+
+                // ETHICAL RISKS : adjust the table to make it more clearer 
+                if(value == "Low" || value == "Medium" || value == "High"){
+                    value = ethicalBadge(value)
+                }
+
+
                 if(name.includes("subset")){
                     name = name.replace("subset-", "");
-                    subsetList += `<tr> <td>${name}</td> <td> ${value} </td> </tr>`
+                    subsetList += `<tr> <td><b>${name}</b></td> <td> ${value} </td> </tr>`
                 }
                 else if(name.includes("dataname"))
                 {
@@ -176,14 +152,15 @@ axios.get(url,).then(function (response) {
         return dataset;
         }
         const dataset = getParams(idx);
-        console.log(dataset)
-        $('#example').DataTable({
+        
+        $('#table').DataTable({
             data: dataset,
             columns: [
                 { title: "Attribute" },
                 { title: "Value" },
             ],
-            "lengthMenu": [[-1], ["All"]],
+            "lengthMenu": [10, 25, 50, 75, 100, 250],
+            scrollCollapse: true,
             // scrollY: "720px",
             scrollCollapse: true,
             paging: false,
