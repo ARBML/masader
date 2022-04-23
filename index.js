@@ -52,7 +52,6 @@ function getSubsets(rowData, i) {
     }
     return params
 }
-
 axios.get(url, {
     // TODO:: Adding a download progress bar. * IT CANNOT BE APPLIED BECAUSE THE SIZE OF THE ENCODING DATA. *
     onDownloadProgress: progressEvent => {
