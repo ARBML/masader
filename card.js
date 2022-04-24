@@ -1,4 +1,4 @@
-var url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
+const url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
 
 function ethicalBadge(text) {
     text = text.toLowerCase();
@@ -7,141 +7,100 @@ function ethicalBadge(text) {
     else return '<span class="badge bg-danger text-light">High</span>';
 }
 
-
-function getSubsets(rowData, i) {
-    var currData = []
-    var currDataCard = []
-    params = ''
-    i += 1
-    while (true) {
-        var colData = rowData[i].values
-
-        if (colData[0].formattedValue !== undefined || colData[2].formattedValue === undefined)
-            break
-
-        subset_name = colData[2].formattedValue
-        volume = colData[12].formattedValue
-        unit = colData[13].formattedValue
-        // console.log(subset_name)
-        params += `subset-${subset_name}=${volume} ${unit}&`
-        i += 1
-    }
-    return params
+function createSubsets(subsetsValue) {
+    let result = '<table><tbody>'
+    subsetsValue.forEach(subset => {
+        result += `<tr><td><b>${subset.country}</b></td><td>${subset.volume}</td></tr>`
+    })
+    result += '</tbody></table>'
+    return result
 }
 // this, alternatively, can be used for loading spinner
 // {
 //     onDownloadProgress: (pe) => document.querySelector('.main-container').innerHTML = "loading spinnehingie"
 // }
 axios.get(url, ).then(function(response) {
-        const startIdx = 1
-        var rowData = response.data.sheets[0].data[0].rowData
-        var dataset = []
-        var headers = []
+        let rowData = response.data.sheets[0].data[0].rowData
+        let headers = []
+
+        // If you disable display name don't remove it from "headersWhiteList" becuase we use this as index key to push subsets to his row 
+        let headersWhiteList = ['Name', 'License ', 'Language', 'Dialect', 'Domain', 'Form', 'Collection Style', 'Ethical Risks', 'Provider', 'Derived From', 'Script', 'Tokenized', 'Host', 'Cost', 'Test Split', 'Subsets']
+        
         $('.loading-spinner').hide()
 
         function getIndex() {
-            var idx = document.URL.indexOf('?');
-            var index = document.URL.substring(idx + 1, document.URL.length)
+            let idx = document.URL.indexOf('?');
+            let index = document.URL.substring(idx + 1, document.URL.length)
             return index
         }
-        const MaxColLength = 26
-        const MaxRowLength = 406
         const idx = getIndex();
 
-        var firstRow = rowData[startIdx].values
-        var dataCardIndices = [4, 6, 7, 8, 9, 10, 14, 15, 16, 19, 20, 21, 23, 24]
-        var ignoredIndices = [2, 17, 11] //ignore description
-        var dataCardHeaders = []
-        var allDataCard = []
-        for (let j = 0; j < MaxColLength; j++) {
-            const header = firstRow[j].formattedValue
-            if (dataCardIndices.includes(j))
-                dataCardHeaders.push(header)
-
-            else if (ignoredIndices.includes(j))
-                continue
-            else
+        // Grabbing header's index's to help us to get value's of just by header index 
+        rowData[1].values.filter(header => header.formattedValue != undefined).forEach((header, headerIndex) => {
+            if (headersWhiteList.includes(header.formattedValue)){
                 headers.push({
-                    title: header
+                    index: headerIndex,
+                    title: header.formattedValue
                 })
-        }
-
-        for (let i = startIdx + 1; i < MaxRowLength; i++) {
-            var colData = rowData[i].values
-            var currData = []
-            var currDataCard = []
-
-            if (colData[0].formattedValue === undefined) {
-                continue
             }
+        })
 
-            dataName = ''
-            for (let j = 0; j < MaxColLength; j++) {
-                var item = colData[j].formattedValue
-                //console.log(item);
-                if (ignoredIndices.includes(j)) {
-                    continue
-                }
-                if (dataCardIndices.includes(j)) {
-                    if (item) {
-                        if (j == 14) {
-                            // item = ethicalBadge(colData[j].formattedValue);
-                            item = item;
+        let tempRows = []
+        rowData.filter(row => {
+            tempRows.push(row.values)
+        })
+        
+        // Get row's values and grabbing subsets and push it to row array as one array 
+        let rows = []
+        for (let index = 2; index < tempRows.length; index++) {
+            const fileds = tempRows[index]
+            if (fileds != undefined) {
+                if (!isNaN(fileds[0].formattedValue)){
+                    rows.push({index: rows.length, fileds: fileds})
+                }else {
+                    if (fileds[1].formattedValue != undefined) {
+                        let preRow = rows.filter(row => {
+                            if (row.fileds[1].formattedValue == fileds[1].formattedValue) {
+                                return row
+                            }
+                        })
+                        if (preRow[0] != undefined && rows[preRow[0].index].subsets == undefined) {
+                            rows[preRow[0].index].subsets = []
+                            rows[preRow[0].index].subsets.push({country: fileds[2].formattedValue, volume: fileds[12].formattedValue})
+                        }else if (preRow[0] != undefined) {
+                            rows[preRow[0].index].subsets.push({country: fileds[2].formattedValue, volume: fileds[12].formattedValue})
                         }
-                        currDataCard.push(item)
-                    } else
-                        currDataCard.push("")
-                    continue
+                    }
                 }
             }
-
-            params = `dataname=${dataName}&`
-            for (let j = 0; j < currDataCard.length; j++) {
-                const name = dataCardHeaders[j]
-                value = currDataCard[j]
-                params += `${name}=${value}&`
-            }
-            params += getSubsets(rowData, i)
-            allDataCard.push(params)
+            
         }
+
+        let dataset = []
+        let row = rows[idx].fileds;
+
+        // For each on "headersWhiteList" to display data with defult sort
+        headersWhiteList.forEach(element => {
+                let value = row[headers.filter(h => h.title == element)[0].index].formattedValue ? row[headers.filter(h => h.title == element)[0].index].formattedValue : ''
+                if (element == 'Name') {
+                    return // if u wana display "name" just comment this line
+                } else if (element == 'Ethical Risks') {
+                    value = ethicalBadge(value) // calling "ethicalBadge" function to put some style to the value 
+                } else if (element == 'Subsets') {
+                    if (rows[idx].subsets) {
+                        let subsets = rows[idx].subsets
+                        value = createSubsets(subsets)
+                    }
+                }
+                dataset.push({
+                    0: element,
+                    1: value
+                })
+        });
 
         $(document).ready(function() {
-            function getParams(idx) {
-                var dataset = []
-                var subsets = []
-                var subsetList = '<table>'
-                var pairs = allDataCard[idx].split('&');
-                var dataName = ""
 
-                for (var i = 0; i < pairs.length - 1; i++) {
-                    data = pairs[i].split('=')
-
-                    var name = data[0].replace(/%20/g, " ");
-                    var value = data[1].replace(/%20/g, " ");
-
-
-                    // ETHICAL RISKS : adjust the table to make it more clearer 
-                    if (value == "Low" || value == "Medium" || value == "High") {
-                        value = ethicalBadge(value)
-                    }
-
-
-                    if (name.includes("subset")) {
-                        name = name.replace("subset-", "");
-                        subsetList += `<tr> <td><b>${name}</b></td> <td> ${value} </td> </tr>`
-                    } else if (name.includes("dataname")) {
-                        $("h3").text(`Data Card for ${value}`)
-                    } else
-                        dataset.push([name, value]);
-
-                }
-                subsetList += '</table>'
-                dataset.push(['Subsets', subsetList])
-                return dataset;
-            }
-            const dataset = getParams(idx);
-
-            $('#table').DataTable({
+            $('#table_card').DataTable({
                 data: dataset,
                 columns: [{
                         title: "Attribute"

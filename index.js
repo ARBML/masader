@@ -31,27 +31,6 @@ function reformat_numbers(num) {
         return values[0] + 'M'
 }
 
-function getSubsets(rowData, i) {
-
-    var currData = []
-    var currDataCard = []
-    params = ''
-    i += 1
-    while (true) {
-        var colData = rowData[i].values
-
-        if (colData[0].formattedValue !== undefined || colData[2].formattedValue === undefined)
-            break
-
-        subset_name = colData[2].formattedValue
-        volume = colData[12].formattedValue
-        unit = colData[13].formattedValue
-        // console.log(subset_name)
-        params += `subset-${subset_name}=${volume} ${unit}&`
-        i += 1
-    }
-    return params
-}
 axios.get(url, {
     // TODO:: Adding a download progress bar. * IT CANNOT BE APPLIED BECAUSE THE SIZE OF THE ENCODING DATA. *
     onDownloadProgress: progressEvent => {
@@ -61,95 +40,53 @@ axios.get(url, {
         // console.log('download', percentage);        
       }
 }).then(function(response) {
-        const startIdx = 1
-        var rowData = response.data.sheets[0].data[0].rowData
-        var dataset = []
-        var headers = []
+        let rowData = response.data.sheets[0].data[0].rowData
+        let headers = []
+        let headersWhiteList = ['No.', 'Name', 'Link', 'Year', 'Volume', 'Unit', 'Paper Link', 'Access', 'Tasks']
         $('.loading-spinner').hide()
 
-        const MaxColLength = 26
-        const MaxRowLength = 406
-
-        var firstRow = rowData[startIdx].values
-        var dataCardIndices = [4, 6, 7, 8, 9, 10, 14, 15, 16, 19, 20, 21, 23, 24] // extract from request thoes headers(title,paper-link..etc).
-        var ignoredIndices = [2, 17, 11] //ignore description (ignore headers)
-        var dataCardHeaders = []
-        var allDataCard = []
-        var dataCounter;
-        for (let j = 0; j < MaxColLength; j++) {
-            const header = firstRow[j].formattedValue
-            if (dataCardIndices.includes(j))
-                dataCardHeaders.push(header)
-
-            else if (ignoredIndices.includes(j))
-                continue
-            else
+        // Grabbing header's index's to help us to get value's of just by header index 
+        rowData[1].values.filter(header => header.formattedValue != undefined).forEach((header, headerIndex) => {
+            if (headersWhiteList.includes(header.formattedValue)){
                 headers.push({
-                    title: header
+                    index: headerIndex,
+                    title: header.formattedValue
                 })
+            }
+        })
+
+        let tempRows = []
+        rowData.filter(row => {
+            tempRows.push(row.values)
+        })
+        
+        // Grabbing row's values
+        let rows = []
+        for (let index = 2; index < tempRows.length; index++) {
+            const fileds = tempRows[index]
+            if (fileds != undefined) {
+                if (!isNaN(fileds[0].formattedValue)){
+                    rows.push(fileds)
+                }
+            }
+            
         }
-        datasetNames = []
-
-        // we should start with value(row) number 2 becuase we've done with number 1 and has been extracted.
-        for (let i = startIdx + 1; i < MaxRowLength; i++) {
-            var colData = rowData[i].values
-            var currData = []
-            var currDataCard = []
-            console.log(colData)
-            if (colData[0].formattedValue === undefined) {
-                continue
-            }
-            dataName = ''
-            for (let j = 0; j < MaxColLength; j++) {
-                const item = colData[j].formattedValue
-                if (ignoredIndices.includes(j)) {
-                    continue
-                }
-                if (dataCardIndices.includes(j)) {
-                    if (item)
-                        currDataCard.push(item)
-                    else
-                        currDataCard.push("")
-                    continue
-                }
-                if (item) {
-                    if (j == 1) {
-                        dataName = item
-                        datasetNames.push(dataName)
-                    } else if (j == 3) {
-                        text = colData[21].formattedValue
-                        currData.push(linkuize(text, item))
-                    } else if (j == 12) {
-                        //maybe use formatting ?
-                        // currData.push(reformat_numbers(item))
-                        currData.push(item)
-                    } else if (j == 18) {
-                        text = colData[j - 1].formattedValue
-                        currData.push(linkuize(text, item))
-                    } else if (j == 22) {
-                        currData.push(badgeRender(colData[22].formattedValue));
-                    } else if (j == 25) {
-                        currData.push(itemize(item.toLowerCase()))
-                    } else {
-                        currData.push(item)
-                    }
-                } else
-                    currData.push("")
-            }
-
-
-            allDataCard.push(currDataCard)
-            params = ''
-            for (let j = 0; j < currDataCard.length; j++) {
-                const name = dataCardHeaders[j]
-                value = currDataCard[j]
-                params += `${name}=${value}&`
-            }
-            params += getSubsets(rowData, i)
-            dataCounter = datasetNames.indexOf(dataName)
-            currData.splice(1, 0, `<a href = 'card.html?${dataCounter}' target='_blank'>${dataName}</a>`)
-            // currData.splice(1, 0, dataName)
-            dataset.push(currData)
+        
+        //  Createing table data
+        let dataset = []
+        for (let index = 0; index < rows.length; index++) {
+            const row = rows[index];
+            dataset.push({
+                0: row[headers[0].index].formattedValue,
+                1: linkuize(row[headers[1].index].formattedValue, `card.html?${index}`),
+                2: linkuize(row[headers[2].index + 18].formattedValue, row[headers[2].index].formattedValue),
+                3: row[headers[3].index].formattedValue,
+                4: row[headers[4].index].formattedValue ? row[headers[4].index].formattedValue : '',
+                5: row[headers[5].index].formattedValue ? row[headers[5].index].formattedValue : '',
+                6: linkuize(row[headers[6].index - 1].formattedValue, row[headers[6].index].formattedValue),
+                7: badgeRender(row[headers[7].index].formattedValue),
+                8: itemize(row[headers[8].index].formattedValue),
+            })
         }
 
         $.extend($.fn.dataTableExt.oSort, {
@@ -162,13 +99,12 @@ axios.get(url, {
             $('#table').DataTable({
                 data: dataset,
                 columns: headers,
-                // "lengthMenu": [[-1], ["All"]],
                 "lengthMenu": [10, 25, 50, 75, 100, 250],
-                // scrollY: "720px",
                 scrollCollapse: true,
                 paging: true,
                 "pagingType": "numbers",
-                "bInfo": false
+                "bInfo": false,
+                
             });
 
         });
