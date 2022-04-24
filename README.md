@@ -1,7 +1,7 @@
 # Masader 
 
 <p align="center"> 
-<img src = "https://user-images.githubusercontent.com/15667714/164975879-d23766e2-4ed9-4ac3-b793-31565e032cce.png" width = "200px"/>
+<img src = "https://user-images.githubusercontent.com/15667714/164975879-d23766e2-4ed9-4ac3-b793-31565e032cce.png" width = "300px"/>
 </p>
 
 The first online catalogue for Arabic NLP datasets. This catalogue contains 200 datasets with more than 25 metadata annotations for each dataset. You can view the list of all datasets using the link of the webiste [https://arbml.github.io/masader/](https://arbml.github.io/masader/)
