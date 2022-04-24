@@ -141,7 +141,7 @@ axios.get(url, ).then(function(response) {
             }
             const dataset = getParams(idx);
 
-            $('#table').DataTable({
+            $('#table_cart').DataTable({
                 data: dataset,
                 columns: [{
                         title: "Attribute"
