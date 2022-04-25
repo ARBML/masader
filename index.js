@@ -6,11 +6,10 @@ function linkuize(text, link) {
 
 function itemize(text) {
     tasks = text.split(",")
-    output = "<ul>"
+    output = ''
     for (let i = 0; i < tasks.length; i++) {
-        output += "<li>" + tasks[i] + "</li>"
+        output += `<p class="badge bg-info m-1">${tasks[i].trim().replaceAll(' ', '-')}</p>`
     }
-    output += "</ul>"
     return output
 }
 
@@ -40,12 +39,12 @@ axios.get(url, {
         // console.log('download', percentage);        
       }
 }).then(function(response) {
-        var rowData = response.data.sheets[0].data[0].rowData
-        var headers = []
+        let rowData = response.data.sheets[0].data[0].rowData
+        let headers = []
         let headersWhiteList = ['No.', 'Name', 'Link', 'Year', 'Volume', 'Unit', 'Paper Link', 'Access', 'Tasks']
         $('.loading-spinner').hide()
 
-
+        // Grabbing header's index's to help us to get value's of just by header index 
         rowData[1].values.filter(header => header.formattedValue != undefined).forEach((header, headerIndex) => {
             if (headersWhiteList.includes(header.formattedValue)){
                 headers.push({
@@ -60,6 +59,7 @@ axios.get(url, {
             tempRows.push(row.values)
         })
         
+        // Grabbing row's values
         let rows = []
         for (let index = 2; index < tempRows.length; index++) {
             const fileds = tempRows[index]
@@ -71,6 +71,7 @@ axios.get(url, {
             
         }
         
+        //  Createing table data
         let dataset = []
         for (let index = 0; index < rows.length; index++) {
             const row = rows[index];
