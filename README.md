@@ -14,7 +14,7 @@ The first online catalogue for Arabic NLP datasets. This catalogue contains 200 
 
 ## Metadata 
 
-* `No.` dataset number
+* `No` dataset number
 * `Name` name of the dataset 
 * `Subsets` subsets of the datasets
 * `Link` direct link to the dataset or instructions on how to download it 
@@ -52,11 +52,11 @@ The first online catalogue for Arabic NLP datasets. This catalogue contains 200 
  
 
 ## Contribution 
-The catalogue will be updated regularly. If you want to add a new dataset feel free to follow the instructions and update the [sheet](https://docs.google.com/spreadsheets/d/11ZBav_z0IAXlKmvoEAGRq-ZdobgP5boYtbvtK3YWVqo/edit?usp=sharing).
+The catalogue will be updated regularly. If you want to add a new dataset, feel free to follow the instructions and update the [sheet](https://docs.google.com/spreadsheets/d/11ZBav_z0IAXlKmvoEAGRq-ZdobgP5boYtbvtK3YWVqo/edit?usp=sharing).
 
 ## Collaborative Work
 
-Masader was developed as part of the [BigScience project for open research 🌸](https://bigscience.huggingface.co/), a year-long initiative targeting the study of large models and datasets. The goal of the project is to research language models in a public environment outside large technology companies. The project has more than 700 researchers from 50 countries and more than 250 institutions. Mainly, we conducted the research as part of the data sourcing working group which is responsible for collecting sources for multilple languages. 
+Masader was developed as part of the [BigScience project for open research 🌸](https://bigscience.huggingface.co/), a year-long initiative targeting the study of large langauge models and datasets. The goal of the project is to research language models in a public environment outside large technology companies. The project has more than 700 researchers from 50 countries and more than 250 institutions. Mainly, we conducted the research as part of the data sourcing working group which is responsible for collecting sources for multilple languages. 
 
 ## Citation 
 
