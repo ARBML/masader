@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap);
 
 :root {
     --main-color: #F95959;
@@ -15,10 +15,10 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #4B4D4F;
+    color: #4b4d4f;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    -webkit-tap-highlight-color: transparent
 }
 
 #faq {
@@ -27,7 +27,7 @@ body {
 
 hr {
     margin: 1rem 0;
-    color: #CED3D9;
+    color: #ced3d9;
     background-color: currentColor;
     border: 0;
     opacity: 1
@@ -37,28 +37,28 @@ hr:not([size]) {
     height: 1px
 }
 
-h1,
 .h1,
-h2,
 .h2,
-h3,
 .h3,
-h4,
 .h4,
-h5,
 .h5,
-h6,
-.h6 {
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-top: 0;
     margin-bottom: .5rem;
-    font-family: "Cairo", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: Cairo, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 500;
     line-height: 1.2;
     color: #353738
 }
 
 a {
-    color: #5022E2;
+    color: #5022e2;
     text-decoration: none
 }
 
@@ -80,9 +80,9 @@ svg {
 
 .container,
 .container-fluid,
-.container-sm,
-.container-md,
 .container-lg,
+.container-md,
+.container-sm,
 .container-xl,
 .container-xxl {
     width: 100%;
@@ -101,8 +101,8 @@ svg {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x) / -2);
-    margin-left: calc(var(--bs-gutter-x) / -2)
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2)
 }
 
 .navbar {
@@ -123,9 +123,9 @@ svg {
 
 .navbar>.container,
 .navbar>.container-fluid,
-.navbar>.container-sm,
-.navbar>.container-md,
 .navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
 .navbar>.container-xl,
 .navbar>.container-xxl {
     display: -webkit-box;
@@ -142,21 +142,19 @@ svg {
 }
 
 .navbar-brand {
-    padding-top: -.046rem;
-    padding-bottom: -.046rem;
     margin-right: 1rem;
-    font-size: calc(1.2978rem + 0.5736vw);
+    font-size: calc(1.2978rem + .5736vw);
     white-space: nowrap
 }
 
-@media (min-width: 1200px) {
+@media (min-width:1200px) {
     .navbar-brand {
         font-size: 1.728rem
     }
 }
 
-.navbar-brand:hover,
-.navbar-brand:focus {
+.navbar-brand:focus,
+.navbar-brand:hover {
     text-decoration: none
 }
 
@@ -212,7 +210,7 @@ svg {
     transition: box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion:reduce) {
     .navbar-toggler {
         -webkit-transition: none;
         -o-transition: none;
@@ -227,8 +225,8 @@ svg {
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
-    -webkit-box-shadow: 0 0 0 0;
-    box-shadow: 0 0 0 0
+    -webkit-box-shadow: 0 0;
+    box-shadow: 0 0
 }
 
 .navbar-toggler-icon {
@@ -246,7 +244,7 @@ svg {
     overflow-y: auto
 }
 
-@media (min-width: 576px) {
+@media (min-width:576px) {
     .navbar-expand-sm {
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -288,7 +286,7 @@ svg {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .navbar-expand-md {
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -330,7 +328,7 @@ svg {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width:992px) {
     .navbar-expand-lg {
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -372,7 +370,7 @@ svg {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width:1200px) {
     .navbar-expand-xl {
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -414,7 +412,7 @@ svg {
     }
 }
 
-@media (min-width: 1540px) {
+@media (min-width:1540px) {
     .navbar-expand-xxl {
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -497,35 +495,35 @@ svg {
 }
 
 .navbar-light .navbar-brand {
-    color: #85888C
+    color: #85888c
 }
 
-.navbar-light .navbar-brand:hover,
-.navbar-light .navbar-brand:focus {
-    color: #85888C
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #85888c
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #85888C
+    color: #85888c
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:focus {
-    color: rgba(0, 0, 0, 0.95)
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, .95)
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
-    color: rgba(0, 0, 0, 0.25)
+    color: rgba(0, 0, 0, .25)
 }
 
-.navbar-light .navbar-nav .show>.nav-link,
-.navbar-light .navbar-nav .nav-link.active {
-    color: #85888C
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #85888c
 }
 
 .navbar-light .navbar-toggler {
-    color: #85888C;
-    border-color: rgba(0, 0, 0, 0.1)
+    color: #85888c;
+    border-color: rgba(0, 0, 0, .1)
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -533,45 +531,45 @@ svg {
 }
 
 .navbar-light .navbar-text {
-    color: #85888C
+    color: #85888c
 }
 
 .navbar-light .navbar-text a,
-.navbar-light .navbar-text a:hover,
-.navbar-light .navbar-text a:focus {
-    color: #85888C
+.navbar-light .navbar-text a:focus,
+.navbar-light .navbar-text a:hover {
+    color: #85888c
 }
 
 .navbar-dark .navbar-brand {
     color: #fff
 }
 
-.navbar-dark .navbar-brand:hover,
-.navbar-dark .navbar-brand:focus {
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
     color: #fff
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.7)
+    color: rgba(255, 255, 255, .7)
 }
 
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link:focus {
-    color: rgba(255, 255, 255, 0.9)
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, .9)
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
-    color: rgba(255, 255, 255, 0.25)
+    color: rgba(255, 255, 255, .25)
 }
 
-.navbar-dark .navbar-nav .show>.nav-link,
-.navbar-dark .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link {
     color: #fff
 }
 
 .navbar-dark .navbar-toggler {
-    color: rgba(255, 255, 255, 0.7);
-    border-color: rgba(255, 255, 255, 0.1)
+    color: rgba(255, 255, 255, .7);
+    border-color: rgba(255, 255, 255, .1)
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -579,17 +577,17 @@ svg {
 }
 
 .navbar-dark .navbar-text {
-    color: rgba(255, 255, 255, 0.7)
+    color: rgba(255, 255, 255, .7)
 }
 
 .navbar-dark .navbar-text a,
-.navbar-dark .navbar-text a:hover,
-.navbar-dark .navbar-text a:focus {
+.navbar-dark .navbar-text a:focus,
+.navbar-dark .navbar-text a:hover {
     color: #fff
 }
 
 .second-btn {
-    background: linear-gradient(180deg, #FFFEFC -54.51%, #FFF8F0 99.98%)
+    background: linear-gradient(180deg, #fffefc -54.51%, #fff8f0 99.98%)
 }
 
 .btn-link {
@@ -599,7 +597,7 @@ svg {
 }
 
 .btn-gradient {
-    color: #FFF;
+    color: #fff;
     font-weight: 700;
     background-image: linear-gradient(50deg, var(--main-color), var(--second-color))
 }
@@ -632,42 +630,42 @@ svg {
     transition: all .5s ease
 }
 
-.hover:hover,
-.hover:focus {
-    -webkit-transform: translateY(-0.3125rem) translateZ(0);
-    transform: translateY(-0.3125rem) translateZ(0);
+.hover:focus,
+.hover:hover {
+    -webkit-transform: translateY(-.3125rem) translateZ(0);
+    transform: translateY(-.3125rem) translateZ(0);
     color: #fff;
-    -webkit-transform: translateY(-0.125rem) translateZ(0);
-    transform: translateY(-0.125rem) translateZ(0);
-    -webkit-box-shadow: .5rem .5rem 1.5rem rgba(110, 74, 156, 0.1) !important;
-    box-shadow: .5rem .5rem 1.5rem rgba(110, 74, 156, 0.1) !important
+    -webkit-transform: translateY(-.125rem) translateZ(0);
+    transform: translateY(-.125rem) translateZ(0);
+    -webkit-box-shadow: .5rem .5rem 1.5rem rgba(110, 74, 156, .1) !important;
+    box-shadow: .5rem .5rem 1.5rem rgba(110, 74, 156, .1) !important
 }
 
 .nav-link.active {
-    color: #5022E2
+    color: #5022e2
 }
 
-.btn-check:checked+.btn-primary,
 .btn-check:active+.btn-primary,
-.btn-primary:active,
+.btn-check:checked+.btn-primary,
 .btn-primary.active,
+.btn-primary:active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #401bb5;
     border-color: #3c1aaa
 }
 
-.btn-check:checked+.btn-primary:focus,
 .btn-check:active+.btn-primary:focus,
-.btn-primary:active:focus,
+.btn-check:checked+.btn-primary:focus,
 .btn-primary.active:focus,
+.btn-primary:active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-    -webkit-box-shadow: 0 0 0 0 rgba(106, 67, 230, 0.5);
-    box-shadow: 0 0 0 0 rgba(106, 67, 230, 0.5)
+    -webkit-box-shadow: 0 0 0 0 rgba(106, 67, 230, .5);
+    box-shadow: 0 0 0 0 rgba(106, 67, 230, .5)
 }
 
 .border-top {
-    border-top: 1px solid #CED3D9 !important
+    border-top: 1px solid #ced3d9 !important
 }
 
 .display-3 {
@@ -681,7 +679,7 @@ svg {
 }
 
 .text-1000 {
-    color: #4B4D4F !important
+    color: #4b4d4f !important
 }
 
 .text-primary {
@@ -706,7 +704,7 @@ svg {
 
 .table-container {
     border: 2px solid orange;
-    border-radius: 0px
+    border-radius: 0
 }
 
 .table {
@@ -722,35 +720,48 @@ svg {
     display: block;
     overflow-x: auto;
     margin-bottom: 1rem;
-    color: rgba(133, 54, 54, 0.678);
     vertical-align: top;
     border: 1 !important;
     border-radius: 10px;
-    border-color: rgba(255, 0, 0, 0.096);
+    border-color: rgba(255, 0, 0, .096)
 }
 
-.page-item.active .page-link{
+th {
+    color: rgba(133, 54, 54);
+}
+
+td {
+    font-weight: 600 !important;
+}
+
+#table_card {
+    display: inline-table;
+}
+
+.logo {
+    height: 56px;
+    width: auto;
+}
+
+.page-item.active .page-link {
     background-color: var(--main-color);
-    border-color: var(--second-color);
+    border-color: var(--second-color)
 }
 
-.page-link{
-    color: var(--second-color);
+.page-link, .page-link:hover, .page-link:focus {
+    color: var(--second-color)
 }
 
-.page-link:hover {
-  color: var(--second-color);
-}
 
 #table_cart {
-    display: inline-table;
+    display: inline-table
 }
 
 .table a {
     color: var(--main-color)
 }
 
-.table> :not(caption)>*>* {
+.table>:not(caption)>*>* {
     padding: .5rem;
     background-color: var(--bs-table-bg);
     border-bottom-width: 1px;
@@ -766,7 +777,7 @@ svg {
     vertical-align: bottom
 }
 
-.table> :not(:last-child)> :last-child>* {
+.table>:not(:last-child)>:last-child>* {
     border-bottom-color: currentColor
 }
 
@@ -774,19 +785,19 @@ svg {
     caption-side: top
 }
 
-.table-sm> :not(caption)>*>* {
+.table-sm>:not(caption)>*>* {
     padding: .25rem
 }
 
-.table-bordered> :not(caption)>* {
+.table-bordered>:not(caption)>* {
     border-width: 1px 0
 }
 
-.table-bordered> :not(caption)>*>* {
+.table-bordered>:not(caption)>*>* {
     border-width: 0 1px
 }
 
-.table-borderless> :not(caption)>*>* {
+.table-borderless>:not(caption)>*>* {
     border-bottom-width: 0
 }
 
@@ -809,9 +820,9 @@ svg {
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg)
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0)
 }
 
 .accordion-button {
@@ -825,9 +836,9 @@ svg {
     width: 100%;
     padding: 1.5rem 2.6rem;
     font-size: 1rem;
-    color: #4B4D4F;
+    color: #4b4d4f;
     text-align: left;
-    background-color: #FFFAF4;
+    background-color: #fffaf4;
     border: 0;
     border-radius: 0;
     overflow-anchor: none;
@@ -841,8 +852,8 @@ svg {
 .accordion-button:not(.collapsed) {
     color: #353738;
     background-color: #fff;
-    -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.125);
-    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.125)
+    -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, .125);
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, .125)
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -869,7 +880,7 @@ svg {
     transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion:reduce) {
     .accordion-button::after {
         -webkit-transition: none;
         -o-transition: none;
@@ -885,16 +896,17 @@ svg {
     z-index: 3;
     border-color: #fff;
     outline: 0;
-    -webkit-box-shadow: #F9FAFD;
-    box-shadow: #F9FAFD
+    -webkit-box-shadow: #f9fafd;
+    box-shadow: #f9fafd
 }
 
-.accordion-header {margin-bottom: 0
+.accordion-header {
+    margin-bottom: 0
 }
 
 .accordion-item {
-    background-color: #FEECD7;
-    border: 1px solid rgba(255, 255, 255, 0.125)
+    background-color: #feecd7;
+    border: 1px solid rgba(255, 255, 255, .125)
 }
 
 .accordion-item:first-of-type {
@@ -953,8 +965,8 @@ svg {
 }
 
 .bg-warning-gradient {
-    background: -o-linear-gradient(175.26deg, #FFECD7 9.5%, rgba(255, 236, 215, 0) 100.79%);
-    background: linear-gradient(274.74deg, #FFECD7 9.5%, rgba(255, 236, 215, 0) 100.79%)
+    background: -o-linear-gradient(175.26deg, #ffecd7 9.5%, rgba(255, 236, 215, 0) 100.79%);
+    background: linear-gradient(274.74deg, #ffecd7 9.5%, rgba(255, 236, 215, 0) 100.79%)
 }
 
 .d-xl-block {
@@ -995,9 +1007,9 @@ svg {
 
 .container,
 .container-fluid,
-.container-sm,
-.container-md,
 .container-lg,
+.container-md,
+.container-sm,
 .container-xl,
 .container-xxl {
     position: relative
@@ -1014,8 +1026,8 @@ svg {
     display: block !important
 }
 
-.hover-text-decoration-none:hover,
-.hover-text-decoration-none:focus {
+.hover-text-decoration-none:focus,
+.hover-text-decoration-none:hover {
     text-decoration: none
 }
 
@@ -1037,17 +1049,17 @@ svg {
 
 ::-webkit-scrollbar {
     width: 10px;
-    height: 10px;
+    height: 10px
 }
 
 ::-webkit-scrollbar-track {
-    background: #616161;
+    background: #616161
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--main-color);
+    background: var(--main-color)
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--second-color);
+    background: var(--second-color)
 }
