@@ -14,7 +14,7 @@ The first online catalogue for Arabic NLP datasets. This catalogue contains 200 
 
 ## Metadata 
 
-* `No` dataset number
+* `No.` dataset number
 * `Name` name of the dataset 
 * `Subsets` subsets of the datasets
 * `Link` direct link to the dataset or instructions on how to download it 
