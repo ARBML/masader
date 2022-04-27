@@ -6,10 +6,11 @@ function linkuize(text, link) {
 
 function itemize(text) {
     tasks = text.split(",")
-    output = ''
+    output = "<ul>"
     for (let i = 0; i < tasks.length; i++) {
-        output += `<p class="badge bg-info m-1">${tasks[i].trim().replaceAll(' ', '-')}</p>`
+        output += "<li>" + tasks[i] + "</li>"
     }
+    output += "</ul>"
     return output
 }
 
