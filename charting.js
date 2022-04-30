@@ -4,7 +4,7 @@ let headersWhiteList;
 let dataset;
 let myChart = null;
 
-function getSeries(data, idx, return_codes = false){
+function getSeries(data, idx){
 
     let series = []
 
@@ -25,9 +25,6 @@ function getSeries(data, idx, return_codes = false){
             let dialect = data[index][idx]
             if (dialect != 'other')
             {
-                // dialect = dialect.split(':')[1]
-                // dialect = dialect.replace('Arabic', '')
-                // dialect = dialect.replace(/[()]/g,'')
                 dialect = dialect.split(':')[0]
                 dialect = dialect.split('-')[1]
             }
@@ -43,6 +40,82 @@ function getSeries(data, idx, return_codes = false){
                  
     }
     return series
+}
+function groupedBar(venue)
+{
+    $("#myChart").show();
+    $("#chartdiv").hide();
+
+    if (myChart != null)
+    {
+        myChart.destroy();
+    }
+
+    let datasets = []
+    let year_idx = headersWhiteList.indexOf('Year')
+    let venue_idx = headersWhiteList.indexOf('Venue Type')
+
+    let all_venue_types = Array.from(new Set(getSeries(dataset, venue_idx)))
+    let all_years = Array.from(new Set(getSeries(dataset, year_idx))).sort()
+    
+    let color_theme = palette('tol-dv', all_venue_types.length).map(
+        function(hex) {
+            return '#' + hex;
+    })
+    for (var i = 0; i < all_venue_types.length; i++)
+    {
+        series = []
+        let venue_name = all_venue_types[i]
+
+        for (let index = 0; index < dataset.length; index++) {
+            if(dataset[index][venue_idx] === undefined || dataset[index][year_idx] === undefined)
+                continue
+            if (dataset[index][venue_idx].trim() == venue_name)
+            {
+                series.push(dataset[index][year_idx].trim())
+            }           
+        }
+
+        const [elements, counts] = getCounts(series)
+
+        let ex_counts = []
+
+        for (let index = 0; index < all_years.length; index++) {
+            let year = all_years[index]
+            let count_index = elements.indexOf(year)
+            if (count_index > -1)
+                ex_counts.push(counts[count_index])                
+            else
+                ex_counts.push(0)
+
+        }
+
+        let colors = []
+
+        for (let _ in ex_counts)
+        {
+            colors.push(color_theme[i])
+        }
+
+        datasets.push({
+            label: venue_name,
+            data: ex_counts,
+            backgroundColor: colors
+        });
+
+    }
+    console.log(datasets)
+    const chartdata = {
+        labels: all_years,
+        datasets: datasets
+    }
+
+    var canvas = document.getElementById("myChart");
+    var config = {
+        type: 'bar',
+        data: chartdata,
+    }
+    myChart = new Chart(canvas, config);
 }
 
 function plotBar(col)
@@ -132,7 +205,7 @@ function getCounts(array, sorting = true)
 axios.get(url, ).then(function(response) {
     let rowData = response.data.sheets[0].data[0].rowData
     let headers = []
-    headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Access', 'Tasks']
+    headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Access', 'Tasks', 'Venue Type']
     $('.loading-spinner').hide()
     
     // Grabbing header's index's to help us to get value's of just by header index 
@@ -177,9 +250,9 @@ axios.get(url, ).then(function(response) {
     var changedText = document.getElementById('myDropdown');
 
     document.getElementById('myDropdown').addEventListener('change', function() {
-        if (this.value != "Dialect")
-            plotBar(this.value) 
-        else{
+        if (this.value == "Venue Type")
+            groupedBar(this.value) 
+        else if(this.value == "Dialect"){
             let idx = headersWhiteList.indexOf("Dialect")
             let series = getSeries(dataset, idx)
             const [elements, counts] = getCounts(series)
@@ -199,6 +272,9 @@ axios.get(url, ).then(function(response) {
                     groupData.push({"name": "", "data":group})
             }
             createMap(groupData)
+        }
+        else{
+            plotBar(this.value)
         }   
     });
 
