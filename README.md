@@ -52,7 +52,7 @@ The first online catalogue for Arabic NLP datasets. This catalogue contains 200 
  
 
 ## Contribution 
-The catalogue will be updated regularly. If you want to add a new dataset, feel free to follow the instructions and update the [sheet](https://docs.google.com/spreadsheets/d/11ZBav_z0IAXlKmvoEAGRq-ZdobgP5boYtbvtK3YWVqo/edit?usp=sharing).
+The catalogue will be updated regularly. If you want to add a new dataset, use this [form](https://forms.gle/JnMrJjHumT6ktK9cA).
 
 ## Collaborative Work
 
