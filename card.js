@@ -24,10 +24,10 @@ axios.get(url, ).then(function(response) {
         let headers = []
 
         // If you disable display name don't remove it from "headersWhiteList" becuase we use this as index key to push subsets to his row 
-        let headersWhiteList = ['Name', 'License ', 'Language', 'Dialect', 'Domain', 'Form', 'Collection Style', 'Ethical Risks', 'Provider', 'Derived From', 'Script', 'Tokenized', 'Host', 'Cost', 'Test Split', 'Subsets']
+        let headersWhiteList = ['Name', 'License', 'Language', 'Dialect', 'Domain', 'Form', 'Collection Style', 'Ethical Risks', 'Provider', 'Derived From', 'Script', 'Tokenized', 'Host', 'Cost', 'Test Split', 'Subsets']
         
         $('.loading-spinner').hide()
-
+        console.log('here')
         function getIndex() {
             let idx = document.URL.indexOf('?');
             let index = document.URL.substring(idx + 1, document.URL.length)
@@ -81,6 +81,9 @@ axios.get(url, ).then(function(response) {
 
         // For each on "headersWhiteList" to display data with defult sort
         headersWhiteList.forEach(element => {
+                console.log(element)
+                console.log(headers)
+                console.log(headers.filter(h => h.title == element))
                 let value = row[headers.filter(h => h.title == element)[0].index].formattedValue ? row[headers.filter(h => h.title == element)[0].index].formattedValue : ''
                 if (element == 'Name') {
                     return // if u wana display "name" just comment this line
