@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -52,15 +51,14 @@
             id="navbarSupportedContent"
           >
             <ul class="navbar-nav me-auto pt-2 pt-lg-0 font-base">
+              <!-- <li class="nav-item px-2"><a class="nav-link fw-bold active" aria-current="page" href="https://github.com/ARBML">ArbML Org</a></li> -->
             </ul>
             <form class="ps-lg-5">
               <a
-                  class="btn btn-link text-danger fw-bold"
-                  href="charting.html"
-                  >Charts</a
-               >
-
-               
+                class="btn btn-link text-danger fw-bold"
+                href="charting.html"
+                >Charts</a
+              >
               <a
                 class="btn btn-link text-danger fw-bold"
                 href="https://forms.gle/JnMrJjHumT6ktK9cA"
@@ -92,10 +90,27 @@
               </h5>
             </div>
 
-            <table
-              class="table table-container table-striped"
-              id="table"
-            ></table>
+            <div class="dropdown">
+              <select id="myDropdown">
+              <option value="" selected disabled>Select Attribute</option>
+                <option value="Year">Year</option>
+                <option value="Access">Access</option>
+                <option value="Tasks">Tasks</option>
+                <option value="Domain">Domains</option>
+                <option value="License">Licenses</option>
+                <option value="Dialect">Dialects</option>
+                <option value="Form">Forms</option>
+                <option value="Ethical Risks">Ethical Risks</option>
+                <option value="Script">Scripts</option>
+              </select>
+            </div>
+            
+            
+            <div>
+              <canvas id="myChart"></canvas>
+            </div>
+            
+            <div id="chartdiv"></div>
           </div>
         </div>
       </section>
@@ -129,6 +144,12 @@
       </section>
     </main>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
@@ -136,8 +157,20 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
     <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="text/javascript" src="palette.js"></script>
+    <script type="text/javascript" src="amcharts.js"></script>
+    <script type="text/javascript" src="charting.js"></script>
+
   </body>
 </html>
+
+    
+    
+    
