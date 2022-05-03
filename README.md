@@ -50,7 +50,66 @@ The first online catalogue for Arabic NLP datasets. This catalogue contains 200 
 * `Added by` name of the person who added the entry 
 * `Notes` any extra notes on the dataset
  
+## Access Data 
+You can access the annoated dataset using `datasets`
 
+```python
+from datasets import load_dataset 
+masader = load_dataset('Zaid/masader')
+masader['train'][0]
+```
+which gives the following output 
+
+```
+{'Abstract': 'Modern Standard Arabic (MSA) is the official language used in education and media across the Arab world both in writing and formal speech. However, in daily communication several dialects depending on the country, region as well as other social factors, are used. With the emergence of social media, the dialectal amount of data on the Internet have increased and the NLP tools that support MSA are not well-suited to process this data due to the difference between the dialects and MSA. In this paper, we construct the Shami corpus, the first Levantine Dialect Corpus (SDC) covering data from the four dialects spoken in Palestine, Jordan, Lebanon and Syria. We also describe rules for pre-processing without affecting the meaning so that it is processable by NLP tools. We choose Dialect Identification as the task to evaluate SDC and compare it with two other corpora. In this respect, experiments are conducted using different parameters based on n-gram models and Naive Bayes classifiers. SDC is larger than the existing corpora in terms of size, words and vocabularies. In addition, we use the performance on the Language Identification task to exemplify the similarities and differences in the individual dialects.',
+ 'Access': 'Free',
+ 'Added By': 'nan',
+ 'Affiliations': ',The Islamic University of Gaza,,',
+ 'Authors': 'Chatrine Qwaider,Motaz Saad,S. Chatzikyriakidis,Simon Dobnik',
+ 'Citations': '25.0',
+ 'Collection Style': 'crawling and annotation(other)',
+ 'Cost': 'nan',
+ 'Derived From': 'nan',
+ 'Description': 'the first Levantine Dialect Corpus (SDC) covering data from the four dialects spoken in Palestine, Jordan, Lebanon and Syria.',
+ 'Dialect': 'ar-LEV: (Arabic(Levant))',
+ 'Domain': 'social media',
+ 'Ethical Risks': 'Medium',
+ 'Form': 'text',
+ 'Host': 'GitHub',
+ 'Language': 'ar',
+ 'License': 'Apache-2.0',
+ 'Link': 'https://github.com/GU-CLASP/shami-corpus',
+ 'Name': 'Shami',
+ 'Paper Link': 'https://aclanthology.org/L18-1576.pdf',
+ 'Paper Title': 'Shami: A Corpus of Levantine Arabic Dialects',
+ 'Provider': 'Multiple institutions ',
+ 'Script': 'Arab',
+ 'Subsets': [{'Dialect': 'ar-JO: (Arabic (Jordan))',
+   'Name': 'Jordanian',
+   'Unit': 'sentences',
+   'Volume': '32,078'},
+  {'Dialect': 'ar-PS: (Arabic (Palestinian Territories))',
+   'Name': 'Palestanian',
+   'Unit': 'sentences',
+   'Volume': '21,264'},
+  {'Dialect': 'ar-SY: (Arabic (Syria))',
+   'Name': 'Syrian',
+   'Unit': 'sentences',
+   'Volume': '48,159'},
+  {'Dialect': 'ar-LB: (Arabic (Lebanon))',
+   'Name': 'Lebanese',
+   'Unit': 'sentences',
+   'Volume': '16,304'}],
+ 'Tasks': 'dialect identification',
+ 'Test Split': 'No',
+ 'Tokenized': 'No',
+ 'Unit': 'sentences',
+ 'Venue Name': 'International Conference on Language Resources and Evaluation',
+ 'Venue Title': 'LREC',
+ 'Venue Type': 'conference',
+ 'Volume': '117,805',
+ 'Year': 2018}
+```
 ## Contribution 
 The catalogue will be updated regularly. If you want to add a new dataset, use this [form](https://forms.gle/JnMrJjHumT6ktK9cA).
 
