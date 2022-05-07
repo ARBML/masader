@@ -1,4 +1,7 @@
 let url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
+function linkuize(text, link) {
+    return `<a href = "${link}" target="_blank"> ${text}</a>`
+}
 
 function ethicalBadge(text) {
     text = text.toLowerCase();
@@ -24,10 +27,10 @@ axios.get(url, ).then(function(response) {
         let headers = []
 
         // If you disable display name don't remove it from "headersWhiteList" becuase we use this as index key to push subsets to his row 
-        let headersWhiteList = ['Name', 'License', 'Language', 'Dialect', 'Domain', 'Form', 'Collection Style', 'Ethical Risks', 'Provider', 'Derived From', 'Script', 'Tokenized', 'Host', 'Cost', 'Test Split', 'Subsets']
+        let headersWhiteList = ['Name','Link', 'Year', 'Volume', 'Unit', 'Paper Link', 'Access', 'Tasks', 'License', 'Language', 'Dialect', 'Domain', 'Form', 'Collection Style', 'Ethical Risks', 'Provider', 'Derived From', 'Script', 'Tokenized', 'Host', 'Cost', 'Test Split', 'Subsets']
         
         $('.loading-spinner').hide()
-        console.log('here')
+
         function getIndex() {
             let idx = document.URL.indexOf('?');
             let index = document.URL.substring(idx + 1, document.URL.length)
@@ -81,15 +84,15 @@ axios.get(url, ).then(function(response) {
 
         // For each on "headersWhiteList" to display data with defult sort
         headersWhiteList.forEach(element => {
-                console.log(element)
-                console.log(headers)
-                console.log(headers.filter(h => h.title == element))
                 let value = row[headers.filter(h => h.title == element)[0].index].formattedValue ? row[headers.filter(h => h.title == element)[0].index].formattedValue : ''
-                if (element == 'Name') {
-                    return // if u wana display "name" just comment this line
-                } else if (element == 'Ethical Risks') {
+                if (element == 'Ethical Risks') {
                     value = ethicalBadge(value) // calling "ethicalBadge" function to put some style to the value 
-                } else if (element == 'Subsets') {
+                }
+                    else if (element == 'Link' || element == 'Paper Link'){
+                    console.log(value)
+                    value = linkuize(value, value)
+                }
+                 else if (element == 'Subsets') {
                     if (rows[idx].subsets) {
                         let subsets = rows[idx].subsets
                         value = createSubsets(subsets)
