@@ -1,9 +1,87 @@
 const url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
+function reformat_numbers(num) {
+    if (num === undefined)
+        return ''
+    values = num.split(',')
+    if (values.length < 2) {
+        return num
+    } else if (values.length == 2) {
+        return values[0] + 'K'
+    } else
+        return values[0] + 'M'
+}
 
+function reformat_dialect(dialect)
+{
+    
+    if (dialect.trim() != 'other')
+    {
+        dialect = dialect.split(':')[0]
+        dialect = dialect.split('-')[1]
+    }
+    
+    return dialect
+}
+
+function reformat_tasks(tasks)
+{
+    let out_html = ''
+
+    tasks = tasks.split(',')
+    for(let j = 0 ; j < tasks.length ; j += 1){
+        out_html += tasks[j]+'</br>'
+    }
+
+    return out_html
+}
+
+function createHtml(i)
+{
+    let div = '<div style="font-family: Cairo, "Open Sans"> '
+    let table = '<table style="border-collapse: collapse; border: none;">'
+    let html_out = div + table 
+    let list_to_show = ['Name', 'Year','Dialect', 'Volume', 'Tasks']
+    for(let j = 0 ; j < list_to_show.length ; j += 1){
+
+        let index_to_header = headersWhiteList.indexOf(list_to_show[j])
+        let header = headersWhiteList[index_to_header]
+        let value = ' ' +dataset[i][index_to_header]
+        html_out += '<tr style="border: none;">'
+        html_out += '<td style="border: none;">'
+        html_out += '<b>'+header+'</b>'
+        html_out += '</td>'
+        html_out += '<td style="border: none;">'
+        
+        if(header == 'Volume')
+        {
+            html_out += reformat_numbers(value)+ ' '+ dataset[i][index_to_header+1]
+        }
+        else if (header == 'Name')
+        {
+            html_out += `<a href = "">${value}</a>`
+        }
+        else if (header == 'Dialect')
+        {
+            html_out += reformat_dialect(value)
+        }
+        else if (header == 'Tasks'){
+            html_out += reformat_tasks(value)
+        }
+        else
+        {
+            html_out += value
+        }
+        
+        html_out += '</td>'
+        html_out += '</tr>'
+    }
+
+    return html_out+'</table>'+'</div>'
+}
 axios.get(url, ).then(function(response) {
     let rowData = response.data.sheets[0].data[0].rowData
     let headers = []
-    headersWhiteList = ['Name', 'License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Volume', 'Unit', 'Ethical Risks', 'Script', 'Access', 'Tasks', 'Venue Type']
+    headersWhiteList = ['Name', 'Link', 'License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Volume', 'Unit', 'Ethical Risks', 'Script', 'Access', 'Tasks', 'Venue Type']
     $('.loading-spinner').hide()
     
     // Grabbing header's index's to help us to get value's of just by header index 
@@ -123,9 +201,10 @@ axios.get(url, ).then(function(response) {
                 .enter()
                 .append('circle')
                 .attr("r", function(_, i, n){
-                    if(dataset[i][7] === undefined)
+                    let vol_index = headersWhiteList.indexOf('Volume')
+                    if(dataset[i][vol_index] === undefined)
                         return 10
-                    let volume = parseInt(dataset[i][7].replaceAll(",",""))
+                    let volume = parseInt(dataset[i][vol_index].replaceAll(",",""))
                     return Math.log(volume)
                 }) 
                 .attr('opacity', 0.7)
@@ -137,10 +216,7 @@ axios.get(url, ).then(function(response) {
                     const index = clusters['data'][i][0]
                     return d3.schemeCategory10[index]
                 }).on("mouseover", function(_, i, n){                    
-                    tooltip = tooltip.html('<div style="width: 160px;font-family: Cairo, "Open Sans"> \
-                    <h6>'+dataset[i][0]+'<h6> <br>\
-                    <h6> Volume: '+dataset[i][7]+' '+dataset[i][8]+'<h6> <br>\
-                    </div>');
+                    tooltip = tooltip.html(createHtml(i));
                     d3.select(this).style('stroke', '#eaeaea')
                     d3.select(this).style('stroke-width', '5')
                     return tooltip.style("visibility", "visible");
