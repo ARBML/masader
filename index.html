@@ -35,56 +35,8 @@
   <body>
     <main class="main">
       <!-- Navbar section -->
-     <nav class="navbar navbar-expand-lg navbar-light d-block py-2">
-        <div class="container">
-          <a class="navbar-brand text-danger fw-bold" href="index.html">
-            <img
-              class="d-inline-block logo"
-              src="assets/images/logo.png"
-              alt="arb-ml-logo"
-            />
-            Arabic NLP Catalouge
-
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-          <div
-            class="collapse navbar-collapse border-lg-0 mt-lg-0 text-right"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav me-auto pt-2 pt-lg-0 font-base">
-            <li class = "nav-item"><a 
-                class="nav-link text-danger fw-bold"
-                href="nodes.html"
-                >Explore</a
-              ></li>
-              <li class = "nav-item">
-              <a
-                class="nav-link text-danger fw-bold"
-                href="charting.html"
-                >Charts</a
-              >
-      </li>
-      <li class = "nav-item">
-              <a
-                class="nav-link text-danger fw-bold"
-                href="https://forms.gle/JnMrJjHumT6ktK9cA"
-                >Form</a
-                ></li>
-      <li class = "nav-item">
-          <a
-                class="btn btn-link btn-gradient"
-                href="https://github.com/ARBML/masader"
-                ><i class="fa-brands fa-github"></i> GitHub</a
-              >
-      </li>
-            </ul>
-
-  </div>
-</nav>
-
-     
+       <div id ="nav-placeholder">
+       </div>
       <!-- END Navbar Section -->
 
       <!-- Table section -->
@@ -138,7 +90,7 @@
         </div>
       </section>
     </main>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
@@ -149,5 +101,10 @@
     <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
+      <script>
+    $.get("navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+</script>
   </body>
 </html>
