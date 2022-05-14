@@ -31,6 +31,8 @@
       href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css"
     />
     <link href="assets/style/style.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/83612db974.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <main class="main">
@@ -100,9 +102,10 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"></script>
+    <script type="text/javascript" src="icons.js"></script>
     <script type="text/javascript" src="index.js"></script>
       <script>
-    $.get("navigation.html", function(data){
+    $.get("https://raw.githubusercontent.com/ARBML/masader/main/navigation.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
 </script>

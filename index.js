@@ -1,9 +1,23 @@
 const url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
 
 function linkuize(text, link) {
-    return `<a href = "${link}" target="_blank"> ${text}</a>`
+    if(link != undefined)
+        return `<a href = "${link}" target="_blank"> ${text}</a>`
+    else
+        return ""
 }
 
+function getIcon(text){
+    const lower = text.toLowerCase()
+    if(icons[lower] != undefined)
+    {
+        return icons[lower]
+    }
+    else
+    {
+        return text
+    }
+}
 function itemize(text) {
     tasks = text.split(",")
     output = "<ul>"
@@ -76,10 +90,15 @@ axios.get(url, {
         let dataset = []
         for (let index = 0; index < rows.length; index++) {
             const row = rows[index];
+            const hf_link = row[headers[2].index + 1].formattedValue
+            const pr_text = row[headers[2].index + 19].formattedValue
+            const pr_link = row[headers[2].index].formattedValue
+
             dataset.push({
                 0: row[headers[0].index].formattedValue,
                 1: linkuize(row[headers[1].index].formattedValue, `card.html?${index}`),
-                2: linkuize(row[headers[2].index + 18].formattedValue, row[headers[2].index].formattedValue),
+                2: linkuize(getIcon(pr_text), pr_link)+'</br>'
+                +  linkuize(getIcon('hf'), hf_link),
                 3: row[headers[3].index].formattedValue,
                 4: row[headers[4].index].formattedValue ? row[headers[4].index].formattedValue : '',
                 5: row[headers[5].index].formattedValue ? row[headers[5].index].formattedValue : '',
