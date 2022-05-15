@@ -31,8 +31,8 @@ function itemize(text) {
 function badgeRender(text) {
     text = text.toString().toLowerCase();
     if (text.toLowerCase() == "free") return '<span class="badge bg-success">Free</span>'
-    else if (text == "upon-request") return '<span class="badge bg-danger text-light">Upon Request</span>'
-    else return '<span class="badge bg-dark">Paid</span>'
+    else if (text == "upon-request") return '<span class="badge bg-info">Free Upon Request</span>'
+    else return '<span class="badge bg-danger">Paid</span>'
 }
 
 function reformat_numbers(num) {
