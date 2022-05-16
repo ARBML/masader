@@ -7,6 +7,7 @@ function linkuize(text, link) {
         return ""
 }
 
+
 function getIcon(text){
     const lower = text.toLowerCase()
     if(icons[lower] != undefined)
@@ -20,9 +21,9 @@ function getIcon(text){
 }
 function itemize(text) {
     tasks = text.split(",")
-    output = "<ul>"
+    output = '<ul class="list-group list-group-flush bg-transparent">'
     for (let i = 0; i < tasks.length; i++) {
-        output += "<li>" + tasks[i] + "</li>"
+        output += '<li class="list-group-item bg-transparent">' + tasks[i].trim().replaceAll(' ','-') + '</li>'
     }
     output += "</ul>"
     return output
@@ -123,7 +124,9 @@ axios.get(url, {
                 paging: true,
                 "pagingType": "numbers",
                 "bInfo": false,
-                
+                'createdRow': function(row, data, dataIndex){
+                    $('td:eq(8)', row).css('min-width', '200px');
+                 }
             });
 
         });
