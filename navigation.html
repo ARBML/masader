@@ -21,12 +21,14 @@
       <li class = "nav-item"><a 
           class="nav-link text-danger fw-bold"
           href="nodes.html"
+          data-toggle="tooltip" title="Explore the datasets in the embedding space."
           >Explore</a
         ></li>
         <li class = "nav-item">
         <a
           class="nav-link text-danger fw-bold"
           href="charting.html"
+          data-toggle="tooltip" title="Show different stats about the datasets as graphs."
           >Charts</a
         >
 </li>
@@ -34,6 +36,7 @@
         <a
           class="nav-link text-danger fw-bold"
           href="https://forms.gle/JnMrJjHumT6ktK9cA"
+          data-toggle="tooltip" title="Contribute by adding a new dataset to the catalogue."
           >Form</a
           ></li>
 <li class = "nav-item">
@@ -47,3 +50,9 @@
 
 </div>
 </nav>
+
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+  });
+</script>

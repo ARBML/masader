@@ -69,9 +69,9 @@ axios.get(url, ).then(function(response) {
                         })
                         if (preRow[0] != undefined && rows[preRow[0].index].subsets == undefined) {
                             rows[preRow[0].index].subsets = []
-                            rows[preRow[0].index].subsets.push({country: fileds[2].formattedValue, volume: fileds[12].formattedValue})
+                            rows[preRow[0].index].subsets.push({country: fileds[2].formattedValue, volume: fileds[13].formattedValue})
                         }else if (preRow[0] != undefined) {
-                            rows[preRow[0].index].subsets.push({country: fileds[2].formattedValue, volume: fileds[12].formattedValue})
+                            rows[preRow[0].index].subsets.push({country: fileds[2].formattedValue, volume: fileds[13].formattedValue})
                         }
                     }
                 }
