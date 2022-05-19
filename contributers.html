@@ -55,11 +55,9 @@
                 Fetching data <i class="fas fa-spinner fa-pulse"></i>
               </h5>
             </div>
-            <p class="font-italic">There are currently <span class="fw-bold text-primary" id = "numDatasets"> ... </span> datasets. Click on the dataset to show its expanded data card form.</p>
-            <table
-              class="table table-container table-striped"
-              id="table"
-            ></table>
+            <p class="font-italic">Thanks to the contributers: </p>
+            <ul id = "list">
+            </ul>
           </div>
         </div>
       </section>
@@ -102,8 +100,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"></script>
-    <script type="text/javascript" src="icons.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="contributers.js"></script>
       <script>
     $.get("https://raw.githubusercontent.com/ARBML/masader/main/navigation.html", function(data){
         $("#nav-placeholder").replaceWith(data);

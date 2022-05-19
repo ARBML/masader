@@ -116,6 +116,7 @@ axios.get(url, {
         });
 
         $(document).ready(function() {
+            document.getElementById("numDatasets").textContent=dataset.length;
             $('#table').DataTable({
                 data: dataset,
                 columns: headers,
