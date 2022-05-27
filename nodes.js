@@ -174,6 +174,7 @@ axios.get(url, ).then(function(response) {
             var svg = d3.select("svg")
                 .attr('width', width)
                 .attr('height', height)
+                .style('background', 'white')
                 .attr("style", "outline: thin solid gray;")
                 .call(zoom)                       // Adds zoom functionality
 
