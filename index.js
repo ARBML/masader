@@ -120,7 +120,7 @@ axios.get(url, {
             $('#table').DataTable({
                 data: dataset,
                 columns: headers,
-                "lengthMenu": [[10, 100, 200, -1], [10, 100, 200, "All"]],
+                "lengthMenu": [[10, 100, 200, 300, 400, -1], [10, 100, 200, 300, 400, "All"]],
                 scrollCollapse: true,
                 paging: true,
                 "pagingType": "numbers",
