@@ -9,7 +9,6 @@ function getSeries(data, idx){
     let series = []
 
     for (let index = 0; index < data.length; index++) {
-        // console.log(data[index][idx])
         if(data[index][idx] === undefined)
             continue
         if (headersWhiteList[idx] == 'Tasks')
@@ -104,7 +103,6 @@ function groupedBar(venue)
         });
 
     }
-    console.log(datasets)
     const chartdata = {
         labels: all_years,
         datasets: datasets
@@ -130,7 +128,6 @@ function plotBar(col)
     let series = getSeries(dataset, idx)
 
     const [elements, counts] = getCounts(series)
-    console.log(elements)
 
     const chartdata = {
         labels: elements,
@@ -218,20 +215,20 @@ axios.get(url, ).then(function(response) {
         }
     })
 
-    // console.log(headers)
     let tempRows = []
     rowData.filter(row => {
         tempRows.push(row.values)
     })
-    
     // Grabbing row's values
     let rows = []
     for (let index = 2; index < tempRows.length; index++) {
-        const fileds = tempRows[index]
-        if (fileds != undefined) {
-            // if (!isNaN(fileds[0].formattedValue)){
-                rows.push(fileds)
-            // }
+        const fields = tempRows[index]
+        if (fields != undefined) {
+            if (fields[1].formattedValue != undefined){
+                rows.push(fields)
+            }else{
+                break
+            }
         }
         
     }
@@ -256,7 +253,6 @@ axios.get(url, ).then(function(response) {
             let idx = headersWhiteList.indexOf("Dialect")
             let series = getSeries(dataset, idx)
             const [elements, counts] = getCounts(series)
-            console.log(elements)
             let groupData = []
 
             for (let i = 0; i < elements.length; i++){
