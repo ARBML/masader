@@ -202,7 +202,7 @@ function getCounts(array, sorting = true)
 axios.get(url, ).then(function(response) {
     let rowData = response.data.sheets[0].data[0].rowData
     let headers = []
-    headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Access', 'Tasks', 'Venue Type']
+    headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Host', 'Access', 'Tasks', 'Venue Type']
     $('.loading-spinner').hide()
     
     // Grabbing header's index's to help us to get value's of just by header index 
@@ -243,7 +243,7 @@ axios.get(url, ).then(function(response) {
         }
         dataset.push(entry)
     }
-
+    console.log(dataset)
     var changedText = document.getElementById('myDropdown');
 
     document.getElementById('myDropdown').addEventListener('change', function() {
@@ -270,6 +270,7 @@ axios.get(url, ).then(function(response) {
             createMap(groupData)
         }
         else{
+            console.log(this.value)
             plotBar(this.value)
         }   
     });
