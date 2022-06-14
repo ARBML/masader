@@ -3,14 +3,31 @@ const url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX
 let headersWhiteList;
 let dataset;
 let myChart = null;
-
-function getSeries(data, idx){
+titles = {
+    'License':'Most appearing licenses in the datasets',
+    'Year':'Number of datasets published every year',
+    'Dialect':'Distribution of the resources with respect of each country',
+    'Domain':'Most appearing domains in the dataests',
+    'Form':'Percentage of Text and Spoken datasets',
+    'Ethical Risks':'Ethical risks of Arabic NLP datasets',
+    'Script':'Scripts of writing Arabic NLP datasets',
+    'Host':'Counts of repostories used to host NLP datasets', 
+    'Access':'How easy to access most of the data. Upon-Request: means usually the dataset requires registeration, sharing info, email, etc.',
+    'Tasks':'Most frequent NLP tasks in the datasets truncated to most 20',
+    'Venue Type':'What kind of venues are used to publish NLP datasets'
+    
+}
+function getSeries(data, idx, ignoreOther = true){
 
     let series = []
 
     for (let index = 0; index < data.length; index++) {
         if(data[index][idx] === undefined)
             continue
+        if (ignoreOther){
+            if (data[index][idx]== 'other' || data[index][idx] == 'unknown')
+                continue
+        }
         if (headersWhiteList[idx] == 'Tasks')
         {
             let tasks = data[index][idx].split(",");
@@ -38,9 +55,10 @@ function getSeries(data, idx){
         
                  
     }
+
     return series
 }
-function groupedBar(venue)
+function groupedBar()
 {
     $("#myChart").show();
     $("#chartdiv").hide();
@@ -112,11 +130,19 @@ function groupedBar(venue)
     var config = {
         type: 'bar',
         data: chartdata,
+        options: {
+            plugins: {
+                title: {
+                    display: true,
+                    text: titles['Venue Type'],
+                }
+            }
+        }
     }
     myChart = new Chart(canvas, config);
 }
 
-function plotBar(col)
+function plotBar(col, truncate = 20)
 {
     $("#myChart").show();
     $("#chartdiv").hide();
@@ -127,7 +153,10 @@ function plotBar(col)
     let idx = headersWhiteList.indexOf(col)
     let series = getSeries(dataset, idx)
 
-    const [elements, counts] = getCounts(series)
+    var [elements, counts] = getCounts(series)
+
+    elements = elements.slice(0, truncate)
+    counts   = counts.slice(0, truncate)
 
     const chartdata = {
         labels: elements,
@@ -149,6 +178,10 @@ function plotBar(col)
             plugins: {
                 autocolors: {
                 mode: 'data'
+                },
+                title: {
+                    display: true,
+                    text: titles[col],
                 }
             }
         }
@@ -270,7 +303,6 @@ axios.get(url, ).then(function(response) {
             createMap(groupData)
         }
         else{
-            console.log(this.value)
             plotBar(this.value)
         }   
     });
