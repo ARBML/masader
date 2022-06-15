@@ -286,20 +286,25 @@ axios.get(url, ).then(function(response) {
             let idx = headersWhiteList.indexOf("Dialect")
             let series = getSeries(dataset, idx)
             const [elements, counts] = getCounts(series)
+            console.log(elements)
+            console.log(counts)
             let groupData = []
 
-            for (let i = 0; i < elements.length; i++){
+            for (let i = 0; i <  counts[0]; i++){
                 let group = []
 
                 for (let j = 0; j < counts.length; j++) {
                     if (counts[j] == i)
                     {
-                        group.push({"id":elements[j], "joined": i + ""})
+                        if (elements[j] != "MSA" &&  elements[j] != "CLS")
+                            group.push({"id":elements[j], "joined": i + ""})
                     }
                 }
+                
                 if (group.length > 0)
                     groupData.push({"name": "", "data":group})
             }
+            console.log(groupData)
             createMap(groupData)
         }
         else{
