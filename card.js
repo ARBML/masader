@@ -18,10 +18,17 @@ function createSubsets(subsetsValue) {
     result += '</tbody></table>'
     return result
 }
-// this, alternatively, can be used for loading spinner
-// {
-//     onDownloadProgress: (pe) => document.querySelector('.main-container').innerHTML = "loading spinnehingie"
-// }
+
+function itemize(text) {
+    tasks = text.split(",")
+    output = '<ul class="list-group list-group-flush bg-transparent">'
+    for (let i = 0; i < tasks.length; i++) {
+        output += '<li class="list-group-item bg-transparent">' + tasks[i].trim().replaceAll(' ','-') + '</li>'
+    }
+    output += "</ul>"
+    return output
+}
+
 axios.get(url, ).then(function(response) {
         let rowData = response.data.sheets[0].data[0].rowData
         let headers = []
@@ -57,7 +64,8 @@ axios.get(url, ).then(function(response) {
         let rows = []
         for (let index = 2; index < tempRows.length; index++) {
             const fileds = tempRows[index]
-            if (fileds != undefined) {
+            console.log(index)
+            if (fileds[1] != undefined) {
                 if (!isNaN(fileds[0].formattedValue)){
                     rows.push({index: rows.length, fileds: fileds})
                 }else {
@@ -75,6 +83,8 @@ axios.get(url, ).then(function(response) {
                         }
                     }
                 }
+            }else{
+                break
             }
             
         }
@@ -88,15 +98,16 @@ axios.get(url, ).then(function(response) {
                 if (element == 'Ethical Risks') {
                     value = ethicalBadge(value) // calling "ethicalBadge" function to put some style to the value 
                 }
-                    else if (element == 'Link' || element == 'Paper Link'){
-                    console.log(value)
+                else if (element == 'Link' || element == 'Paper Link'){
                     value = linkuize(value, value)
                 }
-                 else if (element == 'Subsets') {
+                else if (element == 'Subsets') {
                     if (rows[idx].subsets) {
                         let subsets = rows[idx].subsets
                         value = createSubsets(subsets)
                     }
+                }else if (element == 'Tasks'){
+                    value = itemize(value)
                 }
                 dataset.push({
                     0: element,
