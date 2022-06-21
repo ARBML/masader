@@ -97,7 +97,7 @@ axios.get(url, {
 
             dataset.push({
                 0: row[headers[0].index].formattedValue,
-                1: linkuize(row[headers[1].index].formattedValue, `card.html?${index}`),
+                1: linkuize(row[headers[1].index].formattedValue, `card?${index}`),
                 2: linkuize(getIcon(pr_text), pr_link)+'</br>'
                 +  linkuize(getIcon('hf'), hf_link),
                 3: row[headers[3].index].formattedValue,

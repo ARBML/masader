@@ -1,0 +1,31 @@
+---
+permalink: /nodes
+layout: default
+foot_scripts:
+    - https://d3js.org/d3.v4.js
+    - /assets/js/nodes.js
+---
+
+<section
+    style="background: linear-gradient(180deg, #fffefc -54.51%, #fff8f0 99.98%);"
+    id="home"
+>
+    <div class="container">
+        <div class="table-section py-4">
+        <div class="fa-3x loading-spinner">
+            <h5 class="text-center">
+            Fetching data <i class="fas fa-spinner fa-pulse"></i>
+            </h5>
+        </div>
+        <p class = "box">
+            Explore the datasets in Masader by zooming and moving around. The nodes were created by training 
+            a t-sne algorithm on the abstracts embedded using <a href = "https://huggingface.co/sentence-transformers>" >sentence-transformers</a></a> then clustered using K-Means. 
+            Hover over a node to show its info and click on it to show its full data card.   
+        </p>
+        <svg style="text-align:center"></svg>
+        </div>
+    </div>
+</section>
+    
+    
+    

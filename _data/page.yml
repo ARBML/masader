@@ -1,0 +1,12 @@
+nav:
+  logo: /assets/images/logo.png
+  title: Arabic NLP Data Catalouge
+  tabs:
+    - title: Explore
+      url: /nodes
+    - title: Graphs
+      url: /charting
+    - title: Contribute
+      url: https://forms.gle/JnMrJjHumT6ktK9cA
+    - title: Contributers
+      url: /contributers
