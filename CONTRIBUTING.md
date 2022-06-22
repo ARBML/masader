@@ -10,7 +10,7 @@ _please be nice to everyone this is the must important thing. be nice_
 ### compiling
 _use the command line below to compile your program and see results on live_
 ```bash
-bundle exec jekyll server --livereload
+bundle exec jekyll serve --livereload
 ```
 
 ### installing dependencies
