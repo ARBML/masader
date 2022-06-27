@@ -257,8 +257,10 @@ axios.get(url, ).then(function(response) {
     for (let index = 2; index < tempRows.length; index++) {
         const fields = tempRows[index]
         if (fields != undefined) {
-            if (fields[1].formattedValue != undefined){
-                rows.push(fields)
+            if (fields[1] != undefined){
+                if (fields[1].formattedValue != undefined){
+                    rows.push(fields)
+                }
             }else{
                 break
             }
