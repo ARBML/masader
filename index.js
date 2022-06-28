@@ -7,7 +7,14 @@ function linkuize(text, link) {
         return ""
 }
 
-
+function getCountry(text){
+    text = text.split("(")
+    text = text[text.length - 1].split(")")[0]
+    if (text == "Modern Standard Arabic"){
+        return "MSA"
+    }
+    return text
+}
 function getIcon(text){
     const lower = text.toLowerCase()
     if(icons[lower] != undefined)
@@ -57,7 +64,7 @@ axios.get(url, {
 }).then(function(response) {
         let rowData = response.data.sheets[0].data[0].rowData
         let headers = []
-        let headersWhiteList = ['No.', 'Name', 'Link', 'Year', 'Volume', 'Unit', 'Paper Link', 'Access', 'Tasks']
+        let headersWhiteList = ['No.', 'Name', 'Link', 'Year', 'Dialect', 'Volume', 'Unit', 'Paper Link', 'Access', 'Tasks']
         $('.loading-spinner').hide()
 
         // Grabbing header's index's to help us to get value's of just by header index 
@@ -101,11 +108,12 @@ axios.get(url, {
                 2: linkuize(getIcon(pr_text), pr_link)+'</br>'
                 +  linkuize(getIcon('hf'), hf_link),
                 3: row[headers[3].index].formattedValue,
-                4: row[headers[4].index].formattedValue ? row[headers[4].index].formattedValue : '',
+                4: getCountry(row[headers[4].index].formattedValue),
                 5: row[headers[5].index].formattedValue ? row[headers[5].index].formattedValue : '',
-                6: linkuize(row[headers[6].index - 1].formattedValue, row[headers[6].index].formattedValue),
-                7: badgeRender(row[headers[7].index].formattedValue),
-                8: itemize(row[headers[8].index].formattedValue),
+                6: row[headers[6].index].formattedValue ? row[headers[6].index].formattedValue : '',
+                7: linkuize(row[headers[7].index - 1].formattedValue, row[headers[7].index].formattedValue),
+                8: badgeRender(row[headers[8].index].formattedValue),
+                9: itemize(row[headers[9].index].formattedValue),
             })
         }
 
@@ -126,7 +134,7 @@ axios.get(url, {
                 "pagingType": "numbers",
                 "bInfo": false,
                 'createdRow': function(row, data, dataIndex){
-                    $('td:eq(8)', row).css('min-width', '200px');
+                    $('td:eq(9)', row).css('min-width', '200px');
                  }
             });
 
