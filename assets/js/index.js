@@ -1,7 +1,9 @@
-const url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
+// const url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
+// const url = "https://masader-web-service.herokuapp.com/datasets";
+const url = "https://test-masader-webservice.herokuapp.com/datasets";
 
 function linkuize(text, link) {
-    if(link != undefined)
+    if(link != undefined || link != "nan")
         return `<a href = "${link}" target="_blank"> ${text}</a>`
     else
         return ""
@@ -10,13 +12,10 @@ function linkuize(text, link) {
 
 function getIcon(text){
     const lower = text.toLowerCase()
-    if(icons[lower] != undefined)
-    {
-        return icons[lower]
-    }
-    else
-    {
-        return text
+    if (icons[lower] != undefined || icons[lower] != "nan") {
+      return icons[lower];
+    } else {
+      return text;
     }
 }
 function itemize(text) {
@@ -55,86 +54,76 @@ axios.get(url, {
         // console.log('download', percentage);        
       }
 }).then(function(response) {
-        let rowData = response.data.sheets[0].data[0].rowData
-        let headers = []
-        let headersWhiteList = ['No.', 'Name', 'Link', 'Year', 'Volume', 'Unit', 'Paper Link', 'Access', 'Tasks']
-        $('.loading-spinner').hide()
+  let headers = [];
+  let headersWhiteList = [
+    "No.",
+    "Name",
+    "Link",
+    "Year",
+    "Dialect",
+    "Volume",
+    "Unit",
+    "Paper Link",
+    "Access",
+    "Tasks",
+  ];
+  $('.loading-spinner').hide()
+  for (let i = 0; i < headersWhiteList.length; i++) {
+    headers.push({
+      index: i,
+      title: headersWhiteList[i],
+    });
+  }
+  let rows = response.data;
+  console.log(headers);
 
-        // Grabbing header's index's to help us to get value's of just by header index 
-        rowData[1].values.filter(header => header.formattedValue != undefined).forEach((header, headerIndex) => {
-            if (headersWhiteList.includes(header.formattedValue)){
-                headers.push({
-                    index: headerIndex,
-                    title: header.formattedValue
-                })
-            }
-        })
+  //  Createing table data
+  let dataset = [];
+  for (let index = 0; index < rows.length; index++) {
+    const row = rows[index];
+    let link_host = linkuize(row["Host"], row["Link"]);
+    if (row["HF Link"] != "nan") {
+      link_host += "</br>" + linkuize(getIcon("hf"), row["HF Link"]);
+    }
+    dataset.push({
+      0: index + 1,
+      1: linkuize(row["Name"], `card?id=${index + 1}`),
+      2: link_host,
+      3: row["Year"],
+      4: row["Dialect"] != "nan" ? row["Dialect"] : "",
+      5: row["Volume"] != "nan"  ? row["Volume"] : "",
+      6: row["Unit"] != "nan" ? row["Unit"] : "",
+      7: linkuize(row["Paper Title"], row["Paper Link"]),
+      8: badgeRender(row["Access"]),
+      9: itemize(row["Tasks"]),
+    });
+  }
 
-        let tempRows = []
-        rowData.filter(row => {
-            tempRows.push(row.values)
-        })
-        
-        // Grabbing row's values
-        let rows = []
-        for (let index = 2; index < tempRows.length; index++) {
-            const fileds = tempRows[index]
-            if (fileds != undefined) {
-                if (!isNaN(fileds[0].formattedValue)){
-                    rows.push(fileds)
-                }
-            }
-            
-        }
-        
-        //  Createing table data
-        let dataset = []
-        for (let index = 0; index < rows.length; index++) {
-            const row = rows[index];
-            const hf_link = row[headers[2].index + 1].formattedValue
-            const pr_text = row[headers[2].index + 19].formattedValue
-            const pr_link = row[headers[2].index].formattedValue
+  $.extend($.fn.dataTableExt.oSort, {
+    "data-custom-pre": function (a) {
+      console.log(a);
+    },
+  });
 
-            dataset.push({
-                0: row[headers[0].index].formattedValue,
-                1: linkuize(row[headers[1].index].formattedValue, `card?${index}`),
-                2: linkuize(getIcon(pr_text), pr_link)+'</br>'
-                +  linkuize(getIcon('hf'), hf_link),
-                3: row[headers[3].index].formattedValue,
-                4: row[headers[4].index].formattedValue ? row[headers[4].index].formattedValue : '',
-                5: row[headers[5].index].formattedValue ? row[headers[5].index].formattedValue : '',
-                6: linkuize(row[headers[6].index - 1].formattedValue, row[headers[6].index].formattedValue),
-                7: badgeRender(row[headers[7].index].formattedValue),
-                8: itemize(row[headers[8].index].formattedValue),
-            })
-        }
-
-        $.extend($.fn.dataTableExt.oSort, {
-            "data-custom-pre": function(a) {
-                console.log(a)
-            }
-        });
-
-        $(document).ready(function() {
-            document.getElementById("numDatasets").textContent=dataset.length;
-            $('#table').DataTable({
-                data: dataset,
-                columns: headers,
-                "lengthMenu": [[10, 100, 200, 300, 400, -1], [10, 100, 200, 300, 400, "All"]],
-                scrollCollapse: true,
-                paging: true,
-                "pagingType": "numbers",
-                "bInfo": false,
-                'createdRow': function(row, data, dataIndex){
-                    $('td:eq(8)', row).css('min-width', '200px');
-                 }
-            });
-
-        });
-
-
-
-    })
+  $(document).ready(function () {
+    document.getElementById("numDatasets").textContent = dataset.length;
+    $("#table").DataTable({
+      data: dataset,
+      columns: headers,
+      lengthMenu: [
+        [10, 100, 200, 300, 400, -1],
+        [10, 100, 200, 300, 400, "All"],
+      ],
+      scrollCollapse: true,
+      paging: true,
+      pagingType: "numbers",
+      bInfo: false,
+      createdRow: function (row, data, dataIndex) {
+        $("td:eq(8)", row).css("min-width", "200px");
+      },
+    });
+  });
+})
     .catch(function(error) {
         console.log(error);
     });

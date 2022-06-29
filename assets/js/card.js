@@ -1,4 +1,6 @@
-let url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
+// let url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
+let url = "https://test-masader-webservice.herokuapp.com/datasets/"
+
 function linkuize(text, link) {
     return `<a href = "${link}" target="_blank"> ${text}</a>`
 }
@@ -13,7 +15,7 @@ function ethicalBadge(text) {
 function createSubsets(subsetsValue) {
     let result = '<table><tbody>'
     subsetsValue.forEach(subset => {
-        result += `<tr><td><b>${subset.country}</b></td><td>${subset.volume}</td></tr>`
+        result += `<tr><td><b>${subset["Name"]}</b></td><td>${subset["Volume"]}</td></tr>`;
     })
     result += '</tbody></table>'
     return result
@@ -28,114 +30,104 @@ function itemize(text) {
     output += "</ul>"
     return output
 }
+// get id from page parameters
+const urlParams = new URLSearchParams(window.location.search);
+const card_id = urlParams.get('id');
 
-axios.get(url, ).then(function(response) {
-        let rowData = response.data.sheets[0].data[0].rowData
-        let headers = []
 
-        // If you disable display name don't remove it from "headersWhiteList" becuase we use this as index key to push subsets to his row 
-        let headersWhiteList = ['Name','Link', 'Year', 'Volume', 'Unit', 'Paper Link', 'Access', 'Tasks', 'License', 'Language', 'Dialect', 'Domain', 'Form', 'Collection Style', 'Ethical Risks', 'Provider', 'Derived From', 'Script', 'Tokenized', 'Host', 'Cost', 'Test Split', 'Subsets']
-        
-        $('.loading-spinner').hide()
+axios
+  .get(url + card_id)
+  .then(function (response) {
+    let headers = [];
+    let headersWhiteList = [
+      "Name",
+      "Link",
+      "Year",
+      "Volume",
+      "Unit",
+      "Paper Link",
+      "Access",
+      "Tasks",
+      "License",
+      "Language",
+      "Dialect",
+      "Domain",
+      "Form",
+      "Collection Style",
+      "Ethical Risks",
+      "Provider",
+      "Derived From",
+      "Script",
+      "Tokenized",
+      "Host",
+      "Cost",
+      "Test Split",
+      "Subsets",
+    ];
 
-        function getIndex() {
-            let idx = document.URL.indexOf('?');
-            let index = document.URL.substring(idx + 1, document.URL.length)
-            return index
-        }
-        const idx = getIndex();
-
-        // Grabbing header's index's to help us to get value's of just by header index 
-        rowData[1].values.filter(header => header.formattedValue != undefined).forEach((header, headerIndex) => {
-            if (headersWhiteList.includes(header.formattedValue)){
-                headers.push({
-                    index: headerIndex,
-                    title: header.formattedValue
-                })
-            }
-        })
-
-        let tempRows = []
-        rowData.filter(row => {
-            tempRows.push(row.values)
-        })
-        
-        // Get row's values and grabbing subsets and push it to row array as one array 
-        let rows = []
-        for (let index = 2; index < tempRows.length; index++) {
-            const fileds = tempRows[index]
-            console.log(index)
-            if (fileds[1] != undefined) {
-                if (!isNaN(fileds[0].formattedValue)){
-                    rows.push({index: rows.length, fileds: fileds})
-                }else {
-                    if (fileds[1].formattedValue != undefined) {
-                        let preRow = rows.filter(row => {
-                            if (row.fileds[1].formattedValue == fileds[1].formattedValue) {
-                                return row
-                            }
-                        })
-                        if (preRow[0] != undefined && rows[preRow[0].index].subsets == undefined) {
-                            rows[preRow[0].index].subsets = []
-                            rows[preRow[0].index].subsets.push({country: fileds[2].formattedValue, volume: fileds[13].formattedValue})
-                        }else if (preRow[0] != undefined) {
-                            rows[preRow[0].index].subsets.push({country: fileds[2].formattedValue, volume: fileds[13].formattedValue})
-                        }
-                    }
-                }
-            }else{
-                break
-            }
-            
-        }
-
-        let dataset = []
-        let row = rows[idx].fileds;
-
-        // For each on "headersWhiteList" to display data with defult sort
-        headersWhiteList.forEach(element => {
-                let value = row[headers.filter(h => h.title == element)[0].index].formattedValue ? row[headers.filter(h => h.title == element)[0].index].formattedValue : ''
-                if (element == 'Ethical Risks') {
-                    value = ethicalBadge(value) // calling "ethicalBadge" function to put some style to the value 
-                }
-                else if (element == 'Link' || element == 'Paper Link'){
-                    value = linkuize(value, value)
-                }
-                else if (element == 'Subsets') {
-                    if (rows[idx].subsets) {
-                        let subsets = rows[idx].subsets
-                        value = createSubsets(subsets)
-                    }
-                }else if (element == 'Tasks'){
-                    value = itemize(value)
-                }
-                dataset.push({
-                    0: element,
-                    1: value
-                })
-        });
-
-        $(document).ready(function() {
-
-            $('#table_card').DataTable({
-                data: dataset,
-                columns: [{
-                        title: "Attribute"
-                    },
-                    {
-                        title: "Value"
-                    },
-                ],
-                "lengthMenu": [10, 25, 50, 75, 100, 250],
-                scrollCollapse: true,
-                // scrollY: "720px",
-                scrollCollapse: true,
-                paging: false,
-                "order": [],
-                "bInfo": false
-            });
-        });
-    })
-    .catch(function(error) {
-        console.log(error);
+    $(".loading-spinner").hide();
+  for (let i = 0; i < headersWhiteList.length; i++) {
+    headers.push({
+      index: i,
+      title: headersWhiteList[i],
     });
+  }
+    let row = response.data;
+    console.log(row);
+
+    let dataset = [];
+
+    for (let i = 0; i < headers.length; i++) {
+        let element = headers[i]
+      let value =
+        row[element.title] != "nan" ? row[element.title] : "N/A";
+      console.log(element.title, value);
+      if (value == "N/A") {
+        dataset.push({
+            0: element.title,
+            1: "",
+        });
+        continue
+      }
+      if (element.title == "Ethical Risks") {
+        value = ethicalBadge(value); // calling "ethicalBadge" function to put some style to the value
+      } else if (element.title == "Link" || element.title == "Paper Link") {
+        value = linkuize(value, value);
+      } else if (element.title == "Subsets") {
+        if (row[element.title] != "nan") {
+          let subsets = row[element.title];
+          value = createSubsets(subsets);
+        }
+      } else if (element.title == "Tasks") {
+        value = itemize(value);
+      }
+      dataset.push({
+        0: element.title,
+        1: value,
+      });
+    }
+    console.log(dataset);
+    $(document).ready(function () {
+      $("#table_card").DataTable({
+        data: dataset,
+        columns: [
+          {
+            title: "Attribute",
+          },
+          {
+            title: "Value",
+          },
+        ],
+        lengthMenu: [10, 25, 50, 75, 100, 250],
+        scrollCollapse: true,
+        // scrollY: "720px",
+        scrollCollapse: true,
+        paging: false,
+        order: [],
+        bInfo: false,
+      });
+    });
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
