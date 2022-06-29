@@ -1,6 +1,4 @@
-// const url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
-// const url = "https://masader-web-service.herokuapp.com/datasets";
-const url = "https://test-masader-webservice.herokuapp.com/datasets";
+const url = "https://masader-web-service.herokuapp.com/datasets";
 
 function linkuize(text, link) {
     if(link != undefined || link != "nan")
