@@ -142,10 +142,17 @@ axios
             };
         });
 
-        var x = d3.scaleLinear().domain([-3, 55]).range([0, width]);
+        let xs = [...data].map((d => d.x));
+        let ys = [...data].map((d => d.y));
+        let xma = Math.ceil(Math.max(0, ...xs)+5)
+        let xmi = Math.ceil(Math.min(0, ...xs)-5)
+        let yma = Math.ceil(Math.max(0, ...ys)+5)
+        let ymi = Math.ceil(Math.min(0, ...ys)-5)
+
+        var x = d3.scaleLinear().domain([xmi, xma]).range([0, width]);
 
         // Add Y axis
-        var y = d3.scaleLinear().domain([0, 55]).range([height, 0]);
+        var y = d3.scaleLinear().domain([ymi, yma]).range([height, 0]);
 
         var zoom = d3
             .zoom()
