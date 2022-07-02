@@ -1,4 +1,4 @@
-const url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
+const url = "https://masader-web-service.herokuapp.com/datasets";
 
 let headersWhiteList;
 let dataset;
@@ -25,7 +25,7 @@ function getSeries(data, idx, ignoreOther = true){
         if(data[index][idx] === undefined)
             continue
         if (ignoreOther){
-            if (data[index][idx]== 'other' || data[index][idx] == 'unknown')
+            if (['other', 'unknown', 'nan'].includes(data[index][idx]))
                 continue
         }
         if (headersWhiteList[idx] == 'Tasks')
@@ -233,49 +233,22 @@ function getCounts(array, sorting = true)
 }
 
 axios.get(url, ).then(function(response) {
-    let rowData = response.data.sheets[0].data[0].rowData
-    let headers = []
+    let rowData = response.data
+
     headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Host', 'Access', 'Tasks', 'Venue Type']
     $('.loading-spinner').hide()
     
-    // Grabbing header's index's to help us to get value's of just by header index 
-    rowData[1].values.filter(header => header.formattedValue != undefined).forEach((header, headerIndex) => {
-        if (headersWhiteList.includes(header.formattedValue)){
-            headers.push({
-                index: headerIndex,
-                title: header.formattedValue
-            })
-        }
-    })
-
-    let tempRows = []
-    rowData.filter(row => {
-        tempRows.push(row.values)
-    })
     // Grabbing row's values
-    let rows = []
-    for (let index = 2; index < tempRows.length; index++) {
-        const fields = tempRows[index]
-        if (fields != undefined) {
-            if (fields[1].formattedValue != undefined){
-                rows.push(fields)
-            }else{
-                break
-            }
-        }
-        
+    dataset = [];
+    for (let i = 0; i < rowData.length; i++) {
+        record = {};
+        for (let j = 0; j < headersWhiteList.length; j++)
+            record[j] = String(rowData[i][headersWhiteList[j]]);
+
+        console.log(JSON.stringify(record))
+        dataset.push(record);
     }
     
-    //  Createing table data
-    dataset = []
-    for (let index = 0; index < rows.length; index++) {
-        const row = rows[index];
-        let entry = {}
-        for (let index = 0; index < headersWhiteList.length; index++) {
-            entry[index] = row[headers[index].index].formattedValue
-        }
-        dataset.push(entry)
-    }
     console.log(dataset)
     var changedText = document.getElementById('myDropdown');
 

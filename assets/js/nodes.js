@@ -1,4 +1,3 @@
-//TODO Combine all these three
 const url = "https://masader-web-service.herokuapp.com/datasets";
 const urlEmbClus =
     "https://masader-web-service.herokuapp.com/datasets?features=Cluster,Embeddings";
