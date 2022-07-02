@@ -93,7 +93,6 @@ const reteriveClusters = async () => {
     return await axios.get(urlClus, ).then(function(response) {
         let rowData = response.data
                       .map( (c) => c.Cluster)
-        console.log(rowData)
         return rowData;
     });
 }
@@ -117,8 +116,6 @@ axios.get(url, ).then(async function(response) {
 
         var embeddings = await reteriveEmbeddings();
         var clusters = await reteriveClusters();
-        console.log(embeddings);
-        console.log(clusters);
         
             let box = document.querySelector('.box');
             const width = box.offsetWidth;
@@ -211,7 +208,7 @@ axios.get(url, ).then(async function(response) {
                 .attr('cy', function(d) {
                     return y(d.y)})
                 .style('fill', function(_, i, n) {
-                    const index = clusters[i][0]
+                    const index = clusters[i]
                     return d3.schemeCategory20[index]
                 }).on("mouseover", function(_, i, n){                    
                     tooltip = tooltip.html(createHtml(i));
