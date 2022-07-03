@@ -245,7 +245,6 @@ axios.get(url, ).then(function(response) {
         for (let j = 0; j < headersWhiteList.length; j++)
             record[j] = String(rowData[i][headersWhiteList[j]]);
 
-        console.log(JSON.stringify(record))
         dataset.push(record);
     }
     
