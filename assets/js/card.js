@@ -1,4 +1,5 @@
 let url = "https://masader-web-service.herokuapp.com/datasets/";
+$("#reportForm").hide();
 
 function linkuize(text, link) {
     return `<a href = "${link}" target="_blank"> ${text}</a>`
@@ -29,6 +30,25 @@ function itemize(text) {
     output += "</ul>"
     return output
 }
+
+function onReportBtnClicked(){
+
+  if (isReportFormOpen){
+    document.getElementById("reportBtn").innerHTML = "Report issues with this card";
+    $("#reportForm").hide();
+
+  }else{
+    document.getElementById("reportBtn").innerHTML = "Close";
+    $("#reportForm").show();
+
+  }
+
+  isReportFormOpen = !isReportFormOpen;
+
+}
+
+let isReportFormOpen = false;
+
 // get id from page parameters
 const urlParams = new URLSearchParams(window.location.search);
 const card_id = urlParams.get('id');
@@ -130,3 +150,5 @@ axios
   .catch(function (error) {
     console.log(error);
   });
+
+  document.getElementById("reportBtn").addEventListener("click", onReportBtnClicked);

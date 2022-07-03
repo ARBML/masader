@@ -5,6 +5,11 @@ foot_scripts:
     - /assets/js/card.js
 ---
 
+<link
+    rel="stylesheet"
+    href="/assets/css/card.css"
+/>
+
 <section
     style="background: linear-gradient(180deg, #fffefc -54.51%, #fff8f0 99.98%)"
     id="home"
@@ -21,6 +26,14 @@ foot_scripts:
             class="table table-responsive table-container"
             id="table_card"
         ></table>
+        </div>
+
+        <div>
+            <button id="reportBtn" class="accordion-button badge bg-danger mb-3 d-block reportBtns"> Report issues with this card</button>
+            
+            <div id="reportForm">
+            <textarea rows="6em" class="reportData"></textarea>
+            <button id="sendReportBtn" class="accordion-button badge bg-success d-block mt-3 mb-3 reportBtns"> Report</button>
         </div>
     </div>
 </section>

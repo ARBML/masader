@@ -1,0 +1,24 @@
+.reportData {
+    resize:none;
+    width: 100%;
+    border-radius: 7px;
+    border-color: rgb(209, 44, 44);
+}
+
+.reportBtns {
+    color: #fff8f0 !important;
+    border-radius: 7px;
+    text-align: center;
+    font-family:Georgia;
+}
+
+.reportBtns:hover {
+    opacity: 80%;
+}
+
+#sendReportBtn {
+    left:25%;
+    width: 50%;
+    border:none;
+    font-size: medium;
+}
