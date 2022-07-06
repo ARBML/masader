@@ -55,7 +55,7 @@ You can access the annoated dataset using `datasets`
 
 ```python
 from datasets import load_dataset 
-masader = load_dataset('Zaid/masader')
+masader = load_dataset('arbml/masader')
 masader['train'][0]
 ```
 which gives the following output 
