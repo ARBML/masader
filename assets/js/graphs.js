@@ -1,4 +1,4 @@
-const url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
+const url = "https://masader-web-service.herokuapp.com/datasets";
 
 let headersWhiteList;
 let dataset;
@@ -17,17 +17,19 @@ titles = {
     'Venue Type':'What kind of venues are used to publish NLP datasets'
     
 }
-function getSeries(data, idx, ignoreOther = true){
-
+function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1){
     let series = []
 
     for (let index = 0; index < data.length; index++) {
+
         if(data[index][idx] === undefined)
             continue
+
         if (ignoreOther){
-            if (data[index][idx]== 'other' || data[index][idx] == 'unknown')
+            if (['other', 'unknown', 'nan'].includes(data[index][idx]))
                 continue
         }
+
         if (headersWhiteList[idx] == 'Tasks')
         {
             let tasks = data[index][idx].split(",");
@@ -35,16 +37,27 @@ function getSeries(data, idx, ignoreOther = true){
                 series.push(tasks[index].trim())
             }
 
-        }
-        else if(headersWhiteList[idx] == 'Dialect')
+        } else if(headersWhiteList[idx] == 'Dialect')
         {
+
             let dialect = data[index][idx]
             if (dialect != 'other')
             {
                 dialect = dialect.split(':')[0]
                 dialect = dialect.split('-')[1]
             }
-            
+
+            // Subsets
+            for (let subDialect of data[index][`${subsetsIdx}`]){
+
+                dialectCode = subDialect['Dialect'].split(':')[0]
+                dialectCode = dialectCode.split('-')[1]
+                
+                if (dialectCode)
+                    series.push(dialectCode.trim())
+
+            }
+
             series.push(dialect.trim())
 
         }
@@ -233,59 +246,42 @@ function getCounts(array, sorting = true)
 }
 
 axios.get(url, ).then(function(response) {
-    let rowData = response.data.sheets[0].data[0].rowData
-    let headers = []
-    headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Host', 'Access', 'Tasks', 'Venue Type']
+    let rowData = response.data
+
+    headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Host', 'Access', 'Tasks', 'Venue Type', 'Subsets']
     $('.loading-spinner').hide()
     
-    // Grabbing header's index's to help us to get value's of just by header index 
-    rowData[1].values.filter(header => header.formattedValue != undefined).forEach((header, headerIndex) => {
-        if (headersWhiteList.includes(header.formattedValue)){
-            headers.push({
-                index: headerIndex,
-                title: header.formattedValue
-            })
-        }
-    })
+    const subsetsIdx = headersWhiteList.indexOf("Subsets")
 
-    let tempRows = []
-    rowData.filter(row => {
-        tempRows.push(row.values)
-    })
     // Grabbing row's values
-    let rows = []
-    for (let index = 2; index < tempRows.length; index++) {
-        const fields = tempRows[index]
-        if (fields != undefined) {
-            if (fields[1].formattedValue != undefined){
-                rows.push(fields)
-            }else{
-                break
-            }
+    dataset = [];
+    for (let i = 0; i < rowData.length; i++) {
+        record = {};
+        for (let j = 0; j < headersWhiteList.length; j++){
+            if (j != subsetsIdx)
+                record[j] = String(rowData[i][headersWhiteList[j]]);
+            else
+                record[j] = rowData[i][headersWhiteList[j]];
+
         }
-        
+
+        dataset.push(record);
     }
     
-    //  Createing table data
-    dataset = []
-    for (let index = 0; index < rows.length; index++) {
-        const row = rows[index];
-        let entry = {}
-        for (let index = 0; index < headersWhiteList.length; index++) {
-            entry[index] = row[headers[index].index].formattedValue
-        }
-        dataset.push(entry)
-    }
     console.log(dataset)
     var changedText = document.getElementById('myDropdown');
 
     document.getElementById('myDropdown').addEventListener('change', function() {
+
         if (this.value == "Venue Type")
             groupedBar(this.value) 
         else if(this.value == "Dialect"){
+
             let idx = headersWhiteList.indexOf("Dialect")
-            let series = getSeries(dataset, idx)
+            let series = getSeries(dataset, idx, false, subsetsIdx)
+
             const [elements, counts] = getCounts(series)
+
             console.log(elements)
             console.log(counts)
             let groupData = []
@@ -304,13 +300,17 @@ axios.get(url, ).then(function(response) {
                 if (group.length > 0)
                     groupData.push({"name": "", "data":group})
             }
+
             console.log(groupData)
             createMap(groupData)
-        }
-        else{
+
+        } else{
             plotBar(this.value)
         }   
     });
+    // update myDropdown with the first option
+    changedText.value = "Host";
+    plotBar("Host");
 
 })
 .catch(function(error) {

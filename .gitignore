@@ -6,3 +6,4 @@ vendor
 .vscode
 .pytest_cache
 .hypothesis
+Gemfile.lock
