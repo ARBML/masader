@@ -21,12 +21,15 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1){
     let series = []
 
     for (let index = 0; index < data.length; index++) {
+
         if(data[index][idx] === undefined)
             continue
-        if (ignoreOther && subsetsIdx == -1){
+
+        if (ignoreOther){
             if (['other', 'unknown', 'nan'].includes(data[index][idx]))
                 continue
         }
+
         if (headersWhiteList[idx] == 'Tasks')
         {
             let tasks = data[index][idx].split(",");
@@ -34,12 +37,8 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1){
                 series.push(tasks[index].trim())
             }
 
-        }
-        else if(headersWhiteList[idx] == 'Dialect')
+        } else if(headersWhiteList[idx] == 'Dialect')
         {
-            console.log('-------------------')
-            console.log(data)
-            console.log(index)
 
             let dialect = data[index][idx]
             if (dialect != 'other')
@@ -49,12 +48,6 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1){
             }
 
             // Subsets
-            console.log("d/dt");
-            console.log(data[index]);
-            console.log(data[index][subsetsIdx]);
-            console.log('-------------------')
-
-            
             for (let subDialect of data[index][`${subsetsIdx}`]){
 
                 dialectCode = subDialect['Dialect'].split(':')[0]
@@ -258,12 +251,14 @@ axios.get(url, ).then(function(response) {
     headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Host', 'Access', 'Tasks', 'Venue Type', 'Subsets']
     $('.loading-spinner').hide()
     
+    const subsetsIdx = headersWhiteList.indexOf("Subsets")
+
     // Grabbing row's values
     dataset = [];
     for (let i = 0; i < rowData.length; i++) {
         record = {};
         for (let j = 0; j < headersWhiteList.length; j++){
-            if (j != headersWhiteList.indexOf("Subsets"))
+            if (j != subsetsIdx)
                 record[j] = String(rowData[i][headersWhiteList[j]]);
             else
                 record[j] = rowData[i][headersWhiteList[j]];
@@ -277,13 +272,16 @@ axios.get(url, ).then(function(response) {
     var changedText = document.getElementById('myDropdown');
 
     document.getElementById('myDropdown').addEventListener('change', function() {
+
         if (this.value == "Venue Type")
             groupedBar(this.value) 
         else if(this.value == "Dialect"){
+
             let idx = headersWhiteList.indexOf("Dialect")
-            let subsetsIdx = headersWhiteList.indexOf("Subsets")
-            let series = getSeries(dataset, idx, ignoreOther = true, subsetsIdx = subsetsIdx)
+            let series = getSeries(dataset, idx, false, subsetsIdx)
+
             const [elements, counts] = getCounts(series)
+
             console.log(elements)
             console.log(counts)
             let groupData = []
@@ -302,10 +300,11 @@ axios.get(url, ).then(function(response) {
                 if (group.length > 0)
                     groupData.push({"name": "", "data":group})
             }
+
             console.log(groupData)
             createMap(groupData)
-        }
-        else{
+
+        } else{
             plotBar(this.value)
         }   
     });
