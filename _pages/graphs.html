@@ -1,5 +1,5 @@
 ---
-permalink: /charting
+permalink: /graphs
 layout: default
 foot_scripts:
     - https://cdn.amcharts.com/lib/5/index.js
@@ -9,11 +9,11 @@ foot_scripts:
     - https://cdn.jsdelivr.net/npm/chart.js
     - /assets/js/palette.js
     - /assets/js/amcharts.js
-    - /assets/js/charting.js
+    - /assets/js/graphs.js
 ---
 <link
     rel="stylesheet"
-    href="/assets/css/charting.css"
+    href="/assets/css/graphs.css"
 />
 <section
     style="background: linear-gradient(180deg, #fffefc -54.51%, #fff8f0 99.98%)"
@@ -34,7 +34,7 @@ foot_scripts:
 
         <div class="dropdown">
             <select id="myDropdown">
-            <option value="" selected disabled>Select Attribute</option>
+            {%- comment -%} <option value="" selected disabled>Select Attribute</option> {%- endcomment -%}
             <option value="Host">Host</option>
             <option value="Year">Year</option>
             <option value="Access">Access</option>

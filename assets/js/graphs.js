@@ -1,245 +1,321 @@
 const url = "https://masader-web-service.herokuapp.com/datasets";
-const urlEmbClus =
-    "https://masader-web-service.herokuapp.com/datasets?features=Cluster,Embeddings";
 
-function reformat_numbers(num) {
-    if (num === undefined) return "";
-    values = num.split(",");
-    if (values.length < 2) {
-        return num;
-    } else if (values.length == 2) {
-        return values[0] + "K";
-    } else return values[0] + "M";
+let headersWhiteList;
+let dataset;
+let myChart = null;
+titles = {
+    'License':'Most appearing licenses in the datasets',
+    'Year':'Number of datasets published every year',
+    'Dialect':'Distribution of the resources with respect of each country',
+    'Domain':'Most appearing domains in the dataests',
+    'Form':'Percentage of Text and Spoken datasets',
+    'Ethical Risks':'Ethical risks of Arabic NLP datasets',
+    'Script':'Scripts of writing Arabic NLP datasets',
+    'Host':'Counts of repostories used to host NLP datasets', 
+    'Access':'How easy to access most of the data. Upon-Request: means usually the dataset requires registeration, sharing info, email, etc.',
+    'Tasks':'Most frequent NLP tasks in the datasets truncated to most 20',
+    'Venue Type':'What kind of venues are used to publish NLP datasets'
+    
 }
+function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1){
+    let series = []
 
-function reformat_dialect(dialect) {
-    if (dialect.trim() != "other") {
-        dialect = dialect.split(":")[0];
-        dialect = dialect.split("-")[1];
-    }
+    for (let index = 0; index < data.length; index++) {
 
-    return dialect;
-}
+        if(data[index][idx] === undefined)
+            continue
 
-function reformat_tasks(tasks) {
-    let out_html = "";
-
-    tasks = tasks.split(",");
-    for (let j = 0; j < tasks.length; j += 1) {
-        out_html += tasks[j] + "</br>";
-    }
-
-    return out_html;
-}
-
-function createHtml(i) {
-    let div = '<div style="font-family: Cairo, "Open Sans"> ';
-    let table = '<table style="border-collapse: collapse; border: none;">';
-    let html_out = div + table;
-    let list_to_show = ["Name", "Year", "Dialect", "Volume", "Tasks"];
-    for (let j = 0; j < list_to_show.length; j += 1) {
-        let index_to_header = headersWhiteList.indexOf(list_to_show[j]);
-        let header = headersWhiteList[index_to_header];
-        let value = " " + dataset[i][index_to_header];
-        html_out += '<tr style="border: none;">';
-        html_out += '<td style="border: none;">';
-        html_out += "<b>" + header + "</b>";
-        html_out += "</td>";
-        html_out += '<td style="border: none;">';
-
-        if (header == "Volume") {
-            html_out +=
-                reformat_numbers(value) + " " + dataset[i][index_to_header + 1];
-        } else if (header == "Name") {
-            html_out += `<a href = "">${value}</a>`;
-        } else if (header == "Dialect") {
-            html_out += reformat_dialect(value);
-        } else if (header == "Tasks") {
-            html_out += reformat_tasks(value);
-        } else {
-            html_out += value;
+        if (ignoreOther){
+            if (['other', 'unknown', 'nan'].includes(data[index][idx]))
+                continue
         }
 
-        html_out += "</td>";
-        html_out += "</tr>";
+        if (headersWhiteList[idx] == 'Tasks')
+        {
+            let tasks = data[index][idx].split(",");
+            for (let index = 0; index < tasks.length; index++) {
+                series.push(tasks[index].trim())
+            }
+
+        } else if(headersWhiteList[idx] == 'Dialect')
+        {
+
+            let dialect = data[index][idx]
+            if (dialect != 'other')
+            {
+                dialect = dialect.split(':')[0]
+                dialect = dialect.split('-')[1]
+            }
+
+            // Subsets
+            for (let subDialect of data[index][`${subsetsIdx}`]){
+
+                dialectCode = subDialect['Dialect'].split(':')[0]
+                dialectCode = dialectCode.split('-')[1]
+                
+                if (dialectCode)
+                    series.push(dialectCode.trim())
+
+            }
+
+            series.push(dialect.trim())
+
+        }
+        else
+        {
+            series.push(data[index][idx].trim())
+        }
+        
+                 
     }
 
-    return html_out + "</table>" + "</div>";
+    return series
 }
+function groupedBar()
+{
+    $("#myChart").show();
+    $("#chartdiv").hide();
 
-const reteriveClustersEmbeddings = async () => {
-    return await axios.get(urlEmbClus).then(function (response) {
-        info = { embeddings: [], clusters: [] };
-        response.data.forEach((r) => {
-            info.embeddings.push(r.Embeddings);
-            info.clusters.push(r.Cluster);
-        });
-        console.log(info);
-        return info;
-    });
-};
+    if (myChart != null)
+    {
+        myChart.destroy();
+    }
 
-axios
-    .get(url)
-    .then(async function (response) {
-        let rowData = response.data;
+    let datasets = []
+    let year_idx = headersWhiteList.indexOf('Year')
+    let venue_idx = headersWhiteList.indexOf('Venue Type')
 
-        headersWhiteList = [
-            "Name",
-            "Link",
-            "License",
-            "Year",
-            "Language",
-            "Dialect",
-            "Domain",
-            "Form",
-            "Volume",
-            "Unit",
-            "Ethical Risks",
-            "Script",
-            "Access",
-            "Tasks",
-            "Venue Type",
-        ];
-        $(".loading-spinner").hide();
+    let all_venue_types = Array.from(new Set(getSeries(dataset, venue_idx)))
+    let all_years = Array.from(new Set(getSeries(dataset, year_idx))).sort()
+    
+    let color_theme = palette('tol-dv', all_venue_types.length).map(
+        function(hex) {
+            return '#' + hex;
+    })
+    for (var i = 0; i < all_venue_types.length; i++)
+    {
+        series = []
+        let venue_name = all_venue_types[i]
 
-        // Grabbing row's values
-        dataset = [];
-        for (let i = 0; i < rowData.length; i++) {
-            record = {};
-            for (let j = 0; j < headersWhiteList.length; j++)
-                record[j] = rowData[i][headersWhiteList[j]];
-
-            dataset.push(record);
+        for (let index = 0; index < dataset.length; index++) {
+            if(dataset[index][venue_idx] === undefined || dataset[index][year_idx] === undefined)
+                continue
+            if (dataset[index][venue_idx].trim() == venue_name)
+            {
+                series.push(dataset[index][year_idx].trim())
+            }           
         }
 
-        const info = await reteriveClustersEmbeddings();
-        var embeddings = info.embeddings;
-        var clusters = info.clusters;
+        const [elements, counts] = getCounts(series)
 
-        let box = document.querySelector(".box");
-        const width = box.offsetWidth;
-        const height = 500;
+        let ex_counts = []
 
-        var svg = d3.select("svg");
-        var dimension = document.body.getBoundingClientRect();
+        for (let index = 0; index < all_years.length; index++) {
+            let year = all_years[index]
+            let count_index = elements.indexOf(year)
+            if (count_index > -1)
+                ex_counts.push(counts[count_index])                
+            else
+                ex_counts.push(0)
 
-        var tooltip = d3
-            .select("body")
-            .append("div")
-            .style("position", "absolute")
-            .style("background-color", "white")
-            .style("border", "solid")
-            .style("border-width", "1px")
-            .style("border-radius", "5px")
-            .style("padding", "10px")
-            .style("z-index", "10")
-            .style("visibility", "hidden");
-        var data = d3.range(0, embeddings.length).map(function (d) {
-            return {
-                x: embeddings[d][1],
-                y: embeddings[d][0],
-            };
+        }
+
+        let colors = []
+
+        for (let _ in ex_counts)
+        {
+            colors.push(color_theme[i])
+        }
+
+        datasets.push({
+            label: venue_name,
+            data: ex_counts,
+            backgroundColor: colors
         });
 
-        let xs = [...data].map((d => d.x));
-        let ys = [...data].map((d => d.y));
-        let xma = Math.ceil(Math.max(0, ...xs)+5)
-        let xmi = Math.ceil(Math.min(0, ...xs)-5)
-        let yma = Math.ceil(Math.max(0, ...ys)+5)
-        let ymi = Math.ceil(Math.min(0, ...ys)-5)
+    }
+    const chartdata = {
+        labels: all_years,
+        datasets: datasets
+    }
 
-        var x = d3.scaleLinear().domain([xmi, xma]).range([0, width]);
-
-        // Add Y axis
-        var y = d3.scaleLinear().domain([ymi, yma]).range([height, 0]);
-
-        var zoom = d3
-            .zoom()
-            .scaleExtent([0.5, 10]) // This control how much you can unzoom (x0.5) and zoom (x20)
-            .extent([
-                [0, 0],
-                [width, height],
-            ])
-            .on("zoom", updateChart);
-
-        var svg = d3
-            .select("svg")
-            .attr("width", width)
-            .attr("height", height)
-            .style("background", "white")
-            .attr("style", "outline: thin solid gray;")
-            .call(zoom); // Adds zoom functionality
-
-        var canvas = svg.append("g").attr("class", "zoomable");
-
-        function updateChart() {
-            if (canvas) {
-                canvas.attr("transform", d3.event.transform);
-                // recover the new scale
-                var newX = d3.event.transform.rescaleX(x);
-                var newY = d3.event.transform.rescaleY(y);
-
-                // update circle position
-                canvas
-                    .selectAll("circle")
-                    .attr("cx", function (d) {
-                        return newX(d.x);
-                    })
-                    .attr("cy", function (d) {
-                        return newY(d.y);
-                    });
+    var canvas = document.getElementById("myChart");
+    var config = {
+        type: 'bar',
+        data: chartdata,
+        options: {
+            plugins: {
+                title: {
+                    display: true,
+                    text: titles['Venue Type'],
+                }
             }
         }
+    }
+    myChart = new Chart(canvas, config);
+}
 
-        canvas
-            .selectAll("circle")
-            .data(data)
-            .enter()
-            .append("circle")
-            .attr("r", function (_, i, n) {
-                let vol_index = headersWhiteList.indexOf("Volume");
-                try {
-                    let volume = parseInt(dataset[i][vol_index].replaceAll(",", ""));
-                    if (isNaN(volume)) {
-                        return 10;
-                    } else return Math.log(volume);
-                } catch (err) {
-                    return 10;
+function plotBar(col, truncate = 20)
+{
+    $("#myChart").show();
+    $("#chartdiv").hide();
+    if (myChart != null)
+    {
+        myChart.destroy();
+    }
+    let idx = headersWhiteList.indexOf(col)
+    let series = getSeries(dataset, idx)
+
+    var [elements, counts] = getCounts(series)
+
+    elements = elements.slice(0, truncate)
+    counts   = counts.slice(0, truncate)
+
+    const chartdata = {
+        labels: elements,
+        datasets: [{
+            axis: 'y',
+            label:headersWhiteList[idx],
+            data: counts,
+            backgroundColor: palette('tol-dv', counts.length).map(
+                function(hex) {
+                    return '#' + hex;
+            })
+        }]
+    }
+    var canvas = document.getElementById("myChart");
+    var config = {
+        type: 'bar',
+        data: chartdata,
+        options: {
+            plugins: {
+                autocolors: {
+                mode: 'data'
+                },
+                title: {
+                    display: true,
+                    text: titles[col],
                 }
-            })
-            .attr("opacity", 0.8)
-            .attr("cx", function (d) {
-                return x(d.x);
-            })
-            .attr("cy", function (d) {
-                return y(d.y);
-            })
-            .style("fill", function (_, i, n) {
-                const index = clusters[i];
-                return d3.schemeCategory20[index];
-            })
-            .on("mouseover", function (_, i, n) {
-                tooltip = tooltip.html(createHtml(i));
-                d3.select(this).style("stroke", "#eaeaea");
-                d3.select(this).style("stroke-width", "5");
-                return tooltip.style("visibility", "visible");
-            })
-            .on("mousemove", function () {
-                return tooltip
-                    .style("top", event.pageY - 10 + "px")
-                    .style("left", event.pageX + 10 + "px");
-            })
-            .on("mouseout", function () {
-                d3.select(this).style("stroke", "white");
-                d3.select(this).style("stroke-width", "0");
-                return tooltip.style("visibility", "hidden");
-            })
-            .on("click", function (_, i, n) {
-                let url = "card.html?" + i;
-                window.open(url, "_blank").focus();
-            });
-    })
-    .catch(function (error) {
-        console.log(error);
+            }
+        }
+    }
+    myChart = new Chart(canvas, config);
+}
+
+//https://gist.github.com/boukeversteegh/3219ffb912ac6ef7282b1f5ce7a379ad
+function sortArrays(arrays, comparator = (a, b) => (a > b) ? -1 : (a < b) ? 1 : 0) {
+    let arrayKeys = Object.keys(arrays);
+    let sortableArray = Object.values(arrays)[0];
+    let indexes = Object.keys(sortableArray);
+    let sortedIndexes = indexes.sort((a, b) => comparator(sortableArray[a], sortableArray[b]));
+  
+    let sortByIndexes = (array, sortedIndexes) => sortedIndexes.map(sortedIndex => array[sortedIndex]);
+  
+    if (Array.isArray(arrays)) {
+      return arrayKeys.map(arrayIndex => sortByIndexes(arrays[arrayIndex], sortedIndexes));
+    } else {
+      let sortedArrays = {};
+      arrayKeys.forEach((arrayKey) => {
+        sortedArrays[arrayKey] = sortByIndexes(arrays[arrayKey], sortedIndexes);
+      });
+      return sortedArrays;
+    }
+  }
+
+function getCounts(array, sorting = true)
+{
+    let labels = [],
+    counts = [],
+    arr = [...array], // clone array so we don't change the original when using .sort()
+    prev;
+
+    arr.sort();
+    for (let element of arr) {
+        if (element !== prev) {
+            labels.push(element);
+            counts.push(1);
+        }
+        else ++counts[counts.length - 1];
+        prev = element;
+    }
+    if (sorting)
+    {
+        [counts, labels] = sortArrays([counts, labels]) 
+    }
+    return [labels, counts];
+}
+
+axios.get(url, ).then(function(response) {
+    let rowData = response.data
+
+    headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Host', 'Access', 'Tasks', 'Venue Type', 'Subsets']
+    $('.loading-spinner').hide()
+    
+    const subsetsIdx = headersWhiteList.indexOf("Subsets")
+
+    // Grabbing row's values
+    dataset = [];
+    for (let i = 0; i < rowData.length; i++) {
+        record = {};
+        for (let j = 0; j < headersWhiteList.length; j++){
+            if (j != subsetsIdx)
+                record[j] = String(rowData[i][headersWhiteList[j]]);
+            else
+                record[j] = rowData[i][headersWhiteList[j]];
+
+        }
+
+        dataset.push(record);
+    }
+    
+    console.log(dataset)
+    var changedText = document.getElementById('myDropdown');
+
+    document.getElementById('myDropdown').addEventListener('change', function() {
+
+        if (this.value == "Venue Type")
+            groupedBar(this.value) 
+        else if(this.value == "Dialect"){
+
+            let idx = headersWhiteList.indexOf("Dialect")
+            let series = getSeries(dataset, idx, false, subsetsIdx)
+
+            const [elements, counts] = getCounts(series)
+
+            console.log(elements)
+            console.log(counts)
+            let groupData = []
+
+            for (let i = 0; i <  counts[0]; i++){
+                let group = []
+
+                for (let j = 0; j < counts.length; j++) {
+                    if (counts[j] == i)
+                    {
+                        if (elements[j] != "MSA" &&  elements[j] != "CLS")
+                            group.push({"id":elements[j], "joined": i + ""})
+                    }
+                }
+                
+                if (group.length > 0)
+                    groupData.push({"name": "", "data":group})
+            }
+
+            console.log(groupData)
+            createMap(groupData)
+
+        } else{
+            plotBar(this.value)
+        }   
     });
+    // update myDropdown with the first option
+    changedText.value = "Host";
+    plotBar("Host");
+
+})
+.catch(function(error) {
+    console.log(error);
+});
+    
+
+  

@@ -3,8 +3,8 @@ nav:
   title: Arabic NLP Data Catalouge
   tabs:
     - title: Explore
-      url: /nodes
+      url: /explore
     - title: Graphs
-      url: /charting
+      url: /graphs
     - title: Contribute
       url: https://forms.gle/JnMrJjHumT6ktK9cA
