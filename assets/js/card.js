@@ -54,18 +54,19 @@ async function onSendReportBtnClicked(){
   let issueForm = document.getElementById('issueMessage');
   const cardId = new URL(window.location.href).searchParams.get('id'); 
 
-  const response = await fetch(`${url}${cardId}/issues/`, {
+  const response = await fetch(`${url}${cardId}/issues`, {
     method: 'POST',
-    body: JSON.stringify({message: issueForm.value}),
+    body: JSON.stringify({body: issueForm.value}),
     headers: {'Content-Type': 'application/json'} 
   });
 
   if (response.ok){
+    const responseData = await response.json()
 
     onReportBtnClicked();
     issueForm.value = "";
     tata.success('Issues opend succesfully',
-        'Thank you for openeing this issue, we will attempt to resolve it as soon as possible');
+        `Thank you for openeing this issue, you can track this issue at ${responseData['issue_url']}`);
 
   }else {
 
