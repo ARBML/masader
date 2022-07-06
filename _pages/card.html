@@ -2,6 +2,7 @@
 permalink: /card
 layout: default
 foot_scripts:
+    - /assets/js/tata.js
     - /assets/js/card.js
 ---
 
@@ -32,7 +33,7 @@ foot_scripts:
             <button id="reportBtn" class="accordion-button badge bg-danger mb-3 d-block reportBtns"> Report issues with this card</button>
             
             <div id="reportForm">
-            <textarea rows="6em" class="reportData"></textarea>
+            <textarea rows="6em" class="reportData" id="issueMessage"></textarea>
             <button id="sendReportBtn" class="accordion-button badge bg-success d-block mt-3 mb-3 reportBtns"> Report</button>
         </div>
     </div>

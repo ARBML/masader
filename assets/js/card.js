@@ -1,4 +1,6 @@
 let url = "https://masader-web-service.herokuapp.com/datasets/";
+let isReportFormOpen = false;
+
 $("#reportForm").hide();
 
 function linkuize(text, link) {
@@ -47,7 +49,31 @@ function onReportBtnClicked(){
 
 }
 
-let isReportFormOpen = false;
+async function onSendReportBtnClicked(){
+    
+  let issueForm = document.getElementById('issueMessage');
+  const cardId = new URL(window.location.href).searchParams.get('id'); 
+
+  const response = await fetch(`${url}${cardId}/issues/`, {
+    method: 'POST',
+    body: JSON.stringify({message: issueForm.value}),
+    headers: {'Content-Type': 'application/json'} 
+  });
+
+  if (response.ok){
+
+    onReportBtnClicked();
+    issueForm.value = "";
+    tata.success('Issues opend succesfully',
+        'Thank you for openeing this issue, we will attempt to resolve it as soon as possible');
+
+  }else {
+
+    tata.error('Error during opening the issue', 'Please try again later, or contact us via our discord server');
+
+  }
+
+}
 
 // get id from page parameters
 const urlParams = new URLSearchParams(window.location.search);
@@ -152,3 +178,4 @@ axios
   });
 
   document.getElementById("reportBtn").addEventListener("click", onReportBtnClicked);
+  document.getElementById("sendReportBtn").addEventListener("click", onSendReportBtnClicked);

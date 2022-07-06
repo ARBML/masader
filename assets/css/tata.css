@@ -1,0 +1,295 @@
+.tata {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 16px;
+  z-index: 9999;
+  pointer-events: auto;
+  padding: 12px 14px 12px 20px;
+  box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.tata:hover {
+  opacity: 1;
+}
+
+.tata * {
+  box-sizing: border-box;
+}
+
+.tata .tata-icon {
+  font-size: 2em;
+  color: inherit;
+}
+
+.tata .tata-body {
+  margin: 0;
+  padding: 0 14px;
+  min-height: 38px;
+  min-width: 260px;
+}
+
+.tata .tata-title {
+  margin: 0 0 2px 0;
+  font-size: 1em;
+}
+
+.tata .tata-text {
+  margin: 0;
+  font-size: .9em;
+}
+
+.tata .tata-close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+}
+
+.tata-progress {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  border-radius: 0 0 3px 3px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.tata .tata-close:hover {
+  opacity: 0.4;
+}
+
+.tata.top-right {
+  top: 12px;
+  right: 12px;
+}
+
+.tata.top-mid {
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tata.top-left {
+  top: 12px;
+  left: 12px;
+}
+
+.tata.bottom-right {
+  right: 12px;
+  bottom: 18px;
+}
+
+.tata.bottom-mid {
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+}
+
+.tata.bottom-left {
+  bottom: 18px;
+  left: 12px;
+}
+
+.tata.mid-right {
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+.tata.mid-left {
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+}
+
+.tata.mid-mid {
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tata.text {
+  color: #fff;
+  background: #323232;
+}
+
+.tata.log {
+  color: #333333;
+  background: #fffffc;
+}
+
+.tata.info {
+  background: #2ca9e1;
+}
+
+.tata.warn {
+  background: #f89406;
+}
+
+.tata.error {
+  background: #e9546b;
+}
+
+.tata.success {
+  background: #38b48b;
+}
+
+.tata.fade-in {
+  animation: .4s ease-in fadeIn forwards;
+}
+
+.tata.fade-out {
+  animation: .4s linear fadeOut forwards;
+}
+
+.tata.slide-right-in {
+  animation: .4s ease slideRightIn forwards;
+}
+
+.tata.slide-right-out {
+  animation: .4s ease slideRightOut forwards;
+}
+
+.tata.slide-left-in {
+  animation: .4s ease slideLeftIn forwards;
+}
+
+.tata.slide-left-out {
+  animation: .4s ease slideLeftOut forwards;
+}
+
+.tata.slide-top-in {
+  animation: .4s ease slideTopIn forwards;
+}
+
+.tata.slide-top-out {
+  animation: .4s ease slideTopOut forwards;
+}
+
+.tata.slide-bottom-in {
+  animation: .4s ease slideBottomIn forwards;
+}
+
+.tata.slide-bottom-out {
+  animation: .4s ease slideBottomOut forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slideRightIn {
+  from {
+    right: -310px;
+  }
+
+  to {
+    right: 12px;
+  }
+}
+
+@keyframes slideRightOut {
+  from {
+    right: 12px;
+  }
+
+  to {
+    right: -310px;
+  }
+}
+
+@keyframes slideLeftIn {
+  from {
+    left: -310px;
+  }
+
+  to {
+    left: 12px;
+  }
+}
+
+@keyframes slideLeftOut {
+  from {
+    left: 12px;
+  }
+
+  to {
+    left: -310px;
+  }
+}
+
+@keyframes slideTopIn {
+  from {
+    top: calc(-100% + -12px);
+  }
+  to {
+    top: 12px;
+  }
+}
+
+@keyframes slideTopOut {
+  from {
+    top: 12px;
+  }
+  to {
+    top: calc(-100% + -12px);
+  }
+}
+
+@keyframes slideBottomIn {
+  from {
+    bottom: calc(-100% + -18px);
+  }
+  to {
+    bottom: 18px;
+  }
+}
+
+@keyframes slideBottomOut {
+  from {
+    bottom: 18px;
+  }
+  to {
+    bottom: calc(-100% + -18px);
+  }
+}
+
+@keyframes reduceWidth {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 0%;
+  }
+}
