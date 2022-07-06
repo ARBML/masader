@@ -7,6 +7,14 @@ function linkuize(text, link) {
         return ""
 }
 
+function getCountry(text) {
+  text = text.split("(");
+  text = text[text.length - 1].split(")")[0];
+  if (text == "Modern Standard Arabic") {
+    return "MSA";
+  }
+  return text;
+}
 
 function getIcon(text){
     const lower = text.toLowerCase()
@@ -88,7 +96,7 @@ axios.get(url, {
       1: linkuize(row["Name"], `card?id=${index + 1}`),
       2: link_host,
       3: row["Year"],
-      4: row["Dialect"] != "nan" ? row["Dialect"] : "",
+      4: getCountry(row["Dialect"] != "nan" ? row["Dialect"] : ""),
       5: row["Volume"] != "nan"  ? row["Volume"] : "",
       6: row["Unit"] != "nan" ? row["Unit"] : "",
       7: linkuize(row["Paper Title"], row["Paper Link"]),
@@ -117,7 +125,7 @@ axios.get(url, {
       pagingType: "numbers",
       bInfo: false,
       createdRow: function (row, data, dataIndex) {
-        $("td:eq(8)", row).css("min-width", "200px");
+        $("td:eq(9)", row).css("min-width", "200px");
       },
     });
   });
