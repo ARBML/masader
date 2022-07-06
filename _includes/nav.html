@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand text-danger fw-bold text-center" href="/">
+    <a class="navbar-brand text-danger fw-bold text-center" href="{{ site.baseurl }}/">
       <img
         class="d-inline-block align-text-top"
-        src="{{ site.data.page.nav.logo }}"
+        src="{{ site.baseurl }}/{{ site.data.page.nav.logo }}"
         width ="150px"
         alt="arb-ml-logo"
       />
@@ -22,7 +22,7 @@
 <li class = "nav-item">
     <a
         class="nav-link text-danger fw-bold"
-        href="{{ tab.url }}"
+        href="{{ site.baseurl }}{{ tab.url }}"
         >{{ tab.title }}</a
         ></li>
 {% endfor %}

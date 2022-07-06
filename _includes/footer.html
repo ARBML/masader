@@ -4,7 +4,7 @@
             <div class="col-md-5">
                 <img
                 class="w-100 w-lg-75 d-none d-md-block"
-                src="{{ site.data.metadata.logo_url }}"
+                src="{{ site.baseurl }}/{{ site.data.metadata.logo_url }}"
                 width="320"
                 alt="Image that contain the logo of arbML"
                 />
@@ -16,7 +16,7 @@
                 </h1>
                 <a
                 class="btn btn-lg hover btn-gradient"
-                href="{{ site.data.metadata.contributing_url }}"
+                href="{{ site.baseurl }}/{{ site.data.metadata.contributing_url }}"
                 >Instructions</a
                 >
             </div>
@@ -37,5 +37,9 @@
 <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"></script>
 
 {% for item in page.foot_scripts %}
-    <script src="{{ item }}"></script>
+    {% if item contains '://' %}
+        <script src="{{ item }}"></script>
+    {% else %}
+        <script src="{{ site.baseurl }}/{{ item }}"></script>
+    {% endif %}
 {% endfor %}

@@ -2,7 +2,7 @@ title: "مصادر | masader"
 email: your-email@example.com
 description: >- 
   The largest public catalogue for Arabic NLP and speech datasets. There are more than 200 datasets annotated with more than 25 attributes.
-baseurl: ""
+baseurl: "/masader"
 url: ""
 twitter_username: jekyllrb
 github_username:  jekyll
