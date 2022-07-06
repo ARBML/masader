@@ -17,14 +17,13 @@ titles = {
     'Venue Type':'What kind of venues are used to publish NLP datasets'
     
 }
-function getSeries(data, idx, ignoreOther = true){
-
+function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1){
     let series = []
 
     for (let index = 0; index < data.length; index++) {
         if(data[index][idx] === undefined)
             continue
-        if (ignoreOther){
+        if (ignoreOther && subsetsIdx == -1){
             if (['other', 'unknown', 'nan'].includes(data[index][idx]))
                 continue
         }
@@ -38,13 +37,34 @@ function getSeries(data, idx, ignoreOther = true){
         }
         else if(headersWhiteList[idx] == 'Dialect')
         {
+            console.log('-------------------')
+            console.log(data)
+            console.log(index)
+
             let dialect = data[index][idx]
             if (dialect != 'other')
             {
                 dialect = dialect.split(':')[0]
                 dialect = dialect.split('-')[1]
             }
+
+            // Subsets
+            console.log("d/dt");
+            console.log(data[index]);
+            console.log(data[index][subsetsIdx]);
+            console.log('-------------------')
+
             
+            for (let subDialect of data[index][`${subsetsIdx}`]){
+
+                dialectCode = subDialect['Dialect'].split(':')[0]
+                dialectCode = dialectCode.split('-')[1]
+                
+                if (dialectCode)
+                    series.push(dialectCode.trim())
+
+            }
+
             series.push(dialect.trim())
 
         }
@@ -235,15 +255,20 @@ function getCounts(array, sorting = true)
 axios.get(url, ).then(function(response) {
     let rowData = response.data
 
-    headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Host', 'Access', 'Tasks', 'Venue Type']
+    headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Host', 'Access', 'Tasks', 'Venue Type', 'Subsets']
     $('.loading-spinner').hide()
     
     // Grabbing row's values
     dataset = [];
     for (let i = 0; i < rowData.length; i++) {
         record = {};
-        for (let j = 0; j < headersWhiteList.length; j++)
-            record[j] = String(rowData[i][headersWhiteList[j]]);
+        for (let j = 0; j < headersWhiteList.length; j++){
+            if (j != headersWhiteList.indexOf("Subsets"))
+                record[j] = String(rowData[i][headersWhiteList[j]]);
+            else
+                record[j] = rowData[i][headersWhiteList[j]];
+
+        }
 
         dataset.push(record);
     }
@@ -256,7 +281,8 @@ axios.get(url, ).then(function(response) {
             groupedBar(this.value) 
         else if(this.value == "Dialect"){
             let idx = headersWhiteList.indexOf("Dialect")
-            let series = getSeries(dataset, idx)
+            let subsetsIdx = headersWhiteList.indexOf("Subsets")
+            let series = getSeries(dataset, idx, ignoreOther = true, subsetsIdx = subsetsIdx)
             const [elements, counts] = getCounts(series)
             console.log(elements)
             console.log(counts)
