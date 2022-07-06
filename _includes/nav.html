@@ -19,12 +19,22 @@
     >
       <ul class="navbar-nav ">
 {% for tab in site.data.page.nav.tabs %}
-<li class = "nav-item">
-    <a
-        class="nav-link text-danger fw-bold"
-        href="{{ site.baseurl }}{{ tab.url }}"
-        >{{ tab.title }}</a
-        ></li>
+
+    {% if tab.url contains '://' %}
+        <li class = "nav-item">
+            <a
+                class="nav-link text-danger fw-bold"
+                href="{{ tab.url }}"
+                >{{ tab.title }}</a
+                ></li>
+    {% else %}
+        <li class = "nav-item">
+            <a
+                class="nav-link text-danger fw-bold"
+                href="{{ site.baseurl }}{{ tab.url }}"
+                >{{ tab.title }}</a
+                ></li>
+    {% endif %}
 {% endfor %}
 
 <li class = "nav-item">
