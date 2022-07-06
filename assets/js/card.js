@@ -1,4 +1,7 @@
 let url = "https://masader-web-service.herokuapp.com/datasets/";
+let isReportFormOpen = false;
+
+$("#reportForm").hide();
 
 function linkuize(text, link) {
     return `<a href = "${link}" target="_blank"> ${text}</a>`
@@ -29,6 +32,50 @@ function itemize(text) {
     output += "</ul>"
     return output
 }
+
+function onReportBtnClicked(){
+
+  if (isReportFormOpen){
+    document.getElementById("reportBtn").innerHTML = "Report issues with this card";
+    $("#reportForm").hide();
+
+  }else{
+    document.getElementById("reportBtn").innerHTML = "Close";
+    $("#reportForm").show();
+
+  }
+
+  isReportFormOpen = !isReportFormOpen;
+
+}
+
+async function onSendReportBtnClicked(){
+    
+  let issueForm = document.getElementById('issueMessage');
+  const cardId = new URL(window.location.href).searchParams.get('id'); 
+
+  const response = await fetch(`${url}${cardId}/issues`, {
+    method: 'POST',
+    body: JSON.stringify({body: issueForm.value}),
+    headers: {'Content-Type': 'application/json'} 
+  });
+
+  if (response.ok){
+    const responseData = await response.json()
+
+    onReportBtnClicked();
+    issueForm.value = "";
+    tata.success('Issues opend succesfully',
+        `Thank you for openeing this issue, you can track this issue at ${responseData['issue_url']}`);
+
+  }else {
+
+    tata.error('Error during opening the issue', 'Please try again later, or contact us via our discord server');
+
+  }
+
+}
+
 // get id from page parameters
 const urlParams = new URLSearchParams(window.location.search);
 const card_id = urlParams.get('id');
@@ -130,3 +177,6 @@ axios
   .catch(function (error) {
     console.log(error);
   });
+
+  document.getElementById("reportBtn").addEventListener("click", onReportBtnClicked);
+  document.getElementById("sendReportBtn").addEventListener("click", onSendReportBtnClicked);
