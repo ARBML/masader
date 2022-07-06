@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+.vscode
+.pytest_cache
+.hypothesis
+Gemfile.lock

@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand text-danger fw-bold text-center" href="/">
+      <img
+        class="d-inline-block align-text-top"
+        src="{{ site.data.page.nav.logo }}"
+        width ="150px"
+        alt="arb-ml-logo"
+      />
+      {{ site.data.page.nav.title }}
+
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNav"
+    >
+      <ul class="navbar-nav ">
+{% for tab in site.data.page.nav.tabs %}
+<li class = "nav-item">
+    <a
+        class="nav-link text-danger fw-bold"
+        href="{{ tab.url }}"
+        >{{ tab.title }}</a
+        ></li>
+{% endfor %}
+
+<li class = "nav-item">
+    <a
+        class="btn btn-link btn-gradient"
+        href="https://github.com/ARBML/masader"
+        ><i class="fa-brands fa-github"></i> GitHub</a
+    >
+</li>
+</ul>
+
+</div>
+</nav>
