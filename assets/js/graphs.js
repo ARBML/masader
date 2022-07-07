@@ -263,6 +263,14 @@ axios.get(url, ).then(function(response) {
     let rowData = response.data
 
     headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Host', 'Access', 'Tasks', 'Venue Type', 'Subsets']
+    headersWhiteList = headersWhiteList.concat([
+        'Name',
+        'Link',
+        'Volume',
+        'Unit',
+        'Paper Link',
+      ]);
+
     $('.loading-spinner').hide()
     
     const subsetsIdx = headersWhiteList.indexOf("Subsets")
@@ -320,7 +328,6 @@ axios.get(url, ).then(function(response) {
 
             let headers = [];
             let headersViewWhiteList = [
-              "No.",
               "Name",
               "Link",
               "Year",
@@ -334,8 +341,8 @@ axios.get(url, ).then(function(response) {
 
             for (let i = 0; i < headersViewWhiteList.length; i++) {
                 headers.push({
-                  index: i,
-                  title: headersWhiteList[i],
+                  index: i+1,
+                  title: headersViewWhiteList[i],
                 });
               }
               

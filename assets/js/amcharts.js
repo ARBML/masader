@@ -1,13 +1,16 @@
 function transformDataToTableEntry(dataset, headers){
 
   let formateedDataset = []
+  let idx = 0;
 
   for (const e of dataset){
     let entry = {}
 
-    for (const e2 of headers){
+    entry[0] = idx++;
+
+    for (const e2 of headers)
       entry[Object.keys(entry).length] = e[e2['title']];
-    }
+    
 
     formateedDataset.push(entry);
 
@@ -21,6 +24,14 @@ function populateTable(dataset, headers){
     $("#table").show();
 
     dataset = transformDataToTableEntry(dataset, headers);
+
+    headers = [
+      {
+        index: 0,
+        title: 'No.'
+      }
+      ].concat(headers);
+
 
     $("#table").DataTable({
       data: dataset,
