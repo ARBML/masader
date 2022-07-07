@@ -290,7 +290,7 @@ axios.get(url, ).then(function(response) {
     var changedText = document.getElementById('myDropdown');
 
     document.getElementById('myDropdown').addEventListener('change', function() {
-        $("#table").hide();
+        $("#table_wrapper").hide();
 
         if (this.value == "Venue Type")
             groupedBar(this.value) 
