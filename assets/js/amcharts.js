@@ -16,7 +16,7 @@ function transformDataToTableEntry(dataset, headers){
 
       formateedDataset.push({
         0: ++idx,
-        1: linkuize(row["Name"], `card?id=${row["index"]}`), //TODO FIX THIS
+        1: linkuize(row["Name"], `card?id=${row["index"]}`),
         2: link_host,
         3: row["Year"],
         4: getCountry(row["Dialect"] != "nan" ? row["Dialect"] : ""),

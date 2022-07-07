@@ -281,7 +281,6 @@ axios.get(url, ).then(function(response) {
     for (let i = 0; i < rowData.length; i++) {
 
         record = {};
-        record['index'] = i;
 
         for (let j = 0; j < headersWhiteList.length; j++)
             if (j != subsetsIdx)
@@ -290,9 +289,7 @@ axios.get(url, ).then(function(response) {
                 record[j] = rowData[i][headersWhiteList[j]];
         
 
-        extractDilects(rowData[i]);
-        console.log("----");
-        console.log(record);
+        extractDilects({index:i, ...rowData[i]});
         dataset.push(record);
     }
     
@@ -351,6 +348,7 @@ axios.get(url, ).then(function(response) {
               }
               
 
+            console.log(dialectedEntries);
             createMap(groupData, dialectedEntries, headers);
 
         } else{
