@@ -289,7 +289,7 @@ axios.get(url, ).then(function(response) {
                 record[j] = rowData[i][headersWhiteList[j]];
         
 
-        extractDilects({index:i, ...rowData[i]});
+        extractDilects({index:i+1, ...rowData[i]});
         dataset.push(record);
     }
     
