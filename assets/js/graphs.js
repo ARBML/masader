@@ -281,6 +281,8 @@ axios.get(url, ).then(function(response) {
     for (let i = 0; i < rowData.length; i++) {
 
         record = {};
+        record['index'] = i;
+
         for (let j = 0; j < headersWhiteList.length; j++)
             if (j != subsetsIdx)
                 record[j] = String(rowData[i][headersWhiteList[j]]);
@@ -289,7 +291,8 @@ axios.get(url, ).then(function(response) {
         
 
         extractDilects(rowData[i]);
-
+        console.log("----");
+        console.log(record);
         dataset.push(record);
     }
     
@@ -328,6 +331,7 @@ axios.get(url, ).then(function(response) {
 
             let headers = [];
             let headersViewWhiteList = [
+              "No.",
               "Name",
               "Link",
               "Year",

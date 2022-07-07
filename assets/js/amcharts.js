@@ -1,18 +1,31 @@
+
 function transformDataToTableEntry(dataset, headers){
 
   let formateedDataset = []
   let idx = 0;
 
-  for (const e of dataset){
-    let entry = {}
+  for (const row of dataset){
 
-    entry[0] = idx++;
+      let link_host = linkuize(row["Host"], row["Link"]);
+      if (row["HF Link"] != "nan") {
+        link_host += "</br>" + linkuize(getIcon("hf"), row["HF Link"]);
+      }
 
-    for (const e2 of headers)
-      entry[Object.keys(entry).length] = e[e2['title']];
-    
+      console.log("----ROW");
+      console.log(row);
 
-    formateedDataset.push(entry);
+      formateedDataset.push({
+        0: ++idx,
+        1: linkuize(row["Name"], `card?id=${row["index"]}`), //TODO FIX THIS
+        2: link_host,
+        3: row["Year"],
+        4: getCountry(row["Dialect"] != "nan" ? row["Dialect"] : ""),
+        5: row["Volume"] != "nan"  ? row["Volume"] : "",
+        6: row["Unit"] != "nan" ? row["Unit"] : "",
+        7: linkuize(row["Paper Title"], row["Paper Link"]),
+        8: badgeRender(row["Access"]),
+        9: itemize(row["Tasks"]),
+      });
 
   }
 
@@ -24,14 +37,6 @@ function populateTable(dataset, headers){
     $("#table").show();
 
     dataset = transformDataToTableEntry(dataset, headers);
-
-    headers = [
-      {
-        index: 0,
-        title: 'No.'
-      }
-      ].concat(headers);
-
 
     $("#table").DataTable({
       data: dataset,
