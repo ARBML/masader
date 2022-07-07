@@ -3,6 +3,8 @@ const url = "https://masader-web-service.herokuapp.com/datasets";
 let headersWhiteList;
 let dataset;
 let myChart = null;
+let dialectedEntries = {}
+
 titles = {
     'License':'Most appearing licenses in the datasets',
     'Year':'Number of datasets published every year',
@@ -17,6 +19,11 @@ titles = {
     'Venue Type':'What kind of venues are used to publish NLP datasets'
     
 }
+
+function decodeDialect(dialect) {
+    return (dialect.split(':')[0]).split('-')[1];
+}
+
 function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1){
     let series = []
 
@@ -40,18 +47,12 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1){
         } else if(headersWhiteList[idx] == 'Dialect')
         {
 
-            let dialect = data[index][idx]
-            if (dialect != 'other')
-            {
-                dialect = dialect.split(':')[0]
-                dialect = dialect.split('-')[1]
-            }
+            let dialect = data[index][idx] != 'other'? decodeDialect(data[index][idx]) : 'other'
 
             // Subsets
             for (let subDialect of data[index][`${subsetsIdx}`]){
 
-                dialectCode = subDialect['Dialect'].split(':')[0]
-                dialectCode = dialectCode.split('-')[1]
+                dialectCode = decodeDialect( subDialect['Dialect']);
                 
                 if (dialectCode)
                     series.push(dialectCode.trim())
@@ -245,6 +246,17 @@ function getCounts(array, sorting = true)
     return [labels, counts];
 }
 
+function extractDilects(data){
+    const entryDialects = [decodeDialect(String(data['Dialect'])), ...data['Subsets'].map((d) => decodeDialect(d['Dialect']))];
+
+    for (const d of entryDialects)
+        if (d !== 'other')
+            if (dialectedEntries[d])
+                dialectedEntries[d].push(data);
+            else
+                dialectedEntries[d] = [data];
+}
+
 axios.get(url, ).then(function(response) {
     let rowData = response.data
 
@@ -255,19 +267,23 @@ axios.get(url, ).then(function(response) {
 
     // Grabbing row's values
     dataset = [];
+    
     for (let i = 0; i < rowData.length; i++) {
+
         record = {};
-        for (let j = 0; j < headersWhiteList.length; j++){
+        for (let j = 0; j < headersWhiteList.length; j++)
             if (j != subsetsIdx)
                 record[j] = String(rowData[i][headersWhiteList[j]]);
             else
                 record[j] = rowData[i][headersWhiteList[j]];
+        
 
-        }
+        extractDilects(rowData[i]);
 
         dataset.push(record);
     }
     
+    console.log(dialectedEntries);
     console.log(dataset)
     var changedText = document.getElementById('myDropdown');
 

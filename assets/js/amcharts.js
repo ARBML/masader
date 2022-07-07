@@ -93,6 +93,8 @@ function createMap(groupData) {
       ev.target.series.mapPolygons.each(function (polygon) {
         polygon.states.applyAnimate("hover");
       });
+
+      console.log(ev.target._dataItem.dataContext.id);
     });
 
     polygonSeries.mapPolygons.template.events.on("pointerout", function (ev) {
