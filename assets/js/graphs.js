@@ -5,6 +5,8 @@ let dataset;
 let myChart = null;
 let dialectedEntries = {}
 
+$("#table").hide();
+
 titles = {
     'License':'Most appearing licenses in the datasets',
     'Year':'Number of datasets published every year',
@@ -288,6 +290,7 @@ axios.get(url, ).then(function(response) {
     var changedText = document.getElementById('myDropdown');
 
     document.getElementById('myDropdown').addEventListener('change', function() {
+        $("#table").hide();
 
         if (this.value == "Venue Type")
             groupedBar(this.value) 
@@ -298,8 +301,6 @@ axios.get(url, ).then(function(response) {
 
             const [elements, counts] = getCounts(series)
 
-            console.log(elements)
-            console.log(counts)
             let groupData = []
 
             for (let i = 0; i <  counts[0]; i++){
@@ -317,8 +318,29 @@ axios.get(url, ).then(function(response) {
                     groupData.push({"name": "", "data":group})
             }
 
-            console.log(groupData)
-            createMap(groupData)
+            let headers = [];
+            let headersViewWhiteList = [
+              "No.",
+              "Name",
+              "Link",
+              "Year",
+              "Dialect",
+              "Volume",
+              "Unit",
+              "Paper Link",
+              "Access",
+              "Tasks",
+            ];
+
+            for (let i = 0; i < headersViewWhiteList.length; i++) {
+                headers.push({
+                  index: i,
+                  title: headersWhiteList[i],
+                });
+              }
+              
+
+            createMap(groupData, dialectedEntries, headers);
 
         } else{
             plotBar(this.value)

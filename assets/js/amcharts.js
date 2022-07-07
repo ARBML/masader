@@ -1,5 +1,46 @@
+function transformDataToTableEntry(dataset, headers){
 
-function createMap(groupData) {
+  let formateedDataset = []
+
+  for (const e of dataset){
+    let entry = {}
+
+    for (const e2 of headers){
+      entry[Object.keys(entry).length] = e[e2['title']];
+    }
+
+    formateedDataset.push(entry);
+
+  }
+
+  return formateedDataset;
+
+}
+
+function populateTable(dataset, headers){
+    $("#table").show();
+
+    dataset = transformDataToTableEntry(dataset, headers);
+
+    $("#table").DataTable({
+      data: dataset,
+      columns: headers,
+      lengthMenu: [
+        [10, 100, 200, 300, 400, -1],
+        [10, 100, 200, 300, 400, "All"],
+      ],
+      scrollCollapse: true,
+      paging: true,
+      pagingType: "numbers",
+      bInfo: false,
+      bDestroy: true,
+      createdRow: function (row, data, dataIndex) {
+        $("td:eq(9)", row).css("min-width", "200px");
+      },
+    });
+}
+
+function createMap(groupData, dialectedEntries, headers) {
   $("#myChart").hide();
   $("#chartdiv").show();
 
@@ -94,7 +135,8 @@ function createMap(groupData) {
         polygon.states.applyAnimate("hover");
       });
 
-      console.log(ev.target._dataItem.dataContext.id);
+      populateTable(dialectedEntries[ev.target._dataItem.dataContext.id], headers);
+
     });
 
     polygonSeries.mapPolygons.template.events.on("pointerout", function (ev) {
