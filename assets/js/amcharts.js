@@ -11,9 +11,6 @@ function transformDataToTableEntry(dataset, headers){
         link_host += "</br>" + linkuize(getIcon("hf"), row["HF Link"]);
       }
 
-      console.log("----ROW");
-      console.log(row);
-
       formateedDataset.push({
         0: ++idx,
         1: linkuize(row["Name"], `card?id=${row["index"]}`),
