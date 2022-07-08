@@ -114,9 +114,9 @@ which gives the following output
 ## Running MASADER locally with Jekyll
 
 ### Prerequisites:
-1.  Install [Jekyll](https://jekyllrb.com/docs/installation/).
+1.  Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/).
 2. Install [bundle](https://bundler.io).
-3. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/).
+3.  Install [Jekyll](https://jekyllrb.com/docs/installation/).
 ### Steps:
 1.  Open Terminal.
 2.  Navigate to the publishing source for MASADER site. For more information about publishing sources, [see](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites).
