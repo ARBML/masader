@@ -110,6 +110,21 @@ which gives the following output
  'Volume': '117,805',
  'Year': 2018}
 ```
+
+## Running MASADER locally with Jekyll
+
+* Prerequisites:
+1-  Install [Jekyll](https://jekyllrb.com/docs/installation/).
+2- Install [bundle](https://bundler.io).
+3- Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/).
+* Steps:
+1- Open Terminal.
+2- Navigate to the publishing source for MASADER site. For more information about publishing sources, [see](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites).
+3- Run  `bundle install`.
+4- Run the site locally with `bundle exec jekyll serve`.
+5- To preview MASADER site, in your web browser, navigate to  `http://localhost:4000` .
+
+
 ## Contribution 
 The catalogue will be updated regularly. If you want to add a new dataset, use this [form](https://forms.gle/JnMrJjHumT6ktK9cA).
 
