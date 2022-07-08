@@ -111,18 +111,18 @@ which gives the following output
  'Year': 2018}
 ```
 
-### Running MASADER locally with Jekyll
+## Running MASADER locally with Jekyll
 
-* Prerequisites:
-###  Install [Jekyll](https://jekyllrb.com/docs/installation/).
-### Install [bundle](https://bundler.io).
-### Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/).
-* Steps:
-### Open Terminal.
-### Navigate to the publishing source for MASADER site. For more information about publishing sources, [see](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites).
-### Run  `bundle install`.
-### Run the site locally with `bundle exec jekyll serve`.
-### To preview MASADER site, in your web browser, navigate to  `http://127.0.0.1:4000/masader/` .
+### Prerequisites:
+1.  Install [Jekyll](https://jekyllrb.com/docs/installation/).
+2. Install [bundle](https://bundler.io).
+3. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/).
+### Steps:
+1.  Open Terminal.
+2.  Navigate to the publishing source for MASADER site. For more information about publishing sources, [see](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites).
+3.  Run  `bundle install`.
+4. Run the site locally with `bundle exec jekyll serve`.
+5. To preview MASADER site, in your web browser, navigate to  `http://127.0.0.1:4000/masader/` .
 
 
 ## Contribution 
