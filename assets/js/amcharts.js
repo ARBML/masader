@@ -1,7 +1,4 @@
 
-let focused = undefined;
-let focusedColor = undefined;
-
 function transformDataToTableEntry(dataset) {
 
   let formateedDataset = []
@@ -59,134 +56,11 @@ function populateTable(dataset, headers) {
 function createMap(dialectedEntries, headers) {
   $("#myChart").hide();
   $("#chartdiv").show();
-
-  // Create root and chart
-  var root = am5.Root.new("chartdiv");
-
-
-  // Set themes
-  root.setThemes([
-    am5themes_Animated.new(root)
-  ]);
-
-
-  // Create chart
-  var chart = root.container.children.push(
-    am5map.MapChart.new(root, {
-      homeZoomLevel: 4,
-      homeGeoPoint: { longitude: 20, latitude: 20 }
-    }
-  ));
-
-
-  // Create world polygon series
-  var worldSeries = chart.series.push(
-    am5map.MapPolygonSeries.new(root, {
-      geoJSON: am5geodata_worldLow,
-      exclude: ["AQ"],
-      fill: am5.color(0xaaaaaa),
-    })
-  );
-
-  worldSeries.events.on("datavalidated", () => {
-    chart.goHome();
-  });
-
-
-  // Add legend
-  var legend = chart.children.push(
-    am5.Legend.new(root, {
-      useDefaultMarker: true,
-      centerX: am5.p50,
-      x: am5.p50,
-      centerY: am5.p100,
-      y: am5.p100,
-      dy: -20,
-      background: am5.RoundedRectangle.new(root, {
-        fill: am5.color(0xffffff),
-        fillOpacity: 0.2,
-      }),
-    })
-  );
-
-  legend.valueLabels.template.set("forceHidden", true);
-
-  // Create series for each group
-  var colors = am5.ColorSet.new(root, {
-    step: 1,
-  });
-  colors.next();
-
-  for (const country in dialectedEntries){
-    
-    // Change it to whitelist
-    if ([undefined, "GLF", "NOR", "CLS"].includes(country))
-      continue
-
-    var countrySeries = chart.series.push(
-      am5map.MapPolygonSeries.new(root, {
-        geoJSON: am5geodata_worldLow,
-        include: country,
-      })
-    );
   
-    countrySeries.mapPolygons.template.setAll({
-      tooltipText: `[bold]{name}[/]\n Number of resources {count}[/]`,
-      templateField: "polygonSettings",
-      strokeWidth: 2,
-    });
-  
-    const sColor = colors.next();
-  
-  
-    // Effects
-  
-    countrySeries.mapPolygons.template.states.create("hover", {
-      fill: am5.Color.brighten(sColor, -0.3),
-    });
-  
-    countrySeries.mapPolygons.template.events.on("pointerover", function (ev) {
-      ev.target.series.mapPolygons.each(function (polygon) {
-        polygon.states.applyAnimate("hover");
-      });
-
-      if (!focused)
-        populateTable(dialectedEntries[ev.target._dataItem.dataContext.id], headers);
-
-    });
-
-    countrySeries.mapPolygons.template.events.on("click", (ev) => {
-  
-      if (focused) {
-  
-        focused.states._states.default._settings.fill = focusedColor
-        focused.set('fill', focusedColor)
-  
-        focused = undefined;
-        focusedColor = undefined;
-  
-      } else {
-        const pol = ev.target.series.mapPolygons._values[0];
-        focusedColor = sColor;
-        pol.states._states.default._settings.fill = am5.Color.brighten(sColor, -0.5)
-        focused = pol;
-      }
-  
-      populateTable(dialectedEntries[ev.target._dataItem.dataContext.id], headers);
-
-    });
-  
-    countrySeries.data.setAll([
-      {
-        id: country,
-        count: dialectedEntries[country].length,
-        polygonSettings: {
-          fill: sColor
-        },
-      }
-    ]);
-
-  }
+  const map = new BaseMap();
+  map.setEffectReference(populateTable);
+  map.setEffectArgs(headers);
+  map.populateData(dialectedEntries, populateTable, headers);
 
 
 }
