@@ -1,28 +1,31 @@
 
-function transformDataToTableEntry(dataset, headers){
+let focused = undefined;
+let focusedColor = undefined;
+
+function transformDataToTableEntry(dataset) {
 
   let formateedDataset = []
   let idx = 0;
 
-  for (const row of dataset){
+  for (const row of dataset) {
 
-      let link_host = linkuize(row["Host"], row["Link"]);
-      if (row["HF Link"] != "nan") {
-        link_host += "</br>" + linkuize(getIcon("hf"), row["HF Link"]);
-      }
+    let link_host = linkuize(row["Host"], row["Link"]);
+    if (row["HF Link"] != "nan") {
+      link_host += "</br>" + linkuize(getIcon("hf"), row["HF Link"]);
+    }
 
-      formateedDataset.push({
-        0: ++idx,
-        1: linkuize(row["Name"], `card?id=${row["index"]}`),
-        2: link_host,
-        3: row["Year"],
-        4: getCountry(row["Dialect"] != "nan" ? row["Dialect"] : ""),
-        5: row["Volume"] != "nan"  ? row["Volume"] : "",
-        6: row["Unit"] != "nan" ? row["Unit"] : "",
-        7: linkuize(row["Paper Title"], row["Paper Link"]),
-        8: badgeRender(row["Access"]),
-        9: itemize(row["Tasks"]),
-      });
+    formateedDataset.push({
+      0: ++idx,
+      1: linkuize(row["Name"], `card?id=${row["index"]}`),
+      2: link_host,
+      3: row["Year"],
+      4: getCountry(row["Dialect"] != "nan" ? row["Dialect"] : ""),
+      5: row["Volume"] != "nan" ? row["Volume"] : "",
+      6: row["Unit"] != "nan" ? row["Unit"] : "",
+      7: linkuize(row["Paper Title"], row["Paper Link"]),
+      8: badgeRender(row["Access"]),
+      9: itemize(row["Tasks"]),
+    });
 
   }
 
@@ -30,30 +33,30 @@ function transformDataToTableEntry(dataset, headers){
 
 }
 
-function populateTable(dataset, headers){
-    $("#table").show();
+function populateTable(dataset, headers) {
+  $("#table").show();
 
-    dataset = transformDataToTableEntry(dataset, headers);
+  dataset = transformDataToTableEntry(dataset);
 
-    $("#table").DataTable({
-      data: dataset,
-      columns: headers,
-      lengthMenu: [
-        [10, 100, 200, 300, 400, -1],
-        [10, 100, 200, 300, 400, "All"],
-      ],
-      scrollCollapse: true,
-      paging: true,
-      pagingType: "numbers",
-      bInfo: false,
-      bDestroy: true,
-      createdRow: function (row, data, dataIndex) {
-        $("td:eq(9)", row).css("min-width", "200px");
-      },
-    });
+  $("#table").DataTable({
+    data: dataset,
+    columns: headers,
+    lengthMenu: [
+      [10, 100, 200, 300, 400, -1],
+      [10, 100, 200, 300, 400, "All"],
+    ],
+    scrollCollapse: true,
+    paging: true,
+    pagingType: "numbers",
+    bInfo: false,
+    bDestroy: true,
+    createdRow: function (row, data, dataIndex) {
+      $("td:eq(9)", row).css("min-width", "200px");
+    },
+  });
 }
 
-function createMap(groupData, dialectedEntries, headers) {
+function createMap(dialectedEntries, headers) {
   $("#myChart").hide();
   $("#chartdiv").show();
 
@@ -61,17 +64,19 @@ function createMap(groupData, dialectedEntries, headers) {
   var root = am5.Root.new("chartdiv");
 
 
-    // Set themes
-    root.setThemes([
-      am5themes_Animated.new(root)
-    ]);
+  // Set themes
+  root.setThemes([
+    am5themes_Animated.new(root)
+  ]);
 
 
-    // Create chart
-    var chart = root.container.children.push(am5map.MapChart.new(root, {
+  // Create chart
+  var chart = root.container.children.push(
+    am5map.MapChart.new(root, {
       homeZoomLevel: 4,
       homeGeoPoint: { longitude: 20, latitude: 20 }
-    }));
+    }
+  ));
 
 
   // Create world polygon series
@@ -79,12 +84,9 @@ function createMap(groupData, dialectedEntries, headers) {
     am5map.MapPolygonSeries.new(root, {
       geoJSON: am5geodata_worldLow,
       exclude: ["AQ"],
+      fill: am5.color(0xaaaaaa),
     })
   );
-
-  worldSeries.mapPolygons.template.setAll({
-    fill: am5.color(0xaaaaaa),
-  });
 
   worldSeries.events.on("datavalidated", () => {
     chart.goHome();
@@ -111,54 +113,82 @@ function createMap(groupData, dialectedEntries, headers) {
 
   // Create series for each group
   var colors = am5.ColorSet.new(root, {
-    step: 2,
+    step: 1,
   });
   colors.next();
 
-  am5.array.each(groupData, function (group) {
-    var countries = [];
-    var color = colors.next();
+  for (const country in dialectedEntries){
+    
+    // Change it to whitelist
+    if (!country || country === "GLF" || country === "NOR" || country === "CLS")
+      continue
 
-    am5.array.each(group.data, function (country) {
-      countries.push(country.id);
-    });
-
-    var polygonSeries = chart.series.push(
+    var countrySeries = chart.series.push(
       am5map.MapPolygonSeries.new(root, {
         geoJSON: am5geodata_worldLow,
-        include: countries,
-        name: group.name,
-        fill: color,
+        include: country,
       })
     );
-
-    polygonSeries.mapPolygons.template.setAll({
-      tooltipText: "[bold]{name}[/]\n Number of resources {joined}",
-      interactive: true,
-      fill: color,
+  
+    countrySeries.mapPolygons.template.setAll({
+      tooltipText: `[bold]{name}[/]\n Number of resources {count}[/]`,
+      templateField: "polygonSettings",
       strokeWidth: 2,
     });
-
-    polygonSeries.mapPolygons.template.states.create("hover", {
-      fill: am5.Color.brighten(color, -0.3),
+  
+    const sColor = colors.next();
+  
+  
+    // Effects
+  
+    countrySeries.mapPolygons.template.states.create("hover", {
+      fill: am5.Color.brighten(sColor, -0.3),
     });
-
-    polygonSeries.mapPolygons.template.events.on("pointerover", function (ev) {
+  
+    countrySeries.mapPolygons.template.events.on("pointerover", function (ev) {
       ev.target.series.mapPolygons.each(function (polygon) {
         polygon.states.applyAnimate("hover");
       });
 
+      console.log(country);
+
+      if (!focused)
+        populateTable(dialectedEntries[ev.target._dataItem.dataContext.id], headers);
+
+    });
+
+    countrySeries.mapPolygons.template.events.on("click", (ev) => {
+  
+      if (focused) {
+  
+        focused.states._states.default._settings.fill = focusedColor
+        focused.set('fill', focusedColor)
+  
+        focused = undefined;
+        focusedColor = undefined;
+  
+      } else {
+        const pol = ev.target.series.mapPolygons._values[0];
+        focusedColor = sColor;
+        pol.states._states.default._settings.fill = am5.Color.brighten(sColor, -0.5)
+        focused = pol;
+      }
+  
       populateTable(dialectedEntries[ev.target._dataItem.dataContext.id], headers);
 
     });
+  
+    countrySeries.data.setAll([
+      {
+        id: country,
+        count: dialectedEntries[country].length,
+        polygonSettings: {
+          fill: sColor
+        },
+      }
+    ]);
 
-    polygonSeries.mapPolygons.template.events.on("pointerout", function (ev) {
-      ev.target.series.mapPolygons.each(function (polygon) {
-        polygon.states.applyAnimate("default");
-      });
-    });
-    polygonSeries.data.setAll(group.data);
+  }
 
-    legend.data.push(polygonSeries);
-  });
+
 }

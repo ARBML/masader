@@ -304,28 +304,6 @@ axios.get(url, ).then(function(response) {
             groupedBar(this.value) 
         else if(this.value == "Dialect"){
 
-            let idx = headersWhiteList.indexOf("Dialect")
-            let series = getSeries(dataset, idx, false, subsetsIdx)
-
-            const [elements, counts] = getCounts(series)
-
-            let groupData = []
-
-            for (let i = 0; i <  counts[0]; i++){
-                let group = []
-
-                for (let j = 0; j < counts.length; j++) {
-                    if (counts[j] == i)
-                    {
-                        if (elements[j] != "MSA" &&  elements[j] != "CLS")
-                            group.push({"id":elements[j], "joined": i + ""})
-                    }
-                }
-                
-                if (group.length > 0)
-                    groupData.push({"name": "", "data":group})
-            }
-
             let headers = [];
             let headersViewWhiteList = [
               "No.",
@@ -347,9 +325,7 @@ axios.get(url, ).then(function(response) {
                 });
               }
               
-
-            console.log(dialectedEntries);
-            createMap(groupData, dialectedEntries, headers);
+              createMap(dialectedEntries, headers);
 
         } else{
             plotBar(this.value)
