@@ -56,7 +56,8 @@ function populateTable(dataset, headers) {
 function createMap(dialectedEntries, headers) {
   $("#myChart").hide();
   $("#chartdiv").show();
-  
+  $("#MapHint").show();
+
   const map = new BaseMap();
   map.setEffectReference(populateTable);
   map.setEffectArgs(headers);
