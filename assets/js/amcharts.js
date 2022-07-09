@@ -120,7 +120,7 @@ function createMap(dialectedEntries, headers) {
   for (const country in dialectedEntries){
     
     // Change it to whitelist
-    if (!country || country === "GLF" || country === "NOR" || country === "CLS")
+    if ([undefined, "GLF", "NOR", "CLS"].includes(country))
       continue
 
     var countrySeries = chart.series.push(
@@ -149,8 +149,6 @@ function createMap(dialectedEntries, headers) {
       ev.target.series.mapPolygons.each(function (polygon) {
         polygon.states.applyAnimate("hover");
       });
-
-      console.log(country);
 
       if (!focused)
         populateTable(dialectedEntries[ev.target._dataItem.dataContext.id], headers);
