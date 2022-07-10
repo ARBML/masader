@@ -4,42 +4,42 @@ let isReportFormOpen = false;
 $("#reportForm").hide();
 
 function linkuize(text, link) {
-    return `<a href = "${link}" target="_blank"> ${text}</a>`
+  return `<a href = "${link}" target="_blank"> ${text}</a>`
 }
 
 function ethicalBadge(text) {
-    text = text.toLowerCase();
-    if (text == "low") return '<span class="badge bg-success">Low</span>';
-    else if (text == "medium") return '<span class="badge bg-warning">Medium</span>';
-    else return '<span class="badge bg-danger text-light">High</span>';
+  text = text.toLowerCase();
+  if (text == "low") return '<span class="badge bg-success">Low</span>';
+  else if (text == "medium") return '<span class="badge bg-warning">Medium</span>';
+  else return '<span class="badge bg-danger text-light">High</span>';
 }
 
 function createSubsets(subsetsValue) {
-    let result = '<table><tbody>'
-    subsetsValue.forEach(subset => {
-        result += `<tr><td><b>${subset["Name"]}</b></td><td>${subset["Volume"]}</td></tr>`;
-    })
-    result += '</tbody></table>'
-    return result
+  let result = '<table><tbody>'
+  subsetsValue.forEach(subset => {
+    result += `<tr><td><b>${subset["Name"]}</b></td><td>${subset["Volume"]}</td></tr>`;
+  })
+  result += '</tbody></table>'
+  return result
 }
 
 function itemize(text) {
-    tasks = text.split(",")
-    output = '<ul class="list-group list-group-flush bg-transparent">'
-    for (let i = 0; i < tasks.length; i++) {
-        output += '<li class="list-group-item bg-transparent">' + tasks[i].trim().replaceAll(' ','-') + '</li>'
-    }
-    output += "</ul>"
-    return output
+  tasks = text.split(",")
+  output = '<ul class="list-group list-group-flush bg-transparent">'
+  for (let i = 0; i < tasks.length; i++) {
+    output += '<li class="list-group-item bg-transparent">' + tasks[i].trim().replaceAll(' ', '-') + '</li>'
+  }
+  output += "</ul>"
+  return output
 }
 
-function onReportBtnClicked(){
+function onReportBtnClicked() {
 
-  if (isReportFormOpen){
+  if (isReportFormOpen) {
     document.getElementById("reportBtn").innerHTML = "Report issues with this card";
     $("#reportForm").hide();
 
-  }else{
+  } else {
     document.getElementById("reportBtn").innerHTML = "Close";
     $("#reportForm").show();
 
@@ -49,26 +49,26 @@ function onReportBtnClicked(){
 
 }
 
-async function onSendReportBtnClicked(){
-    
+async function onSendReportBtnClicked() {
+
   let issueForm = document.getElementById('issueMessage');
-  const cardId = new URL(window.location.href).searchParams.get('id'); 
+  const cardId = new URL(window.location.href).searchParams.get('id');
 
   const response = await fetch(`${url}${cardId}/issues`, {
     method: 'POST',
-    body: JSON.stringify({body: issueForm.value}),
-    headers: {'Content-Type': 'application/json'} 
+    body: JSON.stringify({ body: issueForm.value }),
+    headers: { 'Content-Type': 'application/json' }
   });
 
-  if (response.ok){
+  if (response.ok) {
     const responseData = await response.json()
 
     onReportBtnClicked();
     issueForm.value = "";
     tata.success('Issues opend succesfully',
-        `Thank you for openeing this issue, you can track this issue at ${responseData['issue_url']}`);
+      `Thank you for openeing this issue, you can track this issue at ${responseData['issue_url']}`);
 
-  }else {
+  } else {
 
     tata.error('Error during opening the issue', 'Please try again later, or contact us via our discord server');
 
@@ -112,26 +112,26 @@ axios
     ];
 
     $(".loading-spinner").hide();
-  for (let i = 0; i < headersWhiteList.length; i++) {
-    headers.push({
-      index: i,
-      title: headersWhiteList[i],
-    });
-  }
+    for (let i = 0; i < headersWhiteList.length; i++) {
+      headers.push({
+        index: i,
+        title: headersWhiteList[i],
+      });
+    }
     let row = response.data;
     console.log(row);
 
     let dataset = [];
 
     for (let i = 0; i < headers.length; i++) {
-        let element = headers[i]
+      let element = headers[i]
       let value =
         row[element.title] != "nan" ? row[element.title] : "N/A";
       console.log(element.title, value);
       if (value == "N/A") {
         dataset.push({
-            0: element.title,
-            1: "",
+          0: element.title,
+          1: "",
         });
         continue
       }
@@ -178,5 +178,5 @@ axios
     console.log(error);
   });
 
-  document.getElementById("reportBtn").addEventListener("click", onReportBtnClicked);
-  document.getElementById("sendReportBtn").addEventListener("click", onSendReportBtnClicked);
+document.getElementById("reportBtn").addEventListener("click", onReportBtnClicked);
+document.getElementById("sendReportBtn").addEventListener("click", onSendReportBtnClicked);

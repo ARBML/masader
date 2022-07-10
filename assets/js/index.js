@@ -1,24 +1,24 @@
 const url = "https://masader-web-service.herokuapp.com/datasets";
 
 function reformat_numbers(num) {
-    values = num.split(',')
-    if (values.length < 2) {
-        return num
-    } else if (values.length == 2) {
-        return values[0] + 'K'
-    } else
-        return values[0] + 'M'
+  values = num.split(',')
+  if (values.length < 2) {
+    return num
+  } else if (values.length == 2) {
+    return values[0] + 'K'
+  } else
+    return values[0] + 'M'
 }
 
 axios.get(url, {
-    // TODO:: Adding a download progress bar. * IT CANNOT BE APPLIED BECAUSE THE SIZE OF THE ENCODING DATA. *
-    onDownloadProgress: progressEvent => {
-        // const percentage = Math.round(
-        //     (progressEvent.loaded * 100) / progressEvent.total
-        //   );
-        // console.log('download', percentage);        
-      }
-}).then(function(response) {
+  // TODO:: Adding a download progress bar. * IT CANNOT BE APPLIED BECAUSE THE SIZE OF THE ENCODING DATA. *
+  onDownloadProgress: progressEvent => {
+    // const percentage = Math.round(
+    //     (progressEvent.loaded * 100) / progressEvent.total
+    //   );
+    // console.log('download', percentage);        
+  }
+}).then(function (response) {
   let headers = [];
   let headersWhiteList = [
     "No.",
@@ -56,7 +56,7 @@ axios.get(url, {
       2: link_host,
       3: row["Year"],
       4: getCountry(row["Dialect"] != "nan" ? row["Dialect"] : ""),
-      5: row["Volume"] != "nan"  ? row["Volume"] : "",
+      5: row["Volume"] != "nan" ? row["Volume"] : "",
       6: row["Unit"] != "nan" ? row["Unit"] : "",
       7: linkuize(row["Paper Title"], row["Paper Link"]),
       8: badgeRender(row["Access"]),
@@ -89,6 +89,6 @@ axios.get(url, {
     });
   });
 })
-    .catch(function(error) {
-        console.log(error);
-    });
+  .catch(function (error) {
+    console.log(error);
+  });

@@ -1,21 +1,19 @@
 const url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
 
 function linkuize(text, link) {
-    if(link != undefined)
+    if (link != undefined)
         return `<a href = "${link}" target="_blank"> ${text}</a>`
     else
         return ""
 }
 
 
-function getIcon(text){
+function getIcon(text) {
     const lower = text.toLowerCase()
-    if(icons[lower] != undefined)
-    {
+    if (icons[lower] != undefined) {
         return icons[lower]
     }
-    else
-    {
+    else {
         return text
     }
 }
@@ -23,7 +21,7 @@ function itemize(text) {
     tasks = text.split(",")
     output = '<ul class="list-group list-group-flush bg-transparent">'
     for (let i = 0; i < tasks.length; i++) {
-        output += '<li class="list-group-item bg-transparent">' + tasks[i].trim().replaceAll(' ','-') + '</li>'
+        output += '<li class="list-group-item bg-transparent">' + tasks[i].trim().replaceAll(' ', '-') + '</li>'
     }
     output += "</ul>"
     return output
@@ -53,43 +51,42 @@ axios.get(url, {
         //     (progressEvent.loaded * 100) / progressEvent.total
         //   );
         // console.log('download', percentage);        
-      }
-}).then(function(response) {
-        let rowData = response.data.sheets[0].data[0].rowData
-        $('.loading-spinner').hide()
+    }
+}).then(function (response) {
+    let rowData = response.data.sheets[0].data[0].rowData
+    $('.loading-spinner').hide()
 
-        
-        // Grabbing row's values
-        let tempRows = []
-        rowData.filter(row => {
-            tempRows.push(row.values)
-        })
-        const contributers = new Set()
 
-        for (let index = 2; index < tempRows.length; index++) {
-            const fileds = tempRows[index]
-            if (fileds != undefined) {
-                if (fileds[34].formattedValue != undefined){
-                    contributers.add(fileds[34].formattedValue)
-                }
+    // Grabbing row's values
+    let tempRows = []
+    rowData.filter(row => {
+        tempRows.push(row.values)
+    })
+    const contributers = new Set()
+
+    for (let index = 2; index < tempRows.length; index++) {
+        const fileds = tempRows[index]
+        if (fileds != undefined) {
+            if (fileds[34].formattedValue != undefined) {
+                contributers.add(fileds[34].formattedValue)
             }
         }
+    }
 
-        var ul = document.getElementById("list");
-        var li = document.createElement("li");
-        contributers.forEach(key =>
-        {
-            li = document.createElement("li")
-            li.appendChild(document.createTextNode(key))
-            ul.appendChild(li)
-        }
-        );
-
-
+    var ul = document.getElementById("list");
+    var li = document.createElement("li");
+    contributers.forEach(key => {
+        li = document.createElement("li")
+        li.appendChild(document.createTextNode(key))
+        ul.appendChild(li)
+    }
+    );
 
 
 
-    })
-    .catch(function(error) {
+
+
+})
+    .catch(function (error) {
         console.log(error);
     });
