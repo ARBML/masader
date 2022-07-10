@@ -77,22 +77,24 @@ class BaseMap {
 
     populateData(data) {
 
+        console.log(data);
+
         for (const country in data){
-    
+
             // Change it to whitelist
-            if ([undefined, "GLF", "NOR", "CLS"].includes(country))
+            if ([undefined, "GLF", "NOR", "CLS"].includes(data[country].countryCodes))
               continue
         
             var countrySeries = this.chart.series.push(
               am5map.MapPolygonSeries.new(this.root, {
                 geoJSON: am5geodata_worldLow,
-                include: country,
+                include: data[country].countryCodes,
               })
             );
 
             const sColor = this.colors.next();
           
-            this.addBaseEffects(countrySeries, sColor);
+            this.addBaseEffects(data[country].dataset, countrySeries, sColor);
 
             countrySeries.mapPolygons.template.setAll({
               tooltipText: `[bold]{name}[/]\n Number of resources {count}[/]`,
@@ -100,35 +102,35 @@ class BaseMap {
               strokeWidth: 2,
             });
 
-            countrySeries.data.setAll([
-                {
-                  id: country,
-                  count: dialectedEntries[country].length,
-                  polygonSettings: {
-                    fill: sColor
-                  },
-                }
-              ]);
+            const countriesSettings =  data[country].countryCodes
+                                        .map((c) => {
+                                            return {
+                                                id: c,
+                                                count: data[country].dataset.length,
+                                                polygonSettings: {
+                                                fill: sColor
+                                                },
+                                            }
+                                        });
+
+            countrySeries.data.setAll(countriesSettings);
 
         }
     }
 
-    addBaseEffects(countrySeries, sColor) {
-
-        // Effects
+    addBaseEffects(data, countrySeries, sColor) {
 
         countrySeries.mapPolygons.template.states.create("hover", {
             fill: am5.Color.brighten(sColor, -0.3),
         });
-
+        
         countrySeries.mapPolygons.template.events.on("pointerover",  (ev) => {
             ev.target.series.mapPolygons.each( (polygon) => {
-                console.log(polygon);
                 polygon.states.applyAnimate("hover");
             });
-
+            
             if (!this.focused)
-                this.applyEffect(dialectedEntries[ev.target._dataItem.dataContext.id], this.effectsArgs);
+                this.applyEffect(data, this.effectsArgs);  
 
         });
 
@@ -142,20 +144,20 @@ class BaseMap {
 
             if (this.focused) {
 
-                this.focused.states._states.default._settings.fill = this.focusedColor
-                this.focused.set('fill', this.focusedColor)
+                this.focused.forEach((pol) => pol.states._states.default._settings.fill = this.focusedColor);
+                this.focused.forEach((pol) => pol.set('fill', this.focusedColor));
 
                 this.focused = undefined;
                 this.focusedColor = undefined;
 
             } else {
-                const pol = ev.target.series.mapPolygons._values[0];
+                const pols = ev.target.series.mapPolygons._values;
                 this.focusedColor = sColor;
-                pol.states._states.default._settings.fill = am5.Color.brighten(sColor, -0.5)
-                this.focused = pol;
+                pols.forEach((pol) => pol.states._states.default._settings.fill = am5.Color.brighten(sColor, -0.5));
+                this.focused = pols;
             }
 
-            this.applyEffect(dialectedEntries[ev.target._dataItem.dataContext.id], this.effectsArgs);
+            this.applyEffect(data, this.effectsArgs);
 
         });
 

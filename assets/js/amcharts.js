@@ -53,6 +53,46 @@ function populateTable(dataset, headers) {
   });
 }
 
+function singleDialect(dialectedEntries){
+
+  let formattedEntries = {};
+
+  for (d in dialectedEntries){
+    formattedEntries[Object.keys(formattedEntries).length] = {
+        countryCodes: [d],
+        dataset: dialectedEntries[d]
+      };
+  }
+
+  return formattedEntries;
+}
+
+
+function getGroupedDataset(dialectedEntries, group){
+    let groupedDataset = new Set();
+
+    for (country of group)
+      dialectedEntries[country].forEach((e) => groupedDataset.add(e));
+
+    return [...groupedDataset]
+}
+
+function groupedDialect(dialectedEntries){
+
+  const groups = [["SA", "QA", "AE", "KW", "OM", "BH"], ["YE"],["SY", "LB", "JO", "PS"],["EG"], ["SD"], ["SO", "DJ"], ["DZ","MR", "MA"], ["LY","TN"], ["IQ"]];
+  let formattedEntries = {};
+
+  for (d of groups){
+    formattedEntries[Object.keys(formattedEntries).length] = {
+        countryCodes: d,
+        dataset: getGroupedDataset(dialectedEntries, d)
+      };
+  }
+
+  return formattedEntries;
+}
+
+
 function createMap(dialectedEntries, headers) {
   $("#myChart").hide();
   $("#chartdiv").show();
@@ -61,7 +101,7 @@ function createMap(dialectedEntries, headers) {
   const map = new BaseMap();
   map.setEffectReference(populateTable);
   map.setEffectArgs(headers);
-  map.populateData(dialectedEntries, populateTable, headers);
+  map.populateData(groupedDialect(dialectedEntries), populateTable, headers);
 
 
 }
