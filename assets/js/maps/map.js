@@ -9,7 +9,7 @@ class BaseMap {
 
         // Create root and chart
         this.root = am5.Root.new("chartdiv");
-
+        $("#chartdiv").hide();
 
         // Set themes
         this.root.setThemes([
@@ -58,13 +58,6 @@ class BaseMap {
 
         legend.valueLabels.template.set("forceHidden", true);
 
-
-        // Create series for each group
-        this.colors = am5.ColorSet.new(this.root, {
-            step: 1,
-        });
-        this.colors.next();
-
     }
 
     setEffectReference(ref) {
@@ -79,39 +72,46 @@ class BaseMap {
 
         console.log(data);
 
-        for (const country in data){
+
+        this.colors = am5.ColorSet.new(this.root, {
+            step: 1,
+        });
+        this.colors.next();
+
+
+        for (const country in data) {
 
             // Change it to whitelist
             if ([undefined, "GLF", "NOR", "CLS"].includes(data[country].countryCodes))
-              continue
-        
+                continue
+
             var countrySeries = this.chart.series.push(
-              am5map.MapPolygonSeries.new(this.root, {
-                geoJSON: am5geodata_worldLow,
-                include: data[country].countryCodes,
-              })
+                am5map.MapPolygonSeries.new(this.root, {
+                    geoJSON: am5geodata_worldLow,
+                    include: data[country].countryCodes,
+                })
             );
 
             const sColor = this.colors.next();
-          
+
             this.addBaseEffects(data[country].dataset, countrySeries, sColor);
 
             countrySeries.mapPolygons.template.setAll({
-              tooltipText: `[bold]{name}[/]\n Number of resources {count}[/]`,
-              templateField: "polygonSettings",
-              strokeWidth: 2,
+                tooltipText: `[bold]{name}[/]\n Number of resources {count}[/]`,
+                templateField: "polygonSettings",
+                strokeWidth: 2,
             });
 
-            const countriesSettings =  data[country].countryCodes
-                                        .map((c) => {
-                                            return {
-                                                id: c,
-                                                count: data[country].dataset.length,
-                                                polygonSettings: {
-                                                fill: sColor
-                                                },
-                                            }
-                                        });
+            const countriesSettings = data[country].countryCodes
+                .map((c) => {
+                    return {
+                        id: c,
+                        count: data[country].dataset.length,
+                        polygonSettings: {
+                            fill: sColor
+                        },
+                    }
+                });
 
             countrySeries.data.setAll(countriesSettings);
 
@@ -123,22 +123,22 @@ class BaseMap {
         countrySeries.mapPolygons.template.states.create("hover", {
             fill: am5.Color.brighten(sColor, -0.3),
         });
-        
-        countrySeries.mapPolygons.template.events.on("pointerover",  (ev) => {
-            ev.target.series.mapPolygons.each( (polygon) => {
+
+        countrySeries.mapPolygons.template.events.on("pointerover", (ev) => {
+            ev.target.series.mapPolygons.each((polygon) => {
                 polygon.states.applyAnimate("hover");
             });
-            
+
             if (!this.focused)
-                this.applyEffect(data, this.effectsArgs);  
+                this.applyEffect(data, this.effectsArgs);
 
         });
 
-        countrySeries.mapPolygons.template.events.on("pointerout", function(ev) {
-            ev.target.series.mapPolygons.each(function(polygon) {
-              polygon.states.applyAnimate("default");
+        countrySeries.mapPolygons.template.events.on("pointerout", function (ev) {
+            ev.target.series.mapPolygons.each(function (polygon) {
+                polygon.states.applyAnimate("default");
             });
-          });
+        });
 
         countrySeries.mapPolygons.template.events.on("click", (ev) => {
 

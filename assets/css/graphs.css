@@ -1,4 +1,12 @@
 #chartdiv {
     width: 100%;
     height: 500px;
-  }
+}
+
+#selectionGroup {
+  visibility: hidden;
+}
+
+#mapHint {
+  visibility: hidden;
+}

@@ -53,55 +53,69 @@ function populateTable(dataset, headers) {
   });
 }
 
-function singleDialect(dialectedEntries){
+function singleDialect(dialectedEntries) {
 
   let formattedEntries = {};
 
-  for (d in dialectedEntries){
+  for (d in dialectedEntries) {
     formattedEntries[Object.keys(formattedEntries).length] = {
-        countryCodes: [d],
-        dataset: dialectedEntries[d]
-      };
+      countryCodes: [d],
+      dataset: dialectedEntries[d]
+    };
   }
 
   return formattedEntries;
 }
 
 
-function getGroupedDataset(dialectedEntries, group){
-    let groupedDataset = new Set();
+function getGroupedDataset(dialectedEntries, group) {
+  let groupedDataset = new Set();
 
-    for (country of group)
-      dialectedEntries[country].forEach((e) => groupedDataset.add(e));
+  for (country of group)
+    dialectedEntries[country].forEach((e) => groupedDataset.add(e));
 
-    return [...groupedDataset]
+  return [...groupedDataset]
 }
 
-function groupedDialect(dialectedEntries){
+function groupedDialect(dialectedEntries) {
 
-  const groups = [["SA", "QA", "AE", "KW", "OM", "BH"], ["YE"],["SY", "LB", "JO", "PS"],["EG"], ["SD"], ["SO", "DJ"], ["DZ","MR", "MA"], ["LY","TN"], ["IQ"]];
+  const groups = [["SA", "QA", "AE", "KW", "OM", "BH"], ["YE"], ["SY", "LB", "JO", "PS"], ["EG"], ["SD"], ["SO", "DJ"], ["DZ", "MR", "MA"], ["LY", "TN"], ["IQ"]];
   let formattedEntries = {};
 
-  for (d of groups){
+  for (d of groups) {
     formattedEntries[Object.keys(formattedEntries).length] = {
-        countryCodes: d,
-        dataset: getGroupedDataset(dialectedEntries, d)
-      };
+      countryCodes: d,
+      dataset: getGroupedDataset(dialectedEntries, d)
+    };
   }
 
   return formattedEntries;
 }
 
+const map = new BaseMap();
 
 function createMap(dialectedEntries, headers) {
   $("#myChart").hide();
   $("#chartdiv").show();
-  $("#MapHint").show();
+  document.getElementById("mapHint").style.visibility = "visible";
+  document.getElementById("selectionGroup").style.visibility = "visible";
 
-  const map = new BaseMap();
   map.setEffectReference(populateTable);
   map.setEffectArgs(headers);
-  map.populateData(groupedDialect(dialectedEntries), populateTable, headers);
-
+  map.populateData(singleDialect(dialectedEntries), populateTable);
 
 }
+
+
+document.getElementById("selectionGroup").addEventListener("change", (e) => {
+
+  let processedDialects;
+
+  if (e.target.id == "byCountry")
+    processedDialects = singleDialect(dialectedEntries)
+  else
+    processedDialects = groupedDialect(dialectedEntries)
+
+  map.populateData(processedDialects, populateTable);
+
+});

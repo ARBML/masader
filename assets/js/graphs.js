@@ -6,7 +6,6 @@ let myChart = null;
 let dialectedEntries = {}
 
 $("#table").hide();
-$("#MapHint").hide();
 
 titles = {
     'License':'Most appearing licenses in the datasets',
@@ -300,7 +299,8 @@ axios.get(url, ).then(function(response) {
 
     document.getElementById('myDropdown').addEventListener('change', function() {
         $("#table_wrapper").hide();
-        $("#MapHint").hide();
+        document.getElementById("mapHint").style.visibility = "hidden";
+        document.getElementById("selectionGroup").style.visibility = "hidden";
 
         if (this.value == "Venue Type")
             groupedBar(this.value) 

@@ -52,11 +52,19 @@ foot_scripts:
             </select>
         </div>
 
+        <div id="selectionGroup" class="btn-group mt-3" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="modeSelector" id="byCountry" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="byCountry">By Country</label>
+          
+            <input type="radio" class="btn-check" name="modeSelector" id="byDialect" autocomplete="off">
+            <label class="btn btn-outline-primary" for="byDialect">By Dialect</label>
+        </div>
+
         <div>
             <canvas id="myChart"></canvas>
         </div>
 
-        <p id="MapHint" class="mt-3">Click into a country to focus the table, click again to unfocus. Otherwise, you can contiune hovering</p>
+        <p id="mapHint" class="mt-3">Click into a country to focus the table, click again to unfocus. Otherwise, you can contiune hovering</p>
         <div id="chartdiv" class="mb-3"></div>
         <table class="table table-container table-striped" id="table"></table>
 
