@@ -1,5 +1,6 @@
 const url = "https://masader-web-service.herokuapp.com/datasets";
 
+const map = new BaseMap();
 let headersWhiteList;
 let dataset;
 let myChart = null;
@@ -341,6 +342,32 @@ axios.get(url, ).then(function(response) {
 .catch(function(error) {
     console.log(error);
 });
-    
+
+
+function createMap(dialectedEntries, headers) {
+  $("#myChart").hide();
+  $("#chartdiv").show();
+  document.getElementById("mapHint").style.visibility = "visible";
+  document.getElementById("selectionGroup").style.visibility = "visible";
+
+  map.setEffectReference(populateTable);
+  map.setEffectArgs(headers);
+  map.populateData(singleDialect(dialectedEntries), populateTable);
+
+}
+
+
+document.getElementById("selectionGroup").addEventListener("change", (e) => {
+
+    let processedDialects;
+  
+    if (e.target.id == "byCountry")
+      processedDialects = singleDialect(dialectedEntries)
+    else
+      processedDialects = groupedDialect(dialectedEntries)
+  
+    map.populateData(processedDialects, populateTable);
+  
+  });
 
   
