@@ -1,7 +1,7 @@
 const url = "https://masader-web-service.herokuapp.com/datasets";
 
 function linkuize(text, link) {
-    if(link != undefined || link != "nan")
+    if(link != undefined && link != "nan")
         return `<a href = "${link}" target="_blank"> ${text}</a>`
     else
         return ""
