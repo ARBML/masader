@@ -3,18 +3,23 @@
 We use jekyll so you should follow their installation guide at [jekyll](https://jekyllrb.com/docs/installation)
 
 ## Behavior
+
 Please be nice to everyone this is the must important thing. be nice
 
 ## Command lines you should know
 
 ### Compiling
+
 Use the command line below to compile your program and see results on live
+
 ```bash
 bundle exec jekyll serve --livereload
 ```
 
 ### Installing dependencies
+
 Use the command line below to install the program's dependencies
+
 ```bash
 bundle install
 ```
