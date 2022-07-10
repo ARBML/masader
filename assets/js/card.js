@@ -3,10 +3,6 @@ let isReportFormOpen = false;
 
 $("#reportForm").hide();
 
-function linkuize(text, link) {
-  return `<a href = "${link}" target="_blank"> ${text}</a>`
-}
-
 function ethicalBadge(text) {
   text = text.toLowerCase();
   if (text == "low") return '<span class="badge bg-success">Low</span>';
@@ -23,15 +19,6 @@ function createSubsets(subsetsValue) {
   return result
 }
 
-function itemize(text) {
-  tasks = text.split(",")
-  output = '<ul class="list-group list-group-flush bg-transparent">'
-  for (let i = 0; i < tasks.length; i++) {
-    output += '<li class="list-group-item bg-transparent">' + tasks[i].trim().replaceAll(' ', '-') + '</li>'
-  }
-  output += "</ul>"
-  return output
-}
 
 function onReportBtnClicked() {
 

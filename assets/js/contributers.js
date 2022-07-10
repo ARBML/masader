@@ -1,38 +1,5 @@
 const url = "https://sheets.googleapis.com/v4/spreadsheets/1YO-Vl4DO-lnp8sQpFlcX1cDtzxFoVkCmU1PVw_ZHJDg?key=AIzaSyC6dSsmyQw-No2CJz7zuCrMGglNa3WwKHU&includeGridData=true";
 
-function linkuize(text, link) {
-    if (link != undefined)
-        return `<a href = "${link}" target="_blank"> ${text}</a>`
-    else
-        return ""
-}
-
-
-function getIcon(text) {
-    const lower = text.toLowerCase()
-    if (icons[lower] != undefined) {
-        return icons[lower]
-    }
-    else {
-        return text
-    }
-}
-function itemize(text) {
-    tasks = text.split(",")
-    output = '<ul class="list-group list-group-flush bg-transparent">'
-    for (let i = 0; i < tasks.length; i++) {
-        output += '<li class="list-group-item bg-transparent">' + tasks[i].trim().replaceAll(' ', '-') + '</li>'
-    }
-    output += "</ul>"
-    return output
-}
-
-function badgeRender(text) {
-    text = text.toString().toLowerCase();
-    if (text.toLowerCase() == "free") return '<span class="badge bg-success">Free</span>'
-    else if (text == "upon-request") return '<span class="badge bg-info">Free Upon Request</span>'
-    else return '<span class="badge bg-danger">Paid</span>'
-}
 
 function reformat_numbers(num) {
     values = num.split(',')
@@ -81,10 +48,6 @@ axios.get(url, {
         ul.appendChild(li)
     }
     );
-
-
-
-
 
 })
     .catch(function (error) {
