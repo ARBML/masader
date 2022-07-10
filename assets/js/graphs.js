@@ -9,54 +9,52 @@ let dialectedEntries = {}
 $("#table").hide();
 
 titles = {
-    'License':'Most appearing licenses in the datasets',
-    'Year':'Number of datasets published every year',
-    'Dialect':'Distribution of the resources with respect of each country',
-    'Domain':'Most appearing domains in the dataests',
-    'Form':'Percentage of Text and Spoken datasets',
-    'Ethical Risks':'Ethical risks of Arabic NLP datasets',
-    'Script':'Scripts of writing Arabic NLP datasets',
-    'Host':'Counts of repostories used to host NLP datasets', 
-    'Access':'How easy to access most of the data. Upon-Request: means usually the dataset requires registeration, sharing info, email, etc.',
-    'Tasks':'Most frequent NLP tasks in the datasets truncated to most 20',
-    'Venue Type':'What kind of venues are used to publish NLP datasets'
-    
+    'License': 'Most appearing licenses in the datasets',
+    'Year': 'Number of datasets published every year',
+    'Dialect': 'Distribution of the resources with respect of each country',
+    'Domain': 'Most appearing domains in the dataests',
+    'Form': 'Percentage of Text and Spoken datasets',
+    'Ethical Risks': 'Ethical risks of Arabic NLP datasets',
+    'Script': 'Scripts of writing Arabic NLP datasets',
+    'Host': 'Counts of repostories used to host NLP datasets',
+    'Access': 'How easy to access most of the data. Upon-Request: means usually the dataset requires registeration, sharing info, email, etc.',
+    'Tasks': 'Most frequent NLP tasks in the datasets truncated to most 20',
+    'Venue Type': 'What kind of venues are used to publish NLP datasets'
+
 }
 
 function decodeDialect(dialect) {
     return (dialect.split(':')[0]).split('-')[1];
 }
 
-function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1){
+function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
     let series = []
 
     for (let index = 0; index < data.length; index++) {
 
-        if(data[index][idx] === undefined)
+        if (data[index][idx] === undefined)
             continue
 
-        if (ignoreOther){
+        if (ignoreOther) {
             if (['other', 'unknown', 'nan'].includes(data[index][idx]))
                 continue
         }
 
-        if (headersWhiteList[idx] == 'Tasks')
-        {
+        if (headersWhiteList[idx] == 'Tasks') {
             let tasks = data[index][idx].split(",");
             for (let index = 0; index < tasks.length; index++) {
                 series.push(tasks[index].trim())
             }
 
-        } else if(headersWhiteList[idx] == 'Dialect')
-        {
+        } else if (headersWhiteList[idx] == 'Dialect') {
 
-            let dialect = data[index][idx] != 'other'? decodeDialect(data[index][idx]) : 'other'
+            let dialect = data[index][idx] != 'other' ? decodeDialect(data[index][idx]) : 'other'
 
             // Subsets
-            for (let subDialect of data[index][`${subsetsIdx}`]){
+            for (let subDialect of data[index][`${subsetsIdx}`]) {
 
-                dialectCode = decodeDialect( subDialect['Dialect']);
-                
+                dialectCode = decodeDialect(subDialect['Dialect']);
+
                 if (dialectCode)
                     series.push(dialectCode.trim())
 
@@ -65,23 +63,20 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1){
             series.push(dialect.trim())
 
         }
-        else
-        {
+        else {
             series.push(data[index][idx].trim())
         }
-        
-                 
+
+
     }
 
     return series
 }
-function groupedBar()
-{
+function groupedBar() {
     $("#myChart").show();
     $("#chartdiv").hide();
 
-    if (myChart != null)
-    {
+    if (myChart != null) {
         myChart.destroy();
     }
 
@@ -91,23 +86,21 @@ function groupedBar()
 
     let all_venue_types = Array.from(new Set(getSeries(dataset, venue_idx)))
     let all_years = Array.from(new Set(getSeries(dataset, year_idx))).sort()
-    
+
     let color_theme = palette('tol-dv', all_venue_types.length).map(
-        function(hex) {
+        function (hex) {
             return '#' + hex;
-    })
-    for (var i = 0; i < all_venue_types.length; i++)
-    {
+        })
+    for (var i = 0; i < all_venue_types.length; i++) {
         series = []
         let venue_name = all_venue_types[i]
 
         for (let index = 0; index < dataset.length; index++) {
-            if(dataset[index][venue_idx] === undefined || dataset[index][year_idx] === undefined)
+            if (dataset[index][venue_idx] === undefined || dataset[index][year_idx] === undefined)
                 continue
-            if (dataset[index][venue_idx].trim() == venue_name)
-            {
+            if (dataset[index][venue_idx].trim() == venue_name) {
                 series.push(dataset[index][year_idx].trim())
-            }           
+            }
         }
 
         const [elements, counts] = getCounts(series)
@@ -118,7 +111,7 @@ function groupedBar()
             let year = all_years[index]
             let count_index = elements.indexOf(year)
             if (count_index > -1)
-                ex_counts.push(counts[count_index])                
+                ex_counts.push(counts[count_index])
             else
                 ex_counts.push(0)
 
@@ -126,8 +119,7 @@ function groupedBar()
 
         let colors = []
 
-        for (let _ in ex_counts)
-        {
+        for (let _ in ex_counts) {
             colors.push(color_theme[i])
         }
 
@@ -159,12 +151,10 @@ function groupedBar()
     myChart = new Chart(canvas, config);
 }
 
-function plotBar(col, truncate = 20)
-{
+function plotBar(col, truncate = 20) {
     $("#myChart").show();
     $("#chartdiv").hide();
-    if (myChart != null)
-    {
+    if (myChart != null) {
         myChart.destroy();
     }
     let idx = headersWhiteList.indexOf(col)
@@ -173,18 +163,18 @@ function plotBar(col, truncate = 20)
     var [elements, counts] = getCounts(series)
 
     elements = elements.slice(0, truncate)
-    counts   = counts.slice(0, truncate)
+    counts = counts.slice(0, truncate)
 
     const chartdata = {
         labels: elements,
         datasets: [{
             axis: 'y',
-            label:headersWhiteList[idx],
+            label: headersWhiteList[idx],
             data: counts,
             backgroundColor: palette('tol-dv', counts.length).map(
-                function(hex) {
+                function (hex) {
                     return '#' + hex;
-            })
+                })
         }]
     }
     var canvas = document.getElementById("myChart");
@@ -194,7 +184,7 @@ function plotBar(col, truncate = 20)
         options: {
             plugins: {
                 autocolors: {
-                mode: 'data'
+                    mode: 'data'
                 },
                 title: {
                     display: true,
@@ -212,26 +202,25 @@ function sortArrays(arrays, comparator = (a, b) => (a > b) ? -1 : (a < b) ? 1 : 
     let sortableArray = Object.values(arrays)[0];
     let indexes = Object.keys(sortableArray);
     let sortedIndexes = indexes.sort((a, b) => comparator(sortableArray[a], sortableArray[b]));
-  
-    let sortByIndexes = (array, sortedIndexes) => sortedIndexes.map(sortedIndex => array[sortedIndex]);
-  
-    if (Array.isArray(arrays)) {
-      return arrayKeys.map(arrayIndex => sortByIndexes(arrays[arrayIndex], sortedIndexes));
-    } else {
-      let sortedArrays = {};
-      arrayKeys.forEach((arrayKey) => {
-        sortedArrays[arrayKey] = sortByIndexes(arrays[arrayKey], sortedIndexes);
-      });
-      return sortedArrays;
-    }
-  }
 
-function getCounts(array, sorting = true)
-{
+    let sortByIndexes = (array, sortedIndexes) => sortedIndexes.map(sortedIndex => array[sortedIndex]);
+
+    if (Array.isArray(arrays)) {
+        return arrayKeys.map(arrayIndex => sortByIndexes(arrays[arrayIndex], sortedIndexes));
+    } else {
+        let sortedArrays = {};
+        arrayKeys.forEach((arrayKey) => {
+            sortedArrays[arrayKey] = sortByIndexes(arrays[arrayKey], sortedIndexes);
+        });
+        return sortedArrays;
+    }
+}
+
+function getCounts(array, sorting = true) {
     let labels = [],
-    counts = [],
-    arr = [...array], // clone array so we don't change the original when using .sort()
-    prev;
+        counts = [],
+        arr = [...array], // clone array so we don't change the original when using .sort()
+        prev;
 
     arr.sort();
     for (let element of arr) {
@@ -242,14 +231,13 @@ function getCounts(array, sorting = true)
         else ++counts[counts.length - 1];
         prev = element;
     }
-    if (sorting)
-    {
-        [counts, labels] = sortArrays([counts, labels]) 
+    if (sorting) {
+        [counts, labels] = sortArrays([counts, labels])
     }
     return [labels, counts];
 }
 
-function extractDilects(data){
+function extractDilects(data) {
     const entryDialects = [decodeDialect(String(data['Dialect'])), ...data['Subsets'].map((d) => decodeDialect(d['Dialect']))];
 
     for (const d of entryDialects)
@@ -260,7 +248,7 @@ function extractDilects(data){
                 dialectedEntries[d] = [data];
 }
 
-axios.get(url, ).then(function(response) {
+axios.get(url,).then(function (response) {
     let rowData = response.data
 
     headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Host', 'Access', 'Tasks', 'Venue Type', 'Subsets']
@@ -270,15 +258,15 @@ axios.get(url, ).then(function(response) {
         'Volume',
         'Unit',
         'Paper Link',
-      ]);
+    ]);
 
     $('.loading-spinner').hide()
-    
+
     const subsetsIdx = headersWhiteList.indexOf("Subsets")
 
     // Grabbing row's values
     dataset = [];
-    
+
     for (let i = 0; i < rowData.length; i++) {
 
         record = {};
@@ -288,71 +276,69 @@ axios.get(url, ).then(function(response) {
                 record[j] = String(rowData[i][headersWhiteList[j]]);
             else
                 record[j] = rowData[i][headersWhiteList[j]];
-        
 
-        extractDilects({index:i+1, ...rowData[i]});
+
+        extractDilects({ index: i + 1, ...rowData[i] });
         dataset.push(record);
     }
-    
-    console.log(dialectedEntries);
-    console.log(dataset)
+
     var changedText = document.getElementById('myDropdown');
 
-    document.getElementById('myDropdown').addEventListener('change', function() {
+    document.getElementById('myDropdown').addEventListener('change', function () {
         $("#table_wrapper").hide();
         document.getElementById("mapHint").style.visibility = "hidden";
         document.getElementById("selectionGroup").style.visibility = "hidden";
 
         if (this.value == "Venue Type")
-            groupedBar(this.value) 
-        else if(this.value == "Dialect"){
+            groupedBar(this.value)
+        else if (this.value == "Dialect") {
 
             let headers = [];
             let headersViewWhiteList = [
-              "No.",
-              "Name",
-              "Link",
-              "Year",
-              "Dialect",
-              "Volume",
-              "Unit",
-              "Paper Link",
-              "Access",
-              "Tasks",
+                "No.",
+                "Name",
+                "Link",
+                "Year",
+                "Dialect",
+                "Volume",
+                "Unit",
+                "Paper Link",
+                "Access",
+                "Tasks",
             ];
 
             for (let i = 0; i < headersViewWhiteList.length; i++) {
                 headers.push({
-                  index: i+1,
-                  title: headersViewWhiteList[i],
+                    index: i + 1,
+                    title: headersViewWhiteList[i],
                 });
-              }
-              
-              createMap(dialectedEntries, headers);
+            }
 
-        } else{
+            createMap(dialectedEntries, headers);
+
+        } else {
             plotBar(this.value)
-        }   
+        }
     });
     // update myDropdown with the first option
     changedText.value = "Host";
     plotBar("Host");
 
 })
-.catch(function(error) {
-    console.log(error);
-});
+    .catch(function (error) {
+        console.log(error);
+    });
 
 
 function createMap(dialectedEntries, headers) {
-  $("#myChart").hide();
-  $("#chartdiv").show();
-  document.getElementById("mapHint").style.visibility = "visible";
-  document.getElementById("selectionGroup").style.visibility = "visible";
+    $("#myChart").hide();
+    $("#chartdiv").show();
+    document.getElementById("mapHint").style.visibility = "visible";
+    document.getElementById("selectionGroup").style.visibility = "visible";
 
-  map.setEffectReference(populateTable);
-  map.setEffectArgs(headers);
-  map.populateData(singleDialect(dialectedEntries), populateTable);
+    map.setEffectReference(populateTable);
+    map.setEffectArgs(headers);
+    map.populateData(singleDialect(dialectedEntries), populateTable);
 
 }
 
@@ -360,14 +346,13 @@ function createMap(dialectedEntries, headers) {
 document.getElementById("selectionGroup").addEventListener("change", (e) => {
 
     let processedDialects;
-  
-    if (e.target.id == "byCountry")
-      processedDialects = singleDialect(dialectedEntries)
-    else
-      processedDialects = groupedDialect(dialectedEntries)
-  
-    map.populateData(processedDialects, populateTable);
-  
-  });
 
-  
+    if (e.target.id == "byCountry")
+        processedDialects = singleDialect(dialectedEntries)
+    else
+        processedDialects = groupedDialect(dialectedEntries)
+
+    map.populateData(processedDialects, populateTable);
+
+});
+
