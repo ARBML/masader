@@ -1,32 +1,32 @@
-const url = "https://masader-web-service.herokuapp.com/datasets";
+const url = 'https://masader-web-service.herokuapp.com/datasets';
 const urlEmbClus =
-    "https://masader-web-service.herokuapp.com/datasets?features=Cluster,Embeddings";
+    'https://masader-web-service.herokuapp.com/datasets?features=Cluster,Embeddings';
 
 function reformat_numbers(num) {
-    if (num === undefined) return "";
-    values = num.split(",");
+    if (num === undefined) return '';
+    values = num.split(',');
     if (values.length < 2) {
         return num;
     } else if (values.length == 2) {
-        return values[0] + "K";
-    } else return values[0] + "M";
+        return values[0] + 'K';
+    } else return values[0] + 'M';
 }
 
 function reformat_dialect(dialect) {
-    if (dialect.trim() != "other") {
-        dialect = dialect.split(":")[0];
-        dialect = dialect.split("-")[1];
+    if (dialect.trim() != 'other') {
+        dialect = dialect.split(':')[0];
+        dialect = dialect.split('-')[1];
     }
 
     return dialect;
 }
 
 function reformat_tasks(tasks) {
-    let out_html = "";
+    let out_html = '';
 
-    tasks = tasks.split(",");
+    tasks = tasks.split(',');
     for (let j = 0; j < tasks.length; j += 1) {
-        out_html += tasks[j] + "</br>";
+        out_html += tasks[j] + '</br>';
     }
 
     return out_html;
@@ -36,35 +36,35 @@ function createHtml(i) {
     let div = '<div style="font-family: Cairo, "Open Sans"> ';
     let table = '<table style="border-collapse: collapse; border: none;">';
     let html_out = div + table;
-    let list_to_show = ["Name", "Year", "Dialect", "Volume", "Tasks"];
+    let list_to_show = ['Name', 'Year', 'Dialect', 'Volume', 'Tasks'];
     for (let j = 0; j < list_to_show.length; j += 1) {
         let index_to_header = headersWhiteList.indexOf(list_to_show[j]);
         let header = headersWhiteList[index_to_header];
-        let value = " " + dataset[i][index_to_header];
+        let value = ' ' + dataset[i][index_to_header];
         html_out += '<tr style="border: none;">';
         html_out += '<td style="border: none;">';
-        html_out += "<b>" + header + "</b>";
-        html_out += "</td>";
+        html_out += '<b>' + header + '</b>';
+        html_out += '</td>';
         html_out += '<td style="border: none;">';
 
-        if (header == "Volume") {
+        if (header == 'Volume') {
             html_out +=
-                reformat_numbers(value) + " " + dataset[i][index_to_header + 1];
-        } else if (header == "Name") {
+                reformat_numbers(value) + ' ' + dataset[i][index_to_header + 1];
+        } else if (header == 'Name') {
             html_out += `<a href = "">${value}</a>`;
-        } else if (header == "Dialect") {
+        } else if (header == 'Dialect') {
             html_out += reformat_dialect(value);
-        } else if (header == "Tasks") {
+        } else if (header == 'Tasks') {
             html_out += reformat_tasks(value);
         } else {
             html_out += value;
         }
 
-        html_out += "</td>";
-        html_out += "</tr>";
+        html_out += '</td>';
+        html_out += '</tr>';
     }
 
-    return html_out + "</table>" + "</div>";
+    return html_out + '</table>' + '</div>';
 }
 
 const reteriveClustersEmbeddings = async () => {
@@ -85,23 +85,23 @@ axios
         let rowData = response.data;
 
         headersWhiteList = [
-            "Name",
-            "Link",
-            "License",
-            "Year",
-            "Language",
-            "Dialect",
-            "Domain",
-            "Form",
-            "Volume",
-            "Unit",
-            "Ethical Risks",
-            "Script",
-            "Access",
-            "Tasks",
-            "Venue Type",
+            'Name',
+            'Link',
+            'License',
+            'Year',
+            'Language',
+            'Dialect',
+            'Domain',
+            'Form',
+            'Volume',
+            'Unit',
+            'Ethical Risks',
+            'Script',
+            'Access',
+            'Tasks',
+            'Venue Type',
         ];
-        $(".loading-spinner").hide();
+        $('.loading-spinner').hide();
 
         // Grabbing row's values
         dataset = [];
@@ -117,24 +117,24 @@ axios
         var embeddings = info.embeddings;
         var clusters = info.clusters;
 
-        let box = document.querySelector(".box");
+        let box = document.querySelector('.box');
         const width = box.offsetWidth;
         const height = 500;
 
-        var svg = d3.select("svg");
+        var svg = d3.select('svg');
         var dimension = document.body.getBoundingClientRect();
 
         var tooltip = d3
-            .select("body")
-            .append("div")
-            .style("position", "absolute")
-            .style("background-color", "white")
-            .style("border", "solid")
-            .style("border-width", "1px")
-            .style("border-radius", "5px")
-            .style("padding", "10px")
-            .style("z-index", "10")
-            .style("visibility", "hidden");
+            .select('body')
+            .append('div')
+            .style('position', 'absolute')
+            .style('background-color', 'white')
+            .style('border', 'solid')
+            .style('border-width', '1px')
+            .style('border-radius', '5px')
+            .style('padding', '10px')
+            .style('z-index', '10')
+            .style('visibility', 'hidden');
         var data = d3.range(0, embeddings.length).map(function (d) {
             return {
                 x: embeddings[d][1],
@@ -142,12 +142,12 @@ axios
             };
         });
 
-        let xs = [...data].map((d => d.x));
-        let ys = [...data].map((d => d.y));
-        let xma = Math.ceil(Math.max(0, ...xs)+5)
-        let xmi = Math.ceil(Math.min(0, ...xs)-5)
-        let yma = Math.ceil(Math.max(0, ...ys)+5)
-        let ymi = Math.ceil(Math.min(0, ...ys)-5)
+        let xs = [...data].map((d) => d.x);
+        let ys = [...data].map((d) => d.y);
+        let xma = Math.ceil(Math.max(0, ...xs) + 5);
+        let xmi = Math.ceil(Math.min(0, ...xs) - 5);
+        let yma = Math.ceil(Math.max(0, ...ys) + 5);
+        let ymi = Math.ceil(Math.min(0, ...ys) - 5);
 
         var x = d3.scaleLinear().domain([xmi, xma]).range([0, width]);
 
@@ -161,46 +161,48 @@ axios
                 [0, 0],
                 [width, height],
             ])
-            .on("zoom", updateChart);
+            .on('zoom', updateChart);
 
         var svg = d3
-            .select("svg")
-            .attr("width", width)
-            .attr("height", height)
-            .style("background", "white")
-            .attr("style", "outline: thin solid gray;")
+            .select('svg')
+            .attr('width', width)
+            .attr('height', height)
+            .style('background', 'white')
+            .attr('style', 'outline: thin solid gray;')
             .call(zoom); // Adds zoom functionality
 
-        var canvas = svg.append("g").attr("class", "zoomable");
+        var canvas = svg.append('g').attr('class', 'zoomable');
 
         function updateChart() {
             if (canvas) {
-                canvas.attr("transform", d3.event.transform);
+                canvas.attr('transform', d3.event.transform);
                 // recover the new scale
                 var newX = d3.event.transform.rescaleX(x);
                 var newY = d3.event.transform.rescaleY(y);
 
                 // update circle position
                 canvas
-                    .selectAll("circle")
-                    .attr("cx", function (d) {
+                    .selectAll('circle')
+                    .attr('cx', function (d) {
                         return newX(d.x);
                     })
-                    .attr("cy", function (d) {
+                    .attr('cy', function (d) {
                         return newY(d.y);
                     });
             }
         }
 
         canvas
-            .selectAll("circle")
+            .selectAll('circle')
             .data(data)
             .enter()
-            .append("circle")
-            .attr("r", function (_, i, n) {
-                let vol_index = headersWhiteList.indexOf("Volume");
+            .append('circle')
+            .attr('r', function (_, i, n) {
+                let vol_index = headersWhiteList.indexOf('Volume');
                 try {
-                    let volume = parseInt(dataset[i][vol_index].replaceAll(",", ""));
+                    let volume = parseInt(
+                        dataset[i][vol_index].replaceAll(',', '')
+                    );
                     if (isNaN(volume)) {
                         return 10;
                     } else return Math.log(volume);
@@ -208,36 +210,36 @@ axios
                     return 10;
                 }
             })
-            .attr("opacity", 0.8)
-            .attr("cx", function (d) {
+            .attr('opacity', 0.8)
+            .attr('cx', function (d) {
                 return x(d.x);
             })
-            .attr("cy", function (d) {
+            .attr('cy', function (d) {
                 return y(d.y);
             })
-            .style("fill", function (_, i, n) {
+            .style('fill', function (_, i, n) {
                 const index = clusters[i];
                 return d3.schemeCategory20[index];
             })
-            .on("mouseover", function (_, i, n) {
+            .on('mouseover', function (_, i, n) {
                 tooltip = tooltip.html(createHtml(i));
-                d3.select(this).style("stroke", "#eaeaea");
-                d3.select(this).style("stroke-width", "5");
-                return tooltip.style("visibility", "visible");
+                d3.select(this).style('stroke', '#eaeaea');
+                d3.select(this).style('stroke-width', '5');
+                return tooltip.style('visibility', 'visible');
             })
-            .on("mousemove", function () {
+            .on('mousemove', function () {
                 return tooltip
-                    .style("top", event.pageY - 10 + "px")
-                    .style("left", event.pageX + 10 + "px");
+                    .style('top', event.pageY - 10 + 'px')
+                    .style('left', event.pageX + 10 + 'px');
             })
-            .on("mouseout", function () {
-                d3.select(this).style("stroke", "white");
-                d3.select(this).style("stroke-width", "0");
-                return tooltip.style("visibility", "hidden");
+            .on('mouseout', function () {
+                d3.select(this).style('stroke', 'white');
+                d3.select(this).style('stroke-width', '0');
+                return tooltip.style('visibility', 'hidden');
             })
-            .on("click", function (_, i, n) {
-                let url = "card.html?" + i;
-                window.open(url, "_blank").focus();
+            .on('click', function (_, i, n) {
+                let url = 'card.html?' + i;
+                window.open(url, '_blank').focus();
             });
     })
     .catch(function (error) {
