@@ -1,3 +1,8 @@
+/**
+ * This method populate the table of that contains the datasets
+ * @param {*} dataset The dataset to be viewd on the table
+ * @param {*} headers The headers of the table
+ */
 function populateTable(dataset, headers) {
   $("#table").show();
 
@@ -21,6 +26,12 @@ function populateTable(dataset, headers) {
   });
 }
 
+/**
+ * This method transform the dialected enteries into a format that is accepted by the map.
+ * This method only works for single-dialected view
+ * @param {*} dialectedEntries the dialected enteries 
+ * @returns A formatted version of dialected enteries
+ */
 function singleDialect(dialectedEntries) {
 
   let formattedEntries = [];
@@ -39,7 +50,12 @@ function singleDialect(dialectedEntries) {
   return formattedEntries;
 }
 
-
+/**
+ * This method return the dataset of an entire groups without duplications
+ * @param {*} dialectedEntries the dialected entries
+ * @param {*} group the group of countries
+ * @returns 
+ */
 function getGroupedDataset(dialectedEntries, group) {
   let groupedDataset = new Set();
 
@@ -49,6 +65,12 @@ function getGroupedDataset(dialectedEntries, group) {
   return [...groupedDataset]
 }
 
+/**
+ * This method transform the dialected enteries into a format that is accepted by the map.
+ * This method only works for grouped-dialected view
+ * @param {*} dialectedEntries the dialected enteries 
+ * @returns A formatted version of dialected enteries
+ */
 function groupedDialect(dialectedEntries) {
 
   const groups = [

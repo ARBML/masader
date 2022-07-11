@@ -1,8 +1,10 @@
 
 class BaseMap {
 
+    /**
+     * This constructor setup the map object of the class with its necessary setup.
+     */
     constructor() {
-
 
         this.focused = undefined;
         this.focusedColor = undefined;
@@ -60,14 +62,29 @@ class BaseMap {
 
     }
 
+    /**
+     * This method setup the reference for the method to be used in effects
+     * @param {*} ref The reference to an effect method
+     */
     setEffectReference(ref) {
         this.applyEffect = ref;
     }
 
+    /**
+     * This method setup the args for the method to be used in effects
+     * @param {*} effectsArgs the args to the method that will be used for effects
+     */
     setEffectArgs(effectsArgs) {
         this.effectsArgs = effectsArgs
     }
 
+    /**
+     * This method set up the map with its information
+     * @param {*} data  the data that the map will be expected. It takes the following format
+     *       regionName: string,
+     *       countries: string[],
+     *       dataset: Object{0:data entry, 1: data entry, ....}
+     */
     populateData(data) {
 
         this.colors = am5.ColorSet.new(this.root, {
@@ -76,7 +93,6 @@ class BaseMap {
         this.colors.next();
 
         for (const country of data) {
-            console.log(country);
 
             // Change it to whitelist
             if ([undefined, "GLF", "NOR", "CLS"].includes(country.countries))
@@ -116,6 +132,12 @@ class BaseMap {
         }
     }
 
+    /**
+     * This method add basic effects to the map
+     * @param {*} data the data that will be passed to the effect function
+     * @param {*} countrySeries the series that represents countries with their information
+     * @param {*} sColor the color the series will be colored
+     */
     addBaseEffects(data, countrySeries, sColor) {
 
         countrySeries.mapPolygons.template.states.create("hover", {
