@@ -23,13 +23,17 @@ function populateTable(dataset, headers) {
 
 function singleDialect(dialectedEntries) {
 
-  let formattedEntries = {};
+  let formattedEntries = [];
 
   for (d in dialectedEntries) {
-    formattedEntries[Object.keys(formattedEntries).length] = {
-      countryCodes: [d],
-      dataset: dialectedEntries[d]
-    };
+    formattedEntries.push({
+
+      regionName: undefined,
+      countries: [d],
+      dataset: dialectedEntries[d],
+    }
+
+    );
   }
 
   return formattedEntries;
@@ -47,14 +51,49 @@ function getGroupedDataset(dialectedEntries, group) {
 
 function groupedDialect(dialectedEntries) {
 
-  const groups = [["SA", "QA", "AE", "KW", "OM", "BH"], ["YE"], ["SY", "LB", "JO", "PS"], ["EG"], ["SD"], ["SO", "DJ"], ["DZ", "MR", "MA"], ["LY", "TN"], ["IQ"]];
-  let formattedEntries = {};
+  const groups = [
+      {
+        groupName: "Gulf",
+        countries: ["SA", "QA", "AE", "KW", "OM", "BH"]
+      },
+      {
+        groupName: "Yeman",
+        countries: ["YE"],
+      },
+      {
+        groupName: "Levant",
+        countries: ["SY", "LB", "JO", "PS"]
+      },
+      {
+        groupName: "Egypt",
+        countries: ["EG"]
+      },
+      {
+        groupName: "Sudan",
+        countries: ["SD"]
+      },
+      {
+        groupName: "Iraq",
+        countries: ["IQ"]
+      },
+      {
+        groupName: "Horn of Africa",
+        countries: ["SO", "DJ"]
+      },
+      {
+        groupName: "North Africa",
+        countries: ["DZ", "MR", "MA", "LY", "TN"]
+      },
+    ];
+
+  let formattedEntries = [];
 
   for (d of groups) {
-    formattedEntries[Object.keys(formattedEntries).length] = {
-      countryCodes: d,
-      dataset: getGroupedDataset(dialectedEntries, d)
-    };
+    formattedEntries.push ({
+      regionName: d.groupName,
+      countries: d.countries,
+      dataset: getGroupedDataset(dialectedEntries, d.countries)
+    });
   }
 
   return formattedEntries;

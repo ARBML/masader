@@ -70,31 +70,28 @@ class BaseMap {
 
     populateData(data) {
 
-        console.log(data);
-
-
         this.colors = am5.ColorSet.new(this.root, {
             step: 1,
         });
         this.colors.next();
 
-
-        for (const country in data) {
+        for (const country of data) {
+            console.log(country);
 
             // Change it to whitelist
-            if ([undefined, "GLF", "NOR", "CLS"].includes(data[country].countryCodes))
+            if ([undefined, "GLF", "NOR", "CLS"].includes(country.countries))
                 continue
 
             var countrySeries = this.chart.series.push(
                 am5map.MapPolygonSeries.new(this.root, {
                     geoJSON: am5geodata_worldLow,
-                    include: data[country].countryCodes,
+                    include: country.countries,
                 })
             );
 
             const sColor = this.colors.next();
 
-            this.addBaseEffects(data[country].dataset, countrySeries, sColor);
+            this.addBaseEffects(country.dataset, countrySeries, sColor);
 
             countrySeries.mapPolygons.template.setAll({
                 tooltipText: `[bold]{name}[/]\n Number of resources {count}[/]`,
@@ -102,11 +99,12 @@ class BaseMap {
                 strokeWidth: 2,
             });
 
-            const countriesSettings = data[country].countryCodes
+            const countriesSettings = country.countries
                 .map((c) => {
                     return {
                         id: c,
-                        count: data[country].dataset.length,
+                        name: country.regionName,
+                        count: country.dataset.length,
                         polygonSettings: {
                             fill: sColor
                         },
