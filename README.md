@@ -112,7 +112,7 @@ which gives the following output
  'Year': 2018}
 ```
 
-## Running MASADER locally with Jekyll
+## Running Masader locally with Jekyll
 
 ### Prerequisites:
 
@@ -122,16 +122,18 @@ which gives the following output
 
 ### Steps:
 
-1.  Open Project in the Terminal
-2.  Run `bundle install` to install the project's dependencies.
+1.  Open the project in the terminal
+2.  Run `bundle install` to install dependencies.
 3.  Run the site locally with `bundle exec jekyll serve`.
-4.  To preview MASADER site, in your web browser, navigate to `http://127.0.0.1:4000/masader/` .
+4.  Preview Masader site on your web browser by navigate to `http://127.0.0.1:4000/masader/`.
 
 Note: Navigate to the publishing source for MASADER site. For more information about publishing sources, [see](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites).
 
 ## Contribution
 
 The catalogue will be updated regularly. If you want to add a new dataset, use this [form](https://forms.gle/JnMrJjHumT6ktK9cA).
+
+To contribute to the project development, please visit [contributing instructions](CONTRIBUTING.md)
 
 ## Collaborative Work
 
