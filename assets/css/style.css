@@ -727,11 +727,38 @@ svg {
 }
 
 th {
-    color: rgba(133, 54, 54);
+    color: #ffffff;
+    background-color: #F95959 !important;
 }
 
 td {
     font-weight: 600 !important;
+}
+
+/* by defuatl Open */
+td.details-control {
+    /* background: url('https://www.datatables.net/examples/resources/details_open.png') no-repeat center center;
+    cursor: pointer; */
+    background-color: blue;
+    transition: all 0.4s ease;
+    
+}
+
+/* to Close */
+tr.shown td.details-control {
+    /* background: url('https://www.datatables.net/examples/resources/details_close.png') no-repeat center center; */
+    transition: all 0.4s ease;
+    transform: rotateZ(180deg);
+    background-color: red;
+
+}
+
+.shorterText{
+    display: inline-block;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
 }
 
 #table_card {

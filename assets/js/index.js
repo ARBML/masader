@@ -2,7 +2,7 @@ const url = "https://masader-web-service.herokuapp.com/datasets";
 
 function linkuize(text, link) {
     if(link != undefined || link != "nan")
-        return `<a href = "${link}" target="_blank"> ${text}</a>`
+        return `<a href = "${link}" target="_blank" class="shorterText"> ${text}</a>`
     else
         return ""
 }
@@ -51,6 +51,33 @@ function reformat_numbers(num) {
         return values[0] + 'M'
 }
 
+function getShorter(){
+
+}
+
+function getDetails(id) {
+  return axios.get(url+"/"+id).then(response => response.data)
+}
+
+function fomratDetails(data){
+  return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
+  '<tr>'+
+  '<td>Name</td>'+
+    '<td>'+data['Name']+'</td>'+
+      '</tr>'+
+      '<tr>'+
+      '<td>Created At</td>'+
+      '<td>'+data['year']+'</td>'+
+      '</tr>'+
+      '<tr>'+
+      '<td>Volume</td>'+
+      '<td>'+ data['Volume'] +'</td>'+
+      '</tr>'+
+      '</table>';
+   // })
+ }
+
+
 axios.get(url, {
     // TODO:: Adding a download progress bar. * IT CANNOT BE APPLIED BECAUSE THE SIZE OF THE ENCODING DATA. *
     onDownloadProgress: progressEvent => {
@@ -74,9 +101,19 @@ axios.get(url, {
     "Tasks",
   ];
   $('.loading-spinner').hide()
+
+  headers.push({
+      index: 0,
+      className:      'details-control',
+      orderable:      false,
+      data:           null,
+      defaultContent: ''
+  
+  })
+
   for (let i = 0; i < headersWhiteList.length; i++) {
     headers.push({
-      index: i,
+      index: i+1,
       title: headersWhiteList[i],
     });
   }
@@ -93,15 +130,16 @@ axios.get(url, {
     }
     dataset.push({
       0: index + 1,
-      1: linkuize(row["Name"], `card?id=${index + 1}`),
-      2: link_host,
-      3: row["Year"],
-      4: getCountry(row["Dialect"] != "nan" ? row["Dialect"] : ""),
-      5: row["Volume"] != "nan"  ? row["Volume"] : "",
-      6: row["Unit"] != "nan" ? row["Unit"] : "",
-      7: linkuize(row["Paper Title"], row["Paper Link"]),
-      8: badgeRender(row["Access"]),
-      9: itemize(row["Tasks"]),
+      1: index + 1,
+      2: linkuize(row["Name"], `card?id=${index + 1}`),
+      3: link_host,
+      4: row["Year"],
+      5: getCountry(row["Dialect"] != "nan" ? row["Dialect"] : ""),
+      6: row["Volume"] != "nan"  ? row["Volume"] : "",
+      7: row["Unit"] != "nan" ? row["Unit"] : "",
+      8: linkuize(row["Paper Title"], row["Paper Link"]),
+      9: badgeRender(row["Access"]),
+      10: itemize(row["Tasks"]),
     });
   }
 
@@ -113,7 +151,7 @@ axios.get(url, {
 
   $(document).ready(function () {
     document.getElementById("numDatasets").textContent = dataset.length;
-    $("#table").DataTable({
+    let table = $("#table").DataTable({
       data: dataset,
       columns: headers,
       lengthMenu: [
@@ -124,12 +162,40 @@ axios.get(url, {
       paging: true,
       pagingType: "numbers",
       bInfo: false,
+      responsive: true,
       createdRow: function (row, data, dataIndex) {
-        $("td:eq(9)", row).css("min-width", "200px");
+        $("td:eq(10)", row).css("min-width", "200px");
       },
+      "columnDefs": [
+        {
+            "targets": 0,
+            "render": function ( data, type, row ) {
+                return "<i class='fa-solid fa-angle-down'></i>";
+            }
+        },
+      ]
+      
     });
-  });
-})
+
+   // opening and closing details
+   $('#table tbody').on('click', 'td.details-control', function () {
+      var tr = $(this).closest('tr');
+      var row = table.row( tr );
+      console.log(row,"row")
+      if ( row.child.isShown() ) {
+          row.child.hide();
+          tr.removeClass('shown');
+      }
+      else {
+          id = row.data()[1];
+          loader = $(".loading-spinner").html();
+          row.child(loader).show();
+          getDetails(id).then(response => row.child(fomratDetails(response)).show())
+          tr.addClass('shown');
+      }
+    });
+    });
+  })
     .catch(function(error) {
         console.log(error);
     });
