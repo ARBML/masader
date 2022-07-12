@@ -76,7 +76,7 @@ function groupedDialect(dialectedEntries) {
   const groups = [
       {
         groupName: "Gulf",
-        countries: ["SA", "QA", "AE", "KW", "OM", "BH"]
+        countries: ["SA", "QA", "AE", "KW", "OM", "BH", "GLF"]
       },
       {
         groupName: "Yeman",
@@ -84,7 +84,7 @@ function groupedDialect(dialectedEntries) {
       },
       {
         groupName: "Levant",
-        countries: ["SY", "LB", "JO", "PS"]
+        countries: ["SY", "LB", "JO", "PS", "LEV"]
       },
       {
         groupName: "Egypt",
@@ -104,7 +104,7 @@ function groupedDialect(dialectedEntries) {
       },
       {
         groupName: "North Africa",
-        countries: ["DZ", "MR", "MA", "LY", "TN"]
+        countries: ["DZ", "MR", "MA", "LY", "TN", "NOR"]
       },
     ];
 
