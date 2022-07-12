@@ -6,5 +6,7 @@ nav:
           url: /explore
         - title: Graphs
           url: /graphs
+        - title: Changelog
+          url: /changelog
         - title: Contribute
           url: https://forms.gle/JnMrJjHumT6ktK9cA
