@@ -1,5 +1,5 @@
 .reportData {
-    resize:none;
+    resize: none;
     width: 100%;
     border-radius: 7px;
     border-color: rgb(209, 44, 44);
@@ -9,7 +9,7 @@
     color: #fff8f0 !important;
     border-radius: 7px;
     text-align: center;
-    font-family:Georgia;
+    font-family: Georgia;
 }
 
 .reportBtns:hover {
@@ -17,8 +17,8 @@
 }
 
 #sendReportBtn {
-    left:25%;
+    left: 25%;
     width: 50%;
-    border:none;
+    border: none;
     font-size: medium;
 }
