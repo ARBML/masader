@@ -17,24 +17,50 @@ foot_scripts:
 >
     <div class="container">
         <div class="table-section py-4">
-        <div class="fa-3x loading-spinner">
-            <h5 class="text-center">
-            Fetching data <i class="fas fa-spinner fa-pulse"></i>
-            </h5>
+            <div class="fa-3x loading-spinner">
+                <h5 class="text-center">
+                Fetching data <i class="fas fa-spinner fa-pulse"></i>
+                </h5>
+            </div>
+
+            <table
+                class="table table-responsive table-container"
+                id="table_card"
+            ></table>
+
         </div>
 
-        <table
-            class="table table-responsive table-container"
-            id="table_card"
-        ></table>
+
+        <!-- Report card -->
+
+        <!-- Button trigger modal -->
+        <div class="text-center">
+            <button type="button" class="btn reportBtns bg-danger mb-3" data-toggle="modal" data-target="#exampleModalCenter"> Report Issue(s) </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Report Issue(s)</h5>
+                    </div>
+
+                    <div class="modal-body">
+                        <p>Please Enter more details regarding the issues within this card below.</p>
+                        <textarea rows="6em" class="reportData" id="issueMessage"></textarea>
+                    </div>
+
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="sendReportBtn" data-dismiss="modal">Save changes</button>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
-        <div>
-            <button id="reportBtn" class="accordion-button badge bg-danger mb-3 d-block reportBtns"> Report issues with this card</button>
-            
-            <div id="reportForm">
-            <textarea rows="6em" class="reportData" id="issueMessage"></textarea>
-            <button id="sendReportBtn" class="accordion-button badge bg-success d-block mt-3 mb-3 reportBtns"> Report</button>
-        </div>
+
     </div>
+
 </section>

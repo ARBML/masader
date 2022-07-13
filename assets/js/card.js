@@ -37,19 +37,6 @@ function itemize(text) {
     return output;
 }
 
-function onReportBtnClicked() {
-    if (isReportFormOpen) {
-        document.getElementById('reportBtn').innerHTML =
-            'Report issues with this card';
-        $('#reportForm').hide();
-    } else {
-        document.getElementById('reportBtn').innerHTML = 'Close';
-        $('#reportForm').show();
-    }
-
-    isReportFormOpen = !isReportFormOpen;
-}
-
 async function onSendReportBtnClicked() {
     let issueForm = document.getElementById('issueMessage');
     const cardId = new URL(window.location.href).searchParams.get('id');
@@ -62,8 +49,6 @@ async function onSendReportBtnClicked() {
 
     if (response.ok) {
         const responseData = await response.json();
-
-        onReportBtnClicked();
         issueForm.value = '';
         tata.success(
             'Issues opend succesfully',
@@ -181,9 +166,6 @@ axios
         console.log(error);
     });
 
-document
-    .getElementById('reportBtn')
-    .addEventListener('click', onReportBtnClicked);
 document
     .getElementById('sendReportBtn')
     .addEventListener('click', onSendReportBtnClicked);
