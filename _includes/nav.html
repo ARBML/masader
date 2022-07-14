@@ -1,50 +1,66 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light">
-  <div class="container">
-    <a class="navbar-brand text-danger fw-bold text-center" href="{{ site.baseurl }}/">
-      <img
-        class="d-inline-block align-text-top"
-        src="{{ site.baseurl }}/{{ site.data.page.nav.logo }}"
-        width ="150px"
-        alt="arb-ml-logo"
-      />
-      {{ site.data.page.nav.title }}
-
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-    <div
-      class="collapse navbar-collapse justify-content-end"
-      id="navbarNav"
-    >
-      <ul class="navbar-nav ">
-{% for tab in site.data.page.nav.tabs %}
-
-    {% if tab.url contains '://' %}
-        <li class = "nav-item">
-            <a
-                class="nav-link text-danger fw-bold"
-                href="{{ tab.url }}"
-                >{{ tab.title }}</a
-                ></li>
-    {% else %}
-        <li class = "nav-item">
-            <a
-                class="nav-link text-danger fw-bold"
-                href="{{ site.baseurl }}{{ tab.url }}"
-                >{{ tab.title }}</a
-                ></li>
-    {% endif %}
-{% endfor %}
-
-<li class = "nav-item">
-    <a
-        class="btn btn-link btn-gradient"
-        href="https://github.com/ARBML/masader"
-        ><i class="fa-brands fa-github"></i> GitHub</a
-    >
-</li>
-</ul>
-
-</div>
+<nav class="flex justify-between items-center h-16 lg:h-20 w-full px-4 lg:px-8">
+  <div class="flex gap-8 justify-between items-center">
+    <h2 class="font-bold text-xl lg:text-2xl text-[#F95959]">
+      <a href="{{ site.baseurl }}/" class="hover:text-inherit">Masader</a>
+    </h2>
+    <ul class="md:flex items-center gap-4 hidden">
+      {% for item in site.data.page.nav.tabs %}
+      <li>
+        <a
+          href="{% if item.url contains '://' %} {{ item.url }} {% else %} {{ site.baseurl }}{{item.url}} {% endif %}"
+          class="capitalize font-medium"
+        >
+          {{ item.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <ul class="flex gap-8 items-center">
+    <li class="block md:hidden navigation-mobile-menu-toggle">
+      <i class="fa-solid fa-ellipsis"></i>
+    </li>
+    <li class="hidden md:block">
+      <a target="_blank" href="https://discord.gg/aN2vaec9nV">
+        <i class="fa-brands fa-discord text-blue-500"></i>
+      </a>
+    </li>
+    <li class="hidden md:block">
+      <a target="_blank" href="https://github.com/ARBML/masader">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </li>
+  </ul>
 </nav>
+<ul
+  class="navigation-mobile-menu flex w-full hidden flex-col border border-black gap-8 p-4 md:hidden"
+>
+  <li>
+    <ul class="flex justify-center flex-col items-center gap-4">
+      {% for item in site.data.page.nav.tabs %}
+      <li>
+        <a
+          href="{% if item.url contains '://' %} {{ item.url }} {% else %} {{ site.baseurl }}{{item.url}} {% endif %}"
+          class="capitalize font-medium"
+        >
+          {{ item.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
+  <li>
+    <ul class="flex justify-center gap-8 items-center">
+      <li>
+        <a target="_blank" href="https://discord.gg/aN2vaec9nV">
+          <i class="fa-brands fa-discord text-blue-500"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/ARBML/masader">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </li>
+</ul>

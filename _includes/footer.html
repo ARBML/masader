@@ -1,29 +1,14 @@
-<section class="py-md-0 pb-3 bg-warning-gradient">
-    <div class="container">
-        <div class="row flex-center">
-            <div class="col-md-5">
-                <img
-                class="w-100 w-lg-75 d-none d-md-block"
-                src="{{ site.baseurl }}/{{ site.data.metadata.logo_url }}"
-                width="320"
-                alt="Image that contain the logo of arbML"
-                />
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-6">
-                <h1 class="fw-bold fs-4 fs-lg-5 fs-xl-6 mb-4 text-primary">
-                Collaborate with the<br class="d-none d-xl-block" />team
-                </h1>
-                <a
-                class="btn btn-lg hover btn-gradient"
-                href="{{ site.data.metadata.contributing_url }}"
-                >Instructions</a
-                >
-            </div>
-        </div>
-    </div>
-</section>
-
+<footer class="flex flex-col md:flex-row  justify-between items-center p-4 gap-8 md:gap-0  w-full md:px-4">
+  <h2 class="font-bold text-xl lg:text-2xl text-[#F95959]">
+    <a>Masader</a>
+  <h2/>
+  <ul class="flex flex-col md:flex-row items-center gap-4">
+    <li><a href="https://discord.gg/aN2vaec9nV" class="font-medium capitalize">community</a></li>      
+    <li><a href="./contributing" class="font-medium capitalize">contributing</a></li>      
+    <li><a href="https://github.com/ARBML/masader" class="font-medium capitalize">repository</a></li>      
+    <li><a href="./explore" class="font-medium capitalize">explore</a></li>      
+  </ul>
+</footer>
 
 <!-- common files -->
 <script
@@ -35,6 +20,8 @@
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"></script>
+<script src="./assets/js/navigation.js"></script>
 
 {% for item in page.foot_scripts %}
     {% if item contains '://' %}
