@@ -10,6 +10,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.0] - TBD
+
+### Added
+
+-   Added changelog page [#77](https://github.com/ARBML/masader/pull/77) by [@sudomaze](https://github.com/sudomaze).
+
+### Changed
+
+-   Improved the layout template of the website [#81](https://github.com/ARBML/masader/pull/81) by [@unifoliatus](https://github.com/unifoliatus).
+
 ## [0.8.0] - 2022-07-11
 
 ### Added
@@ -72,7 +82,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   Removed unused pages and scripts [#6](https://github.com/ARBML/masader/issues/6) by [@MutlaqAldhbuiub](https://github.com/MutlaqAldhbuiub).
 
-[0.8.0]: Improvements
-
-[0.7.0]: Moving to Jekyll
-[0.6.0]: Re-designing website
+[0.8.0]: #080---2022-07-11
+[0.7.0]: #070---2022-07-05
+[0.6.0]: #060---2021-04-27
