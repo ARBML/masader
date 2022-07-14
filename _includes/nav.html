@@ -9,6 +9,7 @@
         <a
           href="{% if item.url contains '://' %} {{ item.url }} {% else %} {{ site.baseurl }}{{item.url}} {% endif %}"
           class="capitalize font-medium"
+          {% if item.url contains '://' %}target="_blank" {% endif %}
         >
           {{ item.title }}
         </a>
