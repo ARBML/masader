@@ -63,20 +63,88 @@ function getDetails(id) {
 }
 
 function fomratDetails(data){
-  return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
-  '<tr>'+
-  '<td>Name</td>'+
-    '<td>'+data['Name']+'</td>'+
-      '</tr>'+
-      '<tr>'+
-      '<td>Created At</td>'+
-      '<td>'+data['year']+'</td>'+
-      '</tr>'+
-      '<tr>'+
-      '<td>Volume</td>'+
-      '<td>'+ data['Volume'] +'</td>'+
-      '</tr>'+
-      '</table>';
+    console.log(data)
+  return '<div class="grid grid-cols-4">'+
+            '<div class="col-span-1">'+
+                'asdfasfd'+
+            '</div>'+
+            '<div class="col-span-3">'+
+                '<div class="grid grid-rows-6 grid-flow-col ">'+
+                    ' <div class="grid grid-cols-2 ">'+
+                        '<span class="text-gray-400">Name</span>'+
+                        '<span class="text-gray-800">'+data['Name'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2">'+
+                        '<span class=" text-gray-400">Created At</span>'+
+                        '<span class=" text-gray-800">'+data['Year'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2 ">'+
+                        '<span class="text-gray-400">Volume</span>'+
+                        '<span class="text-gray-800">'+data['Volume'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Unit</span>'+
+                        '<span class="text-gray-800">'+data['Unit'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Language</span>'+
+                        '<span class="text-gray-800">'+data['Language'] +'</span>'+
+                    '</div>'+
+                    ' <div class=" grid grid-cols-2 ">'+
+                        '<span class="text-gray-400">License</span>'+
+                        '<span class="text-gray-800">'+data['License'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Accessibility</span>'+
+                        '<span class="text-gray-800">'+data['Access'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Tasks</span>'+
+                        '<span class="text-gray-800">'+data['Tasks'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Dialect</span>'+
+                        '<span class="text-gray-800">'+data['Dialect'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Domain</span>'+
+                        '<span class="text-gray-800">'+data['Domain'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Form</span>'+
+                        '<span class="text-gray-800">'+data['Form'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Collection Style</span>'+
+                        '<span class="text-gray-800">'+data['Collection Style'] +'</span>'+
+                    '</div>'+
+                    ' <div class=" grid grid-cols-2 ">'+
+                        '<span class="text-gray-400">Provider</span>'+
+                        '<span class="text-gray-800">'+data['Provider'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Script</span>'+
+                        '<span class="text-gray-800">'+data['Script'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Tokenized</span>'+
+                        '<span class="text-gray-800">'+data['Tokenized'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Host</span>'+
+                        '<span class="text-gray-800">'+data['Host'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Cost</span>'+
+                        '<span class="text-gray-800">'+data['Cost'] +'</span>'+
+                    '</div>'+
+                    ' <div class="grid grid-cols-2  ">'+
+                        '<span class="text-gray-400">Test Split</span>'+
+                        '<span class="text-gray-800">'+data['Test Split'] +'</span>'+
+                    '</div>'+
+                '</div>'+
+            '</div>'+
+        '</div>'
    // })
  }
 
@@ -107,7 +175,7 @@ axios
         $('.loading-spinner').hide();
         headers.push({
           index: 0,
-          className:      'details-control',
+          className:      'fa-solid fa-angle-down table-cell flex',
           orderable:      false,
           data:           null,
           defaultContent: ''
@@ -115,7 +183,7 @@ axios
       })
         for (let i = 0; i < headersWhiteList.length; i++) {
             headers.push({
-                index: ++i,
+                index: 1+i,
                 title: headersWhiteList[i],
             });
         }
@@ -166,22 +234,22 @@ axios
                 bInfo: false,
                 createdRow: function (row, data, dataIndex) {
                     $('td:eq(`10`)', row).css('min-width', '200px');
-                },"columnDefs": [
-                  {
-                      "targets": 0,
-                      "render": function ( data, type, row ) {
-                          return "<i class='fa-solid fa-angle-down'></i>";
-                      }
-                  },
-                ]
+                },
+                // "columnDefs": [
+                //   {
+                //       "targets": 0,
+                //       "render": function ( data, type, row ) {
+                //           return "<i class='fa-solid fa-angle-down'></i>";
+                //       }
+                //   },
+                // ]
                 
               });
           
              // opening and closing details
-             $('#table tbody').on('click', 'td.details-control', function () {
+             $('#table tbody').on('click', 'td.fa-angle-down', function () {
                 var tr = $(this).closest('tr');
                 var row = table.row( tr );
-                console.log(row,"row")
                 if ( row.child.isShown() ) {
                     row.child.hide();
                     tr.removeClass('shown');

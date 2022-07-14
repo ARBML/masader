@@ -755,21 +755,29 @@ td {
 }
 
 /* by defuatl Open */
-td.details-control {
+td.fa-angle-down {
     /* background: url('https://www.datatables.net/examples/resources/details_open.png') no-repeat center center;
     cursor: pointer; */
     background-color: blue;
     transition: all 0.4s ease;
-    
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden
 }
 
 /* to Close */
-tr.shown td.details-control {
+tr.shown td.fa-angle-down {
     /* background: url('https://www.datatables.net/examples/resources/details_close.png') no-repeat center center; */
     transition: all 0.4s ease;
     transform: rotateZ(180deg);
-    background-color: red;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden
+}
 
+td > i, td> i {
+    position:relative;
+    top: calc(50% - 10px); /* 50% - 3/4 of icon height */
 }
 
 .shorterText{
