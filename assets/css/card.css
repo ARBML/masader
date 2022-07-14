@@ -22,3 +22,11 @@
     border: none;
     font-size: medium;
 }
+
+#table {
+    padding-left: 0% !important;
+}
+
+#table_card {
+    padding-left: 0% !important;
+}
