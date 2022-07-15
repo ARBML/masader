@@ -92,7 +92,10 @@ function createDialectedGraph(groupData, headersInfo) {
     $('#chartdiv').show();
     headers = headersInfo;
 
-    const formattedData = groupedDialect(groupData)
-    const htmlTableEntry = generateTable(formattedData);
-    document.getElementById("chartdiv").appendChild(htmlTableEntry);
+    if (document.getElementById("chartdiv").children.length === 0){
+        const formattedData = groupedDialect(groupData)
+        const htmlTableEntry = generateTable(formattedData);
+        document.getElementById("chartdiv").appendChild(htmlTableEntry);
+    }
+
 }
