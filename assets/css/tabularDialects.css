@@ -6,7 +6,7 @@
     padding-left: 1%;
 }
 
-.singleDialectBtn{
+.singleDialectBtn {
     border-radius: 4px;
     border-style: solid;
     border-width: 3%;
@@ -14,7 +14,7 @@
     background-color: rgb(95, 204, 231);
 }
 
-.groupedDialectBtn{
+.groupedDialectBtn {
     border-radius: 4px;
     border-style: solid;
     border-width: 3%;
@@ -26,6 +26,6 @@
     opacity: 80%;
 }
 
-.focus{
+.focus {
     background-color: rgb(115, 95, 231);
 }

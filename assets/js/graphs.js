@@ -3,7 +3,7 @@ const url = 'https://masader-web-service.herokuapp.com/datasets';
 let headersWhiteList;
 let dataset;
 let myChart = null;
-let dialectedEntries = {}
+let dialectedEntries = {};
 
 titles = {
     License: 'Most appearing licenses in the datasets',
@@ -20,7 +20,7 @@ titles = {
 };
 
 function decodeDialect(dialect) {
-    return (dialect.split(':')[0]).split('-')[1];
+    return dialect.split(':')[0].split('-')[1];
 }
 
 function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
@@ -40,7 +40,10 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
                 series.push(tasks[index].trim());
             }
         } else if (headersWhiteList[idx] == 'Dialect') {
-            let dialect = data[index][idx] != 'other' ? decodeDialect(data[index][idx]) : 'other'
+            let dialect =
+                data[index][idx] != 'other'
+                    ? decodeDialect(data[index][idx])
+                    : 'other';
 
             // Subsets
             for (let subDialect of data[index][`${subsetsIdx}`]) {
@@ -237,92 +240,104 @@ function getCounts(array, sorting = true) {
 }
 
 function extractDilects(data) {
-    const entryDialects = [decodeDialect(String(data['Dialect'])), ...data['Subsets'].map((d) => decodeDialect(d['Dialect']))];
+    const entryDialects = [
+        decodeDialect(String(data['Dialect'])),
+        ...data['Subsets'].map((d) => decodeDialect(d['Dialect'])),
+    ];
 
     for (const d of entryDialects)
         if (d && d !== 'other')
-            if (dialectedEntries[d])
-                dialectedEntries[d].push(data);
-            else
-                dialectedEntries[d] = [data];
+            if (dialectedEntries[d]) dialectedEntries[d].push(data);
+            else dialectedEntries[d] = [data];
 }
 
-axios.get(url,).then(function (response) {
-    let rowData = response.data
+axios
+    .get(url)
+    .then(function (response) {
+        let rowData = response.data;
 
-    headersWhiteList = ['License', 'Year', 'Language', 'Dialect', 'Domain', 'Form', 'Ethical Risks', 'Script', 'Host', 'Access', 'Tasks', 'Venue Type', 'Subsets']
-    headersWhiteList = headersWhiteList.concat([
-        'Name',
-        'Link',
-        'Volume',
-        'Unit',
-        'Paper Link',
-    ]);
+        headersWhiteList = [
+            'License',
+            'Year',
+            'Language',
+            'Dialect',
+            'Domain',
+            'Form',
+            'Ethical Risks',
+            'Script',
+            'Host',
+            'Access',
+            'Tasks',
+            'Venue Type',
+            'Subsets',
+        ];
+        headersWhiteList = headersWhiteList.concat([
+            'Name',
+            'Link',
+            'Volume',
+            'Unit',
+            'Paper Link',
+        ]);
 
-    $('.loading-spinner').hide()
+        $('.loading-spinner').hide();
 
-    const subsetsIdx = headersWhiteList.indexOf("Subsets")
+        const subsetsIdx = headersWhiteList.indexOf('Subsets');
 
-    // Grabbing row's values
-    dataset = [];
+        // Grabbing row's values
+        dataset = [];
 
-    for (let i = 0; i < rowData.length; i++) {
+        for (let i = 0; i < rowData.length; i++) {
+            record = {};
 
-        record = {};
+            for (let j = 0; j < headersWhiteList.length; j++)
+                if (j != subsetsIdx)
+                    record[j] = String(rowData[i][headersWhiteList[j]]);
+                else record[j] = rowData[i][headersWhiteList[j]];
 
-        for (let j = 0; j < headersWhiteList.length; j++)
-            if (j != subsetsIdx)
-                record[j] = String(rowData[i][headersWhiteList[j]]);
-            else
-                record[j] = rowData[i][headersWhiteList[j]];
-
-
-        extractDilects({ index: i + 1, ...rowData[i] });
-        dataset.push(record);
-    }
-
-    var changedText = document.getElementById('myDropdown');
-
-    document.getElementById('myDropdown').addEventListener('change', function () {
-        $("#table_wrapper").hide();
-        $("#datasetSizeLbl").hide();
-        
-        if (this.value == "Venue Type")
-            groupedBar(this.value)
-        else if (this.value == "Dialect") {
-
-            let headers = [];
-            let headersViewWhiteList = [
-                "No.",
-                "Name",
-                "Link",
-                "Year",
-                "Dialect",
-                "Volume",
-                "Unit",
-                "Paper Link",
-                "Access",
-                "Tasks",
-            ];
-
-            for (let i = 0; i < headersViewWhiteList.length; i++) {
-                headers.push({
-                    index: i + 1,
-                    title: headersViewWhiteList[i],
-                });
-            }
-
-            createDialectedGraph(dialectedEntries, headers);
-
-        } else {
-            plotBar(this.value)
+            extractDilects({ index: i + 1, ...rowData[i] });
+            dataset.push(record);
         }
-    });
-    // update myDropdown with the first option
-    changedText.value = "Host";
-    plotBar("Host");
 
-})
+        var changedText = document.getElementById('myDropdown');
+
+        document
+            .getElementById('myDropdown')
+            .addEventListener('change', function () {
+                $('#table_wrapper').hide();
+                $('#datasetSizeLbl').hide();
+
+                if (this.value == 'Venue Type') groupedBar(this.value);
+                else if (this.value == 'Dialect') {
+                    let headers = [];
+                    let headersViewWhiteList = [
+                        'No.',
+                        'Name',
+                        'Link',
+                        'Year',
+                        'Dialect',
+                        'Volume',
+                        'Unit',
+                        'Paper Link',
+                        'Access',
+                        'Tasks',
+                    ];
+
+                    for (let i = 0; i < headersViewWhiteList.length; i++) {
+                        headers.push({
+                            index: i + 1,
+                            title: headersViewWhiteList[i],
+                        });
+                    }
+
+                    createDialectedGraph(dialectedEntries, headers);
+                } else {
+                    plotBar(this.value);
+                }
+            });
+        // update myDropdown with the first option
+        changedText.value = 'Host';
+        plotBar('Host');
+    })
     .catch(function (error) {
         console.log(error);
     });
