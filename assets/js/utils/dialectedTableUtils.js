@@ -55,7 +55,7 @@ function getGroupedDataset(dialectedEntries, group) {
         },
         {
           groupName: "Levant",
-          countries: ["SY", "LB", "JO", "PS", "LEV"]
+          countries: ["SY", "LB", "JO", "PS"]
         },
         {
           groupName: "Egypt",
@@ -67,7 +67,7 @@ function getGroupedDataset(dialectedEntries, group) {
         },
         {
           groupName: "North Africa",
-          countries: ["DZ", "MR", "MA", "LY", "TN", "NOR"]
+          countries: ["DZ", "MR", "MA", "LY", "TN"]
         },
         {
           groupName: "Horn of Africa",
@@ -96,4 +96,30 @@ function getGroupedDataset(dialectedEntries, group) {
     }
   
     return formattedEntries;
+  }
+
+  function countryCodeMapper(code) {
+
+    const map = {
+      SA: "Saudi Arabia",
+      QA: "Qatar",
+      AE: "United Arab Emirates",
+      KW: "Kuwait",
+      OM: "Oman",
+      BH: "Bahrain",
+      SY: "Syria",
+      LB: "Lebanon",
+      JO: "Jordan",
+      PS: "Palastine",
+      DZ: "Algeria",
+      MR: "Morooco",
+      MA: "Mauritania", 
+      LY: "Libya",
+      TN: "Tunisia",
+      DJ: "Djibouti",
+      SO: "Somalia"
+    }
+
+    return map[code];
+
   }

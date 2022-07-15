@@ -23,10 +23,10 @@ function populateTable(dataset) {
 }
 
 function generateSingleEntry(countryData){
-    const classes = ["btn", "btn-outline-dark", "mb-1","bt-1", "me-3"];
+    const classes = ["btn", "singleDialectBtn", "dialectBtn", "mb-1","bt-1", "me-3"];
 
     var singleEntryElement = document.createElement('button');
-    singleEntryElement.textContent = countryData.name;
+    singleEntryElement.textContent = countryCodeMapper(countryData.name);
 
     classes.forEach((c) => singleEntryElement.classList.add(c));
 
@@ -38,7 +38,7 @@ function generateSingleEntry(countryData){
 }
 
 function generateGroupedEntry(groupData){
-    const classes = ["btn", "btn-outline-info", "btn-lg", "mt-2", "mb-3","bt-3", "me-3"];
+    const classes = ["btn", "groupedDialectBtn", "dialectBtn", "btn-lg", "mt-2", "mb-3","bt-3", "me-3"];
 
     var groupEntryElement = document.createElement('button');
     groupEntryElement.textContent = groupData.name;
