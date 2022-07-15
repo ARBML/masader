@@ -94,5 +94,5 @@ function createDialectedGraph(groupData, headersInfo) {
 
     const formattedData = groupedDialect(groupData)
     const htmlTableEntry = generateTable(formattedData);
-    document.getElementById("countriesBar").appendChild(htmlTableEntry);
+    document.getElementById("chartdiv").appendChild(htmlTableEntry);
 }
