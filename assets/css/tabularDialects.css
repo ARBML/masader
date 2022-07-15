@@ -25,3 +25,7 @@
 .dialectBtn:hover {
     opacity: 80%;
 }
+
+.focus{
+    background-color: rgb(115, 95, 231);
+}

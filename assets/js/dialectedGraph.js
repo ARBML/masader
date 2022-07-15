@@ -1,4 +1,6 @@
 let headers;
+let clicked;
+
 function populateTable(dataset) {
     $("#table").show();
   
@@ -22,16 +24,46 @@ function populateTable(dataset) {
     });
 }
 
+function addClickEffects(element, dataset){
+    populateTable(dataset);
+    element.classList.add("focus");
+
+    if (clicked)
+        clicked.classList.remove("focus");
+    
+    clicked = element;
+
+
+    let dataSetText = document.createElement('p');
+    dataSetText.textContent = "The number of the datasets is ";
+
+
+    const classes = ["fw-bold", "text-primary"];
+    
+    let dataSetSpan = document.createElement('span');
+    classes.forEach((c) => dataSetSpan.classList.add(c));
+    dataSetSpan.textContent = dataset.length;
+
+    dataSetText.appendChild(dataSetSpan);
+
+    const dataSetLbl = document.getElementById("datasetSizeLbl");
+    
+    if (dataSetLbl.children.length > 0)
+        dataSetLbl.removeChild(dataSetLbl.children[0]);
+
+    dataSetLbl.appendChild(dataSetText);
+}
+
 function generateSingleEntry(countryData){
     const classes = ["btn", "singleDialectBtn", "dialectBtn", "mb-1","bt-1", "me-3"];
 
-    var singleEntryElement = document.createElement('button');
+    let singleEntryElement = document.createElement('button');
     singleEntryElement.textContent = countryCodeMapper(countryData.name);
 
     classes.forEach((c) => singleEntryElement.classList.add(c));
 
     singleEntryElement.addEventListener("click", () => {
-        populateTable(countryData.dataset);
+        addClickEffects(singleEntryElement, countryData.dataset);  
     });
 
     return singleEntryElement;
@@ -40,13 +72,13 @@ function generateSingleEntry(countryData){
 function generateGroupedEntry(groupData){
     const classes = ["btn", "groupedDialectBtn", "dialectBtn", "btn-lg", "mt-2", "mb-3","bt-3", "me-3"];
 
-    var groupEntryElement = document.createElement('button');
+    let groupEntryElement = document.createElement('button');
     groupEntryElement.textContent = groupData.name;
 
     classes.forEach((c) => groupEntryElement.classList.add(c));
 
     groupEntryElement.addEventListener("click", () => {
-        populateTable(groupData.dataset);
+        addClickEffects(groupEntryElement, groupData.dataset);
     });
 
 
@@ -90,6 +122,8 @@ function generateTable(groupedData){
 function createDialectedGraph(groupData, headersInfo) {
     $('#myChart').hide();
     $('#chartdiv').show();
+    $('#table_wrapper').show();
+    $('#datasetSizeLbl').show();
     headers = headersInfo;
 
     if (document.getElementById("chartdiv").children.length === 0){

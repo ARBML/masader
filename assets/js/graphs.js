@@ -285,6 +285,7 @@ axios.get(url,).then(function (response) {
 
     document.getElementById('myDropdown').addEventListener('change', function () {
         $("#table_wrapper").hide();
+        $("#datasetSizeLbl").hide();
         
         if (this.value == "Venue Type")
             groupedBar(this.value)
