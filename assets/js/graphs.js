@@ -3,6 +3,8 @@ const url = 'https://masader-web-service.herokuapp.com/datasets';
 let headersWhiteList;
 let dataset;
 let myChart = null;
+let dialectedEntries = {};
+
 titles = {
     License: 'Most appearing licenses in the datasets',
     Year: 'Number of datasets published every year',
@@ -16,6 +18,11 @@ titles = {
     Tasks: 'Most frequent NLP tasks in the datasets truncated to most 20',
     'Venue Type': 'What kind of venues are used to publish NLP datasets',
 };
+
+function decodeDialect(dialect) {
+    return dialect.split(':')[0].split('-')[1];
+}
+
 function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
     let series = [];
 
@@ -33,16 +40,14 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
                 series.push(tasks[index].trim());
             }
         } else if (headersWhiteList[idx] == 'Dialect') {
-            let dialect = data[index][idx];
-            if (dialect != 'other') {
-                dialect = dialect.split(':')[0];
-                dialect = dialect.split('-')[1];
-            }
+            let dialect =
+                data[index][idx] != 'other'
+                    ? decodeDialect(data[index][idx])
+                    : 'other';
 
             // Subsets
             for (let subDialect of data[index][`${subsetsIdx}`]) {
-                dialectCode = subDialect['Dialect'].split(':')[0];
-                dialectCode = dialectCode.split('-')[1];
+                dialectCode = decodeDialect(subDialect['Dialect']);
 
                 if (dialectCode) series.push(dialectCode.trim());
             }
@@ -55,6 +60,7 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
 
     return series;
 }
+
 function groupedBar() {
     $('#myChart').show();
     $('#chartdiv').hide();
@@ -233,6 +239,18 @@ function getCounts(array, sorting = true) {
     return [labels, counts];
 }
 
+function extractDilects(data) {
+    const entryDialects = [
+        decodeDialect(String(data['Dialect'])),
+        ...data['Subsets'].map((d) => decodeDialect(d['Dialect'])),
+    ];
+
+    for (const d of entryDialects)
+        if (d && d !== 'other')
+            if (dialectedEntries[d]) dialectedEntries[d].push(data);
+            else dialectedEntries[d] = [data];
+}
+
 axios
     .get(url)
     .then(function (response) {
@@ -253,62 +271,65 @@ axios
             'Venue Type',
             'Subsets',
         ];
+        headersWhiteList = headersWhiteList.concat([
+            'Name',
+            'Link',
+            'Volume',
+            'Unit',
+            'Paper Link',
+        ]);
+
         $('.loading-spinner').hide();
 
         const subsetsIdx = headersWhiteList.indexOf('Subsets');
 
         // Grabbing row's values
         dataset = [];
+
         for (let i = 0; i < rowData.length; i++) {
             record = {};
-            for (let j = 0; j < headersWhiteList.length; j++) {
+
+            for (let j = 0; j < headersWhiteList.length; j++)
                 if (j != subsetsIdx)
                     record[j] = String(rowData[i][headersWhiteList[j]]);
                 else record[j] = rowData[i][headersWhiteList[j]];
-            }
 
+            extractDilects({ index: i + 1, ...rowData[i] });
             dataset.push(record);
         }
 
-        console.log(dataset);
         var changedText = document.getElementById('myDropdown');
 
         document
             .getElementById('myDropdown')
             .addEventListener('change', function () {
+                $('#table_wrapper').hide();
+                $('#datasetSizeLbl').hide();
+
                 if (this.value == 'Venue Type') groupedBar(this.value);
                 else if (this.value == 'Dialect') {
-                    let idx = headersWhiteList.indexOf('Dialect');
-                    let series = getSeries(dataset, idx, false, subsetsIdx);
+                    let headers = [];
+                    let headersViewWhiteList = [
+                        'No.',
+                        'Name',
+                        'Link',
+                        'Year',
+                        'Dialect',
+                        'Volume',
+                        'Unit',
+                        'Paper Link',
+                        'Access',
+                        'Tasks',
+                    ];
 
-                    const [elements, counts] = getCounts(series);
-
-                    console.log(elements);
-                    console.log(counts);
-                    let groupData = [];
-
-                    for (let i = 0; i < counts[0]; i++) {
-                        let group = [];
-
-                        for (let j = 0; j < counts.length; j++) {
-                            if (counts[j] == i) {
-                                if (
-                                    elements[j] != 'MSA' &&
-                                    elements[j] != 'CLS'
-                                )
-                                    group.push({
-                                        id: elements[j],
-                                        joined: i + '',
-                                    });
-                            }
-                        }
-
-                        if (group.length > 0)
-                            groupData.push({ name: '', data: group });
+                    for (let i = 0; i < headersViewWhiteList.length; i++) {
+                        headers.push({
+                            index: i + 1,
+                            title: headersViewWhiteList[i],
+                        });
                     }
 
-                    console.log(groupData);
-                    createMap(groupData);
+                    createDialectedGraph(dialectedEntries, headers);
                 } else {
                     plotBar(this.value);
                 }

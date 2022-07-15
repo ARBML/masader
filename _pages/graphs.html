@@ -7,8 +7,11 @@ foot_scripts:
     - https://cdn.amcharts.com/lib/5/geodata/worldLow.js
     - https://cdn.amcharts.com/lib/5/themes/Animated.js
     - https://cdn.jsdelivr.net/npm/chart.js
-    - /assets/js/palette.js
-    - /assets/js/amcharts.js
+    - /assets/js/utils/dataUtils.js
+    - /assets/js/utils/dialectedTableUtils.js
+    - /assets/js/icons.js
+    - /assets/js/ext/palette.js
+    - /assets/js/dialectedGraph.js
     - /assets/js/graphs.js
 ---
 <link
@@ -53,7 +56,17 @@ foot_scripts:
             <canvas id="myChart"></canvas>
         </div>
 
-        <div id="chartdiv"></div>
+        <div class="row">
+            <div class="col-3">
+                <div id="chartdiv"></div>
+            </div>
+            <div class="col">
+                <p class="mb-3" id="datasetSizeLbl"></p>
+                <table class="table table-container table-striped tableA" id="table"></table>
+            </div>
+        </div>
+
+
         </div>
     </div>
 </section>
