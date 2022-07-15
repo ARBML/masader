@@ -7,9 +7,10 @@ foot_scripts:
     - https://cdn.amcharts.com/lib/5/geodata/worldLow.js
     - https://cdn.amcharts.com/lib/5/themes/Animated.js
     - https://cdn.jsdelivr.net/npm/chart.js
+    - /assets/js/utils/dialectedTableUtils.js
     - /assets/js/icons.js
     - /assets/js/ext/palette.js
-    - /assets/js/amcharts.js
+    - /assets/js/dialectedGraph.js
     - /assets/js/graphs.js
 ---
 <link
@@ -54,7 +55,10 @@ foot_scripts:
             <canvas id="myChart"></canvas>
         </div>
 
-        <div id="chartdiv"></div>
+        <div id="chartdiv">
+            <div id="countriesBar"></div>
+        </div>
+        
         </div>
     </div>
 </section>
