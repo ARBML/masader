@@ -758,9 +758,7 @@ th {
 
 td {
     font-weight: 700 !important;
-    border: solid 1px none;
-  border-style: none solid solid none;
-  padding: 10px;
+    vertical-align: middle;
 }
 td:first-child, th:first-child {
     border-radius: 3px 0 0 0;
@@ -771,22 +769,24 @@ td:last-child, th:last-child {
     padding-right: 11px !important;}
 
 /* by defuatl Open */
-td.fa-angle-down {
+td.button::before {
+    content: "\f107";
+    color: #ffa9b8;
     transition: all 0.4s ease;
     text-align: center;
-    vertical-align: middle;
-    overflow: hidden
+    overflow: hidden;
+    display: inline-block;
+
 }
 
 
 
 /* to Close */
-tr.shown td.fa-angle-down {
+tr.shown td.button::before {
+    content: "\f107";
     transition: all 0.4s ease;
-    transform: rotateZ(180deg);
-    text-align: center;
-    vertical-align: middle;
-    overflow: hidden
+    transform: rotateZ(180deg) !important;
+    display: inline-block;
 }
 
 .pagination>li {
@@ -794,10 +794,9 @@ tr.shown td.fa-angle-down {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 16px;
-    gap: 10px;
-    width: 53px;
-    height: 35px;
+    padding: 8px 4px;
+    width: auto;
+    height: auto;
     background: #FFF;
 }
 .pagination>li>a{
@@ -848,8 +847,13 @@ td > i, td> i {
     width: auto;
 }
 
+.page-item .page-link{
+    background-color: #FFDBDB !important;
+    font-weight: bold;
+}
+
 .page-item.active .page-link {
-    background-color: var(--main-color);
+    background-color: var(--main-color) !important;
     border-color: var(--second-color);
 }
 
@@ -881,6 +885,14 @@ td > i, td> i {
 
 .table > thead {
     vertical-align: bottom;
+}
+
+.table > tbody tr {
+    border-bottom: solid 2px #ffa0b0;
+}
+
+.table > thead tr {
+    line-height: 50px;
 }
 
 .table > :not(:last-child) > :last-child > * {
@@ -1186,4 +1198,30 @@ td > i, td> i {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--second-color);
+}
+
+.bg-info {
+    border: 0 !important;
+    background-color: rgba(var(--bs-info-rgb), 15%)!important;
+    color: rgb(var(--bs-info-rgb)) !important;
+}
+
+.bg-warning {
+    border: 0 !important;
+    background-color: rgba(var(--bs-warning-rgb), 15%)!important;
+    color: rgb(var(--bs-warning-rgb)) !important;
+}
+
+.bg-danger {
+    border: 0 !important;
+    background-color: rgba(var(--bs-danger-rgb), 15%)!important;
+    color: rgb(var(--bs-danger-rgb)) !important;
+}
+
+.page-item:first-child .page-link {
+    border-radius: 0.25rem !important;
+}
+
+.page-item:last-child .page-link {
+    border-radius: 0.25rem !important;
 }
