@@ -1,0 +1,31 @@
+.dialectedTable {
+    border-radius: 8px;
+    border-color: rgb(253, 232, 228);
+    border-style: solid;
+    border-width: 3px;
+    padding-left: 1%;
+}
+
+.singleDialectBtn {
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 3%;
+    color: white;
+    background-color: rgb(95, 204, 231);
+}
+
+.groupedDialectBtn {
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 3%;
+    color: white;
+    background-color: rgb(231, 100, 95);
+}
+
+.dialectBtn:hover {
+    opacity: 80%;
+}
+
+.focus {
+    background-color: rgb(115, 95, 231);
+}
