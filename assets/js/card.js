@@ -119,7 +119,7 @@ axios
             });
         }
         let row = response.data;
-        console.log(row);
+        // console.log(row);
 
         let dataset = [];
 
@@ -127,7 +127,7 @@ axios
             let element = headers[i];
             let value =
                 row[element.title] != 'nan' ? row[element.title] : 'N/A';
-            console.log(element.title, value);
+            // console.log(element.title, value);
             if (value == 'N/A') {
                 dataset.push({
                     0: element.title,
@@ -155,7 +155,7 @@ axios
                 1: value,
             });
         }
-        console.log(dataset);
+        // console.log(dataset);
         $(document).ready(function () {
             $('#table_card').DataTable({
                 data: dataset,

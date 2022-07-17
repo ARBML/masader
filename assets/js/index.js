@@ -74,7 +74,7 @@ async function getOGimage(url) {
 }
 
 async function fomratDetails(data, index){
-    console.log(data, "s")
+    // console.log(data, "s")
     await getOGimage(data['Link']).then(res => {
         return (res) ? image = res : image = "./assets/images/logo.png"
 
@@ -208,9 +208,9 @@ axios
                 title: headersWhiteList[i].toUpperCase(),
             });
         }
-        console.log(headers[headers.length - 1].className = "rounded-tr-lg ")
+        // console.log(headers[headers.length - 1].className = "rounded-tr-lg ")
         let rows = response.data;
-        console.log(headers);
+        // console.log(headers);
 
         //  Createing table data
         let dataset = [];
@@ -237,7 +237,7 @@ axios
 
         $.extend($.fn.dataTableExt.oSort, {
             'data-custom-pre': function (a) {
-                console.log(a);
+                // console.log(a);
             },
         });
 

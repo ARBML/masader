@@ -270,7 +270,7 @@ axios
             dataset.push(record);
         }
 
-        console.log(dataset);
+        // console.log(dataset);
         var changedText = document.getElementById('myDropdown');
 
         document
@@ -283,8 +283,8 @@ axios
 
                     const [elements, counts] = getCounts(series);
 
-                    console.log(elements);
-                    console.log(counts);
+                    // console.log(elements);
+                    // console.log(counts);
                     let groupData = [];
 
                     for (let i = 0; i < counts[0]; i++) {
@@ -307,7 +307,7 @@ axios
                             groupData.push({ name: '', data: group });
                     }
 
-                    console.log(groupData);
+                    // console.log(groupData);
                     createMap(groupData);
                 } else {
                     plotBar(this.value);
