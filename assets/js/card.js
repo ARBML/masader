@@ -18,7 +18,7 @@ function ethicalBadge(text) {
 function createSubsets(subsetsValue) {
     let result = '<table><tbody>';
     subsetsValue.forEach((subset) => {
-        result += `<tr><td><b>${subset['Name']}</b></td><td>${subset['Volume']}</td></tr>`;
+        result += `<tr class="border-0"><td class="border-0"><b>${subset["Name"]}</b></td><td class="border-0">${subset["Volume"]}</td></tr>`;
     });
     result += '</tbody></table>';
     return result;
@@ -29,7 +29,7 @@ function itemize(text) {
     output = '<ul class="list-group list-group-flush bg-transparent">';
     for (let i = 0; i < tasks.length; i++) {
         output +=
-            '<li class="list-group-item bg-transparent">' +
+            '<li class="list-group-item bg-transparent p-0">' +
             tasks[i].trim().replaceAll(' ', '-') +
             '</li>';
     }
@@ -174,6 +174,7 @@ axios
                 paging: false,
                 order: [],
                 bInfo: false,
+                searching: false,
             });
         });
     })

@@ -760,13 +760,28 @@ td {
     font-weight: 700 !important;
     vertical-align: middle;
 }
-td:first-child, th:first-child {
+th:first-child {
     border-radius: 3px 0 0 0;
-    padding-left: 11px !important;}
+    padding-left: 11px !important;
+    border-left: solid 1px #F95959;
+}
+td:first-child {
+    padding-left: 11px !important;
+    border-left: solid 1px #F95959;
+    border-top-left-radius: 0;
+}
+th:first-child {
+    border-radius: 3px 0 0 0;
+}
 
-td:last-child, th:last-child {
+td:last-child {
+    padding-right: 11px !important;
+    border-right: solid 1px #F95959;
+    border-top-right-radius: 0;
+}
+th:last-child {
     border-radius: 0 3px 0 0;
-    padding-right: 11px !important;}
+}
 
 /* by defuatl Open */
 td.button::before {
@@ -868,7 +883,7 @@ td > i, td> i {
 }
 
 .table a {
-    color: #3F69FF;
+    color: #F95959;
 }
 
 .table > :not(caption) > * > * {
@@ -1224,4 +1239,8 @@ td > i, td> i {
 
 .page-item:last-child .page-link {
     border-radius: 0.25rem !important;
+}
+
+tr.dt-hasChild.shown+tr {
+    background-color: #ffd5d54d;
 }

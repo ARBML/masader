@@ -73,7 +73,7 @@ async function getOGimage(url) {
     })
 }
 
-async function fomratDetails(data){
+async function fomratDetails(data, index){
     console.log(data, "s")
     await getOGimage(data['Link']).then(res => {
         return (res) ? image = res : image = "./assets/images/logo.png"
@@ -154,7 +154,7 @@ async function fomratDetails(data){
                     '</div>'+
                     ' <div class="grid grid-cols-2  ">'+
                         '<span class="text-gray-400">Cost</span>'+
-                        '<span class="text-gray-800">'+data['Cost'] +'</span>'+
+                        '<span class="text-gray-800">'+(data['Cost'] != 'nan' ? row['Cost'] : 'Not Available') +'</span>'+
                     '</div>'+
                     ' <div class="grid grid-cols-2  ">'+
                         '<span class="text-gray-400">Test Split</span>'+
@@ -162,8 +162,7 @@ async function fomratDetails(data){
                     '</div>'+
                 '</div>'+
                 '<div class="collapse-footer flex justify-end gap-x-5 mt-7">'+
-                '<a href="" class="bg-blue-600 hover:bg-blue-800 text-white text-xs px-2 py-1 font-normal rounded ">view at hugging face 🤗</a>'+
-                '<a href="/card?id='+data['No']+'" class="underline font-normal">Details</a>'+
+                '<a href="'+`card?id=${index}`+ '" class="underline font-normal">Details</a>'+
                 '<a href="'+data["Paper Link"]+'" target="_blank" class="underline font-normal">Paper</a>'+
             '</div>'+
         '</div>'
@@ -229,7 +228,7 @@ axios
                 4: row['Year'],
                 5: getCountry(row['Dialect'] != 'nan' ? row['Dialect'].charAt(0).toUpperCase() + row['Dialect'].slice(1) : ''),
                 6: row['Volume'] != 'nan' ? row['Volume'] : '',
-                7: row['Unit'] != 'an' ? row['Unit'].charAt(0).toUpperCase() + row['Unit'].slice(1) : '',
+                7: row['Unit'] != 'nan' ? row['Unit'].charAt(0).toUpperCase() + row['Unit'].slice(1) : '',
                 8: linkuize(row['Paper Title'], row['Paper Link']),
                 9: badgeRender(row['Access']),
                 10: itemize(row['Tasks']),
@@ -260,6 +259,7 @@ axios
                     $('td:eq(`10`)', row).css('min-width', '200px');
                 },
                 order: [[1, 'asc']],
+                searching: true
                 // "columnDefs": [
                 //   {
                 //       "targets": 9,
@@ -284,9 +284,10 @@ axios
                     id = row.data()[1];
                     loader = $(".loading-spinner").html();
                     row.child(loader).show();
-                    console.log(row.data())
                     // getOGimage("https://github.com/GU-CLASP/shami-corpus").then(response => )
-                    getDetails(id).then(async (response) => row.child(await fomratDetails(response)).show())
+                    getDetails(id).then(async (response) =>
+                      row.child(await fomratDetails(response, id)).show()
+                    );
                     tr.addClass('shown');
                 }
               });
