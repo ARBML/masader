@@ -39,7 +39,7 @@ function itemize(text) {
 function badgeRender(text) {
     text = text.toString().toLowerCase();
     if (text.toLowerCase() == 'free')
-        return '<span class="text-white text-sm font-medium  px-2.5 py-0.5 rounded" style="background-color: #F95959">Free</span>';
+        return '<span class="text-white text-sm font-medium  px-2.5 py-0.5 rounded" style="background-color: #F95959 ;opacity:0.7;">Free</span>';
     else if (text == 'upon-request')
         return '<span class="badge bg-info">Free Upon Request</span>';
     else return '<span class="badge bg-danger">Paid</span>';
@@ -72,7 +72,7 @@ function fomratDetails(data){
                 '<meta property="og:image" content='+data['Link']+'/>'+
 
             '</div>'+
-            '<div class="col-span-3">'+
+            '<div class="col-span-3 relative ">'+
                 '<div class="grid grid-rows-6 grid-flow-col ">'+
                     ' <div class="grid grid-cols-2 ">'+
                         '<span class="text-gray-400">Name</span>'+
@@ -146,6 +146,11 @@ function fomratDetails(data){
                         '<span class="text-gray-400">Test Split</span>'+
                         '<span class="text-gray-800">'+data['Test Split'] +'</span>'+
                     '</div>'+
+                '</div>'+
+                '<div class="collapse-footer flex justify-end gap-x-5 mt-7">'+
+                '<a href="" class="bg-blue-600 hover:bg-blue-800 text-white text-xs px-2 py-1 font-normal rounded ">view at hugging face 🤗</a>'+
+                '<a href="" class="underline font-normal">Details</a>'+
+                '<a href="'+data["Paper Link"]+'" target="_blank" class="underline font-normal">Paper</a>'+
                 '</div>'+
             '</div>'+
         '</div>'
