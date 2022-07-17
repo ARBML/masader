@@ -308,28 +308,7 @@ axios
 
                 if (this.value == 'Venue Type') groupedBar(this.value);
                 else if (this.value == 'Dialect') {
-                    let headers = [];
-                    let headersViewWhiteList = [
-                        'No.',
-                        'Name',
-                        'Link',
-                        'Year',
-                        'Dialect',
-                        'Volume',
-                        'Unit',
-                        'Paper Link',
-                        'Access',
-                        'Tasks',
-                    ];
-
-                    for (let i = 0; i < headersViewWhiteList.length; i++) {
-                        headers.push({
-                            index: i + 1,
-                            title: headersViewWhiteList[i],
-                        });
-                    }
-
-                    createDialectedGraph(dialectedEntries, headers);
+                    createDialectVolumePieChart(dialectedEntries);
                 } else {
                     plotBar(this.value);
                 }
