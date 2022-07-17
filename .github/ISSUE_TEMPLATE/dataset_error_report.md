@@ -1,8 +1,8 @@
 ---
 name: Dataset Error Report
 about: Create a report to help us improve
-title: "[Error] "
-labels: ''
+title: '[Error] '
+labels: error
 assignees: ''
 
 ---
