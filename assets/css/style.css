@@ -756,8 +756,6 @@ td {
 
 /* by defuatl Open */
 td.fa-angle-down {
-    /* background: url('https://www.datatables.net/examples/resources/details_open.png') no-repeat center center;
-    cursor: pointer; */
     background-color: blue;
     transition: all 0.4s ease;
     text-align: center;
@@ -767,7 +765,6 @@ td.fa-angle-down {
 
 /* to Close */
 tr.shown td.fa-angle-down {
-    /* background: url('https://www.datatables.net/examples/resources/details_close.png') no-repeat center center; */
     transition: all 0.4s ease;
     transform: rotateZ(180deg);
     text-align: center;
@@ -775,10 +772,47 @@ tr.shown td.fa-angle-down {
     overflow: hidden
 }
 
+.pagination>li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 53px;
+    height: 35px;
+    background: #FFF;
+}
+.pagination>li>a{
+    border-radius: 6px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    border-color: #FFF;
+    color: #000
+}
+
 td > i, td> i {
     position:relative;
     top: calc(50% - 10px); /* 50% - 3/4 of icon height */
 }
+
+.home-heading{
+    color: #F95959;
+}
+
+.bg-heading{
+    
+    position: absolute;
+    width: 212px;
+    height: 212px;
+    left: 615px;
+    top: 256px;
+    
+    background: #FCFF69;
+    filter: blur(200px);}
+
+
 
 .shorterText{
     display: inline-block;
@@ -813,7 +847,7 @@ td > i, td> i {
 }
 
 .table a {
-    color: var(--main-color);
+    color: #3F69FF;
 }
 
 .table > :not(caption) > * > * {

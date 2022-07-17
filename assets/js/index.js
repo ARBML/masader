@@ -2,7 +2,7 @@ const url = 'https://masader-web-service.herokuapp.com/datasets';
 
 function linkuize(text, link) {
     if (link != undefined && link != 'nan')
-        return `<a href = "${link}" target="_blank" class="shorterText"> ${text}</a>`;
+        return `<a href = "${link}" target="_blank" class="shorterText underline"> ${text}</a>`;
     else return 'Not Available';
 }
 
@@ -39,7 +39,7 @@ function itemize(text) {
 function badgeRender(text) {
     text = text.toString().toLowerCase();
     if (text.toLowerCase() == 'free')
-        return '<span class="badge bg-success">Free</span>';
+        return '<span class="text-white text-sm font-medium  px-2.5 py-0.5 rounded" style="background-color: #F95959">Free</span>';
     else if (text == 'upon-request')
         return '<span class="badge bg-info">Free Upon Request</span>';
     else return '<span class="badge bg-danger">Paid</span>';
@@ -66,7 +66,11 @@ function fomratDetails(data){
     console.log(data)
   return '<div class="grid grid-cols-4">'+
             '<div class="col-span-1">'+
-                'asdfasfd'+
+                // '<a class="text-center fs-3">'+ linkuize(data['Paper Title'], data['Paper Link'])+'</a>'+
+                
+                '<a href = "'+data['Link']+'" target="_blank" class="shorterText underline mx-4" style="width: 70%"> '+data['Link']+'</a>'+
+                '<meta property="og:image" content='+data['Link']+'/>'+
+
             '</div>'+
             '<div class="col-span-3">'+
                 '<div class="grid grid-rows-6 grid-flow-col ">'+
@@ -201,7 +205,7 @@ axios
             dataset.push({
                 0: index + 1,
                 1: index + 1,
-                2: linkuize(row['Name'], `card?id=${index + 1}`),
+                2: row['Name'],
                 3: link_host,
                 4: row['Year'],
                 5: getCountry(row['Dialect'] != 'nan' ? row['Dialect'] : ''),
@@ -232,6 +236,7 @@ axios
                 paging: true,
                 pagingType: 'numbers',
                 bInfo: false,
+                dom: 'pt',
                 createdRow: function (row, data, dataIndex) {
                     $('td:eq(`10`)', row).css('min-width', '200px');
                 },
