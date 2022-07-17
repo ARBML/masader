@@ -722,7 +722,6 @@ svg {
 }
 
 .table-container {
-    border: 2px solid orange;
     border-radius: 0;
 }
 
@@ -743,17 +742,31 @@ svg {
     border: 1 !important;
     border-radius: 10px;
     border-color: rgba(255, 0, 0, 0.096);
+    border-collapse:separate;
+    border:solid none 1px !important;
+    border-radius:6px;
 }
 
 th {
     color: #ffffff;
     background-color: #F95959 !important;
+    padding: 2px 5px;
+    /* border-radius: 15px; */
+    background-color: blue;
+    border-top: none;
 }
 
 td {
     font-weight: 700 !important;
     vertical-align: middle;
 }
+td:first-child, th:first-child {
+    border-radius: 3px 0 0 0;
+    padding-left: 11px !important;}
+
+td:last-child, th:last-child {
+    border-radius: 0 3px 0 0;
+    padding-right: 11px !important;}
 
 /* by defuatl Open */
 td.button::before {
@@ -765,6 +778,8 @@ td.button::before {
     display: inline-block;
 
 }
+
+
 
 /* to Close */
 tr.shown td.button::before {

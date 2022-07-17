@@ -86,7 +86,7 @@ async function fomratDetails(data){
                 '<a style="line-height: 9rem;" target="_blank" href="' + data['Link'] + '"><img style="border: solid 2px #f959595e;border-radius: 0.5rem;width: 70%;" class="shorterText underline mx-4" src="'+ image +'"/></a>'+
 
             '</div>'+
-            '<div class="col-span-3">'+
+            '<div class="col-span-3 relative ">'+
                 '<div class="grid grid-rows-6 grid-flow-col ">'+
                     ' <div class="grid grid-cols-2 ">'+
                         '<span class="text-gray-400">Name</span>'+
