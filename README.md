@@ -129,6 +129,10 @@ which gives the following output
 
 Note: Navigate to the publishing source for MASADER site. For more information about publishing sources, [see](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites).
 
+## Web Service 
+
+Masader depends on a set of end points provided by our [web service](https://github.com/ARBML/masader-webservice).
+
 ## Contribution
 
 The catalogue will be updated regularly. If you want to add a new dataset, use this [form](https://forms.gle/JnMrJjHumT6ktK9cA).
@@ -137,7 +141,7 @@ To contribute to the project development, please visit [contributing instruction
 
 ## Collaborative Work
 
-Masader was developed as part of the [BigScience project for open research 🌸](https://bigscience.huggingface.co/), a year-long initiative targeting the study of large langauge models and datasets. The goal of the project is to research language models in a public environment outside large technology companies. The project has more than 700 researchers from 50 countries and more than 250 institutions. Mainly, we conducted the research as part of the data sourcing working group which is responsible for collecting sources for multilple languages.
+Masader was developed in 2021 as part of the [BigScience project for open research 🌸](https://bigscience.huggingface.co/), a year-long initiative targeting the study of large langauge models and datasets. In 2022, Masader was furthere developed by the arbml team and community. 
 
 ## Citation
 
