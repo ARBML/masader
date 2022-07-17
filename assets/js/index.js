@@ -1,8 +1,8 @@
 const url = 'https://masader-web-service.herokuapp.com/datasets';
 
-function linkuize(text, link) {
+function linkuize(text, link, short = true) {
     if (link != undefined && link != 'nan')
-        return `<a href = "${link}" target="_blank" class="shorterText underline"> ${text}</a>`;
+        return `<a href = "${link}" target="_blank" class="#${(short) ? "shorterText " : ""}underline"> ${text}</a>`;
     else return 'Not Available';
 }
 
@@ -39,10 +39,10 @@ function itemize(text) {
 function badgeRender(text) {
     text = text.toString().toLowerCase();
     if (text.toLowerCase() == 'free')
-        return '<span class="text-white text-sm font-medium  px-2.5 py-0.5 rounded" style="background-color: #F95959">Free</span>';
+        return '<span class="text-sm font-medium  px-2.5 py-0.5" style="background-color: #00800030; color:green; font-weight:bold; border-radius:5px">Free</span>';
     else if (text == 'upon-request')
-        return '<span class="badge bg-info">Free Upon Request</span>';
-    else return '<span class="badge bg-danger">Paid</span>';
+        return '<span class="badge bg-info px-2.5 py-2">Free Upon Request</span>';
+    else return '<span class="badge bg-danger px-2.5 py-2">Paid</span>';
 }
 
 function reformat_numbers(num) {
@@ -58,18 +58,32 @@ function getShorter(){
 
 }
 
-function getDetails(id) {
+async function getDetails(id) {
   return axios.get(url+"/"+id).then(response => response.data)
 }
 
-function fomratDetails(data){
-    console.log(data)
+async function getOGimage(url) {
+    return axios.get(url).then(response => {
+        let patren = /<meta property="og:image" content="(.*?)" \/>/g
+        for (const match of response.data.matchAll(patren)) {
+            return match[1]
+        }
+    }).catch(() => {
+        return "./assets/images/logo.png"
+    })
+}
+
+async function fomratDetails(data){
+    console.log(data, "s")
+    await getOGimage(data['Link']).then(res => {
+        return (res) ? image = res : image = "./assets/images/logo.png"
+
+    })
   return '<div class="grid grid-cols-4">'+
             '<div class="col-span-1">'+
                 // '<a class="text-center fs-3">'+ linkuize(data['Paper Title'], data['Paper Link'])+'</a>'+
-                
-                '<a href = "'+data['Link']+'" target="_blank" class="shorterText underline mx-4" style="width: 70%"> '+data['Link']+'</a>'+
-                '<meta property="og:image" content='+data['Link']+'/>'+
+                // '<a href = "'+data['Link']+'" target="_blank" class="shorterText underline mx-4" style="width: 70%"> '+data['Link']+'</a>'+
+                '<a style="line-height: 9rem;" target="_blank" href="' + data['Link'] + '"><img style="border: solid 2px #f959595e;border-radius: 0.5rem;width: 70%;" class="shorterText underline mx-4" src="'+ image +'"/></a>'+
 
             '</div>'+
             '<div class="col-span-3">'+
@@ -147,6 +161,10 @@ function fomratDetails(data){
                         '<span class="text-gray-800">'+data['Test Split'] +'</span>'+
                     '</div>'+
                 '</div>'+
+                '<div class="collapse-footer flex justify-end gap-x-5 mt-7">'+
+                '<a href="" class="bg-blue-600 hover:bg-blue-800 text-white text-xs px-2 py-1 font-normal rounded ">view at hugging face 🤗</a>'+
+                '<a href="/card?id='+data['No']+'" class="underline font-normal">Details</a>'+
+                '<a href="'+data["Paper Link"]+'" target="_blank" class="underline font-normal">Paper</a>'+
             '</div>'+
         '</div>'
    // })
@@ -179,7 +197,7 @@ axios
         $('.loading-spinner').hide();
         headers.push({
           index: 0,
-          className:      'fa-solid fa-angle-down table-cell flex',
+          className:      'fa-solid button table-cell flex rounded-tl-lg',
           orderable:      false,
           data:           null,
           defaultContent: ''
@@ -188,9 +206,10 @@ axios
         for (let i = 0; i < headersWhiteList.length; i++) {
             headers.push({
                 index: 1+i,
-                title: headersWhiteList[i],
+                title: headersWhiteList[i].toUpperCase(),
             });
         }
+        console.log(headers[headers.length - 1].className = "rounded-tr-lg ")
         let rows = response.data;
         console.log(headers);
 
@@ -205,12 +224,12 @@ axios
             dataset.push({
                 0: index + 1,
                 1: index + 1,
-                2: row['Name'],
+                2: linkuize(row['Name'], `card?id=${index+1}`, false),
                 3: link_host,
                 4: row['Year'],
-                5: getCountry(row['Dialect'] != 'nan' ? row['Dialect'] : ''),
+                5: getCountry(row['Dialect'] != 'nan' ? row['Dialect'].charAt(0).toUpperCase() + row['Dialect'].slice(1) : ''),
                 6: row['Volume'] != 'nan' ? row['Volume'] : '',
-                7: row['Unit'] != 'nan' ? row['Unit'] : '',
+                7: row['Unit'] != 'an' ? row['Unit'].charAt(0).toUpperCase() + row['Unit'].slice(1) : '',
                 8: linkuize(row['Paper Title'], row['Paper Link']),
                 9: badgeRender(row['Access']),
                 10: itemize(row['Tasks']),
@@ -240,11 +259,13 @@ axios
                 createdRow: function (row, data, dataIndex) {
                     $('td:eq(`10`)', row).css('min-width', '200px');
                 },
+                order: [[1, 'asc']],
                 // "columnDefs": [
                 //   {
-                //       "targets": 0,
+                //       "targets": 9,
                 //       "render": function ( data, type, row ) {
-                //           return "<i class='fa-solid fa-angle-down'></i>";
+                //         console.log(data)
+                //         //   if (data == "free") return badgeRender(row['Access'])
                 //       }
                 //   },
                 // ]
@@ -252,7 +273,7 @@ axios
               });
           
              // opening and closing details
-             $('#table tbody').on('click', 'td.fa-angle-down', function () {
+             $('#table tbody').on('click', 'td.button', function () {
                 var tr = $(this).closest('tr');
                 var row = table.row( tr );
                 if ( row.child.isShown() ) {
@@ -263,7 +284,9 @@ axios
                     id = row.data()[1];
                     loader = $(".loading-spinner").html();
                     row.child(loader).show();
-                    getDetails(id).then(response => row.child(fomratDetails(response)).show())
+                    console.log(row.data())
+                    // getOGimage("https://github.com/GU-CLASP/shami-corpus").then(response => )
+                    getDetails(id).then(async (response) => row.child(await fomratDetails(response)).show())
                     tr.addClass('shown');
                 }
               });
