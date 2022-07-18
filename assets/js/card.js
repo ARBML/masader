@@ -1,7 +1,10 @@
 let url = 'https://masader-web-service.herokuapp.com/datasets/';
-let isReportFormOpen = false;
 
-$('#reportForm').hide();
+function recaptchaChange(){
+    let recaptcha_box_checked = (grecaptcha.getResponse()) ? true : false;
+    if (recaptcha_box_checked) document.getElementById("grecaptcha-submit").disabled = false;
+    else document.getElementById("grecaptcha-submit").disabled = true;
+}
 
 function linkuize(text, link) {
     return `<a href = "${link}" target="_blank"> ${text}</a>`;
@@ -37,17 +40,15 @@ function itemize(text) {
     return output;
 }
 
-function onReportBtnClicked() {
-    if (isReportFormOpen) {
-        document.getElementById('reportBtn').innerHTML =
-            'Report issues with this card';
-        $('#reportForm').hide();
-    } else {
-        document.getElementById('reportBtn').innerHTML = 'Close';
-        $('#reportForm').show();
-    }
-
-    isReportFormOpen = !isReportFormOpen;
+function injectPaperName(paperName) {
+    // inject paper name
+    paperNameSpans = document.getElementsByClassName('paperNameSpan');
+    // change the values of the spans without loop
+    paperNameSpans[0].innerText = paperName;
+    paperNameSpans[1].innerText = paperName;
+    // append the paper name to href of the link 
+    paperNameLink = document.getElementById('paperATag');
+    paperNameLink.href = `${paperNameLink.href}${paperName}`;
 }
 
 async function onSendReportBtnClicked() {
@@ -63,11 +64,11 @@ async function onSendReportBtnClicked() {
     if (response.ok) {
         const responseData = await response.json();
 
-        onReportBtnClicked();
         issueForm.value = '';
         tata.success(
             'Issues opend succesfully',
-            `Thank you for openeing this issue, you can track this issue at ${responseData['issue_url']}`
+            `Track at ${responseData['issue_url']}`,
+            {duration: 15000}
         );
     } else {
         tata.error(
@@ -118,8 +119,9 @@ axios
                 title: headersWhiteList[i],
             });
         }
+
         let row = response.data;
-        // console.log(row);
+        injectPaperName(row.Name);
 
         let dataset = [];
 
@@ -183,8 +185,5 @@ axios
     });
 
 document
-    .getElementById('reportBtn')
-    .addEventListener('click', onReportBtnClicked);
-document
-    .getElementById('sendReportBtn')
+    .getElementById('grecaptcha-submit')
     .addEventListener('click', onSendReportBtnClicked);
