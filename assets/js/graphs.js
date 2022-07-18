@@ -298,6 +298,7 @@ axios
             dataset.push(record);
         }
 
+        // console.log(dataset);
         var changedText = document.getElementById('myDropdown');
 
         document
@@ -308,28 +309,37 @@ axios
 
                 if (this.value == 'Venue Type') groupedBar(this.value);
                 else if (this.value == 'Dialect') {
-                    let headers = [];
-                    let headersViewWhiteList = [
-                        'No.',
-                        'Name',
-                        'Link',
-                        'Year',
-                        'Dialect',
-                        'Volume',
-                        'Unit',
-                        'Paper Link',
-                        'Access',
-                        'Tasks',
-                    ];
+                    let idx = headersWhiteList.indexOf('Dialect');
+                    let series = getSeries(dataset, idx, false, subsetsIdx);
 
-                    for (let i = 0; i < headersViewWhiteList.length; i++) {
-                        headers.push({
-                            index: i + 1,
-                            title: headersViewWhiteList[i],
-                        });
+                    const [elements, counts] = getCounts(series);
+
+                    // console.log(elements);
+                    // console.log(counts);
+                    let groupData = [];
+
+                    for (let i = 0; i < counts[0]; i++) {
+                        let group = [];
+
+                        for (let j = 0; j < counts.length; j++) {
+                            if (counts[j] == i) {
+                                if (
+                                    elements[j] != 'MSA' &&
+                                    elements[j] != 'CLS'
+                                )
+                                    group.push({
+                                        id: elements[j],
+                                        joined: i + '',
+                                    });
+                            }
+                        }
+
+                        if (group.length > 0)
+                            groupData.push({ name: '', data: group });
                     }
 
-                    createDialectedGraph(dialectedEntries, headers);
+                    // console.log(groupData);
+                    createMap(groupData);
                 } else {
                     plotBar(this.value);
                 }

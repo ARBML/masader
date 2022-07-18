@@ -29,17 +29,15 @@
     rel="stylesheet"
     href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css"
 />
-<link href="{{ site.baseurl }}/assets/css/style.min.css" rel="stylesheet" />
 <script src="https://kit.fontawesome.com/83612db974.js" crossorigin="anonymous"></script>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-<link
-    rel="stylesheet"
-    href="./assets/css/card.css"
-/>
-
-<link
-    rel="stylesheet"
-    href="./assets/css/tabularDialects.css"
-/>
+<link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet" />
+{% for item in page.head_links %}
+    {% if item contains '://' %}
+        <link rel="stylesheet" href="{{ item }}"></script>
+    {% else %}
+        <link rel="stylesheet" href="{{ site.baseurl }}{{ item }}"></script>
+    {% endif %}
+{% endfor %}

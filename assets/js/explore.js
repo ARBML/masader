@@ -74,7 +74,7 @@ const reteriveClustersEmbeddings = async () => {
             info.embeddings.push(r.Embeddings);
             info.clusters.push(r.Cluster);
         });
-        console.log(info);
+        // console.log(info);
         return info;
     });
 };
