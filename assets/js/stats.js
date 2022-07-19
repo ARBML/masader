@@ -1,4 +1,4 @@
-const url = 'https://masader-web-service.herokuapp.com/datasets';
+var url = 'https://masader-web-service.herokuapp.com/datasets';
 
 let headersWhiteList;
 let dataset;
@@ -61,91 +61,87 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
     return series;
 }
 
-function groupedBar() {
-    $('#myChart').show();
-    $('#chartdiv').hide();
+function groupedBar(chartId) {
+  $(`#${chartId}`).show();
 
-    if (myChart != null) {
-        myChart.destroy();
+  // if (myChart != null) {
+  //     myChart.destroy();
+  // }
+
+  let datasets = [];
+  let year_idx = headersWhiteList.indexOf("Year");
+  let venue_idx = headersWhiteList.indexOf("Venue Type");
+
+  let all_venue_types = Array.from(new Set(getSeries(dataset, venue_idx)));
+  let all_years = Array.from(new Set(getSeries(dataset, year_idx))).sort();
+
+  let color_theme = palette("tol-dv", all_venue_types.length).map(function (
+    hex
+  ) {
+    return "#" + hex;
+  });
+  for (var i = 0; i < all_venue_types.length; i++) {
+    series = [];
+    let venue_name = all_venue_types[i];
+
+    for (let index = 0; index < dataset.length; index++) {
+      if (
+        dataset[index][venue_idx] === undefined ||
+        dataset[index][year_idx] === undefined
+      )
+        continue;
+      if (dataset[index][venue_idx].trim() == venue_name) {
+        series.push(dataset[index][year_idx].trim());
+      }
     }
 
-    let datasets = [];
-    let year_idx = headersWhiteList.indexOf('Year');
-    let venue_idx = headersWhiteList.indexOf('Venue Type');
+    const [elements, counts] = getCounts(series);
 
-    let all_venue_types = Array.from(new Set(getSeries(dataset, venue_idx)));
-    let all_years = Array.from(new Set(getSeries(dataset, year_idx))).sort();
+    let ex_counts = [];
 
-    let color_theme = palette('tol-dv', all_venue_types.length).map(function (
-        hex
-    ) {
-        return '#' + hex;
+    for (let index = 0; index < all_years.length; index++) {
+      let year = all_years[index];
+      let count_index = elements.indexOf(year);
+      if (count_index > -1) ex_counts.push(counts[count_index]);
+      else ex_counts.push(0);
+    }
+
+    let colors = [];
+
+    for (let _ in ex_counts) {
+      colors.push(color_theme[i]);
+    }
+
+    datasets.push({
+      label: venue_name,
+      data: ex_counts,
+      backgroundColor: colors,
     });
-    for (var i = 0; i < all_venue_types.length; i++) {
-        series = [];
-        let venue_name = all_venue_types[i];
+  }
+  const chartdata = {
+    labels: all_years,
+    datasets: datasets,
+  };
 
-        for (let index = 0; index < dataset.length; index++) {
-            if (
-                dataset[index][venue_idx] === undefined ||
-                dataset[index][year_idx] === undefined
-            )
-                continue;
-            if (dataset[index][venue_idx].trim() == venue_name) {
-                series.push(dataset[index][year_idx].trim());
-            }
-        }
-
-        const [elements, counts] = getCounts(series);
-
-        let ex_counts = [];
-
-        for (let index = 0; index < all_years.length; index++) {
-            let year = all_years[index];
-            let count_index = elements.indexOf(year);
-            if (count_index > -1) ex_counts.push(counts[count_index]);
-            else ex_counts.push(0);
-        }
-
-        let colors = [];
-
-        for (let _ in ex_counts) {
-            colors.push(color_theme[i]);
-        }
-
-        datasets.push({
-            label: venue_name,
-            data: ex_counts,
-            backgroundColor: colors,
-        });
-    }
-    const chartdata = {
-        labels: all_years,
-        datasets: datasets,
-    };
-
-    var canvas = document.getElementById('myChart');
-    var config = {
-        type: 'bar',
-        data: chartdata,
-        options: {
-            plugins: {
-                title: {
-                    display: true,
-                    text: titles['Venue Type'],
-                },
-            },
+  var canvas = document.getElementById(`${chartId}`);
+  var config = {
+    type: "bar",
+    data: chartdata,
+    options: {
+      plugins: {
+        title: {
+          display: true,
+          text: titles["Venue Type"],
         },
-    };
-    myChart = new Chart(canvas, config);
+      },
+    },
+  };
+  myChart = new Chart(canvas, config);
 }
 
-function plotBar(col, truncate = 20) {
-    $('#myChart').show();
-    $('#chartdiv').hide();
-    if (myChart != null) {
-        myChart.destroy();
-    }
+function plotBar(col, chartId, truncate = 20) {
+    $(`#${chartId}`).show();
+
     let idx = headersWhiteList.indexOf(col);
     let series = getSeries(dataset, idx);
 
@@ -153,7 +149,7 @@ function plotBar(col, truncate = 20) {
 
     elements = elements.slice(0, truncate);
     counts = counts.slice(0, truncate);
-
+    
     const chartdata = {
         labels: elements,
         datasets: [
@@ -169,21 +165,24 @@ function plotBar(col, truncate = 20) {
             },
         ],
     };
-    var canvas = document.getElementById('myChart');
+    var canvas = document.getElementById(`${chartId}`);
     var config = {
-        type: 'bar',
-        data: chartdata,
-        options: {
-            plugins: {
-                autocolors: {
-                    mode: 'data',
-                },
-                title: {
-                    display: true,
-                    text: titles[col],
-                },
-            },
+      type: "bar",
+      data: chartdata,
+      options: {
+        plugins: {
+          autocolors: {
+            mode: "data",
+          },
+          title: {
+            display: true,
+            text: titles[col],
+          },
+        legend: {
+        display: false,
         },
+        },
+      },
     };
     myChart = new Chart(canvas, config);
 }
@@ -246,7 +245,7 @@ function extractDilects(data) {
     ];
 
     for (const d of entryDialects)
-        if (d && d !== 'other')
+        if (d && d !== 'mixed')
             if (dialectedEntries[d]) dialectedEntries[d].push(data);
             else dialectedEntries[d] = [data];
 }
@@ -298,55 +297,18 @@ axios
             dataset.push(record);
         }
 
-        // console.log(dataset);
-        var changedText = document.getElementById('myDropdown');
 
-        document
-            .getElementById('myDropdown')
-            .addEventListener('change', function () {
-                $('#table_wrapper').hide();
-                $('#datasetSizeLbl').hide();
-
-                if (this.value == 'Venue Type') groupedBar(this.value);
-                else if (this.value == 'Dialect') {
-                    let idx = headersWhiteList.indexOf('Dialect');
-                    let series = getSeries(dataset, idx, false, subsetsIdx);
-
-                    const [elements, counts] = getCounts(series);
-
-                    // console.log(elements);
-                    // console.log(counts);
-                    let groupData = [];
-
-                    for (let i = 0; i < counts[0]; i++) {
-                        let group = [];
-
-                        for (let j = 0; j < counts.length; j++) {
-                            if (counts[j] == i) {
-                                if (
-                                    elements[j] != 'MSA' &&
-                                    elements[j] != 'CLS'
-                                )
-                                    group.push({
-                                        id: elements[j],
-                                        joined: i + '',
-                                    });
-                            }
-                        }
-
-                        if (group.length > 0)
-                            groupData.push({ name: '', data: group });
-                    }
-
-                    // console.log(groupData);
-                    createMap(groupData);
-                } else {
-                    plotBar(this.value);
-                }
-            });
-        // update myDropdown with the first option
-        changedText.value = 'Host';
-        plotBar('Host');
+        plotBar("Host", "host-chart");
+        plotBar("Year", "year-chart");
+        plotBar("Access", "access-chart");
+        plotBar("Tasks", "tasks-chart");
+        plotBar("Domain", "domains-chart");
+        plotBar("License", "licenses-chart");
+        createDialectVolumePieChart(dialectedEntries, "dialects-chart");
+        plotBar("Form", "froms-chart");
+        groupedBar("venue-chart");
+        plotBar("Ethical Risks", "ethical-risks-chart");
+        plotBar("Script", "scripts-chart");
     })
     .catch(function (error) {
         console.log(error);

@@ -171,13 +171,7 @@ async function fomratDetails(data, index){
 
 axios
     .get(url, {
-        // TODO:: Adding a download progress bar. * IT CANNOT BE APPLIED BECAUSE THE SIZE OF THE ENCODING DATA. *
-        onDownloadProgress: (progressEvent) => {
-            // const percentage = Math.round(
-            //     (progressEvent.loaded * 100) / progressEvent.total
-            //   );
-            // console.log('download', percentage);
-        },
+        onDownloadProgress: (progressEvent) => {},
     })
     .then(function (response) {
         let headers = [];
