@@ -1,0 +1,121 @@
+---
+permalink: /stats
+layout: default
+foot_scripts:
+    - https://d3js.org/d3.v4.js
+    - https://cdn.amcharts.com/lib/5/index.js
+    - https://cdn.amcharts.com/lib/5/map.js
+    - https://cdn.amcharts.com/lib/5/geodata/worldLow.js
+    - https://cdn.amcharts.com/lib/5/themes/Animated.js
+    - https://cdn.jsdelivr.net/npm/chart.js
+    - /assets/js/explore.js
+    - /assets/js/utils/dataUtils.js
+    - /assets/js/icons.js
+    - /assets/js/ext/palette.js
+    - /assets/js/dialectPieChart.js
+    - /assets/js/stats.js
+---
+<link
+    rel="stylesheet"
+    href="{{ site.baseurl }}/assets/css/stats.css"
+/>
+<section
+    style="background: linear-gradient(180deg, #fffefc -54.51%, #fff8f0 99.98%)"
+    id="home"
+>
+    <div class="container">
+        <h1 class="leading-tight text-5xl">Statistics</h1>
+        <div class="table-section py-4">
+            <div class="fa-3x loading-spinner">
+                <h5 class="text-center">
+                <i class="fas fa-spinner fa-pulse"></i>
+                </h5>
+            </div>
+            <div id="cluster-section">
+                <h2 class="leading-tight text-3xl"><a class="hover:text-black hover:underline" href="#cluster-section"># Clustering</a></h2>
+                <p class = "box">
+                    Explore the datasets in Masader by zooming and moving around. The nodes were created by training a t-sne algorithm on the abstracts embedded using <a target="_blank" href = "https://huggingface.co/sentence-transformers">sentence-transformers</a></a> then clustered using K-Means. Hover over a node to show its info and click on it to show its full data card.
+                </p>
+                <svg style="text-align:center"></svg>
+            </div>
+            </div>
+            <div id="host-section">
+                <h2 class="leading-tight text-3xl"><a class="hover:text-black hover:underline" href="#host-section"># Host</a></h2>
+                <div>
+                    <canvas id="host-chart"></canvas>
+                </div>
+            </div>
+            <div id="year-section">
+                <h2 class="leading-tight text-3xl"><a class="hover:text-black hover:underline" href="#year-section"># Year</a></h2>
+                <div>
+                    <canvas id="year-chart"></canvas>
+                </div>
+            </div>
+            <div id="access-section">
+                <h2 class="leading-tight text-3xl"><a class="hover:text-black hover:underline" href="#access-section"># Access</a></h2>
+                <div>
+                    <canvas id="access-chart"></canvas>
+                </div>
+            </div>
+            <div id="tasks-section">
+                <h2 class="leading-tight text-3xl"><a class="hover:text-black hover:underline" href="#tasks-section"># Tasks</a></h2>
+                <div>
+                    <canvas id="tasks-chart"></canvas>
+                </div>
+            </div>
+            <div id="domains-section">
+                <h2 class="leading-tight text-3xl"><a class="hover:text-black hover:underline" href="#domains-section"># Domains</a></h2>
+                <div>
+                    <canvas id="domains-chart"></canvas>
+                </div>
+            </div>
+            <div id="licenses-section">
+                <h2 class="leading-tight text-3xl"><a class="hover:text-black hover:underline" href="#licenses-section"># Licenses</a></h2>
+                <div>
+                    <canvas id="licenses-chart"></canvas>
+                </div>
+            </div>
+            <div id="dialects-section">
+                <h2 class="leading-tight text-3xl"><a class="hover:text-black hover:underline" href="#dialects-section"># Dialects</a></h2>
+                <div>
+                    <canvas id="dialects-chart"></canvas>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div id="dialects-chart-div"></div>
+                    </div>
+                    <div class="col">
+                        <p class="mb-3" id="datasetSizeLbl"></p>
+                        <table class="table table-container table-striped tableA" id="table"></table>
+                    </div>
+                </div>
+            </div>
+            <div id="froms-section">
+                <h2 class="leading-tight text-3xl"><a class="hover:text-black hover:underline" href="#froms-section"># Forms</a></h2>
+                <div>
+                    <canvas id="froms-chart"></canvas>
+                </div>
+            </div>
+            <div id="venue-section">
+                <h2 class="leading-tight text-3xl"><a class="hover:text-black hover:underline" href="#venue-section"># Venue</a></h2>
+                <div>
+                    <canvas id="venue-chart"></canvas>
+                </div>
+            </div>
+            <div id="ethical-risks-section">
+                <h2 class="leading-tight text-3xl"><a class="hover:text-black hover:underline" href="#ethical-risks-section"># Ethical Risks</a></h2>
+                <div>
+                    <canvas id="ethical-risks-chart"></canvas>
+                </div>
+            </div>
+            <div id="scripts-section">
+                <h2 class="leading-tight text-3xl"><a class="hover:text-black hover:underline" href="#scripts-section"># Scripts</a></h2>
+                <div>
+                    <canvas id="scripts-chart"></canvas>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>

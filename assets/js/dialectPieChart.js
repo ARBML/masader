@@ -1,29 +1,37 @@
-// TODO: Map country codes to country names for chart labels.
-// function countryCodeMapper(code) {
-//   const map = {
-//     SA: "Saudi Arabia",
-//     QA: "Qatar",
-//     AE: "United Arab Emirates",
-//     KW: "Kuwait",
-//     OM: "Oman",
-//     BH: "Bahrain",
-//     SY: "Syria",
-//     LB: "Lebanon",
-//     JO: "Jordan",
-//     PS: "Palastine",
-//     DZ: "Algeria",
-//     MR: "Morooco",
-//     MA: "Mauritania",
-//     LY: "Libya",
-//     TN: "Tunisia",
-//     DJ: "Djibouti",
-//     SO: "Somalia",
-//   };
+function countryCodeMapper(code) {
+  const map = {
+    SA: "Saudi Arabia",
+    QA: "Qatar",
+    AE: "United Arab Emirates",
+    KW: "Kuwait",
+    OM: "Oman",
+    BH: "Bahrain",
+    SY: "Syria",
+    LB: "Lebanon",
+    JO: "Jordan",
+    PS: "Palastine",
+    DZ: "Algeria",
+    MR: "Morooco",
+    MA: "Mauritania",
+    LY: "Libya",
+    TN: "Tunisia",
+    DJ: "Djibouti",
+    SO: "Somalia",
 
-//   return map[code];
-// }
+    LEV: "Levant",
+    EG: "Egypt",
+    GLF: "Gulf",
+    MSA: "Modern Standard Arabic",
+    CLS: "Classic",
+    NOR: "North Africa",
+    IQ: "Iraq",
+    SD: "Sudan",
+    YE: "Yeman",
+  };
+  return map[code];
+}
 
-function createDialectVolumePieChart(groupData) {
+function createDialectVolumePieChart(groupData, chartId) {
   let volumes = {};
   for (const c in groupData) {
     let sum = 0;
@@ -31,19 +39,26 @@ function createDialectVolumePieChart(groupData) {
       sum += parseInt(e.Volume.replaceAll(",", ""));
     });
     volumes[c] = sum;
-    //{"AE": 1234, "SO":123} country:volume object
   }
 
-  var canvas = document.getElementById("myChart");
-
+  var canvas = document.getElementById(`${chartId}`);
+  const mappingVolumes = Object.keys(volumes).map((key) => {
+        return `${countryCodeMapper(key)} (${key})`
+        }
+    );
+    console.log(Object.values(volumes));
   const data = {
-    labels: Object.keys(volumes),
+    labels: mappingVolumes,
     datasets: [
       {
-        label: "dataset1",
         data: Object.values(volumes),
-	// TODO: Assign array to backgroundColor for each slice's color
-	backgroundColor: 'red'
+        backgroundColor: [
+          "#3C53A1D9",
+          "#C7E8FCD9",
+          "#9ED2F4D9",
+          "#F8CC89D9",
+          "#AA1C3BD9",
+        ],
       },
     ],
   };
@@ -54,24 +69,17 @@ function createDialectVolumePieChart(groupData) {
     options: {
       resposive: true,
       plugins: {
-        autocolors: {
-          mode: "data",
-        },
         title: {
           display: true,
-          text: "Volumes of cool countries",
+          text: "Volumes for each dialect",
         },
       },
     },
   };
 
-  if (document.getElementById("chartdiv").children.length === 0) {
-    if (myChart != null) {
-      // Remove chart if exists
-      myChart.destroy();
-    }
+  if (document.getElementById(`${chartId}-div`).children.length === 0) {
 
     new Chart(canvas, config);
-    $("#myChart").show();
+    $(`#${chartId}`).show();
   }
 }

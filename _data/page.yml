@@ -2,10 +2,8 @@ nav:
     logo: /assets/images/logo.png
     title: Arabic NLP Data Catalouge
     tabs:
-        - title: Explore
-          url: /explore
-        - title: Graphs
-          url: /graphs
+        - title: Stats
+          url: /stats
         - title: Changelog
           url: /changelog
         - title: Contribute
