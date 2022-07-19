@@ -1,0 +1,145 @@
+---
+permalink: /search
+layout: default
+foot_scripts:
+  - /assets/js/Page/Search.js
+---
+
+<!-- why it's name is form engine? because it work everything like the engine..., idk i picked it up cause i liked it -->
+<section class="flex gap-16 px-4 flex-col md:flex-row">
+  <section class="flex flex-col gap-3 max-w-sm w-full md:w-64 shrink-0">
+    <h2 class="capitalize font-bold text-xl">filter</h2>
+    <section class="w-full">
+      <button
+        onclick="Search.reset()"
+        class="bg-[#F95959] capitalize text-white text-left px-3 py-2 rounded w-full"
+      >
+        reset filter
+      </button>
+    </section>
+    <hr />
+    <section class="w-full flex flex-col gap-3">
+      <button
+        type="button"
+        class="w-full flex items-center gap-3"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse-tasks"
+        aria-expanded="false"
+        aria-controls="collapse-tasks"
+      >
+        <i class="fa-solid fa-chevron-down"></i>
+        <h3 class="capitalize font-bold">tasks</h3>
+      </button>
+      <div id="collapse-tasks" class="collapse flex flex-col w-full gap-2">
+        <input
+          class="border-1 border-black rounded px-2 py-1.5 w-full"
+          type="text"
+          placeholder="Search through tasks"
+        />
+        <div id="Tasks" class="flex flex-wrap w-full gap-2"></div>
+        <label class="cursor-pointer">
+          <input
+            class="w-0 h-0 invisible"
+            type="checkbox"
+            id="show-more-for-tasks"
+          />
+          <span
+            class="w-full block text-center uppercase text-sm text-blue-500"
+          >
+            show more
+          </span>
+        </label>
+      </div>
+    </section>
+    <hr />
+    <section class="w-full flex flex-col gap-3">
+      <button
+        type="button"
+        class="w-full flex items-center gap-3"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse-dialect"
+        aria-expanded="false"
+        aria-controls="collapse-dialect"
+      >
+        <i class="fa-solid fa-chevron-down"></i>
+        <h3 class="capitalize font-bold">dialect</h3>
+      </button>
+      <div id="collapse-dialect" class="collapse flex flex-col w-full gap-2">
+        <input
+          class="border-1 border-black rounded px-2 py-1.5 w-full"
+          type="text"
+          placeholder="Search through dialect"
+        />
+        <div id="Dialect" class="flex flex-wrap w-full gap-2"></div>
+        <label class="cursor-pointer">
+          <input
+            class="w-0 h-0 invisible"
+            type="checkbox"
+            id="show-more-for-dialect"
+          />
+          <span
+            class="w-full block text-center uppercase text-sm text-blue-500"
+          >
+            show more
+          </span>
+        </label>
+      </div>
+    </section>
+    <hr />
+    <section class="w-full flex flex-col gap-3">
+      <button
+        type="button"
+        class="w-full flex items-center gap-3"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse-created-at"
+        aria-expanded="false"
+        aria-controls="collapse-created-at"
+      >
+        <i class="fa-solid fa-chevron-down"></i>
+        <h3 class="capitalize font-bold">created at</h3>
+      </button>
+      <div
+        id="collapse-created-at"
+        class="collapse flex items-center w-full gap-2"
+      >
+        <input
+          class="text-center border-1 border-black rounded px-2 py-1.5 w-full"
+          type="text"
+          placeholder="since 2018"
+          id="since"
+        />
+        <span class="font-bold uppercase text-xs">to</span>
+        <input
+          class="text-center border-1 border-black rounded px-2 py-1.5 w-full"
+          type="text"
+          placeholder="afore 2020"
+          id="afore"
+        />
+      </div>
+    </section>
+  </section>
+  <section class="w-full flex flex-col gap-4">
+    <h1 class="text-2xl font-medium">
+      Results of "<span class="in-quote font-bold"></span>"
+    </h1>
+    <form id="form-engine">
+      <label
+        class="flex items-center gap-2 px-3 max-w-lg rounded border-1 border-black"
+      >
+        <input
+          class="w-full py-1.5 focus:outline-none"
+          placeholder="Search through our datasets"
+          type="text"
+          name="q"
+          id="q"
+        />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </label>
+    </form>
+    <ul id="showcase" class="flex flex-col gap-4 max-w-5xl"></ul>
+    <nav aria-label="Page navigation w-full">
+      <!-- TODO: fix pagination overflow -->
+      <ul class="pagination flex-wrap"></ul>
+    </nav>
+  </section>
+</section>
