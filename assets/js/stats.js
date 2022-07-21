@@ -328,17 +328,7 @@ axios
 
         const chartsContainer = document.getElementById('chartsContainer');
         Object.keys(titles).forEach((t) => chartsContainer.appendChild(createChartContaier(t)));
-        // chartsContainer.appendChild(createChartContaier('Host'));
-        // chartsContainer.appendChild(createChartContaier('Year'));
-        // chartsContainer.appendChild(createChartContaier('Access'));
-        // chartsContainer.appendChild(createChartContaier('Tasks'));
-        // chartsContainer.appendChild(createChartContaier('Domain'));
-        // chartsContainer.appendChild(createChartContaier('License'));
-        // chartsContainer.appendChild(createChartContaier('Form'));
-        // chartsContainer.appendChild(createChartContaier("Dialects"));
-        // chartsContainer.appendChild(createChartContaier("Venue"));
-        // chartsContainer.appendChild(createChartContaier('Ethical Risks'));
-        // chartsContainer.appendChild(createChartContaier('Script'));
+
     })
     .catch(function (error) {
         console.log(error);
