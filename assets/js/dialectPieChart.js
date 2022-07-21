@@ -38,7 +38,7 @@ function createDialectVolumePieChart(groupData, canvas) {
     groupData[c].forEach((e) => {
       sum += parseInt(e.Volume.replaceAll(",", ""));
     });
-    volumes[c] = sum;
+    volumes[c] = Math.log(sum);
   }
 
   const mappingVolumes = Object.keys(volumes).map((key) => {
@@ -51,18 +51,35 @@ function createDialectVolumePieChart(groupData, canvas) {
       {
         data: Object.values(volumes),
         backgroundColor: [
-          "#3C53A1D9",
-          "#C7E8FCD9",
-          "#9ED2F4D9",
-          "#F8CC89D9",
-          "#AA1C3BD9",
+          "#4aab80",
+          "#6d0343",
+          "#281e8d",
+          "#7b5683",
+          "#badbad",
+          "#c099c0",
+          "#c0c099",
+          "#00c0de",
+          "#336655",
+          "#a9da80",
+          "#9680da",
+          "#da80d0",
+          "#c13b7c",
+          "#e5510e",
+          "#c98c29",
+          "#585457",
+          "#aca2ab",
+          "#643f50",
+          "#412b61",
+          "#284f64",
+          "#267ba9",
+          "#42a9e1",
         ],
       },
     ],
   };
 
   const config = {
-    type: "pie",
+    type: "doughnut",
     data: data,
     options: {
       resposive: true,
@@ -74,6 +91,6 @@ function createDialectVolumePieChart(groupData, canvas) {
       },
     },
   };
-    
+
   new Chart(canvas, config);
 }
