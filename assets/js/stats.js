@@ -6,17 +6,17 @@ let myChart = null;
 let dialectedEntries = {};
 
 titles = {
-    License: 'Most appearing licenses in the datasets',
-    Year: 'Number of datasets published every year',
-    Dialect: 'Distribution of the resources with respect of each country',
-    Domain: 'Most appearing domains in the dataests',
-    Form: 'Percentage of Text and Spoken datasets',
-    'Ethical Risks': 'Ethical risks of Arabic NLP datasets',
-    Script: 'Scripts of writing Arabic NLP datasets',
     Host: 'Counts of repostories used to host NLP datasets',
+    Year: 'Number of datasets published every year',
     Access: 'How easy to access most of the data. Upon-Request: means usually the dataset requires registeration, sharing info, email, etc.',
     Tasks: 'Most frequent NLP tasks in the datasets truncated to most 20',
-    'Venue Type': 'What kind of venues are used to publish NLP datasets',
+    Domain: 'Most appearing domains in the dataests',
+    License: 'Most appearing licenses in the datasets',
+    Form: 'Percentage of Text and Spoken datasets',
+    Dialects: 'Distribution of the resources with respect of each country',
+    'Venue': 'What kind of venues are used to publish NLP datasets',
+    'Ethical Risks': 'Ethical risks of Arabic NLP datasets',
+    Script: 'Scripts of writing Arabic NLP datasets',
 };
 
 function decodeDialect(dialect) {
@@ -61,12 +61,7 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
     return series;
 }
 
-function groupedBar(chartId) {
-  $(`#${chartId}`).show();
-
-  // if (myChart != null) {
-  //     myChart.destroy();
-  // }
+function groupedBar(canvas) {
 
   let datasets = [];
   let year_idx = headersWhiteList.indexOf("Year");
@@ -123,7 +118,6 @@ function groupedBar(chartId) {
     datasets: datasets,
   };
 
-  var canvas = document.getElementById(`${chartId}`);
   var config = {
     type: "bar",
     data: chartdata,
@@ -139,8 +133,43 @@ function groupedBar(chartId) {
   myChart = new Chart(canvas, config);
 }
 
-function plotBar(col, chartId, truncate = 20) {
-    $(`#${chartId}`).show();
+function createChartContaier(title) {
+
+  const container = document.createElement("div");
+  container.id = `${title}-container`;
+  container.classList.add('w-50');
+
+  const titleContainer = document.createElement("h2");
+  
+  const titleContainerClasses = ["leading-tight", "text-3xl"];
+  titleContainerClasses.forEach( (c) => titleContainer.classList.add(c));
+
+  const titleElement = document.createElement("a");
+  const titleElementClasses = ["hover:text-black", "hover:underline"];
+  titleElementClasses.forEach( (c) => titleElement.classList.add(c));
+  titleElement.textContent = `# ${title}`;
+  titleElement.href = `#${container.id}`;
+
+  titleContainer.appendChild(titleElement);
+
+  container.appendChild(titleContainer);
+
+  const canvas = document.createElement("canvas");
+
+  container.appendChild(canvas);
+
+  if (title === 'Venue')
+    groupedBar(canvas);
+  else if (title === 'Dialects')
+    createDialectVolumePieChart(dialectedEntries, canvas);
+  else
+    plotBar(title, canvas);
+
+  return container;
+
+}
+
+function plotBar(col, canvas, truncate = 20) {
 
     let idx = headersWhiteList.indexOf(col);
     let series = getSeries(dataset, idx);
@@ -165,7 +194,7 @@ function plotBar(col, chartId, truncate = 20) {
             },
         ],
     };
-    var canvas = document.getElementById(`${chartId}`);
+
     var config = {
       type: "bar",
       data: chartdata,
@@ -297,18 +326,19 @@ axios
             dataset.push(record);
         }
 
-
-        plotBar("Host", "host-chart");
-        plotBar("Year", "year-chart");
-        plotBar("Access", "access-chart");
-        plotBar("Tasks", "tasks-chart");
-        plotBar("Domain", "domains-chart");
-        plotBar("License", "licenses-chart");
-        createDialectVolumePieChart(dialectedEntries, "dialects-chart");
-        plotBar("Form", "froms-chart");
-        groupedBar("venue-chart");
-        plotBar("Ethical Risks", "ethical-risks-chart");
-        plotBar("Script", "scripts-chart");
+        const chartsContainer = document.getElementById('chartsContainer');
+        Object.keys(titles).forEach((t) => chartsContainer.appendChild(createChartContaier(t)));
+        // chartsContainer.appendChild(createChartContaier('Host'));
+        // chartsContainer.appendChild(createChartContaier('Year'));
+        // chartsContainer.appendChild(createChartContaier('Access'));
+        // chartsContainer.appendChild(createChartContaier('Tasks'));
+        // chartsContainer.appendChild(createChartContaier('Domain'));
+        // chartsContainer.appendChild(createChartContaier('License'));
+        // chartsContainer.appendChild(createChartContaier('Form'));
+        // chartsContainer.appendChild(createChartContaier("Dialects"));
+        // chartsContainer.appendChild(createChartContaier("Venue"));
+        // chartsContainer.appendChild(createChartContaier('Ethical Risks'));
+        // chartsContainer.appendChild(createChartContaier('Script'));
     })
     .catch(function (error) {
         console.log(error);
