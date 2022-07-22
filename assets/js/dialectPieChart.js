@@ -33,13 +33,19 @@ function countryCodeMapper(code) {
 
 function createDialectVolumePieChart(groupData, canvas) {
   let countriesDataset = {};
+  let sum = 0;
   for (const c in groupData)
-    countriesDataset[c] = groupData[c].length
+    sum += groupData[c].length
+
+  for (const c in groupData)
+    countriesDataset[c] = groupData[c].length/sum*100;
+  
 
   const mappingVolumes = Object.keys(countriesDataset).map((key) => {
         return `${countryCodeMapper(key)} (${key})`
         }
     );
+
   const data = {
     labels: mappingVolumes,
     datasets: [
@@ -60,14 +66,21 @@ function createDialectVolumePieChart(groupData, canvas) {
       plugins: {
         title: {
           display: true,
-          text: "Volumes for each dialect",
+          text: "Datasets for each dialect",
         },
         labels: {
             render: 'label',
+            fontColor: '#004242',
+            fontStyle: 'bold',
         },
         legend: {
           display: false
-        },  
+        },
+        tooltip: {
+          callbacks: {
+              label: (context) =>`${context.label}: ${(context.parsed).toFixed(2)}%`,
+          }
+        }
       },
     },
   };
