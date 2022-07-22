@@ -68,15 +68,16 @@ function createHtml(i) {
 }
 
 const reteriveClustersEmbeddings = async () => {
-  return await axios.get(urlEmbClus).then(function (response) {
-    info = { embeddings: [], clusters: [] };
-    response.data.forEach((r) => {
-      info.embeddings.push(r.Embeddings);
-      info.clusters.push(r.Cluster);
+    return await axios.get(urlEmbClus).then(function (response) {
+        info = { embeddings: [], clusters: [] };
+        response.data.forEach((r) => {
+            info.embeddings.push(r.Embeddings);
+            info.clusters.push(r.Cluster);
+        });
+        // console.log(info);
+        return info;
     });
-    console.log(info);
     return info;
-  });
 };
 
 axios

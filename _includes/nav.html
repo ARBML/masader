@@ -8,7 +8,7 @@
       <li>
         <a
           href="{% if item.url contains '://' %} {{ item.url }} {% else %} {{ site.baseurl }}{{item.url}} {% endif %}"
-          class="capitalize font-medium"
+          class="capitalize font-bold text-black hover:underline hover:text-black"
           {% if item.url contains '://' %}target="_blank" {% endif %}
         >
           {{ item.title }}
@@ -23,12 +23,12 @@
     </li>
     <li class="hidden md:block">
       <a target="_blank" href="https://discord.gg/aN2vaec9nV">
-        <i class="fa-brands fa-discord text-blue-500"></i>
+        <i class="fa-brands fa-discord fa-lg hover:text-blue-500"></i>
       </a>
     </li>
     <li class="hidden md:block">
       <a target="_blank" href="https://github.com/ARBML/masader">
-        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-github fa-xl hover:text-black"></i>
       </a>
     </li>
   </ul>
