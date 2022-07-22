@@ -32,17 +32,11 @@ function countryCodeMapper(code) {
 }
 
 function createDialectVolumePieChart(groupData, canvas) {
-  let volumes = {};
-  for (const c in groupData) {
-    let sum = 0;
-    groupData[c].forEach((e) => {
-      if (e.Volume != 'nan')
-        sum += parseInt(e.Volume.replaceAll(",", ""));
-    });
-    volumes[c] = Math.log(sum);
-  }
+  let countriesDataset = {};
+  for (const c in groupData)
+    countriesDataset[c] = groupData[c].length
 
-  const mappingVolumes = Object.keys(volumes).map((key) => {
+  const mappingVolumes = Object.keys(countriesDataset).map((key) => {
         return `${countryCodeMapper(key)} (${key})`
         }
     );
@@ -50,31 +44,10 @@ function createDialectVolumePieChart(groupData, canvas) {
     labels: mappingVolumes,
     datasets: [
       {
-        data: Object.values(volumes),
-        backgroundColor: [
-          "#4aab80",
-          "#6d0343",
-          "#281e8d",
-          "#7b5683",
-          "#badbad",
-          "#c099c0",
-          "#c0c099",
-          "#00c0de",
-          "#336655",
-          "#a9da80",
-          "#9680da",
-          "#da80d0",
-          "#c13b7c",
-          "#e5510e",
-          "#c98c29",
-          "#585457",
-          "#aca2ab",
-          "#643f50",
-          "#412b61",
-          "#284f64",
-          "#267ba9",
-          "#42a9e1",
-        ],
+        data: Object.values(countriesDataset),
+        backgroundColor: palette('tol-dv', Object.values(countriesDataset).length).map((hex) => {
+          return '#' + hex;
+        }),
       },
     ],
   };
@@ -87,13 +60,14 @@ function createDialectVolumePieChart(groupData, canvas) {
       plugins: {
         title: {
           display: true,
-          text: "Volumes for each dialect (LOG)",
+          text: "Volumes for each dialect",
         },
         labels: {
             render: 'label',
-            fontColor: 'white',
-        }
-        
+        },
+        legend: {
+          display: false
+        },  
       },
     },
   };
