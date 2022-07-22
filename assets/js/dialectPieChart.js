@@ -32,7 +32,6 @@ function countryCodeMapper(code) {
 }
 
 function createDialectVolumePieChart(groupData, canvas) {
-  console.log(groupData);
   let volumes = {};
   for (const c in groupData) {
     let sum = 0;
@@ -43,8 +42,6 @@ function createDialectVolumePieChart(groupData, canvas) {
     volumes[c] = Math.log(sum);
   }
 
-  console.log(volumes);
-  console.log('---');
   const mappingVolumes = Object.keys(volumes).map((key) => {
         return `${countryCodeMapper(key)} (${key})`
         }
