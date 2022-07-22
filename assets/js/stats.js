@@ -172,6 +172,9 @@ function createChartContaier(title) {
 
 }
 
+Chart.defaults.plugins.labels = {
+};
+
 function plotBar(col, canvas, truncate = 20) {
 
     let idx = headersWhiteList.indexOf(col);
@@ -213,6 +216,9 @@ function plotBar(col, canvas, truncate = 20) {
         legend: {
         display: false,
         },
+        labels: [{
+          render: 'percentage'
+        }]
         },
       },
     };
