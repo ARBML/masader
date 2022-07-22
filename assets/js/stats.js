@@ -213,12 +213,9 @@ function plotBar(col, canvas, truncate = 20) {
             display: true,
             text: titles[col],
           },
-        legend: {
-        display: false,
-        },
-        labels: [{
-          render: 'percentage'
-        }]
+          legend: {
+          display: false,
+          },
         },
       },
     };

@@ -7,7 +7,7 @@
  * @license MIT
  */
 // FROM https://github.com/DavideViolante/chartjs-plugin-labels
-(function () {
+ (function () {
   'use strict';
 
   if (typeof Chart === 'undefined') {
@@ -39,7 +39,7 @@
   }
 
   const SUPPORTED_TYPES = {};
-  ['pie', 'doughnut', 'polarArea'].forEach(function (t) {
+  ['pie', 'doughnut', 'polarArea', 'bar'].forEach(function (t) {
     SUPPORTED_TYPES[t] = true;
   });
 
@@ -69,7 +69,11 @@
       textMargin: 2,
       overlap: true
     }, options);
-
+    if (chart.config.type === 'bar') {
+      this.options.position = 'default';
+      this.options.arc = false;
+      this.options.overlap = true;
+    }
   };
 
   Label.prototype.render = function () {
@@ -258,15 +262,29 @@
         }
       }
       percentage = dataset.data[index] / this.total * 100;
+    } else if (this.chart.config.type === 'bar') {
+      if (!this.barTotal[index]) {
+        this.barTotal[index] = 0;
+        for (let i = 0; i < this.chart.data.datasets.length; ++i) {
+          this.barTotal[index] += this.chart.data.datasets[i].data[index];
+        }
+      }
+      percentage = dataset.data[index] / this.barTotal[index] * 100;
     } else {
       percentage = element.circumference / this.chart.config.options.circumference * 100;
     }
     percentage = parseFloat(percentage.toFixed(this.options.precision));
     if (!this.options.showActualPercentages) {
+      if (this.chart.config.type === 'bar') {
+        this.totalPercentage = this.barTotalPercentage[index] || 0;
+      }
       this.totalPercentage += percentage;
       if (this.totalPercentage > 100) {
         percentage -= this.totalPercentage - 100;
         percentage = parseFloat(percentage.toFixed(this.options.precision));
+      }
+      if (this.chart.config.type === 'bar') {
+        this.barTotalPercentage[index] = this.totalPercentage;
       }
     }
     this.percentage = percentage;
@@ -274,8 +292,11 @@
   };
 
   Label.prototype.getRenderInfo = function (element, label) {
+    if (this.chart.config.type === 'bar') {
+      return this.getBarRenderInfo(element, label);
+    } else {
       return this.options.arc ? this.getArcRenderInfo(element, label) : this.getBaseRenderInfo(element, label);
-    
+    }
   };
 
   Label.prototype.getBaseRenderInfo = function (element, label) {
@@ -409,11 +430,16 @@
     return image;
   };
 
+  function isDefined(options){
+    return !!options._context.chart.config._config.options.plugins.labels;
+  }
   // eslint-disable-next-line no-undef
   Chart.register({
+    
     id: 'labels',
     beforeDatasetsUpdate: function (chart, args, options) {
-      if (!SUPPORTED_TYPES[chart.config.type]) {
+
+      if (!SUPPORTED_TYPES[chart.config.type] || !isDefined(options)) {
         return;
       }
       if (!options.length) {
@@ -442,24 +468,24 @@
         chart.chartArea.bottom -= maxPadding;
       }
     },
-    afterDatasetUpdate: function (chart, args) {
-      if (!SUPPORTED_TYPES[chart.config.type]) {
+    afterDatasetUpdate: function (chart, args, options) {
+      if (!SUPPORTED_TYPES[chart.config.type] || !isDefined(options)) {
         return;
       }
       chart._labels.forEach(function (label) {
         label.args[args.index] = args;
       });
     },
-    beforeDraw: function (chart) {
-      if (!SUPPORTED_TYPES[chart.config.type]) {
+    beforeDraw: function (chart, args, options) {
+      if (!SUPPORTED_TYPES[chart.config.type] || !isDefined(options)) {
         return;
       }
       chart._labels.forEach(function (label) {
         label.barTotalPercentage = {};
       });
     },
-    afterDatasetsDraw: function (chart) {
-      if (!SUPPORTED_TYPES[chart.config.type]) {
+    afterDatasetsDraw: function (chart, args, options) {
+      if (!SUPPORTED_TYPES[chart.config.type] || !isDefined(options)) {
         return;
       }
       chart._labels.forEach(function (label) {

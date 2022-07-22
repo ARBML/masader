@@ -89,10 +89,10 @@ function createDialectVolumePieChart(groupData, canvas) {
           display: true,
           text: "Volumes for each dialect (LOG)",
         },
-          labels: {
+        labels: {
             render: 'label',
             fontColor: 'white',
-          }
+        }
         
       },
     },
