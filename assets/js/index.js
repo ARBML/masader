@@ -32,7 +32,9 @@ axios
         let dataset = [];
         for (let index = 0; index < rows.length; index++) {
             const row = rows[index];
-            let link_host = linkuize(row['Host'], row['Link']);
+            var host = row['Host']
+            if (host == 'other') host = "External Link"
+            let link_host = linkuize(host, row['Link']);
             if (row['HF Link'] != 'nan') {
                 link_host += '</br>' + linkuize(getIcon('hf'), row['HF Link']);
             }
