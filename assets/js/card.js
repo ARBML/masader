@@ -3,10 +3,6 @@ let isReportFormOpen = false;
 
 $('#reportForm').hide();
 
-function linkuize(text, link) {
-    return `<a href = "${link}" target="_blank"> ${text}</a>`;
-}
-
 function ethicalBadge(text) {
     text = text.toLowerCase();
     if (text == 'low') return '<span class="badge bg-success">Low</span>';

@@ -31,7 +31,7 @@ function countryCodeMapper(code) {
   return map[code];
 }
 
-function createDialectVolumePieChart(groupData, chartId) {
+function createDialectVolumePieChart(groupData, canvas) {
   let volumes = {};
   for (const c in groupData) {
     let sum = 0;
@@ -41,12 +41,10 @@ function createDialectVolumePieChart(groupData, chartId) {
     volumes[c] = sum;
   }
 
-  var canvas = document.getElementById(`${chartId}`);
   const mappingVolumes = Object.keys(volumes).map((key) => {
         return `${countryCodeMapper(key)} (${key})`
         }
     );
-    console.log(Object.values(volumes));
   const data = {
     labels: mappingVolumes,
     datasets: [
@@ -76,10 +74,6 @@ function createDialectVolumePieChart(groupData, chartId) {
       },
     },
   };
-
-  if (document.getElementById(`${chartId}-div`).children.length === 0) {
-
-    new Chart(canvas, config);
-    $(`#${chartId}`).show();
-  }
+    
+  new Chart(canvas, config);
 }
