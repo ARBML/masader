@@ -1,4 +1,5 @@
 const url = 'https://masader-web-service.herokuapp.com/datasets';
+const contributers_url = 'https://masader-web-service.herokuapp.com/datasets/tags?features=Added By'
 
 function linkuize(text, link, short = true) {
     if (link != undefined && link != 'nan')
@@ -52,10 +53,6 @@ function reformat_numbers(num) {
     } else if (values.length == 2) {
         return values[0] + 'K';
     } else return values[0] + 'M';
-}
-
-function getShorter(){
-
 }
 
 async function getDetails(id) {
@@ -169,6 +166,20 @@ async function fomratDetails(data, index){
    // })
  }
 
+ async function getContributersNum()
+ {
+    try {
+        let res = await axios({
+             url: contributers_url,
+             method: 'get',
+         }) 
+         return res.data["Added By"].length
+     }
+     catch (err) {
+         console.error(err);
+     }
+}
+
 axios
     .get(url, {
         onDownloadProgress: (progressEvent) => {},
@@ -239,6 +250,8 @@ axios
 
         $(document).ready(function () {
             document.getElementById('numDatasets').textContent = dataset.length;
+            getContributersNum().then(res => 
+                document.getElementById('numContributers').textContent = res)
             let table = $('#table').DataTable({
                 data: dataset,
                 columns: headers,
