@@ -1,79 +1,57 @@
-function countryCodeMapper(code) {
-  const map = {
-    SA: "Saudi Arabia",
-    QA: "Qatar",
-    AE: "United Arab Emirates",
-    KW: "Kuwait",
-    OM: "Oman",
-    BH: "Bahrain",
-    SY: "Syria",
-    LB: "Lebanon",
-    JO: "Jordan",
-    PS: "Palastine",
-    DZ: "Algeria",
-    MR: "Morooco",
-    MA: "Mauritania",
-    LY: "Libya",
-    TN: "Tunisia",
-    DJ: "Djibouti",
-    SO: "Somalia",
-
-    LEV: "Levant",
-    EG: "Egypt",
-    GLF: "Gulf",
-    MSA: "Modern Standard Arabic",
-    CLS: "Classic",
-    NOR: "North Africa",
-    IQ: "Iraq",
-    SD: "Sudan",
-    YE: "Yeman",
-  };
-  return map[code];
-}
-
 function createDialectVolumePieChart(groupData, canvas) {
-  let volumes = {};
-  for (const c in groupData) {
-    let sum = 0;
-    groupData[c].forEach((e) => {
-      sum += parseInt(e.Volume.replaceAll(",", ""));
-    });
-    volumes[c] = sum;
-  }
+  let countriesDataset = {};
+  let sum = 0;
+  for (const c in groupData)
+    sum += groupData[c].length
 
-  const mappingVolumes = Object.keys(volumes).map((key) => {
-        return `${countryCodeMapper(key)} (${key})`
+  for (const c in groupData)
+    countriesDataset[c] = groupData[c].length/sum*100;
+  
+
+  const mappingVolumes = Object.keys(countriesDataset).map((key) => {
+        return `${countryCodeMapper(key)}`
         }
     );
+
   const data = {
     labels: mappingVolumes,
     datasets: [
       {
-        data: Object.values(volumes),
-        backgroundColor: [
-          "#3C53A1D9",
-          "#C7E8FCD9",
-          "#9ED2F4D9",
-          "#F8CC89D9",
-          "#AA1C3BD9",
-        ],
+        data: Object.values(countriesDataset),
+        backgroundColor: palette('tol-dv', Object.values(countriesDataset).length).map((hex) => {
+          return '#' + hex;
+        }),
+        rotation: -35
       },
     ],
   };
 
   const config = {
-    type: "pie",
+    type: "doughnut",
     data: data,
     options: {
       resposive: true,
       plugins: {
         title: {
           display: true,
-          text: "Volumes for each dialect",
+          text: "Datasets for each dialect",
         },
+        labels: {
+            render: 'label',
+            fontColor: '#004242',
+            fontStyle: 'bold',
+        },
+        legend: {
+          display: false
+        },
+        tooltip: {
+          callbacks: {
+              label: (context) =>`${context.label}: ${(context.parsed).toFixed(2)}%`,
+          }
+        }
       },
     },
   };
-    
+
   new Chart(canvas, config);
 }
