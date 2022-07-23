@@ -13,17 +13,22 @@ foot_scripts:
 >
     <div class="container">
         <div class="table-section py-4">
+        <div class="text-center">
+            <p class="text-5xl home-heading">ARABIC NLP DATA CATALOUGE</p>
+            <p class="font-italic mt-2 text-black">
+                The catalog currently has
+                <span class="fw-bold " id="numDatasets" style="color:#F95959"> ... </span>
+                 added by 
+                <span class="fw-bold " id="numContributers" style="color:#F95959"> ... </span>
+                contributers
+            </p>
+        </div>
+        <table class="table table-container !block" id="table"></table>
         <div class="fa-3x loading-spinner">
             <h5 class="text-center">
-            Fetching data <i class="fas fa-spinner fa-pulse"></i>
+            <i class="fas fa-spinner fa-pulse"></i>
             </h5>
         </div>
-        <p class="font-italic">
-            There are currently
-            <span class="fw-bold text-primary" id="numDatasets"> ... </span>
-            datasets. Click on the dataset to show its expanded data card form.
-        </p>
-        <table class="table table-container table-striped" id="table"></table>
         </div>
     </div>
 </section>

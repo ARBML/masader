@@ -1,36 +1,177 @@
 ---
 permalink: /card
 layout: default
+head_links:
+    - /assets/css/card.css
 foot_scripts:
-    - /assets/js/ext/tata.js
-    - /assets/js/utils/dataUtils.js
-    - /assets/js/card.js
+  - /assets/js/ext/tata.js
+  - /assets/js/utils/dataUtils.js
+  - /assets/js/card.js
 ---
 
 <section
-    style="background: linear-gradient(180deg, #fffefc -54.51%, #fff8f0 99.98%)"
-    id="home"
+  style="background: linear-gradient(180deg, #fffefc -54.51%, #fff8f0 99.98%)"
+  id="home"
 >
-    <div class="container">
-        <div class="table-section py-4">
-        <div class="fa-3x loading-spinner">
-            <h5 class="text-center">
-            Fetching data <i class="fas fa-spinner fa-pulse"></i>
-            </h5>
-        </div>
+  <div class="container">
+    <div class="table-section py-4">
+      <div class="fa-3x loading-spinner">
+        <h5 class="text-center">
+          Fetching data <i class="fas fa-spinner fa-pulse"></i>
+        </h5>
+      </div>
 
-        <table
-            class="table table-responsive table-container"
-            id="table_card"
-        ></table>
-        </div>
+      <table
+        class="table table-responsive table-container"
+        id="table_card"
+      ></table>
+    </div>
 
-        <div>
-            <button id="reportBtn" class="accordion-button badge bg-danger mb-3 d-block reportBtns"> Report issues with this card</button>
+    <div>
+      <!-- <button id="reportBtn" class="accordion-button badge bg-danger mb-3 d-block reportBtns"> Report issues with this card</button>
 
             <div id="reportForm">
             <textarea rows="6em" class="reportData" id="issueMessage"></textarea>
-            <button id="sendReportBtn" class="accordion-button badge bg-success d-block mt-3 mb-3 reportBtns"> Report</button>
+            <button id="sendReportBtn" class="accordion-button badge bg-success d-block mt-3 mb-3 reportBtns"> Report</button> -->
+
+      <div
+        class="modal fade"
+        id="mainModalDiv"
+        aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalToggleLabel">
+                Report <span class="paperNameSpan" id="firstSpan"></span> Paper
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!-- Two action buttons -->
+              <div class="row">
+                <!-- Github Card -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                  <a
+                    id="paperATag"
+                    href="https://github.com/ARBML/masader/issues/new?assignees=&labels=error&template=dataset_error_report.md&title=%5BError%5D+"
+                    target="_blank"
+                  >
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="text-center">
+                          <i class="fab fa-github fa-5x"></i>
+                        </div>
+                        <div class="text-center">
+                          <strong>Github</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- Anonymous Card -->
+                <div
+                  class="col-12 col-sm-12 col-md-6 col-lg-6 pt-1"
+                  style="cursor: pointer"
+                >
+                  <div
+                    id="anonymousDivTag"
+                    data-bs-target="#exampleModalToggle2"
+                    data-bs-toggle="modal"
+                  >
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="text-center">
+                          <i class="fa-solid fa-user-secret fa-5x"></i>
+                        </div>
+                        <div class="text-center">
+                          <strong>Anonymous</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div
+        class="modal fade"
+        id="exampleModalToggle2"
+        aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalToggleLabel2">
+                Report <span class="paperNameSpan"></span> Paper
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  ><span class="text-pink-700">*</span> Issue Message:</label
+                >
+                <textarea
+                  class="form-control"
+                  id="issueMessage"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <div
+                  class="g-recaptcha"
+                  data-sitekey="6LccGvYgAAAAAH7rbe8QIiBqLDrYEhGjRPknL6yT"
+                  data-callback="recaptchaChange"
+                ></div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                id="grecaptcha-submit"
+                class="btn hover btn-gradient"
+                data-bs-target="#exampleModalToggle"
+                data-bs-toggle="modal"
+                disabled
+                onclick="onSendReportBtnClicked()"
+              >
+                Report
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a
+        id="reportATag"
+        style="color: inherit"
+        class="float btn-gradient"
+        data-bs-toggle="modal"
+        href="#mainModalDiv"
+      >
+        <i class="fa-solid fa-flag my-float" style="color: white"></i>
+      </a>
     </div>
+  </div>
 </section>
