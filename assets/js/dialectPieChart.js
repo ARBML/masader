@@ -1,37 +1,5 @@
-function countryCodeMapper(code) {
-  const map = {
-    SA: "Saudi Arabia",
-    QA: "Qatar",
-    AE: "United Arab Emirates",
-    KW: "Kuwait",
-    OM: "Oman",
-    BH: "Bahrain",
-    SY: "Syria",
-    LB: "Lebanon",
-    JO: "Jordan",
-    PS: "Palastine",
-    DZ: "Algeria",
-    MR: "Morooco",
-    MA: "Mauritania",
-    LY: "Libya",
-    TN: "Tunisia",
-    DJ: "Djibouti",
-    SO: "Somalia",
-
-    LEV: "Levant",
-    EG: "Egypt",
-    GLF: "Gulf",
-    MSA: "Modern Standard Arabic",
-    CLS: "Classic",
-    NOR: "North Africa",
-    IQ: "Iraq",
-    SD: "Sudan",
-    YE: "Yeman",
-  };
-  return map[code];
-}
-
 function createDialectVolumePieChart(groupData, canvas) {
+  console.log(groupData);
   let countriesDataset = {};
   let sum = 0;
   for (const c in groupData)
