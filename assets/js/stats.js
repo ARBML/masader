@@ -14,7 +14,7 @@ titles = {
     License: 'Most appearing licenses in the datasets',
     Form: 'Percentage of Text and Spoken datasets',
     Dialects: 'Distribution of the resources with respect of each country',
-    'Dialects Groups': 'Distribution of the resources with respect of each Dialect',
+    // 'Dialects Groups': 'Distribution of the resources with respect of each Dialect',
     'Venue': 'What kind of venues are used to publish NLP datasets',
     'Ethical Risks': 'Ethical risks of Arabic NLP datasets',
     Script: 'Scripts of writing Arabic NLP datasets',
@@ -163,8 +163,8 @@ function createChartContaier(title) {
     groupedBar(canvas);
   else if (title === 'Dialects')
     createDialectVolumePieChart(getCountriesSubset(dialectedEntries), canvas);
-  else if (title === 'Dialects Groups')
-    createDialectVolumePieChart(getDialectsSubset(dialectedEntries), canvas);
+  // else if (title === 'Dialects Groups')
+  //   createDialectVolumePieChart(getDialectsSubset(dialectedEntries), canvas);
   else
     plotBar(title, canvas);
 
