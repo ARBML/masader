@@ -4,7 +4,5 @@ nav:
     tabs:
         - title: Stats
           url: /stats
-        - title: Changelog
-          url: /changelog
         - title: Contribute
           url: https://forms.gle/JnMrJjHumT6ktK9cA

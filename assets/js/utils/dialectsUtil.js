@@ -9,6 +9,8 @@ const groupsDetails = {
     IQ: ["IQ"],
     HOF: ["SO", "DJ"],
     NOR: ["DZ", "MR", "MA", "LY", "TN", "NOR"],
+    MSA: ["MSA"],
+    CLS: ["CLS"]
 };
 
 function countryCodeMapper(code) {

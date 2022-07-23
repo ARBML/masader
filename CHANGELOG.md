@@ -10,15 +10,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.9.0] - TBD
+## [1.0.0] - 2022-07-21
 
 ### Added
 
 -   Added changelog page [#77](https://github.com/ARBML/masader/pull/77) by [@sudomaze](https://github.com/sudomaze).
+-   Added issue templates for feature request, bug report, and dataset error report [#94](https://github.com/ARBML/masader/pull/94) by [@mazen147](https://github.com/mazen147) and [#92](https://github.com/ARBML/masader/pull/92) by [@sudomaze](https://github.com/sudomaze).
 
 ### Changed
 
 -   Improved the layout template of the website [#81](https://github.com/ARBML/masader/pull/81) by [@unifoliatus](https://github.com/unifoliatus).
+-   Refactoring [#85](https://github.com/ARBML/masader/pull/85) by [@yousef337](https://github.com/yousef337).
+-   Updated `README` with web-service info [#87](https://github.com/ARBML/masader/pull/87) by [@zaidalyafeai](https://github.com/zaidalyafeai).
+-   Improved landing page UI [#89](https://github.com/ARBML/masader/pull/89) by [@Mosaibah](https://github.com/Mosaibah), [@alonemazin](https://github.com/alonemazin), and [@sudomaze](https://github.com/sudomaze).
+-   Improved reporting dataset error [#101](https://github.com/ARBML/masader/pull/101) by [@MutlaqAldhbuiub](https://github.com/MutlaqAldhbuiub).
+-   Improved stats page [#93](https://github.com/ARBML/masader/pull/93) by [@aalhendi](https://github.com/aalhendi) and [@sudomaze](https://github.com/sudomaze).
 
 ## [0.8.0] - 2022-07-11
 
@@ -82,6 +88,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   Removed unused pages and scripts [#6](https://github.com/ARBML/masader/issues/6) by [@MutlaqAldhbuiub](https://github.com/MutlaqAldhbuiub).
 
+[1.0.0]: #100---2022-07-19
 [0.8.0]: #080---2022-07-11
 [0.7.0]: #070---2022-07-05
 [0.6.0]: #060---2021-04-27

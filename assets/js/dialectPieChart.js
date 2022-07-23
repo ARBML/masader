@@ -1,5 +1,4 @@
 function createDialectVolumePieChart(groupData, canvas) {
-  console.log(groupData);
   let countriesDataset = {};
   let sum = 0;
   for (const c in groupData)
