@@ -42,7 +42,7 @@ function createDialectVolumePieChart(groupData, canvas) {
   
 
   const mappingVolumes = Object.keys(countriesDataset).map((key) => {
-        return `${countryCodeMapper(key)} (${key})`
+        return `${countryCodeMapper(key)}`
         }
     );
 
@@ -54,6 +54,7 @@ function createDialectVolumePieChart(groupData, canvas) {
         backgroundColor: palette('tol-dv', Object.values(countriesDataset).length).map((hex) => {
           return '#' + hex;
         }),
+        rotation: -35
       },
     ],
   };
