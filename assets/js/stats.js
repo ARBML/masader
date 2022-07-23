@@ -138,7 +138,7 @@ function createChartContaier(title) {
 
   const container = document.createElement("div");
   container.id = `${title}-container`;
-  container.classList.add('w-50');
+  container.classList.add('col-lg-6');
 
   const titleContainer = document.createElement("h2");
   
