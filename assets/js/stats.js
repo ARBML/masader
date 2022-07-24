@@ -24,16 +24,6 @@ function decodeDialect(dialect) {
     return dialect.split(':')[0].split('-')[1];
 }
 
-function stripLongText(elments){
-    var strippedElments = []
-    for (let index = 0; index < elments.length; index++) {
-      if (elments[index].length > 20)
-        strippedElments.push(elments[index].slice(0, 20) + ' ... ')
-      else
-      strippedElments.push(elments[index])
-    }
-    return strippedElments
-}
 function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
     let series = [];
 
@@ -195,7 +185,7 @@ function plotBar(col, canvas, truncate = 20) {
     elements = elements.slice(0, truncate);
     counts = counts.slice(0, truncate);
 
-    elements = stripLongText(elements)
+    elements = elements.map((e) => e.length < 20 ? e: e.slice(0, 20) + " ...")
     
     const chartdata = {
         labels: elements,
