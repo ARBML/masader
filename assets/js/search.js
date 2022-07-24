@@ -2,38 +2,28 @@ const request = axios.create({
   baseURL: "https://masader-web-service.herokuapp.com",
 });
 
-const queries = new URLSearchParams(window.location.search);
-
-const hightRankTasks = [
-  "machine translation",
-  "speech recognition",
-  "information retrieval",
-  "sentiment analysis",
-  "language modeling",
-  "topic classification",
-  "dialect identification",
-  "text generation",
-  "cross-lingual information retrieval",
-  "named entity recognition",
-  "question answering",
-  "information detection",
-  "summarization",
-  "speaker identification",
-  "hate speech detection",
-  "morphological analysis",
-  "translation",
-  "information extraction",
-];
-
-/**
- * @type {Set<HTMLInputElement>}
- */
-const listOfTasks = new Set();
-
-/**
- * @type {Set<HTMLInputElement>}
- */
-const listOfDialect = new Set();
+const shove = {
+  Tasks: [
+    "machine translation",
+    "speech recognition",
+    "information retrieval",
+    "sentiment analysis",
+    "language modeling",
+    "topic classification",
+    "dialect identification",
+    "text generation",
+    "cross-lingual information retrieval",
+    "named entity recognition",
+    "question answering",
+    "information detection",
+    "summarization",
+    "speaker identification",
+    "hate speech detection",
+    "morphological analysis",
+    "translation",
+    "information extraction",
+  ],
+};
 
 const entries = [
   "Name",
@@ -59,6 +49,8 @@ const entries = [
   "Paper Link",
 ];
 
+const queries = new URLSearchParams(window.location.search);
+
 /**
  * this should return boolean of whatever the key are provided through query or not.
  * @param {string} k
@@ -66,6 +58,16 @@ const entries = [
  */
 const isProvided = (k) =>
   queries.has(k) && (queries.get(k) > 0 || queries.get(k).length > 0);
+
+/**
+ * @type {Set<HTMLInputElement>}
+ */
+const listOfToggable = new Set();
+
+/**
+ * @type {HTMLLabelElement}
+ */
+const form = document.querySelector("#form");
 
 if (isProvided("name")) {
   const name = queries.get("name");
@@ -75,12 +77,16 @@ if (isProvided("name")) {
   $("#special").text("not provided".toUpperCase());
 }
 
-$("#form").on("submit", (event) => {
+form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  if (isProvided("name"))
+  const name = $("#form input[name='name']").val();
+
+  if (!name) queries.delete("name");
+  else {
     queries.set("name", $("#form input[name='name']").val());
-  else queries.delete("name");
+    $("#special").text(name || "not provided".toUpperCase());
+  }
 
   const url = new URL(window.location);
 
@@ -90,9 +96,6 @@ $("#form").on("submit", (event) => {
 
   $("#pagination").pagination({
     ulClassName: "pagination",
-    // TODO: custom style pagination
-    className: "custom-paginationjs",
-    pageNumber: isProvided("page") ? queries.get("page") : 1,
     dataSource: (cb) => {
       const parameter = new URLSearchParams({
         query: [
@@ -101,15 +104,12 @@ $("#form").on("submit", (event) => {
             : []),
           ...(isProvided("since") ? [`Year > ${queries.get("since")}`] : []),
           ...(isProvided("afore") ? [`Year < ${queries.get("afore")}`] : []),
-          ...(listOfTasks.size > 0
-            ? Array.from(listOfTasks.values())
-                .filter((e) => e.checked)
-                .map((e) => `Tasks.str.contains('${e.value}')`)
-            : []),
-          ...(listOfDialect.size > 0
-            ? Array.from(listOfDialect.values())
-                .filter((e) => e.checked)
-                .map((e) => `Dialect.str.contains('${e.value}')`)
+
+          ...(listOfToggable.size > 0
+            ? Array.from(listOfToggable.values())
+                .filter((e) => $(e).children("input")[0].checked)
+                .map((e) => $(e).children("input")[0])
+                .map((e) => `${e.name}.str.contains('${e.value}')`)
             : []),
         ].join(" and "),
         features: entries,
@@ -120,207 +120,205 @@ $("#form").on("submit", (event) => {
         .then((response) => response.data)
         .then(cb);
     },
-    callback: (data, pagination) => {
-      let string = "";
+    callback: (data) => {
+      let html = "";
 
       for (let element of data) {
-        string += "<li class='flex flex-col gap-3' >";
-        string += `<h3 class='font-bold text-lg'>${element.Name}</h3>`;
+        html += "<li class='flex flex-col gap-3' >";
+        html += `<h3 class='font-bold text-lg'>${element.Name}</h3>`;
 
-        string +=
+        html +=
           "<div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-2'>";
         for (let attribute in element) {
           if (attribute == "Id") continue;
-          string += "<div class='flex justify-between gap-3'>";
-          string += `<span class='font-bold capitalize text-gray-600 whitespace-nowrap'>${attribute}</span>`;
-          string += `<span class='truncate'>${
+          html += "<div class='flex justify-between gap-3'>";
+          html += `<span class='font-bold capitalize text-gray-600 whitespace-nowrap'>${attribute}</span>`;
+          html += `<span class='truncate'>${
             element[attribute] != "nan" ? element[attribute] : "unknown"
           }</span>`;
-          string += "</div>";
+          html += "</div>";
         }
-        string += "</div>";
+        html += "</div>";
 
-        string += "<div class='flex justify-between'>";
-        string += `<span class='capitalize font-bold'>${element["Ethical Risks"]} Ethical Risk</span>`;
-        string += "<div/>";
+        html += "<div class='flex justify-between'>";
+        html += `<span class='capitalize font-bold'>${element["Ethical Risks"]} Ethical Risk</span>`;
+        html += "<div/>";
 
-        string += "<div class='gap-2 flex'>";
-        string += `<a class='capitalize font-bold' target='_blank' href='./card?id=${element["Id"]}'>details</a>`;
-        string += `<a target='_blank' href='${element["Paper Link"]}' class='capitalize font-bold'>paper link</a>`;
-        string += "</div>";
+        html += "<div class='gap-2 flex'>";
+        html += `<a class='capitalize font-bold' target='_blank' href='./card?id=${element["Id"]}'>details</a>`;
+        html += `<a target='_blank' href='${element["Paper Link"]}' class='capitalize font-bold'>paper link</a>`;
+        html += "</div>";
 
-        string += "</li>";
-        string += "<li><hr/></li>";
+        html += "</li>";
+        html += "<li><hr/></li>";
       }
 
-      $("#list-of-detail").html(string);
+      $("#list-of-detail").html(html);
     },
   });
 });
 
-isProvided("since") && $("#since").val(queries.get("since"));
-isProvided("afore") && $("#afore").val(queries.get("afore"));
+(() => {
+  const queries = new URLSearchParams();
 
-$("#since").on("blur", (event) => {
-  queries.set("since", $("#since").val());
-  $("#submit").click();
-});
+  queries.set("features", ["Dialect", "Tasks"]);
 
-$("#afore").on("blur", (event) => {
-  queries.set("afore", $("#afore").val());
-  $("#submit").click();
-});
+  request
+    .get(`datasets/tags?${queries}`)
+    .then((response) => response.data)
+    .then((object) => {
+      for (let k in object) {
+        if (shove[k])
+          object[k] = object[k].sort((e) => (shove[k].includes(e) ? -1 : 1));
 
-function createToggable(column, value) {
-  let string = "";
-  string += `<label class='bg-black/[.02] border-black/50 text-black/50 border-1 cursor-pointer rounded-full py-0.5 px-2.5'>`;
-  string += `<input type='checkbox' value='${value}' name='${column}' class='invisible w-0 h-0'/>`;
-  string += `<span>${value}</span>`;
-  string += "</label>";
+        for (let index in object[k]) {
+          const value = object[k][index];
+          const element = document.createElement("label");
 
-  return string;
-}
+          element.classList.add(
+            "bg-black/[.02]",
+            "border-black/50",
+            "text-black/50",
+            "border-1",
+            "cursor-pointer",
+            "rounded-full",
+            "py-0.5",
+            "px-2.5"
+          );
 
-request
-  .get("/datasets/tags?features=Dialect,Tasks")
-  .then((resposne) => resposne.data)
-  .then((data) => {
-    (() => {
-      let string = "";
-      data["Tasks"] = data["Tasks"].sort((a) =>
-        hightRankTasks.includes(a) ? -1 : 1
+          if (index > 7) element.classList.add("hidden");
+
+          {
+            const el = document.createElement("input");
+
+            el.name = k;
+
+            el.value = value;
+
+            el.type = "checkbox";
+
+            el.classList.add("invisible", "w-0", "h-0");
+
+            el.addEventListener("change", (event) => {
+              [
+                "bg-black/[.02]",
+                "border-black/50",
+                "text-black/50",
+                "bg-[#F95959]/50",
+                "border-[#F95959]",
+                "text-[#F95959]",
+              ].forEach((className) => element.classList.toggle(className));
+              submit();
+            });
+
+            element.appendChild(el);
+          }
+
+          {
+            const el = document.createElement("span");
+
+            el.textContent = value;
+
+            element.appendChild(el);
+          }
+
+          listOfToggable.add(element);
+          document.querySelector(`#${k} > ul.options`).appendChild(element);
+        }
+
+        const elements = Array.from(listOfToggable).filter(
+          (element) => $(element).children("input")[0].name == k
+        );
+
+        /**
+         * @type {HTMLInputElement}
+         */
+        const expander = document.querySelector(`#${k} input.expander`);
+
+        /**
+         * @type {HTMLInputElement}
+         */
+        const through = document.querySelector(`#${k} input.through`);
+
+        through.addEventListener("keyup", (event) => {
+          const value = event.target.value.toLowerCase();
+
+          if (value.length > 0) $(expander).parent().addClass("hidden");
+          else $(expander).parent().removeClass("hidden");
+
+          elements.forEach((el, index) => {
+            const isMatching = $(el)
+              .children("input")[0]
+              .value.toLowerCase()
+              .includes(value);
+
+            if ((value.length <= 0 && index > 7) || !isMatching)
+              return el.classList.add("hidden");
+
+            el.classList.remove("hidden");
+          });
+        });
+
+        expander.addEventListener("change", (event) => {
+          /**
+           * @type {HTMLInputElement}
+           */
+          const element = event.target;
+
+          /**
+           * @type {boolean}
+           */
+          const isChecked = element.checked;
+
+          elements.map((el, index) => {
+            if (!isChecked && index > 7) return el.classList.add("hidden");
+            el.classList.remove("hidden");
+          });
+
+          $(element)
+            .siblings("span")
+            .text(`show ${isChecked ? "less" : "more"}`);
+        });
+      }
+    });
+})();
+
+document.querySelector("#reset").addEventListener("click", () => {
+  Array.from(listOfToggable).map((element) => {
+    const isChecked = $(element).children("input")[0].checked;
+
+    if (isChecked)
+      element.classList.remove(
+        "bg-[#F95959]/50",
+        "border-[#F95959]",
+        "text-[#F95959]"
       );
 
-      for (let value of data["Tasks"]) string += createToggable("Tasks", value);
+    element.classList.add("bg-black/[.02]", "border-black/50", "text-black/50");
 
-      $("#list-of-tasks").html(string);
-
-      $("label:has(input[name='Tasks'])").each((i, parent) => {
-        if (i > 7) $(parent).addClass("hidden");
-        listOfTasks.add($(parent).children("input")[0]);
-        $(parent)
-          .children("input")
-          .on("change", (e) => {
-            $(parent).toggleClass(
-              "bg-[#F95959]/50 border-[#F95959] bg-black/[.02] border-black/50 text-[#F95959] text-black/50"
-            );
-            $("#submit").click();
-          });
-      });
-
-      $("#search-through-tasks").on("change", (event) => {
-        let i = 0;
-        if (!event.target.value) $("#show-more-of-tasks").parent().show();
-        else $("#show-more-of-tasks").parent().hide();
-        listOfTasks.forEach((e) => {
-          if (!event.target.value) {
-            $(e).parent().removeClass("hidden");
-            if (i++ > 7) $(e).parent().addClass("hidden");
-            return;
-          }
-          if (
-            !e.value.toLowerCase().includes(event.target.value.toLowerCase())
-          ) {
-            return $(e).parent().addClass("hidden");
-          }
-
-          $(e).parent()[0].classList.contains("hidden") &&
-            $(e).parent()[0].classList.remove("hidden");
-        });
-      });
-    })();
-
-    (() => {
-      let string = "";
-      for (let e of data["Dialect"]) string += createToggable("Dialect", e);
-
-      $("#list-of-dialect").html(string);
-
-      $("label:has(input[name='Dialect'])").each((i, parent) => {
-        if (i > 7) $(parent).addClass("hidden");
-        listOfDialect.add($(parent).children("input")[0]);
-        $(parent)
-          .children("input")
-          .on("change", (e) => {
-            $(parent).toggleClass(
-              "bg-[#F95959]/50 border-[#F95959] bg-black/[.02] border-black/50 text-[#F95959] text-black/50"
-            );
-            $("#submit").click();
-          });
-      });
-
-      $("#search-through-dialect").on("change", (event) => {
-        let i = 0;
-        if (!event.target.value) $("#show-more-of-dialect").parent().show();
-        else $("#show-more-of-dialect").parent().hide();
-        listOfDialect.forEach((e) => {
-          if (!event.target.value) {
-            $(e).parent().removeClass("hidden");
-            if (i++ > 7) $(e).parent().addClass("hidden");
-            return;
-          }
-          if (
-            !e.value.toLowerCase().includes(event.target.value.toLowerCase())
-          ) {
-            return $(e).parent().addClass("hidden");
-          }
-
-          $(e).parent()[0].classList.contains("hidden") &&
-            $(e).parent()[0].classList.remove("hidden");
-        });
-      });
-    })();
+    $(element).children("input")[0].checked = false;
+    return false;
   });
 
-$("#submit").click();
+  Array.from(document.querySelectorAll("#Year input").values()).map(
+    (e) => (e.value = "")
+  );
 
-$("#show-more-of-dialect").on("change", (event) => {
-  const isChecked = event.target.checked;
-
-  const elements = Array.from(listOfDialect);
-  console.log($($(event[0]).siblings("span")));
-
-  if (isChecked) {
-    elements.map((e) => $(e).parent().removeClass("hidden"));
-    $("#show-more-of-dialect + span").text("show less");
-  } else {
-    $("#show-more-of-dialect + span").text("show more");
-    $(event[0]).siblings("span").text("show more");
-    elements
-      .slice(9, elements.length)
-      .map((e) => $(e).parent().addClass("hidden"));
-  }
-});
-
-$("#show-more-of-tasks").on("change", (event) => {
-  const isChecked = event.target.checked;
-
-  const elements = Array.from(listOfTasks);
-
-  if (isChecked) {
-    elements.map((e) => $(e).parent().removeClass("hidden"));
-    $("#show-more-of-tasks + span").text("show less");
-  } else {
-    $("#show-more-of-tasks + span").text("show more");
-    elements
-      .slice(9, elements.length)
-      .map((e) => $(e).parent().addClass("hidden"));
-  }
-});
-
-function Reset() {
-  [...listOfTasks, ...listOfDialect].forEach((e) => {
-    e.checked = false;
-    $(e).parent().addClass("bg-black/[.02] border-black/50 text-black/50");
-    $(e)
-      .parent()
-      .removeClass("bg-[#F95959]/50 border-[#F95959] text-[#F95959]");
-  });
-  $("#show-more-of-dialect + span").text("show more");
-  $("#show-more-of-tasks + span").text("show more");
-  $("#since").val("");
-  $("#afore").val("");
-  queries.delete("since");
   queries.delete("afore");
+  queries.delete("since");
+  submit();
+});
+
+document.querySelectorAll("#Year input").forEach((e) => {
+  // ! for some reason keyup mess up the layout because of many request to the form. ig
+  e.addEventListener("blur", (event) => {
+    queries.set(event.target.name, event.target.value);
+    submit();
+  });
+});
+
+function submit() {
   $("#submit").click();
 }
+
+submit();

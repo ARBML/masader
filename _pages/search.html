@@ -11,37 +11,29 @@ foot_scripts:
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-y-5">
       <section class="col-span-3 flex flex-col gap-3">
         <button
-          onclick="Reset()"
+          id="reset"
           type="button"
           class="bg-red-500 px-4 py-2 text-white rounded font-medium w-full text-left"
         >
           Reset to default
         </button>
         <hr />
-        <section class="w-full flex flex-col gap-3">
+        <section id="Tasks" class="w-full flex flex-col gap-3">
           <h3 class="uppercase">tasks</h3>
           <label
             class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
           >
             <input
-              class="focus:outline-none w-full py-1 bg-transparent"
+              class="through focus:outline-none w-full py-1 bg-transparent"
               type="text"
-              id="search-through-tasks"
               placeholder="Search through options"
             />
             <i class="fa-solid fa-magnifying-glass text-black/25"></i>
           </label>
-          <ul
-            id="list-of-tasks"
-            class="overflow-hidden flex flex-wrap gap-2"
-          ></ul>
+          <ul class="options flex flex-wrap gap-2"></ul>
           <div class="w-full text-center">
             <label>
-              <input
-                id="show-more-of-tasks"
-                class="w-0 h-0 invisible"
-                type="checkbox"
-              />
+              <input class="expander w-0 h-0 invisible" type="checkbox" />
               <span class="uppercase text-blue-500 text-xs cursor-pointer"
                 >show more</span
               >
@@ -49,30 +41,22 @@ foot_scripts:
           </div>
         </section>
         <hr />
-        <section class="w-full flex flex-col gap-3">
+        <section id="Dialect" class="w-full flex flex-col gap-3">
           <h3 class="uppercase">dialect</h3>
           <label
             class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
           >
             <input
-              class="focus:outline-none w-full py-1 bg-transparent"
+              class="through focus:outline-none w-full py-1 bg-transparent"
               type="text"
-              id="search-through-dialect"
               placeholder="Search through options"
             />
             <i class="fa-solid fa-magnifying-glass text-black/25"></i>
           </label>
-          <ul
-            id="list-of-dialect"
-            class="max-h-36 overflow-hidden flex flex-wrap gap-2"
-          ></ul>
+          <ul class="options flex flex-wrap gap-2"></ul>
           <div class="w-full text-center">
             <label>
-              <input
-                id="show-more-of-dialect"
-                class="w-0 h-0 invisible"
-                type="checkbox"
-              />
+              <input class="expander w-0 h-0 invisible" type="checkbox" />
               <span class="uppercase text-blue-500 text-xs cursor-pointer"
                 >show more</span
               >
@@ -80,7 +64,7 @@ foot_scripts:
           </div>
         </section>
         <hr />
-        <section class="w-full flex flex-col gap-3">
+        <section id="Year" class="w-full flex flex-col gap-3">
           <h3 class="uppercase">year</h3>
           <div class="flex w-full gap-6 items-center">
             <label
@@ -89,7 +73,7 @@ foot_scripts:
               <input
                 class="focus:outline-none w-full text-center py-1 bg-transparent"
                 type="number"
-                id="since"
+                name="since"
                 placeholder="2018"
               />
             </label>
@@ -100,7 +84,7 @@ foot_scripts:
               <input
                 class="focus:outline-none w-full text-center py-1 bg-transparent"
                 type="number"
-                id="afore"
+                name="afore"
                 placeholder="2022"
               />
             </label>
