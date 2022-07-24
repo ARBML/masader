@@ -13,9 +13,8 @@ function reformat_numbers(num) {
 }
 
 function reformat_dialect(dialect) {
-  if (dialect.trim() != "other") {
-    dialect = dialect.split(":")[0];
-    dialect = dialect.split("-")[1];
+  if (dialect.trim() != "mixed") {
+    dialect = dialect.split("(")[2].split(")")[0];
   }
 
   return dialect;
@@ -74,7 +73,6 @@ const reteriveClustersEmbeddings = async () => {
             info.embeddings.push(r.Embeddings);
             info.clusters.push(r.Cluster);
         });
-        // console.log(info);
         return info;
     });
     return info;
@@ -201,7 +199,7 @@ axios
       .attr("r", function (_, i, n) {
         let vol_index = headersWhiteList.indexOf("Volume");
         try {
-          let volume = parseInt(dataset[i][vol_index].replaceAll(",", ""));
+          let volume = parseInt(dataset[i][vol_index].replaceAll(",", ""))+1;
           if (isNaN(volume)) {
             return 10;
           } else return Math.log(volume);
