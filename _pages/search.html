@@ -1,0 +1,137 @@
+---
+permalink: /search
+layout: default
+foot_scripts:
+  - https://pagination.js.org/dist/2.1.5/pagination.min.js
+  - /assets/js/search.js
+---
+
+<div class="px-4 mt-16">
+  <form id="form">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-y-5">
+      <section class="col-span-3 flex flex-col gap-3">
+        <button
+          onclick="Reset()"
+          type="button"
+          class="bg-red-500 px-4 py-2 text-white rounded font-medium w-full text-left"
+        >
+          Reset to default
+        </button>
+        <hr />
+        <section class="w-full flex flex-col gap-3">
+          <h3 class="uppercase">tasks</h3>
+          <label
+            class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+          >
+            <input
+              class="focus:outline-none w-full py-1 bg-transparent"
+              type="text"
+              id="search-through-tasks"
+              placeholder="Search through options"
+            />
+            <i class="fa-solid fa-magnifying-glass text-black/25"></i>
+          </label>
+          <ul
+            id="list-of-tasks"
+            class="overflow-hidden flex flex-wrap gap-2"
+          ></ul>
+          <div class="w-full text-center">
+            <label>
+              <input
+                id="show-more-of-tasks"
+                class="w-0 h-0 invisible"
+                type="checkbox"
+              />
+              <span class="uppercase text-blue-500 text-xs cursor-pointer"
+                >show more</span
+              >
+            </label>
+          </div>
+        </section>
+        <hr />
+        <section class="w-full flex flex-col gap-3">
+          <h3 class="uppercase">dialect</h3>
+          <label
+            class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+          >
+            <input
+              class="focus:outline-none w-full py-1 bg-transparent"
+              type="text"
+              id="search-through-dialect"
+              placeholder="Search through options"
+            />
+            <i class="fa-solid fa-magnifying-glass text-black/25"></i>
+          </label>
+          <ul
+            id="list-of-dialect"
+            class="max-h-36 overflow-hidden flex flex-wrap gap-2"
+          ></ul>
+          <div class="w-full text-center">
+            <label>
+              <input
+                id="show-more-of-dialect"
+                class="w-0 h-0 invisible"
+                type="checkbox"
+              />
+              <span class="uppercase text-blue-500 text-xs cursor-pointer"
+                >show more</span
+              >
+            </label>
+          </div>
+        </section>
+        <hr />
+        <section class="w-full flex flex-col gap-3">
+          <h3 class="uppercase">year</h3>
+          <div class="flex w-full gap-6 items-center">
+            <label
+              class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+            >
+              <input
+                class="focus:outline-none w-full text-center py-1 bg-transparent"
+                type="number"
+                id="since"
+                placeholder="2018"
+              />
+            </label>
+            <span class="font-bold uppercase">to</span>
+            <label
+              class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+            >
+              <input
+                class="focus:outline-none w-full text-center py-1 bg-transparent"
+                type="number"
+                id="afore"
+                placeholder="2022"
+              />
+            </label>
+          </div>
+        </section>
+      </section>
+      <div class="col-span-1"></div>
+      <section class="col-span-7 flex flex-col gap-3">
+        <label
+          class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+        >
+          <input
+            class="focus:outline-none w-full py-2 bg-transparent"
+            type="text"
+            name="name"
+            placeholder="Search through datasets"
+          />
+          <i class="fa-solid fa-magnifying-glass text-black/25"></i>
+        </label>
+        <h1 class="uppercase font-medium text-black/50">
+          Results of "<span
+            class="normal-case text-black/60 font-bold"
+            id="special"
+          ></span
+          >"
+        </h1>
+        <ul id="list-of-detail" class="flex flex-col gap-3"></ul>
+        <div id="pagination"></div>
+      </section>
+    </div>
+    <!-- a way around for safari to submit the form immediately -->
+    <button id="submit" class="invisible w-0 h-0">hidden</button>
+  </form>
+</div>
