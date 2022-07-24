@@ -6,16 +6,16 @@ let myChart = null;
 let dialectedEntries = {};
 
 titles = {
-    Host: 'Counts of repostories used to host NLP datasets',
+    Host: 'Repositories used for hosting Arabic NLP datasets',
     Year: 'Number of datasets published every year',
-    Access: 'How easy to access most of the data. Upon-Request: means usually the dataset requires registeration, sharing info, email, etc.',
-    Tasks: 'Most frequent NLP tasks in the datasets truncated to most 20',
-    Domain: 'Most appearing domains in the dataests',
-    License: 'Most appearing licenses in the datasets',
-    Form: 'Percentage of Text and Spoken datasets',
-    Dialects: 'Distribution of the resources with respect of each country',
+    Access: 'Accessability of datasets',
+    Tasks: 'Top 20 tasks in the published Arabic NLP datasets',
+    Domain: 'Domains in Arabic NLP datasets',
+    License: 'Linceses used in Arabic NLP datasets',
+    Form: 'Text vs Spoken datasets',
+    Dialects: 'Percetnages of the resources with respect of each country',
     // 'Dialects Groups': 'Distribution of the resources with respect of each Dialect',
-    'Venue': 'What kind of venues are used to publish NLP datasets',
+    'Venue': 'Venues used to publish NLP datasets',
     'Ethical Risks': 'Ethical risks of Arabic NLP datasets',
     Script: 'Scripts of writing Arabic NLP datasets',
 };
@@ -142,13 +142,13 @@ function createChartContaier(title) {
 
   const titleContainer = document.createElement("h2");
   
-  const titleContainerClasses = ["leading-tight", "text-3xl"];
+  const titleContainerClasses = ["leading-tight", "text-3xl", "fw-bolder"];
   titleContainerClasses.forEach( (c) => titleContainer.classList.add(c));
 
   const titleElement = document.createElement("a");
   const titleElementClasses = ["hover:text-black", "hover:underline"];
   titleElementClasses.forEach( (c) => titleElement.classList.add(c));
-  titleElement.textContent = `# ${title}`;
+  titleElement.textContent = `${title}`;
   titleElement.href = `#${container.id}`;
 
   titleContainer.appendChild(titleElement);
@@ -184,6 +184,8 @@ function plotBar(col, canvas, truncate = 20) {
 
     elements = elements.slice(0, truncate);
     counts = counts.slice(0, truncate);
+
+    elements = elements.map((e) => e.length < 20 ? e: e.slice(0, 20) + " ...")
     
     const chartdata = {
         labels: elements,
