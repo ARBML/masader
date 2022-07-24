@@ -11,6 +11,8 @@ foot_scripts:
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-y-5">
       <section class="col-span-3 flex flex-col gap-3">
         <button
+          onclick="Reset()"
+          type="button"
           class="bg-red-500 px-4 py-2 text-white rounded font-medium w-full text-left"
         >
           Reset to default
@@ -31,7 +33,7 @@ foot_scripts:
           </label>
           <ul
             id="list-of-tasks"
-            class="max-h-36 overflow-hidden flex flex-wrap gap-2"
+            class="overflow-hidden flex flex-wrap gap-2"
           ></ul>
           <div class="w-full text-center">
             <label>
@@ -86,7 +88,7 @@ foot_scripts:
             >
               <input
                 class="focus:outline-none w-full text-center py-1 bg-transparent"
-                type="text"
+                type="number"
                 id="since"
                 placeholder="2018"
               />
@@ -97,7 +99,7 @@ foot_scripts:
             >
               <input
                 class="focus:outline-none w-full text-center py-1 bg-transparent"
-                type="text"
+                type="number"
                 id="afore"
                 placeholder="2022"
               />

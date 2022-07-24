@@ -4,20 +4,36 @@ const request = axios.create({
 
 const queries = new URLSearchParams(window.location.search);
 
-const Tasks = new Set();
+const hightRankTasks = [
+  "machine translation",
+  "speech recognition",
+  "information retrieval",
+  "sentiment analysis",
+  "language modeling",
+  "topic classification",
+  "dialect identification",
+  "text generation",
+  "cross-lingual information retrieval",
+  "named entity recognition",
+  "question answering",
+  "information detection",
+  "summarization",
+  "speaker identification",
+  "hate speech detection",
+  "morphological analysis",
+  "translation",
+  "information extraction",
+];
 
-const Dialect = new Set();
+/**
+ * @type {Set<HTMLInputElement>}
+ */
+const listOfTasks = new Set();
 
-const has = (k) =>
-  queries.has(k) && (queries.get(k) > 0 || queries.get(k).length > 0);
-
-if (queries.has("name") && queries.get("name").length > 0) {
-  const name = queries.get("name");
-  $("#special").text(name);
-  $("#form input[name='name']").val(name);
-} else {
-  $("#special").text("not provided".toUpperCase());
-}
+/**
+ * @type {Set<HTMLInputElement>}
+ */
+const listOfDialect = new Set();
 
 const entries = [
   "Name",
@@ -40,12 +56,30 @@ const entries = [
   "Year",
   "Ethical Risks",
   "Id",
+  "Paper Link",
 ];
+
+/**
+ * this should return boolean of whatever the key are provided through query or not.
+ * @param {string} k
+ * @returns {boolean}
+ */
+const isProvided = (k) =>
+  queries.has(k) && (queries.get(k) > 0 || queries.get(k).length > 0);
+
+if (isProvided("name")) {
+  const name = queries.get("name");
+  $("#special").text(name);
+  $("#form input[name='name']").val(name);
+} else {
+  $("#special").text("not provided".toUpperCase());
+}
 
 $("#form").on("submit", (event) => {
   event.preventDefault();
 
-  if (has("name")) queries.set("name", $("#form input[name='name']").val());
+  if (isProvided("name"))
+    queries.set("name", $("#form input[name='name']").val());
   else queries.delete("name");
 
   const url = new URL(window.location);
@@ -58,24 +92,24 @@ $("#form").on("submit", (event) => {
     ulClassName: "pagination",
     // TODO: custom style pagination
     className: "custom-paginationjs",
-    pageNumber: has("page") ? queries.get("page") : 1,
+    pageNumber: isProvided("page") ? queries.get("page") : 1,
     dataSource: (cb) => {
       const parameter = new URLSearchParams({
         query: [
-          ...(has("name")
+          ...(isProvided("name")
             ? [`Name.str.contains('(?i)${queries.get("name")}')`]
             : []),
-          ...(has("since") ? [`Year > ${queries.get("since")}`] : []),
-          ...(has("afore") ? [`Year < ${queries.get("afore")}`] : []),
-          ...(Tasks.size > 0
-            ? Array.from(Tasks.values()).map(
-                (task) => `Tasks.str.contains('${task}')`
-              )
+          ...(isProvided("since") ? [`Year > ${queries.get("since")}`] : []),
+          ...(isProvided("afore") ? [`Year < ${queries.get("afore")}`] : []),
+          ...(listOfTasks.size > 0
+            ? Array.from(listOfTasks.values())
+                .filter((e) => e.checked)
+                .map((e) => `Tasks.str.contains('${e.value}')`)
             : []),
-          ...(Dialect.size > 0
-            ? Array.from(Dialect.values()).map(
-                (dialect) => `Dialect.str.contains('${dialect}')`
-              )
+          ...(listOfDialect.size > 0
+            ? Array.from(listOfDialect.values())
+                .filter((e) => e.checked)
+                .map((e) => `Dialect.str.contains('${e.value}')`)
             : []),
         ].join(" and "),
         features: entries,
@@ -96,9 +130,12 @@ $("#form").on("submit", (event) => {
         string +=
           "<div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-2'>";
         for (let attribute in element) {
+          if (attribute == "Id") continue;
           string += "<div class='flex justify-between gap-3'>";
           string += `<span class='font-bold capitalize text-gray-600 whitespace-nowrap'>${attribute}</span>`;
-          string += `<span class='truncate'>${element[attribute]}</span>`;
+          string += `<span class='truncate'>${
+            element[attribute] != "nan" ? element[attribute] : "unknown"
+          }</span>`;
           string += "</div>";
         }
         string += "</div>";
@@ -121,29 +158,23 @@ $("#form").on("submit", (event) => {
   });
 });
 
-has("since") && $("#since").val(queries.get("since"));
-has("afore") && $("#afore").val(queries.get("afore"));
+isProvided("since") && $("#since").val(queries.get("since"));
+isProvided("afore") && $("#afore").val(queries.get("afore"));
 
 $("#since").on("blur", (event) => {
-  if (isNaN($("#since").val())) return;
   queries.set("since", $("#since").val());
   $("#submit").click();
 });
 
 $("#afore").on("blur", (event) => {
-  if (isNaN($("#afore").val())) return;
   queries.set("afore", $("#afore").val());
   $("#submit").click();
 });
 
 function createToggable(column, value) {
   let string = "";
-  string += `<label class='toggable-for-${column} ${
-    (column == "Tasks" ? Tasks.has(value) : Dialect.has(value))
-      ? "bg-[#F95959]/50 border-[#F95959] text-[#F95959]"
-      : "bg-black/[.02] border-black/50 text-black/50"
-  } border-1 cursor-pointer rounded-full py-0.5 px-2.5'>`;
-  string += `<input onchange='onChecked("${column}", "${value}");' type='checkbox' name='${value}' class='invisible w-0 h-0'/>`;
+  string += `<label class='bg-black/[.02] border-black/50 text-black/50 border-1 cursor-pointer rounded-full py-0.5 px-2.5'>`;
+  string += `<input type='checkbox' value='${value}' name='${column}' class='invisible w-0 h-0'/>`;
   string += `<span>${value}</span>`;
   string += "</label>";
 
@@ -156,22 +187,45 @@ request
   .then((data) => {
     (() => {
       let string = "";
-      for (let e of data["Tasks"]) string += createToggable("Tasks", e);
+      data["Tasks"] = data["Tasks"].sort((a) =>
+        hightRankTasks.includes(a) ? -1 : 1
+      );
+
+      for (let value of data["Tasks"]) string += createToggable("Tasks", value);
 
       $("#list-of-tasks").html(string);
 
+      $("label:has(input[name='Tasks'])").each((i, parent) => {
+        if (i > 7) $(parent).addClass("hidden");
+        listOfTasks.add($(parent).children("input")[0]);
+        $(parent)
+          .children("input")
+          .on("change", (e) => {
+            $(parent).toggleClass(
+              "bg-[#F95959]/50 border-[#F95959] bg-black/[.02] border-black/50 text-[#F95959] text-black/50"
+            );
+            $("#submit").click();
+          });
+      });
+
       $("#search-through-tasks").on("change", (event) => {
-        $(".toggable-for-Tasks").each((_, element) => {
-          if (!event.target.value) $(element).show();
-          if (
-            !$(element)
-              .find("input")
-              .attr("name")
-              .toLowerCase()
-              .includes(event.target.value.toLowerCase())
-          ) {
-            $(element).hide();
+        let i = 0;
+        if (!event.target.value) $("#show-more-of-tasks").parent().show();
+        else $("#show-more-of-tasks").parent().hide();
+        listOfTasks.forEach((e) => {
+          if (!event.target.value) {
+            $(e).parent().removeClass("hidden");
+            if (i++ > 7) $(e).parent().addClass("hidden");
+            return;
           }
+          if (
+            !e.value.toLowerCase().includes(event.target.value.toLowerCase())
+          ) {
+            return $(e).parent().addClass("hidden");
+          }
+
+          $(e).parent()[0].classList.contains("hidden") &&
+            $(e).parent()[0].classList.remove("hidden");
         });
       });
     })();
@@ -182,18 +236,37 @@ request
 
       $("#list-of-dialect").html(string);
 
+      $("label:has(input[name='Dialect'])").each((i, parent) => {
+        if (i > 7) $(parent).addClass("hidden");
+        listOfDialect.add($(parent).children("input")[0]);
+        $(parent)
+          .children("input")
+          .on("change", (e) => {
+            $(parent).toggleClass(
+              "bg-[#F95959]/50 border-[#F95959] bg-black/[.02] border-black/50 text-[#F95959] text-black/50"
+            );
+            $("#submit").click();
+          });
+      });
+
       $("#search-through-dialect").on("change", (event) => {
-        $(".toggable-for-Dialect").each((_, element) => {
-          if (!event.target.value) $(element).show();
-          if (
-            !$(element)
-              .find("input")
-              .attr("name")
-              .toLowerCase()
-              .includes(event.target.value.toLowerCase())
-          ) {
-            $(element).hide();
+        let i = 0;
+        if (!event.target.value) $("#show-more-of-dialect").parent().show();
+        else $("#show-more-of-dialect").parent().hide();
+        listOfDialect.forEach((e) => {
+          if (!event.target.value) {
+            $(e).parent().removeClass("hidden");
+            if (i++ > 7) $(e).parent().addClass("hidden");
+            return;
           }
+          if (
+            !e.value.toLowerCase().includes(event.target.value.toLowerCase())
+          ) {
+            return $(e).parent().addClass("hidden");
+          }
+
+          $(e).parent()[0].classList.contains("hidden") &&
+            $(e).parent()[0].classList.remove("hidden");
         });
       });
     })();
@@ -201,30 +274,53 @@ request
 
 $("#submit").click();
 
-function onChecked(column, value) {
-  if (column == "Tasks")
-    Tasks.has(value) ? Tasks.delete(value) : Tasks.add(value);
-  else Dialect.has(value) ? Dialect.delete(value) : Dialect.add(value);
-
-  $(`label:has(input[name='${value}'])`).toggleClass(
-    "bg-[#F95959]/50 border-[#F95959] bg-black/[.02] border-black/50 text-[#F95959] text-black/50"
-  );
-
-  $("#submit").click();
-}
-
 $("#show-more-of-dialect").on("change", (event) => {
   const isChecked = event.target.checked;
 
-  $("#list-of-dialect").toggleClass("max-h-36");
-  if (isChecked) $("#show-more-of-dialect + span").text("show less");
-  else $("#show-more-of-dialect + span").text("show more");
+  const elements = Array.from(listOfDialect);
+  console.log($($(event[0]).siblings("span")));
+
+  if (isChecked) {
+    elements.map((e) => $(e).parent().removeClass("hidden"));
+    $("#show-more-of-dialect + span").text("show less");
+  } else {
+    $("#show-more-of-dialect + span").text("show more");
+    $(event[0]).siblings("span").text("show more");
+    elements
+      .slice(9, elements.length)
+      .map((e) => $(e).parent().addClass("hidden"));
+  }
 });
 
 $("#show-more-of-tasks").on("change", (event) => {
   const isChecked = event.target.checked;
 
-  $("#list-of-tasks").toggleClass("max-h-36");
-  if (isChecked) $("#show-more-of-tasks + span").text("show less");
-  else $("#show-more-of-tasks + span").text("show more");
+  const elements = Array.from(listOfTasks);
+
+  if (isChecked) {
+    elements.map((e) => $(e).parent().removeClass("hidden"));
+    $("#show-more-of-tasks + span").text("show less");
+  } else {
+    $("#show-more-of-tasks + span").text("show more");
+    elements
+      .slice(9, elements.length)
+      .map((e) => $(e).parent().addClass("hidden"));
+  }
 });
+
+function Reset() {
+  [...listOfTasks, ...listOfDialect].forEach((e) => {
+    e.checked = false;
+    $(e).parent().addClass("bg-black/[.02] border-black/50 text-black/50");
+    $(e)
+      .parent()
+      .removeClass("bg-[#F95959]/50 border-[#F95959] text-[#F95959]");
+  });
+  $("#show-more-of-dialect + span").text("show more");
+  $("#show-more-of-tasks + span").text("show more");
+  $("#since").val("");
+  $("#afore").val("");
+  queries.delete("since");
+  queries.delete("afore");
+  $("#submit").click();
+}
