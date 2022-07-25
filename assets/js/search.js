@@ -80,6 +80,8 @@ if (isProvided("name")) {
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
+  $("#loader").removeClass("hidden");
+
   const name = $("#form input[name='name']").val();
 
   if (!name) queries.delete("name");
@@ -164,6 +166,8 @@ form.addEventListener("submit", (event) => {
       }
 
       $("#list-of-detail").html(html);
+
+      $("#loader").addClass("hidden");
     },
   });
 });
