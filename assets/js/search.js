@@ -176,6 +176,11 @@ form.addEventListener("submit", (event) => {
     .then((response) => response.data)
     .then((object) => {
       for (let k in object) {
+        document.querySelector(`#${k} > div`).addEventListener("click", (e) => {
+          $(`#${k} > .body`).toggleClass("max-h-0");
+          $(`#${k} > div > i`).toggleClass("fa-chevron-up");
+        });
+
         if (shove[k])
           object[k] = object[k].sort((e) => (shove[k].includes(e) ? -1 : 1));
 
@@ -231,7 +236,9 @@ form.addEventListener("submit", (event) => {
           }
 
           listOfToggable.add(element);
-          document.querySelector(`#${k} > ul.options`).appendChild(element);
+          document
+            .querySelector(`#${k} > .body > ul.options`)
+            .appendChild(element);
         }
 
         const elements = Array.from(listOfToggable).filter(
@@ -323,6 +330,11 @@ document.querySelectorAll("#Year input").forEach((e) => {
     queries.set(event.target.name, event.target.value);
     submit();
   });
+});
+
+document.querySelector(`#Year > div`).addEventListener("click", (e) => {
+  $(`#Year > .body`).toggleClass("max-h-0");
+  $(`#Year > div > i`).toggleClass("fa-chevron-up");
 });
 
 function submit() {

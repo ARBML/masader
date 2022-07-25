@@ -19,79 +19,94 @@ foot_scripts:
         </button>
         <hr />
         <section id="Tasks" class="w-full flex flex-col gap-3">
-          <h3 class="uppercase">tasks</h3>
-          <label
-            class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
-          >
-            <input
-              class="through focus:outline-none w-full py-1 bg-transparent"
-              type="text"
-              placeholder="Search through options"
-            />
-            <i class="fa-solid fa-magnifying-glass text-black/25"></i>
-          </label>
-          <ul
-            class="options max-h-60 overflow-y-auto flex flex-wrap gap-2"
-          ></ul>
-          <div class="w-full text-center">
-            <label>
-              <input class="expander w-0 h-0 invisible" type="checkbox" />
-              <span class="uppercase text-blue-500 text-xs cursor-pointer"
-                >show more</span
-              >
+          <div class="flex justify-between items-center cursor-pointer">
+            <h3 class="uppercase">tasks</h3>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="body flex flex-col gap-3 overflow-hidden">
+            <label
+              class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+            >
+              <input
+                class="through focus:outline-none w-full py-1 bg-transparent"
+                type="text"
+                placeholder="Search through options"
+              />
+              <i class="fa-solid fa-magnifying-glass text-black/25"></i>
             </label>
+            <ul
+              class="options max-h-60 overflow-y-auto flex flex-wrap gap-2"
+            ></ul>
+            <div class="w-full text-center">
+              <label>
+                <input class="expander w-0 h-0 invisible" type="checkbox" />
+                <span class="uppercase text-blue-500 text-xs cursor-pointer"
+                  >show more</span
+                >
+              </label>
+            </div>
           </div>
         </section>
         <hr />
         <section id="Dialect" class="w-full flex flex-col gap-3">
-          <h3 class="uppercase">dialect</h3>
-          <label
-            class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
-          >
-            <input
-              class="through focus:outline-none w-full py-1 bg-transparent"
-              type="text"
-              placeholder="Search through options"
-            />
-            <i class="fa-solid fa-magnifying-glass text-black/25"></i>
-          </label>
-          <ul
-            class="options max-h-60 overflow-y-auto flex flex-wrap gap-2"
-          ></ul>
-          <div class="w-full text-center">
-            <label>
-              <input class="expander w-0 h-0 invisible" type="checkbox" />
-              <span class="uppercase text-blue-500 text-xs cursor-pointer"
-                >show more</span
-              >
+          <div class="flex justify-between items-center cursor-pointer">
+            <h3 class="uppercase">dialect</h3>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="body flex flex-col gap-3 overflow-hidden">
+            <label
+              class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+            >
+              <input
+                class="through focus:outline-none w-full py-1 bg-transparent"
+                type="text"
+                placeholder="Search through options"
+              />
+              <i class="fa-solid fa-magnifying-glass text-black/25"></i>
             </label>
+            <ul
+              class="options max-h-60 overflow-y-auto flex flex-wrap gap-2"
+            ></ul>
+            <div class="w-full text-center">
+              <label>
+                <input class="expander w-0 h-0 invisible" type="checkbox" />
+                <span class="uppercase text-blue-500 text-xs cursor-pointer"
+                  >show more</span
+                >
+              </label>
+            </div>
           </div>
         </section>
         <hr />
         <section id="Year" class="w-full flex flex-col gap-3">
-          <h3 class="uppercase">year</h3>
-          <div class="flex w-full gap-6 items-center">
-            <label
-              class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
-            >
-              <input
-                class="focus:outline-none w-full text-center py-1 bg-transparent"
-                type="number"
-                name="since"
-                placeholder="2000"
-              />
-            </label>
-            <span class="font-bold uppercase">to</span>
-            <label
-              class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
-            >
-              <input
-                class="focus:outline-none w-full text-center py-1 bg-transparent"
-                type="number"
-                name="afore"
-                placeholder="2022"
-              />
-            </label>
+          <div class="flex justify-between items-center cursor-pointer">
+            <h3 class="uppercase">Year</h3>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="body flex flex-col gap-3 overflow-hidden">
+            <div class="flex w-full gap-6 items-center">
+              <label
+                class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+              >
+                <input
+                  class="focus:outline-none w-full text-center py-1 bg-transparent"
+                  type="number"
+                  name="since"
+                  placeholder="2000"
+                />
+              </label>
+              <span class="font-bold uppercase">to</span>
+              <label
+                class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+              >
+                <input
+                  class="focus:outline-none w-full text-center py-1 bg-transparent"
+                  type="number"
+                  name="afore"
+                  placeholder="2022"
+                />
+              </label>
+            </div>
           </div>
         </section>
       </section>
