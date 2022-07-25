@@ -134,7 +134,13 @@ form.addEventListener("submit", (event) => {
           html += "<div class='flex justify-between gap-3'>";
           html += `<span class='font-bold capitalize text-gray-600 whitespace-nowrap'>${attribute}</span>`;
           html += `<span class='truncate'>${
-            element[attribute] != "nan" ? element[attribute] : "unknown"
+            attribute == "Cost"
+              ? element[attribute] != "nan"
+                ? element[attribute]
+                : "0$"
+              : element[attribute] != "nan"
+              ? element[attribute]
+              : "unknown"
           }</span>`;
           html += "</div>";
         }
