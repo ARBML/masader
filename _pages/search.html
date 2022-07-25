@@ -1,0 +1,164 @@
+---
+permalink: /search
+layout: default
+foot_scripts:
+  - https://pagination.js.org/dist/2.1.5/pagination.min.js
+  - /assets/js/search.js
+---
+
+<div class="px-4 mt-16">
+  <form id="form">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-y-5">
+      <section class="col-span-3 flex flex-col gap-3">
+        <button
+          id="reset"
+          type="button"
+          class="bg-red-500 px-4 py-2 text-white rounded font-medium w-full text-left"
+        >
+          Reset to default
+        </button>
+        <hr />
+        <section id="Tasks" class="w-full flex flex-col gap-3">
+          <div class="flex justify-between items-center cursor-pointer">
+            <h3 class="uppercase">tasks</h3>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="body flex flex-col gap-3 overflow-hidden">
+            <label
+              class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+            >
+              <input
+                class="through focus:outline-none w-full py-1 bg-transparent"
+                type="text"
+                placeholder="Search through options"
+              />
+              <i class="fa-solid fa-magnifying-glass text-black/25"></i>
+            </label>
+            <ul
+              class="options max-h-60 overflow-y-auto flex flex-wrap gap-2"
+            ></ul>
+            <div class="w-full text-center">
+              <label>
+                <input class="expander w-0 h-0 invisible" type="checkbox" />
+                <span class="uppercase text-blue-500 text-xs cursor-pointer"
+                  >show more</span
+                >
+              </label>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <section id="Dialect" class="w-full flex flex-col gap-3">
+          <div class="flex justify-between items-center cursor-pointer">
+            <h3 class="uppercase">dialect</h3>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="body flex flex-col gap-3 overflow-hidden">
+            <label
+              class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+            >
+              <input
+                class="through focus:outline-none w-full py-1 bg-transparent"
+                type="text"
+                placeholder="Search through options"
+              />
+              <i class="fa-solid fa-magnifying-glass text-black/25"></i>
+            </label>
+            <ul
+              class="options max-h-60 overflow-y-auto flex flex-wrap gap-2"
+            ></ul>
+            <div class="w-full text-center">
+              <label>
+                <input class="expander w-0 h-0 invisible" type="checkbox" />
+                <span class="uppercase text-blue-500 text-xs cursor-pointer"
+                  >show more</span
+                >
+              </label>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <section id="Year" class="w-full flex flex-col gap-3">
+          <div class="flex justify-between items-center cursor-pointer">
+            <h3 class="uppercase">Year</h3>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="body flex flex-col gap-3 overflow-hidden">
+            <div class="flex w-full gap-6 items-center">
+              <label
+                class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+              >
+                <input
+                  class="focus:outline-none w-full text-center py-1 bg-transparent"
+                  type="number"
+                  name="since"
+                  placeholder="2000"
+                />
+              </label>
+              <span class="font-bold uppercase">to</span>
+              <label
+                class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+              >
+                <input
+                  class="focus:outline-none w-full text-center py-1 bg-transparent"
+                  type="number"
+                  name="afore"
+                  placeholder="2022"
+                />
+              </label>
+            </div>
+          </div>
+        </section>
+      </section>
+      <div class="col-span-1"></div>
+      <section class="col-span-7 flex flex-col gap-3">
+        <label
+          class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center"
+        >
+          <input
+            class="focus:outline-none w-full py-2 bg-transparent"
+            type="text"
+            name="name"
+            placeholder="Search through datasets"
+          />
+          <i class="fa-solid fa-magnifying-glass text-black/25"></i>
+        </label>
+        <div class="flex items-center gap-3">
+          <h1 class="uppercase font-medium text-black/50">
+            Results of "<span
+              class="normal-case text-black/60 font-bold"
+              id="special"
+            >
+            </span
+            >"
+          </h1>
+          <svg
+            id="loader"
+            class="animate-spin -ml-1 mr-3 h-5 w-5 text-gray"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <circle
+              class="opacity-25"
+              cx="12"
+              cy="12"
+              r="10"
+              stroke="currentColor"
+              stroke-width="4"
+            ></circle>
+            <path
+              class="opacity-75"
+              fill="currentColor"
+              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+            ></path>
+          </svg>
+        </div>
+        <ul id="list-of-detail" class="flex flex-col gap-3"></ul>
+        <div id="pagination"></div>
+      </section>
+    </div>
+    <!-- a way around for safari to submit the form immediately -->
+    <button id="submit" class="invisible w-0 h-0">hidden</button>
+  </form>
+</div>
