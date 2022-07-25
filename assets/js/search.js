@@ -85,8 +85,9 @@ form.addEventListener("submit", (event) => {
   if (!name) queries.delete("name");
   else {
     queries.set("name", $("#form input[name='name']").val());
-    $("#special").text(name || "not provided".toUpperCase());
   }
+
+  $("#special").text(name || "not provided".toUpperCase());
 
   const url = new URL(window.location);
 
