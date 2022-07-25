@@ -72,7 +72,7 @@ const form = document.querySelector("#form");
 if (isProvided("name")) {
   const name = queries.get("name");
   $("#special").text(name);
-  $("#form input[name='name']").val(name);
+  $("input[name='name']").each((_, e) => $(e).val(name));
 } else {
   $("#special").text("not provided".toUpperCase());
 }
@@ -86,6 +86,8 @@ form.addEventListener("submit", (event) => {
   else {
     queries.set("name", $("#form input[name='name']").val());
   }
+
+  $("input[name='name']").each((_, e) => $(e).val(`${name}`));
 
   $("#special").text(name || "not provided".toUpperCase());
 
