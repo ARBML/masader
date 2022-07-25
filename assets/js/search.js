@@ -130,7 +130,8 @@ form.addEventListener("submit", (event) => {
         html +=
           "<div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-2'>";
         for (let attribute in element) {
-          if (attribute == "Id") continue;
+          if (["Id", "Ethical Risks", "Paper Link"].includes(attribute))
+            continue;
           html += "<div class='flex justify-between gap-3'>";
           html += `<span class='font-bold capitalize text-gray-600 whitespace-nowrap'>${attribute}</span>`;
           html += `<span class='truncate'>${
