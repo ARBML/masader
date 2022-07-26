@@ -2,6 +2,39 @@ const request = axios.create({
   baseURL: "https://masader-web-service.herokuapp.com",
 });
 
+function ethicalBadge(text) {
+  text = text.toLowerCase();
+  if (text == 'low') return '<span class="badge bg-success">Low</span>';
+  else if (text == 'medium')
+      return '<span class="badge bg-warning">Medium</span>';
+  else return '<span class="badge bg-danger text-light">High</span>';
+}
+
+function accessBadge(text) {
+  text = text.toString().toLowerCase();
+  if (text.toLowerCase() == 'free')
+      return '<span class="text-sm font-medium  px-2.5 py-0.5" style="background-color: #00800030; color:green; font-weight:bold; border-radius:5px">Free</span>';
+  else if (text == 'upon-request')
+      return '<span class="badge bg-info px-2.5 py-2">Free Upon Request</span>';
+  else return '<span class="badge bg-danger px-2.5 py-2">Paid</span>';
+}
+
+function setAttributes(attribute, element){
+
+  if (attribute == "Cost"){
+    if(element[attribute] != "nan") return element[attribute]
+    else return "0$"
+  }else if (attribute == "Access"){
+    return accessBadge(element[attribute])
+  }
+  else if (element[attribute] != "nan"){
+    return element[attribute]
+  }
+
+  return "unknown"
+  
+}
+
 const shove = {
   Tasks: [
     "machine translation",
@@ -140,25 +173,19 @@ form.addEventListener("submit", (event) => {
           html += "<div class='flex justify-between gap-3'>";
           html += `<span class='font-bold capitalize text-gray-600 whitespace-nowrap'>${attribute}</span>`;
           html += `<span class='truncate'>${
-            attribute == "Cost"
-              ? element[attribute] != "nan"
-                ? element[attribute]
-                : "0$"
-              : element[attribute] != "nan"
-              ? element[attribute]
-              : "unknown"
+            setAttributes(attribute, element)
           }</span>`;
           html += "</div>";
         }
         html += "</div>";
 
         html += "<div class='flex justify-between'>";
-        html += `<span class='capitalize font-bold'>${element["Ethical Risks"]} Ethical Risk</span>`;
+        html += `<span class='capitalize font-bold'> Ethical Risks ${ethicalBadge(element["Ethical Risks"])} </span>`;
         html += "<div/>";
 
         html += "<div class='gap-2 flex'>";
-        html += `<a class='capitalize font-bold' target='_blank' href='./card?id=${element["Id"]}'>details</a>`;
-        html += `<a target='_blank' href='${element["Paper Link"]}' class='capitalize font-bold'>paper link</a>`;
+        html += `<a class='capitalize font-bold text-primary' target='_blank' href='./card?id=${element["Id"]}'>details</a>`;
+        html += `<a class='capitalize font-bold text-primary' target='_blank' href='${element["Paper Link"]}'>paper link</a>`;
         html += "</div>";
 
         html += "</li>";
