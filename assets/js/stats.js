@@ -135,7 +135,6 @@ function groupedBar(canvas) {
 }
 
 function createChartContaier(title) {
-
   const container = document.createElement("div");
   container.id = `${title}-container`;
   container.classList.add('col-lg-6');
@@ -165,8 +164,10 @@ function createChartContaier(title) {
     createDialectVolumePieChart(getCountriesSubset(dialectedEntries), canvas);
   // else if (title === 'Dialects Groups')
   //   createDialectVolumePieChart(getDialectsSubset(dialectedEntries), canvas);
-  else
-    plotBar(title, canvas);
+  else if (title === 'Year')
+    plotBar(title, canvas, sorting = false, truncate = 30);
+  else 
+    plotBar(title, canvas)
 
   return container;
 
@@ -175,12 +176,12 @@ function createChartContaier(title) {
 Chart.defaults.plugins.labels = {
 };
 
-function plotBar(col, canvas, truncate = 20) {
+function plotBar(col, canvas, sorting = true,  truncate = 20) {
 
     let idx = headersWhiteList.indexOf(col);
     let series = getSeries(dataset, idx);
 
-    var [elements, counts] = getCounts(series);
+    var [elements, counts] = getCounts(series, sorting = sorting);
 
     elements = elements.slice(0, truncate);
     counts = counts.slice(0, truncate);
@@ -333,7 +334,6 @@ axios
             extractDilects({ index: i + 1, ...rowData[i] });
             dataset.push(record);
         }
-
         const chartsContainer = document.getElementById('chartsContainer');
         Object.keys(titles).forEach((t) => chartsContainer.appendChild(createChartContaier(t)));
         getCountriesSubset(dialectedEntries);
