@@ -14,11 +14,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+-   Added Search page [#123](https://github.com/ARBML/masader/pull/123) by [@unifoliatus](https://github.com/unifoliatus).
+-   Added license [#118](https://github.com/ARBML/masader/pull/118) by [@zaidalyafeai](https://github.com/zaidalyafeai)
+-   Added issue template 
 -   Added changelog page [#77](https://github.com/ARBML/masader/pull/77) by [@sudomaze](https://github.com/sudomaze).
--   Added issue templates for feature request, bug report, and dataset error report [#94](https://github.com/ARBML/masader/pull/94) by [@mazen147](https://github.com/mazen147) and [#92](https://github.com/ARBML/masader/pull/92) by [@sudomaze](https://github.com/sudomaze).
+-   Added issue templates for feature request, bug report, and dataset error report [#101](https://github.com/ARBML/masader/pull/101) by [@MutlaqAldhbuiub](https://github.com/MutlaqAldhbuiub), [#94](https://github.com/ARBML/masader/pull/94) by [@mazen147](https://github.com/mazen147) and [#92](https://github.com/ARBML/masader/pull/92) by [@sudomaze](https://github.com/sudomaze).
 
 ### Changed
 
+-   Improved stats page [#122](https://github.com/ARBML/masader/pull/122), [#119](https://github.com/ARBML/masader/pull/119) by [@zaidalyafeai](https://github.com/zaidalyafeai) and [#114](https://github.com/ARBML/masader/pull/114) by [@yousef337](https://github.com/yousef337). 
 -   Improved the layout template of the website [#81](https://github.com/ARBML/masader/pull/81) by [@unifoliatus](https://github.com/unifoliatus).
 -   Refactoring [#85](https://github.com/ARBML/masader/pull/85) by [@yousef337](https://github.com/yousef337).
 -   Updated `README` with web-service info [#87](https://github.com/ARBML/masader/pull/87) by [@zaidalyafeai](https://github.com/zaidalyafeai).

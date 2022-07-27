@@ -60,14 +60,23 @@ async function getDetails(id) {
 }
 
 async function getOGimage(url) {
-    return axios.get(url).then(response => {
-        let patren = /<meta property="og:image" content="(.*?)" \/>/g
-        for (const match of response.data.matchAll(patren)) {
-            return match[1]
-        }
-    }).catch(() => {
-        return "./assets/images/logo.png"
-    })
+    // return axios.get(url).then(response => {
+    //     let patren = /<meta property="og:image" content="(.*?)" \/>/g
+    //     for (const match of response.data.matchAll(patren)) {
+    //         return match[1]
+    //     }
+    // }).catch(() => {
+    //     return "./assets/images/logo.png"
+    // })
+
+    if (url.includes("github"))
+    {
+        let owner = url.split("/")
+        let preview = `https://opengraph.githubassets.com/1/${owner[3]}/${owner[4]}`
+        return preview
+    }
+    else
+    return "./assets/images/logo.png"
 }
 
 async function fomratDetails(data, index){
@@ -80,7 +89,7 @@ async function fomratDetails(data, index){
             '<div class="col-span-1">'+
                 // '<a class="text-center fs-3">'+ linkuize(data['Paper Title'], data['Paper Link'])+'</a>'+
                 // '<a href = "'+data['Link']+'" target="_blank" class="shorterText underline mx-4" style="width: 70%"> '+data['Link']+'</a>'+
-                '<a style="line-height: 9rem;" target="_blank" href="' + data['Link'] + '"><img style="border: solid 2px #f959595e;border-radius: 0.5rem;width: 70%;" class="shorterText underline mx-4" src="'+ image +'"/></a>'+
+                '<a style="line-height: 9rem;" target="_blank" href="' + data['Link'] + '"><img style="width: 70%;" class="shorterText underline mx-4" src="'+ image +'"/></a>'+
 
             '</div>'+
             '<div class="col-span-3 relative ">'+
@@ -293,7 +302,6 @@ axios
                     id = row.data()[1];
                     loader = $(".loading-spinner").html();
                     row.child(loader).show();
-                    // getOGimage("https://github.com/GU-CLASP/shami-corpus").then(response => )
                     getDetails(id).then(async (response) =>
                       row.child(await fomratDetails(response, id)).show()
                     );
