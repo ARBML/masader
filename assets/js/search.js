@@ -202,7 +202,7 @@ form.addEventListener("submit", (event) => {
 (() => {
   const queries = new URLSearchParams();
 
-  queries.set("features", ["Dialect", "Tasks"]);
+  queries.set("features", ["Dialect", "Tasks", "Access", "License"]);
 
   request
     .get(`datasets/tags?${queries}`)
