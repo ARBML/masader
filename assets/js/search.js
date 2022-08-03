@@ -140,9 +140,11 @@ form.addEventListener("submit", (event) => {
           ...(isProvided("name")
             ? [`Name.str.contains('(?i)${queries.get("name")}')`]
             : []),
+          ...(isProvided("dialect") ? [`Dialect.str.contains('(?i)${queries.get("dialect")}')`] : []),
+          ...(isProvided("license") ? [`License.str.contains('(?i)${queries.get("license")}')`] : []),
+          ...(isProvided("access") ? [`Access.str.contains('(?i)${queries.get("access")}')`] : []),
           ...(isProvided("since") ? [`Year > ${queries.get("since")}`] : []),
           ...(isProvided("afore") ? [`Year < ${queries.get("afore")}`] : []),
-
           ...(listOfToggable.size > 0
             ? Array.from(listOfToggable.values())
                 .filter((e) => $(e).children("input")[0].checked)
@@ -152,7 +154,6 @@ form.addEventListener("submit", (event) => {
         ].join(" and "),
         features: entries,
       });
-
       request
         .get(`/datasets?${parameter}`)
         .then((response) => response.data)
