@@ -60,6 +60,7 @@ const shove = {
 
 const entries = [
   "Name",
+  "Link",
   "Test Split",
   "Cost",
   "Host",
@@ -164,12 +165,12 @@ form.addEventListener("submit", (event) => {
 
       for (let element of data) {
         html += "<li class='flex flex-col gap-3' >";
-        html += `<h3 class='font-bold text-lg'>${element.Name}</h3>`;
+        html += `<a class='font-bold text-primary' target='_blank' href="${element["Link"]}">${element["Name"]}</a>`;
 
         html +=
           "<div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-2'>";
         for (let attribute in element) {
-          if (["Id", "Ethical Risks", "Paper Link"].includes(attribute))
+          if (["Id", "Ethical Risks", "Paper Link", "Link"].includes(attribute))
             continue;
           html += "<div class='flex justify-between gap-3'>";
           html += `<span class='font-bold capitalize text-gray-600 whitespace-nowrap'>${attribute}</span>`;
