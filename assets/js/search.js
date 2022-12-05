@@ -1,38 +1,38 @@
 const request = axios.create({
-  baseURL: "https://masader-web-service.herokuapp.com",
+  baseURL: "https://arbml.github.io/masader-webservice",
 });
 
 function ethicalBadge(text) {
   text = text.toLowerCase();
   if (text == 'low') return '<span class="badge bg-success">Low</span>';
   else if (text == 'medium')
-      return '<span class="badge bg-warning">Medium</span>';
+    return '<span class="badge bg-warning">Medium</span>';
   else return '<span class="badge bg-danger text-light">High</span>';
 }
 
 function accessBadge(text) {
   text = text.toString().toLowerCase();
   if (text.toLowerCase() == 'free')
-      return '<span class="text-sm font-medium  px-2.5 py-0.5" style="background-color: #00800030; color:green; font-weight:bold; border-radius:5px">Free</span>';
+    return '<span class="text-sm font-medium  px-2.5 py-0.5" style="background-color: #00800030; color:green; font-weight:bold; border-radius:5px">Free</span>';
   else if (text == 'upon-request')
-      return '<span class="badge bg-info px-2.5 py-2">Free Upon Request</span>';
+    return '<span class="badge bg-info px-2.5 py-2">Free Upon Request</span>';
   else return '<span class="badge bg-danger px-2.5 py-2">Paid</span>';
 }
 
-function setAttributes(attribute, element){
+function setAttributes(attribute, element) {
 
-  if (attribute == "Cost"){
-    if(element[attribute] != "nan") return element[attribute]
+  if (attribute == "Cost") {
+    if (element[attribute] != "nan") return element[attribute]
     else return "0$"
-  }else if (attribute == "Access"){
+  } else if (attribute == "Access") {
     return accessBadge(element[attribute])
   }
-  else if (element[attribute] != "nan"){
+  else if (element[attribute] != "nan") {
     return element[attribute]
   }
 
   return "unknown"
-  
+
 }
 
 const shove = {
@@ -148,9 +148,9 @@ form.addEventListener("submit", (event) => {
           ...(isProvided("afore") ? [`Year < ${queries.get("afore")}`] : []),
           ...(listOfToggable.size > 0
             ? Array.from(listOfToggable.values())
-                .filter((e) => $(e).children("input")[0].checked)
-                .map((e) => $(e).children("input")[0])
-                .map((e) => `${e.name}.str.contains('${e.value}')`)
+              .filter((e) => $(e).children("input")[0].checked)
+              .map((e) => $(e).children("input")[0])
+              .map((e) => `${e.name}.str.contains('${e.value}')`)
             : []),
         ].join(" and "),
         features: entries,
@@ -169,19 +169,18 @@ form.addEventListener("submit", (event) => {
 
         html +=
           "<div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-2'>";
-        
+
         html += "<div class='flex justify-between gap-3'>";
         html += `<span class='font-bold capitalize text-gray-600 whitespace-nowrap'>ID</span>`;
         html += `<span class='truncate'>${element.Id}</span>`;
-          html += "</div>";
+        html += "</div>";
         for (let attribute in element) {
           if (["Id", "Ethical Risks", "Paper Link", "Link", "Name"].includes(attribute))
             continue;
           html += "<div class='flex justify-between gap-3'>";
           html += `<span class='font-bold capitalize text-gray-600 whitespace-nowrap'>${attribute}</span>`;
-          html += `<span class='truncate'>${
-            setAttributes(attribute, element)
-          }</span>`;
+          html += `<span class='truncate'>${setAttributes(attribute, element)
+            }</span>`;
           html += "</div>";
         }
         html += "</div>";

@@ -1,6 +1,6 @@
-var url = "https://masader-web-service.herokuapp.com/datasets";
+var url = "https://arbml.github.io/masader-webservice/datasets";
 var urlEmbClus =
-  "https://masader-web-service.herokuapp.com/datasets?features=Cluster,Embeddings";
+  "https://arbml.github.io/masader-webservice/datasets?features=Cluster,Embeddings";
 
 function reformat_numbers(num) {
   if (num === undefined) return "";
@@ -67,15 +67,15 @@ function createHtml(i) {
 }
 
 const reteriveClustersEmbeddings = async () => {
-    return await axios.get(urlEmbClus).then(function (response) {
-        info = { embeddings: [], clusters: [] };
-        response.data.forEach((r) => {
-            info.embeddings.push(r.Embeddings);
-            info.clusters.push(r.Cluster);
-        });
-        return info;
+  return await axios.get(urlEmbClus).then(function (response) {
+    info = { embeddings: [], clusters: [] };
+    response.data.forEach((r) => {
+      info.embeddings.push(r.Embeddings);
+      info.clusters.push(r.Cluster);
     });
     return info;
+  });
+  return info;
 };
 
 axios
@@ -199,7 +199,7 @@ axios
       .attr("r", function (_, i, n) {
         let vol_index = headersWhiteList.indexOf("Volume");
         try {
-          let volume = parseInt(dataset[i][vol_index].replaceAll(",", ""))+1;
+          let volume = parseInt(dataset[i][vol_index].replaceAll(",", "")) + 1;
           if (isNaN(volume)) {
             return 10;
           } else return Math.log(volume);

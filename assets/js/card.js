@@ -1,6 +1,6 @@
-let url = 'https://masader-web-service.herokuapp.com/datasets/';
+let url = 'https://arbml.github.io/masader-webservice/datasets/';
 
-function recaptchaChange(){
+function recaptchaChange() {
     let recaptcha_box_checked = (grecaptcha.getResponse()) ? true : false;
     if (recaptcha_box_checked) document.getElementById("grecaptcha-submit").disabled = false;
     else document.getElementById("grecaptcha-submit").disabled = true;
@@ -64,7 +64,7 @@ async function onSendReportBtnClicked() {
         tata.success(
             'Issues opend succesfully',
             `Track at ${responseData['issue_url']}`,
-            {duration: 15000}
+            { duration: 15000 }
         );
     } else {
         tata.error(
