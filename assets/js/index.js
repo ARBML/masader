@@ -1,5 +1,5 @@
-const url = 'https://arbml.github.io/masader-webservice/datasets';
-const contributers_url = 'https://arbml.github.io/masader-webservice/datasets/tags?features=Added By'
+const url = 'https://web-production-25a2.up.railway.app/datasets';
+const contributers_url = 'https://web-production-25a2.up.railway.app/datasets/tags?features=Added By'
 
 function linkuize(text, link, short = true) {
     if (link != undefined && link != 'nan')

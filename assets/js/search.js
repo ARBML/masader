@@ -1,5 +1,5 @@
 const request = axios.create({
-  baseURL: "https://arbml.github.io/masader-webservice",
+  baseURL: "https://web-production-25a2.up.railway.app",
 });
 
 function ethicalBadge(text) {

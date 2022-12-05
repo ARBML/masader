@@ -1,4 +1,4 @@
-var url = 'https://arbml.github.io/masader-webservice/datasets';
+var url = 'https://web-production-25a2.up.railway.app/datasets';
 
 let headersWhiteList;
 let dataset;

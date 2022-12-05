@@ -1,6 +1,6 @@
-var url = "https://arbml.github.io/masader-webservice/datasets";
+var url = "https://web-production-25a2.up.railway.app/datasets";
 var urlEmbClus =
-  "https://arbml.github.io/masader-webservice/datasets?features=Cluster,Embeddings";
+  "https://web-production-25a2.up.railway.app/datasets?features=Cluster,Embeddings";
 
 function reformat_numbers(num) {
   if (num === undefined) return "";
