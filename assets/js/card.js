@@ -139,7 +139,8 @@ axios
                 value = ethicalBadge(value); // calling "ethicalBadge" function to put some style to the value
             } else if (
                 element.title == 'Link' ||
-                element.title == 'Paper Link'
+                element.title == 'Paper Link' ||
+                element.title == 'HF Link'
             ) {
                 value = linkuize(value, value);
             } else if (element.title == 'Subsets') {
