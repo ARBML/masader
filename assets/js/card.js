@@ -85,6 +85,8 @@ axios
         let headersWhiteList = [
             'Name',
             'Link',
+            'HF Link',
+            'Description',
             'Year',
             'Volume',
             'Unit',
