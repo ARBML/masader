@@ -104,7 +104,7 @@ const listOfToggable = new Set();
 const form = document.querySelector("#form");
 
 if (isProvided("name")) {
-  const name = queries.get("name");
+  const name = queries.get("name").trim();
   $("#special").text(name);
   $("input[name='name']").each((_, e) => $(e).val(name));
 } else {
@@ -139,7 +139,7 @@ form.addEventListener("submit", (event) => {
       const parameter = new URLSearchParams({
         query: [
           ...(isProvided("name")
-            ? [`Name.str.contains('(?i)${queries.get("name")}')`]
+            ? [`Name.str.contains('(?i)${queries.get("name").trim()}')`]
             : []),
           ...(isProvided("dialect") ? [`Dialect.str.contains('(?i)${queries.get("dialect")}')`] : []),
           ...(isProvided("license") ? [`License.str.contains('(?i)${queries.get("license")}')`] : []),
