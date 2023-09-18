@@ -187,6 +187,12 @@ async function getContributersNum() {
     }
 }
 
+function setRandomDataset(rows) {
+    const ridx = Math.random() * rows.length | 0;
+    const row = rows[ridx]
+    document.getElementById('rdataset').innerHTML = linkuize(row['Name'], `card?id=${ridx}`, false)
+}
+
 axios
     .get(url, {
         onDownloadProgress: (progressEvent) => { },
@@ -223,7 +229,7 @@ axios
         // console.log(headers[headers.length - 1].className = "rounded-tr-lg ")
         let rows = response.data;
         // console.log(headers);
-
+        setRandomDataset(rows);
         //  Createing table data
         let dataset = [];
         for (let index = 0; index < rows.length; index++) {
@@ -257,8 +263,10 @@ axios
 
         $(document).ready(function () {
             document.getElementById('numDatasets').textContent = dataset.length;
+
             getContributersNum().then(res =>
                 document.getElementById('numContributers').textContent = res)
+
             let table = $('#table').DataTable({
                 data: dataset,
                 columns: headers,
