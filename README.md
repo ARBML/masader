@@ -144,6 +144,7 @@ To contribute to the project development, please visit [contributing instruction
 Masader was developed in 2021 as part of the [BigScience project for open research 🌸](https://bigscience.huggingface.co/), a year-long initiative targeting the study of large langauge models and datasets. In 2022, Masader was furthere developed by the arbml team and community. 
 
 ## Citation
+If you use Masader in research please cite the following papers. 
 
 ```
 @misc{alyafeai2021masader,
@@ -153,5 +154,12 @@ Masader was developed in 2021 as part of the [BigScience project for open resear
       eprint={2110.06744},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
+}
+
+@article{altaher2022masader,
+      title={Masader Plus: A New Interface for Exploring+ 500 Arabic NLP Datasets},
+      author={Altaher, Yousef and Fadel, Ali and Alotaibi, Mazen and Alyazidi, and others},
+      journal={arXiv preprint arXiv:2208.00932},
+      year={2022}
 }
 ```
