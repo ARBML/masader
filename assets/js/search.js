@@ -139,7 +139,7 @@ form.addEventListener("submit", (event) => {
       const parameter = new URLSearchParams({
         query: [
           ...(isProvided("name")
-            ? [`Name.str.contains('(?i)${queries.get("name")}')`]
+            ? [`Name.str.contains('(?i)${queries.get("name").trim()}')`]
             : []),
           ...(isProvided("dialect") ? [`Dialect.str.contains('(?i)${queries.get("dialect")}')`] : []),
           ...(isProvided("license") ? [`License.str.contains('(?i)${queries.get("license")}')`] : []),
