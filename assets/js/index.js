@@ -190,7 +190,7 @@ async function getContributersNum() {
 function setRandomDataset(rows) {
     const ridx = Math.random() * rows.length | 0;
     const row = rows[ridx]
-    document.getElementById('rdataset').innerHTML = linkuize(row['Name'], `card?id=${ridx}`, false)
+    document.getElementById('rdataset').innerHTML = linkuize(row['Name'], `card?id=${ridx + 1}`, false)
 }
 
 axios
