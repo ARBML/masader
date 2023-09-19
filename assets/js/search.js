@@ -104,7 +104,7 @@ const listOfToggable = new Set();
 const form = document.querySelector("#form");
 
 if (isProvided("name")) {
-  const name = queries.get("name");
+  const name = queries.get("name").trim();
   $("#special").text(name);
   $("input[name='name']").each((_, e) => $(e).val(name));
 } else {
