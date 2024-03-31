@@ -113,7 +113,6 @@ if (isProvided("name")) {
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-
   $("#loader").removeClass("hidden");
 
   const name = $("#form input[name='name']").val();
@@ -143,6 +142,7 @@ form.addEventListener("submit", (event) => {
             : []),
           ...(isProvided("dialect") ? [`Dialect.str.contains('(?i)${queries.get("dialect")}')`] : []),
           ...(isProvided("license") ? [`License.str.contains('(?i)${queries.get("license")}')`] : []),
+          ...(isProvided("host") ? [`Host.str.contains('(?i)${queries.get("host")}')`] : []),
           ...(isProvided("access") ? [`Access.str.contains('(?i)${queries.get("access")}')`] : []),
           ...(isProvided("since") ? [`Year > ${queries.get("since")}`] : []),
           ...(isProvided("afore") ? [`Year < ${queries.get("afore")}`] : []),
@@ -162,7 +162,8 @@ form.addEventListener("submit", (event) => {
     },
     callback: (data) => {
       let html = "";
-
+      total = data.length
+      $("#special").text(total + " RESULTS");
       for (let element of data) {
         html += "<li class='flex flex-col gap-3' >";
         html += `<a class='font-bold text-primary' target='_blank' href="${element["Link"]}">${element["Name"]}</a>`;
@@ -208,7 +209,7 @@ form.addEventListener("submit", (event) => {
 (() => {
   const queries = new URLSearchParams();
 
-  queries.set("features", ["Dialect", "Tasks", "Access", "License"]);
+  queries.set("features", ["Dialect", "Tasks", "Access", "License", "Host"]);
 
   request
     .get(`datasets/tags?${queries}`)
