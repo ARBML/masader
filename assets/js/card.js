@@ -139,10 +139,20 @@ axios
                 value = ethicalBadge(value); // calling "ethicalBadge" function to put some style to the value
             } else if (
                 element.title == 'Link' ||
-                element.title == 'Paper Link' ||
-                element.title == 'HF Link'
+                element.title == 'Paper Link'
             ) {
                 value = linkuize(value, value);
+            } else if (
+                element.title == 'HF Link'
+            ) {
+                if (value.includes(',')) {
+                    hf_links = value.split(',')
+                    value = ""
+                    for (i = 0; i < hf_links.length; i++) {
+                        value += '</br>' + linkuize(hf_links[i], hf_links[i]);
+                    }
+                } else
+                    value = linkuize(value, value);
             } else if (element.title == 'Subsets') {
                 if (row[element.title] != 'nan') {
                     let subsets = row[element.title];

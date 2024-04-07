@@ -238,7 +238,14 @@ axios
             if (host == 'other') host = "External Link"
             let link_host = linkuize(host, row['Link']);
             if (row['HF Link'] != 'nan') {
-                link_host += '</br>' + linkuize(getIcon('hf'), row['HF Link']);
+                if (row['HF Link'].includes(',')) {
+                    hf_links = row['HF Link'].split(',')
+                    for (i = 0; i < hf_links.length; i++) {
+                        link_host += '</br>' + linkuize(getIcon('hf'), hf_links[i]);
+                    }
+                }
+                else
+                    link_host += '</br>' + linkuize(getIcon('hf'), row['HF Link']);
             }
             dataset.push({
                 0: index + 1,
