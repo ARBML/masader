@@ -149,7 +149,9 @@ axios
                     hf_links = value.split(',')
                     value = ""
                     for (i = 0; i < hf_links.length; i++) {
-                        value += '</br>' + linkuize(hf_links[i], hf_links[i]);
+                        value += linkuize(hf_links[i], hf_links[i]);
+                        if (i < hf_links.length - 1)
+                            value += '</br>'
                     }
                 } else
                     value = linkuize(value, value);

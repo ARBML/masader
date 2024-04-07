@@ -241,7 +241,9 @@ axios
                 if (row['HF Link'].includes(',')) {
                     hf_links = row['HF Link'].split(',')
                     for (i = 0; i < hf_links.length; i++) {
-                        link_host += '</br>' + linkuize(getIcon('hf'), hf_links[i]);
+                        link_host += linkuize(getIcon('hf'), hf_links[i]);
+                        if (i < hf_links.length - 1)
+                            link_host += '</br>'
                     }
                 }
                 else
