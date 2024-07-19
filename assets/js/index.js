@@ -78,6 +78,13 @@ async function getOGimage(url) {
         return "./assets/images/logo.png"
 }
 
+function create_hf_viewer(hf_link){
+    if (hf_link.toString() == 'nan')
+        return ''
+    else
+        return `<iframe src="${hf_link}/embed/viewer" frameborder="0" width="100%" height="560px"></iframe>`
+}
+
 async function fomratDetails(data, index) {
     // console.log(data, "s")
     await getOGimage(data['Link']).then(res => {
@@ -170,6 +177,8 @@ async function fomratDetails(data, index) {
         '<a href="' + `card?id=${index}` + '" class="underline font-normal">Details</a>' +
         '<a href="' + data["Paper Link"] + '" target="_blank" class="underline font-normal">Paper</a>' +
         '</div>' +
+        create_hf_viewer(data['HF Link'])+
+
         '</div>'
     // })
 }
