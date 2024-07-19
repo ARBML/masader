@@ -78,11 +78,24 @@ async function getOGimage(url) {
         return "./assets/images/logo.png"
 }
 
-function create_hf_viewer(hf_link){
+async function getViewer(dataset_name) {
+    console.log(dataset_name)
+    console.log(`https://datasets-server.huggingface.co/is-valid?dataset=${dataset_name}`)
+    return axios.get(`https://datasets-server.huggingface.co/is-valid?dataset=${dataset_name}`).then(response => response.data)
+}
+
+async function create_hf_viewer(hf_link){
+    
     if (hf_link.toString() == 'nan')
         return ''
     else
-        return `<iframe src="${hf_link}/embed/viewer" frameborder="0" width="100%" height="560px"></iframe>`
+        var dataset_name = hf_link.split('datasets/')[1]
+        var viewer = await getViewer(dataset_name)
+        if (viewer['viewer']){
+            return `<iframe src="${hf_link}/embed/viewer" frameborder="0" width="100%" height="560px"></iframe>`
+        }
+        else
+            return ''
 }
 
 async function fomratDetails(data, index) {
@@ -177,7 +190,7 @@ async function fomratDetails(data, index) {
         '<a href="' + `card?id=${index}` + '" class="underline font-normal">Details</a>' +
         '<a href="' + data["Paper Link"] + '" target="_blank" class="underline font-normal">Paper</a>' +
         '</div>' +
-        create_hf_viewer(data['HF Link'])+
+        await create_hf_viewer(data['HF Link'])+
 
         '</div>'
     // })
