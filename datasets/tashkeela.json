@@ -1,0 +1,55 @@
+{
+    "Name": "Tashkeela",
+    "Subsets": [
+        {
+            "Name": "Classical Arabic",
+            "Dialect": "ar-CLS: (Arabic (Classic))",
+            "Volume": "74,762,008",
+            "Unit": "tokens"
+        },
+        {
+            "Name": "Modern Standard Arabic",
+            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Volume": "867,913",
+            "Unit": "tokens"
+        },
+        {
+            "Name": "Manual",
+            "Dialect": "mixed",
+            "Volume": "7,701",
+            "Unit": "tokens"
+        }
+    ],
+    "HF Link": "https://hf.co/datasets/community-datasets/tashkeela",
+    "Link": "https://sourceforge.net/projects/tashkeela/",
+    "License": "GPL-2.0",
+    "Year": 2017,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": "books",
+    "Form": "text",
+    "Collection Style": "crawling",
+    "Description": "Arabic discritization Corpus, Resource, Arabic vocalized texts",
+    "Volume": "75,629,921",
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": "ESI",
+    "Derived From": "nan",
+    "Paper Title": "Tashkeela: Novel corpus of Arabic vocalized texts, data for auto-diacritization systems",
+    "Paper Link": "https://www.sciencedirect.com/science/article/pii/S2352340917300112",
+    "Script": "Arab",
+    "Tokenized": "No",
+    "Host": "sourceforge",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "No",
+    "Tasks": "diacritization",
+    "Venue Title": "Data in brief",
+    "Citations": "46.0",
+    "Venue Type": "journal",
+    "Venue Name": "Data in brief",
+    "Authors": "Taha Zerrouki,Amar Balla",
+    "Affiliations": ",",
+    "Abstract": "Arabic diacritics are often missed in Arabic scripts. This feature is a handicap for new learner to read \u064eArabic, text to speech conversion systems, reading and semantic analysis of Arabic texts. The automatic diacritization systems are the best solution to handle this issue. But such automation needs resources as diactritized texts to train and evaluate such systems. In this paper, we describe our corpus of Arabic diacritized texts. This corpus is called Tashkeela. It can be used as a linguistic resource tool for natural language processing such as automatic diacritics systems, dis-ambiguity mechanism, features and data extraction. The corpus is freely available, it contains 75 million of fully vocalized words mainly 97 books from classical and modern Arabic language. The corpus is collected from manually vocalized texts using web crawling process.",
+    "Added By": "nan"
+}

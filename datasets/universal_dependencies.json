@@ -1,0 +1,55 @@
+{
+    "Name": "Universal Dependencies",
+    "Subsets": [
+        {
+            "Name": "ar_nyuad",
+            "Dialect": "nan",
+            "Volume": "738,889",
+            "Unit": "tokens"
+        },
+        {
+            "Name": "ar_padt",
+            "Dialect": "nan",
+            "Volume": "282,384",
+            "Unit": "tokens"
+        },
+        {
+            "Name": "ar_pud",
+            "Dialect": "nan",
+            "Volume": "20,751",
+            "Unit": "tokens"
+        }
+    ],
+    "HF Link": "https://hf.co/datasets/universal_dependencies",
+    "Link": "https://github.com/UniversalDependencies",
+    "License": "unknown",
+    "Year": 2020,
+    "Language": "ar",
+    "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+    "Domain": "other",
+    "Form": "text",
+    "Collection Style": "other",
+    "Description": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages.",
+    "Volume": "1,042,000",
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": "Universal Dependencies(UD)",
+    "Derived From": "UDP (UDP-NYUAD), PADT, PUD",
+    "Paper Title": "nan",
+    "Paper Link": "nan",
+    "Script": "Arab",
+    "Tokenized": "Yes",
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "Yes",
+    "Tasks": "part of speech tagging, morphological features, syntactic dependencies",
+    "Venue Title": "nan",
+    "Citations": "nan",
+    "Venue Type": "nan",
+    "Venue Name": "nan",
+    "Authors": "nan",
+    "Affiliations": "nan",
+    "Abstract": "nan",
+    "Added By": "Zaid Alyafeai"
+}

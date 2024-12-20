@@ -1,0 +1,61 @@
+{
+    "Name": "Arabic POS Dialect",
+    "Subsets": [
+        {
+            "Name": "Egyptian",
+            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Volume": "350",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Levantine",
+            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Volume": "350",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Gulf",
+            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Volume": "350",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Maghrebi",
+            "Dialect": "ar-MA: (Arabic (Morocco))",
+            "Volume": "350",
+            "Unit": "sentences"
+        }
+    ],
+    "HF Link": "https://hf.co/datasets/QCRI/arabic_pos_dialect",
+    "Link": "https://github.com/qcri/dialectal_arabic_resources",
+    "License": "unknown",
+    "Year": 2018,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": "social media",
+    "Form": "text",
+    "Collection Style": "crawling and annotation(other)",
+    "Description": "includes tweets in Egyptian, Levantine, Gulf, and Maghrebi, with 350 tweets for each dialect with appropriate train/test/development splits for 5-fold cross validation",
+    "Volume": "1,400",
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": "QCRI",
+    "Derived From": "nan",
+    "Paper Title": "Multi-Dialect Arabic POS Tagging: A CRF Approach\r",
+    "Paper Link": "https://aclanthology.org/L18-1015.pdf",
+    "Script": "Arab",
+    "Tokenized": "Yes",
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "No",
+    "Tasks": "part of speech tagging",
+    "Venue Title": "LREC",
+    "Citations": "17.0",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": "Kareem Darwish,Hamdy Mubarak,Ahmed Abdelali,M. Eldesouki,Younes Samih,Randah Alharbi,Mohammed Attia,Walid Magdy,Laura Kallmeyer",
+    "Affiliations": ",,,,University Of D\u00fcsseldorf;Computational Linguistics,,,The University of Edinburgh,",
+    "Abstract": "This paper introduces a new dataset of POS-tagged Arabic tweets in four major dialects along with tagging guidelines. The data, which we are releasing publicly, includes tweets in Egyptian, Levantine, Gulf, and Maghrebi, with 350 tweets for each dialect with appropriate train/test/development splits for 5-fold cross validation. We use a Conditional Random Fields (CRF) sequence labeler to train POS taggers for each dialect and examine the effect of cross and joint dialect training, and give benchmark results for the datasets. Using clitic n-grams, clitic metatypes, and stem templates as features, we were able to train a joint model that can correctly tag four different dialects with an average accuracy of 89.3%.",
+    "Added By": "nan"
+}

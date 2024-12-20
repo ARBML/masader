@@ -1,0 +1,49 @@
+{
+    "Name": "WikiDocsAligner Dataset",
+    "Subsets": [
+        {
+            "Name": "Arabic",
+            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Volume": "10,197",
+            "Unit": "documents"
+        },
+        {
+            "Name": "Egyptian",
+            "Dialect": "ar-EGY: (Arabic (Egypt))",
+            "Volume": "10,197",
+            "Unit": "documents"
+        }
+    ],
+    "HF Link": "nan",
+    "Link": "https://github.com/motazsaad/egy-arb-dialect-id",
+    "License": "CC BY-SA 4.0",
+    "Year": 2017,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": "wikipedia",
+    "Form": "text",
+    "Collection Style": "manual curation",
+    "Description": "WikiDocsAligner is a tool designed to align Wikipedia articles from different languages, creating comparable corpora. It can align documents between language pairs, including Arabic and its dialects. The tool uses Wikipedia dumps and interlanguage links to perform document alignment.",
+    "Volume": "20,394",
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": "Islamic University of Gaza",
+    "Derived From": "Wikipedia",
+    "Paper Title": "WikiDocsAligner: an off-the-shelf Wikipedia Documents Alignment Tool",
+    "Paper Link": "https://doi.org/10.1109/PICICT.2017.27",
+    "Script": "Arab-Latn",
+    "Tokenized": "No",
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "No",
+    "Tasks": "cross-lingual information retrieval, document alignment, bilingual lexicon extraction, comparable corpus construction",
+    "Venue Title": "IPICICT",
+    "Citations": "nan",
+    "Venue Type": "conference",
+    "Venue Name": "Palestinian International Conference on Information and Communication Technology",
+    "Authors": "Motaz Saad, Basem O. Alijla",
+    "Affiliations": "Islamic University of Gaza",
+    "Abstract": " WikiDocsAligner is an off-the-shelf tool designed to align Wikipedia documents in different languages. The tool makes it easier for researchers to produce comparable corpora without the need for custom scripts. It was applied to align comparable articles between Standard Arabic Wikipedia and Egyptian Wikipedia, highlighting Wikipedia as a valuable resource for Arabic dialect corpora.",
+    "Added By": "Maryam Al Emadi"
+}

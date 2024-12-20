@@ -1,0 +1,43 @@
+{
+    "Name": "ANS CORPUS:  claim verification",
+    "Subsets": [
+        {
+            "Name": "nan",
+            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Volume": "3,786",
+            "Unit": "sentences"
+        }
+    ],
+    "HF Link": "https://hf.co/datasets/arbml/ANS_stance",
+    "Link": "https://github.com/latynt/ans",
+    "License": "Apache-2.0",
+    "Year": 2020,
+    "Language": "ar",
+    "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+    "Domain": "news articles",
+    "Form": "text",
+    "Collection Style": "crawling and annotation(other)",
+    "Description": "corpus comes in two perspectives: a version consisting of 4,547 true and false claims and a version consisting of 3,786 pairs (claim, evidence).",
+    "Volume": "4,547",
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": "Latynt",
+    "Derived From": "nan",
+    "Paper Title": "Stance Prediction and Claim Verification: An Arabic Perspective",
+    "Paper Link": "https://arxiv.org/pdf/2005.10410.pdf",
+    "Script": "Arab",
+    "Tokenized": "No",
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "Yes",
+    "Tasks": "stance detection, claim verification",
+    "Venue Title": "FEVER",
+    "Citations": "8.0",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Fact Extraction and Verification",
+    "Authors": "Jude Khouja",
+    "Affiliations": "nan",
+    "Abstract": "This work explores the application of textual entailment in news claim verification and stance prediction using a new corpus in Arabic. The publicly available corpus comes in two perspectives: a version consisting of 4,547 true and false claims and a version consisting of 3,786 pairs (claim, evidence). We describe the methodology for creating the corpus and the annotation process. Using the introduced corpus, we also develop two machine learning baselines for two proposed tasks: claim verification and stance prediction. Our best model utilizes pretraining (BERT) and achieves 76.7 F1 on the stance prediction task and 64.3 F1 on the claim verification task. Our preliminary experiments shed some light on the limits of automatic claim verification that relies on claims text only. Results hint that while the linguistic features and world knowledge learned during pretraining are useful for stance prediction, such learned representations from pretraining are insufficient for verifying claims without access to context or evidence.",
+    "Added By": "Mustafa Ghaleb"
+}

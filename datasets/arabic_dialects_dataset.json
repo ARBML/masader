@@ -1,0 +1,67 @@
+{
+    "Name": "Arabic Dialects Dataset",
+    "Subsets": [
+        {
+            "Name": "GLF",
+            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Volume": "2,546",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "LAV",
+            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Volume": "2,463",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "MSA",
+            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Volume": "3,731",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "NOR",
+            "Dialect": "ar-NOR: (Arabic (North Africa))",
+            "Volume": "3,693",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "EGY",
+            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Volume": "4,061",
+            "Unit": "sentences"
+        }
+    ],
+    "HF Link": "https://hf.co/datasets/arbml/Arabic_Dialects_Dataset",
+    "Link": "https://www.lancaster.ac.uk/staff/elhaj/corpora.html",
+    "License": "unknown",
+    "Year": 2018,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": "other",
+    "Form": "text",
+    "Collection Style": "crawling and annotation(other)",
+    "Description": "Dataset of Arabic dialects for GULF, EGYPT, LEVANT, TONESIAN Arabic dialects in addition to MSA.",
+    "Volume": "16,494",
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": "Lancaster University",
+    "Derived From": "OAC",
+    "Paper Title": "Arabic Dialect Identification in the Context of Bivalency and Code-Switching\r",
+    "Paper Link": "https://aclanthology.org/L18-1573.pdf",
+    "Script": "Arab",
+    "Tokenized": "No",
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "No",
+    "Tasks": "dialect identification",
+    "Venue Title": "LREC",
+    "Citations": "17.0",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": "Mahmoud El-Haj,Paul Rayson,Mariam Aboelezz",
+    "Affiliations": "Lancaster University,Lancaster University,",
+    "Abstract": "In this paper we use a novel approach towards Arabic dialect identification using language bivalency and written code-switching. Bivalency between languages or dialects is where a word or element is treated by language users as having a fundamentally similar semantic content in more than one language or dialect. Arabic dialect identification in writing is a difficult task even for humans due to the fact that words are used interchangeably between dialects. The task of automatically identifying dialect is harder and classifiers trained using only n-grams will perform poorly when tested on unseen data. Such approaches require significant amounts of annotated training data which is costly and time consuming to produce. Currently available Arabic dialect datasets do not exceed a few hundred thousand sentences, thus we need to extract features other than word and character n-grams. In our work we present experimental results from automatically identifying dialects from the four main Arabic dialect regions (Egypt, North Africa, Gulf and Levant) in addition to Standard Arabic. We extend previous work by incorporating additional grammatical and stylistic features and define a subtractive bivalency profiling approach to address issues of bivalent words across the examined Arabic dialects. The results show that our new methods classification accuracy can reach more than 76% and score well (66%) when tested on completely unseen data.",
+    "Added By": "nan"
+}

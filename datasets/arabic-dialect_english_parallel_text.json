@@ -1,0 +1,43 @@
+{
+    "Name": "Arabic-Dialect/English Parallel Text",
+    "Subsets": [
+        {
+            "Name": "nan",
+            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Volume": "380,000",
+            "Unit": "tokens"
+        }
+    ],
+    "HF Link": "nan",
+    "Link": "https://catalog.ldc.upenn.edu/LDC2012T09",
+    "License": "LDC User Agreement for Non-Members",
+    "Year": 2012,
+    "Language": "multilingual",
+    "Dialect": "ar-LEV: (Arabic (Levant))",
+    "Domain": "other",
+    "Form": "text",
+    "Collection Style": "crawling and annotation(translation)",
+    "Description": "it uses crowdsourcing to cheaply and quickly build LevantineEnglish and Egyptian-English parallel corpora, consisting of 1.1M words and 380k words, respectively.",
+    "Volume": "1,500,000",
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": "Multiple Institutions",
+    "Derived From": "nan",
+    "Paper Title": "Machine Translation of Arabic Dialects",
+    "Paper Link": "https://aclanthology.org/N12-1006.pdf",
+    "Script": "Arab-Latn",
+    "Tokenized": "Yes",
+    "Host": "LDC",
+    "Access": "With-Fee",
+    "Cost": "2250 $",
+    "Test Split": "No",
+    "Tasks": "machine translation",
+    "Venue Title": "NAACL",
+    "Citations": "158.0",
+    "Venue Type": "conference",
+    "Venue Name": "North American Chapter of the Association for Computational Linguistics",
+    "Authors": "Rabih Zbib,Erika Malchiodi,J. Devlin,D. Stallard,S. Matsoukas,R. Schwartz,J. Makhoul,Omar Zaidan,Chris Callison-Burch",
+    "Affiliations": ",,,,,,,,",
+    "Abstract": "Arabic Dialects present many challenges for machine translation, not least of which is the lack of data resources. We use crowdsourcing to cheaply and quickly build Levantine-English and Egyptian-English parallel corpora, consisting of 1.1M words and 380k words, respectively. The dialectal sentences are selected from a large corpus of Arabic web text, and translated using Amazon's Mechanical Turk. We use this data to build Dialectal Arabic MT systems, and find that small amounts of dialectal data have a dramatic impact on translation quality. When translating Egyptian and Levantine test sets, our Dialectal Arabic MT system performs 6.3 and 7.0 BLEU points higher than a Modern Standard Arabic MT system trained on a 150M-word Arabic-English parallel corpus.",
+    "Added By": "Mustafa Ghaleb"
+}

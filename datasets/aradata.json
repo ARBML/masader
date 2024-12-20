@@ -1,0 +1,79 @@
+{
+    "Name": "araData",
+    "Subsets": [
+        {
+            "Name": "GLF",
+            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Volume": "2,007",
+            "Unit": "nan"
+        },
+        {
+            "Name": "General",
+            "Dialect": "mixed",
+            "Volume": "2,003",
+            "Unit": "nan"
+        },
+        {
+            "Name": "EGY",
+            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Volume": "2,002",
+            "Unit": "nan"
+        },
+        {
+            "Name": "LEV",
+            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Volume": "2,001",
+            "Unit": "nan"
+        },
+        {
+            "Name": "MGH",
+            "Dialect": "ar-NOR: (Arabic (North Africa))",
+            "Volume": "2,001",
+            "Unit": "nan"
+        },
+        {
+            "Name": "Tunisian",
+            "Dialect": "ar-TN: (Arabic (Tunisia))",
+            "Volume": "2,001",
+            "Unit": "nan"
+        },
+        {
+            "Name": "IRQ",
+            "Dialect": "ar-IQ: (Arabic (Iraq))",
+            "Volume": "216",
+            "Unit": "nan"
+        }
+    ],
+    "HF Link": "https://hf.co/datasets/arbml/arData",
+    "Link": "https://github.com/malek-hedhli/araData",
+    "License": "unknown",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": "other",
+    "Form": "text",
+    "Collection Style": "other",
+    "Description": "araData is a clean and balanced dataset containing sentences for 7 Arabic dialects represented as follows: 2007 GLF, 2003 general, 2002 EGY, 2001 LEV, 2001 MGH, 2001 Tunisian, and 216 IRQ. This data is a collection of different resources prepared by HEDHLI Malek for a project to identify Arabic dialects.",
+    "Volume": "12,236",
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": "nan",
+    "Derived From": "nan",
+    "Paper Title": "nan",
+    "Paper Link": "nan",
+    "Script": "Arab",
+    "Tokenized": "No",
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "No",
+    "Tasks": "dialect identification ",
+    "Venue Title": "nan",
+    "Citations": "nan",
+    "Venue Type": "nan",
+    "Venue Name": "nan",
+    "Authors": "nan",
+    "Affiliations": "nan",
+    "Abstract": "nan",
+    "Added By": "Zaid Alyafeai"
+}

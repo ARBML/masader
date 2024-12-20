@@ -1,0 +1,67 @@
+{
+    "Name": "ArSarcasm-v2",
+    "Subsets": [
+        {
+            "Name": "Egyptian",
+            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Volume": "2,981",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Gulf",
+            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Volume": "966",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Levantine",
+            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Volume": "671",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Maghrebi",
+            "Dialect": "ar-MA: (Arabic (Morocco))",
+            "Volume": "45",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "MSA",
+            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Volume": "10,885",
+            "Unit": "sentences"
+        }
+    ],
+    "HF Link": "https://hf.co/datasets/arbml/ArSarcasm_v2",
+    "Link": "https://github.com/iabufarha/ArSarcasm-v2",
+    "License": "MIT License",
+    "Year": 2021,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": "social media",
+    "Form": "text",
+    "Collection Style": "crawling and annotation(other)",
+    "Description": "ArSarcasm-v2 is an extension of the original ArSarcasm dataset published along with the paper From Arabic Sentiment Analysis to Sarcasm Detection: The ArSarcasm Dataset. ArSarcasm-v2 consists of ArSarcasm along with portions of DAICT corpus and some new tweets. Each tweet was annotated for sarcasm, sentiment and dialect. The final dataset consists of 15,548 tweets divided into 12,548 training tweets and 3,000 testing tweets. ArSarcasm-v2 was used and released as a part of the shared task on sarcasm detection and sentiment analysis in Arabic",
+    "Volume": "15,548",
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": "Multiple Institutions",
+    "Derived From": "ArSarcasm: https://github.com/iabufarha/ArSarcasm",
+    "Paper Title": "Overview of the WANLP 2021 Shared Task on Sarcasm and Sentiment Detection in Arabic",
+    "Paper Link": "https://aclanthology.org/2021.wanlp-1.36/",
+    "Script": "Arab",
+    "Tokenized": "No",
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "Yes",
+    "Tasks": "sarcasm detection, sentiment analysis, dialect identification",
+    "Venue Title": "WANLP",
+    "Citations": "20.0",
+    "Venue Type": "workshop",
+    "Venue Name": "Arabic Natural Language Processing Workshop",
+    "Authors": "Ibrahim Abu Farha, Wajdi Zaghouani, Walid Magdy",
+    "Affiliations": "The University of Edinburgh, Hamad Bin Khalifa University",
+    "Abstract": "This paper provides an overview of the WANLP 2021 shared task on sarcasm and sentiment detection in Arabic. The shared task has two subtasks: sarcasm detection (subtask 1) and sentiment analysis (subtask 2). This shared task aims to promote and bring attention to Arabic sarcasm detection, which is crucial to improve the performance in other tasks such as sentiment analysis. The dataset used in this shared task, namely ArSarcasm-v2, consists of 15,548 tweets labelled for sarcasm, sentiment and dialect. We received 27 and 22 submissions for subtasks 1 and 2 respectively. Most of the approaches relied on using and fine-tuning pre-trained language models such as AraBERT and MARBERT. The top achieved results for the sarcasm detection and sentiment analysis tasks were 0.6225 F1-score and 0.748 F1-PN respectively.",
+    "Added By": "Ibrahim Abu Farha"
+}

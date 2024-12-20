@@ -1,0 +1,49 @@
+{
+    "Name": "Corpora for Egyptian Arabic and Gulf Arabic from Twitter",
+    "Subsets": [
+        {
+            "Name": "GLF",
+            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Volume": "150,000",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "EGY",
+            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Volume": "150,000",
+            "Unit": "sentences"
+        }
+    ],
+    "HF Link": "https://hf.co/datasets/arbml/Egyptial_Gulf_Twitter_Dataset",
+    "Link": "https://github.com/telsahy/capstone-34",
+    "License": "unknown",
+    "Year": 2018,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": "social media",
+    "Form": "text",
+    "Collection Style": "crawling and annotation(other)",
+    "Description": "An evenly balanced dataset of Arabic dialects, Egyptian and Gulf using a variety of dialectal terms.",
+    "Volume": "300,000",
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": "nan",
+    "Derived From": "nan",
+    "Paper Title": "Building Datasets for Dialect Classifiers using Twitter",
+    "Paper Link": "https://github.com/telsahy/capstone-34/blob/master/Building%20Datasets%20for%20Arabic%20Dialect%20Classifiers%20using%20Twitter.pdf",
+    "Script": "Arab",
+    "Tokenized": "No",
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "No",
+    "Tasks": "dialect identification",
+    "Venue Title": "nan",
+    "Citations": "nan",
+    "Venue Type": "preprint",
+    "Venue Name": "nan",
+    "Authors": "Tamir ElSahy",
+    "Affiliations": "nan",
+    "Abstract": "nan",
+    "Added By": "Zaid Alyafeai"
+}

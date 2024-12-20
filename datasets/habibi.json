@@ -1,0 +1,73 @@
+{
+    "Name": "Habibi ",
+    "Subsets": [
+        {
+            "Name": "Gulf",
+            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Volume": "9,484",
+            "Unit": "documents"
+        },
+        {
+            "Name": "Egyptian",
+            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Volume": "7,265",
+            "Unit": "documents"
+        },
+        {
+            "Name": "Levantine",
+            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Volume": "6,016",
+            "Unit": "documents"
+        },
+        {
+            "Name": "Iraqi",
+            "Dialect": "ar-IQ: (Arabic (Iraq))",
+            "Volume": "3,438",
+            "Unit": "documents"
+        },
+        {
+            "Name": "Sudan",
+            "Dialect": "ar-SD: (Arabic (Sudan))",
+            "Volume": "2,662",
+            "Unit": "documents"
+        },
+        {
+            "Name": "Maghrebi",
+            "Dialect": "ar-NOR: (Arabic (North Africa))",
+            "Volume": "1,207",
+            "Unit": "documents"
+        }
+    ],
+    "HF Link": "https://hf.co/datasets/arbml/Habibi",
+    "Link": "https://www.lancaster.ac.uk/staff/elhaj/corpora.html",
+    "License": "unknown",
+    "Year": 2020,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": "other",
+    "Form": "text",
+    "Collection Style": "crawling",
+    "Description": "The corpus comprises more than 30,000 Arabic song lyrics in 6 Arabic dialects for singers from 18 different Arabic countries.",
+    "Volume": "30,072",
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": "Lancaster University",
+    "Derived From": "nan",
+    "Paper Title": "Habibi - a multi Dialect multi National Arabic Song Lyrics Corpus\r",
+    "Paper Link": "https://aclanthology.org/2020.lrec-1.165.pdf",
+    "Script": "Arab",
+    "Tokenized": "No",
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "No",
+    "Tasks": "text generation, language modeling",
+    "Venue Title": "LREC",
+    "Citations": "7.0",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": "Mahmoud El-Haj",
+    "Affiliations": "nan",
+    "Abstract": "This paper introduces Habibi the first Arabic Song Lyrics corpus. The corpus comprises more than 30,000 Arabic song lyrics in 6 Arabic dialects for singers from 18 different Arabic countries. The lyrics are segmented into more than 500,000 sentences (song verses) with more than 3.5 million words. I provide the corpus in both comma separated value (csv) and annotated plain text (txt) file formats. In addition, I converted the csv version into JavaScript Object Notation (json) and eXtensible Markup Language (xml) file formats. To experiment with the corpus I run extensive binary and multi-class experiments for dialect and country-of-origin identification. The identification tasks include the use of several classical machine learning and deep learning models utilising different word embeddings. For the binary dialect identification task the best performing classifier achieved a testing accuracy of 93%. This was achieved using a word-based Convolutional Neural Network (CNN) utilising a Continuous Bag of Words (CBOW) word embeddings model. The results overall show all classical and deep learning models to outperform our baseline, which demonstrates the suitability of the corpus for both dialect and country-of-origin identification tasks. I am making the corpus and the trained CBOW word embeddings freely available for research purposes.",
+    "Added By": "nan"
+}

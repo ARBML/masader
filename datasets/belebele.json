@@ -1,0 +1,73 @@
+{
+    "Name": "Belebele",
+    "Subsets": [
+        {
+            "Name": "acm_Arab",
+            "Dialect": "ar-IQ: (Arabic (Iraq))",
+            "Volume": "900",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "arb_Arab",
+            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Volume": "900",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "apc_Arab",
+            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Volume": "900",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "ars_Arab",
+            "Dialect": "ar-SA: (Arabic (Saudi Arabia))",
+            "Volume": "900",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "ary_Arab",
+            "Dialect": "ar-MA: (Arabic (Morocco))",
+            "Volume": "900",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "arz_Arab",
+            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Volume": "900",
+            "Unit": "sentences"
+        }
+    ],
+    "HF Link": "https://hf.co/datasets/facebook/belebele",
+    "Link": "https://github.com/facebookresearch/belebele",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2023,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": "wikipedia",
+    "Form": "text",
+    "Collection Style": "human translation",
+    "Description": "A multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants.",
+    "Volume": "5,400",
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": "Meta AI",
+    "Derived From": "nan",
+    "Paper Title": "The BELEBELE Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants",
+    "Paper Link": "https://arxiv.org/pdf/2308.16884.pdf",
+    "Script": "Arab",
+    "Tokenized": "No",
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "No",
+    "Tasks": "question answering, instruction tuning",
+    "Venue Title": "nan",
+    "Citations": "nan",
+    "Venue Type": "nan",
+    "Venue Name": "nan",
+    "Authors": "nan",
+    "Affiliations": "nan",
+    "Abstract": "nan",
+    "Added By": "Amr Keleg"
+}

@@ -1,0 +1,163 @@
+{
+    "Name": "NADI-2021",
+    "Subsets": [
+        {
+            "Name": "Algeria",
+            "Dialect": "ar-DZ: (Arabic (Algeria))",
+            "Volume": "2,765",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Bahrain",
+            "Dialect": "ar-BH: (Arabic (Bahrain))",
+            "Volume": "313",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Djibouti",
+            "Dialect": "ar-DJ: (Arabic (Djibouti))",
+            "Volume": "314",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Egypt",
+            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Volume": "6,241",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Iraq",
+            "Dialect": "ar-IQ: (Arabic (Iraq))",
+            "Volume": "4,042",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Jordan",
+            "Dialect": "ar-JO: (Arabic (Jordan))",
+            "Volume": "627",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Kuwait",
+            "Dialect": "ar-KW: (Arabic (Kuwait))",
+            "Volume": "627",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Lebanon",
+            "Dialect": "ar-LB: (Arabic (Lebanon))",
+            "Volume": "929",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Libya",
+            "Dialect": "ar-LY: (Arabic (Libya))",
+            "Volume": "1,883",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Mauritania",
+            "Dialect": "ar-MR: (Arabic (Mauritania))",
+            "Volume": "314",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Morocco",
+            "Dialect": "ar-MA: (Arabic (Morocco))",
+            "Volume": "1,256",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Oman",
+            "Dialect": "ar-OM: (Arabic (Oman))",
+            "Volume": "2,175",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Palestine",
+            "Dialect": "ar-PS: (Arabic (Palestine))",
+            "Volume": "626",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Qatar ",
+            "Dialect": "ar-QA: (Arabic (Qatar))",
+            "Volume": "314",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "Dialect": "ar-SA: (Arabic (Saudi Arabia))",
+            "Volume": "3,130",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Somalia",
+            "Dialect": "ar-SO: (Arabic (Somalia))",
+            "Volume": "511",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Sudan",
+            "Dialect": "ar-SD: (Arabic (Sudan))",
+            "Volume": "310",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Syria",
+            "Dialect": "ar-SY: (Arabic (Syria))",
+            "Volume": "1,881",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Tunisia",
+            "Dialect": "ar-TN: (Arabic (Tunisia))",
+            "Volume": "1,190",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "UAE",
+            "Dialect": "ar-AE: (Arabic (United Arab Emirates))",
+            "Volume": "940",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Yemen",
+            "Dialect": "ar-YE: (Arabic (Yemen))",
+            "Volume": "612",
+            "Unit": "sentences"
+        }
+    ],
+    "HF Link": "nan",
+    "Link": "https://sites.google.com/view/nadi-shared-task",
+    "License": "CC BY-NC-ND 4.0",
+    "Year": 2021,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": "social media",
+    "Form": "text",
+    "Collection Style": "crawling and annotation(other)",
+    "Description": "The shared task dataset covers a total of 100 provinces from 21 Arab countries, collected from the Twitter domain. ",
+    "Volume": "310,000",
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": "Multiple Institutions",
+    "Derived From": "nan",
+    "Paper Title": "NADI 2021:\r\nThe Second Nuanced Arabic Dialect Identification Shared Task\r",
+    "Paper Link": "https://arxiv.org/pdf/2103.08466.pdf",
+    "Script": "Arab",
+    "Tokenized": "No",
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "nan",
+    "Test Split": "Yes",
+    "Tasks": "dialect identification",
+    "Venue Title": "WANLP",
+    "Citations": "12.0",
+    "Venue Type": "workshop",
+    "Venue Name": "Arabic Natural Language Processing Workshop",
+    "Authors": "Muhammad Abdul-Mageed,Chiyu Zhang,AbdelRahim Elmadany,Houda Bouamor,Nizar Habash",
+    "Affiliations": ",The University of British Columbia,University of British Columbia,,",
+    "Abstract": "We present the findings and results of theSecond Nuanced Arabic Dialect IdentificationShared Task (NADI 2021). This Shared Taskincludes four subtasks: country-level ModernStandard Arabic (MSA) identification (Subtask1.1), country-level dialect identification (Subtask1.2), province-level MSA identification (Subtask2.1), and province-level sub-dialect identifica-tion (Subtask 2.2). The shared task dataset cov-ers a total of 100 provinces from 21 Arab coun-tries, collected from the Twitter domain. A totalof 53 teams from 23 countries registered to par-ticipate in the tasks, thus reflecting the interestof the community in this area. We received 16submissions for Subtask 1.1 from five teams, 27submissions for Subtask 1.2 from eight teams,12 submissions for Subtask 2.1 from four teams,and 13 Submissions for subtask 2.2 from fourteams.",
+    "Added By": "nan"
+}

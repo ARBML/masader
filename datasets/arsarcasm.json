@@ -1,0 +1,67 @@
+{
+    "Name": "ArSarcasm",
+    "Subsets": [
+        {
+            "Name": "Egyptian",
+            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Volume": "2,383",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Gulf",
+            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Volume": "519",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Levantine",
+            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Volume": "551",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Maghrebi",
+            "Dialect": "ar-MA: (Arabic (Morocco))",
+            "Volume": "32",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "MSA",
+            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Volume": "7,062",
+            "Unit": "sentences"
+        }
+    ],
+    "HF Link": "https://hf.co/datasets/iabufarha/ar_sarcasm",
+    "Link": "https://github.com/iabufarha/ArSarcasm",
+    "License": "unknown",
+    "Year": 2020,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": "social media",
+    "Form": "text",
+    "Collection Style": "crawling and annotation(other)",
+    "Description": "The dataset was created using previously available Arabic sentiment analysis datasets",
+    "Volume": "8,437",
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": "Multiple Institutions ",
+    "Derived From": "ASTD",
+    "Paper Title": "From Arabic Sentiment Analysis to Sarcasm Detection:\r\nThe ArSarcasm Dataset",
+    "Paper Link": "https://aclanthology.org/2020.osact-1.5.pdf",
+    "Script": "Arab",
+    "Tokenized": "No",
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "Yes",
+    "Tasks": "dialect identification, sentiment analysis, sarcasm detection",
+    "Venue Title": "OSACT",
+    "Citations": "23.0",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
+    "Authors": "Ibrahim Abu Farha,Walid Magdy",
+    "Affiliations": "University of Edinburgh,The University of Edinburgh",
+    "Abstract": "Sarcasm is one of the main challenges for sentiment analysis systems. Its complexity comes from the expression of opinion using implicit indirect phrasing. In this paper, we present ArSarcasm, an Arabic sarcasm detection dataset, which was created through the reannotation of available Arabic sentiment analysis datasets. The dataset contains 10,547 tweets, 16% of which are sarcastic. In addition to sarcasm the data was annotated for sentiment and dialects. Our analysis shows the highly subjective nature of these tasks, which is demonstrated by the shift in sentiment labels based on annotators\u2019 biases. Experiments show the degradation of state-of-the-art sentiment analysers when faced with sarcastic content. Finally, we train a deep learning model for sarcasm detection using BiLSTM. The model achieves an F1 score of 0.46, which shows the challenging nature of the task, and should act as a basic baseline for future research on our dataset.",
+    "Added By": "nan"
+}

@@ -1,0 +1,145 @@
+{
+    "Name": "QADI Arabic",
+    "Subsets": [
+        {
+            "Name": "AE",
+            "Dialect": "ar-AE: (Arabic (United Arab Emirates))",
+            "Volume": "28,011",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "BH",
+            "Dialect": "ar-BH: (Arabic (Bahrain))",
+            "Volume": "28,479",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "DZ",
+            "Dialect": "ar-DZ: (Arabic (Algeria))",
+            "Volume": "17,773",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "EG",
+            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Volume": "67,983",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "IQ",
+            "Dialect": "ar-IQ: (Arabic (Iraq))",
+            "Volume": "18,545",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "JO",
+            "Dialect": "ar-JO: (Arabic (Jordan))",
+            "Volume": "34,289",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "KW",
+            "Dialect": "ar-KW: (Arabic (Kuwait))",
+            "Volume": "50,153",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "LB",
+            "Dialect": "ar-LB: (Arabic (Lebanon))",
+            "Volume": "38,580",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "LY",
+            "Dialect": "ar-LY: (Arabic (Libya))",
+            "Volume": "41,052",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "MA",
+            "Dialect": "ar-MA: (Arabic (Morocco))",
+            "Volume": "12,991",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "OM",
+            "Dialect": "ar-OM: (Arabic (Oman))",
+            "Volume": "24,955",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "PL",
+            "Dialect": "ar-PS: (Arabic (Palestine))",
+            "Volume": "48,814",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "QA",
+            "Dialect": "ar-QA: (Arabic (Qatar))",
+            "Volume": "36,873",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "SA",
+            "Dialect": "ar-SA: (Arabic (Saudi Arabia))",
+            "Volume": "35,595",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "SD",
+            "Dialect": "ar-SD: (Arabic (Sudan))",
+            "Volume": "16,439",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "SY",
+            "Dialect": "ar-SY: (Arabic (Syria))",
+            "Volume": "18,511",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "TN",
+            "Dialect": "ar-TN: (Arabic (Tunisia))",
+            "Volume": "13,094",
+            "Unit": "sentences"
+        },
+        {
+            "Name": "YE",
+            "Dialect": "ar-YE: (Arabic (Yemen))",
+            "Volume": "11,756",
+            "Unit": "sentences"
+        }
+    ],
+    "HF Link": "https://hf.co/datasets/arbml/QADI",
+    "Link": "https://alt.qcri.org/resources/qadi",
+    "License": "Apache-2.0",
+    "Year": 2020,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": "social media",
+    "Form": "text",
+    "Collection Style": "crawling and annotation(other)",
+    "Description": "Dialects dataset",
+    "Volume": "540,590",
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": "QCRI",
+    "Derived From": "nan",
+    "Paper Title": "Arabic Dialect Identification in the Wild",
+    "Paper Link": "https://arxiv.org/pdf/2005.06557.pdf",
+    "Script": "Arab",
+    "Tokenized": "No",
+    "Host": "QCRI Resources",
+    "Access": "Free",
+    "Cost": "nan",
+    "Test Split": "Yes",
+    "Tasks": "dialect identification",
+    "Venue Title": "ArXiv",
+    "Citations": "16.0",
+    "Venue Type": "preprint",
+    "Venue Name": "ArXiv",
+    "Authors": "Ahmed Abdelali,Hamdy Mubarak,Younes Samih,Sabit Hassan,Kareem Darwish",
+    "Affiliations": ",,University Of D\u00fcsseldorf;Computational Linguistics,,",
+    "Abstract": "We present QADI, an automatically collected dataset of tweets belonging to a wide range of country-level Arabic dialects -covering 18 different countries in the Middle East and North Africa region. Our method for building this dataset relies on applying multiple filters to identify users who belong to different countries based on their account descriptions and to eliminate tweets that are either written in Modern Standard Arabic or contain inappropriate language. The resultant dataset contains 540k tweets from 2,525 users who are evenly distributed across 18 Arab countries. Using intrinsic evaluation, we show that the labels of a set of randomly selected tweets are 91.5% accurate. For extrinsic evaluation, we are able to build effective country-level dialect identification on tweets with a macro-averaged F1-score of 60.6% across 18 classes.",
+    "Added By": "nan"
+}
