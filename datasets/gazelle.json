@@ -24,9 +24,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": "Yes",
-    "Tasks": [
-        "instruction tuning"
-    ],
+    "Tasks": "instruction tuning",
     "Venue Title": "arXiv",
     "Citations": "",
     "Venue Type": "preprint",
