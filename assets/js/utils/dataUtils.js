@@ -1,5 +1,5 @@
 function linkuize(text, link) {
-    if (link != undefined && link != 'nan')
+    if (link != undefined && link != '')
         return `<a href = "${link}" target="_blank"> ${text}</a>`;
     else return 'Not Available';
 }
@@ -36,7 +36,7 @@ function getCountry(text) {
 
 function getIcon(text) {
     const lower = text.toLowerCase();
-    if (icons[lower] != undefined || icons[lower] != 'nan') {
+    if (icons[lower] != undefined || icons[lower] != '') {
         return icons[lower];
     } else {
         return text;

@@ -31,7 +31,7 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
     if (data[index][idx] === undefined) continue;
 
     if (ignoreOther) {
-      if (['other', 'unknown', 'nan'].includes(data[index][idx]))
+      if (['other', 'unknown', ''].includes(data[index][idx]))
         continue;
     }
 

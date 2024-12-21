@@ -2,7 +2,7 @@ const url = 'https://web-production-25a2.up.railway.app/datasets';
 const contributers_url = 'https://web-production-25a2.up.railway.app/datasets/tags?features=Added By'
 
 function linkuize(text, link, short = true) {
-    if (link != undefined && link != 'nan')
+    if (link != undefined && link != '')
         return `<a href = "${link}" target="_blank" class="#${(short) ? "shorterText " : ""}underline"> ${text}</a>`;
     else return 'Not Available';
 }
@@ -86,7 +86,7 @@ async function getViewer(dataset_name) {
 
 async function create_hf_viewer(hf_link){
     
-    if (hf_link.toString() == 'nan')
+    if (hf_link.toString() == '')
         return ''
     else
         var dataset_name = hf_link.split('datasets/')[1]
@@ -179,7 +179,7 @@ async function fomratDetails(data, index) {
         '</div>' +
         ' <div class="grid grid-cols-2  ">' +
         '<span class="text-gray-400">Cost</span>' +
-        '<span class="text-gray-800">' + (data['Cost'] != 'nan' ? row['Cost'] : 'Not Available') + '</span>' +
+        '<span class="text-gray-800">' + (data['Cost'] != '' ? row['Cost'] : 'Not Available') + '</span>' +
         '</div>' +
         ' <div class="grid grid-cols-2  ">' +
         '<span class="text-gray-400">Test Split</span>' +
@@ -259,7 +259,7 @@ axios
             var host = row['Host']
             if (host == 'other') host = "External Link"
             let link_host = linkuize(host, row['Link']);
-            if (row['HF Link'] != 'nan') {
+            if (row['HF Link'] != '') {
                 if (row['HF Link'].includes(',')) {
                     hf_links = row['HF Link'].split(',')
                     for (i = 0; i < hf_links.length; i++) {
@@ -277,9 +277,9 @@ axios
                 2: linkuize(row['Name'], `card?id=${index + 1}`, false),
                 3: link_host,
                 4: row['Year'],
-                5: getCountry(row['Dialect'] != 'nan' ? row['Dialect'].charAt(0).toUpperCase() + row['Dialect'].slice(1) : ''),
-                6: row['Volume'] != 'nan' ? row['Volume'] : '',
-                7: row['Unit'] != 'nan' ? row['Unit'].charAt(0).toUpperCase() + row['Unit'].slice(1) : '',
+                5: getCountry(row['Dialect'] != '' ? row['Dialect'].charAt(0).toUpperCase() + row['Dialect'].slice(1) : ''),
+                6: row['Volume'] != '' ? row['Volume'] : '',
+                7: row['Unit'] != '' ? row['Unit'].charAt(0).toUpperCase() + row['Unit'].slice(1) : '',
                 8: linkuize(row['Paper Title'], row['Paper Link']),
                 9: badgeRender(row['Access']),
                 10: itemize(row['Tasks']),

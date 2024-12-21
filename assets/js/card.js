@@ -126,7 +126,7 @@ axios
         for (let i = 0; i < headers.length; i++) {
             let element = headers[i];
             let value =
-                row[element.title] != 'nan' ? row[element.title] : 'N/A';
+                row[element.title] != '' ? row[element.title] : 'N/A';
             // console.log(element.title, value);
             if (value == 'N/A') {
                 dataset.push({
@@ -156,7 +156,7 @@ axios
                 } else
                     value = linkuize(value, value);
             } else if (element.title == 'Subsets') {
-                if (row[element.title] != 'nan') {
+                if (row[element.title] != '') {
                     let subsets = row[element.title];
                     value = createSubsets(subsets);
                 }
