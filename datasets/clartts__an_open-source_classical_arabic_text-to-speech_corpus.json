@@ -22,7 +22,7 @@
     "Tokenized": "No",
     "Host": "HuggingFace",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "speech recognition",
     "Venue Title": "INTERSPEECH",

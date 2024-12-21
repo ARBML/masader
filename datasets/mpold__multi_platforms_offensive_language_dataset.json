@@ -15,14 +15,14 @@
     "Unit": "documents",
     "Ethical Risks": "Medium",
     "Provider": "QCRI",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "A Multi-Platform Arabic News Comment Dataset for Offensive Language Detection",
     "Paper Link": "https://aclanthology.org/2020.lrec-1.761.pdf",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "offensive language detection",
     "Venue Title": "LREC",
@@ -32,5 +32,5 @@
     "Authors": "S. A. Chowdhury,Hamdy Mubarak,Ahmed Abdelali,Soon-Gyo Jung,B. Jansen,Joni O. Salminen",
     "Affiliations": ",,,,,",
     "Abstract": "Access to social media often enables users to engage in conversation with limited accountability. This allows a user to share their opinions and ideology, especially regarding public content, occasionally adopting offensive language. This may encourage hate crimes or cause mental harm to targeted individuals or groups. Hence, it is important to detect offensive comments in social media platforms. Typically, most studies focus on offensive commenting in one platform only, even though the problem of offensive language is observed across multiple platforms. Therefore, in this paper, we introduce and make publicly available a new dialectal Arabic news comment dataset, collected from multiple social media platforms, including Twitter, Facebook, and YouTube. We follow two-step crowd-annotator selection criteria for low-representative language annotation task in a crowdsourcing platform. Furthermore, we analyze the distinctive lexical content along with the use of emojis in offensive comments. We train and evaluate the classifiers using the annotated multi-platform dataset along with other publicly available data. Our results highlight the importance of multiple platform dataset for (a) cross-platform, (b) cross-domain, and (c) cross-dialect generalization of classifier performance.",
-    "Added By": "nan"
+    "Added By": ""
 }

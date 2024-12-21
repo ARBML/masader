@@ -1,7 +1,7 @@
 {
     "Name": "Arab-Acquis",
     "Subsets": [],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "https://camel.abudhabi.nyu.edu/arabacquis/",
     "License": "custom",
     "Year": 2017,
@@ -15,14 +15,14 @@
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": "NYU Abu Dhabi",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "A Parallel Corpus for Evaluating Machine Translation between Arabic and European Languages",
     "Paper Link": "https://aclanthology.org/E17-2038.pdf",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "machine translation ",
     "Venue Title": "EACL",
@@ -32,5 +32,5 @@
     "Authors": "Nizar Habash,Nasser Zalmout,Dima Taji,Hieu Hoang,Maverick Alzate",
     "Affiliations": ",,,,",
     "Abstract": "We present Arab-Acquis, a large publicly available dataset for evaluating machine translation between 22 European languages and Arabic. Arab-Acquis consists of over 12,000 sentences from the JRC-Acquis (Acquis Communautaire) corpus translated twice by professional translators, once from English and once from French, and totaling over 600,000 words. The corpus follows previous data splits in the literature for tuning, development, and testing. We describe the corpus and how it was created. We also present the first benchmarking results on translating to and from Arabic for 22 European languages.",
-    "Added By": "nan"
+    "Added By": ""
 }

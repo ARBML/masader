@@ -22,7 +22,7 @@
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "keyphrase extraction",
     "Venue Title": "IALP",
@@ -32,5 +32,5 @@
     "Authors": "Muhammad Helmy,Marco Basaldella,Eddy Maddalena,S. Mizzaro,Gianluca Demartini",
     "Affiliations": ",,,,",
     "Abstract": "Keyphrases are short phrases that best represent a document content. They can be useful in a variety of applications, including document summarization and retrieval models. In this paper, we introduce the first dataset of keyphrases for an Arabic document collection, obtained by means of crowdsourcing. We experimentally evaluate different crowdsourced answer aggregation strategies and validate their performances against expert annotations to evaluate the quality of our dataset. We report about our experimental results, the dataset features, some lessons learned, and ideas for future work.",
-    "Added By": "nan"
+    "Added By": ""
 }

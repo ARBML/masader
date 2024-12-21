@@ -2,13 +2,13 @@
     "Name": "Arabic-Dialect/English Parallel Text",
     "Subsets": [
         {
-            "Name": "nan",
+            "Name": "",
             "Dialect": "ar-EG: (Arabic (Egypt))",
             "Volume": "380,000",
             "Unit": "tokens"
         }
     ],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2012T09",
     "License": "LDC User Agreement for Non-Members",
     "Year": 2012,
@@ -22,7 +22,7 @@
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": "Multiple Institutions",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "Machine Translation of Arabic Dialects",
     "Paper Link": "https://aclanthology.org/N12-1006.pdf",
     "Script": "Arab-Latn",

@@ -15,14 +15,14 @@
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": "Umm Al-Qura University",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "Large Arabic Twitter Dataset on COVID-19\r\n",
     "Paper Link": "https://arxiv.org/pdf/2004.04315.pdf",
     "Script": "Arab-Latn",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "behaviour analysis",
     "Venue Title": "ArXiv",
@@ -32,5 +32,5 @@
     "Authors": "S. Alqurashi,Ahmad Alhindi,E. Alanazi",
     "Affiliations": ",,",
     "Abstract": "The 2019 coronavirus disease (COVID-19), emerged late December 2019 in China, is now rapidly spreading across the globe. At the time of writing this paper, the number of global confirmed cases has passed two millions and half with over 180,000 fatalities. Many countries have enforced strict social distancing policies to contain the spread of the virus. This have changed the daily life of tens of millions of people, and urged people to turn their discussions online, e.g., via online social media sites like Twitter. In this work, we describe the first Arabic tweets dataset on COVID-19 that we have been collecting since January 1st, 2020. The dataset would help researchers and policy makers in studying different societal issues related to the pandemic. Many other tasks related to behavioral change, information sharing, misinformation and rumors spreading can also be analyzed.",
-    "Added By": "nan"
+    "Added By": ""
 }

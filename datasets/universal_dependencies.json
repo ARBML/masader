@@ -3,19 +3,19 @@
     "Subsets": [
         {
             "Name": "ar_nyuad",
-            "Dialect": "nan",
+            "Dialect": "",
             "Volume": "738,889",
             "Unit": "tokens"
         },
         {
             "Name": "ar_padt",
-            "Dialect": "nan",
+            "Dialect": "",
             "Volume": "282,384",
             "Unit": "tokens"
         },
         {
             "Name": "ar_pud",
-            "Dialect": "nan",
+            "Dialect": "",
             "Volume": "20,751",
             "Unit": "tokens"
         }
@@ -35,21 +35,21 @@
     "Ethical Risks": "Low",
     "Provider": "Universal Dependencies(UD)",
     "Derived From": "UDP (UDP-NYUAD), PADT, PUD",
-    "Paper Title": "nan",
-    "Paper Link": "nan",
+    "Paper Title": "",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": "Yes",
     "Host": "other",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "part of speech tagging, morphological features, syntactic dependencies",
-    "Venue Title": "nan",
-    "Citations": "nan",
-    "Venue Type": "nan",
-    "Venue Name": "nan",
-    "Authors": "nan",
-    "Affiliations": "nan",
-    "Abstract": "nan",
+    "Venue Title": "",
+    "Citations": "",
+    "Venue Type": "",
+    "Venue Name": "",
+    "Authors": "",
+    "Affiliations": "",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

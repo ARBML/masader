@@ -53,7 +53,7 @@
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "sarcasm detection, sentiment analysis, dialect identification",
     "Venue Title": "WANLP",

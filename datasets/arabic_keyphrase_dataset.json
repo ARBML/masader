@@ -15,14 +15,14 @@
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": "KFUPM",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "ARABIC DATASET FOR AUTOMATIC KEYPHRASE EXTRACTION",
     "Paper Link": "https://airccj.org/CSCP/vol7/csit76321.pdf",
     "Script": "Arab-Latn",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "keyphrase extraction",
     "Venue Title": "CSIT",
@@ -32,5 +32,5 @@
     "Authors": "Mohammed Al Logmani,H. Muhtaseb",
     "Affiliations": ",",
     "Abstract": "We propose a dataset in Arabic language for automatic keyphrase extraction algorithms. Our Arabic dataset contains 400 documents along with their keyphrases. The dataset covers eighteen different categories. An evaluation using a state-of-the-art algorithm demonstrates the accuracy of our dataset is similar to that of English datasets.",
-    "Added By": "nan"
+    "Added By": ""
 }

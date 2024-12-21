@@ -22,7 +22,7 @@
     "Tokenized": "No",
     "Host": "HuggingFace",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "keyword spotting, spoken term search",
     "Venue Title": "NeurIPS",
@@ -30,7 +30,7 @@
     "Venue Type": "conference",
     "Venue Name": "The Conference on Neural Information Processing Systems",
     "Authors": "Mark Mazumder, Sharad Chitlangia, Colby Banbury, Yiping Kang, Juan Ciro, Keith Achorn, Daniel Galvez, Mark Sabini, Peter Mattson, David Kanter, Greg Diamos, Pete Warden, Josh Meyer, Vijay Janapa Reddi",
-    "Affiliations": "nan",
+    "Affiliations": "",
     "Abstract": "Coqui, Factored, Google, Harvard University, Intel, Landing AI, NVIDIA, University of Michigan",
     "Added By": "Wafaa Mohammed"
 }

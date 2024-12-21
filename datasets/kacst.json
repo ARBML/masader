@@ -1,7 +1,7 @@
 {
     "Name": "KACST",
     "Subsets": [],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "http://www.kacstac.org.sa",
     "License": "unknown",
     "Year": 2015,
@@ -22,7 +22,7 @@
     "Tokenized": "Yes",
     "Host": "other",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "natural language inference",
     "Venue Title": "LREC",

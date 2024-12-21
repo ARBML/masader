@@ -1,7 +1,7 @@
 {
     "Name": "Arabic Treebank - Weblog",
     "Subsets": [],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2016T02",
     "License": "LDC User Agreement for Non-Members",
     "Year": 2016,
@@ -15,7 +15,7 @@
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": "University of Pennsylvania",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "Consistent and Flexible Integration of Morphological Annotation in the Arabic Treebank ",
     "Paper Link": "https://catalog.ldc.upenn.edu/docs/LDC2016T02/KulickBiesMaamouri-LREC2010.pdf",
     "Script": "Arab-Latn",

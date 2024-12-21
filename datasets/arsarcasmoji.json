@@ -22,15 +22,15 @@
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "sentiment analysis, irony detection",
     "Venue Title": "ArabicNLP",
-    "Citations": "nan",
+    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": "Shatha Ali A. Hakami,Robert Hendley,Phillip Smith",
-    "Affiliations": "nan",
+    "Affiliations": "",
     "Abstract": "In digital communication, emoji are essential\nin decoding nuances such as irony, sarcasm,\nand humour. However, their incorporation in\nArabic natural language processing (NLP) has\nbeen cautious because of the perceived complexities of the Arabic language. This paper\nintroduces ArSarcasMoji, a dataset of 24,630\nemoji-augmented texts, with 17. 5% that shows\nirony. Through our analysis, we highlight specific emoji patterns paired with sentiment roles\nthat denote irony in Arabic texts. The research\ncounters prevailing notions, emphasising the\nimportance of emoji\u2019s role in understanding\nArabic textual irony, and addresses their potential for accurate irony detection in Arabic\ndigital content.",
     "Added By": "Zaid Alyafeai"
 }

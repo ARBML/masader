@@ -1,7 +1,7 @@
 {
     "Name": "Negation and Speculation in Arabic Review (NSAR)",
     "Subsets": [],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "https://github.com/amahany/NSAR",
     "License": "unknown",
     "Year": 2022,
@@ -22,15 +22,15 @@
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "sentiment analysis, information retrieval, review classification, Negation and Speculation Detection",
     "Venue Title": "IJACSA",
-    "Citations": "nan",
+    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "International Journal of Advanced Computer Science and Applications",
     "Authors": "Ahmed Mahany, Heba Khaled, Nouh Sabri Elmitwally, Naif Aljohani, Said Ghoniemy",
-    "Affiliations": "nan",
+    "Affiliations": "",
     "Abstract": "Negation and speculation detection are critical for\nNatural Language Processing (NLP) tasks, such as sentiment\nanalysis, information retrieval, and machine translation. This\npaper presents the first Arabic corpus in the review domain\nannotated with negation and speculation. The Negation and\nSpeculation Arabic Review (NSAR) corpus consists of 3K\nrandomly selected review sentences from three well-known and\nbenchmarked Arabic corpora. It contains reviews from different\ncategories, including books, hotels, restaurants, and other\nproducts written in various Arabic dialects. The negation and\nspeculation keywords have been annotated along with their\nlinguistic scope based on the annotation guidelines reviewed by\nan expert linguist. The inter-annotator agreement between two\nindependent annotators, Arabic native speakers, is measured\nusing the Cohen\u2019s Kappa coefficients with values of 95 and 80 for\nnegation and speculation, respectively. Furthermore, 29% of this\ncorpus includes at least one negation instance, while only 4% of\nthis corpus contains speculative content. Therefore, the Arabic\nreviews focus more on negation structures rather than\nspeculation. This corpus will be available for the Arabic research\ncommunity to handle these critical phenomena.",
     "Added By": "Ahmed Mahany"
 }

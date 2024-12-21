@@ -15,14 +15,14 @@
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": "AUB",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "Empathy-driven Arabic Conversational Chatbot\r",
     "Paper Link": "https://aclanthology.org/2020.wanlp-1.6.pdf",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "dialogue generation",
     "Venue Title": "WANLP",
@@ -32,5 +32,5 @@
     "Authors": "Tarek Naous,Christian Hokayem,Hazem M. Hajj",
     "Affiliations": ",,",
     "Abstract": "Conversational models have witnessed a significant research interest in the last few years with the advancements in sequence generation models. A challenging aspect in developing human-like conversational models is enabling the sense of empathy in bots, making them infer emotions from the person they are interacting with. By learning to develop empathy, chatbot models are able to provide human-like, empathetic responses, thus making the human-machine interaction close to human-human interaction. Recent advances in English use complex encoder-decoder language models that require large amounts of empathetic conversational data. However, research has not produced empathetic bots for Arabic. Furthermore, there is a lack of Arabic conversational data labeled with empathy. To address these challenges, we create an Arabic conversational dataset that comprises empathetic responses. However, the dataset is not large enough to develop very complex encoder-decoder models. To address the limitation of data scale, we propose a special encoder-decoder composed of a Long Short-Term Memory (LSTM) Sequence-to-Sequence (Seq2Seq) with Attention. The experiments showed success of our proposed empathy-driven Arabic chatbot in generating empathetic responses with a perplexity of 38.6, an empathy score of 3.7, and a fluency score of 3.92.",
-    "Added By": "nan"
+    "Added By": ""
 }

@@ -1,7 +1,7 @@
 {
     "Name": "LASER",
     "Subsets": [],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "https://github.com/facebookresearch/LASER",
     "License": "BSD",
     "Year": 2019,
@@ -22,7 +22,7 @@
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "machine translation ",
     "Venue Title": "TACL",

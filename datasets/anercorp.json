@@ -1,7 +1,7 @@
 {
     "Name": "ANERcorp",
     "Subsets": [],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "https://camel.abudhabi.nyu.edu/anercorp/",
     "License": "CC BY-SA 4.0",
     "Year": 2020,
@@ -15,14 +15,14 @@
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": "NYU Abu Dhabi University",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "CAMeL Tools: An Open Source Python Toolkit for Arabic Natural Language Processing",
     "Paper Link": "https://aclanthology.org/2020.lrec-1.868.pdf",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "named entity recognition",
     "Venue Title": "LREC",
@@ -32,5 +32,5 @@
     "Authors": "Ossama Obeid,Nasser Zalmout,Salam Khalifa,Dima Taji,M. Oudah,Bashar Alhafni,Go Inoue,Fadhl Eryani,Alexander Erdmann,Nizar Habash",
     "Affiliations": ",,New York University Abu Dhabi,,,,New York University;New York University Abu Dhabi,,,",
     "Abstract": "We present CAMeL Tools, a collection of open-source tools for Arabic natural language processing in Python. CAMeL Tools currently provides utilities for pre-processing, morphological modeling, Dialect Identification, Named Entity Recognition and Sentiment Analysis. In this paper, we describe the design of CAMeL Tools and the functionalities it provides.",
-    "Added By": "nan"
+    "Added By": ""
 }

@@ -22,15 +22,15 @@
     "Tokenized": "No",
     "Host": "other",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "offensive language detection ",
     "Venue Title": "SemEval",
-    "Citations": "nan",
+    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Semantic Evaluation",
     "Authors": "Marcos Zampieri, Preslav Nakov, Sara Rosenthal, Pepa Atanasova, Georgi Karadzhov, Hamdy Mubarak, Leon Derczynski, Zeses Pitenis, \u00c7a\u011fr\u0131 \u00c7\u00f6ltekin",
-    "Affiliations": "nan",
+    "Affiliations": "",
     "Abstract": "We present the results and the main findings of SemEval-2020 Task 12 on Multilingual Offensive Language Identification in Social Media (OffensEval-2020). The task included three subtasks corresponding to the hierarchical taxonomy of the OLID schema from OffensEval-2019, and it was offered in five languages: Arabic, Danish, English, Greek, and Turkish. OffensEval-2020 was one of the most popular tasks at SemEval-2020, attracting a large number of participants across all subtasks and languages: a total of 528 teams signed up to participate in the task, 145 teams submitted official runs on the test data, and 70 teams submitted system description papers.",
     "Added By": "Zaid Alyafeai"
 }

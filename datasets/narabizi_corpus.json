@@ -22,7 +22,7 @@
     "Tokenized": "Yes",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "part of speech tagging,dependency parsing,machine translation, sentiment analysis,transliteration, topic classification",
     "Venue Title": "FINDINGS",

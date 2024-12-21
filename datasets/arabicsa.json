@@ -1,7 +1,7 @@
 {
     "Name": "ArabicSA",
     "Subsets": [],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "https://www.saifmohammad.com/WebPages/ArabicSA.html",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2016,
@@ -22,15 +22,15 @@
     "Tokenized": "Yes",
     "Host": "other",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "sentiment analysis, cross-lingual sentiment analysis",
     "Venue Title": "LREC (Language Resources and Evaluation Conference), NAACL",
-    "Citations": "nan",
+    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": " Language Resources and Evaluation Conference (LREC), North American Chapter of the Association for Computational Linguistics (NAACL)",
     "Authors": "Saif M. Mohammad\nMohammad Salameh\nSvetlana Kiritchenko",
     "Affiliations": "National Research Council Canada (NRC), University of Alberta",
-    "Abstract": "nan",
+    "Abstract": "",
     "Added By": "Maryam Al Emadi"
 }

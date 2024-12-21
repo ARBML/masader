@@ -47,7 +47,7 @@
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "machine translation",
     "Venue Title": "COLING",
@@ -55,7 +55,7 @@
     "Venue Type": "conference",
     "Venue Name": "International Conference on Computational Linguistics",
     "Authors": "Wael Abid",
-    "Affiliations": "nan",
+    "Affiliations": "",
     "Abstract": "Low-resource Machine Translation recently gained a lot of popularity, and for certain languages, it has made great strides. However, it is still difficult to track progress in other languages for which there is no publicly available evaluation data. In this paper, we introduce benchmark datasets for Arabic and its dialects. We describe our design process and motivations and analyze the datasets to understand their resulting properties. Numerous successful attempts use large monolingual corpora to augment low-resource pairs. We try to approach augmentation differently and investigate whether it is possible to improve MT models without any external sources of data. We accomplish this by bootstrapping existing parallel sentences and complement this with multilingual training to achieve strong baselines.",
-    "Added By": "nan"
+    "Added By": ""
 }

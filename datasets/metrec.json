@@ -15,14 +15,14 @@
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": "kfupm",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "MetRec: A dataset for meter classification of arabic poetry",
     "Paper Link": "https://www.sciencedirect.com/science/article/pii/S2352340920313792",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "meter classification",
     "Venue Title": "Data in brief",
@@ -32,5 +32,5 @@
     "Authors": "Maged S. Al-shaibani,Zaid Alyafeai,Irfan Ahmad",
     "Affiliations": ",,",
     "Abstract": "In this data article, we report a dataset related to the research titled \u201cMeter Classification of Arabic Poems Using Deep Bidirectional Recurrent Neural Networks\u201d[2]. The dataset was collected from a large repository of Arabic poems, Aldiwan website [1]. The data collection was done using a Python script that scrapes the website to find the poems and their associated meters. The dataset contains the verses and their corresponding meter classes. Meter classes are represented as numbers from 0 to 13. The dataset can be highly useful for further research in order to improve the field of Arabic poems\u2019 meter classification.",
-    "Added By": "nan"
+    "Added By": ""
 }

@@ -15,14 +15,14 @@
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": "QCRI",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "Constructing a Bilingual Corpus of Parallel Tweets\r",
     "Paper Link": "https://aclanthology.org/2020.bucc-1.3.pdf",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "QCRI Resources",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "machine translation",
     "Venue Title": "BUCC",
@@ -32,5 +32,5 @@
     "Authors": "Hamdy Mubarak,Sabit Hassan,Ahmed Abdelali",
     "Affiliations": ",,",
     "Abstract": "In a bid to reach a larger and more diverse audience, Twitter users often post parallel tweets\u2014tweets that contain the same content but are written in different languages. Parallel tweets can be an important resource for developing machine translation (MT) systems among other natural language processing (NLP) tasks. In this paper, we introduce a generic method for collecting parallel tweets. Using this method, we collect a bilingual corpus of English-Arabic parallel tweets and a list of Twitter accounts who post English-Arabictweets regularly. Since our method is generic, it can also be used for collecting parallel tweets that cover less-resourced languages such as Serbian and Urdu. Additionally, we annotate a subset of Twitter accounts with their countries of origin and topic of interest, which provides insights about the population who post parallel tweets. This latter information can also be useful for author profiling tasks.",
-    "Added By": "nan"
+    "Added By": ""
 }

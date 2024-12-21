@@ -1,7 +1,7 @@
 {
     "Name": "MADAR",
     "Subsets": [],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "https://camel.abudhabi.nyu.edu/madar-parallel-corpus/",
     "License": "custom",
     "Year": 2018,
@@ -15,14 +15,14 @@
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": "NYU Abu Dhabi",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "The MADAR Arabic Dialect Corpus and Lexicon\r",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2018/pdf/351.pdf",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "dialect identification",
     "Venue Title": "LREC",
@@ -32,5 +32,5 @@
     "Authors": "Houda Bouamor,Nizar Habash,Mohammad Salameh,W. Zaghouani,Owen Rambow,D. Abdulrahim,Ossama Obeid,Salam Khalifa,Fadhl Eryani,Alexander Erdmann,Kemal Oflazer",
     "Affiliations": ",,,,,,,New York University Abu Dhabi,,,",
     "Abstract": "In this paper, we present two resources that were created as part of the Multi Arabic Dialect Applications and Resources (MADAR) project. The first is a large parallel corpus of 25 Arabic city dialects in the travel domain. The second is a lexicon of 1,045 concepts with an average of 45 words from 25 cities per concept. These resources are the first of their kind in terms of the breadth of their coverage and the fine location granularity. The focus on cities, as opposed to regions in studying Arabic dialects, opens new avenues to many areas of research from dialectology to dialect identification and machine translation.",
-    "Added By": "nan"
+    "Added By": ""
 }

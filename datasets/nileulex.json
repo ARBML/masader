@@ -15,14 +15,14 @@
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": "Nile University",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "NileULex: A Phrase and Word Level Sentiment Lexicon for Egyptian and\nModern Standard Arabic ",
     "Paper Link": "https://aclanthology.org/L16-1463.pdf",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "sentiment analysis",
     "Venue Title": "LREC",
@@ -30,7 +30,7 @@
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": "S. El-Beltagy",
-    "Affiliations": "nan",
+    "Affiliations": "",
     "Abstract": "This paper presents NileULex, which is an Arabic sentiment lexicon containing close to six thousands Arabic words and compound phrases. Forty five percent of the terms and expressions in the lexicon are Egyptian or colloquial while fifty five percent are Modern Standard Arabic. While the collection of many of the terms included in the lexicon was done automatically, the actual addition of any term was done manually. One of the important criterions for adding terms to the lexicon, was that they be as unambiguous as possible. The result is a lexicon with a much higher quality than any translated variant or automatically constructed one. To demonstrate that a lexicon such as this can directly impact the task of sentiment analysis, a very basic machine learning based sentiment analyser that uses unigrams, bigrams, and lexicon based features was applied on two different Twitter datasets. The obtained results were compared to a baseline system that only uses unigrams and bigrams. The same lexicon based features were also generated using a publicly available translation of a popular sentiment lexicon. The experiments show that usage of the developed lexicon improves the results over both the baseline and the publicly available lexicon.",
-    "Added By": "nan"
+    "Added By": ""
 }

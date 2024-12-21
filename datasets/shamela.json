@@ -1,7 +1,7 @@
 {
     "Name": "Shamela",
     "Subsets": [],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "https://github.com/OpenArabic/",
     "License": "unknown",
     "Year": 2016,
@@ -22,7 +22,7 @@
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "text generation, language modeling",
     "Venue Title": "LT4DH",

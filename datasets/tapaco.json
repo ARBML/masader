@@ -22,7 +22,7 @@
     "Tokenized": "No",
     "Host": "zenodo",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "paraphrasing",
     "Venue Title": "LREC",
@@ -30,7 +30,7 @@
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": "Yves Scherrer",
-    "Affiliations": "nan",
+    "Affiliations": "",
     "Abstract": "This paper presents TaPaCo, a freely available paraphrase corpus for 73 languages extracted from the Tatoeba database. Tatoeba is a crowdsourcing project mainly geared towards language learners. Its aim is to provide example sentences and translations for particular linguistic constructions and words. The paraphrase corpus is created by populating a graph with Tatoeba sentences and equivalence links between sentences \u201cmeaning the same thing\u201d. This graph is then traversed to extract sets of paraphrases. Several language-independent filters and pruning steps are applied to remove uninteresting sentences. A manual evaluation performed on three languages shows that between half and three quarters of inferred paraphrases are correct and that most remaining ones are either correct but trivial, or near-paraphrases that neutralize a morphological distinction. The corpus contains a total of 1.9 million sentences, with 200 - 250 000 sentences per language. It covers a range of languages for which, to our knowledge, no other paraphrase dataset exists. The dataset is available at https://doi.org/10.5281/zenodo.3707949.",
     "Added By": "Zaid Alyafeai"
 }

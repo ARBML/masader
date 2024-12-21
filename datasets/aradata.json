@@ -5,43 +5,43 @@
             "Name": "GLF",
             "Dialect": "ar-GLF: (Arabic (Gulf))",
             "Volume": "2,007",
-            "Unit": "nan"
+            "Unit": ""
         },
         {
             "Name": "General",
             "Dialect": "mixed",
             "Volume": "2,003",
-            "Unit": "nan"
+            "Unit": ""
         },
         {
             "Name": "EGY",
             "Dialect": "ar-EG: (Arabic (Egypt))",
             "Volume": "2,002",
-            "Unit": "nan"
+            "Unit": ""
         },
         {
             "Name": "LEV",
             "Dialect": "ar-LEV: (Arabic (Levant))",
             "Volume": "2,001",
-            "Unit": "nan"
+            "Unit": ""
         },
         {
             "Name": "MGH",
             "Dialect": "ar-NOR: (Arabic (North Africa))",
             "Volume": "2,001",
-            "Unit": "nan"
+            "Unit": ""
         },
         {
             "Name": "Tunisian",
             "Dialect": "ar-TN: (Arabic (Tunisia))",
             "Volume": "2,001",
-            "Unit": "nan"
+            "Unit": ""
         },
         {
             "Name": "IRQ",
             "Dialect": "ar-IQ: (Arabic (Iraq))",
             "Volume": "216",
-            "Unit": "nan"
+            "Unit": ""
         }
     ],
     "HF Link": "https://hf.co/datasets/arbml/arData",
@@ -57,23 +57,23 @@
     "Volume": "12,236",
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "nan",
-    "Derived From": "nan",
-    "Paper Title": "nan",
-    "Paper Link": "nan",
+    "Provider": "",
+    "Derived From": "",
+    "Paper Title": "",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "dialect identification ",
-    "Venue Title": "nan",
-    "Citations": "nan",
-    "Venue Type": "nan",
-    "Venue Name": "nan",
-    "Authors": "nan",
-    "Affiliations": "nan",
-    "Abstract": "nan",
+    "Venue Title": "",
+    "Citations": "",
+    "Venue Type": "",
+    "Venue Name": "",
+    "Authors": "",
+    "Affiliations": "",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

@@ -1,7 +1,7 @@
 {
     "Name": "Multilingual Hate\r\nSpeech Detection Dataset",
     "Subsets": [],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "https://github.com/hate-alert/DE-LIMIT/tree/master/Dataset",
     "License": "unknown",
     "Year": 2020,
@@ -22,7 +22,7 @@
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "hate speech detection",
     "Venue Title": "ArXiv",

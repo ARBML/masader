@@ -15,14 +15,14 @@
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": "Cairo University",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "LABR: A Large Scale Arabic Book Reviews Dataset",
     "Paper Link": "https://aclanthology.org/P13-2088.pdf",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "sentiment analysis",
     "Venue Title": "ACL",
@@ -32,5 +32,5 @@
     "Authors": "Mohamed A. Aly,A. Atiya",
     "Affiliations": ",",
     "Abstract": "We introduce LABR, the largest sentiment analysis dataset to-date for the Arabic language. It consists of over 63,000 book reviews, each rated on a scale of 1 to 5 stars. We investigate the properties of the the dataset, and present its statistics. We explore using the dataset for two tasks: sentiment polarity classification and rating classification. We provide standard splits of the dataset into training and testing, for both polarity and rating classification, in both balanced and unbalanced settings. We run baseline experiments on the dataset to establish a benchmark.",
-    "Added By": "nan"
+    "Added By": ""
 }

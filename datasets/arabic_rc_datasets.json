@@ -22,7 +22,7 @@
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "question answering",
     "Venue Title": "ACIT",
@@ -32,5 +32,5 @@
     "Authors": "Mariam Biltawi,A. Awajan,Sara Tedmori",
     "Affiliations": ",,",
     "Abstract": "Reading comprehension is the task of answering questions from paragraphs; it is also considered a subtask of question-answering systems. Although Arabic language is a language spoken by more than 330 million native speakers, it lacks the required resources, which are needed by the Arabic reading comprehension task to serve as a benchmark dataset. The goal of this work is to present the phases of creating Arabic reading comprehension benchmark dataset semiautomatically. The phases include; data collection, manual check, Google search, document retrieval, and paragraph retrieval. The paper also conducts a thorough evaluation for the created datasets.",
-    "Added By": "nan"
+    "Added By": ""
 }

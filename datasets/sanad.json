@@ -15,14 +15,14 @@
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": "Sharjah University",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "SANAD: Single-label Arabic News Articles Dataset for automatic text categorization\r\n",
     "Paper Link": "https://www.sciencedirect.com/science/article/pii/S2352340919304305",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "Mendeley Data",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "topic classification",
     "Venue Title": "Data in brief",
@@ -32,5 +32,5 @@
     "Authors": "Omar Einea,Ashraf Elnagar,Ridhwan Al Debsi",
     "Affiliations": ",,",
     "Abstract": "Text Classification is one of the most popular Natural Language Processing (NLP) tasks. Text classification (aka categorization) is an active research topic in recent years. However, much less attention was directed towards this task in Arabic, due to the lack of rich representative resources for training an Arabic text classifier. Therefore, we introduce a large Single-labeled Arabic News Articles Dataset (SANAD) of textual data collected from three news portals. The dataset is a large one consisting of almost 200k articles distributed into seven categories that we offer to the research community on Arabic computational linguistics. We anticipate that this rich dataset would make a great aid for a variety of NLP tasks on Modern Standard Arabic (MSA) textual data, especially for single label text classification purposes. We present the data in raw form. SANAD is composed of three main datasets scraped from three news portals, which are AlKhaleej, AlArabiya, and Akhbarona. SANAD is made public and freely available at https://data.mendeley.com/datasets/57zpx667y9.",
-    "Added By": "nan"
+    "Added By": ""
 }

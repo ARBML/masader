@@ -22,12 +22,12 @@ function accessBadge(text) {
 function setAttributes(attribute, element) {
 
   if (attribute == "Cost") {
-    if (element[attribute] != "nan") return element[attribute]
+    if (element[attribute] != "") return element[attribute]
     else return "0$"
   } else if (attribute == "Access") {
     return accessBadge(element[attribute])
   }
-  else if (element[attribute] != "nan") {
+  else if (element[attribute] != "") {
     return element[attribute]
   }
 

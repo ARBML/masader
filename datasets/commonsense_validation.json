@@ -15,14 +15,14 @@
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": "Jordan University ",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "Is this sentence valid? An Arabic Dataset for Commonsense Validation\r\n",
     "Paper Link": "https://arxiv.org/abs/2008.10873",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "commonsense validation",
     "Venue Title": "ArXiv",
@@ -32,5 +32,5 @@
     "Authors": "Saja Khaled Tawalbeh,Mohammad Al-Smadi",
     "Affiliations": ",",
     "Abstract": "The commonsense understanding and validation remains a challenging task in the field of natural language understanding. Therefore, several research papers have been published that studied the capability of proposed systems to evaluate the models ability to validate commonsense in text. In this paper, we present a benchmark Arabic dataset for commonsense understanding and validation as well as a baseline research and models trained using the same dataset. To the best of our knowledge, this dataset is considered as the first in the field of Arabic text commonsense validation. The dataset is distributed under the Creative Commons BY-SA 4.0 license and can be found on GitHub.",
-    "Added By": "nan"
+    "Added By": ""
 }

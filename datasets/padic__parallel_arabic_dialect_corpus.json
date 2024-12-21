@@ -52,14 +52,14 @@
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": "Loris Fr",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "A multidialectal parallel corpus of Arabic",
     "Paper Link": "https://hal.archives-ouvertes.fr/hal-01261587/document",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "other",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "machine translation",
     "Venue Title": "LREC",
@@ -69,5 +69,5 @@
     "Authors": "Houda Bouamor,Nizar Habash,Kemal Oflazer",
     "Affiliations": ",,",
     "Abstract": "The daily spoken variety of Arabic is often termed the colloquial or dialect form of Arabic. There are many Arabic dialects across the Arab World and within other Arabic speaking communities. These dialects vary widely from region to region and to a lesser extent from city to city in each region. The dialects are not standardized, they are not taught, and they do not have official status. However they are the primary vehicles of communication (face-to-face and recently, online) and have a large presence in the arts as well. In this paper, we present the first multidialectal Arabic parallel corpus, a collection of 2,000 sentences in Standard Arabic, Egyptian, Tunisian, Jordanian, Palestinian and Syrian Arabic, in addition to English. Such parallel data does not exist naturally, which makes this corpus a very valuable resource that has many potential applications such as Arabic dialect identification and machine translation.",
-    "Added By": "nan"
+    "Added By": ""
 }

@@ -14,7 +14,7 @@
             "Unit": "documents"
         }
     ],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "https://github.com/motazsaad/egy-arb-dialect-id",
     "License": "CC BY-SA 4.0",
     "Year": 2017,
@@ -35,11 +35,11 @@
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "cross-lingual information retrieval, document alignment, bilingual lexicon extraction, comparable corpus construction",
     "Venue Title": "IPICICT",
-    "Citations": "nan",
+    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Palestinian International Conference on Information and Communication Technology",
     "Authors": "Motaz Saad, Basem O. Alijla",

@@ -15,14 +15,14 @@
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": "Vienna",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "Sentiment Analysis of Tunisian Dialect:\nLinguistic Resources and Experiments",
     "Paper Link": "https://aclanthology.org/W17-1307.pdf",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "sentiment analysis",
     "Venue Title": "WANLP",
@@ -32,5 +32,5 @@
     "Authors": "Salima Medhaffar,Fethi Bougares,Y. Est\u00e8ve,L. Belguith",
     "Affiliations": ",,,",
     "Abstract": "Dialectal Arabic (DA) is significantly different from the Arabic language taught in schools and used in written communication and formal speech (broadcast news, religion, politics, etc.). There are many existing researches in the field of Arabic language Sentiment Analysis (SA); however, they are generally restricted to Modern Standard Arabic (MSA) or some dialects of economic or political interest. In this paper we are interested in the SA of the Tunisian Dialect. We utilize Machine Learning techniques to determine the polarity of comments written in Tunisian Dialect. First, we evaluate the SA systems performances with models trained using freely available MSA and Multi-dialectal data sets. We then collect and annotate a Tunisian Dialect corpus of 17.000 comments from Facebook. This corpus allows us a significant accuracy improvement compared to the best model trained on other Arabic dialects or MSA data. We believe that this first freely available corpus will be valuable to researchers working in the field of Tunisian Sentiment Analysis and similar areas.",
-    "Added By": "nan"
+    "Added By": ""
 }

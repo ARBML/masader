@@ -15,14 +15,14 @@
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": "iCompass",
-    "Derived From": "nan",
+    "Derived From": "",
     "Paper Title": "TUNIZI: A TUNISIAN ARABIZI SENTIMENT ANALYSIS\r\nDATASET",
     "Paper Link": "https://arxiv.org/pdf/2004.14303.pdf",
     "Script": "Arab-Latn",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "sentiment analysis",
     "Venue Title": "ArXiv",
@@ -32,5 +32,5 @@
     "Authors": "Chayma Fourati,Abir Messaoudi,Hatem Haddad",
     "Affiliations": ",,iCompass",
     "Abstract": "On social media, Arabic people tend to express themselves in their own local dialects. More particularly, Tunisians use the informal way called \"Tunisian Arabizi\". Analytical studies seek to explore and recognize online opinions aiming to exploit them for planning and prediction purposes such as measuring the customer satisfaction and establishing sales and marketing strategies. However, analytical studies based on Deep Learning are data hungry. On the other hand, African languages and dialects are considered low resource languages. For instance, to the best of our knowledge, no annotated Tunisian Arabizi dataset exists. In this paper, we introduce TUNIZI a sentiment analysis Tunisian Arabizi Dataset, collected from social networks, preprocessed for analytical studies and annotated manually by Tunisian native speakers.",
-    "Added By": "nan"
+    "Added By": ""
 }

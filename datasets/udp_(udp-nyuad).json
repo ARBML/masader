@@ -22,7 +22,7 @@
     "Tokenized": "Yes",
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "Yes",
     "Tasks": "morphological attribute tagging, dependency parsing, part of speech tagging\n",
     "Venue Title": "WANLP",

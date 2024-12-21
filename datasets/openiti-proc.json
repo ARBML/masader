@@ -1,7 +1,7 @@
 {
     "Name": "OpenITI-proc",
     "Subsets": [],
-    "HF Link": "nan",
+    "HF Link": "",
     "Link": "https://zenodo.org/record/2535593#.YWh7FS8RozU",
     "License": "CC BY 4.0",
     "Year": 2019,
@@ -22,15 +22,15 @@
     "Tokenized": "Yes",
     "Host": "zenodo",
     "Access": "Free",
-    "Cost": "nan",
+    "Cost": "",
     "Test Split": "No",
     "Tasks": "text generation, language modeling",
     "Venue Title": "LRE",
-    "Citations": "nan",
+    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "Language Resources and Evaluation",
     "Authors": "Yonatan Belinkov, Alexander Magidow, Alberto Barr\u00f3n-Cede\u00f1o, Avi Shmidman, Maxim Romanov",
-    "Affiliations": "nan",
+    "Affiliations": "",
     "Abstract": "Arabic is a widely-spoken language with a long and rich history, but existing corpora and language technology focus mostly on modern Arabic and its varieties. Therefore, studying the history of the language has so far been mostly limited to manual analyses on a small scale. In this work, we present a large-scale historical corpus of the written Arabic language, spanning 1400 years. We describe our efforts to clean and process this corpus using Arabic NLP tools, including the identification of reused text. We study the history of the Arabic language using a novel automatic periodization algorithm, as well as other techniques. Our findings confirm the established division of written Arabic into Modern Standard and Classical Arabic, and confirm other established periodizations, while suggesting that written Arabic may be divisible into still further periods of development.",
     "Added By": "Yonatan Belinkov"
 }

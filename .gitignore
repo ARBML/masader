@@ -7,3 +7,4 @@ vendor
 .pytest_cache
 .hypothesis
 Gemfile.lock
+save_jsons.py
