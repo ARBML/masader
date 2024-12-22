@@ -3,31 +3,31 @@
     "Subsets": [
         {
             "Name": "Algeria",
-            "Dialect": "ar-DZ: (Arabic (Algeria))",
+            "Dialect": "Algeria",
             "Volume": "13,393",
             "Unit": "sentences"
         },
         {
             "Name": "Lebanon",
-            "Dialect": "ar-LB: (Arabic (Lebanon))",
+            "Dialect": "Lebanon",
             "Volume": "14,482",
             "Unit": "sentences"
         },
         {
             "Name": "Morocco",
-            "Dialect": "ar-MA: (Arabic (Morocco))",
+            "Dialect": "Morocco",
             "Volume": "9,965",
             "Unit": "sentences"
         },
         {
             "Name": "Tunisia",
-            "Dialect": "ar-TN: (Arabic (Tunisia))",
+            "Dialect": "Tunisia",
             "Volume": "8,044",
             "Unit": "sentences"
         },
         {
             "Name": "Egypt",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "7,519",
             "Unit": "sentences"
         }

@@ -3,31 +3,31 @@
     "Subsets": [
         {
             "Name": "Algerian",
-            "Dialect": "ar-DZ: (Arabic (Algeria))",
+            "Dialect": "Algeria",
             "Volume": "607",
             "Unit": "sentences"
         },
         {
             "Name": "Egyptian",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "588",
             "Unit": "sentences"
         },
         {
             "Name": "Lebanese",
-            "Dialect": "ar-LB: (Arabic (Lebanon))",
+            "Dialect": "Lebanon",
             "Volume": "633",
             "Unit": "sentences"
         },
         {
             "Name": "Syrian",
-            "Dialect": "ar-SY: (Arabic (Syria))",
+            "Dialect": "Syria",
             "Volume": "593",
             "Unit": "sentences"
         },
         {
             "Name": "Tunisian",
-            "Dialect": "ar-TN: (Arabic (Tunisia))",
+            "Dialect": "Tunisia",
             "Volume": "649",
             "Unit": "sentences"
         }

@@ -3,7 +3,7 @@
     "Subsets": [
         {
             "Name": "",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "380,000",
             "Unit": "tokens"
         }
@@ -13,7 +13,7 @@
     "License": "LDC User Agreement for Non-Members",
     "Year": 2012,
     "Language": "multilingual",
-    "Dialect": "ar-LEV: (Arabic (Levant))",
+    "Dialect": "Levant",
     "Domain": "other",
     "Form": "text",
     "Collection Style": "crawling and annotation(translation)",

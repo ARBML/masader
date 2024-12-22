@@ -3,97 +3,97 @@
     "Subsets": [
         {
             "Name": "United_Arab_Emirates ",
-            "Dialect": "ar-AE: (Arabic (United Arab Emirates))",
+            "Dialect": "United Arab Emirates",
             "Volume": "102,370,313",
             "Unit": "tokens"
         },
         {
             "Name": "Palestine ",
-            "Dialect": "ar-PS: (Arabic (Palestine))",
+            "Dialect": "Palestine",
             "Volume": "97,161,325",
             "Unit": "tokens"
         },
         {
             "Name": "Morocco ",
-            "Dialect": "ar-MA: (Arabic (Morocco))",
+            "Dialect": "Morocco",
             "Volume": "78,749,159",
             "Unit": "tokens"
         },
         {
             "Name": "Syria",
-            "Dialect": "ar-SY: (Arabic (Syria))",
+            "Dialect": "Syria",
             "Volume": "24,308,507",
             "Unit": "tokens"
         },
         {
             "Name": "Saudi_Arabia ",
-            "Dialect": "ar-SA: (Arabic (Saudi Arabia))",
+            "Dialect": "Saudi Arabia",
             "Volume": "14,651,603",
             "Unit": "tokens"
         },
         {
             "Name": "Algeria",
-            "Dialect": "ar-DZ: (Arabic (Algeria))",
+            "Dialect": "Algeria",
             "Volume": "11,533,390",
             "Unit": "tokens"
         },
         {
             "Name": "Qatar ",
-            "Dialect": "ar-QA: (Arabic (Qatar))",
+            "Dialect": "Qatar",
             "Volume": "10,783,360",
             "Unit": "tokens"
         },
         {
             "Name": "Jordan",
-            "Dialect": "ar-JO: (Arabic (Jordan))",
+            "Dialect": "Jordan",
             "Volume": "8,638,264",
             "Unit": "tokens"
         },
         {
             "Name": "Oman",
-            "Dialect": "ar-OM: (Arabic (Oman))",
+            "Dialect": "Oman",
             "Volume": "5,508,084",
             "Unit": "tokens"
         },
         {
             "Name": "Bahrain",
-            "Dialect": "ar-BH: (Arabic (Bahrain))",
+            "Dialect": "Bahrain",
             "Volume": "4,524,743",
             "Unit": "tokens"
         },
         {
             "Name": "Iraq ",
-            "Dialect": "ar-IQ: (Arabic (Iraq))",
+            "Dialect": "Iraq",
             "Volume": "4,497,374",
             "Unit": "tokens"
         },
         {
             "Name": "Tunisia",
-            "Dialect": "ar-TN: (Arabic (Tunisia))",
+            "Dialect": "Tunisia",
             "Volume": "3,581,885",
             "Unit": "tokens"
         },
         {
             "Name": "Sudan",
-            "Dialect": "ar-SD: (Arabic (Sudan))",
+            "Dialect": "Sudan",
             "Volume": "2,522,356",
             "Unit": "tokens"
         },
         {
             "Name": "Egypt",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "2,465,722",
             "Unit": "tokens"
         },
         {
             "Name": "Djibouti ",
-            "Dialect": "ar-DJ: (Arabic (Djibouti))",
+            "Dialect": "Djibouti",
             "Volume": "1,468,411",
             "Unit": "tokens"
         },
         {
             "Name": "Somalia",
-            "Dialect": "ar-SO: (Arabic (Somalia))",
+            "Dialect": "Somalia",
             "Volume": "255,511",
             "Unit": "tokens"
         }

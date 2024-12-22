@@ -3,31 +3,31 @@
     "Subsets": [
         {
             "Name": "EGY",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "5,265",
             "Unit": "sentences"
         },
         {
             "Name": "GLF",
-            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Dialect": "Gulf",
             "Volume": "5,893",
             "Unit": "sentences"
         },
         {
             "Name": "IRQ",
-            "Dialect": "ar-IQ: (Arabic (Iraq))",
+            "Dialect": "Iraq",
             "Volume": "5,253",
             "Unit": "sentences"
         },
         {
             "Name": "LEV",
-            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Dialect": "Levant",
             "Volume": "3,939",
             "Unit": "sentences"
         },
         {
             "Name": "MGH",
-            "Dialect": "ar-NOR: (Arabic (North Africa))",
+            "Dialect": "North Africa",
             "Volume": "3,930",
             "Unit": "sentences"
         }

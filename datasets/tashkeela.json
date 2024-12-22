@@ -3,13 +3,13 @@
     "Subsets": [
         {
             "Name": "Classical Arabic",
-            "Dialect": "ar-CLS: (Arabic (Classic))",
+            "Dialect": "Classical Arabic",
             "Volume": "74,762,008",
             "Unit": "tokens"
         },
         {
             "Name": "Modern Standard Arabic",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "867,913",
             "Unit": "tokens"
         },

@@ -3,31 +3,31 @@
     "Subsets": [
         {
             "Name": "KSA",
-            "Dialect": "ar-SA: (Arabic (Saudi Arabia))",
+            "Dialect": "Saudi Arabia",
             "Volume": "2.33",
             "Unit": "hours"
         },
         {
             "Name": "MSA",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "0.83",
             "Unit": "hours"
         },
         {
             "Name": "SYR",
-            "Dialect": "ar-SY: (Arabic (Syria))",
+            "Dialect": "Syria",
             "Volume": "0.83",
             "Unit": "hours"
         },
         {
             "Name": "EGY",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "1.5",
             "Unit": "hours"
         },
         {
             "Name": "LEB",
-            "Dialect": "ar-LB: (Arabic (Lebanon))",
+            "Dialect": "Lebanon",
             "Volume": "1.5",
             "Unit": "hours"
         },

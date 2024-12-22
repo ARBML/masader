@@ -3,7 +3,7 @@
     "Subsets": [
         {
             "Name": "Arabic",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "10,197",
             "Unit": "documents"
         },

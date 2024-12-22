@@ -3,37 +3,37 @@
     "Subsets": [
         {
             "Name": "Gulf",
-            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Dialect": "Gulf",
             "Volume": "9,484",
             "Unit": "documents"
         },
         {
             "Name": "Egyptian",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "7,265",
             "Unit": "documents"
         },
         {
             "Name": "Levantine",
-            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Dialect": "Levant",
             "Volume": "6,016",
             "Unit": "documents"
         },
         {
             "Name": "Iraqi",
-            "Dialect": "ar-IQ: (Arabic (Iraq))",
+            "Dialect": "Iraq",
             "Volume": "3,438",
             "Unit": "documents"
         },
         {
             "Name": "Sudan",
-            "Dialect": "ar-SD: (Arabic (Sudan))",
+            "Dialect": "Sudan",
             "Volume": "2,662",
             "Unit": "documents"
         },
         {
             "Name": "Maghrebi",
-            "Dialect": "ar-NOR: (Arabic (North Africa))",
+            "Dialect": "North Africa",
             "Volume": "1,207",
             "Unit": "documents"
         }

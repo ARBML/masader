@@ -3,31 +3,31 @@
     "Subsets": [
         {
             "Name": "GLF",
-            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Dialect": "Gulf",
             "Volume": "2,546",
             "Unit": "sentences"
         },
         {
             "Name": "LAV",
-            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Dialect": "Levant",
             "Volume": "2,463",
             "Unit": "sentences"
         },
         {
             "Name": "MSA",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "3,731",
             "Unit": "sentences"
         },
         {
             "Name": "NOR",
-            "Dialect": "ar-NOR: (Arabic (North Africa))",
+            "Dialect": "North Africa",
             "Volume": "3,693",
             "Unit": "sentences"
         },
         {
             "Name": "EGY",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "4,061",
             "Unit": "sentences"
         }

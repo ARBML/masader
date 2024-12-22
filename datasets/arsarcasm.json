@@ -3,31 +3,31 @@
     "Subsets": [
         {
             "Name": "Egyptian",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "2,383",
             "Unit": "sentences"
         },
         {
             "Name": "Gulf",
-            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Dialect": "Gulf",
             "Volume": "519",
             "Unit": "sentences"
         },
         {
             "Name": "Levantine",
-            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Dialect": "Levant",
             "Volume": "551",
             "Unit": "sentences"
         },
         {
             "Name": "Maghrebi",
-            "Dialect": "ar-MA: (Arabic (Morocco))",
+            "Dialect": "Morocco",
             "Volume": "32",
             "Unit": "sentences"
         },
         {
             "Name": "MSA",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "7,062",
             "Unit": "sentences"
         }

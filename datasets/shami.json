@@ -3,25 +3,25 @@
     "Subsets": [
         {
             "Name": "Jordanian",
-            "Dialect": "ar-JO: (Arabic (Jordan))",
+            "Dialect": "Jordan",
             "Volume": "32,078",
             "Unit": "sentences"
         },
         {
             "Name": "Palestanian",
-            "Dialect": "ar-PS: (Arabic (Palestine))",
+            "Dialect": "Palestine",
             "Volume": "21,264",
             "Unit": "sentences"
         },
         {
             "Name": "Syrian",
-            "Dialect": "ar-SY: (Arabic (Syria))",
+            "Dialect": "Syria",
             "Volume": "48,159",
             "Unit": "sentences"
         },
         {
             "Name": "Lebanese",
-            "Dialect": "ar-LB: (Arabic (Lebanon))",
+            "Dialect": "Lebanon",
             "Volume": "16,304",
             "Unit": "sentences"
         }
@@ -31,7 +31,7 @@
     "License": "Apache-2.0",
     "Year": 2018,
     "Language": "ar",
-    "Dialect": "ar-LEV: (Arabic (Levant))",
+    "Dialect": "Levant",
     "Domain": "social media",
     "Form": "text",
     "Collection Style": "crawling and annotation(other)",

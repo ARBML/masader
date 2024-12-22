@@ -3,13 +3,13 @@
     "Subsets": [
         {
             "Name": "X-CSQA",
-            "Dialect": "ar-CLS: (Arabic (Classic))",
+            "Dialect": "Classical Arabic",
             "Volume": "2,074",
             "Unit": "sentences"
         },
         {
             "Name": "X-CODAH:",
-            "Dialect": "ar-CLS: (Arabic (Classic))",
+            "Dialect": "Classical Arabic",
             "Volume": "1,300",
             "Unit": "sentences"
         }
@@ -19,7 +19,7 @@
     "License": "unknown",
     "Year": 2021,
     "Language": "multilingual",
-    "Dialect": "ar-CLS: (Arabic (Classic))",
+    "Dialect": "Classical Arabic",
     "Domain": "other",
     "Form": "text",
     "Collection Style": "human translation",

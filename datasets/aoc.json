@@ -3,7 +3,7 @@
     "Subsets": [
         {
             "Name": "MSA",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "63,555",
             "Unit": "sentences"
         },

@@ -3,13 +3,13 @@
     "Subsets": [
         {
             "Name": "GLF",
-            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Dialect": "Gulf",
             "Volume": "150,000",
             "Unit": "sentences"
         },
         {
             "Name": "EGY",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "150,000",
             "Unit": "sentences"
         }

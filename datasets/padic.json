@@ -3,37 +3,37 @@
     "Subsets": [
         {
             "Name": "ALG",
-            "Dialect": "ar-DZ: (Arabic (Algeria))",
+            "Dialect": "Algeria",
             "Volume": "6,400",
             "Unit": "sentences"
         },
         {
             "Name": "ANB",
-            "Dialect": "ar-DZ: (Arabic (Algeria))",
+            "Dialect": "Algeria",
             "Volume": "6,400",
             "Unit": "sentences"
         },
         {
             "Name": "TUN",
-            "Dialect": "ar-TN: (Arabic (Tunisia))",
+            "Dialect": "Tunisia",
             "Volume": "6,400",
             "Unit": "sentences"
         },
         {
             "Name": "SYR",
-            "Dialect": "ar-SY: (Arabic (Syria))",
+            "Dialect": "Syria",
             "Volume": "6,400",
             "Unit": "sentences"
         },
         {
             "Name": "PAL",
-            "Dialect": "ar-PS: (Arabic (Palestine))",
+            "Dialect": "Palestine",
             "Volume": "6,400",
             "Unit": "sentences"
         },
         {
             "Name": "MSA",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "6,400",
             "Unit": "sentences"
         }

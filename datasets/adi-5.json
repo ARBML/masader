@@ -3,31 +3,31 @@
     "Subsets": [
         {
             "Name": "Egyptian",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "14.4",
             "Unit": "hours"
         },
         {
             "Name": "Gulf",
-            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Dialect": "Gulf",
             "Volume": "14.1",
             "Unit": "hours"
         },
         {
             "Name": "Levantine",
-            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Dialect": "Levant",
             "Volume": "14.3",
             "Unit": "hours"
         },
         {
             "Name": "MSA",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "14.3",
             "Unit": "hours"
         },
         {
             "Name": "North African",
-            "Dialect": "ar-NOR: (Arabic (North Africa))",
+            "Dialect": "North Africa",
             "Volume": "14.6",
             "Unit": "hours"
         }

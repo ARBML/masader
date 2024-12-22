@@ -3,49 +3,49 @@
     "Subsets": [
         {
             "Name": "SA",
-            "Dialect": "ar-SA: (Arabic (Saudi Arabia))",
+            "Dialect": "Saudi Arabia",
             "Volume": "748",
             "Unit": "documents"
         },
         {
             "Name": "AE",
-            "Dialect": "ar-AE: (Arabic (United Arab Emirates))",
+            "Dialect": "United Arab Emirates",
             "Volume": "165",
             "Unit": "documents"
         },
         {
             "Name": "KW",
-            "Dialect": "ar-KW: (Arabic (Kuwait))",
+            "Dialect": "Kuwait",
             "Volume": "73",
             "Unit": "documents"
         },
         {
             "Name": "OM",
-            "Dialect": "ar-OM: (Arabic (Oman))",
+            "Dialect": "Oman",
             "Volume": "14",
             "Unit": "documents"
         },
         {
             "Name": "QA",
-            "Dialect": "ar-QA: (Arabic (Qatar))",
+            "Dialect": "Qatar",
             "Volume": "8",
             "Unit": "documents"
         },
         {
             "Name": "BH",
-            "Dialect": "ar-BH: (Arabic (Bahrain))",
+            "Dialect": "Bahrain",
             "Volume": "6",
             "Unit": "documents"
         },
         {
             "Name": "GA",
-            "Dialect": "ar-GLF: (Arabic (Gulf))",
+            "Dialect": "Gulf",
             "Volume": "123",
             "Unit": "documents"
         },
         {
             "Name": "Arabic",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "98",
             "Unit": "documents"
         }

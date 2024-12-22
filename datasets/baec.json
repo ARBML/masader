@@ -3,19 +3,19 @@
     "Subsets": [
         {
             "Name": "SDC",
-            "Dialect": "ar-SA: (Arabic (Saudi Arabia))",
+            "Dialect": "Saudi Arabia",
             "Volume": "210,396",
             "Unit": "tokens"
         },
         {
             "Name": "EDC",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "218,149",
             "Unit": "tokens"
         },
         {
             "Name": "MSA",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "45,251",
             "Unit": "tokens"
         }

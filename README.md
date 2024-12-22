@@ -20,7 +20,7 @@ The first online catalogue for Arabic NLP datasets. This catalogue contains more
 -   `License` license of the dataset
 -   `Year` year of the publishing the dataset/paper
 -   `Language` ar or multilingual
--   `Dialect` region ar-LEV: (Arabic(Levant)), country ar-EGY: (Arabic (Egypt)) or type ar-MSA: (Arabic (Modern Standard Arabic))
+-   `Dialect` region Levant, country ar-EGY: (Arabic (Egypt)) or type Modern Standard Arabic
 -   `Domain` social media, news articles, reviews, commentary, books, transcribed audio or other
 -   `Form` text, audio or sign language
 -   `Collection style` crawling, crawling and annotation (translation), crawling and annotation (other), machine translation, human translation, human curation or other
@@ -72,7 +72,7 @@ which gives the following output
  'Cost': '',
  'Derived From': '',
  'Description': 'the first Levantine Dialect Corpus (SDC) covering data from the four dialects spoken in Palestine, Jordan, Lebanon and Syria.',
- 'Dialect': 'ar-LEV: (Arabic(Levant))',
+ 'Dialect': 'Levant',
  'Domain': 'social media',
  'Ethical Risks': 'Medium',
  'Form': 'text',
@@ -85,7 +85,7 @@ which gives the following output
  'Paper Title': 'Shami: A Corpus of Levantine Arabic Dialects',
  'Provider': 'Multiple institutions ',
  'Script': 'Arab',
- 'Subsets': [{'Dialect': 'ar-JO: (Arabic (Jordan))',
+ 'Subsets': [{'Dialect': 'Jordan',
    'Name': 'Jordanian',
    'Unit': 'sentences',
    'Volume': '32,078'},
@@ -93,11 +93,11 @@ which gives the following output
    'Name': 'Palestanian',
    'Unit': 'sentences',
    'Volume': '21,264'},
-  {'Dialect': 'ar-SY: (Arabic (Syria))',
+  {'Dialect': 'Syria',
    'Name': 'Syrian',
    'Unit': 'sentences',
    'Volume': '48,159'},
-  {'Dialect': 'ar-LB: (Arabic (Lebanon))',
+  {'Dialect': 'Lebanon',
    'Name': 'Lebanese',
    'Unit': 'sentences',
    'Volume': '16,304'}],

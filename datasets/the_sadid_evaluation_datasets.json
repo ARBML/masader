@@ -3,19 +3,19 @@
     "Subsets": [
         {
             "Name": "Levantine",
-            "Dialect": "ar-LEV: (Arabic (Levant))",
+            "Dialect": "Levant",
             "Volume": "8,988",
             "Unit": "sentences"
         },
         {
             "Name": "Egyptian",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "8,988",
             "Unit": "sentences"
         },
         {
             "Name": "MSA",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "2,994",
             "Unit": "sentences"
         },

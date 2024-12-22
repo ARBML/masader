@@ -3,7 +3,7 @@
     "Subsets": [
         {
             "Name": "",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "3,786",
             "Unit": "sentences"
         }
@@ -13,7 +13,7 @@
     "License": "Apache-2.0",
     "Year": 2020,
     "Language": "ar",
-    "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+    "Dialect": "Modern Standard Arabic",
     "Domain": "news articles",
     "Form": "text",
     "Collection Style": "crawling and annotation(other)",

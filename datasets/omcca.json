@@ -3,13 +3,13 @@
     "Subsets": [
         {
             "Name": "Saudi ",
-            "Dialect": "ar-SA: (Arabic (Saudi Arabia))",
+            "Dialect": "Saudi Arabia",
             "Volume": "18,282",
             "Unit": "sentences"
         },
         {
             "Name": "Jordan",
-            "Dialect": "ar-JO: (Arabic (Jordan))",
+            "Dialect": "Jordan",
             "Volume": "10,294",
             "Unit": "sentences"
         }

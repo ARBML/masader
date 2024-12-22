@@ -3,103 +3,103 @@
     "Subsets": [
         {
             "Name": "Algeria",
-            "Dialect": "ar-DZ: (Arabic (Algeria))",
+            "Dialect": "Algeria",
             "Volume": "115.7",
             "Unit": "hours"
         },
         {
             "Name": "Egypt",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "451.1",
             "Unit": "hours"
         },
         {
             "Name": "Iraq",
-            "Dialect": "ar-IQ: (Arabic (Iraq))",
+            "Dialect": "Iraq",
             "Volume": "815.8",
             "Unit": "hours"
         },
         {
             "Name": "Jordan",
-            "Dialect": "ar-JO: (Arabic (Jordan))",
+            "Dialect": "Jordan",
             "Volume": "25.9",
             "Unit": "hours"
         },
         {
             "Name": "Saudi Arabia",
-            "Dialect": "ar-SA: (Arabic (Saudi Arabia))",
+            "Dialect": "Saudi Arabia",
             "Volume": "186.1",
             "Unit": "hours"
         },
         {
             "Name": "Kuwait",
-            "Dialect": "ar-KW: (Arabic (Kuwait))",
+            "Dialect": "Kuwait",
             "Volume": "108.2",
             "Unit": "hours"
         },
         {
             "Name": "Lebanon",
-            "Dialect": "ar-LB: (Arabic (Lebanon))",
+            "Dialect": "Lebanon",
             "Volume": "116.8",
             "Unit": "hours"
         },
         {
             "Name": "Libya",
-            "Dialect": "ar-LY: (Arabic (Libya))",
+            "Dialect": "Libya",
             "Volume": "127.4",
             "Unit": "hours"
         },
         {
             "Name": "Mauritania",
-            "Dialect": "ar-MR: (Arabic (Mauritania))",
+            "Dialect": "Mauritania",
             "Volume": "456.4",
             "Unit": "hours"
         },
         {
             "Name": "Morocco",
-            "Dialect": "ar-MA: (Arabic (Morocco))",
+            "Dialect": "Morocco",
             "Volume": "57.8",
             "Unit": "hours"
         },
         {
             "Name": "Oman",
-            "Dialect": "ar-OM: (Arabic (Oman))",
+            "Dialect": "Oman",
             "Volume": "58.5",
             "Unit": "hours"
         },
         {
             "Name": "Palestine",
-            "Dialect": "ar-PS: (Arabic (Palestine))",
+            "Dialect": "Palestine",
             "Volume": "121.4",
             "Unit": "hours"
         },
         {
             "Name": "Qatar",
-            "Dialect": "ar-QA: (Arabic (Qatar))",
+            "Dialect": "Qatar",
             "Volume": "62.3",
             "Unit": "hours"
         },
         {
             "Name": "Sudan",
-            "Dialect": "ar-SD: (Arabic (Sudan))",
+            "Dialect": "Sudan",
             "Volume": "47.7",
             "Unit": "hours"
         },
         {
             "Name": "Syria",
-            "Dialect": "ar-SY: (Arabic (Syria))",
+            "Dialect": "Syria",
             "Volume": "119.5",
             "Unit": "hours"
         },
         {
             "Name": "UAE",
-            "Dialect": "ar-AE: (Arabic (United Arab Emirates))",
+            "Dialect": "United Arab Emirates",
             "Volume": "108.4",
             "Unit": "hours"
         },
         {
             "Name": "Yemen",
-            "Dialect": "ar-YE: (Arabic (Yemen))",
+            "Dialect": "Yemen",
             "Volume": "53.4",
             "Unit": "hours"
         }

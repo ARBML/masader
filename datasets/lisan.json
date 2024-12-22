@@ -3,25 +3,25 @@
     "Subsets": [
         {
             "Name": "Iraqi",
-            "Dialect": "ar-IQ: (Arabic (Iraq))",
+            "Dialect": "Iraq",
             "Volume": "50,000",
             "Unit": "tokens"
         },
         {
             "Name": "Libyan",
-            "Dialect": "ar-LY: (Arabic (Libya))",
+            "Dialect": "Libya",
             "Volume": "52,000",
             "Unit": "tokens"
         },
         {
             "Name": "Sudanese",
-            "Dialect": "ar-SD: (Arabic (Sudan))",
+            "Dialect": "Sudan",
             "Volume": "53,000",
             "Unit": "tokens"
         },
         {
             "Name": "Yemeni",
-            "Dialect": "ar-YE: (Arabic (Yemen))",
+            "Dialect": "Yemen",
             "Volume": "1,050,000",
             "Unit": "tokens"
         }

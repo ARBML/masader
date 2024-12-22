@@ -3,13 +3,13 @@
     "Subsets": [
         {
             "Name": "Arabic Wikipedia",
-            "Dialect": "ar-MSA: (Arabic (Modern Standard Arabic))",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "10,197",
             "Unit": "documents"
         },
         {
             "Name": "Egyptian Wikipedia",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "10,197",
             "Unit": "documents"
         }

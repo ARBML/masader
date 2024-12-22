@@ -3,127 +3,127 @@
     "Subsets": [
         {
             "Name": "Algeria",
-            "Dialect": "ar-DZ: (Arabic (Algeria))",
+            "Dialect": "Algeria",
             "Volume": "2,214",
             "Unit": "sentences"
         },
         {
             "Name": "Bahrain",
-            "Dialect": "ar-BH: (Arabic (Bahrain))",
+            "Dialect": "Bahrain",
             "Volume": "238",
             "Unit": "sentences"
         },
         {
             "Name": "Djibouti",
-            "Dialect": "ar-DJ: (Arabic (Djibouti))",
+            "Dialect": "Djibouti",
             "Volume": "271",
             "Unit": "sentences"
         },
         {
             "Name": "Egypt",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "6,635",
             "Unit": "sentences"
         },
         {
             "Name": "Iraq",
-            "Dialect": "ar-IQ: (Arabic (Iraq))",
+            "Dialect": "Iraq",
             "Volume": "3,816",
             "Unit": "sentences"
         },
         {
             "Name": "Jordan",
-            "Dialect": "ar-JO: (Arabic (Jordan))",
+            "Dialect": "Jordan",
             "Volume": "634",
             "Unit": "sentences"
         },
         {
             "Name": "Kuwait",
-            "Dialect": "ar-KW: (Arabic (Kuwait))",
+            "Dialect": "Kuwait",
             "Volume": "592",
             "Unit": "sentences"
         },
         {
             "Name": "Lebanon",
-            "Dialect": "ar-LB: (Arabic (Lebanon))",
+            "Dialect": "Lebanon",
             "Volume": "905",
             "Unit": "sentences"
         },
         {
             "Name": "Libya",
-            "Dialect": "ar-LY: (Arabic (Libya))",
+            "Dialect": "Libya",
             "Volume": "1,600",
             "Unit": "sentences"
         },
         {
             "Name": "Mauritania",
-            "Dialect": "ar-MR: (Arabic (Mauritania))",
+            "Dialect": "Mauritania",
             "Volume": "255",
             "Unit": "sentences"
         },
         {
             "Name": "Morocco",
-            "Dialect": "ar-MA: (Arabic (Morocco))",
+            "Dialect": "Morocco",
             "Volume": "1,579",
             "Unit": "sentences"
         },
         {
             "Name": "Oman",
-            "Dialect": "ar-OM: (Arabic (Oman))",
+            "Dialect": "Oman",
             "Volume": "1,615",
             "Unit": "sentences"
         },
         {
             "Name": "Palestine",
-            "Dialect": "ar-PS: (Arabic (Palestine))",
+            "Dialect": "Palestine",
             "Volume": "624",
             "Unit": "sentences"
         },
         {
             "Name": "Qatar ",
-            "Dialect": "ar-QA: (Arabic (Qatar))",
+            "Dialect": "Qatar",
             "Volume": "399",
             "Unit": "sentences"
         },
         {
             "Name": "Saudi Arabia",
-            "Dialect": "ar-SA: (Arabic (Saudi Arabia))",
+            "Dialect": "Saudi Arabia",
             "Volume": "3,455",
             "Unit": "sentences"
         },
         {
             "Name": "Somalia",
-            "Dialect": "ar-SO: (Arabic (Somalia))",
+            "Dialect": "Somalia",
             "Volume": "312",
             "Unit": "sentences"
         },
         {
             "Name": "Sudan",
-            "Dialect": "ar-SD: (Arabic (Sudan))",
+            "Dialect": "Sudan",
             "Volume": "312",
             "Unit": "sentences"
         },
         {
             "Name": "Syria",
-            "Dialect": "ar-SY: (Arabic (Syria))",
+            "Dialect": "Syria",
             "Volume": "1,595",
             "Unit": "sentences"
         },
         {
             "Name": "Tunisia",
-            "Dialect": "ar-TN: (Arabic (Tunisia))",
+            "Dialect": "Tunisia",
             "Volume": "1,122",
             "Unit": "sentences"
         },
         {
             "Name": "UAE",
-            "Dialect": "ar-AE: (Arabic (United Arab Emirates))",
+            "Dialect": "United Arab Emirates",
             "Volume": "1,548",
             "Unit": "sentences"
         },
         {
             "Name": "Yemen",
-            "Dialect": "ar-YE: (Arabic (Yemen))",
+            "Dialect": "Yemen",
             "Volume": "1,236",
             "Unit": "sentences"
         }

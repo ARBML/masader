@@ -3,127 +3,127 @@
     "Subsets": [
         {
             "Name": "Saudi Arabia",
-            "Dialect": "ar-SA: (Arabic (Saudi Arabia))",
+            "Dialect": "Saudi Arabia",
             "Volume": "1,070",
             "Unit": "sentences"
         },
         {
             "Name": "Kuwait",
-            "Dialect": "ar-KW: (Arabic (Kuwait))",
+            "Dialect": "Kuwait",
             "Volume": "213",
             "Unit": "sentences"
         },
         {
             "Name": "Egypt",
-            "Dialect": "ar-EG: (Arabic (Egypt))",
+            "Dialect": "Egypt",
             "Volume": "173",
             "Unit": "sentences"
         },
         {
             "Name": "UAE",
-            "Dialect": "ar-AE: (Arabic (United Arab Emirates))",
+            "Dialect": "United Arab Emirates",
             "Volume": "152",
             "Unit": "sentences"
         },
         {
             "Name": "Oman",
-            "Dialect": "ar-OM: (Arabic (Oman))",
+            "Dialect": "Oman",
             "Volume": "138",
             "Unit": "sentences"
         },
         {
             "Name": "Yemen",
-            "Dialect": "ar-YE: (Arabic (Yemen))",
+            "Dialect": "Yemen",
             "Volume": "136",
             "Unit": "sentences"
         },
         {
             "Name": "Qatar",
-            "Dialect": "ar-QA: (Arabic (Qatar))",
+            "Dialect": "Qatar",
             "Volume": "126",
             "Unit": "sentences"
         },
         {
             "Name": "Bahrain",
-            "Dialect": "ar-BH: (Arabic (Bahrain))",
+            "Dialect": "Bahrain",
             "Volume": "113",
             "Unit": "sentences"
         },
         {
             "Name": "Jordan",
-            "Dialect": "ar-JO: (Arabic (Jordan))",
+            "Dialect": "Jordan",
             "Volume": "107",
             "Unit": "sentences"
         },
         {
             "Name": "Sudan",
-            "Dialect": "ar-SD: (Arabic (Sudan))",
+            "Dialect": "Sudan",
             "Volume": "100",
             "Unit": "sentences"
         },
         {
             "Name": "Iraq",
-            "Dialect": "ar-IQ: (Arabic (Iraq))",
+            "Dialect": "Iraq",
             "Volume": "99",
             "Unit": "sentences"
         },
         {
             "Name": "Algeria",
-            "Dialect": "ar-DZ: (Arabic (Algeria))",
+            "Dialect": "Algeria",
             "Volume": "92",
             "Unit": "sentences"
         },
         {
             "Name": "Libya",
-            "Dialect": "ar-LY: (Arabic (Libya))",
+            "Dialect": "Libya",
             "Volume": "87",
             "Unit": "sentences"
         },
         {
             "Name": "Palestine",
-            "Dialect": "ar-PS: (Arabic (Palestine))",
+            "Dialect": "Palestine",
             "Volume": "74",
             "Unit": "sentences"
         },
         {
             "Name": "Lebanon",
-            "Dialect": "ar-LB: (Arabic (Lebanon))",
+            "Dialect": "Lebanon",
             "Volume": "66",
             "Unit": "sentences"
         },
         {
             "Name": "Somalia",
-            "Dialect": "ar-SO: (Arabic (Somalia))",
+            "Dialect": "Somalia",
             "Volume": "60",
             "Unit": "sentences"
         },
         {
             "Name": "Tunisia",
-            "Dialect": "ar-TN: (Arabic (Tunisia))",
+            "Dialect": "Tunisia",
             "Volume": "51",
             "Unit": "sentences"
         },
         {
             "Name": "Syria",
-            "Dialect": "ar-SY: (Arabic (Syria))",
+            "Dialect": "Syria",
             "Volume": "48",
             "Unit": "sentences"
         },
         {
             "Name": "Morocco",
-            "Dialect": "ar-MA: (Arabic (Morocco))",
+            "Dialect": "Morocco",
             "Volume": "45",
             "Unit": "sentences"
         },
         {
             "Name": "Mauritania",
-            "Dialect": "ar-MR: (Arabic (Mauritania))",
+            "Dialect": "Mauritania",
             "Volume": "37",
             "Unit": "sentences"
         },
         {
             "Name": "Djibouti",
-            "Dialect": "ar-DJ: (Arabic (Djibouti))",
+            "Dialect": "Djibouti",
             "Volume": "2",
             "Unit": "sentences"
         }
