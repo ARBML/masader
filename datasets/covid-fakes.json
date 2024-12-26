@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Bilingual (Arabic/English) COVID-19 Twitter dataset for misleading information detection",
     "Volume": "3,263,000",
     "Unit": "sentences",

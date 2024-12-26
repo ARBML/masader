@@ -16,7 +16,7 @@
     "Dialect": "Levant",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(translation)",
+    "Collection Style": "crawling,annotation,machine translation",
     "Description": "it uses crowdsourcing to cheaply and quickly build LevantineEnglish and Egyptian-English parallel corpora, consisting of 1.1M words and 380k words, respectively.",
     "Volume": "1,500,000",
     "Unit": "tokens",

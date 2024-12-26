@@ -58,7 +58,7 @@
     "Dialect": "mixed",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "a large-scale corpus of Gulf Arabic consisting of 110 million words from 1,200 forum novels",
     "Volume": "1,236",
     "Unit": "documents",

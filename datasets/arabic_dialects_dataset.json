@@ -40,7 +40,7 @@
     "Dialect": "mixed",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Dataset of Arabic dialects for GULF, EGYPT, LEVANT, TONESIAN Arabic dialects in addition to MSA.",
     "Volume": "16,494",
     "Unit": "sentences",

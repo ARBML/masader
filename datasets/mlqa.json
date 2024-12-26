@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "5K extractive QA instances (12K in English) in SQuAD format in seven languages - English, Arabic, German, Spanish, Hindi, Vietnamese and Simplified Chinese.",
     "Volume": "5,852",
     "Unit": "documents",

@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Collected to prevent\r\nspreading of rumors and misinformation about\r\nthe virus or bad cures",
     "Volume": "8,000",
     "Unit": "sentences",

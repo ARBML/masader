@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Combined MLMA and L-HSAB datasets",
     "Volume": "5,790",
     "Unit": "sentences",

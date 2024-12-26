@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "a corpus of 15,050 labelled YouTube comments in Arabic",
     "Volume": "15,050",
     "Unit": "sentences",

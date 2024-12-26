@@ -9,7 +9,7 @@
     "Dialect": "Levant",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "A random subset of 1200 Levantine dialectal sentences\r\nchosen from the BBN Arabic-Dialect\u2013English Parallel Text",
     "Volume": "1,200",
     "Unit": "sentences",

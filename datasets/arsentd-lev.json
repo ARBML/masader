@@ -9,7 +9,7 @@
     "Dialect": "Levant",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(translation)",
+    "Collection Style": "crawling,annotation,machine translation",
     "Description": "ArSentD-LEV is a multi-topic corpus for target-based sentiment analysis in Arabic Levantine tweets",
     "Volume": "4,000",
     "Unit": "sentences",

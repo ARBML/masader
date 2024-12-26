@@ -40,7 +40,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "ArSarcasm-v2 is an extension of the original ArSarcasm dataset published along with the paper From Arabic Sentiment Analysis to Sarcasm Detection: The ArSarcasm Dataset. ArSarcasm-v2 consists of ArSarcasm along with portions of DAICT corpus and some new tweets. Each tweet was annotated for sarcasm, sentiment and dialect. The final dataset consists of 15,548 tweets divided into 12,548 training tweets and 3,000 testing tweets. ArSarcasm-v2 was used and released as a part of the shared task on sarcasm detection and sentiment analysis in Arabic",
     "Volume": "15,548",
     "Unit": "sentences",

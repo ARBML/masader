@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "a corpus designed to support research on gender bias in natural language processing applications working on Arabic",
     "Volume": "12,000",
     "Unit": "sentences",

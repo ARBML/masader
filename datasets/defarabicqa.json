@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "2000 snippets returned by Google search engine and Wikipedia Arabic version\nand a set of 50 organization definition questions",
     "Volume": "2,000",
     "Unit": "sentences",

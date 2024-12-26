@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "This is a large multilingual toxicity dataset with 3M rows of text data from 55 natural languages, all of which are written/sent by humans, not machine translation models.",
     "Volume": "51,852",
     "Unit": "sentences",

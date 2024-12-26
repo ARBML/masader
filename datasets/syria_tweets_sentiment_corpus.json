@@ -9,7 +9,7 @@
     "Dialect": "Syria",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "A dataset of 2000 tweets originating from Syria",
     "Volume": "2,000",
     "Unit": "sentences",

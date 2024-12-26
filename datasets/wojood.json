@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Wojood consists of about 550K tokens (MSA and dialect) that are manually annotated with 21 entity types (e.g., person, organization, location, event, date, etc). It covers multiple domains and was annotated with nested entities. The corpus contains about 75K entities and 22.5% of which are nested.",
     "Volume": "550,464",
     "Unit": "tokens",

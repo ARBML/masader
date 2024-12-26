@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(translation)",
+    "Collection Style": "crawling,annotation,machine translation",
     "Description": "A dataset for Modern Standard and Dialectal Arabic emotion detection focused at Robert Plutchik\u2019s 8 basic emotion types",
     "Volume": "7,000",
     "Unit": "sentences",

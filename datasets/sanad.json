@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "textual data collected from three news portals",
     "Volume": "194,797",
     "Unit": "documents",

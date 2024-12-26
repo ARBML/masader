@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "commentary",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Comments to news articles with a continuous level of dialectness score between 0 and 1.",
     "Volume": "127,835",
     "Unit": "sentences",

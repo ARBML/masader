@@ -40,7 +40,7 @@
     "Dialect": "mixed",
     "Domain": "transcribed audio",
     "Form": "spoken",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "This will be divided across the five major Arabic dialects; Egyptian (EGY), Levantine (LAV), Gulf (GLF), North African (NOR), and Modern Standard Arabic (MSA)",
     "Volume": "50",
     "Unit": "hours",

@@ -9,7 +9,7 @@
     "Dialect": "Lebanon",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Subsection of the Lebanese portion of the Shami Corpus annotated for spelling standardization (CODA), morphological segmentation and tagging, and spontaneous orthography taxonomy tagging.",
     "Volume": "10,000",
     "Unit": "tokens",

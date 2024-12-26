@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "consists of 6,222 claims\r\nalong with their factual labels and additional\r\nmetadata, such as fact-checking article content,\r\ntopical category, and links to posts or Web\r\npages spreading the claim",
     "Volume": "6,222",
     "Unit": "sentences",

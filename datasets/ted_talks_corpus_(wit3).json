@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "transcribed audio",
     "Form": "text",
-    "Collection Style": "crawling and annotation(translation)",
+    "Collection Style": "crawling,annotation,machine translation",
     "Description": " The TED Talks corpus contains transcribed and translated TED Talks from 82+ languages. It is curated for use in machine translation and natural language processing research, providing a valuable multilingual parallel corpus.",
     "Volume": "17,000",
     "Unit": "sentences",

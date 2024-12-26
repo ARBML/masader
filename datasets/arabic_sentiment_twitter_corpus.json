@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "A Sentiment Analysis dataset. No extra information is provided regarding the dialects nor the collection methodology",
     "Volume": "58,000",
     "Unit": "sentences",

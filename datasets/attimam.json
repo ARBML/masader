@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "AttImam was developed by Al-Imam Mohammad Ibn Saud Islamic University and consists of approximately 2,000 attribution relations applied to Arabic newswire text from Arabic Treebank: Part 1 v 4.1 (LDC2010T13). Attribution refers to the process of reporting or assigning an utterance to the correct speaker.",
     "Volume": "2,000",
     "Unit": "sentences",

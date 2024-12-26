@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "training dataset contains 5,569 examples, while the testing dataset contains 567 examples collected from twittter",
     "Volume": "6,136",
     "Unit": "sentences",

@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": " consists of 71,397 tweets for 45 authors for MSA collected from twitter. ",
     "Volume": "71,397",
     "Unit": "sentences",

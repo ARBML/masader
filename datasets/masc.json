@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "reviews",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Multi-domain Arabic Sentiment Corpus (MASC) with a size of 8860 positive and negative reviews from different domains",
     "Volume": "8,860",
     "Unit": "sentences",

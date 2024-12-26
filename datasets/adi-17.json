@@ -112,7 +112,7 @@
     "Dialect": "mixed",
     "Domain": "transcribed audio",
     "Form": "spoken",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "dialect identification of speech from YouTube to one of the 17 dialects",
     "Volume": "3,091",
     "Unit": "hours",

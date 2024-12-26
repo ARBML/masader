@@ -40,7 +40,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "This data was collected from the Twitter social network and consists on +50K\ntwits in five (5) national dialects",
     "Volume": "52,210",
     "Unit": "sentences",

@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "It includes 4,037 human-labelled Arabic Twitter messages for four high-risk flood events that occurred in 2018",
     "Volume": "4,037",
     "Unit": "sentences",

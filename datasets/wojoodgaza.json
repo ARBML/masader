@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "It is an extestion of Wojood. It is about the ongoing Israeli War on Gaza, based on the assumption that discourse about recent global events will involve mentions from different data distributions. The dataset is collected from five news domains related to the War (Health, Economics, Finance, Politics, and Law). It consists of 60k tokens, divided into a test set (50k) and a development set (10k), with the domains evenly distributed.y. It is manually annotated with fine-grained named entities, following the same annotation guidelines as WojoodFine.",
     "Volume": "60,000",
     "Unit": "tokens",

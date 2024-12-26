@@ -9,7 +9,7 @@
     "Dialect": "Saudi Arabia",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Saudi Telecom Tweets corpus for sentiment analysis",
     "Volume": "20,000",
     "Unit": "sentences",

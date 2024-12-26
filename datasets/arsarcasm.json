@@ -40,7 +40,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "The dataset was created using previously available Arabic sentiment analysis datasets",
     "Volume": "8,437",
     "Unit": "sentences",

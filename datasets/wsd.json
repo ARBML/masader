@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "A dataset for Arabic Word Sense Disambiguation (WSD) consisting of 3670 labeled examples of 100 polysemous Arabic words. It provides multiple senses for each word, annotated with real-world and GPT-generated sentences.",
     "Volume": "3,670",
     "Unit": "sentences",

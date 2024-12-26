@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "reviews",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Arabic  Laptops Reviews  (ALR) dataset focuses on laptops reviews written in Arabic",
     "Volume": "1,753",
     "Unit": "sentences",

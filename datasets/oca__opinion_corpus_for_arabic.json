@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "books",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "The corpus contains 500 movie reviews collected from different web pages and blogs in Arabic, 250 of them considered as positive reviews, and the other 250 as negative opinions",
     "Volume": "500",
     "Unit": "sentences",

@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "question answering dataset covering 11 typologically diverse languages with 200K question-answer pairs",
     "Volume": "25,893",
     "Unit": "sentences",

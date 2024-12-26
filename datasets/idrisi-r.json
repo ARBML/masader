@@ -34,7 +34,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "IDRISI-R is the largest-scale publicly-available Twitter Location Mention Recognition (LMR) dataset, in both English and Arabic languages. It contains 41 disaster events of different types such as floods, fires, etc. In addition to tagging LMs in text, the LMs are labeled for location types such as countries, cities, streets, POIs, etc.",
     "Volume": "1,268,912",
     "Unit": "sentences",

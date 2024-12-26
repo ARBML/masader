@@ -9,7 +9,7 @@
     "Dialect": "Levant",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Arabic Levantine Hate Speech and Abusive Language Dataset",
     "Volume": "5,851",
     "Unit": "sentences",

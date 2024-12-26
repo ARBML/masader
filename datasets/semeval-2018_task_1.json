@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "it creates a new Affect in Tweets dataset of more than 22,000 tweets such\nthat subsets are annotated for a number of emotion dimensions.",
     "Volume": "22,000",
     "Unit": "tokens",

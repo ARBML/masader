@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "10,045 question-answer-passages triplets extracted from Wikipedia passages",
     "Volume": "10,045",
     "Unit": "sentences",

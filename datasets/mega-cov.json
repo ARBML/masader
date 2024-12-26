@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": " A Billion-Scale Dataset of 100+ Languages for COVID-19",
     "Volume": "45,000,000",
     "Unit": "sentences",

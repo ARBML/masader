@@ -9,7 +9,7 @@
     "Dialect": "Algeria",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "An Algerian dialect dataset annotated for both sentiment (9,000 tweets), emotion (about 5,000 tweets) and extra-linguistic information including author profiling (age and gender)",
     "Volume": "14,000",
     "Unit": "sentences",

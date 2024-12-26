@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "a dataset of YouTube comments in Arabic, specifically designed to be used for thedetection of offensive language in a machine learning scenario",
     "Volume": "15,050",
     "Unit": "sentences",

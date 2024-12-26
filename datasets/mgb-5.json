@@ -9,7 +9,7 @@
     "Dialect": "Morocco",
     "Domain": "transcribed audio",
     "Form": "spoken",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Moroccan Arabic speech extracted from 93 YouTube videos distributed across seven genres: comedy, cooking, family/children, fashion, drama, sports, and science clips.",
     "Volume": "14",
     "Unit": "hours",

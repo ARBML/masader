@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "a crawl of 355M Arabic tweets and covers 50 significant events",
     "Volume": "3,550,000",
     "Unit": "sentences",

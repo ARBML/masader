@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Extends the Wojood dataset by incorporating relations into Wojood's nested structure. The added relations include hasAgent, hasLocation, and hasDate. The dataset, provided in JSON format, consists of sentences, each containing one or more events along with their corresponding arguments. It is divided into three subsets: training, validation, and test.",
     "Volume": "550,000",
     "Unit": "tokens",

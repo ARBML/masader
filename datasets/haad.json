@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "books",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Human Annotated Arabic Dataset of Book Reviews for Aspect Based Sentiment Analysis",
     "Volume": "2,389",
     "Unit": "sentences",

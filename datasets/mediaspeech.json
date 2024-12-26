@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "transcribed audio",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "an open-source 10-hour ASR system evaluation\r\ndataset NTR MediaSpeech for 4 languages: Spanish, French,\r\nTurkish and Arabic",
     "Volume": "10",
     "Unit": "hours",

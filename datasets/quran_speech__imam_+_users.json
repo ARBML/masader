@@ -9,7 +9,7 @@
     "Dialect": "Classical Arabic",
     "Domain": "transcribed audio",
     "Form": "spoken",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "7 full Quran recitations + 18K filtered user recitation",
     "Volume": "61,000",
     "Unit": "sentences",

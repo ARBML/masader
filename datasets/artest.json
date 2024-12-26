@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "web pages",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "ArTest was built on top of ArabicWeb'16 Web collection. If you are interested in getting the collection, please check our ArabicWeb16 Website",
     "Volume": "10,529",
     "Unit": "sentences",

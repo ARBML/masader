@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "1,395 questions posed by crowdworkers on Wikipedia articles",
     "Volume": "1,395",
     "Unit": "sentences",

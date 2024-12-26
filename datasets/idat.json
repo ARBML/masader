@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "written in\r\nModern Standard Arabic but also in different Arabic language varieties\r\nincluding Egypt, Gulf, Levantine and Maghrebi dialects",
     "Volume": "5,030",
     "Unit": "sentences",

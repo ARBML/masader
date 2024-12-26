@@ -9,7 +9,7 @@
     "Dialect": "Sudan",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "it is pre processed dataset from Twitter about Telecom companies in Sudan, it labelled by 3 different labels from different age, gender and background",
     "Volume": "5,349",
     "Unit": "sentences",

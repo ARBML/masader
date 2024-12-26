@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "We provide you with a training data set that consists of Twitter tweets in English, Spanish, Portuguese and Arabic, labeled with gender and language variety.",
     "Volume": "4,000",
     "Unit": "sentences",

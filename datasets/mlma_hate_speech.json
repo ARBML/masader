@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Multilingual and Multi-Aspect Hate Speech Analysis",
     "Volume": "3,354",
     "Unit": "sentences",

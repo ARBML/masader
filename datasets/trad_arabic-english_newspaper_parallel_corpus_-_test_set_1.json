@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(translation)",
+    "Collection Style": "crawling,annotation,machine translation",
     "Description": "This is a parallel corpus of 10,000 words in Arabic and 2 reference translations in English. The source texts are articles collected in 2012 from the Arabic version of Le Monde Diplomatique. The translation has been conducted by two different translation teams following a strict protocol aimed at producing high quality translations.",
     "Volume": "10,000",
     "Unit": "tokens",

@@ -9,7 +9,7 @@
     "Dialect": "Levant",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Levantine Twitter dataset for Misogynistic language",
     "Volume": "6,603",
     "Unit": "sentences",

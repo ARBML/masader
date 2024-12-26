@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "transcribed audio",
     "Form": "spoken",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "a large-scale multilingual ST corpus based on Common Voice, to foster ST research with the largest ever open dataset. Its latest version covers translations from English into 15 languages---Arabic, Catalan, Welsh, German, Estonian, Persian, Indonesian, Japanese, Latvian, Mongolian, Slovenian, Swedish, Tamil, Turkish, Chinese",
     "Volume": "6",
     "Unit": "hours",

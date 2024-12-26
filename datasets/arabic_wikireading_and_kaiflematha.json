@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "high quality and large-scale Arabic reading comprehension datasets: Arabic WikiReading and KaifLematha with around +100 K instances.",
     "Volume": "100,000",
     "Unit": "documents",

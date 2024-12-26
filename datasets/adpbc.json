@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "This corpus contains the words and their dependency relation produced by performing some steps",
     "Volume": "16",
     "Unit": "documents",

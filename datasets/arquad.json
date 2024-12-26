@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "a large MRC dataset for the Arabic language. The dataset comprises 16,020 questions posed by language experts on passages extracted from Arabic Wikipedia articles, where the answer to each question is a text segment from the corresponding reading passage.",
     "Volume": "16,020",
     "Unit": "sentences",

@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "books",
     "Form": "text",
-    "Collection Style": "crawling and annotation(translation)",
+    "Collection Style": "crawling,annotation,machine translation",
     "Description": "This is a curated dataset, specifically designed to facilitate the study of punctuation. It has undergone rigorous manual annotation and verification on the basis of sentence structure, with sentence boundaries clearly marked. ",
     "Volume": "12,183,000",
     "Unit": "sentences",

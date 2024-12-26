@@ -9,7 +9,7 @@
     "Dialect": "Egypt",
     "Domain": "transcribed audio",
     "Form": "spoken",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "explores multi-genre data; comedy, cooking, cultural, environment, family-kids, fashion, movies-drama, sports, and science talks (TEDX)",
     "Volume": "16",
     "Unit": "hours",

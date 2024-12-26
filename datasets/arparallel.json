@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(translation)",
+    "Collection Style": "crawling,annotation,machine translation",
     "Description": "The first monolingual parallel corpus of Arabic generated automatically from translating a bilingual English-French corpus. It can be used to train sequence-to-sequence models for paraphrasing, machine translation, text simplification, and other language generation tasks.",
     "Volume": "100,000",
     "Unit": "sentences",

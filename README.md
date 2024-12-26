@@ -68,7 +68,7 @@ which gives the following output
  'Affiliations': ',The Islamic University of Gaza,,',
  'Authors': 'Chatrine Qwaider,Motaz Saad,S. Chatzikyriakidis,Simon Dobnik',
  'Citations': '25.0',
- 'Collection Style': 'crawling and annotation(other)',
+ 'Collection Style': 'crawling,annotation',
  'Cost': '',
  'Derived From': '',
  'Description': 'the first Levantine Dialect Corpus (SDC) covering data from the four dialects spoken in Palestine, Jordan, Lebanon and Syria.',

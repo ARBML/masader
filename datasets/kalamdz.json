@@ -9,7 +9,7 @@
     "Dialect": "Algeria",
     "Domain": "transcribed audio",
     "Form": "spoken",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "8 major Algerian Arabic sub-dialects with 4881\r\nspeakers and more than 104.4 hours segmented in utterances of at least 6 s",
     "Volume": "104",
     "Unit": "hours",

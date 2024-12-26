@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Arabic multidialectal dataset for misogynistic language",
     "Volume": "9,833",
     "Unit": "sentences",

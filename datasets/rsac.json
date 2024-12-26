@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "reviews",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "This dataset contains 6318 hotel reviews collected from the Booking.com website. The reviews are written in both standard and dialectical Arabic and manually annotated as either positive or negative.",
     "Volume": "8,425",
     "Unit": "sentences",

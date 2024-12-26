@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(translation)",
+    "Collection Style": "crawling,annotation,machine translation",
     "Description": "multilingually aligned for 20 languages, i.e. 20 monolingual corpora and 190 parallel corpora",
     "Volume": "154,301",
     "Unit": "sentences",

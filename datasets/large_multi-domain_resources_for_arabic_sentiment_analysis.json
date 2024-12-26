@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "reviews",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Large Multi-Domain Resources for Arabic Sentiment Analysis",
     "Volume": "45,498",
     "Unit": "sentences",

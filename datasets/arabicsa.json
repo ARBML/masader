@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(translation)",
+    "Collection Style": "crawling,annotation,machine translation",
     "Description": "Arabic Emoticon Lexicon: Contains Arabic words and phrases frequently used on Twitter with sentiment annotation based on co-occurrence with positive and negative seed words. Arabic Hashtag Lexicon: Annotated with sentiment based on commonly used Arabic hashtags from Twitter. Arabic Hashtag Lexicon (dialectal): Focuses on dialectal Arabic words. BBN Blog Posts Sentiment Corpus: Contains Levantine dialect social media posts, manually annotated for sentiment. Syria Tweets Sentiment Corpus: A collection of tweets from Syria, manually annotated for sentiment.",
     "Volume": "231,155",
     "Unit": "tokens",

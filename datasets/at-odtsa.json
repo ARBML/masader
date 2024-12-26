@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "A dataset of Arabic Tweets for Open-Domain Targeted Sentiment Analysis, which includes Arabic tweets along with labels that specify targets (topics) and sentiments (opinions) expressed in the collected tweets.",
     "Volume": "3,000",
     "Unit": "sentences",

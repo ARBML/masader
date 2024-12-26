@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "This dataset is a relatively great size collection of Arabic news tweets that were collected from an official and verified users in Twitter. All news that is collected from the most popular and official users in Saudi Arabia belongs to Saudi Arabia news. All data that is gathered was retrieved using specific time period and collected all news in that time. To the best of our knowledge, this dataset is the first Arabic news data collection that does not specify by keywords and belongs to Saudi Arabia. This news dataset can be valuable for diverse tasks in NLP, such as text classification and automated verification system. The dataset has been categorized into 5 different news classes which are general news, regions news, sport news, economic news, and quality life news. In this data article, 89,179 original tweets have presented and fully labeled into related categories.",
     "Volume": "89,179",
     "Unit": "sentences",

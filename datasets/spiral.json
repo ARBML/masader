@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "SPIRAL is a corpus dedicated to the detection and correction of spelling errors in MSA Arabic texts.",
     "Volume": "248,441,892",
     "Unit": "tokens",

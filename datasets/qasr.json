@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "transcribed audio",
     "Form": "spoken",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "This multi-dialect speech dataset contains 2, 000 hours of speech sampled at 16kHz crawled from Aljazeera news channel",
     "Volume": "2,000",
     "Unit": "hours",

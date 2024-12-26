@@ -9,7 +9,7 @@
     "Dialect": "Classical Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling and annotation(translation)",
+    "Collection Style": "crawling,annotation,machine translation",
     "Description": "These are translations of the Ubuntu software package messages, donated by the Ubuntu community.",
     "Volume": "299",
     "Unit": "documents",

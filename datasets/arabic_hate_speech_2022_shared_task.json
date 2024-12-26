@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "largest Arabic dataset for offensive, fine-grained hate speech, vulgar and violence content",
     "Volume": "12,698",
     "Unit": "sentences",

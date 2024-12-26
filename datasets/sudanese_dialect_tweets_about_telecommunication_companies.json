@@ -9,7 +9,7 @@
     "Dialect": "Sudan",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Sentiment Analysis dataset written in Sudanese Arabic Dialect",
     "Volume": "4,712",
     "Unit": "sentences",

@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "multi-label fake news and hate speech detection dataset each sentence is annotated with 10 labels",
     "Volume": "10,828",
     "Unit": "sentences",

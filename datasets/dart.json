@@ -40,7 +40,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling and annotation(other)",
+    "Collection Style": "crawling,annotation",
     "Description": "Dialectal Arabic Tweets",
     "Volume": "24,280",
     "Unit": "sentences",
