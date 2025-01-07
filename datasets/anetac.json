@@ -24,7 +24,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": "No",
-    "Tasks": "named entity recognition,transliteration,machine translation",
+    "Tasks": "named entity recognition,transliteration",
     "Venue Title": "arXiv",
     "Citations": "35.0",
     "Venue Type": "preprint",
