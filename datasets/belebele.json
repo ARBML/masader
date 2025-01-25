@@ -2,72 +2,95 @@
     "Name": "Belebele",
     "Subsets": [
         {
-            "Name": "acm_Arab",
-            "Dialect": "Iraq",
-            "Volume": "900",
-            "Unit": "sentences"
+            "volume": "900",
+            "dialect": "Iraq",
+            "unit": "sentences",
+            "name": "acm_Arab"
         },
         {
-            "Name": "arb_Arab",
-            "Dialect": "Modern Standard Arabic",
-            "Volume": "900",
-            "Unit": "sentences"
+            "dialect": "Modern Standard Arabic",
+            "unit": "sentences",
+            "name": "arb_Arab",
+            "volume": "900"
         },
         {
-            "Name": "apc_Arab",
-            "Dialect": "Levant",
-            "Volume": "900",
-            "Unit": "sentences"
+            "unit": "sentences",
+            "dialect": "Levant",
+            "name": "apc_Arab",
+            "volume": "900"
         },
         {
-            "Name": "ars_Arab",
-            "Dialect": "Saudi Arabia",
-            "Volume": "900",
-            "Unit": "sentences"
+            "volume": "900",
+            "name": "ars_Arab",
+            "unit": "sentences",
+            "dialect": "Saudi Arabia"
         },
         {
-            "Name": "ary_Arab",
-            "Dialect": "Morocco",
-            "Volume": "900",
-            "Unit": "sentences"
+            "name": "ary_Arab",
+            "unit": "sentences",
+            "dialect": "Morocco",
+            "volume": "900"
         },
         {
-            "Name": "arz_Arab",
-            "Dialect": "Egypt",
-            "Volume": "900",
-            "Unit": "sentences"
+            "unit": "sentences",
+            "volume": "900",
+            "name": "arz_Arab",
+            "dialect": "Egypt"
         }
     ],
-    "HF Link": "https://hf.co/datasets/facebook/belebele",
     "Link": "https://github.com/facebookresearch/belebele",
-    "License": "CC BY-NC-SA 4.0",
-    "Year": 2023,
+    "HF Link": "https://hf.co/datasets/facebook/belebele",
+    "License": "CC BY-SA 4.0",
+    "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "wikipedia",
+    "Domain": [
+        "wikipedia",
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": "human translation",
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "A multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants.",
-    "Volume": "5,400",
+    "Volume": 5400,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Meta AI",
-    "Derived From": "",
+    "Provider": [
+        "Facebook"
+    ],
+    "Derived From": [
+        "Flores-200"
+    ],
     "Paper Title": "The BELEBELE Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants",
-    "Paper Link": "https://arxiv.org/pdf/2308.16884.pdf",
+    "Paper Link": "https://arxiv.org/pdf/2308.16884",
     "Script": "Arab",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
     "Test Split": "No",
-    "Tasks": "question answering, instruction tuning",
-    "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Tasks": [
+        "question answering",
+        "multiple choice question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Citations": 0,
+    "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
-    "Abstract": "",
+    "Authors": [
+        "Lucas Bandarkar",
+        "Davis Liang",
+        "Benjamin Muller",
+        "Mikel Artetxe",
+        "Satya Narayan Shukla",
+        "Donald Husa",
+        "Naman Goyal",
+        "Abhinandan Krishnan",
+        "Luke Zettlemoyer",
+        "Madian Khabsa"
+    ],
+    "Affiliations": [],
+    "Abstract": "We present Belebele, a multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants. Significantly expanding the language coverage of natural language understanding (NLU) benchmarks, this dataset enables the evaluation of text models in high-, medium-, and low-resource languages. Each question is based on a short passage from the Flores-200 dataset and has four multiple-choice answers. The questions were carefully curated to discriminate between models with different levels of general language comprehension. The English dataset on its own proves difficult enough to challenge state-of-the-art language models. Being fully parallel, this dataset enables direct comparison of model performance across all languages. We use this dataset to evaluate the capabilities of multilingual masked language models (MLMs) and large language models (LLMs). We present extensive results and find that despite significant cross-lingual transfer in English-centric LLMs, much smaller MLMs pretrained on balanced multilingual data still understand far more languages. We also observe that larger vocabulary size and conscious vocabulary construction correlate with better performance on low-resource languages. Overall, Belebele opens up new avenues for evaluating and analyzing the multilingual capabilities of NLP systems.",
     "Added By": "Amr Keleg"
 }
