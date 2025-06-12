@@ -18,7 +18,7 @@
     "Derived From": "Large Scale Arabic Book Review (LABR), Large Arabic Multi-domain Resources (LAMR), and Multi-domain Arabic Sentiment Corpus (MASC)",
     "Paper Title": "Annotated Corpus with Negation and Speculation in Arabic Review Domain: NSAR",
     "Paper Link": "https://github.com/amahany/NSAR/blob/main/NSAR_Paper.pdf",
-    "Script": "Arab-Latn",
+    "Script": "Arab-Latin",
     "Tokenized": "No",
     "Host": "GitHub",
     "Access": "Free",

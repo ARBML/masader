@@ -18,7 +18,7 @@
     "Derived From": "Classical Arabic literary texts, collected primarily from Rasaif, a website that hosts a large collection of Classical Arabic books.",
     "Paper Title": "ATHAR: A High-Quality and Diverse Dataset for Classical Arabic to English Translation",
     "Paper Link": "https://arxiv.org/pdf/2407.19835",
-    "Script": "Arab-Latn",
+    "Script": "Arab-Latin",
     "Tokenized": "Yes",
     "Host": "HuggingFace",
     "Access": "Free",

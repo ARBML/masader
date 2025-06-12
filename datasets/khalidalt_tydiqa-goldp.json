@@ -18,7 +18,7 @@
     "Derived From": "",
     "Paper Title": "TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages",
     "Paper Link": "https://aclanthology.org/2020.tacl-1.30.pdf",
-    "Script": "Arab-Latn",
+    "Script": "Arab-Latin",
     "Tokenized": "No",
     "Host": "HuggingFace",
     "Access": "Free",

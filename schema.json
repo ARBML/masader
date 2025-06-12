@@ -1,0 +1,417 @@
+{
+    "Name": {
+        "question": "What is the name of the dataset?",
+        "answer_type": "str",
+        "answer_min": 1,
+        "answer_max": 5
+    },
+    "Subsets": {
+        "question": "What are the dialect subsets of this dataset? The keys are 'Name', 'Volume', 'Unit', 'Dialect'. 'Dialect' must be one of the country name from the dialect options",
+        "answer_type": "List[Dict[Name, Volume, Unit, Dialect]]",
+        "validation_group":"DIVERSITY",
+        "answer_min": 0,
+        "answer_max": 29
+    },
+    "Link": {
+        "question": "What is the link to access the dataset? The link must contain the dataset. If the dataset is hosted on HuggingFace, use the HF Link.",
+        "answer_type": "url",
+        "validation_group":"ACCESSABILITY",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "HF Link": {
+        "question": "What is the Huggingface link of the dataset?",
+        "answer_type": "url",
+        "validation_group":"ACCESSABILITY",
+        "answer_min": 0,
+        "answer_max": 1
+    },
+    "License": {
+        "question": "What is the license of the dataset?",
+        "options": [
+            "Apache-1.0",
+            "Apache-2.0",
+            "Non Commercial Use - ELRA END USER",
+            "BSD",
+            "CC BY 1.0",
+            "CC BY 2.0",
+            "CC BY 3.0",
+            "CC BY 4.0",
+            "CC BY-NC 1.0",
+            "CC BY-NC 2.0",
+            "CC BY-NC 3.0",
+            "CC BY-NC 4.0",
+            "CC BY-NC-ND 1.0",
+            "CC BY-NC-ND 2.0",
+            "CC BY-NC-ND 3.0",
+            "CC BY-NC-ND 4.0",
+            "CC BY-SA 1.0",
+            "CC BY-SA 2.0",
+            "CC BY-SA 3.0",
+            "CC BY-SA 4.0",
+            "CC BY-NC 1.0",
+            "CC BY-NC 2.0",
+            "CC BY-NC 3.0",
+            "CC BY-NC 4.0",
+            "CC BY-NC-SA 1.0",
+            "CC BY-NC-SA 2.0",
+            "CC BY-NC-SA 3.0",
+            "CC BY-NC-SA 4.0",
+            "CC0",
+            "CDLA-Permissive-1.0",
+            "CDLA-Permissive-2.0",
+            "GPL-1.0",
+            "GPL-2.0",
+            "GPL-3.0",
+            "LDC User Agreement for Non-Members",
+            "LGPL-2.0",
+            "LGPL-3.0",
+            "MIT License",
+            "ODbl-1.0",
+            "MPL-1.0",
+            "MPL-2.0",
+            "ODC-By",
+            "unknown",
+            "custom"
+        ],
+        "answer_type": "str",
+        "validation_group":"ACCESSABILITY",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Year": {
+        "question": "What year was the dataset published?",
+        "answer_type": "date[year]",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Language": {
+        "question": "What languages are in the dataset?",
+        "options": ["ar", "multilingual"],
+        "option_description": {
+            "ar": "the dataset is purely in Arabic, there are no other languages involved",
+            "multilingual": "the dataset contains samples in other languages"
+        },
+        "answer_type": "str",
+        "validation_group":"DIVERSITY",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Dialect": {
+        "question": "What is the dialect of the dataset?",
+        "options": [
+            "Classical Arabic",
+            "Modern Standard Arabic",
+            "United Arab Emirates",
+            "Bahrain",
+            "Djibouti",
+            "Algeria",
+            "Egypt",
+            "Iraq",
+            "Jordan",
+            "Comoros",
+            "Kuwait",
+            "Lebanon",
+            "Libya",
+            "Morocco",
+            "Mauritania",
+            "Oman",
+            "Palestine",
+            "Qatar",
+            "Saudi Arabia",
+            "Sudan",
+            "Somalia",
+            "South Sudan",
+            "Syria",
+            "Tunisia",
+            "Yemen",
+            "Levant",
+            "North Africa",
+            "Gulf",
+            "mixed"
+        ],
+        "option_description": {
+            "mixed": "the dataset contains samples in multiple dialects i.e. social media. Assume Modern Standard Arabic if not specified."
+        },
+        "answer_type": "str",
+        "validation_group":"DIVERSITY",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Domain": {
+        "question": "What is the source of the dataset?",
+        "options": [
+            "social media",
+            "news articles",
+            "reviews",
+            "commentary",
+            "books",
+            "wikipedia",
+            "web pages",
+            "public datasets",
+            "TV Channels",
+            "captions",
+            "LLM",
+            "other"
+        ],
+        "answer_type": "List[str]",
+        "validation_group":"CONTENT",
+        "answer_min": 1,
+        "answer_max": 11
+    },
+    "Form": {
+        "question":"What is the form of the data?", 
+        "options": ["text", "spoken", "images"], 
+        "answer_type": "str", 
+        "validation_group":"CONTENT", 
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Collection Style": {
+        "question": "How was this dataset collected?",
+        "options": [
+            "crawling",
+            "human annotation",
+            "machine annotation",
+            "manual curation",
+            "LLM generated",
+            "other"
+        ],
+        "option_description": {
+            "crawling": "the dataset was collected by crawling the web",
+            "human annotation": "the dataset was labelled by human annotators",
+            "machine annotation": "the dataset was collected/labelled by machine programs",
+            "manual curation": "the dataset was collected manually by human curators",
+            "LLM generated": "the dataset was generated by an LLM",
+            "other": "the dataset was collected in a different way"
+        },
+        "answer_type": "List[str]",
+        "validation_group":"CONTENT",
+        "answer_min": 1,
+        "answer_max": 5
+    },
+    "Description": {
+        "question": "Write a brief description about the dataset",
+        "answer_type": "str",
+        "answer_min": 0,
+        "answer_max": 50
+    },
+    "Volume": {
+        "question": "What is the size of the dataset?. If the dataset is multilingual only use the size of the Arabic dataset",
+        "answer_type": "float",
+        "validation_group":"CONTENT",
+        "answer_min": 1
+    },
+    "Unit": {
+        "question": "What kind of examples does the dataset include?",
+        "options": ["tokens", "sentences", "documents", "hours", "images"],
+        "option_description": {
+            "tokens": "the dataset contains individual tokens/words",
+            "sentences": "the samples are sentences or short paragraphs",
+            "documents": "the samples are long documents i.e. web pages or books",
+            "hours": "the samples are audio files",
+            "images": "the samples are images"
+        },
+        "answer_type": "str",
+        "validation_group":"CONTENT",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Ethical Risks": {
+        "question": "What is the level of the ethical risks of the dataset?",
+        "options": ["Low", "Medium", "High"],
+        "option_description": {
+            "Low": "most likely no ethical risks associated with this dataset",
+            "Medium": "social media datasets",
+            "High": "hate/offensive datasets from social media, or web pages"
+        },
+        "answer_type": "str",
+        "validation_group":"CONTENT",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Provider": {
+        "question": "What entity is the provider of the dataset? Don't use Team.",
+        "answer_type": "List[str]",
+        "validation_group":"ACCESSABILITY",
+        "answer_min": 0,
+        "answer_max": 10
+    },
+    "Derived From": {
+        "question": "What datasets were used to create the dataset?",
+        "answer_type": "List[str]",
+        "validation_group":"EVALUATION",
+        "answer_min": 0
+    },
+    "Paper Title": {
+        "question": "What is the title of the paper?",
+        "answer_type": "str",
+        "answer_min" : 3
+    },
+    "Paper Link": {
+        "question": "What is the link to the paper?",
+        "answer_type": "url",
+        "answer_min": 1
+    },
+    "Script": {
+        "question": "What is the script of this dataset?",
+        "options": ["Arab", "Latin", "Arab-Latin"],
+        "option_description": {
+            "Arab": "The script used is only in Arabic",
+            "Latin": "The script used is only in Latin i.e. it has samples written in Latin like Arabizi or transliteration",
+            "Arab-Latin": "The script used is a mix of Arabic and Latin"
+        },
+        "answer_type": "str",
+        "validation_group":"CONTENT",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Tokenized": {
+        "question": "Is the dataset tokenized?",
+        "options": [true, false],
+        "option_description": {
+            "true": "The dataset is tokenized. Tokenized means the words are split using a morphological analyzer",
+            "false": "The dataset is not tokenized"
+        },
+        "answer_type": "bool",
+        "validation_group":"CONTENT",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Host": {
+        "question": "What is name of the repository that hosts the dataset?",
+        "options": [
+            "CAMeL Resources",
+            "CodaLab",
+            "data.world",
+            "Dropbox",
+            "Gdrive",
+            "GitHub",
+            "GitLab",
+            "kaggle",
+            "LDC",
+            "MPDI",
+            "Mendeley Data",
+            "Mozilla",
+            "OneDrive",
+            "QCRI Resources",
+            "ResearchGate",
+            "sourceforge",
+            "zenodo",
+            "HuggingFace",
+            "ELRA",
+            "other"
+        ],
+        "answer_type": "str",
+        "validation_group":"ACCESSABILITY",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Access": {
+        "question": "What is the accessibility of the dataset?",
+        "options": ["Free", "Upon-Request", "With-Fee"],
+        "option_description": {
+            "Free": "the dataset is public and free to access",
+            "Upon-Request": "the dataset is free to access but requires a submitting a request or filling out a form",
+            "With-Fee": "the dataset is not free to access"
+        },
+        "answer_type": "str",
+        "validation_group":"ACCESSABILITY",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Cost": {
+        "question": "If the dataset is not free, what is the cost?",
+        "answer_type": "str",
+        "validation_group":"ACCESSABILITY",
+        "answer_min": 0
+    },
+    "Test Split": {
+        "question": "Does the dataset contain a train/valid and test split?",
+        "options": [true, false],
+        "option_description": {
+            "true": "The dataset contains a train/valid and test split",
+            "false": "The dataset does not contain a train/valid or test split"
+        },
+        "answer_type": "bool",
+        "validation_group":"EVALUATION",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Tasks": {
+        "question": "What NLP tasks is this dataset intended for?",
+        "options": [
+            "machine translation",
+            "speech recognition",
+            "sentiment analysis",
+            "language modeling",
+            "topic classification",
+            "dialect identification",
+            "text generation",
+            "cross-lingual information retrieval",
+            "named entity recognition",
+            "question answering",
+            "multiple choice question answering",
+            "information retrieval",
+            "part of speech tagging",
+            "language identification",
+            "summarization",
+            "speaker identification",
+            "transliteration",
+            "morphological analysis",
+            "offensive language detection",
+            "review classification",
+            "gender identification",
+            "fake news detection",
+            "dependency parsing",
+            "irony detection",
+            "meter classification",
+            "natural language inference",
+            "instruction tuning",
+            "Linguistic acceptability",
+            "information extraction",
+            "image captioning",
+            "hate speech detection",
+            "other"
+        ],
+        "answer_type": "List[str]",
+        "validation_group":"EVALUATION",
+        "answer_min": 1,
+        "answer_max": 5
+
+    },
+    "Venue Title": {
+        "question": "What is the venue title of the published paper?",
+        "answer_type": "str",
+        "answer_min": 1
+    },
+    "Venue Type": {
+        "question": "What is the venue type?",
+        "options": ["conference", "workshop", "journal", "preprint"],
+        "answer_type": "str",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Venue Name": {
+        "question": "What is the full name of the venue that published the paper?",
+        "answer_type": "str",
+        "answer_min" : 0 
+    },
+    "Authors": {
+        "question": "Who are the authors of the paper?",
+        "answer_type": "List[str]",
+        "answer_min": 1,
+        "answer_max": 20
+    },
+    "Affiliations": {
+        "question": "What are the affiliations of the authors?",
+        "answer_type": "List[str]",
+        "answer_min": 0,
+        "answer_max": 20
+    },
+    "Abstract": {
+        "question": "What is the abstract of the paper? replace any double quotes in the abstract by single quotes '",
+        "answer_type": "str",
+        "answer_min": 5
+    }
+}

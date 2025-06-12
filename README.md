@@ -31,7 +31,7 @@ The first online catalogue for Arabic NLP datasets. This catalogue contains more
 -   `Related Datasets` any datasets that is related in terms of content to the dataset
 -   `Paper Title` title of the paper
 -   `Paper Link` direct link to the paper pdf
--   `Script` writing system either Arab, Latn, Arab-Latn or other
+-   `Script` writing system either Arab, Latin, Arab-Latin or other
 -   `Tokenized` whether the dataset is segmented using morphology: Yes or No
 -   `Host` the host website for the data i.e GitHub
 -   `Access` the data is either free, upon-request or with-fee.

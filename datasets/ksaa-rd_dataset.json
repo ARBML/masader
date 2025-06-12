@@ -18,7 +18,7 @@
     "Derived From": "Contemporary Arabic Language dictionary (Arabic), SemEval 2022 English dictionary",
     "Paper Title": "KSAA-RD Shared Task: Arabic Reverse Dictionary",
     "Paper Link": "https://aclanthology.org/2023.arabicnlp-1.39.pdf",
-    "Script": "Arab-Latn",
+    "Script": "Arab-Latin",
     "Tokenized": "Yes",
     "Host": "GitHub",
     "Access": "Free",
