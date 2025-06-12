@@ -24,7 +24,7 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": "No",
-    "Tasks": "dialect identification, intent classification",
+    "Tasks": "dialect identification, intent detection",
     "Venue Title": "ArabicNLP",
     "Citations": "",
     "Venue Type": "conference",

@@ -24,7 +24,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": "Yes",
-    "Tasks": "informativeness, text classification, stance detection",
+    "Tasks": "informativeness, stance detection",
     "Venue Title": "LREC",
     "Citations": "",
     "Venue Type": "conference",

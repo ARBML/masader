@@ -24,7 +24,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": "Yes",
-    "Tasks": "intent classification, slot detection",
+    "Tasks": "intent detection, slot detection",
     "Venue Title": "ACL",
     "Citations": "",
     "Venue Type": "conference",
