@@ -3,19 +3,19 @@
     "Subsets": [
         {
             "Name": "ar_nyuad",
-            "Dialect": "",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "738,889",
             "Unit": "tokens"
         },
         {
             "Name": "ar_padt",
-            "Dialect": "",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "282,384",
             "Unit": "tokens"
         },
         {
             "Name": "ar_pud",
-            "Dialect": "",
+            "Dialect": "Modern Standard Arabic",
             "Volume": "20,751",
             "Unit": "tokens"
         }
