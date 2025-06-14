@@ -7,7 +7,7 @@
     "Year": 2017,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "The ArabScribe dataset contains 10,000 transcriptions of Arabic words with both Roman and Arabic keyboards based on audio impressions of native and non-native speakers of Arabic.",

@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "The dataset contains 5361 Arabic tweets annotated with six categories: clean, offensive, and hateful speech (religion-based, ethnicity-based, nationality-based, gender-based). It focuses on Arabic dialects (Gulf and Modern Standard Arabic) and uses a three-level annotation schema.",
     "Volume": "5361",
     "Unit": "sentences",

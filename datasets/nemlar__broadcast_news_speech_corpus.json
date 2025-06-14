@@ -7,7 +7,7 @@
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "he Nemlar Broadcast News Speech Corpus consists of about 40 hours of Standard Arabic news broadcasts. The broadcasts were recorded from four different radio stations: Medi1, Radio Orient, RMC \u2013 Radio Monte Carlo, RTM \u2013 Radio Television Maroc.  Each broadcast contains between 25 and 30 minutes of news and interviews (259 distinct speakers identified). The recordings were carried out at three different periods between 30 June 2002 and 18 July 2005. All files were recorded in linear PCM format, 16 kHz, 16 bit.",

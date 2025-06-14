@@ -7,7 +7,7 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "This is the  first Arabic Natural Audio Dataset (ANAD) developed to recognize 3 discrete emotions: Happy,angry, and surprised.",

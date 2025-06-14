@@ -24,7 +24,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": "Yes",
-    "Tasks": "irony detection, dialect identification, semantic question similarity, offensive language detection, emotion detection, sentiment intensity regression, entailment",
+    "Tasks": "irony detection, dialect identification, semantic similarity, offensive language detection, emotion detection, sentiment analysis, entailment",
     "Venue Title": "WANLP",
     "Citations": "",
     "Venue Type": "workshop",

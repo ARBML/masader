@@ -24,7 +24,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": "Yes",
-    "Tasks": "machine translation, language modeling, cross-lingual information retrieval, natural language inference",
+    "Tasks": "machine translation, language modeling, information retrieval, natural language inference",
     "Venue Title": "IWSLT",
     "Citations": "",
     "Venue Type": "conference",

@@ -7,7 +7,7 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "crawling",
     "Description": "ArabCeleb is an audio dataset collected in the wild that specifically focuses on arabic language. The proposed dataset contains 1930 utterances from 100 celebrities taken from video on YouTube.com. The dataset might be used for several speaker recognition tasks: identification, verification, gender recognition as well as multimodal recognition tasks thus integrating audio and video tracks.",

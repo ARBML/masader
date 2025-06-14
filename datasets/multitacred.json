@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "machine translation",
+    "Collection Style": "machine annotation",
     "Description": "MultiTACRED is a multilingual version of the large-scale TAC Relation Extraction Dataset. It covers 12 typologically diverse languages from 9 language families, and was created by the Speech & Language Technology group of DFKI by machine-translating the instances of the original TACRED dataset and automatically projecting their entity annotations. ",
     "Volume": "105,663",
     "Unit": "sentences",

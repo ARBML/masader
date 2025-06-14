@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "benchmark environment for Natural Language Generation with a focus on its Evaluation, both through human annotations and automated Metric",
     "Volume": "29,229",
     "Unit": "documents",

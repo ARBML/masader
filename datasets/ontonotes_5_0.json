@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "The Arabic portion of OntoNotes 5.0 includes 300K words of newswire data. ",
     "Volume": "300,000",
     "Unit": "tokens",

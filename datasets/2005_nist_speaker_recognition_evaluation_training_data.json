@@ -7,7 +7,7 @@
     "Year": 2011,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "The speech data consists of conversational telephone speech with multi-channel data collected simultaneously from a number of auxiliary microphones. The files are organized into two segments: 10 second two-channel excerpts (continuous segments from single conversations that are estimated to contain approximately 10 seconds of actual speech in the channel of interest) and five minute two-channel conversations.",

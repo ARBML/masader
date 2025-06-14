@@ -24,7 +24,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": "No",
-    "Tasks": "machine translation, dialect identification, text generation, dialogue systems",
+    "Tasks": "machine translation, dialect identification, text generation, dialouge generation",
     "Venue Title": "ArabicNLP",
     "Citations": "",
     "Venue Type": "conference",

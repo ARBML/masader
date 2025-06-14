@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "Arap-Tweet is a large-scale, multi-dialectal Arabic Twitter corpus containing 2.4 million tweets from 11 regions across 16 countries in the Arab world. The dataset includes annotations for dialect, age group, and gender of the users. Tweets were collected using region-specific keywords to ensure accurate dialect identification, and the profiles of users were manually verified and annotated by trained annotators. This corpus is designed to support research in author profiling, stylometry, and dialect identification, providing a valuable resource for natural language processing applications in Arabic.",
     "Volume": "2,400,000",
     "Unit": "sentences",

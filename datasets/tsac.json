@@ -9,7 +9,7 @@
     "Dialect": "Tunisia",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "About 17k user comments manually annotated to positive and negative polarities. This corpus is collected from Facebook users comments written on official pages of Tunisian radios and TV channels",
     "Volume": "17,000",
     "Unit": "sentences",

@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "New Benchmark Dataset for Multilingual Abstractive Summarization",
     "Volume": "29,229",
     "Unit": "sentences",

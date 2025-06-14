@@ -9,7 +9,7 @@
     "Dialect": "Lebanon",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "by translating, annotating, and transliterating\r\nother resources to have an initial set of 2K sentiment words. We expanded it to 24.6K sentiment\r\nwords by importing inflectional and orthographic\r\nforms using word embeddings",
     "Volume": "24,600",
     "Unit": "tokens",

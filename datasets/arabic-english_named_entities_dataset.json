@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling,annotation,machine translation",
+    "Collection Style": "crawling,machine annotation",
     "Description": "Arabic-ENglish named entities dataset is created using DBpedia Linked datasets and parallel corpus. For annotating NE in monolingual English corpus we used Gate tool. Our approach is based on linked data entities by mapping them to Gate Gazetteers, and then constructing a type-oriented NE base covering person, Location and organization classes. The second task consists of the use of machine translation to translate these entities and then finally, generating our NE lexicon that encloses the list of Arabic entities that match to the English lists.",
     "Volume": "48,753",
     "Unit": "tokens",

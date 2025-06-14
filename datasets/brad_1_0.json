@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "reviews",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "The reviews were collected from GoodReads.com website during June/July 2016",
     "Volume": "156,506",
     "Unit": "sentences",

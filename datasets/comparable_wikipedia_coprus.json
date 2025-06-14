@@ -22,7 +22,7 @@
     "Dialect": "mixed",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "Comparable Wikipedia Corpus (aligned documents) Corpus extracts from 20-01-2017 Wikipedia dumps",
     "Volume": "20,394",
     "Unit": "documents",

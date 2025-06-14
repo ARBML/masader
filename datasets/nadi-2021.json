@@ -136,7 +136,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "The shared task dataset covers a total of 100 provinces from 21 Arab countries, collected from the Twitter domain. ",
     "Volume": "310,000",
     "Unit": "sentences",

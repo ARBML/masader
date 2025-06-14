@@ -7,7 +7,7 @@
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "This release includes training data for nine language varieties that had not been represented in prior LRE cycles -- Arabic (Iraqi), Arabic (Levantine), Arabic (Maghrebi), Arabic (Standard), Czech, Lao, Punjabi, Polish, and Slovak -- contained in 893 audited segments of roughly 30 seconds duration and in 400 full-length CTS recordings. The evaluation test set comprises a total of 29,511 audio files, all manually audited at LDC for language and divided equally into three different test conditions according to the nominal amount of speech content per segment.",

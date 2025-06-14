@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "A set of 21K Arabic tweets labeled for 4 classes of sentiment and 6 classes of speech-act",
     "Volume": "21,000",
     "Unit": "sentences",

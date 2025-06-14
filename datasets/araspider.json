@@ -24,7 +24,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": "Yes",
-    "Tasks": "semantic parsing, SQL generation from natural language inputs, text-to-SQL conversion for Arabic-speaking users.",
+    "Tasks": "text-to-SQL generation",
     "Venue Title": "arXiv",
     "Citations": "",
     "Venue Type": "preprint",

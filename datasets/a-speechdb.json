@@ -7,7 +7,7 @@
     "Year": 2011,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "A-SpeechDB\u00a9 is an Arabic speech database suited for training acoustic models for Arabic phoneme-based speaker-independent automatic speech recognition systems. The database contains about 20 hours of continuous speech recorded through one desktop omni microphone by 205 native speakers from Egypt (about 30% of females and 70% of males), aged between 20 and 45.",

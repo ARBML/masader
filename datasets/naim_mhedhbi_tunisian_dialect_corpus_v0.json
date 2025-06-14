@@ -9,7 +9,7 @@
     "Dialect": "Tunisia",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "I have collected more than 40000 comments and posts from facebook. I labeled about 10000 comments (positive / negative/ neutral) You can use it for your researches ! Enjoy :)",
     "Volume": "40,000",
     "Unit": "sentences",

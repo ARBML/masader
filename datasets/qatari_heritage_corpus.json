@@ -9,7 +9,7 @@
     "Dialect": "Qatar",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "qatari heritage expressions dataset with translations",
     "Volume": "1,000",
     "Unit": "sentences",

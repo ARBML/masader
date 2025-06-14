@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "machine translation",
+    "Collection Style": "machine annotation",
     "Description": "Evaluating Gender Bias in Machine Translation",
     "Volume": "3,888",
     "Unit": "sentences",

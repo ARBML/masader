@@ -7,7 +7,7 @@
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "This publication contains 20 sphere files encoded in two channel interleaved mulaw with a sampling rate of 8 KHz, for a total of 424,160,000 bytes (405 Mbytes) of sphere data. The sphere headers have been modified from the original Evaluation data by the addition of sample checksums to the CALLHOME data files.",

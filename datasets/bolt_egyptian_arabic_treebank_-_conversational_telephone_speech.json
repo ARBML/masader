@@ -7,7 +7,7 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "text",
     "Collection Style": "other",
     "Description": "This release contains 153,171 tokens before clitics were split and 182,965 tree tokens after clitics were split for treebank annotation. The source data was selected from conversational telephone speech collected by LDC for the CALLHOME project that was transcribed and segmented into sentence units.",

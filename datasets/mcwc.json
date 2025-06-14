@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling,annotation,machine translation",
+    "Collection Style": "crawling,machine annotation",
     "Description": "The \u201cMultilingual Corpus of World\u2019s Constitutions\u201d (MCWC) is a rich resource available in English, Arabic, and Spanish, encompassing constitutions from various nations. This corpus serves as a vital asset for the NLP community, facilitating advanced research in constitutional analysis, machine translation, and cross-lingual legal studies.",
     "Volume": "236,156",
     "Unit": "documents",

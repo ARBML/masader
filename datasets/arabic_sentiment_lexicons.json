@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation,machine translation",
+    "Collection Style": "crawling,machine annotation",
     "Description": " by using distant supervision techniques on Arabic tweets, and by translating English sentiment lexicons into Arabic using a freely available statistical machine translation system",
     "Volume": "176,364",
     "Unit": "tokens",

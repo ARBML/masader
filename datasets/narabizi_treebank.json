@@ -9,7 +9,7 @@
     "Dialect": "Algeria",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": " fully annotated in morpho-syntax\r\nand Universal Dependency syntax, with full\r\ntranslation at both the word and the sentence\r\nlevels",
     "Volume": "1,500",
     "Unit": "sentences",

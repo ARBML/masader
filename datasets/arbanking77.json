@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "human translation",
+    "Collection Style": "human annotation",
     "Description": "Queries in MSA and Palestinian Arabic annotated for their intent (77 classes)",
     "Volume": "31,404",
     "Unit": "sentences",

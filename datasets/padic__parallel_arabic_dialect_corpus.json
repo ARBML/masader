@@ -46,7 +46,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "s composed of about 6400 sentences of dialects from both the Maghreb and the middle east",
     "Volume": "12,824",
     "Unit": "sentences",

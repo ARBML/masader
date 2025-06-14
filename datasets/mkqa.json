@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "human translation",
+    "Collection Style": "human annotation",
     "Description": "10k question-answer pairs aligned across 26 typologically diverse languages",
     "Volume": "10,000",
     "Unit": "sentences",

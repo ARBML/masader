@@ -7,7 +7,7 @@
     "Year": 2011,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "The speech data in this release was collected by LDC as part of the Mixer project, in particular Mixer Phases 1, 2, and 3. The Mixer project supports the development of robust speaker recognition technology by providing carefully collected and audited speech from a large pool of speakers recorded simultaneously across numerous microphones and in different communicative situations and/or in multiple languages. The data is mostly English speech, but includes some speech in Arabic, Bengali, Chinese, Hindi, Korean, Russian, Thai, and Urdu.",

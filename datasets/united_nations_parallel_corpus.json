@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "human translation",
+    "Collection Style": "human annotation",
     "Description": "The parallel corpus presented consists of manually translated UN documents from the last 25 years",
     "Volume": "540,152",
     "Unit": "documents",

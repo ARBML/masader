@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": " Both name tagging and linking results for 282 languages are promising on Wikipedia data and on-Wikipedia\r\ndata",
     "Volume": "185,000",
     "Unit": "tokens",

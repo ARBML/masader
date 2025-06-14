@@ -9,7 +9,7 @@
     "Dialect": "Egypt",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "emotion detection dataset",
     "Volume": "10,065",
     "Unit": "sentences",

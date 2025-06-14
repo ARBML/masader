@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "human translation",
+    "Collection Style": "human annotation",
     "Description": "evaluation set for XLU\r\nby extending the development and test sets of\r\nthe Multi-Genre Natural Language Inference\r\nCorpus (MultiNLI) to 15 languages,",
     "Volume": "7,500",
     "Unit": "sentences",

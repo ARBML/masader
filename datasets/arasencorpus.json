@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": " contains 4.5 million tweets and covers both modern standard Arabic and some of the Arabic dialects",
     "Volume": "4,500,000",
     "Unit": "sentences",

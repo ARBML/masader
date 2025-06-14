@@ -9,7 +9,7 @@
     "Dialect": "Saudi Arabia",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "FloDusTA is a dataset of annotated tweets collected for the purpose of developing an event detection system. The dataset contains tweets written in both the MSA and Saudi dialect. Labels are: flood, dust storm, traffic accident, and non-event.",
     "Volume": "8,998",
     "Unit": "sentences",

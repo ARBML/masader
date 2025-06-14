@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "This is a 74,000-token corpus of 28 Arabic Wikipedia articles hand-annotated for named entities.",
     "Volume": "74,000",
     "Unit": "tokens",

@@ -7,7 +7,7 @@
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "Data is presented either as mp3 or flac compressed wav and are 16-bit single channel files in either 22,050 or 8,000 Hz organized by committee and session number, then language. The folder labeled \"Floor\" indicates the microphone used by the particular speaker. Those files may include other languages, for instance, if the speaker's language was not among the six official UN languages.",

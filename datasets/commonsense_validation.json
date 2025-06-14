@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "machine translation",
+    "Collection Style": "machine annotation",
     "Description": "a benchmark Arabic dataset for commonsense understanding and validation",
     "Volume": "12,000",
     "Unit": "sentences",

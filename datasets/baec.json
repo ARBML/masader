@@ -28,7 +28,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "consists of 45,251 words and is 436 KB in size.It was collected from different Facebook pages",
     "Volume": "473,796",
     "Unit": "tokens",

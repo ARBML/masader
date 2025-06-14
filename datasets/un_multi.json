@@ -9,7 +9,7 @@
     "Dialect": "Classical Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "human translation",
+    "Collection Style": "human annotation",
     "Description": "This is a collection of translated documents from the United Nations.",
     "Volume": "300,000,000",
     "Unit": "tokens",

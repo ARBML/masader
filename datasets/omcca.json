@@ -22,7 +22,7 @@
     "Dialect": "mixed",
     "Domain": "reviews",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "Opinion Mining Corpus for Colloquial Variety of Arabic language",
     "Volume": "28,576",
     "Unit": "sentences",

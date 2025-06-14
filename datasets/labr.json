@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "reviews",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "The largest sentiment analysis dataset to-date for the Arabic language.",
     "Volume": "63,257",
     "Unit": "sentences",

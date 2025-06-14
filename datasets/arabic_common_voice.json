@@ -7,7 +7,7 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.",

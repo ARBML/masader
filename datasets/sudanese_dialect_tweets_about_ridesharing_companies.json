@@ -9,7 +9,7 @@
     "Dialect": "Sudan",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "Sentiment Analysis dataset collected from Twitter. It contains people's opinions on Sudanese Ridesharing companies.",
     "Volume": "2,116",
     "Unit": "sentences",

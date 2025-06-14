@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "The dataset includes 5,588 tweets -- written in both MSA and dialectual Arabic -- manually annotated by two professional linguistics from HBKU",
     "Volume": "5,588",
     "Unit": "sentences",

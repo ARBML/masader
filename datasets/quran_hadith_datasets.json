@@ -9,7 +9,7 @@
     "Dialect": "Classical Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling,annotation,machine translation",
+    "Collection Style": "crawling,machine annotation",
     "Description": "The datasets showcase the related and non-related pairs of Quran-Quran and Quran-Hadith. It has Classical Arabic and English translated verses and teachings.",
     "Volume": "20,360",
     "Unit": "sentences",

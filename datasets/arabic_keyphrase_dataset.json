@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "A dataset in Arabic language for automatic keyphrase extraction algorithms",
     "Volume": "400",
     "Unit": "documents",

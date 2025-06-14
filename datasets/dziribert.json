@@ -9,7 +9,7 @@
     "Dialect": "Algeria",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "The DziriBERT dataset contains over 1.1 million tweets written in the Algerian dialect, collected from Twitter. It includes tweets written in both Arabic script and Romanized script (Arabizi). The dataset is designed to develop language models specifically for the Algerian dialect, which differs from Modern Standard Arabic (MSA).",
     "Volume": "1,100,000",
     "Unit": "sentences",

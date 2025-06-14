@@ -9,7 +9,7 @@
     "Dialect": "Morocco",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "rich and publicly available Arabic corpus called Moroccan Sentiment Analysis Corpus (MSAC)",
     "Volume": "2,000",
     "Unit": "sentences",

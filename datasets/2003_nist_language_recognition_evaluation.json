@@ -7,7 +7,7 @@
     "Year": 2006,
     "Language": "multilingual",
     "Dialect": "Egypt",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "Each speech file is one side of a \"four wire\" telephone conversation represented as 8-bit, 8-kHz mulaw data. There are 11,830 speech files in SPHERE (.sph) format. The speech data was compiled from LDC's CALLFRIEND, CALLHOME, and Switchboard-2 corpora. Each file contains one test segment. The test segments are divided into three-second, 10-second, and 30-second tests, each in its own directory.",

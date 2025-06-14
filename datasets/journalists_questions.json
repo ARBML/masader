@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "human translation",
+    "Collection Style": "human annotation",
     "Description": "crowdsorucing to collect\r\nbinary annotations for 10K of the potential question tweets\r\nbased on whether they truly contain questions or not",
     "Volume": "10,000",
     "Unit": "sentences",

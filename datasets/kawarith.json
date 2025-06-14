@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "a multi-dialect Arabic Twitter corpus for crisis events, comprising more than\r\na million Arabic tweets collected during 22\r\ncrises that occurred between 2018 and 2020\r\nand involved several types of hazard",
     "Volume": "12,446",
     "Unit": "sentences",

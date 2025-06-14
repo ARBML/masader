@@ -7,7 +7,7 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "The dataset includes both \u201ccorrect\u201d and \u201cwrong\u201d non-artificial pronunciations. The pronunciations are from nine pupils aged from 5 to 8 years; each of them uttered a set of 16 sequences (words or group of words). The chosen words included some difficulties to learners such as the long vowels and the words written with more than one connected component. ",

@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "The largest fine-grained annotated Covid-19 tweets dataset",
     "Volume": "10,000",
     "Unit": "sentences",

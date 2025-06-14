@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "A Dataset for Arabic Why Question Answering System",
     "Volume": "3,205",
     "Unit": "sentences",

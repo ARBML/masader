@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": " ASAD is a large, high-quality annotated dataset\r\n(including 95K tweets), with three-class sentiment labels (positive, negative and neutral)",
     "Volume": "100,000",
     "Unit": "sentences",

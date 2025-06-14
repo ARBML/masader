@@ -9,7 +9,7 @@
     "Dialect": "Classical Arabic",
     "Domain": "books",
     "Form": "text",
-    "Collection Style": "human translation",
+    "Collection Style": "human annotation",
     "Description": "This is a multilingual parallel corpus created from translations of the Bible",
     "Volume": "2,800,000",
     "Unit": "tokens",

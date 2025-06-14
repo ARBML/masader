@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "Twitter data and 9 entity types to establish a new dataset for code-switched NER\r\nbenchmarks.",
     "Volume": "11,241",
     "Unit": "sentences",

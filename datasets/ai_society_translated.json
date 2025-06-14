@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "machine translation",
+    "Collection Style": "machine annotation",
     "Description": "The original AI Society dataset is in English and is composed of 25K conversations between two gpt-3.5-turbo agents. The dataset is obtained by running role-playing for a combination of 50 user roles and 50 assistant roles with each combination running over 10 tasks.",
     "Volume": "25,000",
     "Unit": "documents",

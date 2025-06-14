@@ -7,7 +7,7 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "The Multilingual TTS dataset is an exceptional compilation of text-to-speech (TTS) samples, meticulously crafted to showcase the richness and diversity of human languages. This dataset encompasses a variety of real-world sentences in fifteen prominent languages, carefully chosen to reflect global linguistic diversity. Each sample is accompanied by its corresponding high-quality audio output.",

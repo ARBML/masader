@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "A Dataset of Intended Sarcasm",
     "Volume": "4,447",
     "Unit": "sentences",

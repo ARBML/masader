@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "A gazetteer of entities curated from Wikipedia.",
     "Volume": "68,355",
     "Unit": "tokens",

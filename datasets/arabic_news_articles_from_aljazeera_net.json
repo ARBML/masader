@@ -24,7 +24,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": "No",
-    "Tasks": "summarization , embedding ,classification model to identify article domain,sentiment analysis, co-reference identification model, named entity recognition",
+    "Tasks": "language modeling",
     "Venue Title": "",
     "Citations": "",
     "Venue Type": "",

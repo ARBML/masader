@@ -22,7 +22,7 @@
     "Dialect": "Classical Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "human translation",
+    "Collection Style": "human annotation",
     "Description": "To evaluate multi-lingual language models (ML-LMs) for commonsense reasoning in a cross-lingual zero-shot transfer setting (X-CSR)",
     "Volume": "3,374",
     "Unit": "sentences",

@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "a large-scale, multi-topic, and multi-country Arabic news dataset",
     "Volume": "1,000,000",
     "Unit": "documents",

@@ -7,7 +7,7 @@
     "Year": 2014,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "manual curation",
     "Description": "The Arabic speech corpus for isolated words contains 9992 utterances of 20 words spoken by 50 native male Arabic speakers. It has been recorded with a 44100 Hz sampling rate and 16-bit resolution. This corpus is free for noncommercial uses in the raw format (.wav files) and other formats e.g. (MFCCs) are available under request.",

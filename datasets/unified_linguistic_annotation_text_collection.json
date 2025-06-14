@@ -24,7 +24,7 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": "No",
-    "Tasks": "summarization,sociolinguistics,question answering,psycholinguistics,pragmatics,information retrieval",
+    "Tasks": "summarization,question answering,information retrieval",
     "Venue Title": "",
     "Citations": "",
     "Venue Type": "",

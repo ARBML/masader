@@ -7,7 +7,7 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "ClArTTS is a speech Classical Arabic corpus designed for E2E TTS systems. The speech is extracted from a LibriVox audiobook, which is then processed, segmented, and manually transcribed and annotated. It contains about 12 hours of speech from a single male speaker sampled at 40100 Hz.",

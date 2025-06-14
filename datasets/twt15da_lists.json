@@ -100,7 +100,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation,machine translation",
+    "Collection Style": "crawling,machine annotation",
     "Description": "The annotated dialectal Arabic corpus (Twt15DA) is collected from Twitter and consists of 311,785 tweets containing 3,858,459 words in total. They randomly selected a sample of 75 tweets per country, 1125 tweets in total, and conducted a manual dialect identification task by native speakers.",
     "Volume": "311,785",
     "Unit": "sentences",

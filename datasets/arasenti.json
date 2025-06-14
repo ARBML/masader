@@ -9,7 +9,7 @@
     "Dialect": "Saudi Arabia",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "The corpus contains 17,573 tweets labelled with four labels for sentiment: positive, negative, neutral and mixed",
     "Volume": "17,573",
     "Unit": "sentences",

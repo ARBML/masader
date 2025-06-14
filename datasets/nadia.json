@@ -24,7 +24,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": "No",
-    "Tasks": "multi-label text categorization",
+    "Tasks": "text classification",
     "Venue Title": "",
     "Citations": "",
     "Venue Type": "",

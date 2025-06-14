@@ -7,7 +7,7 @@
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "Levant",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "The source audio consists of conversational telephone speech recordings from: (1) conversational telephone speech (CTS) recordings, taken either from previous LDC CTS corpora, or from CTS data collected specifically for the RATS program from Levantine Arabic, Pashto, Urdu, Farsi and Dari native speakers; and (2) portions of VOA broadcast news recordings, taken from data used in the 2009 NIST Language Recognition Evaluation. The 2009 LRE Test Set is available from LDC as LDC2014S06.",

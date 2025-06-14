@@ -9,7 +9,7 @@
     "Dialect": "Algeria",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "extension of NArabizi treebank by adding to annotations.",
     "Volume": "1,500",
     "Unit": "sentences",

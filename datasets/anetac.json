@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "English-Arabic named entity transliteration and classification dataset",
     "Volume": "79,924",
     "Unit": "sentences",

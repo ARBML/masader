@@ -9,7 +9,7 @@
     "Dialect": "Classical Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "500 Arabic news and 500 Arabic satire articles ",
     "Volume": "1,000",
     "Unit": "sentences",

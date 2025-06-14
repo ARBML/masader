@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "we have extracted\r\napproximately 45,000 Arabic NE",
     "Volume": "45,000",
     "Unit": "tokens",

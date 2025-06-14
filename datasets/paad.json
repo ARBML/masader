@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "he  dataset  is  206  articles distributed  into  three  categories  as  (Reform,  Conservative  and Revolutionary) that we offer to the research community on Arabiccomputational  linguistics.",
     "Volume": "206",
     "Unit": "documents",

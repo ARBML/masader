@@ -24,7 +24,7 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": "No",
-    "Tasks": "language modeling, language identification, morphological analysis, text error analysis",
+    "Tasks": "language modeling, language identification, morphological analysis, misspelling detection",
     "Venue Title": "LREC",
     "Citations": "",
     "Venue Type": "conference",

@@ -7,7 +7,7 @@
     "Year": 2007,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "spoken",
     "Collection Style": "other",
     "Description": "The BN datasets were selected from TDT-4 sources collected in February 2001. The evaluation excerpts were transcribed to the nearest story boundary. The English BN dataset is approximately three hours long and is composed of 30-minute excerpts from six different broadcasts. The Mandarin Chinese BN dataset is approximately one hour long, consisting of 12-minute excerpts from five different broadcasts. The Arabic BN dataset is also approximately one hour long and contains 30-minute excerpts from two different broadcasts.",

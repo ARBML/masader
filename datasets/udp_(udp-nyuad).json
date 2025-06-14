@@ -24,7 +24,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": "Yes",
-    "Tasks": "morphological attribute tagging, dependency parsing, part of speech tagging\n",
+    "Tasks": "morphological analysis, dependency parsing, part of speech tagging",
     "Venue Title": "WANLP",
     "Citations": "12.0",
     "Venue Type": "workshop",

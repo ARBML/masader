@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "The NE3L project (Named Entities 3 Languages) consisted in annotating several corpora with different languages with named entities. Text format data were extracted from newspapers and deal with various topics. 3 different languages were annotated: Arabic, Chinese and Russian.",
     "Volume": "103,363",
     "Unit": "tokens",

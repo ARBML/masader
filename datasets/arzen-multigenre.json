@@ -7,7 +7,7 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "text",
     "Collection Style": "manual curation",
     "Description": "parallel dataset of Egyptian Arabic song lyrics, novels, and TV show subtitles that are manually translated and aligned with their English counterparts.",

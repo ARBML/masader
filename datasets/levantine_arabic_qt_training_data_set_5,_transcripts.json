@@ -7,7 +7,7 @@
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": "transcribed audio",
+    "Domain": "other",
     "Form": "text",
     "Collection Style": "other",
     "Description": "This corpus is the combination of four former training data sets: LDC2004E21 and LDC2004E22, LDC2004E65 and LDC2004E66, Arabic CTS Levantine Fisher Training Data Set 3, Speech (LDC2005S07) and Arabic CTS Levantine Fisher Training Data Set 3, Transcripts (LDC2005T03), and Levantine Arabic QT Training Data Set 4 (Speech + Transcripts) (LDC2005S14). More than half of the speakers are Lebanese, the others are Jordanian, Palestinian, and Syrian. The table below shows the distribution of the speakers' national origin:",

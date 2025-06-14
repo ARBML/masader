@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "Each part of the corpus (training and test) consists mainly of 2 datasets: textual files and XML files. The textual files represent the suspicious documents i.e., the documents that contain artificial plagiarism; and the XML files are the plagiarism annotation i.e. they provide for each plagiarized passage its starting offset in the suspicious document and its length (offset and length are both expressed in characters). A suspicious document file and its plagiarism annotation file share the same name.",
     "Volume": "2,048",
     "Unit": "documents",

@@ -9,7 +9,7 @@
     "Dialect": "Lebanon",
     "Domain": "reviews",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "Opinion Corpus for Lebanese Arabic Reviews ",
     "Volume": "3,916",
     "Unit": "sentences",

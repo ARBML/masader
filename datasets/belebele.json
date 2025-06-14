@@ -46,7 +46,7 @@
     "Dialect": "mixed",
     "Domain": "wikipedia",
     "Form": "text",
-    "Collection Style": "human translation",
+    "Collection Style": "human annotation",
     "Description": "A multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants.",
     "Volume": "5,400",
     "Unit": "sentences",

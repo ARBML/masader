@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling,annotation,machine translation",
+    "Collection Style": "crawling,machine annotation",
     "Description": "consists of over 12,000 sentences from the JRCAcquis (Acquis Communautaire) corpus ",
     "Volume": "12,000",
     "Unit": "sentences",

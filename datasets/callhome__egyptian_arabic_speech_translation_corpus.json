@@ -9,7 +9,7 @@
     "Dialect": "Egypt",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "human translation",
+    "Collection Style": "human annotation",
     "Description": "three-way parallel dataset of Egyptian Arabic Speech, transcriptions and English translations",
     "Volume": "39,213",
     "Unit": "sentences",

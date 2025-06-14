@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "dataset for Arabic Sentiment Analysis",
     "Volume": "6,000,000",
     "Unit": "sentences",

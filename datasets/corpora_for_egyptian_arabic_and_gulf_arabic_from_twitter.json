@@ -22,7 +22,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "An evenly balanced dataset of Arabic dialects, Egyptian and Gulf using a variety of dialectal terms.",
     "Volume": "300,000",
     "Unit": "sentences",

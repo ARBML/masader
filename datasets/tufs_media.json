@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "news articles",
     "Form": "text",
-    "Collection Style": "crawling,annotation,machine translation",
+    "Collection Style": "crawling,machine annotation",
     "Description": "a parallel corpus of translated news articles collected at Tokyo University of Foreign Studies (TUFS)",
     "Volume": "8,652",
     "Unit": "sentences",

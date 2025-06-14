@@ -9,7 +9,7 @@
     "Dialect": "Jordan",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "Corpus consisted of 1,800 tweets annotated as positive and negative. Modern Standard Arabic (MSA) or Jordanian dialect.",
     "Volume": "1,800",
     "Unit": "sentences",

@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "The Arabic dataset consists of 10,000 tweets collected in April\u2013May 2019 using the Twitter API with the language filter set to Arabic: lang:ar.",
     "Volume": "10,000",
     "Unit": "sentences",

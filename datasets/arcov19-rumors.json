@@ -9,7 +9,7 @@
     "Dialect": "mixed",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "The first Arabic dataset for rumors verification in Twitter",
     "Volume": "9,414",
     "Unit": "sentences",

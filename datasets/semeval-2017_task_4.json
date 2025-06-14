@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "social media",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": " a large accessible benchmark dataset containing over 70,000 tweets\nacross two languages",
     "Volume": "70,000",
     "Unit": "sentences",

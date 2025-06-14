@@ -9,7 +9,7 @@
     "Dialect": "Modern Standard Arabic",
     "Domain": "other",
     "Form": "text",
-    "Collection Style": "crawling,annotation",
+    "Collection Style": "crawling",
     "Description": "Named entities (person,organisation and location) Arabic-English Pairs Person 27480 Organization 17237 Location 4036 Overall Arabic-English Pairs 48753",
     "Volume": "48,753",
     "Unit": "tokens",
