@@ -1,5 +1,5 @@
 {
-    "Name": "AFEWC ",
+    "Name": "AFEWC",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AFEWC",
     "Link": "https://sourceforge.net/projects/crlcl/",
@@ -7,30 +7,45 @@
     "Year": 2013,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "wikipedia",
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "a multilingual comparable text articles in Arabic, French, and English languages",
-    "Volume": "40,290",
+    "Volume": 40290.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "INRIA",
-    "Derived From": "",
+    "Provider": [
+        "INRIA"
+    ],
+    "Derived From": [],
     "Paper Title": "Extracting Comparable Articles from Wikipedia and Measuring their\nComparabilities",
     "Paper Link": "https://www.sciencedirect.com/science/article/pii/S1877042813041402",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "PSBS",
-    "Citations": "21.0",
     "Venue Type": "journal",
     "Venue Name": "Procedia Social and Behavioral Sciences",
-    "Authors": "Motaz K. Saad,David Langlois,Kamel Sma",
-    "Affiliations": ",,",
+    "Authors": [
+        "Motaz K. Saad",
+        "David Langlois",
+        "Kamel Sma"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Parallel corpora are not available for all domains and languages, but statistical methods in multilingual research domains require huge parallel/comparable corpora. Comparable corpora can be used when the parallel is not sufficient or not available for specific domains and languages. In this paper, we propose a method to extract all comparable articles from Wikipedia for multiple languages based on interlanguge links. We also extract comparable articles from Euro News website. We also present two comparability measures (CM) to compute the degree of comparability of multilingual articles. We extracted about 40K and 34K comparable articles from Wikipedia and Euro News respectively in three languages including Arabic, French, and English. Experimental results of comparability measures show that our measure can capture the comparability of multilingual corpora and allow to retrieve articles from different language concerning the same topic.",
     "Added By": "Zaid Alyafeai"
 }

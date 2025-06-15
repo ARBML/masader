@@ -7,30 +7,38 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "commentary",
+    "Domain": [
+        "commentary"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "This is an Arabic dataset called Arabic Multi Classification Dataset version 0.1 (AMCD). AMCD can be used for texting mining and clustering and classification algorithm. It collected from YouTube Videos meta data and user comments. It can be used for topic modelling, text summarization, apply classification or clustering algorithms.",
-    "Volume": "8,046",
+    "Volume": 8046.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "topic classification, summarization",
+    "Test Split": false,
+    "Tasks": [
+        "topic classification",
+        "summarization"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "Waelyafooz",
+    "Authors": [],
+    "Affiliations": [
+        "Waelyafooz"
+    ],
     "Abstract": "",
     "Added By": "Abdelrahman Rezk"
 }

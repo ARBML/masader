@@ -7,30 +7,51 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Modern Standard ArabicDialectal Arabic (MSA-DA)",
-    "Volume": "11,224",
+    "Volume": 11224.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple Institutions ",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "Named Entity Recognition on Code-Switched Data: Overview of the CALCS 2018 Shared Task",
     "Paper Link": "https://aclanthology.org/W18-3219.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "named entity recognition",
-    "Venue Title": "CALCS ",
-    "Citations": "39.0",
+    "Test Split": true,
+    "Tasks": [
+        "named entity recognition"
+    ],
+    "Venue Title": "CALCS",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Computational Approaches to Code Switching",
-    "Authors": "Gustavo Aguilar,F. Alghamdi,V\u00edctor Soto,Mona T. Diab,Julia Hirschberg,T. Solorio",
-    "Affiliations": "University of Houston,,,,,",
+    "Authors": [
+        "Gustavo Aguilar",
+        "F. Alghamdi",
+        "V\u00edctor Soto",
+        "Mona T. Diab",
+        "Julia Hirschberg",
+        "T. Solorio"
+    ],
+    "Affiliations": [
+        "University of Houston",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "In the third shared task of the Computational Approaches to Linguistic Code-Switching (CALCS) workshop, we focus on Named Entity Recognition (NER) on code-switched social-media data. We divide the shared task into two competitions based on the English-Spanish (ENG-SPA) and Modern Standard Arabic-Egyptian (MSA-EGY) language pairs. We use Twitter data and 9 entity types to establish a new dataset for code-switched NER benchmarks. In addition to the CS phenomenon, the diversity of the entities and the social media challenges make the task considerably hard to process. As a result, the best scores of the competitions are 63.76% and 71.61% for ENG-SPA and MSA-EGY, respectively. We present the scores of 9 participants and discuss the most common challenges among submissions.",
     "Added By": "Maraim Masoud"
 }

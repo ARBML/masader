@@ -7,30 +7,42 @@
     "Year": 2017,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The ArabScribe dataset contains 10,000 transcriptions of Arabic words with both Roman and Arabic keyboards based on audio impressions of native and non-native speakers of Arabic.",
-    "Volume": "3,234",
+    "Volume": 3234.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "NYU Abu Dhabi",
-    "Derived From": "",
+    "Provider": [
+        "NYU Abu Dhabi"
+    ],
+    "Derived From": [],
     "Paper Title": "Robust Dictionary Lookup in Multiple Noisy Orthographies",
     "Paper Link": "https://aclanthology.org/W17-1315.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "dictionary",
+    "Test Split": false,
+    "Tasks": [
+        "dictionary"
+    ],
     "Venue Title": "WANLP",
-    "Citations": "",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",
-    "Authors": "Lingliang Zhang, Nizar Habash and Godfried Toussaint",
-    "Affiliations": "NYU",
-    "Abstract": "We present the MultiScript Phonetic\nSearch algorithm to address the problem\nof language learners looking up unfamiliar words that they heard. We apply it\nto Arabic dictionary lookup with noisy\nqueries done using both the Arabic and\nRoman scripts. Our algorithm is based on\na computational phonetic distance metric\nthat can be optionally machine learned. To\nbenchmark our performance, we created\nthe ArabScribe dataset, containing 10,000\nnoisy transcriptions of random Arabic dictionary words. Our algorithm outperforms\nGoogle Translate\u2019s \u201cdid you mean\" feature, as well as the Yamli smart Arabic\nkeyboard.\n",
+    "Authors": [
+        "Lingliang Zhang",
+        "Nizar Habash and Godfried Toussaint"
+    ],
+    "Affiliations": [
+        "NYU"
+    ],
+    "Abstract": "We present the MultiScript Phonetic\nSearch algorithm to address the problem\nof language learners looking up unfamiliar words that they heard. We apply it\nto Arabic dictionary lookup with noisy\nqueries done using both the Arabic and\nRoman scripts. Our algorithm is based on\na computational phonetic distance metric\nthat can be optionally machine learned. To\nbenchmark our performance, we created\nthe ArabScribe dataset, containing 10,000\nnoisy transcriptions of random Arabic dictionary words. Our algorithm outperforms\nGoogle Translate\u2019s \u201cdid you mean\" feature, as well as the Yamli smart Arabic\nkeyboard.",
     "Added By": "Zaid Alyafeai"
 }

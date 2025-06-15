@@ -7,30 +7,51 @@
     "Year": 2011,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "CODA* is a unified orthographic system for Arabic dialects designed for computational purposes. It maintains dialectal uniqueness while aligning with some conventions of Modern Standard Arabic (MSA).",
-    "Volume": "",
+    "Volume": 0.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "NYU Abu Dhabi",
-    "Derived From": "Manually derived from phonological, morphological, and syntactic studies of dialects.",
+    "Provider": [
+        "NYU Abu Dhabi"
+    ],
+    "Derived From": [
+        "Manually derived from phonological",
+        "morphological",
+        "and syntactic studies of dialects."
+    ],
     "Paper Title": "A Spelling Correction Corpus for Multiple Arabic Dialects",
     "Paper Link": "https://aclanthology.org/L16-1006.pdf",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "morphological analysis",
+    "Test Split": false,
+    "Tasks": [
+        "morphological analysis"
+    ],
     "Venue Title": "LREC (Language Resources and Evaluation Conference)",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "LREC (Language Resources and Evaluation Conference)",
-    "Authors": "Nizar Habash (Project Lead), Fadhl Eryani (Current Maintainer), and others from NYUAD and collaborating universities.",
-    "Affiliations": "New York University Abu Dhabi (NYUAD), Birzeit University, Universit\u00e9 de Sfax, Carnegie Mellon University in Qatar, and more.",
+    "Authors": [
+        "Nizar Habash (Project Lead)",
+        "Fadhl Eryani (Current Maintainer)",
+        "and others from NYUAD and collaborating universities."
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi (NYUAD)",
+        "Birzeit University",
+        "Universit\u00e9 de Sfax",
+        "Carnegie Mellon University in Qatar",
+        "and more."
+    ],
     "Abstract": "",
     "Added By": "Maryam Al Emadi "
 }

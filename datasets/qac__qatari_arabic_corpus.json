@@ -7,30 +7,43 @@
     "Year": 2014,
     "Language": "ar",
     "Dialect": "Qatar",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Speech was recorded from four Qatari television programs in 2009-2011:",
-    "Volume": "18.45",
+    "Volume": 18.45,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "Qatar University",
-    "Derived From": "",
+    "Provider": [
+        "Qatar University"
+    ],
+    "Derived From": [],
     "Paper Title": "Development of a TV Broadcasts Speech Recognition System for Qatari Arabic",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2014/pdf/430_Paper.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "speech recognition ",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "LREC",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Language Resources and Evaluation Conference",
-    "Authors": "Mohamed Elmahdy, Mark Hasegawa-Johnson, Eiman Mustafawi",
-    "Affiliations": "Qatar University; University of Illinois ;Qatar University",
-    "Abstract": "A major problem with dialectal Arabic speech recognition is due to the sparsity of speech resources. In this paper, a transfer learning\nframework is proposed to jointly use a large amount of Modern Standard Arabic (MSA) data and little amount of dialectal Arabic data to\nimprove acoustic and language modeling. The Qatari Arabic (QA) dialect has been chosen as a typical example for an under-resourced\nArabic dialect. A wide-band speech corpus has been collected and transcribed from several Qatari TV series and talk-show programs.\nA large vocabulary speech recognition baseline system was built using the QA corpus. The proposed MSA-based transfer learning\ntechnique was performed by applying orthographic normalization, phone mapping, data pooling, acoustic model adaptation, and system\ncombination. The proposed approach can achieve more than 28% relative reduction in WER.\n",
+    "Authors": [
+        "Mohamed Elmahdy",
+        "Mark Hasegawa-Johnson",
+        "Eiman Mustafawi"
+    ],
+    "Affiliations": [
+        "Qatar University; University of Illinois ;Qatar University"
+    ],
+    "Abstract": "A major problem with dialectal Arabic speech recognition is due to the sparsity of speech resources. In this paper, a transfer learning\nframework is proposed to jointly use a large amount of Modern Standard Arabic (MSA) data and little amount of dialectal Arabic data to\nimprove acoustic and language modeling. The Qatari Arabic (QA) dialect has been chosen as a typical example for an under-resourced\nArabic dialect. A wide-band speech corpus has been collected and transcribed from several Qatari TV series and talk-show programs.\nA large vocabulary speech recognition baseline system was built using the QA corpus. The proposed MSA-based transfer learning\ntechnique was performed by applying orthographic normalization, phone mapping, data pooling, acoustic model adaptation, and system\ncombination. The proposed approach can achieve more than 28% relative reduction in WER.",
     "Added By": "Zaid Alyafeai"
 }

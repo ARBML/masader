@@ -7,30 +7,54 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "The KIND dataset consists of fine-grained Arabic dialect data collected through a social collaboration approach, emphasizing community involvement. It includes both aligned parallel corpora (MSA to dialectal translations) and dialectal Q&A data. The dataset covers underrepresented Arabic dialects, is suitable for training NLP models, and supports nuanced dialect analysis and comparison with MSA.",
-    "Volume": "55,484",
+    "Volume": 55484.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "KFUPM",
-    "Derived From": "MADAR dataset for MSA sentences ",
+    "Provider": [
+        "KFUPM"
+    ],
+    "Derived From": [
+        "MADAR dataset for MSA sentences"
+    ],
     "Paper Title": "The KIND Dataset: A Social Collaboration Approach for Nuanced Dialect Data Collection",
     "Paper Link": "https://aclanthology.org/2024.eacl-srw.3.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "dialect identification, machine translation, question answering",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification",
+        "machine translation",
+        "question answering"
+    ],
     "Venue Title": "EACL",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "The 18th Conference of the European Chapter of the Association for Computational Linguistics",
-    "Authors": "Asma Z. Yamani, Raghad Alziyady, Reem AlYami, Salma A. Albelali, Leina Abouhagar, Jawharah Almulhim, Amjad Alsulami, Motaz Alfarraj, Rabeah Al-Zaidy",
-    "Affiliations": "King Fahd University of Petroleum & Minerals, Saudi Arabia.",
+    "Authors": [
+        "Asma Z. Yamani",
+        "Raghad Alziyady",
+        "Reem AlYami",
+        "Salma A. Albelali",
+        "Leina Abouhagar",
+        "Jawharah Almulhim",
+        "Amjad Alsulami",
+        "Motaz Alfarraj",
+        "Rabeah Al-Zaidy"
+    ],
+    "Affiliations": [
+        "King Fahd University of Petroleum & Minerals",
+        "Saudi Arabia."
+    ],
     "Abstract": "The KIND dataset offers a nuanced collection of Arabic dialect data, emphasizing under-represented dialects and cultural relevance. It includes both aligned parallel texts for translation between MSA and dialects, and Q&A data. The dataset was curated through social collaboration and gamification, promoting community participation and offering innovative data collection methods.",
     "Added By": "Maryam Al Emadi"
 }

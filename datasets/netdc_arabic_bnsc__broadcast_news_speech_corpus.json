@@ -1,5 +1,5 @@
 {
-    "Name": "NetDC Arabic BNSC: Broadcast News Speech Corpus ",
+    "Name": "NetDC Arabic BNSC: Broadcast News Speech Corpus",
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-S0157/",
@@ -7,30 +7,37 @@
     "Year": 2007,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The database contains ca. 22.5 hours of broadcast news speech recorded from Radio Orient (France) during a 3-month period between November 2001 and January 2002 (37 broadcast news, including 32 from the 5.55 pm news and 5 from the 10.55 pm news, with about 90 distinct speakers identified)",
-    "Volume": "22.5",
+    "Volume": 22.5,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "ELDA",
-    "Derived From": "",
+    "Provider": [
+        "ELDA"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "200.00\u20ac",
-    "Test Split": "No",
-    "Tasks": "speech recognition ",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

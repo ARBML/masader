@@ -4,19 +4,19 @@
         {
             "Name": "SDC",
             "Dialect": "Saudi Arabia",
-            "Volume": "210,396",
+            "Volume": 210396.0,
             "Unit": "tokens"
         },
         {
             "Name": "EDC",
             "Dialect": "Egypt",
-            "Volume": "218,149",
+            "Volume": 218149.0,
             "Unit": "tokens"
         },
         {
             "Name": "MSA",
             "Dialect": "Modern Standard Arabic",
-            "Volume": "45,251",
+            "Volume": 45251.0,
             "Unit": "tokens"
         }
     ],
@@ -26,30 +26,45 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "consists of 45,251 words and is 436 KB in size.It was collected from different Facebook pages",
-    "Volume": "473,796",
+    "Volume": 473796.0,
     "Unit": "tokens",
     "Ethical Risks": "Medium",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "Compression versus traditional machine learning classifiers to detect code-switching in varieties and dialects: Arabic as a case study",
     "Paper Link": "https://eprints.whiterose.ac.uk/155881/1/tarmom18nlejV8tex.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "codeswitch detection",
+    "Test Split": false,
+    "Tasks": [
+        "codeswitch detection"
+    ],
     "Venue Title": "NLE",
-    "Citations": "1.0",
     "Venue Type": "journal",
     "Venue Name": "Natural Language Engineering",
-    "Authors": "Taghreed Tarmom,W. Teahan,E. Atwell,Mohammad Ammar Alsalka",
-    "Affiliations": ",,,",
+    "Authors": [
+        "Taghreed Tarmom",
+        "W. Teahan",
+        "E. Atwell",
+        "Mohammad Ammar Alsalka"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Abstract The occurrence of code-switching in online communication, when a writer switches among multiple languages, presents a challenge for natural language processing tools, since they are designed for texts written in a single language. To answer the challenge, this paper presents detailed research on ways to detect code-switching in Arabic text automatically. We compare the prediction by partial matching (PPM) compression-based classifier, implemented in Tawa, and a traditional machine learning classifier sequential minimal optimization (SMO), implemented in Waikato Environment for Knowledge Analysis, working specifically on Arabic text taken from Facebook. Three experiments were conducted in order to: (1) detect code-switching among the Egyptian dialect and English; (2) detect code-switching among the Egyptian dialect, the Saudi dialect, and English; and (3) detect code-switching among the Egyptian dialect, the Saudi dialect, Modern Standard Arabic (MSA), and English. Our experiments showed that PPM achieved a higher accuracy rate than SMO with 99.8% versus 97.5% in the first experiment and 97.8% versus 80.7% in the second. In the third experiment, PPM achieved a lower accuracy rate than SMO with 53.2% versus 60.2%. Code-switching between Egyptian Arabic and English text is easiest to detect because Arabic and English are generally written in different character sets. It is more difficult to distinguish between Arabic dialects and MSA as these use the same character set, and most users of Arabic, especially Saudis and Egyptians, frequently mix MSA with their dialects. We also note that the MSA corpus used for training the MSA model may not represent MSA Facebook text well, being built from news websites. This paper also describes in detail the new Arabic corpora created for this research and our experiments.",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,30 +7,44 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "books",
+    "Domain": [
+        "books"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
-    "Description": "The data contains 300 documents, 445 erroneous sentences and their error-free counterparts, and a total of 3,532 words. ",
-    "Volume": "300",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "The data contains 300 documents, 445 erroneous sentences and their error-free counterparts, and a total of 3,532 words.",
+    "Volume": 300.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "King Saud University",
-    "Derived From": "",
+    "Provider": [
+        "King Saud University"
+    ],
+    "Derived From": [],
     "Paper Title": "A7\u05f3ta: Data on a monolingual Arabic parallel corpus for grammar checking",
     "Paper Link": "https://www.sciencedirect.com/science/article/pii/S2352340918315397",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "grammatical analysis, misspelling detection",
+    "Test Split": false,
+    "Tasks": [
+        "grammatical analysis",
+        "misspelling detection"
+    ],
     "Venue Title": "Data in brief",
-    "Citations": "2.0",
     "Venue Type": "journal",
     "Venue Name": "Data in brief",
-    "Authors": "Nora Madi,Hend Suliman Al-Khalifa",
-    "Affiliations": ",",
+    "Authors": [
+        "Nora Madi",
+        "Hend Suliman Al-Khalifa"
+    ],
+    "Affiliations": [
+        "",
+        ""
+    ],
     "Abstract": "Grammar error correction can be considered as a \u201ctranslation\u201d problem, such that an erroneous sentence is \u201ctranslated\u201d into a correct version of the sentence in the same language. This can be accomplished by employing techniques like Statistical Machine Translation (SMT) or Neural Machine Translation (NMT). Producing models for SMT or NMT for the goal of grammar correction requires monolingual parallel corpora of a certain language. This data article presents a monolingual parallel corpus of Arabic text called A7\u05f3ta (). It contains 470 erroneous sentences and their 470 error-free counterparts. This is an Arabic parallel corpus that can be used as a linguistic resource for Arabic natural language processing (NLP) mainly to train sequence-to-sequence models for grammar checking. Sentences were manually collected from a book that has been prepared as a guide for correctly writing and using Arabic grammar and other linguistic features. Although there are a number of available Arabic corpora of errors and corrections [2] such as QALB [10] and Arabic Learner Corpus [11], the data we present in this article is an effort to increase the number of freely available Arabic corpora of errors and corrections by providing a detailed error specification and leveraging the work of language experts.",
     "Added By": "Zaid Alyafeai"
 }

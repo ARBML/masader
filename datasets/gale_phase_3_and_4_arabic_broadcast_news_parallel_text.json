@@ -7,30 +7,37 @@
     "Year": 2015,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "GALE Phase 3 and 4 Arabic Broadcast News Parallel Text includes 86 source-translation document pairs, comprising 325,538 words of Arabic source text and its English translation. Data is drawn from 28 distinct Arabic programs broadcast between 2007 and 2008 from Abu Dhabi TV, a television station based in Abu Dhabi, United Arab Emirates; Al Alam News Channel, based in Iran; Al Arabiya, a news television station based in Dubai; Al Baghdadya, an Iraqi broadcaster; Alhurra, a U.S.-government funded regional broadcaster; Al Iraqiyah, an Iraqi television station; Aljazeera, a regional broadcaster located in Doha, Qatar; Al Ordiniyah, a national broadcast station in Jordan; Al Sharqiya, an Iraqi broadcast programmer; Dubai TV, a broadcast station in the United Arab Emirates; Kuwait TV, a national broadcast station based in Kuwait; Lebanese Broadcasting Corporation, a Lebanese television station; Oman TV, a national broadcaster located in the Sultanate of Oman; Radio Sawa, a U.S.-government funded regional broadcaster; Saudi TV, a national television station based in Saudi Arabia; and Syria TV, the national television station in Syria. Broadcast news programming consists of news programs focusing principally on current events.",
-    "Volume": "325,538",
+    "Volume": 325538.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

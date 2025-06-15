@@ -7,30 +7,47 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "books",
+    "Domain": [
+        "books"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Human Annotated Arabic Dataset of Book Reviews for Aspect Based Sentiment Analysis",
-    "Volume": "2,389",
+    "Volume": 2389.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "JUST",
-    "Derived From": "",
+    "Provider": [
+        "JUST"
+    ],
+    "Derived From": [],
     "Paper Title": "Human Annotated Arabic Dataset of Book Reviews for Aspect Based Sentiment Analysis",
     "Paper Link": "https://ieeexplore.ieee.org/document/7300895",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "sentiment analysis",
-    "Venue Title": "FiCloud ",
-    "Citations": "68.0",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue Title": "FiCloud",
     "Venue Type": "conference",
     "Venue Name": "Conference on Future Internet of Things and Cloud",
-    "Authors": "Mohammad Al-Smadi,Omar Qawasmeh,Bashar Talafha,Muhannad Quwaider",
-    "Affiliations": ",,,",
+    "Authors": [
+        "Mohammad Al-Smadi",
+        "Omar Qawasmeh",
+        "Bashar Talafha",
+        "Muhannad Quwaider"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "With the prominent advances in Web interaction and the enormous growth in user-generated content, sentiment analysis has gained more interest in commercial and academic purposes. Recently, sentiment analysis of Arabic user-generated content is increasingly viewed as an important research field. However, the majority of available approaches target the overall polarity of the text. To the best of our knowledge, there is no available research on aspect-based sentiment analysis (ABSA) of Arabic text. This can be explained due to the lack of publically available datasets prepared for ABSA, and to the slow progress in sentiment analysis of Arabic text research in general. This paper fosters the domain of Arabic ABSA, and provides a benchmark human annotated Arabic dataset (HAAD). HAAD consists of books reviews in Arabic which have been annotated by humans with aspect terms and their polarities. Nevertheless, the paper reports a baseline results and a common evaluation technique to facilitate future evaluation of research and methods.",
     "Added By": ""
 }

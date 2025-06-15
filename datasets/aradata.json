@@ -4,43 +4,43 @@
         {
             "Name": "GLF",
             "Dialect": "Gulf",
-            "Volume": "2,007",
+            "Volume": 2007.0,
             "Unit": "sentences"
         },
         {
             "Name": "General",
             "Dialect": "mixed",
-            "Volume": "2,003",
+            "Volume": 2003.0,
             "Unit": "sentences"
         },
         {
             "Name": "EGY",
             "Dialect": "Egypt",
-            "Volume": "2,002",
+            "Volume": 2002.0,
             "Unit": "sentences"
         },
         {
             "Name": "LEV",
             "Dialect": "Levant",
-            "Volume": "2,001",
+            "Volume": 2001.0,
             "Unit": "sentences"
         },
         {
             "Name": "MGH",
             "Dialect": "North Africa",
-            "Volume": "2,001",
+            "Volume": 2001.0,
             "Unit": "sentences"
         },
         {
             "Name": "Tunisian",
             "Dialect": "Tunisia",
-            "Volume": "2,001",
+            "Volume": 2001.0,
             "Unit": "sentences"
         },
         {
             "Name": "IRQ",
             "Dialect": "Iraq",
-            "Volume": "216",
+            "Volume": 216.0,
             "Unit": "sentences"
         }
     ],
@@ -50,30 +50,35 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "araData is a clean and balanced dataset containing sentences for 7 Arabic dialects represented as follows: 2007 GLF, 2003 general, 2002 EGY, 2001 LEV, 2001 MGH, 2001 Tunisian, and 216 IRQ. This data is a collection of different resources prepared by HEDHLI Malek for a project to identify Arabic dialects.",
-    "Volume": "12,236",
+    "Volume": 12236.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "dialect identification ",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

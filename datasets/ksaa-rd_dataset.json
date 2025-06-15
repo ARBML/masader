@@ -7,30 +7,53 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling,machine annotation",
-    "Description": " The KSAA-RD dataset contains over 58,000 Arabic entries and 63,000 English entries. Each entry consists of a word (lemma), its part of speech, and a gloss (definition). The dataset provides both contextualized word embeddings (from AraELECTRA) and fixed word embeddings (from AraVec\u2019s skip-gram model).",
-    "Volume": "58,000",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
+    "Description": "The KSAA-RD dataset contains over 58,000 Arabic entries and 63,000 English entries. Each entry consists of a word (lemma), its part of speech, and a gloss (definition). The dataset provides both contextualized word embeddings (from AraELECTRA) and fixed word embeddings (from AraVec\u2019s skip-gram model).",
+    "Volume": 58000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "King Salman Global Academy for Arabic Language (KSAA)",
-    "Derived From": "Contemporary Arabic Language dictionary (Arabic), SemEval 2022 English dictionary",
+    "Provider": [
+        "King Salman Global Academy for Arabic Language (KSAA)"
+    ],
+    "Derived From": [
+        "Contemporary Arabic Language dictionary (Arabic)",
+        "SemEval 2022 English dictionary"
+    ],
     "Paper Title": "KSAA-RD Shared Task: Arabic Reverse Dictionary",
     "Paper Link": "https://aclanthology.org/2023.arabicnlp-1.39.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "information retrieval, dictionary",
+    "Test Split": true,
+    "Tasks": [
+        "information retrieval",
+        "dictionary"
+    ],
     "Venue Title": "ArabicNLP",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "First Arabic Natural Language Processing Conference",
-    "Authors": "Rawan Al-Matham, Waad Alshammari, Abdulrahman AlOsaimy, Sarah Alhumoud, Asma Al Wazrah, Afrah Altamimi, Halah Alharbi, Abdullah Alfaifi",
-    "Affiliations": "King Salman Global Academy for Arabic Language (KSAA)",
+    "Authors": [
+        "Rawan Al-Matham",
+        "Waad Alshammari",
+        "Abdulrahman AlOsaimy",
+        "Sarah Alhumoud",
+        "Asma Al Wazrah",
+        "Afrah Altamimi",
+        "Halah Alharbi",
+        "Abdullah Alfaifi"
+    ],
+    "Affiliations": [
+        "King Salman Global Academy for Arabic Language (KSAA)"
+    ],
     "Abstract": "The KSAA-RD shared task involves developing a reverse dictionary system for Arabic, with two subtasks focusing on Arabic-to-Arabic and cross-lingual (English-to-Arabic) reverse dictionary tasks. The dataset includes glosses and word embeddings, and the task aimed to improve word embedding models for reverse dictionary generation. Teams participated to predict the most accurate word embeddings from glosses using neural language models like BERT.",
     "Added By": "Maryam Al Emadi"
 }

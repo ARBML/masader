@@ -7,30 +7,46 @@
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The Web Inventory Talk is a collection of the original Ted talks and their translated version. The translations are available in more than 109+ languages, though the distribution is not uniform.",
-    "Volume": "19,670,000",
+    "Volume": 19670000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "Fondazione Bruno Kessler",
-    "Derived From": "TED",
+    "Provider": [
+        "Fondazione Bruno Kessler"
+    ],
+    "Derived From": [
+        "TED"
+    ],
     "Paper Title": "WIT3 : Web Inventory of Transcribed and Translated Talks",
     "Paper Link": "https://aclanthology.org/2012.eamt-1.60.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "speech recognition",
+    "Test Split": true,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "EAMT",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "European Association for Machine Translation",
-    "Authors": "Mauro Cettolo, Christian Girardi, Marcello Federico",
-    "Affiliations": "FBK \u2013 Fondazione Bruno Kessler Trento, Italy",
+    "Authors": [
+        "Mauro Cettolo",
+        "Christian Girardi",
+        "Marcello Federico"
+    ],
+    "Affiliations": [
+        "FBK \u2013 Fondazione Bruno Kessler Trento",
+        "Italy"
+    ],
     "Abstract": "We describe here a Web inventory named\nWIT3\nthat offers access to a collection of\ntranscribed and translated talks. The core\nof WIT3\nis the TED Talks corpus, that\nbasically redistributes the original content\npublished by the TED Conference website (http://www.ted.com). Since 2007,\nthe TED Conference, based in California,\nhas been posting all video recordings of\nits talks together with subtitles in English\nand their translations in more than 80 languages. Aside from its cultural and social relevance, this content, which is published under the Creative Commons BYNC-ND license, also represents a precious\nlanguage resource for the machine translation research community, thanks to its size,\nvariety of topics, and covered languages.\nThis effort repurposes the original content\nin a way which is more convenient for machine translation researchers.",
     "Added By": "Zaid Alyafeai"
 }

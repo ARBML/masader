@@ -7,30 +7,37 @@
     "Year": 2005,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "This corpus contains Arabic transcripts for 322 telephone conversations in UTF-8 format and associated documentation including a word list with frequency of occurences. The list shows all the occurences of words in their pronunciation spellings mapped to their corresponding canonical forms, as well as their raw frequency (the amount of times they appear in the corpus) and source document frequency (the number of documents in which they appear in the corpus).",
-    "Volume": "322",
+    "Volume": 322.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "750.00 $",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

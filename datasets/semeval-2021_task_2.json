@@ -7,30 +7,48 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "the first entirely manually-curated WiC-style dataset in five European and non-European languages, namely Arabic, Chinese, English, French and Russian.",
-    "Volume": "2,000",
+    "Volume": 2000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "Sapienza University of Rome, Italy",
-    "Derived From": "",
+    "Provider": [
+        "Sapienza University of Rome",
+        "Italy"
+    ],
+    "Derived From": [],
     "Paper Title": "SemEval-2021 Task 2: Multilingual and Cross-lingual Word-in-Context Disambiguation (MCL-WiC)",
     "Paper Link": "https://aclanthology.org/2021.semeval-1.3.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "word sense disambiguation",
+    "Test Split": true,
+    "Tasks": [
+        "word sense disambiguation"
+    ],
     "Venue Title": "SEMEVAL",
-    "Citations": "22.0",
     "Venue Type": "workshop",
     "Venue Name": "International Workshop on Semantic Evaluation",
-    "Authors": "Federico Martelli,N. Kalach,Gabriele Tola,Roberto Navigli",
-    "Affiliations": ",,,",
+    "Authors": [
+        "Federico Martelli",
+        "N. Kalach",
+        "Gabriele Tola",
+        "Roberto Navigli"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "In this paper, we introduce the first SemEval task on Multilingual and Cross-Lingual Word-in-Context disambiguation (MCL-WiC). This task allows the largely under-investigated inherent ability of systems to discriminate between word senses within and across languages to be evaluated, dropping the requirement of a fixed sense inventory. Framed as a binary classification, our task is divided into two parts. In the multilingual sub-task, participating systems are required to determine whether two target words, each occurring in a different context within the same language, express the same meaning or not. Instead, in the cross-lingual part, systems are asked to perform the task in a cross-lingual scenario, in which the two target words and their corresponding contexts are provided in two different languages. We illustrate our task, as well as the construction of our manually-created dataset including five languages, namely Arabic, Chinese, English, French and Russian, and the results of the participating systems. Datasets and results are available at: https://github.com/SapienzaNLP/mcl-wic.",
     "Added By": "Mustafa Ghaleb"
 }

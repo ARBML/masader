@@ -3,34 +3,54 @@
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Tyler/wikimatrix_collapsed",
     "Link": "https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix",
-    "License": "CC BY-SA",
+    "License": "Apache-1.0",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "wikipedia",
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "t 135M parallel sentences for\r\n1620 different language pairs, out of which\r\nonly 34M are aligned with English",
-    "Volume": "4,435",
+    "Volume": 4435.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "JHU, Facebook",
-    "Derived From": "",
+    "Provider": [
+        "JHU",
+        "Facebook"
+    ],
+    "Derived From": [],
     "Paper Title": "WikiMatrix: Mining 135M Parallel Sentences\r\nin 1620 Language Pairs from Wikipedia",
     "Paper Link": "https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "EACL",
-    "Citations": "116.0",
     "Venue Type": "conference",
     "Venue Name": "European Chapter of the Association for Computational Linguistics",
-    "Authors": "Holger Schwenk,Vishrav Chaudhary,Shuo Sun,Hongyu Gong,Francisco Guzm\u00e1n",
-    "Affiliations": ",,,University of Illinois at Urbana-Champaign,",
+    "Authors": [
+        "Holger Schwenk",
+        "Vishrav Chaudhary",
+        "Shuo Sun",
+        "Hongyu Gong",
+        "Francisco Guzm\u00e1n"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        "University of Illinois at Urbana-Champaign",
+        ""
+    ],
     "Abstract": "We present an approach based on multilingual sentence embeddings to automatically extract parallel sentences from the content of Wikipedia articles in 96 languages, including several dialects or low-resource languages. We do not limit the extraction process to alignments with English, but we systematically consider all possible language pairs. In total, we are able to extract 135M parallel sentences for 16720 different language pairs, out of which only 34M are aligned with English. This corpus is freely available. To get an indication on the quality of the extracted bitexts, we train neural MT baseline systems on the mined data only for 1886 languages pairs, and evaluate them on the TED corpus, achieving strong BLEU scores for many language pairs. The WikiMatrix bitexts seem to be particularly interesting to train MT systems between distant languages without the need to pivot through English.",
     "Added By": "Zaid Alyafeai"
 }

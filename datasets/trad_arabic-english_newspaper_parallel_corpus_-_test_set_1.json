@@ -7,30 +7,36 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling,machine annotation",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "This is a parallel corpus of 10,000 words in Arabic and 2 reference translations in English. The source texts are articles collected in 2012 from the Arabic version of Le Monde Diplomatique. The translation has been conducted by two different translation teams following a strict protocol aimed at producing high quality translations.",
-    "Volume": "10,000",
+    "Volume": 10000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "300.00\u20ac",
-    "Test Split": "No",
-    "Tasks": "machine translation ",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

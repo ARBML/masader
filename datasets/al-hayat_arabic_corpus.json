@@ -7,30 +7,35 @@
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The corpus was developed in the course of a research project at the University of Essex, in collaboration with the Open University. The corpus contains Al-Hayat newspaper articles with value added for Language Engineering and Information Retrieval applications development purposes. The data have been distributed into 7 subject-specific databases, thus following the Al-Hayat subject tags: General, Car, Computer, News, Economics, Science, and Sport. Mark-up, numbers, special characters and punctuation have been removed. The size of the total file is 268 MB. The dataset contains 18,639,264 distinct tokens in 42,591 articles, organised in 7 domains",
-    "Volume": "42,591",
+    "Volume": 42591.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "720.00\u20ac",
-    "Test Split": "No",
-    "Tasks": "topic classification",
+    "Test Split": false,
+    "Tasks": [
+        "topic classification"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

@@ -4,25 +4,25 @@
         {
             "Name": "Jordanian",
             "Dialect": "Jordan",
-            "Volume": "32,078",
+            "Volume": 32078.0,
             "Unit": "sentences"
         },
         {
             "Name": "Palestanian",
             "Dialect": "Palestine",
-            "Volume": "21,264",
+            "Volume": 21264.0,
             "Unit": "sentences"
         },
         {
             "Name": "Syrian",
             "Dialect": "Syria",
-            "Volume": "48,159",
+            "Volume": 48159.0,
             "Unit": "sentences"
         },
         {
             "Name": "Lebanese",
             "Dialect": "Lebanon",
-            "Volume": "16,304",
+            "Volume": 16304.0,
             "Unit": "sentences"
         }
     ],
@@ -32,30 +32,47 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "the first Levantine Dialect Corpus (SDC) covering data from the four dialects spoken in Palestine, Jordan, Lebanon and Syria.",
-    "Volume": "117,805",
+    "Volume": 117805.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple Institutions ",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "Shami: A Corpus of Levantine Arabic Dialects",
     "Paper Link": "https://aclanthology.org/L18-1576.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "dialect identification",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "LREC",
-    "Citations": "25.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Chatrine Qwaider,Motaz Saad,S. Chatzikyriakidis,Simon Dobnik",
-    "Affiliations": ",The Islamic University of Gaza,,",
+    "Authors": [
+        "Chatrine Qwaider",
+        "Motaz Saad",
+        "S. Chatzikyriakidis",
+        "Simon Dobnik"
+    ],
+    "Affiliations": [
+        "",
+        "The Islamic University of Gaza",
+        "",
+        ""
+    ],
     "Abstract": "Modern Standard Arabic (MSA) is the official language used in education and media across the Arab world both in writing and formal speech. However, in daily communication several dialects depending on the country, region as well as other social factors, are used. With the emergence of social media, the dialectal amount of data on the Internet have increased and the NLP tools that support MSA are not well-suited to process this data due to the difference between the dialects and MSA. In this paper, we construct the Shami corpus, the first Levantine Dialect Corpus (SDC) covering data from the four dialects spoken in Palestine, Jordan, Lebanon and Syria. We also describe rules for pre-processing without affecting the meaning so that it is processable by NLP tools. We choose Dialect Identification as the task to evaluate SDC and compare it with two other corpora. In this respect, experiments are conducted using different parameters based on n-gram models and Naive Bayes classifiers. SDC is larger than the existing corpora in terms of size, words and vocabularies. In addition, we use the performance on the Language Identification task to exemplify the similarities and differences in the individual dialects.",
     "Added By": ""
 }

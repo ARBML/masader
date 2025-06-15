@@ -7,30 +7,37 @@
     "Year": 2007,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
-    "Description": "For an example of the data into this corpus, please listen to this audio sample (wav format). ",
-    "Volume": "985",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "For an example of the data into this corpus, please listen to this audio sample (wav format).",
+    "Volume": 985.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "400.00 $",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

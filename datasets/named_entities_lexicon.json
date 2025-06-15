@@ -7,30 +7,46 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Named entities (person,organisation and location) Arabic-English Pairs Person 27480 Organization 17237 Location 4036 Overall Arabic-English Pairs 48753",
-    "Volume": "48,753",
+    "Volume": 48753.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "Latice Laboratory",
-    "Derived From": "",
+    "Provider": [
+        "Latice Laboratory"
+    ],
+    "Derived From": [],
     "Paper Title": "Arabic-English Text Translation Leveraging Hybrid NER",
     "Paper Link": "https://aclanthology.org/Y17-1019.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "named entity recognition,machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "named entity recognition",
+        "machine translation"
+    ],
     "Venue Title": "PACLIC",
-    "Citations": "6.0",
     "Venue Type": "conference",
     "Venue Name": "Pacific Asia Conference on Language, Information and Computation",
-    "Authors": "Emna Hkiri,S. Mallat,M. Zrigui",
-    "Affiliations": ",,",
+    "Authors": [
+        "Emna Hkiri",
+        "S. Mallat",
+        "M. Zrigui"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Named Entities (NEs) are a very important part of a sentence and their treatment is a potentially useful preprocessing step for Statistical Machine Translation (SMT). Improper translation of NE lapse the quality of the SMT output and it can hurt sentence\u2019s human readability considerably. Dropping NE often causes translation failures beyond the context, affecting both the morphosyntactic formedness of sentences and the word sense disambiguation in the source text. Due to peculiarities of the written Arabic language, the translation task is however rather challenging. In this work, we address the challenging issues of NEs treatment in the context of SMT of Arabic into English texts. We have experimented on three types of named entities which are: Proper names, Organization names and Location names. In this paper, we present integration between machine learning and rule based techniques to tackle Arabic NER problem in attempt to improve the final quality of the SMT system output. We show empirically that each aspect of our approach is important, and that their combination leads to the best results already after integration of NER into SMT. We show improvements in terms of BLEU scores (+4 points) and reduction of out of vocabulary words over a baseline for the News Commentary corpus.",
     "Added By": "Zaid Alyafeai"
 }

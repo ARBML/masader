@@ -7,30 +7,43 @@
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "comprises a\r\ncollection of texts written by learners of Arabic in\r\nSaudi Arabia",
-    "Volume": "1",
+    "Volume": 1.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "Leeds University",
-    "Derived From": "",
-    "Paper Title": "Arabic Learner Corpus v1:\r\nA New Resource for\r\nArabic Language Research\r",
+    "Provider": [
+        "Leeds University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Arabic Learner Corpus v1:\r\nA New Resource for\r\nArabic Language Research",
     "Paper Link": "https://eprints.whiterose.ac.uk/75470/22/AtwellVer2.13.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "25 $",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "other",
-    "Citations": "12.0",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Ayg Alfaifi,E. Atwell",
-    "Affiliations": ",",
+    "Authors": [
+        "Ayg Alfaifi",
+        "E. Atwell"
+    ],
+    "Affiliations": [
+        "",
+        ""
+    ],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,30 +7,38 @@
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The following table contains information for this corpus, broken down by source. The information includes source codes represented in the corpus as well as their codes from the first edition, the collection span and number of documents new to this edition, the number of documents total, and the K-words (thousands of words) for each source. Ummah Press is a new source included in the second edition and therefore has no first edition info.",
-    "Volume": "1,591,983",
+    "Volume": 1591983.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,000.00 $",
-    "Test Split": "No",
-    "Tasks": "information retrieval,language modeling",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval",
+        "language modeling"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

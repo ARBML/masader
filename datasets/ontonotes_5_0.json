@@ -7,30 +7,37 @@
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
-    "Description": "The Arabic portion of OntoNotes 5.0 includes 300K words of newswire data. ",
-    "Volume": "300,000",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "The Arabic portion of OntoNotes 5.0 includes 300K words of newswire data.",
+    "Volume": 300000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
-    "Paper Title": "OntoNotes Release 5.0\nwith OntoNotes DB Tool v0.999 beta ",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
+    "Paper Title": "OntoNotes Release 5.0\nwith OntoNotes DB Tool v0.999 beta",
     "Paper Link": "https://catalog.ldc.upenn.edu/docs/LDC2013T19/OntoNotes-Release-5.0.pdf",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "LDC",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "other",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Mustafa Ghaleb"
 }

@@ -7,30 +7,51 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The ATHAR dataset comprises 66,000 translation pairs from Classical Arabic to English. It spans a wide array of subjects, aiming to enhance the development of NLP models specialized in Classical Arabic. This dataset addresses the gap in translation resources for Classical Arabic and is useful for fine-tuning large language models (LLMs) to improve their performance in handling ancient texts.",
-    "Volume": "66,000",
+    "Volume": 66000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "ADAPT/DCU, Dublin, Ireland",
-    "Derived From": "Classical Arabic literary texts, collected primarily from Rasaif, a website that hosts a large collection of Classical Arabic books.",
+    "Provider": [
+        "ADAPT/DCU",
+        "Dublin",
+        "Ireland"
+    ],
+    "Derived From": [
+        "Classical Arabic literary texts",
+        "collected primarily from Rasaif",
+        "a website that hosts a large collection of Classical Arabic books."
+    ],
     "Paper Title": "ATHAR: A High-Quality and Diverse Dataset for Classical Arabic to English Translation",
     "Paper Link": "https://arxiv.org/pdf/2407.19835",
     "Script": "Arab-Latin",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "machine translation",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Mohammed Khalil, Mohammed Sabry ",
-    "Affiliations": "Independent Researcher, ADAPT/DCU, Dublin, Ireland",
+    "Authors": [
+        "Mohammed Khalil",
+        "Mohammed Sabry"
+    ],
+    "Affiliations": [
+        "Independent Researcher",
+        "ADAPT/DCU",
+        "Dublin",
+        "Ireland"
+    ],
     "Abstract": "ATHAR is a dataset comprising 66,000 high-quality translation pairs from Classical Arabic to English, aimed at improving NLP and machine translation systems. The dataset covers a broad range of Classical Arabic texts, including science, philosophy, and history. Evaluations on state-of-the-art language models indicate that fine-tuning with this dataset significantly improves translation accuracy.",
     "Added By": "Maryam Al Emadi"
 }

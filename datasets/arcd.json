@@ -7,30 +7,49 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "wikipedia",
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "1,395 questions posed by crowdworkers on Wikipedia articles",
-    "Volume": "1,395",
+    "Volume": 1395.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "AUB",
-    "Derived From": "Includes translation of SQuAD version 1.1 ",
-    "Paper Title": "Neural Arabic Question Answering\r",
+    "Provider": [
+        "AUB"
+    ],
+    "Derived From": [
+        "Includes translation of SQuAD version 1.1"
+    ],
+    "Paper Title": "Neural Arabic Question Answering",
     "Paper Link": "https://arxiv.org/pdf/1906.05394.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "question answering",
+    "Test Split": true,
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "WANLP",
-    "Citations": "29.0",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",
-    "Authors": "Hussein Mozannar,Karl El Hajal,Elie Maamary,Hazem M. Hajj",
-    "Affiliations": ",,,",
+    "Authors": [
+        "Hussein Mozannar",
+        "Karl El Hajal",
+        "Elie Maamary",
+        "Hazem M. Hajj"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "This paper tackles the problem of open domain factual Arabic question answering (QA) using Wikipedia as our knowledge source. This constrains the answer of any question to be a span of text in Wikipedia. Open domain QA for Arabic entails three challenges: annotated QA datasets in Arabic, large scale efficient information retrieval and machine reading comprehension. To deal with the lack of Arabic QA datasets we present the Arabic Reading Comprehension Dataset (ARCD) composed of 1,395 questions posed by crowdworkers on Wikipedia articles, and a machine translation of the Stanford Question Answering Dataset (Arabic-SQuAD). Our system for open domain question answering in Arabic (SOQAL) is based on two components: (1) a document retriever using a hierarchical TF-IDF approach and (2) a neural reading comprehension model using the pre-trained bi-directional transformer BERT. Our experiments on ARCD indicate the effectiveness of our approach with our BERT-based reader achieving a 61.3 F1 score, and our open domain system SOQAL achieving a 27.6 F1 score.",
     "Added By": ""
 }

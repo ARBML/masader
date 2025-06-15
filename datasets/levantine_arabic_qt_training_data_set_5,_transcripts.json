@@ -7,30 +7,38 @@
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "This corpus is the combination of four former training data sets: LDC2004E21 and LDC2004E22, LDC2004E65 and LDC2004E66, Arabic CTS Levantine Fisher Training Data Set 3, Speech (LDC2005S07) and Arabic CTS Levantine Fisher Training Data Set 3, Transcripts (LDC2005T03), and Levantine Arabic QT Training Data Set 4 (Speech + Transcripts) (LDC2005S14). More than half of the speakers are Lebanese, the others are Jordanian, Palestinian, and Syrian. The table below shows the distribution of the speakers' national origin:",
-    "Volume": "250",
+    "Volume": 250.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": "No",
-    "Tasks": "language modeling,machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling",
+        "machine translation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

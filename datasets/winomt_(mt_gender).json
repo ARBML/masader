@@ -7,30 +7,45 @@
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "machine annotation",
+    "Collection Style": [
+        "machine annotation"
+    ],
     "Description": "Evaluating Gender Bias in Machine Translation",
-    "Volume": "3,888",
+    "Volume": 3888.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "Evaluating Gender Bias in Machine Translation",
     "Paper Link": "https://arxiv.org/pdf/1906.00591.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "machine translation",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "ACL",
-    "Citations": "99.0",
     "Venue Type": "conference",
     "Venue Name": "Assofications of computation linguisitcs",
-    "Authors": "Gabriel Stanovsky,Noah A. Smith,Luke Zettlemoyer",
-    "Affiliations": "Allen Institute for Artificial Intelligence;University of Washington,,University of Washington;Facebook",
+    "Authors": [
+        "Gabriel Stanovsky",
+        "Noah A. Smith",
+        "Luke Zettlemoyer"
+    ],
+    "Affiliations": [
+        "Allen Institute for Artificial Intelligence;University of Washington",
+        "",
+        "University of Washington;Facebook"
+    ],
     "Abstract": "We present the first challenge set and evaluation protocol for the analysis of gender bias in machine translation (MT). Our approach uses two recent coreference resolution datasets composed of English sentences which cast participants into non-stereotypical gender roles (e.g., \u201cThe doctor asked the nurse to help her in the operation\u201d). We devise an automatic gender bias evaluation method for eight target languages with grammatical gender, based on morphological analysis (e.g., the use of female inflection for the word \u201cdoctor\u201d). Our analyses show that four popular industrial MT systems and two recent state-of-the-art academic MT models are significantly prone to gender-biased translation errors for all tested target languages. Our data and code are publicly available at https://github.com/gabrielStanovsky/mt_gender.",
     "Added By": "Maraim Masoud"
 }

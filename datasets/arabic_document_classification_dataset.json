@@ -7,30 +7,45 @@
     "Year": 2014,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "The dataset contains nine major disciplines: Art, Literature, Religion, Politics, Law, Economy, Sport, Health, and Technology.",
-    "Volume": "2,700",
+    "Volume": 2700.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "On the Impact of Dataset Characteristics on Arabic Document Classification",
     "Paper Link": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.800.5666&rep=rep1&type=pdf",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "topic classification",
+    "Test Split": false,
+    "Tasks": [
+        "topic classification"
+    ],
     "Venue Title": "IJCA",
-    "Citations": "11.0",
     "Venue Type": "journal",
     "Venue Name": "International Journal of Computer Applications",
-    "Authors": "Diab Abuaiadah,Jihad El Sana,Walid Abusalah",
-    "Affiliations": ",,",
+    "Authors": [
+        "Diab Abuaiadah",
+        "Jihad El Sana",
+        "Walid Abusalah"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "paper describes the impact of dataset characteristics on the results of Arabic document classification algorithms using TF-IDF representations. The experiments compared different stemmers, different categories and different training set sizes, and found that different dataset characteristics produced widely differing results, in one case attaining a remarkable 99% recall (accuracy). The use of a standard dataset would eliminate this variability and enable researchers to gain comparable knowledge from the published results.",
     "Added By": "Mustafa Ghaleb"
 }

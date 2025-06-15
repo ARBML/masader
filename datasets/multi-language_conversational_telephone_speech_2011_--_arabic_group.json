@@ -4,19 +4,19 @@
         {
             "Name": "iraqi",
             "Dialect": "Iraq",
-            "Volume": "37.4",
+            "Volume": 37.4,
             "Unit": "hours"
         },
         {
             "Name": "levantine",
             "Dialect": "Levant",
-            "Volume": "41.1",
+            "Volume": 41.1,
             "Unit": "hours"
         },
         {
             "Name": "maghrebi",
             "Dialect": "Morocco",
-            "Volume": "38.6",
+            "Volume": 38.6,
             "Unit": "hours"
         }
     ],
@@ -26,30 +26,37 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Participants were recruited by native speakers who contacted acquaintances in their social network. Those native speakers made one call, up to 15 minutes, to each acquaintance. The data was collected using LDC's telephone collection infrastructure, comprised of three computer telephony systems. Human auditors labeled calls for callee gender, dialect type and noise. Demographic information about the participants was not collected.",
-    "Volume": "37.4",
+    "Volume": 37.4,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,500.00 $",
-    "Test Split": "No",
-    "Tasks": "language identification",
+    "Test Split": false,
+    "Tasks": [
+        "language identification"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

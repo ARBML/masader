@@ -7,30 +7,48 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "A Study of Arabic Satirical Fake News",
-    "Volume": "6,895",
+    "Volume": 6895.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "ComVE",
-    "Paper Title": "Fake or Real? A Study of Arabic Satirical Fake News\r",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [
+        "ComVE"
+    ],
+    "Paper Title": "Fake or Real? A Study of Arabic Satirical Fake News",
     "Paper Link": "https://arxiv.org/pdf/2011.00452.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "fake news detection",
+    "Test Split": false,
+    "Tasks": [
+        "fake news detection"
+    ],
     "Venue Title": "RDSM",
-    "Citations": "4.0",
     "Venue Type": "workshop",
     "Venue Name": "International Workshop on Rumours and Deception in Social Media",
-    "Authors": "Hadeel Saadany,Emad Mohamed,Constantin Orasan",
-    "Affiliations": ",,University of Surrey, UK",
+    "Authors": [
+        "Hadeel Saadany",
+        "Emad Mohamed",
+        "Constantin Orasan"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "University of Surrey",
+        "UK"
+    ],
     "Abstract": "One very common type of fake news is satire which comes in a form of a news website or an online platform that parodies reputable real news agencies to create a sarcastic version of reality. This type of fake news is often disseminated by individuals on their online platforms as it has a much stronger effect in delivering criticism than through a straightforward message. However, when the satirical text is disseminated via social media without mention of its source, it can be mistaken for real news. This study conducts several exploratory analyses to identify the linguistic properties of Arabic fake news with satirical content. It shows that although it parodies real news, Arabic satirical news has distinguishing features on the lexico-grammatical level. We exploit these features to build a number of machine learning models capable of identifying satirical fake news with an accuracy of up to 98.6%. The study introduces a new dataset (3185 articles) scraped from two Arabic satirical news websites (\u2018Al-Hudood\u2019 and \u2018Al-Ahram Al-Mexici\u2019) which consists of fake news. The real news dataset consists of 3710 articles collected from three official news sites: the \u2018BBC-Arabic\u2019, the \u2018CNN-Arabic\u2019 and \u2018Al-Jazeera news\u2019. Both datasets are concerned with political issues related to the Middle East.",
     "Added By": ""
 }

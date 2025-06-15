@@ -7,30 +7,37 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
-    "Description": "The Language Identification dataset is a collection of 90k samples consisting of text passages and corresponding language label. ",
-    "Volume": "3,500",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "The Language Identification dataset is a collection of 90k samples consisting of text passages and corresponding language label.",
+    "Volume": 3500.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "XNLI",
+    "Provider": [],
+    "Derived From": [
+        "XNLI"
+    ],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "language identification",
+    "Test Split": true,
+    "Tasks": [
+        "language identification"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alayfeai"
 }

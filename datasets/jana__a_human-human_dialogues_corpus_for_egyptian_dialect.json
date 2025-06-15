@@ -7,30 +7,37 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The transcribed dialogues consist of 52 telephone calls and 30 instant messaging conversations, amounting to approximately 20,311 words. The data contains roughly 3,001 conversation turns, with an average of 6.7 words per turn, and 4,725 utterances, with an average of 4.3 words per utterance. The data was transcribed using Transcriber.",
-    "Volume": "20,311",
+    "Volume": 20311.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,650.00 $",
-    "Test Split": "No",
-    "Tasks": "dialogue generation",
+    "Test Split": false,
+    "Tasks": [
+        "dialogue generation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

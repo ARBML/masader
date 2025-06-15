@@ -7,30 +7,53 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
-    "Description": " ASAD is a large, high-quality annotated dataset\r\n(including 95K tweets), with three-class sentiment labels (positive, negative and neutral)",
-    "Volume": "100,000",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "ASAD is a large, high-quality annotated dataset\r\n(including 95K tweets), with three-class sentiment labels (positive, negative and neutral)",
+    "Volume": 100000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "ASAD: A TWITTER-BASED BENCHMARK ARABIC SENTIMENT ANALYSIS DATASET",
     "Paper Link": "https://arxiv.org/pdf/2011.00578.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "sentiment analysis",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "ArXiv",
-    "Citations": "2.0",
     "Venue Type": "preprint",
     "Venue Name": "ArXiv",
-    "Authors": "Basma Alharbi,Hind Alamro,Manal Alshehri,Zuhair Khayyat,Manal Kalkatawi,I. Jaber,X. Zhang",
-    "Affiliations": ",,,,,,",
+    "Authors": [
+        "Basma Alharbi",
+        "Hind Alamro",
+        "Manal Alshehri",
+        "Zuhair Khayyat",
+        "Manal Kalkatawi",
+        "I. Jaber",
+        "X. Zhang"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "This paper provides a detailed description of a new Twitter-based benchmark dataset for Arabic Sentiment Analysis (ASAD), which is launched in a competition3, sponsored by KAUST for awarding 10000 USD, 5000 USD and 2000 USD to the first, second and third place winners, respectively. Compared to other publicly released Arabic datasets, ASAD is a large, high-quality annotated dataset(including 95K tweets), with three-class sentiment labels (positive, negative and neutral). We presents the details of the data collection process and annotation process. In addition, we implement several baseline models for the competition task and report the results as a reference for the participants to the competition.",
     "Added By": "Zaid Alyafeai"
 }

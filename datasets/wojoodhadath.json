@@ -7,30 +7,46 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Extends the Wojood dataset by incorporating relations into Wojood's nested structure. The added relations include hasAgent, hasLocation, and hasDate. The dataset, provided in JSON format, consists of sentences, each containing one or more events along with their corresponding arguments. It is divided into three subsets: training, validation, and test.",
-    "Volume": "550,000",
+    "Volume": 550000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "SinaLab, Birzeit University",
-    "Derived From": "",
+    "Provider": [
+        "SinaLab",
+        "Birzeit University"
+    ],
+    "Derived From": [],
     "Paper Title": "Event-Arguments Extraction Corpus and Modeling using BERT for Arabic",
     "Paper Link": "https://arxiv.org/abs/2407.21153",
     "Script": "Arab-Latin",
-    "Tokenized": "Yes",
-    "Host": "SinaLab Resources",
+    "Tokenized": true,
+    "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "language modeling, tokenization, named entity recognition, natural language inference",
+    "Test Split": true,
+    "Tasks": [
+        "language modeling",
+        "tokenization",
+        "named entity recognition",
+        "natural language inference"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "Alaa Aljabari, Lina Duaibes, Mustafa Jarrar, Mohammed Khalilia",
-    "Affiliations": "",
+    "Authors": [
+        "Alaa Aljabari",
+        "Lina Duaibes",
+        "Mustafa Jarrar",
+        "Mohammed Khalilia"
+    ],
+    "Affiliations": [],
     "Abstract": "Event-argument extraction is a challenging task, particularly in Arabic due to sparse linguistic resources. To fill this gap, we introduce the \\hadath corpus (550k tokens) as an extension of Wojood, enriched with event-argument annotations. We used three types of event arguments: agent, location, and date, which we annotated as relation types. Our inter-annotator agreement evaluation resulted in 82.23% Kappa score and 87.2% F1-score. Additionally, we propose a novel method for event relation extraction using BERT, in which we treat the task as text entailment. This method achieves an F1-score of 94.01%. To further evaluate the generalization of our proposed method, we collected and annotated another out-of-domain corpus (about 80k tokens) called \\testNLI and used it as a second test set, on which our approach achieved promising results (83.59% F1-score). Last but not least, we propose an end-to-end system for event-arguments extraction. This system is implemented as part of SinaTools, and both corpora are publicly available at:https://sina.birzeit.edu/wojood/",
     "Added By": "Tymaa Hammouda"
 }

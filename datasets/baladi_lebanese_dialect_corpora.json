@@ -7,30 +7,49 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Lebanon",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The corpus consists of about 9.6K words/tokens collected from Facebook, blog posts and traditional poems. The corpus was annotated as an extension to Curras and following the same annotation methodology to form a Levantine Corpus.",
-    "Volume": "10,000",
+    "Volume": 10000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "SinaLab, Birzeit University",
-    "Derived From": "",
+    "Provider": [
+        "SinaLab",
+        "Birzeit University"
+    ],
+    "Derived From": [],
     "Paper Title": "Curras + Baladi: Towards a Levantine Corpus",
     "Paper Link": "https://arxiv.org/pdf/2212.06468.pdf",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "Dropbox",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation, speech recognition, dialect identification, named entity recognition, part of speech tagging, language identification, morphological analysis",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation",
+        "speech recognition",
+        "dialect identification",
+        "named entity recognition",
+        "part of speech tagging",
+        "language identification",
+        "morphological analysis"
+    ],
     "Venue Title": "LERC",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "LERC",
-    "Authors": "Karim El Haff, Mustafa Jarrar, Tymaa Hammouda, Fadi Zaraket",
-    "Affiliations": "",
+    "Authors": [
+        "Karim El Haff",
+        "Mustafa Jarrar",
+        "Tymaa Hammouda",
+        "Fadi Zaraket"
+    ],
+    "Affiliations": [],
     "Abstract": "The processing of the Arabic language is a complex field of research. This is due to many factors, including the complex and rich morphology of Arabic, its high degree of ambiguity, and the presence of several regional varieties that need to be processed while taking into account their unique characteristics. When its dialects are taken into account, this language pushes the limits of NLP to find solutions to problems posed by its inherent nature. It is a diglossic language; the standard language is used in formal settings and in education and is quite different from the vernacular languages spoken in the different regions and influenced by older languages that were historically spoken in those regions. This should encourage NLP specialists to create dialect-specific corpora such as the Palestinian morphologically annotated Curras corpus of Birzeit University. In this work, we present the Lebanese Corpus Baladi that consists of around 9.6K morphologically annotated tokens. Since Lebanese and Palestinian dialects are part of the same Levantine dialectal continuum, and thus highly mutually intelligible, our proposed corpus was constructed to be used to (1) enrich Curras and transform it into a more general Levantine corpus and (2) improve Curras by solving detected errors.",
     "Added By": "Mustafa Jarrar"
 }

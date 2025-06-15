@@ -7,30 +7,59 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "1657 k verses of poems and prose to develop neural networks to classify and diacritize Arabic poetry",
-    "Volume": "1,831,770",
+    "Volume": 1831770.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "The University of Jordan",
-    "Derived From": "APCD",
+    "Provider": [
+        "The University of Jordan"
+    ],
+    "Derived From": [
+        "APCD"
+    ],
     "Paper Title": "Classifying and diacritizing Arabic poems using deep recurrent neural networks",
     "Paper Link": "https://www.sciencedirect.com/science/article/pii/S1319157820305784/pdfft?md5=07be922e052bf43933bdb7bea5189718&pid=1-s2.0-S1319157820305784-main.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "meter classification",
+    "Test Split": true,
+    "Tasks": [
+        "meter classification"
+    ],
     "Venue Title": "JKSU",
-    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "Journal of King Saud University - Computer and Information Sciences",
-    "Authors": "Gheith A. Abandah, Mohammed Z. Khedher, Mohammad R. Abdel-Majeed, Hamdi M Mansour, Salma F Hulliel, Lara M Bisharata",
-    "Affiliations": "School of Engineering, The University of Jordan,School of Engineering, The University of Jordan,School of Engineering, The University of Jordan,School of Arts, The University of Jordan, School of Engineering, The University of Jordan, School of Engineering, The University of Jordan",
+    "Authors": [
+        "Gheith A. Abandah",
+        "Mohammed Z. Khedher",
+        "Mohammad R. Abdel-Majeed",
+        "Hamdi M Mansour",
+        "Salma F Hulliel",
+        "Lara M Bisharata"
+    ],
+    "Affiliations": [
+        "School of Engineering",
+        "The University of Jordan",
+        "School of Engineering",
+        "The University of Jordan",
+        "School of Engineering",
+        "The University of Jordan",
+        "School of Arts",
+        "The University of Jordan",
+        "School of Engineering",
+        "The University of Jordan",
+        "School of Engineering",
+        "The University of Jordan"
+    ],
     "Abstract": "Poetry has a prominent history in Arabic literature. The classical Arabic poetry has 16 m that vary in rhythm and target purpose. Chanting a poem eloquently requires knowing the poem\u2019s meter and obtaining a diacritized version of its verses (letters inscribed with their short vowels); diacritics are often not inscribed in Arabic texts. This work proposes solutions to classify input Arabic text into the 16 poetry meters and prose. It also investigates the automatic diacritization of Arabic poetry. We adopt machine learning approach using a large dataset of 1657 k verses of poems and prose to develop neural networks to classify and diacritize Arabic poetry. We propose deep and narrow recurrent neural networks with bidirectional long short-term memory cells for solving these problems. The proposed model classifies the input text with an average accuracy of 97.27%, which is significantly higher than previous work. We also propose a solution that achieves an accuracy that approaches 100% when multiple verses of the same poem are available through predicting the class from the aggregate probabilities of the multiple verses. Diacritizing poetry is much harder than diacritizing prose due to the poet\u2019s meticulous selection of phrases and relaxation of some diacritization rules.",
     "Added By": "Zaid Alyafeai"
 }

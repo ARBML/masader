@@ -1,5 +1,5 @@
 {
-    "Name": "AMARA ",
+    "Name": "AMARA",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/qed_amara",
     "Link": "https://alt.qcri.org/resources/qedcorpus/",
@@ -7,30 +7,48 @@
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling,machine annotation",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "multilingually aligned for 20 languages, i.e. 20 monolingual corpora and 190 parallel corpora",
-    "Volume": "154,301",
+    "Volume": 154301.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "QCRI",
-    "Derived From": "",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
     "Paper Title": "The AMARA Corpus: Building Parallel Language Resources for the\r\nEducational Domain",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2014/pdf/877_Paper.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "machine translation",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "LREC",
-    "Citations": "59.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Ahmed Abdelali,Francisco Guzm\u00e1n,Hassan Sajjad,S. Vogel",
-    "Affiliations": ",,,",
+    "Authors": [
+        "Ahmed Abdelali",
+        "Francisco Guzm\u00e1n",
+        "Hassan Sajjad",
+        "S. Vogel"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "This paper presents the AMARA corpus of on-line educational content: a new parallel corpus of educational video subtitles, multilingually aligned for 20 languages, i.e. 20 monolingual corpora and 190 parallel corpora. This corpus includes both resource-rich languages such as English and Arabic, and resource-poor languages such as Hindi and Thai. In this paper, we describe the gathering, validation, and preprocessing of a large collection of parallel, community-generated subtitles. Furthermore, we describe the methodology used to prepare the data for Machine Translation tasks. Additionally, we provide a document-level, jointly aligned development and test sets for 14 language pairs, designed for tuning and testing Machine Translation systems. We provide baseline results for these tasks, and highlight some of the challenges we face when building machine translation systems for educational content.",
     "Added By": ""
 }

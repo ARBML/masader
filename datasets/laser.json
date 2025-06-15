@@ -7,30 +7,45 @@
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "human annotation",
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "aligned sentences in 112 languages",
-    "Volume": "1,000",
+    "Volume": 1000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "Tatoeba",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [
+        "Tatoeba"
+    ],
     "Paper Title": "Massively Multilingual Sentence Embeddings for Zero-Shot\r\nCross-Lingual Transfer and Beyond",
     "Paper Link": "https://arxiv.org/pdf/1812.10464.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation ",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "TACL",
-    "Citations": "374.0",
     "Venue Type": "journal",
     "Venue Name": "Transactions of the Association for Computational Linguistics",
-    "Authors": "Mikel Artetxe,Holger Schwenk",
-    "Affiliations": ",",
+    "Authors": [
+        "Mikel Artetxe",
+        "Holger Schwenk"
+    ],
+    "Affiliations": [
+        "",
+        ""
+    ],
     "Abstract": "Abstract We introduce an architecture to learn joint multilingual sentence representations for 93 languages, belonging to more than 30 different families and written in 28 different scripts. Our system uses a single BiLSTM encoder with a shared byte-pair encoding vocabulary for all languages, which is coupled with an auxiliary decoder and trained on publicly available parallel corpora. This enables us to learn a classifier on top of the resulting embeddings using English annotated data only, and transfer it to any of the 93 languages without any modification. Our experiments in cross-lingual natural language inference (XNLI data set), cross-lingual document classification (MLDoc data set), and parallel corpus mining (BUCC data set) show the effectiveness of our approach. We also introduce a new test set of aligned sentences in 112 languages, and show that our sentence embeddings obtain strong results in multilingual similarity search even for low- resource languages. Our implementation, the pre-trained encoder, and the multilingual test set are available at https://github.com/facebookresearch/LASER.",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,30 +7,37 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Tunisia",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The telephone speech data was drawn from the Call My Net 2 (CMN2) collection conducted by LDC in Tunisia in which Tunisian Arabic speakers called friends or relatives who agreed to record their telephone conversations lasting between 8-10 minutes. The speech segments include PSTN (public switched telephone network) and VOIP (voice over IP) data.",
-    "Volume": "396",
+    "Volume": 396.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "750.00 $",
-    "Test Split": "No",
-    "Tasks": "speaker identification",
+    "Test Split": false,
+    "Tasks": [
+        "speaker identification"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

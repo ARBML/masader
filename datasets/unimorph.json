@@ -7,30 +7,41 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
-    "Description": "167 languages have been annotated according to the UniMorph schema. ",
-    "Volume": "140003",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "167 languages have been annotated according to the UniMorph schema.",
+    "Volume": 140003.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "Johns Hopkins University",
-    "Derived From": "",
+    "Provider": [
+        "Johns Hopkins University"
+    ],
+    "Derived From": [],
     "Paper Title": "The Composition and Use of the Universal Morphological Feature Schema (UniMorph Schema)",
     "Paper Link": "https://unimorph.github.io/doc/unimorph-schema.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "morphological analysis",
+    "Test Split": false,
+    "Tasks": [
+        "morphological analysis"
+    ],
     "Venue Title": "",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "John Sylak-Glassman\n",
-    "Affiliations": "Center for Language and Speech Processing Johns Hopkins University",
+    "Authors": [
+        "John Sylak-Glassman"
+    ],
+    "Affiliations": [
+        "Center for Language and Speech Processing Johns Hopkins University"
+    ],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

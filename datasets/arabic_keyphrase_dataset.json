@@ -7,30 +7,43 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "A dataset in Arabic language for automatic keyphrase extraction algorithms",
-    "Volume": "400",
+    "Volume": 400.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "KFUPM",
-    "Derived From": "",
+    "Provider": [
+        "KFUPM"
+    ],
+    "Derived From": [],
     "Paper Title": "ARABIC DATASET FOR AUTOMATIC KEYPHRASE EXTRACTION",
     "Paper Link": "https://airccj.org/CSCP/vol7/csit76321.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "keyphrase extraction",
+    "Test Split": false,
+    "Tasks": [
+        "keyphrase extraction"
+    ],
     "Venue Title": "CSIT",
-    "Citations": "0.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Computer Science and Information Technologies",
-    "Authors": "Mohammed Al Logmani,H. Muhtaseb",
-    "Affiliations": ",",
+    "Authors": [
+        "Mohammed Al Logmani",
+        "H. Muhtaseb"
+    ],
+    "Affiliations": [
+        "",
+        ""
+    ],
     "Abstract": "We propose a dataset in Arabic language for automatic keyphrase extraction algorithms. Our Arabic dataset contains 400 documents along with their keyphrases. The dataset covers eighteen different categories. An evaluation using a state-of-the-art algorithm demonstrates the accuracy of our dataset is similar to that of English datasets.",
     "Added By": ""
 }

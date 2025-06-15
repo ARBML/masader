@@ -7,30 +7,39 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "web pages",
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The dictionary is presented in three formats: plain text in UTF-8 encoding, plain text in CP1256 encoding, and as an SQL database file. Source documents are presented in UTF-8 and CP1256 encodings.",
-    "Volume": "",
+    "Volume": 0.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "250.00 $",
-    "Test Split": "No",
-    "Tasks": "information retrieval,language modeling,morphological analysis",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval",
+        "language modeling",
+        "morphological analysis"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

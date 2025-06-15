@@ -7,30 +7,46 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "the largest manually annotated Arabic tweet dataset, ArCovidVac, for the COVID-19 vaccination campaign, covering many countries in the Arab region",
-    "Volume": "10,000",
+    "Volume": 10000.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "QCRI",
-    "Derived From": "",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
     "Paper Title": "ArCovidVac: Analyzing Arabic Tweets About COVID-19 Vaccination",
     "Paper Link": "https://arxiv.org/pdf/2201.06496.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "stance detection",
+    "Test Split": true,
+    "Tasks": [
+        "stance detection"
+    ],
     "Venue Title": "LREC",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Language Resources and Evaluation Conference",
-    "Authors": "Hamdy Mubarak, Sabit Hassan, Shammur Absar Chowdhury, Firoj Alam",
-    "Affiliations": "Qatar Computing Research Institute, HBKU; University of Pittsburgh;Qatar Computing Research Institute, HBKU",
+    "Authors": [
+        "Hamdy Mubarak",
+        "Sabit Hassan",
+        "Shammur Absar Chowdhury",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "HBKU; University of Pittsburgh;Qatar Computing Research Institute",
+        "HBKU"
+    ],
     "Abstract": "The emergence of the COVID-19 pandemic and the first global infodemic have changed our lives in many different ways. We\nrelied on social media to get the latest information about COVID-19 pandemic and at the same time to disseminate information.\nThe content in social media consisted not only health related advise, plans, and informative news from policymakers, but also\ncontains conspiracies and rumors. It became important to identify such information as soon as they are posted to make an\nactionable decision (e.g., debunking rumors, or taking certain measures for traveling). To address this challenge, we develop\nand publicly release the first largest manually annotated Arabic tweet dataset, ArCovidVac, for the COVID-19 vaccination\ncampaign, covering many countries in the Arab region. The dataset is enriched with different layers of annotation, including,\n(i) Informativeness (more vs. less importance of the tweets); (ii) fine-grained tweet content types (e.g., advice, rumors,\nrestriction, authenticate news/information); and (iii) stance towards vaccination (pro-vaccination, neutral, anti-vaccination).\nFurther, we performed in-depth analysis of the data, exploring the popularity of different vaccines, trending hashtags, topics\nand presence of offensiveness in the tweets. We studied the data for individual types of tweets and temporal changes in stance\ntowards vaccine. We benchmarked the ArCovidVac dataset using transformer architectures for informativeness, content types,\nand stance detection.",
     "Added By": "Zaid Alyafeai"
 }

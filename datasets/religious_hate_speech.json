@@ -7,30 +7,45 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "training dataset contains 5,569 examples, while the testing dataset contains 567 examples collected from twittter",
-    "Volume": "6,136",
+    "Volume": 6136.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "Are they Our Brothers? Analysis and Detection of Religious Hate Speech in the Arabic Twittersphere",
     "Paper Link": "https://ieeexplore.ieee.org/document/8508247/authors#authors",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "hate speech detection",
+    "Test Split": true,
+    "Tasks": [
+        "hate speech detection"
+    ],
     "Venue Title": "ASONAM",
-    "Citations": "72.0",
     "Venue Type": "conference",
     "Venue Name": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
-    "Authors": "Nuha Albadi,Maram Kurdi,Shivakant Mishra",
-    "Affiliations": ",,",
+    "Authors": [
+        "Nuha Albadi",
+        "Maram Kurdi",
+        "Shivakant Mishra"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Religious hate speech in the Arabic Twittersphere is a notable problem that requires developing automated tools to detect messages that use inflammatory sectarian language to promote hatred and violence against people on the basis of religious affiliation. Distinguishing hate speech from other profane and vulgar language is quite a challenging task that requires deep linguistic analysis. The richness of the Arabic morphology and the limited available resources for the Arabic language make this task even more challenging. To the best of our knowledge, this paper is the first to address the problem of identifying speech promoting religious hatred in the Arabic Twitter. In this work, we describe how we created the first publicly available Arabic dataset annotated for the task of religious hate speech detection and the first Arabic lexicon consisting of terms commonly found in religious discussions along with scores representing their polarity and strength. We then developed various classification models using lexicon-based, n-gram-based, and deep-learning-based approaches. A detailed comparison of the performance of different models on a completely new unseen dataset is then presented. We find that a simple Recurrent Neural Network (RNN) architecture with Gated Recurrent Units (GRU) and pre-trained word embeddings can adequately detect religious hate speech with 0.84 Area Under the Receiver Operating Characteristic curve (AUROC).",
     "Added By": "Zaid Alyafeai"
 }

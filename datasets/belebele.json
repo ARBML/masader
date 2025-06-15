@@ -4,37 +4,37 @@
         {
             "Name": "acm_Arab",
             "Dialect": "Iraq",
-            "Volume": "900",
+            "Volume": 900.0,
             "Unit": "sentences"
         },
         {
             "Name": "arb_Arab",
             "Dialect": "Modern Standard Arabic",
-            "Volume": "900",
+            "Volume": 900.0,
             "Unit": "sentences"
         },
         {
             "Name": "apc_Arab",
             "Dialect": "Levant",
-            "Volume": "900",
+            "Volume": 900.0,
             "Unit": "sentences"
         },
         {
             "Name": "ars_Arab",
             "Dialect": "Saudi Arabia",
-            "Volume": "900",
+            "Volume": 900.0,
             "Unit": "sentences"
         },
         {
             "Name": "ary_Arab",
             "Dialect": "Morocco",
-            "Volume": "900",
+            "Volume": 900.0,
             "Unit": "sentences"
         },
         {
             "Name": "arz_Arab",
             "Dialect": "Egypt",
-            "Volume": "900",
+            "Volume": 900.0,
             "Unit": "sentences"
         }
     ],
@@ -44,30 +44,38 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "wikipedia",
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": "human annotation",
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "A multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants.",
-    "Volume": "5,400",
+    "Volume": 5400.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Meta AI",
-    "Derived From": "",
+    "Provider": [
+        "Meta AI"
+    ],
+    "Derived From": [],
     "Paper Title": "The BELEBELE Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants",
     "Paper Link": "https://arxiv.org/pdf/2308.16884.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "question answering, instruction tuning",
+    "Test Split": false,
+    "Tasks": [
+        "question answering",
+        "instruction tuning"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Amr Keleg"
 }

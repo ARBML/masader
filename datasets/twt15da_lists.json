@@ -4,91 +4,91 @@
         {
             "Name": "Yemeni",
             "Dialect": "Yemen",
-            "Volume": "20,004",
+            "Volume": 20004.0,
             "Unit": "sentences"
         },
         {
             "Name": "Omani",
             "Dialect": "Oman",
-            "Volume": "20,861",
+            "Volume": 20861.0,
             "Unit": "sentences"
         },
         {
             "Name": "Saudi",
             "Dialect": "Saudi Arabia",
-            "Volume": "21,110",
+            "Volume": 21110.0,
             "Unit": "sentences"
         },
         {
             "Name": "Emirati",
             "Dialect": "United Arab Emirates",
-            "Volume": "20,957",
+            "Volume": 20957.0,
             "Unit": "sentences"
         },
         {
             "Name": "Qatari",
             "Dialect": "Qatar",
-            "Volume": "22,160",
+            "Volume": 22160.0,
             "Unit": "sentences"
         },
         {
             "Name": "Bahraini",
             "Dialect": "Bahrain",
-            "Volume": "22,160",
+            "Volume": 22160.0,
             "Unit": "sentences"
         },
         {
             "Name": "Kuwaiti",
             "Dialect": "Kuwait",
-            "Volume": "20,338",
+            "Volume": 20338.0,
             "Unit": "sentences"
         },
         {
             "Name": "Iraqi",
             "Dialect": "Iraq",
-            "Volume": "20,241",
+            "Volume": 20241.0,
             "Unit": "sentences"
         },
         {
             "Name": "Jordanian",
             "Dialect": "Jordan",
-            "Volume": "19,762",
+            "Volume": 19762.0,
             "Unit": "sentences"
         },
         {
             "Name": "Syrian",
             "Dialect": "Syria",
-            "Volume": "18,750",
+            "Volume": 18750.0,
             "Unit": "sentences"
         },
         {
             "Name": "Egyptian",
             "Dialect": "Egypt",
-            "Volume": "20,109",
+            "Volume": 20109.0,
             "Unit": "sentences"
         },
         {
             "Name": "Libyan",
             "Dialect": "Libya",
-            "Volume": "22,844",
+            "Volume": 22844.0,
             "Unit": "sentences"
         },
         {
             "Name": "Tunisian",
             "Dialect": "Tunisia",
-            "Volume": "21,440",
+            "Volume": 21440.0,
             "Unit": "sentences"
         },
         {
             "Name": "Algerian",
             "Dialect": "Algeria",
-            "Volume": "21,358",
+            "Volume": 21358.0,
             "Unit": "sentences"
         },
         {
             "Name": "Moroccan",
             "Dialect": "Morocco",
-            "Volume": "20,735",
+            "Volume": 20735.0,
             "Unit": "sentences"
         }
     ],
@@ -98,30 +98,44 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling,machine annotation",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "The annotated dialectal Arabic corpus (Twt15DA) is collected from Twitter and consists of 311,785 tweets containing 3,858,459 words in total. They randomly selected a sample of 75 tweets per country, 1125 tweets in total, and conducted a manual dialect identification task by native speakers.",
-    "Volume": "311,785",
+    "Volume": 311785.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Taif University",
-    "Derived From": "",
+    "Provider": [
+        "Taif University"
+    ],
+    "Derived From": [],
     "Paper Title": "Creation of annotated country-level dialectal Arabic resources: An unsupervised approach",
     "Paper Link": "https://web.archive.org/web/20210813220628id_/https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2DE64B777EF0277557AFA90E2BB75B62/S135132492100019Xa.pdf/div-class-title-creation-of-annotated-country-level-dialectal-arabic-resources-an-unsupervised-approach-div.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "dialect identification",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "Cambridge University Press",
-    "Citations": "1.0",
     "Venue Type": "journal",
     "Venue Name": "Natural Language Engineering (2021), Cambridge University Press",
-    "Authors": "Maha J. Althobaiti",
-    "Affiliations": "Department of Computer Science, College of Computers and Information Technology, Taif University",
+    "Authors": [
+        "Maha J. Althobaiti"
+    ],
+    "Affiliations": [
+        "Department of Computer Science",
+        "College of Computers and Information Technology",
+        "Taif University"
+    ],
     "Abstract": "The wide usage of multiple spoken Arabic dialects on social networking sites stimulates increasing interest in Natural Language Processing (NLP) for dialectal Arabic (DA). Arabic dialects represent true linguistic diversity and differ from modern standard Arabic (MSA). In fact, the complexity and variety of these dialects make it insufficient to build one NLP system that is suitable for all of them. In comparison with MSA, the available datasets for various dialects are generally limited in terms of size, genre and scope. In this article, we present a novel approach that automatically develops an annotated country-level dialectal Arabic corpus and builds lists of words that encompass 15 Arabic dialects. The algorithm uses an iterative procedure consisting of two main components: automatic creation of lists for dialectal words and automatic creation of annotated Arabic dialect identification corpus. To our knowledge, our study is the first of its kind to examine and analyse the poor performance of the MSA part-of-speech tagger on dialectal Arabic contents and to exploit that in order to extract the dialectal words. The pointwise mutual information association measure and the geographical frequency of word occurrence online are used to classify dialectal words. The annotated dialectal Arabic corpus (Twt15DA), built using our algorithm, is collected from Twitter and consists of 311,785 tweets containing 3,858,459 words in total. We randomly selected a sample of 75 tweets per country, 1125 tweets in total, and conducted a manual dialect identification task by native speakers. The results show an average inter-annotator agreement score equal to 64%, which reflects satisfactory agreement considering the overlapping features of the 15 Arabic dialects.",
     "Added By": "Mustafa Ghaleb"
 }

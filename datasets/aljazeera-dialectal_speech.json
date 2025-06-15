@@ -7,30 +7,43 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "utterance-level dialect labels for 57 hours of high-quality audio from Al Jazeera consisting of four major varieties of DA: Egyptian, Levantine, Gulf, and North African.",
-    "Volume": "57",
+    "Volume": 57.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "QCRI",
-    "Derived From": "",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
     "Paper Title": "Crowdsource a little to label a lot:\r\nLabeling a Speech Corpus of Dialectal Arabic",
     "Paper Link": "https://www.isca-archive.org/interspeech_2015/wray15_interspeech.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "INTERSPEECH",
-    "Citations": "23.0",
     "Venue Type": "conference",
     "Venue Name": "Conference of the International Speech Communication Association",
-    "Authors": "Samantha Wray,Ahmed Ali",
-    "Affiliations": ",",
+    "Authors": [
+        "Samantha Wray",
+        "Ahmed Ali"
+    ],
+    "Affiliations": [
+        "",
+        ""
+    ],
     "Abstract": "Arabic is a language with great dialectal variety, with Modern Standard Arabic (MSA) being the only standardized dialect. Spoken Arabic is characterized by frequent code-switching between MSA and Dialectal Arabic (DA). DA varieties are typically differentiated by region, but despite their wide-spread usage, they are under-resourced and lack viable corpora and tools necessary for speech recognition and natural language processing. Existing DA speech corpora are limited in scope, consisting of mainly telephone conversations and scripted speech. In this paper we describe our efforts for using crowdsourcing to create a labeled multi-dialectal speech corpus. We obtained utterance-level dialect labels for 57 hours of high-quality audio from Al Jazeera consisting of four major varieties of DA: Egyptian, Levantine, Gulf, and North African. Using speaker linking to identify utterances spoken by the same speaker, and measures of label accuracy likelihood based on annotator behavior, we automatically labeled an additional 94 hours. The complete corpus contains 850 hours with approximately 18% DA speech.",
     "Added By": ""
 }

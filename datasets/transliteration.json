@@ -7,30 +7,42 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "wikipedia",
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Arabic-English transliteration dataset mined from Wikipedia.",
-    "Volume": "15,898",
+    "Volume": 15898.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "Google",
-    "Derived From": "",
+    "Provider": [
+        "Google"
+    ],
+    "Derived From": [],
     "Paper Title": "Sequence-to-sequence neural network models for transliteration",
     "Paper Link": "https://arxiv.org/pdf/1610.09565.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "transliteration",
+    "Test Split": true,
+    "Tasks": [
+        "transliteration"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Mihaela Rosca, Thomas Breuel",
-    "Affiliations": "Google",
+    "Authors": [
+        "Mihaela Rosca",
+        "Thomas Breuel"
+    ],
+    "Affiliations": [
+        "Google"
+    ],
     "Abstract": "Transliteration is a key component of machine\ntranslation systems and software internationalization. This paper demonstrates that neural\nsequence-to-sequence models obtain state of\nthe art or close to state of the art results on existing datasets. In an effort to make machine\ntransliteration accessible, we open source a\nnew Arabic to English transliteration dataset\nand our trained models.",
     "Added By": "Zaid Alyafeai"
 }

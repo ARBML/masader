@@ -7,30 +7,39 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "This dataset is composed of speech recordings from languages that were carefully selected from the CommonVoice database. The total duration of audio recordings is 45.1 hours (i.e., 1 hour of material for each language). The dataset has been extracted from CommonVoice to train language-id systems.",
-    "Volume": "1",
+    "Volume": 1.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": " SpeechBrain",
-    "Derived From": "CommonVoice",
+    "Provider": [
+        "SpeechBrain"
+    ],
+    "Derived From": [
+        "CommonVoice"
+    ],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

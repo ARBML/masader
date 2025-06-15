@@ -7,30 +7,47 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "This corpus contains the words and their dependency relation produced by performing some steps",
-    "Volume": "16",
+    "Volume": 16.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions ",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "ADPBC: Arabic Dependency Parsing Based\nCorpora for Information Extraction",
     "Paper Link": "http://www.mecs-press.org/ijitcs/ijitcs-v13-n1/IJITCS-V13-N1-4.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "part of speech tagging, dependency parsing, topic classification",
+    "Test Split": false,
+    "Tasks": [
+        "part of speech tagging",
+        "dependency parsing",
+        "topic classification"
+    ],
     "Venue Title": "IJITCS",
-    "Citations": "0.0",
     "Venue Type": "journal",
     "Venue Name": "International Journal of Information Technology and Computer Science",
-    "Authors": "Sally Mohamed,M. Hussien.,Hamdy M. Mousa",
-    "Affiliations": ",,",
+    "Authors": [
+        "Sally Mohamed",
+        "M. Hussien.",
+        "Hamdy M. Mousa"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "There is a massive amount of different information and data in the World Wide Web, and the number of Arabic users and contents is widely increasing. Information extraction is an essential issue to access and sort the data on the web. In this regard, information extraction becomes a challenge, especially for languages, which have a complex morphology like Arabic. Consequently, the trend today is to build a new corpus that makes the information extraction easier and more precise. This paper presents Arabic linguistically analyzed corpus, including dependency relation. The collected data includes five fields; they are a sport, religious, weather, news and biomedical. The output is CoNLL universal lattice file format (CoNLL-UL). The corpus contains an index for the sentences and their linguistic meta-data to enable quick mining and search across the corpus. This corpus has seventeenth morphological annotations and eight features based on the identification of the textual structures help to recognize and understand the grammatical characteristics of the text and perform the dependency relation. The parsing and dependency process conducted by the universal dependency model and corrected manually. The results illustrated the enhancement in the dependency relation corpus. The designed Arabic corpus helps to quickly get linguistic annotations for a text and make the information Extraction techniques easy and clear to learn. The gotten results illustrated the average enhancement in the dependency relation corpus.",
     "Added By": "Zaid Alyafeai"
 }

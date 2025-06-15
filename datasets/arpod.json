@@ -4,37 +4,37 @@
         {
             "Name": "KSA",
             "Dialect": "Saudi Arabia",
-            "Volume": "2.33",
+            "Volume": 2.33,
             "Unit": "hours"
         },
         {
             "Name": "MSA",
             "Dialect": "Modern Standard Arabic",
-            "Volume": "0.83",
+            "Volume": 0.83,
             "Unit": "hours"
         },
         {
             "Name": "SYR",
             "Dialect": "Syria",
-            "Volume": "0.83",
+            "Volume": 0.83,
             "Unit": "hours"
         },
         {
             "Name": "EGY",
             "Dialect": "Egypt",
-            "Volume": "1.5",
+            "Volume": 1.5,
             "Unit": "hours"
         },
         {
             "Name": "LEB",
             "Dialect": "Lebanon",
-            "Volume": "1.5",
+            "Volume": 1.5,
             "Unit": "hours"
         },
         {
             "Name": "ENG",
             "Dialect": "mixed",
-            "Volume": "0.83",
+            "Volume": 0.83,
             "Unit": "hours"
         }
     ],
@@ -44,30 +44,42 @@
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The corpus has a duration of 8.1 hours sampled at 16 kHz and coded on 16 bits. The considered languages are: MSA, English; whereas the dialects are: Syrian, Saudi Arabic, Egyptian, and Lebanese. 70% of this dataset had been used for training, and the remaining for the test phase.",
-    "Volume": "7.82",
+    "Volume": 7.82,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "Building a Speech Corpus based on Arabic Podcasts for Language and Dialect Identification",
     "Paper Link": "https://aclanthology.org/W19-7408.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "dialect identification",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "ICNLSP",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Natural Language and Speech Processing",
-    "Authors": "Khaled Lounnas, Mourad Abbas, Mohamed Lichouri\n",
-    "Affiliations": "USTHB University, Algeria; CRSTDLA;CRSTDLA",
-    "Abstract": "In this paper, we present ArPod, a new Arabic speech\ncorpus made of Arabic audio podcasts. We built this\ndataset, mainly for both speech-based multi-lingual and\nmulti-dialectal identification tasks. It includes two languages: Modern Standard Arabic (MSA) and English,\nand four Arabic dialects: Saudi, Egyptian, Lebanese\nand Syrian. A set of supervised classifiers have been\nused: Support Vector Machines (SVM), Multi Layer\nPerceptron (MLP), K-Nearest Neighbors (KNN), Extratrees and Convolutional Neural Networks (CNN),\nusing acoustic and spectral features. For both tasks,\nSVM yielded encouraging results and outperformed the\nother classifiers. Language Identification, Dialect\nIdentification, CNN, Acoustic features, spectral features, SVM, Arabic Podcast\n",
+    "Authors": [
+        "Khaled Lounnas",
+        "Mourad Abbas",
+        "Mohamed Lichouri"
+    ],
+    "Affiliations": [
+        "USTHB University",
+        "Algeria; CRSTDLA;CRSTDLA"
+    ],
+    "Abstract": "In this paper, we present ArPod, a new Arabic speech\ncorpus made of Arabic audio podcasts. We built this\ndataset, mainly for both speech-based multi-lingual and\nmulti-dialectal identification tasks. It includes two languages: Modern Standard Arabic (MSA) and English,\nand four Arabic dialects: Saudi, Egyptian, Lebanese\nand Syrian. A set of supervised classifiers have been\nused: Support Vector Machines (SVM), Multi Layer\nPerceptron (MLP), K-Nearest Neighbors (KNN), Extratrees and Convolutional Neural Networks (CNN),\nusing acoustic and spectral features. For both tasks,\nSVM yielded encouraging results and outperformed the\nother classifiers. Language Identification, Dialect\nIdentification, CNN, Acoustic features, spectral features, SVM, Arabic Podcast",
     "Added By": "Zaid Alyafeai"
 }

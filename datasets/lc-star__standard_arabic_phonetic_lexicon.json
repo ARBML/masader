@@ -7,30 +7,39 @@
     "Year": 2007,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The lexicon comprises 110,271 entries, distributed over three categories:  - a set of 52,981 common word entries. This set is extracted from a corpus of more than 13 million words distributed over 6 different domains (sports/games, news, finance, culture/entertainment, consumer information, personal communications). This was done with the aim of reaching a target for each domain of at least 95% self coverage. In addition to extracting word lists from the corpus, a list of closed set (function) word classes are included in the final word list.  - a set of 50,135 proper names (including person names, family names, cities, streets, companies and brand names) divided into 3 domains. Multiple word names such as New_York are kept together in all three domains, and they count as one entry. The 3 domains consist of first and last names (9,738 different entries), place names (22,998 different entries), and organisations (17,309 different entries).  - and a list of 7,155 special application words translated from English terms defined by the LC-STAR consortium. This list contains: numbers, letters, abbreviations and specific vocabulary for applications controlled by voice (information retrieval, controlling of consumer devices, etc.).",
-    "Volume": "110,271",
+    "Volume": 110271.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "European Commission",
-    "Derived From": "",
+    "Provider": [
+        "European Commission"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "27,625.00\u20ac",
-    "Test Split": "No",
-    "Tasks": "machine translation, speech recognition, lexicon analysis ",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation",
+        "speech recognition",
+        "lexicon analysis"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,30 +7,50 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "a large-scale dataset comprising 1.65 million cross-lingual article-summary samples in 1500+ language-pairs",
-    "Volume": "72,795",
+    "Volume": 72795.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "CrossSum: Beyond English-Centric Cross-Lingual Abstractive Text Summarization for 1500+ Language Pairs",
     "Paper Link": "https://arxiv.org/pdf/2112.08804.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "summarization",
+    "Test Split": false,
+    "Tasks": [
+        "summarization"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "preprint",
-    "Authors": "Tahmid Hasan, Abhik Bhattacharjee, Wasi Uddin Ahmad, Yuan-Fang Li, Yong-Bin Kang, Rifat Shahriyar\n",
-    "Affiliations": "Bangladesh University of Engineering and Technology (BUET), University of California, Los Angeles, Monash University, Swinburne University of Technology",
-    "Abstract": "We present CrossSum, a large-scale dataset\ncomprising 1.65 million cross-lingual articlesummary samples in 1500+ language-pairs\nconstituting 45 languages. We use the multilingual XL-Sum dataset and align identical articles written in different languages via crosslingual retrieval using a language-agnostic representation model. We propose a multi-stage\ndata sampling algorithm and fine-tune mT5,\na multilingual pretrained model, with explicit\ncross-lingual supervision with CrossSum and\nintroduce a new metric for evaluating crosslingual summarization. Results on established\nand our proposed metrics indicate that models\nfine-tuned on CrossSum outperforms summarization+translation baselines, even when the\nsource and target language pairs are linguistically distant. To the best of our knowledge,\nCrossSum is the largest cross-lingual summarization dataset and also the first-ever that does\nnot rely on English as the pivot language. We\nare releasing the dataset, alignment and training scripts, and the models to spur future research on cross-lingual abstractive summarization. The resources can be found at https:\n//github.com/csebuetnlp/CrossSum.\n",
+    "Authors": [
+        "Tahmid Hasan",
+        "Abhik Bhattacharjee",
+        "Wasi Uddin Ahmad",
+        "Yuan-Fang Li",
+        "Yong-Bin Kang",
+        "Rifat Shahriyar"
+    ],
+    "Affiliations": [
+        "Bangladesh University of Engineering and Technology (BUET)",
+        "University of California",
+        "Los Angeles",
+        "Monash University",
+        "Swinburne University of Technology"
+    ],
+    "Abstract": "We present CrossSum, a large-scale dataset\ncomprising 1.65 million cross-lingual articlesummary samples in 1500+ language-pairs\nconstituting 45 languages. We use the multilingual XL-Sum dataset and align identical articles written in different languages via crosslingual retrieval using a language-agnostic representation model. We propose a multi-stage\ndata sampling algorithm and fine-tune mT5,\na multilingual pretrained model, with explicit\ncross-lingual supervision with CrossSum and\nintroduce a new metric for evaluating crosslingual summarization. Results on established\nand our proposed metrics indicate that models\nfine-tuned on CrossSum outperforms summarization+translation baselines, even when the\nsource and target language pairs are linguistically distant. To the best of our knowledge,\nCrossSum is the largest cross-lingual summarization dataset and also the first-ever that does\nnot rely on English as the pivot language. We\nare releasing the dataset, alignment and training scripts, and the models to spur future research on cross-lingual abstractive summarization. The resources can be found at https:\n//github.com/csebuetnlp/CrossSum.",
     "Added By": "Zaid Alyafeai"
 }

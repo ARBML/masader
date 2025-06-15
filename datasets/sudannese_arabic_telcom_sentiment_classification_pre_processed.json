@@ -1,5 +1,5 @@
 {
-    "Name": "Sudannese Arabic Telcom Sentiment Classification Pre Processed ",
+    "Name": "Sudannese Arabic Telcom Sentiment Classification Pre Processed",
     "Subsets": [],
     "HF Link": "",
     "Link": "https://docs.google.com/spreadsheets/d/13fIV8oHss-QRBKN-2h5LYF1i_1O9qH1R/edit?usp=sharing&ouid=113975694262803649646&rtpof=true&sd=true",
@@ -7,30 +7,37 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Sudan",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "it is pre processed dataset from Twitter about Telecom companies in Sudan, it labelled by 3 different labels from different age, gender and background",
-    "Volume": "5,349",
+    "Volume": 5349.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "University of Khartoum",
-    "Derived From": "",
+    "Provider": [
+        "University of Khartoum"
+    ],
+    "Derived From": [],
     "Paper Title": "Sentiment analysis for arabic dialect using supervised learning",
     "Paper Link": "https://ieeexplore.ieee.org/document/8515862",
     "Script": "Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Gdrive",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "",
-    "Citations": "14.0",
     "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Rua Ismail"
 }

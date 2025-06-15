@@ -7,30 +7,38 @@
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "Egypt",
-    "Domain": "commentary",
+    "Domain": [
+        "commentary"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "BOLT Information Retrieval Comprehensive Training and Evaluation contains the pilot, dry run, and evaluation data developed for each phase of the BOLT IR task, including: (1) natural-language IR queries, system responses to queries, and manually-generated assessment judgments for system responses; (2) discussion forum source documents in Arabic, Chinese and English; (3) scoring software for each evaluation phase; and (4) experimental data developed in Phase 2.",
-    "Volume": "",
-    "Unit": "",
+    "Volume": 0.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,500.00 $",
-    "Test Split": "No",
-    "Tasks": "information retrieval,machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval",
+        "machine translation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

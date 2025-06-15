@@ -7,30 +7,35 @@
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "he Nemlar Broadcast News Speech Corpus consists of about 40 hours of Standard Arabic news broadcasts. The broadcasts were recorded from four different radio stations: Medi1, Radio Orient, RMC \u2013 Radio Monte Carlo, RTM \u2013 Radio Television Maroc.  Each broadcast contains between 25 and 30 minutes of news and interviews (259 distinct speakers identified). The recordings were carried out at three different periods between 30 June 2002 and 18 July 2005. All files were recorded in linear PCM format, 16 kHz, 16 bit.",
-    "Volume": "40",
+    "Volume": 40.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": " ",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "300.00\u20ac",
-    "Test Split": "No",
-    "Tasks": "speech recognition ",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

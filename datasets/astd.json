@@ -7,30 +7,45 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "10k Arabic sentiment tweets classified into four classes subjective positive, subjective negative, subjective mixed, and objective",
-    "Volume": "10,006",
+    "Volume": 10006.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Cairo University ",
-    "Derived From": "",
-    "Paper Title": "ASTD: Arabic Sentiment Tweets Dataset\r",
+    "Provider": [
+        "Cairo University"
+    ],
+    "Derived From": [],
+    "Paper Title": "ASTD: Arabic Sentiment Tweets Dataset",
     "Paper Link": "https://aclanthology.org/D15-1299.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "sentiment analysis",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "EMNLP",
-    "Citations": "178.0",
     "Venue Type": "conference",
     "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
-    "Authors": "Mahmoud Nabil,Mohamed A. Aly,A. Atiya",
-    "Affiliations": ",,",
+    "Authors": [
+        "Mahmoud Nabil",
+        "Mohamed A. Aly",
+        "A. Atiya"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "This paper introduces ASTD, an Arabic social sentiment analysis dataset gathered from Twitter. It consists of about 10,000 tweets which are classified as objective, subjective positive, subjective negative, and subjective mixed. We present the properties and the statistics of the dataset, and run experiments using standard partitioning of the dataset. Our experiments provide benchmark results for 4 way sentiment classification on the dataset.",
     "Added By": ""
 }

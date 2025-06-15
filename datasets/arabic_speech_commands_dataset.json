@@ -7,30 +7,45 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "This dataset is designed to help train simple machine learning models that serve educational and research purposes in the speech recognition domain",
-    "Volume": "3",
+    "Volume": 3.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "Building and benchmarking an Arabic Speech Commands dataset for small-footprint keyword spotting",
     "Paper Link": "https://www.sciencedirect.com/science/article/pii/S0952197621001147",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
-    "Venue Title": "EAAI ",
-    "Citations": "0.0",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "EAAI",
     "Venue Type": "journal",
     "Venue Name": "Engineering Applications of Artificial Intelligence",
-    "Authors": "Abdulkader Ghandoura,Farouk Hjabo,Oumayma Al Dakkak",
-    "Affiliations": ",,",
+    "Authors": [
+        "Abdulkader Ghandoura",
+        "Farouk Hjabo",
+        "Oumayma Al Dakkak"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "The introduction of the Google Speech Commands dataset accelerated research and resulted in a variety of new deep learning approaches that address keyword spotting tasks. The main contribution of this work is the building of an Arabic Speech Commands dataset, a counterpart to Google\u2019s dataset. Our dataset consists of 12000 instances, collected from 30 contributors, and grouped into 40 keywords. We also report different experiments to benchmark this dataset using classical machine learning and deep learning approaches, the best of which is a Convolutional Neural Network with Mel-Frequency Cepstral Coefficients that achieved an accuracy of 98%. Additionally, we point out some key ideas to be considered in such tasks.",
     "Added By": ""
 }

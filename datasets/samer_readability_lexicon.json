@@ -7,30 +7,43 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
-    "Description": "The SAMER readability lexicon is a large-scale 26,000-lemma leveled readability lexicon for Modern Standard Arabic. The lexicon was manually annotated in triplicate by language professionals from three regions in the Arab world. ",
-    "Volume": "26,000",
+    "Collection Style": [
+        "manual curation"
+    ],
+    "Description": "The SAMER readability lexicon is a large-scale 26,000-lemma leveled readability lexicon for Modern Standard Arabic. The lexicon was manually annotated in triplicate by language professionals from three regions in the Arab world.",
+    "Volume": 26000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "NYU Abu Dhabi",
-    "Derived From": "",
+    "Provider": [
+        "NYU Abu Dhabi"
+    ],
+    "Derived From": [],
     "Paper Title": "A Large-Scale Leveled Readability Lexicon for Standard Arabic",
     "Paper Link": "https://aclanthology.org/2020.lrec-1.373.pdf",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "readability assessment",
+    "Test Split": false,
+    "Tasks": [
+        "readability assessment"
+    ],
     "Venue Title": "LREC",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Language Resources and Evaluation Conference",
-    "Authors": "Muhamed Al Khalil, Nizar Habash, Zhengyang Jiang",
-    "Affiliations": "New York University Abu Dhabi",
+    "Authors": [
+        "Muhamed Al Khalil",
+        "Nizar Habash",
+        "Zhengyang Jiang"
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi"
+    ],
     "Abstract": "We present a large-scale 26,000-lemma leveled readability lexicon for Modern Standard Arabic. The lexicon was manually annotated in\ntriplicate by language professionals from three regions in the Arab world. The annotations show a high degree of agreement; and major\ndifferences were limited to regional variations. Comparing lemma readability levels with their frequencies provided good insights in the\nbenefits and pitfalls of frequency-based readability approaches. The lexicon will be publicly available.",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,30 +7,51 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "more than 24,000 high-quality high school exam questions in 26 languages, covering 8 language families and 24 school subjects from Natural Sciences and Social Sciences, among others",
-    "Volume": "562",
+    "Volume": 562.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "EXAMS: A Multi-Subject High School Examinations Dataset\r\nfor Cross-Lingual and Multilingual Question Answering",
     "Paper Link": "https://arxiv.org/pdf/2011.03080.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "question answering",
+    "Test Split": true,
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "EMNLP",
-    "Citations": "3.0",
     "Venue Type": "conference",
     "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
-    "Authors": "Momchil Hardalov,Todor Mihaylov,Dimitrina Zlatkova,Yoan Dinkov,Ivan Koychev,Preslav Nakov",
-    "Affiliations": ",,,Sofia University,,",
+    "Authors": [
+        "Momchil Hardalov",
+        "Todor Mihaylov",
+        "Dimitrina Zlatkova",
+        "Yoan Dinkov",
+        "Ivan Koychev",
+        "Preslav Nakov"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        "Sofia University",
+        "",
+        ""
+    ],
     "Abstract": "We propose EXAMS -- a new benchmark dataset for cross-lingual and multilingual question answering for high school examinations. We collected more than 24,000 high-quality high school exam questions in 16 languages, covering 8 language families and 24 school subjects from Natural Sciences and Social Sciences, among others. \n EXAMS offers a fine-grained evaluation framework across multiple languages and subjects, which allows precise analysis and comparison of various models. We perform various experiments with existing top-performing multilingual pre-trained models and we show that EXAMS offers multiple challenges that require multilingual knowledge and reasoning in multiple domains. We hope that EXAMS will enable researchers to explore challenging reasoning and knowledge transfer methods and pre-trained models for school question answering in various languages which was not possible before. The data, code, pre-trained models, and evaluation are available at this https URL.",
     "Added By": "Zaid Alyafeai"
 }

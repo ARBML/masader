@@ -7,30 +7,45 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "first Tunisian Arabizi Dataset including 3K sentences, balanced, covering different topics, preprocessed and annotated as positive and negative",
-    "Volume": "3,000",
+    "Volume": 3000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "iCompass",
-    "Derived From": "",
+    "Provider": [
+        "iCompass"
+    ],
+    "Derived From": [],
     "Paper Title": "TUNIZI: A TUNISIAN ARABIZI SENTIMENT ANALYSIS\r\nDATASET",
     "Paper Link": "https://arxiv.org/pdf/2004.14303.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "ArXiv",
-    "Citations": "8.0",
     "Venue Type": "preprint",
     "Venue Name": "ArXiv",
-    "Authors": "Chayma Fourati,Abir Messaoudi,Hatem Haddad",
-    "Affiliations": ",,iCompass",
+    "Authors": [
+        "Chayma Fourati",
+        "Abir Messaoudi",
+        "Hatem Haddad"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "iCompass"
+    ],
     "Abstract": "On social media, Arabic people tend to express themselves in their own local dialects. More particularly, Tunisians use the informal way called \"Tunisian Arabizi\". Analytical studies seek to explore and recognize online opinions aiming to exploit them for planning and prediction purposes such as measuring the customer satisfaction and establishing sales and marketing strategies. However, analytical studies based on Deep Learning are data hungry. On the other hand, African languages and dialects are considered low resource languages. For instance, to the best of our knowledge, no annotated Tunisian Arabizi dataset exists. In this paper, we introduce TUNIZI a sentiment analysis Tunisian Arabizi Dataset, collected from social networks, preprocessed for analytical studies and annotated manually by Tunisian native speakers.",
     "Added By": ""
 }

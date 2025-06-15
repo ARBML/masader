@@ -1,34 +1,34 @@
 {
-    "Name": "DART ",
+    "Name": "DART",
     "Subsets": [
         {
             "Name": "EGY",
             "Dialect": "Egypt",
-            "Volume": "5,265",
+            "Volume": 5265.0,
             "Unit": "sentences"
         },
         {
             "Name": "GLF",
             "Dialect": "Gulf",
-            "Volume": "5,893",
+            "Volume": 5893.0,
             "Unit": "sentences"
         },
         {
             "Name": "IRQ",
             "Dialect": "Iraq",
-            "Volume": "5,253",
+            "Volume": 5253.0,
             "Unit": "sentences"
         },
         {
             "Name": "LEV",
             "Dialect": "Levant",
-            "Volume": "3,939",
+            "Volume": 3939.0,
             "Unit": "sentences"
         },
         {
             "Name": "MGH",
             "Dialect": "North Africa",
-            "Volume": "3,930",
+            "Volume": 3930.0,
             "Unit": "sentences"
         }
     ],
@@ -38,30 +38,47 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Dialectal Arabic Tweets",
-    "Volume": "24,280",
+    "Volume": 24280.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Qatar University",
-    "Derived From": "",
-    "Paper Title": "DART: A Large Dataset of Dialectal Arabic Tweets\r",
+    "Provider": [
+        "Qatar University"
+    ],
+    "Derived From": [],
+    "Paper Title": "DART: A Large Dataset of Dialectal Arabic Tweets",
     "Paper Link": "https://aclanthology.org/L18-1579.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "dialect identification",
+    "Test Split": true,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "LREC",
-    "Citations": "15.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Israa Alsarsour,Esraa Mohamed,Reem Suwaileh,T. Elsayed",
-    "Affiliations": ",,,",
+    "Authors": [
+        "Israa Alsarsour",
+        "Esraa Mohamed",
+        "Reem Suwaileh",
+        "T. Elsayed"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "In this paper, we present a new large manually-annotated multi-dialect dataset of Arabic tweets that is publicly available. The Dialectal ARabic Tweets (DART) dataset has about 25K tweets that are annotated via crowdsourcing and it is well-balanced over five main groups of Arabic dialects: Egyptian, Maghrebi, Levantine, Gulf, and Iraqi. The paper outlines the pipeline of constructing the dataset from crawling tweets that match a list of dialect phrases to annotating the tweets by the crowd. We also touch some challenges that we face during the process. We evaluate the quality of the dataset from two perspectives: the inter-annotator agreement and the accuracy of the final labels. Results show that both measures were substantially high for the Egyptian, Gulf, and Levantine dialect groups, but lower for the Iraqi andMaghrebi dialects, which indicates the difficulty of identifying those two dialectsmanually and hence automatically.",
     "Added By": ""
 }

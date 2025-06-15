@@ -7,30 +7,49 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "wikipedia",
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Each part of the corpus (training and test) consists mainly of 2 datasets: textual files and XML files. The textual files represent the suspicious documents i.e., the documents that contain artificial plagiarism; and the XML files are the plagiarism annotation i.e. they provide for each plagiarized passage its starting offset in the suspicious document and its length (offset and length are both expressed in characters). A suspicious document file and its plagiarism annotation file share the same name.",
-    "Volume": "2,048",
+    "Volume": 2048.0,
     "Unit": "documents",
-    "Ethical Risks": "",
-    "Provider": "MISC Lab. Constantine 2 university,PRHLT, Universitat Polit\u00e8cnica de Val\u00e8ncia,",
-    "Derived From": "",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "MISC Lab. Constantine 2 university",
+        "PRHLT",
+        "Universitat Polit\u00e8cnica de Val\u00e8ncia",
+        ""
+    ],
+    "Derived From": [],
     "Paper Title": "A New Corpus for the Evaluation of Arabic Intrinsic Plagiarism Detection.",
     "Paper Link": "https://link.springer.com/chapter/10.1007/978-3-642-40802-1_6",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "plagiarism detection",
+    "Test Split": true,
+    "Tasks": [
+        "plagiarism detection"
+    ],
     "Venue Title": "CLEF 2013",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "International Conference of the Cross-Language Evaluation Forum for European Languages",
-    "Authors": "Imene Bensalem, Paolo Rosso, Salim Chikhi",
-    "Affiliations": "\u00b9MISC Lab. Constantine 2 university, Algeria  PRHLT, Universitat Polit\u00e8cnica de Val\u00e8ncia, Spain ",
+    "Authors": [
+        "Imene Bensalem",
+        "Paolo Rosso",
+        "Salim Chikhi"
+    ],
+    "Affiliations": [
+        "\u00b9MISC Lab. Constantine 2 university",
+        "Algeria  PRHLT",
+        "Universitat Polit\u00e8cnica de Val\u00e8ncia",
+        "Spain"
+    ],
     "Abstract": "The present paper introduces the first corpus for the evaluation of Arabic intrinsic plagiarism detection. The corpus consists of 1024 artificial suspicious documents in which 2833 plagiarism cases have been inserted automatically from source documents.",
     "Added By": "Kamel GAANOUN"
 }

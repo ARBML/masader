@@ -7,30 +7,37 @@
     "Year": 2010,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "This evaluation kit includes a single Perl script (mteval-v11a.pl) that may be used to produce a translation quality score for one (or more) MT systems. The script works by comparing the system output translation with a set of (expert) reference translations of the same source text. Comparison is based on finding sequences of words in the reference translations that match word sequences in the system output translation. More information on the evaluation algorithm may be obtained from the paper detailing the algorithm: BLEU: a Method for Automatic Evaluation of Machine Translation (Papineni et al, 2002).",
-    "Volume": "150",
+    "Volume": 150.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "150.00 $",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

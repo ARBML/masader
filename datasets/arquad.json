@@ -7,30 +7,42 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "wikipedia",
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "a large MRC dataset for the Arabic language. The dataset comprises 16,020 questions posed by language experts on passages extracted from Arabic Wikipedia articles, where the answer to each question is a text segment from the corresponding reading passage.",
-    "Volume": "16,020",
+    "Volume": 16020.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Jordan University of Science and Technology",
-    "Derived From": "",
+    "Provider": [
+        "Jordan University of Science and Technology"
+    ],
+    "Derived From": [],
     "Paper Title": "ArQuAD: An Expert-Annotated Arabic Machine Reading Comprehension Dataset",
     "Paper Link": "https://link.springer.com/article/10.1007/s12559-024-10248-6",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "question answering",
+    "Test Split": true,
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "Cognitive Computation",
-    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "Cognitive Computation",
-    "Authors": "Rasha Obeidat, Marwa Al-Harbi, Mahmoud Al-Ayyoub,Luay Alawneh ",
-    "Affiliations": "",
-    "Abstract": "Machine Reading Comprehension (MRC) is a task that enables machines to mirror key cognitive processes involving reading, comprehending a text passage, and answering questions about it. There has been significant progress in this task for English in recent years, where recent systems not only surpassed human-level performance but also demonstrated advancements in emulating complex human cognitive processes. However, the development of Arabic MRC has not kept pace due to language challenges and the lack of large-scale, high-quality datasets. Existing datasets are either small, low quality or released as a part of large multilingual corpora. We present the Arabic Question Answering Dataset (ArQuaD), a large MRC dataset for the Arabic language. The dataset comprises 16,020 questions posed by language experts on passages extracted from Arabic Wikipedia articles, where the answer to each question is a text segment from the corresponding reading passage. Besides providing various dataset analyses, we fine-tuned several pre-trained language models to obtain benchmark results. Among the compared methods, AraBERTv0.2-large achieved the best performance with an exact match of 68.95% and an F1-score of 87.15%. However, the significantly higher performance observed in human evaluations (exact match of 86% and F1-score of 95.5%) suggests a significant margin of possible improvement in future research. We release the dataset publicly at https://github.com/RashaMObeidat/ArQuAD to encourage further development of language-aware MRC models for the Arabic language.\n\n",
+    "Authors": [
+        "Rasha Obeidat",
+        "Marwa Al-Harbi",
+        "Mahmoud Al-Ayyoub",
+        "Luay Alawneh"
+    ],
+    "Affiliations": [],
+    "Abstract": "Machine Reading Comprehension (MRC) is a task that enables machines to mirror key cognitive processes involving reading, comprehending a text passage, and answering questions about it. There has been significant progress in this task for English in recent years, where recent systems not only surpassed human-level performance but also demonstrated advancements in emulating complex human cognitive processes. However, the development of Arabic MRC has not kept pace due to language challenges and the lack of large-scale, high-quality datasets. Existing datasets are either small, low quality or released as a part of large multilingual corpora. We present the Arabic Question Answering Dataset (ArQuaD), a large MRC dataset for the Arabic language. The dataset comprises 16,020 questions posed by language experts on passages extracted from Arabic Wikipedia articles, where the answer to each question is a text segment from the corresponding reading passage. Besides providing various dataset analyses, we fine-tuned several pre-trained language models to obtain benchmark results. Among the compared methods, AraBERTv0.2-large achieved the best performance with an exact match of 68.95% and an F1-score of 87.15%. However, the significantly higher performance observed in human evaluations (exact match of 86% and F1-score of 95.5%) suggests a significant margin of possible improvement in future research. We release the dataset publicly at https://github.com/RashaMObeidat/ArQuAD to encourage further development of language-aware MRC models for the Arabic language.",
     "Added By": "Zaid Alyafeai"
 }

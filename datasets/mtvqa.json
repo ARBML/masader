@@ -7,30 +7,37 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "images",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The dataset is oriented toward visual question answering of multilingual text scenes in nine languages, including Korean, Japanese, Italian, Russian, Deutsch, French, Thai, Arabic, and Vietnamese.",
-    "Volume": "818",
+    "Volume": 818.0,
     "Unit": "images",
     "Ethical Risks": "Low",
-    "Provider": "Bytedance",
-    "Derived From": "",
+    "Provider": [
+        "Bytedance"
+    ],
+    "Derived From": [],
     "Paper Title": "MTVQA: Benchmarking Multilingual Text-Centric Visual Question Answering",
     "Paper Link": "https://arxiv.org/pdf/2405.11985",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "image captioning",
+    "Test Split": true,
+    "Tasks": [
+        "image captioning"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "Text-Centric Visual Question Answering (TEC-VQA) in its proper format not\nonly facilitates human-machine interaction in text-centric visual environments but\nalso serves as a de facto gold proxy to evaluate AI models in the domain of textcentric scene understanding. Nonetheless, most existing TEC-VQA benchmarks\nhave focused on high-resource languages like English and Chinese. Despite pioneering works to expand multilingual QA pairs in non-text-centric VQA datasets\nthrough translation engines, the translation-based protocol encounters a substantial\n\u201cvisual-textual misalignment\u201d problem when applied to TEC-VQA. Specifically,\nit prioritizes the text in question-answer pairs while disregarding the visual text\npresent in images. Moreover, it fails to address complexities related to nuanced\nmeaning, contextual distortion, language bias, and question-type diversity. In\nthis work, we tackle multilingual TEC-VQA by introducing MTVQA, the first\nbenchmark featuring high-quality human expert annotations across 9 diverse languages, consisting of 6,778 question-answer pairs across 2,116 images. Further,\nby comprehensively evaluating numerous state-of-the-art Multimodal Large Language Models (MLLMs), including GPT-4o, GPT-4V, Claude3, and Gemini, on\nthe MTVQA dataset, it is evident that there is still a large room for performance\nimprovement, underscoring the value of MTVQA. Additionally, we supply multilingual training data within the MTVQA dataset, demonstrating that straightforward\nfine-tuning with this data can substantially enhance multilingual TEC-VQA performance. We aspire that MTVQA will offer the research community fresh insights\nand stimulate further exploration in multilingual visual text comprehension. The\nproject homepage is at https://bytedance.github.io/MTVQA/",
     "Added By": "Zaid Alyafeai"
 }

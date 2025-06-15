@@ -7,30 +7,41 @@
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "A parallel corpus of GNOME localization files",
-    "Volume": "800,000",
+    "Volume": 800000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "OPUS",
-    "Derived From": "",
+    "Provider": [
+        "OPUS"
+    ],
+    "Derived From": [],
     "Paper Title": "Parallel Data, Tools and Interfaces in OPUS",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "LREC",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Language Resources Evaluation Conference",
-    "Authors": "Jorg Tiedemann",
-    "Affiliations": "Department of Linguistics and Philology Uppsala University",
+    "Authors": [
+        "Jorg Tiedemann"
+    ],
+    "Affiliations": [
+        "Department of Linguistics and Philology Uppsala University"
+    ],
     "Abstract": "This paper presents the current status of OPUS, a growing language resource of parallel corpora and related tools. The focus in OPUS\nis to provide freely available data sets in various formats together with basic annotation to be useful for applications in computational\nlinguistics, translation studies and cross-linguistic corpus studies. In this paper, we report about new data sets and their features,\nadditional annotation tools and models provided from the website and essential interfaces and on-line services included in the project.",
     "Added By": "Zaid Alyafeai"
 }

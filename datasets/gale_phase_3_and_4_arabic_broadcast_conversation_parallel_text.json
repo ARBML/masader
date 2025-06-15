@@ -7,30 +7,37 @@
     "Year": 2015,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "GALE Phase 3 and 4 Arabic Broadcast Conversation Parallel Text includes 55 source-translation document pairs, comprising 280,535 words of Arabic source text and its English translation. Data is drawn from 22 distinct Arabic programs broadcast between 2006 and 2008 from Al Alam News Channel, based in Iran; Al Arabiya, a news television station based in Dubai; Al Baghdadya, an Iraqi broadcaster; Al Fayhaa, a television channel in Iraq; Al Hiwar TV, based on London, United Kingdom; Aljazeera, a regional broadcaster located in Doha, Qatar; Bahrain TV, based in the Kingdom of Bahrain; Nile TV, a broadcast programmer based in Egypt; Oman TV, a national broadcaster located in the Sultanate of Oman; Saudi TV, a national television station based in Saudi Arabia; and Syria TV, the national television station in Syria. Broadcast conversation programming is generally more interactive than traditional news broadcasts and includes talk shows, interviews, call-in programs and roundtables.",
-    "Volume": "280,535",
+    "Volume": 280535.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

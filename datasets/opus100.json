@@ -7,30 +7,48 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "OPUS-100 contains approximately 55M sentence pairs. Of the 99 language pairs, 44 have 1M sentence pairs of training data, 73 have at least 100k, and 95 have at least 10k.",
-    "Volume": "1,040,000",
+    "Volume": 1040000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "University of Edinburgh",
-    "Derived From": "",
+    "Provider": [
+        "University of Edinburgh"
+    ],
+    "Derived From": [],
     "Paper Title": "Improving Massively Multilingual Neural Machine Translation and Zero-Shot Translation",
     "Paper Link": "https://arxiv.org/pdf/2004.11867.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "machine translation ",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Biao Zhang, Philip Williams, Ivan Titov, Rico Sennrich",
-    "Affiliations": "School of Informatics, University of Edinburgh;School of Informatics, University of EdinburghSchool of Informatics, University of Edinburgh; Department of Computational Linguistics, University of Zurich",
+    "Authors": [
+        "Biao Zhang",
+        "Philip Williams",
+        "Ivan Titov",
+        "Rico Sennrich"
+    ],
+    "Affiliations": [
+        "School of Informatics",
+        "University of Edinburgh;School of Informatics",
+        "University of EdinburghSchool of Informatics",
+        "University of Edinburgh; Department of Computational Linguistics",
+        "University of Zurich"
+    ],
     "Abstract": "Massively multilingual models for neural machine translation (NMT) are theoretically attractive, but often underperform bilingual models and deliver poor zero-shot translations.\nIn this paper, we explore ways to improve\nthem. We argue that multilingual NMT requires stronger modeling capacity to support\nlanguage pairs with varying typological characteristics, and overcome this bottleneck via\nlanguage-specific components and deepening\nNMT architectures. We identify the off-target\ntranslation issue (i.e. translating into a wrong\ntarget language) as the major source of the\ninferior zero-shot performance, and propose\nrandom online backtranslation to enforce the\ntranslation of unseen training language pairs.\nExperiments on OPUS-100 (a novel multilingual dataset with 100 languages) show that\nour approach substantially narrows the performance gap with bilingual models in both oneto-many and many-to-many settings, and improves zero-shot performance by \u223c10 BLEU,\napproaching conventional pivot-based methods",
     "Added By": "Zaid Alyafeai"
 }

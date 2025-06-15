@@ -7,30 +7,35 @@
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "InAra corpus comprises 1024 documents; 80% of them contain passages borrowed from other documents to simulate plagiarism. For each suspicious document an XML file is associated ; it contains the length and the position of each plagiarism passage.",
-    "Volume": "1,024",
+    "Volume": 1024.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "plagiarism detection",
+    "Test Split": false,
+    "Tasks": [
+        "plagiarism detection"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

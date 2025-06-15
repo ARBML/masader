@@ -7,30 +7,39 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Arabic news articles dataset crawled from the Webz.io API Language category",
-    "Volume": "236,383",
+    "Volume": 236383.0,
     "Unit": "documents",
     "Ethical Risks": "High",
-    "Provider": "Webz.io API",
-    "Derived From": "",
+    "Provider": [
+        "Webz.io API"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "financial Analysis",
+    "Test Split": false,
+    "Tasks": [
+        "financial Analysis"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "Webz.io API",
-    "Affiliations": "",
+    "Authors": [
+        "Webz.io API"
+    ],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Jezia Zakraoui"
 }

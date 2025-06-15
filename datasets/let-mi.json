@@ -2,35 +2,48 @@
     "Name": "Let-mi",
     "Subsets": [],
     "HF Link": "",
-    "Link": "https://github.com/bilalghanem/let-mi ",
+    "Link": "https://github.com/bilalghanem/let-mi",
     "License": "unknown",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Levantine Twitter dataset for Misogynistic language",
-    "Volume": "6,603",
+    "Volume": 6603.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions ",
-    "Derived From": "",
-    "Paper Title": "Let-Mi: An Arabic Levantine Twitter Dataset for Misogynistic Language\r",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
+    "Paper Title": "Let-Mi: An Arabic Levantine Twitter Dataset for Misogynistic Language",
     "Paper Link": "https://arxiv.org/pdf/2103.10195.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "misogyny identification",
+    "Test Split": false,
+    "Tasks": [
+        "misogyny identification"
+    ],
     "Venue Title": "WANLP",
-    "Citations": "2.0",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",
-    "Authors": "Hala Mulki,Bilal Ghanem",
-    "Affiliations": ",",
+    "Authors": [
+        "Hala Mulki",
+        "Bilal Ghanem"
+    ],
+    "Affiliations": [
+        "",
+        ""
+    ],
     "Abstract": "Online misogyny has become an increasing worry for Arab women who experience gender-based online abuse on a daily basis. Misogyny automatic detection systems can assist in the prohibition of anti-women Arabic toxic content. Developing such systems is hindered by the lack of the Arabic misogyny benchmark datasets. In this paper, we introduce an Arabic Levantine Twitter dataset for Misogynistic language (LeT-Mi) to be the first benchmark dataset for Arabic misogyny. We further provide a detailed review of the dataset creation and annotation phases. The consistency of the annotations for the proposed dataset was emphasized through inter-rater agreement evaluation measures. Moreover, Let-Mi was used as an evaluation dataset through binary/multi-/target classification tasks conducted by several state-of-the-art machine learning systems along with Multi-Task Learning (MTL) configuration. The obtained results indicated that the performances achieved by the used systems are consistent with state-of-the-art results for languages other than Arabic, while employing MTL improved the performance of the misogyny/target classification tasks.",
     "Added By": ""
 }

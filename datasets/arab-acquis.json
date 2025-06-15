@@ -7,30 +7,50 @@
     "Year": 2017,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling,machine annotation",
-    "Description": "consists of over 12,000 sentences from the JRCAcquis (Acquis Communautaire) corpus ",
-    "Volume": "12,000",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
+    "Description": "consists of over 12,000 sentences from the JRCAcquis (Acquis Communautaire) corpus",
+    "Volume": 12000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "NYU Abu Dhabi",
-    "Derived From": "",
+    "Provider": [
+        "NYU Abu Dhabi"
+    ],
+    "Derived From": [],
     "Paper Title": "A Parallel Corpus for Evaluating Machine Translation between Arabic and European Languages",
     "Paper Link": "https://aclanthology.org/E17-2038.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "machine translation ",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "EACL",
-    "Citations": "9.0",
     "Venue Type": "conference",
     "Venue Name": "European Chapter of the Association for Computational Linguistics",
-    "Authors": "Nizar Habash,Nasser Zalmout,Dima Taji,Hieu Hoang,Maverick Alzate",
-    "Affiliations": ",,,,",
+    "Authors": [
+        "Nizar Habash",
+        "Nasser Zalmout",
+        "Dima Taji",
+        "Hieu Hoang",
+        "Maverick Alzate"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "We present Arab-Acquis, a large publicly available dataset for evaluating machine translation between 22 European languages and Arabic. Arab-Acquis consists of over 12,000 sentences from the JRC-Acquis (Acquis Communautaire) corpus translated twice by professional translators, once from English and once from French, and totaling over 600,000 words. The corpus follows previous data splits in the literature for tuning, development, and testing. We describe the corpus and how it was created. We also present the first benchmarking results on translating to and from Arabic for 22 European languages.",
     "Added By": ""
 }

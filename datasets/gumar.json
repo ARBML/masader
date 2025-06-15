@@ -4,49 +4,49 @@
         {
             "Name": "SA",
             "Dialect": "Saudi Arabia",
-            "Volume": "748",
+            "Volume": 748.0,
             "Unit": "documents"
         },
         {
             "Name": "AE",
             "Dialect": "United Arab Emirates",
-            "Volume": "165",
+            "Volume": 165.0,
             "Unit": "documents"
         },
         {
             "Name": "KW",
             "Dialect": "Kuwait",
-            "Volume": "73",
+            "Volume": 73.0,
             "Unit": "documents"
         },
         {
             "Name": "OM",
             "Dialect": "Oman",
-            "Volume": "14",
+            "Volume": 14.0,
             "Unit": "documents"
         },
         {
             "Name": "QA",
             "Dialect": "Qatar",
-            "Volume": "8",
+            "Volume": 8.0,
             "Unit": "documents"
         },
         {
             "Name": "BH",
             "Dialect": "Bahrain",
-            "Volume": "6",
+            "Volume": 6.0,
             "Unit": "documents"
         },
         {
             "Name": "GA",
             "Dialect": "Gulf",
-            "Volume": "123",
+            "Volume": 123.0,
             "Unit": "documents"
         },
         {
             "Name": "Arabic",
             "Dialect": "Modern Standard Arabic",
-            "Volume": "98",
+            "Volume": 98.0,
             "Unit": "documents"
         }
     ],
@@ -56,30 +56,47 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "a large-scale corpus of Gulf Arabic consisting of 110 million words from 1,200 forum novels",
-    "Volume": "1,236",
+    "Volume": 1236.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "NYU Abu Dhabi",
-    "Derived From": "",
-    "Paper Title": "A Large Scale Corpus of Gulf Arabic\r",
+    "Provider": [
+        "NYU Abu Dhabi"
+    ],
+    "Derived From": [],
+    "Paper Title": "A Large Scale Corpus of Gulf Arabic",
     "Paper Link": "https://aclanthology.org/L16-1679.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "morphological analysis",
+    "Test Split": false,
+    "Tasks": [
+        "morphological analysis"
+    ],
     "Venue Title": "LREC",
-    "Citations": "37.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Salam Khalifa,Nizar Habash,D. Abdulrahim,Sara Hassan",
-    "Affiliations": "New York University Abu Dhabi,,,",
+    "Authors": [
+        "Salam Khalifa",
+        "Nizar Habash",
+        "D. Abdulrahim",
+        "Sara Hassan"
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Most Arabic natural language processing tools and resources are developed to serve Modern Standard Arabic (MSA), which is the official written language in the Arab World. Some Dialectal Arabic varieties, notably Egyptian Arabic, have received some attention lately and have a growing collection of resources that include annotated corpora and morphological analyzers and taggers. Gulf Arabic, however, lags behind in that respect. In this paper, we present the Gumar Corpus, a large-scale corpus of Gulf Arabic consisting of 110 million words from 1,200 forum novels. We annotate the corpus for sub-dialect information at the document level. We also present results of a preliminary study in the morphological annotation of Gulf Arabic which includes developing guidelines for a conventional orthography. The text of the corpus is publicly browsable through a web interface we developed for it.",
     "Added By": ""
 }

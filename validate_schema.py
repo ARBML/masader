@@ -18,10 +18,11 @@ def validate_url(url):
 
 def cast_data(data):
     casted_data = {}
+    added_by = data.get("Added By", "")
     for key, value in data.items():
         if key in data_types:
-            data[key] = cast_type(value, data_types[key])
-            casted_data[key] = data[key]
+            casted_data[key] = cast_type(value, data_types[key])
+    casted_data["Added By"] = added_by
     return casted_data
 
 def validate_options(data):
@@ -59,14 +60,15 @@ def cast_type(value, type):
            return value
     elif "List[Dict" in type:
         for d in value:
-            for key, value in d.items():
-                if key in data_types:
-                    d[key] = cast_type(value, data_types[key])
-                    if key in options:
-                        if d[key] not in options[key]:
-                            print(f"Invalid option: {d[key]} for {key}")
+            for k,v in d.items():
+                if k in data_types:
+                    d[k] = cast_type(v, data_types[k])
+                    if k in options:
+                        if d[k] not in options[k]:
+                            print(f"Invalid option: {d[k]} for {k}")
                 else:
-                    raise ValueError(f"Invalid key: {key}")
+                    raise ValueError(f"Invalid key: {k}")
+        print(value)
         return value
     elif type == "str":
         return str(value).strip()
@@ -95,11 +97,6 @@ def cast_type(value, type):
                 return bool(value)
             except:
                 raise ValueError(f"Invalid boolean value: {value}")
-    elif "List[Dict" in type:
-        if isinstance(value, str):
-            return [json.loads(item.strip()) for item in value.split(",")]
-        else:
-            return value
     else:
         raise ValueError(f"Invalid type: {type}")
 

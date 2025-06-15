@@ -1,5 +1,5 @@
 {
-    "Name": "journalists_questions ",
+    "Name": "journalists_questions",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/mkqa",
     "Link": "http://qufaculty.qu.edu.qa/telsayed/datasets/",
@@ -7,30 +7,47 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "human annotation",
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "crowdsorucing to collect\r\nbinary annotations for 10K of the potential question tweets\r\nbased on whether they truly contain questions or not",
-    "Volume": "10,000",
+    "Volume": 10000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Qatar University",
-    "Derived From": "",
+    "Provider": [
+        "Qatar University"
+    ],
+    "Derived From": [],
     "Paper Title": "What Questions Do Journalists Ask on Twitter?",
     "Paper Link": "https://www.semanticscholar.org/paper/What-Questions-Do-Journalists-Ask-on-Twitter-Hasanain-Bagdouri/d1b32df7e9f39e6fba912cc209054ae0256638eb",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "question answering ",
+    "Test Split": false,
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "ICWSM",
-    "Citations": "4.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Web and Social Media",
-    "Authors": "Maram Hasanain,Mossaab Bagdouri,T. Elsayed,D. Oard",
-    "Affiliations": ",,,",
+    "Authors": [
+        "Maram Hasanain",
+        "Mossaab Bagdouri",
+        "T. Elsayed",
+        "D. Oard"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Social media platforms are a major source of information for both the general public and for journalists. Journalists use Twitter and other social media services to gather story ideas, to find eyewitnesses, and for a wide range of other purposes. One way in which journalists use Twitter is to ask questions. This paper reports on an empirical investigation of questions asked by Arab journalists on Twitter. The analysis begins with the development of an ontology of question types, proceeds to human annotation of training and test data, and concludes by reporting the level of accuracy that can be achieved with automated classification techniques. The results show good classifier effectiveness for high prevalence question types, but that obtaining sufficient training data for lower prevalence question types can be challenging.",
     "Added By": ""
 }

@@ -7,30 +7,45 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "human annotation",
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "The parallel corpus presented consists of manually translated UN documents from the last 25 years",
-    "Volume": "540,152",
+    "Volume": 540152.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "United Nations",
-    "Derived From": "",
+    "Provider": [
+        "United Nations"
+    ],
+    "Derived From": [],
     "Paper Title": "The United Nations Parallel Corpus v1.0",
     "Paper Link": "https://conferences.unite.un.org/UNCORPUS/Content/Doc/un.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "machine translation",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "LREC",
-    "Citations": "233.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Michal Ziemski,Marcin Junczys-Dowmunt,B. Pouliquen",
-    "Affiliations": ",,",
+    "Authors": [
+        "Michal Ziemski",
+        "Marcin Junczys-Dowmunt",
+        "B. Pouliquen"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "This paper describes the creation process and statistics of the official United Nations Parallel Corpus, the first parallel corpus composed from United Nations documents published by the original data creator. The parallel corpus presented consists of manually translated UN documents from the last 25 years (1990 to 2014) for the six official UN languages, Arabic, Chinese, English, French, Russian, and Spanish. The corpus is freely available for download under a liberal license. Apart from the pairwise aligned documents, a fully aligned subcorpus for the six official UN languages is distributed. We provide baseline BLEU scores of our Moses-based SMT systems trained with the full data of language pairs involving English and for all possible translation directions of the six-way subcorpus.",
     "Added By": ""
 }

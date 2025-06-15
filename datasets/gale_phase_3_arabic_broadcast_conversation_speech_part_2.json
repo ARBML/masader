@@ -7,30 +7,37 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The broadcast conversation recordings in this release feature interviews, call-in programs and roundtable discussions focusing principally on current events from the following sources: Abu Dhabi TV, a television station based in Abu Dhabi, United Arab Emirates; Al Alam News Channel, based in Iran; Al Arabiya, a news television station based in Dubai; Al Baghdadya, an Iraqi broadcast programmer based in Egypt; Al Fayha, an Iraqi television channel; Al Hiwar, a regional broadcast station based in the United Kingdom; Alhurra, a U.S. government-funded regional broadcaster; Aljazeera, a regional broadcaster located in Doha, Qatar; Al Ordiniyah, a national broadcast station in Jordan; Bahrain TV, a television station in the Kingdom of Bahrain; Dubai TV, a broadcast station in the United Arab Emirates; Kuwait TV, a national broadcast station in Kuwait; Oman TV, a national broadcaster located in the Sultanate of Oman ; Qatar TV, a broadcast programmer in Qatar; Saudi TV, a national television station based in Saudi Arabia; Syria TV, the national television station in Syria; and Tunisian National TV, a national television station in Tunisia.",
-    "Volume": "129",
+    "Volume": 129.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

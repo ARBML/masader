@@ -7,30 +7,43 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "images",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "Annotated Arabic Sign Language Letters Dataset (ArSL21L) consisting of 14202 images of 32 letter signs with various back- grounds collected from 50 people.",
-    "Volume": "14,202",
+    "Volume": 14202.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "Al Ain University",
-    "Derived From": "",
+    "Provider": [
+        "Al Ain University"
+    ],
+    "Derived From": [],
     "Paper Title": "ArSL21L: Arabic Sign Language Letter Dataset Benchmarking and an Educational Avatar for Metaverse Applications",
     "Paper Link": "https://ieeexplore.ieee.org/abstract/document/9766497",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sign language detection",
+    "Test Split": false,
+    "Tasks": [
+        "sign language detection"
+    ],
     "Venue Title": "EDUCON",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "IEEE Global Engineering Education Conference",
-    "Authors": "Ganzorig Batnasan,Munkhjargal Gochoo,Munkh-Erdene Otgonbold,Fady Alnajjar,Timothy K Shih",
-    "Affiliations": "",
+    "Authors": [
+        "Ganzorig Batnasan",
+        "Munkhjargal Gochoo",
+        "Munkh-Erdene Otgonbold",
+        "Fady Alnajjar",
+        "Timothy K Shih"
+    ],
+    "Affiliations": [],
     "Abstract": "It is complicated for the PwHL (people with hearing loss) to make a relationship with social majority, which naturally demands an interactive auto computer systems that have ability to understand sign language. With a trending Metaverse applications using augmented reality (AR) and virtual reality (VR), it is easier and interesting to teach sign language remotely using an avatar that mimics the gesture of a person using AI (Artificial Intelligence)-based system. There are various proposed methods and datasets for English SL (sign language); however, it is limited for Arabic sign language. Therefore, we present our collected and annotated Arabic Sign Language Letters Dataset (ArSL21L) consisting of 14202 images of 32 letter signs with various backgrounds collected from 50 people. We benchmarked our ArSL21L dataset on state-of-the-art object detection models, i.e., 4 versions of YOLOv5. Among the models, YOLOv5l achieved the best result with COCOmAP of 0.83. Moreover, we provide comparison results of classification task between ArSL2018 dataset, the only Arabic sign language letter dataset for classification task, and our dataset by running classification task on in-house short video. The results revealed that the model trained on our dataset has a superior performance over the model trained on ArSL2018. Moreover, we have created our prototype avatar which can mimic the ArSL (Arabic Sign Language) gestures for Metaverse applications. Finally, we believe, ArSL21L and the ArSL avatar will offer an opportunity to enhance the research and educational applications for not only the PwHL, but also in general real and virtual world applications. Our ArSL21L benchmark dataset is publicly available for research use on the Mendeley.",
     "Added By": "Zaid Alyafeai"
 }

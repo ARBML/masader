@@ -7,30 +7,35 @@
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Comprehensive monolingual word lists for both Simplified and Traditional Chinese, Japanese, Korean and Arabic, including a full-form Arabic word list. For Simplified and Traditional Chinese, Japanese and Korean, we provide readings as well, making them ideal for speech-related applications such as speech synthesis. The two Arabic databases include both vocalized and romanized Arabic.",
-    "Volume": "",
+    "Volume": 0.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": " ",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "37,500.00\u20ac",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

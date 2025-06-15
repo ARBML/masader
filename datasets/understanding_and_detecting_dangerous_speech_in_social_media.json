@@ -7,30 +7,43 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Dangerous speech detection",
-    "Volume": "5,000",
+    "Volume": 5000.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "The University of British Columbia",
-    "Derived From": "",
+    "Provider": [
+        "The University of British Columbia"
+    ],
+    "Derived From": [],
     "Paper Title": "Understanding and Detecting Dangerous Speech in Social Media",
     "Paper Link": "https://arxiv.org/pdf/2005.06608.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "hate speech detection",
+    "Test Split": false,
+    "Tasks": [
+        "hate speech detection"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "8.0",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Ali Alshehri, El Moatez Billah Nagoudi, Muhammad Abdul-Mageed",
-    "Affiliations": "The University of British Columbia",
+    "Authors": [
+        "Ali Alshehri",
+        "El Moatez Billah Nagoudi",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "The University of British Columbia"
+    ],
     "Abstract": "Social media communication has become a significant part of daily activity in modern societies. For this reason, ensuring safety in social media platforms is a necessity. Use of dangerous language such as physical threats in online environments is a somewhat rare, yet remains highly important. Although several works have been performed on the related issue of detecting offensive and hateful language, dangerous speech has not previously been treated in any significant way. Motivated by these observations, we report our efforts to build a labeled dataset for dangerous speech. We also exploit our dataset to develop highly effective models to detect dangerous content. Our best model performs at 59.60% macro F1, significantly outperforming a competitive baseline.",
     "Added By": "Abdelrahman Kaseb"
 }

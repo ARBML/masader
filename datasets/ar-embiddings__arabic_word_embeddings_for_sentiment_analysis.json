@@ -7,30 +7,49 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "A large corpus for generating Arabic word embeddings from multiple sources such as news articles, consumer reviews, Quran text, and tweets. The embeddings are used to perform sentiment analysis in both Standard and Dialectal Arabic without relying on hand-crafted features. The embeddings are applied to several binary classifiers to detect subjectivity and sentiment in Arabic texts.",
-    "Volume": "190,000,000",
+    "Volume": 190000000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "Pace University",
-    "Derived From": "Quran-text, Watan-2004, CNN-Arabic, BBC-Arabic, Consumer Reviews",
+    "Provider": [
+        "Pace University"
+    ],
+    "Derived From": [
+        "Quran-text",
+        "Watan-2004",
+        "CNN-Arabic",
+        "BBC-Arabic",
+        "Consumer Reviews"
+    ],
     "Paper Title": "Word Embeddings for Arabic Sentiment Analysis",
     "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7841054",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "sentiment analysis, embedding",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis",
+        "embedding"
+    ],
     "Venue Title": "Big Data",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "IEEE International Conference on Big Data (Big Data)",
-    "Authors": "A. Aziz Altowayan, Lixin Tao",
-    "Affiliations": "Pace University",
+    "Authors": [
+        "A. Aziz Altowayan",
+        "Lixin Tao"
+    ],
+    "Affiliations": [
+        "Pace University"
+    ],
     "Abstract": "This paper presents an approach to using word embeddings for Arabic sentiment analysis in both Standard and Dialectal Arabic. The authors compile a large corpus from various sources and train word vectors (embeddings) using the CBOW model of word2vec. These embeddings are used to train several binary classifiers to detect sentiment and subjectivity in Arabic tweets, consumer reviews, and news articles. The approach achieves competitive performance without relying on manually crafted features. The corpus and code are made publicly available for future research.",
     "Added By": "Maryam Al Emadi"
 }

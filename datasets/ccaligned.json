@@ -7,30 +7,44 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
-    "Description": "CCAligned consists of parallel or comparable web-document pairs in 137 languages aligned with English. These web-document pairs were constructed by performing language identification on raw web-documents, and ensuring corresponding language codes were corresponding in the URLs of web documents. ",
-    "Volume": "1,219,374",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "CCAligned consists of parallel or comparable web-document pairs in 137 languages aligned with English. These web-document pairs were constructed by performing language identification on raw web-documents, and ensuring corresponding language codes were corresponding in the URLs of web documents.",
+    "Volume": 1219374.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "CCAligned: A Massive Collection of Cross-lingual Web-Document Pairs",
     "Paper Link": "http://aclanthology.lst.uni-saarland.de/2020.emnlp-main.480.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "EMNLP",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Empirical Methods in Natural Language Processing",
-    "Authors": "Ahmed El-Kishky, Vishrav Chaudhary, Francisco Guzm\u00e1, Philipp Koehn",
-    "Affiliations": "Facebook AI; Facebook AI; Facebook AI; Johns Hopkins University",
+    "Authors": [
+        "Ahmed El-Kishky",
+        "Vishrav Chaudhary",
+        "Francisco Guzm\u00e1",
+        "Philipp Koehn"
+    ],
+    "Affiliations": [
+        "Facebook AI; Facebook AI; Facebook AI; Johns Hopkins University"
+    ],
     "Abstract": "Cross-lingual document alignment aims to\nidentify pairs of documents in two distinct languages that are of comparable content or translations of each other. In this paper, we exploit the signals embedded in URLs to label\nweb documents at scale with an average precision of 94.5% across different language pairs.\nWe mine sixty-eight snapshots of the Common Crawl corpus and identify web document\npairs that are translations of each other. We\nrelease a new web dataset consisting of over\n392 million URL pairs from Common Crawl\ncovering documents in 8144 language pairs\nof which 137 pairs include English. In addition to curating this massive dataset, we introduce baseline methods that leverage crosslingual representations to identify aligned documents based on their textual content. Finally,\nwe demonstrate the value of this parallel documents dataset through a downstream task of\nmining parallel sentences and measuring the\nquality of machine translations from models\ntrained on this mined data. Our objective in\nreleasing this dataset is to foster new research\nin cross-lingual NLP across a variety of low,\nmedium, and high-resource languages",
     "Added By": "Zaid Alyafeai"
 }

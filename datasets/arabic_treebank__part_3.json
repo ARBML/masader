@@ -7,30 +7,45 @@
     "Year": 2005,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "This dataset is a collection of 300,00 Arabic tokens with their syntactic treebank annotation and annotation on part of speech (POS), gloss, and word segmentation.",
-    "Volume": "300,000",
+    "Volume": 300000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "part of the dataset was derived from Arabic Gigaword (LDC2003T12)",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [
+        "part of the dataset was derived from Arabic Gigaword (LDC2003T12)"
+    ],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,500.00 $",
-    "Test Split": "No",
-    "Tasks": "information retrieval",       
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval"
+    ],
     "Venue Title": "",
-    "Citations": "24.0",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "Mohamed Maamouri, Ann Bies, Tim Buckwalter, Hubert Jin, Wigdan Mekki",
-    "Affiliations": "",
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Tim Buckwalter",
+        "Hubert Jin",
+        "Wigdan Mekki"
+    ],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Maged S. Alshaibani"
 }

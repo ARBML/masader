@@ -7,30 +7,45 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Jordan",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Corpus consisted of 1,800 tweets annotated as positive and negative. Modern Standard Arabic (MSA) or Jordanian dialect.",
-    "Volume": "1,800",
+    "Volume": 1800.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple Institutions ",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "Arabic Tweets Sentimental Analysis Using Machine Learning",
     "Paper Link": "https://link.springer.com/chapter/10.1007/978-3-319-60042-0_66",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "IEA/AIE",
-    "Citations": "53.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems",
-    "Authors": "K. Alomari,H. M. Elsherif,K. Shaalan",
-    "Affiliations": ",,",
+    "Authors": [
+        "K. Alomari",
+        "H. M. Elsherif",
+        "K. Shaalan"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "The continuous rapid growth of electronic Arabic contents in social media channels and in Twitter particularly poses an opportunity for opinion mining research. Nevertheless, it is hindered by either the lack of sentimental analysis resources or Arabic language text analysis challenges. This study introduces an Arabic Jordanian twitter corpus where Tweets are annotated as either positive or negative. It investigates different supervised machine learning sentiment analysis approaches when applied to Arabic user\u2019s social media of general subjects that are found in either Modern Standard Arabic (MSA) or Jordanian dialect. Experiments are conducted to evaluate the use of different weight schemes, stemming and N-grams terms techniques and scenarios. The experimental results provide the best scenario for each classifier and indicate that SVM classifier using term frequency\u2013inverse document frequency (TF-IDF) weighting scheme with stemming through Bigrams feature outperforms the Naive Bayesian classifier best scenario performance results. Furthermore, this study results outperformed other results from comparable related work.",
     "Added By": ""
 }

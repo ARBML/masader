@@ -7,30 +7,46 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "A set of 21K Arabic tweets labeled for 4 classes of sentiment and 6 classes of speech-act",
-    "Volume": "21,000",
+    "Volume": 21000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
-    "Paper Title": "ArSAS: An Arabic Speech-Act and Sentiment Corpus of Tweets\r",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArSAS: An Arabic Speech-Act and Sentiment Corpus of Tweets",
     "Paper Link": "http://lrec-conf.org/workshops/lrec2018/W30/pdf/22_W30.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis, speech act classification",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis",
+        "speech act classification"
+    ],
     "Venue Title": "LREC",
-    "Citations": "25.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "AbdelRahim Elmadany,Hamdy Mubarak,Walid Magdy",
-    "Affiliations": "University of British Columbia,,The University of Edinburgh",
+    "Authors": [
+        "AbdelRahim Elmadany",
+        "Hamdy Mubarak",
+        "Walid Magdy"
+    ],
+    "Affiliations": [
+        "University of British Columbia",
+        "",
+        "The University of Edinburgh"
+    ],
     "Abstract": "Speech acts are the type of communicative acts within a conversation. Speech act recognition (aka classification) has been an active research in recent years. However, much less attention was directed towards this task in Arabic due to the lack of resources for training an Arabic speech-act classifier. In this paper we present ArSAS , an Arabic corpus of tweets annotated for the tasks of speech-act recognition and sentiment analysis. A large set of 21k Arabic tweets covering multiple topics were collected, prepared and annotated for six different classes of speech-act labels, such as expression, assertion, and question. In addition, the same set of tweets were also annotated with four classes of sentiment. We aim to have this corpus promoting the research in both speech-act recognition and sentiment analysis tasks for Arabic language.",
     "Added By": "Zaid Alyafeai"
 }

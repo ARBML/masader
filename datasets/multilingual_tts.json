@@ -7,30 +7,35 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The Multilingual TTS dataset is an exceptional compilation of text-to-speech (TTS) samples, meticulously crafted to showcase the richness and diversity of human languages. This dataset encompasses a variety of real-world sentences in fifteen prominent languages, carefully chosen to reflect global linguistic diversity. Each sample is accompanied by its corresponding high-quality audio output.",
-    "Volume": "1,938",
+    "Volume": 1938.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "text to speech",
+    "Test Split": false,
+    "Tasks": [
+        "text to speech"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

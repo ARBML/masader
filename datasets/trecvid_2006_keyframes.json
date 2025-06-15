@@ -7,30 +7,39 @@
     "Year": 2010,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
-    "Form": "other",
-    "Collection Style": "other",
-    "Description": " The video stills that compose this corpus are drawn from approximately 158.6 hours of English, Arabic, and Chinese language broadcast programming data collected by LDC from NBC (\"NBC Nightly News\"), CNN (\"Live From..\", \"Anderson Cooper 360\"), MSNBC (\"MSNBC News live\"), New Tang Dynsaty TV (\"Economic Frontier\", \"Focus Interactive\"), Phoenix TV (\"Good Morning China\"), Lebanese Broadcasting Corp. (\"Naharkum Saiid\", \"News on LBC\"), Alhurra TV (\"Alhurra News\") and China Central TV (\"CCTV_News\"). ",
-    "Volume": "158.6",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "The video stills that compose this corpus are drawn from approximately 158.6 hours of English, Arabic, and Chinese language broadcast programming data collected by LDC from NBC (\"NBC Nightly News\"), CNN (\"Live From..\", \"Anderson Cooper 360\"), MSNBC (\"MSNBC News live\"), New Tang Dynsaty TV (\"Economic Frontier\", \"Focus Interactive\"), Phoenix TV (\"Good Morning China\"), Lebanese Broadcasting Corp. (\"Naharkum Saiid\", \"News on LBC\"), Alhurra TV (\"Alhurra News\") and China Central TV (\"CCTV_News\").",
+    "Volume": 158.6,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "500.00 $",
-    "Test Split": "No",
-    "Tasks": "information extraction,event detection,information retrieval",
+    "Test Split": false,
+    "Tasks": [
+        "information extraction",
+        "event detection",
+        "information retrieval"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

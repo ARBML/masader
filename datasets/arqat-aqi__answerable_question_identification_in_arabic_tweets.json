@@ -7,30 +7,37 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Answerable Question Identification in Arabic Tweets",
-    "Volume": "13,252",
+    "Volume": 13252.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "-",
-    "Derived From": "",
+    "Provider": [
+        "-"
+    ],
+    "Derived From": [],
     "Paper Title": "Identification of Answer-Seeking Questions in Arabic Microblogs",
     "Paper Link": "https://dl.acm.org/doi/pdf/10.1145/2661829.2661959",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "answerable questions identification",
+    "Test Split": false,
+    "Tasks": [
+        "answerable questions identification"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

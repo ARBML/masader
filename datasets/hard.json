@@ -7,30 +7,46 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "reviews",
+    "Domain": [
+        "reviews"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "490587 hotel reviews collected from the Booking.com website.",
-    "Volume": "93,700",
+    "Volume": 93700.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Sharjah University",
-    "Derived From": "",
+    "Provider": [
+        "Sharjah University"
+    ],
+    "Derived From": [],
     "Paper Title": "Hotel Arabic-Reviews Dataset Construction for Sentiment Analysis Applications",
     "Paper Link": "https://link.springer.com/chapter/10.1007/978-3-319-67056-0_3",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis, review classification",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis",
+        "review classification"
+    ],
     "Venue Title": "INLP",
-    "Citations": "49.0",
     "Venue Type": "journal",
     "Venue Name": "Intelligent Natural Language Processing: Trends and Applications",
-    "Authors": "Ashraf Elnagar,Yasmin Khalifa,Anas Einea",
-    "Affiliations": ",,",
+    "Authors": [
+        "Ashraf Elnagar",
+        "Yasmin Khalifa",
+        "Anas Einea"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Arabic language suffers from the lack of available large datasets for machine learning and sentiment analysis applications. This work adds to the recently reported large dataset BRAD, which is the largest Book Reviews in Arabic Dataset. In this paper, we introduce HARD (Hotel Arabic-Reviews Dataset), the largest Book Reviews in Arabic Dataset for subjective sentiment analysis and machine language applications. HARD comprises of 490587 hotel reviews collected from the Booking.com website. Each record contains the review text in the Arabic language, the reviewer\u2019s rating on a scale of 1 to 10 stars, and other attributes about the hotel/reviewer. We make available the full unbalanced dataset as well as a balanced subset. To examine the datasets, we implement six popular classifiers using Modern Standard Arabic (MSA) as well as Dialectal Arabic (DA). We test the sentiment analyzers for polarity and rating classifications. Furthermore, we implement a polarity lexicon-based sentiment analyzer. The findings confirm the effectiveness of the classifiers and the datasets. Our core contribution is to make this benchmark-dataset available and accessible to the research community on Arabic language.",
     "Added By": ""
 }

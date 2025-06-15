@@ -7,30 +7,37 @@
     "Year": 2007,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "This database contains 982 Levantine Arabic speakers taking part in spontaneous telephone conversations in Colloquial Levantine Arabic. A total of 985 conversation sides are provided (there are three speakers who each appear in two disctinct conversations). The average duration per side is between 5 and 6 minutes.",
-    "Volume": "985",
+    "Volume": 985.0,
     "Unit": "sentences",
-    "Ethical Risks": "",
-    "Provider": "Appen Pty Ltd",
-    "Derived From": "",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Appen Pty Ltd"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "200.00 $",
-    "Test Split": "No",
-    "Tasks": "speech recognition ",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

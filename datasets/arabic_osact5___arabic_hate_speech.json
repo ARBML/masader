@@ -7,30 +7,43 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Fine-Grained Hate Speech Detection on Arabic Twitter",
-    "Volume": "10,157",
+    "Volume": 10157.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "QCRI",
-    "Derived From": "",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
     "Paper Title": "Emojis as Anchors to Detect Arabic Offensive Language and Hate Speech",
     "Paper Link": "https://arxiv.org/pdf/2201.06723.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "CodaLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "hate speech detection",
+    "Test Split": true,
+    "Tasks": [
+        "hate speech detection"
+    ],
     "Venue Title": "OSACT",
-    "Citations": "",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
-    "Authors": "Hamdy Mubarak, Sabit Hassan , and Shammur Absar Chowdhury",
-    "Affiliations": "Qatar Computing Research Institute",
+    "Authors": [
+        "Hamdy Mubarak",
+        "Sabit Hassan",
+        "and Shammur Absar Chowdhury"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute"
+    ],
     "Abstract": "We introduce a generic, language-independent method to collect a large percentage of offensive and hate tweets regardless of their topics or genres. We harness the extralinguistic information embedded in the emojis to collect a large number of offensive tweets. We apply the proposed method on Arabic tweets and compare it with English tweets -- analyzing some cultural differences. We observed a constant usage of these emojis to represent offensiveness in throughout different timelines in Twitter. We manually annotate and publicly release the largest Arabic dataset for offensive, fine-grained hate speech, vulgar and violence content. Furthermore, we benchmark the dataset for detecting offense and hate speech using different transformer architectures and performed in-depth linguistic analysis. We evaluate our models on external datasets -- a Twitter dataset collected using a completely different method, and a multi-platform dataset containing comments from Twitter, YouTube and Facebook, for assessing generalization capability. Competitive results on these datasets suggest that the data collected using our method captures universal characteristics of offensive language. Our findings also highlight the common words used in offensive communications; common targets for hate speech; specific patterns in violence tweets and pinpoints common classification errors due to the need to understand the context, consider culture and background and the presence of sarcasm among others.",
     "Added By": "Abdelrahman Kaseb"
 }

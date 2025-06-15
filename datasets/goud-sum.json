@@ -7,30 +7,41 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Goud-sum contains 158k articles and their headlines extracted from Goud.ma news website. The articles are written in the Arabic script. All headlines are in Moroccan Darija, while articles may be in Moroccan Darija, in Modern Standard Arabic, or a mix of both (code-switched Moroccan Darija).",
-    "Volume": "158,000",
+    "Volume": 158000.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "GOUD.MA: A NEWS ARTICLE DATASET FOR SUMMARIZATION IN MOROCCAN DARIJA",
     "Paper Link": "https://openreview.net/pdf?id=BMVq5MELb9",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "summarization",
+    "Test Split": true,
+    "Tasks": [
+        "summarization"
+    ],
     "Venue Title": "ICLR",
-    "Citations": "0.0",
     "Venue Type": "workshop",
     "Venue Name": "International Conference on Learning Representations",
-    "Authors": "Abderrahmane Issam, Khalil Mrini",
-    "Affiliations": "Archipel Cognitive, University of California San Diego",
+    "Authors": [
+        "Abderrahmane Issam",
+        "Khalil Mrini"
+    ],
+    "Affiliations": [
+        "Archipel Cognitive",
+        "University of California San Diego"
+    ],
     "Abstract": "Moroccan Darija is a vernacular spoken by over 30 million people primarily in\nMorocco. Despite a high number of speakers, it remains a low-resource language.\nIn this paper, we introduce GOUD.MA: a dataset of over 158k news articles for automatic summarization in code-switched Moroccan Darija. We analyze the dataset\nand find that it requires a high level of abstractive reasoning. We fine-tune the\nArabic-language BERT (AraBERT), and the language models for the Moroccan\n(DarijaBERT), and Algerian (DziriBERT) national vernaculars for summarization\non GOUD.MA. The results show that GOUD.MA is a challenging summarization\nbenchmark dataset. We release our dataset publicly in an effort to encourage the\ndiversity of evaluation tasks to improve language modeling in Moroccan Darija.",
     "Added By": "Abderrahmane Issam"
 }

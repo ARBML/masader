@@ -4,31 +4,31 @@
         {
             "Name": "Algerian",
             "Dialect": "Algeria",
-            "Volume": "607",
+            "Volume": 607.0,
             "Unit": "sentences"
         },
         {
             "Name": "Egyptian",
             "Dialect": "Egypt",
-            "Volume": "588",
+            "Volume": 588.0,
             "Unit": "sentences"
         },
         {
             "Name": "Lebanese",
             "Dialect": "Lebanon",
-            "Volume": "633",
+            "Volume": 633.0,
             "Unit": "sentences"
         },
         {
             "Name": "Syrian",
             "Dialect": "Syria",
-            "Volume": "593",
+            "Volume": 593.0,
             "Unit": "sentences"
         },
         {
             "Name": "Tunisian",
             "Dialect": "Tunisia",
-            "Volume": "649",
+            "Volume": 649.0,
             "Unit": "sentences"
         }
     ],
@@ -38,30 +38,48 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "A Benchmark for Evaluating Multidialectal Arabic Word Embeddings",
-    "Volume": "3,070",
+    "Volume": 3070.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions ",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "DiaLex: A Benchmark for Evaluating Multidialectal Arabic Word Embeddings",
     "Paper Link": "https://aclanthology.org/2021.wanlp-1.2",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "embedding",
+    "Test Split": false,
+    "Tasks": [
+        "embedding"
+    ],
     "Venue Title": "WANLP",
-    "Citations": "",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",
-    "Authors": "Muhammad Abdul-Mageed, Shady Elbassuoni, Jad Doughman, AbdelRahim Elmadany, El Moatez Billah Nagoudi, Yorgo Zoughby, Ahmad Shaher, Iskander Gaba, Ahmed Helal, and Mohammed El-Razzaz.",
-    "Affiliations": "",
+    "Authors": [
+        "Muhammad Abdul-Mageed",
+        "Shady Elbassuoni",
+        "Jad Doughman",
+        "AbdelRahim Elmadany",
+        "El Moatez Billah Nagoudi",
+        "Yorgo Zoughby",
+        "Ahmad Shaher",
+        "Iskander Gaba",
+        "Ahmed Helal",
+        "and Mohammed El-Razzaz."
+    ],
+    "Affiliations": [],
     "Abstract": "Word embeddings are a core component of modern natural language processing systems, making the ability to thoroughly evaluate them a vital task. We describe DiaLex, a benchmark for intrinsic evaluation of dialectal Arabic word embeddings. DiaLex covers five important Arabic dialects: Algerian, Egyptian, Lebanese, Syrian, and Tunisian. Across these dialects, DiaLex provides a testbank for six syntactic and semantic relations, namely male to female, singular to dual, singular to plural, antonym, comparative, and genitive to past tense. DiaLex thus consists of a collection of word pairs representing each of the six relations in each of the five dialects. To demonstrate the utility of DiaLex, we use it to evaluate a set of existing and new Arabic word embeddings that we developed. Beyond evaluation of word embeddings, DiaLex supports efforts to integrate dialects into the Arabic language curriculum. It can be easily translated into Modern Standard Arabic and English, which can be useful for evaluating word translation. Our benchmark, evaluation code, and new word embedding models will be publicly available.",
     "Added By": "Iskander Gaba"
 }

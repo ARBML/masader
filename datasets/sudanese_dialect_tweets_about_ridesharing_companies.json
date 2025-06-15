@@ -7,30 +7,44 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Sudan",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Sentiment Analysis dataset collected from Twitter. It contains people's opinions on Sudanese Ridesharing companies.",
-    "Volume": "2,116",
+    "Volume": 2116.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "University of Khartoum",
-    "Derived From": "",
+    "Provider": [
+        "University of Khartoum"
+    ],
+    "Derived From": [],
     "Paper Title": "Sentiment Analysis for Sudanese Arabic Dialect Using comparative Supervised Learning approach",
     "Paper Link": "https://ieeexplore.ieee.org/document/9429560",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "ICCCEEE",
-    "Citations": "0.0",
     "Venue Type": "conference",
     "Venue Name": "2020 International Conference on Computer, Control, Electrical, and Electronics Engineering",
-    "Authors": "Shahad Abuuznien, Zena Abdelmohsin, Ehsan Abdu, Izzeldein Amin",
-    "Affiliations": "University of Khartoum",
+    "Authors": [
+        "Shahad Abuuznien",
+        "Zena Abdelmohsin",
+        "Ehsan Abdu",
+        "Izzeldein Amin"
+    ],
+    "Affiliations": [
+        "University of Khartoum"
+    ],
     "Abstract": "Sentiment analysis is several methods, techniques, and tools that are used to determine the polarity of the text (positive, negative, or neutral). The most popular approaches to address this problem, is the machine learning approach, lexicon-based approach, and hybrid approach. This project focuses on extracting and analyzing Sudanese social media feeds about ridesharing services. This project aims to tackle the issue of Sudanese Arabic dialect analysis by conducting a comparative analysis to measure the performance of the machine learning algorithms using Sudanese dialect corpus comparing different preprocessing approaches. For this study, a stop word list that combines a modern standard Arabic list and a Sudanese stop word list was built to be conducted through the analysis as one of the preprocessing steps. with four classifiers applied on a dataset consist of 2116 tweets. In particular, Na\u00efve Bayes (NB), Support vector machine (SVM), Logistic Regression, and K-Nearest Neighbor (KNN) had been trained and measured the performance. The results of the selected classifiers against the dataset which had been applied to various preprocessing steps revealed that SVM with stemming only gives the highest F1-score (0.71), and the best accuracy (0.95).",
     "Added By": "Khalid N. Elmadani"
 }

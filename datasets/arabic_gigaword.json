@@ -7,30 +7,38 @@
     "Year": 2003,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "other",
-    "Description": "There are 319 files, totalling approximately 1.1GB in compressed form (4348 MB uncompressed, and 391619 Kwords). ",
-    "Volume": "1,256,719",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "There are 319 files, totalling approximately 1.1GB in compressed form (4348 MB uncompressed, and 391619 Kwords).",
+    "Volume": 1256719.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,000.00 $",
-    "Test Split": "No",
-    "Tasks": "information retrieval,language modeling",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval",
+        "language modeling"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

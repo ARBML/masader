@@ -7,30 +7,47 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Arabic Text Diacritization dataset",
-    "Volume": "55,000",
+    "Volume": 55000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "JUST",
-    "Derived From": "",
+    "Provider": [
+        "JUST"
+    ],
+    "Derived From": [],
     "Paper Title": "Arabic Text Diacritization Using Deep Neural\nNetworks",
     "Paper Link": "https://arxiv.org/pdf/1905.01965.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "diacritization",
+    "Test Split": true,
+    "Tasks": [
+        "diacritization"
+    ],
     "Venue Title": "ICCAIS",
-    "Citations": "12.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Computer Applications & Information Security",
-    "Authors": "Ali Fadel,Ibraheem Tuffaha,Bara' Al-Jawarneh,M. Al-Ayyoub",
-    "Affiliations": ",,,",
+    "Authors": [
+        "Ali Fadel",
+        "Ibraheem Tuffaha",
+        "Bara' Al-Jawarneh",
+        "M. Al-Ayyoub"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Diacritization of Arabic text is both an interesting and a challenging problem at the same time with various applications ranging from speech synthesis to helping students learning the Arabic language. Like many other tasks or problems in Arabic language processing, the weak efforts invested into this problem and the lack of available (open-source) resources hinder the progress towards solving this problem. This work provides a critical review for the currently existing systems, measures and resources for Arabic text diacritization. Moreover, it introduces a much-needed free-for-all cleaned dataset that can be easily used to benchmark any work on Arabic diacritization. Extracted from the Tashkeela Corpus, the dataset consists of 55K lines containing about 2.3M words. After constructing the dataset, existing tools and systems are tested on it. The results of the experiments show that the neural Shakkala system significantly outperforms traditional rule-based approaches and other closed-source tools with a Diacritic Error Rate (DER) of 2.88% compared with 13.78%, which the best DER for the non-neural approach (obtained by the Mishkal tool).",
     "Added By": ""
 }

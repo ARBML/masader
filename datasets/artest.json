@@ -7,30 +7,47 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "web pages",
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "ArTest was built on top of ArabicWeb'16 Web collection. If you are interested in getting the collection, please check our ArabicWeb16 Website",
-    "Volume": "10,529",
+    "Volume": 10529.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "-",
-    "Derived From": "ArabicWeb16",
+    "Provider": [
+        "-"
+    ],
+    "Derived From": [
+        "ArabicWeb16"
+    ],
     "Paper Title": "ArTest: The First Test Collection for Arabic Web Search with Relevance Rationales",
     "Paper Link": "https://dl.acm.org/doi/pdf/10.1145/3397271.3401223",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "information retrieval",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval"
+    ],
     "Venue Title": "SIGIR",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Special Interest Group on Information Retrieval",
-    "Authors": "Maram Hasanain, Yassmine Barkallah, Reem Suwaileh, Mucahid Kutlu, Tamer Elsayed",
-    "Affiliations": "Multiple Institutions",
+    "Authors": [
+        "Maram Hasanain",
+        "Yassmine Barkallah",
+        "Reem Suwaileh",
+        "Mucahid Kutlu",
+        "Tamer Elsayed"
+    ],
+    "Affiliations": [
+        "Multiple Institutions"
+    ],
     "Abstract": "The scarcity of Arabic test collections has long hindered information retrieval (IR) research over the Arabic Web. In this work, we present ArTest, the first large-scale test collection designed for the evaluation of ad-hoc search over the Arabic Web. ArTest uses ArabicWeb16, a collection of around 150M Arabic Web pages as the document collection, and includes 50 topics, 10,529 relevance judgments, and (more importantly) a rationale behind each judgment. To our knowledge, this is also the first IR test collection that includes rationales of primary assessors (i.e., topic developers) for their relevance judgments, exhibiting a useful resource for understanding the relevance phenomena. Finally, ArTest is made publicly-available for the research community.",
     "Added By": "Zaid Alyafeai"
 }

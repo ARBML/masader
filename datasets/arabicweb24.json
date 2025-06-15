@@ -3,34 +3,41 @@
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/lightonai/ArabicWeb24",
     "Link": "https://hf.co/datasets/lightonai/ArabicWeb24",
-    "License": "odc-by",
+    "License": "Apache-1.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "web pages",
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The ArabicWeb24 dataset consists of more than 28 billion tokens of cleaned and deduplicated Arabic web data from a customized crawl. This was processed using the large scale data processing library datatrove.",
-    "Volume": "28,000,000,000",
+    "Volume": 28000000000.0,
     "Unit": "tokens",
     "Ethical Risks": "High",
-    "Provider": "lightonai",
-    "Derived From": "",
+    "Provider": [
+        "lightonai"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "language modeling",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

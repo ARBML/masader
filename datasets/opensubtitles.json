@@ -7,30 +7,42 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "This is a new collection of translated movie subtitles from http://www.opensubtitles.org/.",
-    "Volume": "83,600,000",
+    "Volume": 83600000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "OPUS",
-    "Derived From": "",
+    "Provider": [
+        "OPUS"
+    ],
+    "Derived From": [],
     "Paper Title": "OpenSubtitles2016: Extracting Large Parallel Corpora from Movie and TV Subtitles",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2016/pdf/947_Paper.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "LREC",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Language Resources Evaluation Conference",
-    "Authors": "Pierre Lison, Jorg Tiedemann",
-    "Affiliations": "University of Oslo",
+    "Authors": [
+        "Pierre Lison",
+        "Jorg Tiedemann"
+    ],
+    "Affiliations": [
+        "University of Oslo"
+    ],
     "Abstract": "We present a new major release of the OpenSubtitles collection of parallel corpora. The release is compiled from a large database\nof movie and TV subtitles and includes a total of 1689 bitexts spanning 2.6 billion sentences across 60 languages. The release also\nincorporates a number of enhancements in the preprocessing and alignment of the subtitles, such as the automatic correction of OCR\nerrors and the use of meta-data to estimate the quality of each subtitle and score subtitle pairs.",
     "Added By": "Zaid Alyafeai"
 }

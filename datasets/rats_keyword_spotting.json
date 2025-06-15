@@ -7,30 +7,37 @@
     "Year": 2017,
     "Language": "multilingual",
     "Dialect": "Levant",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The source audio consists of conversational telephone speech recordings collected by LDC: (1) data collected for the RATS program from Levantine Arabic and Farsi speakers; and (2) material from Levantine Arabic QT Training Data Set 5, Speech (LDC2006S29) and CALLFRIEND Farsi Second Edition Speech (LDC2014S01).",
-    "Volume": "400",
+    "Volume": 400.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "7,500.00 $",
-    "Test Split": "No",
-    "Tasks": "keyphrase extraction",
+    "Test Split": false,
+    "Tasks": [
+        "keyphrase extraction"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

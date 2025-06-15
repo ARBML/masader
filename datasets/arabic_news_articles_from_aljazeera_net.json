@@ -7,30 +7,37 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Natural Language Process, or NLP, is one of the most studied machine learning field. Much progress has been made in recent years which has allowed this field to move into large scale use in several domains. Nowadays, NLP is widely used in social networks, in search engines, in translation tools, in chatbot assistants, and many others cases \u2026 However, the progress and results differ from language to another. The majority of machine learning models treat in priority English and abandon the other languages, in particular Arabic. The main reason for this is the lack of datasets. Hence all the interest of the current datasets gathering +5000 news articles in Arabic.",
-    "Volume": "5,870",
+    "Volume": 5870.0,
     "Unit": "documents",
-    "Ethical Risks": "",
-    "Provider": "",
-    "Derived From": "",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "language modeling",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "ABDELKADER RHOUATI ",
-    "Affiliations": "",
+    "Authors": [
+        "ABDELKADER RHOUATI"
+    ],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Kamel GAANOUN"
 }

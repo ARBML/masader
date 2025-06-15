@@ -7,30 +7,47 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The DziriBERT dataset contains over 1.1 million tweets written in the Algerian dialect, collected from Twitter. It includes tweets written in both Arabic script and Romanized script (Arabizi). The dataset is designed to develop language models specifically for the Algerian dialect, which differs from Modern Standard Arabic (MSA).",
-    "Volume": "1,100,000",
+    "Volume": 1100000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "DziriBERT: a Pre-trained Language Model for the Algerian Dialect",
-    "Paper Link": "https://arxiv.org/pdf/2109.12346 ",
+    "Paper Link": "https://arxiv.org/pdf/2109.12346",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "sentiment analysis, language modeling, topic classification, emotion detection",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis",
+        "language modeling",
+        "topic classification",
+        "emotion detection"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Amine Abdaoui, Mohamed Berrimi, Mourad Oussalah, Abdelouahab Moussaoui",
-    "Affiliations": "Oracle, University of Ferhat Abbas 1, University of Oulu",
+    "Authors": [
+        "Amine Abdaoui",
+        "Mohamed Berrimi",
+        "Mourad Oussalah",
+        "Abdelouahab Moussaoui"
+    ],
+    "Affiliations": [
+        "Oracle",
+        "University of Ferhat Abbas 1",
+        "University of Oulu"
+    ],
     "Abstract": "Pre-trained transformers are now the de facto models in Natural Language Processing given their state-of-the-art results in many tasks and languages. However, most of the current models have been trained on languages for which large text resources are already available (such as English, French, Arabic, etc.). Therefore, there are still a number of low-resource languages that need more attention from the community. In this paper, we study the Algerian dialect, which has several specificities that make the use of Arabic or multilingual models inappropriate. To address this issue, we collected more than one million Algerian tweets, and pre-trained the first Algerian language model: DziriBERT. When compared with existing models, DziriBERT achieves better results, especially when dealing with the Roman script. The obtained results show that pre-training a dedicated model on a small dataset (150 MB) can outperform existing models that have been trained on much more data (hundreds of GB). Finally, our model is publicly available to the community.",
     "Added By": "Maryam Al Emadi"
 }

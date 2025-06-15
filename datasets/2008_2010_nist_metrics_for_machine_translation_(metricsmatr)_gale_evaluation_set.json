@@ -7,30 +7,37 @@
     "Year": 2011,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "web pages",
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "This release contains 149 documents with corresponding reference translations (Arabic-to-English and Chinese-to-English), system translations and human assessments. The human assessments include the following: Adequacy7 (a 7-point scale for judging the meaning of a system translation with respect to the reference translation) Adequacy Yes/No (whether the given system segment meant essentially the same as the reference translation) Preference (the judges preference between two candidate translations when compared to a human reference translation) and HTER (Human Targeted Error Rate, human edits to a system translation to have the same meaning as a reference translation).",
-    "Volume": "149",
+    "Volume": 149.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "250.00 $",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

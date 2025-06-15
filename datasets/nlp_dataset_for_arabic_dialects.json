@@ -4,31 +4,31 @@
         {
             "Name": "Algeria",
             "Dialect": "Algeria",
-            "Volume": "13,393",
+            "Volume": 13393.0,
             "Unit": "sentences"
         },
         {
             "Name": "Lebanon",
             "Dialect": "Lebanon",
-            "Volume": "14,482",
+            "Volume": 14482.0,
             "Unit": "sentences"
         },
         {
             "Name": "Morocco",
             "Dialect": "Morocco",
-            "Volume": "9,965",
+            "Volume": 9965.0,
             "Unit": "sentences"
         },
         {
             "Name": "Tunisia",
             "Dialect": "Tunisia",
-            "Volume": "8,044",
+            "Volume": 8044.0,
             "Unit": "sentences"
         },
         {
             "Name": "Egypt",
             "Dialect": "Egypt",
-            "Volume": "7,519",
+            "Volume": 7519.0,
             "Unit": "sentences"
         }
     ],
@@ -38,30 +38,53 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "This data was collected from the Twitter social network and consists on +50K\ntwits in five (5) national dialects",
-    "Volume": "52,210",
+    "Volume": 52210.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "An open access NLP dataset for Arabic dialects :\r\ndata collection, labeling, and model construction",
     "Paper Link": "https://arxiv.org/pdf/2102.11000.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "dialect identification, topic classification, sentiment analysis",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification",
+        "topic classification",
+        "sentiment analysis"
+    ],
     "Venue Title": "ArXiv",
-    "Citations": "0.0",
     "Venue Type": "preprint",
     "Venue Name": "ArXiv",
-    "Authors": "ElMehdi Boujou,Hamza Chataoui,Abdellah El Mekki,Saad Benjelloun,I. Chairi,Ismail Berrada",
-    "Affiliations": ",,Mohammed VI Polytechnic University,,,",
+    "Authors": [
+        "ElMehdi Boujou",
+        "Hamza Chataoui",
+        "Abdellah El Mekki",
+        "Saad Benjelloun",
+        "I. Chairi",
+        "Ismail Berrada"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "Mohammed VI Polytechnic University",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Natural Language Processing (NLP) is today a very active field of research and innovation. Many applications need however big sets of data for supervised learning, suitably labelled for the training purpose. This includes applications for the Arabic language and its national dialects. However, such open access labeled data sets in Arabic and its dialects are lacking in the Data Science ecosystem and this lack can be a burden to innovation and research in this field. In this work, we present an open data set of social data content in several Arabic dialects. This data was collected from the Twitter social network and consists on +50K twits in five (5) national dialects. Furthermore, this data was labeled for several applications, namely dialect detection, topic detection and sentiment analysis. We publish this data as an open access data to encourage innovation and encourage other works in the field of NLP for Arabic dialects and social media. A selection of models were built using this data set and are presented in this paper along with their performances.",
     "Added By": ""
 }

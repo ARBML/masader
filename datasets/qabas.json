@@ -3,34 +3,51 @@
     "Subsets": [],
     "HF Link": "",
     "Link": "https://sina.birzeit.edu/qabas",
-    "License": "CC BY-ND 4.0",
+    "License": "Apache-1.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "An open-source Arabic lexicon was designed to support Natural Language Processing (NLP) applications. It uniquely integrates lemmas from 110 different lexicons, linking over 58,000 lemmas, including 45,000 nominal lemmas, 12,500 verbal lemmas, and 473 functional-word lemmas. Additionally, Qabas is linked to 12 morphologically annotated corpora, totaling around 2 million tokens, making it the first Arabic lexicon to combine both lexicons and corpora. Developed semi-automatically through a mapping framework and a web-based tool.",
-    "Volume": "60,000",
+    "Volume": 60000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "SinaLab, Birzeit University",
-    "Derived From": "",
+    "Provider": [
+        "SinaLab",
+        "Birzeit University"
+    ],
+    "Derived From": [],
     "Paper Title": "Qabas: An Open-Source Arabic Lexicographic Database",
     "Paper Link": "https://arxiv.org/abs/2406.06598",
     "Script": "Arab",
-    "Tokenized": "No",
-    "Host": "SinaLab Resources",
+    "Tokenized": false,
+    "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "language modeling, information retrieval, part of speech tagging, morphological analysis, review classification, fake news detection, irony detection",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling",
+        "information retrieval",
+        "part of speech tagging",
+        "morphological analysis",
+        "review classification",
+        "fake news detection",
+        "irony detection"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "Mustafa Jarrar, Tymaa Hammouda",
-    "Affiliations": "",
-    "Abstract": "We present Qabas, a novel open-source Arabic lexicon designed for NLP applications. The novelty of Qabas lies in its synthesis of 110 lexicons. Specifically, Qabas lexical entries (lemmas) are assembled by linking lemmas from 110 lexicons. Furthermore, Qabas lemmas are also linked to 12 morphologically annotated corpora (about 2M tokens), making it the first Arabic lexicon to be linked to lexicons and corpora. Qabas was developed semi-automatically, utilizing a mapping framework and a web-based tool. Compared with other lexicons, Qabas stands as the most extensive Arabic lexicon, encompassing about 58K lemmas (45K nominal lemmas, 12.5K verbal lemmas, and 473 functional-word lemmas). Qabas is open-source and accessible online at https://sina.birzeit.edu/qabas. ",
+    "Authors": [
+        "Mustafa Jarrar",
+        "Tymaa Hammouda"
+    ],
+    "Affiliations": [],
+    "Abstract": "We present Qabas, a novel open-source Arabic lexicon designed for NLP applications. The novelty of Qabas lies in its synthesis of 110 lexicons. Specifically, Qabas lexical entries (lemmas) are assembled by linking lemmas from 110 lexicons. Furthermore, Qabas lemmas are also linked to 12 morphologically annotated corpora (about 2M tokens), making it the first Arabic lexicon to be linked to lexicons and corpora. Qabas was developed semi-automatically, utilizing a mapping framework and a web-based tool. Compared with other lexicons, Qabas stands as the most extensive Arabic lexicon, encompassing about 58K lemmas (45K nominal lemmas, 12.5K verbal lemmas, and 473 functional-word lemmas). Qabas is open-source and accessible online at https://sina.birzeit.edu/qabas.",
     "Added By": "Tymaa Hammouda"
 }

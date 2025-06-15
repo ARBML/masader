@@ -7,30 +7,39 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": "commentary",
+    "Domain": [
+        "commentary"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "DF data was collected from the web using a manual process. SMS/Chat material was donated or collected via live platforms. CTS data was taken from LDC's Egyptian Arabic CALLHOME and CALLFRIEND telephone collections.",
-    "Volume": "",
+    "Volume": 0.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "300.00 $",
-    "Test Split": "No",
-    "Tasks": "part of speech tagging,question answering,semantic role labelling",
+    "Test Split": false,
+    "Tasks": [
+        "part of speech tagging",
+        "question answering",
+        "semantic role labelling"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

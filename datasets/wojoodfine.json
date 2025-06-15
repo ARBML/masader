@@ -7,30 +7,46 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "WojoodFine is an extension of Wojood and consists of about 550K tokens (MSA and dialect) that are manually annotated with 21 entity types and four main entity types in Wojood (GPE, LOC, ORG, and FAC) are annotated with 31 new fine-grained subtypes. It covers multiple domains and was annotated with nested entities. The corpus contains about 75K entities and 22.5% of which are nested. A nested named entity recognition (NER) model based on BERT was trained (F1-score 92.29.4%).",
-    "Volume": "550,000",
+    "Volume": 550000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "SinaLab, Birzeit University",
-    "Derived From": "",
+    "Provider": [
+        "SinaLab",
+        "Birzeit University"
+    ],
+    "Derived From": [],
     "Paper Title": "Arabic Fine-Grained Entity Recognition.",
     "Paper Link": "https://arxiv.org/abs/2310.17333",
     "Script": "Arab-Latin",
-    "Tokenized": "Yes",
-    "Host": "SinaLab Resources",
+    "Tokenized": true,
+    "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "language modeling, tokenization, named entity recognition",
+    "Test Split": true,
+    "Tasks": [
+        "language modeling",
+        "tokenization",
+        "named entity recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "Haneen Liqreina, Mustafa Jarrar, Mohammed Khalilia, Ahmed Oumar El-Shangiti, Muhammad AbdulMageed",
-    "Affiliations": "",
+    "Authors": [
+        "Haneen Liqreina",
+        "Mustafa Jarrar",
+        "Mohammed Khalilia",
+        "Ahmed Oumar El-Shangiti",
+        "Muhammad AbdulMageed"
+    ],
+    "Affiliations": [],
     "Abstract": "Traditional NER systems are typically trained to recognize coarse-grained entities, and less attention is given to classifying entities into a hierarchy of fine-grained lower-level subtypes. This article aims to advance Arabic NER with finegrained entities. We chose to extend Wojood (an open-source Nested Arabic Named Entity Corpus) with subtypes. In particular, four main entity types in Wojood, geopolitical entity (GPE), location (LOC), organization (ORG), and facility (FAC), are extended with 31 subtypes. To do this, we first revised Wojood\u2019s annotations of GPE, LOC, ORG, and FAC to be compatible with the LDC\u2019s ACE guidelines, which yielded 5, 614 changes. Second, all mentions of GPE, LOC, ORG, and FAC (\u223c 44K) in Wojood are manually annotated with the LDC\u2019s ACE subtypes. We refer to this extended version of Wojood as WojoodFine. To evaluate our annotations, we measured the inter-annotator agreement (IAA) using both Cohen\u2019s Kappa and F1 score, resulting in 0.9861 and 0.9889, respectively. To compute the baselines of WojoodFine, we finetune three pre-trained Arabic BERT encoders in three settings: flat NER, nested NER and nested NER with subtypes and achieved F1 score of 0.920, 0.866, and 0.885, respectively.",
     "Added By": "Tymaa Hammouda"
 }

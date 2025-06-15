@@ -7,30 +7,55 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "check-worthiness datasets",
-    "Volume": "7,500",
+    "Volume": 7500.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "Overview of CheckThat! 2020 Arabic:",
     "Paper Link": "http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2020/paper_257.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "claim verification",
+    "Test Split": true,
+    "Tasks": [
+        "claim verification"
+    ],
     "Venue Title": "CLEF",
-    "Citations": "9.0",
     "Venue Type": "conference",
     "Venue Name": "Conference and Labs of the Evaluation Forum",
-    "Authors": "Maram Hasanain,Fatima Haouari,Reem Suwaileh,Zien Sheikh Ali,Bayan Hamdan,Tamer Elsayed,Alberto Barr\u00f3n-Cede\u00f1o,Giovanni Da San Martino,Preslav Nakov",
-    "Affiliations": ",,,,,,,Qatar Computing Research Institute,",
+    "Authors": [
+        "Maram Hasanain",
+        "Fatima Haouari",
+        "Reem Suwaileh",
+        "Zien Sheikh Ali",
+        "Bayan Hamdan",
+        "Tamer Elsayed",
+        "Alberto Barr\u00f3n-Cede\u00f1o",
+        "Giovanni Da San Martino",
+        "Preslav Nakov"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Qatar Computing Research Institute",
+        ""
+    ],
     "Abstract": "In this paper, we make freely accessible ANETAC1 our English-Arabic named entity transliteration and\r\nclassification dataset that we built from freely available parallel translation corpora. The dataset contains\r\n79, 924 instances, each instance is a triplet (e, a, c), where e is the English named entity, a is its Arabic\r\ntransliteration and c is its class that can be either a Person, a Location, or an Organization. The ANETAC\r\ndataset is mainly aimed for the researchers that are working on Arabic named entity transliteration, but it can\r\nalso be used for named entity classification purposes. This dataset was developed and used as part of a previous\r\nresearch study done by Hadj Ameur et al.",
     "Added By": ""
 }

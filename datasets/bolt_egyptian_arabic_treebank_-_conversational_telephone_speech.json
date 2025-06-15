@@ -7,30 +7,38 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "This release contains 153,171 tokens before clitics were split and 182,965 tree tokens after clitics were split for treebank annotation. The source data was selected from conversational telephone speech collected by LDC for the CALLHOME project that was transcribed and segmented into sentence units.",
-    "Volume": "153,171",
+    "Volume": 153171.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": "No",
-    "Tasks": "information retrieval,machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval",
+        "machine translation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

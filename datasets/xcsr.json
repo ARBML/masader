@@ -4,13 +4,13 @@
         {
             "Name": "X-CSQA",
             "Dialect": "Classical Arabic",
-            "Volume": "2,074",
+            "Volume": 2074.0,
             "Unit": "sentences"
         },
         {
             "Name": "X-CODAH:",
             "Dialect": "Classical Arabic",
-            "Volume": "1,300",
+            "Volume": 1300.0,
             "Unit": "sentences"
         }
     ],
@@ -20,30 +20,44 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "human annotation",
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "To evaluate multi-lingual language models (ML-LMs) for commonsense reasoning in a cross-lingual zero-shot transfer setting (X-CSR)",
-    "Volume": "3,374",
+    "Volume": 3374.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "University of Southern California",
-    "Derived From": "",
+    "Provider": [
+        "University of Southern California"
+    ],
+    "Derived From": [],
     "Paper Title": "Common Sense Beyond English: Evaluating and Improving Multilingual Language Models for Commonsense Reasoning",
     "Paper Link": "https://aclanthology.org/2021.acl-long.102.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "commonsense reasoning",
+    "Test Split": true,
+    "Tasks": [
+        "commonsense reasoning"
+    ],
     "Venue Title": "ACL",
-    "Citations": "13.0",
     "Venue Type": "conference",
     "Venue Name": "Associations of computation linguistics",
-    "Authors": "Bill Yuchen Lin, Seyeon Lee, Xiaoyang Qiao, Xiang Ren",
-    "Affiliations": "University of Southern California",
+    "Authors": [
+        "Bill Yuchen Lin",
+        "Seyeon Lee",
+        "Xiaoyang Qiao",
+        "Xiang Ren"
+    ],
+    "Affiliations": [
+        "University of Southern California"
+    ],
     "Abstract": "Commonsense reasoning research has so far been limited to English. We aim to evaluate and improve popular multilingual language models (ML-LMs) to help advance commonsense reasoning (CSR) beyond English. We collect the Mickey corpus, consisting of 561k sentences in 11 different languages, which can be used for analyzing and improving ML-LMs. We propose Mickey Probe, a language-general probing task for fairly evaluating the common sense of popular ML-LMs across different languages. In addition, we also create two new datasets, X-CSQA and X-CODAH, by translating their English versions to 14 other languages, so that we can evaluate popular ML-LMs for cross-lingual commonsense reasoning. To improve the performance beyond English, we propose a simple yet effective method \u2014 multilingual contrastive pretraining (MCP). It significantly enhances sentence representations, yielding a large performance gain on both benchmarks (e.g., +2.7% accuracy for X-CSQA over XLM-R_L).",
     "Added By": "Khalid N. Elmadani"
 }

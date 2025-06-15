@@ -7,30 +7,50 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
-    "Description": " public Web crawl of 150,211,934 Arabic Web pages with high coverage of dialectal Arabic as well as Modern Standard Arabic (MSA)",
-    "Volume": "150,211,934",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "public Web crawl of 150,211,934 Arabic Web pages with high coverage of dialectal Arabic as well as Modern Standard Arabic (MSA)",
+    "Volume": 150211934.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Qatar University",
-    "Derived From": "",
-    "Paper Title": "ArabicWeb16: A New Crawl for Today\u2019s Arabic Web\r",
+    "Provider": [
+        "Qatar University"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArabicWeb16: A New Crawl for Today\u2019s Arabic Web",
     "Paper Link": "https://www.ischool.utexas.edu/~ml/papers/sigir16-arabicweb.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
-    "Host": "google sites",
+    "Tokenized": false,
+    "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "text generation, language modeling",
+    "Test Split": false,
+    "Tasks": [
+        "text generation",
+        "language modeling"
+    ],
     "Venue Title": "SIGIR",
-    "Citations": "12.0",
     "Venue Type": "conference",
     "Venue Name": "ACM SIGIR Conference on Research and Development in Information Retrieval",
-    "Authors": "Reem Suwaileh,Mucahid Kutlu,Nihal Fathima,T. Elsayed,Matthew Lease",
-    "Affiliations": ",TOBB University of Economics and Technology,,,",
+    "Authors": [
+        "Reem Suwaileh",
+        "Mucahid Kutlu",
+        "Nihal Fathima",
+        "T. Elsayed",
+        "Matthew Lease"
+    ],
+    "Affiliations": [
+        "",
+        "TOBB University of Economics and Technology",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Web crawls provide valuable snapshots of the Web which enable a wide variety of research, be it distributional analysis to characterize Web properties or use of language, content analysis in social science, or Information Retrieval (IR) research to develop and evaluate effective search algorithms. While many English-centric Web crawls exist, existing public Arabic Web crawls are quite limited, limiting research and development. To remedy this, we present ArabicWeb16, a new public Web crawl of roughly 150M Arabic Web pages with significant coverage of dialectal Arabic as well as Modern Standard Arabic. For IR researchers, we expect ArabicWeb16 to support various research areas: ad-hoc search, question answering, filtering, cross-dialect search, dialect detection, entity search, blog search, and spam detection. Combined use with a separate Arabic Twitter dataset we are also collecting may provide further value.",
     "Added By": ""
 }

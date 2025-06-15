@@ -7,30 +7,44 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "The Arabic Parallel Gender Corpus v2.0 (APGC v2.0) is designed to support research on gender bias and personalization in natural language processing applications working on Arabic. It expands on Habash et al. (2019)\u2019s Arabic Parallel Gender Corpus (APGC v1.0) by adding 2nd person targets as well increasing the total number of sentences over 6.5 times, reaching over 590K words.",
-    "Volume": "80,326",
+    "Volume": 80326.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "NYU Abu Dhabi",
-    "Derived From": "APGC v1.0",
+    "Provider": [
+        "NYU Abu Dhabi"
+    ],
+    "Derived From": [
+        "APGC v1.0"
+    ],
     "Paper Title": "The Arabic Parallel Gender Corpus 2.0: Extensions and Analyses",
     "Paper Link": "https://arxiv.org/pdf/2110.09216.pdf",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "gender identification",
+    "Test Split": true,
+    "Tasks": [
+        "gender identification"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Bashar Alhafni and Nizar Habash and Houda Bouamor.",
-    "Affiliations": "New York University Abu Dhabi, Carnegie Mellon University in Qatar",
+    "Authors": [
+        "Bashar Alhafni and Nizar Habash and Houda Bouamor."
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi",
+        "Carnegie Mellon University in Qatar"
+    ],
     "Abstract": "Gender bias in natural language processing (NLP) applications, particularly machine translation, has been receiving increasing attention. Much of the research on this issue has focused on mitigating gender bias in English NLP models and systems. Addressing the problem in poorly resourced, and/or morphologically rich languages has lagged behind, largely due to the lack of datasets and resources. In this paper, we introduce a new corpus for gender identification and rewriting in contexts involving one or two target users (I and/or You) -- first and second grammatical persons with independent grammatical gender preferences. We focus on Arabic, a gender-marking morphologically rich language. The corpus has multiple parallel components: four combinations of 1st and 2nd person in feminine and masculine grammatical genders, as well as English, and English to Arabic machine translation output. This corpus expands on Habash et al. (2019)'s Arabic Parallel Gender Corpus (APGC v1.0) by adding second person targets as well as increasing the total number of sentences over 6.5 times, reaching over 590K words. Our new dataset will aid the research and development of gender identification, controlled text generation, and post-editing rewrite systems that could be used to personalize NLP applications and provide users with the correct outputs based on their grammatical gender preferences. We make the Arabic Parallel Gender Corpus (APGC v2.0) publicly available.",
     "Added By": "Bashar Alhafni"
 }

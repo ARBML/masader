@@ -7,30 +7,37 @@
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
-    "Description": "The transcript files are in plain-text, tab-delimited format (TDF) with UTF-8 encoding, and the transcribed data totals 752,747 tokens. The transcripts were created with the LDC-developed transcription tool, XTrans, a multi-platform, multilingual, multi-channel transcription tool that supports manual transcription and annotation of audio recordings. XTrans is available from the following link, http://www.ldc.upenn.edu/tools/XTrans/downloads/. ",
-    "Volume": "752,747",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "The transcript files are in plain-text, tab-delimited format (TDF) with UTF-8 encoding, and the transcribed data totals 752,747 tokens. The transcripts were created with the LDC-developed transcription tool, XTrans, a multi-platform, multilingual, multi-channel transcription tool that supports manual transcription and annotation of audio recordings. XTrans is available from the following link, http://www.ldc.upenn.edu/tools/XTrans/downloads/.",
+    "Volume": 752747.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,500.00 $",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

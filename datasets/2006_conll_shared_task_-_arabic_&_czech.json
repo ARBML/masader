@@ -7,30 +7,39 @@
     "Year": 2006,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "2006 CoNLL Shared Task - Arabic & Czech consists of Arabic and Czech dependency treebanks used as part of the CoNLL 2006 shared task on multi-lingual dependency parsing.",
-    "Volume": "",
+    "Volume": 0.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "PADT",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [
+        "PADT"
+    ],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "syntactic parsing",
+    "Test Split": false,
+    "Tasks": [
+        "syntactic parsing"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

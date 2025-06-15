@@ -7,30 +7,50 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "a list of 3880 positive and negative synsets annotated with their part of speech, polarity scores, dialects synsets and inflected forms",
-    "Volume": "3,880",
+    "Volume": 3880.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "Arabic senti-lexicon: Constructing publicly available language resources for Arabic sentiment analysis",
     "Paper Link": "https://journals.sagepub.com/doi/full/10.1177/0165551516683909",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "part of speech tagging, sentiment analysis",
+    "Test Split": false,
+    "Tasks": [
+        "part of speech tagging",
+        "sentiment analysis"
+    ],
     "Venue Title": "JIS",
-    "Citations": "54.0",
     "Venue Type": "journal",
     "Venue Name": "Journal of Information Science",
-    "Authors": "Tareq Al-Moslmi,M. Albared,Adel Al-Shabi,N. Omar,S. Abdullah",
-    "Affiliations": ",,,,",
+    "Authors": [
+        "Tareq Al-Moslmi",
+        "M. Albared",
+        "Adel Al-Shabi",
+        "N. Omar",
+        "S. Abdullah"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Sentiment analysis is held to be one of the highly dynamic recent research fields in Natural Language Processing, facilitated by the quickly growing volume of Web opinion data. Most of the approaches in this field are focused on English due to the lack of sentiment resources in other languages such as the Arabic language and its large variety of dialects. In most sentiment analysis applications, good sentiment resources play a critical role. Based on that, in this article, several publicly available sentiment analysis resources for Arabic are introduced. This article introduces the Arabic senti-lexicon, a list of 3880 positive and negative synsets annotated with their part of speech, polarity scores, dialects synsets and inflected forms. This article also presents a Multi-domain Arabic Sentiment Corpus (MASC) with a size of 8860 positive and negative reviews from different domains. In this article, an in-depth study has been conducted on five types of feature sets for exploiting effective features and investigating their effect on performance of Arabic sentiment analysis. The aim is to assess the quality of the developed language resources and to integrate different feature sets and classification algorithms to synthesise a more accurate sentiment analysis method. The Arabic senti-lexicon is used for generating feature vectors. Five well-known machine learning algorithms: na\u00efve Bayes, k-nearest neighbours, support vector machines (SVMs), logistic linear regression and neural network are employed as base-classifiers for each of the feature sets. A wide range of comparative experiments on standard Arabic data sets were conducted, discussion is presented and conclusions are drawn. The experimental results show that the Arabic senti-lexicon is a very useful resource for Arabic sentiment analysis. Moreover, results show that classifiers which are trained on feature vectors derived from the corpus using the Arabic sentiment lexicon are more accurate than classifiers trained using the raw corpus.",
     "Added By": "Zaid Alyafeai"
 }

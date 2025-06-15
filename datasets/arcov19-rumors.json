@@ -7,30 +7,37 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The first Arabic dataset for rumors verification in Twitter",
-    "Volume": "9,414",
+    "Volume": 9414.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": " Qatar University\r",
-    "Derived From": "",
+    "Provider": [
+        "Qatar University"
+    ],
+    "Derived From": [],
     "Paper Title": "ArCOV19-Rumors: Arabic COVID-19 Twitter Dataset for Misinformation Detection",
     "Paper Link": "https://aclanthology.org/2021.wanlp-1.8.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "fact checking",
+    "Test Split": false,
+    "Tasks": [
+        "fact checking"
+    ],
     "Venue Title": "WANLP",
-    "Citations": "",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Fatima Haouari"
 }

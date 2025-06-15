@@ -7,30 +7,51 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "a crawl of 355M Arabic tweets and covers 50 significant events",
-    "Volume": "3,550,000",
+    "Volume": 3550000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Qatar University",
-    "Derived From": "",
+    "Provider": [
+        "Qatar University"
+    ],
+    "Derived From": [],
     "Paper Title": "building a large-scale multi-task test collection over Arabic tweets",
     "Paper Link": "https://link.springer.com/article/10.1007/s10791-017-9325-7",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "event detection, event detection, summarization",
+    "Test Split": false,
+    "Tasks": [
+        "event detection",
+        "event detection",
+        "summarization"
+    ],
     "Venue Title": "IRJ",
-    "Citations": "10.0",
     "Venue Type": "journal",
     "Venue Name": "Information Retrieval Journal",
-    "Authors": "Maram Hasanain,Reem Suwaileh,T. Elsayed,Mucahid Kutlu,H. Almerekhi",
-    "Affiliations": ",,,TOBB University of Economics and Technology,",
+    "Authors": [
+        "Maram Hasanain",
+        "Reem Suwaileh",
+        "T. Elsayed",
+        "Mucahid Kutlu",
+        "H. Almerekhi"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        "TOBB University of Economics and Technology",
+        ""
+    ],
     "Abstract": "This article introduces a new language-independent approach for creating a large-scale high-quality test collection of tweets that supports multiple information retrieval (IR) tasks without running a shared-task campaign. The adopted approach (demonstrated over Arabic tweets) designs the collection around significant (i.e., popular) events, which enables the development of topics that represent frequent information needs of Twitter users for which rich content exists. That inherently facilitates the support of multiple tasks that generally revolve around events, namely event detection, ad-hoc search, timeline generation, and real-time summarization. The key highlights of the approach include diversifying the judgment pool via interactive search and multiple manually-crafted queries per topic, collecting high-quality annotations via crowd-workers for relevancy and in-house annotators for novelty, filtering out low-agreement topics and inaccessible tweets, and providing multiple subsets of the collection for better availability. Applying our methodology on Arabic tweets resulted in EveTAR, the first freely-available tweet test collection for multiple IR tasks. EveTAR includes a crawl of 355M Arabic tweets and covers 50 significant events for which about 62K tweets were judged with substantial average inter-annotator agreement (Kappa value of 0.71). We demonstrate the usability of EveTAR by evaluating existing algorithms in the respective tasks. Results indicate that the new collection can support reliable ranking of IR systems that is comparable to similar TREC collections, while providing strong baseline results for future studies over Arabic tweets.",
     "Added By": "Zaid Alyafeai"
 }

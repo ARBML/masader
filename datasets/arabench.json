@@ -7,30 +7,53 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "an evaluation suite for dialectal Arabic to English machine translation",
-    "Volume": "947,000",
+    "Volume": 947000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "QCRI",
-    "Derived From": "contains data from APT, MDC, MADAR, QCA(QAraC, the bible)",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "contains data from APT",
+        "MDC",
+        "MADAR",
+        "QCA(QAraC",
+        "the bible)"
+    ],
     "Paper Title": "AraBench: Benchmarking Dialectal Arabic-English Machine Translation",
     "Paper Link": "https://aclanthology.org/2020.coling-main.447.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "machine translation",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "COLING",
-    "Citations": "1.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Computational Linguistics",
-    "Authors": "Hassan Sajjad,Ahmed Abdelali,Nadir Durrani,Fahim Dalvi",
-    "Affiliations": ",,Qatar Computing Research Institute,",
+    "Authors": [
+        "Hassan Sajjad",
+        "Ahmed Abdelali",
+        "Nadir Durrani",
+        "Fahim Dalvi"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "Qatar Computing Research Institute",
+        ""
+    ],
     "Abstract": "Low-resource machine translation suffers from the scarcity of training data and the unavailability of standard evaluation sets. While a number of research efforts target the former, the unavailability of evaluation benchmarks remain a major hindrance in tracking the progress in low-resource machine translation. In this paper, we introduce AraBench, an evaluation suite for dialectal Arabic to English machine translation. Compared to Modern Standard Arabic, Arabic dialects are challenging due to their spoken nature, non-standard orthography, and a large variation in dialectness. To this end, we pool together already available Dialectal Arabic-English resources and additionally build novel test sets. AraBench offers 4 coarse, 15 fine-grained and 25 city-level dialect categories, belonging to diverse genres, such as media, chat, religion and travel with varying level of dialectness. We report strong baselines using several training settings: fine-tuning, back-translation and data augmentation. The evaluation suite opens a wide range of research frontiers to push efforts in low-resource machine translation, particularly Arabic dialect translation. The evaluation suite and the dialectal system are publicly available for research purposes.",
     "Added By": ""
 }

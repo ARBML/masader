@@ -7,30 +7,38 @@
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Data is presented either as mp3 or flac compressed wav and are 16-bit single channel files in either 22,050 or 8,000 Hz organized by committee and session number, then language. The folder labeled \"Floor\" indicates the microphone used by the particular speaker. Those files may include other languages, for instance, if the speaker's language was not among the six official UN languages.",
-    "Volume": "8,500",
+    "Volume": 8500.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "5,000.00 $",
-    "Test Split": "No",
-    "Tasks": "speech recognition,language identification",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition",
+        "language identification"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

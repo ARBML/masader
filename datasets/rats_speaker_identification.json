@@ -7,30 +7,37 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Levant",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "spoken",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The source audio consists of conversational telephone speech recordings collected by LDC specifically for the RATS program from Levantine Arabic, Pashto, Urdu, Farsi and Dari native speakers. Annotations on the audio files include start time, end time, speech activity detection (SAD) label, SAD provenance, speaker ID, speaker ID provenance, language ID, and language ID provenance.",
-    "Volume": "1,900",
+    "Volume": 1900.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "7,500.00 $",
-    "Test Split": "No",
-    "Tasks": "speaker identification",
+    "Test Split": false,
+    "Tasks": [
+        "speaker identification"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

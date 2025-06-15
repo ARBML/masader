@@ -7,30 +7,37 @@
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": "web pages",
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "There are currently 2,874 texts in the corpus, comprising 1,088,614 words. The top categories currently included are displayed below. As you can see, the internet sources are currently dominant",
-    "Volume": "2,874",
+    "Volume": 2874.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "Tunisian Arabic Corpus: Creating a written corpus of an \" unwritten \" language",
     "Paper Link": "https://www.academia.edu/28966672/Tunisian_Arabic_Corpus_Creating_a_written_corpus_of_an_unwritten_language",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "morphological analysis",
+    "Test Split": false,
+    "Tasks": [
+        "morphological analysis"
+    ],
     "Venue Title": "",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Karen McNeil",
-    "Affiliations": "",
+    "Authors": [
+        "Karen McNeil"
+    ],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,30 +7,37 @@
     "Year": 2012,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "This release contains 432,976 source tokens before clitics were split, and 517,080 tree tokens after clitics were separated for treebank annotation. The source materials are Arabic broadcast news stories collected by LDC during the period 2005-2008 from the following sources: Abu Dhabi TV, Al Alam News Channel, Al Arabiya, Al Baghdadya TV, Al Fayha, Alhurra, Al Iraqiyah, Aljazeera, Al Ordiniyah, Al Sharqiyah, Dubai TV, Kuwait TV, Lebanese Broadcasting Corp., Oman TV, Radio Sawa, Saudi TV and Syria TV. The transcripts were produced by LDC.",
-    "Volume": "432,976",
+    "Volume": 432976.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "4,500.00 $",
-    "Test Split": "No",
-    "Tasks": "information retrieval",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
