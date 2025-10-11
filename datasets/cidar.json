@@ -1,7 +1,7 @@
 {
     "Name": "CIDAR",
     "Subsets": [],
-    "HF_Link": "https://hf.co/datasets/arbml/CIDAR",
+    "HF Link": "https://hf.co/datasets/arbml/CIDAR",
     "Link": "https://hf.co/datasets/arbml/CIDAR",
     "License": "CC BY-NC 4.0",
     "Year": 2024,
@@ -12,58 +12,40 @@
         "LLM"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "machine annotation",
         "human annotation"
     ],
     "Description": "CIDAR is a culturally-aligned Arabic instruction-tuning dataset containing 10K instruction-output pairs, created to address Western cultural biases.",
     "Volume": 10000.0,
     "Unit": "sentences",
-    "Ethical_Risks": "Low",
+    "Ethical Risks": "Low",
     "Provider": [
         "King Fahd University of Petroleum and Minerals"
     ],
-    "Derived_From": [
-        "ALPAGASUS",
-        "Ask the Teacher"
-    ],
-    "Paper_Title": "CIDAR: Culturally Relevant Instruction Dataset For Arabic",
-    "Paper_Link": "https://arxiv.org/pdf/2504.21677",
+    "Derived From": [],
+    "Paper Title": "CIDAR: Culturally Relevant Instruction Dataset For Arabic",
+    "Paper Link": "https://arxiv.org/pdf/2504.21677",
     "Script": "Arab-Latin",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
         "instruction tuning"
     ],
-    "Venue_Title": "arXiv",
-    "Venue_Type": "preprint",
-    "Venue_Name": "arXiv",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Zaid Alyafeai",
-        "Khalid Almubarak",
-        "Ahmed Ashraf",
-        "Deema Alnuhait",
-        "Saied Alshahrani",
-        "Gubran A. Q. Abdulrahman",
-        "Gamil Ahmed",
-        "Qais Gawah",
-        "Zead Saleh",
+        "Maged S Al-shaibani",
         "Mustafa Ghaleb",
-        "Yousef Ali",
-        "Maged S. Al-Shaibani"
+        "Yousif Ahmed Al-Wajih"
     ],
     "Affiliations": [
-        "King Fahd University of Petroleum and Minerals",
-        "Prince Sattam bin Abdulaziz University",
-        "ARBML",
-        "University of Illinois Urbana-Champaign",
-        "Clarkson University",
-        "University of Bisha",
-        "Interdisciplinary Research Center for Smart Mobility and Logistics",
-        "Interdisciplinary Research Center for Intelligent Secure Systems"
+        "King Fahd University of Petroleum and Minerals"
     ],
     "Abstract": "CIDAR is introduced as the first open Arabic instruction-tuning dataset that is culturally aligned by human reviewers. It contains 10,000 instruction-output pairs focused on the Arab region, addressing the biases present in English-dominated datasets. The dataset is derived from ALPAGASUS and curated to reflect Arabic cultural nuances, offering a valuable resource for fine-tuning LLMs to align with Arabic culture."
 }
