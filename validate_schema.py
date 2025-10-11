@@ -2,16 +2,18 @@ import json
 import requests
 import re
 import os
-url = "https://raw.githubusercontent.com/zaidalyafeai/MOLE/refs/heads/main/schema/ar.json"
+url = "http://localhost:8000/schema"
 from collections import Counter
-# response = requests.get(url)
-# schema = response.json()
+schema = requests.post(url, data={"name": "ar"}).json()
+schema = json.loads(schema)
+open("schema.json", "w").write(json.dumps(schema, indent=4))
+# replace '_' in schema keys with ' '
+schema = {k.replace('_', ' '): v for k, v in schema.items()}
 tasks = []
-schema = json.load(open("schema.json"))
 # print(json_data)
 data_types = {c:schema[c]['answer_type'] for c in schema}
 options = {c:schema[c]['options'] for c in schema if 'options' in schema[c]}
-
+# print(options)
 def validate_url(url):
     # regex validation 
     return url.startswith("http") or url.startswith("mailto")
@@ -28,16 +30,17 @@ def cast_data(data):
 def validate_options(data):
     for key, value in data.items():
         if key in options:
-            if data_types[key] == "List[str]":
+            if data_types[key] == "list[str]":
                 
                 for item in value:
                     if item not in options[key]:
                         print(f"Invalid item: {item} for {key}")
+                        print(options[key])
                         if key == "Tasks":
                             tasks.append(item)
             elif data_types[key] == "str":
                 if value not in options[key]:
-                    # print(f"Invalid option: {value} for {key}")
+                    print(f"Invalid option: {value} for {key}")
                     data[key] = options[key][0]
     return data
 
@@ -51,14 +54,14 @@ def cast_type(value, type):
             return value
         else:
             raise ValueError(f"Invalid URL: {value}")
-    elif type == "List[str]":
+    elif type == "list[str]":
        if isinstance(value, str):
            if value.strip() == "":
                return []
            return [item.strip() for item in value.split(",")]
        else:
            return value
-    elif "List[Dict" in type:
+    elif "list[dict" in type:
         for d in value:
             for k,v in d.items():
                 if k in data_types:
@@ -68,11 +71,10 @@ def cast_type(value, type):
                             print(f"Invalid option: {d[k]} for {k}")
                 else:
                     raise ValueError(f"Invalid key: {k}")
-        print(value)
         return value
     elif type == "str":
         return str(value).strip()
-    elif type == "date[year]":
+    elif type == "year":
         try:
             value = str(value).strip()
             return int(value)
@@ -87,10 +89,10 @@ def cast_type(value, type):
             return 0.0
         return float(value)
     elif type == "bool":
-        value = str(value).strip()
-        if value == "Yes":
+        value = str(value).strip().lower()
+        if value == "yes" or value == "true":
             return True
-        elif value == "No":
+        elif value == "no" or value == "false":
             return False
         else:
             try:
