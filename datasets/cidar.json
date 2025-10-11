@@ -21,7 +21,8 @@
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
-        "King Fahd University of Petroleum and Minerals"
+        "Nara Institute of Science and Technology",
+        "CyberAgent Inc."
     ],
     "Derived From": [],
     "Paper Title": "CIDAR: Culturally Relevant Instruction Dataset For Arabic",
@@ -39,13 +40,16 @@
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
     "Authors": [
-        "Zaid Alyafeai",
-        "Maged S Al-shaibani",
-        "Mustafa Ghaleb",
-        "Yousif Ahmed Al-Wajih"
+        "Yusuke Ide",
+        "Masato Mita",
+        "Adam Nohejl",
+        "Hiroki Ouchi",
+        "Taro Watanabe"
     ],
     "Affiliations": [
-        "King Fahd University of Petroleum and Minerals"
+        "Nara Institute of Science and Technology",
+        "CyberAgent Inc.",
+        "RIKEN"
     ],
     "Abstract": "CIDAR is introduced as the first open Arabic instruction-tuning dataset that is culturally aligned by human reviewers. It contains 10,000 instruction-output pairs focused on the Arab region, addressing the biases present in English-dominated datasets. The dataset is derived from ALPAGASUS and curated to reflect Arabic cultural nuances, offering a valuable resource for fine-tuning LLMs to align with Arabic culture."
 }
