@@ -31,7 +31,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "embedding"
+        "embedding evaluation"
     ],
     "Venue Title": "ArabicNLP 2023",
     "Venue Type": "conference",

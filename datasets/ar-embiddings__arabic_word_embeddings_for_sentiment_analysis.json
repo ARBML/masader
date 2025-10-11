@@ -38,7 +38,7 @@
     "Test Split": true,
     "Tasks": [
         "sentiment analysis",
-        "embedding"
+        "embedding evaluation"
     ],
     "Venue Title": "Big Data",
     "Venue Type": "conference",

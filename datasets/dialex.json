@@ -62,7 +62,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "embedding"
+        "embedding evaluation"
     ],
     "Venue Title": "WANLP",
     "Venue Type": "workshop",

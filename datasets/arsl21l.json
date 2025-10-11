@@ -31,7 +31,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "sign language detection"
+        "sign language recognition"
     ],
     "Venue Title": "EDUCON",
     "Venue Type": "conference",

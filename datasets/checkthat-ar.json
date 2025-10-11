@@ -29,7 +29,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "claim verification"
+        "fact checking"
     ],
     "Venue Title": "CLEF",
     "Venue Type": "conference",

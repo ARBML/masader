@@ -39,7 +39,7 @@
     "Test Split": true,
     "Tasks": [
         "stance detection",
-        "claim verification"
+        "fact checking"
     ],
     "Venue Title": "FEVER",
     "Venue Type": "workshop",

@@ -32,7 +32,7 @@
     "Test Split": false,
     "Tasks": [
         "topic classification",
-        "claim verification"
+        "fact checking"
     ],
     "Venue Title": "WANLP",
     "Venue Type": "workshop",

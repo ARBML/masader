@@ -10,7 +10,7 @@
     "Domain": [
         "other"
     ],
-    "Form": "spoken",
+    "Form": "audio",
     "Collection Style": [
         "other"
     ],
@@ -33,7 +33,7 @@
     "Tasks": [
         "speaker identification",
         "speech recognition",
-        "dialouge generation"
+        "dialogue generation"
     ],
     "Venue Title": "",
     "Venue Type": "conference",
