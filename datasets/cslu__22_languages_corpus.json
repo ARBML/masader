@@ -7,30 +7,37 @@
     "Year": 2002,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "other",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Produced by Center for Spoken Language Understanding and distributed by the Linguistic Data Consortium, the 22 Languages corpus consists of telephone speech from 21 languages: Eastern Arabic, Cantonese, Czech, Farsi, German, Hindi, Hungarian, Japanese, Korean, Malay, Mandarin, Italian, Polish, Portuguese, Russian, Spanish, Swedish, Swahili, Tamil, Vietnamese, and English. The corpus contains fixed vocabulary utterances (e.g. days of the week) as well as fluent continuous speech. Each of the 50,191 utterances is verified by a native speaker to determine if the caller followed instructions when answering the prompts. For this release, approximately 19,758 utterances have corresponding orthographic transcriptions in all the above languages except Eastern Arabic, Farsi, Korean, Russian, Italian.",
-    "Volume": "84",
+    "Volume": 84.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "150.00 $",
-    "Test Split": "No",
-    "Tasks": "speech recognition ",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

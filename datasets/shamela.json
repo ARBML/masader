@@ -7,30 +7,52 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": "books",
+    "Domain": [
+        "books"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "a large-scale, historical corpus of Arabic of about 1 billion\r\nwords from diverse periods of time",
-    "Volume": "6,100",
+    "Volume": 6100.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions ",
-    "Derived From": "OpenITI",
-    "Paper Title": "Shamela: A Large-Scale Historical Arabic Corpus\r",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [
+        "OpenITI"
+    ],
+    "Paper Title": "Shamela: A Large-Scale Historical Arabic Corpus",
     "Paper Link": "https://arxiv.org/pdf/1612.08989.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "text generation, language modeling",
+    "Test Split": false,
+    "Tasks": [
+        "text generation",
+        "language modeling"
+    ],
     "Venue Title": "LT4DH",
-    "Citations": "9.0",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Language Technology Resources and Tools for Digital Humanities",
-    "Authors": "Yonatan Belinkov,Alexander Magidow,Maxim Romanov,Avi Shmidman,Moshe Koppel",
-    "Affiliations": ",,,,",
+    "Authors": [
+        "Yonatan Belinkov",
+        "Alexander Magidow",
+        "Maxim Romanov",
+        "Avi Shmidman",
+        "Moshe Koppel"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Arabic is a widely-spoken language with a rich and long history spanning more than fourteen centuries. Yet existing Arabic corpora largely focus on the modern period or lack sufficient diachronic information. We develop a large-scale, historical corpus of Arabic of about 1 billion words from diverse periods of time. We clean this corpus, process it with a morphological analyzer, and enhance it by detecting parallel passages and automatically dating undated texts. We demonstrate its utility with selected case-studies in which we show its application to the digital humanities.",
     "Added By": "Zaid Alyafeai"
 }

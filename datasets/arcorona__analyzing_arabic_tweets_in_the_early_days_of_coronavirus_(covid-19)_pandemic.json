@@ -7,30 +7,42 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Collected to prevent\r\nspreading of rumors and misinformation about\r\nthe virus or bad cures",
-    "Volume": "8,000",
+    "Volume": 8000.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "QCRI",
-    "Derived From": "",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
     "Paper Title": "ArCorona: Analyzing Arabic Tweets in the Early Days of Coronavirus (COVID-19) Pandemic",
     "Paper Link": "https://arxiv.org/abs/2012.01462",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "misinformation detection",
+    "Test Split": false,
+    "Tasks": [
+        "misinformation detection"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "7.0",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Hamdy Mubarak, Sabit Hassan",
-    "Affiliations": "Qatar Computing Research Institute",
+    "Authors": [
+        "Hamdy Mubarak",
+        "Sabit Hassan"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute"
+    ],
     "Abstract": "Over the past few months, there were huge numbers of circulating tweets and discussions about Coronavirus (COVID-19) in the Arab region. It is important for policy makers and many people to identify types of shared tweets to better understand public behavior, topics of interest, requests from governments, sources of tweets, etc. It is also crucial to prevent spreading of rumors and misinformation about the virus or bad cures. To this end, we present the largest manually annotated dataset of Arabic tweets related to COVID-19. We describe annotation guidelines, analyze our dataset and build effective machine learning and transformer based models for classification.",
     "Added By": "Abdelrahman Kaseb"
 }

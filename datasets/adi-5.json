@@ -4,31 +4,31 @@
         {
             "Name": "Egyptian",
             "Dialect": "Egypt",
-            "Volume": "14.4",
+            "Volume": 14.4,
             "Unit": "hours"
         },
         {
             "Name": "Gulf",
             "Dialect": "Gulf",
-            "Volume": "14.1",
+            "Volume": 14.1,
             "Unit": "hours"
         },
         {
             "Name": "Levantine",
             "Dialect": "Levant",
-            "Volume": "14.3",
+            "Volume": 14.3,
             "Unit": "hours"
         },
         {
             "Name": "MSA",
             "Dialect": "Modern Standard Arabic",
-            "Volume": "14.3",
+            "Volume": 14.3,
             "Unit": "hours"
         },
         {
             "Name": "North African",
             "Dialect": "North Africa",
-            "Volume": "14.6",
+            "Volume": 14.6,
             "Unit": "hours"
         }
     ],
@@ -38,30 +38,55 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "crawling",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "This will be divided across the five major Arabic dialects; Egyptian (EGY), Levantine (LAV), Gulf (GLF), North African (NOR), and Modern Standard Arabic (MSA)",
-    "Volume": "50",
+    "Volume": 50.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "QCRI",
-    "Derived From": "",
-    "Paper Title": "Automatic Dialect Detection in Arabic Broadcast Speech\r",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
+    "Paper Title": "Automatic Dialect Detection in Arabic Broadcast Speech",
     "Paper Link": "https://arxiv.org/pdf/1509.06928.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "dialect identification",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "INTERSPEECH",
-    "Citations": "93.0",
     "Venue Type": "conference",
     "Venue Name": "Conference of the International Speech Communication Association",
-    "Authors": "A. Ali,Najim Dehak,P. Cardinal,Sameer Khurana,S. Yella,James R. Glass,P. Bell,S. Renals",
-    "Affiliations": ",,,,,,,",
+    "Authors": [
+        "A. Ali",
+        "Najim Dehak",
+        "P. Cardinal",
+        "Sameer Khurana",
+        "S. Yella",
+        "James R. Glass",
+        "P. Bell",
+        "S. Renals"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "We investigate different approaches for dialect identification in Arabic broadcast speech, using phonetic, lexical features obtained from a speech recognition system, and acoustic features using the i-vector framework. We studied both generative and discriminate classifiers, and we combined these features using a multi-class Support Vector Machine (SVM). We validated our results on an Arabic/English language identification task, with an accuracy of 100%. We used these features in a binary classifier to discriminate between Modern Standard Arabic (MSA) and Dialectal Arabic, with an accuracy of 100%. We further report results using the proposed method to discriminate between the five most widely used dialects of Arabic: namely Egyptian, Gulf, Levantine, North African, and MSA, with an accuracy of 52%. We discuss dialect identification errors in the context of dialect code-switching between Dialectal Arabic and MSA, and compare the error pattern between manually labeled data, and the output from our classifier. We also release the train and test data as standard corpus for dialect identification.",
     "Added By": ""
 }

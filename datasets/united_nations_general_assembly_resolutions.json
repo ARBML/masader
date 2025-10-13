@@ -7,30 +7,42 @@
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "This is a collection of translated documents from the United Nations originally compiled into a translation memory by Alexandre Rafalovitch, Robert Dale",
-    "Volume": "73,000",
+    "Volume": 73000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "OPUS",
-    "Derived From": "",
+    "Provider": [
+        "OPUS"
+    ],
+    "Derived From": [],
     "Paper Title": "United Nations General Assembly Resolutions: A Six-Language Parallel Corpus",
     "Paper Link": "https://aclanthology.org/2009.mtsummit-posters.15.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "mtsummit",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Machine Translation Summit XII",
-    "Authors": "Alexandre Rafalovitch, Robert Dale",
-    "Affiliations": "United Nations; Centre for Language Technology Macquarie University",
-    "Abstract": "In this paper we describe a six-ways parallel public-domain corpus consisting of 2100\nUnited Nations General Assembly Resolutions with translations in the six official languages of the United Nations, with an average of around 3 million tokens per language. The corpus is available in a preprocessed, formatting-normalized TMX format with paragraphs aligned across multiple\nlanguages. We describe the background to the\ncorpus and its content, the process of its construction, and some of its interesting properties.\n",
+    "Authors": [
+        "Alexandre Rafalovitch",
+        "Robert Dale"
+    ],
+    "Affiliations": [
+        "United Nations; Centre for Language Technology Macquarie University"
+    ],
+    "Abstract": "In this paper we describe a six-ways parallel public-domain corpus consisting of 2100\nUnited Nations General Assembly Resolutions with translations in the six official languages of the United Nations, with an average of around 3 million tokens per language. The corpus is available in a preprocessed, formatting-normalized TMX format with paragraphs aligned across multiple\nlanguages. We describe the background to the\ncorpus and its content, the process of its construction, and some of its interesting properties.",
     "Added By": "Zaid Alyafeai"
 }

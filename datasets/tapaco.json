@@ -7,30 +7,41 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The corpus contains a total of 1.9 million sentences, with 200 \u2013 250 000\r\nsentences per language",
-    "Volume": "6,446",
+    "Volume": 6446.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "University of Helsinki\r",
-    "Derived From": "Tatoeba",
-    "Paper Title": "TaPaCo: A Corpus of Sentential Paraphrases for 73 Languages\r",
+    "Provider": [
+        "University of Helsinki"
+    ],
+    "Derived From": [
+        "Tatoeba"
+    ],
+    "Paper Title": "TaPaCo: A Corpus of Sentential Paraphrases for 73 Languages",
     "Paper Link": "https://aclanthology.org/2020.lrec-1.848.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "paraphrase identification",
+    "Test Split": false,
+    "Tasks": [
+        "paraphrase identification"
+    ],
     "Venue Title": "LREC",
-    "Citations": "4.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Yves Scherrer",
-    "Affiliations": "",
+    "Authors": [
+        "Yves Scherrer"
+    ],
+    "Affiliations": [],
     "Abstract": "This paper presents TaPaCo, a freely available paraphrase corpus for 73 languages extracted from the Tatoeba database. Tatoeba is a crowdsourcing project mainly geared towards language learners. Its aim is to provide example sentences and translations for particular linguistic constructions and words. The paraphrase corpus is created by populating a graph with Tatoeba sentences and equivalence links between sentences \u201cmeaning the same thing\u201d. This graph is then traversed to extract sets of paraphrases. Several language-independent filters and pruning steps are applied to remove uninteresting sentences. A manual evaluation performed on three languages shows that between half and three quarters of inferred paraphrases are correct and that most remaining ones are either correct but trivial, or near-paraphrases that neutralize a morphological distinction. The corpus contains a total of 1.9 million sentences, with 200 - 250 000 sentences per language. It covers a range of languages for which, to our knowledge, no other paraphrase dataset exists. The dataset is available at https://doi.org/10.5281/zenodo.3707949.",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,30 +7,43 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "AraCovid19-SSD is a manually annotated Arabic COVID-19 sarcasm and sentiment detection dataset containing 5,162 tweets.",
-    "Volume": "5,162",
+    "Volume": 5162.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "Research Centre on Scientific and Technical Information (CERIST)",
-    "Derived From": "",
+    "Provider": [
+        "Research Centre on Scientific and Technical Information (CERIST)"
+    ],
+    "Derived From": [],
     "Paper Title": "ARACOVID19-SSD: ARABIC COVID-19 SENTIMENT AND SARCASM DETECTION DATASET",
     "Paper Link": "https://arxiv.org/pdf/2110.01948v1.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sarcasm detection, sentiment analysis",
+    "Test Split": false,
+    "Tasks": [
+        "sarcasm detection",
+        "sentiment analysis"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Mohamed Seghir Hadj Ameur, Hassina Aliane",
-    "Affiliations": "Research Centre on Scientific and Technical Information (CERIST)",
+    "Authors": [
+        "Mohamed Seghir Hadj Ameur",
+        "Hassina Aliane"
+    ],
+    "Affiliations": [
+        "Research Centre on Scientific and Technical Information (CERIST)"
+    ],
     "Abstract": "Coronavirus disease (COVID-19) is an infectious respiratory disease that was first discovered in late December 2019, in Wuhan, China, and then spread worldwide causing a lot of panic and death. Users of social networking sites such as Facebook and Twitter have been focused on reading, publishing, and sharing novelties, tweets, and articles regarding the newly emerging pandemic. A lot of these users often employ sarcasm to convey their intended meaning in a humorous, funny, and indirect way making it hard for computer-based applications to automatically understand and identify their goal and the harm level that they can inflect. Motivated by the emerging need for annotated datasets that tackle these kinds of problems in the context of COVID-19, this paper builds and releases AraCOVID19-SSD1 a manually annotated Arabic COVID-19 sarcasm and sentiment detection dataset containing 5,162 tweets. To confirm the practical utility of the built dataset, it has been carefully analyzed and tested using several classification models.",
     "Added By": "Abdelrahman Kaseb"
 }

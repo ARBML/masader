@@ -7,30 +7,35 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": "web pages",
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "PULPO, the Prolific Unannotated Literary Poetry Corpus, is a set of multilingual corpora of verses and stanzas with over 95M words",
-    "Volume": "256,000",
+    "Volume": 256000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "ALBERTI, a Multilingual Domain Specific Language Model for Poetry Analysis",
     "Paper Link": "https://arxiv.org/pdf/2307.01387",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "poetry analysis",
+    "Test Split": false,
+    "Tasks": [
+        "poetry analysis"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
-    "Abstract": "The computational analysis of poetry is limited by the scarcity of tools to automatically analyze and scan poems. In a\nmultilingual settings, the problem is exacerbated as scansion and rhyme systems only exist for individual languages, making\ncomparative studies very challenging and time consuming. In this work, we present Alberti, the first multilingual pretrained large language model for poetry. Through domain-specific pre-training (DSP), we further trained multilingual BERT\non a corpus of over 12 million verses from 12 languages. We evaluated its performance on two structural poetry tasks:\nSpanish stanza type classification, and metrical pattern prediction for Spanish, English and German. In both cases, Alberti\noutperforms multilingual BERT and other tranformers-based models of similar sizes, and even achieves state-of-the-art results\nfor German when compared to rule-based systems, demonstrating the feasibility and effectiveness of DSP in the poetry\ndomain.\n",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "The computational analysis of poetry is limited by the scarcity of tools to automatically analyze and scan poems. In a\nmultilingual settings, the problem is exacerbated as scansion and rhyme systems only exist for individual languages, making\ncomparative studies very challenging and time consuming. In this work, we present Alberti, the first multilingual pretrained large language model for poetry. Through domain-specific pre-training (DSP), we further trained multilingual BERT\non a corpus of over 12 million verses from 12 languages. We evaluated its performance on two structural poetry tasks:\nSpanish stanza type classification, and metrical pattern prediction for Spanish, English and German. In both cases, Alberti\noutperforms multilingual BERT and other tranformers-based models of similar sizes, and even achieves state-of-the-art results\nfor German when compared to rule-based systems, demonstrating the feasibility and effectiveness of DSP in the poetry\ndomain.",
     "Added By": "Zaid Alyafeai"
 }

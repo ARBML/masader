@@ -7,30 +7,46 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
-    "Description": "A dataset of Arabic poetry containing 1,831,770 along with there meters. ",
-    "Volume": "1,831,770",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "A dataset of Arabic poetry containing 1,831,770 along with there meters.",
+    "Volume": 1831770.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Helwan University",
-    "Derived From": "",
+    "Provider": [
+        "Helwan University"
+    ],
+    "Derived From": [],
     "Paper Title": "Learning meters of Arabic and English poems with Recurrent Neural Networks: a step forward for language understanding and synthesis",
     "Paper Link": "https://arxiv.org/pdf/1905.05700.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "meter classification",
+    "Test Split": false,
+    "Tasks": [
+        "meter classification"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Waleed A. Yousefa,Omar M. Ibrahime,Taha M. Madboulya, Moustafa A. Mahmoud",
-    "Affiliations": "Nile university, Nile university, Nile university",
+    "Authors": [
+        "Waleed A. Yousefa",
+        "Omar M. Ibrahime",
+        "Taha M. Madboulya",
+        "Moustafa A. Mahmoud"
+    ],
+    "Affiliations": [
+        "Nile university",
+        "Nile university",
+        "Nile university"
+    ],
     "Abstract": "Recognizing a piece of writing as a poem or prose is\nusually easy for the majority of people; however, only specialists\ncan determine which meter a poem belongs to. In this paper, we\nbuild Recurrent Neural Network (RNN) models that can classify\npoems according to their meters from plain text. The input text\nis encoded at the character level and directly fed to the models\nwithout feature handcrafting. This is a step forward for machine\nunderstanding and synthesis of languages in general, and Arabic\nlanguage in particular. Among the 16 poem meters of Arabic and the 4 meters\nof English the networks were able to correctly classify poem\nwith an overall accuracy of 96.38% and 82.31% respectively.\nThe poem datasets used to conduct this research were massive,\nover 1.5 million of verses, and were crawled from different\nnontechnical sources, almost Arabic and English literature sites,\nand in different heterogeneous and unstructured formats. These\ndatasets are now made publicly available in clean, structured,\nand documented format for other future research.\nTo the best of the authors\u2019 knowledge, this research is the\nfirst to address classifying poem meters in a machine learning approach, in general, and in RNN featureless based approach, in\nparticular. In addition, the dataset is the first publicly available\ndataset ready for the purpose of future computational research.\nIndex Terms\u2014Poetry, Meters, Al-\u2019arud, Arabic, English, Recurrent Neural Networks, RNN, Deep Learning, Deep Neural Networks, DNN, Classification, Text Mining.",
     "Added By": "Zaid Alyafeai"
 }

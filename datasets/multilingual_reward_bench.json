@@ -7,30 +7,38 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "machine annotation",
+    "Collection Style": [
+        "machine annotation"
+    ],
     "Description": "Reward models (RMs) have driven the development of state-of-the-art LLMs today, with unprecedented impact across the globe. However, their performance in multilingual settings still remains understudied. In order to probe reward model behavior on multilingual data, we present M-RewardBench, a benchmark for 23 typologically diverse languages. M-RewardBench contains prompt-chosen-rejected preference triples obtained by curating and translating chat, safety, and reasoning instances from RewardBench (Lambert et al., 2024)",
-    "Volume": "8,110",
+    "Volume": 8110.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "C4AI",
-    "Derived From": "",
+    "Provider": [
+        "C4AI"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation, safety evaluation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation",
+        "safety evaluation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

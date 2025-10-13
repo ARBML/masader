@@ -7,30 +7,59 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
-    "Description": "collected from different resources ",
-    "Volume": "316",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "collected from different resources",
+    "Volume": 316.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "NYU Abu Dhabi University",
-    "Derived From": "",
+    "Provider": [
+        "NYU Abu Dhabi University"
+    ],
+    "Derived From": [],
     "Paper Title": "CAMeL Tools: An Open Source Python Toolkit for Arabic Natural Language Processing",
     "Paper Link": "https://aclanthology.org/2020.lrec-1.868.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "named entity recognition",
+    "Test Split": true,
+    "Tasks": [
+        "named entity recognition"
+    ],
     "Venue Title": "LREC",
-    "Citations": "22.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Ossama Obeid,Nasser Zalmout,Salam Khalifa,Dima Taji,M. Oudah,Bashar Alhafni,Go Inoue,Fadhl Eryani,Alexander Erdmann,Nizar Habash",
-    "Affiliations": ",,New York University Abu Dhabi,,,,New York University;New York University Abu Dhabi,,,",
+    "Authors": [
+        "Ossama Obeid",
+        "Nasser Zalmout",
+        "Salam Khalifa",
+        "Dima Taji",
+        "M. Oudah",
+        "Bashar Alhafni",
+        "Go Inoue",
+        "Fadhl Eryani",
+        "Alexander Erdmann",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "New York University Abu Dhabi",
+        "",
+        "",
+        "",
+        "New York University;New York University Abu Dhabi",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "We present CAMeL Tools, a collection of open-source tools for Arabic natural language processing in Python. CAMeL Tools currently provides utilities for pre-processing, morphological modeling, Dialect Identification, Named Entity Recognition and Sentiment Analysis. In this paper, we describe the design of CAMeL Tools and the functionalities it provides.",
     "Added By": ""
 }

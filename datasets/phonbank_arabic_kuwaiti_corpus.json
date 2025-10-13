@@ -7,30 +7,41 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Kuwait",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "other",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The data collection took place in Kuwait. A total of 70 children, in groups of ten, were sampled from the general Kuwaiti population. Residents of Kuwait originating from neighbouring countries were excluded. The subjects were randomly selected from variable ethnic backgrounds and social classes, concentrating on inner city population. The sample was divided into seven gender- balanced subgroups with the following age ranges: 1;4-1;7, 1;8-1;11, 2;0-2;3, 2;4-2;7, 2;8-2:11, 3;0-3;3 and 3;4-3;7.  Spontaneous speech sample was audio and video recorded on a single occasion. The parent was instructed to interact spontaneously with his or her child for 30 minutes. A set of rubber toys and picture books were made available during all recording sessions. The parent/child spontaneous interaction was digitally recorded with an Edirol R-09HR Handheld SD Recorder and a Shure PG14/PG185 Lavalier wireless microphone system attached to a custom made vest and connected wirelessly to the recorder. The vest was made to hold the microphone transmitter on the child\u2019s back and the lavalier microphone was attached approximately 10-15 centimetres below the child\u2019s chin.",
-    "Volume": "",
+    "Volume": 0.0,
     "Unit": "hours",
-    "Ethical Risks": "",
-    "Provider": "",
-    "Derived From": "",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "Early Phonological Acquisition by Kuwaiti Arabic Children",
     "Paper Link": "https://core.ac.uk/download/pdf/153779285.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "Shaima AlQattan, Ghada Khattab",
-    "Affiliations": "Shaikh Salem Al-Ali Centre,Newcastle University",
-    "Abstract": "This is the first exploration of typical phonological development in the speech of children acquiring Kuwaiti-Arabic (KA) before the age of 4;0. In many of the word\u2019s languages, salient aspects of the ambient language have been shown to influence the child\u2019s initial progress in language acquisition (Vihman, 1996, 2014); however, studies of phonological development of Arabic lack adequate information on the extent of the influence of factors such as frequency of occurrence of certain features and their phonological salience on the early stages of speech acquisition. A cross-sectional study design was adapted in this thesis to explore the speech of 70 typically developing children. The children were sampled from the Arabic-speaking Kuwaiti population; the children were aged 1;4 and 3;7 and gender-balanced. Spontaneous speech samples were obtained from audio and video recordings of the children while interacting with their parent for 30-minutes. The production accuracy of KA consonants was examined to explore the influence of type and token frequencies on order of consonant acquisition and the development of error patterns. The sonority index was also used to predict the order of consonant acquisition cross-linguistically. The findings were then compared with those of other dialects of Arabic to identify within-language variability and with studies on English to address cross-linguistic differences between Arabic and English early phonological development.  The results are partially consistent with accounts that argue for a significant role of input frequency in determining rate and order of consonant acquisition within a language. The development of KA error patterns also shows relative sensitivity to consonant frequency. The sonority index does not always help in the prediction of all Arabic consonants, and the developmental error patterns and early word structures in Arabic and English are significantly distinct. The outcomes of this study provide essential knowledge about typical Arabic phonological development and the first step towards building a standardised phonological test for Arabic speaking children. ",
+    "Authors": [
+        "Shaima AlQattan",
+        "Ghada Khattab"
+    ],
+    "Affiliations": [
+        "Shaikh Salem Al-Ali Centre",
+        "Newcastle University"
+    ],
+    "Abstract": "This is the first exploration of typical phonological development in the speech of children acquiring Kuwaiti-Arabic (KA) before the age of 4;0. In many of the word\u2019s languages, salient aspects of the ambient language have been shown to influence the child\u2019s initial progress in language acquisition (Vihman, 1996, 2014); however, studies of phonological development of Arabic lack adequate information on the extent of the influence of factors such as frequency of occurrence of certain features and their phonological salience on the early stages of speech acquisition. A cross-sectional study design was adapted in this thesis to explore the speech of 70 typically developing children. The children were sampled from the Arabic-speaking Kuwaiti population; the children were aged 1;4 and 3;7 and gender-balanced. Spontaneous speech samples were obtained from audio and video recordings of the children while interacting with their parent for 30-minutes. The production accuracy of KA consonants was examined to explore the influence of type and token frequencies on order of consonant acquisition and the development of error patterns. The sonority index was also used to predict the order of consonant acquisition cross-linguistically. The findings were then compared with those of other dialects of Arabic to identify within-language variability and with studies on English to address cross-linguistic differences between Arabic and English early phonological development.  The results are partially consistent with accounts that argue for a significant role of input frequency in determining rate and order of consonant acquisition within a language. The development of KA error patterns also shows relative sensitivity to consonant frequency. The sonority index does not always help in the prediction of all Arabic consonants, and the developmental error patterns and early word structures in Arabic and English are significantly distinct. The outcomes of this study provide essential knowledge about typical Arabic phonological development and the first step towards building a standardised phonological test for Arabic speaking children.",
     "Added By": "Kamel GAANOUN"
 }

@@ -7,30 +7,37 @@
     "Year": 2013,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The data is presented as raw text and word-aligned text. The raw text is very close to what was extracted from the original word processing documents in UN ODS (e.g., Word, WordPerfect, PDF), converted to UTF-8 encoding.",
-    "Volume": "520,283",
+    "Volume": 520283.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "175.00 $",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

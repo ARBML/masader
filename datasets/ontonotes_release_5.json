@@ -7,30 +7,39 @@
     "Year": 2013,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The goal of the project was to annotate a large corpus comprising various genres of text (news, conversational telephone speech, weblogs, usenet newsgroups, broadcast, talk shows) in three languages (English, Chinese, and Arabic) with structural information (syntax and predicate argument structure) and shallow semantics (word sense linked to an ontology and coreference).",
-    "Volume": "300,000",
+    "Volume": 300000.0,
     "Unit": "tokens",
     "Ethical Risks": "Medium",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "CoNLL-2012 Shared Task: Modeling Multilingual Unrestricted Coreference in OntoNotes",
     "Paper Link": "https://aclanthology.org/W12-4501.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "coreference resolution, word sense disambiguation, named entity recognition",
+    "Test Split": false,
+    "Tasks": [
+        "coreference resolution",
+        "word sense disambiguation",
+        "named entity recognition"
+    ],
     "Venue Title": "SIGDAT",
-    "Citations": "",
     "Venue Type": "workshop",
     "Venue Name": "Special Interest Group on Linguistic data and corpus-based approaches to NLP",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Amr Keleg"
 }

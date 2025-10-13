@@ -7,30 +7,46 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Iraq",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The corpus has been collected, annotated and made publicly accessible to other researchers for sentiment analysis research.",
-    "Volume": "1,170",
+    "Volume": 1170.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "Constructing twitter corpus of Iraqi Arabic Dialect (CIAD) for sentiment analysis",
     "Paper Link": "https://ntv.ifmo.ru/file/article/21138.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "STJITMO",
-    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "Scientific and Technical Journal of Information Technologies, Mechanics and Optics",
-    "Authors": "Mohammed M. Hassoun Al-Jawad, Hasanein Alharbi, Ahmed F. Almukhtar,  Anwar Adnan Alnawas",
-    "Affiliations": "University of Kerbala, University of Babylon, and Southern Technical University - Iraq",
+    "Authors": [
+        "Mohammed M. Hassoun Al-Jawad",
+        "Hasanein Alharbi",
+        "Ahmed F. Almukhtar",
+        "Anwar Adnan Alnawas"
+    ],
+    "Affiliations": [
+        "University of Kerbala",
+        "University of Babylon",
+        "and Southern Technical University - Iraq"
+    ],
     "Abstract": "The number of Twitter users in Iraq has increased significantly in recent years. Major events, the political situation in the country, had a significant impact on the content of Twitter and affected the tweets of Iraqi users. Creating an Iraqi Arabic Dialect corpus is crucial for sentiment analysis to study such behaviors. Since no such corpus existed, this paper introduces the Corpus of Iraqi Arabic Dialect (CIAD). The corpus has been collected, annotated and made publicly accessible to other researchers for further investigation. Furthermore, the created corpus has been validated using eight different combinations of four feature-selections approaches and two versions of Support Vector Machine (SVM) algorithm. Various performance measures were calculated. The obtained accuracy, 78 %, indicates a promising potential application.",
     "Added By": "Mourad Mars"
 }

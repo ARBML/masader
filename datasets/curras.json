@@ -7,30 +7,49 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Palestine",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
-    "Description": "Curras: a dataset for Palestinian Arabic with rich metadata including POS tagging, lemma, stem, and other ",
-    "Volume": "56,700",
+    "Collection Style": [
+        "manual curation"
+    ],
+    "Description": "Curras: a dataset for Palestinian Arabic with rich metadata including POS tagging, lemma, stem, and other",
+    "Volume": 56700.0,
     "Unit": "tokens",
     "Ethical Risks": "Medium",
-    "Provider": "SinaLab, Birzeit University",
-    "Derived From": "",
+    "Provider": [
+        "SinaLab",
+        "Birzeit University"
+    ],
+    "Derived From": [],
     "Paper Title": "Curras: an annotated corpus for the Palestinian Arabic dialect",
     "Paper Link": "http://www.jarrar.info/publications/JHRAZ17.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "named entity recognition, stemming, lemmatization",
+    "Test Split": false,
+    "Tasks": [
+        "named entity recognition",
+        "stemming",
+        "lemmatization"
+    ],
     "Venue Title": "LREC",
-    "Citations": "76.0",
     "Venue Type": "conference",
     "Venue Name": "Language Resource & Evaluation",
-    "Authors": "Mustafa Jarrar, Nizar Habash, Faeq Alrimawi, Diyam Akra, Nasser Zalmout",
-    "Affiliations": "Birzeit University, NYU",
+    "Authors": [
+        "Mustafa Jarrar",
+        "Nizar Habash",
+        "Faeq Alrimawi",
+        "Diyam Akra",
+        "Nasser Zalmout"
+    ],
+    "Affiliations": [
+        "Birzeit University",
+        "NYU"
+    ],
     "Abstract": "In this article we present Curras, the first morphologically annotated\ncorpus of the Palestinian Arabic dialect. Palestinian Arabic is one of the many\nprimarily spoken dialects of the Arabic language. Arabic dialects are generally\nunder-resourced compared to Modern Standard Arabic, the primarily written and\nofficial form of Arabic. We start in the article with a background description that\nsituates Palestinian Arabic linguistically and historically and compares it to Modern\nStandard Arabic and Egyptian Arabic in terms of phonological, morphological,\northographic, and lexical variations. We then describe the methodology we developed to collect Palestinian Arabic text to guarantee a variety of representative\ndomains and genres. We also discuss the annotation process we used, which\nextended previous efforts for annotation guideline development, and utilized\nexisting automatic annotation solutions for Standard Arabic and Egyptian Arabic.\nThe annotation guidelines and annotation meta-data are described in detail. The\nCurras Palestinian Arabic corpus consists of more than 56 K tokens, which are annotated with rich morphological and lexical features. The inter-annotator agreement results indicate a high degree of consistency.",
     "Added By": "Maged S. Alshaibani"
 }

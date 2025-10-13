@@ -1,40 +1,40 @@
 {
-    "Name": "Habibi ",
+    "Name": "Habibi",
     "Subsets": [
         {
             "Name": "Gulf",
             "Dialect": "Gulf",
-            "Volume": "9,484",
+            "Volume": 9484.0,
             "Unit": "documents"
         },
         {
             "Name": "Egyptian",
             "Dialect": "Egypt",
-            "Volume": "7,265",
+            "Volume": 7265.0,
             "Unit": "documents"
         },
         {
             "Name": "Levantine",
             "Dialect": "Levant",
-            "Volume": "6,016",
+            "Volume": 6016.0,
             "Unit": "documents"
         },
         {
             "Name": "Iraqi",
             "Dialect": "Iraq",
-            "Volume": "3,438",
+            "Volume": 3438.0,
             "Unit": "documents"
         },
         {
             "Name": "Sudan",
             "Dialect": "Sudan",
-            "Volume": "2,662",
+            "Volume": 2662.0,
             "Unit": "documents"
         },
         {
             "Name": "Maghrebi",
             "Dialect": "North Africa",
-            "Volume": "1,207",
+            "Volume": 1207.0,
             "Unit": "documents"
         }
     ],
@@ -44,30 +44,40 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The corpus comprises more than 30,000 Arabic song lyrics in 6 Arabic dialects for singers from 18 different Arabic countries.",
-    "Volume": "30,072",
+    "Volume": 30072.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Lancaster University",
-    "Derived From": "",
-    "Paper Title": "Habibi - a multi Dialect multi National Arabic Song Lyrics Corpus\r",
+    "Provider": [
+        "Lancaster University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Habibi - a multi Dialect multi National Arabic Song Lyrics Corpus",
     "Paper Link": "https://aclanthology.org/2020.lrec-1.165.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "text generation, language modeling",
+    "Test Split": false,
+    "Tasks": [
+        "text generation",
+        "language modeling"
+    ],
     "Venue Title": "LREC",
-    "Citations": "7.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Mahmoud El-Haj",
-    "Affiliations": "",
+    "Authors": [
+        "Mahmoud El-Haj"
+    ],
+    "Affiliations": [],
     "Abstract": "This paper introduces Habibi the first Arabic Song Lyrics corpus. The corpus comprises more than 30,000 Arabic song lyrics in 6 Arabic dialects for singers from 18 different Arabic countries. The lyrics are segmented into more than 500,000 sentences (song verses) with more than 3.5 million words. I provide the corpus in both comma separated value (csv) and annotated plain text (txt) file formats. In addition, I converted the csv version into JavaScript Object Notation (json) and eXtensible Markup Language (xml) file formats. To experiment with the corpus I run extensive binary and multi-class experiments for dialect and country-of-origin identification. The identification tasks include the use of several classical machine learning and deep learning models utilising different word embeddings. For the binary dialect identification task the best performing classifier achieved a testing accuracy of 93%. This was achieved using a word-based Convolutional Neural Network (CNN) utilising a Continuous Bag of Words (CBOW) word embeddings model. The results overall show all classical and deep learning models to outperform our baseline, which demonstrates the suitability of the corpus for both dialect and country-of-origin identification tasks. I am making the corpus and the trained CBOW word embeddings freely available for research purposes.",
     "Added By": ""
 }

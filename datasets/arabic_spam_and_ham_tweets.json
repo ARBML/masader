@@ -7,30 +7,38 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The dataset contains 13241 records. Each record represents a tweet. The tweets are labeled either Ham or Spam. Ham means non-spam tweet. There are 1924 Spam tweets and 11299 Ham tweets. The tweets are unique i.e. there are no repeated tweets records.",
-    "Volume": "13,241",
+    "Volume": 13241.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "Dataset of Arabic spam and ham tweets",
     "Paper Link": "https://data.mendeley.com/datasets/86x733xkb8/2",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "spam detection",
+    "Test Split": false,
+    "Tasks": [
+        "spam detection"
+    ],
     "Venue Title": "Data in Brief",
-    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "Data in Brief",
-    "Authors": "Sanaa Kaddoura, Safaa Henno",
-    "Affiliations": "",
+    "Authors": [
+        "Sanaa Kaddoura",
+        "Safaa Henno"
+    ],
+    "Affiliations": [],
     "Abstract": "This data article provides a dataset of 132421 posts and their corresponding information collected from Twitter social media. The data has two classes, ham or spam, where ham indicates non-spam clean tweets. The main target of this dataset is to study a way to classify whether a post is a spam or not automatically. The data is in Arabic language only, which makes the data essential to the researchers in Arabic natural language processing (NLP) due to the lack of resources in this language. The data is made publicly available to allow researchers to use it as a benchmark for their research in Arabic NLP. The dataset was collected using the Twitter REST API between January 27, 2021, and March 10, 2021. An ad-hoc crawler was constructed using Python programming language to collect the data. Many scientists and researchers will benefit from this dataset in the domain of cybersecurity, NLP, data science and social networking analysis.",
     "Added By": "Zaid Alyafeai"
 }

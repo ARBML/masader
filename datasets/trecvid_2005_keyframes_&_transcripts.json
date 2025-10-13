@@ -7,30 +7,39 @@
     "Year": 2007,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
-    "Form": "other",
-    "Collection Style": "other",
-    "Description": "The source data is Arabic, Chinese and English language broadcast programming collected in November 2004 from the following sources: Lebanese Broadcasting Corp. (Arabic); China Central TV and New Tang Dynasty TV (Chinese); and CNN and MSNBC/NBC (English). ",
-    "Volume": "",
-    "Unit": "",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "The source data is Arabic, Chinese and English language broadcast programming collected in November 2004 from the following sources: Lebanese Broadcasting Corp. (Arabic); China Central TV and New Tang Dynasty TV (Chinese); and CNN and MSNBC/NBC (English).",
+    "Volume": 0.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "500.00 $",
-    "Test Split": "No",
-    "Tasks": "information retrieval,information extraction,event detection",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval",
+        "information extraction",
+        "event detection"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

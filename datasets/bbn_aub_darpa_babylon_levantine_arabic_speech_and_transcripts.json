@@ -7,30 +7,45 @@
     "Year": 2005,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "other",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "BBN/AUB DARPA Babylon Levantine Arabic Speech and Transcripts was developed by BBN Technologies and contains 60.6 hours of spontaneous speech recorded from subjects speaking Levantine colloquial Arabic and associated transcripts. Levantine Arabic is the dialect of Arabic spoken in Lebanon, Jordan, Syria, and Palestine. It is significantly different from Modern Standard Arabic. It is a spoken rather than a written language, and includes different words and pronounciations from Modern Standard Arabic.",
-    "Volume": "60.6",
+    "Volume": 60.6,
     "Unit": "hours",
-    "Ethical Risks": "",
-    "Provider": "BBN Technologies ",
-    "Derived From": "",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "BBN Technologies"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,500 $",
-    "Test Split": "No",
-    "Tasks": "machine translation, speech recognition, dialouge generation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation",
+        "speech recognition",
+        "dialogue generation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "BBN Technologies (with American University of Beirut a subcontractor), John Makhoul, Bushra Zawaydeh, Frederick Choi, David Stallard",
-    "Affiliations": "",
+    "Authors": [
+        "BBN Technologies (with American University of Beirut a subcontractor)",
+        "John Makhoul",
+        "Bushra Zawaydeh",
+        "Frederick Choi",
+        "David Stallard"
+    ],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Kamel GAANOUN"
 }

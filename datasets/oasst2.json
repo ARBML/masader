@@ -7,30 +7,35 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "This dataset contains message trees. Each message tree has an initial prompt message as the root node, which can have multiple child messages as replies, and these child messages can have multiple replies.",
-    "Volume": "1,274",
+    "Volume": 1274.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "text generation",
+    "Test Split": true,
+    "Tasks": [
+        "text generation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

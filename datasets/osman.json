@@ -7,30 +7,43 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "e text readability for 73,000 parallel sentences from English and Arabic UN documents",
-    "Volume": "73,000",
+    "Volume": 73000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Lancaster University",
-    "Derived From": "",
-    "Paper Title": "OSMAN \u2013 A Novel Arabic Readability Metric\r",
+    "Provider": [
+        "Lancaster University"
+    ],
+    "Derived From": [],
+    "Paper Title": "OSMAN \u2013 A Novel Arabic Readability Metric",
     "Paper Link": "https://aclanthology.org/L16-1038.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "LREC",
-    "Citations": "14.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Mahmoud El-Haj,Paul Rayson",
-    "Affiliations": "Lancaster University,Lancaster University",
+    "Authors": [
+        "Mahmoud El-Haj",
+        "Paul Rayson"
+    ],
+    "Affiliations": [
+        "Lancaster University",
+        "Lancaster University"
+    ],
     "Abstract": "We present OSMAN (Open Source Metric for Measuring Arabic Narratives) - a novel open source Arabic readability metric and tool. It allows researchers to calculate readability for Arabic text with and without diacritics. OSMAN is a modified version of the conventional readability formulas such as Flesch and Fog. In our work we introduce a novel approach towards counting short, long and stress syllables in Arabic which is essential for judging readability of Arabic narratives. We also introduce an additional factor called \u201cFaseeh\u201d which considers aspects of script usually dropped in informal Arabic writing. To evaluate our methods we used Spearman\u2019s correlation metric to compare text readability for 73,000 parallel sentences from English and Arabic UN documents. The Arabic sentences were written with the absence of diacritics and in order to count the number of syllables we added the diacritics in using an open source tool called Mishkal. The results show that OSMAN readability formula correlates well with the English ones making it a useful tool for researchers and educators working with Arabic text.",
     "Added By": "Zaid Alyafeai"
 }

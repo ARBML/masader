@@ -7,30 +7,51 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "SPIRAL is a corpus dedicated to the detection and correction of spelling errors in MSA Arabic texts.",
-    "Volume": "248,441,892",
+    "Volume": 248441892.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "Automatic Building of a Large Arabic Spelling Error Corpus",
     "Paper Link": "https://link.springer.com/article/10.1007/s42979-022-01499-x",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Gdrive",
     "Access": "Upon-Request",
     "Cost": "0",
-    "Test Split": "Yes",
-    "Tasks": "machine translation, text generation, morphological analysis, misspelling detection",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation",
+        "text generation",
+        "morphological analysis",
+        "misspelling detection"
+    ],
     "Venue Title": "SN Computer Science",
-    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "SN Computer Science",
-    "Authors": "Shaimaa Ben Aichaoui, Nawel Hiri, Abdelhalim Hafedh Dahou, and Mohamed Amine Cheragui",
-    "Affiliations": "Mathematics and Computer Science Department, Ahmed Draia University, Adrar, Algeria, gesis leibniz institute for the social sciences, Cologne, Germany",
+    "Authors": [
+        "Shaimaa Ben Aichaoui",
+        "Nawel Hiri",
+        "Abdelhalim Hafedh Dahou",
+        "and Mohamed Amine Cheragui"
+    ],
+    "Affiliations": [
+        "Mathematics and Computer Science Department",
+        "Ahmed Draia University",
+        "Adrar",
+        "Algeria",
+        "gesis leibniz institute for the social sciences",
+        "Cologne",
+        "Germany"
+    ],
     "Abstract": "Today, for spelling Checker, a classical topic in natural language processing, the corpus has become an important component in the development process, especially with the emergence of stochastic and machine learning approaches that exploit corpus to build resolution models. The aim of our work is based on two phases: the first one is to build a corpus dedicated to the detection and correction of spelling errors in Arabic texts that we call SPIRAL and the second phase is to see the impact of our corpus through an experimental study using a deep learning model which is AraBART. The results obtained using the F1 metric were: 80.2% for morphology error, 81.6% for phonetic error, 73% for physical error, 78.3% for permutation error, 64.3% for keyboard error, 33.7% for delete error, 86% for space-issues error, and 84.5% for tachkil error.",
     "Added By": "Abdelhalim Hafedh Dahou"
 }

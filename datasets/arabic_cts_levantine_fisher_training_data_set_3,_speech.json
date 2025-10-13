@@ -7,30 +7,37 @@
     "Year": 2005,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "other",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "This corpus contains 322 audio files of Arabic telephone conversations in 2-channel SPHERE ulaw format, sampled at 8 kHz.",
-    "Volume": "50",
+    "Volume": 50.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

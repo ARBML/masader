@@ -7,30 +7,49 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Arabic Reading Comprehension Benchmarks Created Semiautomatically",
-    "Volume": "2,862",
+    "Volume": 2862.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "PSUT",
-    "Derived From": "AQA (1008), Modified TREC (979), Modified CLEF (418)",
+    "Provider": [
+        "PSUT"
+    ],
+    "Derived From": [
+        "AQA (1008)",
+        "Modified TREC (979)",
+        "Modified CLEF (418)"
+    ],
     "Paper Title": "Arabic Reading Comprehension Benchmarks Created Semiautomatically",
     "Paper Link": "https://www.semanticscholar.org/paper/Arabic-Reading-Comprehension-Benchmarks-Created-Biltawi-Awajan/e637ba939d78e6027bbcc8445f93605d36436421",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "question answering",
+    "Test Split": false,
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "ACIT",
-    "Citations": "0.0",
     "Venue Type": "conference",
     "Venue Name": "International Arab Conference on Information Technology",
-    "Authors": "Mariam Biltawi,A. Awajan,Sara Tedmori",
-    "Affiliations": ",,",
+    "Authors": [
+        "Mariam Biltawi",
+        "A. Awajan",
+        "Sara Tedmori"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Reading comprehension is the task of answering questions from paragraphs; it is also considered a subtask of question-answering systems. Although Arabic language is a language spoken by more than 330 million native speakers, it lacks the required resources, which are needed by the Arabic reading comprehension task to serve as a benchmark dataset. The goal of this work is to present the phases of creating Arabic reading comprehension benchmark dataset semiautomatically. The phases include; data collection, manual check, Google search, document retrieval, and paragraph retrieval. The paper also conducts a thorough evaluation for the created datasets.",
     "Added By": ""
 }

@@ -7,30 +7,38 @@
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "other",
-    "Description": "The data is in 2,337 compressed (zipped) Arabic text data files. There are 209 Mb of compressed data (869 Mb uncompressed) with approximately 383,872 documents containing 76 million tokens over approximately 666,094 unique words. ",
-    "Volume": "383,872",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "The data is in 2,337 compressed (zipped) Arabic text data files. There are 209 Mb of compressed data (869 Mb uncompressed) with approximately 383,872 documents containing 76 million tokens over approximately 666,094 unique words.",
+    "Volume": 383872.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,200.00 $",
-    "Test Split": "No",
-    "Tasks": "information retrieval,language modeling",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval",
+        "language modeling"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

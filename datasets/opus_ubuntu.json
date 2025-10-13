@@ -7,30 +7,42 @@
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling,machine annotation",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "These are translations of the Ubuntu software package messages, donated by the Ubuntu community.",
-    "Volume": "299",
+    "Volume": 299.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "OPUS",
-    "Derived From": "",
+    "Provider": [
+        "OPUS"
+    ],
+    "Derived From": [],
     "Paper Title": "Parallel Data, Tools and Interfaces in OPUS",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "LREC",
-    "Citations": "1203.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Jorg Tiedemann",
-    "Affiliations": "Uppsala University",
+    "Authors": [
+        "Jorg Tiedemann"
+    ],
+    "Affiliations": [
+        "Uppsala University"
+    ],
     "Abstract": "This paper presents the current status of OPUS, a growing language resource of parallel corpora and related tools. The focus in OPUS is to provide freely available data sets in various formats together with basic annotation to be useful for applications in computational linguistics, translation studies and cross-linguistic corpus studies. In this paper, we report about new data sets and their features, additional annotation tools and models provided from the website and essential interfaces and on-line services included in the project.",
     "Added By": "Khalid N. Elmadani"
 }

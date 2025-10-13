@@ -7,30 +7,45 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "A Comparable Spoken Algerian Corpus Harvested from YouTube",
-    "Volume": "5,190",
+    "Volume": 5190.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple Institutions ",
-    "Derived From": "",
-    "Paper Title": "CALYOU: A Comparable Spoken Algerian Corpus Harvested from YouTube\r",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
+    "Paper Title": "CALYOU: A Comparable Spoken Algerian Corpus Harvested from YouTube",
     "Paper Link": "https://hal.archives-ouvertes.fr/hal-01531591/document",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "INTERSPEECH",
-    "Citations": "16.0",
     "Venue Type": "conference",
     "Venue Name": "Conference of the International Speech Communication Association",
-    "Authors": "K. Abidi,M. Menacer,Kamel Sma\u00efli",
-    "Affiliations": ",,",
+    "Authors": [
+        "K. Abidi",
+        "M. Menacer",
+        "Kamel Sma\u00efli"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "This paper addresses the issue of comparability of comments \n extracted from Youtube. The comments concern spoken \n Algerian which could be either local Arabic, Modern Standard \n Arabic or French. This diversity of expression arises a huge \n number of problems concerning the data processing. In this \n article, several methods of alignment will be proposed and \n tested. The method which permits to best align is Word2Vec-based \n approach that will be used iteratively. This recurrent \n call of Word2Vec allows to improve significantly the results \n of comparability. In fact, a dictionary-based approach leads \n to a Recall of 4, while our approach allows to get a Recall of \n 33 at rank 1. Thanks to this approach, we built from Youtube \n CALYOU, a Comparable Corpus of the spoken Algerian.",
     "Added By": "Zaid Alyafeai"
 }

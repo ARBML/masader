@@ -7,30 +7,37 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "A dataset containing over 9000 Arabic poems labeled by three emotion classes.",
-    "Volume": "9,000",
+    "Volume": 9000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "University of Guelph",
-    "Derived From": "",
+    "Provider": [
+        "University of Guelph"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "emotion detection",
+    "Test Split": false,
+    "Tasks": [
+        "emotion detection"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Abdelrahman Rezk"
 }

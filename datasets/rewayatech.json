@@ -7,30 +7,44 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "a collection of Arabic stories written in electronic forms between the years of 2003-2015 by online users using anonymized usernames",
-    "Volume": "1,267",
+    "Volume": 1267.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
-    "Paper Title": "Rewayatech: Saudi Web Novels Dataset\r",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
+    "Paper Title": "Rewayatech: Saudi Web Novels Dataset",
     "Paper Link": "https://www.preprints.org/manuscript/202008.0628/v1",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "text generation, language modeling",
+    "Test Split": false,
+    "Tasks": [
+        "text generation",
+        "language modeling"
+    ],
     "Venue Title": "other",
-    "Citations": "0.0",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Aseel Addawood,D. Alzeer",
-    "Affiliations": ",",
+    "Authors": [
+        "Aseel Addawood",
+        "D. Alzeer"
+    ],
+    "Affiliations": [
+        "",
+        ""
+    ],
     "Abstract": "The internet has changed the way people perceived fiction to a new level. For instance, online forums have given people the opportunity to write without revealing their real identities. Especially in the Saudi context, online users were using these forums to write web novels that reflect their culture, lives, concerns, hopes and dreams. In this paper, we describe a dataset that was collected from one of the online forums that was used for sharing web novels among its readers. The collected dataset contains 1,267 novels between 2003-2015. This data set is available to the research community to analyze to gain a better understanding of the social, economical, and behavioral mindset that was manifested in the community in that decade.",
     "Added By": "Zaid Alyafeai"
 }

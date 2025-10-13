@@ -7,30 +7,61 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "a collection of parallel sentences covering the dialects of 25 cities from the Arab World",
-    "Volume": "14,000",
+    "Volume": 14000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "NYU Abu Dhabi",
-    "Derived From": "",
-    "Paper Title": "The MADAR Arabic Dialect Corpus and Lexicon\r",
+    "Provider": [
+        "NYU Abu Dhabi"
+    ],
+    "Derived From": [],
+    "Paper Title": "The MADAR Arabic Dialect Corpus and Lexicon",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2018/pdf/351.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "dialect identification",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "LREC",
-    "Citations": "85.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Houda Bouamor,Nizar Habash,Mohammad Salameh,W. Zaghouani,Owen Rambow,D. Abdulrahim,Ossama Obeid,Salam Khalifa,Fadhl Eryani,Alexander Erdmann,Kemal Oflazer",
-    "Affiliations": ",,,,,,,New York University Abu Dhabi,,,",
+    "Authors": [
+        "Houda Bouamor",
+        "Nizar Habash",
+        "Mohammad Salameh",
+        "W. Zaghouani",
+        "Owen Rambow",
+        "D. Abdulrahim",
+        "Ossama Obeid",
+        "Salam Khalifa",
+        "Fadhl Eryani",
+        "Alexander Erdmann",
+        "Kemal Oflazer"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "New York University Abu Dhabi",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "In this paper, we present two resources that were created as part of the Multi Arabic Dialect Applications and Resources (MADAR) project. The first is a large parallel corpus of 25 Arabic city dialects in the travel domain. The second is a lexicon of 1,045 concepts with an average of 45 words from 25 cities per concept. These resources are the first of their kind in terms of the breadth of their coverage and the fine location granularity. The focus on cities, as opposed to regions in studying Arabic dialects, opens new avenues to many areas of research from dialectology to dialect identification and machine translation.",
     "Added By": ""
 }

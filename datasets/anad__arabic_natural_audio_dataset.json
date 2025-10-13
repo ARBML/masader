@@ -1,5 +1,5 @@
 {
-    "Name": " ANAD: Arabic Natural Audio Dataset",
+    "Name": "ANAD: Arabic Natural Audio Dataset",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ANAD",
     "Link": "https://data.mendeley.com/datasets/xm232yxf7t/1",
@@ -7,30 +7,40 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "manual curation",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "Eight videos of live calls between an anchor and a human outside the studio were downloaded from online Arabic talk shows. Each video was then divided into turns: callers and receivers. To label each video, 18 listeners were asked to listen to each video and select whether they perceive a happy, angry or surprised emotion. Silence, laughs and noisy chunks were removed. Every chunk was then automatically divided into 1 sec speech units forming our final corpus composed of 1384 records.",
-    "Volume": "1,384",
+    "Volume": 1384.0,
     "Unit": "hours",
     "Ethical Risks": "High",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "emotion detection",
+    "Test Split": false,
+    "Tasks": [
+        "emotion detection"
+    ],
     "Venue Title": "",
-    "Citations": "14.0",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "Samira klaylat, ziad Osman,  Rached Zantout, Lama Hamandi",
-    "Affiliations": "",
+    "Authors": [
+        "Samira klaylat",
+        "ziad Osman",
+        "Rached Zantout",
+        "Lama Hamandi"
+    ],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Mustafa Ghaleb"
 }

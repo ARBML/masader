@@ -7,30 +7,49 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "reviews",
+    "Domain": [
+        "reviews"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "This dataset contains 6318 hotel reviews collected from the Booking.com website. The reviews are written in both standard and dialectical Arabic and manually annotated as either positive or negative.",
-    "Volume": "8,425",
+    "Volume": 8425.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Minia University",
-    "Derived From": "",
+    "Provider": [
+        "Minia University"
+    ],
+    "Derived From": [],
     "Paper Title": "Sentiment Analysis for Arabic Reviews using Machine Learning Classification Algorithms",
-    "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9047822 ",
+    "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9047822",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis,  review classification",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis",
+        "review classification"
+    ],
     "Venue Title": "ITCE",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Innovative Trends in Communication and Computer Engineering",
-    "Authors": "Awny A. Sayed, Enas Elgeldawi, Alaa M. Zaki, Ahmed R. Galal",
-    "Affiliations": "Computer Science Department, Faculty of Science, Minia University, Minia, Egypt",
+    "Authors": [
+        "Awny A. Sayed",
+        "Enas Elgeldawi",
+        "Alaa M. Zaki",
+        "Ahmed R. Galal"
+    ],
+    "Affiliations": [
+        "Computer Science Department",
+        "Faculty of Science",
+        "Minia University",
+        "Minia",
+        "Egypt"
+    ],
     "Abstract": "This paper presents a novel approach for enhancing Arabic sentiment analysis using nine machine learning classifiers on a dataset of hotel reviews. It aims to improve classification accuracy with various pre-processing and feature extraction techniques.",
     "Added By": "Maryam Al Emadi"
 }

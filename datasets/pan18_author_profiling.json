@@ -7,30 +7,46 @@
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "We provide you with a training data set that consists of Twitter users labeled with gender. For each author, a total of 100 tweets and 10 images are provided. Authors are grouped by the language of their tweets: English, Arabic and Spanish.",
-    "Volume": "250,000",
+    "Volume": 250000.0,
     "Unit": "sentences",
-    "Ethical Risks": "",
-    "Provider": "Bauhaus-Universit\u00e4t Weimar",
-    "Derived From": "",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Bauhaus-Universit\u00e4t Weimar"
+    ],
+    "Derived From": [],
     "Paper Title": "Overview of the 6th Author Profiling Task at PAN 2018: Multimodal Gender Identification in Twitter",
     "Paper Link": "https://pan.webis.de/downloads/publications/papers/rangel_2018.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "zenodo",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "author profiling",
+    "Test Split": true,
+    "Tasks": [
+        "author profiling"
+    ],
     "Venue Title": "CLEF",
-    "Citations": "132.0",
     "Venue Type": "conference",
     "Venue Name": "Conference and Labs of the Evaluation Forum",
-    "Authors": "Rangel, Francisco, Rosso, Paolo, Potthast, Martin, & Stein, Benno.",
-    "Affiliations": "",
+    "Authors": [
+        "Rangel",
+        "Francisco",
+        "Rosso",
+        "Paolo",
+        "Potthast",
+        "Martin",
+        "& Stein",
+        "Benno."
+    ],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Nouamane Tazi"
 }

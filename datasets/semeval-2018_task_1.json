@@ -7,30 +7,47 @@
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "it creates a new Affect in Tweets dataset of more than 22,000 tweets such\nthat subsets are annotated for a number of emotion dimensions.",
-    "Volume": "22,000",
+    "Volume": 22000.0,
     "Unit": "tokens",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "SemEval-2018 Task 1: Affect in Tweets",
     "Paper Link": "https://aclanthology.org/S18-1001.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "CodaLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "emotion detection",
+    "Test Split": true,
+    "Tasks": [
+        "emotion detection"
+    ],
     "Venue Title": "SEMEVAL",
-    "Citations": "322.0",
     "Venue Type": "workshop",
     "Venue Name": "International Workshop on Semantic Evaluation",
-    "Authors": "Saif M. Mohammad,Felipe Bravo-Marquez,Mohammad Salameh,Svetlana Kiritchenko",
-    "Affiliations": "National Research Council Canada,University of Chile,,",
+    "Authors": [
+        "Saif M. Mohammad",
+        "Felipe Bravo-Marquez",
+        "Mohammad Salameh",
+        "Svetlana Kiritchenko"
+    ],
+    "Affiliations": [
+        "National Research Council Canada",
+        "University of Chile",
+        "",
+        ""
+    ],
     "Abstract": "We present the SemEval-2018 Task 1: Affect in Tweets, which includes an array of subtasks on inferring the affectual state of a person from their tweet. For each task, we created labeled data from English, Arabic, and Spanish tweets. The individual tasks are: 1. emotion intensity regression, 2. emotion intensity ordinal classification, 3. valence (sentiment) regression, 4. valence ordinal classification, and 5. emotion classification. Seventy-five teams (about 200 team members) participated in the shared task. We summarize the methods, resources, and tools used by the participating teams, with a focus on the techniques and resources that are particularly useful. We also analyze systems for consistent bias towards a particular race or gender. The data is made freely available to further improve our understanding of how people convey emotions through language.",
     "Added By": "Mustafa Ghaleb"
 }

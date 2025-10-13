@@ -7,30 +7,50 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Palestine",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "manual curation",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "Palestinian Arabic lexicon collected through manual curation and field surveys.",
-    "Volume": "36,302",
+    "Volume": 36302.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "Shahd Dibas, NYU Abu Dhabi",
-    "Derived From": "",
+    "Provider": [
+        "Shahd Dibas",
+        "NYU Abu Dhabi"
+    ],
+    "Derived From": [],
     "Paper Title": "Maknuune: A Large Open Palestinian Arabic Lexicon",
     "Paper Link": "https://arxiv.org/pdf/2210.12985.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "lexicon analysis",
+    "Test Split": false,
+    "Tasks": [
+        "lexicon analysis"
+    ],
     "Venue Title": "WANLP",
-    "Citations": "",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",
-    "Authors": "Shahd Dibas, Christian Khairallah, Nizar Habash, Omar Fayez Sadi, Tariq Sairafy, Karmel Sarabta, Abrar Ardah",
-    "Affiliations": "NYUAD, University of Oxford, UNRWA",
+    "Authors": [
+        "Shahd Dibas",
+        "Christian Khairallah",
+        "Nizar Habash",
+        "Omar Fayez Sadi",
+        "Tariq Sairafy",
+        "Karmel Sarabta",
+        "Abrar Ardah"
+    ],
+    "Affiliations": [
+        "NYUAD",
+        "University of Oxford",
+        "UNRWA"
+    ],
     "Abstract": "We present Maknuune, a large open lexicon for the Palestinian Arabic dialect. Maknuune has over 36K entries from 17K lemmas, and 3.7K roots. All entries include diacritized Arabic orthography, phonological transcription and English glosses. Some entries are enriched with additional information such as broken plurals and templatic feminine forms, associated phrases and collocations, Standard Arabic glosses, and examples or notes on grammar, usage, or location of collected entry.",
     "Added By": "Christian Khairallah"
 }

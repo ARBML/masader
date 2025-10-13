@@ -7,30 +7,37 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "crawling",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "7 full Quran recitations + 18K filtered user recitation",
-    "Volume": "61,000",
+    "Volume": 61000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "quran.ksu.edu.sa + tarteel.io",
-    "Derived From": "",
+    "Provider": [
+        "quran.ksu.edu.sa + tarteel.io"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Tarek Eldeeb"
 }

@@ -7,30 +7,46 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "web pages",
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "This release contains 243,117 source tokens before clitics were split, and 308,996 tree tokens after clitics were separated for treebank annotation. The source material is weblogs collected by LDC from various sources.",
-    "Volume": "243,117",
+    "Volume": 243117.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "University of Pennsylvania",
-    "Derived From": "",
-    "Paper Title": "Consistent and Flexible Integration of Morphological Annotation in the Arabic Treebank ",
+    "Provider": [
+        "University of Pennsylvania"
+    ],
+    "Derived From": [],
+    "Paper Title": "Consistent and Flexible Integration of Morphological Annotation in the Arabic Treebank",
     "Paper Link": "https://catalog.ldc.upenn.edu/docs/LDC2016T02/KulickBiesMaamouri-LREC2010.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "4,500.00 $",
-    "Test Split": "No",
-    "Tasks": "part of speech tagging",
+    "Test Split": false,
+    "Tasks": [
+        "part of speech tagging"
+    ],
     "Venue Title": "LREC",
-    "Citations": "24.0",
     "Venue Type": "conference",
-    "Venue Name": "International Conference on Language Resources and Evaluation (LREC 2010). ",
-    "Authors": "Mohamed Maamouri, Ann Bies, Seth Kulick, Sondos Krouna, Dalila Tabassi, Michael Ciul",
-    "Affiliations": "Linguistic Data Consortium - University of Pennsylvania",
-    "Abstract": "Complications arise for standoff annotation when the annotation is not on the source text itself, but on a more abstract representation.\nThis is particularly the case in a language such as Arabic with morphological and orthographic challenges, and we discuss various\naspects of these issues in the context of the Arabic Treebank. The Standard Arabic Morphological Analyzer (SAMA) is closely\nintegrated into the annotation workflow, as the basis for the abstraction between the explicit source text and the more abstract token\nrepresentation. However, this integration with SAMA gives rise to various problems for the annotation workflow and for maintaining\nthe link between the Treebank and SAMA. In this paper we discuss how we have overcome these problems with consistent and more\nprecise categorization of all of the tokens for their relationship with SAMA. We also discuss how we have improved the creation of\nseveral distinct alternative forms of the tokens used in the syntactic trees. As a result, the Treebank provides a resource relating the\ndifferent forms of the same underlying token with varying degrees of vocalization, in terms of how they relate (1) to each other, (2) to\nthe syntactic structure, and (3) to the morphological analyzer. ",
+    "Venue Name": "International Conference on Language Resources and Evaluation (LREC 2010).",
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Seth Kulick",
+        "Sondos Krouna",
+        "Dalila Tabassi",
+        "Michael Ciul"
+    ],
+    "Affiliations": [
+        "Linguistic Data Consortium - University of Pennsylvania"
+    ],
+    "Abstract": "Complications arise for standoff annotation when the annotation is not on the source text itself, but on a more abstract representation.\nThis is particularly the case in a language such as Arabic with morphological and orthographic challenges, and we discuss various\naspects of these issues in the context of the Arabic Treebank. The Standard Arabic Morphological Analyzer (SAMA) is closely\nintegrated into the annotation workflow, as the basis for the abstraction between the explicit source text and the more abstract token\nrepresentation. However, this integration with SAMA gives rise to various problems for the annotation workflow and for maintaining\nthe link between the Treebank and SAMA. In this paper we discuss how we have overcome these problems with consistent and more\nprecise categorization of all of the tokens for their relationship with SAMA. We also discuss how we have improved the creation of\nseveral distinct alternative forms of the tokens used in the syntactic trees. As a result, the Treebank provides a resource relating the\ndifferent forms of the same underlying token with varying degrees of vocalization, in terms of how they relate (1) to each other, (2) to\nthe syntactic structure, and (3) to the morphological analyzer.",
     "Added By": "Mustafa Ghaleb"
 }

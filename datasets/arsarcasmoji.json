@@ -7,30 +7,52 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "A dataset of 24,630 emoji-augmented Arabic texts, with 17.5% that are ironic (either humorous or sarcastic).",
-    "Volume": "24,630",
+    "Volume": 24630.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "Multiple Institutions",
-    "Derived From": "AraSenCorpus,ArCovid_19,ArSarcasm,Kawarith,ATSAD,ArSAS,TEAD,ASAD, etc.",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [
+        "AraSenCorpus",
+        "ArCovid_19",
+        "ArSarcasm",
+        "Kawarith",
+        "ATSAD",
+        "ArSAS",
+        "TEAD",
+        "ASAD",
+        "etc."
+    ],
     "Paper Title": "ArSarcasMoji Dataset: The Emoji Sentiment Roles in Arabic Ironic",
     "Paper Link": "https://aclanthology.org/2023.arabicnlp-1.18.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis, irony detection",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis",
+        "irony detection"
+    ],
     "Venue Title": "ArabicNLP",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",
-    "Authors": "Shatha Ali A. Hakami,Robert Hendley,Phillip Smith",
-    "Affiliations": "",
+    "Authors": [
+        "Shatha Ali A. Hakami",
+        "Robert Hendley",
+        "Phillip Smith"
+    ],
+    "Affiliations": [],
     "Abstract": "In digital communication, emoji are essential\nin decoding nuances such as irony, sarcasm,\nand humour. However, their incorporation in\nArabic natural language processing (NLP) has\nbeen cautious because of the perceived complexities of the Arabic language. This paper\nintroduces ArSarcasMoji, a dataset of 24,630\nemoji-augmented texts, with 17. 5% that shows\nirony. Through our analysis, we highlight specific emoji patterns paired with sentiment roles\nthat denote irony in Arabic texts. The research\ncounters prevailing notions, emphasising the\nimportance of emoji\u2019s role in understanding\nArabic textual irony, and addresses their potential for accurate irony detection in Arabic\ndigital content.",
     "Added By": "Zaid Alyafeai"
 }

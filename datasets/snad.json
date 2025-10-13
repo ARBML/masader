@@ -7,30 +7,45 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The data was scraped and collected from two of the most famous news sources in Saudi Arabia",
-    "Volume": "45,000",
+    "Volume": 45000.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Prince Sultan University",
-    "Derived From": "",
-    "Paper Title": "SNAD Arabic Dataset for Deep Learning\r\n",
+    "Provider": [
+        "Prince Sultan University"
+    ],
+    "Derived From": [],
+    "Paper Title": "SNAD Arabic Dataset for Deep Learning",
     "Paper Link": "https://link.springer.com/chapter/10.1007/978-3-030-55180-3_47",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "topic classification",
+    "Test Split": false,
+    "Tasks": [
+        "topic classification"
+    ],
     "Venue Title": "IntelliSys",
-    "Citations": "1.0",
     "Venue Type": "conference",
     "Venue Name": "Intelligent Systems Conference",
-    "Authors": "Deem Alsaleh,Mashael Bin Alamir,Souad Larabi Marie-Sainte",
-    "Affiliations": ",,",
+    "Authors": [
+        "Deem Alsaleh",
+        "Mashael Bin Alamir",
+        "Souad Larabi Marie-Sainte"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Natural language processing (NLP) captured the attention of researchers for the last years. NLP is applied in various applications and several disciplines. Arabic is a language that also benefited from NLP. However, only few Arabic datasets are available for researchers. For that, applying the Arabic NLP is limited in these datasets. Hence, this paper introduces a new dataset, SNAD. SNAD is collected to fill the gap in Arabic datasets, especially for classification using deep learning. The dataset has more than 45,000 records. Each record consists of the news title, news details, in addition to the news class. The dataset has six different classes. Moreover, cleaning and preprocessing are applied to the raw data to make it more efficient for classification purpose. Finally, the dataset is validated using the Convolutional Neural Networks and the result is efficient. The dataset is freely available online.",
     "Added By": "Zaid Alyafeai"
 }

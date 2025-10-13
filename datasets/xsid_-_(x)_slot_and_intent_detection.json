@@ -7,30 +7,35 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "human annotation",
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "An evaluation dataset of intent classification and slot detection",
-    "Volume": "800",
+    "Volume": 800.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "From Masked Language Modeling to Translation: Non-English Auxiliary Tasks Improve Zero-shot Spoken Language Understanding",
     "Paper Link": "https://aclanthology.org/2021.naacl-main.197.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "intent detection",
+    "Test Split": true,
+    "Tasks": [
+        "intent detection"
+    ],
     "Venue Title": "ACL",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Associations of computation linguistics",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "The lack of publicly available evaluation data for low-resource languages limits progress in Spoken Language Understanding (SLU). As key tasks like intent classification and slot filling require abundant training data, it is desirable to reuse existing data in high-resource languages to develop models for low-resource scenarios. We introduce XSID, a new benchmark for cross-lingual (X) Slot and Intent Detection in 13 languages from 6 language families, including a very low-resource dialect. To tackle the challenge, we propose a joint learning approach, with English SLU training data and non-English auxiliary tasks from raw text, syntax and translation for transfer. We study two setups which differ by type and language coverage of the pre-trained embeddings. Our results show that jointly learning the main tasks with masked language modeling is effective for slots, while machine translation transfer works best for intent classification",
     "Added By": "Amr Keleg"
 }

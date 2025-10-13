@@ -7,30 +7,52 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "CIDAR contains 10,000 instructions and their output. The dataset was created by selecting around 9,109 samples from Alpagasus dataset then translating it to Arabic using ChatGPT. In addition, we append that with around 891 Arabic grammar instructions from the webiste Ask the teacher. All the 10,000 samples were reviewed by around 12 reviewers.",
-    "Volume": "10,000",
+    "Volume": 10000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "ARBML",
-    "Derived From": "AlpaGasus",
+    "Provider": [
+        "ARBML"
+    ],
+    "Derived From": [
+        "AlpaGasus"
+    ],
     "Paper Title": "CIDAR: Culturally Relevant Instruction Dataset For Arabic",
     "Paper Link": "https://arxiv.org/pdf/2402.03177.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "instruction tuning",
+    "Test Split": false,
+    "Tasks": [
+        "instruction tuning"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Zaid Alyafeai, Khalid Almubarak, Ahmed Ashraf, Deema Alnuhait, Saied Alshahrani, Gubran A. Q. Abdulrahman, Gamil Ahmed, Qais Gawah, Zead Saleh, Mustafa Ghaleb, Yousef Ali, Maged S. Al-Shaibani",
-    "Affiliations": "",
+    "Authors": [
+        "Zaid Alyafeai",
+        "Khalid Almubarak",
+        "Ahmed Ashraf",
+        "Deema Alnuhait",
+        "Saied Alshahrani",
+        "Gubran A. Q. Abdulrahman",
+        "Gamil Ahmed",
+        "Qais Gawah",
+        "Zead Saleh",
+        "Mustafa Ghaleb",
+        "Yousef Ali",
+        "Maged S. Al-Shaibani"
+    ],
+    "Affiliations": [],
     "Abstract": "Instruction tuning has emerged as a prominent methodology for teaching Large Language Models (LLMs) to follow instructions.\nHowever, current instruction datasets predominantly cater to English or are derived from\nEnglish-dominated LLMs, resulting in inherent\nbiases toward Western culture. This bias significantly impacts the linguistic structures of\nnon-English languages such as Arabic, which\nhas a distinct grammar reflective of the diverse cultures across the Arab region. This\npaper addresses this limitation by introducing CIDAR1\nthe first open Arabic instructiontuning dataset culturally-aligned by human reviewers. CIDAR contains 10,000 instruction\nand output pairs that represent the Arab region. We discuss the cultural relevance of\nCIDAR via the analysis and comparison to other\nmodels fine-tuned on other datasets. Our experiments show that CIDAR can help enrich\nresearch efforts in aligning LLMs with the\nArabic culture. All the code is avail",
     "Added By": "Zaid Alyafeai"
 }

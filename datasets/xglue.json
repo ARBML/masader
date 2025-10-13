@@ -7,30 +7,70 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "XGLUE is a new benchmark dataset to evaluate the performance of cross-lingual pre-trained models with respect to cross-lingual natural language understanding and generation.  The training data of each task is in English while the validation and test data is present in multiple different languages. The following table shows which languages are present as validation and test data for each config.",
-    "Volume": "10,000",
+    "Volume": 10000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Microsoft",
-    "Derived From": "Universal Dependencies, MLQA, XNLI",
+    "Provider": [
+        "Microsoft"
+    ],
+    "Derived From": [
+        "Universal Dependencies",
+        "MLQA",
+        "XNLI"
+    ],
     "Paper Title": "XGLUE: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation",
     "Paper Link": "https://arxiv.org/pdf/2004.01401.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "part of speech tagging, question answering, natural language inference",
+    "Test Split": true,
+    "Tasks": [
+        "part of speech tagging",
+        "question answering",
+        "natural language inference"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Yaobo Liang, Nan Duan, Yeyun Gong, Ning Wu, Fenfei Guo, Weizhen Qi, Ming Gong, Linjun Shou,Daxin Jiang, Guihong Cao, Xiaodong Fan, Ruofei Zhang, Rahul Agrawal, Edward Cui, Sining Wei, Taroon Bharti,Ying Qiao, Jiun-Hung Chen, Winnie Wu, Shuguang Liu, Fan Yang, Daniel Campos, Rangan Majumder, Ming Zho",
-    "Affiliations": "microsoft ",
-    "Abstract": "\nIn this paper, we introduce XGLUE, a new\nbenchmark dataset that can be used to train\nlarge-scale cross-lingual pre-trained models\nusing multilingual and bilingual corpora and\nevaluate their performance across a diverse set\nof cross-lingual tasks. Comparing to GLUE\n(Wang et al., 2019), which is labeled in English for natural language understanding tasks\nonly, XGLUE has two main advantages: (1)\nit provides 11 diversified tasks that cover both\nnatural language understanding and generation\nscenarios; (2) for each task, it provides labeled\ndata in multiple languages. We extend a recent cross-lingual pre-trained model Unicoder\n(Huang et al., 2019) to cover both understanding and generation tasks, which is evaluated on\nXGLUE as a strong baseline. We also evaluate the base versions (12-layer) of Multilingual\nBERT, XLM and XLM-R for comparison",
+    "Authors": [
+        "Yaobo Liang",
+        "Nan Duan",
+        "Yeyun Gong",
+        "Ning Wu",
+        "Fenfei Guo",
+        "Weizhen Qi",
+        "Ming Gong",
+        "Linjun Shou",
+        "Daxin Jiang",
+        "Guihong Cao",
+        "Xiaodong Fan",
+        "Ruofei Zhang",
+        "Rahul Agrawal",
+        "Edward Cui",
+        "Sining Wei",
+        "Taroon Bharti",
+        "Ying Qiao",
+        "Jiun-Hung Chen",
+        "Winnie Wu",
+        "Shuguang Liu",
+        "Fan Yang",
+        "Daniel Campos",
+        "Rangan Majumder",
+        "Ming Zho"
+    ],
+    "Affiliations": [
+        "microsoft"
+    ],
+    "Abstract": "In this paper, we introduce XGLUE, a new\nbenchmark dataset that can be used to train\nlarge-scale cross-lingual pre-trained models\nusing multilingual and bilingual corpora and\nevaluate their performance across a diverse set\nof cross-lingual tasks. Comparing to GLUE\n(Wang et al., 2019), which is labeled in English for natural language understanding tasks\nonly, XGLUE has two main advantages: (1)\nit provides 11 diversified tasks that cover both\nnatural language understanding and generation\nscenarios; (2) for each task, it provides labeled\ndata in multiple languages. We extend a recent cross-lingual pre-trained model Unicoder\n(Huang et al., 2019) to cover both understanding and generation tasks, which is evaluated on\nXGLUE as a strong baseline. We also evaluate the base versions (12-layer) of Multilingual\nBERT, XLM and XLM-R for comparison",
     "Added By": "Zaid Alyafeai"
 }

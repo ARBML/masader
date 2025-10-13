@@ -1,5 +1,5 @@
 const request = axios.create({
-  baseURL: "https://web-production-25a2.up.railway.app",
+  baseURL: window.MasaderConfig.API_BASE_URL,
 });
 
 function ethicalBadge(text) {

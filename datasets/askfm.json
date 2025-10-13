@@ -7,30 +7,38 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "web pages",
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "This dataset is a merge of 98k questions and their respective answers as written by different authors on Askfm.",
-    "Volume": "98,000",
+    "Volume": 98000.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "information retrieval, question answering",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval",
+        "question answering"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "Omar Essam",
-    "Affiliations": "",
+    "Authors": [
+        "Omar Essam"
+    ],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Mustafa Ghaleb"
 }

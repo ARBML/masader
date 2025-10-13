@@ -7,30 +7,46 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Arabic Daily Comunication Corpus (ADCC) is daily conversations written text in Modern Standard Arabic which was collected from different resources.",
-    "Volume": "4,000,000",
+    "Volume": 4000000.0,
     "Unit": "tokens",
     "Ethical Risks": "Medium",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "Towards Intelligent Arabic Text-to-Speech Application for Disabled People",
     "Paper Link": "https://ieeexplore.ieee.org/document/7899133",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "language modeling, topic classification, information retrieval, natural language inference, text to speech",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling",
+        "topic classification",
+        "information retrieval",
+        "natural language inference",
+        "text to speech"
+    ],
     "Venue Title": "ICIHT",
-    "Citations": "1.0",
     "Venue Type": "conference",
     "Venue Name": "Proceeding of International Conference on Informatics, Health & Technology",
-    "Authors": "Amal Alsaif, Njoud Albadrani, Ashwag Alamro, Reham Alsaif",
-    "Affiliations": "Kingdom of Saudi Arabia Ministry of Education Al-Imam Muhammad Ibn Saud Islamic University",
+    "Authors": [
+        "Amal Alsaif",
+        "Njoud Albadrani",
+        "Ashwag Alamro",
+        "Reham Alsaif"
+    ],
+    "Affiliations": [
+        "Kingdom of Saudi Arabia Ministry of Education Al-Imam Muhammad Ibn Saud Islamic University"
+    ],
     "Abstract": "Assistive technology customizes speech technology to offer a new communication channel for disabled people such as blind or having speech difficulties. Converting written text into natural speech has been addressed in the last decades for some languages such as English, hence, used in many applications such as voice answering machines, reading articles and exploring software for blind people. Other languages such as Arabic are still not fully served to have high quality Text-To-Speech applications. This paper describes our effort in developing an intelligent Text-To-Speech mobile application for Arabic. We use a set of statistical language models n-gram for word prediction and auto-completion for easy typing. A large new Arabic corpus for daily communication in different domains is constructed which could be used for other purposes. A serious of normalization processing, including spelling correction, is applied to the corpus to maintain the consistency and unify the occurrence of the same words. We use outsource Sakhr Arabic Text-To-Speeh voices as one of the best speech synthesizer exist for Arabic. To ensure a high usability of the application, we use simple graphical user interface and easy access libraries to favorite phrases with an ability of adding pictures with recorded speech. Our experiments shows that word prediction using global and local corpus decries 50% of keystroke of typing desired sentences with a high prediction of 84% of bigram model.",
     "Added By": "Jezia Zakraoui"
 }

@@ -7,30 +7,37 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "other",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The recordings in this release feature news broadcasts focusing principally on current events from the following sources: Abu Dhabi TV, United Arab Emirates; Al Alam News Channel, based in Iran; Al Arabiya, a news television station based in Dubai; Al Iraqiyah, an Iraqi television station; Aljazeera, a regional broadcaster located in Doha, Qatar; Al-Manar TV, a broadcast programmer located in Lebanon; Al Ordiniyah, a national broadcast station in Jordan; Al Sharqiya, an Iraqi television station; Dubai TV, a broadcast station in the United Arab Emirates; Kuwait TV, a national broadcast station in Kuwait; Nile TV, a broadcast programmer based in Egypt; Oman TV, a national broadcaster located in the Sultanate of Oman; Saudi TV, a national television station based in Saudi Arabia; and Syria TV, the national television station in Syria.",
-    "Volume": "128",
+    "Volume": 128.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

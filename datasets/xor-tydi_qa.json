@@ -7,30 +7,51 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "XOR-TyDi QA brings together for the first time information-seeking questions, open-retrieval QA, and multilingual QA to create a multilingual open-retrieval QA dataset that enables cross-lingual answer retrieval. It consists of questions written by information-seeking native speakers in 7 typologically diverse languages and answer annotations that are retrieved from multilingual document collections.",
-    "Volume": "5,235",
+    "Volume": 5235.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions ",
-    "Derived From": "TYDIQA",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [
+        "TYDIQA"
+    ],
     "Paper Title": "XOR QA: Cross-lingual Open-Retrieval Question Answering",
     "Paper Link": "https://arxiv.org/pdf/2010.11856.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "question answering",
+    "Test Split": true,
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Akari Asai, Jungo Kasai, Jonathan H. Clark,Kenton Lee, Eunsol Choi,  Hannaneh Hajishirzi",
-    "Affiliations": "University of Washington, University of Washington, Google Research, The University of Texas at Austin; Allen Institute for AI",
+    "Authors": [
+        "Akari Asai",
+        "Jungo Kasai",
+        "Jonathan H. Clark",
+        "Kenton Lee",
+        "Eunsol Choi",
+        "Hannaneh Hajishirzi"
+    ],
+    "Affiliations": [
+        "University of Washington",
+        "University of Washington",
+        "Google Research",
+        "The University of Texas at Austin; Allen Institute for AI"
+    ],
     "Abstract": "Multilingual question answering tasks typically assume that answers exist in the same\nlanguage as the question. Yet in practice, many languages face both information\nscarcity\u2014where languages have few reference\narticles\u2014and information asymmetry\u2014where\nquestions reference concepts from other cultures. This work extends open-retrieval question answering to a cross-lingual setting enabling questions from one language to be answered via answer content from another language. We construct a large-scale dataset\nbuilt on 40K information-seeking questions\nacross 7 diverse non-English languages that\nTYDI QA could not find same-language answers for. Based on this dataset, we introduce\na task framework, called Cross-lingual OpenRetrieval Question Answering (XOR QA),\nthat consists of three new tasks involving crosslingual document retrieval from multilingual\nand English resources. We establish baselines\nwith state-of-the-art machine translation systems and cross-lingual pretrained models. Experimental results suggest that XOR QA is a\nchallenging task that will facilitate the development of novel techniques for multilingual\nquestion answering. Our data and code are\navailable at https://nlp.cs.washington.\nedu/xorqa/.",
     "Added By": "Zaid Alyafeai"
 }

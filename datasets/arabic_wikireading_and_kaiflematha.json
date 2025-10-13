@@ -7,30 +7,35 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "wikipedia",
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "high quality and large-scale Arabic reading comprehension datasets: Arabic WikiReading and KaifLematha with around +100 K instances.",
-    "Volume": "100,000",
+    "Volume": 100000.0,
     "Unit": "documents",
     "Ethical Risks": "Medium",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "https://link.springer.com/content/pdf/10.1007/s10579-022-09577-5.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "question answering",
+    "Test Split": true,
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "",
-    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Emad A. Alghamdi"
 }

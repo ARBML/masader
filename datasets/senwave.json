@@ -7,30 +7,37 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The largest fine-grained annotated Covid-19 tweets dataset",
-    "Volume": "10,000",
+    "Volume": 10000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple Institutions ",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "SenWave: Monitoring the Global Sentiments under the COVID-19 Pandemic",
     "Paper Link": "https://arxiv.org/pdf/2006.10842.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "emotion detection",
+    "Test Split": false,
+    "Tasks": [
+        "emotion detection"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Nora Alturayeif"
 }

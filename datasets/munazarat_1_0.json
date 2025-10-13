@@ -7,30 +7,40 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The Munazarat 1.0 Corpus is a unique resource for researchers interested in various aspects of Arabic competitive debating, Arabic linguistics studies, argumentation studies, education, and Arabic Natural Language Processing (NLP). It consists of approximately 50 hours of transcribed competitive debates, hosted by QatarDebate, covering university and school-level debates held between 2013 and 2023.",
-    "Volume": "73",
+    "Volume": 73.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "Munazarat 1.0: A Corpus of Arabic Competitive Debates",
     "Paper Link": "https://aclanthology.org/2024.osact-1.3.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "debate analysis",
+    "Test Split": false,
+    "Tasks": [
+        "debate analysis"
+    ],
     "Venue Title": "OSACT",
-    "Citations": "",
     "Venue Type": "workshop",
     "Venue Name": "The Workshop on Open-Source Arabic Corpora and Processing Tools",
-    "Authors": "Mohammad Khader, AbdulGabbar Al-Sharafi, Mohamad Hamza Al-Sioufy, Wajdi Zaghouani and Ali Al-Zawqari",
-    "Affiliations": "",
+    "Authors": [
+        "Mohammad Khader",
+        "AbdulGabbar Al-Sharafi",
+        "Mohamad Hamza Al-Sioufy",
+        "Wajdi Zaghouani and Ali Al-Zawqari"
+    ],
+    "Affiliations": [],
     "Abstract": "This paper introduces the Corpus of Arabic Competitive Debates, Munazarat. Despite the significance of\ncompetitive debating in fostering critical thinking and promoting dialogue, researchers in the fields of Arabic\nNatural Language Processing (NLP), linguistics, argumentation studies, and education have limited access\nto datasets on competitive debating. At this stage of the study, we introduce Munazarat 1.0, which combines\ntranscribed recordings of approximately 50 hours from 73 debates at QatarDebate-recognized tournaments,\nall available on YouTube. Munazarat is a novel specialized Arabic speech corpus, predominantly in Modern\nStandard Arabic (MSA), covering diverse debating topics and accompanied by metadata for each debate. The\ntranscription of debates was performed using Fenek, a speech-to-text Kanari AI tool, and reviewed by three native\nArabic speakers to enhance quality. The Munazarat 1.0 dataset can serve as a valuable resource for training\nArabic NLP tools, developing argumentation mining machines, and analyzing Arabic argumentation and rhetoric styles.",
     "Added By": "Zaid Alyafeai"
 }

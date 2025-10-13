@@ -7,30 +7,49 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "covers false and true claims from multiple domains (e.g., politics, sports, health) and several Arab countries",
-    "Volume": "4,063",
+    "Volume": 4063.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "AraStance: A Multi-Country and Multi-Domain Dataset of\r\nArabic Stance Detection for Fact Checking",
     "Paper Link": "https://arxiv.org/pdf/2104.13559.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "stance detection",
+    "Test Split": true,
+    "Tasks": [
+        "stance detection"
+    ],
     "Venue Title": "NLP4IF",
-    "Citations": "0.0",
     "Venue Type": "workshop",
     "Venue Name": "NLP for Internet Freedom",
-    "Authors": "Tariq Alhindi,Amal Alabdulkarim,A. Alshehri,Muhammad Abdul-Mageed,Preslav Nakov",
-    "Affiliations": "Columbia University;King Abdulaziz City for Science and Technology,,,,",
+    "Authors": [
+        "Tariq Alhindi",
+        "Amal Alabdulkarim",
+        "A. Alshehri",
+        "Muhammad Abdul-Mageed",
+        "Preslav Nakov"
+    ],
+    "Affiliations": [
+        "Columbia University;King Abdulaziz City for Science and Technology",
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "With the continuing spread of misinformation and disinformation online, it is of increasing importance to develop combating mechanisms at scale in the form of automated systems that support multiple languages. One task of interest is claim veracity prediction, which can be addressed using stance detection with respect to relevant documents retrieved online. To this end, we present our new Arabic Stance Detection dataset (AraStance) of 4,063 claim\u2013article pairs from a diverse set of sources comprising three fact-checking websites and one news website. AraStance covers false and true claims from multiple domains (e.g., politics, sports, health) and several Arab countries, and it is well-balanced between related and unrelated documents with respect to the claims. We benchmark AraStance, along with two other stance detection datasets, using a number of BERT-based models. Our best model achieves an accuracy of 85% and a macro F1 score of 78%, which leaves room for improvement and reflects the challenging nature of AraStance and the task of stance detection in general.",
     "Added By": ""
 }

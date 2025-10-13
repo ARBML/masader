@@ -7,30 +7,47 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "web pages",
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "SALMA corpus is part of the Wojood corpus (Jarrar et al., 2022), and was collected from 33 online media sources written in Modern Standard Arabic (MSA) and covering general topics.",
-    "Volume": "34,000",
+    "Volume": 34000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "SinaLab, Birzeit University",
-    "Derived From": "Wojood",
+    "Provider": [
+        "SinaLab",
+        "Birzeit University"
+    ],
+    "Derived From": [
+        "Wojood"
+    ],
     "Paper Title": "SALMA: Arabic Sense-Annotated Corpus and WSD Benchmarks",
     "Paper Link": "https://www.jarrar.info/publications/JMHK23.pdf",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "word sense disambiguation",
+    "Test Split": false,
+    "Tasks": [
+        "word sense disambiguation"
+    ],
     "Venue Title": "ArabicNLP",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",
-    "Authors": "Mustafa Jarrar, Sanad Malaysha, Tymaa Hammouda, Mohammed Khalilia",
-    "Affiliations": "Birzeit University;Birzeit University;Birzeit University;Birzeit University",
+    "Authors": [
+        "Mustafa Jarrar",
+        "Sanad Malaysha",
+        "Tymaa Hammouda",
+        "Mohammed Khalilia"
+    ],
+    "Affiliations": [
+        "Birzeit University;Birzeit University;Birzeit University;Birzeit University"
+    ],
     "Abstract": "SALMA, the first Arabic sense-annotated corpus, consists of ~34K tokens, which are all senseannotated. The corpus is annotated using two different sense inventories simultaneously (Modern\nand Ghani). SALMA novelty lies in how tokens\nand senses are associated. Instead of linking a\ntoken to only one intended sense, SALMA links\na token to multiple senses and provides a score to\neach sense. A smart web-based annotation tool\nwas developed to support scoring multiple senses\nagainst a given word. In addition to sense annotations, we also annotated the corpus using six types\nof named entities. The quality of our annotations\nwas assessed using various metrics (Kappa, Linear Weighted Kappa, Quadratic Weighted Kappa,\nMean Average Error, and Root Mean Square Error), which show very high inter-annotator agreement. To establish a Word Sense Disambiguation\nbaseline using our SALMA corpus, we developed\nan end-to-end Word Sense Disambiguation system using Target Sense Verification. We used this\nsystem to evaluate three Target Sense Verification\nmodels available in the literature. Our best model\nachieved an accuracy with 84.2% using Modern\nand 78.7% using Ghani. The full corpus and the\nannotation tool are open-source and publicly available at https://sina.birzeit.edu/salma/.",
     "Added By": "Zaid Alyafeai"
 }

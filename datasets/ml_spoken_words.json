@@ -7,30 +7,61 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "other",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Multilingual Spoken Words Corpus (MSWC), a large and growing audio dataset of spoken words in 50 different languages.",
-    "Volume": "7.6",
+    "Volume": 7.6,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "Coqui, Factored, Google, Harvard University, Intel, Landing AI, NVIDIA, University of Michigan",
-    "Derived From": "Common Voice dataset",
+    "Provider": [
+        "Coqui",
+        "Factored",
+        "Google",
+        "Harvard University",
+        "Intel",
+        "Landing AI",
+        "NVIDIA",
+        "University of Michigan"
+    ],
+    "Derived From": [
+        "Common Voice dataset"
+    ],
     "Paper Title": "Multilingual Spoken Words Corpus",
     "Paper Link": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/fe131d7f5a6b38b23cc967316c13dae2-Paper-round2.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "keyphrase extraction",
+    "Test Split": true,
+    "Tasks": [
+        "keyphrase extraction"
+    ],
     "Venue Title": "NeurIPS",
-    "Citations": "1.0",
     "Venue Type": "conference",
     "Venue Name": "The Conference on Neural Information Processing Systems",
-    "Authors": "Mark Mazumder, Sharad Chitlangia, Colby Banbury, Yiping Kang, Juan Ciro, Keith Achorn, Daniel Galvez, Mark Sabini, Peter Mattson, David Kanter, Greg Diamos, Pete Warden, Josh Meyer, Vijay Janapa Reddi",
-    "Affiliations": "",
+    "Authors": [
+        "Mark Mazumder",
+        "Sharad Chitlangia",
+        "Colby Banbury",
+        "Yiping Kang",
+        "Juan Ciro",
+        "Keith Achorn",
+        "Daniel Galvez",
+        "Mark Sabini",
+        "Peter Mattson",
+        "David Kanter",
+        "Greg Diamos",
+        "Pete Warden",
+        "Josh Meyer",
+        "Vijay Janapa Reddi"
+    ],
+    "Affiliations": [],
     "Abstract": "Coqui, Factored, Google, Harvard University, Intel, Landing AI, NVIDIA, University of Michigan",
     "Added By": "Wafaa Mohammed"
 }

@@ -1,6 +1,5 @@
-var url = "https://web-production-25a2.up.railway.app/datasets";
-var urlEmbClus =
-  "https://web-production-25a2.up.railway.app/datasets?features=Cluster,Embeddings";
+var url = window.MasaderConfig.DATASETS_URL;
+var urlEmbClus = window.MasaderConfig.DATASETS_WITH_EMBEDDINGS_URL;
 
 function reformat_numbers(num) {
   if (num === undefined) return "";

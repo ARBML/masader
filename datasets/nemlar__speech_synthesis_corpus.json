@@ -7,30 +7,35 @@
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "other",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The NEMLAR Speech Synthesis Corpus contains the recordings of 2 native Egyptian Arabic speakers (male and female, 35 and 27 years old respectively) recorded in a studio over 2 channels (voice + laryngograph). The recordings comprise more than 10 hours of data with transcriptions.",
-    "Volume": "10",
+    "Volume": 10.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": " ",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "1,000.00\u20ac",
-    "Test Split": "No",
-    "Tasks": "speech recognition ",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

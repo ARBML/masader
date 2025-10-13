@@ -7,30 +7,38 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "ArSen-20, a benchmark dataset tailored to propel Arabic sentiment detection forward. ArSen-20 comprises 20,000 professionally labeled tweets sourced from Twitter, focusing on the theme of COVID-19 and spanning the period from 2020 to 2023",
-    "Volume": "20,000",
+    "Volume": 20000.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "English-Arabic Phonetic Dataset construction",
     "Paper Link": "https://www.bio-conferences.org/articles/bioconf/pdf/2024/16/bioconf_iscku2024_00057.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "ISCKU",
-    "Citations": "",
     "Venue Type": "workshop",
     "Venue Name": "International Scientific Conference of Alkafeel University",
-    "Authors": "Zaid Rajih Mohammed1,Ahmed H. Aliwy ",
-    "Affiliations": "",
-    "Abstract": " In the field of natural language processing, the effectiveness of a semantic similarity\ntask is significantly influenced by the presence of an extensive corpus. While numerous\nmonolingual corpora exist, predominantly in English, the availability of multilingual resources remains quite restricted. In this study, we present a semi- automated framework designed for generating a multilingual phonetic English- Arabic corpus, specifically tailored for application in multilingual phonetically and semantic similarity tasks. The proposed model consists of four phases: data gathering, preprocessing and translation, extraction IPA representation, and manual correction. Four datasets were used one of them was constructed from many sources. A manual correction was used at all the levels of the system to produce a golden standard dataset. The final dataset was in the form (English Word, English Phonetic, equivalent Arabic Word, and Arabic Phonetic). Also, a deep learning approach was used for extracting International Phonetic Alphabet\n(IPA) phonetic representation where the results for 13400 samples show that the Phonetic Error Rate (PER) and accuracy were 11.96% and 88.04 % respectively which are good results for producing IPA representation for unknown English and Arabic names.",
+    "Authors": [
+        "Zaid Rajih Mohammed1",
+        "Ahmed H. Aliwy"
+    ],
+    "Affiliations": [],
+    "Abstract": "In the field of natural language processing, the effectiveness of a semantic similarity\ntask is significantly influenced by the presence of an extensive corpus. While numerous\nmonolingual corpora exist, predominantly in English, the availability of multilingual resources remains quite restricted. In this study, we present a semi- automated framework designed for generating a multilingual phonetic English- Arabic corpus, specifically tailored for application in multilingual phonetically and semantic similarity tasks. The proposed model consists of four phases: data gathering, preprocessing and translation, extraction IPA representation, and manual correction. Four datasets were used one of them was constructed from many sources. A manual correction was used at all the levels of the system to produce a golden standard dataset. The final dataset was in the form (English Word, English Phonetic, equivalent Arabic Word, and Arabic Phonetic). Also, a deep learning approach was used for extracting International Phonetic Alphabet\n(IPA) phonetic representation where the results for 13400 samples show that the Phonetic Error Rate (PER) and accuracy were 11.96% and 88.04 % respectively which are good results for producing IPA representation for unknown English and Arabic names.",
     "Added By": "Zaid Alyafeai"
 }

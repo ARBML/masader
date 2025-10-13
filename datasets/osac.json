@@ -7,30 +7,43 @@
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "collecting the largest free\r\naccessible Arabic corpus, OSAC, which contains about\r\n18M words and about 0.5M district keywords.",
-    "Volume": "22,429",
+    "Volume": 22429.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Islamic University of Gaza",
-    "Derived From": "",
-    "Paper Title": "OSAC: Open Source Arabic Corpora\r",
+    "Provider": [
+        "Islamic University of Gaza"
+    ],
+    "Derived From": [],
+    "Paper Title": "OSAC: Open Source Arabic Corpora",
     "Paper Link": "http://site.iugaza.edu.ps/wp-content/uploads/mksaad-OSAC-OpenSourceArabicCorpora-EECS10-rev9(1).pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "topic classification",
+    "Test Split": false,
+    "Tasks": [
+        "topic classification"
+    ],
     "Venue Title": "other",
-    "Citations": "101.0",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Motaz Saad,W. Ashour",
-    "Affiliations": "The Islamic University of Gaza,",
+    "Authors": [
+        "Motaz Saad",
+        "W. Ashour"
+    ],
+    "Affiliations": [
+        "The Islamic University of Gaza",
+        ""
+    ],
     "Abstract": "Arabic Linguistics is promising research field. The acute lack of free public accessible Arabic corpora is one of the major difficulties that Arabic linguistics researches face. The effort of this paper is a step towards supporting Arabic linguistics research field. This paper presents the complex nature of Arabic language, pose the problems of: (1) lacking free public Arabic corpora, (2) the lack of high-quality, wellstructured Arabic digital contents. The paper finally presents OSAC, the largest free accessible that we collected.",
     "Added By": "Zaid Alyafeai"
 }

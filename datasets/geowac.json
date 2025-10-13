@@ -2,99 +2,99 @@
     "Name": "GeoWAC",
     "Subsets": [
         {
-            "Name": "United_Arab_Emirates ",
+            "Name": "United_Arab_Emirates",
             "Dialect": "United Arab Emirates",
-            "Volume": "102,370,313",
+            "Volume": 102370313.0,
             "Unit": "tokens"
         },
         {
-            "Name": "Palestine ",
+            "Name": "Palestine",
             "Dialect": "Palestine",
-            "Volume": "97,161,325",
+            "Volume": 97161325.0,
             "Unit": "tokens"
         },
         {
-            "Name": "Morocco ",
+            "Name": "Morocco",
             "Dialect": "Morocco",
-            "Volume": "78,749,159",
+            "Volume": 78749159.0,
             "Unit": "tokens"
         },
         {
             "Name": "Syria",
             "Dialect": "Syria",
-            "Volume": "24,308,507",
+            "Volume": 24308507.0,
             "Unit": "tokens"
         },
         {
-            "Name": "Saudi_Arabia ",
+            "Name": "Saudi_Arabia",
             "Dialect": "Saudi Arabia",
-            "Volume": "14,651,603",
+            "Volume": 14651603.0,
             "Unit": "tokens"
         },
         {
             "Name": "Algeria",
             "Dialect": "Algeria",
-            "Volume": "11,533,390",
+            "Volume": 11533390.0,
             "Unit": "tokens"
         },
         {
-            "Name": "Qatar ",
+            "Name": "Qatar",
             "Dialect": "Qatar",
-            "Volume": "10,783,360",
+            "Volume": 10783360.0,
             "Unit": "tokens"
         },
         {
             "Name": "Jordan",
             "Dialect": "Jordan",
-            "Volume": "8,638,264",
+            "Volume": 8638264.0,
             "Unit": "tokens"
         },
         {
             "Name": "Oman",
             "Dialect": "Oman",
-            "Volume": "5,508,084",
+            "Volume": 5508084.0,
             "Unit": "tokens"
         },
         {
             "Name": "Bahrain",
             "Dialect": "Bahrain",
-            "Volume": "4,524,743",
+            "Volume": 4524743.0,
             "Unit": "tokens"
         },
         {
-            "Name": "Iraq ",
+            "Name": "Iraq",
             "Dialect": "Iraq",
-            "Volume": "4,497,374",
+            "Volume": 4497374.0,
             "Unit": "tokens"
         },
         {
             "Name": "Tunisia",
             "Dialect": "Tunisia",
-            "Volume": "3,581,885",
+            "Volume": 3581885.0,
             "Unit": "tokens"
         },
         {
             "Name": "Sudan",
             "Dialect": "Sudan",
-            "Volume": "2,522,356",
+            "Volume": 2522356.0,
             "Unit": "tokens"
         },
         {
             "Name": "Egypt",
             "Dialect": "Egypt",
-            "Volume": "2,465,722",
+            "Volume": 2465722.0,
             "Unit": "tokens"
         },
         {
-            "Name": "Djibouti ",
+            "Name": "Djibouti",
             "Dialect": "Djibouti",
-            "Volume": "1,468,411",
+            "Volume": 1468411.0,
             "Unit": "tokens"
         },
         {
             "Name": "Somalia",
             "Dialect": "Somalia",
-            "Volume": "255,511",
+            "Volume": 255511.0,
             "Unit": "tokens"
         }
     ],
@@ -104,30 +104,43 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "match the ground-truth geographic\r\ndistribution of each language",
-    "Volume": "373,020,007",
+    "Volume": 373020007.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "University of Canterbury",
-    "Derived From": "",
-    "Paper Title": "Geographically-Balanced Gigaword Corpora for 50 Language Varieties\r",
+    "Provider": [
+        "University of Canterbury"
+    ],
+    "Derived From": [],
+    "Paper Title": "Geographically-Balanced Gigaword Corpora for 50 Language Varieties",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.308.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "dialect identification",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "LREC",
-    "Citations": "5.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Jonathan Dunn,B. Adams",
-    "Affiliations": "University of Canterbury,",
+    "Authors": [
+        "Jonathan Dunn",
+        "B. Adams"
+    ],
+    "Affiliations": [
+        "University of Canterbury",
+        ""
+    ],
     "Abstract": "While text corpora have been steadily increasing in overall size, even very large corpora are not designed to represent global population demographics. For example, recent work has shown that existing English gigaword corpora over-represent inner-circle varieties from the US and the UK. To correct implicit geographic and demographic biases, this paper uses country-level population demographics to guide the construction of gigaword web corpora. The resulting corpora explicitly match the ground-truth geographic distribution of each language, thus equally representing language users from around the world. This is important because it ensures that speakers of under-resourced language varieties (i.e., Indian English or Algerian French) are represented, both in the corpora themselves but also in derivative resources like word embeddings.",
     "Added By": "Zaid Alyafeai"
 }

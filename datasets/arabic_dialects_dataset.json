@@ -4,31 +4,31 @@
         {
             "Name": "GLF",
             "Dialect": "Gulf",
-            "Volume": "2,546",
+            "Volume": 2546.0,
             "Unit": "sentences"
         },
         {
             "Name": "LAV",
             "Dialect": "Levant",
-            "Volume": "2,463",
+            "Volume": 2463.0,
             "Unit": "sentences"
         },
         {
             "Name": "MSA",
             "Dialect": "Modern Standard Arabic",
-            "Volume": "3,731",
+            "Volume": 3731.0,
             "Unit": "sentences"
         },
         {
             "Name": "NOR",
             "Dialect": "North Africa",
-            "Volume": "3,693",
+            "Volume": 3693.0,
             "Unit": "sentences"
         },
         {
             "Name": "EGY",
             "Dialect": "Egypt",
-            "Volume": "4,061",
+            "Volume": 4061.0,
             "Unit": "sentences"
         }
     ],
@@ -38,30 +38,47 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Dataset of Arabic dialects for GULF, EGYPT, LEVANT, TONESIAN Arabic dialects in addition to MSA.",
-    "Volume": "16,494",
+    "Volume": 16494.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Lancaster University",
-    "Derived From": "OAC",
-    "Paper Title": "Arabic Dialect Identification in the Context of Bivalency and Code-Switching\r",
+    "Provider": [
+        "Lancaster University"
+    ],
+    "Derived From": [
+        "OAC"
+    ],
+    "Paper Title": "Arabic Dialect Identification in the Context of Bivalency and Code-Switching",
     "Paper Link": "https://aclanthology.org/L18-1573.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "dialect identification",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "LREC",
-    "Citations": "17.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Mahmoud El-Haj,Paul Rayson,Mariam Aboelezz",
-    "Affiliations": "Lancaster University,Lancaster University,",
+    "Authors": [
+        "Mahmoud El-Haj",
+        "Paul Rayson",
+        "Mariam Aboelezz"
+    ],
+    "Affiliations": [
+        "Lancaster University",
+        "Lancaster University",
+        ""
+    ],
     "Abstract": "In this paper we use a novel approach towards Arabic dialect identification using language bivalency and written code-switching. Bivalency between languages or dialects is where a word or element is treated by language users as having a fundamentally similar semantic content in more than one language or dialect. Arabic dialect identification in writing is a difficult task even for humans due to the fact that words are used interchangeably between dialects. The task of automatically identifying dialect is harder and classifiers trained using only n-grams will perform poorly when tested on unseen data. Such approaches require significant amounts of annotated training data which is costly and time consuming to produce. Currently available Arabic dialect datasets do not exceed a few hundred thousand sentences, thus we need to extract features other than word and character n-grams. In our work we present experimental results from automatically identifying dialects from the four main Arabic dialect regions (Egypt, North Africa, Gulf and Levant) in addition to Standard Arabic. We extend previous work by incorporating additional grammatical and stylistic features and define a subtractive bivalency profiling approach to address issues of bivalent words across the examined Arabic dialects. The results show that our new methods classification accuracy can reach more than 76% and score well (66%) when tested on completely unseen data.",
     "Added By": ""
 }

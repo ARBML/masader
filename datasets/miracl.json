@@ -7,30 +7,35 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "wikipedia",
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "(Multilingual Information Retrieval Across a Continuum of Languages) is a multilingual retrieval dataset that focuses on search across 18 different languages, which collectively encompass over three billion native speakers around the world.",
-    "Volume": "2,061,414",
+    "Volume": 2061414.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "information retrieval",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

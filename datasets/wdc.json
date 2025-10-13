@@ -7,30 +7,45 @@
     "Year": 2014,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "wikipedia",
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "contains around\n6 million tokens representing different genres, as\nWikipedia is considered an open domain",
-    "Volume": "6,000,000",
+    "Volume": 6000000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "University of Essex",
-    "Derived From": "",
+    "Provider": [
+        "University of Essex"
+    ],
+    "Derived From": [],
     "Paper Title": "Automatic Creation of Arabic Named Entity Annotated Corpus Using\r\nWikipedia",
     "Paper Link": "https://aclanthology.org/E14-3012.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "named entity recognition",
+    "Test Split": false,
+    "Tasks": [
+        "named entity recognition"
+    ],
     "Venue Title": "EACL",
-    "Citations": "14.0",
     "Venue Type": "conference",
     "Venue Name": "European Chapter of the Association for Computational Linguistics",
-    "Authors": "M. Althobaiti,Udo Kruschwitz,Massimo Poesio",
-    "Affiliations": ",University of Regensburg,",
+    "Authors": [
+        "M. Althobaiti",
+        "Udo Kruschwitz",
+        "Massimo Poesio"
+    ],
+    "Affiliations": [
+        "",
+        "University of Regensburg",
+        ""
+    ],
     "Abstract": "In this paper we propose a new methodology to exploit Wikipedia features and structure to automatically develop an Arabic NE annotated corpus. Each Wikipedia link is transformed into an NE type of the target article in order to produce the NE annotation. Other Wikipedia features - namely redirects, anchor texts, and inter-language links - are used to tag additional NEs, which appear without links in Wikipedia texts. Furthermore, we have developed a filtering algorithm to eliminate ambiguity when tagging candidate NEs. Herein we also introduce a mechanism based on the high coverage of Wikipedia in order to address two challenges particular to tagging NEs in Arabic text: rich morphology and the absence of capitalisation. The corpus created with our new method (WDC) has been used to train an NE tagger which has been tested on different domains. Judging by the results, an NE tagger trained on WDC can compete with those trained on manually annotated corpora.",
     "Added By": "Zaid Alyafeai"
 }

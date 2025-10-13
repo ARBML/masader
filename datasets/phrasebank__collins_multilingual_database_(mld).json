@@ -7,30 +7,37 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "other",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The PhraseBank consists of 2,000 phrases in 28 languages (Arabic, Chinese, Croatian, Czech, Danish, Dutch, American English, British English, Farsi, Finnish, French, German, Greek, Hindi, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Iberian), Portuguese (Brazilian), Russian, Spanish (Iberian), Spanish (Latin American), Swedish, Thai, Turkish, Vietnamese). Phrases are organised under 12 main topics and 67 subtopics. Covered topics are: talking to people, getting around, accommodation, shopping, leisure, communications, practicalities, health and beauty, eating and drinking, time.",
-    "Volume": "2,000",
+    "Volume": 2000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "-",
-    "Derived From": "",
+    "Provider": [
+        "-"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "2,240.00\u20ac",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

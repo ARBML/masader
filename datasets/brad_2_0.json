@@ -7,30 +7,45 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "reviews",
+    "Domain": [
+        "reviews"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "extension to BRAD 1.0 with more than 200K extra records to account for several Arabic dialects.",
-    "Volume": "692,586",
+    "Volume": 692586.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "University of Sharjah",
-    "Derived From": "",
+    "Provider": [
+        "University of Sharjah"
+    ],
+    "Derived From": [],
     "Paper Title": "An Annotated Huge Dataset for Standard and Colloquial Arabic Reviews for Subjective Sentiment Analysis",
     "Paper Link": "https://www.sciencedirect.com/science/article/pii/S1877050918321781",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "review classification",
+    "Test Split": true,
+    "Tasks": [
+        "review classification"
+    ],
     "Venue Title": "ACLING",
-    "Citations": "28.0",
     "Venue Type": "conference",
     "Venue Name": "nternational Conference on AI in Computational Linguistics",
-    "Authors": "Ashraf Elnagar,Leena Lulu,Omar Einea",
-    "Affiliations": ",,",
+    "Authors": [
+        "Ashraf Elnagar",
+        "Leena Lulu",
+        "Omar Einea"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Abstract Sentiment analysis is getting increasingly popular as it facilitates gaining an indication of the wider public opinions or attitudes towards certain products, services, articles, etc. Many researchers have shown considerable interest in this field. Most of these studies have focused on English and other Indo-European languages. Very few studies have addressed the problem for the Arabic language. This is, mostly, due to the rare or nonexistent huge and free Arabic datasets that contains both Modern Standard Arabic (MSA) as well as Dialectal Arabic (DA). Generally, one of the main challenges for developing robust sentiment analysis systems is the availability of such large-scale datasets. Such datasets exist in abundance for English language, while it is not the case for a low-resource language such as the Arabic language. Recently, there have been some efforts for providing relatively large-scale Arabic datasets dedicated for sentiment analysis such as LABR and most recently BRAD 1.0, which is considered as the largest Arabic Book Reviews dataset for sentiment analysis and machine learning applications. In this work, we present BRAD 2.0, an extension to BRAD 1.0 with more than 200K extra records to account for several Arabic dialects. BRAD 2.0 has a total number of 692586 annotated reviews; each represents a single review along with the reviewer\u2019s rating ranging from 1 to 5 of a certain book. The most interesting property of BRAD 2.0 is that it combines both MSA and DA. To verify and validate the proposed dataset, we implement several state-of-the-art supervised and unsupervised classifiers to categorize book reviews. For the unsupervised classifiers, we implemented several models of CNN and RNN classifiers utilizing GloVe-based word embeddings. Although all classifiers performed well, the highest accuracies attained are between 90% and 91%. Experimental results show that BRAD 2.0 is rich and robust. Our key contribution is to make this benchmark-dataset available and accessible to promote further research in the field of Arabic computational linguistic.",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,30 +7,48 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": "books",
+    "Domain": [
+        "books"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "the Camel Treebank (CAMELTB) is a 188K word open-source dependency treebank of Modern Standard and Classical Arabic. It includes 13 sub-corpora comprising selections of texts from pre-Islamic poetry to social media online commentaries, and covering a range of genres from religious and philosophical texts to news, novels, and student essays.",
-    "Volume": "242,000",
+    "Volume": 242000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "NYU Abu Dhabi",
-    "Derived From": "",
+    "Provider": [
+        "NYU Abu Dhabi"
+    ],
+    "Derived From": [],
     "Paper Title": "Camel Treebank: An Open Multi-genre Arabic Dependency Treebank",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.286.pdf",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "part of speech tagging, morphological analysis, dependency parsing",
+    "Test Split": true,
+    "Tasks": [
+        "part of speech tagging",
+        "morphological analysis",
+        "dependency parsing"
+    ],
     "Venue Title": "LREC",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Language Resources and Evaluation Conference",
-    "Authors": "Nizar Habash, Muhammed AbuOdeh, Dima Taji, Reem Faraj, Jamila El Gizuli,  Omar Kallas",
-    "Affiliations": "New York University Abu Dhabi",
+    "Authors": [
+        "Nizar Habash",
+        "Muhammed AbuOdeh",
+        "Dima Taji",
+        "Reem Faraj",
+        "Jamila El Gizuli",
+        "Omar Kallas"
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi"
+    ],
     "Abstract": "We present the Camel Treebank (CAMELTB), a 188K word open-source dependency treebank of Modern Standard and Classical\nArabic. CAMELTB 1.0 includes 13 sub-corpora comprising selections of texts from pre-Islamic poetry to social media online\ncommentaries, and covering a range of genres from religious and philosophical texts to news, novels, and student essays. The\ntexts are all publicly available (out of copyright, creative commons, or under open licenses). The texts were morphologically\ntokenized and syntactically parsed automatically, and then manually corrected by a team of trained annotators. The annotations\nfollow the guidelines of the Columbia Arabic Treebank (CATiB) dependency representation. We discuss our annotation process\nand guideline extensions, and we present some initial observations on lexical and syntactic differences among the annotated\nsub-corpora. This corpus will be publicly available to support and encourage research on Arabic NLP in general and on new,\npreviously unexplored genres that are of interest to a wider spectrum of researchers, from historical linguistics and digital\nhumanities to computer-assisted language pedagogy.",
     "Added By": "Nizar Habash"
 }

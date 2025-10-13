@@ -7,30 +7,42 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "we conducted empirical research to understand the errors in ANERcorp, correct them and propose a cleaner version of the dataset named CLEANANERCorp. CLEANANERCorp will serve the research community as a more accurate and consistent benchmark",
-    "Volume": "150,000",
+    "Volume": 150000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "IWAN",
-    "Derived From": "ANERcorp",
+    "Provider": [
+        "IWAN"
+    ],
+    "Derived From": [
+        "ANERcorp"
+    ],
     "Paper Title": "CLEANANERCorp: Identifying and Correcting Incorrect Labels in the ANERcorp Dataset",
     "Paper Link": "https://aclanthology.org/2024.osact-1.2.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "named entity recognition",
+    "Test Split": false,
+    "Tasks": [
+        "named entity recognition"
+    ],
     "Venue Title": "OSACT",
-    "Citations": "",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
-    "Authors": "Mashael AlDuwais, Hend Al-Khalifa and Abdulmalik AlSalman",
-    "Affiliations": "",
+    "Authors": [
+        "Mashael AlDuwais",
+        "Hend Al-Khalifa and Abdulmalik AlSalman"
+    ],
+    "Affiliations": [],
     "Abstract": "Label errors are a common issue in machine learning datasets, particularly for tasks such as Named Entity Recognition.\nSuch label errors might hurt model training, affect evaluation results, and lead to an inaccurate assessment of model\nperformance. In this study, we dived deep into one of the widely adopted Arabic NER benchmark datasets (ANERcorp)\nand found a significant number of annotation errors, missing labels, and inconsistencies. Therefore, in this study, we\nconducted empirical research to understand these errors, correct them and propose a cleaner version of the dataset\nnamed CLEANANERCorp. CLEANANERCorp will serve the research community as a more accurate and consistent\nbenchmark.",
     "Added By": "Zaid Alyafeai"
 }

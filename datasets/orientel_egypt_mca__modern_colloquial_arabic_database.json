@@ -1,5 +1,5 @@
 {
-    "Name": "OrienTel Egypt MCA: Modern Colloquial Arabic database ",
+    "Name": "OrienTel Egypt MCA: Modern Colloquial Arabic database",
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-S0221/",
@@ -7,30 +7,37 @@
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "manual curation",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "The OrienTel Egypt MCA (Modern Colloquial Arabic) database comprises 750 Egyptian speakers (398 males, 352 females) recorded over the Egyptian fixed and mobile telephone network.",
-    "Volume": "18,571",
+    "Volume": 18571.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "OrienTel",
-    "Derived From": "",
+    "Provider": [
+        "OrienTel"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "22,500.00\u20ac",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

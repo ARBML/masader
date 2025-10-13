@@ -7,30 +7,47 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Arabic COVID-19 Twitter dataset that covers the period from 27th of January till 5th of May 2021.",
-    "Volume": "3,140,158",
+    "Volume": 3140158.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Qatar University",
-    "Derived From": "",
+    "Provider": [
+        "Qatar University"
+    ],
+    "Derived From": [],
     "Paper Title": "ArCOV-19: The First Arabic COVID-19 Twitter Dataset\r\nwith Propagation Networks",
     "Paper Link": "https://camel.abudhabi.nyu.edu/WANLP-2021-Program/47_Paper.pdf",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "information retrieval",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval"
+    ],
     "Venue Title": "WANLP",
-    "Citations": "18.0",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",
-    "Authors": "Fatima Haouari,Maram Hasanain,Reem Suwaileh,T. Elsayed",
-    "Affiliations": ",,,",
+    "Authors": [
+        "Fatima Haouari",
+        "Maram Hasanain",
+        "Reem Suwaileh",
+        "T. Elsayed"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "In this paper, we present ArCOV-19, an Arabic COVID-19 Twitter dataset that spans one year, covering the period from 27th of January 2020 till 31st of January 2021. ArCOV-19 is the first publicly-available Arabic Twitter dataset covering COVID-19 pandemic that includes about 2.7M tweets alongside the propagation networks of the most-popular subset of them (i.e., most-retweeted and -liked). The propagation networks include both retweetsand conversational threads (i.e., threads of replies). ArCOV-19 is designed to enable research under several domains including natural language processing, information retrieval, and social computing. Preliminary analysis shows that ArCOV-19 captures rising discussions associated with the first reported cases of the disease as they appeared in the Arab world.In addition to the source tweets and the propagation networks, we also release the search queries and the language-independent crawler used to collect the tweets to encourage the curation of similar datasets.",
     "Added By": ""
 }

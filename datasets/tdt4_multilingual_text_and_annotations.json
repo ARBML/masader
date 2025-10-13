@@ -7,30 +7,37 @@
     "Year": 2005,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The TDT4 corpus contains news data collected daily from 20 news sources in three languages over a period of four months (October 2000 through January 2001).",
-    "Volume": "100,000",
+    "Volume": 100000.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": "No",
-    "Tasks": "topic classification",
+    "Test Split": false,
+    "Tasks": [
+        "topic classification"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

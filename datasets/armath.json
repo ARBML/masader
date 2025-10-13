@@ -7,30 +7,40 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "There are 6000 samples and 883 templates. A template is an equation once the variables have been replaced with ordered placeholders.",
-    "Volume": "6,000",
+    "Volume": 6000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "-",
-    "Derived From": "",
+    "Provider": [
+        "-"
+    ],
+    "Derived From": [],
     "Paper Title": "ArMATH: a Dataset for Solving Arabic Math Word Problems",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "math solving",
+    "Test Split": true,
+    "Tasks": [
+        "math solving"
+    ],
     "Venue Title": "LREC",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Language Resources and Evaluation Conference",
-    "Authors": "Reem Ali Alghamdi, Zhenwen Liang and Xiangliang Zhang",
-    "Affiliations": "",
+    "Authors": [
+        "Reem Ali Alghamdi",
+        "Zhenwen Liang and Xiangliang Zhang"
+    ],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,30 +7,35 @@
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The NE3L project (Named Entities 3 Languages) consisted in annotating several corpora with different languages with named entities. Text format data were extracted from newspapers and deal with various topics. 3 different languages were annotated: Arabic, Chinese and Russian.",
-    "Volume": "103,363",
+    "Volume": 103363.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": " ",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "5,000.00\u20ac",
-    "Test Split": "No",
-    "Tasks": "named entity recognition",
+    "Test Split": false,
+    "Tasks": [
+        "named entity recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

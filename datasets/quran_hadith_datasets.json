@@ -7,30 +7,41 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling,machine annotation",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "The datasets showcase the related and non-related pairs of Quran-Quran and Quran-Hadith. It has Classical Arabic and English translated verses and teachings.",
-    "Volume": "20,360",
+    "Volume": 20360.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "Challenging the Transformer-based models with a Classical Arabic dataset: Quran and Hadith",
     "Paper Link": "",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "semantic similarity",
+    "Test Split": true,
+    "Tasks": [
+        "semantic similarity"
+    ],
     "Venue Title": "",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Language Resources and Evaluation Conference",
-    "Authors": "Shatha Altammami, Eric Atwell",
-    "Affiliations": "University of Leeds/King Saud University",
+    "Authors": [
+        "Shatha Altammami",
+        "Eric Atwell"
+    ],
+    "Affiliations": [
+        "University of Leeds/King Saud University"
+    ],
     "Abstract": "",
     "Added By": "Abdullah Alsaleh"
 }

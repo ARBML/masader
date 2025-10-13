@@ -7,30 +7,35 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The corpus has the following characteristics: \u2022 37 sentences \u2022 The average length of sentences is 5,05 words, with the longest being 10 words \u2022 Declarative, interrogative, imperative and exclamatory sentences accounted for 37,84%, 32,43%, 16,22% and 13,51% respectively \u2022 154 tokens with 5,95 solutions as an average number of stemming solutions",
-    "Volume": "154",
+    "Volume": 154.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "  ",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "ELRA",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "stemming",
+    "Test Split": false,
+    "Tasks": [
+        "stemming"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

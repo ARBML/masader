@@ -4,103 +4,103 @@
         {
             "Name": "Algeria",
             "Dialect": "Algeria",
-            "Volume": "115.7",
+            "Volume": 115.7,
             "Unit": "hours"
         },
         {
             "Name": "Egypt",
             "Dialect": "Egypt",
-            "Volume": "451.1",
+            "Volume": 451.1,
             "Unit": "hours"
         },
         {
             "Name": "Iraq",
             "Dialect": "Iraq",
-            "Volume": "815.8",
+            "Volume": 815.8,
             "Unit": "hours"
         },
         {
             "Name": "Jordan",
             "Dialect": "Jordan",
-            "Volume": "25.9",
+            "Volume": 25.9,
             "Unit": "hours"
         },
         {
             "Name": "Saudi Arabia",
             "Dialect": "Saudi Arabia",
-            "Volume": "186.1",
+            "Volume": 186.1,
             "Unit": "hours"
         },
         {
             "Name": "Kuwait",
             "Dialect": "Kuwait",
-            "Volume": "108.2",
+            "Volume": 108.2,
             "Unit": "hours"
         },
         {
             "Name": "Lebanon",
             "Dialect": "Lebanon",
-            "Volume": "116.8",
+            "Volume": 116.8,
             "Unit": "hours"
         },
         {
             "Name": "Libya",
             "Dialect": "Libya",
-            "Volume": "127.4",
+            "Volume": 127.4,
             "Unit": "hours"
         },
         {
             "Name": "Mauritania",
             "Dialect": "Mauritania",
-            "Volume": "456.4",
+            "Volume": 456.4,
             "Unit": "hours"
         },
         {
             "Name": "Morocco",
             "Dialect": "Morocco",
-            "Volume": "57.8",
+            "Volume": 57.8,
             "Unit": "hours"
         },
         {
             "Name": "Oman",
             "Dialect": "Oman",
-            "Volume": "58.5",
+            "Volume": 58.5,
             "Unit": "hours"
         },
         {
             "Name": "Palestine",
             "Dialect": "Palestine",
-            "Volume": "121.4",
+            "Volume": 121.4,
             "Unit": "hours"
         },
         {
             "Name": "Qatar",
             "Dialect": "Qatar",
-            "Volume": "62.3",
+            "Volume": 62.3,
             "Unit": "hours"
         },
         {
             "Name": "Sudan",
             "Dialect": "Sudan",
-            "Volume": "47.7",
+            "Volume": 47.7,
             "Unit": "hours"
         },
         {
             "Name": "Syria",
             "Dialect": "Syria",
-            "Volume": "119.5",
+            "Volume": 119.5,
             "Unit": "hours"
         },
         {
             "Name": "UAE",
             "Dialect": "United Arab Emirates",
-            "Volume": "108.4",
+            "Volume": 108.4,
             "Unit": "hours"
         },
         {
             "Name": "Yemen",
             "Dialect": "Yemen",
-            "Volume": "53.4",
+            "Volume": 53.4,
             "Unit": "hours"
         }
     ],
@@ -110,30 +110,55 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "crawling",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "dialect identification of speech from YouTube to one of the 17 dialects",
-    "Volume": "3,091",
+    "Volume": 3091.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "QCRI",
-    "Derived From": "",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
     "Paper Title": "The MGB-5 Challenge: Recognition and Dialect Identification of Dialectal Arabic Speech",
     "Paper Link": "https://ieeexplore.ieee.org/document/9003960",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "dialect identification",
+    "Test Split": true,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "ASRU",
-    "Citations": "18.0",
     "Venue Type": "workshop",
     "Venue Name": "IEEE Automatic Speech Recognition and Understanding Workshop",
-    "Authors": "A. Ali,Suwon Shon,Younes Samih,Hamdy Mubarak,Ahmed Abdelali,James R. Glass,S. Renals,K. Choukri",
-    "Affiliations": ",,University Of D\u00fcsseldorf;Computational Linguistics,,,,,",
+    "Authors": [
+        "A. Ali",
+        "Suwon Shon",
+        "Younes Samih",
+        "Hamdy Mubarak",
+        "Ahmed Abdelali",
+        "James R. Glass",
+        "S. Renals",
+        "K. Choukri"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "University Of D\u00fcsseldorf;Computational Linguistics",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "This paper describes the fifth edition of the Multi-Genre Broadcast Challenge (MGB-5), an evaluation focused on Arabic speech recognition and dialect identification. MGB-5 extends the previous MGB-3 challenge in two ways: first it focuses on Moroccan Arabic speech recognition; second the granularity of the Arabic dialect identification task is increased from 5 dialect classes to 17, by collecting data from 17 Arabic speaking countries. Both tasks use YouTube recordings to provide a multi-genre multi-dialectal challenge in the wild. Moroccan speech transcription used about 13 hours of transcribed speech data, split across training, development, and test sets, covering 7-genres: comedy, cooking, family/kids, fashion, drama, sports, and science (TEDx). The fine-grained Arabic dialect identification data was collected from known YouTube channels from 17 Arabic countries. 3,000 hours of this data was released for training, and 57 hours for development and testing. The dialect identification data was divided into three sub-categories based on the segment duration: short (under 5 s), medium (5\u201320 s), and long (>20 s). Overall, 25 teams registered for the challenge, and 9 teams submitted systems for the two tasks. We outline the approaches adopted in each system and summarize the evaluation results.",
     "Added By": ""
 }

@@ -1,4 +1,4 @@
-let url = 'https://web-production-25a2.up.railway.app/datasets/';
+let url = window.MasaderConfig.DATASETS_URL + '/';
 
 function recaptchaChange() {
     let recaptcha_box_checked = (grecaptcha.getResponse()) ? true : false;

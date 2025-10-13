@@ -7,30 +7,35 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "manual curation",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "Basic Arabic Vocal Emotions Dataset (BAVED) is a datasetthat contains an arabic words spelled in diffrent levels of emotions recorded in an audio/wav format",
-    "Volume": "1,935",
+    "Volume": 1935.0,
     "Unit": "tokens",
     "Ethical Risks": "Medium",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "emotion detection",
+    "Test Split": false,
+    "Tasks": [
+        "emotion detection"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Emad A. Alghamdi"
 }

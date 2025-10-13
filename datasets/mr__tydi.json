@@ -7,30 +7,45 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Mr. TYDI is constructed from TYDI, a question answering dataset covering\r\neleven typologically diverse languages",
-    "Volume": "16573",
+    "Volume": 16573.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "University of Waterloo",
-    "Derived From": "TYDI",
-    "Paper Title": "Mr. TYDI: A Multi-lingual Benchmark for Dense Retrieval\r",
+    "Provider": [
+        "University of Waterloo"
+    ],
+    "Derived From": [
+        "TYDI"
+    ],
+    "Paper Title": "Mr. TYDI: A Multi-lingual Benchmark for Dense Retrieval",
     "Paper Link": "https://arxiv.org/pdf/2108.08787.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "question answering",
+    "Test Split": true,
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "ArXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Xinyu Zhang,Jimmy J. Lin",
-    "Affiliations": ",",
+    "Authors": [
+        "Xinyu Zhang",
+        "Jimmy J. Lin"
+    ],
+    "Affiliations": [
+        "",
+        ""
+    ],
     "Abstract": "We present Mr. TYDI, a multi-lingual benchmark dataset for mono-lingual retrieval in eleven typologically diverse languages, designed to evaluate ranking with learned dense representations. The goal of this resource is to spur research in dense retrieval techniques in non-English languages, motivated by recent observations that existing techniques for representation learning perform poorly when applied to out-of-distribution data. As a starting point, we provide zero-shot baselines for this new dataset based on a multi-lingual adaptation of DPR that we call \u201cmDPR\u201d. Experiments show that although the effectiveness of mDPR is much lower than BM25, dense representations nevertheless appear to provide valuable relevance signals, improving BM25 results in sparse\u2013dense hybrids. In addition to analyses of our results, we also discuss future challenges and present a research agenda in multi-lingual dense retrieval. Mr. TYDI can be downloaded at https://github.com/ castorini/mr.tydi.",
     "Added By": "Zaid Alyafeai"
 }

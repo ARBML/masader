@@ -7,30 +7,42 @@
     "Year": 2012,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "A parallel corpus of KDE4 localization files (v.2).  92 languages, 4,099 bitexts",
-    "Volume": "700,000",
+    "Volume": 700000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "OPUS",
-    "Derived From": "",
+    "Provider": [
+        "OPUS"
+    ],
+    "Derived From": [],
     "Paper Title": "Parallel Data, Tools and Interfaces in OPUS",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "LREC",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Language Resources and Evaluation Conference",
-    "Authors": "Jorg Tiedemann",
-    "Affiliations": "Department of Linguistics and Philology Uppsala University, Uppsala/Sweden",
+    "Authors": [
+        "Jorg Tiedemann"
+    ],
+    "Affiliations": [
+        "Department of Linguistics and Philology Uppsala University",
+        "Uppsala/Sweden"
+    ],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

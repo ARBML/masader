@@ -7,30 +7,45 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
-    "Description": " The corpus consists of pairs of Arabic words that explore different morphological constructs and relationships. The analogy pairs represent semantic relations like masculine-feminine forms, imperfect-perfect verb forms, possessive noun phrases, and verb-object constructions. The goal of the corpus is to explore how word vectors in different semantic spaces handle these Arabic linguistic features.",
-    "Volume": "240",
+    "Collection Style": [
+        "manual curation"
+    ],
+    "Description": "The corpus consists of pairs of Arabic words that explore different morphological constructs and relationships. The analogy pairs represent semantic relations like masculine-feminine forms, imperfect-perfect verb forms, possessive noun phrases, and verb-object constructions. The goal of the corpus is to explore how word vectors in different semantic spaces handle these Arabic linguistic features.",
+    "Volume": 240.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "Common words in Arabic Wikipedia and other corpora",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [
+        "Common words in Arabic Wikipedia and other corpora"
+    ],
     "Paper Title": "Arabic Word Analogies and Semantics of Simple Phrases",
     "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8374386&tag=1",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "embedding",
+    "Test Split": false,
+    "Tasks": [
+        "embedding evaluation"
+    ],
     "Venue Title": "NLP-KE",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "IEEE International Conference on Natural Language Processing",
-    "Authors": "Stephen Taylor and Tom\u00e1\u0161 Brychc\u00edn",
-    "Affiliations": "Faculty of Applied Sciences, University of West Bohemia, Czech Republic",
+    "Authors": [
+        "Stephen Taylor and Tom\u00e1\u0161 Brychc\u00edn"
+    ],
+    "Affiliations": [
+        "Faculty of Applied Sciences",
+        "University of West Bohemia",
+        "Czech Republic"
+    ],
     "Abstract": "The paper explores how vector representations of words in semantic spaces handle the morphological and syntactic features of Arabic. It introduces an Arabic Word Analogy Corpus focused on word pairs representing common Arabic morphological constructs, such as verb-object suffixes, definite articles, and noun-adjective agreements. The corpus is used to evaluate the performance of ten different semantic spaces, including word2vec, GloVe, and fastText.",
     "Added By": "Maryam Al Emadi"
 }

@@ -4,13 +4,13 @@
         {
             "Name": "Arabic",
             "Dialect": "Modern Standard Arabic",
-            "Volume": "10,197",
+            "Volume": 10197.0,
             "Unit": "documents"
         },
         {
             "Name": "Egyptian",
             "Dialect": "Egypt",
-            "Volume": "10,197",
+            "Volume": 10197.0,
             "Unit": "documents"
         }
     ],
@@ -20,30 +20,45 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "wikipedia",
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "WikiDocsAligner is a tool designed to align Wikipedia articles from different languages, creating comparable corpora. It can align documents between language pairs, including Arabic and its dialects. The tool uses Wikipedia dumps and interlanguage links to perform document alignment.",
-    "Volume": "20,394",
+    "Volume": 20394.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Islamic University of Gaza",
-    "Derived From": "Wikipedia",
+    "Provider": [
+        "Islamic University of Gaza"
+    ],
+    "Derived From": [
+        "Wikipedia"
+    ],
     "Paper Title": "WikiDocsAligner: an off-the-shelf Wikipedia Documents Alignment Tool",
     "Paper Link": "https://doi.org/10.1109/PICICT.2017.27",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "information retrieval, machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval",
+        "machine translation"
+    ],
     "Venue Title": "IPICICT",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Palestinian International Conference on Information and Communication Technology",
-    "Authors": "Motaz Saad, Basem O. Alijla",
-    "Affiliations": "Islamic University of Gaza",
-    "Abstract": " WikiDocsAligner is an off-the-shelf tool designed to align Wikipedia documents in different languages. The tool makes it easier for researchers to produce comparable corpora without the need for custom scripts. It was applied to align comparable articles between Standard Arabic Wikipedia and Egyptian Wikipedia, highlighting Wikipedia as a valuable resource for Arabic dialect corpora.",
+    "Authors": [
+        "Motaz Saad",
+        "Basem O. Alijla"
+    ],
+    "Affiliations": [
+        "Islamic University of Gaza"
+    ],
+    "Abstract": "WikiDocsAligner is an off-the-shelf tool designed to align Wikipedia documents in different languages. The tool makes it easier for researchers to produce comparable corpora without the need for custom scripts. It was applied to align comparable articles between Standard Arabic Wikipedia and Egyptian Wikipedia, highlighting Wikipedia as a valuable resource for Arabic dialect corpora.",
     "Added By": "Maryam Al Emadi"
 }

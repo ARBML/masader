@@ -7,30 +7,39 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The Language Identification dataset is a collection of 90k samples consisting of text passages and corresponding language label.",
-    "Volume": "90,000",
+    "Volume": 90000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "Multilingual Amazon Reviews Corpus, XNLI, and STSb Multi MT",
+    "Provider": [],
+    "Derived From": [
+        "Multilingual Amazon Reviews Corpus",
+        "XNLI",
+        "and STSb Multi MT"
+    ],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "language identification",
+    "Test Split": true,
+    "Tasks": [
+        "language identification"
+    ],
     "Venue Title": "The Hugging Face Course Community Event",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Khalid N. Elmadani"
 }

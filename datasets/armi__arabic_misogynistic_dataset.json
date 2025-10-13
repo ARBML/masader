@@ -7,30 +7,45 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Arabic multidialectal dataset for misogynistic language",
-    "Volume": "9,833",
+    "Volume": 9833.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "The ORSAM Center for Middle Eastern Studies, University of Alberta",
-    "Derived From": "",
+    "Provider": [
+        "The ORSAM Center for Middle Eastern Studies",
+        "University of Alberta"
+    ],
+    "Derived From": [],
     "Paper Title": "ArMI at FIRE 2021: Overview of the First Shared Task on Arabic Misogyny Identification",
     "Paper Link": "http://ceur-ws.org/Vol-3159/T5-1.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "misogyny identification",
+    "Test Split": true,
+    "Tasks": [
+        "misogyny identification"
+    ],
     "Venue Title": "FIRE",
-    "Citations": "6.0",
     "Venue Type": "conference",
     "Venue Name": "Forum for Information Retrieval Evaluation",
-    "Authors": "Hala Mulki, Bilal Ghanem",
-    "Affiliations": "ORSAM Center for Middle Eastern Studies, Turkey; University of Alberta, Canada",
+    "Authors": [
+        "Hala Mulki",
+        "Bilal Ghanem"
+    ],
+    "Affiliations": [
+        "ORSAM Center for Middle Eastern Studies",
+        "Turkey; University of Alberta",
+        "Canada"
+    ],
     "Abstract": "This paper provides an overview of the organization, results and main findings of the first\nshared task on misogyny identification in Arabic tweets. Arabic Misogyny Identification task\n(ArMI) is introduced within the Hate Speech and Offensive Content detection (HASOC)\ntrack at FIRE-2021. The ArMI task combines two related classification subtasks: a main\nbinary classification subtask for detecting the presence of misogynistic language, and a finegrained multi-class classification subtask for identifying seven misogynistic behaviors found in misogynistic contents. The data provided for this task is a Twitter dataset composed of 9,833 tweets written in modern standard Arabic (MSA) and several Arabic dialects including Levantine, Egyptian and Gulf. ArMI at FIRE-2021 has got a total of 15 submitted runs for Sub-task A and 13 runs for Sub-task B provided by six different teams. The systems introduced by the participants employed various methods including feature-based, neural networks using either classical machine learning techniques, ensemble methods or transformers. The best performing system achieved an F-measure of 91.4% and 66.5% for subtask A and subtask B, respectively. This indicates that misogynistic language detection and misogynistic behaviors identification in Arabic textual contents can be, effectively, addressed using transformer-based approaches.",
     "Added By": "Hala Mulki"
 }

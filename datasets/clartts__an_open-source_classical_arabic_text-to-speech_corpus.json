@@ -7,30 +7,47 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "other",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "ClArTTS is a speech Classical Arabic corpus designed for E2E TTS systems. The speech is extracted from a LibriVox audiobook, which is then processed, segmented, and manually transcribed and annotated. It contains about 12 hours of speech from a single male speaker sampled at 40100 Hz.",
-    "Volume": "12",
+    "Volume": 12.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "Mohamed Bin Zayed University of Artificial Intelligence",
-    "Derived From": "LibriVox",
+    "Provider": [
+        "Mohamed Bin Zayed University of Artificial Intelligence"
+    ],
+    "Derived From": [
+        "LibriVox"
+    ],
     "Paper Title": "ClArTTS: An Open-Source Classical Arabic Text-to-Speech Corpus",
     "Paper Link": "https://www.isca-archive.org/interspeech_2023/kulkarni23_interspeech.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "speech recognition",
+    "Test Split": true,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "INTERSPEECH",
-    "Citations": "5.0",
     "Venue Type": "conference",
     "Venue Name": "Interspeech",
-    "Authors": "Ajinkya Kulkarni, Atharva Kulkarni, Sara Abedalmon\u2019em Mohammad Shatnawi, Hanan Aldarmaki",
-    "Affiliations": "MBZUAI, Erisha Labs",
+    "Authors": [
+        "Ajinkya Kulkarni",
+        "Atharva Kulkarni",
+        "Sara Abedalmon\u2019em Mohammad Shatnawi",
+        "Hanan Aldarmaki"
+    ],
+    "Affiliations": [
+        "MBZUAI",
+        "Erisha Labs"
+    ],
     "Abstract": "We present a Classical Arabic Text-to-Speech (ClArTTS) corpus to facilitate the development of end-to-end TTS systems for the Arabic language. The speech is extracted from a LibriVox audiobook, which is then processed, segmented, and manually transcribed and annotated. The ClArTTS corpus contains about 12 hours of speech from a single male speaker sampled at 40100 Hz. In this paper, we describe the process of corpus creation, details of corpus statistics, and a comparison with existing resources. Furthermore, we develop two TTS systems based on Grad-TTS and Glow-TTS and illustrate the performance of the resulting systems via subjective and objective evaluations.",
     "Added By": "Karima Kadaoui"
 }

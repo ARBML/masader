@@ -4,127 +4,127 @@
         {
             "Name": "Algeria",
             "Dialect": "Algeria",
-            "Volume": "2,765",
+            "Volume": 2765.0,
             "Unit": "sentences"
         },
         {
             "Name": "Bahrain",
             "Dialect": "Bahrain",
-            "Volume": "313",
+            "Volume": 313.0,
             "Unit": "sentences"
         },
         {
             "Name": "Djibouti",
             "Dialect": "Djibouti",
-            "Volume": "314",
+            "Volume": 314.0,
             "Unit": "sentences"
         },
         {
             "Name": "Egypt",
             "Dialect": "Egypt",
-            "Volume": "6,241",
+            "Volume": 6241.0,
             "Unit": "sentences"
         },
         {
             "Name": "Iraq",
             "Dialect": "Iraq",
-            "Volume": "4,042",
+            "Volume": 4042.0,
             "Unit": "sentences"
         },
         {
             "Name": "Jordan",
             "Dialect": "Jordan",
-            "Volume": "627",
+            "Volume": 627.0,
             "Unit": "sentences"
         },
         {
             "Name": "Kuwait",
             "Dialect": "Kuwait",
-            "Volume": "627",
+            "Volume": 627.0,
             "Unit": "sentences"
         },
         {
             "Name": "Lebanon",
             "Dialect": "Lebanon",
-            "Volume": "929",
+            "Volume": 929.0,
             "Unit": "sentences"
         },
         {
             "Name": "Libya",
             "Dialect": "Libya",
-            "Volume": "1,883",
+            "Volume": 1883.0,
             "Unit": "sentences"
         },
         {
             "Name": "Mauritania",
             "Dialect": "Mauritania",
-            "Volume": "314",
+            "Volume": 314.0,
             "Unit": "sentences"
         },
         {
             "Name": "Morocco",
             "Dialect": "Morocco",
-            "Volume": "1,256",
+            "Volume": 1256.0,
             "Unit": "sentences"
         },
         {
             "Name": "Oman",
             "Dialect": "Oman",
-            "Volume": "2,175",
+            "Volume": 2175.0,
             "Unit": "sentences"
         },
         {
             "Name": "Palestine",
             "Dialect": "Palestine",
-            "Volume": "626",
+            "Volume": 626.0,
             "Unit": "sentences"
         },
         {
-            "Name": "Qatar ",
+            "Name": "Qatar",
             "Dialect": "Qatar",
-            "Volume": "314",
+            "Volume": 314.0,
             "Unit": "sentences"
         },
         {
             "Name": "Saudi Arabia",
             "Dialect": "Saudi Arabia",
-            "Volume": "3,130",
+            "Volume": 3130.0,
             "Unit": "sentences"
         },
         {
             "Name": "Somalia",
             "Dialect": "Somalia",
-            "Volume": "511",
+            "Volume": 511.0,
             "Unit": "sentences"
         },
         {
             "Name": "Sudan",
             "Dialect": "Sudan",
-            "Volume": "310",
+            "Volume": 310.0,
             "Unit": "sentences"
         },
         {
             "Name": "Syria",
             "Dialect": "Syria",
-            "Volume": "1,881",
+            "Volume": 1881.0,
             "Unit": "sentences"
         },
         {
             "Name": "Tunisia",
             "Dialect": "Tunisia",
-            "Volume": "1,190",
+            "Volume": 1190.0,
             "Unit": "sentences"
         },
         {
             "Name": "UAE",
             "Dialect": "United Arab Emirates",
-            "Volume": "940",
+            "Volume": 940.0,
             "Unit": "sentences"
         },
         {
             "Name": "Yemen",
             "Dialect": "Yemen",
-            "Volume": "612",
+            "Volume": 612.0,
             "Unit": "sentences"
         }
     ],
@@ -134,30 +134,49 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
-    "Description": "The shared task dataset covers a total of 100 provinces from 21 Arab countries, collected from the Twitter domain. ",
-    "Volume": "310,000",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "The shared task dataset covers a total of 100 provinces from 21 Arab countries, collected from the Twitter domain.",
+    "Volume": 310000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
-    "Paper Title": "NADI 2021:\r\nThe Second Nuanced Arabic Dialect Identification Shared Task\r",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
+    "Paper Title": "NADI 2021:\r\nThe Second Nuanced Arabic Dialect Identification Shared Task",
     "Paper Link": "https://arxiv.org/pdf/2103.08466.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "dialect identification",
+    "Test Split": true,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "WANLP",
-    "Citations": "12.0",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",
-    "Authors": "Muhammad Abdul-Mageed,Chiyu Zhang,AbdelRahim Elmadany,Houda Bouamor,Nizar Habash",
-    "Affiliations": ",The University of British Columbia,University of British Columbia,,",
+    "Authors": [
+        "Muhammad Abdul-Mageed",
+        "Chiyu Zhang",
+        "AbdelRahim Elmadany",
+        "Houda Bouamor",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "",
+        "The University of British Columbia",
+        "University of British Columbia",
+        "",
+        ""
+    ],
     "Abstract": "We present the findings and results of theSecond Nuanced Arabic Dialect IdentificationShared Task (NADI 2021). This Shared Taskincludes four subtasks: country-level ModernStandard Arabic (MSA) identification (Subtask1.1), country-level dialect identification (Subtask1.2), province-level MSA identification (Subtask2.1), and province-level sub-dialect identifica-tion (Subtask 2.2). The shared task dataset cov-ers a total of 100 provinces from 21 Arab coun-tries, collected from the Twitter domain. A totalof 53 teams from 23 countries registered to par-ticipate in the tasks, thus reflecting the interestof the community in this area. We received 16submissions for Subtask 1.1 from five teams, 27submissions for Subtask 1.2 from eight teams,12 submissions for Subtask 2.1 from four teams,and 13 Submissions for subtask 2.2 from fourteams.",
     "Added By": ""
 }

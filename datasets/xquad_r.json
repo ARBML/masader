@@ -7,30 +7,49 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "machine annotation",
+    "Collection Style": [
+        "machine annotation"
+    ],
     "Description": "XQuAD-R is a retrieval version of the XQuAD dataset (a cross-lingual extractive QA dataset). Like XQuAD, XQUAD-R is an 11-way parallel dataset, where each question appears in 11 different languages and has 11 parallel correct answers across the languages",
-    "Volume": "1,190",
+    "Volume": 1190.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Google Research",
-    "Derived From": "XQuAD dataset",
+    "Provider": [
+        "Google Research"
+    ],
+    "Derived From": [
+        "XQuAD dataset"
+    ],
     "Paper Title": "LAReQA: Language-agnostic answer retrieval from a multilingual pool",
     "Paper Link": "https://arxiv.org/pdf/2004.05484.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "information retrieval, question answering",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval",
+        "question answering"
+    ],
     "Venue Title": "",
-    "Citations": "21.0",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "Uma Roy, Noah Constant, Rami Al-Rfou, Aditya Barua, Aaron Phillips, Yinfei Yang",
-    "Affiliations": "Google Research",
+    "Authors": [
+        "Uma Roy",
+        "Noah Constant",
+        "Rami Al-Rfou",
+        "Aditya Barua",
+        "Aaron Phillips",
+        "Yinfei Yang"
+    ],
+    "Affiliations": [
+        "Google Research"
+    ],
     "Abstract": "We present LAReQA, a challenging new benchmark for language-agnostic answer retrieval from a multilingual candidate pool. Unlike previous cross-lingual tasks, LAReQA tests for \u201cstrong\u201d cross-lingual alignment, requiring semantically related cross-language pairs to be closer in representation space than unrelated same-language pairs. Building on multilingual BERT (mBERT), we study different strategies for achieving strong alignment. We find that augmenting training data via machine translation is effective, and improves significantly over using mBERT out-of-the-box. Interestingly, the embedding baseline that performs the best on LAReQA falls short of competing baselines on zero-shot variants of our task that only target \u201cweak\u201d alignment. This finding underscores our claim that language agnostic retrieval is a substantively new kind of cross-lingual evaluation.",
     "Added By": "Wafaa Mohammed"
 }

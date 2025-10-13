@@ -7,30 +7,51 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "AFND consists of 606912 public news articles that were scraped from 134 public news websites of 19 different Arab countries over a 6-month period using Python scripts.",
-    "Volume": "606,912",
+    "Volume": 606912.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "AFND: Arabic fake news dataset for the detection and classification of articles credibility",
     "Paper Link": "https://www.sciencedirect.com/science/article/pii/S2352340922003493",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "fake news detection",
+    "Test Split": false,
+    "Tasks": [
+        "fake news detection"
+    ],
     "Venue Title": "Data in Brief",
-    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "Data in Brief",
-    "Authors": "Ashwaq Khalila, Moath Jarrah, Monther Aldwairi, ManarJaradat",
-    "Affiliations": "Department of Computer Engineering, Jordan University of Science and Technology, Department of Computer Engineering, Jordan University of Science and Technology,College of Technological Innovation, Zayed University, Department of Computer Engineering, The Hashemite University  ",
-    "Abstract": "The news credibility detection task has started to gain more attention recently due to the rapid increase of news on different social media platforms. This article provides a large, labeled, and diverse Arabic Fake News Dataset (AFND) that is collected from public Arabic news websites. This dataset enables the research community to use supervised and unsupervised machine learning algorithms to classify the credibility of Arabic news articles. AFND consists of 606912 public news articles that were scraped from 134 public news websites of 19 different Arab countries over a 6-month period using Python scripts. The Arabic fact-check platform, Misbar, is used manually to classify each public news source into credible, not credible, or undecided. Weak supervision is applied to label news articles with the same label as the public source. AFND is imbalanced in the number of articles in each class. Hence, it is useful for researchers who focus on finding solutions for imbalanced datasets. The dataset is available in JSON format and can be accessed from Mendeley Data repository.\n",
+    "Authors": [
+        "Ashwaq Khalila",
+        "Moath Jarrah",
+        "Monther Aldwairi",
+        "ManarJaradat"
+    ],
+    "Affiliations": [
+        "Department of Computer Engineering",
+        "Jordan University of Science and Technology",
+        "Department of Computer Engineering",
+        "Jordan University of Science and Technology",
+        "College of Technological Innovation",
+        "Zayed University",
+        "Department of Computer Engineering",
+        "The Hashemite University"
+    ],
+    "Abstract": "The news credibility detection task has started to gain more attention recently due to the rapid increase of news on different social media platforms. This article provides a large, labeled, and diverse Arabic Fake News Dataset (AFND) that is collected from public Arabic news websites. This dataset enables the research community to use supervised and unsupervised machine learning algorithms to classify the credibility of Arabic news articles. AFND consists of 606912 public news articles that were scraped from 134 public news websites of 19 different Arab countries over a 6-month period using Python scripts. The Arabic fact-check platform, Misbar, is used manually to classify each public news source into credible, not credible, or undecided. Weak supervision is applied to label news articles with the same label as the public source. AFND is imbalanced in the number of articles in each class. Hence, it is useful for researchers who focus on finding solutions for imbalanced datasets. The dataset is available in JSON format and can be accessed from Mendeley Data repository.",
     "Added By": "Zaid Alyafeai"
 }

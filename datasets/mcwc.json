@@ -7,30 +7,38 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling,machine annotation",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "The \u201cMultilingual Corpus of World\u2019s Constitutions\u201d (MCWC) is a rich resource available in English, Arabic, and Spanish, encompassing constitutions from various nations. This corpus serves as a vital asset for the NLP community, facilitating advanced research in constitutional analysis, machine translation, and cross-lingual legal studies.",
-    "Volume": "236,156",
+    "Volume": 236156.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "The Multilingual Corpus of World\u2019s Constitutions (MCWC)",
     "Paper Link": "https://aclanthology.org/2024.osact-1.7.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "OSACT",
-    "Citations": "",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
-    "Authors": "Mo El-Haj and Saad Ezzini",
-    "Affiliations": "",
+    "Authors": [
+        "Mo El-Haj and Saad Ezzini"
+    ],
+    "Affiliations": [],
     "Abstract": "The \u201cMultilingual Corpus of World\u2019s Constitutions\u201d (MCWC) is a rich resource available in English, Arabic, and\nSpanish, encompassing constitutions from various nations. This corpus serves as a vital asset for the NLP\ncommunity, facilitating advanced research in constitutional analysis, machine translation, and cross-lingual legal\nstudies. To ensure comprehensive coverage, for constitutions not originally available in Arabic and Spanish,\nwe employed a fine-tuned state-of-the-art machine translation model. MCWC prepares its data to ensure high\nquality and minimal noise, while also providing valuable mappings of constitutions to their respective countries\nand continents, facilitating comparative analysis. Notably, the corpus offers pairwise sentence alignments across\nlanguages, supporting machine translation experiments. We utilise a leading Machine Translation model, fine-tuned\non the MCWC to achieve accurate and context-aware translations. Additionally, we introduce an independent\nMachine Translation model as a comparative baseline. Fine-tuning the model on MCWC improves accuracy,\nhighlighting the significance of such a legal corpus for NLP and Machine Translation. MCWC\u2019s diverse multilingual\ncontent and commitment to data quality contribute to advancements in legal text analysis within the NLP community,\nfacilitating exploration of constitutional texts and multilingual data analysis.",
     "Added By": "Zaid Alyafeai"
 }

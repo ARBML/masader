@@ -7,30 +7,46 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": "books",
+    "Domain": [
+        "books"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Arabic text diacritization extension dataset that is should be used for training only. This dataset is an extension of the dataset provided here: https://github.com/AliOsm/arabic-text-diacritization, and both of them were derived from the same source, which is Tashkeela dataset.",
-    "Volume": "533,000",
+    "Volume": 533000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Jordan University of Science and Technology (JUST)",
-    "Derived From": "Tashkeela",
+    "Provider": [
+        "Jordan University of Science and Technology (JUST)"
+    ],
+    "Derived From": [
+        "Tashkeela"
+    ],
     "Paper Title": "Neural Arabic Text Diacritization: State of the Art Results and a Novel Approach for Machine Translation",
     "Paper Link": "https://aclanthology.org/D19-5229/",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "diacritization",
+    "Test Split": false,
+    "Tasks": [
+        "diacritization"
+    ],
     "Venue Title": "EMNLP-IJCNLP",
-    "Citations": "14.0",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Asian Translation (WAT)",
-    "Authors": "Ali Fadel, Ibraheem Tuffaha, Bara\u2019 Al-Jawarneh, and Mahmoud Al-Ayyoub",
-    "Affiliations": "Jordan University of Science and Technology (JUST)",
+    "Authors": [
+        "Ali Fadel",
+        "Ibraheem Tuffaha",
+        "Bara\u2019 Al-Jawarneh",
+        "and Mahmoud Al-Ayyoub"
+    ],
+    "Affiliations": [
+        "Jordan University of Science and Technology (JUST)"
+    ],
     "Abstract": "In this work, we present several deep learning models for the automatic diacritization of Arabic text. Our models are built using two main approaches, viz. Feed-Forward Neural Network (FFNN) and Recurrent Neural Network (RNN), with several enhancements such as 100-hot encoding, embeddings, Conditional Random Field (CRF) and Block-Normalized Gradient (BNG). The models are tested on the only freely available benchmark dataset and the results show that our models are either better or on par with other models, which require language-dependent post-processing steps, unlike ours. Moreover, we show that diacritics in Arabic can be used to enhance the models of NLP tasks such as Machine Translation (MT) by proposing the Translation over Diacritization (ToD) approach.",
     "Added By": "Ali Hamdi Ali Fadel"
 }

@@ -7,30 +7,44 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "MoArLex is a large-scale Arabic sentiment lexicon developed by expanding an existing seed lexicon, NileULex, using word embeddings from AraVec (trained on Arabic Twitter data). The lexicon includes sentiment words commonly used in social media, including various forms of dialectal Arabic and even misspelled or emphasized words typical of social media communication. It covers positive, negative, and strong positive/negative sentiment labels.",
-    "Volume": "36,775",
+    "Volume": 36775.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Nile University",
-    "Derived From": "Seed lexicon NileULex and word embeddings model AraVec",
+    "Provider": [
+        "Nile University"
+    ],
+    "Derived From": [
+        "Seed lexicon NileULex and word embeddings model AraVec"
+    ],
     "Paper Title": "MoArLex: An Arabic Sentiment Lexicon Built Through Automatic Lexicon Expansion",
     "Paper Link": "https://pdf.sciencedirectassets.com/280203/1-s2.0-S1877050918X00192/1-s2.0-S1877050918321665/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLWVhc3QtMSJGMEQCIAW9EYFtY1ONOGkDXMEJfB01H4LyM9JA%2FFhtMdJO61crAiAJdDKIosWmXuPsCznRaE1uKw%2B0UqVt9QlTFOoPsTVGmyqzBQhXEAUaDDA1OTAwMzU0Njg2NSIMEjyc7r8vKtFBEOkZKpAFmGb%2BxNOfuy7pBi5%2FVxPfSs8PLHT5RlRToOL%2BOUM6oPGjIMoWyIbXrOQSu2MTIx2EgIfkyH%2FSGzCw%2FDMLMn7a0ruVmuSqXDbvQJo7igBktf0SnmVqNYC%2F5uznmg0wyzDjW5SIkSlHcl%2FOgU34bPVRzPxQeEBxKLX%2B5u0sXCONIyI8u1mz4%2FxT7RxKSqwwAUEv6RSAfV8UoyVBMtnOPmqnKjBaFNwB5S%2FIdrsB0Rf7pLOFmCocTOrmeyJYIMotRYGR1W7BQV5GwRsS%2BOO%2FobnXxOa7zxygOpLnL9%2Fk7uI0Svk03sJX347PPbDjPVyd1dHfiKJFc2%2B9BZvb4Gm7HNBtPW0EfxpkOiV4SHx8qUUkJtE8AgiLImkQQmcBgftYgr26F2b2Ve7AecOi9Dbp%2BMkJVYXl0hTyz7AT9n9bgZ1CLmoOz0pavqwGLYXm0JPZPEcjDnLfAMLYfGEDb%2Fz54tSteCbQch2Ga6Gg50YKZVnqnSklSIdYia4d%2Fz2HVioywI7SfZdUb6BrSYp9DVd8M7vYd4O3TioG9KiSfnwABA8WAM52cxtegb9jzKLuGEdmnnm9yjBkNyD9TLgMXNINRPM8Ic3%2B%2BdnhNiJg9raqhrEJ67RU1C6S74noQ6%2FpTblwGDh9FIUNZl1hluU%2F11DbtIfup0fooaimrng4wx0Vm3AUHJ5eScokeQbT7OCMcAcePCPVhe3KS7vCx1kUOvcUCwRuJZgJGKl6aRhyZdsG8Ylf491LrNPxmq2kTGRHf8vSKiBMtYBsElyRj7HhtRNUvVp%2BUvfdlYr7qKG27viZcvJi%2BxWxAvTFXxmCv5%2BEB2N4nJOacmIXKFcxLBYNFGBa0O1xW%2FHh2N5ThAU7oOOOzp5ezOcwkJv6tgY6sgHVfvgavguNAfVkorFJ1Vwz5db4Jo5%2BC6M%2B%2FjqYJ2srjmFlh3SoZM%2FUSA7wnfzvUMM6Cq7VLGGlmrHlLnXC1n8AdBNzVrpNi0exnD4po4DenlUhePy6Dgc5bfx5jB2bFccXRzw%2BO2rxoeBlp6jZPKJMCYdr74cAlZc%2BbdRz793x6V6Shg42Jp2QWqyVD2NfbQFDvj1MJsw5N2G2v39UwmJefk%2FDIn819MMj81oljvzuEW1V&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240909T055657Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYVEXIFTOC%2F20240909%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bf7f76eaecad1ede8a46d8fb961b4439796762a1d125a40cfbb1c86fc9aeab6a&hash=a7d938a12e8726cb86d9966bc8c420919e9e4d1c59cf86c64117b307fa969f9c&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1877050918321665&tid=spdf-931269d2-6477-4ab8-9540-fafa769f5139&sid=0873a5bd51e572450a0af2f40180fda8c32fgxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1f055a03575007555d&rr=8c04f02018cff0fc&cc=qa",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "ACLing",
-    "Citations": "",
     "Venue Type": "conference",
-    "Venue Name": "4th International Conference on Arabic Computational Linguistics ",
-    "Authors": "Mohab Youssef and Samhaa R. El-Beltagy",
-    "Affiliations": "Nile University, Egypt",
+    "Venue Name": "4th International Conference on Arabic Computational Linguistics",
+    "Authors": [
+        "Mohab Youssef and Samhaa R. El-Beltagy"
+    ],
+    "Affiliations": [
+        "Nile University",
+        "Egypt"
+    ],
     "Abstract": "MoArLex presents a novel approach to building a large-scale Arabic sentiment lexicon by automatically expanding an existing seed lexicon (NileULex) using word embeddings. The lexicon is designed to be used for sentiment analysis tasks on Arabic social media data and includes dialectal and colloquial terms commonly used in online communication. It demonstrates high accuracy compared to lexicons generated through machine translation and other automated methods.",
     "Added By": "Maryam Al Emadi"
 }

@@ -7,30 +7,45 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "crawling",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "ArabCeleb is an audio dataset collected in the wild that specifically focuses on arabic language. The proposed dataset contains 1930 utterances from 100 celebrities taken from video on YouTube.com. The dataset might be used for several speaker recognition tasks: identification, verification, gender recognition as well as multimodal recognition tasks thus integrating audio and video tracks.",
-    "Volume": "1,930",
+    "Volume": 1930.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "ArabCeleb: Speaker Recognition in Arabic",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "speech recognition ",
+    "Test Split": true,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "AIxIA",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "International Conference of the Italian Association for Artificial Intelligence",
-    "Authors": "Bianco, Simone and Celona, Luigi and Khalifa, Intissar and Napoletano, Paolo and Petrovsky, Alexey and Piccoli, Flavio and Schettini, Raimondo and Shanin, Ivan",
-    "Affiliations": "",
+    "Authors": [
+        "Bianco",
+        "Simone and Celona",
+        "Luigi and Khalifa",
+        "Intissar and Napoletano",
+        "Paolo and Petrovsky",
+        "Alexey and Piccoli",
+        "Flavio and Schettini",
+        "Raimondo and Shanin",
+        "Ivan"
+    ],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

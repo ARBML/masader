@@ -2,35 +2,51 @@
     "Name": "ArabicHateSpeechDataset",
     "Subsets": [],
     "HF Link": "",
-    "Link": "https://github.com/sbalsefri/ArabicHateSpeechDataset ",
+    "Link": "https://github.com/sbalsefri/ArabicHateSpeechDataset",
     "License": "CC BY-SA 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The dataset contains 5361 Arabic tweets annotated with six categories: clean, offensive, and hateful speech (religion-based, ethnicity-based, nationality-based, gender-based). It focuses on Arabic dialects (Gulf and Modern Standard Arabic) and uses a three-level annotation schema.",
-    "Volume": "5361",
+    "Volume": 5361.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple INstitutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple INstitutions"
+    ],
+    "Derived From": [],
     "Paper Title": "Hate and Offensive Speech Detection on Arabic Social Media",
     "Paper Link": "https://www.sciencedirect.com/science/article/abs/pii/S2468696420300379?fr=RR-2&ref=pdf_download&rr=8c11aa96ed17794c",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "sentiment analysis, offensive language detection, hate speech detection",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis",
+        "offensive language detection",
+        "hate speech detection"
+    ],
     "Venue Title": "OSNEM",
-    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "Online Social Networks and Media",
-    "Authors": "Safa Alsafari, Samira Sadaoui, Malek Mouhoub",
-    "Affiliations": "University of Regina, University of Jeddah",
+    "Authors": [
+        "Safa Alsafari",
+        "Samira Sadaoui",
+        "Malek Mouhoub"
+    ],
+    "Affiliations": [
+        "University of Regina",
+        "University of Jeddah"
+    ],
     "Abstract": "The paper proposes a framework for detecting hate and offensive speech in Arabic using machine learning and deep learning models. The dataset was collected from Twitter, focusing on Gulf Arabic and Modern Standard Arabic dialects, and includes annotations for religion, ethnicity, nationality, and gender-based hate speech.",
     "Added By": "Maryam Al Emadi"
 }

@@ -7,30 +7,40 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "contains data collected from December 1st 2019 until April 11th 2020",
-    "Volume": "3,800,856",
+    "Volume": 3800856.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Imam Mohammad Bin Saud University",
-    "Derived From": "",
-    "Paper Title": "Coronavirus: Public Arabic Twitter Dataset\r",
+    "Provider": [
+        "Imam Mohammad Bin Saud University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Coronavirus: Public Arabic Twitter Dataset",
     "Paper Link": "https://www.preprints.org/manuscript/202004.0263/v1",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "text generation, language modeling",
+    "Test Split": false,
+    "Tasks": [
+        "text generation",
+        "language modeling"
+    ],
     "Venue Title": "other",
-    "Citations": "3.0",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Aseel Addawood",
-    "Affiliations": "",
+    "Authors": [
+        "Aseel Addawood"
+    ],
+    "Affiliations": [],
     "Abstract": "The COVID-19 pandemic spread of the coronavirus across the globe has affected our lives on many different levels. The world we knew before the spread of the virus has become another one. Every country has taken preventive measures, including social distancing, travel restrictions, and curfew, to control the spread of the disease. With these measures implemented, people have shifted to social media platforms in the online sphere, such as Twitter, to maintain connections. In this paper, we describe a coronavirus data set of Arabic tweets collected from January 1, 2020, primarily from hashtags populated from Saudi Arabia. This data set is available to the research community to glean a better understanding of the societal, economical, and political effects of the outbreak and to help policy makers make better decisions for fighting this epidemic.",
     "Added By": "Zaid Alyafeai"
 }

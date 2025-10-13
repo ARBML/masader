@@ -7,30 +7,49 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "5K extractive QA instances (12K in English) in SQuAD format in seven languages - English, Arabic, German, Spanish, Hindi, Vietnamese and Simplified Chinese.",
-    "Volume": "5,852",
+    "Volume": 5852.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "Facebook",
-    "Derived From": "",
-    "Paper Title": "MLQA: Evaluating Cross-lingual Extractive Question Answering\r\n",
+    "Provider": [
+        "Facebook"
+    ],
+    "Derived From": [],
+    "Paper Title": "MLQA: Evaluating Cross-lingual Extractive Question Answering",
     "Paper Link": "https://arxiv.org/pdf/1910.07475.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "question answering",
+    "Test Split": true,
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "ACL",
-    "Citations": "124.0",
     "Venue Type": "conference",
     "Venue Name": "Assofications of computation linguisitcs",
-    "Authors": "Patrick Lewis,Barlas O\u011fuz,Ruty Rinott,S. Riedel,Holger Schwenk",
-    "Affiliations": "Facebook AI Research;University College London,Facebook AI,,,",
+    "Authors": [
+        "Patrick Lewis",
+        "Barlas O\u011fuz",
+        "Ruty Rinott",
+        "S. Riedel",
+        "Holger Schwenk"
+    ],
+    "Affiliations": [
+        "Facebook AI Research;University College London",
+        "Facebook AI",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Question answering (QA) models have shown rapid progress enabled by the availability of large, high-quality benchmark datasets. Such annotated datasets are difficult and costly to collect, and rarely exist in languages other than English, making building QA systems that work well in other languages challenging. In order to develop such systems, it is crucial to invest in high quality multilingual evaluation benchmarks to measure progress. We present MLQA, a multi-way aligned extractive QA evaluation benchmark intended to spur research in this area. MLQA contains QA instances in 7 languages, English, Arabic, German, Spanish, Hindi, Vietnamese and Simplified Chinese. MLQA has over 12K instances in English and 5K in each other language, with each instance parallel between 4 languages on average. We evaluate state-of-the-art cross-lingual models and machine-translation-based baselines on MLQA. In all cases, transfer results are shown to be significantly behind training-language performance.",
     "Added By": "Zaid Alyafeai"
 }

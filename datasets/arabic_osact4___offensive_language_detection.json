@@ -7,30 +7,47 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "OSACT4 Shared Task on Offensive Language Detection",
-    "Volume": "8,000",
+    "Volume": 8000.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "",
-    "Derived From": "",
-    "Paper Title": "Overview of OSACT4 Arabic Offensive Language Detection Shared Task\r",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "Overview of OSACT4 Arabic Offensive Language Detection Shared Task",
     "Paper Link": "https://aclanthology.org/2020.osact-1.7.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "CodaLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "offensive language detection",
+    "Test Split": true,
+    "Tasks": [
+        "offensive language detection"
+    ],
     "Venue Title": "OSACT",
-    "Citations": "24.0",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
-    "Authors": "Hamdy Mubarak,Kareem Darwish,Walid Magdy,Tamer Elsayed,H. Al-Khalifa",
-    "Affiliations": ",,The University of Edinburgh,,",
+    "Authors": [
+        "Hamdy Mubarak",
+        "Kareem Darwish",
+        "Walid Magdy",
+        "Tamer Elsayed",
+        "H. Al-Khalifa"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "The University of Edinburgh",
+        "",
+        ""
+    ],
     "Abstract": "This paper provides an overview of the offensive language detection shared task at the 4th workshop on Open-Source Arabic Corpora and Processing Tools (OSACT4). There were two subtasks, namely: Subtask A, involving the detection of offensive language, which contains unacceptable or vulgar content in addition to any kind of explicit or implicit insults or attacks against individuals or groups; and Subtask B, involving the detection of hate speech, which contains insults or threats targeting a group based on their nationality, ethnicity, race, gender, political or sport affiliation, religious belief, or other common characteristics. In total, 40 teams signed up to participate in Subtask A, and 14 of them submitted test runs. For Subtask B, 33 teams signed up to participate and 13 of them submitted runs. We present and analyze all submissions in this paper.",
     "Added By": ""
 }

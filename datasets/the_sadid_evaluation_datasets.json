@@ -1,28 +1,28 @@
 {
-    "Name": "The SADID Evaluation Datasets ",
+    "Name": "The SADID Evaluation Datasets",
     "Subsets": [
         {
             "Name": "Levantine",
             "Dialect": "Levant",
-            "Volume": "8,988",
+            "Volume": 8988.0,
             "Unit": "sentences"
         },
         {
             "Name": "Egyptian",
             "Dialect": "Egypt",
-            "Volume": "8,988",
+            "Volume": 8988.0,
             "Unit": "sentences"
         },
         {
             "Name": "MSA",
             "Dialect": "Modern Standard Arabic",
-            "Volume": "2,994",
+            "Volume": 2994.0,
             "Unit": "sentences"
         },
         {
             "Name": "English",
             "Dialect": "mixed",
-            "Volume": "8,994",
+            "Volume": 8994.0,
             "Unit": "sentences"
         }
     ],
@@ -32,30 +32,45 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Evaluation Datasets for Low-Resource Spoken Language Machine Translation of Arabic Dialects",
-    "Volume": "29,964",
+    "Volume": 29964.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Stanford University",
-    "Derived From": "Contains curated data and data from the following corpus (LDC2012T09, LDC2019T01, LDC2019T18, LDC2020T05, LDC2012T09)",
+    "Provider": [
+        "Stanford University"
+    ],
+    "Derived From": [
+        "Contains curated data and data from the following corpus (LDC2012T09",
+        "LDC2019T01",
+        "LDC2019T18",
+        "LDC2020T05",
+        "LDC2012T09)"
+    ],
     "Paper Title": "The SADID Evaluation Datasets for Low-Resource Spoken Language\r\nMachine Translation of Arabic Dialects",
     "Paper Link": "https://aclanthology.org/2020.coling-main.530.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "machine translation",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "COLING",
-    "Citations": "0.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Computational Linguistics",
-    "Authors": "Wael Abid",
-    "Affiliations": "",
+    "Authors": [
+        "Wael Abid"
+    ],
+    "Affiliations": [],
     "Abstract": "Low-resource Machine Translation recently gained a lot of popularity, and for certain languages, it has made great strides. However, it is still difficult to track progress in other languages for which there is no publicly available evaluation data. In this paper, we introduce benchmark datasets for Arabic and its dialects. We describe our design process and motivations and analyze the datasets to understand their resulting properties. Numerous successful attempts use large monolingual corpora to augment low-resource pairs. We try to approach augmentation differently and investigate whether it is possible to improve MT models without any external sources of data. We accomplish this by bootstrapping existing parallel sentences and complement this with multilingual training to achieve strong baselines.",
     "Added By": ""
 }

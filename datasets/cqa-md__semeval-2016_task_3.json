@@ -7,30 +7,48 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "web pages",
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "It includes a TRAIN/DEV split with reliable double-checked DEV (1,281 original questions, and 37,795 potentially related question-answer pairs) + unannotated (163,383 question--answer pairs)",
-    "Volume": "45,164",
+    "Volume": 45164.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "QCRI",
-    "Derived From": "",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
     "Paper Title": "SemEval-2016 Task 3: Community Question Answering",
     "Paper Link": "https://alt.qcri.org/semeval2016/task3/data/uploads/semeval2016-task3-report.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "question answering",
+    "Test Split": true,
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "semEval",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "International Workshop on Semantic Evaluation",
-    "Authors": "Preslav Nakov, Llu\u00b4\u0131s Marquez, Alessandro Moschitti, `\nWalid Magdy, Hamdy Mubarak, Abed Alhakim Freihat",
-    "Affiliations": "ALT Research Group, Qatar Computing Research Institute, HBKU",
+    "Authors": [
+        "Preslav Nakov",
+        "Llu\u00b4\u0131s Marquez",
+        "Alessandro Moschitti",
+        "`\nWalid Magdy",
+        "Hamdy Mubarak",
+        "Abed Alhakim Freihat"
+    ],
+    "Affiliations": [
+        "ALT Research Group",
+        "Qatar Computing Research Institute",
+        "HBKU"
+    ],
     "Abstract": "This paper describes the SemEval\u20132016\nTask 3 on Community Question Answering, which we offered in English and Arabic. For English, we had three subtasks: Question\u2013Comment Similarity (subtask\nA), Question\u2013Question Similarity (B), and\nQuestion\u2013External Comment Similarity (C).\nFor Arabic, we had another subtask: Rerank\nthe correct answers for a new question (D).\nEighteen teams participated in the task, submitting a total of 95 runs (38 primary and 57\ncontrastive) for the four subtasks. A variety\nof approaches and features were used by the\nparticipating systems to address the different\nsubtasks, which are summarized in this paper.\nThe best systems achieved an official score\n(MAP) of 79.19, 76.70, 55.41, and 45.83 in\nsubtasks A, B, C, and D, respectively. These\nscores are significantly better than those for\nthe baselines that we provided. For subtask A,\nthe best system improved over the 2015 winner by 3 points absolute in terms of Accuracy",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,30 +7,45 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "crawling",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "a large-scale multilingual ST corpus based on Common Voice, to foster ST research with the largest ever open dataset. Its latest version covers translations from English into 15 languages---Arabic, Catalan, Welsh, German, Estonian, Persian, Indonesian, Japanese, Latvian, Mongolian, Slovenian, Swedish, Tamil, Turkish, Chinese",
-    "Volume": "6",
+    "Volume": 6.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": "Facebook AI",
-    "Derived From": "Common Voice",
+    "Provider": [
+        "Facebook AI"
+    ],
+    "Derived From": [
+        "Common Voice"
+    ],
     "Paper Title": "CoVoST 2 and Massively Multilingual Speech-to-Text Translation",
     "Paper Link": "https://arxiv.org/pdf/2007.10310.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "speech recognition",
+    "Test Split": true,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "Changhan Wang, Anne Wu, Juan Pino\n",
-    "Affiliations": "Facebook AI;Facebook AI;Facebook AI",
+    "Authors": [
+        "Changhan Wang",
+        "Anne Wu",
+        "Juan Pino"
+    ],
+    "Affiliations": [
+        "Facebook AI;Facebook AI;Facebook AI"
+    ],
     "Abstract": "Speech-to-text translation (ST) has recently become an increasingly popular topic of research,\npartly due to the development of benchmark\ndatasets. Nevertheless, current datasets cover\na limited number of languages. With the aim\nto foster research in massive multilingual ST\nand ST for low resource language pairs, we\nrelease CoVoST 2, a large-scale multilingual\nST corpus covering translations from 21 languages into English and from English into 15\nlanguages. This represents the largest open\ndataset available to date from total volume and\nlanguage coverage perspective. Data sanity\nchecks provide evidence about the quality of\nthe data, which is released under CC0 license.\nWe also provide extensive speech recognition,\nbilingual and multilingual machine translation\nand ST baselines with open-source implementation",
     "Added By": "Zaid Alyafeai"
 }

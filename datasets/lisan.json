@@ -4,25 +4,25 @@
         {
             "Name": "Iraqi",
             "Dialect": "Iraq",
-            "Volume": "50,000",
+            "Volume": 50000.0,
             "Unit": "tokens"
         },
         {
             "Name": "Libyan",
             "Dialect": "Libya",
-            "Volume": "52,000",
+            "Volume": 52000.0,
             "Unit": "tokens"
         },
         {
             "Name": "Sudanese",
             "Dialect": "Sudan",
-            "Volume": "53,000",
+            "Volume": 53000.0,
             "Unit": "tokens"
         },
         {
             "Name": "Yemeni",
             "Dialect": "Yemen",
-            "Volume": "1,050,000",
+            "Volume": 1050000.0,
             "Unit": "tokens"
         }
     ],
@@ -32,30 +32,48 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "A morphologically-annotated Yemeni, Sudanese, Iraqi, and Libyan Arabic dialects Lisan corpora. Lisan features around 1.2 million tokens. It was collected the content of the corpora from several social media platforms.",
-    "Volume": "1,200,000",
+    "Volume": 1200000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "SinaLab, Birzeit University",
-    "Derived From": "",
+    "Provider": [
+        "SinaLab",
+        "Birzeit University"
+    ],
+    "Derived From": [],
     "Paper Title": "Lisan: Yemeni, Iraqi, Libyan, and Sudanese Arabic Dialect Corpora with Morphological Annotations",
     "Paper Link": "https://arxiv.org/abs/2212.06468",
     "Script": "Arab",
-    "Tokenized": "Yes",
-    "Host": "SinaLab Resources",
+    "Tokenized": true,
+    "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "language modeling, dialect identification, tokenization, part of speech tagging, morphological analysis",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling",
+        "dialect identification",
+        "tokenization",
+        "part of speech tagging",
+        "morphological analysis"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "Mustafa Jarrar, Fadi Zaraket, Tymaa Hammouda, Daanish Masood, Martin Waehlisch",
-    "Affiliations": "",
+    "Authors": [
+        "Mustafa Jarrar",
+        "Fadi Zaraket",
+        "Tymaa Hammouda",
+        "Daanish Masood",
+        "Martin Waehlisch"
+    ],
+    "Affiliations": [],
     "Abstract": "This article presents morphologically-annotated Yemeni, Sudanese, Iraqi, and Libyan Arabic dialects Lisan corpora. Lisan features around 1.2 million tokens. We collected the content of the corpora from several social media platforms. The Yemeni corpus (~ 1.05M tokens) was collected automatically from Twitter. The corpora of the other three dialects (~ 50K tokens each) came manually from Facebook and YouTube posts and comments.\nThirty five (35) annotators who are native speakers of the target dialects carried out the annotations. The annotators segemented all words in the four corpora into prefixes, stems and suffixes and labeled each with different morphological features such as part of speech, lemma, and a gloss in English. An Arabic Dialect Annotation Toolkit ADAT was developped for the purpose of the annation. The annotators were trained on a set of guidelines and on how to use ADAT. We developed ADAT to assist the annotators and to ensure compatibility with SAMA and Curras tagsets. The tool is open source, and the four corpora are also available online.",
     "Added By": "Tymaa Hammouda"
 }

@@ -7,30 +7,44 @@
     "Year": 2017,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "crawling,machine annotation",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "Arabic-ENglish named entities dataset is created using DBpedia Linked datasets and parallel corpus. For annotating NE in monolingual English corpus we used Gate tool. Our approach is based on linked data entities by mapping them to Gate Gazetteers, and then constructing a type-oriented NE base covering person, Location and organization classes. The second task consists of the use of machine translation to translate these entities and then finally, generating our NE lexicon that encloses the list of Arabic entities that match to the English lists.",
-    "Volume": "48,753",
+    "Volume": 48753.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "Monastir University - Tunisia, Umm Al-Qura University - Saudi Arabia",
-    "Derived From": "",
+    "Provider": [
+        "Monastir University - Tunisia",
+        "Umm Al-Qura University - Saudi Arabia"
+    ],
+    "Derived From": [],
     "Paper Title": "Constructing a Lexicon of Arabic-English Named Entity using SMT and Semantic Linked Data",
     "Paper Link": "http://iajit.org/PDF//vol.%2014,%20no%206/10491.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation, named entity recognition",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation",
+        "named entity recognition"
+    ],
     "Venue Title": "IAJIT",
-    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "The International Arab Journal of Information Technology",
-    "Authors": "Emna Hkiri, Souheyl Mallat, Mounir Zrigui and Mourad Mars",
-    "Affiliations": "",
-    "Abstract": "Named Entity Recognition (NER) is the problem of locating and categorizing atomic entities in a given text. In this work, we used DBpedia Linked datasets and combined existing open source tools to generate from a parallel corpus a bilingual lexicon of Named Entities (NE). To annotate NE in the monolingual English corpus, we used linked data entities by mapping them to Gate Gazetteers. In order to translate entities identified by the gate tool from the English corpus, we used moses, a Statistical Machine Translation (SMT) system. The construction of the Arabic-English NE lexicon is based on the results of moses translation. Our method is fully automatic and aims to help Natural Language Processing (NLP) tasks such as, Machine Translation (MT) information retrieval, text mining and question answering. Our lexicon contains 48753 pairs of Arabic-English NE, it is freely available for use by other researchers. ",
+    "Authors": [
+        "Emna Hkiri",
+        "Souheyl Mallat",
+        "Mounir Zrigui and Mourad Mars"
+    ],
+    "Affiliations": [],
+    "Abstract": "Named Entity Recognition (NER) is the problem of locating and categorizing atomic entities in a given text. In this work, we used DBpedia Linked datasets and combined existing open source tools to generate from a parallel corpus a bilingual lexicon of Named Entities (NE). To annotate NE in the monolingual English corpus, we used linked data entities by mapping them to Gate Gazetteers. In order to translate entities identified by the gate tool from the English corpus, we used moses, a Statistical Machine Translation (SMT) system. The construction of the Arabic-English NE lexicon is based on the results of moses translation. Our method is fully automatic and aims to help Natural Language Processing (NLP) tasks such as, Machine Translation (MT) information retrieval, text mining and question answering. Our lexicon contains 48753 pairs of Arabic-English NE, it is freely available for use by other researchers.",
     "Added By": "Mourad Mars"
 }

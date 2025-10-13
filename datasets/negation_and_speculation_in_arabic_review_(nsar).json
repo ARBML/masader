@@ -7,30 +7,49 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": "reviews",
+    "Domain": [
+        "reviews"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "The Negation and Speculation Arabic Review (NSAR) corpus consists of 3K randomly selected review sentences from three well-known and benchmarked Arabic corpora: Large Scale Arabic Book Review (LABR), Large Arabic Multi-domain Resources (LAMR), and Multi-domain Arabic Sentiment Corpus (MASC). It contains reviews from different categories, including books, hotels, restaurants, and other products written in various Arabic dialects. The negation and speculation keywords have been annotated along with their linguistic scope based on the annotation guidelines reviewed by an expert linguist.",
-    "Volume": "3,011",
+    "Volume": 3011.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Ain Shams University",
-    "Derived From": "Large Scale Arabic Book Review (LABR), Large Arabic Multi-domain Resources (LAMR), and Multi-domain Arabic Sentiment Corpus (MASC)",
+    "Provider": [
+        "Ain Shams University"
+    ],
+    "Derived From": [
+        "Large Scale Arabic Book Review (LABR)",
+        "Large Arabic Multi-domain Resources (LAMR)",
+        "and Multi-domain Arabic Sentiment Corpus (MASC)"
+    ],
     "Paper Title": "Annotated Corpus with Negation and Speculation in Arabic Review Domain: NSAR",
     "Paper Link": "https://github.com/amahany/NSAR/blob/main/NSAR_Paper.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis, information retrieval, review classification",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis",
+        "information retrieval",
+        "review classification"
+    ],
     "Venue Title": "IJACSA",
-    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "International Journal of Advanced Computer Science and Applications",
-    "Authors": "Ahmed Mahany, Heba Khaled, Nouh Sabri Elmitwally, Naif Aljohani, Said Ghoniemy",
-    "Affiliations": "",
+    "Authors": [
+        "Ahmed Mahany",
+        "Heba Khaled",
+        "Nouh Sabri Elmitwally",
+        "Naif Aljohani",
+        "Said Ghoniemy"
+    ],
+    "Affiliations": [],
     "Abstract": "Negation and speculation detection are critical for\nNatural Language Processing (NLP) tasks, such as sentiment\nanalysis, information retrieval, and machine translation. This\npaper presents the first Arabic corpus in the review domain\nannotated with negation and speculation. The Negation and\nSpeculation Arabic Review (NSAR) corpus consists of 3K\nrandomly selected review sentences from three well-known and\nbenchmarked Arabic corpora. It contains reviews from different\ncategories, including books, hotels, restaurants, and other\nproducts written in various Arabic dialects. The negation and\nspeculation keywords have been annotated along with their\nlinguistic scope based on the annotation guidelines reviewed by\nan expert linguist. The inter-annotator agreement between two\nindependent annotators, Arabic native speakers, is measured\nusing the Cohen\u2019s Kappa coefficients with values of 95 and 80 for\nnegation and speculation, respectively. Furthermore, 29% of this\ncorpus includes at least one negation instance, while only 4% of\nthis corpus contains speculative content. Therefore, the Arabic\nreviews focus more on negation structures rather than\nspeculation. This corpus will be available for the Arabic research\ncommunity to handle these critical phenomena.",
     "Added By": "Ahmed Mahany"
 }

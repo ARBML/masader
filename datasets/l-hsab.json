@@ -7,30 +7,47 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Arabic Levantine Hate Speech and Abusive Language Dataset",
-    "Volume": "5,851",
+    "Volume": 5851.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
     "Paper Title": "L-HSAB: A Levantine Twitter Dataset for Hate Speech and Abusive Language",
     "Paper Link": "https://aclanthology.org/W19-3512.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "hate speech detection",
+    "Test Split": true,
+    "Tasks": [
+        "hate speech detection"
+    ],
     "Venue Title": "ALW",
-    "Citations": "46.0",
     "Venue Type": "workshop",
     "Venue Name": "Abusive Language Online",
-    "Authors": "Hala Mulki,Hatem Haddad,Chedi Bechikh Ali,Halima Alshabani",
-    "Affiliations": ",iCompass,,",
+    "Authors": [
+        "Hala Mulki",
+        "Hatem Haddad",
+        "Chedi Bechikh Ali",
+        "Halima Alshabani"
+    ],
+    "Affiliations": [
+        "",
+        "iCompass",
+        "",
+        ""
+    ],
     "Abstract": "\u2217Department of Computer Engineering, Konya Technical University, Turkey \u2020RIADI Laboratory, National School of Computer Sciences, University of Manouba, Tunisia \u2217\u2217LISI Laboratory, INSAT, Carthage University, Tunisia \u2217\u2217\u2217Department of Computer Engineering, K\u0131r\u0131kkale University, Turkey \u00a7iCompass Consulting, Tunisia halamulki@selcuk.edu.tr,haddad.Hatem@gmail.com chedi.bechikh@gmail.com,halima.alshabani@gmail.com Abstract",
     "Added By": ""
 }

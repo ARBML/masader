@@ -7,30 +7,43 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "reported evaluations relate to answers submitted for three different exams submitted to three classes of students.",
-    "Volume": "2,133",
+    "Volume": 2133.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Bouira University",
-    "Derived From": "",
-    "Paper Title": "AR-ASAG An ARabic Dataset for Automatic Short Answer Grading Evaluation \n",
+    "Provider": [
+        "Bouira University"
+    ],
+    "Derived From": [],
+    "Paper Title": "AR-ASAG An ARabic Dataset for Automatic Short Answer Grading Evaluation",
     "Paper Link": "https://aclanthology.org/2020.lrec-1.321.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "answer grading",
+    "Test Split": false,
+    "Tasks": [
+        "answer grading"
+    ],
     "Venue Title": "LREC",
-    "Citations": "0.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Leila Ouahrani,Djamel Bennouar",
-    "Affiliations": ",",
+    "Authors": [
+        "Leila Ouahrani",
+        "Djamel Bennouar"
+    ],
+    "Affiliations": [
+        "",
+        ""
+    ],
     "Abstract": "Automatic short answer grading is a significant problem in E-assessment. Several models have been proposed to deal with it. Evaluation and comparison of such solutions need the availability of Datasets with manual examples. In this paper, we introduce AR-ASAG, an Arabic Dataset for automatic short answer grading. The Dataset contains 2133 pairs of (Model Answer, Student Answer) in several versions (txt, xml, Moodle xml and .db). We explore then an unsupervised corpus based approach for automatic grading adapted to the Arabic Language. We use COALS (Correlated Occurrence Analogue to Lexical Semantic) algorithm to create semantic space for word distribution. The summation vector model is combined to term weighting and common words to achieve similarity between a teacher model answer and a student answer. The approach is particularly suitable for languages with scarce resources such as Arabic language where robust specific resources are not yet available. A set of experiments were conducted to analyze the effect of domain specificity, semantic space dimension and stemming techniques on the effectiveness of the grading model. The proposed approach gives promising results for Arabic language. The reported results may serve as baseline for future research work evaluation",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,30 +7,44 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": "web pages",
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "It contains 50 TXT files recording poetry composition by various authors from 6th and 7th c. It was derived from two corpora: King Saud University Classical Arabic Corpus (KSUCAC) created by the team led by Maha S. Alrabiah (2014), and a corpus prepared by Abeer Alsheddi (2016).",
-    "Volume": "50",
+    "Volume": 50.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "Alrabiah, Maha S. (2014): \tKing Saud University Classical Arabic Corpus, Ar-Riya\u0304\u1e0d. Alsheddi, Abeer. (2016): \tEdit Distance Adapted to Natural Language Words. M.A. Thesis. Ar-Riya\u0304\u1e0d.",
+    "Provider": [],
+    "Derived From": [
+        "Alrabiah",
+        "Maha S. (2014): \tKing Saud University Classical Arabic Corpus",
+        "Ar-Riya\u0304\u1e0d. Alsheddi",
+        "Abeer. (2016): \tEdit Distance Adapted to Natural Language Words. M.A. Thesis. Ar-Riya\u0304\u1e0d."
+    ],
     "Paper Title": "Cultural Conceptualizations of shame & dishonor in Early Poetic Arabic (EPA)",
     "Paper Link": "https://www.ejournals.eu/pliki/art/20227/",
     "Script": "Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "poetry analysis",
+    "Test Split": false,
+    "Tasks": [
+        "poetry analysis"
+    ],
     "Venue Title": "The Polish Journal of the Arts and Culture",
-    "Citations": "",
     "Venue Type": "journal",
     "Venue Name": "The Polish Journal of the Arts and Culture. New Series}",
-    "Authors": "Bartosz Pietrzak",
-    "Affiliations": "Institute of Oriental Studies of Jagiellonian University in Krakow.",
+    "Authors": [
+        "Bartosz Pietrzak"
+    ],
+    "Affiliations": [
+        "Institute of Oriental Studies of Jagiellonian University in Krakow."
+    ],
     "Abstract": "Persisting in a binary relationship with honor, shame was an important element of the pre-Islamic Arabic social evaluation system. In my\nstudy, I analyzed the two most important EPA concepts parallel to\nEnglish shame \u2013 \u02c1ayb and \u02c1a\u0304r \u2013 applying the Cultural Linguistic approach. Based on the analyses on corpus of Early Arabic poetry and\nClassical Arabic dictionaries, I represented cultural schemata encoding the knowledge shared by pre-Islamic Arabs about those phenomena. The paper presents also metaphoric, metonymic, and image-schematic models, which account for the specifics of associated linguistic\nframes. Moreover, I posit a hypothesis on the existence of a schema\nsubsuming the honor- and shame-dishonor-related schemata in\nform of social evaluation of usefulness, which seems to correspond\nto the historical and linguistic data.",
     "Added By": "Mustafa Ghaleb"
 }

@@ -7,30 +7,37 @@
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "the 49 translations for this AFP subset are not included in this release, resulting in a total 1,682 translations for the 1,731 source stories.",
-    "Volume": "1,731",
+    "Volume": 1731.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "",
-    "Tokenized": "No",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,500.00 $",
-    "Test Split": "No",
-    "Tasks": "syntactic parsing",
+    "Test Split": false,
+    "Tasks": [
+        "syntactic parsing"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

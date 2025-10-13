@@ -3,34 +3,41 @@
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Merged_Arabic_Corpus_of_Isolated_Words",
     "Link": "https://www.kaggle.com/datasets/mohamedanwarvic/merged-arabic-corpus-of-isolated-words",
-    "License": "ODbL-1.0",
+    "License": "Apache-1.0",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
-    "Form": "spoken",
-    "Collection Style": "other",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "This dataset is a voice-recorded dataset of 50 Native-Arabic speakers saying 20 words about 10 times. It has been recorded with a 44100 Hz sampling rate and 16-bit resolution. This dataset can be used for tasks like Speaker Recognition, Speaker Verification, Voice biometrics,",
-    "Volume": "9,992",
+    "Volume": 9992.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "The Arabic Speech Corpus for Isolated Words",
+    "Provider": [],
+    "Derived From": [
+        "The Arabic Speech Corpus for Isolated Words"
+    ],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "speech recognition",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

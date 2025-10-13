@@ -7,30 +7,56 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "DZDC12 is a multi-purpose parallel corpus crawled from facebook",
-    "Volume": "2,400",
+    "Volume": 2400.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "Department of Electronics and Telecommunications, Universit\u00e9 8 Mai 1945 Guelma,24000,Guelma,Algeria",
-    "Derived From": "",
+    "Provider": [
+        "Department of Electronics and Telecommunications",
+        "Universit\u00e9 8 Mai 1945 Guelma",
+        "24000",
+        "Guelma",
+        "Algeria"
+    ],
+    "Derived From": [],
     "Paper Title": "DZDC12: a new multipurpose parallel Algerian Arabizi\u2013French code-switched corpus",
     "Paper Link": "https://link.springer.com/article/10.1007/s10579-019-09454-8",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation, language modeling, dialect identification, information retrieval, offensive language detection, gender identification, natural language inference",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation",
+        "language modeling",
+        "dialect identification",
+        "information retrieval",
+        "offensive language detection",
+        "gender identification",
+        "natural language inference"
+    ],
     "Venue Title": "LREC",
-    "Citations": "2.0",
     "Venue Type": "journal",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Kheireddine Abainia",
-    "Affiliations": "PIMIS Laboratory, Department of Electronics and Telecommunications, Universit\u00e9 8 Mai 1945 Guelma,24000,Guelma,Algeria",
+    "Authors": [
+        "Kheireddine Abainia"
+    ],
+    "Affiliations": [
+        "PIMIS Laboratory",
+        "Department of Electronics and Telecommunications",
+        "Universit\u00e9 8 Mai 1945 Guelma",
+        "24000",
+        "Guelma",
+        "Algeria"
+    ],
     "Abstract": "Algeria\u2019s socio-linguistic situation is known as a complex phenomenon involving several historical, cultural and technological factors. However, there are three languages that are mainly spoken in Algeria (Arabic, Tamazight and French) and they can be mixed in the same sentence (code-switching). Moreover, there are several varieties of dialects that differ from one region to another and sometimes within the same region. This paper aims to provide a new multi-purpose parallel corpus (i.e., DZDC12 corpus), which will serve as a testbed for various natural language processing and information retrieval applications. In particular, it can be a useful tool to study Arabic\u2013French code-switching phenomenon, Algerian Romanized Arabic (Arabizi), different Algerian sub-dialects, sentiment analysis, gender writing style, machine translation, abuse detection, etc. To the best of our knowledge, the proposed corpus is the first of its kind, where the texts are written in Latin script and crawled from Facebook. More specifically, this corpus is organised by gender, region and city, and is transliterated into Arabic script and translated into Modern Standard Arabic. In addition, it is annotated for emotion detection and abuse detection, and annotated at the word level. This article focuses in particular on Algeria\u2019s socio-linguistic situation and the effect of social media networks. Furthermore, the general guidelines for the design of DZDC12 corpus are described as well as the dialects clustering over the map.",
     "Added By": "Jezia Zakraoui"
 }

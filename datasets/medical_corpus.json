@@ -7,30 +7,47 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "manual curation",
-    "Description": " corpus from a medical care forum known as Doctissimo",
-    "Volume": "152",
+    "Collection Style": [
+        "manual curation"
+    ],
+    "Description": "corpus from a medical care forum known as Doctissimo",
+    "Volume": 152.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
-    "Paper Title": "An Arabic Multi-Domain Spoken Language Understanding System\r",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
+    "Paper Title": "An Arabic Multi-Domain Spoken Language Understanding System",
     "Paper Link": "https://aclanthology.org/W19-7407.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "text classification",
+    "Test Split": false,
+    "Tasks": [
+        "text classification"
+    ],
     "Venue Title": "ICNLSP",
-    "Citations": "0.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Natural Language and Speech Processing",
-    "Authors": "Mohamed Lichouri,Mourad Abbas,R. Djeradi,A. Djeradi",
-    "Affiliations": "CRSTDLA,,,",
+    "Authors": [
+        "Mohamed Lichouri",
+        "Mourad Abbas",
+        "R. Djeradi",
+        "A. Djeradi"
+    ],
+    "Affiliations": [
+        "CRSTDLA",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "In this paper, we suggest the generalization of an Arabic Spoken Language Understanding (SLU) system in a multi-domain humanmachine dialog. We are interested particularly in domain portability of SLU system related to both structured (DBMS) and unstructured data (Information Extraction), related to four domains. In this work, we used the thematic approach for four domains which are School Management, Medical Diagnostics, Consultation domain and Question-Answering domain (DAWQAS). We should note that two kinds of classifiers are used in our experiments: statistical and neural, namely: Gaussian Naive Bayes, Bernoulli Naive Bayes, Logistic Regression, SGD, Passive Aggressive Classifier, Perceptron, Linear Support Vector and Convolutional Neural Network.",
     "Added By": "Zaid Alyafeai"
 }

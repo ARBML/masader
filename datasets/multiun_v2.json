@@ -7,30 +7,39 @@
     "Year": 2010,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "human annotation",
-    "Description": " 6 official languages of the UN, consisting of around 300 million words per language",
-    "Volume": "65,156",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "6 official languages of the UN, consisting of around 300 million words per language",
+    "Volume": 65156.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": "DFKI",
-    "Derived From": "",
-    "Paper Title": "MultiUN: A Multilingual Corpus from United Nation Documents\r",
+    "Provider": [
+        "DFKI"
+    ],
+    "Derived From": [],
+    "Paper Title": "MultiUN: A Multilingual Corpus from United Nation Documents",
     "Paper Link": "https://www.dfki.de/fileadmin/user_upload/import/4790_686_Paper.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "machine translation",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "LREC",
-    "Citations": "223.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "A. Eisele",
-    "Affiliations": "",
+    "Authors": [
+        "A. Eisele"
+    ],
+    "Affiliations": [],
     "Abstract": "This paper describes the acquisition, preparation and properties of a corpus extracted from the official documents of the United Nations (UN). This corpus is available in all 6 official languages of the UN, consisting of around 300 million words per language. We describe the methods we used for crawling, document formatting, and sentence alignment. This corpus also includes a common test set for machine translation. We present the results of a French-Chinese machine translation experiment performed on this corpus.",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,30 +7,52 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Lebanon",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "by translating, annotating, and transliterating\r\nother resources to have an initial set of 2K sentiment words. We expanded it to 24.6K sentiment\r\nwords by importing inflectional and orthographic\r\nforms using word embeddings",
-    "Volume": "24,600",
+    "Volume": 24600.0,
     "Unit": "tokens",
     "Ethical Risks": "Medium",
-    "Provider": "Multiple Institutions",
-    "Derived From": "",
-    "Paper Title": "SenZi: A Sentiment Analysis Lexicon for the Latinised Arabic (Arabizi)\r",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
+    "Paper Title": "SenZi: A Sentiment Analysis Lexicon for the Latinised Arabic (Arabizi)",
     "Paper Link": "https://aclanthology.org/R19-1138.pdf",
     "Script": "Arab-Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis, transliteration",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis",
+        "transliteration"
+    ],
     "Venue Title": "RANLP",
-    "Citations": "5.0",
     "Venue Type": "conference",
     "Venue Name": "Recent Advances in Natural Language Processing",
-    "Authors": "Taha Tobaili,Miriam Fern\u00e1ndez,Harith Alani,S. Sharafeddine,Hazem M. Hajj,Goran Glavas",
-    "Affiliations": ",,,,,",
+    "Authors": [
+        "Taha Tobaili",
+        "Miriam Fern\u00e1ndez",
+        "Harith Alani",
+        "S. Sharafeddine",
+        "Hazem M. Hajj",
+        "Goran Glavas"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     "Abstract": "Arabizi is an informal written form of dialectal Arabic transcribed in Latin alphanumeric characters. It has a proven popularity on chat platforms and social media, yet it suffers from a severe lack of natural language processing (NLP) resources. As such, texts written in Arabizi are often disregarded in sentiment analysis tasks for Arabic. In this paper we describe the creation of a sentiment lexicon for Arabizi that was enriched with word embeddings. The result is a new Arabizi lexicon consisting of 11.3K positive and 13.3K negative words. We evaluated this lexicon by classifying the sentiment of Arabizi tweets achieving an F1-score of 0.72. We provide a detailed error analysis to present the challenges that impact the sentiment analysis of Arabizi.",
     "Added By": "Zaid Alyafeai"
 }

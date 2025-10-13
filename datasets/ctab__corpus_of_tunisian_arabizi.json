@@ -7,30 +7,37 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
-    "Description": "This dataset has been created between 2017 and 2021 to provide a textual resource that can be used to study the behaviors of Tunisian people in writing Tunisian Arabic (ISO 693-3: aeb) in Latin Script. This corpus is constituted from messages written using Tunisian Arabic Chat Alphabet or Arabizi and is developed to solve the matter of the lack of NLP databases about the use of the Latin Script for transcribing Tunisian Arabic. ",
-    "Volume": "5,702",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "This dataset has been created between 2017 and 2021 to provide a textual resource that can be used to study the behaviors of Tunisian people in writing Tunisian Arabic (ISO 693-3: aeb) in Latin Script. This corpus is constituted from messages written using Tunisian Arabic Chat Alphabet or Arabizi and is developed to solve the matter of the lack of NLP databases about the use of the Latin Script for transcribing Tunisian Arabic.",
+    "Volume": 5702.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "University of Sfax",
-    "Derived From": "",
+    "Provider": [
+        "University of Sfax"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "dialect identification",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

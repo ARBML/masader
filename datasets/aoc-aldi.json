@@ -7,30 +7,45 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "commentary",
+    "Domain": [
+        "commentary"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Comments to news articles with a continuous level of dialectness score between 0 and 1.",
-    "Volume": "127,835",
+    "Volume": 127835.0,
     "Unit": "sentences",
-    "Ethical Risks": "",
-    "Provider": "University of Edinburgh",
-    "Derived From": "AOC (Arabic Online Commentary)",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Edinburgh"
+    ],
+    "Derived From": [
+        "AOC (Arabic Online Commentary)"
+    ],
     "Paper Title": "ALDi: Quantifying the Arabic Level of Dialectness of Text",
     "Paper Link": "https://aclanthology.org/2023.emnlp-main.655/",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "dialect identification",
+    "Test Split": true,
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "EMNLP",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",
-    "Authors": "Amr Keleg, Sharon Goldwater, Walid Magdy",
-    "Affiliations": "University of Edinburgh",
+    "Authors": [
+        "Amr Keleg",
+        "Sharon Goldwater",
+        "Walid Magdy"
+    ],
+    "Affiliations": [
+        "University of Edinburgh"
+    ],
     "Abstract": "Transcribed speech and user-generated text in Arabic typically contain a mixture of Modern Standard Arabic (MSA), the standardized language taught in schools, and Dialectal Arabic (DA), used in daily communications. To handle this variation, previous work in Arabic NLP has focused on Dialect Identification (DI) on the sentence or the token level. However, DI treats the task as binary, whereas we argue that Arabic speakers perceive a spectrum of dialectness, which we operationalize at the sentence level as the Arabic Level of Dialectness (ALDi), a continuous linguistic variable. We introduce the AOC-ALDi dataset (derived from the AOC dataset), containing 127,835 sentences (17% from news articles and 83% from user comments on those articles) which are manually labeled with their level of dialectness. We provide a detailed analysis of AOC-ALDi and show that a model trained on it can effectively identify levels of dialectness on a range of other corpora (including dialects and genres not included in AOC-ALDi), providing a more nuanced picture than traditional DI systems. Through case studies, we illustrate how ALDi can reveal Arabic speakers' stylistic choices in different situations, a useful property for sociolinguistic analyses.",
     "Added By": "Amr Keleg"
 }

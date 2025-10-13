@@ -7,30 +7,44 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Gulf",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "MARSA\u2014the largest sentiment annotated corpus for Dialectal Arabic (DA) in the Gulf region, which consists of 61,353 manually labeled tweets that contain a total of 840 K tokens. The tweets were collected from trending hashtags in four domains: political, social, sports, and technology to create a multi-domain corpus.",
-    "Volume": "61,353",
+    "Volume": 61353.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "MARSA: Multi-Domain Arabic Resources for Sentiment Analysis",
     "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9576756",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "sentiment analysis",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "Areeb Alowisheq,Nora Al-Twairesh,Mawaheb Altuwaijri,Afnan Almoammar,Alhanouf Alsuwailem,Tarfa Albuhairi,Wejdan Alahaideb,Sarah Alhumoud",
-    "Affiliations": "",
+    "Authors": [
+        "Areeb Alowisheq",
+        "Nora Al-Twairesh",
+        "Mawaheb Altuwaijri",
+        "Afnan Almoammar",
+        "Alhanouf Alsuwailem",
+        "Tarfa Albuhairi",
+        "Wejdan Alahaideb",
+        "Sarah Alhumoud"
+    ],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Aljoharah R"
 }

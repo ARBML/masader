@@ -7,30 +7,38 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
-    "Description": "In total, 17,103 sequences were annotated from 585,163 tweets (196,374 in English, 254,748 in French and 134,041 in Arabizi), including the themes \u201cOthers\u201d and \u201cIncomprehensible\u201d. Among these sequences, 4,578 sequences having at least 20 tweets annotated with the 3 predefined themes (Hooliganism, Racism and Terrorism) were obtained, including 1,866 sequences with an opinion change. They are distributed as follows: 2,141 sequences in English (57,655 tweets), 1,942 sequences in French (48,854 tweets) and 495 sequences in Arabizi (21,216 tweets). A sub-corpus of 8,733 tweets (1,209 in English, 3,938 in French and 3,585 in Arabizi) annotated as \u201chateful\u201d, according to topic/opinion annotations and by selecting tweets that contained insults, is also provided. ",
-    "Volume": "134,041",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "In total, 17,103 sequences were annotated from 585,163 tweets (196,374 in English, 254,748 in French and 134,041 in Arabizi), including the themes \u201cOthers\u201d and \u201cIncomprehensible\u201d. Among these sequences, 4,578 sequences having at least 20 tweets annotated with the 3 predefined themes (Hooliganism, Racism and Terrorism) were obtained, including 1,866 sequences with an opinion change. They are distributed as follows: 2,141 sequences in English (57,655 tweets), 1,942 sequences in French (48,854 tweets) and 495 sequences in Arabizi (21,216 tweets). A sub-corpus of 8,733 tweets (1,209 in English, 3,938 in French and 3,585 in Arabizi) annotated as \u201chateful\u201d, according to topic/opinion annotations and by selecting tweets that contained insults, is also provided.",
+    "Volume": 134041.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": "ELDA",
-    "Derived From": "",
+    "Provider": [
+        "ELDA"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Latin",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "ELRA",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "topic classification, sentiment analysis",
+    "Test Split": false,
+    "Tasks": [
+        "topic classification",
+        "sentiment analysis"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

@@ -1,5 +1,5 @@
 {
-    "Name": "MMedC ",
+    "Name": "MMedC",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Henrychur/MMedC",
     "Link": "https://hf.co/datasets/Henrychur/MMedC",
@@ -7,30 +7,35 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "a multilingual medical corpus with 25.5 billion tokens",
-    "Volume": "640,000,000",
+    "Volume": 640000000.0,
     "Unit": "tokens",
     "Ethical Risks": "High",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "Towards Building Multilingual Language Model for Medicine",
     "Paper Link": "https://arxiv.org/pdf/2402.13963",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "language modeling",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "The development of open-source, multilingual medical language models can benefit a wide, linguistically\ndiverse audience from different regions. To promote this domain, we present contributions from the\nfollowing: First, we construct a multilingual medical corpus, containing approximately 25.5B tokens\nencompassing 6 main languages, termed as MMedC, enabling auto-regressive domain adaptation for\ngeneral LLMs; Second, to monitor the development of multilingual medical LLMs, we propose a multilingual\nmedical multi-choice question-answering benchmark with rationale, termed as MMedBench; Third, we\nhave assessed a number of open-source large language models (LLMs) on our benchmark, along with those\nfurther auto-regressive trained on MMedC. Our final model, MMed-Llama 3, with only 8B parameters,\nachieves superior performance compared to all other open-source models on both MMedBench and English\nbenchmarks, even rivaling GPT-4. In conclusion, in this work, We present a large-scale corpus, a benchmark\nand a series of models to support the development of multilingual medical LLMs.",
     "Added By": "Zaid Alyafeai"
 }

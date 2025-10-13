@@ -7,30 +7,37 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "machine annotation",
+    "Collection Style": [
+        "machine annotation"
+    ],
     "Description": "xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks. It is used for the training of BLOOMZ and mT0, multilingual language models capable of following human instructions in dozens of languages zero-shot",
-    "Volume": "2,610,000",
+    "Volume": 2610000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "BigScience",
-    "Derived From": "",
+    "Provider": [
+        "BigScience"
+    ],
+    "Derived From": [],
     "Paper Title": "Crosslingual Generalization through Multitask Finetuning",
     "Paper Link": "https://aclanthology.org/2023.acl-long.891.pdf",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "instruction tuning",
+    "Test Split": false,
+    "Tasks": [
+        "instruction tuning"
+    ],
     "Venue Title": "ACL",
-    "Citations": "",
     "Venue Type": "conference",
     "Venue Name": "Associations of computation linguistics",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "Multitask prompted finetuning (MTF) has been\nshown to help large language models generalize to new tasks in a zero-shot setting, but\nso far explorations of MTF have focused on\nEnglish data and models. We apply MTF to\nthe pretrained multilingual BLOOM and mT5\nmodel families to produce finetuned variants\ncalled BLOOMZ and mT0. We find finetuning\nlarge multilingual language models on English\ntasks with English prompts allows for task generalization to non-English languages that appear only in the pretraining corpus. Finetuning on multilingual tasks with English prompts\nfurther improves performance on English and\nnon-English tasks leading to various state-ofthe-art zero-shot results. We also investigate\nfinetuning on multilingual tasks with prompts\nthat have been machine-translated from English to match the language of each dataset.\nWe find training on these machine-translated\nprompts leads to better performance on humanwritten prompts in the respective languages.\nSurprisingly, we find models are capable of\nzero-shot generalization to tasks in languages\nthey have never intentionally seen. We conjecture that the models are learning higher-level\ncapabilities that are both task- and languageagnostic. In addition, we introduce xP3, a\ncomposite of supervised datasets in 46 languages with English and machine-translated\nprompts. Our code, datasets and models\nare freely available at https://github.com/\nbigscience-workshop/xmtf",
     "Added By": "Zaid Alyafeai"
 }

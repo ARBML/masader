@@ -7,30 +7,36 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The arabic corpus {1.9B word} consists of the following resources:\n\nShamelaLibrary348.7z link {1.15B}\nUN arabic corpus mirror1 mirror2 {0.37B}\nAraCorpus.tar.gz link {0.14B}\nArabic Wikipedia Latest Articles Dump link {0.11B}\nTashkeela-arabic-diacritized-text-utf8-0.3.zip link {0.07B}\nArabic Tweets link {0.03B}\nwatan-2004.7z link {0.01B}",
-    "Volume": "1,754,541,204",
+    "Volume": 1754541204.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "Yes",
+    "Tokenized": true,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "text generation, language modeling",
+    "Test Split": false,
+    "Tasks": [
+        "text generation",
+        "language modeling"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Tarek Eldeeb"
 }

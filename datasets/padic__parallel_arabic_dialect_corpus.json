@@ -4,37 +4,37 @@
         {
             "Name": "MSA",
             "Dialect": "Modern Standard Arabic",
-            "Volume": "8,244",
+            "Volume": 8244.0,
             "Unit": "sentences"
         },
         {
             "Name": "ALG",
             "Dialect": "Algeria",
-            "Volume": "8,244",
+            "Volume": 8244.0,
             "Unit": "sentences"
         },
         {
             "Name": "ANB",
             "Dialect": "Algeria",
-            "Volume": "8,244",
+            "Volume": 8244.0,
             "Unit": "sentences"
         },
         {
             "Name": "TUN",
             "Dialect": "Tunisia",
-            "Volume": "8,244",
+            "Volume": 8244.0,
             "Unit": "sentences"
         },
         {
             "Name": "PAL",
             "Dialect": "Palestine",
-            "Volume": "8,244",
+            "Volume": 8244.0,
             "Unit": "sentences"
         },
         {
             "Name": "SYR",
             "Dialect": "Syria",
-            "Volume": "8,244",
+            "Volume": 8244.0,
             "Unit": "sentences"
         }
     ],
@@ -44,30 +44,45 @@
     "Year": 2014,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": "social media",
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": "crawling",
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "s composed of about 6400 sentences of dialects from both the Maghreb and the middle east",
-    "Volume": "12,824",
+    "Volume": 12824.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": "Loris Fr",
-    "Derived From": "",
+    "Provider": [
+        "Loris Fr"
+    ],
+    "Derived From": [],
     "Paper Title": "A multidialectal parallel corpus of Arabic",
     "Paper Link": "https://hal.archives-ouvertes.fr/hal-01261587/document",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "machine translation",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "LREC",
-    "Citations": "82.0",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": "Houda Bouamor,Nizar Habash,Kemal Oflazer",
-    "Affiliations": ",,",
+    "Authors": [
+        "Houda Bouamor",
+        "Nizar Habash",
+        "Kemal Oflazer"
+    ],
+    "Affiliations": [
+        "",
+        "",
+        ""
+    ],
     "Abstract": "The daily spoken variety of Arabic is often termed the colloquial or dialect form of Arabic. There are many Arabic dialects across the Arab World and within other Arabic speaking communities. These dialects vary widely from region to region and to a lesser extent from city to city in each region. The dialects are not standardized, they are not taught, and they do not have official status. However they are the primary vehicles of communication (face-to-face and recently, online) and have a large presence in the arts as well. In this paper, we present the first multidialectal Arabic parallel corpus, a collection of 2,000 sentences in Standard Arabic, Egyptian, Tunisian, Jordanian, Palestinian and Syrian Arabic, in addition to English. Such parallel data does not exist naturally, which makes this corpus a very valuable resource that has many potential applications such as Arabic dialect identification and machine translation.",
     "Added By": ""
 }

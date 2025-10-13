@@ -7,30 +7,35 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "images",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "MIMIC-IT offers a diverse and extensive dataset of 2.8M multimodal instruction-response pairs, designed to enhance the performance of Vision-Language Models (VLMs) in real-life scenarios, enabling VLMs to excel in perception, reasoning, and planning while also catering to a multilingual audience.",
-    "Volume": "2,100,000",
+    "Volume": 2100000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": "",
-    "Derived From": "",
+    "Provider": [],
+    "Derived From": [],
     "Paper Title": "MIMIC-IT: Multi-Modal In-Context Instruction Tuning",
     "Paper Link": "https://arxiv.org/pdf/2306.05425",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "instruction tuning",
+    "Test Split": false,
+    "Tasks": [
+        "instruction tuning"
+    ],
     "Venue Title": "arXiv",
-    "Citations": "",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
-    "Abstract": "High-quality instructions and responses are essential for the zero-shot performance\nof large language models on interactive natural language tasks. For interactive\nvision-language tasks involving intricate visual scenes, a large quantity of diverse and creative instruction-response pairs should be imperative to tune visionlanguage models (VLMs). Nevertheless, the current availability of vision-language\ninstruction-response pairs in terms of quantity, diversity, and creativity remains limited, posing challenges to the generalization of interactive VLMs. Here we present\nMultI-Modal In-Context Instruction Tuning (MIMIC-IT), a dataset comprising\n2.8 million multimodal instruction-response pairs, with 2.2 million unique instructions derived from images and videos. Each pair is accompanied by multi-modal\nin-context information, forming conversational contexts aimed at empowering\nVLMs in perception, reasoning, and planning. The instruction-response collection\nprocess, dubbed as Syphus, is scaled using an automatic annotation pipeline that\ncombines human expertise with GPT\u2019s capabilities. Using the MIMIC-IT dataset,\nwe train a large VLM named Otter. Based on extensive evaluations conducted\non vision-language benchmarks, it has been observed that Otter demonstrates remarkable proficiency in multi-modal perception, reasoning, and in-context learning.\nHuman evaluation reveals it effectively aligns with the user\u2019s intentions. We release\nthe MIMIC-IT dataset, instruction-response collection pipeline, benchmarks, and\nthe Otter model.\n",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "High-quality instructions and responses are essential for the zero-shot performance\nof large language models on interactive natural language tasks. For interactive\nvision-language tasks involving intricate visual scenes, a large quantity of diverse and creative instruction-response pairs should be imperative to tune visionlanguage models (VLMs). Nevertheless, the current availability of vision-language\ninstruction-response pairs in terms of quantity, diversity, and creativity remains limited, posing challenges to the generalization of interactive VLMs. Here we present\nMultI-Modal In-Context Instruction Tuning (MIMIC-IT), a dataset comprising\n2.8 million multimodal instruction-response pairs, with 2.2 million unique instructions derived from images and videos. Each pair is accompanied by multi-modal\nin-context information, forming conversational contexts aimed at empowering\nVLMs in perception, reasoning, and planning. The instruction-response collection\nprocess, dubbed as Syphus, is scaled using an automatic annotation pipeline that\ncombines human expertise with GPT\u2019s capabilities. Using the MIMIC-IT dataset,\nwe train a large VLM named Otter. Based on extensive evaluations conducted\non vision-language benchmarks, it has been observed that Otter demonstrates remarkable proficiency in multi-modal perception, reasoning, and in-context learning.\nHuman evaluation reveals it effectively aligns with the user\u2019s intentions. We release\nthe MIMIC-IT dataset, instruction-response collection pipeline, benchmarks, and\nthe Otter model.",
     "Added By": "Zaid Alyafeai"
 }

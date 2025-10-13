@@ -7,30 +7,38 @@
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "news articles",
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Each data directory has been stored as a Gnu Zipped Tar File (.tgz) due to the complexity and depth of each directory and the limitations of the ISO CD9660 file system for CD and DVD media. These directories may be easily unpacked using the Unix command line or using utilities such as StuffIt or WinZip under Windows.",
-    "Volume": "200,000",
+    "Volume": 200000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": "LDC",
-    "Derived From": "",
+    "Provider": [
+        "LDC"
+    ],
+    "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "LDC",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": "No",
-    "Tasks": "information extraction,information retrieval",
+    "Test Split": false,
+    "Tasks": [
+        "information extraction",
+        "information retrieval"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

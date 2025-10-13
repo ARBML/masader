@@ -7,30 +7,39 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": "other",
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": "other",
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The Tatoeba Translation Challenge is a multilingual data set of machine translation benchmarks derived from user-contributed translations collected by Tatoeba.org and provided as parallel corpus from OPUS. This dataset includes test and development data sorted by language pair. It includes test sets for hundreds of language pairs and is continuously updated. Please, check the version number tag to refer to the release that your are using.",
-    "Volume": "1,064,096,596",
+    "Volume": 1064096596.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": " Language Technology at the University of Helsinki",
-    "Derived From": "Tatoeba",
+    "Provider": [
+        "Language Technology at the University of Helsinki"
+    ],
+    "Derived From": [
+        "Tatoeba"
+    ],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
-    "Tokenized": "No",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": "Yes",
-    "Tasks": "machine translation",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "",
-    "Citations": "",
-    "Venue Type": "",
+    "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": "",
-    "Affiliations": "",
+    "Authors": [],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
