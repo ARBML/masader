@@ -142,7 +142,7 @@
     ],
     "HF Link": "",
     "Link": "https://github.com/UBC-NLP/palm",
-    "License": "Apache-2.0",
+    "License": "CC BY-NC-ND 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
@@ -151,34 +151,19 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation"
+        "human annotation",
+        "manual curation"
     ],
     "Description": "A culturally inclusive and linguistically diverse Arabic instruction dataset covering all 22 Arab countries in both MSA and dialectal Arabic.",
     "Volume": 17411.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
-        "The University of British Columbia",
-        "MBZUAI",
-        "InvertibleAI",
-        "Birzeit University",
-        "Prince Sultan University",
-        "UM6P",
-        "Cairo University",
-        "JUST",
-        "Ain Shams University",
-        "Damascus University",
-        "University of Khartoum",
-        "Menoufiya University",
-        "University of Nouakchott",
-        "National Polytechnic School of Algiers",
-        "Full Sail University",
-        "Alfaisal University",
-        "Hamad Bin Khalifa University"
+        "UBC-NLP"
     ],
     "Derived From": [],
     "Paper Title": "Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs",
-    "Paper Link": "https://arxiv.org/pdf/2504.21677",
+    "Paper Link": "https://arxiv.org/pdf/2503.00151",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -186,7 +171,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "text generation"
+        "instruction tuning"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
@@ -245,17 +230,15 @@
         "Prince Sultan University",
         "UM6P",
         "Cairo University",
-        "JUST",
         "Ain Shams University",
         "Damascus University",
         "University of Khartoum",
-        "Menoufiya University",
         "University of Nouakchott",
         "National Polytechnic School of Algiers",
         "Full Sail University",
         "Alfaisal University",
         "Hamad Bin Khalifa University"
     ],
-    "Abstract": "As large language models (LLMs) become increasingly integrated into daily life, ensuring their cultural sensitivity and inclusivity is paramount. We introduce PALM, a year-long community-driven project covering all 22 Arab countries. The dataset includes instructions (input, response pairs) in both Modern Standard Arabic (MSA) and dialectal Arabic (DA), spanning 20 diverse topics. Built by a team of 44 researchers across the Arab world, all of whom are authors of this paper, PALM offers a broad, inclusive perspective. We use PALM to evaluate the cultural and dialectal capabilities of several frontier LLMs, revealing notable limitations. For instance, while closed-source LLMs generally exhibit strong performance, they are not without flaws, and smaller open-source models face greater challenges. Moreover, certain countries (e.g., Egypt, the UAE) appear better represented than others (e.g., Iraq, Mauritania, Yemen). Our annotation guidelines, code, and data for reproducibility are publicly available.",
+    "Abstract": "As large language models (LLMs) become increasingly integrated into daily life, ensuring their cultural sensitivity and inclusivity is paramount. We introduce our dataset, a year-long community-driven project covering all 22 Arab countries. The dataset includes instructions (input, response pairs) in both Modern Standard Arabic (MSA) and dialectal Arabic (DA), spanning 20 diverse topics. Built by a team of 44 researchers across the Arab world, all of whom are authors of this paper, our dataset offers a broad, inclusive perspective. We use our dataset to evaluate the cultural and dialectal capabilities of several frontier LLMs, revealing notable limitations. For instance, while closed-source LLMs generally exhibit strong performance, they are not without flaws, and smaller open-source models face greater challenges. Moreover, certain countries (e.g., Egypt, the UAE) appear better represented than others (e.g., Iraq, Mauritania, Yemen). Our annotation guidelines, code, and data for reproducibility are publicly available.",
     "Added By": "moonshotai/kimi-k2"
 }
