@@ -1,0 +1,79 @@
+{
+    "Name": "Dial2MSA-Verified",
+    "Subsets": [
+        {
+            "Name": "EGY",
+            "Volume": 11299.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "GLF",
+            "Volume": 8775.0,
+            "Unit": "sentences",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "LEV",
+            "Volume": 6301.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "MGR",
+            "Volume": 5512.0,
+            "Unit": "sentences",
+            "Dialect": "North Africa"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://github.com/khered20/Dial2MSA-Verified",
+    "License": " MIT License",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "crawling"
+    ],
+    "Description": "Parallel tweets in 4 dialects with verified MSA translations for neural MT evaluation",
+    "Volume": 31887.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "University of Manchester",
+        "King Abdulaziz University"
+    ],
+    "Derived From": [
+        "Dial2MSA"
+    ],
+    "Paper Title": "Dial2MSA-Verified: A Multi-Dialect Arabic Social Media Dataset for Neural Machine Translation to Modern Standard Arabic",
+    "Paper Link": "https://arxiv.org/abs/2504.21677",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Abdullah Khered",
+        "Youcef Benkhedda",
+        "Riza Batista-Navarro"
+    ],
+    "Affiliations": [
+        "The University of Manchester",
+        "King Abdulaziz University"
+    ],
+    "Abstract": "Social media has become an essential focus for Natural Language Processing research due to its widespread use and unique linguistic characteristics. Normalising social media content, especially for morphologically rich languages like Arabic, remains a complex task due to limited parallel corpora. Arabic encompasses Modern Standard Arabic and various regional dialects, collectively termed Dialectal Arabic, which complicates NLP efforts due to their informal nature and variability. This paper presents Dial2MSA-Verified, an extension of the Dial2MSA dataset that includes verified translations for Gulf, Egyptian, Levantine, and Maghrebi dialects. We evaluate the performance of Seq2Seq models on this dataset, highlighting the effectiveness of state-of-the-art models in translating local Arabic dialects. We also provide insights through error analysis and outline future directions for enhancing Seq2Seq models and dataset development. The Dial2MSA-Verified dataset is publicly available to support further research."
+    "Added By": "Zaid Alyafea"
+}
