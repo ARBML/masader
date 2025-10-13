@@ -1,4 +1,4 @@
-var url = 'https://web-production-25a2.up.railway.app/datasets';
+var url = window.MasaderConfig.DATASETS_URL;
 
 let headersWhiteList;
 let dataset;

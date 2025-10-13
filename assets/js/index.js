@@ -1,5 +1,5 @@
-const url = 'https://web-production-25a2.up.railway.app/datasets';
-const contributers_url = 'https://web-production-25a2.up.railway.app/datasets/tags?features=Added By'
+const url = window.MasaderConfig.DATASETS_URL;
+const contributers_url = window.MasaderConfig.CONTRIBUTORS_URL;
 
 function linkuize(text, link, short = true) {
     if (link != undefined && link != '')
