@@ -1,0 +1,52 @@
+{
+    "Name": "EHSAN",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://doi.org/10.5281/zenodo.15418860",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Saudi Arabia",
+    "Domain": [
+        "reviews"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated",
+        "human annotation",
+        "crawling"
+    ],
+    "Description": "Arabic aspect-based sentiment dataset for healthcare reviews from Saudi hospitals.",
+    "Volume": 6000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "Newcastle University"
+    ],
+    "Derived From": [],
+    "Paper Title": "EHSAN: Leveraging ChatGPT in a Hybrid Framework for Arabic Aspect-Based Sentiment Analysis in Healthcare",
+    "Paper Link": "https://arxiv.org/pdf/2508.02574",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "zenodo",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis",
+        "aspect-based sentiment analysis",
+        "topic classification"
+    ],
+    "Venue Title": "IDEAS",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Intelligent Data Engineering and Automated Systems",
+    "Authors": [
+        "Eman Alamoudi",
+        "Ellis Solaiman"
+    ],
+    "Affiliations": [
+        "Newcastle University"
+    ],
+    "Abstract": "Arabic-language patient feedback remains under-analysed because dialect diversity and scarce aspect-level sentiment labels hinder automated assessment. To address this gap, we introduce EHSAN, a data-centric hybrid pipeline that merges ChatGPT pseudo-labelling with targeted human review to build the first explainable Arabic aspect-based sentiment dataset for healthcare. Each sentence is annotated with an aspect and sentiment label (positive, negative, or neutral), forming a pioneering Arabic dataset aligned with healthcare themes, with ChatGPT-generated rationales provided for each label to enhance transparency. To evaluate the impact of annotation quality on model performance, we created three versions of the training data: a fully supervised set with all labels reviewed by humans, a semi-supervised set with 50% human review, and an unsupervised set with only machine-generated labels. We fine-tuned two transformer models on these datasets for both aspect and sentiment classification. Experimental results show that our Arabic-specific model achieved high accuracy even with minimal human supervision, reflecting only a minor performance drop when using ChatGPT-only labels. Reducing the number of aspect classes notably improved classification metrics across the board. These findings demonstrate an effective, scalable approach to Arabic aspect-based sentiment analysis (SA) in healthcare, combining large language model annotation with human expertise to produce a robust and explainable dataset. Future directions include generalisation across hospitals, prompt refinement, and interpretable data-driven modelling.",
+    "Added By": "Zaid Alyafeai"
+}
