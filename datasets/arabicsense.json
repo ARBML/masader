@@ -1,0 +1,58 @@
+{
+    "Name": "ArabicSense",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Kamyar-zeinalipour/ArabicSense",
+    "Link": "https://github.com/EL-Amrany/Arabic-Commonsense-Reasoning",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "wikipedia"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated",
+        "human annotation"
+    ],
+    "Description": "A synthetic commonsense reasoning benchmark in Arabic covering validation and explanation tasks.",
+    "Volume": 5650.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Luxembourg",
+        "University of Siena"
+    ],
+    "Derived From": [
+        "Wikipedia"
+    ],
+    "Paper Title": "ArabicSense: A Benchmark for Evaluating Commonsense Reasoning in Arabic with Large Language Models",
+    "Paper Link": "https://aclanthology.org/2025.wacl-1.1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "commonsense reasoning"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Salima Lamsiyah",
+        "Kamyar Zeinalipour",
+        "Samir El Amrany",
+        "Matthias Brust",
+        "Marco Maggini",
+        "Pascal Bouvry",
+        "Christoph Schommer"
+    ],
+    "Affiliations": [
+        "University of Luxembourg",
+        "University of Siena"
+    ],
+    "Abstract": "Recent efforts in natural language processing (NLP) commonsense reasoning research have led to the development of numerous new datasets and benchmarks. However, these resources have predominantly been limited to English, leaving a gap in evaluating commonsense reasoning in other languages. In this paper, we introduce the ArabicSense Benchmark, which is designed to thoroughly evaluate the world-knowledge commonsense reasoning abilities of large language models (LLMs) in Arabic. This benchmark includes three main tasks: first, it tests whether a system can distinguish between natural language statements that make sense and those that do not; second, it requires a system to identify the most crucial reason why a nonsensical statement fails to make sense; and third, it involves generating explanations for why statements do not make sense. We evaluate several Arabic BERT-based models and causal LLMs on these tasks. Experimental results demonstrate improvements after fine-tuning on our dataset. For instance, AraBERT v2 achieved an 87% F1 score on the second task, while Gemma and Mistral-7b achieved F1 scores of 95.5% and 94.8%, respectively. For the generation task, LLaMA-3 achieved the best performance with a BERTScore F1 of 77.3%, closely followed by Mistral-7b at 77.1%. ",
+    "Added By": "Zaid Alyafeai"
+}
