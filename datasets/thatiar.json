@@ -28,7 +28,7 @@
     "Paper Title": "ThatiAR: Subjectivity Detection in Arabic News Sentences",
     "Paper Link": "https://arxiv.org/pdf/2406.05559",
     "Script": "Arab",
-    "Tokenized": true,
+    "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
