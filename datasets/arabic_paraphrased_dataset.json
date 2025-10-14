@@ -1,0 +1,59 @@
+{
+    "Name": "Arabic Paraphrased Dataset",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/iwan-rg/Arabic-Paraphrased-Dataset",
+    "License": "CC BY-NC 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "news articles",
+        "public datasets",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "machine annotation",
+        "human annotation"
+    ],
+    "Description": "A synthetic Arabic parallel paraphrase dataset generated via back-translation to advance NLP applications like MT, summarization and sentiment analysis.",
+    "Volume": 1010.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Saud University"
+    ],
+    "Derived From": [
+        "Arabic-Paraphrasing-Benchmark",
+        "Ultimate Arabic News Dataset",
+        "Aljazeera news articles",
+        "Arabic Quotes"
+    ],
+    "Paper Title": "Arabic paraphrased parallel synthetic dataset",
+    "Paper Link": "https://doi.org/10.1016/j.dib.2024.111004",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation",
+        "summarization",
+        "sentiment analysis"
+    ],
+    "Venue Title": "Data in Brief",
+    "Venue Type": "journal",
+    "Venue Name": "Data in Brief",
+    "Authors": [
+        "Noora Al-shameri",
+        "Hend Al-Khalifa"
+    ],
+    "Affiliations": [
+        "King Saud University"
+    ],
+    "Abstract": "The Arabic paraphrased parallel dataset plays a crucial role in advancing NLP and other language-related applications by leveraging data from diverse sources and expanding it through data augmentation techniques. This dataset enhances machine translation, text summarization, and sentiment analysis, providing a better understanding and manipulation of the Arabic language. It also serves as a valuable tool for improving educational materials, optimizing search engines, and supporting content creation across various fields. Its role in semantic analysis aids in understanding context and meaning, making it indispensable for domain-specific applications. The main aim of building this dataset is to generate paraphrased sentences through synthetic augmentation using the back translation technique, addressing the gap in research and datasets focused on paraphrase generation in Arabic. The process involves collecting sentences from various sources, followed by preprocessing and evaluation to ensure reliability and usefulness. This systematic approach aims to produce a robust Arabic paraphrased dataset that can be utilized in various NLP tasks, fostering further innovation in Arabic language processing.",
+    "Added By": "Zaid Alyafeai"
+}
