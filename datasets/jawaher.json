@@ -1,0 +1,176 @@
+{
+    "Name": "Jawaher",
+    "Subsets": [
+        {
+            "Name": "Algerian",
+            "Volume": 312.0,
+            "Unit": "sentences",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "Bahraini",
+            "Volume": 134.0,
+            "Unit": "sentences",
+            "Dialect": "Bahrain"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 1018.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Iraqi",
+            "Volume": 304.0,
+            "Unit": "sentences",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "Jordanian",
+            "Volume": 398.0,
+            "Unit": "sentences",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "Kuwaiti",
+            "Volume": 126.0,
+            "Unit": "sentences",
+            "Dialect": "Kuwait"
+        },
+        {
+            "Name": "Lebanese",
+            "Volume": 495.0,
+            "Unit": "sentences",
+            "Dialect": "Lebanon"
+        },
+        {
+            "Name": "Libyan",
+            "Volume": 390.0,
+            "Unit": "sentences",
+            "Dialect": "Libya"
+        },
+        {
+            "Name": "Mauritanian",
+            "Volume": 360.0,
+            "Unit": "sentences",
+            "Dialect": "Mauritania"
+        },
+        {
+            "Name": "Moroccan",
+            "Volume": 507.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Omani",
+            "Volume": 182.0,
+            "Unit": "sentences",
+            "Dialect": "Oman"
+        },
+        {
+            "Name": "Palestinian",
+            "Volume": 1078.0,
+            "Unit": "sentences",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "Qatari",
+            "Volume": 161.0,
+            "Unit": "sentences",
+            "Dialect": "Qatar"
+        },
+        {
+            "Name": "Saudi",
+            "Volume": 302.0,
+            "Unit": "sentences",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "Sudanese",
+            "Volume": 228.0,
+            "Unit": "sentences",
+            "Dialect": "Sudan"
+        },
+        {
+            "Name": "Syrian",
+            "Volume": 1723.0,
+            "Unit": "sentences",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "Tunisian",
+            "Volume": 1221.0,
+            "Unit": "sentences",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "UAE",
+            "Volume": 212.0,
+            "Unit": "sentences",
+            "Dialect": "United Arab Emirates"
+        },
+        {
+            "Name": "Yemeni",
+            "Volume": 282.0,
+            "Unit": "sentences",
+            "Dialect": "Yemen"
+        },
+        {
+            "Name": "MSA",
+            "Volume": 604.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/UBC-NLP/Jawaher-benchmark",
+    "Link": "https://huggingface.co/datasets/UBC-NLP/Jawaher-benchmark",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "manual curation",
+        "human annotation"
+    ],
+    "Description": "A multidialectal benchmark of Arabic proverbs for evaluating LLMs' cultural understanding.",
+    "Volume": 10037.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of British Columbia"
+    ],
+    "Derived From": [],
+    "Paper Title": "Jawaher: A Multidialectal Dataset of Arabic Proverbs for LLM Benchmarking",
+    "Paper Link": "https://arxiv.org/pdf/2503.00231",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "instruction tuning"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Samar M. Magdy",
+        "Sang Yun Kwon",
+        "Fakhraddin Alwajih",
+        "Safaa Abdelfadil",
+        "Shady Shehata",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "MBZUAI",
+        "University of British Columbia",
+        "InvertibleAI"
+    ],
+    "Abstract": "Recent advancements in instruction fine-tuning, alignment methods such as reinforcement learning from human feedback (RLHF), and optimization techniques like direct preference optimization (DPO), have significantly enhanced the adaptability of large language models (LLMs) to user preferences. However, despite these innovations, many LLMs continue to exhibit biases toward Western, Anglo-centric, or American cultures, with performance on English data consistently surpassing that of other languages. This reveals a persistent cultural gap in LLMs, which complicates their ability to accurately process culturally rich and diverse figurative language, such as proverbs. To address this, we introduce Jawaher, a benchmark designed to assess LLMs\u2019 capacity to comprehend and interpret Arabic proverbs. Jawaher includes proverbs from various Arabic dialects, along with idiomatic translations and explanations. Through extensive evaluations of both open- and closed-source models, we find that while LLMs can generate idiomatically accurate translations, they struggle with producing culturally nuanced and contextually relevant explanations. These findings highlight the need for ongoing model refinement and dataset expansion to bridge the cultural gap in figurative language processing.",
+    "Added By": "Zaid Alyafeai"
+}
