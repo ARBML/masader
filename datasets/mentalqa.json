@@ -1,0 +1,54 @@
+{
+    "Name": "MentalQA",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/hasanhuz/MentalQA",
+    "License": "MIT License",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "commentary",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Annotated Arabic corpus for questions and answers on mental healthcare.",
+    "Volume": 1000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Umm Al-Qura University",
+        "King Khalid University",
+        "King Saud University"
+    ],
+    "Derived From": [],
+    "Paper Title": "MentalQA: An Annotated Arabic Corpus for Questions and Answers of Mental Healthcare",
+    "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10600466",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "IEEE Access",
+    "Venue Type": "journal",
+    "Venue Name": "IEEE Access",
+    "Authors": [
+        "Hassan Alhuzali",
+        "Ashwag Alasmari",
+        "Hamad Alsaleh"
+    ],
+    "Affiliations": [
+        "Umm Al-Qura University",
+        "King Khalid University",
+        "King Saud University"
+    ],
+    "Abstract": "Mental health disorders significantly impact people globally, regardless of background, education, or socioeconomic status. However, access to adequate care remains a challenge, particularly for underserved communities with limited resources. Text mining tools offer immense potential to support mental healthcare by assisting professionals in diagnosing and treating patients. This study addresses the scarcity of Arabic mental health resources for developing such tools. We introduce MentalQA, a novel Arabic dataset featuring questioning-answering (QA) style, including a total of 1000 annotations. To ensure data quality, we conducted a rigorous annotation process using a well-defined schema with quality control measures. Data was collected from a question-answering medical platform. The annotation schema for mental health questions and corresponding answers draws upon existing classification schemes with some modifications. Question types encompass six distinct categories: diagnosis, treatment, anatomy & physiology, epidemiology, healthy lifestyle, and provider choice. Answer strategies include information provision, direct guidance, and emotional support. Three experienced annotators collaboratively annotated the data to ensure consistency. Our findings demonstrate high inter-annotator agreement, with Fleiss\u2019 Kappa of 0.61 for question types and 0.98 for answer strategies. Our in-depth analysis uncovered insightful patterns in patients behavior and doctor responses. We found a link between the types of questions asked and the strategies doctors use in their answers. Both genders focused on treatment-related questions, though with some variation in emphasis. Interestingly, the types of questions asked also differed by age group. Patients tended to express negative emotions in their questions, while doctors maintained a neutral tone in their responses. Finally, we observed differences in how long it took doctors to answer and the number of words they used depending on the type of question. MentalQA offers a valuable foundation for developing Arabic text mining tools capable of supporting mental health professionals and individuals seeking information.",
+    "Added By": "Zaid Alyafeai"
+}
