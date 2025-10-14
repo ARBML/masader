@@ -1,0 +1,58 @@
+{
+    "Name": "ThatiAR",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/QCRI/ThatiAR",
+    "Link": "https://huggingface.co/datasets/QCRI/ThatiAR",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "news articles",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic news sentences annotated for subjectivity detection",
+    "Volume": 3661.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "AraFacts"
+    ],
+    "Paper Title": "ThatiAR: Subjectivity Detection in Arabic News Sentences",
+    "Paper Link": "https://arxiv.org/pdf/2406.05559",
+    "Script": "Arab",
+    "Tokenized": true,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis",
+        "subjectivity detection"
+    ],
+    "Venue Title": "ICWSM",
+    "Venue Type": "conference",
+    "Venue Name": "International AAAI Conference on Web and Social Media",
+    "Authors": [
+        "Reem Suwaileh",
+        "Maram Hasanain",
+        "Fatema Hubail",
+        "Wajdi Zaghouani",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Hamad Bin Khalifa University",
+        "Qatar Computing Research Institute",
+        "Free University of Berlin",
+        "Northwestern University in Qatar"
+    ],
+    "Abstract": "Detecting subjectivity in news sentences is crucial for identifying media bias, enhancing credibility, and combating misinformation by flagging opinion-based content. It provides insights into public sentiment, empowers readers to make informed decisions, and encourages critical thinking. While research has developed methods and systems for this purpose, most efforts have focused on English and other high-resourced languages. In this study, we present the first large dataset for subjectivity detection in Arabic, consisting of ~3.6K manually annotated sentences, and GPT-4o based explanation. In addition, we included instructions (both in English and Arabic) to facilitate LLM based fine-tuning. We provide an in-depth analysis of the dataset, annotation process, and extensive benchmark results, including PLMs and LLMs. Our analysis of the annotation process highlights that annotators were strongly influenced by their political, cultural, and religious backgrounds, especially at the beginning of the annotation process. The experimental results suggest that LLMs with in-context learning provide better performance. We aim to release the dataset and resources for the community.",
+    "Added By": "Zaid Alyafeai"
+}
