@@ -1,0 +1,58 @@
+{
+    "Name": "SAtour",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/sbasabain/SAtour-A-dataset-with-Zero-shot-automatic-labelling-for-Arabic-short-text-Sentiment-Analysis",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media",
+        "reviews"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "A corpus of Arabic short tweets in the tourism domain annotated for sentiment analysis in positive, negative, and neutral classes.",
+    "Volume": 2293.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "King AbdulAziz University",
+        "Edinburgh Napier University",
+        "Nanyang Technological University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Arabic Short-Text Dataset for Sentiment Analysis of Tourism and Leisure Events",
+    "Paper Link": "https://doi.org/10.1111/exsy.70030",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue Title": "Expert Systems",
+    "Venue Type": "journal",
+    "Venue Name": "Expert Systems published by John Wiley & Sons Ltd",
+    "Authors": [
+        "Seham Basabain",
+        "Ahmed Al-Dubai",
+        "Erik Cambria",
+        "Khalid Alomar",
+        "Amir Hussain"
+    ],
+    "Affiliations": [
+        "King AbdulAziz University",
+        "Edinburgh Napier University",
+        "Nanyang Technological University"
+    ],
+    "Abstract": "The focus of this study is to present the detailed process of collecting a dataset of Arabic short-text in the tourism context and annotating this dataset for the task of sentiment analysis using an automatic zero-shot labelling technique utilising transformer- based models. This is benchmarked against a baseline manual annotation approach utilising native Arab human annotators. This study also introduces an approach exploiting both manual/handcrafted and automatically generated annotations of the dataset tweets for the task of sentiment analysis as part of a cross-domain approach using a model trained on sarcasm labels and vice versa. The total collected corpus size is 2293 tweets; after annotation, these tweets were labelled in a three-way classification approach as either positive, negative or neutral. We run different experiments to provide benchmark results of Arabic sentiment classification. Comparative results on our dataset show that the highest performing baseline model when utilising manual labels was MARBERT, with an accuracy of up to 87%, which was pre-trained for Arabic on a massive amount of data. It should be noted that this model enhanced its performance additionally after pre-training on a dialectical Arabic and modern standard Arabic corpus. On the other hand, zero-shot automatically generated labels achieved an 84% accuracy rate in predicting sarcasm classes from sentiment labels.",
+    "Added By": "Zaid Alyafeai"
+}
