@@ -1,0 +1,56 @@
+{
+    "Name": "Diwan",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/NoorBayan/Diwan",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "books",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "The largest annotated Arabic poetry corpus, containing ~14M verses across 16 categories with metadata on genres, prosody, themes, and poet information.",
+    "Volume": 14000000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Princess Nourah bint Abdulrahman University",
+        "University of Science and Technology Sana\u2019a",
+        "Qassim University"
+    ],
+    "Derived From": [],
+    "Paper Title": "\u2018\u2018Diwan\u2019\u2019: Constructing the Largest Annotated Corpus for Arabic Poetry",
+    "Paper Link": "https://doi.org/10.1109/ACCESS.2025.3551161",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "text generation",
+        "language modeling",
+        "meter classification"
+    ],
+    "Venue Title": "IEEE Access",
+    "Venue Type": "journal",
+    "Venue Name": "IEEE Access",
+    "Authors": [
+        "B. B. Al-Onazi",
+        "W. A. Nashir",
+        "A. Al-Shargabi"
+    ],
+    "Affiliations": [
+        "Princess Nourah bint Abdulrahman University",
+        "University of Science and Technology Sana\u2019a",
+        "Qassim University"
+    ],
+    "Abstract": "In recent years, Arabic natural language processing has achieved remarkable advancements, particularly with the advent of large language models that have enhanced the analysis of diverse Arabic texts, including literary and artistic works such as poetry. However, these models encounter specific challenges when dealing with Arabic poetry, which is characterized by complex metrical structures, varied themes, and unique linguistic intricacies. Currently available poetry corpora are often limited in scope and depth, and typically lack the comprehensive coverage required for sophisticated computational analysis tasks. To address this gap, this paper introduces \u2018\u2018Diwan,\u2019\u2019 the largest and most precise annotated Arabic poetry dataset/corpus, designed to support scientific research and facilitate the development of AI applications in this domain. \u2018\u2018Diwan\u2019\u2019 comprises approximately 14 million verses of poetry across 16 major categories and includes detailed annotations related to poetic genres, prosodic structures, thematic content, linguistic patterns, and poet-specific metadata. This dataset/corpus has been meticulously curated using advanced data collection methods, rigorous normalization and annotation protocols, and expert oversight from specialists in Arabic prosody and poetry. By leveraging intelligent annotation algorithms, Diwan serves as a foundational resource and benchmark dataset for advancing research in fields such as automatic poetry generation, metrical analysis, thematic classification, and plagiarism detection. \u2018\u2018Diwan\u2019\u2019 has been compared against 4 leading corpora for Arabic poetry; this comparison proves that \u2018\u2018Diwan\u2019\u2019 outperforms all of them in terms of scope, and depth. Besides, \u2018\u2018Diwan\u2019\u2019 is constructed and structured in a way enables AI-powered analysis and deep-learning-based analysis to work accurately. By providing an unprecedented foundation for computational exploration of Arabic poetry, Diwan opens up new avenues and possibilities for intelligent applications and promotes the digital analysis of this rich literary heritage.",
+    "Added By": "Zaid Alyafeai"
+}
