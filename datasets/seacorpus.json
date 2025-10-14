@@ -1,0 +1,53 @@
+{
+    "Name": "SEACorpus",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/maimm2/SaidiCorpus2025",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Egypt",
+    "Domain": [
+        "books",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
+    "Description": "First open-source literary corpus of Sa'idi Egyptian Arabic (SEA), containing 4 million words from novels and poetry.",
+    "Volume": 413.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Illinois Urbana-Champaign",
+        "New York University Abu Dhabi"
+    ],
+    "Derived From": [],
+    "Paper Title": "Beyond Cairo: Sa\u2019idi Egyptian Arabic Literary Corpus Construction and Analysis",
+    "Paper Link": "https://aclanthology.org/2025.nlp4dh-1.26.pdf",
+    "Script": "Arab",
+    "Tokenized": true,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling",
+        "morphological analysis"
+    ],
+    "Venue Title": "NL4DH",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Natural Language Processing for Digital Humanities",
+    "Authors": [
+        "Mai Mohamed Eida",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "University of Illinois Urbana-Champaign",
+        "New York University Abu Dhabi"
+    ],
+    "Abstract": "Egyptian Arabic (EA) NLP resources have mainly focused on Cairene Egyptian Arabic (CEA), leaving sub-dialects like Sa\u2019idi Egyptian Arabic (SEA) underrepresented. This paper introduces the first SEA corpus \u2013 an open-source, 4-million-word literary dataset of a dialect spoken by ~30 million Egyptians. To validate its representation, we analyze SEA-specific linguistic features from dialectal surveys, confirming a higher prevalence in our corpus compared to existing EA datasets. Our findings offer insights into SEA\u2019s orthographic representation in morphology, phonology, and lexicon, incorporating CODA* guidelines for normalization.",
+    "Added By": "Zaid Alyafeai"
+}
