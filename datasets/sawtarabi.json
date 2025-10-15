@@ -36,7 +36,7 @@
         "LLM generated"
     ],
     "Description": "4-hour benchmark Arabic TTS corpus of single-speaker recordings in Egyptian Arabic, MSA, English, and Egyptian-English code-switching.",
-    "Volume": 2.999999999999999,
+    "Volume": 3.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
