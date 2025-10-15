@@ -1,0 +1,58 @@
+{
+    "Name": "Tibyan",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://doi.org/10.5281/zenodo.14623621",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "books",
+        "LLM"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "machine annotation",
+        "human annotation",
+        "LLM generated"
+    ],
+    "Description": "A balanced and comprehensive Arabic grammatical error correction corpus created using ChatGPT consisting of 600K tokens.",
+    "Volume": 6191.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King AbdulAziz University",
+        "Saudi Electronic University"
+    ],
+    "Derived From": [
+        "A7\u2019ta corpus",
+        "QALB-14",
+        "QALB-15"
+    ],
+    "Paper Title": "Tibyan corpus: balanced and comprehensive error coverage corpus using ChatGPT for Arabic grammatical error correction",
+    "Paper Link": "https://doi.org/10.7717/peerj-cs.2724",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "zenodo",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "grammatical error correction"
+    ],
+    "Venue Title": "PeerJ Computer Science",
+    "Venue Type": "journal",
+    "Venue Name": "PeerJ Computer Science",
+    "Authors": [
+        "Ahlam Alrehili",
+        "Areej Alhothali"
+    ],
+    "Affiliations": [
+        "King AbdulAziz University",
+        "Saudi Electronic University"
+    ],
+    "Abstract": "Natural language processing (NLP) augments text data to overcome sample size constraints. Scarce and low-quality data present particular challenges when learning from these domains. Increasing the sample size is a natural and widely used strategy for alleviating these challenges. Moreover, data-augmentation techniques are commonly used in languages with rich data resources to address problems such as exposure bias. In this study, we chose Arabic to increase the sample size and correct grammatical errors. Arabic is considered one of the languages with limited resources for grammatical error correction (GEC) despite being one of the most popular among Arabs and non-Arabs because of its close connection to Islam. Therefore, this study aims to develop an Arabic corpus called 'Tibyan' for grammatical error correction using ChatGPT. ChatGPT is used as a data augmenter tool based on a pair of Arabic sentences containing grammatical errors matched with a sentence free of errors extracted from Arabic books, called guide sentences. Multiple steps were involved in establishing our corpus, including collecting and pre-processing a pair of Arabic texts from various sources, such as books and open-access corpora. We then used ChatGPT to generate a parallel corpus based on the text collected previously, as a guide for generating sentences with multiple types of errors. By engaging linguistic experts to review and validate the automatically generated sentences, we ensured they were correct and error-free. The corpus was validated and refined iteratively based on feedback provided by linguistic experts to improve its accuracy. Finally, we used the Arabic Error Type Annotation tool (ARETA) to analyze the types of errors in the Tibyan corpus. Our corpus contained 49% of errors, including seven types: orthography, morphology, syntax, semantics, punctuation, merge, and split. The Tibyan corpus contains approximately 600 K tokens.",
+    "Added By": "Zaid Alyafeai"
+}
