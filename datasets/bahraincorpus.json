@@ -1,0 +1,62 @@
+{
+    "Name": "BahrainCorpus",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "http://www.bahraincorpus.com",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "Bahrain",
+    "Domain": [
+        "social media",
+        "TV Channels",
+        "web pages",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation",
+        "human annotation"
+    ],
+    "Description": "A 620K-word multi-genre corpus of Bahraini Arabic with written texts and spoken transcripts, automatically morphologically annotated.",
+    "Volume": 620301.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Bahrain",
+        "New York University Abu Dhabi",
+        "Stony Brook University"
+    ],
+    "Derived From": [
+        "Gumar Corpus"
+    ],
+    "Paper Title": "The Bahrain Corpus: A Multi-genre Corpus of Bahraini Arabic",
+    "Paper Link": "https://aclanthology.org/2022.lrec-1.251.pdf",
+    "Script": "Arab",
+    "Tokenized": true,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "morphological analysis",
+        "speech recognition"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "Language Resources and Evaluation Conference",
+    "Authors": [
+        "Dana Abdulrahim",
+        "Go Inoue",
+        "Latifa Shamsan",
+        "Salam Khalifa",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "University of Bahrain",
+        "New York University Abu Dhabi",
+        "Stony Brook University"
+    ],
+    "Abstract": "In recent years, the focus on developing natural language processing (NLP) tools for Arabic has shifted from Modern Standard Arabic to various Arabic dialects. Various corpora of various sizes and representing different genres, have been created for a number of Arabic dialects. As far as Gulf Arabic is concerned, Gumar Corpus (Khalifa et al., 2016) is the largest corpus, to date, that includes data representing the dialectal Arabic of the six Gulf Cooperation Council countries (Bahrain, Kuwait, Saudi Arabia, Qatar, United Arab Emirates, and Oman), particularly in the genre of \u201conline forum novels\u201d. In this paper, we present the Bahrain Corpus. Our objective is to create a specialized corpus of the Bahraini Arabic dialect, which includes written texts as well as transcripts of audio files, belonging to a different genre (folktales, comedy shows, plays, cooking shows, etc.). The corpus comprises 620K words, carefully curated. We provide automatic morphological annotations of the full corpus using state-of-the-art morphosyntactic disambiguation for Gulf Arabic. We validate the quality of the annotations on a 7.6K word sample. We plan to make the annotated sample as well as the full corpus publicly available to support researchers interested in Arabic NLP.",
+    "Added By": "Zaid Alyafeai"
+}
