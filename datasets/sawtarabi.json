@@ -55,7 +55,8 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "speech recognition"
+        "speech recognition",
+        "text to speech"
     ],
     "Venue Title": "Interspeech",
     "Venue Type": "conference",
