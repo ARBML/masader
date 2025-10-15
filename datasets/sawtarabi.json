@@ -1,0 +1,83 @@
+{
+    "Name": "SawtArabi",
+    "Subsets": [
+        {
+            "Name": "Code-Switching",
+            "Volume": 1.0,
+            "Unit": "hours",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 1.0,
+            "Unit": "hours",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "MSA",
+            "Volume": 1.0,
+            "Unit": "hours",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/ArabicSpeech/sawtarabi",
+    "Link": "https://huggingface.co/datasets/ArabicSpeech/sawtarabi",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "LLM",
+        "public datasets"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "manual curation",
+        "LLM generated"
+    ],
+    "Description": "4-hour benchmark Arabic TTS corpus of single-speaker recordings in Egyptian Arabic, MSA, English, and Egyptian-English code-switching.",
+    "Volume": 2.999999999999999,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "ArabicSpeech"
+    ],
+    "Derived From": [
+        "NatiQ",
+        "LJSpeech"
+    ],
+    "Paper Title": "SawtArabi: A Benchmark Corpus for Arabic TTS. Standard, Dialectal and Code-Switching",
+    "Paper Link": "https://www.isca-archive.org/interspeech_2025/lodagala25_interspeech.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "speech recognition",
+        "text to speech"
+    ],
+    "Venue Title": "Interspeech",
+    "Venue Type": "conference",
+    "Venue Name": "Interspeech",
+    "Authors": [
+        "Vasista Sai Lodagala",
+        "Lamya Alkanhal",
+        "Daniel Izham",
+        "Shivam Mehta",
+        "Shammur Chowdhury",
+        "Aqeelah Makki",
+        "Hamdy S. Hussein",
+        "Gustav Eje Henter",
+        "Ahmed Ali"
+    ],
+    "Affiliations": [
+        "Humain",
+        "SDAIA",
+        "KTH Royal Institute of Technology",
+        "QCRI"
+    ],
+    "Abstract": "Curating Text-to-Speech (TTS) datasets is a strenuous task given the quality considerations. While it is hard to find highquality TTS datasets in languages other than English, it is rare to come across code-switching (CS) datasets. As a part of this work, we curate a 4-hour Arabic-English TTS corpus consisting of code-switched Egyptian-English, monolingual Modern Standard Arabic (MSA), Egyptian, and English, all recorded by the same voice talent. We demonstrate the importance of vowelization and the need for better phonemization of Arabic text. To this effect, we present the modified espeak-ng phonemizer that handles various irregularities of espeak-ng over Arabic text. Upon training baseline TTS systems over this benchmark, we demonstrate its efficacy through extensive subjective evaluations.",
+    "Added By": "Zaid Alyafeai"
+}
