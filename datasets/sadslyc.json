@@ -1,0 +1,55 @@
+{
+    "Name": "SADSLyC",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/SalwaAlahmari/SADSLyC_Corpus",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Saudi Arabia",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "First Saudi song-lyrics corpus covering five Saudi dialects (Najdi, Hijazi, Shamali, Janoubi, Shargawi).",
+    "Volume": 31358.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Leeds",
+        "Birmingham City University",
+        "University of Hafr AlBatin"
+    ],
+    "Derived From": [],
+    "Paper Title": "SADSLyC: A Corpus for Saudi Arabian Multi-dialect Identification through Song Lyrics",
+    "Paper Link": "https://aclanthology.org/2025.wacl-1.4.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "dialect identification"
+    ],
+    "Venue Title": "WACL",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Arabic Corpus Linguistics",
+    "Authors": [
+        "Salwa Alahmari",
+        "Eric Atwell",
+        "Mohammad Alsalka",
+        "Hadeel Saadany"
+    ],
+    "Affiliations": [
+        "University of Leeds",
+        "Birmingham City University",
+        "University of Hafr AlBatin"
+    ],
+    "Abstract": "This paper presents the Saudi Arabian Dialects Song Lyrics Corpus (SADSLyC), the first dataset featuring song lyrics from the five major Saudi dialects: Najdi (Central Region), Hijazi (Western Region), Shamali (Northern Region), Janoubi (Southern Region), and Shargawi (Eastern Region). The dataset consists of 31,358 sentences, with each sentence representing a self-contained verse in a song, totaling 151,841 words. Additionally, we present a baseline experiment using the SaudiBERT model to classify the fine-grained dialects in the SADSLyC Corpus. The model achieved an overall accuracy of 73% on the test dataset.",
+    "Added By": "Zaid Alyafeai"
+}
