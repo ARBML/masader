@@ -1,0 +1,46 @@
+{
+    "Name": "CAI-Corpus",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/alaabouomar/Optimizing-Arabic-Dialect-Translation-for-Children-s-Literature-Using-Neural-Models.git",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Egypt",
+    "Domain": [
+        "books",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation",
+        "human annotation",
+        "LLM generated"
+    ],
+    "Description": "Parallel corpus of 130 children\u2019s stories translated from Modern Standard Arabic to Egyptian (Cairo) dialect.",
+    "Volume": 130.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [
+        "Arabic Children's Corpus"
+    ],
+    "Paper Title": "Optimizing Arabic Dialect Translation for Children\u2019s Literature Using Neural Models",
+    "Paper Link": "https://aclanthology.org/2025.wacl-1.11.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "This study presents a high-quality parallel corpus of 130 children\u2019s stories translated from Modern Standard Arabic (MSA) to Egyptian (Cairo) dialect using neural machine translation. We fine-tuned the AraT5 model and employed Claude for initial translations, achieving improved semantic similarity and BLEU scores. The resulting corpus is made publicly available to support future research in Arabic dialect translation.",
+    "Added By": "Zaid Alyafeai"
+}
