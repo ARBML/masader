@@ -1,0 +1,53 @@
+{
+    "Name": "TunArTTS",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/elyadata/TunArTTS",
+    "License": "CC BY-NC 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Tunisia",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "First speech corpus for Tunisian Arabic TTS with 3+ hours of male speaker audio",
+    "Volume": 3.0,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "ELYADATA"
+    ],
+    "Derived From": [
+        "Derja.Ninja"
+    ],
+    "Paper Title": "TunArTTS: Tunisian Arabic Text-To-Speech Corpus",
+    "Paper Link": "https://aclanthology.org/2024.lrec-main.1467.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "text to speech"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": " Language Resources and Evaluation Conference",
+    "Authors": [
+        "Imen Laouirine",
+        "Rami Kammoun",
+        "Fethi Bougares"
+    ],
+    "Affiliations": [
+        "ELYADATA",
+        "ALGOBRAIN"
+    ],
+    "Abstract": "Being labeled as a low-resource language, the Tunisian dialect has no existing prior TTS research. In this paper, we present a speech corpus for Tunisian Arabic Text-to-Speech (TunArTTS) to initiate the development of end-to-end TTS systems for the Tunisian dialect. Our Speech corpus is extracted from an online English and Tunisian Arabic dictionary. We were able to extract a mono-speaker speech corpus of +3 hours of a male speaker sampled at 44100 kHz. The corpus is processed and manually diacritized. Furthermore, we develop various TTS systems based on two approaches: training from scratch and transfer learning. Both Tacotron2 and FastSpeech2 were used and evaluated using subjective and objective metrics. The experimental results show that our best results are obtained with the transfer learning from a pre-trained model on the English LJSpeech dataset. This model obtained a mean opinion score (MOS) of 3.88. TunArTTS will be publicly available for research purposes along with the baseline TTS system demo.",
+    "Added By": "Zaid Alyafeai"
+}
