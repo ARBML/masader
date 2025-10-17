@@ -1,0 +1,59 @@
+{
+    "Name": "JHSC",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/mcnzzpgrdj/2",
+    "License": "CC BY 4.0",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Jordan",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "A multi-class Arabic hate-speech corpus of Jordanian-dialect tweets labeled for hate speech presence.",
+    "Volume": 403688.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Princess Sumaya University for Technology",
+        "Jordan University of Science and Technology"
+    ],
+    "Derived From": [],
+    "Paper Title": "Hate speech detection in the Arabic language: corpus design, construction, and evaluation",
+    "Paper Link": "https://doi.org/10.3389/frai.2024.1345445",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "offensive language detection",
+        "sentiment analysis"
+    ],
+    "Venue Title": "Frontiers in Artificial Intelligence",
+    "Venue Type": "journal",
+    "Venue Name": "Frontiers in Artificial Intelligence",
+    "Authors": [
+        "Ashraf Ahmad",
+        "Mohammad Azzeh",
+        "Eman Alnagi",
+        "Qasem Abu Al-Haija",
+        "Dana Halabi",
+        "Abdullah Aref",
+        "Yousef AbuHour"
+    ],
+    "Affiliations": [
+        "Princess Sumaya University for Technology",
+        "Jordan University of Science and Technology",
+        "SAE Institute, Luminus Technical University College"
+    ],
+    "Abstract": "This paper presents a new large-scale, publicly available Arabic hate-speech dataset consisting of 403,688 Jordanian-dialect tweets categorized into four sentiment classes based on the presence and intensity of hate speech. The dataset is constructed by systematically collecting tweets from Twitter between 2014 and 2022, followed by rigorous pre-processing and manual annotation. Machine-learning and deep-learning classifiers (TF-IDF, Word2Vec, AraBERT) are evaluated for detecting hate speech, demonstrating the dataset\u2019s utility in Arabic and Jordanian-dialect NLP research.",
+    "Added By": "Zaid Alyafeai"
+}
