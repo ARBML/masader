@@ -42,7 +42,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "other"
+        "readability assessment"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
