@@ -1,0 +1,46 @@
+{
+    "Name": "CAI-Corpus",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/alaabouomar/Optimizing-Arabic-Dialect-Translation-for-Children-s-Literature-Using-Neural-Models.git",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Egypt",
+    "Domain": [
+        "books",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation",
+        "human annotation",
+        "LLM generated"
+    ],
+    "Description": "Parallel corpus of 130 children\u2019s stories translated from Modern Standard Arabic to Egyptian (Cairo) dialect.",
+    "Volume": 130.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [
+        "Arabic Children's Corpus"
+    ],
+    "Paper Title": "AraSim: Optimizing Arabic Dialect Translation in Children’s Literature with LLMs and Similarity Scores",
+    "Paper Link": "https://aclanthology.org/2025.wacl-1.11.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "The goal of the paper is to address the linguistic gap faced by young Egyptian Arabic speakers through translating children stories from Modern Standard Arabic to the Egyptian Cairo dialect. Claude is used for initial translation, and a fine-tuned AraT5 model is used for backtranslation. The translation quality is assessed using semantic similarity and BLUE scores to compare the original texts and the translations. The resulting corpus contains 130 stories which were revised by native Egyptian speakers who are professional translators. The strengths of this paper are multiple: working on a less-resourced variety, addressing an important social issue, creating a dataset with potential real-life applications, and ensuring the quality of the produced dataset through human validation.",
+    "Added By": "Zaid Alyafeai"
+}
