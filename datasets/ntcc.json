@@ -1,0 +1,53 @@
+{
+    "Name": "NTCC",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/PsArNLP/Nakba",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Palestine",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "An annotated Arabic corpus of ~470 sentences from Nakba short stories for topic classification.",
+    "Volume": 470.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Palestine Technical University-Kadoorie",
+        "University Rovira i Virgili",
+        "Al-Zaytona University of Science and Technology"
+    ],
+    "Derived From": [],
+    "Paper Title": "Arabic Topic Classification Corpus of the Nakba Short Stories",
+    "Paper Link": "https://aclanthology.org/2025.nakbanlp-1.6.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "topic classification"
+    ],
+    "Venue Title": "Nakba-NLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Nakba Narratives as Language Resources",
+    "Authors": [
+        "Osama Hamed",
+        "Nadeem Zaidkilani"
+    ],
+    "Affiliations": [
+        "Palestine Technical University-Kadoorie",
+        "University Rovira i Virgili",
+        "Al-Zaytona University of Science and Technology"
+    ],
+    "Abstract": "In this paper, we enrich Arabic Natural Language Processing (NLP) resources by introducing the \u201cNakba Topic Classification Corpus (NTCC),\u201d a novel annotated Arabic corpus derived from narratives about the Nakba. The NTCC comprises approximately 470 sentences extracted from eight short stories and captures the thematic depth of the Nakba narratives, providing insights into both historical and personal dimensions. The corpus was annotated in a two-step process. One third of the dataset was manually annotated, achieving an IAA of 87% (later resolved to 100%), while the rest was annotated using a rule-based system based on thematic patterns. This approach ensures consistency and reproducibility, enhancing the corpus\u2019s reliability for NLP research. The NTCC contributes to the preservation of the Palestinian cultural heritage while addressing key challenges in Arabic NLP, such as data scarcity and linguistic complexity. By like topic modeling and classification tasks, the NTCC offers a valuable resource for advancing Arabic NLP research and fostering a deeper understanding of the Nakba narratives.",
+    "Added By": "Zaid Alyafeai"
+}
