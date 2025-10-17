@@ -1,0 +1,61 @@
+{
+    "Name": "BAREC",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/CAMeL-Lab/BAREC-Corpus-v1.0",
+    "Link": "http://barec.camel-lab.com",
+    "License": "CC BY-SA 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "books",
+        "public datasets",
+        "LLM",
+        "web pages",
+        "wikipedia"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "A large-scale, fine-grained Arabic readability corpus with 69K sentences across 19 levels, covering diverse genres and education stages.",
+    "Volume": 69441.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "CaMeL-Lab"
+    ],
+    "Derived From": [
+        "ArabicMMLU",
+        "ZAEBUC",
+        "ALC",
+        "ReadMe++",
+        "Quran Corpus",
+        "LK Hadith Corpus"
+    ],
+    "Paper Title": "A Large and Balanced Corpus for Fine-grained Arabic Readability Assessment",
+    "Paper Link": "https://arxiv.org/pdf/2502.13520",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "readability assessment"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Khalid N. Elmadani",
+        "Nizar Habash",
+        "Hanada Taha-Thomure"
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi",
+        "Zayed University"
+    ],
+    "Abstract": "This paper introduces the Balanced Arabic Readability Evaluation Corpus (BAREC), a large-scale, fine-grained dataset for Arabic readability assessment. BAREC consists of 69,441 sentences spanning 1+ million words, carefully curated to cover 19 readability levels, from kindergarten to postgraduate comprehension. The corpus balances genre diversity, topical coverage, and target audiences, offering a comprehensive resource for evaluating Arabic text complexity. The corpus was fully manually annotated by a large team of annotators. The average pairwise inter-annotator agreement, measured by Quadratic Weighted Kappa, is 81.8%, reflecting a high level of substantial agreement. Beyond presenting the corpus, we benchmark automatic readability assessment across different granularity levels, comparing a range of techniques. Our results highlight the challenges and opportunities in Arabic readability modeling, demonstrating competitive performance across various methods. To support research and education, we make BAREC openly available, along with detailed annotation guidelines and benchmark results.\n",
+    "Added By": "Zaid Alyafeai"
+}
