@@ -1,0 +1,50 @@
+{
+    "Name": "Commonsense-Explanation",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/msmadi/Commonsense-Explanation",
+    "License": "CC BY-SA 4.0",
+    "Year": 2020,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Benchmark Arabic dataset for commonsense explanation containing false sentences and three-choice explanations.",
+    "Volume": 12000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Jordan University of Science and Technology"
+    ],
+    "Derived From": [
+        "SemEval-2020 ComVE"
+    ],
+    "Paper Title": "A Benchmark Arabic Dataset for Commonsense Explanation",
+    "Paper Link": "https://arxiv.org/pdf/2012.10251",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "commonsense reasoning"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Saja AL-Tawalbeh",
+        "Mohammad AL-Smadi"
+    ],
+    "Affiliations": [
+        "Jordan University of Science and Technology"
+    ],
+    "Abstract": "Language comprehension and commonsense knowledge validation by machines are challenging tasks that are still under researched and evaluated for Arabic text. In this paper, we present a benchmark Arabic dataset for commonsense explanation. The dataset consists of Arabic sentences that do not make sense along with three choices to select among them the one that explains why the sentence is false. Furthermore, this paper presents baseline results to assist and encourage the future evaluation of research in this field. The dataset is distributed under the Creative Commons CC-BY-SA 4.0 license and can be found on GitHub.",
+    "Added By": "Zaid Alyafeai"
+}
