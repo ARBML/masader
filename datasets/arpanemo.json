@@ -1,0 +1,49 @@
+{
+    "Name": "ArPanEmo",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/d9yy8w52ns",
+    "License": "CC BY 4.0",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Saudi Arabia",
+    "Domain": [
+        "social media",
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Manually annotated Arabic online posts on COVID-19 for fine-grained emotion recognition, covering 11 emotion labels.",
+    "Volume": 11128.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Taif University"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArPanEmo: An Open-Source Dataset for Fine-Grained Emotion Recognition in Arabic Online Content during COVID-19 Pandemic",
+    "Paper Link": "https://arxiv.org/pdf/2305.17580",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "emotion classification"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Maha Jarallah Althobaiti"
+    ],
+    "Affiliations": [
+        "Taif University"
+    ],
+    "Abstract": "Emotion recognition is a crucial task in Natural Language Processing (NLP) that enables machines to comprehend the feelings conveyed in the text. The applications of emotion recognition are diverse, including mental health diagnosis, student support, and the detection of online suspicious behavior. Despite the substantial amount of literature available on emotion recognition in various languages, Arabic emotion recognition has received relatively little attention, leading to a scarcity of emotion-annotated corpora. This paper presents the ArPanEmo dataset, a novel dataset for fine-grained emotion recognition of online posts in Arabic. The dataset comprises 11,128 online posts manually labeled for ten emotion categories or neutral, with Fleiss' kappa of 0.71. It targets a specific Arabic dialect and addresses topics related to the COVID-19 pandemic, making it the first and largest of its kind. Python's packages were utilized to collect online posts related to the COVID-19 pandemic from three sources: Twitter, YouTube, and online newspaper comments between March 2020 and March 2022. Upon collection of the online posts, each one underwent a semi-automatic classification process using a lexicon of emotion-related terms to determine whether it belonged to the neutral or emotional category. Subsequently, manual labeling was conducted to further categorize the emotional data into fine-grained emotion categories.",
+    "Added By": "Zaid Alyafeai"
+}
