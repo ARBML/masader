@@ -1,0 +1,53 @@
+{
+    "Name": "ExaASC",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/exaco/exaasc",
+    "License": "Apache-2.0",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "crawling"
+    ],
+    "Description": "General target-based Arabic stance-detection corpus built from Twitter source tweets and their replies, covering ~200 targets.",
+    "Volume": 9566.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Exa Company"
+    ],
+    "Derived From": [],
+    "Paper Title": "ExaASC: A General Target-Based Stance Detection Corpus in Arabic Language",
+    "Paper Link": "https://arxiv.org/pdf/2204.13979",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "stance detection"
+    ],
+    "Venue Title": "ICCKE",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Computer and Knowledge Engineering",
+    "Authors": [
+        "Mohammad Mehdi Jaziriyan",
+        "Ahmad Akbari",
+        "Hamed Karbasi"
+    ],
+    "Affiliations": [
+        "Exa Company",
+        "Tarbiat Modares University",
+        "University of Tehran",
+        "Sharif University of Technology"
+    ],
+    "Abstract": "Target-based Stance Detection is the task of finding a stance toward a target. Twitter is one of the primary sources of political discussions in social media and one of the best resources to analyze Stance toward entities. This work proposes a new method toward Target-based Stance detection by using the stance of replies toward a most important and arguing target in source tweet. This target is detected with respect to the source tweet itself and not limited to a set of pre-defined targets which is the usual approach of the current state-of-the-art methods. Our proposed new attitude resulted in a new corpus called ExaASC for the Arabic Language, one of the low resource languages in this field. In the end, we used BERT to evaluate our corpus and reached a 70.69 Macro F-score. This shows that our data and model can work in a general Target-base Stance Detection system. The corpus is publicly available",
+    "Added By": "Zaid Alyafeai"
+}
