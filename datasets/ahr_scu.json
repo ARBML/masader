@@ -1,0 +1,60 @@
+{
+    "Name": "AHR-SCU",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/AHR-OCR2024/Arabic-Handwriting-Recognition",
+    "License": "MIT License",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "manual curation",
+        "human annotation"
+    ],
+    "Description": "Segmented and re-labeled Arabic handwritten text images derived from KHATT for training OCR models",
+    "Volume": 108619.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Suez Canal University"
+    ],
+    "Derived From": [
+        "KHATT"
+    ],
+    "Paper Title": "Arabic Handwriting Recognition",
+    "Paper Link": "https://github.com/AHR-OCR2024/Arabic-Handwriting-Recognition/blob/main/AHR-Thesis.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "GitHub",
+    "Venue Type": "preprint",
+    "Venue Name": "GitHub",
+    "Authors": [
+        "Ayman Saber Gad",
+        "Ahmed Taha Ahmed Abd El Rahim",
+        "Ahmed Nagah Ahmed Mohamed",
+        "Mohammed Fathi Homahhmed Mohammed Ali",
+        "Abanoub Ayed Khalaf",
+        "Reem Mohammed Foud",
+        "Rawan Gamal Mohammed",
+        "Nada Mahmoud Mohammed",
+        "Nada Hussein Arsan",
+        "Kerollos Samir Fathi",
+        "Mohammed Abd El Fattah Fathi"
+    ],
+    "Affiliations": [
+        "Suez Canal University"
+    ],
+    "Abstract": "This graduation project, titled \"Arabic Handwriting Recognition,\" was undertaken by a team of 11 students at the Faculty of Engineering, Suez Canal University, under the supervision of Prof. Khalid Abd El Salam. The project's primary objective was to develop a system capable of recognizing and digitizing handwritten Arabic scripts. The system was designed to convert various types of documents, such as scanned paper documents, PDF files, or images captured by a digital camera, into editable and searchable data. The project involved several stages, including data collection and preparation, system planning and design, system implementation, AI training, and results analysis. The team utilized various techniques and technologies, such as image preprocessing, character recognition models, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and deep learning algorithms. Despite facing challenges such as the complexity of Arabic calligraphy, variations in writing styles, and the lack of publicly available standardized datasets for handwritten Arabic text, the team successfully developed a system that achieved high levels of accuracy and robustness in recognizing handwritten Arabic text. The project not only contributes to the field of Optical Character Recognition (OCR) but also opens up new avenues for future research and development in the specialized subset of Arabic Handwriting Recognition (AHR).",
+    "Added By": "Zaid Alyafeai"
+}
