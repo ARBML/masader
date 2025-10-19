@@ -26,9 +26,7 @@
         "Cairo University"
     ],
     "Derived From": [
-        "GRE closest opposite questions",
-        "Egyptian Knowledge Bank",
-        "native Arabic speaker annotations"
+        "GRE closest opposite questions"
     ],
     "Paper Title": "ARCOQ: Arabic Closest Opposite Questions",
     "Paper Link": "https://arxiv.org/pdf/2310.14384",
