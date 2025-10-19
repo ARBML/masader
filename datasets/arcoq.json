@@ -1,0 +1,55 @@
+{
+    "Name": "ARCOQ",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/SandraRizkallah/ARCOQ-dataset",
+    "License": "unknown",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation",
+        "machine annotation",
+        "manual curation"
+    ],
+    "Description": "ARCOQ is the first Arabic dataset of 500 closest-opposite (antonym) multiple-choice questions for Arabic systems evaluation.",
+    "Volume": 500.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Cairo University"
+    ],
+    "Derived From": [
+        "GRE closest opposite questions"
+    ],
+    "Paper Title": "ARCOQ: Arabic Closest Opposite Questions",
+    "Paper Link": "https://arxiv.org/pdf/2310.14384",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Sandra Rizkallah",
+        "Amir F. Atiya",
+        "Samir Shaheen"
+    ],
+    "Affiliations": [
+        "Cairo University"
+    ],
+    "Abstract": "This paper presents a dataset for closest opposite questions in Arabic language. The dataset is the first of its kind for the Arabic language. It is beneficial for the assessment of systems on the aspect of antonymy detection. The structure is similar to that of the Graduate Record Examination (GRE) closest opposite questions dataset for the English language. The introduced dataset consists of 500 questions, each contains a query word for which the closest opposite needs to be determined from among a set of candidate words. Each question is also associated with the correct answer. We publish the dataset publicly in addition to providing standard splits of the dataset into development and test sets. Moreover, the paper provides a benchmark for the performance of different Arabic word embedding models on the introduced dataset.\n",
+    "Added By": "Zaid Alyafeai"
+}
