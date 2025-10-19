@@ -1,0 +1,58 @@
+{
+    "Name": "ArVoice",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/MBZUAI/ArVoice",
+    "Link": "https://huggingface.co/datasets/MBZUAI/ArVoice",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "manual curation",
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "A multi-speaker Modern Standard Arabic (MSA) speech corpus with diacritized transcriptions for multi-speaker speech synthesis, voice conversion, and deepfake detection.",
+    "Volume": 83.52,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "MBZUAI"
+    ],
+    "Derived From": [
+        "Tashkeela Corpus",
+        "Arabic Speech Corpus (ASC)",
+        "Khaleej Corpus"
+    ],
+    "Paper Title": "ArVoice: A Multi-Speaker Dataset for Arabic Speech Synthesis",
+    "Paper Link": "https://arxiv.org/pdf/2504.21677",
+    "Script": "Arab",
+    "Tokenized": true,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "text to speech",
+        "speech recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Hawau Olamide Toyin",
+        "Rufael Marew",
+        "Humaid AlBlooshi",
+        "Samar M. Magdy",
+        "Hanan Aldarmaki"
+    ],
+    "Affiliations": [
+        "Mohamed Bin Zayed University of Artificial Intelligence"
+    ],
+    "Abstract": "We introduce ArVoice, a multi-speaker Modern Standard Arabic (MSA) speech corpus with diacritized transcriptions, intended for multi-speaker speech synthesis, and can be useful for other tasks such as speech-based diacritic restoration, voice conversion, and deepfake detection. ArVoice comprises: (1) a new professionally recorded set from six voice talents with diverse demographics, (2) a modified subset of the Arabic Speech Corpus; and (3) high-quality synthetic speech from two commercial systems. The complete corpus consists of a total of 83.52 hours of speech across 11 voices; around 10 hours consist of human voices from 7 speakers. We train three open-source TTS and two voice conversion systems to illustrate the use cases of the dataset. The corpus is available for research use.",
+    "Added By": "Zaid Alyafeai"
+}
