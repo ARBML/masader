@@ -1,0 +1,49 @@
+{
+    "Name": "DODav2",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/darija-open-dataset/dataset",
+    "License": "CC BY-NC 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Morocco",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "manual curation",
+        "machine annotation"
+    ],
+    "Description": "Open Moroccan Darija\u2013English parallel corpus with ~100 k entries, dual-script (Arab/Latin) and rich linguistic annotations.",
+    "Volume": 100000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [
+        "DoDa"
+    ],
+    "Paper Title": "The Evolution of Darija Open Dataset: Introducing Version 2",
+    "Paper Link": "https://arxiv.org/pdf/2405.13016",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation",
+        "morphological analysis"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Aissam Outchakoucht",
+        "Hamza Es-Samaali"
+    ],
+    "Affiliations": [],
+    "Abstract": "Darija Open Dataset (DODa) represents an open-source project aimed at enhancing Natural Language Processing capabilities for the Moroccan dialect, Darija. With approximately 100,000 entries, DODa stands as the largest collaborative project of its kind for Darija-English translation. The dataset features semantic and syntactic categorizations, variations in spelling, verb conjugations across multiple tenses, as well as tens of thousands of translated sentences. The dataset includes entries written in both Latin and Arabic alphabets, reflecting the linguistic variations and preferences found in different sources and applications. The availability of such dataset is critical for developing applications that can accurately understand and generate Darija, thus supporting the linguistic needs of the Moroccan community and potentially extending to similar dialects in neighboring regions. This paper explores the strategic importance of DODa, its current achievements, and the envisioned future enhancements that will continue to promote its use and expansion in the global NLP landscape.",
+    "Added By": "Zaid Alyafeai"
+}
