@@ -1,0 +1,51 @@
+{
+    "Name": "PSL-STEM",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/fidaakh/STEM_data",
+    "Link": "https://huggingface.co/datasets/fidaakh/STEM_data",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Palestine",
+    "Domain": [
+        "other"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "manual curation",
+        "human annotation"
+    ],
+    "Description": "Dataset of 41 mathematical gesture classes in Palestinian Sign Language for hard-of-hearing education.",
+    "Volume": 41.0,
+    "Unit": "videos",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Arab American University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Enhancing Mathematics Learning for Hard-of-Hearing Students Through Real-Time Palestinian Sign Language Recognition: A New Dataset",
+    "Paper Link": "https://arxiv.org/pdf/2505.17055",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sign language recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Fidaa khandaqji",
+        "Huthaifa I. Ashqar",
+        "Abdelrahem Atawnih"
+    ],
+    "Affiliations": [
+        "Arab American University",
+        "Columbia University"
+    ],
+    "Abstract": "The study aims to enhance mathematics education accessibility for hard-of-hearing students by developing an accurate Palestinian sign language PSL recognition system using advanced artificial intelligence techniques. Due to the scarcity of digital resources for PSL, a custom dataset comprising 41 mathematical gesture classes was created, and recorded by PSL experts to ensure linguistic accuracy and domain specificity. To leverage state-of-the-art-computer vision techniques, a Vision Transformer ViTModel was fine-tuned for gesture classification. The model achieved an accuracy of 97.59%, demonstrating its effectiveness in recognizing mathematical signs with high precision and reliability. This study highlights the role of deep learning in developing intelligent educational tools that bridge the learning gap for hard-of-hearing students by providing AI-driven interactive solutions to enhance mathematical comprehension. This work represents a significant step toward innovative and inclusive frosting digital integration in specialized learning environments. The dataset is hosted on Hugging Face at https://huggingface.co/datasets/fidaakh/STEM_data.\n",
+    "Added By": "Zaid Alyafeai"
+}
