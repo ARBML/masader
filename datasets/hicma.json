@@ -1,0 +1,55 @@
+{
+    "Name": "HICMA",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://hicma.net/dataset.html",
+    "License": "CC BY-NC 4.0",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "web pages",
+        "books"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "First publicly available dataset of real-world Arabic handwriting in historic manuscripts and calligraphy, containing 5,031 image-text pairs across five calligraphic styles.",
+    "Volume": 5031.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "KU Leuven",
+        "Lebanese American University",
+        "intervu.ai"
+    ],
+    "Derived From": [],
+    "Paper Title": "HICMA: The Handwriting Identification for Calligraphy and Manuscripts in Arabic Dataset",
+    "Paper Link": "https://aclanthology.org/2023.arabicnlp-1.3.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Anis Ismail",
+        "Zina Kamel",
+        "Reem Mahmoud"
+    ],
+    "Affiliations": [
+        "KU Leuven",
+        "Lebanese American University",
+        "intervu.ai"
+    ],
+    "Abstract": "Arabic is one of the most globally spoken languages with more than 313 million speakers worldwide. Arabic handwriting is known for its cursive nature and the variety of writing styles used. Despite the increase in effort to digitize artistic and historical elements, no public dataset was released to deal with Arabic text recognition for realistic manuscripts and calligraphic text. We present the Handwriting Identification of Manuscripts and Calligraphy in Arabic (HICMA) dataset as the first publicly available dataset with real-world and diverse samples of Arabic handwritten text in manuscripts and calligraphy. With more than 5,000 images across five different styles, the HICMA dataset includes image-text pairs and style labels for all images. We further present a comparison of the current state-of-the-art optical character recognition models in Arabic and benchmark their performance on the HICMA dataset, which serves as a baseline for future works. Both the HICMA dataset and its benchmarking tool are made available to the public under the CC BY-NC 4.0 license in the hope that the presented work opens the door to further enhancements of complex Arabic text recognition.",
+    "Added By": "Zaid Alyafeai"
+}
