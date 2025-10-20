@@ -1,0 +1,51 @@
+{
+    "Name": "SAMER Arabic Text Simplification",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "http://samer.camel-lab.com/",
+    "License": "custom",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "First manually annotated Arabic parallel corpus for text simplification targeting school-aged learners, with 159K words from 15 Arabic fiction novels.",
+    "Volume": 159265.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "CAMeL Lab"
+    ],
+    "Derived From": [],
+    "Paper Title": "The SAMER Arabic Text Simplification Corpus",
+    "Paper Link": "https://aclanthology.org/2024.lrec-main.1398.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "readability assessment"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "preprint",
+    "Venue Name": "Language Resources and Evaluation Conference",
+    "Authors": [
+        "Bashar Alhafni",
+        "Reem Hazim",
+        "Juan Pi\u00f1eros Liberato",
+        "Muhamed Al Khalil",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi"
+    ],
+    "Abstract": "We present the SAMER Corpus, the first manually annotated Arabic parallel corpus for text simplification targeting school-aged learners. Our corpus comprises texts of 159K words selected from 15 publicly available Arabic fiction novels most of which were published between 1865 and 1955. Our corpus includes readability level annotations at both the document and word levels, as well as two simplified parallel versions for each text targeting learners at two different readability levels. We describe the corpus selection process, and outline the guidelines we followed to create the annotations and ensure their quality. Our corpus is publicly available to support and encourage research on Arabic text simplification, Arabic automatic readability assessment, and the development of Arabic pedagogical language technologies.",
+    "Added By": "Zaid Alyafeai"
+}
