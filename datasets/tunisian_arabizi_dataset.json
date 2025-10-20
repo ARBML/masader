@@ -1,0 +1,55 @@
+{
+    "Name": "Tunisian Arabizi dataset",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://zenodo.org/record/4275240",
+    "License": "CC BY 4.0",
+    "Year": 2021,
+    "Language": "ar",
+    "Dialect": "Tunisia",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "A large Tunisian Arabizi dialectal sentiment analysis dataset containing 100k comments",
+    "Volume": 100000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "iCompass"
+    ],
+    "Derived From": [
+        "Common Crawl"
+    ],
+    "Paper Title": "Introducing A large Tunisian Arabizi Dialectal Dataset for Sentiment Analysis",
+    "Paper Link": "https://aclanthology.org/2021.wanlp-1.25.pdf",
+    "Script": "Latin",
+    "Tokenized": false,
+    "Host": "zenodo",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue Title": "WANLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Arabic Natural Language Processing Workshop ",
+    "Authors": [
+        "Chayma Fourati",
+        "Hatem Haddad",
+        "Abir Messaoudi",
+        "Moez Ben Haj Hmida",
+        "Aymen Ben Elhaj Mabrouk",
+        "Malek Naski"
+    ],
+    "Affiliations": [
+        "iCompass"
+    ],
+    "Abstract": "On various Social Media platforms, people, tend to use the informal way to communicate, or write posts and comments: their local dialects. In Africa, more than 1500 dialects and languages exist. Particularly, Tunisians talk and write informally using Latin letters and numbers rather than Arabic ones. In this paper, we introduce a large common-crawl-based Tunisian Arabizi dialectal dataset dedicated for Sentiment Analysis. The dataset consists of a total of 100k comments (about movies, politic, sport, etc.) annotated manually by Tunisian native speakers as Positive, negative and Neutral. We evaluate our dataset on sentiment analysis task using the Bidirectional Encoder Representations from Transformers (BERT) as a contextual language model in its multilingual version (mBERT) as an embedding technique then combining mBERT with Convolutional Neural Network (CNN) as classifier. The dataset is publicly available.",
+    "Added By": "Zaid Alyafeai"
+}
