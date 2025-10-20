@@ -18,7 +18,7 @@
     "Description": "COVID-19 Arabic named entity corpus extracted from Saudi newspapers",
     "Volume": 55389.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
+    "Ethical Risks": "Medium",
     "Provider": [
         "King Abdulaziz City for Science and Technology",
         "King Saud University"
