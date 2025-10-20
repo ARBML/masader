@@ -1,0 +1,55 @@
+{
+    "Name": "Tafsir Dataset",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://aiwg.de/beta_version_open_tafsir_database",
+    "License": "unknown",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "Classical Arabic",
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "A multi-task dataset for Named Entity Recognition and Topic Modeling on Classical Arabic Quranic exegesis (Tafsir Al-Tabari).",
+    "Volume": 51704.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Goethe University Frankfurt"
+    ],
+    "Derived From": [],
+    "Paper Title": "Tafsir Dataset: A Novel Multi-Task Benchmark for Named Entity Recognition and Topic Modeling in Classical Arabic Literature",
+    "Paper Link": "https://aclanthology.org/2022.coling-1.330.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "named entity recognition",
+        "topic classification"
+    ],
+    "Venue Title": "COLING",
+    "Venue Type": "workshop",
+    "Venue Name": "International Conference on Computational Linguistics",
+    "Authors": [
+        "Sajawel Ahmed",
+        "Rob van der Goot",
+        "Misbahur Rehman",
+        "Carl Kruse",
+        "\u00d6mer \u00d6zsoy",
+        "Alexander Mehler",
+        "Gemma Roig"
+    ],
+    "Affiliations": [
+        "Goethe University Frankfurt",
+        "IT University of Copenhagen"
+    ],
+    "Abstract": "Various historical languages, which used to be lingua franca of science and arts, deserve the attention of current NLP research. In this work, we take the first data-driven steps towards this research line for Classical Arabic (CA) by addressing named entity recognition (NER) and topic modeling (TM) on the example of CA literature. We manually annotate the encyclopedic work of Tafsir Al-Tabari with span-based NEs, sentence-based topics, and span-based subtopics, thus creating the Tafsir Dataset with over 51,000 sentences, the first large-scale multi-task benchmark for CA. Next, we analyze our newly generated dataset, which we make open-source available, with current language models (lightweight BiLSTM, transformer-based MaChAmP) along a novel script compression method, thereby achieving state-of-the-art performance for our target task CA-NER. We also show that CA-TM from the perspective of historical topic models, which are central to Arabic studies, is very challenging. With this interdisciplinary work, we lay the foundations for future research on automatic analysis of CA literature.\n",
+    "Added By": "Zaid Alyafeai"
+}
