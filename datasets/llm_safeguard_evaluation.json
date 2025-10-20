@@ -1,0 +1,55 @@
+{
+    "Name": "LLM Safeguard Evaluation",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/mbzuai-nlp/Arabic_safety_evaluation",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Arab-region-specific safety evaluation dataset for large language models comprising 5,799 questions (direct attacks, indirect attacks, and harmless prompts) crafted for socio-cultural context.",
+    "Volume": 5799.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "MBZUAI"
+    ],
+    "Derived From": [
+        "CDNA"
+    ],
+    "Paper Title": "Arabic Dataset for LLM Safeguard Evaluation",
+    "Paper Link": "https://aclanthology.org/2025.naacl-long.285.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "safety evaluation"
+    ],
+    "Venue Title": "NAACL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics",
+    "Authors": [
+        "Yasser Ashraf",
+        "Yuxia Wang",
+        "Bin Gu",
+        "Preslav Nakov",
+        "Timothy Baldwin"
+    ],
+    "Affiliations": [
+        "MBZUAI",
+        "LibrAI",
+        "The University of Melbourne"
+    ],
+    "Abstract": "The growing use of large language models (LLMs) has raised concerns regarding their safety. While many studies have focused on English, the safety of LLMs in Arabic, with its linguistic and cultural complexities, remains under-explored. Here, we aim to bridge this gap. In particular, we present an Arab-region-specific safety evaluation dataset consisting of 5,799 questions, including direct attacks, indirect attacks, and harmless requests with sensitive words, adapted to reflect the socio-cultural context of the Arab world. To uncover the impact of different stances in handling sensitive and controversial topics, we propose a dual-perspective evaluation framework. It assesses the LLM responses from both governmental and opposition viewpoints. Experiments over five leading Arabic-centric and multilingual LLMs reveal substantial disparities in their safety performance. This reinforces the need for culturally specific datasets to ensure the responsible deployment of LLMs.",
+    "Added By": "Zaid Alyafeai"
+}
