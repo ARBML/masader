@@ -1,0 +1,61 @@
+{
+    "Name": "TARIC-SLU",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://demo-lia.univ-avignon.fr/taric-dataset/",
+    "License": "CC BY-NC 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Tunisia",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Tunisian railway-transport conversations annotated with dialogue acts and slots for SLU benchmarking.",
+    "Volume": 6.0,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "LIA, Avignon University",
+        "Elyadata",
+        "LTCI, T\u00e9l\u00e9com Paris",
+        "Mila-Quebec AI Institute"
+    ],
+    "Derived From": [
+        "TARIC"
+    ],
+    "Paper Title": "TARIC-SLU: A Tunisian Benchmark Dataset For Spoken Language Understanding",
+    "Paper Link": "https://aclanthology.org/2024.lrec-main.1357.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "Language Resources and Evaluation Conference",
+    "Authors": [
+        "Salima Mdhaffar",
+        "Fethi Bougares",
+        "Renato De Mori",
+        "Salah Zaiem",
+        "Mirco Ravanelli",
+        "Yannick Est\u00e8ve"
+    ],
+    "Affiliations": [
+        "Avignon University",
+        "Elydata",
+        "McGill",
+        "Institut Polytechinque de Paris",
+        "Concordia University"
+    ],
+    "Abstract": "In recent years, there has been a significant increase in interest in developing Spoken Language Understanding (SLU) systems. SLU involves extracting a list of semantic information from the speech signal. A major issue for SLU systems is the lack of sufficient amount of bi-modal (audio and textual semantic annotation) training data. Existing SLU resources are mainly available in high-resource languages such as English, Mandarin and French. However, one of the current challenges concerning low-resourced languages is data collection and annotation. In this work, we present a new freely available corpus, named TARIC-SLU, composed of railway transport conversations in Tunisian dialect that is continuously annotated in dialogue acts and slots. We describe the semantic model of the dataset, the data and experiments conducted to build ASR-based and SLU-based baseline models. To facilitate its use, a complete recipe, including data preparation, training and evaluation scripts, has been built and will be integrated into SpeechBrain, a popular open-source conversational AI toolkit based on PyTorch.",
+    "Added By": "Zaid Alyafeai"
+}
