@@ -1,0 +1,55 @@
+{
+    "Name": "CAraNER",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/kacst-ncdaai/caraner",
+    "License": "unknown",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "news articles",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "COVID-19 Arabic named entity corpus extracted from Saudi newspapers",
+    "Volume": 55389.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Abdulaziz City for Science and Technology",
+        "King Saud University"
+    ],
+    "Derived From": [
+        "AraNPCC"
+    ],
+    "Paper Title": "CAraNER: The COVID-19 Arabic Named Entity Corpus",
+    "Paper Link": "https://aclanthology.org/2022.wanlp-1.1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "named entity recognition"
+    ],
+    "Venue Title": "WANLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Arabic Natural Language Processing Workshop",
+    "Authors": [
+        "Abdulmohsen Al-Thubaity",
+        "Sakhar Alkhereyf",
+        "Wejdan Alzahrani",
+        "Alia Bahanshal"
+    ],
+    "Affiliations": [
+        "King Abdulaziz City for Science and Technology",
+        "King Saud University"
+    ],
+    "Abstract": "Named Entity Recognition (NER) is a well-known problem for the natural language processing (NLP) community. It is a key component of different NLP applications, including information extraction, question answering, and information retrieval. In the literature, there are several Arabic NER datasets with different named entity tags; however, due to data and concept drift, we are always in need of new data for NER and other NLP applications. In this paper, first, we introduce Wassem, a web-based annotation platform for Arabic NLP applications. Wassem can be used to manually annotate textual data for a variety of NLP tasks: text classification, sequence classification, and word segmentation. Second, we introduce the COVID-19 Arabic Named Entities Recognition (CAraNER) dataset. CAraNER has 55,389 tokens distributed over 1,278 sentences randomly extracted from Saudi Arabian newspaper articles published during 2019, 2020, and 2021. The dataset is labeled by five annotators with five named-entity tags, namely: Person, Title, Location, Organization, and Miscellaneous. The CAraNER corpus is available for download for free. We evaluate the corpus by finetuning four BERT-based Arabic language models on the CAraNER corpus. The best model was AraBERTv0.2-large with 0.86 for the F1 macro measure.",
+    "Added By": "Zaid Alyafeai"
+}
