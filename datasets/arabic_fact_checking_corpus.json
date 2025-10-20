@@ -1,0 +1,56 @@
+{
+    "Name": "Arabic Fact-Checking Corpus",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://alt.qcri.org/resources/arabic-fact-checking-and-stance-detection-corpus/",
+    "License": "unknown",
+    "Year": 2018,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "web pages",
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "First Arabic corpus integrating stance detection and fact checking with sentence-level rationales.",
+    "Volume": 3042.0,
+    "Unit": "documents",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
+    "Paper Title": "Integrating Stance Detection and Fact Checking in a Unified Corpus",
+    "Paper Link": "https://aclanthology.org/N18-2004.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "QCRI Resources",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "stance detection"
+    ],
+    "Venue Title": "NAACL-HLT",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "Authors": [
+        "Ramy Baly",
+        "Mitra Mohtarami",
+        "James Glass",
+        "Llu\u00eds M\u00e0rquez",
+        "Alessandro Moschitti",
+        "Preslav Nakov"
+    ],
+    "Affiliations": [
+        "MIT CSAIL",
+        "QCRI",
+        "Amazon"
+    ],
+    "Abstract": "A reasonable approach for fact checking a claim involves retrieving potentially relevant documents from different sources (e.g., news websites, social media, etc.), determining the stance of each document with respect to the claim, and finally making a prediction about the claim\u2019s factuality by aggregating the strength of the stances, while taking the reliability of the source into account. Moreover, a fact checking system should be able to explain its decision by providing relevant extracts (rationales) from the documents. Yet, this setup is not directly supported by existing datasets, which treat fact checking, document retrieval, source credibility, stance detection and rationale extraction as independent tasks. In this paper, we support the interdependencies between these tasks as annotations in the same corpus. We implement this setup on an Arabic fact checking corpus, the first of its kind.",
+    "Added By": "Zaid Alyafeai"
+}
