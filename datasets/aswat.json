@@ -1,0 +1,55 @@
+{
+    "Name": "Aswat",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/AswatDataset/AswatDataset",
+    "License": "unknown",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages",
+        "social media"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "a 732-hour clean Arabic speech dataset for ASR pre-training and finetuning",
+    "Volume": 732.0,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Tahakom"
+    ],
+    "Derived From": [],
+    "Paper Title": "Aswat: Arabic Audio Dataset For Automatic Speech Recognition Using Speech-Representation Learning",
+    "Paper Link": "https://aclanthology.org/2023.arabicnlp-1.10.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Lamya Alkanhal",
+        "Abeer Alessa",
+        "Elaf Almahmoud",
+        "Rana Alaqil"
+    ],
+    "Affiliations": [
+        "Saudi Technology and Security Comprehensive Control Company (Tahakom)",
+        "King Saud University",
+        "Center for Complex Engineering Systems",
+        "Massachusetts Institute of Technology",
+        "Intelmatix"
+    ],
+    "Abstract": "Recent advancements in self-supervised speech-representation learning for automatic speech recognition (ASR) approaches have significantly improved the results on many benchmarks with low-cost data labeling. In this paper, we train two self-supervised frameworks for ASR, namely wav2vec, and data2vec, in which we conduct multiple experiments and analyze their results. Furthermore, we introduce Aswat dataset, which covers multiple genres and features speakers with vocal variety. Aswat contains 732 hours of clean Arabic speech that can be used in the pretraining task for learning latent speech representations, which results in achieving a lower word error rate (WER) in Arabic ASR. We report the baseline results and achieve state-of-the-art WERs of 11.7% and 10.3% on Common Voice (CV) and the second round of Multi-Genre Broadcast (MGB-2) respectively, as a result of including our dataset Aswat.\n",
+    "Added By": "Zaid Alyafeai"
+}
