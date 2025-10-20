@@ -1,0 +1,49 @@
+{
+    "Name": "NERDz",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/SamiaTouileb/NERDz",
+    "License": "unknown",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "Algeria",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "A preliminary annotated NER dataset for Algerian in Latin (NArabizi), Arabic, and code-switched scripts built atop the NArabizi treebank extension.",
+    "Volume": 19258.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Bergen"
+    ],
+    "Derived From": [
+        "NArabizi treebank"
+    ],
+    "Paper Title": "NERDz: A Preliminary Dataset of Named Entities for Algerian",
+    "Paper Link": "https://aclanthology.org/2022.aacl-short.13.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "named entity recognition"
+    ],
+    "Venue Title": "AACL",
+    "Venue Type": "conference",
+    "Venue Name": "Asia-Pacific Chapter of the Association for Computational Linguistics",
+    "Authors": [
+        "Samia Touileb"
+    ],
+    "Affiliations": [
+        "University of Bergen"
+    ],
+    "Abstract": "This paper introduces a first step towards creating the NERDz dataset. A manually annotated dataset of named entities for the Algerian vernacular dialect. The annotations are built on top of a recent extension to the Algerian NArabizi Treebank, comprizing NArabizi sentences with manual transliterations into Arabic and code-switched scripts. NERDz is therefore not only the first dataset of named entities for Algerian, but it also comprises parallel entities written in Latin, Arabic, and code-switched scripts. We present a detailed overview of our annotations, inter-annotator agreement measures, and define two preliminary baselines using a neural sequence labeling approach and an Algerian BERT model. We also make the annotation guidelines and the annotations available for future work",
+    "Added By": "Zaid Alyafeai"
+}
