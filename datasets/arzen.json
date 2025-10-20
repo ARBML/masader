@@ -1,0 +1,52 @@
+{
+    "Name": "ArzEn",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://sites.google.com/view/arzen-corpus/resources?authuser=0",
+    "License": "unknown",
+    "Year": 2020,
+    "Language": "multilingual",
+    "Dialect": "Egypt",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "12-hour Egyptian Arabic-English code-switched spontaneous speech corpus with transcriptions and speaker metadata.",
+    "Volume": 12.0,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "The German University in Cairo",
+        "University of Stuttgart"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArzEn: A Speech Corpus for Code-switched Egyptian Arabic-English",
+    "Paper Link": "https://aclanthology.org/2020.lrec-1.523.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": [
+        "Injy Hamed",
+        "Ngoc Thang Vu",
+        "Slim Abdennadher"
+    ],
+    "Affiliations": [
+        "The German University in Cairo",
+        "University of Stuttgart"
+    ],
+    "Abstract": "In this paper, we present our ArzEn corpus, an Egyptian Arabic-English code-switching (CS) spontaneous speech corpus. The corpus is collected through informal interviews with 38 Egyptian bilingual university students and employees held in a soundproof room. A total of 12 hours are recorded, transcribed, validated and sentence segmented. The corpus is mainly designed to be used in Automatic Speech Recognition (ASR) systems, however, it also provides a useful resource for analyzing the CS phenomenon from linguistic, sociological, and psychological perspectives. In this paper, we first discuss the CS phenomenon in Egypt and the factors that gave rise to the current language. We then provide a detailed description on how the corpus was collected, giving an overview on the participants involved. We also present statistics on the CS involved in the corpus, as well as a summary to the effort exerted in the corpus development, in terms of number of hours required for transcription, validation, segmentation and speaker annotation. Finally, we discuss some factors contributing to the complexity of the corpus, as well as Arabic-English CS behaviour that could pose potential challenges to ASR systems.\n",
+    "Added By": "Zaid Alyafeai"
+}
