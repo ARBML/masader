@@ -1,0 +1,57 @@
+{
+    "Name": "QALB-MT",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "http://nlp.qatar.cmu.edu/qalb/",
+    "License": "unknown",
+    "Year": 2016,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "A 100K-word human post-edited English-to-Arabic machine-translation corpus created from Wikinews articles.",
+    "Volume": 100000.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Carnegie Mellon University in Qatar",
+        "New York University Abu Dhabi",
+        "Ask.com"
+    ],
+    "Derived From": [],
+    "Paper Title": "Building an Arabic Machine Translation Post-Edited Corpus: Guidelines and Annotation",
+    "Paper Link": "https://aclanthology.org/L16-1295.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "workshop",
+    "Venue Name": "Language Resources and Evaluation Conference",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Nizar Habash",
+        "Ossama Obeid",
+        "Behrang Mohit",
+        "Houda Bouamor",
+        "Kemal Oflazer"
+    ],
+    "Affiliations": [
+        "Carnegie Mellon University in Qatar",
+        "New York University Abu Dhabi",
+        "Ask.com"
+    ],
+    "Abstract": "We present our guidelines and annotation procedure to create a human corrected machine translated post-edited corpus for the Modern Standard Arabic. Our overarching goal is to use the annotated corpus to develop automatic machine translation post-editing systems for Arabic that can be used to help accelerate the human revision process of translated texts. The creation of any manually annotated corpus usually presents many challenges. In order to address these challenges, we created comprehensive and simplified annotation guidelines which were used by a team of five annotators and one lead annotator. In order to ensure a high annotation agreement between the annotators, multiple training sessions were held and regular inter-annotator agreement measures were performed to check the annotation quality. The created corpus of manual post-edited translations of English to Arabic articles is the largest to date for this language pair.",
+    "Added By": "Zaid Alyafeai"
+}
