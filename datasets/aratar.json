@@ -1,0 +1,57 @@
+{
+    "Name": "AraTar",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/SehamAlghamdi/AraTar",
+    "License": "unknown",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "The first and largest Arabic corpus annotated for fine-grained hate speech type and target detection with multi-label classification.",
+    "Volume": 11219.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "The University of Manchester",
+        "University of Jeddah"
+    ],
+    "Derived From": [
+        "Arabic-Twitter corpus",
+        "OSACT5 shared task corpus",
+        "L-HSAB",
+        "Arabic hate-speech corpus"
+    ],
+    "Paper Title": "AraTar: A Corpus to Support the Fine-grained Detection of Hate Speech Targets in the Arabic Language",
+    "Paper Link": "https://aclanthology.org/2024.osact-1.1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "offensive language detection"
+    ],
+    "Venue Title": "OSACT",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
+    "Authors": [
+        "Seham Alghamdi",
+        "Youcef Benkhedda",
+        "Basma Alharbi",
+        "Riza Batista-Navarro"
+    ],
+    "Affiliations": [
+        "The University of Manchester",
+        "University of Jeddah"
+    ],
+    "Abstract": "We are currently witnessing a concerning surge in the spread of hate speech across various social media platforms, targeting individuals or groups based on their protected characteristics such as race, religion, nationality and gender. This paper focuses on the detection of hate type (Task 1) and hate target (Task 2) in the Arabic language. To comprehensively address this problem, we have combined and re-annotated hate speech tweets from existing publicly available corpora, resulting in the creation of AraTar, the first and largest Arabic corpus annotated with support for multi-label classification for both hate speech types and target detection with a high inter-annotator agreement. Additionally, we sought to determine the most effective machine learning-based approach for addressing this issue. To achieve this, we compare and evaluate different approaches, including: (1) traditional machine learning-based models, (2) deep learning-based models fed with contextual embeddings, and (3) fine-tuning language models (LMs). Our results demonstrate that fine-tuning LMs, specifically using AraBERTv0.2-twitter (base), achieved the highest performance, with a micro-averaged F1-score of 84.5% and 85.03%, and a macro-averaged F1-score of 77.46% and 73.15%, for Tasks 1 and 2, respectively.",
+    "Added By": "Zaid Alyafeai"
+}
