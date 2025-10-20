@@ -1,0 +1,55 @@
+{
+    "Name": "QUQA",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/scsaln/HAQA-and-QUQA",
+    "License": "unknown",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Classical Arabic",
+    "Domain": [
+        "books",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "manual curation"
+    ],
+    "Description": "QUQA is an Arabic question-and-answer dataset on the Holy Quran consisting of 3382 records and over 301,000 tokens.",
+    "Volume": 3382.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Abdulaziz University",
+        "University of Leeds"
+    ],
+    "Derived From": [
+        "AQQAC",
+        "AyaTEC"
+    ],
+    "Paper Title": "HAQA and QUQA: Constructing two Arabic Question-Answering Corpora for the Quran and Hadith",
+    "Paper Link": "https://aclanthology.org/2023.ranlp-1.10.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "RANLP",
+    "Venue Type": "conference",
+    "Venue Name": "Recent Advances in Natural Language Processing",
+    "Authors": [
+        "Sarah Alnefaie",
+        "Eric Atwell",
+        "Mohammad Ammar Alsalka"
+    ],
+    "Affiliations": [
+        "King Abdulaziz University",
+        "University of Leeds"
+    ],
+    "Abstract": "It is neither possible nor fair to compare the performance of question-answering systems for the Holy Quran and Hadith Sharif in Arabic due to both the absence of a golden test dataset on the Hadith Sharif and the small size and easy questions of the newly created golden test dataset on the Holy Quran. This article presents two question\u2013answer datasets: Hadith Question\u2013Answer pairs (HAQA) and Quran Question\u2013Answer pairs (QUQA). HAQA is the first Arabic Hadith question\u2013answer dataset available to the research community, while the QUQA dataset is regarded as the more challenging and the most extensive collection of Arabic question\u2013answer pairs on the Quran. HAQA was designed and its data collected from several expert sources, while QUQA went through several steps in the construction phase; that is, it was designed and then integrated with existing datasets in different formats, after which the datasets were enlarged with the addition of new data from books by experts. The HAQA corpus consists of 1598 question\u2013answer pairs, and that of QUQA contains 3382. They may be useful as gold\u2013standard datasets for the evaluation process, as training datasets for language models with question-answering tasks and for other uses in artificial intelligence.",
+    "Added By": "Zaid Alyafeai"
+}
