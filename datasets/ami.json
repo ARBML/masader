@@ -1,0 +1,55 @@
+{
+    "Name": "AMI",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/Allarwa/AMI-Dataset",
+    "License": "custom",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "Twitter-based Arabic Mental Illness",
+    "Volume": 3500.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Abdulaziz University",
+        "Edinburgh Napier University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Transfer Learning-Based Automatic Sentiment Annotation of a Twitter-Based Arabic Mental Illness (AMI) Dataset",
+    "Paper Link": "https://doi.org/10.1111/exsy.70128",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis",
+        "topic classification"
+    ],
+    "Venue Title": "Wiley",
+    "Venue Type": "journal",
+    "Venue Name": "Expert Systems",
+    "Authors": [
+        "Arwa Diwali",
+        "Kawther Saeedi",
+        "Kia Dashtipour",
+        "Mandar Gogate",
+        "Zain Hussain",
+        "Adam Howard"
+    ],
+    "Affiliations": [
+        "KAU"
+    ],
+    "Abstract": "Sentiment analysis, crucial for discerning emotional tones in text, relies on manual annotation to train machine learning models\nand is considered the gold standard for creating annotated corpora. However, this process is time-consuming,\nlabour-intensive,\nand prone to biases. This paper proposes an automatic annotation approach for the Twitter-based\nArabic Mental Illness (AMI)\ndataset, which encompasses both Modern Standard Arabic and Dialectal Arabic. The approach leverages transfer learning with\nexisting manually annotated datasets and three advanced Arabic language models to automate annotation, thereby enriching\nArabic as a low-resource\nlanguage with labelled sentiment data. Validation was conducted by comparing the automatically generated\nannotations to manual annotation on the same dataset, achieving strong inter-annotator\nagreement with a Cohen's Kappa\nstatistic of k = 0.8457. Additionally, various baseline models were evaluated on the AMI dataset, identifying AraBERT as the top\nperformer with the highest F1 score and accuracy.\n\n",
+    "Added By": "Arwa Diwali"
+}
