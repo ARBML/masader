@@ -16,7 +16,7 @@
     ],
     "HF Link": "",
     "Link": "https://github.com/Allarwa/AMI",
-    "License": "CC BY 4.0",
+    "License": "custom",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
@@ -25,12 +25,13 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling"
+        "machine annotation",
+        "human annotation"
     ],
     "Description": "An Arabic Twitter-based mental-illness focused sentiment dataset automatically annotated via transfer learning.",
     "Volume": 3500.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
+    "Ethical Risks": "Low",
     "Provider": [
         "King Abdulaziz University",
         "Edinburgh Napier University"
@@ -45,7 +46,8 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "sentiment analysis"
+        "sentiment analysis",
+        "topic classification"
     ],
     "Venue Title": "Expert Systems",
     "Venue Type": "journal",
