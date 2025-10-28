@@ -13,7 +13,8 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling"
+        "crawling",
+        "human annotation"
     ],
     "Description": "The DzNER dataset is designed for Named Entity Recognition (NER) in the Algerian dialect, a significantly low-resource language in NLP research. This dataset contains over 21,000 manually annotated sentences (220,000+ tokens) derived from Algerian Facebook pages and YouTube channels. DzNER focuses on labeling three types of entities: Person, Location, and Organization.",
     "Volume": 220000.0,
