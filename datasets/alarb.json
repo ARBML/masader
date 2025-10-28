@@ -1,0 +1,57 @@
+{
+    "Name": "ALARB",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/HarethahMo/ALARB",
+    "Link": "https://huggingface.co/datasets/HarethahMo/ALARB",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "ALARB is a 13K-case Arabic legal reasoning benchmark from Saudi commercial courts.",
+    "Volume": 13344.0,
+    "Unit": "documents",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "THIQAH",
+        "KAUST"
+    ],
+    "Derived From": [],
+    "Paper Title": "ALARB: An Arabic Legal Argument Reasoning Benchmark",
+    "Paper Link": "https://arxiv.org/pdf/2510.00694",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "text generation",
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Harethah AbuShairah",
+        "Somayah AlHarbi",
+        "Abdulaziz AlHussein",
+        "Sameer Alsabea",
+        "Omar Shaqaqi",
+        "Hebah AlShamlan",
+        "Omar Knio",
+        "George Turkiyyah"
+    ],
+    "Affiliations": [
+        "THIQAH",
+        "KAUST"
+    ],
+    "Abstract": "We introduce ALARB, a dataset and suite of tasks designed to evaluate the reasoning capabilities of large language models (LLMs) within the Arabic legal domain. While existing Arabic benchmarks cover some knowledge-intensive tasks such as retrieval and understanding, substantial datasets focusing specifically on multistep reasoning for Arabic LLMs, especially in open-ended contexts, are lacking. The dataset comprises over 13K commercial court cases from Saudi Arabia, with each case including the facts presented, the reasoning of the court, the verdict, as well as the cited clauses extracted from the regulatory documents. We define a set of challenging tasks leveraging this dataset and reflecting the complexity of real-world legal reasoning, including verdict prediction, completion of reasoning chains in multistep legal arguments, and identification of relevant regulations based on case facts. We benchmark a representative selection of current open and closed Arabic LLMs on these tasks and demonstrate the dataset's utility for instruction tuning. Notably, we show that instruction-tuning a modest 12B parameter model using ALARB significantly enhances its performance in verdict prediction and Arabic verdict generation, reaching a level comparable to that of GPT-4o.\n",
+    "Added By": "Zaid Alyafeai"
+}
