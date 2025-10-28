@@ -1,0 +1,51 @@
+{
+    "Name": "DzNER",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/Dahouabdelhalim/NER-model-on-the-DzNER-corpus",
+    "License": "CC BY-NC-ND 4.0",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Algeria",
+    "Domain": [
+        "social media",
+        "commentary"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "The DzNER dataset is designed for Named Entity Recognition (NER) in the Algerian dialect, a significantly low-resource language in NLP research. This dataset contains over 21,000 manually annotated sentences (220,000+ tokens) derived from Algerian Facebook pages and YouTube channels. DzNER focuses on labeling three types of entities: Person, Location, and Organization.",
+    "Volume": 220000.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        " Ahmed Draia ADRAR University"
+    ],
+    "Derived From": [],
+    "Paper Title": "DzNER: A Large Algerian Named Entity Recognition Dataset",
+    "Paper Link": "https://www.sciencedirect.com/science/article/pii/S294971912300002X",
+    "Script": "Arab-Latin",
+    "Tokenized": true,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "named entity recognition"
+    ],
+    "Venue Title": "NLP",
+    "Venue Type": "journal",
+    "Venue Name": "Natural Language Processing",
+    "Authors": [
+        "Abdelhalim Hafedh Dahou",
+        "Mohamed Amine Cheragui"
+    ],
+    "Affiliations": [
+        " Leibniz-Institute for the Social Sciences Cologne",
+        "University of Ahmed DRAIA"
+    ],
+    "Abstract": "Named Entity Recognition (NER) is a natural language processing (NLP) task that involves assigning labels like Person, Location, and Organization to words in text. While there is a good amount of annotated data available for NER in English and other European languages, this is not the case for Arabic and its dialects. The goal of the paper is to introduce DzNER, an Algerian dataset for NER that consists of more than 21,000 manually annotated sentences (over 220,000 tokens) from Algerian Facebook pages and YouTube channels, with a focus on three prominent classes. In this study, we provide a detailed analysis of the NER tag-set used in the dataset and show that it has a good balance of quantity, diversity, and coverage of different domains. For the proof of resource-effectiveness, we also demonstrate the effectiveness of the dataset by using various language models for the sequence labeling task of NER and comparing the results to existing datasets. According to our research and knowledge, currently no available dataset meets the standards of both variability and volume as well as DzNER. We hope that this dataset and the accompanying code and models will be useful for further research on NLP for Algerian dialect and fill the gap of low resources.",
+    "Added By": "Abdelhalim Hafedh Dahou"
+}
