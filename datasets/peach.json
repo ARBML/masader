@@ -1,0 +1,47 @@
+{
+    "Name": "PEACH",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/5k6yrrhng7/3",
+    "License": "CC BY 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "A sentence-aligned parallel English\u2013Arabic corpus of healthcare texts encompassing patient information leaflets and educational materials.",
+    "Volume": 51671.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "University of Sharjah"
+    ],
+    "Derived From": [],
+    "Paper Title": "PEACH: a sentence-aligned Parallel English\u2013Arabic Corpus for Healthcare",
+    "Paper Link": "https://www.euppublishing.com/doi/10.3366/cor.2024.0320",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "Corpora",
+    "Venue Type": "journal",
+    "Venue Name": "Corpora",
+    "Authors": [
+        "Rania Al-Sabbagh"
+    ],
+    "Affiliations": [
+        "University of Sharjah"
+    ],
+    "Abstract": "This paper introduces peach, a sentence-aligned parallel English\u2013Arabic corpus of healthcare texts encompassing patient information leaflets and educational materials. The corpus contains 51,671 parallel sentences, totalling approximately 590,517 English and 567,707 Arabic word tokens. Sentence lengths vary between 9.52 and 11.83 words on average. As a manually aligned corpus, peach is a gold-standard corpus, aiding researchers in contrastive linguistics, translation studies, and natural language processing. It can be used to derive bilingual lexicons, adapt large language models for domain-specific machine translation, evaluate user perceptions of machine translation in healthcare, assess patient information leaflets and educational materials\u2019 readability and lay-friendliness, and as an educational resource in translation studies. peach is publicly accessible.",
+    "Added By": "Rania Al-Sabbagh"
+}
