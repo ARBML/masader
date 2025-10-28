@@ -1,21 +1,8 @@
 {
     "Name": "AMI",
-    "Subsets": [
-        {
-            "Name": "AMI-Train",
-            "Volume": 2800.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        },
-        {
-            "Name": "AMI-Test",
-            "Volume": 700.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "",
-    "Link": "https://github.com/Allarwa/AMI",
+    "Link": "https://github.com/Allarwa/AMI-Dataset",
     "License": "custom",
     "Year": 2025,
     "Language": "ar",
@@ -25,13 +12,14 @@
     ],
     "Form": "text",
     "Collection Style": [
+        "crawling",
         "machine annotation",
         "human annotation"
     ],
     "Description": "An Arabic Twitter-based mental-illness focused sentiment dataset automatically annotated via transfer learning.",
     "Volume": 3500.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
+    "Ethical Risks": "High",
     "Provider": [
         "King Abdulaziz University",
         "Edinburgh Napier University"
