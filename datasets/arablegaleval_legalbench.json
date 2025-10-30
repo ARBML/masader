@@ -14,7 +14,7 @@
     "Collection Style": [
         "machine annotation"
     ],
-    "Description": "filtered FQA verified by legal experts, consists of 79 question-answer pairs",
+    "Description": "Translated subset of tasks from LegalBench",
     "Volume": 15804.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
