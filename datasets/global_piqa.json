@@ -1,0 +1,133 @@
+{
+    "Name": "Global PIQA",
+    "Subsets": [
+        {
+            "Name": "Iraqi",
+            "Volume": 100.0,
+            "Unit": "sentences",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "Yemeni",
+            "Volume": 100.0,
+            "Unit": "sentences",
+            "Dialect": "Yemen"
+        },
+        {
+            "Name": "Tunisian",
+            "Volume": 100.0,
+            "Unit": "sentences",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Najdi",
+            "Volume": 100.0,
+            "Unit": "sentences",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "Jordanian",
+            "Volume": 100.0,
+            "Unit": "sentences",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "Lebanese",
+            "Volume": 100.0,
+            "Unit": "sentences",
+            "Dialect": "Lebanon"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 100.0,
+            "Unit": "sentences",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "Syrian",
+            "Volume": 100.0,
+            "Unit": "sentences",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "MSA",
+            "Volume": 100.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Morocan",
+            "Volume": 100.0,
+            "Unit": "tokens",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 100.0,
+            "Unit": "tokens",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Palestinian",
+            "Volume": 100.0,
+            "Unit": "sentences",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "Algerian",
+            "Volume": 100.0,
+            "Unit": "sentences",
+            "Dialect": "Algeria"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/mrlbenchmarks/global-piqa-nonparallel",
+    "Link": "https://huggingface.co/datasets/mrlbenchmarks/global-piqa-nonparallel",
+    "License": "CC BY-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "A physical commonsense reasoning benchmark covering 116 language varieties, constructed by 335 native researchers worldwide.",
+    "Volume": 1300.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "UCSanDiego",
+        "EleutherAI"
+    ],
+    "Derived From": [
+        "PIQA"
+    ],
+    "Paper Title": "Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures",
+    "Paper Link": "https://arxiv.org/pdf/2510.24081",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "commonsense reasoning"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Tyler A. Chang",
+        "Catherine Arnett",
+        "Authors at the 5th Multilingual Representation Learning (MRL) Workshop"
+    ],
+    "Affiliations": [
+        "UCSanDiego",
+        "EleutherAI"
+    ],
+    "Abstract": "To date, there exist almost no culturally-specific evaluation benchmarks for large language models (LLMs) that cover a large number of languages and cultures. In this paper, we present Global PIQA, a participatory commonsense reasoning benchmark for over 100 languages, constructed by hand by 335 researchers from 65 countries around the world. The 116 language varieties in Global PIQA cover five continents, 14 language families, and 23 writing systems. In the non-parallel split of Global PIQA, over 50% of examples reference local foods, customs, traditions, or other culturally-specific elements. We find that state-of-the-art LLMs perform well on Global PIQA in aggregate, but they exhibit weaker performance in lower-resource languages (up to a 37% accuracy gap, despite random chance at 50%). Open models generally perform worse than proprietary models. Global PIQA highlights that in many languages and cultures, everyday knowledge remains an area for improvement, alongside more widely-discussed capabilities such as complex reasoning and expert knowledge. Beyond its uses for LLM evaluation, we hope that Global PIQA provides a glimpse into the wide diversity of cultures in which human language is embedded.",
+    "Added By": "Zaid Alyafeai"
+}
