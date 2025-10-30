@@ -1,0 +1,79 @@
+{
+    "Name": "BLEND",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/nayeon212/BLEnD",
+    "Link": "https://github.com/nlee0212/BLEnD",
+    "License": "CC BY-SA 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "Algeria",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "A benchmark for LLMs on everyday cultural knowledge across 16 countries/regions in 13 languages.",
+    "Volume": 2600.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "KAIST",
+        "Cardiff University",
+        "Universit\u00e4t Hamburg",
+        "Bahir Dar University",
+        "NAVER AI Lab",
+        "Imperial College London"
+    ],
+    "Derived From": [],
+    "Paper Title": "BLEND: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages",
+    "Paper Link": "https://arxiv.org/pdf/2406.09948",
+    "Script": "Arab",
+    "Tokenized": true,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "multiple choice question answering"
+    ],
+    "Venue Title": "NeurIPS",
+    "Venue Type": "conference",
+    "Venue Name": "Neural Information Processing Systems",
+    "Authors": [
+        "Junho Myung",
+        "Nayeon Lee",
+        "Yi Zhou",
+        "Jiho Jin",
+        "Rifki Afina Putri",
+        "Dimosthenis Antypas",
+        "Hsuvas Borkakoty",
+        "Eunsu Kim",
+        "Carla Perez-Almendros",
+        "Abinew Ali Ayele",
+        "V\u00edctor Guti\u00e9rrez-Basulto",
+        "Yazm\u00edn Ib\u00e1\u00f1ez-Garc\u00eda",
+        "Hwaran Lee",
+        "Shamsuddeen Hassan Muhammad",
+        "Kiwoong Park",
+        "Anar Sabuhi Rzayev",
+        "Nina White",
+        "Seid Muhie Yimam",
+        "Mohammad Taher Pilehvar",
+        "Nedjma Ousidhoum",
+        "Jose Camacho-Collados",
+        "Alice Oh"
+    ],
+    "Affiliations": [
+        "KAIST",
+        "Cardiff University",
+        "Universit\u00e4t Hamburg",
+        "Bahir Dar University",
+        "NAVER AI Lab",
+        "Imperial College London"
+    ],
+    "Abstract": "Large language models (LLMs) often lack culture-specific knowledge of daily life, especially across diverse regions and non-English languages. Existing benchmarks for evaluating LLMs' cultural sensitivities are limited to a single language or collected from online sources such as Wikipedia, which do not reflect the mundane everyday lifestyles of diverse regions. That is, information about the food people eat for their birthday celebrations, spices they typically use, musical instruments youngsters play, or the sports they practice in school is common cultural knowledge but uncommon in easily collected online sources, especially for underrepresented cultures. To address this issue, we introduce BLEnD, a hand-crafted benchmark designed to evaluate LLMs' everyday knowledge across diverse cultures and languages. BLEnD comprises 52.6k question-answer pairs from 16 countries/regions, in 13 different languages, including low-resource ones such as Amharic, Assamese, Azerbaijani, Hausa, and Sundanese. We construct the benchmark to include two formats of questions: short-answer and multiple-choice. We show that LLMs perform better for cultures that are highly represented online, with a maximum 57.34% difference in GPT-4, the best-performing model, in the short-answer format. For cultures represented by mid-to-high-resource languages, LLMs perform better in their local languages, but for cultures represented by low-resource languages, LLMs perform better in English than the local languages. We make our dataset publicly available at: https://github.com/nlee0212/BLEnD.",
+    "Added By": "Zaid Alyafeai"
+}
