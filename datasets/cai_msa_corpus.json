@@ -1,0 +1,62 @@
+{
+    "Name": "CAI-MSA-Corpus",
+    "Subsets": [
+        {
+            "Name": "MSA subset",
+            "Volume": 130.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Egyptian (Cairo) dialect subset",
+            "Volume": 130.0,
+            "Unit": "documents",
+            "Dialect": "Egypt"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://github.com/alaabouomar/Optimizing-Arabic-Dialect-Translation-for-Children-s-Literature-Using-Neural-Models.git",
+    "License": "unknown",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Egypt",
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "A parallel corpus of 130 children's stories in Modern Standard Arabic and Egyptian (Cairo) dialect.",
+    "Volume": 130.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Leeds"
+    ],
+    "Derived From": [
+        "Arabic Children's Corpus"
+    ],
+    "Paper Title": "Optimizing Arabic Dialect Translation for Children's Literature Using Neural Models",
+    "Paper Link": "https://aclanthology.org/2025.wacl-1.11.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Alaa Bouomar",
+        "Noorhan Abbas"
+    ],
+    "Affiliations": [],
+    "Abstract": "The goal of the paper is to address the linguistic gap faced by young Egyptian Arabic speakers through translating children stories from Modern Standard Arabic to the Egyptian Cairo dialect. Claude is used for initial translation, and a fine-tuned AraT5 model is used for backtranslation. The translation quality is assessed using semantic similarity and BLUE scores to compare the original texts and the translations. The resulting corpus contains 130 stories which were revised by native Egyptian speakers who are professional translators. The strengths of this paper are multiple: working on a less-resourced variety, addressing an important social issue, creating a dataset with potential real-life applications, and ensuring the quality of the produced dataset through human validation.",
+    "Added By": "Zaid Alyafeai"
+}
