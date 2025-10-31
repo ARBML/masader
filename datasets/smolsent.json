@@ -49,7 +49,7 @@
     "Description": "863 English sentences covering 5.5k of the most common English tokens professionally translated into 81 languages",
     "Volume": 4306.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
+    "Ethical Risks": "Low",
     "Provider": [
         "Google"
     ],
