@@ -22,8 +22,8 @@
         "CogniSAL"
     ],
     "Derived From": [],
-    "Paper Title": "-",
-    "Paper Link": "-",
+    "Paper Title": "",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -31,10 +31,10 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "other"
+        "AI-generated text detection"
     ],
-    "Venue Title": "-",
-    "Venue Type": "preprint",
+    "Venue Title": "",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "chafik salmane"
