@@ -1,0 +1,48 @@
+{
+    "Name": "Multilingual Speech & Translation Dataset ",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/alconost/alconost-multilingual-speech-en-ja-ar-pl-v1",
+    "Link": "https://huggingface.co/datasets/alconost/alconost-multilingual-speech-en-ja-ar-pl-v1",
+    "License": "CC BY-NC 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "videos",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Description 10 English source phrases with expert human translations into Japanese, Egyptian Arabic, and Polish. Each target phrase is recorded by 5 native speakers per language (two takes each). Audio is WAV 48 kHz mono, 16\u2011bit PCM. ",
+    "Volume": 10.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Alconost"
+    ],
+    "Derived From": [],
+    "Paper Title": "-",
+    "Paper Link": "-",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition",
+        "machine translation"
+    ],
+    "Venue Title": "-",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Alconost"
+    ],
+    "Affiliations": [
+        "Alconost"
+    ],
+    "Abstract": " ",
+    "Added By": "Zaid Alyafeai"
+}
