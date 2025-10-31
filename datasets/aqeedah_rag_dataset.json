@@ -10,7 +10,7 @@
     "Domain": [
         "books"
     ],
-    "Form": "videos",
+    "Form": "text",
     "Collection Style": [
         "crawling"
     ],
@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Aqeedah RAG Dataset: Arabic Islamic Theology Corpus with Pre-computed Embeddings",
-    "Paper Link": "https://huggingface.co/datasets/abdullah-alamodi/aqeedah-rag-dataset",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -31,10 +31,10 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "information retrieval"
+        "retrieval-augmented generation"
     ],
-    "Venue Title": "-",
-    "Venue Type": "preprint",
+    "Venue Title": "",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "Alya Alamodi",
@@ -43,6 +43,6 @@
     "Affiliations": [
         "Najran University"
     ],
-    "Abstract": "-",
+    "Abstract": "",
     "Added By": "zaidalyafeai"
 }
