@@ -1,0 +1,76 @@
+{
+    "Name": "S-Chain",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/leduckhai/S-Chain",
+    "Link": "https://huggingface.co/datasets/leduckhai/S-Chain",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Expert-annotated medical images with structured visual chain-of-thought for Alzheimer\u2019s MRI analysis across 16 languages.",
+    "Volume": 12300.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Toronto"
+    ],
+    "Derived From": [
+        "OASIS Cross-Sectional Alzheimer\u2019s Disease Dataset"
+    ],
+    "Paper Title": "S-Chain: Structured Visual Chain-of-Thought for Medicine",
+    "Paper Link": "https://arxiv.org/pdf/2510.22728",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Khai Le-Duc",
+        "Duy M. H. Nguyen",
+        "Phuong T. H. Trinh",
+        "Tien-Phat Nguyen",
+        "Nghiem T. Diep",
+        "An Ngo",
+        "Tung Vu",
+        "Trinh Vuong",
+        "Anh-Tien Nguyen",
+        "Mau Nguyen",
+        "Van Trung Hoang",
+        "Khai-Nguyen Nguyen",
+        "Hy Nguyen",
+        "Chris Ngo",
+        "Anji Liu",
+        "Nhat Ho",
+        "Anne-Christin Hauschild",
+        "Khanh Xuan Nguyen",
+        "Thanh Nguyen-Tang",
+        "Pengtao Xie",
+        "Daniel Sonntag",
+        "James Zou",
+        "Mathias Niepert",
+        "Anh Totti Nguyen"
+    ],
+    "Affiliations": [
+        "University of Toronto",
+        "Knovel Engineering Lab",
+        "German research Center of Artificial Intelligence ",
+        "University of Stuttgart",
+        "Channom National University"
+    ],
+    "Abstract": "Faithful reasoning in medical vision-language models (VLMs) requires not only accurate predictions but also transparent alignment between textual rationales and visual evidence. While Chain-of-Thought (CoT) prompting has shown promise in medical visual question answering (VQA), no large-scale expert-level dataset has captured stepwise reasoning with precise visual grounding. We introduce S-Chain, the first large-scale dataset of 12,000 expert-annotated medical images with bounding boxes and structured visual CoT (SV-CoT), explicitly linking visual regions to reasoning steps. The dataset further supports 16 languages, totaling over 700k VQA pairs for broad multilingual applicability. Using S-Chain, we benchmark state-of-the-art medical VLMs (ExGra-Med, LLaVA-Med) and general-purpose VLMs (Qwen2.5-VL, InternVL2.5), showing that SV-CoT supervision significantly improves interpretability, grounding fidelity, and robustness. Beyond benchmarking, we study its synergy with retrieval-augmented generation, revealing how domain knowledge and visual grounding interact during autoregressive reasoning. Finally, we propose a new mechanism that strengthens the alignment between visual evidence and reasoning, improving both reliability and efficiency. S-Chain establishes a new benchmark for grounded medical reasoning and paves the way toward more trustworthy and explainable medical VLMs.\n",
+    "Added By": "Zaid Alyafeai"
+}
