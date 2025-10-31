@@ -10,7 +10,7 @@
     "Domain": [
         "LLM"
     ],
-    "Form": "videos",
+    "Form": "text",
     "Collection Style": [
         "LLM generated"
     ],
