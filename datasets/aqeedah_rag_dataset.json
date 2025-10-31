@@ -1,0 +1,48 @@
+{
+    "Name": "Aqeedah RAG Dataset",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/abdullah-alamodi/aqeedah-rag-dataset",
+    "Link": "https://huggingface.co/datasets/abdullah-alamodi/aqeedah-rag-dataset",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "books"
+    ],
+    "Form": "videos",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "A curated Arabic Islamic theology (Aqeedah) dataset with pre-computed FAISS embeddings, designed for advanced Retrieval-Augmented Generation (RAG) applications in Islamic scholarly research.",
+    "Volume": 5419.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Najran University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Aqeedah RAG Dataset: Arabic Islamic Theology Corpus with Pre-computed Embeddings",
+    "Paper Link": "https://huggingface.co/datasets/abdullah-alamodi/aqeedah-rag-dataset",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "information retrieval"
+    ],
+    "Venue Title": "-",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Alya Alamodi",
+        "Abdullah Alamodi"
+    ],
+    "Affiliations": [
+        "Najran University"
+    ],
+    "Abstract": "-",
+    "Added By": "zaidalyafeai"
+}
