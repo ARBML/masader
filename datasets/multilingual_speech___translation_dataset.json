@@ -10,7 +10,7 @@
     "Domain": [
         "other"
     ],
-    "Form": "videos",
+    "Form": "text",
     "Collection Style": [
         "human annotation"
     ],
@@ -22,8 +22,8 @@
         "Alconost"
     ],
     "Derived From": [],
-    "Paper Title": "-",
-    "Paper Link": "-",
+    "Paper Title": "",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -34,15 +34,15 @@
         "speech recognition",
         "machine translation"
     ],
-    "Venue Title": "-",
-    "Venue Type": "preprint",
+    "Venue Title": "",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
-        "Alconost"
+        "Nick Zaleski"
     ],
     "Affiliations": [
         "Alconost"
     ],
-    "Abstract": " ",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
