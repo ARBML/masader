@@ -1,0 +1,93 @@
+{
+    "Name": "SMOLSENT",
+    "Subsets": [
+        {
+            "Name": "Tunisian",
+            "Volume": 862.0,
+            "Unit": "sentences",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Sudanese",
+            "Volume": 855.0,
+            "Unit": "sentences",
+            "Dialect": "Sudan"
+        },
+        {
+            "Name": "Moroccan",
+            "Volume": 863.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 863.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Libyan",
+            "Volume": 863.0,
+            "Unit": "sentences",
+            "Dialect": "Libya"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/google/smol",
+    "Link": "https://huggingface.co/datasets/google/smol",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "manual curation",
+        "human annotation"
+    ],
+    "Description": "863 English sentences covering 5.5k of the most common English tokens professionally translated into 81 languages",
+    "Volume": 4306.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "Google"
+    ],
+    "Derived From": [],
+    "Paper Title": "SMOL: Professionally translated parallel data for 115 under-represented languages",
+    "Paper Link": "https://arxiv.org/pdf/2502.12301",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Isaac Caswell",
+        "Elizabeth Nielsen",
+        "Jiaming Luo",
+        "Colin Cherry",
+        "Geza Kovacs",
+        "Hadar Shemtov",
+        "Partha Talukdar",
+        "Dinesh Tewari",
+        "Baba Mamadi Diane",
+        "Koulako Moussa Doumbouya",
+        "Djibrila Diane",
+        "Solo Farabado Cisse"
+    ],
+    "Affiliations": [
+        "Google Research",
+        "Google DeepMind",
+        "Stanford University",
+        "NKo USA INC"
+    ],
+    "Abstract": "We open-source SMOL (Set of Maximal Over-all Leverage), a suite of training data to unlock translation for low-resource languages (LRLs). SMOL has been translated into 115 under-resourced languages, many of which had no prior public resources, for a total of 6.1M translated tokens. SMOL contains two sub-datasets: SMOLSENT, 863 English sentences professionally translated into 81 languages, and SMOLDOC, 584 English documents professionally translated into 100 languages. We show using SMOL to prompt or fine-tune Large Language Models yields robust CHRF improvements. In addition to translation, we provide factuality ratings and rationales for all documents in SMOLDOC, yielding the first factuality datasets for most of these languages.",
+    "Added By": "Zaid Alyafeai"
+}
