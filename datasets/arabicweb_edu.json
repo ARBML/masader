@@ -10,7 +10,7 @@
     "Domain": [
         "web pages"
     ],
-    "Form": "videos",
+    "Form": "text",
     "Collection Style": [
         "crawling"
     ],
@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "ArabicWeb-Edu: Educational Quality Data for Arabic LLM Training",
-    "Paper Link": "-",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -34,9 +34,9 @@
         "language modeling",
         "text generation"
     ],
-    "Venue Title": "-",
-    "Venue Type": "preprint",
-    "Venue Name": "-",
+    "Venue Title": "",
+    "Venue Type": "",
+    "Venue Name": "",
     "Authors": [
         "Majd Hawasly",
         "Tasnim Mohiuddin",
@@ -46,6 +46,6 @@
     "Affiliations": [
         "QCRI"
     ],
-    "Abstract": "-",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
