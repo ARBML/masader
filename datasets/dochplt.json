@@ -1,0 +1,56 @@
+{
+    "Name": "DocHPLT",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/HPLT/DocHPLT",
+    "Link": "https://huggingface.co/datasets/HPLT/DocHPLT",
+    "License": "CC0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "Largest publicly available document-level translation dataset with 124M aligned document pairs across 50 languages paired with English.",
+    "Volume": 2196334.0,
+    "Unit": "documents",
+    "Ethical Risks": "High",
+    "Provider": [
+        "HPLT"
+    ],
+    "Derived From": [
+        "HPLT"
+    ],
+    "Paper Title": "DocHPLT: A Massively Multilingual Document-Level Translation Dataset",
+    "Paper Link": "https://arxiv.org/pdf/2508.13079",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling",
+        "text generation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Dayy\u00e1n O\u2019Brien",
+        "Bhavitvya Malik",
+        "Ona de Gibert",
+        "Pinzhen Chen",
+        "Barry Haddow",
+        "J\u00f6rg Tiedemann"
+    ],
+    "Affiliations": [
+        "University of Edinburgh",
+        "University of Helsinki"
+    ],
+    "Abstract": "Existing document-level machine translation resources are only available for a handful of languages, mostly high-resourced ones. To facilitate the training and evaluation of document-level translation and, more broadly, long-context modeling for global communities, we create DocHPLT, the largest publicly available document-level translation dataset to date. It contains 124 million aligned document pairs across 50 languages paired with English, comprising 4.26 billion sentences. By adding pivoted alignments, practitioners can obtain 2500 additional pairs not involving English. Unlike previous reconstruction-based approaches that piece together documents from sentence-level data, we modify an existing web extraction pipeline to preserve complete document integrity from the source, retaining all content, including unaligned portions. After our preliminary experiments identify the optimal training context strategy for document-level translation, we demonstrate that LLMs fine-tuned on DocHPLT substantially outperform off-the-shelf instruction-tuned baselines, with particularly dramatic improvements for under-resourced languages. We open-source the dataset under a permissive license, providing essential infrastructure for advancing multilingual document-level translation.\n",
+    "Added By": "Zaid Alyafeai"
+}
