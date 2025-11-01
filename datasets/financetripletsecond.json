@@ -14,14 +14,14 @@
     "Collection Style": [
         "LLM generated"
     ],
-    "Description": "This dataset was generated using LLMa3 synthetic data generation pipeline.",
+    "Description": "This dataset was generated using LLaMa3 synthetic data generation pipeline.",
     "Volume": 30.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
-    "Paper Title": "-",
-    "Paper Link": "-",
+    "Paper Title": "",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -31,13 +31,13 @@
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "-",
+    "Venue Title": "",
     "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [
         "Omar Emad"
     ],
     "Affiliations": [],
-    "Abstract": "-",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
