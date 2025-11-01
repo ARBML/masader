@@ -1,0 +1,70 @@
+{
+    "Name": "SVQ",
+    "Subsets": [
+        {
+            "Name": "ar_eg",
+            "Volume": 1381.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "ar_x_gulf",
+            "Volume": 13452.0,
+            "Unit": "sentences",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "ar_x_levant",
+            "Volume": 12600.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "ar_x_maghrebi",
+            "Volume": 12590.0,
+            "Unit": "sentences",
+            "Dialect": "North Africa"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/google/svq",
+    "Link": "https://huggingface.co/datasets/google/svq",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Simple Voice Questions (SVQ) is a set of short audio questions recorded in 26 locales across 17 languages under multiple audio conditions.",
+    "Volume": 52453.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Google"
+    ],
+    "Derived From": [
+        " XTREME-UP"
+    ],
+    "Paper Title": "-",
+    "Paper Link": "-",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "-",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "-",
+    "Added By": "Zaid Alyafeai"
+}
