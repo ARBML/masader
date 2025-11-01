@@ -1,0 +1,51 @@
+{
+    "Name": "ArabicWeb-Edu",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/sboughorbel/arabic-web-edu-seed",
+    "Link": "https://huggingface.co/datasets/sboughorbel/arabic-web-edu-seed",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "The dataset includes web extracts from various Arabic sources (Common Crawl) that have been evaluated using an additive 5-point scoring system for educational value.",
+    "Volume": 236305.0,
+    "Unit": "documents",
+    "Ethical Risks": "High",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArabicWeb-Edu: Educational Quality Data for Arabic LLM Training",
+    "Paper Link": "",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling",
+        "text generation"
+    ],
+    "Venue Title": "",
+    "Venue Type": "",
+    "Venue Name": "",
+    "Authors": [
+        "Majd Hawasly",
+        "Tasnim Mohiuddin",
+        "Hamdy Mubarak",
+        "Sabri Boughorbel"
+    ],
+    "Affiliations": [
+        "QCRI"
+    ],
+    "Abstract": "",
+    "Added By": "Zaid Alyafeai"
+}
