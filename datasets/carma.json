@@ -20,8 +20,8 @@
     "Ethical Risks": "High",
     "Provider": [],
     "Derived From": [],
-    "Paper Title": "-",
-    "Paper Link": "-",
+    "Paper Title": "",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -31,13 +31,13 @@
     "Tasks": [
         "topic classification"
     ],
-    "Venue Title": "-",
-    "Venue Type": "preprint",
-    "Venue Name": "-",
+    "Venue Title": "",
+    "Venue Type": "",
+    "Venue Name": "",
     "Authors": [
         "saad mankarious"
     ],
     "Affiliations": [],
-    "Abstract": "-",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
