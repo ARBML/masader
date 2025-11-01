@@ -22,8 +22,8 @@
         "racine.ai"
     ],
     "Derived From": [],
-    "Paper Title": "-",
-    "Paper Link": "-",
+    "Paper Title": "",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -33,7 +33,7 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "-",
+    "Venue Title": "",
     "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [
@@ -42,6 +42,6 @@
     "Affiliations": [
         "racine.ai"
     ],
-    "Abstract": "-",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
