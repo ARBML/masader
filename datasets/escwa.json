@@ -1,0 +1,54 @@
+{
+    "Name": "ESCWA",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/QCRI/escwa",
+    "Link": "https://huggingface.co/datasets/QCRI/escwa",
+    "License": "CC BY-NC 4.0",
+    "Year": 2021,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Eight-hour multilingual speech corpus collected from two days of United Nations ESCWA meetings in 2019, focusing on intrasentential Arabic-English code-switching.",
+    "Volume": 2.8,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "MGB-2"
+    ],
+    "Paper Title": "Arabic Code-Switching Speech Recognition using Monolingual Data",
+    "Paper Link": "https://arxiv.org/pdf/2107.01573",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "AhmedAli",
+        "ShammurChowdhury",
+        "AmirHussein",
+        "YasserHifny"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "Kanari AI",
+        "University of Helwan"
+    ],
+    "Abstract": "Code-switching in automatic speech recognition (ASR) is an important challenge due to globalization. Recent research in multilingual ASR shows potential improvement over monolingual systems. We study key issues related to multilingual modeling for ASR through a series of large-scale ASR experiments. Our innovative framework deploys a multi-graph approach in the weighted finite state transducers (WFST) framework. We compare our WFST decoding strategies with a transformer sequence to sequence system trained on the same data. Given a code-switching scenario between Arabic and English languages, our results show that the WFST decoding approaches were more suitable for the intersentential code-switching datasets. In addition, the transformer system performed better for intrasentential code-switching task. With this study, we release an artificially generated development and test sets, along with ecological code-switching test set, to benchmark the ASR performance.\n",
+    "Added By": "Zaid Alyafeai"
+}
