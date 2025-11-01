@@ -1,0 +1,70 @@
+{
+    "Name": "BiMed-V",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/MBZUAI/BiMed-V-1.6M",
+    "Link": "https://huggingface.co/datasets/MBZUAI/BiMed-V-1.6M",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "machine annotation",
+        "LLM generated"
+    ],
+    "Description": "Bilingual medical text dataset for training a medical multimodal model, containing 1.6M instructional samples in Arabic and English.",
+    "Volume": 1600000.0,
+    "Unit": "images",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "Mohamed Bin Zayed University of Artificial Intelligence"
+    ],
+    "Derived From": [
+        "PMC-OA",
+        "Rad-VQA",
+        "Path-VQA",
+        "SLAKE",
+        "LLaVA-Med",
+        "BiMediXv1"
+    ],
+    "Paper Title": "BiMediX2: Bio-Medical Expert LMM for Diverse Medical Modalities",
+    "Paper Link": "https://arxiv.org/pdf/2412.07769",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "instruction tuning"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Sahal Shaji Mullappilly",
+        "Mohammed Irfan Kurpath",
+        "Sara Pieri",
+        "Saeed Yahya Alseiari",
+        "Shanavas Cholakkal",
+        "Khaled Aldahmani",
+        "Fahad Khan",
+        "Rao Anwer",
+        "Salman Khan",
+        "Timothy Baldwin",
+        "Hisham Cholakkal"
+    ],
+    "Affiliations": [
+        "Mohamed Bin Zayed University of Artificial Intelligence",
+        "Link\u00f6ping University",
+        "Shaikh Tahnoon bin Mohammed Medical City",
+        "Tawam Hospital",
+        "Sheikh Shakhbout Medical City",
+        "Govt Medical College Kozhikode"
+    ],
+    "Abstract": "This paper introduces BiMediX2, a bilingual (Arabic-English) Bio-Medical EXpert Large Multimodal Model (LMM) with a unified architecture that integrates text and visual modalities, enabling advanced image understanding and medical applications. BiMediX2 leverages the Llama3.1 architecture and integrates text and visual capabilities to facilitate seamless interactions in both English and Arabic, supporting text-based inputs and multi-turn conversations involving medical images. The model is trained on an extensive bilingual healthcare dataset consisting of 1.6M samples of diverse medical interactions for both text and image modalities, mixed in Arabic and English. We also propose the first bilingual GPT-4o based medical LMM benchmark named BiMed-MBench. BiMediX2 is benchmarked on both text-based and image-based tasks, achieving state-of-the-art performance across several medical benchmarks. It outperforms recent state-of-the-art models in medical LLM evaluation benchmarks. Our model also sets a new benchmark in multimodal medical evaluations with over 9% improvement in English and over 20% in Arabic evaluations. Additionally, it surpasses GPT-4 by around 9% in UPHILL factual accuracy evaluations and excels in various medical Visual Question Answering, Report Generation, and Report Summarization tasks. The project page including source code and the trained model, is available at https://github.com/mbzuai-oryx/BiMediX2.\n",
+    "Added By": "Zaid Alyafeai"
+}
