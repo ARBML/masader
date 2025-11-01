@@ -1,0 +1,56 @@
+{
+    "Name": "CARE",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/geyang627/CARE",
+    "Link": "https://github.com/Guochry/CARE",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "A multilingual human preference dataset featuring 3,490 culture-specific QA pairs (31.7k rated responses) in Arabic, Chinese, and Japanese, curated via native annotators to enhance cultural awareness in language models.",
+    "Volume": 3490.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Georgia Institute of Technology"
+    ],
+    "Derived From": [],
+    "Paper Title": "CARE: Multilingual Human Preference Learning for Cultural Awareness",
+    "Paper Link": "https://arxiv.org/pdf/2504.05154",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "instruction tuning",
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Geyang Guo",
+        "Tarek Naous",
+        "Hiromi Wakaki",
+        "Yukiko Nishimura",
+        "Yuki Mitsufuji",
+        "Alan Ritter",
+        "Wei Xu"
+    ],
+    "Affiliations": [
+        "Georgia Institute of Technology",
+        "Sony Group Corporation",
+        "Sony AI"
+    ],
+    "Abstract": "Commonsense knowledge in language models remains understudied across diverse cultures. We introduce CARE, a multilingual resource with 3,490 culturally specific questions and 31.7 k human-rated responses in Chinese, Arabic, and Japanese. It is constructed by filtering public datasets, manually translating benchmarks, and adding native-curated social norms and commonsense knowledge. Human annotators provided pairwise preference labels to form high-quality training data for cultural alignment. Experiments show that a modest amount of CARE data yields large, consistent improvements in cultural awareness across model families and sizes.",
+    "Added By": "Zaid Alyafeai"
+}
