@@ -1,0 +1,78 @@
+{
+    "Name": "Diagnostic interview corpus ",
+    "Subsets": [
+        {
+            "Name": "ar",
+            "Volume": 12754.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "ary",
+            "Volume": 12754.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "aeb",
+            "Volume": 12754.0,
+            "Unit": "sentences",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "arq",
+            "Volume": 12754.0,
+            "Unit": "sentences",
+            "Dialect": "Algeria"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/jonathanmutal/Medical-Questionnaire-Multilingual-Translation",
+    "Link": "https://huggingface.co/datasets/jonathanmutal/Medical-Questionnaire-Multilingual-Translation",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "manual curation",
+        "human annotation"
+    ],
+    "Description": "The Diagnostic interview corpus is a multilingual dataset of 12,754 French medical diagnostic interview sentences (questions and instructions) with translations into 12 target languages and a semantic gloss based on UMLS (Unified Medical Language System).",
+    "Volume": 12754.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Geneva"
+    ],
+    "Derived From": [],
+    "Paper Title": "A Speech-enabled Fixed-phrase Translator for Healthcare Accessibility",
+    "Paper Link": "https://aclanthology.org/2021.nlp4posimpact-1.15.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "NLP4PI",
+    "Venue Type": "workshop",
+    "Venue Name": "NLP for Positive Impact",
+    "Authors": [
+        "Pierrette Bouillon",
+        "Johanna Gerlach",
+        "Jonathan Mutal",
+        "Nikos Tsourakis",
+        "Herve Spechbach "
+    ],
+    "Affiliations": [
+        "University of Geneva",
+        "Hopitaux Universitaires de Gen \u02c6 eve "
+    ],
+    "Abstract": "In this overview article we describe an application designed to enable communication between health practitioners and patients who do not share a common language, in situations where professional interpreters are not available. Built on the principle of a fixed phrase translator, the application implements different natural language processing (NLP) technologies, such as speech recognition, neural machine translation and text-to-speech to improve usability. Its design allows easy portability to new domains and integration of different types of output for multiple target audiences. Even though BabelDr is far from solving the problem of miscommunication between patients and doctors, it is a clear example of NLP in a real world application designed to help minority groups to communicate in a medical context. It also gives some insights into the relevant criteria for the development of such an application.",
+    "Added By": "Zaid Alyafeai"
+}
