@@ -1,5 +1,5 @@
 {
-    "Name": "Election Questions - Arabic Translation ",
+    "Name": "Election Questions - Arabic Translation",
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/fr3on/election-questions-arabic",
     "Link": "https://huggingface.co/datasets/fr3on/election-questions-arabic",
@@ -10,7 +10,7 @@
     "Domain": [
         "public datasets"
     ],
-    "Form": "videos",
+    "Form": "text",
     "Collection Style": [
         "LLM generated"
     ],
@@ -22,8 +22,8 @@
     "Derived From": [
         "Election Evaluations Dataset"
     ],
-    "Paper Title": "-",
-    "Paper Link": "-",
+    "Paper Title": "",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -33,13 +33,13 @@
     "Tasks": [
         "safety evaluation"
     ],
-    "Venue Title": "-",
+    "Venue Title": "",
     "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [
         "Ahmed Mardi"
     ],
     "Affiliations": [],
-    "Abstract": "-",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
