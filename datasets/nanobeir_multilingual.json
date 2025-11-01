@@ -76,8 +76,8 @@
         {
             "Name": "NanoQuoraRetrieval",
             "Volume": 70.0,
-            "Unit": "tokens",
-            "Dialect": "Classical Arabic"
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
         }
     ],
     "HF Link": "https://huggingface.co/datasets/lightonai/nanobeir-multilingual",
@@ -94,7 +94,7 @@
         "machine annotation"
     ],
     "Description": "This multilingual collection is derived from the original English NanoBEIR datasets, which are smaller versions of BEIR datasets.",
-    "Volume": 50.0,
+    "Volume": 5560.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [],
@@ -102,7 +102,7 @@
         "NanoBEIR"
     ],
     "Paper Title": "NanoBeir-Multilingual: Multilingual version of NanoBeir for quick evaluation.",
-    "Paper Link": "-",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -112,11 +112,11 @@
     "Tasks": [
         "information retrieval"
     ],
-    "Venue Title": "-",
-    "Venue Type": "preprint",
+    "Venue Title": "",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],
-    "Abstract": "-",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
