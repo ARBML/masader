@@ -1,0 +1,57 @@
+{
+    "Name": "Okapi Hellaswag",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/jon-tow/okapi_hellaswag",
+    "Link": "https://huggingface.co/datasets/jon-tow/okapi_hellaswag",
+    "License": "CC BY-NC 4.0",
+    "Year": 2023,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated"
+    ],
+    "Description": "Multilingual translation of Hellaswag in 31 languages",
+    "Volume": 9180.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Oregon",
+        "Adobe Research"
+    ],
+    "Derived From": [
+        "Hellaswag"
+    ],
+    "Paper Title": "Okapi: Instruction-tuned Large Language Models in Multiple Languages with Reinforcement Learning from Human Feedback",
+    "Paper Link": "https://arxiv.org/pdf/2307.16039",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "natural language inference"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Viet Dac Lai",
+        "Chien Van Nguyen",
+        "Nghia Trung Ngo",
+        "Thuat Nguyen",
+        "Franck Dernoncourt",
+        "Ryan A. Rossi",
+        "Thien Huu Nguyen"
+    ],
+    "Affiliations": [
+        "University of Oregon",
+        "Adobe Research"
+    ],
+    "Abstract": "A key technology for the development of large language models (LLMs) involves instruction tuning that helps align the models\u2019 responses with human expectations to realize impressive learning abilities. Two major approaches for instruction tuning characterize supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF), which are currently applied to produce the best commercial LLMs (e.g., ChatGPT). To improve the accessibility of LLMs for research and development efforts, various instruction-tuned open-source LLMs have also been introduced recently, e.g., Alpaca, Vicuna, to name a few. However, existing open-source LLMs have only been instruction-tuned for English and a few popular languages, thus hindering their impacts and accessibility to many other languages in the world. Among a few very recent work to explore instruction tuning for LLMs in multiple languages, SFT has been used as the only approach to instruction-tune LLMs for multiple languages. This has left a significant gap for fine-tuned LLMs based on RLHF in diverse languages and raised important questions on how RLHF can boost the performance of multilingual instruction tuning. To overcome this issue, we present Okapi, the first system with instruction-tuned LLMs based on RLHF for multiple languages. Okapi introduces instruction and response-ranked data in 26 diverse languages to facilitate the experiments and development of future multilingual LLM research. We also present benchmark datasets to enable the evaluation of generative LLMs in multiple languages. Our experiments demonstrate the advantages of RLHF for multilingual instruction over SFT for different base models and datasets. Our framework and resources are released at https://github.com/nlp-uoregon/Okapi.",
+    "Added By": "Zaid Alyafeai"
+}
