@@ -1,0 +1,43 @@
+{
+    "Name": "CARMA",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/smankarious/carma",
+    "Link": "https://huggingface.co/datasets/smankarious/carma",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "CARMA is the first comprehensive dataset for mental health analysis in Arabic. The data encompasses seven mental health conditions, some of which have never been explored previously in Arabic literature, such as OCD, PTSD, and ADHD.",
+    "Volume": 100.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "-",
+    "Paper Link": "-",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "topic classification"
+    ],
+    "Venue Title": "-",
+    "Venue Type": "preprint",
+    "Venue Name": "-",
+    "Authors": [
+        "saad mankarious"
+    ],
+    "Affiliations": [],
+    "Abstract": "-",
+    "Added By": "Zaid Alyafeai"
+}
