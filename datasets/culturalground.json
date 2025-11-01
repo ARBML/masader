@@ -1,0 +1,52 @@
+{
+    "Name": "CulturalGround",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/neulab/CulturalGround",
+    "Link": "https://huggingface.co/datasets/neulab/CulturalGround",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "wikipedia"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "crawling",
+        "machine annotation",
+        "LLM generated"
+    ],
+    "Description": "22 million multilingual image-question-answer triplets covering 39 languages and 42 countries.",
+    "Volume": 346263.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Carnegie Mellon University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Grounding Multilingual Multimodal LLMs With Cultural Knowledge",
+    "Paper Link": "https://arxiv.org/pdf/2508.07414",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "JeandeDieu Nyandwi",
+        "Yueqi Song",
+        "Simran Khanuja",
+        "Graham Neubig"
+    ],
+    "Affiliations": [
+        "Carnegie Mellon University"
+    ],
+    "Abstract": "Multimodal Large Language Models excel in high-resource settings, but often misinterpret long-tail cultural entities and underperform in low-resource languages. To address this gap, we propose a data-centric approach that directly grounds MLLMs in cultural knowledge. Leveraging a large scale knowledge graph from Wikidata, we collect images that represent culturally significant entities, and generate synthetic multilingual visual question answering data. The resulting dataset, CulturalGround, comprises 22 million high-quality, culturally-rich VQA pairs spanning 42 countries and 39 languages. We train an open-source MLLM CulturalPangea on CulturalGround, interleaving standard multilingual instruction-tuning data to preserve general abilities. CulturalPangea achieves state-of-the-art performance among open models on various culture-focused multilingual multimodal benchmarks, outperforming prior models by an average of 5.0 without degrading results on mainstream vision-language tasks. Our findings show that our targeted, culturally grounded approach could substantially narrow the cultural gap in MLLMs and offer a practical path towards globally inclusive multimodal systems.\n",
+    "Added By": "Zaid Alyafeai"
+}
