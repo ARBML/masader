@@ -1,0 +1,91 @@
+{
+    "Name": "HPLTv2",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+    "Link": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+    "License": "CC0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "HPLT v2 is a large-scale multilingual dataset offering 8 T tokens across 193 languages, extracted with a quality-controlled pipeline from Internet Archive & CommonCrawl.",
+    "Volume": 82670000.0,
+    "Unit": "documents",
+    "Ethical Risks": "High",
+    "Provider": [
+        "HPLT"
+    ],
+    "Derived From": [
+        "HPLTv1.2",
+        "CommonCrawl"
+    ],
+    "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+    "Paper Link": "https://aclanthology.org/2025.acl-long.854.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling",
+        "text generation"
+    ],
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Association for Computational Linguistics",
+    "Authors": [
+        "Laurie Burchell",
+        "Ona de Gibert",
+        "Nikolay Arefyev",
+        "Mikko Aulamo",
+        "Marta Ba\u00f1\u00f3n",
+        "Pinzhen Chen",
+        "Mariia Fedorova",
+        "Liane Guillou",
+        "Barry Haddow",
+        "Jan Haji\u010d",
+        "Jind\u0159ich Helcl",
+        "Erik Henriksson",
+        "Mateusz Klimaszewski",
+        "Ville Komulainen",
+        "Andrey Kutuzov",
+        "Joona Kyt\u00f6niemi",
+        "Veronika Laippala",
+        "Petter M\u00e6hlum",
+        "Bhavitvya Malik",
+        "Farrokh Mehryary",
+        "Vladislav Mikhailov",
+        "Nikita Moghe",
+        "Amanda Myntti",
+        "Dayy\u00e1n O\u2019Brien",
+        "Stephan Oepen",
+        "Proyag Pal",
+        "Jousia Piha",
+        "Sampo Pyysalo",
+        "Gema Ram\u00edrez-S\u00e1nchez",
+        "David Samuel",
+        "Pavel Stepachev",
+        "J\u00f6rg Tiedemann",
+        "Du\u0161an Vari\u0161",
+        "Tereza Vojt\u011bchov\u00e1",
+        "Jaume Zaragoza-Bernabeu"
+    ],
+    "Affiliations": [
+        "University of Edinburgh",
+        "University of Helsinki",
+        "University of Oslo",
+        "Prompsit Language Engineering",
+        "Charles University",
+        "University of Turku",
+        "Amazon"
+    ],
+    "Abstract": "Training state-of-the-art large language models requires vast amounts of clean and diverse textual data. However, building suitable multilingual datasets remains a challenge. In this work, we present HPLT v2, a collection of high-quality multilingual monolingual and parallel corpora, extending prior work of the HPLT project. The monolingual portion of the data contains 8T tokens covering 193 languages, while the parallel data contains 380M sentence pairs covering 51 languages. We document the entire data pipeline and release the code to reproduce it. We provide extensive analysis of the quality and characteristics of our data. Finally, we evaluate the performance of language models and machine translation systems trained on HPLT v2, demonstrating its value.",
+    "Added By": "Zaid Alyafeai"
+}
