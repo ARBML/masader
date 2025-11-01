@@ -29,9 +29,9 @@
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
-    "Access": "Free",
+    "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Test Split": false,
     "Tasks": [
         "speech recognition"
     ],
