@@ -1,0 +1,45 @@
+{
+    "Name": "Election Questions - Arabic Translation ",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/fr3on/election-questions-arabic",
+    "Link": "https://huggingface.co/datasets/fr3on/election-questions-arabic",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "videos",
+    "Collection Style": [
+        "LLM generated"
+    ],
+    "Description": "High-quality Arabic translation using Google's MADLAD-400 model for https://huggingface.co/datasets/Anthropic/election_questions",
+    "Volume": 1486.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [],
+    "Derived From": [
+        "Election Evaluations Dataset"
+    ],
+    "Paper Title": "-",
+    "Paper Link": "-",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "safety evaluation"
+    ],
+    "Venue Title": "-",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Ahmed Mardi"
+    ],
+    "Affiliations": [],
+    "Abstract": "-",
+    "Added By": "Zaid Alyafeai"
+}
