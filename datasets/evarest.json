@@ -1,0 +1,50 @@
+{
+    "Name": "EvArEST",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Melaraby/EvArEST-dataset-for-Arabic-scene-text-recognition",
+    "Link": "https://huggingface.co/datasets/Melaraby/EvArEST-dataset-for-Arabic-scene-text-recognition",
+    "License": "BSD",
+    "Year": 2021,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "LLM"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "manual curation",
+        "LLM generated"
+    ],
+    "Description": "The dataset includes both the recognition dataset and the synthetic one in a single train and test split.",
+    "Volume": 296413.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "Arabic Scene Text Recognition in the Deep Learning Era: Analysis on a Novel Dataset",
+    "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9499028",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "IEEE Access",
+    "Venue Type": "preprint",
+    "Venue Name": "IEEE Access",
+    "Authors": [
+        "HEBA HASSAN",
+        "AHMED EL-MAHDY",
+        "MOHAMED E. HUSSEIN"
+    ],
+    "Affiliations": [
+        "Egypt-Japan University for Science and Technology",
+        "Alexandria University",
+        "University of Southern California"
+    ],
+    "Abstract": "The problem of scene text recognition has recently gained extra attention, being an essential part of scene understanding systems. The broad scope of applications and the unresolved challenges has given this problem its popularity. However, the research focus has long been on languages with Latin characters while leaving behind other languages with different characteristics, such as the Arabic language. In this paper, we focus on Arabic scene text recognition and attempt to fill two main gaps regarding this research task. First, the Arabic language is lacking a publicly available benchmark dataset to compare different proposed methods on the same grounds. Therefore, we introduce a novel Arabic/English dataset: Everyday Arabic-English Scene Text dataset (EvArEST), to fill that need. Second, while deep learning methods have continuously evolved and pushed the state of the art in languages with Latin characters, their use for the Arabic language has been very limited. Therefore, we use our new dataset to evaluate the problem of Arabic scene text recognition from three perspectives: (1) using deep learning techniques and studying their suitability for Arabic scene text recognition, where we identify essential components required for the model to obtain good performance; (2) identifying Arabic text challenges that differ from Latin text and require special attention; (3) investigating a bilingual model that concurrently deals with Arabic and English words, since Arabic text is usually found along with other languages. We determine the best model to handle bidirectional text, its challenges, and possible ways to overcome them. We offer both Arabic and Bilingual text recognition results using EvArEST dataset for upcoming research to build upon and improve. We also point to directions for future research based on the analysis performed on the dataset. The dataset is publicly available at https://github.com/HGamal11/EvArEST-dataset.",
+    "Added By": "Zaid Alyafeai"
+}
