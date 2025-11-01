@@ -49,8 +49,8 @@
     "Derived From": [
         " XTREME-UP"
     ],
-    "Paper Title": "-",
-    "Paper Link": "-",
+    "Paper Title": "",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -60,11 +60,11 @@
     "Tasks": [
         "speech recognition"
     ],
-    "Venue Title": "-",
-    "Venue Type": "preprint",
+    "Venue Title": "",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],
-    "Abstract": "-",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
