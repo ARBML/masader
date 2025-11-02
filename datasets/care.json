@@ -1,0 +1,56 @@
+{
+    "Name": "CARE",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/geyang627/CARE",
+    "Link": "https://github.com/Guochry/CARE",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "A multilingual human preference dataset featuring 3,490 culture-specific QA pairs (31.7k rated responses) in Arabic, Chinese, and Japanese, curated via native annotators to enhance cultural awareness in language models.",
+    "Volume": 3490.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Georgia Institute of Technology"
+    ],
+    "Derived From": [],
+    "Paper Title": "CARE: Multilingual Human Preference Learning for Cultural Awareness",
+    "Paper Link": "https://arxiv.org/pdf/2504.05154",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "instruction tuning",
+        "preference optimization"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Geyang Guo",
+        "Tarek Naous",
+        "Hiromi Wakaki",
+        "Yukiko Nishimura",
+        "Yuki Mitsufuji",
+        "Alan Ritter",
+        "Wei Xu"
+    ],
+    "Affiliations": [
+        "Georgia Institute of Technology",
+        "Sony Group Corporation",
+        "Sony AI"
+    ],
+    "Abstract": "Language Models (LMs) are typically tuned with human preferences to produce helpful responses, but the impact of preference tuning on the ability to handle culturally diverse queries remains understudied. In this paper, we systematically analyze how native human cultural preferences can be incorporated into the preference learning process to train more culturally aware LMs. We introduce \textbf{CARE}, a multilingual resource containing 3,490 culturally specific questions and 31.7k responses with human judgments. We demonstrate how a modest amount of high-quality native preferences improves cultural awareness across various LMs, outperforming larger generic preference data. Our analyses reveal that models with stronger initial cultural performance benefit more from alignment, leading to gaps among models developed in different regions with varying access to culturally relevant data. CARE is publicly available at https://github.com/Guochry/CARE.",
+    "Added By": "Zaid Alyafeai"
+}
