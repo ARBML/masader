@@ -1,0 +1,45 @@
+{
+    "Name": "DocLang",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/monkt/doclang",
+    "Link": "https://huggingface.co/datasets/monkt/doclang",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "books"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "A multilingual document type classification dataset for identifying various document and visual content types. The dataset contains 13,200 images across 11 languages, with 1,200 images per language.",
+    "Volume": 1200.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "monkt"
+    ],
+    "Derived From": [],
+    "Paper Title": "",
+    "Paper Link": "",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "",
+    "Venue Type": "",
+    "Venue Name": "",
+    "Authors": [
+        "Simeon Emanuilov"
+    ],
+    "Affiliations": [],
+    "Abstract": "",
+    "Added By": "Zaid Alyafeai"
+}
