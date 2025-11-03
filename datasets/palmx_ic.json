@@ -1,0 +1,55 @@
+{
+    "Name": "PalmX-IC",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/UBC-NLP/palmx_2025_subtask2_islamic",
+    "Link": "https://huggingface.co/datasets/UBC-NLP/palmx_2025_subtask2_islamic",
+    "License": "custom",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "books",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "LLM generated"
+    ],
+    "Description": "PalmX-IC assesses a model\u2019s knowledge of Islamic culture\u2014rituals, Qur\u02be\u0101n verses, \u1e24ad\u012bth, historic events, jurisprudence, and religious holidays\u2014core elements of life across the Arab world. All items are authored in Modern Standard Arabic (MSA) . The dataset powers Subtask 2 of the PalmX 2025 shared task.",
+    "Volume": 1900.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "UBC-NLP"
+    ],
+    "Derived From": [],
+    "Paper Title": "PalmX 2025: The First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture",
+    "Paper Link": "https://arxiv.org/pdf/2509.02550",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "multiple choice question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Fakhraddin Alwajih",
+        "Abdellah El Mekki",
+        "Hamdy Mubarak",
+        "Majd Hawasly",
+        "Abubakr Mohamed",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "The University of British Columbia",
+        "Qatar Computing Research Institute"
+    ],
+    "Abstract": "Large Language Models (LLMs) inherently reflect the vast data distributions they encounter during their pre-training phase. As this data is predominantly sourced from the web, there is a high chance it will be skewed towards high-resourced languages and cultures, such as those of the West. Consequently, LLMs often exhibit a diminished understanding of certain communities, a gap that is particularly evident in their knowledge of Arabic and Islamic cultures. This issue becomes even more pronounced with increasingly under-represented topics. To address this critical challenge, we introduce PalmX 2025, the first shared task designed to benchmark the cultural competence of LLMs in these specific domains. The task is composed of two subtasks featuring multiple-choice questions (MCQs) in Modern Standard Arabic (MSA): General Arabic Culture and General Islamic Culture. These subtasks cover a wide range of topics, including traditions, food, history, religious practices, and language expressions from across 22 Arab countries. The initiative drew considerable interest, with 26 teams registering for Subtask 1 and 19 for Subtask 2, culminating in nine and six valid submissions, respectively. Our findings reveal that task-specific fine-tuning substantially boosts performance over baseline models. The top-performing systems achieved an accuracy of 72.15% on cultural questions and 84.22% on Islamic knowledge. Parameter-efficient fine-tuning emerged as the predominant and most effective approach among participants, while the utility of data augmentation was found to be domain-dependent.\n",
+    "Added By": "Zaid Alyafeai"
+}
