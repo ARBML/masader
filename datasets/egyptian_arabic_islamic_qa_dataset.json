@@ -1,0 +1,43 @@
+{
+    "Name": "Egyptian Arabic Islamic QA Dataset",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Omar-youssef/islamic-qa-egyptian-arabic",
+    "Link": "https://huggingface.co/datasets/Omar-youssef/islamic-qa-egyptian-arabic",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Egypt",
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "This dataset contains 7,465 question-answer pairs in Egyptian Arabic covering comprehensive Islamic studies topics. The dataset serves as a valuable resource for developing Arabic NLP models focused on Islamic education and religious knowledge.",
+    "Volume": 7465.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "",
+    "Paper Link": "",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Omar Youssef"
+    ],
+    "Affiliations": [],
+    "Abstract": "",
+    "Added By": "Zaid Alyafeai"
+}
