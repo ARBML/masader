@@ -1,19 +1,6 @@
 {
     "Name": "Global-MMLU",
-    "Subsets": [
-        {
-            "Name": "Culturally-Sensitive",
-            "Volume": 33264.0,
-            "Unit": "documents",
-            "Dialect": "mixed"
-        },
-        {
-            "Name": "Culturally-Agnostic",
-            "Volume": 86436.0,
-            "Unit": "documents",
-            "Dialect": "mixed"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/CohereForAI/Global-MMLU",
     "Link": "https://huggingface.co/datasets/CohereForAI/Global-MMLU",
     "License": "Apache-2.0",
