@@ -1,0 +1,43 @@
+{
+    "Name": "Awesome Arabic Chatgpt Prompts",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/awesome_chatgpt_prompts_ar",
+    "Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/awesome_chatgpt_prompts_ar",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "LLM"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "Contains a collection of Arabic prompts designed for use with AI language models (such as ChatGPT).",
+    "Volume": 201.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "",
+    "Paper Link": "",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Omer Nacar"
+    ],
+    "Affiliations": [],
+    "Abstract": "",
+    "Added By": "Zaid Alyafeai"
+}
