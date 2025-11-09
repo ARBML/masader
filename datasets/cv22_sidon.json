@@ -1,8 +1,8 @@
 {
     "Name": "CV22-Sidon",
     "Subsets": [],
-    "HF Link": "CV22-Sidon",
-    "Link": "CV22-Sidon",
+    "HF Link": "https://huggingface.co/datasets/sarulab-speech/commonvoice22_sidon/viewer/ar",
+    "Link": "https://huggingface.co/datasets/sarulab-speech/commonvoice22_sidon/viewer/ar",
     "License": "CC0",
     "Year": 2025,
     "Language": "multilingual",
