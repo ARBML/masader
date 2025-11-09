@@ -1,0 +1,64 @@
+{
+    "Name": "MR3",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/rubricreward/mR3-Dataset-100K-EasyToHard",
+    "Link": "https://github.com/rubricreward/mr3",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Massively multilingual reward-model training set with 72-language coverage and human/LLM-generated rubrics.",
+    "Volume": 3343.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Stanford University"
+    ],
+    "Derived From": [
+        "Human Arena Preference",
+        "HelpSteer3-Preference",
+        "MMMLU",
+        "HumanEval-XL",
+        "MATH-500 Multilingual",
+        "PolyGuardMix"
+    ],
+    "Paper Title": "MR3: Multilingual Rubric-Agnostic Reward Reasoning Models",
+    "Paper Link": "https://arxiv.org/pdf/2510.01146",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "preference optimization"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "David Anugraha",
+        "Shou-Yi Hung",
+        "Zilu Tang",
+        "Annie En-Shiun Lee",
+        "Derry Tanti Wijaya",
+        "Genta Indra Winata"
+    ],
+    "Affiliations": [
+        "Stanford University",
+        "University of Toronto",
+        "Boston University",
+        "Ontario Tech University",
+        "Monash University Indonesia",
+        "Capital One"
+    ],
+    "Abstract": "Evaluation using Large Language Model (LLM) judges has been widely adopted in English and shown to be effective for automatic evaluation. However, their performance does not generalize well to non-English settings, and it remains unclear what constitutes effective multilingual training for such judges. In this paper, we introduce mR3, a massively multilingual, rubric-agnostic reward reasoning model trained on 72 languages, achieving the broadest language coverage in reward modeling to date. We present a comprehensive study of data and curriculum selection for training to identify effective strategies and data sources for building high-quality reward models, including the integration of target-language reasoning datasets. Our approach attains state-of-the-art performance on multilingual reward model benchmarks, surpassing much larger models (i.e., GPT-OSS-120B) while being up to 9x smaller, and its effectiveness is further confirmed through extensive ablation studies. Our models, data, and code are available as open source at https://github.com/rubricreward/mr3.\n",
+    "Added By": "Zaid Alyafeai"
+}
