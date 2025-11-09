@@ -20,8 +20,8 @@
     "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
-    "Paper Title": "-",
-    "Paper Link": "-",
+    "Paper Title": "",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -31,13 +31,13 @@
     "Tasks": [
         "other"
     ],
-    "Venue Title": "-",
+    "Venue Title": "",
     "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [
         "Omer Nacar"
     ],
     "Affiliations": [],
-    "Abstract": "-",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
