@@ -1,0 +1,100 @@
+{
+    "Name": "Global-MMLU",
+    "Subsets": [
+        {
+            "Name": "Culturally-Sensitive",
+            "Volume": 33264.0,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "Culturally-Agnostic",
+            "Volume": 86436.0,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/CohereForAI/Global-MMLU",
+    "Link": "https://huggingface.co/datasets/CohereForAI/Global-MMLU",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "A multilingual multiple-choice benchmark covering 42 languages with culturally-sensitive and culturally-agnostic subsets.",
+    "Volume": 14285.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Cohere For AI"
+    ],
+    "Derived From": [
+        "MMLU"
+    ],
+    "Paper Title": "Global MMLU: Understanding and Addressing Cultural and Linguistic Biases in Multilingual Evaluation",
+    "Paper Link": "https://arxiv.org/pdf/2412.03304",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "multiple choice question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Shivalika Singh",
+        "Angelika Romanou",
+        "Cl\u00e9mentine Fourrier",
+        "David I. Adelani",
+        "Jian Gang Ngui",
+        "Daniel Vila-Suero",
+        "Peerat Limkonchotiwat",
+        "Kelly Marchisio",
+        "Wei Qi Leong",
+        "Yosephine Susanto",
+        "Raymond Ng",
+        "Shayne Longpre",
+        "Sebastian Ruder",
+        "Wei-Yin Ko",
+        "Madeline Smith",
+        "Antoine Bosselut",
+        "Alice Oh",
+        "Andr\u00e9 F. T. Martins",
+        "Leshem Choshen",
+        "Daphne Ippolito",
+        "Enzo Ferrante",
+        "Marzieh Fadaee",
+        "Beyza Ermis",
+        "Sara Hooker"
+    ],
+    "Affiliations": [
+        "Cohere For AI",
+        "EPFL",
+        "Hugging Face",
+        "Mila, McGill University & Canada CIFAR AI Chair",
+        "AI Singapore",
+        "National University of Singapore",
+        "Cohere",
+        "MIT",
+        "KAIST",
+        "Instituto de Telecomunica\u00e7\u00f5es",
+        "Instituto Superior T\u00e9cnico, Universidade de Lisboa",
+        "MIT, MIT-IBM Watson AI Lab",
+        "Carnegie Mellon University",
+        "CONICET & Universidad de Buenos Aires",
+        "Meta AI Research"
+    ],
+    "Abstract": "Cultural biases in multilingual datasets pose significant challenges for their effectiveness as global benchmarks. These biases stem not only from differences in language but also from the cultural knowledge required to interpret questions, reducing the practical utility of translated datasets like MMLU. Furthermore, translation often introduces artifacts that can distort the meaning or clarity of questions in the target language. A common practice in multilingual evaluation is to rely on machine-translated evaluation sets, but simply translating a dataset is insufficient to address these challenges. In this work, we trace the impact of both of these issues on multilingual evaluations and ensuing model performances. Our large-scale evaluation of state-of-the-art open and proprietary models illustrates that progress on MMLU depends heavily on learning Western-centric concepts, with 28% of all questions requiring culturally sensitive knowledge. Moreover, for questions requiring geographic knowledge, an astounding 84.9% focus on either North American or European regions. Rankings of model evaluations change depending on whether they are evaluated on the full portion or the subset of questions annotated as culturally sensitive, showing the distortion to model rankings when blindly relying on translated MMLU. We release Global-MMLU, an improved MMLU with evaluation coverage across 42 languages \u2013 with improved overall quality by engaging with compensated professional and community annotators to verify translation quality while also rigorously evaluating cultural biases present in the original dataset. This comprehensive Global-MMLU set also includes designated subsets labeled as culturally sensitive and culturally agnostic to allow for more holistic, complete evaluation.",
+    "Added By": "Zaid Alyafeai"
+}
