@@ -1,0 +1,43 @@
+{
+    "Name": "financesecondtrial",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/omar-emad/financesecondtrial",
+    "Link": "https://huggingface.co/datasets/omar-emad/financesecondtrial",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "LLM"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated"
+    ],
+    "Description": "A synthetic dataset created using Llama 3 ",
+    "Volume": 30.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "-",
+    "Paper Link": "-",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue Title": "-",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Omar Emad"
+    ],
+    "Affiliations": [],
+    "Abstract": "-",
+    "Added By": "Zaid Alyafeai"
+}
