@@ -10,7 +10,7 @@
     "Domain": [
         "public datasets"
     ],
-    "Form": "videos",
+    "Form": "text",
     "Collection Style": [
         "human annotation"
     ],
@@ -28,15 +28,15 @@
     "Paper Link": "https://aclanthology.org/2023.ldk-1.14.pdf",
     "Script": "Arab",
     "Tokenized": true,
-    "Host": "other",
-    "Access": "With-Fee",
+    "Host": "GitHub",
+    "Access": "free",
     "Cost": "",
     "Test Split": true,
     "Tasks": [
         "morphological analysis"
     ],
     "Venue Title": "Language, Data and Knowledge Conference",
-    "Venue Type": "journal",
+    "Venue Type": "conference",
     "Venue Name": "LDK",
     "Authors": [
         "Elisa Gugliotta",
