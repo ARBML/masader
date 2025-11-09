@@ -15,16 +15,11 @@
         "machine annotation"
     ],
     "Description": "Massively multilingual reward-model training set with 72-language coverage and human/LLM-generated rubrics.",
-    "Volume": 100000.0,
+    "Volume": 3343.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
-        "Stanford University",
-        "University of Toronto",
-        "Boston University",
-        "Ontario Tech University",
-        "Monash University Indonesia",
-        "Capital One"
+        "Stanford University"
     ],
     "Derived From": [
         "Human Arena Preference",
