@@ -14,14 +14,14 @@
     "Collection Style": [
         "LLM generated"
     ],
-    "Description": "A synthetic dataset created using Llama 3 ",
+    "Description": "A synthetic dataset created using Llama 3",
     "Volume": 30.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
-    "Paper Title": "-",
-    "Paper Link": "-",
+    "Paper Title": "",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -31,13 +31,13 @@
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "-",
-    "Venue Type": "preprint",
+    "Venue Title": "",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "Omar Emad"
     ],
     "Affiliations": [],
-    "Abstract": "-",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
