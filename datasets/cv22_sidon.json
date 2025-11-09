@@ -1,0 +1,52 @@
+{
+    "Name": "CV22-Sidon",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/sarulab-speech/commonvoice22_sidon/viewer/ar",
+    "Link": "https://huggingface.co/datasets/sarulab-speech/commonvoice22_sidon/viewer/ar",
+    "License": "CC0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "This dataset hosts a release of Mozilla Common Voice 22 restored with the Sidon speech restoration model.",
+    "Volume": 49500.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "SaruLab"
+    ],
+    "Derived From": [
+        "CommonVoice"
+    ],
+    "Paper Title": "SIDON: FAST AND ROBUST OPEN-SOURCE MULTILINGUAL SPEECH RESTORATION FOR LARGE-SCALE DATASET CLEANSING",
+    "Paper Link": "https://arxiv.org/pdf/2509.17052",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "text to speech"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Wataru Nakata",
+        "Yuki Saito",
+        "Yota Ueda",
+        "Hiroshi Saruwatari"
+    ],
+    "Affiliations": [
+        "University of Tokyo"
+    ],
+    "Abstract": "Large-scale text-to-speech (TTS) systems are limited by the scarcity of clean, multilingual recordings. We introduce Sidon, a fast, open-source speech restoration model that converts noisy in-the-wild speech into studio-quality speech and scales to dozens of languages. Sidon consists of two models: w2v-BERT 2.0 finetuned feature predictor to cleanse features from noisy speech and vocoder trained to synthesize restored speech from the cleansed features. Sidon achieves restoration performance comparable to Miipher: Google's internal speech restoration model with the aim of dataset cleansing for speech synthesis. Sidon is also computationally efficient, running up to 500 times faster than real time on a single GPU. We further show that training a TTS model using a Sidon-cleansed automatic speech recognition corpus improves the quality of synthetic speech in a zero-shot setting. Code and model are released to facilitate reproducible dataset cleansing for the research community.\n",
+    "Added By": "Zaid Alyafeai"
+}
