@@ -26,7 +26,7 @@
     "Paper Link": "https://arxiv.org/pdf/2303.00069",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "other",
+    "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
@@ -43,8 +43,8 @@
         "Hanan Aldarmaki"
     ],
     "Affiliations": [
-        "MBZUAI UAE",
-        "Erisha Labs India"
+        "MBZUAI",
+        "Erisha Labs"
     ],
     "Abstract": "At present, Text-to-speech (TTS) systems that are trained with high-quality transcribed speech data using end-to-end neural models can generate speech that is intelligible, natural, and closely resembles human speech. These models are trained with relatively large single-speaker professionally recorded audio, typically extracted from audiobooks. Meanwhile, due to the scarcity of freely available speech corpora of this kind, a larger gap exists in Arabic TTS research and development. Most of the existing freely available Arabic speech corpora are not suitable for TTS training as they contain multi-speaker casual speech with variations in recording conditions and quality, whereas the corpus curated for speech synthesis are generally small in size and not suitable for training state-of-the-art end-to-end models. In a move towards filling this gap in resources, we present a speech corpus for Classical Arabic Text-to-Speech (ClArTTS) to support the development of end-to-end TTS systems for Arabic. The speech is extracted from a LibriVox audiobook, which is then processed, segmented, and manually transcribed and annotated. The final ClArTTS corpus contains about 12 hours of speech from a single male speaker sampled at 40100 kHz. In this paper, we describe the process of corpus creation and provide details of corpus statistics and a comparison with existing resources. Furthermore, we develop two TTS systems based on Grad-TTS and Glow-TTS and illustrate the performance of the resulting systems via subjective and objective evaluations. The corpus will be made publicly available at this http URL for research purposes, along with the baseline TTS systems demo.\n",
     "Added By": "Zaid Alyafeai"
