@@ -1,0 +1,53 @@
+{
+    "Name": "UFB Translated",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/CohereLabs/fusion-synth-data-ufb",
+    "Link": "https://huggingface.co/datasets/CohereLabs/fusion-synth-data-ufb",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "LLM"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated"
+    ],
+    "Description": "This data contains completions for a 10,000 subset of the UFB prompts (translated into 9 languages) from 5 different teacher models and 2 aggregations",
+    "Volume": 10000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "CohereLabs"
+    ],
+    "Derived From": [
+        "UltraFeedback Binarized"
+    ],
+    "Paper Title": "Making, not Taking, the Best of N",
+    "Paper Link": "https://arxiv.org/pdf/2510.00931",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "instruction tuning",
+        "preference optimization"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Ammar Khairi",
+        "Daniel D\u2019souza",
+        "Marzieh Fadaee",
+        "Julia Kreutzer"
+    ],
+    "Affiliations": [
+        "Cohere Labs"
+    ],
+    "Abstract": "Obtaining high-quality generations in modern LLMs has largely been framed as a selection problem: identifying a single winning generation from a diverse pool of N samples, the Best-of-N (BoN). Yet, this approach is inherently zero-sum, discarding diverse and potentially useful information from the pool. Instead, we explore a collaborative setup, where all candidates can potentially contribute to the final winning generation. To this end, we propose Fusion-of-N (FusioN): a method that uses a general LLM judge to synthesize the most informative elements of each sample into a single final answer. We compare FusioN to BoN in two settings, (i) test-time scaling, where we sample and aggregate from a single model at test-time (ii) synthetic data generation, where we fuse samples from a pool of diverse teachers to improve a student model. We extensively benchmark both setups across 11 languages, 3 diverse tasks and varying model scales. Across the bench, FusioN consistently outperforms BoN showing versatility and robustness both in test-time scaling and in downstream gains from synthetic data generation. We also perform extensive analysis on FusioN, where it shows surprising strengths and robustness under challenging settings. These results show that we should shift how we think about evaluating and utilizing LLM generations from a monolithic measure of quality, to embracing their polylithic nature. This shift allows us to integrate diverse strengths, unlock latent potential, and achieve improvements that were previously inaccessible through selection alone.",
+    "Added By": "Zaid Alyafeai"
+}
