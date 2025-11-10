@@ -44,7 +44,7 @@
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
-        "VinUniversity",
+        "Vin University",
         "Lancaster University"
     ],
     "Derived From": [],
@@ -68,8 +68,8 @@
         "Mo El-Haj"
     ],
     "Affiliations": [
-        "VinUniversity, Vietnam",
-        "Lancaster University, UK"
+        "Vin University",
+        "Lancaster University"
     ],
     "Abstract": "ArabJobs is a publicly available corpus of Arabic job advertisements collected from Egypt, Jordan, Saudi Arabia, and the United Arab Emirates. Comprising over 8,500 postings and more than 550,000 words, the dataset captures linguistic, regional, and socio-economic variation in the Arab labour market. We present analyses of gender representation and occupational structure, and highlight dialectal variation across ads, which offers opportunities for future research. We also demonstrate applications such as salary estimation and job category normalisation using large language models, alongside benchmark tasks for gender bias detection and profession classification. The findings show the utility of ArabJobs for fairness-aware Arabic NLP and labour market research. The dataset is publicly available on GitHub: https://github.com/drelhaj/ArabJobs.\n",
     "Added By": "Zaid Alyafeai"
