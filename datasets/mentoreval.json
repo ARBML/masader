@@ -1,0 +1,43 @@
+{
+    "Name": "MentorEval",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/alvaro-francisco-gil/mentor-eval",
+    "Link": "https://github.com/alvaro-francisco-gil/mentor-eval",
+    "License": "GPL-1.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "The benchmark contains 57,444 student responses across 6 datasets from 3 languages (English, Portuguese, Arabic), covering ISCED levels 1, 2, 3, 6, and 7.",
+    "Volume": 2132.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [
+        "AR-ASAG"
+    ],
+    "Paper Title": "MentorEval: A Multilingual Benchmark for Educational Assessment",
+    "Paper Link": "",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "answer grading"
+    ],
+    "Venue Title": "",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "",
+    "Added By": "Zaid Alyafeai"
+}
