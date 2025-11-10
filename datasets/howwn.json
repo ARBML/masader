@@ -33,7 +33,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "other"
+        "word sense disambiguation"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
