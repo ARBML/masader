@@ -33,7 +33,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "other"
+        "deepfake detection"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
