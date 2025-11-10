@@ -1,0 +1,51 @@
+{
+    "Name": "HowWN",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/lukasellinger/homonym-mcl-wic",
+    "Link": "https://huggingface.co/datasets/lukasellinger/homonym-mcl-wic",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "The ML-WiC dataset was constructed to target homonyms with multiple distinct senses. The dataset from Martelli et al. (2021) was designed for Multilingual and Cross-lingual Word-in-Context Disambiguation (MCL-WiC)",
+    "Volume": 308.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Technical University of Munich"
+    ],
+    "Derived From": [
+        "ML-WiC"
+    ],
+    "Paper Title": "Simplifications are Absolutists: How Simplified Language Reduces Word Sense Awareness in LLM-Generated Definitions",
+    "Paper Link": "https://arxiv.org/pdf/2507.11981",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Lukas Ellinger",
+        "Miriam Ansch\u00fctz",
+        "Georg Groh"
+    ],
+    "Affiliations": [
+        "Technical University of Munich"
+    ],
+    "Abstract": "Large Language Models (LLMs) can provide accurate word definitions and explanations for any context. However, the scope of the definition changes for different target groups, like children or language learners. This is especially relevant for homonyms, words with multiple meanings, where oversimplification might risk information loss by omitting key senses, potentially misleading users who trust LLM outputs. We investigate how simplification impacts homonym definition quality across three target groups: Normal, Simple, and ELI5. Using two novel evaluation datasets spanning multiple languages, we test DeepSeek v3, Llama 4 Maverick, Qwen3-30B A3B, GPT-4o mini, and Llama 3.1 8B via LLM-as-Judge and human annotations. Our results show that simplification drastically degrades definition completeness by neglecting polysemy, increasing the risk of misunderstanding. Fine-tuning Llama 3.1 8B with Direct Preference Optimization substantially improves homonym response quality across all prompt types. These findings highlight the need to balance simplicity and completeness in educational NLP to ensure reliable, context-aware definitions for all learners.",
+    "Added By": "Zaid Alyafeai"
+}
