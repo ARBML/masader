@@ -1,0 +1,57 @@
+{
+    "Name": "MAVOS-DD",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/unibuc-cs/MAVOS-DD",
+    "Link": "https://huggingface.co/datasets/unibuc-cs/MAVOS-DD",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "social media",
+        "TV Channels"
+    ],
+    "Form": "videos",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
+    "Description": "Multilingual audio-video open-set deepfake detection benchmark with over 60K real and fake videos across eight languages, including Arabic.",
+    "Volume": 9861.0,
+    "Unit": "videos",
+    "Ethical Risks": "High",
+    "Provider": [
+        "University of Bucharest"
+    ],
+    "Derived From": [],
+    "Paper Title": "MAVOS-DD: Multilingual Audio-Video Open-Set Deepfake Detection Benchmark",
+    "Paper Link": "https://arxiv.org/pdf/2505.11109",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Florinel-Alin Croitoru",
+        "Vlad Hondru",
+        "Marius Popescu",
+        "Radu Tudor Ionescu",
+        "Fahad Shahbaz Khan",
+        "Mubarak Shah"
+    ],
+    "Affiliations": [
+        "University of Bucharest",
+        "MBZ University of Artificial Intelligence",
+        "Link\u00f6ping University",
+        "University of Central Florida"
+    ],
+    "Abstract": "We present the first large-scale open-set benchmark for multilingual audio-video deepfake detection. Our dataset comprises over 250 hours of real and fake videos across eight languages, with 60% of data being generated. For each language, the fake videos are generated with seven distinct deepfake generation models, selected based on the quality of the generated content. We organize the training, validation and test splits such that only a subset of the chosen generative models and languages are available during training, thus creating several challenging open-set evaluation setups. We perform experiments with various pre-trained and fine-tuned deepfake detectors proposed in recent literature. Our results show that state-of-the-art detectors are not currently able to maintain their performance levels when tested in our open-set scenarios. We publicly release our data and code at: https://huggingface.co/datasets/unibuc-cs/MAVOS-DD.",
+    "Added By": "Zaid Alyafeai"
+}
