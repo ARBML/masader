@@ -1,0 +1,54 @@
+{
+    "Name": "Misraj-DocOCR",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Misraj/Misraj-DocOCR",
+    "Link": "https://huggingface.co/datasets/Misraj/Misraj-DocOCR",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "books",
+        "web pages"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Misraj-DocOCR is a curated, expert-verified benchmark for Arabic document OCR with an emphasis on structure preservation (Markdown/HTML tables, lists, footnotes, math, watermarks, multi-column, marginalia, etc.).",
+    "Volume": 400.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Misraj"
+    ],
+    "Derived From": [],
+    "Paper Title": "Baseer: A Vision-Language Model for Arabic Document-to-Markdown OCR",
+    "Paper Link": "https://arxiv.org/pdf/2509.18174",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Khalil Hennara",
+        "Muhammad Hreden",
+        "Mohamed Motasim Hamed",
+        "Ahmad Bastati",
+        "Zeina Aldallal",
+        "Sara Chrouf",
+        "Safwan AlModhayan"
+    ],
+    "Affiliations": [
+        "Misraj.ai"
+    ],
+    "Abstract": "Arabic document OCR remains a challenging task due to the language\u2019s cursive script, diverse fonts, diacritics, and right-to-left orientation. While modern Multimodal Large Language Models (MLLMs) have advanced document understanding for high-resource languages, their performance on Arabic remains limited. In this work, we introduce Baseer, a vision-language model fine-tuned specifically for Arabic document OCR. Leveraging a large-scale dataset combining synthetic and real-world documents, Baseer is trained using a decoder-only fine-tuning strategy to adapt a pre-trained MLLM while preserving general visual features. We also present Misraj-DocOCR, a high-quality, expert-verified benchmark designed for rigorous evaluation of Arabic OCR systems. Our experiments show that Baseer significantly outperforms existing open-source and commercial solutions, achieving a WER of 0.25 and establishing a new state-of-the-art in the domain of Arabic document OCR. Our results highlight the benefits of domain-specific adaptation of general-purpose MLLMs and establish a strong baseline for high-accuracy OCR on morphologically rich languages like Arabic.",
+    "Added By": "Zaid Alyafeai"
+}
