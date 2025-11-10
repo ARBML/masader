@@ -1,0 +1,60 @@
+{
+    "Name": "DOUBLE-BENCH",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Episoode/Double-Bench",
+    "Link": "https://huggingface.co/datasets/Episoode/Double-Bench",
+    "License": "CC BY-NC 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets",
+        "wikipedia"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation",
+        "human annotation",
+        "LLM generated"
+    ],
+    "Description": "A large-scale multilingual and multimodal benchmark for evaluating Retrieval-Augmented Generation (RAG) systems on document understanding tasks.",
+    "Volume": 233.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "South China University of Technology",
+        "Huazhong University of Science and Technology",
+        "University of Maryland"
+    ],
+    "Derived From": [],
+    "Paper Title": "ARE WE ON THE RIGHT WAY FOR ASSESSING DOCUMENT RETRIEVAL-AUGMENTED GENERATION?",
+    "Paper Link": "https://arxiv.org/pdf/2508.03644",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "retrieval-augmented generation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Wenxuan Shen",
+        "Mingjia Wang",
+        "Yaochen Wang",
+        "Dongping Chen",
+        "Junjie Yang",
+        "Yao Wan",
+        "Weiwei Lin"
+    ],
+    "Affiliations": [
+        "South China University of Technology",
+        "Huazhong University of Science and Technology",
+        "University of Maryland"
+    ],
+    "Abstract": "Retrieval-Augmented Generation (RAG) systems using Multimodal Large Language Models (MLLMs) show great promise for complex document understanding, yet their development is critically hampered by inadequate evaluation. Current benchmarks often focus on specific parts of document RAG systems and use synthetic data with incomplete ground truth and evidence labels, therefore failing to reflect real-world bottlenecks and challenges. To overcome these limitations, we introduce DOUBLE-BENCH: a new large-scale, multilingual, and multimodal evaluation system that is able to produce fine-grained assessment to each component within document RAG systems. It comprises 3,276 documents (72,880 pages) and 5,168 single- and multi-hop queries across 6 languages and 4 document types with streamlined dynamic update support for potential data contamination issues. Queries are grounded in exhaustively scanned evidence pages and verified by human experts to ensure maximum quality and completeness. Our comprehensive experiments across 9 state-of-the-art embedding models, 4 MLLMs and 4 end-to-end document RAG frameworks demonstrate the gap between text and visual embedding models is narrowing, highlighting the need in building stronger document retrieval models. Our findings also reveal the over-confidence dilemma within current document RAG frameworks that tend to provide answers even without evidence support. We hope our fully open-source DOUBLE-BENCH provides a rigorous foundation for future research in advanced document RAG systems. We plan to retrieve timely corpus and release new benchmarks on an annual basis.",
+    "Added By": "Zaid Alyafeai"
+}
