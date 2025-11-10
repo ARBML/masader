@@ -1,0 +1,49 @@
+{
+    "Name": "QADT",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/obadx/qdat",
+    "Link": "https://www.kaggle.com/datasets/annealdahi/quran-recitation",
+    "License": "MIT License",
+    "Year": 2021,
+    "Language": "ar",
+    "Dialect": "Classical Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "The audio files are manually annotated by expert to show the correctness of the Reciting the Quran with Tajwid according to three rules of recitation of Quran.",
+    "Volume": 1505.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        " Mosul University"
+    ],
+    "Derived From": [],
+    "Paper Title": "QDAT: A data set for Reciting the Quran",
+    "Paper Link": "https://www.researchgate.net/publication/350785609_QDAT_A_data_set_for_Reciting_the_Quran",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "ResearchGate",
+    "Venue Type": "preprint",
+    "Venue Name": "ResearchGate",
+    "Authors": [
+        "Hanaa Mohammed Osman",
+        "Ban Sharief Mustafa",
+        "Yusra Faisal"
+    ],
+    "Affiliations": [
+        " Mosul University"
+    ],
+    "Abstract": "Dataset are considered as an important part of any audio research and an important resource for speech processing. Availability of dataset in speech processing field is important. The effort and time needed to build a complete good dataset are very long. The available public dataset in Arabic language are very little. This paper presents the \"QDAT\" dataset of audio Arabic speech files. The audio files are manually annotated by expert to show the correctness of the Reciting the Quran with Tajwid according to three rules of recitation of Quran. The dataset can be used for training and classification models based on machine learning and deep learning algorithms",
+    "Added By": "Zaid Alyafeai"
+}
