@@ -23,21 +23,21 @@
         "AR-ASAG"
     ],
     "Paper Title": "MentorEval: A Multilingual Benchmark for Educational Assessment",
-    "Paper Link": "-",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
-    "Access": "With-Fee",
+    "Access": "Free",
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "other"
+        "answer grading"
     ],
-    "Venue Title": "-",
+    "Venue Title": "",
     "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],
-    "Abstract": "-",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
