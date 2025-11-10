@@ -1,0 +1,43 @@
+{
+    "Name": "Egyptian Arabic Text Summarization Dataset",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Omar-youssef/Egyptian-text-summarization",
+    "Link": "https://huggingface.co/datasets/Omar-youssef/Egyptian-text-summarization",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "This dataset contains text-summary pairs in Egyptian Arabic designed for training and evaluating text summarization models.",
+    "Volume": 3689.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "-",
+    "Paper Link": "-",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "summarization"
+    ],
+    "Venue Title": "-",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Omar Youssef"
+    ],
+    "Affiliations": [],
+    "Abstract": "-",
+    "Added By": "Zaid Alyafeai"
+}
