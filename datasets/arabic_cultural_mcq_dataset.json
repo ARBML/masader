@@ -1,0 +1,68 @@
+{
+    "Name": "Arabic Cultural MCQ Dataset ",
+    "Subsets": [
+        {
+            "Name": "Egyptian",
+            "Volume": 3018.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 3018.0,
+            "Unit": "sentences",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "Moroccan",
+            "Volume": 3018.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Levantine",
+            "Volume": 3018.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/Raniahossam33/Arabic_cultural_dataset",
+    "Link": "https://huggingface.co/datasets/Raniahossam33/Arabic_cultural_dataset",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "This dataset contains culturally-aware multiple-choice questions (MCQs) in various Arabic dialects, designed to test and evaluate language models' understanding of cultural nuances across different Arabic-speaking regions.",
+    "Volume": 12068.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "",
+    "Paper Link": "",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "multiple choice question answering"
+    ],
+    "Venue Title": "",
+    "Venue Type": "",
+    "Venue Name": "",
+    "Authors": [
+        "Rania hossam elbadry"
+    ],
+    "Affiliations": [],
+    "Abstract": "",
+    "Added By": "Zaid Alyafeai"
+}
