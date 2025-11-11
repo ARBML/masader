@@ -1,0 +1,56 @@
+{
+    "Name": "TunSwitch TO",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/tunis-ai/TunSwitch",
+    "Link": "https://zenodo.org/record/8370566",
+    "License": "CC BY 4.0",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Tunisia",
+    "Domain": [
+        "social media",
+        "public datasets"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "manual curation"
+    ],
+    "Description": "The tunisian only version of TunSwitch",
+    "Volume": 2.92,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Tunis Business School"
+    ],
+    "Derived From": [
+        "Tunisiya"
+    ],
+    "Paper Title": "Leveraging Data Collection and Unsupervised Learning for Code-Switched Tunisian Arabic Automatic Speech Recognition",
+    "Paper Link": "https://arxiv.org/pdf/2309.11327",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "zenodo",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Ahmed Amine Ben Abdallah",
+        "Ata Kabboudi",
+        "Amir Kanoun",
+        "Salah Zaiem"
+    ],
+    "Affiliations": [
+        "Tunis Business School",
+        "University of Michigan-Dearborn",
+        "Abshore",
+        "LTCI, T\u00e9l\u00e9com Paris, Institut Polytechnique de Paris"
+    ],
+    "Abstract": "Crafting an effective Automatic Speech Recognition (ASR) solution for dialects demands innovative approaches that not only address the data scarcity issue but also navigate the intricacies of linguistic diversity. In this paper, we address the aforementioned ASR challenge, focusing on the Tunisian dialect. First, textual and audio data is collected and in some cases annotated. Second, we explore self-supervision, semi-supervision and few-shot code-switching approaches to push the state-of-the-art on different Tunisian test sets; covering different acoustic, linguistic and prosodic conditions. Finally, and given the absence of conventional spelling, we produce a human evaluation of our transcripts to avoid the noise coming from spelling inadequacies in our testing references. Our models, allowing to transcribe audio samples in a linguistic mix involving Tunisian Arabic, English and French, and all the data used during training and testing are released for public use and further improvements.\n",
+    "Added By": "Zaid Alyafeai"
+}
