@@ -1,0 +1,43 @@
+{
+    "Name": "Afri-Aya",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/CohereLabsCommunity/afri-aya",
+    "Link": "https://huggingface.co/datasets/CohereLabsCommunity/afri-aya",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Egypt",
+    "Domain": [
+        "wikipedia"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "LLM generated"
+    ],
+    "Description": "Afri-Aya is a community-curated multilingual image dataset covering 13 major African languages with AI-powered categorization, created as part of Expedition Aya - a six-week global open-build challenge hosted by Cohere Labs.",
+    "Volume": 413.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "CohereLabs"
+    ],
+    "Derived From": [],
+    "Paper Title": "",
+    "Paper Link": "",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "image captioning"
+    ],
+    "Venue Title": "",
+    "Venue Type": "",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "",
+    "Added By": "Zaid Alyafeai"
+}
