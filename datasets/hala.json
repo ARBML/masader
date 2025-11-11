@@ -1,0 +1,60 @@
+{
+    "Name": "HALA",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/hammh0a/Hala-4.6M-SFT",
+    "Link": "https://huggingface.co/datasets/hammh0a/Hala-4.6M-SFT",
+    "License": "CC BY-NC 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets",
+        "LLM"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation",
+        "LLM generated"
+    ],
+    "Description": "The Hala Dataset is a large-scale Arabic-centric instruction tuning corpus, built by carefully curating widely-used English instruction datasets and translating them into Arabic using our lightweight Hala-1.2B-EN-AR Translator.",
+    "Volume": 4601054.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "KAUST"
+    ],
+    "Derived From": [
+        "Open-Orca",
+        "OPUS-100",
+        "Hermes-3",
+        "SCP-116K",
+        "ReAlign-Alpaca",
+        "LaMini",
+        "Tulu 3",
+        "Synthetic Instruct-GPT-J Pairwise"
+    ],
+    "Paper Title": "HALA Technical Report: Building Arabic-Centric Instruction & Translation Models at Scale",
+    "Paper Link": "https://arxiv.org/pdf/2509.14008",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "instruction tuning"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Hasan Abed AlKader Hammoud",
+        "Mohammad Zbeeb",
+        "Bernard Ghanem"
+    ],
+    "Affiliations": [
+        "King Abdullah University of Science and Technology"
+    ],
+    "Abstract": "We present Hala, a family of Arabic-centric instruction and translation models built with our translate-and-tune pipeline. We first compress a strong AR\u2194EN teacher to FP8 (yielding \u223c2\u00d7 higher throughput with no quality loss) and use it to create high-fidelity bilingual supervision. A lightweight language model LFM2-1.2B is then fine-tuned on this data and used to translate high-quality English instruction sets into Arabic, producing a million-scale corpus tailored to instruction following. We train Hala models at 350M, 700M, 1.2B, and 9B parameters, and apply slerp merging to balance Arabic specialization with base-model strengths. On Arabic-centric benchmarks, Hala achieves state-of-the-art results within both the \"nano\" (\u22642B) and \"small\" (7-9B) categories, outperforming their bases. We release models, data, evaluation, and recipes to accelerate research in Arabic NLP.",
+    "Added By": "Zaid Alyafeai"
+}
