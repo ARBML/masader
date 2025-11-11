@@ -1,0 +1,51 @@
+{
+    "Name": "ASLAD-190K",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/aboulesnane/ASLAD-190K",
+    "Link": "https://data.mendeley.com/datasets/2fgpn5dwgc/2",
+    "License": "CC BY 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "A dataset of 190,000 annotated RGB images of 32 Arabic sign-language letters and gestures collected under varied lighting, distance, and background conditions.",
+    "Volume": 190000.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Constantine 3",
+        "Abdelhamid Mehri Constantine 02 University"
+    ],
+    "Derived From": [],
+    "Paper Title": "ASLAD-190K: ARABIC SIGN LANGUAGE ALPHABET DATASET CONSISTING OF 190,000 IMAGES",
+    "Paper Link": "https://osf.io/preprints/osf/n236q_v2",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "sign language recognition"
+    ],
+    "Venue Title": "OSFPreprints",
+    "Venue Type": "preprint",
+    "Venue Name": "OSFPreprints",
+    "Authors": [
+        "Abdennour Boulesnane",
+        "Lyna Bellil",
+        "Maissoun Ghouzlen Ghiri"
+    ],
+    "Affiliations": [
+        "University of Constantine 3",
+        "Abdelhamid Mehri Constantine 02 University"
+    ],
+    "Abstract": "This paper presents ASLAD-190K, a comprehensive dataset comprising 190,000 annotated RGB images representing 32 distinct Arabic Sign Language letters and gestures. Designed to support machine learning and computer vision research, ASLAD-190K offers a diverse range of images collected under varying lighting conditions, distances, and backgrounds to simulate real-world complexities. Random Under-Sampling was applied to address dataset imbalance, yielding a balanced subset of 96,000 images. Additionally, key hand landmarks and 26 geometric angles were extracted to enhance gesture recognition. The dataset is publicly available at https://data.mendeley.com/datasets/2fgpn5dwgc/2 aiming to accelerate the development of assistive technologies for the Arabic-speaking deaf and hard-of-hearing community.",
+    "Added By": "Zaid Alyafeai"
+}
