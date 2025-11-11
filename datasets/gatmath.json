@@ -1,0 +1,50 @@
+{
+    "Name": "GATmath",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/smballaa/GATmath",
+    "Link": "https://huggingface.co/datasets/smballaa/GATmath",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Dataset derived from the General Aptitude Test (GAT) for evaluating LLMs' mathematical reasoning and language comprehension.",
+    "Volume": 7016.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Saud University"
+    ],
+    "Derived From": [],
+    "Paper Title": "GATmath and GATLc: Comprehensive benchmarks for evaluating Arabic large language models",
+    "Paper Link": "https://doi.org/10.1371/journal.pone.0329129",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "multiple choice question answering"
+    ],
+    "Venue Title": "PLOS ONE",
+    "Venue Type": "journal",
+    "Venue Name": "PLOS ONE",
+    "Authors": [
+        "Safa AlBallaa",
+        "Nora AlTwairesh",
+        "Abdulmalik AlSalman",
+        "Sultan Alfarhood"
+    ],
+    "Affiliations": [
+        "King Saud University"
+    ],
+    "Abstract": "The evolution of Large Language Models (LLMs) has significantly advanced artificial intelligence, driving innovation across various applications. Their continued development relies on a deep understanding of their capabilities and limitations. This is achieved primarily through rigorous evaluation based on diverse datasets. However, assessing state-of-the-art models in Arabic remains a formidable challenge due to the scarcity of comprehensive benchmarks. The absence of robust evaluation tools hinders the progress and refinement of Arabic LLMs and limits their potential applications and effectiveness in real-world scenarios. In response, we introduce the GATmath (7k questions) and GATLc (9k questions), two Arabic, large-scale, and multitask reasoning and language understanding benchmarks. Derived from the General Aptitude Test (GAT) examination, each dataset covers multiple categories, demanding skills in reasoning, semantic analysis, language comprehension, and mathematical problem-solving. To the best of our knowledge, our dataset is the first comprehensive and large-scale reasoning dataset specifically tailored to the Arabic language. We conducted a comprehensive evaluation and analysis of seven prominent LLMs on our datasets. Remarkably, even the highest-performing model attained a mere 66.9% and 64.3% accuracy, underscoring the considerable challenge posed by our datasets. This outcome illustrates the intricate nature of the tasks within our datasets and highlights the substantial room for improvement in the realm of Arabic language model development.",
+    "Added By": "Zaid Alyafeai"
+}
