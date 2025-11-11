@@ -1,0 +1,113 @@
+{
+    "Name": "NADI 2025 (ASR)",
+    "Subsets": [
+        {
+            "Name": "Algeria",
+            "Volume": 3200.0,
+            "Unit": "sentences",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "Egypt",
+            "Volume": 3200.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Mauritania",
+            "Volume": 3200.0,
+            "Unit": "sentences",
+            "Dialect": "Mauritania"
+        },
+        {
+            "Name": "Jordan",
+            "Volume": 3200.0,
+            "Unit": "sentences",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "Morocco",
+            "Volume": 3200.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Palestine",
+            "Volume": 3200.0,
+            "Unit": "sentences",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "UAE",
+            "Volume": 3200.0,
+            "Unit": "sentences",
+            "Dialect": "United Arab Emirates"
+        },
+        {
+            "Name": "Yemen",
+            "Volume": 3200.0,
+            "Unit": "sentences",
+            "Dialect": "Yemen"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/UBC-NLP/NADI2025_subtask2_ASR",
+    "Link": "https://huggingface.co/datasets/UBC-NLP/NADI2025_subtask2_ASR",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "This datasets is related to NADI-2015 Subtask-2: Multidialectal Arabic ASR.",
+    "Volume": 25600.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "UBC-NLP"
+    ],
+    "Derived From": [
+        "Casablanca"
+    ],
+    "Paper Title": "The First Multidialectal Arabic Speech Processing Shared Task",
+    "Paper Link": "https://arxiv.org/pdf/2509.02038",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Bashar Talafha",
+        "Hawau Olamide Toyin",
+        "Peter Sullivan",
+        "AbdelRahim Elmadany",
+        "Abdurrahman Juma",
+        "Amirbek Djanibekov",
+        "Chiyu Zhang",
+        "Hamad Alshehhi",
+        "Hanan Aldarmaki",
+        "Mustafa Jarrar",
+        "Nizar Habash",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "The University of British Columbia ",
+        "Hamad Bin Khalifa University",
+        "Birzeit University",
+        "MBZUAI ",
+        "NYU Abu Dhabi"
+    ],
+    "Abstract": "We present the findings of the sixth Nuanced Arabic Dialect Identification (NADI 2025) Shared Task, which focused on Arabic speech dialect processing across three subtasks: spoken dialect identification (Subtask 1), speech recognition (Subtask 2), and diacritic restoration for spoken dialects (Subtask 3). A total of 44 teams registered, and during the testing phase, 100 valid submissions were received from eight unique teams. The distribution was as follows: 34 submissions for Subtask 1 \"five teams\u00e6, 47 submissions for Subtask 2 \"six teams\", and 19 submissions for Subtask 3 \"two teams\". The best-performing systems achieved 79.8% accuracy on Subtask 1, 35.68/12.20 WER/CER (overall average) on Subtask 2, and 55/13 WER/CER on Subtask 3. These results highlight the ongoing challenges of Arabic dialect speech processing, particularly in dialect identification, recognition, and diacritic restoration. We also summarize the methods adopted by participating teams and briefly outline directions for future editions of NADI.",
+    "Added By": "Zaid Alyafeai"
+}
