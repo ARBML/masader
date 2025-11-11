@@ -52,7 +52,7 @@
     ],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/NADI2025_subtask2_ASR",
     "Link": "https://huggingface.co/datasets/UBC-NLP/NADI2025_subtask2_ASR",
-    "License": "unknown",
+    "License": "BigScience RAIL License",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
