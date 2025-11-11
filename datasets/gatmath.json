@@ -1,19 +1,6 @@
 {
     "Name": "GATmath",
-    "Subsets": [
-        {
-            "Name": "GATmath",
-            "Volume": 7016.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "GATLc",
-            "Volume": 9036.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/smballaa/GATmath",
     "Link": "https://huggingface.co/datasets/smballaa/GATmath",
     "License": "CC BY-NC-SA 4.0",
@@ -28,7 +15,7 @@
         "human annotation"
     ],
     "Description": "Dataset derived from the General Aptitude Test (GAT) for evaluating LLMs' mathematical reasoning and language comprehension.",
-    "Volume": 2722.0,
+    "Volume": 7016.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
