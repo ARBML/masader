@@ -1,0 +1,41 @@
+{
+    "Name": "Quran-Ayah-Corpus",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/rabah2026/Quran-Ayah-Corpus",
+    "Link": "https://huggingface.co/datasets/rabah2026/Quran-Ayah-Corpus",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Classical Arabic",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "yah-Corpus is a large-scale, multi-reciter Arabic speech dataset meticulously curated for Automatic Speech Recognition (ASR) tasks. It consists of high-quality audio recordings of Quranic verses (Ayahs) paired with their corresponding exact transcriptions. The audio is sourced from two primary repositories: Al-Quran.cloud and EveryAyah.com.",
+    "Volume": 263263.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "",
+    "Paper Link": "",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "",
+    "Venue Type": "",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "",
+    "Added By": "Zaid Alyafeai"
+}
