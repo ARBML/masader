@@ -1,0 +1,53 @@
+{
+    "Name": "WanJuan\u00b7SiLu Multimodal Multilingual Corpus (Audio)",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/opendatalab/WanJuanSiLu-Multimodal-5Languages",
+    "Link": "https://huggingface.co/datasets/opendatalab/WanJuanSiLu-Multimodal-5Languages",
+    "License": "CC BY 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
+    "Description": "Dual ASR verification of audio ensures ultra-high quality: This dataset uses audio-text data transcribed from the main streaming video media platform, cross-validated by Google and Microsoft dual commercial ASR engines to ensure high-precision text annotation, and combined with environmental noise elimination technology to improve sound quality",
+    "Volume": 200.0,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Shanghai Artificial Intelligence Laboratory"
+    ],
+    "Derived From": [],
+    "Paper Title": "OpenDataLab: Empowering General Artificial Intelligence with Open Datasets",
+    "Paper Link": "http://arxiv.org/pdf/2407.13773",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Conghui He",
+        "Wei Li",
+        "Zhenjiang Jin",
+        "Chao Xu",
+        "Bin Wang",
+        "Dahua Lin"
+    ],
+    "Affiliations": [
+        "Shanghai Artificial Intelligence Laboratory"
+    ],
+    "Abstract": "The advancement of artificial intelligence (AI) hinges on the quality and accessibility of data, yet the current fragmentation and variability of data sources hinder efficient data utilization. The dispersion of data sources and diversity of data formats often lead to inefficiencies in data retrieval and processing, significantly impeding the progress of AI research and applications. To address these challenges, this paper introduces OpenDataLab, a platform designed to bridge the gap between diverse data sources and the need for unified data processing. OpenDataLab integrates a wide range of open-source AI datasets and enhances data acquisition efficiency through intelligent querying and high-speed downloading services. The platform employs a next-generation AI Data Set Description Language (DSDL), which standardizes the representation of multimodal and multi-format data, improving interoperability and reusability. Additionally, OpenDataLab optimizes data processing through tools that complement DSDL. By integrating data with unified data descriptions and smart data toolchains, OpenDataLab can improve data preparation efficiency by 30\\%. We anticipate that OpenDataLab will significantly boost artificial general intelligence (AGI) research and facilitate advancements in related AI fields. For more detailed information, please visit the platform's official website: https://opendatalab.com/.\n",
+    "Added By": "Zaid Alyafeai"
+}
