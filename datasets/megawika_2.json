@@ -1,0 +1,49 @@
+{
+    "Name": "MegaWika 2",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/jhu-clsp/megawika-2",
+    "Link": "https://huggingface.co/datasets/jhu-clsp/megawika-2",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "wikipedia"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "MegaWika 2 is an improved multilingual text dataset containing a structured view of Wikipedia articles, the web sources they cite, source text quality estimates, article text translations, and additional article enrichments",
+    "Volume": 1000000.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "JHU-CLSP"
+    ],
+    "Derived From": [],
+    "Paper Title": "MegaWika 2: A More Comprehensive Multilingual Collection of Articles and their Sources",
+    "Paper Link": "https://arxiv.org/pdf/2508.03828",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Samuel Barham",
+        "Chandler May",
+        "Benjamin Van Durme"
+    ],
+    "Affiliations": [
+        "John Hopkins University"
+    ],
+    "Abstract": "We introduce MegaWika 2, a large, multilingual dataset of Wikipedia articles with their citations and scraped web sources; articles are represented in a rich data structure, and scraped source texts are stored inline with precise character offsets of their citations in the article text. MegaWika 2 is a major upgrade from the original MegaWika, spanning six times as many articles and twice as many fully scraped citations. Both MegaWika and MegaWika 2 support report generation research ; whereas MegaWika also focused on supporting question answering and retrieval applications, MegaWika 2 is designed to support fact checking and analyses across time and language.",
+    "Added By": "Zaid Alyafeai"
+}
