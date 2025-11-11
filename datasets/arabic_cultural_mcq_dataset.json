@@ -45,9 +45,9 @@
     "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
-    "Paper Title": "",
-    "Paper Link": "",
-    "Script": "Arab",
+    "Paper Title": "-",
+    "Paper Link": "-",
+    "Script": "Arab-Latin",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Upon-Request",
@@ -56,13 +56,13 @@
     "Tasks": [
         "multiple choice question answering"
     ],
-    "Venue Title": "",
-    "Venue Type": "",
+    "Venue Title": "-",
+    "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [
         "Rania hossam elbadry"
     ],
     "Affiliations": [],
-    "Abstract": "",
+    "Abstract": "-",
     "Added By": "Zaid Alyafeai"
 }
