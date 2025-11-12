@@ -1,0 +1,63 @@
+{
+    "Name": "MegaWika",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/hltcoe/megawika",
+    "Link": "https://huggingface.co/datasets/hltcoe/megawika",
+    "License": "CC BY-SA 4.0",
+    "Year": 2023,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "wikipedia",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
+    "Description": "A cross-lingual dataset of 128M QA pairs from 13M Wikipedia articles in 50 languages and their 71M web sources.",
+    "Volume": 5000000.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Johns Hopkins University"
+    ],
+    "Derived From": [],
+    "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+    "Paper Link": "https://arxiv.org/pdf/2307.07049",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Samuel Barham",
+        "Orion Weller",
+        "Michelle Yuan",
+        "Kenton Murray",
+        "Mahsa Yarmohammadi",
+        "Zhengping Jiang",
+        "Siddharth Vashishtha",
+        "Alexander Martin",
+        "Anqi Liu",
+        "Aaron Steven White",
+        "Jordan Boyd-Graber",
+        "Benjamin Van Durme"
+    ],
+    "Affiliations": [
+        "Johns Hopkins University",
+        "University of Maryland, College Park",
+        "University of Rochester",
+        "Amazon"
+    ],
+    "Abstract": "To foster the development of new models for collaborative AI-assisted report generation, we introduce MegaWika, consisting of 13 million Wikipedia articles in 50 diverse languages, along with their 71 million referenced source materials. We process this dataset for a myriad of applications, going beyond the initial Wikipedia citation extraction and web scraping of content, including translating non-English articles for cross-lingual applications and providing FrameNet parses for automated semantic analysis. MegaWika is the largest resource for sentence-level report generation and the only report generation dataset that is multilingual. We manually analyze the quality of this resource through a semantically stratified sample. Finally, we provide baseline results and trained models for crucial steps in automated report generation: cross-lingual question answering and citation retrieval.",
+    "Added By": "Zaid Alyafeai"
+}
