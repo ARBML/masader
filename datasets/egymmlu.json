@@ -1,31 +1,6 @@
 {
     "Name": "EgyMMLU",
-    "Subsets": [
-        {
-            "Name": "EGY-Wiki",
-            "Volume": 128710000.0,
-            "Unit": "tokens",
-            "Dialect": "Egypt"
-        },
-        {
-            "Name": "EGY-Fineweb-EDU-Translated",
-            "Volume": 2080000000.0,
-            "Unit": "tokens",
-            "Dialect": "Egypt"
-        },
-        {
-            "Name": "EGY-LHV-Synthetic",
-            "Volume": 398890000.0,
-            "Unit": "tokens",
-            "Dialect": "Egypt"
-        },
-        {
-            "Name": "MOR-Wiki",
-            "Volume": 1670000.0,
-            "Unit": "tokens",
-            "Dialect": "Morocco"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/EgyMMLU",
     "Link": "https://huggingface.co/datasets/UBC-NLP/EgyMMLU",
     "License": "MIT License",
