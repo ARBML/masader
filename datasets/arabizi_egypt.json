@@ -22,11 +22,12 @@
         "UBC-NLP"
     ],
     "Derived From": [
-        "fineweb-edu-Egypt "
+        "fineweb-edu-Egypt",
+        "LHV-Egypt"
     ],
     "Paper Title": "NileChat: Towards Linguistically Diverse and Culturally Aware LLMs for Local Communities",
     "Paper Link": "https://aclanthology.org/2025.emnlp-main.556.pdf",
-    "Script": "Arab",
+    "Script": "Latin",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
