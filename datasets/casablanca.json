@@ -67,7 +67,7 @@
     "Description": "The largest fully supervised Arabic dialect speech dataset with 48 hours of human-transcribed audio covering 8 dialects and multiple annotation layers.",
     "Volume": 47.89,
     "Unit": "hours",
-    "Ethical Risks": "Medium",
+    "Ethical Risks": "Low",
     "Provider": [
         "UBC-NLP"
     ],
