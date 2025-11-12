@@ -1,0 +1,136 @@
+{
+    "Name": "Casablanca",
+    "Subsets": [
+        {
+            "Name": "Algerian",
+            "Volume": 4.63,
+            "Unit": "hours",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 7.07,
+            "Unit": "hours",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Emirati",
+            "Volume": 6.0,
+            "Unit": "hours",
+            "Dialect": "United Arab Emirates"
+        },
+        {
+            "Name": "Jordanian",
+            "Volume": 6.0,
+            "Unit": "hours",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "Mauritanian",
+            "Volume": 5.83,
+            "Unit": "hours",
+            "Dialect": "Mauritania"
+        },
+        {
+            "Name": "Moroccan",
+            "Volume": 6.25,
+            "Unit": "hours",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Palestinian",
+            "Volume": 6.05,
+            "Unit": "hours",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "Yemeni",
+            "Volume": 6.05,
+            "Unit": "hours",
+            "Dialect": "Yemen"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/UBC-NLP/Casablanca",
+    "Link": "https://huggingface.co/datasets/UBC-NLP/Casablanca",
+    "License": "CC BY-NC-ND 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media",
+        "TV Channels"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "The largest fully supervised Arabic dialect speech dataset with 48 hours of human-transcribed audio covering 8 dialects and multiple annotation layers.",
+    "Volume": 47.89,
+    "Unit": "hours",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "UBC-NLP"
+    ],
+    "Derived From": [],
+    "Paper Title": "Casablanca: Data and Models for Multidialectal Arabic Speech Recognition",
+    "Paper Link": "https://arxiv.org/pdf/2410.04527",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "speech recognition",
+        "dialect identification"
+    ],
+    "Venue Title": "arxiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Bashar Talafha",
+        "Karima Kadaoui",
+        "Samar M. Magdy",
+        "Mariem Habiboullah",
+        "Chafei Mohamed",
+        "Ahmed O. El-Shangiti",
+        "Hiba Zayed",
+        "Mohamedou Cheikh Tourad",
+        "Rahaf Alhamouri",
+        "Rwaa Assi",
+        "Aisha Alraeesi",
+        "Hoor Mohamed",
+        "Fakhraddin Alwajih",
+        "Abdelrahman Mohamed",
+        "Abdellah El Mekki",
+        "ElMoatez Billah Nagoudi",
+        "Saadia Benelhadj",
+        "Hamzah A. Alsayadi",
+        "Walid Al-Dhabyani",
+        "Sara Shatnawi",
+        "Yasir Ech-chammakhy",
+        "Amal Makouar",
+        "Yousra Berrachedi",
+        "Mustafa Jarrar",
+        "Shady Shehata",
+        "Ismail Berrada",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "University of British Columbia",
+        "MBZUAI",
+        "Birzeit University",
+        "JUST",
+        "INSEA",
+        "Universit\u00e9 de Nouakchott",
+        "ESI",
+        "Ain Shams Univ.",
+        "Technische Hochschule Mittelhessen",
+        "UM6P",
+        "TEK-UP",
+        "Cairo University",
+        "InvertibleAI"
+    ],
+    "Abstract": "In spite of the recent progress in speech processing, the majority of world languages and dialects remain uncovered. This situation only furthers an already wide technological divide, thereby hindering technological and socioeconomic inclusion. This challenge is largely due to the absence of datasets that can empower diverse speech systems. In this paper, we seek to mitigate this obstacle for a number of Arabic dialects by presenting Casablanca, a large-scale community-driven effort to collect and transcribe a multi-dialectal Arabic dataset. The dataset covers eight dialects: Algerian, Egyptian, Emirati, Jordanian, Mauritanian, Moroccan, Palestinian, and Yemeni, and includes annotations for transcription, gender, dialect, and code-switching. We also develop a number of strong baselines exploiting Casablanca. The project page for Casablanca is accessible at: https://www.dlnlp.ai/speech/casablanca.",
+    "Added By": "Zaid Alyafeai"
+}
