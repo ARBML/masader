@@ -1,0 +1,64 @@
+{
+    "Name": "M-REWARDBENCH",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/CohereLabsCommunity/multilingual-reward-bench",
+    "Link": "https://huggingface.co/datasets/CohereLabsCommunity/multilingual-reward-bench",
+    "License": "ODC-By",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Multilingual reward-model evaluation benchmark with 2.87k preference instances across 23 languages.",
+    "Volume": 2870.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "CohereLabs"
+    ],
+    "Derived From": [
+        "RewardBench",
+        "MAPLE"
+    ],
+    "Paper Title": "M-REWARDBENCH: Evaluating Reward Models in Multilingual Settings",
+    "Paper Link": "https://arxiv.org/pdf/2410.15522",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "preference optimization"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Srishti Gureja",
+        "Lester James V. Miranda",
+        "Shayekh Bin Islam",
+        "Rishabh Maheshwary",
+        "Drishti Sharma",
+        "Gusti Winata",
+        "Nathan Lambert",
+        "Sebastian Ruder",
+        "Sara Hooker",
+        "Marzieh Fadaee"
+    ],
+    "Affiliations": [
+        "Cohere Labs",
+        "Allen Institute for AI",
+        "KAIST",
+        "ServiceNow",
+        "Cohere Labs Community",
+        "Meta"
+    ],
+    "Abstract": "Reward models (RMs) have driven the state-of-the-art performance of LLMs today by enabling the integration of human feedback into the language modeling process. However, RMs are primarily trained and evaluated in English, and their capabilities in multilingual settings remain largely understudied. In this work, we conduct a systematic evaluation of several reward models in multilingual settings. We first construct the first-of-its-kind multilingual RM evaluation benchmark, M-REWARDBENCH, consisting of 2.87k preference instances for 23 typologically diverse languages, that tests the chat, safety, reasoning, and translation capabilities of RMs. We then rigorously evaluate a wide range of reward models on M-REWARDBENCH, offering fresh insights into their performance across diverse languages. We identify a significant gap in RMs\u2019 performances between English and non-English languages and show that RM preferences can change substantially from one language to another. We also present several findings on how different multilingual aspects impact RM performance. Specifically, we show that the performance of RMs is improved with improved translation quality. Similarly, we demonstrate that the models exhibit better performance for high-resource languages. We release the M-REWARDBENCH dataset and the codebase in this study to facilitate a better understanding of RM evaluation in multilingual settings.",
+    "Added By": "Zaid Alyafeai"
+}
