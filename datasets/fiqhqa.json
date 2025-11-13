@@ -1,0 +1,53 @@
+{
+    "Name": "FiqhQA",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/MBZUAI/FiqhQA",
+    "Link": "https://huggingface.co/datasets/MBZUAI/FiqhQA",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Classical Arabic",
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "manual curation",
+        "human annotation"
+    ],
+    "Description": "A benchmark dataset of 960 Islamic question-answer pairs covering rulings from the four major Sunni schools of thought in Arabic and English.",
+    "Volume": 960.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Mohamed Bin Zayed University of AI"
+    ],
+    "Derived From": [],
+    "Paper Title": "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious Questions",
+    "Paper Link": "https://arxiv.org/pdf/2508.08287",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Farah Atif",
+        "Nursultan Askarbekuly",
+        "Kareem Darwish",
+        "Monojit Choudhury"
+    ],
+    "Affiliations": [
+        "Mohamed Bin Zayed University of AI",
+        "Innopolis University",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "Despite the increasing usage of Large Language Models (LLMs) in answering questions in a variety of domains, their reliability and accuracy remain unexamined for a plethora of domains including the religious domains. In this paper, we introduce a novel benchmark FiqhQA focused on the LLM generated Islamic rulings explicitly categorized by the four major Sunni schools of thought, in both Arabic and English. Unlike prior work, which either overlooks the distinctions between religious school of thought or fails to evaluate abstention behavior, we assess LLMs not only on their accuracy but also on their ability to recognize when not to answer. Our zero-shot and abstention experiments reveal significant variation across LLMs, languages, and legal schools of thought. While GPT-4o outperforms all other models in accuracy, Gemini and Fanar demonstrate superior abstention behavior critical for minimizing confident incorrect answers. Notably, all models exhibit a performance drop in Arabic, highlighting the limitations in religious reasoning for languages other than English. To the best of our knowledge, this is the first study to benchmark the efficacy of LLMs for fine-grained Islamic school of thought specific ruling generation and to evaluate abstention for Islamic jurisprudence queries. Our findings underscore the need for task-specific evaluation and cautious deployment of LLMs in religious applications.",
+    "Added By": "Zaid Alyafeai"
+}
