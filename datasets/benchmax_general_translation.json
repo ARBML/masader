@@ -23,7 +23,7 @@
     ],
     "Derived From": [
         "Flore-200",
-        " TED-talk",
+        "TED-talk",
         "WMT24"
     ],
     "Paper Title": "BenchMAX: A Comprehensive Multilingual Evaluation Suite for Large Language Models",
