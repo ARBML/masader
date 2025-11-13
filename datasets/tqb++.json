@@ -1,13 +1,6 @@
 {
     "Name": "TQB++",
-    "Subsets": [
-        {
-            "Name": "Arabic",
-            "Volume": 50.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/vincentkoc/tiny_qa_benchmark_pp",
     "Link": "https://github.com/vincentkoc/tiny_qa_benchmark_pp",
     "License": "custom",
