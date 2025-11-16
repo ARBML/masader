@@ -1,5 +1,5 @@
 {
-    "Name": "BenchMAX_Multiple_Functions ",
+    "Name": "BenchMAX_Multiple_Functions",
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Multiple_Functions",
     "Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Multiple_Functions",
@@ -33,7 +33,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "other"
+        "function calling"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
