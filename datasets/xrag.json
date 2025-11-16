@@ -1,31 +1,6 @@
 {
     "Name": "XRAG",
-    "Subsets": [
-        {
-            "Name": "German",
-            "Volume": 1000.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        },
-        {
-            "Name": "Spanish",
-            "Volume": 1000.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        },
-        {
-            "Name": "Chinese",
-            "Volume": 500.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        },
-        {
-            "Name": "Arabic",
-            "Volume": 500.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/AmazonScience/XRAG",
     "Link": "https://huggingface.co/datasets/AmazonScience/XRAG",
     "License": "CC BY-NC 4.0",
@@ -42,7 +17,7 @@
         "human annotation"
     ],
     "Description": "XRAG is a cross-lingual RAG benchmark covering German, Spanish, Chinese, and Arabic questions with English retrieval documents.",
-    "Volume": 3000.0,
+    "Volume": 1500.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
