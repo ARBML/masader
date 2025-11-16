@@ -1,0 +1,63 @@
+{
+    "Name": "MAPS",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Fujitsu-FRE/MAPS",
+    "Link": "https://huggingface.co/datasets/Fujitsu-FRE/MAPS",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Multilingual agentic AI benchmark suite extending 4 English benchmarks into 11 languages plus English, yielding 9 660 task instances for performance & security evaluation.",
+    "Volume": 805.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Fujitsu Research of Europe"
+    ],
+    "Derived From": [
+        "GAIA",
+        "SWE-bench",
+        "MATH",
+        "Agent Security Benchmark"
+    ],
+    "Paper Title": "MAPS: A Multilingual Benchmark for Agent Performance and Security",
+    "Paper Link": "https://arxiv.org/pdf/2505.15935",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Omer Hofman",
+        "Oren Rachmil",
+        "Shamik Bose",
+        "Vikas Pahuja",
+        "Jonathan Brokman",
+        "Toshiya Shimizu",
+        "Trisha Starostina",
+        "Kelly Marchisio",
+        "Seraphina Goldfarb-Tarrant",
+        "Roman Vainshtein"
+    ],
+    "Affiliations": [
+        "Fujitsu Research of Europe",
+        "Fujitsu Limited",
+        "Cohere"
+    ],
+    "Abstract": "Agentic AI systems, which build on Large Language Models (LLMs) and interact with tools and memory, have rapidly advanced in capability and scope. Yet, since LLMs have been shown to struggle in multilingual settings, typically resulting in lower performance and reduced safety, agentic systems risk inheriting these limitations. This raises concerns about the accessibility of such systems, as users interacting in languages other than English may encounter unreliable or security-critical agent behavior. Despite growing interest in evaluating agentic AI, existing benchmarks focus exclusively on English, leaving multilingual settings unexplored. To address this gap, we propose MAPS, a multilingual benchmark suite designed to evaluate agentic AI systems across diverse languages and tasks. MAPS builds on four widely used agentic benchmarks\u2014GAIA (real-world tasks), SWE-bench (code generation), MATH (mathematical reasoning), and the Agent Security Benchmark (security). We translate each dataset into eleven diverse languages, resulting in 805 unique tasks and 9 660 total language-specific instances\u2014enabling a systematic analysis of the multilingual effect on AI agents\u2019 performance and robustness. Empirically, we observe degradation in both performance and security when transitioning from English to other languages, with severity varying by task and correlating with the amount of translated input. Building on these findings, we provide actionable recommendations to guide agentic AI systems development and assessment under multilingual settings. This work establishes the first standardized evaluation framework for multilingual agentic AI, encouraging future research towards equitable, reliable, and accessible agentic AI. MAPS benchmark suite will become publicly available upon publication.",
+    "Added By": "Zaid Alyafeai"
+}
