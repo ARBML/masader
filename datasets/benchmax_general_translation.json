@@ -4,7 +4,7 @@
     "HF Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_General_Translation",
     "Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_General_Translation",
     "License": "CC BY 4.0",
-    "Year": 2024,
+    "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
@@ -50,7 +50,7 @@
         "Fei Yuan"
     ],
     "Affiliations": [
-        "National Key Laboratory for Novel Software Technology, Nanjing University",
+        "Nanjing University",
         "University of Zurich",
         "Shanghai Artificial Intelligence Laboratory",
         "Carnegie Mellon University"
