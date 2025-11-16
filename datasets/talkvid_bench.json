@@ -1,0 +1,61 @@
+{
+    "Name": "TalkVid-bench",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/FreedomIntelligence/TalkVid",
+    "Link": "https://huggingface.co/datasets/FreedomIntelligence/TalkVid",
+    "License": "CC BY-NC 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "videos",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "Large-scale high-quality 1244-hour video dataset of 7,729 speakers for audio-driven talking-head synthesis with diverse demographics and languages",
+    "Volume": 14.0,
+    "Unit": "videos",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "FreedomIntelligence"
+    ],
+    "Derived From": [],
+    "Paper Title": "TalkVid: A Large-Scale Diversified Dataset for Audio-Driven Talking Head Synthesis",
+    "Paper Link": "https://arxiv.org/pdf/2508.13618",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Shunian Chen",
+        "Hejin Huang",
+        "Yexin Liu",
+        "Zihan Ye",
+        "Pengcheng Chen",
+        "Chenghao Zhu",
+        "Michael Guan",
+        "Rongsheng Wang",
+        "Junying Chen",
+        "Guanbin Li",
+        "Ser-Nam Lim",
+        "Harry Yang",
+        "Benyou Wang"
+    ],
+    "Affiliations": [
+        "The Chinese University of Hong Kong",
+        "Sun Yat-sen University",
+        "The Hong Kong University of Science and Technology"
+    ],
+    "Abstract": "Audio-driven talking head synthesis has achieved remarkable photorealism, yet state-of-the-art (SOTA) models exhibit a critical failure: they lack generalization to the full spectrum of human diversity in ethnicity, language, and age-groups. We argue this generalization gap is a direct symptom of limitations in existing training data, which lack the necessary scale, quality, and diversity. To address this challenge, we introduce TalkVid, a new large-scale, high-quality, and diverse dataset containing 1244 hours of video from 7729 unique speakers. TalkVid is curated through a principled, multi-stage automated pipeline that rigorously filters for motion stability, aesthetic quality, and facial detail, and is validated against human judgments to ensure its reliability. Furthermore, we construct and release TalkVid-Bench, a stratified evaluation set of 500 clips meticulously balanced across key demographic and linguistic axes. Our experiments demonstrate that a model trained on TalkVid outperforms counterparts trained on previous datasets, exhibiting superior cross-dataset generalization. Crucially, our analysis on TalkVid-Bench reveals performance disparities across subgroups that are obscured by traditional aggregate metrics, underscoring its necessity for future research.",
+    "Added By": "Zaid Alyafeai"
+}
