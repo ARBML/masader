@@ -1,0 +1,79 @@
+{
+    "Name": "XRAG",
+    "Subsets": [
+        {
+            "Name": "German",
+            "Volume": 1000.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "Spanish",
+            "Volume": 1000.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "Chinese",
+            "Volume": 500.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "Arabic",
+            "Volume": 500.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/AmazonScience/XRAG",
+    "Link": "https://huggingface.co/datasets/AmazonScience/XRAG",
+    "License": "CC BY-NC 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "LLM generated",
+        "human annotation"
+    ],
+    "Description": "XRAG is a cross-lingual RAG benchmark covering German, Spanish, Chinese, and Arabic questions with English retrieval documents.",
+    "Volume": 3000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Amazon AGI"
+    ],
+    "Derived From": [],
+    "Paper Title": "XRAG: Cross-lingual Retrieval-Augmented Generation",
+    "Paper Link": "https://arxiv.org/pdf/2505.10089",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "retrieval-augmented generation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Wei Liu",
+        "Sony Trenous",
+        "Leonardo F. R. Ribeiro",
+        "Bill Byrne",
+        "Felix Hieber"
+    ],
+    "Affiliations": [
+        "Heidelberg Institute for Theoretical Studies",
+        "Amazon AGI"
+    ],
+    "Abstract": "We propose XRAG, a novel benchmark designed to evaluate the generation abilities of LLMs in cross-lingual Retrieval-Augmented Generation (RAG) settings where the user language does not match the retrieval results. XRAG is constructed from recent news articles to ensure that its questions require external knowledge to be answered. It covers the real-world scenarios of monolingual and multilingual retrieval, and provides relevancy annotations for each retrieved document. Our novel dataset construction pipeline results in questions that require complex reasoning, as evidenced by the significant gap between human and LLM performance. Consequently, XRAG serves as a valuable benchmark for studying LLM reasoning abilities, even before considering the additional cross-lingual complexity. Experimental results on five LLMs uncover two previously unreported challenges in cross-lingual RAG: 1) in the monolingual retrieval setting, all evaluated models struggle with response language correctness; 2) in the multilingual retrieval setting, the main challenge lies in reasoning over retrieved information across languages rather than generation of non-English text.",
+    "Added By": "Zaid Alyafeai"
+}
