@@ -23,7 +23,7 @@
     ],
     "Derived From": [
         "WildGuardMix",
-        "LMSys-Chat- 1M",
+        "LMSys-Chat-1M",
         "WildChat"
     ],
     "Paper Title": "PolyGuard: A Multilingual Safety Moderation Tool for 17 Languages",
