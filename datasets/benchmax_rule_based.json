@@ -1,0 +1,59 @@
+{
+    "Name": "BenchMAX_Rule-based",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Rule-based",
+    "Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Rule-based",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "BenchMAX_Domain_Translation is a dataset of BenchMAX, which evaluates the translation capability on specific domains.",
+    "Volume": 429.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Nanjing University"
+    ],
+    "Derived From": [
+        "IFEval"
+    ],
+    "Paper Title": "BenchMAX: A Comprehensive Multilingual Evaluation Suite for Large Language Models",
+    "Paper Link": "https://arxiv.org/pdf/2502.07346",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Xu Huang",
+        "Wenhao Zhu",
+        "Hanxu Hu",
+        "Conghui He",
+        "Lei Li",
+        "Shujian Huang",
+        "Fei Yuan"
+    ],
+    "Affiliations": [
+        "University of Zurich",
+        "Shanghai Artificial Intelligence Laboratory",
+        "Carnegie Mellon University",
+        "Nanjing University"
+    ],
+    "Abstract": "Previous multilingual benchmarks focus primarily on simple understanding tasks, but for large language models(LLMs), we emphasize proficiency in instruction following, reasoning, long context understanding, code generation, and so on. However, measuring these advanced capabilities across languages is underexplored. To address the disparity, we introduce BenchMAX, a multi-way multilingual evaluation benchmark that allows for fair comparisons of these important abilities across languages. To maintain high quality, three distinct native-speaking annotators independently annotate each sample within all tasks after the data was machine-translated from English into 16 other languages. Additionally, we present a novel translation challenge stemming from dataset construction. Extensive experiments on BenchMAX reveal varying effectiveness of core capabilities across languages, highlighting performance gaps that cannot be bridged by simply scaling up model size. BenchMAX serves as a comprehensive multilingual evaluation platform, providing a promising test bed to promote the development of multilingual language models. The dataset and code are publicly accessible.\n",
+    "Added By": "Zaid Alyafeai"
+}
