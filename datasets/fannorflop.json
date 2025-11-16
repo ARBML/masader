@@ -1,0 +1,58 @@
+{
+    "Name": "FannOrFlop",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/omkarthawakar/FannOrFlop",
+    "Link": "https://huggingface.co/datasets/omkarthawakar/FannOrFlop",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "LLM generated"
+    ],
+    "Description": "A curated Arabic poetry benchmark with explanations for evaluating LLMs across 12 historical eras and 14 poetic genres.",
+    "Volume": 6984.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "MBZUAI"
+    ],
+    "Derived From": [],
+    "Paper Title": "Fann or Flop: A Multigenre, Multiera Benchmark for Arabic Poetry Understanding in LLMs",
+    "Paper Link": "https://arxiv.org/pdf/2505.18152",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "text generation",
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Wafa Alghallabi",
+        "Ritesh Thawkar",
+        "Sara Ghaboura",
+        "Ketan More",
+        "Omkar Thawakar",
+        "Hisham Cholakkal",
+        "Salman Khan",
+        "Rao Muhammad Anwer"
+    ],
+    "Affiliations": [
+        "Mohamed bin Zayed University of AI",
+        "Australian National University",
+        "Aalto University"
+    ],
+    "Abstract": "Arabic poetry is one of the richest and most culturally rooted forms of expression in the Arabic language, known for its layered meanings, stylistic diversity, and deep historical continuity. Although large language models (LLMs) have demonstrated strong performance across languages and tasks, their ability to understand Arabic poetry remains largely unexplored. In this work, we introduce Fann or Flop, the first benchmark designed to assess the comprehension of Arabic poetry by LLMs in 12 historical eras, covering 14 core poetic genres and a variety of metrical forms, from classical structures to contemporary free verse. The benchmark comprises a curated corpus of poems with explanations that assess semantic understanding, metaphor interpretation, prosodic awareness, and cultural context. We argue that poetic comprehension offers a strong indicator for testing how good the LLM understands classical Arabic through Arabic poetry. Unlike surface-level tasks, this domain demands deeper interpretive reasoning and cultural sensitivity. Our evaluation of state-of-the-art LLMs shows that most models struggle with poetic understanding despite strong results on standard Arabic benchmarks. We release Fann or Flop along with the evaluation suite as an open-source resource to enable rigorous evaluation and advancement for Arabic language models.",
+    "Added By": "Zaid Alyafeai"
+}
