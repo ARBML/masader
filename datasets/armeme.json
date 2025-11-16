@@ -1,0 +1,56 @@
+{
+    "Name": "ArMeme",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/QCRI/ArMeme",
+    "Link": "https://huggingface.co/datasets/QCRI/ArMeme",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "crawling",
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "A manually annotated Arabic memes dataset of ~6K images for propaganda detection, compiled from Facebook, Instagram, Pinterest and Twitter.",
+    "Volume": 5725.0,
+    "Unit": "images",
+    "Ethical Risks": "High",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArMeme: Propagandistic Content in Arabic Memes",
+    "Paper Link": "https://aclanthology.org/2024.emnlp-main.1173.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Empirical Methods in Natural Language Processing Conference",
+    "Authors": [
+        "Firoj Alam",
+        "Abul Hasnat",
+        "Fatema Ahmad",
+        "Md Arid Hasan",
+        "Maram Hasanain"
+    ],
+    "Affiliations": [
+        "Blackbird.AI",
+        "APAVI.AI",
+        "University of New Brunswick",
+        "HBKU"
+    ],
+    "Abstract": "With the rise of digital communication memes have become a significant medium for cultural and political expression that is often used to mislead audience. Identification of such misleading and persuasive multimodal content become more important among various stakeholders, including social media platforms, policymakers, and the broader society as they often cause harm to the individuals, organizations and/or society. While there has been effort to develop AI based automatic system for resource rich languages (e.g., English), it is relatively little to none for medium to low resource languages. In this study, we focused on developing an Arabic memes dataset with manual annotations of propagandistic content. We annotated \u223c6K Arabic memes collected from various social media platforms, which is a first resource for Arabic multimodal research. We provide a comprehensive analysis aiming to develop computational tools for their detection. We made the dataset publicly available for the community.\n",
+    "Added By": "Zaid Alyafeai"
+}
