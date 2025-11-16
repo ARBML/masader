@@ -1,0 +1,55 @@
+{
+    "Name": "MemeXplain",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/QCRI/MemeXplain",
+    "Link": "https://github.com/MohamedBayan/MemeIntel",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated"
+    ],
+    "Description": "This dataset contains Arabic meme images with explanations for propaganda detection.",
+    "Volume": 5721.0,
+    "Unit": "images",
+    "Ethical Risks": "High",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "ArMeme"
+    ],
+    "Paper Title": "MemeIntel: Explainable Detection of Propagandistic and Hateful Memes",
+    "Paper Link": "https://arxiv.org/pdf/2502.16612",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Mohamed Bayan Kmainasi",
+        "Abul Hasnat",
+        "Md Arid Hasan",
+        "Ali Ezzat Shahroor",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "Blackbird.AI",
+        "APAVI.AI"
+    ],
+    "Abstract": "The proliferation of multimodal content on social media presents significant challenges in understanding and moderating complex, context-dependent issues such as misinformation, hate speech, and propaganda. While efforts have been made to develop resources and propose new methods for automatic detection, limited attention has been given to jointly modeling label detection and the generation of explanation-based rationales, which often leads to degraded classification performance when trained simultaneously. To address this challenge, we introduce MemeXplain, an explanation-enhanced dataset for propagandistic memes in Arabic and hateful memes in English, making it the first large-scale resource for these tasks. To solve these tasks, we propose a multi-stage optimization approach and train Vision-Language Models (VLMs). Our results show that this strategy significantly improves both label detection and explanation generation quality over the base model, outperforming the current state-of-the-art with an absolute improvement of \u223c1.4% (Acc) on ArMeme and \u223c2.2% (Acc) on HatefulMemes. For reproducibility and future research, we aim to make the MemeXplain dataset and scripts publicly available.",
+    "Added By": "Zaid Alyafeai"
+}
