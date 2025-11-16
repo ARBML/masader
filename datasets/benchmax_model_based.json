@@ -48,10 +48,10 @@
         "Fei Yuan"
     ],
     "Affiliations": [
+        "Nanjing University",
         "University of Zurich",
         "Shanghai Artificial Intelligence Laboratory",
-        "Carnegie Mellon University",
-        "Nanjing University"
+        "Carnegie Mellon University"
     ],
     "Abstract": "Previous multilingual benchmarks focus primarily on simple understanding tasks, but for large language models(LLMs), we emphasize proficiency in instruction following, reasoning, long context understanding, code generation, and so on. However, measuring these advanced capabilities across languages is underexplored. To address the disparity, we introduce BenchMAX, a multi-way multilingual evaluation benchmark that allows for fair comparisons of these important abilities across languages. To maintain high quality, three distinct native-speaking annotators independently annotate each sample within all tasks after the data was machine-translated from English into 16 other languages. Additionally, we present a novel translation challenge stemming from dataset construction. Extensive experiments on BenchMAX reveal varying effectiveness of core capabilities across languages, highlighting performance gaps that cannot be bridged by simply scaling up model size. BenchMAX serves as a comprehensive multilingual evaluation platform, providing a promising test bed to promote the development of multilingual language models. The dataset and code are publicly accessible.\n",
     "Added By": "Zaid Alyafeai"
