@@ -1,0 +1,51 @@
+{
+    "Name": "Small-Multilingual-Corpora ",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/m0pper/Small-Multilingual-Corpora",
+    "Link": "https://huggingface.co/datasets/m0pper/Small-Multilingual-Corpora",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "web pages",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "Small Multilingual Pretraining Copora used in the ICML 2025 Paper: Banyan: Improved Representation Learning with Explicit Structure",
+    "Volume": 600000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Edinburgh"
+    ],
+    "Derived From": [
+        "Leipzig Collection"
+    ],
+    "Paper Title": "Banyan: Improved Representation Learning with Explicit Structure",
+    "Paper Link": "https://arxiv.org/pdf/2407.17771",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "language modeling"
+    ],
+    "Venue Title": "ICML",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Machine Learning",
+    "Authors": [
+        "Mattia Opper",
+        "N. Siddharth"
+    ],
+    "Affiliations": [
+        "University of Edinburgh"
+    ],
+    "Abstract": "We present Banyan, a model that efficiently learns semantic representations by leveraging explicit hierarchical structure. While transformers excel at scale, they struggle in low-resource settings. Conversely recent structured models have shown promise as efficient learners, but lack performance. Banyan bridges this gap with two key innovations: an entangled hierarchical tree structure and diagonalized message passing, enabling it to outperform larger transformer models with just 14 non-embedding parameters. It excels in low-resource settings, offering a viable alternative for under-represented languages and highlighting its potential for efficient, interpretable NLP in resource-constrained environments.\n",
+    "Added By": "Zaid Alyafeai"
+}
