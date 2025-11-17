@@ -1,0 +1,91 @@
+{
+    "Name": "MADIS-5",
+    "Subsets": [
+        {
+            "Name": "Levantine",
+            "Volume": 1155.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 1131.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 966.0,
+            "Unit": "sentences",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "Maghrebi",
+            "Volume": 873.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Modern Standard Arabic",
+            "Volume": 729.0,
+            "Unit": "tokens",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/badrex/MADIS5-spoken-arabic-dialects",
+    "Link": "https://huggingface.co/datasets/badrex/MADIS5-spoken-arabic-dialects",
+    "License": "CC BY-NC-ND 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "TV Channels",
+        "public datasets",
+        "news articles",
+        "social media"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Multi-domain Arabic dialect speech benchmark with ~12 hours spanning radio, TV dramas, TEDx, theater content.",
+    "Volume": 4854.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Saarland University"
+    ],
+    "Derived From": [
+        "ADI-5",
+        "TEDx Arabic",
+        "SARA",
+        "radio.garden"
+    ],
+    "Paper Title": "Voice Conversion Improves Cross-Domain Robustness for Spoken Arabic Dialect Identification",
+    "Paper Link": "https://arxiv.org/pdf/2505.24713",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification"
+    ],
+    "Venue Title": "Interspeech",
+    "Venue Type": "conference",
+    "Venue Name": "Interspeech",
+    "Authors": [
+        "Badr M. Abdullah",
+        "Matthew Baas",
+        "Bernd M\u00f6bius",
+        "Dietrich Klakow"
+    ],
+    "Affiliations": [
+        "Saarland University",
+        "Camb.AI"
+    ],
+    "Abstract": "Arabic dialect identification (ADI) systems are essential for large-scale data collection pipelines that enable the development of inclusive speech technologies for Arabic language varieties. However, the reliability of current ADI systems is limited by poor generalization to out-of-domain speech. In this paper, we present an effective approach based on voice conversion for training ADI models that achieves state-of-the-art performance and significantly improves robustness in cross-domain scenarios. Evaluated on a newly collected real-world test set spanning four different domains, our approach yields consistent improvements of up to +34.1% in accuracy across domains. Furthermore, we present an analysis of our approach and demonstrate that voice conversion helps mitigate the speaker bias in the ADI dataset. We release our robust ADI model and cross-domain evaluation dataset to support the development of inclusive speech technologies for Arabic.\n",
+    "Added By": "Zaid Alyafeai"
+}
