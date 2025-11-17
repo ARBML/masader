@@ -1,0 +1,49 @@
+{
+    "Name": "CATT",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Bisher/CATT_benchmark",
+    "Link": "https://github.com/abjadai/catt",
+    "License": "Apache-2.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "Manually diacritized Arabic news sentences for evaluating Arabic Text Diacritization.",
+    "Volume": 742.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Abjad Ltd."
+    ],
+    "Derived From": [],
+    "Paper Title": "CATT: Character-based Arabic Tashkeel Transformer",
+    "Paper Link": "https://arxiv.org/pdf/2407.03236",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "diacritization"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Faris Alasmary",
+        "Orjuwan Zaafarani",
+        "Ahmad Ghannam"
+    ],
+    "Affiliations": [
+        "Abjad Ltd."
+    ],
+    "Abstract": "Tashkeel, or Arabic Text Diacritization (ATD), greatly enhances the comprehension of Arabic text by removing ambiguity and minimizing the risk of misinterpretations caused by its absence. It plays a crucial role in improving Arabic text processing, particularly in applications such as text-to-speech and machine translation. This paper introduces a new approach to training ATD models. First, we fine-tuned two transformers, encoder-only and encoder-decoder, that were initialized from a pretrained character-based BERT. Then, we applied the Noisy-Student approach to boost the performance of the best model. We evaluated our models alongside 11 commercial and open-source models using two manually labeled benchmark datasets: WikiNews and our CATT dataset. Our findings show that our top model surpasses all evaluated models by relative Diacritic Error Rates (DERs) of 30.83% and 35.21% on WikiNews and CATT, respectively, achieving state-of-the-art in ATD. In addition, we show that our model outperforms GPT-4-turbo on CATT dataset by a relative DER of 9.36%. We open-source our CATT models and benchmark dataset for the research community.",
+    "Added By": "Zaid Alyafeai"
+}
