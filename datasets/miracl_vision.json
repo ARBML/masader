@@ -1,0 +1,55 @@
+{
+    "Name": "MIRACL-VISION",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/nvidia/miracl-vision",
+    "Link": "https://huggingface.co/datasets/nvidia/miracl-vision",
+    "License": "CC BY-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "wikipedia"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Multilingual visual document retrieval benchmark extending MIRACL with Wikipedia page images for 18 languages.",
+    "Volume": 75444.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "NVIDIA"
+    ],
+    "Derived From": [
+        "MIRACL"
+    ],
+    "Paper Title": "MIRACL-VISION: A Large, multilingual, visual document retrieval benchmark",
+    "Paper Link": "https://arxiv.org/pdf/2505.11651",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "information retrieval",
+        "retrieval-augmented generation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Radek Osmulski",
+        "Gabriel de Souza P. Moreira",
+        "Ronay Ak",
+        "Mengyao Xu",
+        "Benedikt Schifferer",
+        "Even Oldridge"
+    ],
+    "Affiliations": [
+        "NVIDIA"
+    ],
+    "Abstract": "Document retrieval is an important task for search and Retrieval-Augmented Generation (RAG) applications. Large Language Models (LLMs) have contributed to improving the accuracy of text-based document retrieval. However, documents with complex layout and visual elements like tables, charts and infographics are not perfectly represented in textual format. Recently, image-based document retrieval pipelines have become popular, which use visual large language models (VLMs) to retrieve relevant page images given a query. Current evaluation benchmarks on visual document retrieval are limited, as they primarily focus only English language, rely on synthetically generated questions and offer a small corpus size. Therefore, we introduce MIRACL-VISION, a multilingual visual document retrieval evaluation benchmark. MIRACL-VISION covers 18 languages, and is an extension of the MIRACL dataset, a popular benchmark to evaluate text-based multilingual retrieval pipelines. MIRACL was built using a human-intensive annotation process to generate high-quality questions. In order to reduce MIRACL-VISION corpus size to make evaluation more compute friendly while keeping the datasets challenging, we have designed a method for eliminating the \"easy\" negatives from the corpus. We conducted extensive experiments comparing MIRACL-VISION with other benchmarks, using popular public text and image models. We observe a gap in state-of-the-art VLM-based embedding models on multilingual capabilities, with up to 59.7% lower retrieval accuracy than a text-based retrieval models. Even for the English language, the visual models retrieval accuracy is 12.1% lower compared to text-based models. MIRACL-VISION is a challenging, representative, multilingual evaluation benchmark for visual retrieval pipelines and will help the community build robust models for document retrieval.",
+    "Added By": "Zaid Alyafeai"
+}
