@@ -31,7 +31,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "other"
+        "diacritization"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
