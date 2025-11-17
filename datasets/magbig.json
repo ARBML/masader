@@ -33,7 +33,7 @@
     "Test Split": false,
     "Tasks": [
         "instruction tuning",
-        "other"
+        "gender bias detection"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
