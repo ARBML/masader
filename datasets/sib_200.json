@@ -1,0 +1,122 @@
+{
+    "Name": "SIB-200",
+    "Subsets": [
+  {
+    "Name": "arb_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Multiple Arab countries (MSA)"
+  },
+  {
+    "Name": "acm_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Iraq"
+  },
+  {
+    "Name": "acq_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Yemen"
+  },
+  {
+    "Name": "aeb_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Tunisia"
+  },
+  {
+    "Name": "ajp_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Levant"
+  },
+  {
+    "Name": "apc_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Levant"
+  },
+  {
+    "Name": "ars_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Saudi Arabia"
+  },
+  {
+    "Name": "ary_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Morocco"
+  },
+  {
+    "Name": "arz_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Egypt"
+  }
+]
+,
+    "HF Link": "https://huggingface.co/datasets/Davlan/sib200_14classes",
+    "Link": "https://github.com/dadelani/SIB-200",
+    "License": "CC BY-SA 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets",
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "A large-scale open-source benchmark dataset for topic classification in 200+ languages and dialects, based on Flores-200.",
+    "Volume": 1004.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "University College London",
+        "Masakhane",
+        "University of Toronto",
+        "Amazon Alexa AI"
+    ],
+    "Derived From": [
+        "Flores-200"
+    ],
+    "Paper Title": "SIB-200: A Simple, Inclusive, and Big Evaluation Dataset for Topic Classification in 200+ Languages and Dialects",
+    "Paper Link": "https://arxiv.org/pdf/2309.07445",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "topic classification"
+    ],
+    "Venue Title": "ACL 2023",
+    "Venue Type": "conference",
+    "Venue Name": "61st Annual Meeting of the Association for Computational Linguistics",
+    "Authors": [
+        "David Ifeoluwa Adelani",
+        "Hannah Liu",
+        "Xiaoyu Shen",
+        "Nikita Vassilyev",
+        "Jesujoba O. Alabi",
+        "Yanke Mao",
+        "Haonan Gao",
+        "En-Shiun Annie Lee"
+    ],
+    "Affiliations": [
+        "University College London",
+        "Masakhane",
+        "University of Toronto",
+        "Amazon Alexa AI",
+        "Saarland University",
+        "University of Ontario Institute of Technology"
+    ],
+    "Abstract": "Despite the progress we have recorded in the last few years in multilingual natural language processing, evaluation is typically limited to a small set of languages with available datasets which excludes a large number of low-resource languages. In this paper, we created SIB-200 -- a large-scale open-sourced benchmark dataset for topic classification in 200 languages and dialects to address the lack of evaluation dataset for Natural Language Understanding (NLU). For many of the languages covered in SIB-200, this is the first publicly available evaluation dataset for NLU. The dataset is based on Flores-200 machine translation corpus. We annotated the English portion of the dataset and extended the sentence-level annotation to the remaining 203 languages covered in the corpus. Despite the simplicity of this task, our evaluation in full-supervised setting, cross-lingual transfer setting and prompting of large language model setting show that there is still a large gap between the performance of high-resource and low-resource languages when multilingual evaluation is scaled to numerous world languages. We found that languages unseen during the pre-training of multilingual language models, under-represented language families (like Nilotic and Altantic-Congo), and languages from the regions of Africa, Americas, Oceania and South East Asia, often have the lowest performance on our topic classification dataset. We hope our dataset will encourage a more inclusive evaluation of multilingual language models on a more diverse set of languages. https://github.com/dadelani/sib-200\n",
+    "Added By": "Zaid Alyafeai"
+}
