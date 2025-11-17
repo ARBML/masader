@@ -1,0 +1,49 @@
+{
+    "Name": "AR-AES",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Rnghazawi-NLP/AR-AES",
+    "Link": "https://huggingface.co/datasets/Rnghazawi-NLP/AR-AES",
+    "License": "CC BY 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "The AR-AES dataset is the first publicly available resource designed to support research in Automated Essay Scoring (AES) for the Arabic language. It includes 2,046 manually graded essay responses collected from undergraduate students at Umm Al-Qura University in Makkah, Saudi Arabia, across a range of academic disciplines and essay types.",
+    "Volume": 2046.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Umm Al-Qura University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Automated essay scoring in Arabic: a dataset and analysis of a BERT-based system",
+    "Paper Link": "https://arxiv.org/pdf/2407.11212",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "answer grading"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Rayed Ghazawi",
+        "Edwin Simpson"
+    ],
+    "Affiliations": [
+        "Umm Al-Qura University"
+    ],
+    "Abstract": "Automated Essay Scoring (AES) holds significant promise in the field of education, helping educators to mark larger volumes of essays and provide timely feedback. However, Arabic AES research has been limited by the lack of publicly available essay data. This study introduces AR-AES, an Arabic AES benchmark dataset comprising 2046 undergraduate essays, including gender information, scores, and transparent rubric-based evaluation guidelines, providing comprehensive insights into the scoring process. These essays come from four diverse courses, covering both traditional and online exams. Additionally, we pioneer the use of AraBERT for AES, exploring its performance on different question types. We find encouraging results, particularly for Environmental Chemistry and source-dependent essay questions. For the first time, we examine the scale of errors made by a BERT-based AES system, observing that 96.15 percent of the errors are within one point of the first human marker's prediction, on a scale of one to five, with 79.49 percent of predictions matching exactly. In contrast, additional human markers did not exceed 30 percent exact matches with the first marker, with 62.9 percent within one mark. These findings highlight the subjectivity inherent in essay grading, and underscore the potential for current AES technology to assist human markers to grade consistently across large classes.\n",
+    "Added By": "Zaid Alyafeai"
+}
