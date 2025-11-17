@@ -1,0 +1,71 @@
+{
+    "Name": "M-ABSA",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Multilingual-NLP/M-ABSA",
+    "Link": "https://huggingface.co/datasets/Multilingual-NLP/M-ABSA",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "A multilingual parallel dataset for aspect-based sentiment analysis with 7 domains and 21 languages.",
+    "Volume": 14116.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "LMU Munich",
+        "South China Normal University"
+    ],
+    "Derived From": [
+        "Coursera",
+        "Amazon Food",
+        "TripAdvisor",
+        "Amazon Laptop",
+        "Phone Reviews",
+        "Restaurant",
+        "MIT OCW"
+    ],
+    "Paper Title": "M-ABSA: A Multilingual Dataset for Aspect-Based Sentiment Analysis",
+    "Paper Link": "https://arxiv.org/pdf/2502.11824",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Chengyan Wu",
+        "Bolei Ma",
+        "Yihong Liu",
+        "Zheyu Zhang",
+        "Ningyuan Deng",
+        "Yanshu Li",
+        "Baolan Chen",
+        "Yi Zhang",
+        "Yun Xue",
+        "Barbara Plank"
+    ],
+    "Affiliations": [
+        "South China Normal University",
+        "LMU Munich",
+        "Technical University of Munich",
+        "Renmin University of China",
+        "Brown University",
+        "ShanghaiTech University",
+        "FAU Erlangen-Nuremberg"
+    ],
+    "Abstract": "Aspect-based sentiment analysis (ABSA) is a crucial task in information extraction and sentiment analysis, aiming to identify aspects with associated sentiment elements in text. However, existing ABSA datasets are predominantly English-centric, limiting the scope for multilingual evaluation and research. To bridge this gap, we present M-ABSA, a comprehensive dataset spanning 7 domains and 21 languages, making it the most extensive multilingual parallel dataset for ABSA to date. Our primary focus is on triplet extraction, which involves identifying aspect terms, aspect categories, and sentiment polarities. The dataset is constructed through an automatic translation process with human review to ensure quality. We perform extensive experiments using various baselines to assess performance and compatibility on M-ABSA. Our empirical findings highlight that the dataset enables diverse evaluation tasks, such as multilingual and multi-domain transfer learning, and large language model evaluation, underscoring its inclusivity and its potential to drive advancements in multilingual ABSA research.",
+    "Added By": "Zaid Alyafeai"
+}
