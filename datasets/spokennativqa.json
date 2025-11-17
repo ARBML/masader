@@ -1,0 +1,54 @@
+{
+    "Name": "SpokenNativQA",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/QCRI/SpokenNativQA",
+    "Link": "https://huggingface.co/datasets/QCRI/SpokenNativQA",
+    "License": "CC BY-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "First multilingual culturally-aligned spoken QA dataset with ~33k real user questions/answers in Arabic and English for evaluating LLMs in conversational spoken settings.",
+    "Volume": 988.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "MultiNativQA"
+    ],
+    "Paper Title": "SpokenNativQA: Multilingual Everyday Spoken Queries for LLMs",
+    "Paper Link": "https://www.arxiv.org/pdf/2505.19163",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "question answering",
+        "speech recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Firoj Alam",
+        "Md Arid Hasan",
+        "Shammur Absar Chowdhury"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "University of New Brunswick"
+    ],
+    "Abstract": "Large Language Models (LLMs) have demonstrated remarkable performance across various disciplines and tasks. However, benchmarking their capabilities with multilingual spoken queries remains largely unexplored. In this study, we introduce SpokenNativQA, the first, multilingual and culturally aligned spoken question-answering (SQA) dataset designed to evaluate LLMs in real-world conversational settings. The dataset comprises approximately 33k naturally spoken questions and answers in multiple languages, including low-resource and dialect-rich languages, providing a robust benchmark for assessing LLM performance in speech-based interactions. SpokenNativQA addresses the limitations of text-based QA datasets by incorporating speech variability, accents, and linguistic diversity. We benchmark different ASR systems and LLMs for SQA and present our findings. We released the data and experimental scripts for the research community.",
+    "Added By": "Zaid Alyafeai"
+}
