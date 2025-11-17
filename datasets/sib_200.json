@@ -1,13 +1,62 @@
 {
     "Name": "SIB-200",
     "Subsets": [
-        {
-            "Name": "test",
-            "Volume": 0.0,
-            "Unit": "tokens",
-            "Dialect": "Classical Arabic"
-        }
-    ],
+  {
+    "Name": "arb_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Multiple Arab countries (MSA)"
+  },
+  {
+    "Name": "acm_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Iraq"
+  },
+  {
+    "Name": "acq_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Yemen"
+  },
+  {
+    "Name": "aeb_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Tunisia"
+  },
+  {
+    "Name": "ajp_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Levant"
+  },
+  {
+    "Name": "apc_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Levant"
+  },
+  {
+    "Name": "ars_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Saudi Arabia"
+  },
+  {
+    "Name": "ary_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Morocco"
+  },
+  {
+    "Name": "arz_Arab",
+    "Volume": 1430,
+    "Unit": "sentences",
+    "Dialect": "Egypt"
+  }
+]
+,
     "HF Link": "https://huggingface.co/datasets/Davlan/sib200_14classes",
     "Link": "https://github.com/dadelani/SIB-200",
     "License": "CC BY-SA 4.0",
