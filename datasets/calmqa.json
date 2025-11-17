@@ -1,0 +1,57 @@
+{
+    "Name": "CaLMQA",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/shanearora/CaLMQA",
+    "Link": "https://github.com/2015aroras/CaLMQA",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Multilingual long-form question-answering dataset with 51.7K culturally specific questions across 23 languages.",
+    "Volume": 5018.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Texas at Austin",
+        "New York University",
+        "University of Massachusetts Amherst"
+    ],
+    "Derived From": [],
+    "Paper Title": "CaLMQA: Exploring culturally specific long-form question answering across 23 languages",
+    "Paper Link": "https://arxiv.org/pdf/2406.17761",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Shane Arora",
+        "Marzena Karpinska",
+        "Hung-Ting Chen",
+        "Ipsita Bhattacharjee",
+        "Mohit Iyyer",
+        "Eunsol Choi"
+    ],
+    "Affiliations": [
+        "University of Texas at Austin",
+        "New York University",
+        "University of Massachusetts Amherst"
+    ],
+    "Abstract": "Despite rising global usage of large language models (LLMs), their ability to generate long-form answers to culturally specific questions remains unexplored in many languages. To fill this gap, we perform the first study of textual multilingual long-form QA by creating CALMQA, a dataset of 51.7K culturally specific questions across 23 different languages. We define culturally specific questions as those that refer to concepts unique to one or a few cultures, or have different answers depending on the cultural or regional context. We obtain these questions by crawling naturally-occurring questions from community web forums in high-resource languages, and by hiring native speakers to write questions in under-resourced, rarely-studied languages such as Fijian and Kirundi. Our data collection methodologies are translation-free, enabling the collection of culturally unique questions like \u2018Kuber iki umwami wa mbere w\u2019uburundi yitwa Ntare?\u2019 (Kirundi; English translation: \u201cWhy was the first king of Burundi called Ntare (Lion)?\u201d). We evaluate factuality, relevance and surface-level quality of LLM-generated long-form answers, finding that (1) for many languages, even the best models make critical surface-level errors (e.g., answering in the wrong language, repetition), especially for low-resource languages; and (2) answers to culturally specific questions contain more factual errors than answers to culturally agnostic questions\u2014questions that have consistent meaning and answer across many cultures. We release CALMQA to facilitate future research in cultural and multilingual long-form QA.",
+    "Added By": "Zaid Alyafeai"
+}
