@@ -1,0 +1,60 @@
+{
+    "Name": "ReceiptSense",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/abdoelsayed/CORU",
+    "Link": "https://github.com/Update-For-Integrated-Business-AI/CORU",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "machine annotation",
+        "human annotation"
+    ],
+    "Description": "A multilingual OCR dataset for Arabic-English receipt understanding with 20k annotated receipts, 30k OCR images, and 10k item-level annotations.",
+    "Volume": 20000.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "DISCO"
+    ],
+    "Derived From": [],
+    "Paper Title": "ReceiptSense: Beyond Traditional OCR - A Dataset for Receipt Understanding",
+    "Paper Link": "https://arxiv.org/pdf/2406.04493",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "optical character recognition",
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Abdelrahman Abdallah",
+        "Mohamed Mounis",
+        "Mahmoud Abdalla",
+        "Mahmoud Salah Eldin Kasem",
+        "Mohamed Mahmoud",
+        "Ibrahim Abdelhalim",
+        "Mohamed Elkasaby",
+        "Yasser Elbendary",
+        "Adam Jatowt"
+    ],
+    "Affiliations": [
+        "Innsbruck University",
+        "Chungbuk National University",
+        "DISCO",
+        "Louisville University"
+    ],
+    "Abstract": "Multilingual OCR and information extraction from receipts remains challenging, particularly for complex scripts like Arabic. We introduce \\dataset, a comprehensive dataset designed for Arabic-English receipt understanding comprising 20,000 annotated receipts from diverse retail settings, 30,000 OCR-annotated images, and 10,000 item-level annotations, and a new Receipt QA subset with 1265 receipt images paired with 40 question-answer pairs each to support LLM evaluation for receipt understanding. The dataset captures merchant names, item descriptions, prices, receipt numbers, and dates to support object detection, OCR, and information extraction tasks. We establish baseline performance using traditional methods (Tesseract OCR) and advanced neural networks, demonstrating the dataset's effectiveness for processing complex, noisy real-world receipt layouts. Our publicly accessible dataset advances automated multilingual document processing research (see https://github.com/Update-For-Integrated-Business-AI/CORU ).\n",
+    "Added By": "Zaid Alyafeai"
+}
