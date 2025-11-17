@@ -1,0 +1,68 @@
+{
+    "Name": "SadeedDiac-25",
+    "Subsets": [
+        {
+            "Name": "Classical Arabic",
+            "Volume": 600.0,
+            "Unit": "documents",
+            "Dialect": "Classical Arabic"
+        },
+        {
+            "Name": "Modern Standard Arabic",
+            "Volume": 600.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/Misraj/SadeedDiac-25",
+    "Link": "https://huggingface.co/datasets/Misraj/SadeedDiac-25",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation",
+        "human annotation"
+    ],
+    "Description": "SadeedDiac-25 is a comprehensive and linguistically diverse benchmark specifically designed for evaluating Arabic diacritization models. It unifies Modern Standard Arabic (MSA) and Classical Arabic (CA) in a single dataset, addressing key limitations in existing benchmarks.",
+    "Volume": 1200.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Misraj"
+    ],
+    "Derived From": [
+        "WikiNews"
+    ],
+    "Paper Title": "Sadeed: Advancing Arabic Diacritization Through Small Language Model",
+    "Paper Link": "https://arxiv.org/abs/2504.21677",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "diacritization"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Zeina Aldallal",
+        "Sara Chrouf",
+        "Khalil Hennara",
+        "Mohamed Motasim Hamed",
+        "Muhammad Hreden",
+        "Safwan AlModhayan"
+    ],
+    "Affiliations": [
+        "Misraj"
+    ],
+    "Abstract": "Arabic text diacritization remains a persistent challenge in natural language processing due to the language's morphological richness. In this paper, we introduce Sadeed, a novel approach based on a fine-tuned decoder-only language model adapted from Kuwain 1.5B Hennara et al. [2025], a compact model originally trained on diverse Arabic corpora. Sadeed is fine-tuned on carefully curated, high-quality diacritized datasets, constructed through a rigorous data-cleaning and normalization pipeline. Despite utilizing modest computational resources, Sadeed achieves competitive results compared to proprietary large language models and outperforms traditional models trained on similar domains. Additionally, we highlight key limitations in current benchmarking practices for Arabic diacritization. To address these issues, we introduce SadeedDiac-25, a new benchmark designed to enable fairer and more comprehensive evaluation across diverse text genres and complexity levels. Together, Sadeed and SadeedDiac-25 provide a robust foundation for advancing Arabic NLP applications, including machine translation, text-to-speech, and language learning tools.\n",
+    "Added By": "Zaid Alyafeai"
+}
