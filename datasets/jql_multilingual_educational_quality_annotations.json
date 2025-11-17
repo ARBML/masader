@@ -1,0 +1,75 @@
+{
+    "Name": "JQL Multilingual Educational Quality Annotations",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/JQL-AI/JQL-Human-Edu-Annotations",
+    "Link": "https://huggingface.co/datasets/JQL-AI/JQL-Human-Edu-Annotations",
+    "License": "ODC-By",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "Human-annotated ground-truth dataset for multilingual educational content quality scoring.",
+    "Volume": 511.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Lamarr Institute",
+        "Fraunhofer IAIS",
+        "DFKI SAINT",
+        "Hessian AI",
+        "TU Darmstadt"
+    ],
+    "Derived From": [
+        "Fineweb-Edu"
+    ],
+    "Paper Title": "Judging Quality Across Languages: A Multilingual Approach to Pretraining Data Filtering with Language Models",
+    "Paper Link": "https://arxiv.org/pdf/2505.22232",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Mehdi Ali",
+        "Manuel Brack",
+        "Max L\u00fcbbering",
+        "Elias Wendt",
+        "Abbas Goher Khan",
+        "Richard Rutmann",
+        "Alex Jude",
+        "Maurice Kraus",
+        "Alexander Arno Weber",
+        "David Kacz\u00e9r",
+        "Florian Mai",
+        "Lucie Flek",
+        "Rafet Sifa",
+        "Nicolas Flores-Herr",
+        "Joachim K\u00f6hler",
+        "Patrick Schramowski",
+        "Michael Fromm",
+        "Kristian Kersting"
+    ],
+    "Affiliations": [
+        "Lamarr Institute",
+        "Fraunhofer IAIS",
+        "DFKI SAINT",
+        "Hessian AI",
+        "TU Darmstadt"
+    ],
+    "Abstract": "High-quality multilingual training data is essential for effectively pretraining large language models (LLMs). Yet, the availability of suitable open-source multilingual datasets remains limited. Existing state-of-the-art datasets mostly rely on heuristic filtering methods, restricting both their cross-lingual transferability and scalability. Here, we introduce JQL, a systematic approach that efficiently curates diverse and high-quality multilingual data at scale while significantly reducing computational demands. JQL distills LLMs\u2019 annotation capabilities into lightweight annotators based on pretrained multilingual embeddings. These models exhibit robust multilingual and cross-lingual performance, even for languages and scripts unseen during training. Evaluated empirically across 35 languages, the resulting annotation pipeline substantially outperforms current heuristic filtering methods like Fineweb2. JQL notably enhances downstream model training quality and increases data retention rates. Our research provides practical insights and valuable resources for multilingual data curation, raising the standards of multilingual dataset development.",
+    "Added By": "Zaid Alyafeai"
+}
