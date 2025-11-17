@@ -1,0 +1,64 @@
+{
+    "Name": "MAGBIG",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/felfri/MAGBIG",
+    "Link": "https://huggingface.co/datasets/felfri/MAGBIG",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "LLM"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "LLM generated",
+        "human annotation"
+    ],
+    "Description": "Multilingual Assessment of Gender Bias in Image Generation with controlled prompts in nine languages.",
+    "Volume": 624.0,
+    "Unit": "images",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "TU Darmstadt"
+    ],
+    "Derived From": [],
+    "Paper Title": "Multilingual Text-to-Image Generation Magnifies Gender Stereotypes",
+    "Paper Link": "https://arxiv.org/pdf/2401.16092",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "instruction tuning",
+        "gender bias detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Felix Friedrich",
+        "Katharina H\u00e4mmerl",
+        "Patrick Schramowski",
+        "Manuel Brack",
+        "Jind\u0159ich Libovick\u00fd",
+        "Kristian Kersting",
+        "Alexander Fraser"
+    ],
+    "Affiliations": [
+        "TU Darmstadt",
+        "hessian.AI",
+        "Ontocord",
+        "Technical University of Munich",
+        "Munich Center of Machine Learning",
+        "CERTAIN",
+        "DFKI",
+        "Charles University of Pargue",
+        "Center of Congnitive Science ",
+        "Munich Data Science Institute"
+    ],
+    "Abstract": "Text-to-image (T2I) generation models have achieved great results in image quality, flexibility, and text alignment, leading to widespread use. Through improvements in multilingual abilities, a larger community can access this technology. Yet, we show that multilingual models suffer from substantial gender bias. Furthermore, the expectation that results should be similar across languages does not hold. We introduce MAGBIG, a controlled benchmark designed to study gender bias in multilingual T2I models, and use it to assess the impact of multilingualism on gender bias. To this end, we construct a set of multilingual prompts that offers a carefully controlled setting accounting for the complex grammatical differences influencing gender across languages. Our results show strong gender biases and notable language-specific differences across models. While we explore prompt engineering strategies to mitigate these biases, we find them largely ineffective and sometimes even detrimental to text-to-image alignment. Our analysis highlights the need for research on diverse language representations and greater control over bias in T2I models.",
+    "Added By": "Zaid Alyafeai"
+}
