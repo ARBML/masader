@@ -1,0 +1,139 @@
+{
+    "Name": "LinTO",
+    "Subsets": [
+        {
+            "Name": "TunSwitch-CS",
+            "Volume": 10.02,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "TunSwitch-TO",
+            "Volume": 3.33,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "AmeniKh",
+            "Volume": 4.08,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "ArbiHoussem",
+            "Volume": 3.83,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "MAKonyali",
+            "Volume": 3.45,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Storytelling",
+            "Volume": 27.28,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Theme-channels",
+            "Volume": 20.2,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "TV-radio",
+            "Volume": 7.8,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Misc-crawled",
+            "Volume": 4.13,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Shorts",
+            "Volume": 3.78,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "MASC-TN",
+            "Volume": 2.88,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "OneStory",
+            "Volume": 1.55,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Appr.LeTunisien",
+            "Volume": 0.63,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/linagora/linto-dataset-audio-ar-tn",
+    "Link": "https://huggingface.co/datasets/linagora/linto-dataset-audio-ar-tn",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Tunisia",
+    "Domain": [
+        "social media",
+        "TV Channels",
+        "public datasets"
+    ],
+    "Form": "videos",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
+    "Description": "Audio & textual datasets for Tunisian Arabic ASR with code-switching, augmentation and normalization.",
+    "Volume": 373.17,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "LINAGORA"
+    ],
+    "Derived From": [
+        "TunSwitch",
+        "MASC",
+        "TuDiCoI",
+        "TSAC",
+        "T-HSAB",
+        "BARD",
+        "Tunbert"
+    ],
+    "Paper Title": "LinTO Audio and Textual Datasets to Train and Evaluate Automatic Speech Recognition in Tunisian Arabic Dialect",
+    "Paper Link": "https://arxiv.org/pdf/2504.02604",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Hedi Naouara",
+        "Jean-Pierre Lorr\u00e9",
+        "J\u00e9r\u00f4me Louradour"
+    ],
+    "Affiliations": [
+        "LINAGORA"
+    ],
+    "Abstract": "Developing Automatic Speech Recognition (ASR) systems for Tunisian Arabic Dialect is challenging due to the dialect\u2019s linguistic complexity and the scarcity of annotated speech datasets. To address these challenges, we propose the LinTO audio and textual datasets \u2013 comprehensive resources that capture phonological and lexical features of Tunisian Arabic Dialect. These datasets include a variety of texts from numerous sources and real-world audio samples featuring diverse speakers and code-switching between Tunisian Arabic Dialect and English or French. By providing high-quality audio paired with precise transcriptions, the LinTO audio and textual datasets aim to provide qualitative material to build and benchmark ASR systems for the Tunisian Arabic Dialect.",
+    "Added By": "Zaid Alyafeai"
+}
