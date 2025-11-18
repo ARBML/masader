@@ -1,0 +1,55 @@
+{
+    "Name": "Deja-Vu",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/CohereLabs/deja-vu-pairwise-evals",
+    "Link": "https://huggingface.co/datasets/CohereLabs/deja-vu-pairwise-evals",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated"
+    ],
+    "Description": "Multilingual LLM evaluation benchmark comparing translations vs original prompts across 5 languages",
+    "Volume": 750.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Cohere Labs"
+    ],
+    "Derived From": [
+        "Aya human-annotated",
+        "mArenaHard"
+    ],
+    "Paper Title": "D\u00e9j\u00e0 Vu: Multilingual LLM Evaluation through the Lens of Machine Translation Evaluation",
+    "Paper Link": "https://arxiv.org/pdf/2504.11829",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "preference optimization"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Julia Kreutzer",
+        "Eleftheria Briakou",
+        "Sweta Agrawal",
+        "Marzieh Fadaee",
+        "Kocmi Tom"
+    ],
+    "Affiliations": [
+        "Cohere Labs",
+        "Google"
+    ],
+    "Abstract": "Generation capabilities and language coverage of multilingual large language models (mllms) are advancing rapidly. However, evaluation practices for generative abilities of mllms are still lacking comprehensiveness, scientific rigor, and consistent adoption across research labs, which undermines their potential to meaningfully guide mllm development. We draw parallels with machine translation (mt) evaluation, a field that faced similar challenges and has, over decades, developed transparent reporting standards and reliable evaluations for multilingual generative models. Through targeted experiments across key stages of the generative evaluation pipeline, we demonstrate how best practices from mt evaluation can deepen the understanding of quality differences between models. Additionally, we identify essential components for robust meta-evaluation of mllms, ensuring the evaluation methods themselves are rigorously assessed. We distill these insights into a checklist of actionable recommendations for mllm research and development.",
+    "Added By": "Zaid Alyafeai"
+}
