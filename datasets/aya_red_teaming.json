@@ -1,0 +1,55 @@
+{
+    "Name": "Aya Red-teaming",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/CohereForAI/aya_redteaming",
+    "Link": "https://huggingface.co/datasets/CohereForAI/aya_redteaming",
+    "License": "Apache-2.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "Multilingual red-teaming prompts in 8 languages distinguishing global vs local harms.",
+    "Volume": 900.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Cohere For AI"
+    ],
+    "Derived From": [],
+    "Paper Title": "The Multilingual Alignment Prism: Aligning Global and Local Preferences to Reduce Harm",
+    "Paper Link": "https://arxiv.org/pdf/2406.18682",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "safety evaluation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Aakanksha",
+        "Arash Ahmadian",
+        "Beyza Ermis",
+        "Seraphina Goldfarb-Tarrant",
+        "Julia Kreutzer",
+        "Marzieh Fadaee",
+        "Sara Hooker"
+    ],
+    "Affiliations": [
+        "Cohere For AI",
+        "Cohere"
+    ],
+    "Abstract": "A key concern with the concept of alignment is the implicit question of alignment to what? AI systems are increasingly used across the world, yet safety alignment is often focused on homogeneous monolingual settings. Additionally, preference training and safety measures often overfit to harms common in Western-centric datasets. Here, we explore the viability of different alignment approaches when balancing dual objectives: addressing and optimizing for a non-homogeneous set of languages and cultural preferences while minimizing both global and local harms. We collect the first set of human annotated red-teaming prompts in different languages distinguishing between global and local harm, which serve as a laboratory for understanding the reliability of alignment techniques when faced with preference distributions that are non-stationary across geographies and languages. While this setting is seldom covered by the literature to date, which primarily centers on English harm mitigation, it captures real-world interactions with AI systems around the world. We establish a new precedent for state-of-the-art alignment techniques across 6 languages with minimal degradation in general performance. Our work provides important insights into cross-lingual transfer and novel optimization approaches to safeguard AI systems designed to serve global populations.",
+    "Added By": "Zaid Alyafeai"
+}
