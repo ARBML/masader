@@ -1,13 +1,6 @@
 {
     "Name": "INCLUDE-base",
-    "Subsets": [
-        {
-            "Name": "Arabic",
-            "Volume": 15137.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/CohereForAI/include-base-44",
     "Link": "https://huggingface.co/datasets/CohereForAI/include-base-44",
     "License": "Apache-2.0",
@@ -22,16 +15,15 @@
     "Collection Style": [
         "human annotation"
     ],
-    "Description": "It contains 11,095 4-option multiple-choice-questions (MCQ) extracted from academic and professional exams, covering 57 topics, including regional knowledge.",
-    "Volume": 250.0,
+    "Description": "A large-scale multilingual benchmark of 197k MCQs from regional exams to test regional knowledge.",
+    "Volume": 582.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
         "CohereForAI"
     ],
     "Derived From": [
-        "ArabicMMLU",
-        "INCLUDE-lite"
+        "ArabicMMLU"
     ],
     "Paper Title": "Evaluating Multilingual Language Understanding with Regional Knowledge",
     "Paper Link": "https://arxiv.org/pdf/2411.19799",
