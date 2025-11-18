@@ -1,0 +1,62 @@
+{
+    "Name": "TransWebEdu",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "Link": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "License": "ODC-By",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "A multilingual dataset created by translating the English FineWeb-Edu corpus into 9 languages using NLLB-200-1.3B.",
+    "Volume": 311.35,
+    "Unit": "tokens",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "University College London",
+        "Together AI",
+        "Mila, McGill University"
+    ],
+    "Derived From": [
+        "FineWeb-Edu"
+    ],
+    "Paper Title": "Multilingual Language Model Pretraining using Machine-translated Data",
+    "Paper Link": "https://arxiv.org/pdf/2502.13252",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling",
+        "text generation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Jiayi Wang",
+        "Yao Lu",
+        "Maurice Weber",
+        "Max Ryabinin",
+        "David Adelani",
+        "Yihong Chen",
+        "Raphael Tang",
+        "Pontus Stenetorp"
+    ],
+    "Affiliations": [
+        "University College London",
+        "Together AI",
+        "Mila, McGill University",
+        "National Institute of Informatics"
+    ],
+    "Abstract": "High-resource languages such as English, enables the pretraining of high-quality large language models (LLMs). The same can not be said for most other languages as LLMs still underperform for non-English languages, likely due to a gap in the quality and diversity of the available multilingual pretraining corpora. In this work, we find that machine-translated texts from a single high-quality source language can contribute significantly to the pretraining quality of multilingual LLMs. We translate FineWeb-Edu, a high-quality English web dataset, into nine languages, resulting in a 1.7-trillion-token dataset, which we call TransWebEdu and pretrain a 1.3B-parameter model, TransWebLLM, from scratch on this dataset. Across nine non-English reasoning tasks, we show that TransWebLLM matches or outperforms state-of-the-art multilingual models trained using closed data, such as Llama3.2, Qwen2.5, and Gemma, despite using an order of magnitude less data. We demonstrate that adding less than 5% of TransWebEdu as domain-specific pretraining data sets a new state-of-the-art in Arabic, Italian, Indonesian, Swahili, and Welsh understanding and commonsense reasoning tasks. To promote reproducibility, we release our corpus, models, and training pipeline under Open Source Initiative-approved licenses.\n",
+    "Added By": "Zaid Alyafeai"
+}
