@@ -22,15 +22,16 @@
     "Collection Style": [
         "human annotation"
     ],
-    "Description": "A large-scale multilingual benchmark of 197k MCQs from regional exams to test regional knowledge.",
-    "Volume": 582.0,
+    "Description": "It contains 11,095 4-option multiple-choice-questions (MCQ) extracted from academic and professional exams, covering 57 topics, including regional knowledge.",
+    "Volume": 250.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
         "CohereForAI"
     ],
     "Derived From": [
-        "ArabicMMLU"
+        "ArabicMMLU",
+        "INCLUDE-lite"
     ],
     "Paper Title": "Evaluating Multilingual Language Understanding with Regional Knowledge",
     "Paper Link": "https://arxiv.org/pdf/2411.19799",
