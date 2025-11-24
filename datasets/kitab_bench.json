@@ -1,0 +1,78 @@
+{
+    "Name": "KITAB-Bench",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/ahmedheakl/arocrbench_khatt",
+    "Link": "https://huggingface.co/datasets/ahmedheakl/arocrbench_khatt",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets",
+        "LLM"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "manual curation",
+        "LLM generated",
+        "human annotation"
+    ],
+    "Description": "K\u0130TAB-Bench is a comprehensive multi-domain benchmark for evaluating Arabic OCR models. It includes 8, 809 document images covering nine domains and 36 sub-domains.",
+    "Volume": 200.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "MBZUAI",
+        "MontaAI",
+        "Link\u00f6ping University",
+        "Australian National University"
+    ],
+    "Derived From": [
+        "KHATT",
+        "IFN/ENIT",
+        "MIDAD",
+        "APTI",
+        "HistoryAr",
+        "EvAREST",
+        "Hindawi",
+        "PATS-A01",
+        "ADAB",
+        "Muharaf",
+        "BCE-Arabic-v1",
+        "DocLayNet"
+    ],
+    "Paper Title": "KITAB-Bench: A Comprehensive Multi-Domain Benchmark for Arabic OCR and Document Understanding",
+    "Paper Link": "https://arxiv.org/pdf/2502.14949",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Ahmed Heakl",
+        "Abdullah Sohail",
+        "Mukul Ranjan",
+        "Rania Hossam",
+        "Ghazi Ahmad",
+        "Mohamed El-Geish",
+        "Omar Maher",
+        "Zhiqiang Shen",
+        "Fahad Khan",
+        "Salman Khan"
+    ],
+    "Affiliations": [
+        "MBZUAI",
+        "MontaAI",
+        "Link\u00f6ping University",
+        "Australian National University"
+    ],
+    "Abstract": "With the growing adoption of Retrieval-\nAugmented Generation (RAG) in document\nprocessing, robust text recognition has become\nincreasingly critical for knowledge extraction.\nWhile OCR (Optical Character Recognition)\nfor English and other languages benefits from\nlarge datasets and well-established benchmarks,\nArabic OCR faces unique challenges due to its\ncursive script, right-to-left text flow, and com-\nplex typographic and calligraphic features. We\npresent KITAB-Bench, a comprehensive Ara-\nbic OCR benchmark that fills the gaps in cur-\nrent evaluation systems. Our benchmark com-\nprises 8,809 samples across 9 major domains\nand 36 subdomains, encompassing diverse doc-\nument types including handwritten text, struc-\ntured tables, and specialized coverage of 21\nchart types for business intelligence. Our find-\nings show that modern vision language mod-\nels (such as GPT-4o, Gemini, and Qwen) out-\nperform traditional OCR approaches (such as\nEasyOCR, PaddleOCR, and Surya) by an av-\nerage of 60% in the character error rate (CER).\nFurthermore, we highlight significant limita-\ntions of current Arabic OCR models, particu-\nlarly in PDF-to-Markdown conversion, where\nthe best model Gemini-2.0-Flash achieves only\n65% accuracy. This underscores the challenges\nof accurately recognizing Arabic text, includ-\ning issues with complex fonts, numeral recog-\nnition errors, word elongation, and table struc-\nture detection. This work establishes a rigorous\nevaluation framework that can drive improve-\nments in Arabic document analysis methods\nand bridge the performance gap with English\nOCR technologies.",
+    "Added By": "Zaid Alyafeai"
+}
