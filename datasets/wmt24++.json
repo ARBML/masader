@@ -1,0 +1,80 @@
+{
+    "Name": "WMT24++",
+    "Subsets": [
+        {
+            "Name": "ar_EG",
+            "Volume": 998.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "ar_SA",
+            "Volume": 998.0,
+            "Unit": "sentences",
+            "Dialect": "Saudi Arabia"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/google/wmt24pp",
+    "Link": "https://huggingface.co/datasets/google/wmt24pp",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Extended WMT24 benchmark covering 55 languages/dialects with human references and post-edits for evaluating MT and LLMs.",
+    "Volume": 1996.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Google",
+        "Unbabel"
+    ],
+    "Derived From": [
+        "WMT24"
+    ],
+    "Paper Title": "WMT24++: Expanding the Language Coverage of WMT24 to 55 Languages & Dialects",
+    "Paper Link": "https://arxiv.org/pdf/2502.12404",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Daniel Deutsch",
+        "Eleftheria Briakou",
+        "Isaac Caswell",
+        "Mara Finkelstein",
+        "Rebecca Galor",
+        "Juraj Juraska",
+        "Geza Kovacs",
+        "Alison Lui",
+        "Ricardo Rei",
+        "Jason Riesa",
+        "Shruti Rijhwani",
+        "Parker Riley",
+        "Elizabeth Salesky",
+        "Firas Trabelsi",
+        "Stephanie Winkler",
+        "Biao Zhang",
+        "Markus Freitag"
+    ],
+    "Affiliations": [
+        "Google",
+        "Unbabel"
+    ],
+    "Abstract": "As large language models (LLMs) become more capable in languages other than English, it is important to collect benchmark datasets in order to evaluate their multilingual performance, including on tasks like machine translation (MT). In this work, we extend the WMT24 dataset to cover 55 languages by collecting new human-written references and post-edits for 46 new languages and dialects in addition to post-edits of the references in 8 out of 9 languages in the original WMT24 dataset. The dataset covers four domains: literary, news, social, and speech. We benchmark a variety of MT providers and LLMs on the collected dataset using automatic metrics and find that LLMs are the best-performing MT systems in all 55 languages. These results should be confirmed using a human-based evaluation, which we leave for future work.",
+    "Added By": "Zaid Alyafeai"
+}
