@@ -1,0 +1,59 @@
+{
+    "Name": "Poly-FEVER",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/HanzhiZhang/Poly-FEVER",
+    "Link": "https://huggingface.co/datasets/HanzhiZhang/Poly-FEVER",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "wikipedia",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "A multilingual fact-verification benchmark with claims translated from English to 11 languages for hallucination detection in LLMs.",
+    "Volume": 77973.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of North Texas",
+        "Argonne National Laboratory"
+    ],
+    "Derived From": [
+        "FEVER",
+        "Climate-FEVER",
+        "SciFact"
+    ],
+    "Paper Title": "Poly-FEVER: A Multilingual Fact Verification Benchmark for Hallucination Detection in Large Language Models",
+    "Paper Link": "https://arxiv.org/pdf/2503.16541",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "hallucination detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Hanzhi Zhang",
+        "Sumera Anjum",
+        "Heng Fan",
+        "Weijian Zheng",
+        "Yan Huang",
+        "Yunhe Feng"
+    ],
+    "Affiliations": [
+        "University of North Texas",
+        "Argonne National Laboratory"
+    ],
+    "Abstract": "Hallucinations in generative AI, particularly in Large Language\nModels (LLMs), pose a significant challenge to the reliability of mul-\ntilingual applications. Existing benchmarks for hallucination detec-\ntion focus primarily on English and a few widely spoken languages,\nlacking the breadth to assess inconsistencies in model performance\nacross diverse linguistic contexts. To address this gap, we introduce\nPoly-FEVER, a large-scale multilingual fact verification benchmark\nspecifically designed for evaluating hallucination detection in LLMs.\nPoly-FEVER comprises 77,973 labeled factual claims spanning 11\nlanguages, sourced from FEVER, Climate-FEVER, and SciFact. It\nprovides the first large-scale dataset tailored for analyzing halluci-\nnation patterns across languages, enabling systematic evaluation of\nLLMs such as ChatGPT and the LLaMA series. Our analysis reveals\nhow topic distribution and web resource availability influence hal-\nlucination frequency, uncovering language-specific biases that im-\npact model accuracy. By offering a multilingual benchmark for fact\nverification, Poly-FEVER facilitates cross-linguistic comparisons of\nhallucination detection and contributes to the development of more\nreliable, language-inclusive AI systems. The dataset is publicly avail-\nable to advance research in responsible AI, fact-checking method-\nologies, and multilingual NLP, promoting greater transparency and\nrobustness in LLM performance. The proposed Poly-FEVER is avail-\nable at: https://huggingface.co/datasets/HanzhiZhang/Poly-FEVER.",
+    "Added By": "Zaid Alyafeai"
+}
