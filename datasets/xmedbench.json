@@ -54,7 +54,7 @@
         "Benyou Wang"
     ],
     "Affiliations": [
-        "The Chinese University of Hong Kong, Shenzhen",
+        "The Chinese University of Hong Kong",
         "Shenzhen Research Institute of Big Data"
     ],
     "Abstract": "Despite the vast repository of global medical knowledge predominantly being in English, local languages are crucial for delivering tailored healthcare services. To extend the reach of medical AI advancements to a broader population, we develop medical LLMs across the six most widely spoken languages, encompassing a global population of 6.1 billion. This effort culminates in the creation of the ApolloCorpora multilingual medical dataset and the XMedBench benchmark. The released Apollo models achieve the best performance among models of equivalent size, with Apollo-7B being the state-of-the-art multilingual medical LLM up to 70B. We will open-source training corpora, code, model weights and evaluation benchmark.",
