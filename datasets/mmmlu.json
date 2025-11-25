@@ -1,5 +1,5 @@
 {
-    "Name": "MMMLU ",
+    "Name": "MMMLU",
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/openai/MMMLU",
     "Link": "https://huggingface.co/datasets/openai/MMMLU",
@@ -14,16 +14,18 @@
     "Collection Style": [
         "human annotation"
     ],
-    "Description": "Translated the MMLU\u2019s test set into 14 languages using professional human translators. ",
+    "Description": "Translated the MMLU\u2019s test set into 14 languages using professional human translators.",
     "Volume": 14000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
         "openai"
     ],
-    "Derived From": [],
-    "Paper Title": "-",
-    "Paper Link": "-",
+    "Derived From": [
+        "MMLU"
+    ],
+    "Paper Title": "",
+    "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -33,11 +35,11 @@
     "Tasks": [
         "multiple choice question answering"
     ],
-    "Venue Title": "-",
-    "Venue Type": "preprint",
-    "Venue Name": "-",
+    "Venue Title": "",
+    "Venue Type": "",
+    "Venue Name": "",
     "Authors": [],
     "Affiliations": [],
-    "Abstract": "-",
+    "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }
