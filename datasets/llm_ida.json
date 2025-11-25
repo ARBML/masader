@@ -1,0 +1,62 @@
+{
+    "Name": "llm-ida",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/aida-ugent/llm-ideology-analysis",
+    "Link": "https://huggingface.co/datasets/aida-ugent/llm-ideology-analysis",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "wikipedia",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Moral judgments of 19 LLMs on 3,991 contemporary political figures in 6 UN languages.",
+    "Volume": 43000.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Ghent University",
+        "Public University of Navarre"
+    ],
+    "Derived From": [
+        "Pantheon dataset"
+    ],
+    "Paper Title": "Large Language Models Reflect the Ideology of Their Creators",
+    "Paper Link": "https://arxiv.org/pdf/2410.18417",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Maarten Buyl",
+        "Alexander Rogiers",
+        "Sander Noels",
+        "Guillaume Bied",
+        "Iris Dominguez-Catena",
+        "Edith Heiter",
+        "Iman Johary",
+        "Alexandru-Cristian Mara",
+        "Rapha\u00ebl Romero",
+        "Jefrey Lijffijt",
+        "Tijl De Bie"
+    ],
+    "Affiliations": [
+        "Ghent University",
+        "Public University of Navarre"
+    ],
+    "Abstract": "Large language models (LLMs) are trained on vast amounts of data to generate natural language, enabling them to perform tasks like text summarization and question answering. These models have become popular in artificial intelligence (AI) assistants like ChatGPT and already play an influential role in how humans access information. However, the behavior of LLMs varies depending on their design, training, and use. In this paper, we prompt a diverse panel of popular LLMs to describe a large number of prominent personalities with political relevance, in all six official languages of the United Nations. By identifying and analyzing moral assessments reflected in their responses, we find normative differences between LLMs from different geopolitical regions, as well as between the responses of the same LLM when prompted in different languages. Among only models in the United States, we find that popularly hypothesized disparities in political views are reflected in significant normative differences related to progressive values. Among Chinese models, we characterize a division between internationally- and domestically-focused models. Our results show that the ideological stance of an LLM appears to reflect the worldview of its creators. This poses the risk of political instrumentalization and raises concerns around technological and regulatory efforts with the stated aim of making LLMs ideologically \u2018unbiased\u2019.",
+    "Added By": "Zaid Alyafeai"
+}
