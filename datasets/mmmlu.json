@@ -1,0 +1,45 @@
+{
+    "Name": "MMMLU",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/openai/MMMLU",
+    "Link": "https://huggingface.co/datasets/openai/MMMLU",
+    "License": "MIT License",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Translated the MMLU\u2019s test set into 14 languages using professional human translators.",
+    "Volume": 14000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "openai"
+    ],
+    "Derived From": [
+        "MMLU"
+    ],
+    "Paper Title": "",
+    "Paper Link": "",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "multiple choice question answering"
+    ],
+    "Venue Title": "",
+    "Venue Type": "",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "",
+    "Added By": "Zaid Alyafeai"
+}
