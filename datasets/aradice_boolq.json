@@ -2,19 +2,19 @@
     "Name": " AraDiCE-BoolQ ",
     "Subsets": [
         {
-            "Name": "OBQA-egy",
+            "Name": "BoolQ-egy",
             "Volume": 984.0,
             "Unit": "sentences",
             "Dialect": "Egypt"
         },
         {
-            "Name": "OBQA-lev",
+            "Name": "BoolQ-lev",
             "Volume": 984.0,
             "Unit": "sentences",
             "Dialect": "Levant"
         },
         {
-            "Name": "OBQA-msa",
+            "Name": "BoolQ-msa",
             "Volume": 984.0,
             "Unit": "sentences",
             "Dialect": "Modern Standard Arabic"
