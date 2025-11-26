@@ -41,7 +41,9 @@
     "Provider": [
         "QCRI"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "OpenBookQA"
+    ],
     "Paper Title": "ARADICE: Benchmarks for Dialectal and Cultural Capabilities in LLMs",
     "Paper Link": "https://arxiv.org/pdf/2409.11404",
     "Script": "Arab",
