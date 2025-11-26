@@ -1,6 +1,25 @@
 {
     "Name": " AraDiCE-BoolQ ",
-    "Subsets": [],
+    "Subsets": [
+        {
+            "Name": "OBQA-egy",
+            "Volume": 984.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "OBQA-lev",
+            "Volume": 984.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "OBQA-msa",
+            "Volume": 984.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
     "HF Link": "https://huggingface.co/datasets/QCRI/AraDiCE-BoolQ",
     "Link": "https://huggingface.co/datasets/QCRI/AraDiCE-BoolQ",
     "License": "CC BY-NC-SA 4.0",
@@ -16,7 +35,7 @@
         "machine annotation"
     ],
     "Description": "The dataset consists of post-edited versions of various benchmark datasets, curated for validation in cultural and dialectal contexts relevant to Arabic.",
-    "Volume": 892.0,
+    "Volume": 1968.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
