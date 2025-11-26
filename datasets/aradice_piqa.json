@@ -34,7 +34,7 @@
         "human annotation",
         "machine annotation"
     ],
-    "Description": "The dataset consists of post-edited versions of various benchmark datasets, curated for validation in cultural and dialectal contexts relevant to Arabic. In this repository, we present the OpenBookQA split of the data.",
+    "Description": "The dataset consists of post-edited versions of various benchmark datasets, curated for validation in cultural and dialectal contexts relevant to Arabic. In this repository, we present the PIQA split of the data.",
     "Volume": 5520.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
