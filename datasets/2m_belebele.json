@@ -1,0 +1,60 @@
+{
+    "Name": "2M-BELEBELE",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/facebook/2M-Belebele",
+    "Link": "https://github.com/facebookresearch/belebele",
+    "License": "CC BY-SA 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Multilingual speech and ASL comprehension dataset extending BELEBELE to 75 languages.",
+    "Volume": 2000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Meta"
+    ],
+    "Derived From": [
+        "BELEBELE",
+        "FLEURS",
+        "FLORES-200"
+    ],
+    "Paper Title": "2M-BELEBELE: Highly Multilingual Speech and American Sign Language Comprehension Dataset",
+    "Paper Link": "https://arxiv.org/pdf/2412.08274",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Marta R. Costa-juss\u00e0",
+        "Bokai Yu",
+        "Pierre Andrews",
+        "Belen Alastruey",
+        "Necati Cihan Camgoz",
+        "Joe Chuang",
+        "Jean Maillard",
+        "Christophe Ropers",
+        "Arina Turkantenko",
+        "Carleigh Wood"
+    ],
+    "Affiliations": [
+        "FAIR, Meta"
+    ],
+    "Abstract": "We introduce the first highly multilingual speech and American Sign Language (ASL) comprehension dataset by extending BELEBELE. Our dataset covers 74 spoken languages at the intersection of BELEBELE and FLEURS, and one sign language (ASL). We evaluate 2M-BELEBELE dataset for both 5-shot and zero-shot settings and across languages, the speech comprehension accuracy is \u2248 2-3% average lower compared to reading comprehension.",
+    "Added By": "Zaid Alyafeai"
+}
