@@ -1,5 +1,5 @@
 {
-    "Name": " Arabic-NLi-Pair ",
+    "Name": " Arabic-NLi-Pair",
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Pair",
     "Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Pair",
@@ -22,7 +22,7 @@
         "Prince Sultan University"
     ],
     "Derived From": [
-        "SNLI ",
+        "SNLI",
         "MultiNLI"
     ],
     "Paper Title": "Enhancing Semantic Similarity Understanding in Arabic NLP with Nested Embedding Learning",
