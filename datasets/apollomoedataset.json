@@ -1,0 +1,54 @@
+{
+    "Name": "ApolloMoEDataset",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/FreedomIntelligence/ApolloMoEDataset",
+    "Link": "https://huggingface.co/datasets/FreedomIntelligence/ApolloMoEDataset",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "books",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "LLM generated"
+    ],
+    "Description": "A high-quality multilingual medical dataset covering 50 languages for democratizing medical LLMs.",
+    "Volume": 18700000.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "FreedomIntelligence"
+    ],
+    "Derived From": [],
+    "Paper Title": "Efficiently Democratizing Medical LLMs for 50 Languages via a Mixture of Language Family Experts",
+    "Paper Link": "https://arxiv.org/pdf/2410.10626",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "ICLR",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Representation",
+    "Authors": [
+        "Guorui Zheng",
+        "Xidong Wang",
+        "Juhao Liang",
+        "Nuo Chen",
+        "Yuping Zheng",
+        "Benyou Wang"
+    ],
+    "Affiliations": [
+        "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "Abstract": "Adapting medical Large Language Models to local languages can reduce barriers to accessing healthcare services, but data scarcity remains a significant challenge, particularly for low-resource languages. To address this, we first construct a high-quality medical dataset and conduct analysis to ensure its quality. In order to leverage the generalization capability of multilingual LLMs to efficiently scale to more resource-constrained languages, we explore the internal information flow of LLMs from a multilingual perspective using Mixture of Experts (MoE) modularity. Technically, we propose a novel MoE routing method that employs language-specific experts and cross-lingual routing. Inspired by circuit theory, our routing analysis revealed a \u201cSpread Out in the End\u201d information flow mechanism: while earlier layers concentrate cross-lingual information flow, the later layers exhibit language-specific divergence. This insight directly led to the development of the Post-MoE architecture, which applies sparser routing only in the later layers while maintaining dense others. Experimental results demonstrate that this approach enhances the generalization of multilingual models to other languages while preserving interpretability. Finally, to efficiently scale the model to 50 languages, we introduce the concept of language family experts, drawing on linguistic priors, which enables scaling the number of languages without adding additional parameters.",
+    "Added By": "Zaid Alyafeai"
+}
