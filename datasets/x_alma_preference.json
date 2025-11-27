@@ -1,0 +1,56 @@
+{
+    "Name": " X-ALMA-Preference ",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/haoranxu/X-ALMA-Preference",
+    "Link": "https://huggingface.co/datasets/haoranxu/X-ALMA-Preference",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "LLM"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated"
+    ],
+    "Description": "Multilingual parallel dataset for 50 languages created for training the X-ALMA translation model, containing preference data and high-quality parallel sentences.",
+    "Volume": 7720.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Microsoft",
+        "Johns Hopkins University",
+        "Amazon"
+    ],
+    "Derived From": [],
+    "Paper Title": "X-ALMA: Plug & Play Modules and Adaptive Rejection for Quality Translation at Scale",
+    "Paper Link": "https://arxiv.org/abs/2504.21677",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "preference optimization"
+    ],
+    "Venue Title": "ICLR",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Learning Representations",
+    "Authors": [
+        "Haoran Xu",
+        "Kenton Murray",
+        "Philipp Koehn",
+        "Hieu Hoang",
+        "Akiko I. Eriguchi",
+        "Huda Khayrallah"
+    ],
+    "Affiliations": [
+        "Microsoft",
+        "Johns Hopkins University",
+        "Amazon"
+    ],
+    "Abstract": "Large language models (LLMs) have achieved remarkable success across various NLP tasks with a focus on English due to English-centric pre-training and limited multilingual data. In this work, we focus on the problem of translation, and while some multilingual LLMs claim to support for hundreds of languages, models often fail to provide high-quality responses for mid- and low-resource languages, leading to imbalanced performance heavily skewed in favor of high-resource languages. We introduce X-ALMA, a model designed to ensure top-tier performance across 50 diverse languages, regardless of their resource levels. X-ALMA surpasses state-of-the-art open-source multilingual LLMs, such as Aya-101 and Aya-23, in every single translation direction on the FLORES-200 and WMT\u201923 test datasets according to COMET-22. This is achieved by plug-and-play language-specific module architecture to prevent language conflicts during training and a carefully designed training regimen with novel optimization methods to maximize the translation performance. After the final stage of training regimen, our proposed Adaptive-Rejection Preference Optimization (ARPO) surpasses existing preference optimization methods in translation tasks.",
+    "Added By": "Zaid Alyafeai"
+}
