@@ -1,5 +1,5 @@
 {
-    "Name": "Arabic-NLi-Triplet ",
+    "Name": "Arabic-NLi-Triplet",
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Triplet",
     "Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Triplet",
@@ -34,7 +34,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "embedding evaluation"
+        "natural language inference"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
