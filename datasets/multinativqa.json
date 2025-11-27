@@ -1,0 +1,82 @@
+{
+    "Name": "MultiNativQA",
+    "Subsets": [
+        {
+            "Name": "Arabic-Egypt",
+            "Volume": 7956.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Arabic-Palestine",
+            "Volume": 5679.0,
+            "Unit": "sentences",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "Arabic-Sudan",
+            "Volume": 4718.0,
+            "Unit": "sentences",
+            "Dialect": "Sudan"
+        },
+        {
+            "Name": "Arabic-Syria",
+            "Volume": 11288.0,
+            "Unit": "sentences",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "Arabic-Tunisia",
+            "Volume": 14789.0,
+            "Unit": "sentences",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Arabic-Yemen",
+            "Volume": 4818.0,
+            "Unit": "tokens",
+            "Dialect": "Yemen"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/QCRI/MultiNativQA",
+    "Link": "https://huggingface.co/datasets/QCRI/MultiNativQA",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "Multilingual native QA dataset with ~64k manually annotated pairs in seven languages covering 18 topics from nine regions.",
+    "Volume": 49248.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
+    "Paper Title": "NativQA: Multilingual Culturally-Aligned Natural Query for LLMs",
+    "Paper Link": "https://arxiv.org/pdf/2407.09823",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "Natural Question Answering (QA) datasets play a crucial role in evaluating the capabilities of large language models (LLMs), ensuring their effectiveness in real-world applications. Despite the numerous QA datasets that have been developed and some work has been done in parallel, there is a notable lack of a framework and large scale region-specific datasets queried by native users in their own languages. This gap hinders the effective benchmarking and the development of fine-tuned models for regional and cultural specificities. In this study, we propose a scalable, language-independent framework, NativQA, to seamlessly construct culturally and regionally aligned QA datasets in native languages, for LLM evaluation and tuning. We demonstrate the efficacy of the proposed framework by designing a multilingual natural QA dataset, MultiNativQA, consisting of ~64k manually annotated QA pairs in seven languages, ranging from high to extremely low resource, based on queries from native speakers from 9 regions covering 18 topics. We benchmark open- and closed-source LLMs with the MultiNativQA dataset. We made the MultiNativQA dataset and other experimental scripts publicly available for the community.",
+    "Added By": "Zaid Alyafeai"
+}
