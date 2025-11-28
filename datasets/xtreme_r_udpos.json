@@ -1,0 +1,62 @@
+{
+    "Name": "XTREME-R UDPOS",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/izhx/xtreme-r-udpos",
+    "Link": "https://sites.research.google/xtreme",
+    "License": "custom",
+    "Year": 2021,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "UD-POS employed the part-of-speech tagging data from the Universal Dependencies v2.7 treebanks",
+    "Volume": 1680.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "DeepMind"
+    ],
+    "Derived From": [
+        "Universal Dependencies"
+    ],
+    "Paper Title": "XTREME-R: Towards More Challenging and Nuanced Multilingual Evaluation",
+    "Paper Link": "https://arxiv.org/pdf/2104.07412",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "part of speech tagging"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Sebastian Ruder",
+        "Noah Constant",
+        "Jan Botha",
+        "Aditya Siddhant",
+        "Orhan Firat",
+        "Jinlan Fu",
+        "Pengfei Liu",
+        "Junjie Hu",
+        "Dan Garrette",
+        "Graham Neubig",
+        "Melvin Johnson"
+    ],
+    "Affiliations": [
+        "DeepMind",
+        "Google Research",
+        "Fudan University",
+        "Carnegie Mellon University"
+    ],
+    "Abstract": "Machine learning has brought striking ad-\nvances in multilingual natural language pro-\ncessing capabilities over the past year. For ex-\nample, the latest techniques have improved the\nstate-of-the-art performance on the XTREME\nmultilingual benchmark by more than 13\npoints. While a sizeable gap to human-\nlevel performance remains, improvements\nhave been easier to achieve in some tasks\nthan in others. This paper analyzes the cur-\nrent state of cross-lingual transfer learning\nand summarizes some lessons learned. In\norder to catalyze meaningful progress, we\nextend XTREME to XTREME-R, which con-\nsists of an improved set of ten natural lan-\nguage understanding tasks, including challeng-\ning language-agnostic retrieval tasks, and cov-\ners 50 typologically diverse languages. In ad-\ndition, we provide a massively multilingual di-\nagnostic suite (MULTICHECKLIST) and fine-\ngrained multi-dataset evaluation capabilities\nthrough an interactive public leaderboard to\ngain a better understanding of such models",
+    "Added By": "Zaid Alyafeai"
+}
