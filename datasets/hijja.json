@@ -1,41 +1,49 @@
 {
     "Name": "Hijja",
     "Subsets": [],
-    "HF Link": "https://hf.co/datasets/arbml/Hijja2",
+    "HF Link": "",
     "Link": "https://github.com/israksu/Hijja2",
     "License": "unknown",
-    "Year": 2020,
+    "Year": 2021,
     "Language": "ar",
-    "Dialect": "Modern Standard Arabic",
+    "Dialect": "Saudi Arabia",
     "Domain": [
         "other"
     ],
     "Form": "images",
     "Collection Style": [
+        "human annotation",
         "manual curation"
     ],
-    "Description": "A set of handwritten images for the different characters of Arabic.",
+    "Description": "Arabic handwritten letters dataset written by children aged 7\u201312",
     "Volume": 47434.0,
     "Unit": "images",
     "Ethical Risks": "Low",
-    "Provider": [],
+    "Provider": [
+        "King Saud University"
+    ],
     "Derived From": [],
     "Paper Title": "Arabic handwriting recognition system using convolutional neural network",
-    "Paper Link": "https://d-nb.info/1216415676/34",
+    "Paper Link": "https://link.springer.com/content/pdf/10.1007/s00521-020-05070-8.pdf",
     "Script": "Arab",
-    "Tokenized": true,
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Test Split": true,
     "Tasks": [
         "optical character recognition"
     ],
-    "Venue Title": "",
-    "Venue Type": "conference",
-    "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
-    "Abstract": "",
-    "Added By": "Amr Keleg"
+    "Venue Title": "Neural Computing and Applications",
+    "Venue Type": "journal",
+    "Venue Name": "NCAA",
+    "Authors": [
+        "Najwa Altwaijry",
+        "Isra Al-Turaiki"
+    ],
+    "Affiliations": [
+        "King Saud University"
+    ],
+    "Abstract": "Automatic handwriting recognition is an important component for many applications in various fields. It is a challenging problem that has received a lot of attention in the past three decades. Research has focused on the recognition of Latin languages\u2019 handwriting. Fewer studies have been done for the Arabic language. In this paper, we present a new dataset of Arabic letters written exclusively by children aged 7\u201312 which we call Hijja. Our dataset contains 47,434 characters written by 591 participants. In addition, we propose an automatic handwriting recognition model based on convolutional neural networks (CNN). We train our model on Hijja, as well as the Arabic Handwritten Character Dataset (AHCD) dataset. Results show that our model\u2019s performance is promising, achieving accuracies of 97% and 88% on the AHCD dataset and the Hijja dataset, respectively, outperforming other models in the literature.",
+    "Added By": "Zaid Alyafeai"
 }
