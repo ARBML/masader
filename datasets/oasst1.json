@@ -1,0 +1,64 @@
+{
+    "Name": "oasst1",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/RajChat/Chatgpt",
+    "Link": "https://huggingface.co/datasets/RajChat/Chatgpt",
+    "License": "Apache-2.0",
+    "Year": 2023,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "Crowdsourced multilingual assistant-style conversations with quality annotations for LLM alignment training",
+    "Volume": 666.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "LAION-AI"
+    ],
+    "Derived From": [],
+    "Paper Title": "OpenAssistant Conversations - Democratizing Large Language Model Alignment",
+    "Paper Link": "https://arxiv.org/pdf/2304.07327",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "instruction tuning",
+        "preference optimization"
+    ],
+    "Venue Title": "NeurIPS",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Neural Information Processing Systems",
+    "Authors": [
+        "Andreas K\u00f6pf",
+        "Yannic Kilcher",
+        "Dimitri von R\u00fctte",
+        "Sotiris Anagnostidis",
+        "Zhi-Rui Tam",
+        "Keith Stevens",
+        "Abdullah Barhoum",
+        "Nguyen Minh Duc",
+        "Oliver Stanley",
+        "Rich\u00e1rd Nagyfi",
+        "Shahul ES",
+        "Sameer Suri",
+        "David Glushkov",
+        "Arnav Dantuluri",
+        "Andrew Maguire",
+        "Christoph Schuhmann",
+        "Huu Nguyen",
+        "Alexander Mattick"
+    ],
+    "Affiliations": [],
+    "Abstract": "Aligning large language models (LLMs) with human preferences has proven\nto drastically improve usability and has driven rapid adoption as demonstrated\nby ChatGPT. Alignment techniques such as supervised fine-tuning (SFT) and\nreinforcement learning from human feedback (RLHF) greatly reduce the required\nskill and domain knowledge to effectively harness the capabilities of LLMs,\nincreasing their accessibility and utility across various domains. However,\nstate-of-the-art alignment techniques like RLHF rely on high-quality human\nfeedback data, which is expensive to create and often remains proprietary. In an\neffort to democratize research on large-scale alignment, we release OpenAssistant\nConversations, a human-generated, human-annotated assistant-style conversation\ncorpus consisting of 161,443 messages in 35 different languages, annotated with\n461,292 quality ratings, resulting in over 10,000 complete and fully annotated\nconversation trees. The corpus is a product of a worldwide crowd-sourcing effort\ninvolving over 13,500 volunteers. Models trained on OpenAssistant Conversations\nshow consistent improvements on standard benchmarks over respective base\nmodels. We release our code2 and data3 under a fully permissive licence.",
+    "Added By": "Zaid Alyafeai"
+}
