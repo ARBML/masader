@@ -1,0 +1,120 @@
+{
+    "Name": "IADD",
+    "Subsets": [
+        {
+            "Name": "Algeria",
+            "Volume": 14426.0,
+            "Unit": "sentences",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "Morocco",
+            "Volume": 7213.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Egypt",
+            "Volume": 4837.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Iraq",
+            "Volume": 216.0,
+            "Unit": "sentences",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 6682.0,
+            "Unit": "sentences",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "MSA",
+            "Volume": 2500.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Tunisia",
+            "Volume": 11998.0,
+            "Unit": "sentences",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Palestine",
+            "Volume": 17855.0,
+            "Unit": "sentences",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "Jordan",
+            "Volume": 7017.0,
+            "Unit": "sentences",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "Syria",
+            "Volume": 44972.0,
+            "Unit": "sentences",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "Lebanon",
+            "Volume": 10829.0,
+            "Unit": "sentences",
+            "Dialect": "Lebanon"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/evageon/IADD",
+    "Link": "https://github.com/JihadZa/IADD",
+    "License": "CC BY 4.0",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "Integrated dataset for Arabic dialect identification with 135k texts from 5 regions and 9 countries.",
+    "Volume": 135804.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "Cadi Ayyad University"
+    ],
+    "Derived From": [
+        "AOC",
+        "DART",
+        "PADIC",
+        "SHAMI",
+        "TSAC"
+    ],
+    "Paper Title": "IADD: An integrated Arabic dialect identification dataset",
+    "Paper Link": "https://doi.org/10.1016/j.dib.2021.107777",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification"
+    ],
+    "Venue Title": "Data in Brief",
+    "Venue Type": "journal",
+    "Venue Name": "Data in Brief",
+    "Authors": [
+        "Jihad Zahir"
+    ],
+    "Affiliations": [
+        "Cadi Ayyad University"
+    ],
+    "Abstract": "Arabic language has different variants that can be roughly categorized into three main categories: Classical Arabic (CA), Modern Standard Arabic (MSA) and Dialectal Arabic (DA). There are subtle differences between MSA and CA in terms of syntax, terminology and pronunciation. However, Dialectal Arabic (DA) significantly differs from CA and MSA in that it reflects geographic location of the speaker, or at least the country of origin, if mobility factors are taken into account. This paper presents IADD, an Integrated dataset for Arabic dialect identification, that contains 135,804 texts representing Arabic dialects from 5 regions and 9 countries. IADD dataset is created, from the combination of subsets of five corpora, to support the task of automatic Arabic dialects detection.",
+    "Added By": "Zaid alyafeai"
+}
