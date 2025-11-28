@@ -1,0 +1,53 @@
+{
+    "Name": "WEATHub",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/iamshnoo/WEATHub",
+    "Link": "https://github.com/iamshnoo/weathub",
+    "License": "CC BY 4.0",
+    "Year": 2023,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "Multilingual WEAT dataset for evaluating bias across 24 languages including Arabic.",
+    "Volume": 6.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "George Mason University"
+    ],
+    "Derived From": [
+        "WEAT"
+    ],
+    "Paper Title": "Global Voices, Local Biases: Socio-Cultural Prejudices across Languages",
+    "Paper Link": "https://arxiv.org/pdf/2310.17586",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Anjishnu Mukherjee",
+        "Chahat Raj",
+        "Ziwei Zhu",
+        "Antonios Anastasopoulos"
+    ],
+    "Affiliations": [
+        "George Mason University"
+    ],
+    "Abstract": "Human biases are ubiquitous but not uniform:\ndisparities exist across linguistic, cultural, and\nsocietal borders. As large amounts of recent lit-\nerature suggest, language models (LMs) trained\non human data can reflect and often amplify the\neffects of these social biases. However, the vast\nmajority of existing studies on bias are heav-\nily skewed towards Western and European lan-\nguages. In this work, we scale the Word Embed-\nding Association Test (WEAT) to 24 languages,\nenabling broader studies and yielding interest-\ning findings about LM bias. We additionally\nenhance this data with culturally relevant in-\nformation for each language, capturing local\ncontexts on a global scale. Further, to encom-\npass more widely prevalent societal biases, we\nexamine new bias dimensions across toxicity,\nableism, and more. Moreover, we delve deeper\ninto the Indian linguistic landscape, conducting\na comprehensive regional bias analysis across\nsix prevalent Indian languages. Finally, we\nhighlight the significance of these social biases\nand the new dimensions through an extensive\ncomparison of embedding methods, reinforc-\ning the need to address them in pursuit of more\nequitable language models",
+    "Added By": "Zaid Alyafeai"
+}
