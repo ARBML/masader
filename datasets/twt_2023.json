@@ -1,0 +1,52 @@
+{
+    "Name": "TWT-2023",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/UBC-NLP/microdialects",
+    "License": "unknown",
+    "Year": 2020,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "A massive unlabeled Twitter collection of 1B Arabic tweets plus a manually-verified gold corpus covering 319 city-level micro-varieties across 21 Arab countries, created to train MARBERT and benchmark micro-dialect identification.",
+    "Volume": 1000000000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "University of British Columbia"
+    ],
+    "Derived From": [],
+    "Paper Title": "Toward Micro-Dialect Identification in Diaglossic and Code-Switched Environments",
+    "Paper Link": "https://aclanthology.org/2020.emnlp-main.472.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "dialect identification"
+    ],
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Empirical Methods in Natural Language Processing",
+    "Authors": [
+        "Muhammad Abdul-Mageed",
+        "Chiyu Zhang",
+        "AbdelRahim Elmadany",
+        "Lyle Ungar"
+    ],
+    "Affiliations": [
+        "University of British Columbia",
+        "University of Pennsylvania"
+    ],
+    "Abstract": "Although prediction of dialects is an important\nlanguage processing task, with a wide range of\napplications, existing work is largely limited\nto coarse-grained varieties. Inspired by geolocation research, we propose the novel task of\nMicro-Dialect Identification (MDI) and introduce MARBERT, a new language model with\nstriking abilities to predict a fine-grained variety (as small as that of a city) given a single,\nshort message. For modeling, we offer a range\nof novel spatially and linguistically-motivated\nmulti-task learning models. To showcase the\nutility of our models, we introduce a new,\nlarge-scale dataset of Arabic micro-varieties\n(low-resource) suited to our tasks. MARBERT\npredicts micro-dialects with 9.9% F1, \u223c 76\u00d7\nbetter than a majority class baseline. Our new\nlanguage model also establishes new state-ofthe-art on several external tasks",
+    "Added By": "Zaid Alyafeai"
+}
