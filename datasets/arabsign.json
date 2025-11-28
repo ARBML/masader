@@ -1,0 +1,48 @@
+{
+    "Name": "ArabSign",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/Hamzah-Luqman/ArabSign",
+    "License": "unknown",
+    "Year": 2023,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "TV Channels"
+    ],
+    "Form": "videos",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "A continuous Arabic Sign Language dataset with 9,335 video samples from 6 signers across 3 modalities (color, depth, skeleton).",
+    "Volume": 10.2,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Fahd University of Petroleum and Minerals"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArabSign: A Multi-modality Dataset and Benchmark for Continuous Arabic Sign Language Recognition",
+    "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10042720",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sign language recognition"
+    ],
+    "Venue Title": "IEEE FG",
+    "Venue Type": "conference",
+    "Venue Name": "IEEE International Conference on Automatic Face and Gesture Recognition ",
+    "Authors": [
+        "Hamzah Luqman"
+    ],
+    "Affiliations": [
+        "King Fahd University of Petroleum and Minerals"
+    ],
+    "Abstract": "Sign language recognition has attracted the interest of researchers in recent years. While numerous approaches have been proposed for European and Asian sign languages recognition, very limited attempts have been made to develop similar systems for the Arabic sign language (ArSL). This can be attributed partly to the lack of a dataset at the sentence level. In this paper, we aim to make a significant contribution by proposing ArabSign, a continuous ArSL dataset. The proposed dataset consists of 9,335 samples performed by 6 signers. The total time of the recorded sentences is around 10 hours and the average sentence\u2019s length is 3.1 signs. ArabSign dataset was recorded using a Kinect V2 camera that provides three types of information (color, depth, and skeleton joint points) recorded simultaneously for each sentence. In addition, we provide the annotation of the dataset according to ArSL and Arabic language structures that can help in studying the linguistic characteristics of ArSL. To benchmark this dataset, we propose an encoder-decoder model for Continuous ArSL recognition. The model has been evaluated on the proposed dataset, and the obtained results show that the encoder-decoder model outperformed the attention mechanism with an average word error rate (WER) of 0.50 compared with 0.62 with the attention mechanism. The data and code are available at https://github.com/Hamzah-Luqman/ArabSign.",
+    "Added By": "Zaid Alyafeai"
+}
