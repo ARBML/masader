@@ -1,0 +1,53 @@
+{
+    "Name": "AMSA",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/belgats/Arabic-Multimodal-Dataset/",
+    "License": "unknown",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "2000 Arabic medical documents from Arabic medical websites and the Arab Medical Encyclopedia, 10-class disease classification.",
+    "Volume": 2000.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "ITMO University"
+    ],
+    "Derived From": [],
+    "Paper Title": "New Arabic Medical Dataset for Diseases Classification",
+    "Paper Link": "https://arxiv.org/pdf/2106.15236.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "topic classification"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Jaafar Hammoud",
+        "Aleksandra Vatian",
+        "Natalia Dobrenko",
+        "Nikolai Vedernikov",
+        "Anatoly Shalyto",
+        "Natalia Gusarova"
+    ],
+    "Affiliations": [
+        "ITMO University"
+    ],
+    "Abstract": "The Arabic language suffers from a great shortage of datasets suitable for training deep learning models, and the existing ones include general non-specialized classifications. In this work, we introduce a new Arabic medical dataset, which includes two thousand medical documents collected from several Arabic medical websites, in addition to the Arab Medical Encyclopedia. The dataset was built for the task of classifying texts and includes 10 classes (Blood, Bone, Cardiovascular, Ear, Endocrine, Eye, Gastrointestinal, Immune, Liver and Nephrological) diseases. Experiments on the dataset were performed by fine-tuning three pre-trained models: BERT from Google, AraBERT that based on BERT with large Arabic corpus, and AraBioNER that based on AraBERT with Arabic medical corpus.",
+    "Added By": "Zaid Alyafeai"
+}
