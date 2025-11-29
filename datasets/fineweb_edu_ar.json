@@ -1,0 +1,54 @@
+{
+    "Name": "FineWeb-Edu-Ar",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/kaust-generative-ai/fineweb-edu-ar",
+    "Link": "https://huggingface.co/datasets/kaust-generative-ai/fineweb-edu-ar",
+    "License": "CC BY-NC 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "web pages",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Machine-translated Arabic version of HuggingFace\u2019s FineWeb-Edu dataset.",
+    "Volume": 202379768558.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "KAUST",
+        "SDAIA"
+    ],
+    "Derived From": [
+        "FineWeb-Edu"
+    ],
+    "Paper Title": "Fineweb-Edu-Ar: Machine-translated Corpus to Support Arabic Small Language Models",
+    "Paper Link": "https://arxiv.org/pdf/2411.06402",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Sultan Alrashed",
+        "Dmitrii Khizbullin",
+        "David R. Pugh"
+    ],
+    "Affiliations": [
+        "SDAIA",
+        "KAUST"
+    ],
+    "Abstract": "As large language models (LLMs) grow and develop, so too do their data demands. This is especially true for multilingual LLMs, where the scarcity of high-quality and readily available data online has led to a multitude of synthetic dataset-generation approaches. A key technique seen in this space is machine translation (MT), where high-quality English text is adapted to a target, comparatively low-resource, language. In this report we introduce FineWeb-Edu-Ar, a machine-translated version of HuggingFace\u2019s exceedingly popular (deduplicated) FineWeb-Edu dataset. To the best of our knowledge, FineWeb-Edu-Ar is the biggest publicly available machine-translated Arabic dataset out there, with its size of 202B tokens of an Arabic-trained tokenizer. The data is available on HuggingFace.",
+    "Added By": "Zaid Alyafeai"
+}
