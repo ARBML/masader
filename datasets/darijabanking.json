@@ -1,0 +1,70 @@
+{
+    "Name": "DarijaBanking",
+    "Subsets": [
+        {
+            "Name": "Darija",
+            "Volume": 1800.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "MSA",
+            "Volume": 1800.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://github.com/abderrahmanskiredj/DarijaBanking",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "A Moroccan Darija and MSA dataset for banking intent detection with 3600 sentences across 24 intents.",
+    "Volume": 3600.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "OCPSolutions",
+        "UM6P College of Computing",
+        "National Institute of Posts and Telecoms",
+        "Lancaster University"
+    ],
+    "Derived From": [
+        "Banking77",
+        "Banking-Faq-Bot",
+        "Smart-Banking-Chatbot"
+    ],
+    "Paper Title": "DarijaBanking: A new resource for overcoming language barriers in banking intent detection for Moroccan Arabic speakers",
+    "Paper Link": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CEA99875FE7F18DBFBE9E8F4DC5B64DB/S2977042424000554a.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "intent classification",
+        "machine translation"
+    ],
+    "Venue Title": "Natural Language Processing",
+    "Venue Type": "journal",
+    "Venue Name": "NLP",
+    "Authors": [
+        "Abderrahman Skiredj",
+        "Ferdaous Azhari",
+        "Ismail Berrada",
+        "Saad Ezzini"
+    ],
+    "Affiliations": [],
+    "Abstract": "Navigating the complexities of language diversity is a central challenge in developing robust natural language processing systems, especially in specialized domains like banking. The Moroccan Dialect of Arabic (Darija) serves as a common language that blends cultural complexities, historical impacts, and regional differences, which presents unique challenges for language models due to its divergence from Modern Standard Arabic and influence from French, Spanish, and Tamazight. To tackle these challenges, this paper introduces DarijaBanking, a novel Darija dataset aimed at enhancing intent classification in the banking domain. DarijaBanking comprises over 1800 parallel high-quality queries in Darija, Modern Standard Arabic (MSA), English, and French, organized into 24 intent classes. We experimented with various intent classification methods, including full fine-tuning of monolingual and multilingual models, zero-shot learning, retrieval-based approaches, and Large Language Model prompting. Furthermore, we propose BERTouch, a BERT-based language model fine-tuned on intent detection in Darija, which outperforms state-of-the-art models, including OpenAI\u2019s GPT-4, achieving F1 scores of 0.98 and 0.96 on both Darija and MSA, respectively. The results provide insights into enhancing Moroccan Darija banking intent detection systems, highlighting the value of domain-specific data annotation and balancing precision and cost-effectiveness.",
+    "Added By": "Zaid Alyafeai"
+}
