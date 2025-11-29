@@ -1,0 +1,48 @@
+{
+    "Name": "Ten2Zero",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/gfbati/Ten2Zero",
+    "Link": "https://huggingface.co/datasets/gfbati/Ten2Zero",
+    "License": "CC BY 4.0",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "Balanced spoken Arabic digit dataset (numbers 0-10) for teaching machine learning without coding, including wav files and generated tabular features/spectrograms.",
+    "Volume": 935.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Umm Al-Qura University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Ten2Zero: A Balanced Audio Dataset to Teach Machine Learning",
+    "Paper Link": "https://doi.org/10.21608/JESAUN.2023.231628.1254",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "JES",
+    "Venue Type": "journal",
+    "Venue Name": "Journal of Engineering Sciences",
+    "Authors": [
+        "Ghassan F. Bati"
+    ],
+    "Affiliations": [
+        "Umm Al-Qura University"
+    ],
+    "Abstract": "Saudi is interested in artificial intelligence and machine learning.\nGovernmental interest appears in several forms, most notably creating a\ngeneration that masters the skills of artificial intelligence and machine\nlearning through the approval of the Saudi Ministry of Education to teach\nartificial intelligence, machine learning, and data science skills in public\nschools and universities. This interest makes it imperative for researchers\nto develop Arabic datasets for research and educational purposes,\nespecially with the popularity of English sources and the absence of\nArabic sources. This study attempts to fill this gap by creating a dataset\nfor the Arabic spoken digits from ten to zero and analysing it using\nOrange, which requires no coding. The importance of the study is as\nfollows: first Arabic work to establish a balanced audio dataset of spoken\nArabic digits from ten to zero; the dataset contains audio files and the\ntabular data generated using deep learning from the spectrograms of the\naudio files; it is the first Arabic scientific work that uses traditional\nmachine learning and deep learning models to create good-performing\nmodels for classifying spoken Arabic digits without coding, which\nenables researchers and those interested in various fields to develop\nmachine learning applications to classify Arabic audio, especially in\nmobile phones or in microcontrollers, to stimulate IoT applications and\nTiny machine learning.",
+    "Added By": "Zaid Alyafeai"
+}
