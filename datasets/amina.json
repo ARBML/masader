@@ -1,0 +1,54 @@
+{
+    "Name": "AMINA",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/MohamedZayton/AMINA",
+    "Link": "https://huggingface.co/datasets/MohamedZayton/AMINA",
+    "License": "unknown",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "A large-scale integral Arabic news dataset with 1.85M articles from 9 newspapers.",
+    "Volume": 1850000.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Alexandria University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Amina: an Arabic multi-purpose integral news articles dataset",
+    "Paper Link": "https://link.springer.com/content/pdf/10.1007/s00521-024-10277-0.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "topic classification",
+        "text generation"
+    ],
+    "Venue Title": "Neural Computing and Applications",
+    "Venue Type": "journal",
+    "Venue Name": "NCAA",
+    "Authors": [
+        "Mohamed Zaytoon",
+        "Muhannad Bashar",
+        "Mohamed A. Khamis",
+        "Walid Gomaa"
+    ],
+    "Affiliations": [
+        "Alexandria University",
+        "Egypt-Japan University of Science and Technology",
+        "Ejada Systems Ltd",
+        "Alexandria National University"
+    ],
+    "Abstract": "Electronic newspapers are one of the most common sources of Modern Standard Arabic. Existing datasets of Arabic news\narticles typically provide a title, body, and single label. Ignoring important features, like the article author, image, tags, and\npublication date, can degrade the efficacy of classification models. In this paper, we propose the Arabic multi-purpose integral\nnews articles (AMINA) dataset. AMINA is a large-scale Arabic news corpus with over 1,850,000 articles collected from 9\nArabic newspapers from different countries. It includes all the article features: title, tags, publication date and time, location,\nauthor, article image and its caption, and the number of visits. To test the efficacy of the proposed dataset, three tasks were\ndeveloped and validated: article textual content (classification and generation) and article image classification. For content\nclassification, we experimented the performance of several state-of-the-art Arabic NLP models including AraBERT and\nCAMeL-BERT, etc. For content generation, the reformer architecture is adopted as a character text generation model. For\nimage classification applied on Al-Sharq and Youm7 news portals, we have compared the performance of 10 pre-trained\nmodels including ConvNeXt, MaxViT, ResNet18, etc. The overall study verifies the significance and contribution of our\nnewly introduced Arabic articles dataset. The AMINA dataset has been released at https://huggingface.co/datasets/Moham\nedZayton/AMINA.",
+    "Added By": "Zaid Alyafeai"
+}
