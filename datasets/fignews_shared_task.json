@@ -1,0 +1,68 @@
+{
+    "Name": "FIGNEWS Shared Task",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/CAMeL-Lab/FIGNEWS-2024",
+    "Link": "https://github.com/CAMeL-Lab/FIGNEWS-2024",
+    "License": "CC BY-SA 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Multilingual Facebook posts about the Israel-Gaza war annotated for bias and propaganda.",
+    "Volume": 25960.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Northwestern University in Qatar",
+        "Birzeit University",
+        "New York University Abu Dhabi",
+        "Carnegie Mellon University Qatar",
+        "Google",
+        "Carnegie Mellon University",
+        "Newgiza University"
+    ],
+    "Derived From": [],
+    "Paper Title": "The FIGNEWS Shared Task on News Media Narratives",
+    "Paper Link": "https://arxiv.org/pdf/2407.18147",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "bias assessment",
+        "offensive language detection"
+    ],
+    "Venue Title": "Arabic Natural Language Processing Conference",
+    "Venue Type": "workshop",
+    "Venue Name": "ArabicNLP",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Mustafa Jarrar",
+        "Nizar Habash",
+        "Houda Bouamor",
+        "Imed Zitouni",
+        "Mona Diab",
+        "Samhaa R. El-Beltagy",
+        "Muhammed Abu Odeh"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Birzeit University",
+        "New York University Abu Dhabi",
+        "Carnegie Mellon University Qatar",
+        "Google",
+        "Carnegie Mellon University",
+        "Newgiza University"
+    ],
+    "Abstract": "We present an overview of the FIGNEWS shared task, organized as part of the Arabic-NLP 2024 conference co-located with ACL 2024. The shared task addresses bias and propaganda annotation in multilingual news posts. We focus on the early days of the Israel War on Gaza as a case study. The task aims to foster collaboration in developing annotation guidelines for subjective tasks by creating frameworks for analyzing diverse narratives highlighting potential bias and propaganda. In a spirit of fostering and encouraging diversity, we address the problem from a multilingual perspective, namely within five languages: English, French, Arabic, Hebrew, and Hindi. A total of 17 teams participated in two annotation subtasks: bias (16 teams) and propaganda (6 teams). The teams competed in four evaluation tracks: guidelines development, annotation quality, annotation quantity, and consistency. Collectively, the teams produced 129,800 data points. Key findings and implications for the field are discussed.",
+    "Added By": "Zaid Alyafeai"
+}
