@@ -1,0 +1,59 @@
+{
+    "Name": "Amd\u2019SaEr",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/belgats/Arabic-Multimodal-Dataset",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media",
+        "TV Channels",
+        "public datasets"
+    ],
+    "Form": "videos",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic multimodal dataset for sentiment analysis and emotion recognition with 1037 samples across audio, text, and visual modalities",
+    "Volume": 4.8,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Amar Telidji Laghouat",
+        "Universit\u00e8 de Ghardaia",
+        "Ziane Achour University of Djelfa"
+    ],
+    "Derived From": [
+        "AMSA"
+    ],
+    "Paper Title": "Amd\u2019SaEr: Arabic Multimodal Dataset for Sentiment Analysis and Emotion Recognition",
+    "Paper Link": "https://doi.org/10.1145/3774880",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis",
+        "emotion classification"
+    ],
+    "Venue Title": "TALLIP",
+    "Venue Type": "journal",
+    "Venue Name": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "Authors": [
+        "Abdelhamid Haouhat",
+        "Slimane Bellaouar",
+        "Attia Nehar",
+        "Hadda Cherroun"
+    ],
+    "Affiliations": [
+        "University of Amar Telidji Laghouat",
+        "Universite de Ghardaia",
+        "University of Djelfa"
+    ],
+    "Abstract": "Multimodal sentiment analysis and emotion recognition have attracted significant interest in multimodal learning. Naturally,\nhumans express their feelings and emotions through nuanced expressions across various verbal and non-verbal modalities.\nDespite this, there remains a critical gap in publicly accessible multimodal datasets for the Arabic language. To address this\nissue, we posited that creating a large and high-quality Arabic multimodal dataset would signiicantly improve sentiment\nanalysis and emotion recognition in Arabic contexts. We aimed to develop a large, high-quality Arabic Multimodal Sentiment\nAnalysis and Emotion Recognition (Amd\u2019SaEr) dataset by building upon our AMSA dataset, increasing its size to 1037 samples,\nand adding emotional labels. Leveraging a novel methodology, we carefully selected and annotated data across audio, text, and\nvisual modalities and proposed a hybrid inter-annotator agreement strategy. Extensive analyses were conducted to validate\nthe robustness of the dataset. We experimented with the Amd\u2019SaEr dataset using a customized MERBench framework, which\ndemonstrated the dataset\u2019s efficacy and reliability. Our findings indicate the high quality of the dataset and underscore the\nimportance of multimodal context for accurate sentiment analysis and emotion recognition in Arabic. We recommend further\nresearch and application of the Amd\u2019SaEr dataset in broader Arabic contexts, as it provides a valuable resource for advancing\nmultimodal analysis in this language.",
+    "Added By": "Zaid Alyafeai"
+}
