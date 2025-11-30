@@ -1,0 +1,49 @@
+{
+    "Name": "Ar-DAD",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/3kndp5vs6b/3",
+    "License": "CC BY 4.0",
+    "Year": 2020,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "crawling",
+        "manual curation"
+    ],
+    "Description": "A large Arabic audio dataset of 15,810 clips from 30 Quran reciters plus 397 imitation clips from 12 skilled imitators, organized by chapter and verse for speaker-identification and imitation-detection tasks.",
+    "Volume": 15810.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Sharjah"
+    ],
+    "Derived From": [],
+    "Paper Title": "Ar-DAD: Arabic diversified audio dataset",
+    "Paper Link": "https://doi.org/10.1016/j.dib.2020.106503",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "speaker identification"
+    ],
+    "Venue Title": "Data in Brief",
+    "Venue Type": "journal",
+    "Venue Name": "Data in Brief",
+    "Authors": [
+        "Mohammed Lataifeh",
+        "Ashraf Elnagar"
+    ],
+    "Affiliations": [
+        "University of Sharjah"
+    ],
+    "Abstract": "The automatic identification and verification of speakers through representative audio continue to gain the attention of many researchers with diverse domains of applications. Despite this diversity, the availability of classified and categorized multi-purpose Arabic audio libraries is scarce. Therefore, we introduce a large Arabic-based audio clips dataset (15,810 clips) of 30 popular reciters cantillating 37 chapters from the Holy Quran. These chapters have a variable number of verses saved to different subsequent folders, where each verse is allocated one folder containing 30 audio clips for the declared reciters covering the same textual content. An additional 397 audio clips for 12 competent imitators of the top reciters are collected based on popularity and number of views/downloads to allow for cross-comparison of text, reciters, and authenticity. Based on the volume, quality, and rich diversity of this dataset we anticipate a wide range of deployments for speaker identification, in addition to setting a new direction for the structure and organization of similar large audio clips dataset.",
+    "Added By": "Zaid Alyafeai"
+}
