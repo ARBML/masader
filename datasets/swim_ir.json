@@ -19,17 +19,9 @@
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
-        "Google Research",
-        "Google DeepMind",
-        "University of Waterloo"
+        "Google Research"
     ],
-    "Derived From": [
-        "Wikipedia",
-        "MSMARCO",
-        "XOR-Retrieve",
-        "MIRACL",
-        "XTREME-UP"
-    ],
+    "Derived From": [],
     "Paper Title": "Leveraging LLMs for Synthesizing Training Data Across Many Languages in Multilingual Dense Retrieval",
     "Paper Link": "https://arxiv.org/pdf/2311.05800",
     "Script": "Arab",
