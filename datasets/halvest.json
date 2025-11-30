@@ -1,0 +1,52 @@
+{
+    "Name": "HALvest",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/almanach/HALvest",
+    "Link": "https://huggingface.co/datasets/almanach/HALvest",
+    "License": "custom",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "Multilingual open-access scholarly document dataset harvested from the French HAL repository.",
+    "Volume": 92.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Inria"
+    ],
+    "Derived From": [],
+    "Paper Title": "Harvesting Textual and Structured Data from the HAL Publication Repository",
+    "Paper Link": "https://arxiv.org/pdf/2407.20595",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Francis Kulumba",
+        "Wissam Antoun",
+        "Guillaume Vimont",
+        "Laurent Romary"
+    ],
+    "Affiliations": [
+        "Inria",
+        "Sorbonne Universit\u00e9",
+        "IRIF"
+    ],
+    "Abstract": "HAL (\\textit{Hyper Articles en Ligne}) is the French national publication repository, used by most higher education and research organizations for their open science policy. Although it is a rich repository of academic documents, its potential for advanced research has not been fully explored. We present HALvest, a unique dataset that bridges the gap between citation networks and the full text of HAL-submitted articles to help with authorship attribution and verification. This first iteration consists of approximately 700,000 documents, spanning 56 languages across 13 identified domains. We transform articles' metadata into a citation network, producing a heterogeneous graph. This graph includes uniquely identified authors on HAL, as well as all open-access documents and their references. Finally, we mine 14.5 million high-quality sequence pairs from HALvest for contrastive learning purposes. By providing different views of HAL, suited for modern machine learning, we aim to assist practitioners in better analyzing and interpreting research dynamics.\n",
+    "Added By": "Zaid Alyafeai"
+}
