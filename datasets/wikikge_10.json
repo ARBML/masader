@@ -1,0 +1,54 @@
+{
+    "Name": "WikiKGE-10",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/davanstrien/ml-kge",
+    "Link": "https://github.com/apple/ml-kge",
+    "License": "CC BY-SA 4.0",
+    "Year": 2023,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "wikipedia"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Multilingual dataset for evaluating knowledge graph enhancement systems across 10 languages with curated entity names and aliases.",
+    "Volume": 4213.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Apple"
+    ],
+    "Derived From": [],
+    "Paper Title": "Increasing Coverage and Precision of Textual Information in Multilingual Knowledge Graphs",
+    "Paper Link": "https://arxiv.org/pdf/2311.15781",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Simone Conia",
+        "Min Li",
+        "Daniel Lee",
+        "Umar Farooq Minhas",
+        "Ihab Ilyas",
+        "Yunyao Li"
+    ],
+    "Affiliations": [
+        "Sapienza University of Rome",
+        "Apple",
+        "University of Calgary"
+    ],
+    "Abstract": "Recent work in Natural Language Processing and Computer Vision has been using textual information -- e.g., entity names and descriptions -- available in knowledge graphs to ground neural models to high-quality structured data. However, when it comes to non-English languages, the quantity and quality of textual information are comparatively scarce. To address this issue, we introduce the novel task of automatic Knowledge Graph Enhancement (KGE) and perform a thorough investigation on bridging the gap in both the quantity and quality of textual information between English and non-English languages. More specifically, we: i) bring to light the problem of increasing multilingual coverage and precision of entity names and descriptions in Wikidata; ii) demonstrate that state-of-the-art methods, namely, Machine Translation (MT), Web Search (WS), and Large Language Models (LLMs), struggle with this task; iii) present M-NTA, a novel unsupervised approach that combines MT, WS, and LLMs to generate high-quality textual information; and, iv) study the impact of increasing multilingual coverage and precision of non-English textual information in Entity Linking, Knowledge Graph Completion, and Question Answering. As part of our effort towards better multilingual knowledge graphs, we also introduce WikiKGE-10, the first human-curated benchmark to evaluate KGE approaches in 10 languages across 7 language families.\n",
+    "Added By": "Zaid Alyafeai"
+}
