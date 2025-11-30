@@ -17,7 +17,7 @@
     ],
     "Description": "A multilingual visual question answering benchmark covering 30 countries and 31 languages with 10k culturally-driven questions.",
     "Volume": 203.0,
-    "Unit": "sentences",
+    "Unit": "images",
     "Ethical Risks": "Low",
     "Provider": [
         "MBZUAI"
