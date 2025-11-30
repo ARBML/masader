@@ -1,0 +1,48 @@
+{
+    "Name": "BABEL BRIEFINGS",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/felixludos/babel-briefings",
+    "Link": "https://www.kaggle.com/datasets/felixludos/babel-briefings",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "Multilingual headlines corpus spanning August 2020\u2013November 2021, drawn from global press via News API.",
+    "Volume": 178854.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Max Planck Institute for Intelligent Systems"
+    ],
+    "Derived From": [],
+    "Paper Title": "A diverse Multilingual News Headlines Dataset from around the World",
+    "Paper Link": "https://arxiv.org/pdf/2403.19352",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "kaggle",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Felix Leeb",
+        "Bernhard Sch\u00f6lkopf"
+    ],
+    "Affiliations": [
+        "Max Planck Institute for Intelligent Systems"
+    ],
+    "Abstract": "BABEL BRIEFINGS is a novel dataset featur-\ning 4.7 million news headlines from August\n2020 to November 2021, across 30 languages\nand 54 locations worldwide with English trans-\nlations of all articles included. Designed for\nnatural language processing and media studies,\nit serves as a high-quality dataset for training or\nevaluating language models as well as offering\na simple, accessible collection of articles, for\nexample, to analyze global news coverage and\ncultural narratives. As a simple demonstration\nof the analyses facilitated by this dataset, we\nuse a basic procedure using a TF-IDF weighted\nsimilarity metric to group articles into clusters\nabout the same event. We then visualize the\nevent signatures of the event showing articles\nof which languages appear over time, revealing\nintuitive features based on the proximity of the\nevent and unexpectedness of the event. The\ndataset is available on Kaggle and Hugging-\nFace with accompanying GitHub code",
+    "Added By": "Zaid Alyafeai"
+}
