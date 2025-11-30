@@ -1,0 +1,51 @@
+{
+    "Name": "NTX",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/tellarin-ai/ntx_llm_instructions",
+    "Link": "https://huggingface.co/datasets/tellarin-ai/ntx_llm_instructions",
+    "License": "CC BY-SA 4.0",
+    "Year": 2023,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "A multi-lingual benchmark dataset covering temporal and numerical expression recognition and normalization in 14 languages including Arabic.",
+    "Volume": 1762.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Microsoft Research Asia"
+    ],
+    "Derived From": [],
+    "Paper Title": "Dataset and Baseline System for Multi-lingual Extraction and Normalization of Temporal and Numerical expressions",
+    "Paper Link": "https://arxiv.org/pdf/2303.18103",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "named entity recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Sanxing Chen",
+        "Yongqiang Chen",
+        "B\u00f6rje F. Karlsson"
+    ],
+    "Affiliations": [
+        "Duke University",
+        "The Chinese University of Hong Kong",
+        "Microsoft Research Asia"
+    ],
+    "Abstract": "Temporal and numerical expression under-\nstanding is of great importance in many down-\nstream Natural Language Processing (NLP)\nand Information Retrieval (IR) tasks. How-\never, much previous work covers only a few\nsub-types and focuses only on entity extrac-\ntion, which severely limits the usability of\nidentified mentions. In order for such entities\nto be useful in downstream scenarios, cover-\nage and granularity of sub-types are important;\nand, even more so, providing resolution into\nconcrete values that can be manipulated. Fur-\nthermore, most previous work addresses only\na handful of languages. Here we describe a\nmulti-lingual evaluation dataset - NTX - cov-\nering diverse temporal and numerical expres-\nsions across 14 languages and covering ex-\ntraction, normalization, and resolution. Along\nwith the dataset we provide a robust rule-based\nsystem as a strong baseline for comparisons\nagainst other models to be evaluated in this\ndataset. Data and code will be publicly avail-\nable at https://aka.ms/NTX.",
+    "Added By": "Zaid Alyafeai"
+}
