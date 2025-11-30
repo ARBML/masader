@@ -1,0 +1,54 @@
+{
+    "Name": "Saudi Novel Corpus",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "http://sncorpus.com/home",
+    "License": "unknown",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Tagged corpus of 53 Saudi novels (1930\u20132019) for corpus-stylistic research.",
+    "Volume": 3134074.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Islamic University of Madinah",
+        "King Abdulaziz City for Science and Technology"
+    ],
+    "Derived From": [],
+    "Paper Title": "The Saudi Novel Corpus: Design and Compilation",
+    "Paper Link": "https://www.mdpi.com/2076-3417/12/13/6648/",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "named entity recognition"
+    ],
+    "Venue Title": "Applied Sciences",
+    "Venue Type": "journal",
+    "Venue Name": "Applied Sciences",
+    "Authors": [
+        "Tareq Alfraidi",
+        "Mohammad A. R. Abdeen",
+        "Ahmed Yatimi",
+        "Reyadh Alluhaibi",
+        "Abdulmohsen Al-Thubaity"
+    ],
+    "Affiliations": [
+        "Islamic University of Madinah",
+        "Taibah University",
+        "King Abdulaziz City for Science and Technology"
+    ],
+    "Abstract": "Arabic has recently received significant attention from corpus compilers. This situation\nhas led to the creation of many Arabic corpora that cover various genres, most notably the newswire\ngenre. Yet, Arabic novels, and specifically those authored by Saudi writers, lack the sufficient digital\ndatasets that would enhance corpus linguistic and stylistic studies of these works. Thus, Arabic lags\nbehind English and other European languages in this context. In this paper, we present the Saudi\nNovels Corpus, built to be a valuable resource for linguistic and stylistic research communities. We\nspecifically present the procedures we followed and the decisions we made in creating the corpus. We\ndescribe and clarify the design criteria, data collection methods, process of annotation, and encoding.\nIn addition, we present preliminary results that emerged from the analysis of the corpus content. We\nconsider the work described in this paper as initial steps to bridge the existing gap between corpus\nlinguistics and Arabic literary texts. Further work is planned to improve the quality of the corpus by\nadding advanced features",
+    "Added By": "Zaid Alyafeai"
+}
