@@ -1,0 +1,53 @@
+{
+    "Name": "TATA",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/GEM/TaTA",
+    "Link": "https://huggingface.co/datasets/GEM/TaTA",
+    "License": "CC BY-SA 4.0",
+    "Year": 2022,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "videos",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "TaTA was created by transcribing figures and accompanying text in bilingual reports by the Demographic and Health Surveys Program, followed by professional translation to make the dataset fully parallel",
+    "Volume": 8700.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Google Research"
+    ],
+    "Derived From": [],
+    "Paper Title": "TA: A Multilingual Table-to-Text Dataset for African Languages",
+    "Paper Link": "https://arxiv.org/pdf/2211.00142",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Sebastian Gehrmann",
+        "Sebastian Ruder",
+        "Vitaly Nikolaev",
+        "Jan A. Botha",
+        "Michael Chavinda",
+        "Anku Parikh",
+        "Clara Rivera"
+    ],
+    "Affiliations": [
+        "Google Research"
+    ],
+    "Abstract": "Existing data-to-text generation datasets are\nmostly limited to English. To address this\nlack of data, we create Table-to-Text in\nAfrican languages (TATA), the first large\nmultilingual table-to-text dataset with a fo-\ncus on African languages. We created\nTATA by transcribing figures and accompa-\nnying text in bilingual reports by the Demo-\ngraphic and Health Surveys Program, fol-\nlowed by professional translation to make\nthe dataset fully parallel. TATA includes\n8,700 examples in nine languages includ-\ning four African languages (Hausa, Igbo,\nSwahili, and Yor\u00f9b\u00e1) and a zero-shot test\nlanguage (Russian). We additionally release\nscreenshots of the original figures for fu-\nture research on multilingual multi-modal\napproaches. Through an in-depth human\nevaluation, we show that TATA is challeng-\ning for current models and that less than half\nthe outputs from an mT5-XXL-based model\nare understandable and attributable to the\nsource data. We further demonstrate that\nexisting metrics perform poorly for TATA\nand introduce learned metrics that achieve a\nhigh correlation with human judgments",
+    "Added By": "Zaid Alyafeai"
+}
