@@ -1,0 +1,75 @@
+{
+    "Name": "MHC",
+    "Subsets": [
+        {
+            "Name": "Arabic",
+            "Volume": 3627.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Dutch",
+            "Volume": 3768.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "French",
+            "Volume": 3720.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/Paul/hatecheck-arabic",
+    "Link": "https://github.com/rewire-online/multilingual-hatecheck",
+    "License": "CC BY 4.0",
+    "Year": 2022,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "a suite of functional tests for multilingual hate speech detection models",
+    "Volume": 3577.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Rewire"
+    ],
+    "Derived From": [
+        "HATECHECK"
+    ],
+    "Paper Title": "MULTILINGUAL HATECHECK: Functional Tests for Multilingual Hate Speech Detection Models",
+    "Paper Link": "https://arxiv.org/pdf/2204.02765",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "offensive language detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Paul R\u00f6ttger",
+        "Haitham Seelawi",
+        "Debora Nozza",
+        "Zeerak Talat",
+        "Bertie Vidgen"
+    ],
+    "Affiliations": [
+        "University of Oxford",
+        "Bocconi University",
+        "Simon Fraser University",
+        "Rewire"
+    ],
+    "Abstract": "Hate speech detection models are typically\nevaluated on held-out test sets. However, this\nrisks painting an incomplete and potentially\nmisleading picture of model performance be-\ncause of increasingly well-documented sys-\ntematic gaps and biases in hate speech datasets.\nTo enable more targeted diagnostic insights,\nrecent research has thus introduced func-\ntional tests for hate speech detection models.\nHowever, these tests currently only exist for\nEnglish-language content, which means that\nthey cannot support the development of more\neffective models in other languages spoken by\nbillions across the world. To help address this\nissue, we introduce MULTILINGUAL HATE-\nCHECK (MHC), a suite of functional tests\nfor multilingual hate speech detection mod-\nels. MHC covers 34 functionalities across ten\nlanguages, which is more languages than any\nother hate speech dataset. To illustrate MHC\u2019s\nutility, we train and test a high-performing\nmultilingual hate speech detection model, and\nreveal critical model weaknesses for monolin-\ngual and cross-lingual applications",
+    "Added By": "Zaid Alyafeai"
+}
