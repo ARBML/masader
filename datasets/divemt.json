@@ -1,0 +1,52 @@
+{
+    "Name": "DivEMT",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/GroNLP/divemt",
+    "Link": "https://github.com/gsarti/divemt",
+    "License": "GPL-3.0",
+    "Year": 2022,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "wikipedia"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "DivEMT is the first publicly available post-editing study of Neural Machine Translation (NMT) over a typologically diverse set of six target languages (Arabic, Dutch, Italian, Turkish, Ukrainian, Vietnamese).",
+    "Volume": 450.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Gronigen"
+    ],
+    "Derived From": [
+        "FLORES-101"
+    ],
+    "Paper Title": "DivEMT: Neural Machine Translation Post-Editing Effort Across Typologically Diverse Languages",
+    "Paper Link": "https://arxiv.org/pdf/2205.12215",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Gabriele Sarti",
+        "Arianna Bisazza",
+        "Ana Guerberof-Arenas",
+        "Antonio Toral"
+    ],
+    "Affiliations": [
+        "University of Groningen"
+    ],
+    "Abstract": "We introduce DivEMT, the first publicly available post-editing study of Neural Machine Translation (NMT) over a typologically diverse set of target languages. Using a strictly controlled setup, 18 professional translators were instructed to translate or post-edit the same set of English documents into Arabic, Dutch, Italian, Turkish, Ukrainian, and Vietnamese. During the process, their edits, keystrokes, editing times and pauses were recorded, enabling an in-depth, cross-lingual evaluation of NMT quality and post-editing effectiveness. Using this new dataset, we assess the impact of two state-of-the-art NMT systems, Google Translate and the multilingual mBART-50 model, on translation productivity. We find that post-editing is consistently faster than translation from scratch. However, the magnitude of productivity gains varies widely across systems and languages, highlighting major disparities in post-editing effectiveness for languages at different degrees of typological relatedness to English, even when controlling for system architecture and training data size. We publicly release the complete dataset including all collected behavioral data, to foster new research on the translation capabilities of NMT systems for typologically diverse languages.",
+    "Added By": "Zaid Alyafeai"
+}
