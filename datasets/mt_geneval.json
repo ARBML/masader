@@ -1,0 +1,46 @@
+{
+    "Name": "MT-GenEval",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/gsarti/mt_geneval",
+    "Link": "https://github.com/amazon-science/machine-translation-gender-eval",
+    "License": "CC BY-SA 3.0",
+    "Year": 2022,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "wikipedia"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "The MT-GenEval benchmark evaluates gender translation accuracy on English -> {Arabic, French, German, Hindi, Italian, Portuguese, Russian, Spanish}. ",
+    "Volume": 1890.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "Amazon Research"
+    ],
+    "Derived From": [],
+    "Paper Title": "MT-GenEval: A Counterfactual and Contextual Dataset for Evaluating Gender Accuracy in Machine Translation",
+    "Paper Link": "https://arxiv.org/pdf/2211.01355",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "With-Fee",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation",
+        "gender bias detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "journal",
+    "Venue Name": "arXiv",
+    "Authors": [],
+    "Affiliations": [
+        "AWS AI Labs"
+    ],
+    "Abstract": "As generic machine translation (MT) quality\nhas improved, the need for targeted bench-\nmarks that explore fine-grained aspects of\nquality has increased (Freitag et al., 2021; Is-\nabelle et al., 2017). In particular, gender accu-\nracy in translation (Choubey et al., 2021; Saun-\nders and Byrne, 2020) can have implications\nin terms of output fluency, translation accu-\nracy, and ethics. In this paper, we introduce\nMT-GenEval, a benchmark for evaluating gen-\nder accuracy in translation from English into\neight widely-spoken languages. MT-GenEval\ncomplements existing benchmarks by provid-\ning realistic, gender-balanced, counterfactual\ndata in eight language pairs where the gender\nof individuals is unambiguous in the input seg-\nment, including multi-sentence segments re-\nquiring inter-sentential gender agreement. Our\ndata and code is publicly available under a CC\nBY SA 3.0 license.",
+    "Added By": "Zaid Alyafeai"
+}
