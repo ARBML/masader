@@ -1,0 +1,47 @@
+{
+    "Name": "LAION-COCO-NLLB",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/visheratin/laion-coco-nllb",
+    "Link": "https://huggingface.co/datasets/visheratin/laion-coco-nllb",
+    "License": "CC BY-NC 4.0",
+    "Year": 2023,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "106k image-caption pairs from LAION-COCO with captions translated into 201 languages using NLLB.",
+    "Volume": 106246.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Alexander Visheratin"
+    ],
+    "Derived From": [
+        "LAION COCO"
+    ],
+    "Paper Title": "NLLB-CLIP \u2013 train performant multilingual image retrieval model on a budget",
+    "Paper Link": "https://arxiv.org/pdf/2309.01859",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "image captioning"
+    ],
+    "Venue Title": "ENLSP",
+    "Venue Type": "workshop",
+    "Venue Name": "Efficient Natural Language and Speech Processing",
+    "Authors": [
+        "Alexander Visheratin"
+    ],
+    "Affiliations": [],
+    "Abstract": "Today, the exponential rise of large models developed by academic and industrial\ninstitutions with the help of massive computing resources raises the question of\nwhether someone without access to such resources can make a valuable scientific\ncontribution. To explore this, we tried to solve the challenging task of multilingual\nimage retrieval having a limited budget of $1,000. As a result, we present NLLB-\nCLIP \u2013 CLIP model with a text encoder from the NLLB model. To train the\nmodel, we used an automatically created dataset of 106,246 good-quality images\nwith captions in 201 languages derived from the LAION COCO dataset. We\ntrained multiple models using image and text encoders of various sizes and kept\ndifferent parts of the model frozen during the training. We thoroughly analyzed\nthe trained models using existing evaluation datasets and newly created XTD200\nand Flickr30k-200 datasets. We show that NLLB-CLIP is comparable in quality\nto state-of-the-art models and significantly outperforms them on low-resource\nlanguages.",
+    "Added By": "Zaid Alyafeai"
+}
