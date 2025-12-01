@@ -27,7 +27,7 @@
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
-    "Access": "With-Fee",
+    "Access": "Free",
     "Cost": "",
     "Test Split": false,
     "Tasks": [
