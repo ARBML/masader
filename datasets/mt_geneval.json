@@ -27,7 +27,7 @@
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
-    "Access": "With-Fee",
+    "Access": "Free",
     "Cost": "",
     "Test Split": false,
     "Tasks": [
@@ -35,9 +35,18 @@
         "gender bias detection"
     ],
     "Venue Title": "arXiv",
-    "Venue Type": "journal",
+    "Venue Type": "preprint",
     "Venue Name": "arXiv",
-    "Authors": [],
+    "Authors": [
+  "Anna Currey",
+  "Maria Nadejde",
+  "Raghavendra Pappagari",
+  "Mia Mayer",
+  "Stanislas Lauly",
+  "Xing Niu",
+  "Benjamin Hsu",
+  "Georgiana Dinu"
+],
     "Affiliations": [
         "AWS AI Labs"
     ],
