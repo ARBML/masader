@@ -1,0 +1,50 @@
+{
+    "Name": "AraFinNews",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/drelhaj/AraFinNews",
+    "Link": "https://github.com/ArabicNLP-UK/AraFinNews",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "Arabic financial news article\u2013headline pairs for abstractive summarisation, spanning 2015\u20132025.",
+    "Volume": 39951000.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Lancaster University"
+    ],
+    "Derived From": [],
+    "Paper Title": "AraFinNews: Arabic Financial Summarisation with Domain-Adapted LLMs",
+    "Paper Link": "https://arxiv.org/pdf/2511.01265",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "summarization",
+        "text generation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Mo El-Haj",
+        "Paul Rayson"
+    ],
+    "Affiliations": [
+        "Lancaster University",
+        "VinUniversity"
+    ],
+    "Abstract": "We introduce AraFinNews, the largest publicly avail-\nable Arabic financial news dataset to date, comprising 212,500\narticle\u2013headline pairs spanning a decade of reporting from 2015\nto 2025. Designed as an Arabic counterpart to major English\nsummarisation corpora such as CNN/DailyMail, AraFinNews\nprovides a realistic benchmark for evaluating domain-specific\nlanguage understanding and generation in financial contexts.\nUsing this resource, we investigate the impact of domain speci-\nficity on abstractive summarisation of Arabic financial texts\nwith large language models (LLMs). In particular, we evalu-\nate transformer-based models\u2014mT5, AraT5, and the domain-\nadapted FinAraT5\u2014to examine how financial-domain pretrain-\ning influences accuracy, numerical reliability, and stylistic align-\nment with professional reporting. Experimental results show\nthat domain-adapted models generate more coherent summaries,\nespecially in their handling of quantitative and entity-centric\ninformation. These findings highlight the importance of domain-\nspecific adaptation for improving narrative fluency in Arabic\nfinancial summarisation. The dataset is freely available for\nnon-commercial research at https://github.com/ArabicNLP-uk/\nAraFinNews",
+    "Added By": "Zaid Alyafeai"
+}
