@@ -1,0 +1,55 @@
+{
+    "Name": "Hashtag Prediction",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Twitter/HashtagPrediction",
+    "Link": "https://github.com/xinyangz/TwHIN-BERT",
+    "License": "CC BY 4.0",
+    "Year": 2023,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
+    "Description": "The hashtag prediction dataset is a multilingual classification dataset. Separate datasets are given for different languages",
+    "Volume": 60176.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "Twitter"
+    ],
+    "Derived From": [],
+    "Paper Title": "TwHIN-BERT: A Socially-Enriched Pre-trained Language Model for Multilingual Tweet Representations at Twitter",
+    "Paper Link": "https://arxiv.org/pdf/2209.07562",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Xinyang Zhang",
+        "Yury Malkov",
+        "Omar Florez",
+        "Serim Park",
+        "Brian McWilliams",
+        "Jiawei Han",
+        "Ahmed El-Kishky"
+    ],
+    "Affiliations": [
+        "Twitter Cortex",
+        "University of Illinois at Urbana-Champaign"
+    ],
+    "Abstract": "Pre-trained language models (PLMs) are fundamental for natural\nlanguage processing applications. Most existing PLMs are not tai-\nlored to the noisy user-generated text on social media, and the\npre-training does not factor in the valuable social engagement logs\navailable in a social network. We present TwHIN-BERT, a multi-\nlingual language model productionized at Twitter, trained on in-\ndomain data from the popular social network. TwHIN-BERT differs\nfrom prior pre-trained language models as it is trained with not only\ntext-based self-supervision but also with a social objective based\non the rich social engagements within a Twitter heterogeneous\ninformation network (TwHIN). Our model is trained on 7 billion\ntweets covering over 100 distinct languages, providing a valuable\nrepresentation to model short, noisy, user-generated text. We eval-\nuate our model on various multilingual social recommendation and\nsemantic understanding tasks and demonstrate significant metric\nimprovement over established pre-trained language models. We\nopen-source TwHIN-BERT and our curated hashtag prediction and\nsocial engagement benchmark datasets to the research community",
+    "Added By": "Zaid Alyafeai"
+}
