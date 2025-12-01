@@ -1,25 +1,6 @@
 {
     "Name": "MHC",
-    "Subsets": [
-        {
-            "Name": "Arabic",
-            "Volume": 3627.0,
-            "Unit": "sentences",
-            "Dialect": "Egypt"
-        },
-        {
-            "Name": "Dutch",
-            "Volume": 3768.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        },
-        {
-            "Name": "French",
-            "Volume": 3720.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Paul/hatecheck-arabic",
     "Link": "https://github.com/rewire-online/multilingual-hatecheck",
     "License": "CC BY 4.0",
@@ -27,11 +8,11 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Domain": [
-        "social media"
+        "other"
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation"
+        "manual curation", "human annotation"
     ],
     "Description": "a suite of functional tests for multilingual hate speech detection models",
     "Volume": 3577.0,
@@ -40,11 +21,9 @@
     "Provider": [
         "Rewire"
     ],
-    "Derived From": [
-        "HATECHECK"
-    ],
+    "Derived From": [],
     "Paper Title": "MULTILINGUAL HATECHECK: Functional Tests for Multilingual Hate Speech Detection Models",
-    "Paper Link": "https://arxiv.org/pdf/2204.02765",
+    "Paper Link": "https://arxiv.org/pdf/2206.09917",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
