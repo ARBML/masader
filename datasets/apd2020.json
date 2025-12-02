@@ -1,0 +1,49 @@
+{
+    "Name": "APD2020",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/mcj6vkg6zw/1",
+    "License": "CC BY 4.0",
+    "Year": 2020,
+    "Language": "ar",
+    "Dialect": "Classical Arabic",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "Updated Classical Arabic poetry dataset (APD2020) covering five eras scraped from Adab.com, cleaned, made publicly available via Kaggle",
+    "Volume": 86061.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Sharjah"
+    ],
+    "Derived From": [],
+    "Paper Title": "Classical Arabic Poetry: Classification based on Era",
+    "Paper Link": "https://ieeexplore.ieee.org/document/9316520",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "poetry analysis"
+    ],
+    "Venue Title": "AICCSA",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Computer Systems and Applications",
+    "Authors": [
+        "Mariam Orabi",
+        "Hozayfa El Rifai",
+        "Ashraf Elnagar"
+    ],
+    "Affiliations": [
+        "University of Sharjah"
+    ],
+    "Abstract": "This paper proposes a CNN-based deep learning\nmodel that classifies Arabic poems based on its era, which is not\nreported before. To build this model, constructing a dataset is the\nfirst step, so we propose an updated Arabic Poetry Dataset (2020).\nWe use FastText word embeddings, based on the full corpus\nof poems (unlabeled). Two classifiers were trained, namely, a\nsupervised deep learning classifier and a FastText-based classifier.\nWe conducted several experiments. First, we implemented a\npolarity classifier of poems to modern and non-modern eras,\nwhich achieved highest accuracy and F1-score of 0.913 and 0.914,\nrespectively, using a deep learning model without frequent terms.\nIn the second experiment, we categorized poems into three eras.\nThe classifier reported an accuracy and F1-score of 0.875 each.\nLast, the classification of poems into five different eras achieved\nhighest accuracy and F1-score of 0.801 and 0.796, respectively.\nIndex Terms\u2014Natural Language Processing, Text classifica-\ntion, Arabic language, Poetry, Convolutional neural networks,\nDeep learning, Arabic Poetry Dataset",
+    "Added By": "Zaid Alyafeai"
+}
