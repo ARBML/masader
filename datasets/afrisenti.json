@@ -1,0 +1,64 @@
+{
+    "Name": "AfriSenti",
+    "Subsets": [
+        {
+            "Name": "Algerian Arabic",
+            "Volume": 3062.0,
+            "Unit": "sentences",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "Moroccan Arabic",
+            "Volume": 9762.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/shmuhammad/AfriSenti-twitter-sentiment",
+    "Link": "https://github.com/afrisenti-semeval/afrisent-semeval-2023",
+    "License": "CC BY 4.0",
+    "Year": 2023,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Twitter sentiment analysis benchmark for 14 African languages with 110k+ labeled tweets",
+    "Volume": 12824.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "Masakhane NLP"
+    ],
+    "Derived From": [],
+    "Paper Title": "AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages",
+    "Paper Link": "https://arxiv.org/pdf/2302.08956",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue Title": "SemEval",
+    "Venue Type": "workshop",
+    "Venue Name": "International Workshop on Semantic Evaluation",
+    "Authors": [
+        "Shamsuddeen Hassan Muhammad",
+        "Idris Abdulmumin",
+        "Abinew Ali Ayele"
+    ],
+    "Affiliations": [
+        "University of Porto",
+        "Bayero University Kano"
+    ],
+    "Abstract": "Africa is home to over 2,000 languages from more than six language families and has the highest linguistic diversity among all continents. These include 75 languages with at least one million speakers each. Yet, there is little NLP research conducted on African languages. Crucial to enabling such research is the availability of high-quality annotated datasets. In this paper, we introduce AfriSenti, a sentiment analysis benchmark that contains a total of >110,000 tweets in 14 African languages (Amharic, Algerian Arabic, Hausa, Igbo, Kinyarwanda, Moroccan Arabic, Mozambican Portuguese, Nigerian Pidgin, Oromo, Swahili, Tigrinya, Twi, Xitsonga, and Yor\u00f9b\u00e1) from four language families. The tweets were annotated by native speakers and used in the AfriSenti-SemEval shared task (The AfriSenti Shared Task had over 200 participants. See website at https://afrisenti-semeval.github.io/). We describe the data collection methodology, annotation process, and the challenges we dealt with when curating each dataset. We further report baseline experiments conducted on the different datasets and discuss their usefulness.",
+    "Added By": "Zaid Alyafeai"
+}
