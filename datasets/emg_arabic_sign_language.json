@@ -1,0 +1,49 @@
+{
+    "Name": "EMG Arabic Sign Language",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/ft9bhdgybs/2",
+    "License": "CC BY 4.0",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "manual curation"
+    ],
+    "Description": "Electromyography dataset of 18,716 gesture files capturing 28 Arabic alphabet handshapes and 10 digits via the Myo armband.",
+    "Volume": 18716.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Tunis"
+    ],
+    "Derived From": [],
+    "Paper Title": "An EMG dataset for Arabic sign language alphabet letters and numbers",
+    "Paper Link": "https://www.sciencedirect.com/science/article/pii/S2352340923008375",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "sign language recognition"
+    ],
+    "Venue Title": "Data in Brief",
+    "Venue Type": "journal",
+    "Venue Name": "Data in Brief",
+    "Authors": [
+        "Amina Ben Haj Amor",
+        "Oussama El Ghoul",
+        "Mohamed Jemni"
+    ],
+    "Affiliations": [
+        "University of Tunis"
+    ],
+    "Abstract": "Nowadays, surface electromyography (sEMG) is evolving as\na technology for hand gesture recognition. Detailed studies\nhave revealed the capacity of EMG signals to access detailed\ninformation, particularly in the classification of hand ges-\ntures. Indeed, this advancement emerges as an interesting el-\nement in refining the recognition and interpretation of sign\nlanguages and exploring deeper into the phonology of signed\nlanguages. Aligned with this advancement and the need for a\nreliable and mobile sign language recognition system, we in-\ntroduce a specialized sEMG dataset, acquired using the Myo\narmband. This device is adept at capturing recordings at fre-\nquencies of up to 200 Hz. The dataset focuses on the 28 let-\nters of the Arabic alphabet and 10 digits using hand gestures,\nwith each gesture captured into 400 frames. This consider-\nable collection of 18,716 samples was achieved with the co-\noperation of three contributors, providing a varied and com-\nprehensive range of gestural data.",
+    "Added By": "Zaid Alyafeai"
+}
