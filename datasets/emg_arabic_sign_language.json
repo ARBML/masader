@@ -1,25 +1,12 @@
 {
     "Name": "EMG Arabic Sign Language",
-    "Subsets": [
-        {
-            "Name": "Arabic alphabet letters",
-            "Volume": 17336.0,
-            "Unit": "hours",
-            "Dialect": "mixed"
-        },
-        {
-            "Name": "Arabic digits",
-            "Volume": 2380.0,
-            "Unit": "hours",
-            "Dialect": "mixed"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/ft9bhdgybs/2",
     "License": "CC BY 4.0",
     "Year": 2023,
     "Language": "ar",
-    "Dialect": "mixed",
+    "Dialect": "Modern Standard Arabic",
     "Domain": [
         "other"
     ],
