@@ -1,25 +1,6 @@
 {
     "Name": "AHAWP",
-    "Subsets": [
-        {
-            "Name": "Alphabets",
-            "Volume": 53199.0,
-            "Unit": "images",
-            "Dialect": "Saudi Arabia"
-        },
-        {
-            "Name": "Words",
-            "Volume": 8144.0,
-            "Unit": "images",
-            "Dialect": "Saudi Arabia"
-        },
-        {
-            "Name": "Paragraphs",
-            "Volume": 241.0,
-            "Unit": "images",
-            "Dialect": "Saudi Arabia"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/2h76672znt/2",
     "License": "CC BY-NC 3.0",
