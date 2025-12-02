@@ -1,0 +1,62 @@
+{
+    "Name": "HelloThere",
+    "Subsets": [
+        {
+            "Name": "Dialogues",
+            "Volume": 317.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Knowledge Bases",
+            "Volume": 26.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://camel.abudhabi.nyu.edu/hellothere-corpus/",
+    "License": "custom",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "Dialogue corpus with 317 multi-turn conversations between users and Time-Offset Interaction Application avatars.",
+    "Volume": 317.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "CAMeL Lab"
+    ],
+    "Derived From": [],
+    "Paper Title": "HelloThere: A Corpus of Annotated Dialogues and Knowledge Bases of Time-Offset Avatars",
+    "Paper Link": "https://aclanthology.org/2024.sigdial-1.12.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "CAMeL Resources",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "instruction tuning"
+    ],
+    "Venue Title": "SIGdial",
+    "Venue Type": "conference",
+    "Venue Name": " Special Interest Group on Discourse and Dialogue",
+    "Authors": [
+        "Alberto Chierici",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi"
+    ],
+    "Abstract": "A Time-Offset Interaction Application (TOIA)\nis a software system that allows people to engage in face-to-face dialogue with previously\nrecorded videos of other people. There are two\nTOIA usage modes: (a) creation mode, where\nusers pre-record video snippets of themselves\nrepresenting their answers to possible questions\nsomeone may ask them, and (b) interaction\nmode, where other users of the system can\nchoose to interact with created avatars. This\npaper presents the HelloThere corpus that has\nbeen collected from two user studies involving\nseveral people who recorded avatars and many\nmore who engaged in dialogues with them. The\ninteractions with avatars are annotated by people asking them questions through three modes\n(card selection, text search, and voice input)\nand rating the appropriateness of their answers\non a 1 to 5 scale. The corpus, made available to\nthe research community, comprises 26 avatars\u2019\nknowledge bases and 317 dialogues between\n64 interrogators and the avatars in text format.",
+    "Added By": "Zaid Alyafeai"
+}
