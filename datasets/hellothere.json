@@ -1,19 +1,6 @@
 {
     "Name": "HelloThere",
-    "Subsets": [
-        {
-            "Name": "Dialogues",
-            "Volume": 317.0,
-            "Unit": "documents",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "Knowledge Bases",
-            "Volume": 26.0,
-            "Unit": "documents",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://camel.abudhabi.nyu.edu/hellothere-corpus/",
     "License": "custom",
