@@ -18,7 +18,7 @@
     "Description": "Images with Arabic embedded text collected from Twitter for spam detection research",
     "Volume": 300.0,
     "Unit": "images",
-    "Ethical Risks": "Medium",
+    "Ethical Risks": "High",
     "Provider": [
         "University of York"
     ],
