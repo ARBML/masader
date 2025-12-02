@@ -1,37 +1,6 @@
 {
     "Name": "APD2020",
-    "Subsets": [
-        {
-            "Name": "Modern",
-            "Volume": 44925.0,
-            "Unit": "documents",
-            "Dialect": "Classical Arabic"
-        },
-        {
-            "Name": "Andalusian",
-            "Volume": 8914.0,
-            "Unit": "documents",
-            "Dialect": "Classical Arabic"
-        },
-        {
-            "Name": "Abbasid",
-            "Volume": 25857.0,
-            "Unit": "documents",
-            "Dialect": "Classical Arabic"
-        },
-        {
-            "Name": "Islamic & Umayyad",
-            "Volume": 4592.0,
-            "Unit": "documents",
-            "Dialect": "Classical Arabic"
-        },
-        {
-            "Name": "Pre-Islamic",
-            "Volume": 1773.0,
-            "Unit": "documents",
-            "Dialect": "Classical Arabic"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/mcj6vkg6zw/1",
     "License": "CC BY 4.0",
@@ -62,7 +31,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "other"
+        "poetry analysis"
     ],
     "Venue Title": "AICCSA",
     "Venue Type": "conference",
