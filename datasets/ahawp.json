@@ -1,0 +1,67 @@
+{
+    "Name": "AHAWP",
+    "Subsets": [
+        {
+            "Name": "Alphabets",
+            "Volume": 53199.0,
+            "Unit": "images",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "Words",
+            "Volume": 8144.0,
+            "Unit": "images",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "Paragraphs",
+            "Volume": 241.0,
+            "Unit": "images",
+            "Dialect": "Saudi Arabia"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/2h76672znt/2",
+    "License": "CC BY-NC 3.0",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "manual curation",
+        "human annotation"
+    ],
+    "Description": "Handwritten Arabic alphabets, words and paragraphs from 82 writers for OCR and writer identification.",
+    "Volume": 61584.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Prince Mohammad Bin Fahd University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Arabic handwritten alphabets, words and paragraphs per user (AHAWP) dataset",
+    "Paper Link": "https://doi.org/10.1016/j.dib.2022.107947",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "Data in Brief",
+    "Venue Type": "journal",
+    "Venue Name": "Data in Brief",
+    "Authors": [
+        "Majid Ali Khan"
+    ],
+    "Affiliations": [
+        "Prince Mohammad Bin Fahd University"
+    ],
+    "Abstract": "This article presents a handwritten Arabic alphabets, words\nand paragraphs dataset (AHAWP). The dataset contains 65\ndifferent Arabic alphabets (with variations on begin, end,\nmiddle and regular alphabets), 10 different Arabic words\n(that encompass all Arabic alphabets) and 3 different para-\ngraphs. The dataset was collected anonymously from 82 dif-\nferent users. Each user was asked to write each alphabet and\nword 10 times. A userid uniquely but anonymously identifies\nthe writer of each alphabet, word and paragraph. In total, the\ndataset consists of 53199 alphabet images, 8144 words im-\nages and 241 paragraphs images. This dataset can be used\nfor multiple purposes. It can be used for optical handwrit-\ning recognition of alphabets and words. It can also be used\nfor writer identification (or verification) of handwritten Ara-\nbic text. It is also possible to evaluate difference in writing\nstyles of isolated alphabets as compared to the same alpha-\nbet written as part of the word or in paragraph by the same\nuser using this dataset. The dataset is publicly available at\nhttps://data.mendeley.com/datasets/2h76672znt/1.",
+    "Added By": "Zaid Alyafeai"
+}
