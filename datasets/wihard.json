@@ -1,19 +1,6 @@
 {
     "Name": "WiHArD",
-    "Subsets": [
-        {
-            "Name": "Level 1",
-            "Volume": 6000.0,
-            "Unit": "documents",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "Level 2",
-            "Volume": 6000.0,
-            "Unit": "documents",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/kdkryh5rs2",
     "License": "CC BY 4.0",
