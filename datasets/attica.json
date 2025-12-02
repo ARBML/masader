@@ -1,0 +1,52 @@
+{
+    "Name": "ATTICA",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/kkawtar/ATTICA",
+    "License": "CC BY 4.0",
+    "Year": 2021,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic text-based traffic panels detection dataset with 1215 images.",
+    "Volume": 1215.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Sidi Mohamed Ben Abdellah University"
+    ],
+    "Derived From": [],
+    "Paper Title": "ATTICA: A Dataset for Arabic Text-Based Traffic Panels Detection",
+    "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9466101",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "IEEE Access",
+    "Venue Type": "journal",
+    "Venue Name": "IEEE Access",
+    "Authors": [
+        "Kaoutar Sefrioui Boujemaa",
+        "Mohammed Akallouch",
+        "Ismail Berrada",
+        "Khalid Fardousse",
+        "Afaf Bouhoute"
+    ],
+    "Affiliations": [
+        "Sidi Mohamed Ben Abdellah University",
+        "Mohammed VI Polytechnic University"
+    ],
+    "Abstract": "Detection and recognition of traffic panels and their textual information are important applications of advanced driving assistance systems (ADAS). They can significantly contribute in enhancing road safety by optimizing the driving experience. However, these tasks might face two major challenges. First, the lack of suitable and good quality datasets. Second, the in-feasibility of global standardization of traffic panels in terms of shape, color and language of the written text. Present research is intensively directed toward Latin text-based panels, while other scripts such as Arabic remain quiet undervalued. In this paper, we address this issue by introducing ATTICA, a new open-source multi-task dataset, consisting of two main sub-datasets: ATTICA_Sign for traffic signs/panels detection and ATTICA_Text for Arabic text extraction/recognition. Our dataset gathers 1215 images with 3173 traffic panel boxes, 870 traffic sign boxes and 7293 Arabic text boxes. In order to examine the utility and advantages of our dataset, we adopt state-of-the-art deep learning based approaches. The conducted experiments show promising results confirming the valuable addition of our dataset in this field of research.",
+    "Added By": "Zaid Alyafeai"
+}
