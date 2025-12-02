@@ -1,19 +1,6 @@
 {
     "Name": "ArCybC",
-    "Subsets": [
-        {
-            "Name": "Training split",
-            "Volume": 3604.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        },
-        {
-            "Name": "Testing split",
-            "Volume": 901.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/z2dfgrzx47/1",
     "License": "CC BY 4.0",
