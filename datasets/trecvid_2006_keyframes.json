@@ -3,7 +3,7 @@
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2010V02",
-    "License": "LDC User Agreement for Non-Members",
+    "License": "LDC User Agreement",
     "Year": 2010,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
@@ -31,7 +31,6 @@
     "Cost": "500.00 $",
     "Test Split": false,
     "Tasks": [
-        "information extraction",
         "event detection",
         "information retrieval"
     ],

@@ -3,7 +3,7 @@
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2007V01",
-    "License": "LDC User Agreement for Non-Members",
+    "License": "LDC User Agreement",
     "Year": 2007,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
@@ -32,7 +32,6 @@
     "Test Split": false,
     "Tasks": [
         "information retrieval",
-        "information extraction",
         "event detection"
     ],
     "Venue Title": "",

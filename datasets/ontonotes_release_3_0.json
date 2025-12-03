@@ -3,7 +3,7 @@
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009T24",
-    "License": "LDC User Agreement for Non-Members",
+    "License": "LDC User Agreement",
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
@@ -31,7 +31,6 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "information extraction",
         "information retrieval"
     ],
     "Venue Title": "",
