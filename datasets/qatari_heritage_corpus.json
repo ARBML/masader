@@ -26,7 +26,7 @@
     "Paper Link": "https://aclanthology.org/2020.osact-1.4.pdf",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "data.world",
+    "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": false,

@@ -26,7 +26,7 @@
     "Paper Link": "https://arxiv.org/pdf/1912.06670.pdf",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "Mozilla",
+    "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": true,
