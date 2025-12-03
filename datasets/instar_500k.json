@@ -1,0 +1,78 @@
+{
+    "Name": "InstAr-500k",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+    "Link": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+    "License": "Apache-2.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "LLM generated"
+    ],
+    "Description": "An Arabic instruction-tuning dataset of 500k samples created by combining synthetic and human-crafted data.",
+    "Volume": 500000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "Clusterlab"
+    ],
+    "Derived From": [
+        "Aya Collection",
+        "ArabicaQA",
+        "CIDAR",
+        "AQAD",
+        "Xtreme",
+        "Ar_Math",
+        "Dawqas",
+        "Ar_Medical",
+        "Arabic_RC",
+        "101 Billion Arabic Words Dataset",
+        "Abu_El_Khair",
+        "HTL_Ar_Sentiment",
+        "RES_Ar_Sentiment",
+        "BRAD",
+        "PROD_Ar_Sentiment",
+        "xlel_wd_dictionary",
+        "Sahih_Al_Bukhari",
+        "ABMC_Arabic_Corpus",
+        "ARCD",
+        "MOV_Ar_Sentiment",
+        "Arabic_Text_Summarization"
+    ],
+    "Paper Title": "GemmAr: Enhancing LLMs Through Arabic Instruction-Tuning",
+    "Paper Link": "https://arxiv.org/pdf/2407.02147",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "instruction tuning",
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Hasna Chouikhi",
+        "Manel Aloui",
+        "Cyrine Ben Hammou",
+        "Ghaith Chaabane",
+        "Haithem Kchaou",
+        "Chehir Dhaouadi"
+    ],
+    "Affiliations": [
+        "Clusterlab Team",
+        "Polytech INTL"
+    ],
+    "Abstract": "Large language models (LLMs) have greatly impacted the natural language processing (NLP) field,\nparticularly for the English language. These models have demonstrated capabilities in understanding\nand generating human-like text. The success of language models largely depends on the availability\nof high-quality instruction datasets, which consist of detailed task descriptions and corresponding\nresponses that are essential for training the models to address a variety of prompts accurately.\nHowever, the availability and quality of these resources vary by language. While models perform\nwell in English, they often need help with languages like Arabic, due to the lack of datasets for\nfine-tuning Arabic-specific tasks. To address this issue, we introduce InstAr-500k, a new Arabic\ninstruction dataset created by generating and collecting content that covers several domains and\ninstruction types. We assess this dataset by fine-tuning an open-source Gemma-7B model on sev-\neral downstream tasks to improve its functionality. Based on multiple evaluations, our fine-tuned\nmodel achieves excellent performance on several Arabic NLP benchmarks. These outcomes em-\nphasize the effectiveness of our dataset in elevating the capabilities of language models for Arabic.\nOur instruction dataset bridges the performance gap between English and Arabic language models\nby providing resources that amplify Arabic NLP development. Building on this foundation, we\ndeveloped a model, GemmAr-7B-V1, specifically tuned to excel at a wide range of Arabic NLP\ntasks.",
+    "Added By": "Zaid Alyafeai"
+}
