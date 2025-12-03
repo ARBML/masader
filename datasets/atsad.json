@@ -1,19 +1,6 @@
 {
     "Name": "ATSAD",
-    "Subsets": [
-        {
-            "Name": "emojis-annotated",
-            "Volume": 29252.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        },
-        {
-            "Name": "human-annotated",
-            "Volume": 7616.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/motazsaad/arabic-sentiment-analysis",
     "License": "Apache-2.0",
