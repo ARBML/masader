@@ -36,7 +36,6 @@
     "Tasks": [
         "machine translation",
         "summarization",
-        "text simplification",
         "language modeling",
         "information retrieval"
     ],

@@ -34,8 +34,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "sentiment analysis",
-        "subjectivity detection"
+        "sentiment analysis"
     ],
     "Venue Title": "ICWSM",
     "Venue Type": "conference",

@@ -34,7 +34,6 @@
     "Test Split": true,
     "Tasks": [
         "sentiment analysis",
-        "aspect-based sentiment analysis",
         "topic classification"
     ],
     "Venue Title": "IDEAS",

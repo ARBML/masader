@@ -32,7 +32,7 @@
     "Test Split": false,
     "Tasks": [
         "machine translation",
-        "handwriting recognition"
+        "optical character recognition"
     ],
     "Venue Title": "",
     "Venue Type": "conference",

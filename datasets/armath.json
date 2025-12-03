@@ -31,7 +31,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "math solving"
+        "question answering"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",

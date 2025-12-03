@@ -31,7 +31,7 @@
     "Cost": "1,000.00 $",
     "Test Split": false,
     "Tasks": [
-        "handwriting recognition",
+        "optical character recognition",
         "machine translation"
     ],
     "Venue Title": "",

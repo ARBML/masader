@@ -31,7 +31,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "financial analysis"
+        "topic classification"
     ],
     "Venue Title": "",
     "Venue Type": "conference",

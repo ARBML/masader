@@ -31,8 +31,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "sentiment analysis",
-        "speech act classification"
+        "sentiment analysis"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",

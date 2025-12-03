@@ -31,7 +31,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "misinformation detection"
+        "fact checking"
     ],
     "Venue Title": "ArXiv",
     "Venue Type": "preprint",
