@@ -31,7 +31,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "linking"
+        "event linking"
     ],
     "Venue Title": "",
     "Venue Type": "conference",

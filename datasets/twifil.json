@@ -30,7 +30,7 @@
     "Test Split": false,
     "Tasks": [
         "sentiment analysis",
-        "emotion detection"
+        "emotion classification"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",

@@ -31,7 +31,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "misogyny identification"
+        "gender bias detection"
     ],
     "Venue Title": "WANLP",
     "Venue Type": "workshop",

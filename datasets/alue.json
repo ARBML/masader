@@ -42,9 +42,9 @@
         "dialect identification",
         "semantic similarity",
         "offensive language detection",
-        "emotion detection",
+        "emotion classification",
         "sentiment analysis",
-        "entailment"
+        "natural language inference"
     ],
     "Venue Title": "WANLP",
     "Venue Type": "workshop",

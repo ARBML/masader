@@ -31,7 +31,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "text classification"
+        "other"
     ],
     "Venue Title": "ICNLSP",
     "Venue Type": "conference",

@@ -32,7 +32,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "misogyny identification"
+        "gender bias detection"
     ],
     "Venue Title": "FIRE",
     "Venue Type": "conference",

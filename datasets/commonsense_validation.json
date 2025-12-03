@@ -31,7 +31,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "commonsense validation"
+        "commonsense reasoning"
     ],
     "Venue Title": "ArXiv",
     "Venue Type": "preprint",

@@ -33,7 +33,7 @@
     "Test Split": false,
     "Tasks": [
         "dialect identification",
-        "intent detection"
+        "intent classification"
     ],
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",

@@ -29,7 +29,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "intent detection"
+        "intent classification"
     ],
     "Venue Title": "ACL",
     "Venue Type": "conference",

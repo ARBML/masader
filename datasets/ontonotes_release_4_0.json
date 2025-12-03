@@ -31,8 +31,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
-        "information extraction"
+        "information retrieval"
     ],
     "Venue Title": "",
     "Venue Type": "conference",
