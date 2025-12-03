@@ -1,0 +1,56 @@
+{
+    "Name": "AraLingBench",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/hammh0a/AraLingBench",
+    "Link": "https://github.com/hammoudhasan/AraLingBench",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "A fully human-annotated benchmark of 150 multiple-choice questions that evaluates core Arabic linguistic skills across grammar, morphology, spelling, reading comprehension, and syntax.",
+    "Volume": 150.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "KAUST"
+    ],
+    "Derived From": [],
+    "Paper Title": "AraLingBench: A Human-Annotated Benchmark for Evaluating Arabic Linguistic Capabilities of Large Language Models",
+    "Paper Link": "https://arxiv.org/pdf/2511.14295",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "multiple choice question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Mohammad Zbib",
+        "Hasan Abed Al Kader Hammoud",
+        "Sina Mukalled",
+        "Nadine Rizk",
+        "Fatima Karnib",
+        "Issam Lakkis",
+        "Ammar Mohanna",
+        "Bernard Ghanem"
+    ],
+    "Affiliations": [
+        "King Abdullah University of Science and Technology",
+        "American University of Beirut "
+    ],
+    "Abstract": "We present AraLingBench: a fully human annotated benchmark for evaluating the Arabic linguistic competence of large language models (LLMs). The benchmark spans five core categories: grammar, morphology, spelling, reading comprehension, and syntax, through 150 expert-designed multiple choice questions that directly assess structural language understanding. Evaluating 35 Arabic and bilingual LLMs reveals that current models demonstrate strong surface level proficiency but struggle with deeper grammatical and syntactic reasoning. AraLingBench highlights a persistent gap between high scores on knowledge-based benchmarks and true linguistic mastery, showing that many models succeed through memorization or pattern recognition rather than authentic comprehension. By isolating and measuring fundamental linguistic skills, AraLingBench provides a diagnostic framework for developing Arabic LLMs. The full evaluation code is publicly available on GitHub.",
+    "Added By": "Zaid Alyafeai"
+}
