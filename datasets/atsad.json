@@ -1,0 +1,71 @@
+{
+    "Name": "ATSAD",
+    "Subsets": [
+        {
+            "Name": "emojis-annotated",
+            "Volume": 29252.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "human-annotated",
+            "Volume": 7616.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://github.com/motazsaad/arabic-sentiment-analysis",
+    "License": "Apache-2.0",
+    "Year": 2019,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "machine annotation",
+        "human annotation"
+    ],
+    "Description": "Arabic Twitter sentiment analysis dataset containing 36k tweets labeled positive or negative using distant supervision.",
+    "Volume": 18173.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "University of Gothenburg",
+        "Islamic University of Gaza"
+    ],
+    "Derived From": [
+        "Emojis Sentiment Ranking Lexicon"
+    ],
+    "Paper Title": "An Arabic Tweets Sentiment Analysis Dataset (ATSAD) using Distant Supervision and Self Training",
+    "Paper Link": "https://aclanthology.org/2020.osact-1.1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue Title": "OSACT",
+    "Venue Type": "workshop",
+    "Venue Name": "Open-Source Arabic Corpora and Processing Tools",
+    "Authors": [
+        "Kathrein Abu Kwaik",
+        "Motaz Saad",
+        "Stergios Chatzikyriakidis",
+        "Simon Dobnik",
+        "Richard Johansson"
+    ],
+    "Affiliations": [
+        "University of Gothenburg",
+        "Islamic University of Gaza"
+    ],
+    "Abstract": "As the number of social media users increases, they express their thoughts, needs, socialise and publish their opinions. For good social media sentiment analysis, good quality resources are needed, and the lack of these resources is particularly evident for languages other than English, in particular Arabic. The available Arabic resources lack of from either the size of the corpus or the quality of the annotation. In this paper, we present an Arabic Sentiment Analysis Corpus collected from Twitter, which contains 36K tweets labelled into positive and negative. We employed distant supervision and self-training approaches into the corpus to annotate it. Besides, we release an 8K tweets manually annotated as a gold standard. We evaluated the corpus intrinsically by comparing it to human classification and pre-trained sentiment analysis models. Moreover, we apply extrinsic evaluation methods exploiting sentiment analysis task and achieve an accuracy of 86%.",
+    "Added By": "Zaid Alyafeai"
+}
