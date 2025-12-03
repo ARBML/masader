@@ -1,0 +1,53 @@
+{
+    "Name": "Arabic Humor",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/iwan-rg/Arabic-Humor",
+    "License": "CC BY 4.0",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Arabic humor detection dataset with 10039 tweets in dialectal and MSA Arabic annotated as Humor vs Non-Humor.",
+    "Volume": 10039.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "iwan-org"
+    ],
+    "Derived From": [],
+    "Paper Title": "A Dataset for Detecting Humor in Arabic Text",
+    "Paper Link": "https://aclanthology.org/2022.icnlsp-1.25.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "icnlsp",
+    "Venue Type": "preprint",
+    "Venue Name": "International Conference on Natural Language and Speech Processing",
+    "Authors": [
+        "Hend Al-Khalifa",
+        "Fetoun AlZahrani",
+        "Hala Qawara",
+        "Reema AlRowais",
+        "Sawsan Alowa",
+        "Luluh AlDhubayi"
+    ],
+    "Affiliations": [
+        "King Saud University"
+    ],
+    "Abstract": "Humor detection is a complex and ambiguous task in natural language processing. This has made automatic humor detection challenging, particularly for languages with limited resources such as Arabic. In this paper, we attempt to solve this task by collecting and annotating Arabic humorous tweets in dialects and Modern Standard Arabic (MSA) text then performing automatic humor detection on the collected data. We experimented on the collected dataset by fine-tuning seven Arabic Pre-Trained language models (PLMs) which are: AraBERTv02, Arabertv02-twitter, QARIB, MarBERT, MARBERTv2, CAMeLBERT-DA, and CAMeLBERT-MIX to establish a baseline classification system. We concluded that CAMeLBERT-DA was the best-performing model and it achieved an F1-score and accuracy of 72.11%.",
+    "Added By": "Zaid Alyafeai"
+}
