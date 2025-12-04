@@ -89,7 +89,7 @@
     "Domain": [
         "public datasets"
     ],
-    "Form": "videos",
+    "Form": "text",
     "Collection Style": [
         "machine annotation"
     ],
