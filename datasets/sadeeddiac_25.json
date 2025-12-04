@@ -39,7 +39,7 @@
         "WikiNews"
     ],
     "Paper Title": "Sadeed: Advancing Arabic Diacritization Through Small Language Model",
-    "Paper Link": "https://arxiv.org/abs/2504.21677",
+    "Paper Link": "https://arxiv.org/pdf/2504.21677",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",

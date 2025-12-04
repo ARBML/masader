@@ -24,7 +24,7 @@
     ],
     "Derived From": [],
     "Paper Title": "ArabGlossBERT: Fine-Tuning BERT on Context-Gloss Pairs for WSD.",
-    "Paper Link": "https://arxiv.org/abs/2205.09685",
+    "Paper Link": "https://arxiv.org/pdf/2205.09685",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "CAMeL Resources",

@@ -24,7 +24,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Arabic Fine-Grained Entity Recognition.",
-    "Paper Link": "https://arxiv.org/abs/2310.17333",
+    "Paper Link": "https://arxiv.org/pdf/2310.17333",
     "Script": "Arab-Latin",
     "Tokenized": true,
     "Host": "CAMeL Resources",
@@ -36,9 +36,9 @@
         "tokenization",
         "named entity recognition"
     ],
-    "Venue Title": "",
-    "Venue Type": "conference",
-    "Venue Name": "",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Haneen Liqreina",
         "Mustafa Jarrar",

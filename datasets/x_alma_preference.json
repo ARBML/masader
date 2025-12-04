@@ -25,7 +25,7 @@
     ],
     "Derived From": [],
     "Paper Title": "X-ALMA: Plug & Play Modules and Adaptive Rejection for Quality Translation at Scale",
-    "Paper Link": "https://arxiv.org/abs/2504.21677",
+    "Paper Link": "https://arxiv.org/pdf/2504.21677",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",

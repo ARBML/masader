@@ -52,7 +52,7 @@
         "Dial2MSA"
     ],
     "Paper Title": "Dial2MSA-Verified: A Multi-Dialect Arabic Social Media Dataset for Neural Machine Translation to Modern Standard Arabic",
-    "Paper Link": "https://arxiv.org/abs/2504.21677",
+    "Paper Link": "https://arxiv.org/pdf/2504.21677",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",

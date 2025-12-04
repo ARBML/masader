@@ -24,7 +24,7 @@
     ],
     "Derived From": [],
     "Paper Title": "WojoodNER 2024: The Second Arabic Named Entity Recognition Shared Task.",
-    "Paper Link": "https://arxiv.org/abs/2407.09936",
+    "Paper Link": "https://arxiv.org/pdf/2407.09936",
     "Script": "Arab-Latin",
     "Tokenized": true,
     "Host": "CAMeL Resources",
@@ -36,9 +36,9 @@
         "tokenization",
         "named entity recognition"
     ],
-    "Venue Title": "",
-    "Venue Type": "conference",
-    "Venue Name": "",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Mustafa Jarrar",
         "Nagham Hamad",

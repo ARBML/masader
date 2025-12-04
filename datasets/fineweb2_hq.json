@@ -25,7 +25,7 @@
         "FineWeb-2"
     ],
     "Paper Title": "Enhancing Multilingual LLM Pretraining with Model-Based Data Selection",
-    "Paper Link": "https://arxiv.org/abs/2502.10361",
+    "Paper Link": "https://arxiv.org/pdf/2502.10361",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",

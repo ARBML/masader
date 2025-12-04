@@ -14,7 +14,7 @@
     "Collection Style": [
         "crawling"
     ],
-    "Description": "Polyglot-NER A training dataset automatically generated from Wikipedia and Freebase the task of named entity recognition. The dataset contains the basic Wikipedia based training data for 40 languages we have (with coreference resolution) for the task of named entity recognition. The details of the procedure of generating them is outlined in Section 3 of the paper (https://arxiv.org/abs/1410.3791). Each config contains the data corresponding to a different language. For example, \"es\" includes only spanish examples.",
+    "Description": "Polyglot-NER A training dataset automatically generated from Wikipedia and Freebase the task of named entity recognition. The dataset contains the basic Wikipedia based training data for 40 languages we have (with coreference resolution) for the task of named entity recognition. The details of the procedure of generating them is outlined in Section 3 of the paper (https://arxiv.org/pdf/1410.3791). Each config contains the data corresponding to a different language. For example, \"es\" includes only spanish examples.",
     "Volume": 10000144.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
