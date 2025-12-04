@@ -37,7 +37,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "other"
+        "multiple choice question answering"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",

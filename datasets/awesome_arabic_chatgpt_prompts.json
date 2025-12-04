@@ -29,7 +29,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "other"
+        "instruction tuning"
     ],
     "Venue Title": "",
     "Venue Type": "preprint",

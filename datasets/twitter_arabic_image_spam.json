@@ -32,7 +32,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "other"
+        "spam detection"
     ],
     "Venue Title": "ICDARW",
     "Venue Type": "workshop",

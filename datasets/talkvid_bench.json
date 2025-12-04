@@ -31,7 +31,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "other"
+        "video generation"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
