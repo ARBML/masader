@@ -30,7 +30,6 @@
     "Test Split": false,
     "Tasks": [
         "dialect identification",
-        "text generation",
         "language modeling"
     ],
     "Venue Title": "PICICT",

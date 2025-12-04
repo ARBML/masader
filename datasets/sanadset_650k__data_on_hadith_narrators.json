@@ -33,7 +33,7 @@
     "Tasks": [
         "machine translation",
         "topic classification",
-        "text generation",
+        "language modelling",
         "named entity recognition",
         "question answering",
         "information retrieval",

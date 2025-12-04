@@ -32,8 +32,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "text generation",
-        "other"
+        "language modeling"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",

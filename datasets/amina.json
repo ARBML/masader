@@ -32,7 +32,7 @@
     "Test Split": true,
     "Tasks": [
         "topic classification",
-        "text generation"
+        "language modeling"
     ],
     "Venue Title": "Neural Computing and Applications",
     "Venue Type": "journal",

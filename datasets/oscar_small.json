@@ -33,8 +33,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "language modeling",
-        "text generation"
+        "language modeling"
     ],
     "Venue Title": "",
     "Venue Type": "conference",

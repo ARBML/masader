@@ -30,7 +30,6 @@
     "Test Split": false,
     "Tasks": [
         "sentiment analysis",
-        "text generation",
         "information retrieval"
     ],
     "Venue Title": "2023 1st International Conference on Advanced Innovations in Smart Cities",

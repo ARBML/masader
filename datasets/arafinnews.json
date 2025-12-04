@@ -32,7 +32,7 @@
     "Test Split": true,
     "Tasks": [
         "summarization",
-        "text generation"
+        "language modeling"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",

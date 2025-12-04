@@ -33,7 +33,6 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "text generation",
         "language modeling"
     ],
     "Venue Title": "ACL",

@@ -32,7 +32,6 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "text generation",
         "question answering"
     ],
     "Venue Title": "arXiv",

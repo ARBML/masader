@@ -31,7 +31,7 @@
     "Tasks": [
         "machine translation",
         "dialect identification",
-        "text generation",
+        "language modeling",
         "dialogue generation"
     ],
     "Venue Title": "ArabicNLP",
