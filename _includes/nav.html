@@ -1,4 +1,4 @@
-<nav class="flex justify-between items-center h-16 lg:h-20 w-full px-4 lg:px-8">
+<nav class="flex justify-between items-center h-16 lg:h-20 w-full px-4 lg:px-8 transition-colors">
   <div class="flex gap-8 justify-between items-center">
     <h2 class="font-bold text-xl lg:text-2xl text-[#F95959]">
       <a href="{{ site.baseurl }}/" class="hover:text-inherit">Masader+</a>
@@ -8,7 +8,7 @@
       <li>
         <a
           href="{% if item.url contains '://' %} {{ item.url }} {% else %} {{ site.baseurl }}{{item.url}} {% endif %}"
-          class="capitalize font-bold text-black hover:underline hover:text-black"
+          class="capitalize font-bold nav-link-text hover:underline"
           {% if item.url contains '://' %}target="_blank" {% endif %}
         >
           {{ item.title }}
@@ -34,6 +34,12 @@
     <ul class="flex gap-8 items-center">
       <li class="block md:hidden navigation-mobile-menu-toggle">
         <i class="fa-solid fa-ellipsis"></i>
+      </li>
+      <li class="hidden md:block">
+        <button id="theme-toggle" class="p-2 rounded-lg hover:bg-black/10 transition-colors" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon fa-lg theme-icon-dark"></i>
+          <i class="fa-solid fa-sun fa-lg theme-icon-light hidden"></i>
+        </button>
       </li>
       <li class="hidden md:block">
         <a target="_blank" href="https://discord.gg/aN2vaec9nV">
@@ -82,6 +88,12 @@
   </li>
   <li>
     <ul class="flex justify-center gap-8 items-center">
+      <li>
+        <button id="theme-toggle-mobile" class="p-2 rounded-lg hover:bg-black/10 transition-colors" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon fa-lg theme-icon-dark"></i>
+          <i class="fa-solid fa-sun fa-lg theme-icon-light hidden"></i>
+        </button>
+      </li>
       <li>
         <a target="_blank" href="https://discord.gg/aN2vaec9nV">
           <i class="fa-brands fa-discord text-blue-500"></i>
