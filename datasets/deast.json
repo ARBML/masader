@@ -1,0 +1,54 @@
+{
+    "Name": "DEAST",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://doi.org/10.5281/zenodo.17754563",
+    "License": "CC BY-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "Parallel English-Arabic corpus of 33k thesis titles in 13 scientific domains for machine translation.",
+    "Volume": 33000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Benha University",
+        "Prince Sattam Bin Abdulaziz University"
+    ],
+    "Derived From": [],
+    "Paper Title": "DEAST: A dataset for English\u2013Arabic scientific translation and vice versa",
+    "Paper Link": "https://www.sciencedirect.com/science/article/pii/S2352340925010947",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "zenodo",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "Data in Brief",
+    "Venue Type": "journal",
+    "Venue Name": "Data in Brief",
+    "Authors": [
+        "Rana Ehab",
+        "Ahmed El-Sawy",
+        "Mohammed Aldawsari",
+        "Hamada Nayel"
+    ],
+    "Affiliations": [
+        "Benha University",
+        "Modern Academy for Computer Science and Management Technology",
+        "Delta",
+        "Prince Sattam Bin Abdulaziz University"
+    ],
+    "Abstract": "Scientific text continues to increase rapidly as compared to the past. In many fields the same word may have various meanings. Machine translation is a basic problem in natural language processing that is used in both general and specialized fields, including scientific, medical, literary, and commercial translation. Domain-specific translation necessitates subject-matter expertise in addition to linguistic proficiency in both the source and target languages. The lack of high-quality resources is one of the biggest obstacles to scientific translation, especially for Arabic. Arabic scientific text translation is a crucial task that is hindered by a lack of resources. This paper introduces an Arabic-English dataset for scientific text, collected from the titles of the theses which are available on different sources. To the best of our knowledge, it is the first dataset available for this purpose.",
+    "Added By": "Zaid Alyafeai"
+}
