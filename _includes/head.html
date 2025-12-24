@@ -6,6 +6,13 @@
     content="{{ site.description }}"
 />
 <title>{{ site.title }}</title>
+<script>
+    (function() {
+        const theme = localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+    })();
+</script>
 <link
     rel="shortcut icon"
     type="image/x-icon"
