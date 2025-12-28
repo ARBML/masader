@@ -1,0 +1,57 @@
+{
+    "Name": "AraMix",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/AdaMLLab/AraMix",
+    "Link": "https://huggingface.co/datasets/AdaMLLab/AraMix",
+    "License": "custom",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "web pages",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "a deduplicated Arabic pretraining corpus",
+    "Volume": 178000000000.0,
+    "Unit": "tokens",
+    "Ethical Risks": "High",
+    "Provider": [
+        "King Abdullah University of Science and Technology (KAUST)"
+    ],
+    "Derived From": [
+        "CulturaX",
+        "ArabicWeb24",
+        "HPLT 2.0",
+        "FineWeb-2",
+        "C4 Arabic",
+        "101B Arabic Words",
+        "FinePDFs"
+    ],
+    "Paper Title": "AraMix: Recycling, Refiltering, and Deduplicating to Deliver the Largest Arabic Pretraining Corpus",
+    "Paper Link": "https://arxiv.org/pdf/2512.18834",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "language modeling"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Sultan Alrashed",
+        "Francesco Orabona"
+    ],
+    "Affiliations": [
+        "King Abdullah University of Science and Technology (KAUST)"
+    ],
+    "Abstract": "We present AraMix, a deduplicated Arabic pretraining corpus containing approximately 178 billion tokens across 179 million documents. Rather than scraping the web again, AraMix demonstrates that substantial value lies in systematically reusing and curating existing pretraining datasets: we combine seven publicly available Arabic web datasets, apply quality filtering designed specifically for Arabic text to re-filter some datasets, and perform cross-dataset deduplication, both MinHash and sentence-level. This approach reveals that nearly 60% of tokens across these independently collected corpora are duplicates, redundancy that any new scraping efforts will reproduce. Our work suggests that for lower resource languages, investment in curation pipelines for existing data yields greater returns than additional web crawls, an approach that allowed us to curate the largest heavily filtered publicly available Arabic pretraining corpus.",
+    "Added By": "Zaid Alyafeai"
+}
