@@ -58,7 +58,9 @@
         "Huu Nguyen",
         "Alexander Mattick"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "LAION-AI"
+    ],
     "Abstract": "Aligning large language models (LLMs) with human preferences has proven\nto drastically improve usability and has driven rapid adoption as demonstrated\nby ChatGPT. Alignment techniques such as supervised fine-tuning (SFT) and\nreinforcement learning from human feedback (RLHF) greatly reduce the required\nskill and domain knowledge to effectively harness the capabilities of LLMs,\nincreasing their accessibility and utility across various domains. However,\nstate-of-the-art alignment techniques like RLHF rely on high-quality human\nfeedback data, which is expensive to create and often remains proprietary. In an\neffort to democratize research on large-scale alignment, we release OpenAssistant\nConversations, a human-generated, human-annotated assistant-style conversation\ncorpus consisting of 161,443 messages in 35 different languages, annotated with\n461,292 quality ratings, resulting in over 10,000 complete and fully annotated\nconversation trees. The corpus is a product of a worldwide crowd-sourcing effort\ninvolving over 13,500 volunteers. Models trained on OpenAssistant Conversations\nshow consistent improvements on standard benchmarks over respective base\nmodels. We release our code2 and data3 under a fully permissive licence.",
     "Added By": "Zaid Alyafeai"
 }

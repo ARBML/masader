@@ -34,17 +34,14 @@
         "transliteration",
         "machine translation"
     ],
-    "Venue Title": "ArXiv",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "ArXiv",
+    "Venue Name": "arXiv",
     "Authors": [
         "Aissam Outchakoucht",
         "Hamza Es-Samaali"
     ],
-    "Affiliations": [
-        "",
-        ""
-    ],
+    "Affiliations": [],
     "Abstract": "Nowadays, we are witnessing an unprecedented growth of IT products and services. Yet, in order for many of these solutions to flourish and be viable in a given society, they need to \u00ab understand \u00bb and be able to communicate to some extent using native languages. However, it turns out that step 0 in any serious engagement with Natural Language Processing (NLP) consists of translating the vocabulary to the widely used and most documented language in this field, namely English.",
     "Added By": "Mustafa Ghaleb"
 }

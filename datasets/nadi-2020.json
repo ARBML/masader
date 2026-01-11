@@ -170,10 +170,7 @@
         "Nizar Habash"
     ],
     "Affiliations": [
-        "",
-        "The University of British Columbia",
-        "",
-        ""
+        "The University of British Columbia"
     ],
     "Abstract": "We present the results and findings of the First Nuanced Arabic Dialect Identification Shared Task (NADI). The shared task includes two subtasks: country level dialect identification (Subtask 1) and province level sub-dialect identification (Subtask 2). The data for the shared task covers a total of 100 provinces from 21 Arab countries, and are collected from the Twitter domain. As such, NADI is the first shared task to target naturally-occurring fine-grained dialectal text at the sub-country level. A total of 61 teams from 25 countries registered to participate in the tasks, thus reflecting the interest of the community in this area. We received 47 submissions for Subtask 1 from 18 teams and 9 submissions to Subtask 2 from 9 teams.",
     "Added By": ""

@@ -8,11 +8,11 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "TV channels"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "GALE Phase 2 Arabic Broadcast Conversation Parallel Text Part 2 includes 29 source-translation document pairs, comprising 169,488 words of Arabic source text and its English translation. Data is drawn from eight distinct Arabic programs broadcast between 2004 and 2007 from Aljazeera, a regional broadcast programmer based in Doha, Qatar and Nile TV, an Egyptian broadcaster. Broadcast conversation programming is generally more interactive than traditional news broadcasts and includes talk shows, interviews, call-in programs and roundtables. The programs in this release focus on current events topics.",
     "Volume": 169488.0,
@@ -34,9 +34,15 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Lauren Friedman", 
+        "Hubert Jin", 
+        "Song Chen", 
+        "Gary Krug", 
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

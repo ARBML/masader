@@ -64,7 +64,12 @@
         "Ismail Berrada",
         "Saad Ezzini"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "OCP Solutions, Casablanca, Morocco",
+        "UM6P College of Computing, Benguerir, Morocco",
+        "National Institute of Posts and Telecoms, Rabat, Morocco",
+        "School of Computing and Communications, Lancaster University, Lancaster, UK"
+    ],
     "Abstract": "Navigating the complexities of language diversity is a central challenge in developing robust natural language processing systems, especially in specialized domains like banking. The Moroccan Dialect of Arabic (Darija) serves as a common language that blends cultural complexities, historical impacts, and regional differences, which presents unique challenges for language models due to its divergence from Modern Standard Arabic and influence from French, Spanish, and Tamazight. To tackle these challenges, this paper introduces DarijaBanking, a novel Darija dataset aimed at enhancing intent classification in the banking domain. DarijaBanking comprises over 1800 parallel high-quality queries in Darija, Modern Standard Arabic (MSA), English, and French, organized into 24 intent classes. We experimented with various intent classification methods, including full fine-tuning of monolingual and multilingual models, zero-shot learning, retrieval-based approaches, and Large Language Model prompting. Furthermore, we propose BERTouch, a BERT-based language model fine-tuned on intent detection in Darija, which outperforms state-of-the-art models, including OpenAI\u2019s GPT-4, achieving F1 scores of 0.98 and 0.96 on both Darija and MSA, respectively. The results provide insights into enhancing Moroccan Darija banking intent detection systems, highlighting the value of domain-specific data annotation and balancing precision and cost-effectiveness.",
     "Added By": "Zaid Alyafeai"
 }

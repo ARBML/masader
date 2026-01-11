@@ -42,9 +42,9 @@
         "Walid Abusalah"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Waikato Institute of Technology",
+        "Ben Gurion University",
+        "Birzeit University"
     ],
     "Abstract": "paper describes the impact of dataset characteristics on the results of Arabic document classification algorithms using TF-IDF representations. The experiments compared different stemmers, different categories and different training set sizes, and found that different dataset characteristics produced widely differing results, in one case attaining a remarkable 99% recall (accuracy). The use of a standard dataset would eliminate this variability and enable researchers to gain comparable knowledge from the published results.",
     "Added By": "Mustafa Ghaleb"

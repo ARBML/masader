@@ -12,7 +12,8 @@
     ],
     "Form": "audio",
     "Collection Style": [
-        "manual curation"
+        "manual curation",
+        "human annotation"
     ],
     "Description": "The corpus consists of 8,516 speech files, totaling 1.7 gigabytes or 11.42 hours of speech data. Each speech file represents one person reciting one prompt from one of four prompt scripts. The utterances were recorded using a Shure SM10A microphone and a RANE Model MS1 pre-amplifier. The files were recorded as 16-bit PCM low-byte-first (\"little-endian\") raw audio files, with a sampling rate of 22.05 KHz. They were then converted to NIST sphere format.  Approximately 7,200 of the recordings are from native informants and 1200 files are from non-native informants. The following tables show the breakdown of corpus content in terms of male, female, native and non-native speakers.",
     "Volume": 11.42,
@@ -32,7 +33,7 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "Stephen A. LaRocca",

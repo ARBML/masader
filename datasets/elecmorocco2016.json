@@ -39,7 +39,10 @@
         "Mohcine Maghfour",
         "Hafdalla Hammia"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Mohammed V University",
+        "Hassan 1st University"
+    ],
     "Abstract": "Social networks platforms such as Facebook are becoming one of the most powerful sources for information. The produced and shared data are important in volume, in velocity and in variety. Processing these data in the raw state to extract useful information can be a very difficult task and a big challenge. Furthermore, the Arabic language under its modern standard or dialectal shape is one of the languages producing an important quantity of data in social networks and the least analyzed. The characteristics and the specificity of the Arabic language present a big challenge for sentiment analysis, especially if this analysis is performed on Arabic Facebook comments. In this paper, we present a methodology that we have elaborated, for collecting and preprocessing Facebook comments written in Modern Standard Arabic (MSA) or in Moroccan Dialectal Arabic (MDA) for Sentiment Analysis (SA) using supervised classification methods. In this methodology, we have detailed the processing applied to the comments\u2019 text as well as various schemes of features\u2019 construction (words or groups of words) useful for supervised sentiments\u2019 classification. This methodology was tested on comments written in MSA or in MDA collected from Facebook for the sentiment analysis on a political phenomenon. The experiments\u2019 results obtained are promising and this encourages us to continue working on this topic.",
     "Added By": "Abderrahmane Issam"
 }

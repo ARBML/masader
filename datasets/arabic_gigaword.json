@@ -12,7 +12,7 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "crawling"
     ],
     "Description": "There are 319 files, totalling approximately 1.1GB in compressed form (4348 MB uncompressed, and 391619 Kwords).",
     "Volume": 1256719.0,
@@ -35,9 +35,11 @@
         "language modeling"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "David Graff"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

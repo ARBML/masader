@@ -8,11 +8,11 @@
     "Language": "ar",
     "Dialect": "Levant",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "Fisher Levantine Arabic Conversational Telephone Speech, Transcripts contains transcripts for 279 telephone conversations. The majority of the speakers are from Jordan, Lebanon and Palestine.",
     "Volume": 279.0,
@@ -34,9 +34,13 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Tim Buckwalter",
+        "David Graff",
+        "Hubert Jin"],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -42,9 +42,12 @@
     "Authors": [
         "Emna Hkiri",
         "Souheyl Mallat",
-        "Mounir Zrigui and Mourad Mars"
+        "Mounir Zrigui",
+        "Mourad Mars"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Faculty of Sciences of Monastir, University of Monastir, Tunisia"
+    ],
     "Abstract": "Named Entity Recognition (NER) is the problem of locating and categorizing atomic entities in a given text. In this work, we used DBpedia Linked datasets and combined existing open source tools to generate from a parallel corpus a bilingual lexicon of Named Entities (NE). To annotate NE in the monolingual English corpus, we used linked data entities by mapping them to Gate Gazetteers. In order to translate entities identified by the gate tool from the English corpus, we used moses, a Statistical Machine Translation (SMT) system. The construction of the Arabic-English NE lexicon is based on the results of moses translation. Our method is fully automatic and aims to help Natural Language Processing (NLP) tasks such as, Machine Translation (MT) information retrieval, text mining and question answering. Our lexicon contains 48753 pairs of Arabic-English NE, it is freely available for use by other researchers.",
     "Added By": "Mourad Mars"
 }

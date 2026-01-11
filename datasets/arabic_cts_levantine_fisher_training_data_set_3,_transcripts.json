@@ -8,15 +8,15 @@
     "Language": "ar",
     "Dialect": "Levant",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "This corpus contains Arabic transcripts for 322 telephone conversations in UTF-8 format and associated documentation including a word list with frequency of occurences. The list shows all the occurences of words in their pronunciation spellings mapped to their corresponding canonical forms, as well as their raw frequency (the amount of times they appear in the corpus) and source document frequency (the number of documents in which they appear in the corpus).",
-    "Volume": 322.0,
-    "Unit": "sentences",
+    "Volume": 50.0,
+    "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -34,9 +34,13 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Tim Buckwalter",
+        "Hubert Jin"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

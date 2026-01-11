@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "news articles"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
-    "Description": "Please view this\u00a0LDC2009T10 sample\u00a0and\u00a0LDC2009T11 sample.",
-    "Volume": 22500.0,
+    "Description": "It consists of two datasets, the Language Understanding Annotation Corpus from the Johns Hopkins Center of Excellence in Human Language Technology and ACE Reflex Entity Translation Training Dev/Test developed by LDC.",
+    "Volume": 24683.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
@@ -36,7 +36,7 @@
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

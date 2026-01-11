@@ -34,10 +34,14 @@
         "dialect identification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Rania Al-Sabbagh"
+    ],
+    "Affiliations": [
+        "University of Sharjah"
+    ],
     "Abstract": "",
     "Added By": "Amr Keleg"
 }

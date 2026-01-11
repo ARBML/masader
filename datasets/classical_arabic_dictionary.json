@@ -15,7 +15,7 @@
         "other"
     ],
     "Description": "The dictionary is presented in three formats: plain text in UTF-8 encoding, plain text in CP1256 encoding, and as an SQL database file. Source documents are presented in UTF-8 and CP1256 encodings.",
-    "Volume": 0.0,
+    "Volume": 1138616.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
@@ -31,14 +31,14 @@
     "Cost": "250.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
-        "language modeling",
-        "morphological analysis"
+        "dictionary"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Abeer Alsheddi"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

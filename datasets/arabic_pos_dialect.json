@@ -73,15 +73,8 @@
         "Laura Kallmeyer"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        "University Of D\u00fcsseldorf;Computational Linguistics",
-        "",
-        "",
-        "The University of Edinburgh",
-        ""
+        "University Of D\u00fcsseldorf",
+        "The University of Edinburgh"
     ],
     "Abstract": "This paper introduces a new dataset of POS-tagged Arabic tweets in four major dialects along with tagging guidelines. The data, which we are releasing publicly, includes tweets in Egyptian, Levantine, Gulf, and Maghrebi, with 350 tweets for each dialect with appropriate train/test/development splits for 5-fold cross validation. We use a Conditional Random Fields (CRF) sequence labeler to train POS taggers for each dialect and examine the effect of cross and joint dialect training, and give benchmark results for the datasets. Using clitic n-grams, clitic metatypes, and stem templates as features, we were able to train a joint model that can correctly tag four different dialects with an average accuracy of 89.3%.",
     "Added By": ""

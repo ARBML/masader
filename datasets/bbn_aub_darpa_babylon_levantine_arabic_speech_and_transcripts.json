@@ -19,7 +19,8 @@
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
-        "BBN Technologies"
+        "BBN Technologies",
+        "American University of Beirut a subcontractor"
     ],
     "Derived From": [],
     "Paper Title": "",
@@ -36,16 +37,18 @@
         "dialogue generation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
-        "BBN Technologies (with American University of Beirut a subcontractor)",
         "John Makhoul",
         "Bushra Zawaydeh",
         "Frederick Choi",
         "David Stallard"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "BBN Technologies",
+        "American University of Beirut"
+    ],
     "Abstract": "",
     "Added By": "Kamel GAANOUN"
 }

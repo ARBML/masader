@@ -171,11 +171,8 @@
         "Nizar Habash"
     ],
     "Affiliations": [
-        "",
         "The University of British Columbia",
-        "University of British Columbia",
-        "",
-        ""
+        "University of British Columbia"
     ],
     "Abstract": "We present the findings and results of theSecond Nuanced Arabic Dialect IdentificationShared Task (NADI 2021). This Shared Taskincludes four subtasks: country-level ModernStandard Arabic (MSA) identification (Subtask1.1), country-level dialect identification (Subtask1.2), province-level MSA identification (Subtask2.1), and province-level sub-dialect identifica-tion (Subtask 2.2). The shared task dataset cov-ers a total of 100 provinces from 21 Arab coun-tries, collected from the Twitter domain. A totalof 53 teams from 23 countries registered to par-ticipate in the tasks, thus reflecting the interestof the community in this area. We received 16submissions for Subtask 1.1 from five teams, 27submissions for Subtask 1.2 from eight teams,12 submissions for Subtask 2.1 from four teams,and 13 Submissions for subtask 2.2 from fourteams.",
     "Added By": ""

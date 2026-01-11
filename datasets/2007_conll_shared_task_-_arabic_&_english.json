@@ -15,7 +15,7 @@
         "other"
     ],
     "Description": "The source data in the treebanks in this release consists principally of various texts (e.g., textbooks, news, literature) annotated in dependency format. In general, dependency grammar is based on the idea that the verb is the center of the clause structure and that other units in the sentence are connected to the verb as directed links or dependencies. This is a one-to-one correspondence: for every element in the sentence there is one node in the sentence structure that corresponds to that element. In constituency or phrase structure grammars, on the other hand, clauses are divided into noun phrases and verb phrases and in each sentence, one or more nodes may correspond to one element. The Penn Treebank (LDC99T42) is an example of a constituency or phrase structure approach. All of the data sets in this release are dependency treebanks.",
-    "Volume": 0.0,
+    "Volume": 116800.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
@@ -34,7 +34,7 @@
         "syntactic parsing"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

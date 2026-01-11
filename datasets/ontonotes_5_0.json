@@ -36,8 +36,38 @@
     "Venue Title": "other",
     "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": 
+    [
+    "Ralph Weischedel",
+    "Sameer Pradhan",
+    "Lance Ramshaw",
+    "Jeff Kaufman",
+    "Michelle Franchini",
+    "Mohammed El-Bachouti",
+    "Nianwen Xue",
+    "Martha Palmer",
+    "Jena D. Hwang",
+    "Claire Bonial",
+    "Jinho Choi",
+    "Aous Mansouri",
+    "Maha Foster",
+    "Abdel-aati Hawwary",
+    "Mitchell Marcus",
+    "Ann Taylor",
+    "Craig Greenberg",
+    "Eduard Hovy",
+    "Robert Belvin",
+    "Ann Houston"
+  ],
+    "Affiliations": 
+    [
+    "Raytheon BBN Technologies",
+    "Brandeis University",
+    "University of Colorado at Boulder",
+    "University of Pennsylvania",
+    "USC Information Sciences Institute",
+    "Grammarsmith"
+  ],
     "Abstract": "",
     "Added By": "Mustafa Ghaleb"
 }

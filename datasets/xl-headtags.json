@@ -31,11 +31,23 @@
     "Tasks": [
         "summarization"
     ],
-    "Venue Title": "ACL Findings",
+    "Venue Title": "Findings of ACL",
     "Venue Type": "conference",
     "Venue Name": "Findings of Associations of computation linguistics",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Faisal Tareque Shohan",
+        "Mir Tafseer Nayeem",
+        "Samsul Islam",
+        "Abu Ubaida Akash",
+        "Shafiq Joty"
+    ],
+    "Affiliations": [
+        "Ahsanullah University of Science & Technology",
+        "University of Alberta",
+        "Universit\u00e9 de Sherbrooke",
+        "Salesforce Research",
+        "Nanyang Technological University"
+    ],
     "Abstract": "Millions of news articles published online daily\ncan overwhelm readers. Headlines and entity\n(topic) tags are essential for guiding readers to\ndecide if the content is worth their time. While\nheadline generation has been extensively studied, tag generation remains largely unexplored,\nyet it offers readers better access to topics of\ninterest. The need for conciseness in capturing\nreaders\u2019 attention necessitates improved content selection strategies for identifying salient\nand relevant segments within lengthy articles,\nthereby guiding language models effectively.\nTo address this, we propose to leverage auxiliary information such as images and captions\nembedded in the articles to retrieve relevant sentences and utilize instruction tuning with variations to generate both headlines and tags for\nnews articles in a multilingual context. To make\nuse of the auxiliary information, we have compiled a dataset named XL-HeadTags, which\nincludes 20 languages across 6 diverse language families. Through extensive evaluation,\nwe demonstrate the effectiveness of our plugand-play multimodal-multilingual retrievers for\nboth tasks. Additionally, we have developed a\nsuite of tools for processing and evaluating multilingual texts, significantly contributing to the\nresearch community by enabling more accurate\nand efficient analysis across languages",
     "Added By": "Zaid Alyafeai"
 }

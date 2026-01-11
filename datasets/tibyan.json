@@ -2,7 +2,7 @@
     "Name": "Tibyan",
     "Subsets": [],
     "HF Link": "",
-    "Link": "https://doi.org/10.5281/zenodo.14623621",
+    "Link": "https://zenodo.org/records/14623621",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "ar",
@@ -42,7 +42,7 @@
     "Tasks": [
         "grammatical error correction"
     ],
-    "Venue Title": "PeerJ Computer Science",
+    "Venue Title": "PeerJ Comput. Sci.",
     "Venue Type": "journal",
     "Venue Name": "PeerJ Computer Science",
     "Authors": [

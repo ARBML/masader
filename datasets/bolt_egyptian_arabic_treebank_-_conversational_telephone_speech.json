@@ -8,11 +8,11 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "This release contains 153,171 tokens before clitics were split and 182,965 tree tokens after clitics were split for treebank annotation. The source data was selected from conversational telephone speech collected by LDC for the CALLHOME project that was transcribed and segmented into sentence units.",
     "Volume": 153171.0,
@@ -31,13 +31,20 @@
     "Cost": "1,750.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
-        "machine translation"
+        "part of speech tagging",
+        "morphological analysis"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Seth Kulick",
+        "Sondos Krouna",
+        "Dalila Tabassi",
+        "Michael Ciul"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

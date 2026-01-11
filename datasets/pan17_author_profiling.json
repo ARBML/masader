@@ -36,8 +36,21 @@
     "Venue Title": "CLEF",
     "Venue Type": "conference",
     "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Martin Potthast",
+        "Francisco Rangel-Pardo",
+        "Michael Tschuggnall",
+        "Efstathios Stamatatos",
+        "Paolo Rosso",
+        "Benno Stein"
+    ],
+    "Affiliations": [
+        "Web Technology & Information Systems, Bauhaus-Universit\u00e4t Weimar, Germany",
+        "Autoritas Consulting, S.A., Spain",
+        "Department of Computer Science, University of Innsbruck, Austria",
+        "Dept. of Information & Communication Systems Eng., University of the Aegean, Greece",
+        "PRHLT Research Center, Universitat Polit\u00e8cnica de Val\u00e8ncia, Spain"
+    ],
     "Abstract": "",
     "Added By": "Nouamane Tazi"
 }

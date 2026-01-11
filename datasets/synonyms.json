@@ -37,7 +37,7 @@
         "part of speech tagging"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "Sana Ghanem",
@@ -45,7 +45,11 @@
         "Radi Jarrar",
         "Ibrahim Bounhas"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Department of Computer Science, Birzeit University, Palestine",
+        "LISI Laboratory of Computer Science for Industrial System, INSAT, Carthage University, Tunisia",
+        "JARIR: Joint group for Artificial Reasoning and Information Retrieval, Tunisia"
+    ],
     "Abstract": "This paper addresses the task of extending a given synset with additional synonyms taking into account synonymy strength as a fuzzy value. Given a mono/multilingual synset and a threshold (a fuzzy value [0 \u2212 1]), our goal is to extract new synonyms above this threshold from existing lexicons. We present twofold contributions: an algorithm and a benchmark dataset. The dataset consists of 3K candidate synonyms for 500 synsets. Each candidate synonym is annotated with a fuzzy value by four linguists. The dataset is important for (i) understanding how much linguists (dis/)agree on synonymy, in addition to (ii) using the dataset as a baseline to evaluate our algorithm. Our proposed algorithm extracts synonyms from existing lexicons and computes a fuzzy value for each candidate. Our evaluations show that the algorithm behaves like a linguist and its fuzzy values are close to those proposed by linguists (using RMSE and MAE).  The dataset and a demo page are publicly available at https://portal.sina.birzeit.edu/synonyms.",
     "Added By": "Tymaa Hammouda"
 }

@@ -31,13 +31,20 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "other"
+        "answerable questions detection"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Maram Hasanain",
+        "Tamer Mohamed Elsayed",
+        "Walid Magdy"
+    ],
+    "Affiliations": [
+        "Qatar University",
+        "Qatar Computing Research Institute"
+    ],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

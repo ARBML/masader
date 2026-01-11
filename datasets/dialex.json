@@ -79,7 +79,12 @@
         "Ahmed Helal",
         "and Mohammed El-Razzaz."
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Natural Language Processing Lab, The University of British Columbia, Vancouver, Canada",
+        "American University of Beirut, Beirut, Lebanon",
+        "Concordia University, Montreal, Canada",
+        "Arab Academy for Science and Technology, Cairo, Egypt"
+    ],
     "Abstract": "Word embeddings are a core component of modern natural language processing systems, making the ability to thoroughly evaluate them a vital task. We describe DiaLex, a benchmark for intrinsic evaluation of dialectal Arabic word embeddings. DiaLex covers five important Arabic dialects: Algerian, Egyptian, Lebanese, Syrian, and Tunisian. Across these dialects, DiaLex provides a testbank for six syntactic and semantic relations, namely male to female, singular to dual, singular to plural, antonym, comparative, and genitive to past tense. DiaLex thus consists of a collection of word pairs representing each of the six relations in each of the five dialects. To demonstrate the utility of DiaLex, we use it to evaluate a set of existing and new Arabic word embeddings that we developed. Beyond evaluation of word embeddings, DiaLex supports efforts to integrate dialects into the Arabic language curriculum. It can be easily translated into Modern Standard Arabic and English, which can be useful for evaluating word translation. Our benchmark, evaluation code, and new word embedding models will be publicly available.",
     "Added By": "Iskander Gaba"
 }

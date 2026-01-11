@@ -35,9 +35,17 @@
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [ 
+        "Xuansong Li",
+        "Stephen Grimes", 
+        "Safa Ismael",
+        "Dalal Zakhary",
+        "Stephanie Strassel",
+        "Mohamed Maamouri",
+        "Ann Bies"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

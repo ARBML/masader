@@ -34,7 +34,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "other"
+        "code generation"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",

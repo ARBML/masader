@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "TV channels"
     ],
     "Form": "audio",
     "Collection Style": [
         "other"
     ],
     "Description": "The recordings were captured from a dedicated satellite receiver and stored as 16-bit PCM, 16-kHz, single-channel, in NIST SPHERE format. The duration of each recording is either 60 minutes or 120 minutes, depending on the VOA broadcast schedule. The date (YYYYMMDD), start-time, and end-time (HHMM EST) for each recording are indicated in the file names. The sample data are not compressed.",
-    "Volume": 1.0,
+    "Volume": 10.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
@@ -34,9 +34,13 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "David Graff",
+        "Christopher Cieri"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

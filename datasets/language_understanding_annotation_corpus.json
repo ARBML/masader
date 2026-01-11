@@ -8,7 +8,8 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "news articles",
+        "TV channels"
     ],
     "Form": "text",
     "Collection Style": [
@@ -34,9 +35,17 @@
         "coreference resolution"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mona Diab",
+        "Bonnie Dorr",
+        "Lori Levin",
+        "Teruko Mitamura",
+        "Rebecca Passonneau",
+        "Owen Rambow",
+        "Lance Ramshaw"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

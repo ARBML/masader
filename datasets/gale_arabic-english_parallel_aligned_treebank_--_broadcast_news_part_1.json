@@ -8,15 +8,15 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "TV channels"
     ],
     "Form": "text",
     "Collection Style": [
         "other"
     ],
-    "Description": "Please view the below samples.",
-    "Volume": 4824.0,
-    "Unit": "sentences",
+    "Description": "The source data consists of Arabic broadcast news programming collected by LDC in 2005 and 2006 from Alhurra, Aljazeera and Dubai TV.",
+    "Volume": 115826.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -31,13 +31,19 @@
     "Cost": "1,750.00 $",
     "Test Split": false,
     "Tasks": [
-        "machine translation",
-        "information retrieval"
+        "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Xuansong Li",
+        "Stephen Grimes",
+        "Safa Ismael",
+        "Stephanie Strassel",
+        "Mohamed Maamouri",
+        "Ann Bies"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

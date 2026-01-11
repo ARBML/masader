@@ -41,8 +41,8 @@
         "Marco Dinarelli"
     ],
     "Affiliations": [
-        "",
-        ""
+        "LIG, B\u00e2timent IMAG - 700 avenue Centrale - Domaine Universitaire de Saint-Martin-d\u2019H\u00e8res, France",
+        "University of Rome Sapienza, Piazzale Aldo Moro 5, 00185 Roma, Italy"
     ],
     "Abstract": "This article describes the constitution process of the first morpho-syntactically annotated Tunisian Arabish Corpus (TArC). Arabish, also known as Arabizi, is a spontaneous coding of Arabic dialects in Latin characters and \u201carithmographs\u201d (numbers used as letters). This code-system was developed by Arabic-speaking users of social media in order to facilitate the writing in the Computer-Mediated Communication (CMC) and text messaging informal frameworks. Arabish differs for each Arabic dialect and each Arabish code-system is under-resourced, in the same way as most of the Arabic dialects. In the last few years, the attention of NLP studies on Arabic dialects has considerably increased. Taking this into consideration, TArC will be a useful support for different types of analyses, computational and linguistic, as well as for NLP tools training. In this article we will describe preliminary work on the TArC semi-automatic construction process and some of the first analyses we developed on TArC. In addition, in order to provide a complete overview of the challenges faced during the building process, we will present the main Tunisian dialect characteristics and its encoding in Tunisian Arabish.",
     "Added By": ""

@@ -44,11 +44,8 @@
         "Rannie Lin"
     ],
     "Affiliations": [
-        "",
         "University of British Columbia",
-        "",
-        "The University of British Columbia",
-        ""
+        "The University of British Columbia"
     ],
     "Abstract": "We describe Mega-COV, a billion-scale dataset from Twitter for studying COVID-19. The dataset is diverse (covers 268 countries), longitudinal (goes as back as 2007), multilingual (comes in 100+ languages), and has a significant number of location-tagged tweets (~169M tweets). We release tweet IDs from the dataset. We also develop two powerful models, one for identifying whether or not a tweet is related to the pandemic (best F1=97%) and another for detecting misinformation about COVID-19 (best F1=92%). A human annotation study reveals the utility of our models on a subset of Mega-COV. Our data and models can be useful for studying a wide host of phenomena related to the pandemic. Mega-COV and our models are publicly available.",
     "Added By": "Mustafa Ghaleb"

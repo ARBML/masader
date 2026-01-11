@@ -34,9 +34,14 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Song Chen",
+        "Jennifer Tracey",
+        "Christopher Walker",
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

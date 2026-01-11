@@ -35,9 +35,29 @@
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Qiang Yang",
+        "Hind Alamro",
+        "Somayah Albaradei",
+        "Adil Salhi",
+        "Xiaoting Lv",
+        "Changsheng Ma",
+        "Manal Alshehri",
+        "Inji Jaber",
+        "Faroug Tifratene",
+        "Wei Wang",
+        "Takashi Gojobori",
+        "Carlos M. Duarte",
+        "Xin Gao",
+        "Xiangliang Zhang"
+    ],
+    "Affiliations": [
+        "Computer, Electrical and Mathematical Sciences and Engineering (CEMSE) Division and Computational Biosciences Research Center (CBRC), King Abdullah University of Science and Technology (KAUST)",
+        "School of Computer Science and Information Technology, Beijing Jiaotong University, China",
+        "IT department, King Abdullah University of Science and Technology (KAUST)",
+        "Red Sea Research Center (RSRC) and Computational Biosciences Research Center (CBRC), King Abdullah University of Science and Technology (KAUST)"
+    ],
     "Abstract": "",
     "Added By": "Nora Alturayeif"
 }

@@ -41,8 +41,8 @@
         "M. Zrigui"
     ],
     "Affiliations": [
-        "",
-        ""
+        "National Higher Engineering School of Tunis",
+        "University of Monastir"
     ],
     "Abstract": "Our paper presents a distant supervision algorithm for automatically collecting and labeling \u2018TEAD\u2019, a dataset for Arabic Sentiment Analysis (SA), using emojis and sentiment lexicons. The data was gathered from Twitter during the period between the 1st of June and the 30th of November 2017. Although the idea of using emojis to collect and label training data for SA, is not novel, getting this approach to work for Arabic dialect was very challenging. We ended up with more than 6 million tweets labeled as Positive, Negative or Neutral. We present the algorithm used to deal with mixed-content tweets (Modern Standard Arabic MSA and Dialect Arabic DA). We also provide properties and statistics of the dataset along side experiments results. Our try outs covered a wide range of standard classifiers proved to be efficient for sentiment classification problem.",
     "Added By": ""

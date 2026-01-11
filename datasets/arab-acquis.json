@@ -45,11 +45,8 @@
         "Maverick Alzate"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Computational Approaches to Modeling Language Lab",
+        "New York University Abu Dhabi, UAE"
     ],
     "Abstract": "We present Arab-Acquis, a large publicly available dataset for evaluating machine translation between 22 European languages and Arabic. Arab-Acquis consists of over 12,000 sentences from the JRC-Acquis (Acquis Communautaire) corpus translated twice by professional translators, once from English and once from French, and totaling over 600,000 words. The corpus follows previous data splits in the literature for tuning, development, and testing. We describe the corpus and how it was created. We also present the first benchmarking results on translating to and from Arabic for 22 European languages.",
     "Added By": ""

@@ -8,11 +8,11 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "TV channels"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "machine annotation"
     ],
     "Description": "The TDT4 corpus contains news data collected daily from 20 news sources (13 broadcast, seven newswire) in three languages (American English, Mandarin Chinese, and Modern Standard Arabic), over a period of four months (October 2000 through January 2001). Here's a breakdown of the broadcast data included in this release with number of files and time length by source:",
     "Volume": 88.3,
@@ -31,12 +31,15 @@
     "Cost": "19,000.00 $",
     "Test Split": false,
     "Tasks": [
-        "speech recognition"
+        "topic classification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Junbo Kong",
+        "David Graff"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

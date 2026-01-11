@@ -8,18 +8,18 @@
     "Language": "ar",
     "Dialect": "Gulf",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "A total of 976 conversation sides from 975 Gulf Arabic speakers are provided (one speaker appears on two distinct calls). Most of the calls contain both sides of a conversation (that is, 450 two-channel recordings plus 76 single-channel recordings). The average duration per side is about 5.7 minutes.",
     "Volume": 46.66,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
-        "LDC"
+        "Appen Pty Ltd"
     ],
     "Derived From": [],
     "Paper Title": "",
@@ -36,7 +36,7 @@
         "dialogue generation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

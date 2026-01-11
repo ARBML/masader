@@ -2,7 +2,7 @@
     "Name": "AraCOVID19-MFH",
     "Subsets": [],
     "HF Link": "",
-    "Link": "https://github.com/MohamedHadjAmeur/AraCOVID19-MFH",
+    "Link": "https://github.com/HadjAmeur/AraCovid19-MFH",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2021,
     "Language": "ar",
@@ -34,16 +34,15 @@
         "fake news detection",
         "hate speech detection"
     ],
-    "Venue Title": "ArXiv",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "ArXiv",
+    "Venue Name": "arXiv",
     "Authors": [
         "Mohamed Seghir Hadj Ameur",
-        "H. Aliane"
+        "Hassina Aliane"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Research and Development in Digital Humanities Division, Research Centre on Scientific and Technical Information (CERIST), Algiers, Algeria"
     ],
     "Abstract": "Along with the COVID-19 pandemic, an \"infodemic\" of false and misleading information has emerged and has complicated the COVID-19 response efforts. Social networking sites such as Facebook and Twitter have contributed largely to the spread of rumors, conspiracy theories, hate, xenophobia, racism, and prejudice. To combat the spread of fake news, researchers around the world have and are still making considerable efforts to build and share COVID-19 related research articles, models, and datasets. This paper releases \"AraCOVID19-MFH\"1a manually annotated multi-label Arabic COVID-19 fake news and hate speech detection dataset. Our dataset contains 10,828 Arabic tweets annotated with 10 different labels. The labels have been designed to consider some aspects relevant to the fact-checking task, such as the tweet's check worthiness, positivity/negativity, and factuality. To confirm our annotated dataset's practical utility, we used it to train and evaluate several classification models and reported the obtained results. Though the dataset is mainly designed for fake news detection, it can also be used for hate speech detection, opinion/news classification, dialect identification, and many other tasks. \u00a9 2021 Elsevier B.V.. All rights reserved.",
     "Added By": ""

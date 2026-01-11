@@ -31,13 +31,19 @@
     "Cost": "1,000.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Kevin Walker",
+        "Moussa Bamba",
+        "David Miller",
+        "Xiaoyi Ma",
+        "Christopher Cieri",
+        "George R. Doddington"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

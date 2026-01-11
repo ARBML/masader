@@ -8,11 +8,12 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "web pages"
+        "web pages",
+        "news articles"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "This release contains 2,748 documents with corresponding source and reference files, the latter of which contains four independent human reference translations of the source data. The source data is comprised of Arabic and Chinese newswire and web data collected by LDC in 2007. The table below displays statistics by source, genre, documents, segments and source tokens.",
     "Volume": 2748.0,
@@ -34,7 +35,7 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

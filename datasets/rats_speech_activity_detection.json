@@ -8,11 +8,12 @@
     "Language": "multilingual",
     "Dialect": "Levant",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "The source audio consists of conversational telephone speech recordings collected by LDC: (1) data collected for the RATS program from Levantine Arabic, Farsi, Pashto and Urdu speakers; and (2) material from the Fisher English (LDC2004S13, LDC2005S13), and Fisher Levantine Arabic telephone studies (LDC2007S02), as well as from CALLFRIEND Farsi (LDC2014S01).",
     "Volume": 350.0,
@@ -34,9 +35,16 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Kevin Walker",
+        "Xiaoyi Ma",
+        "David Graff",
+        "Stephanie Strassel",
+        "Stephanie Sessa",
+        "Karen Jones"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

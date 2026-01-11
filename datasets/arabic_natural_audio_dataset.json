@@ -42,7 +42,12 @@
         "Lama Hamandi",
         "Rached Zantout"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Department of Computer Science, Beirut Arab University, Beirut, Lebanon",
+        "Electrical and Computer Engineering Department, Beirut Arab University, Beirut, Lebanon",
+        "Electrical and Computer Engineering Department, American University of Beirut, Beirut, Lebanon",
+        "Electrical and Computer Engineering Department, Rafik Hariri University, Mechref, Lebanon"
+    ],
     "Abstract": "Automatic emotion recognition from speech signals without linguistic cues has been an important emerging research area. Integrating emotions in human\u2013computer interaction is of great importance to effectively simulate real life scenarios. Research has been focusing on recognizing emotions from acted speech while little work was done on natural real life\nutterances. English, French, German and Chinese corpora were used for that purpose while no natural Arabic corpus was found to date. In this paper, emotion recognition in Arabic spoken data is studied for the first time. A realistic speech corpus from Arabic TV shows is collected. The videos are labeled by their perceived emotions; namely happy, angry or\nsurprised. Prosodic features are extracted and thirty-five classification methods are applied. Results are analyzed in this paper and conclusions and future recommendations are identified.",
     "Added By": "Abdelrahman Rezk"
 }

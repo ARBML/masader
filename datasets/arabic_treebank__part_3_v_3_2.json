@@ -12,7 +12,7 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "crawling"
     ],
     "Description": "ATB3 v 3.2 contains a total of 339,710 tokens before clitics are split, and 402,291 tokens after clitics are separated for the treebank annotation. This release includes all files that were previously made available to the DARPA GALE program community (Arabic Treebank Part 3 - Version 3.1, LDC2008E22). A number of inconsistencies in the 3.1 release data have been corrected here. These include changes to certain POS tags with the resulting tree changes. As a result, additional clitics have been separated, and some previously incorrectly split tokens have now been merged.",
     "Volume": 339710.0,
@@ -34,9 +34,16 @@
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Seth Kulick",
+        "Sondos Krouna",
+        "Fatma Gaddeche",
+        "Wajdi Zaghouani"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

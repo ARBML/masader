@@ -8,11 +8,11 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "TV channels"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "GALE Phase 2 Arabic Broadcast Conversation Parallel Text Part 1 includes 36 source-translation document pairs, comprising 169,109 words of Arabic source text and its English translation. Data is drawn from thirteen distinct Arabic programs broadcast between 2004 and 2007 from the following sources: Al Alam News Channel, a broadcaster located in Iran Aljazeera, a regional broadcast programmer based in Doha, Qatar Dubai TV, located in Dubai, United Arab Emirates Oman TV, a national broadcaster located in the Sultanate of Oman and Radio Sawa, a U.S, government-funded regional broadcaster. Broadcast conversation programming is generally more interactive than traditional news broadcasts and includes talk shows, interviews, call-in programs and roundtable discussions. The programs in this release focus on current events topics.",
     "Volume": 169109.0,
@@ -34,9 +34,15 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Lauren Friedman", 
+        "Hubert Jin", 
+        "Song Chen", 
+        "Gary Krug", 
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

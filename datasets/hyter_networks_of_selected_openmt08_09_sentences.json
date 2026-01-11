@@ -8,7 +8,8 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "news articles"
+        "news articles",
+        "web pages"
     ],
     "Form": "text",
     "Collection Style": [
@@ -34,9 +35,12 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Markus Dreyer", 
+        "Daniel Marcu"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

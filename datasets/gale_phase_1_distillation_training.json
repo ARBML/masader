@@ -8,14 +8,15 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "TV channels",
+        "news articles"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "The annotation task involves responding to a series of user queries. For each query, annotators first find relevant documents and identify snippets (strings of contiguous text that answer the query) in the Arabic, Chinese or English source document. Annotators then create a nugget for each fact expressed in the snippet. Semantically equivalent nuggets are grouped into cross-language, cross-document \"supernugs\". Judges at BAE Systems finally provide relevance weights for each supernug.",
-    "Volume": 81.0,
+    "Volume": 93.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
@@ -31,13 +32,19 @@
     "Cost": "2,000.00 $",
     "Test Split": false,
     "Tasks": [
-        "topic classification",
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Olga Babko-Malaya", 
+        "Song Chen", 
+        "Ramez Zakhary", 
+        "Julie Medero", 
+        "Kazuaki Maeda", 
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

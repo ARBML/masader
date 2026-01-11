@@ -15,8 +15,8 @@
         "other"
     ],
     "Description": "This release consists of Egyptian Arabic source text message and chat conversations collected using two methods: new collection via LDC's collection platform, and donation of SMS or chat archives from BOLT collection participants. The source data is released as BOLT Egyptian Arabic SMS/Chat and Transliteration (LDC2017T07).",
-    "Volume": 475665.0,
-    "Unit": "tokens",
+    "Volume": 74814.0,
+    "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -35,7 +35,7 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

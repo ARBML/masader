@@ -41,8 +41,7 @@
         "Omar Einea"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Unversity of Sharjah"
     ],
     "Abstract": "The availability of rich datasets is a pre-requisite for proposing robust sentiment analysis systems. A variety of such datasets exists in English language. However, it is rare or nonexistent for the Arabic language except for a recent LABR dataset, which consists of a little bit over 63,000 book reviews extracted from. Goodreads. com. We introduce BRAD 1.0, the largest Book Reviews in Arabic Dataset for sentiment analysis and machine language applications. BRAD comprises of almost 510,600 book records. Each record corresponds for a single review and has the review in Arabic language and the reviewer's rating on a scale of 1 to 5 stars. In this paper, we present and describe the properties of BRAD. Further, we provide two versions of BRAD: the complete unbalanced dataset and the balanced version of BRAD. Finally, we implement four sentiment analysis classifiers based on this dataset and report our findings. When training and testing the classifiers on BRAD as opposed to LABR, an improvement rate growth of 46% is reported. The highest accuracy attained is 91%. Our core contribution is to make this benchmark-dataset available and accessible to the research community on Arabic language.",
     "Added By": ""

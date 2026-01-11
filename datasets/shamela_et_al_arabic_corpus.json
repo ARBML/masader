@@ -2,7 +2,7 @@
     "Name": "Shamela et al Arabic Corpus",
     "Subsets": [],
     "HF Link": "",
-    "Link": "https://github.com/tarekeldeeb/GloVe-Arabic/tree/master/arabic_corpus",
+    "Link": "https://github.com/tarekeldeeb/arabic_corpus/tree/3ecc54d435f5326625d2e7b5246c92b5c62bac51",
     "License": "CC BY 4.0",
     "Year": 2018,
     "Language": "ar",
@@ -32,7 +32,7 @@
         "language modeling"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

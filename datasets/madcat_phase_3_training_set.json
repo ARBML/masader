@@ -10,7 +10,7 @@
     "Domain": [
         "news articles"
     ],
-    "Form": "text",
+    "Form": "images",
     "Collection Style": [
         "other"
     ],
@@ -31,13 +31,19 @@
     "Cost": "1,000.00 $",
     "Test Split": false,
     "Tasks": [
-        "optical character recognition",
-        "machine translation"
+        "optical character recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+       "David Lee",
+       "Safa Ismael",
+       "Dave Doermann",
+       "Stephanie Strassel",
+       "Song Chen",
+       "Stephen Grimes"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -37,8 +37,18 @@
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Tarek Naous",
+        "Zahraa Bassyouni",
+        "Bassel Mousi",
+        "Hazem M HAJJ",
+        "Wassim El-Hajj",
+        "Khaled BASHIR SHABAN"
+  ],
+    "Affiliations": [
+        "American University of Beirut",
+        "Qatar University"
+    ],
     "Abstract": "Learning response generation models constitute the main component of building open-domain dialogue systems. However, training open-domain response generation models requires large amounts of labeled data and pre-trained language generation models that are often nonexistent for low-resource languages. In this article, we propose a framework for training open-domain response generation models in low-resource settings. We consider Dialectal Arabic (DA) as a working example. The framework starts by warm-starting a transformer-based encoder-decoder with pre-trained language model parameters. Next, the resultant encoder-decoder model is adapted to DA by employing self-supervised pre-training on large-scale unlabeled data in the desired dialect. Finally, the model is fine-tuned on a very small labeled dataset for open-domain response generation. The results show significant performance improvements on three spoken Arabic dialects after adopting the framework\u2019s three stages, highlighted by higher BLEU and lower Perplexity scores compared with multiple baseline models. Specifically, our models are capable of generating fluent responses in multiple dialects with an average human-evaluated fluency score above 4. Our data is made publicly available.",
     "Added By": "Amr Keleg"
 }

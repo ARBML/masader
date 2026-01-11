@@ -25,7 +25,7 @@
         "QA from wikipedia (based on SQuAD 2 articles)"
     ],
     "Paper Title": "AQAD: 17,000+ Arabic Questions for Machine Comprehension of Text",
-    "Paper Link": "https://www.semanticscholar.org/paper/AQAD%3A-17%2C000%2B-Arabic-Questions-for-Machine-of-Text-Atef-Mattar/d633e0f0a9fdd24c5e3e697478bcc30fc23c8cc8",
+    "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9316526",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -46,11 +46,7 @@
         "Marwan Torki"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Alexandria University"
     ],
     "Abstract": "Current Arabic Machine Reading for Question Answering datasets suffer from important shortcomings. The available datasets are either small-sized high-quality collections or large-sized low-quality datasets. To address the aforementioned problems we present our Arabic Question-Answer dataset (AQAD). AQAD is a new Arabic reading comprehension large-sized high-quality dataset consisting of 17,000+ questions and answers. To collect the AQAD dataset, we present a fully automated data collector. Our collector works on a set of Arabic Wikipedia articles for the extractive question answering task. The chosen articles match the articles used in the well-known Stanford Question Answering Dataset (SQuAD). We provide evaluation results on the AQAD dataset using two state-of-the-art models for machine-reading question answering problems. Namely, BERT and BIDAF models which result in 0.37 and 0.32 F-1 measure on AQAD dataset.",
     "Added By": ""

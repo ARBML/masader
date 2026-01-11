@@ -45,13 +45,10 @@
         "S. Vogel"
     ],
     "Affiliations": [
-        "",
         "University of Wolverhampton",
         "Bulgarian Academy of Sciences",
         "Qatar Computing Research Institute",
-        "Mitra Translations",
-        "",
-        ""
+        "Mitra Translations"
     ],
     "Abstract": "This article presents the WAW Corpus, an interpreting corpus for English/Arabic, which can be used for teaching interpreters, studying the characteristics of interpreters\u2019 work, as well as to train machine translation systems. The corpus contains recordings of lectures and speeches from international conferences, their interpretations, the transcripts of the original speeches and of their interpretations, as well as human translations of both kinds of transcripts into the opposite language of the language pair. The article presents the corpus curation, statistics, assessment, as well as a case study of the corpus use.",
     "Added By": "Zaid Alyafeai"

@@ -8,15 +8,15 @@
     "Language": "multilingual",
     "Dialect": "Egypt",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "The source data in this release consists of transcripts of Egyptian Arabic conversational telephone speech (CTS) from LDC's CALLHOME and CALLFRIEND collections (LDC97S45, LDC97T19, LDC2002S37, LDC2002T38, LDC96S49) that were translated into English by professional translation agencies and annotated for the word alignment task.",
-    "Volume": 20010.0,
-    "Unit": "sentences",
+    "Volume": 153171.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -31,13 +31,16 @@
     "Cost": "1,750.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Xuansong Li",
+        "Stephen Grimes",
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

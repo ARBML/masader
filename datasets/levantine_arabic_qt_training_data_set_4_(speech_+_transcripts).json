@@ -8,11 +8,11 @@
     "Language": "ar",
     "Dialect": "Levant",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "Levantine Arabic QT Training Data Set 4 (Speech + Transcripts) was developed by the Linguistic Data Consortium (LDC) and contains approximately 138 hours of conversational telephone speech in Levantine Arabic and the associated transcripts.",
     "Volume": 138.0,
@@ -35,7 +35,7 @@
         "text to speech"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "Mohamed Maamouri",

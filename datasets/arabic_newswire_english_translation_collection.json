@@ -31,12 +31,15 @@
     "Cost": "1,500.00 $",
     "Test Split": false,
     "Tasks": [
-        "syntactic parsing"
+        "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Xiaoyi Ma",
+        "Dalal Zakhary"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

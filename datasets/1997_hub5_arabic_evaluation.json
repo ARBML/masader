@@ -34,9 +34,15 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "David Graff",
+        "Alvin Martin",
+        "David Miller",
+        "Mark Przybocki",
+        "Kevin Walker"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

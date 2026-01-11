@@ -12,7 +12,7 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "crawling"
     ],
     "Description": "The following table gives a breakdown of the data contained in the entire Arabic Treebank project, with discrepancies between versions for Parts 1 and 3. The fields include source, number of stories, total number of tokens, number of tokens after clitic separation, and number of Arabic word tokens after punctuation, numbers, and latin strings have been taken out. The totals given at the bottom are calculated from the latest versions where discrepencies exist, and do not include tokens after clitic separation since that number is missing from Part 4.",
     "Volume": 300000.0,
@@ -34,9 +34,14 @@
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Tim Buckwalter",
+        "Hubert Jin"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

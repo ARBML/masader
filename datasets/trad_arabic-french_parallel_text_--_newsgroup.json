@@ -8,15 +8,15 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "news articles"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "This release consists of 398 segments (translation units) from 17 documents. The source data is Arabic newsgroup text collected and translated into English by the Linguistic Data Consortium for the DARPA GALE (Global Autonomous Language Exploitation) program. Information about the ELDA translation team, translation guidelines and validation results is contained in the documentation accompanying this release.",
-    "Volume": 398.0,
-    "Unit": "sentences",
+    "Volume": 10000.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -31,11 +31,10 @@
     "Cost": "300.00 $",
     "Test Split": false,
     "Tasks": [
-        "language modeling",
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

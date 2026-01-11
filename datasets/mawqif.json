@@ -37,8 +37,17 @@
     "Venue Title": "WANLP",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Nora Alturayeif",
+        "Hamzah Luqman",
+        "Moataz Ahmed"
+    ],
+    "Affiliations": [
+        "King Fahd University of Petroleum and Minerals, Saudi Arabia",
+        "Imam Abdulrahman Bin Faisal University, Saudi Arabia",
+        "SDAIA-KFUPM Joint Research Center for Artificial Intelligence, KFUPM",
+        "Interdisciplinary Research Center of Intelligent Secure Systems (IRC-ISS), KFUPM"
+    ],
     "Abstract": "Social media platforms are becoming inherent parts of people\u2019s daily life to express opinions and stances toward topics of varying polarities. Stance detection determines the viewpoint expressed in a text toward a target. While communication on social media (e.g., Twitter) takes place in more than 40 languages, the majority of stance detection research has been focused on English. Although some efforts have recently been made to develop stance detection datasets in other languages, no similar efforts seem to have considered the Arabic language. In this paper, we present Mawqif, the first Arabic dataset for target-specific stance detection, composed of 4,121 tweets annotated with stance, sentiment, and sarcasm polarities. Mawqif, as a multi-label dataset, can provide more opportunities for studying the interaction between different opinion dimensions and evaluating a multi-task model. We provide a detailed description of the dataset, present an analysis of the produced annotation, and evaluate four BERT-based models on it. Our best model achieves a macro-F1 of 78.89%, which shows that there is ample room for improvement on this challenging task. We publicly release our dataset, the annotation guidelines, and the code of the experiments.",
     "Added By": "Nora Saleh Alturayeif"
 }

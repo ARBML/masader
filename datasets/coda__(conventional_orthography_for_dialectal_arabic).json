@@ -15,8 +15,8 @@
         "manual curation"
     ],
     "Description": "CODA* is a unified orthographic system for Arabic dialects designed for computational purposes. It maintains dialectal uniqueness while aligning with some conventions of Modern Standard Arabic (MSA).",
-    "Volume": 0.0,
-    "Unit": "sentences",
+    "Volume": 176364.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
         "NYU Abu Dhabi"
@@ -37,9 +37,9 @@
     "Tasks": [
         "morphological analysis"
     ],
-    "Venue Title": "LREC (Language Resources and Evaluation Conference)",
+    "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "LREC (Language Resources and Evaluation Conference)",
+    "Venue Name": "Language Resources and Evaluation Conference",
     "Authors": [
         "Nizar Habash (Project Lead)",
         "Fadhl Eryani (Current Maintainer)",

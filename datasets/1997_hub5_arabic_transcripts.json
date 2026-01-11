@@ -8,20 +8,22 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Domain": [
-        "other"
+        "public datasets"
     ],
     "Form": "text",
     "Collection Style": [
         "other"
     ],
     "Description": "There are 40 data files. Each of the 20 calls has transcripts in two formats: .txt and .scr.",
-    "Volume": 40.0,
+    "Volume": 20.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "1997 HUB5 Arabic Evaluation"
+    ],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
@@ -34,7 +36,7 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

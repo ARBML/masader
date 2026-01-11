@@ -38,15 +38,12 @@
     "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Ines Abbes",
-        "W. Zaghouani",
+        "Wajdi Zaghouani",
         "Omaima El-Hardlo",
         "Faten Ashour"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        ""
+        "College of Humanities and Social Sciences, Hamad Bin Khalifa University, Doha, Qatar"
     ],
     "Abstract": "Identifying irony in user-generated social media content has a wide range of applications; however to date Arabic content has received limited attention. To bridge this gap, this study builds a new open domain Arabic corpus annotated for irony detection. We query Twitter using irony-related hashtags to collect ironic messages, which are then manually annotated by two linguists according to our working definition of irony. Challenges which we have encountered during the annotation process reflect the inherent limitations of Twitter messages interpretation, as well as the complexity of Arabic and its dialects. Once published, our corpus will be a valuable free resource for developing open domain systems for automatic irony recognition in Arabic language and its dialects in social media text.",
     "Added By": "Zaid Alyafeai"

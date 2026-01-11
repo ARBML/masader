@@ -2,7 +2,7 @@
     "Name": "Tanzil",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/tanzil",
-    "Link": "https://opus.nlpl.eu/Tanzil.php",
+    "Link": "https://opus.nlpl.eu/Tanzil/corpus/version/Tanzil",
     "License": "custom",
     "Year": 2012,
     "Language": "multilingual",
@@ -37,9 +37,11 @@
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
-        "J. Tiedemann"
+        "Jo\u0308rg Tiedemann"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Department of Linguistics and Philology, Uppsala University, Uppsala/Sweden"
+    ],
     "Abstract": "This paper presents the current status of OPUS, a growing language resource of parallel corpora and related tools. The focus in OPUS is to provide freely available data sets in various formats together with basic annotation to be useful for applications in computational linguistics, translation studies and cross-linguistic corpus studies. In this paper, we report about new data sets and their features, additional annotation tools and models provided from the website and essential interfaces and on-line services included in the project.",
     "Added By": "Zaid Alyafeai"
 }

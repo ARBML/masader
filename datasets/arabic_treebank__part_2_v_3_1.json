@@ -12,7 +12,7 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "crawling"
     ],
     "Description": "ATB2 v 3.1 contains a total of 144,199 source tokens before clitics are split, and 169,319 tree tokens after clitics are separated for the treebank annotation. Source texts were selected from Ummah Press news archives covering the period from July 2001 through September 2002.",
     "Volume": 501.0,
@@ -34,9 +34,18 @@
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Seth Kulick",
+        "Fatma Gaddeche",
+        "Wigdan Mekki",
+        "Sondos Krouna",
+        "Basma Bouziri",
+        "Wajdi Zaghouani"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

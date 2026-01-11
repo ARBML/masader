@@ -15,7 +15,7 @@
         "other"
     ],
     "Description": "This database covers both regular and irregular Arabic plurals, and was developed by experts over a period of several years. The data includes various grammatical attributes such as part-of-speech, collectivity codes, gender codes, and full vocalization.",
-    "Volume": 0.0,
+    "Volume": 3137.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [],
@@ -35,7 +35,7 @@
         "part of speech tagging"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

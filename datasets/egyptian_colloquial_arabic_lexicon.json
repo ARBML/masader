@@ -8,11 +8,11 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "The lexicon contains 51,202 entries, drawn from 140 CALLHOME telephone conversations among native speakers of Colloquial Egyptian Arabic, collected and published by the LDC as follows: CALLHOME Egyptian Arabic Speech LDC97S45, CALLHOME Egyptian Arabic Transcripts LDC97T19, CALLHOME Egyptian Arabic Speech Supplement LDC200237 and CALLHOME Egyptian Arabic Transcripts Supplement LDC2002T38. The lexicon also contains entries derived manually from the Badawi & Hines dictionary of Colloquial Egyptian Arabic.",
     "Volume": 51202.0,
@@ -34,9 +34,16 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Hanaa Kilany",
+        "H Gadalla",
+        "Howaida Arram",
+        "A Yacoub",
+        "Alaa El-Habashi",
+        "C McLemore"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

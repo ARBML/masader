@@ -8,18 +8,18 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "web pages"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "crawling"
     ],
     "Description": "The data is presented as raw text and word-aligned text. The raw text is very close to what was extracted from the original word processing documents in UN ODS (e.g., Word, WordPerfect, PDF), converted to UTF-8 encoding.",
     "Volume": 520283.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
-        "LDC"
+        "Google Research"
     ],
     "Derived From": [],
     "Paper Title": "",
@@ -34,7 +34,7 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

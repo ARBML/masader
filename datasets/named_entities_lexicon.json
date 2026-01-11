@@ -39,13 +39,12 @@
     "Venue Name": "Pacific Asia Conference on Language, Information and Computation",
     "Authors": [
         "Emna Hkiri",
-        "S. Mallat",
-        "M. Zrigui"
+        "Souheyl Mallat",
+        "Mounir Zrigui"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Latice Laboratory, Faculty of sciences Monastir",
+        "ISIM of Monastir"
     ],
     "Abstract": "Named Entities (NEs) are a very important part of a sentence and their treatment is a potentially useful preprocessing step for Statistical Machine Translation (SMT). Improper translation of NE lapse the quality of the SMT output and it can hurt sentence\u2019s human readability considerably. Dropping NE often causes translation failures beyond the context, affecting both the morphosyntactic formedness of sentences and the word sense disambiguation in the source text. Due to peculiarities of the written Arabic language, the translation task is however rather challenging. In this work, we address the challenging issues of NEs treatment in the context of SMT of Arabic into English texts. We have experimented on three types of named entities which are: Proper names, Organization names and Location names. In this paper, we present integration between machine learning and rule based techniques to tackle Arabic NER problem in attempt to improve the final quality of the SMT system output. We show empirically that each aspect of our approach is important, and that their combination leads to the best results already after integration of NER into SMT. We show improvements in terms of BLEU scores (+4 points) and reduction of out of vocabulary words over a baseline for the News Commentary corpus.",
     "Added By": "Zaid Alyafeai"

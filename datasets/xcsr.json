@@ -1,19 +1,6 @@
 {
     "Name": "xcsr",
-    "Subsets": [
-        {
-            "Name": "X-CSQA",
-            "Dialect": "Classical Arabic",
-            "Volume": 2074.0,
-            "Unit": "sentences"
-        },
-        {
-            "Name": "X-CODAH:",
-            "Dialect": "Classical Arabic",
-            "Volume": 1300.0,
-            "Unit": "sentences"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "https://hf.co/datasets/xcsr",
     "Link": "https://hf.co/datasets/xcsr",
     "License": "unknown",

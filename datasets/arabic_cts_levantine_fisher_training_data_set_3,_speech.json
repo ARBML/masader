@@ -8,11 +8,11 @@
     "Language": "ar",
     "Dialect": "Levant",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "This corpus contains 322 audio files of Arabic telephone conversations in 2-channel SPHERE ulaw format, sampled at 8 kHz.",
     "Volume": 50.0,
@@ -34,9 +34,12 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Hubert Jin"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

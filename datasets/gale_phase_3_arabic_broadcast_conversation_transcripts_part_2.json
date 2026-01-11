@@ -8,7 +8,7 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "TV channels"
     ],
     "Form": "text",
     "Collection Style": [
@@ -34,9 +34,14 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Meghan Glenn", 
+        "Haejoong Lee", 
+        "Stephanie Strassel", 
+        "Kazuaki Maeda"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

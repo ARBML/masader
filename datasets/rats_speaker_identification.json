@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Levant",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
         "other"
     ],
     "Description": "The source audio consists of conversational telephone speech recordings collected by LDC specifically for the RATS program from Levantine Arabic, Pashto, Urdu, Farsi and Dari native speakers. Annotations on the audio files include start time, end time, speech activity detection (SAD) label, SAD provenance, speaker ID, speaker ID provenance, language ID, and language ID provenance.",
-    "Volume": 1900.0,
+    "Volume": 224.87,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
@@ -34,9 +34,15 @@
         "speaker identification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "David Graff",
+        "Xiaoyi Ma",
+        "Stephanie Strassel",
+        "Kevin Walker",
+        "Karen Jones"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

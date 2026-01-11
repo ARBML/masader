@@ -12,7 +12,7 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "crawling"
     ],
     "Description": "The goal of the project was to annotate a large corpus comprising various genres of text (news, conversational telephone speech, weblogs, usenet newsgroups, broadcast, talk shows) in three languages (English, Chinese, and Arabic) with structural information (syntax and predicate argument structure) and shallow semantics (word sense linked to an ontology and coreference).",
     "Volume": 300000.0,
@@ -38,8 +38,18 @@
     "Venue Title": "SIGDAT",
     "Venue Type": "workshop",
     "Venue Name": "Special Interest Group on Linguistic data and corpus-based approaches to NLP",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Sameer Pradhan",
+        "Alessandro Moschitti",
+        "Nianwen Xue",
+        "Olga Uryupina",
+        "Yuchen Zhang"
+    ],
+    "Affiliations": [
+        "Raytheon BBN Technologies",
+        "University of Trento",
+        "Brandeis University"
+    ],
     "Abstract": "",
     "Added By": "Amr Keleg"
 }

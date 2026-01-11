@@ -12,7 +12,7 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "machine annotation"
     ],
     "Description": "A total of 250 topics, numbered 55001 - 55250, were annotated by LDC using a search guided annotation technique. Details of the annotation process are described in the annotation task definition.",
     "Volume": 104.0,
@@ -31,13 +31,10 @@
     "Cost": "500.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
-        "language modeling",
-        "machine translation",
         "topic classification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

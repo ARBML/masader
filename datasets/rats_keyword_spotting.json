@@ -8,7 +8,7 @@
     "Language": "multilingual",
     "Dialect": "Levant",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -34,9 +34,15 @@
         "keyphrase extraction"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "David Graff",
+        "Xiaoyi Ma",
+        "Stephanie Strassel",
+        "Kevin Walker",
+        "Karen Jones"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -2,13 +2,13 @@
     "Name": "ArabSign",
     "Subsets": [],
     "HF Link": "",
-    "Link": "https://github.com/Hamzah-Luqman/ArabSign",
+    "Link": "https://hamzah-luqman.github.io/ArabSign/",
     "License": "unknown",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "TV Channels"
+        "TV channels"
     ],
     "Form": "videos",
     "Collection Style": [
@@ -28,7 +28,7 @@
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
-    "Access": "Free",
+    "Access": "Upon-Request",
     "Cost": "",
     "Test Split": true,
     "Tasks": [

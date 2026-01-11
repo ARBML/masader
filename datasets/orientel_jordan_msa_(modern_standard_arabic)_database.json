@@ -8,11 +8,11 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "The OrienTel Jordan MSA (Modern Standard Arabic) database comprises 556 Jordanian speakers (288 males, 268 females) recorded over the Jordanian fixed and mobile telephone network.",
     "Volume": 28356.0,
@@ -32,7 +32,7 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

@@ -31,7 +31,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "other"
+        "multimodal evaluation"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",

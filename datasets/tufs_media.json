@@ -44,10 +44,7 @@
         "Hiroyuki Aoyama"
     ],
     "Affiliations": [
-        "New York University;New York University Abu Dhabi",
-        "",
-        "",
-        ""
+        "New York University Abu Dhabi"
     ],
     "Abstract": "Much work has been done on machine translation between major language pairs including Arabic\u2013English and English\u2013Japanese thanks to the availability of large-scale parallel corpora with manually verified subsets of parallel sentences. However, there has been little research conducted on the Arabic\u2013Japanese language pair due to its parallel-data scarcity, despite being a good example of interestingly contrasting differences in typology. In this paper, we describe the creation process and statistics of the Arabic\u2013Japanese portion of the TUFS Media Corpus, a parallel corpus of translated news articles collected at Tokyo University of Foreign Studies (TUFS). Part of the corpus is manually aligned at the sentence level for development and testing. The corpus is provided in two formats: A document-level parallel corpus in XML format, and a sentence-level parallel corpus in plain text format. We also report the first results of Arabic\u2013 Japanese phrase-based machine translation trained on our corpus.",
     "Added By": ""

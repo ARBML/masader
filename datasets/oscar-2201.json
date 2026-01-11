@@ -35,14 +35,17 @@
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Name": "arXiv",
     "Authors": [
         "Julien Abadji",
         "Pedro Ortiz Suarez",
         "Laurent Romary",
-        "Beno\u0131t Sagot"
+        "Benoit Sagot"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Inria",
+        "Sorbonne Universite"
+    ],
     "Abstract": "The need for raw large raw corpora has dramatically increased in recent years with the introduction of transfer learning and\nsemi-supervised learning methods to Natural Language Processing. And while there have been some recent attempts to\nmanually curate the amount of data necessary to train large language models, the main way to obtain this data is still through\nautomatic web crawling. In this paper we take the existing multilingual web corpus OSCAR and its pipeline Ungoliant that\nextracts and classifies data from Common Crawl at the line level, and propose a set of improvements and automatic annotations\nin order to produce a new document-oriented version of OSCAR that could prove more suitable to pre-train large generative\nlanguage models as well as hopefully other applications in Natural Language Processing and Digital Humanities.",
     "Added By": "Zaid Alyafeai"
 }

@@ -15,8 +15,8 @@
         "other"
     ],
     "Description": "Below is information about the amount of data in this release and its annotation status. Further information such as breakdown of genres and formats can be found in the associated README file.",
-    "Volume": 433.0,
-    "Unit": "documents",
+    "Volume": 303833.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -31,12 +31,17 @@
     "Cost": "4,000.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval"
+        "named entity recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Christopher Walker",
+        "Stephanie Strassel",
+        "Julie Medero",
+        "Kazuaki Maeda"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

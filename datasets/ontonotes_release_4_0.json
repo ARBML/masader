@@ -8,11 +8,13 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "news articles"
+        "news articles",
+        "web pages",
+        "TV channels"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "Documents describing the annotation guidelines and the routines for deriving various views of the data from the database are included in the documentation directory of this release. The annotation is provided both in separate text files for each annotation layer (Treebank, PropBank, word sense, etc.) and in the form of an integrated relational database (ontonotes-v4.0.sql.gz) with a Python API to provide convenient cross-layer access.",
     "Volume": 300000.0,
@@ -34,9 +36,23 @@
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Ralph Weischedel",
+        "Martha Palmer",
+        "Mitchell Marcus",
+        "Eduard Hovy",
+        "Sameer Pradhan",
+        "Lance Ramshaw",
+        "Nianwen Xue",
+        "Ann Taylor",
+        "Jeff Kaufman",
+        "Michelle Franchini",
+        "Mohammed El-Bachouti",
+        "Robert Belvin",
+        "Ann Houston"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

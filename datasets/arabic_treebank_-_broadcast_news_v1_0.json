@@ -8,15 +8,15 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "TV channels"
     ],
-    "Form": "text",
+    "Form": "audio",
     "Collection Style": [
         "other"
     ],
     "Description": "This release contains 432,976 source tokens before clitics were split, and 517,080 tree tokens after clitics were separated for treebank annotation. The source materials are Arabic broadcast news stories collected by LDC during the period 2005-2008 from the following sources: Abu Dhabi TV, Al Alam News Channel, Al Arabiya, Al Baghdadya TV, Al Fayha, Alhurra, Al Iraqiyah, Aljazeera, Al Ordiniyah, Al Sharqiyah, Dubai TV, Kuwait TV, Lebanese Broadcasting Corp., Oman TV, Radio Sawa, Saudi TV and Syria TV. The transcripts were produced by LDC.",
-    "Volume": 432976.0,
-    "Unit": "tokens",
+    "Volume": 120.0,
+    "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -31,12 +31,19 @@
     "Cost": "4,500.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval"
+        "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Seth Kulick",
+        "Sondos Krouna",
+        "Dalila Tabassi",
+        "Michael Ciul"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

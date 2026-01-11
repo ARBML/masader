@@ -1,0 +1,52 @@
+{
+    "Name": "LANs",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/HeshamMamdouh/dataset-LANS-processesed",
+    "Link": "https://drive.google.com/drive/folders/1lVzaSmJWu63YFrJTszQxMqfVoAYuz28F",
+    "License": "unknown",
+    "Year": 2021,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "NewsTent extracts 8,443,484 articles and their summaries from 22 newspapers of 19 Arab countries\r\ndated from 1999 to 2019",
+    "Volume": 8443484.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [],
+    "Paper Title": "LANS: Large-scale Arabic News Summarization Corpus",
+    "Paper Link": "https://aclanthology.org/2023.arabicnlp-1.8.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Gdrive",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "summarization"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Abdulaziz Alhamadani",
+        "Xuchao Zhang",
+        "Jianfeng He",
+        "Aadyant Khatri",
+        "Chang-Tien Lu"
+    ],
+    "Affiliations": [
+        "Virginia Tech\nFalls Church, VA, USA",
+        "Microsoft, Redmond, WA, USA"
+    ],
+    "Abstract": "Text summarization has been intensively studied in many languages, and some languages have reached advanced stages. Yet, Arabic Text Summarization (ATS) is still in its developing stages. Existing ATS datasets are either small or lack diversity. We build, LANS, a large-scale and diverse dataset for Arabic Text Summarization task. LANS offers 8.4 million articles and their summaries extracted from newspapers websites’ metadata between 1999 and 2019. The high-quality and diverse summaries are written by journalists from 22 major Arab newspapers and include an eclectic mix of at least more than 7 topics from each source. We conduct an intrinsic evaluation on LANS by both automatic and human evaluations. Human evaluation of 1,000 random samples reports 95.4% accuracy for our collected summaries, and automatic evaluation quantifies the diversity and abstractness of the summaries.",
+    "Added By": "Zaid Alyafeai"
+}

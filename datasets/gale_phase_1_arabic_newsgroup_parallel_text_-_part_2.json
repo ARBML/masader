@@ -8,13 +8,13 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "news articles"
     ],
     "Form": "text",
     "Collection Style": [
         "other"
     ],
-    "Description": "Preparing the source data involved four stages of work: data scouting, data harvesting, formatting and data selection.",
+    "Description": "contains a total of 145,000 words (263 files) of Arabic newsgroup text and its translation selected from thirty-five sources.",
     "Volume": 263.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
@@ -31,12 +31,17 @@
     "Cost": "1,500.00 $",
     "Test Split": false,
     "Tasks": [
-        "machine translation"
+        "machine translation",
+        "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Xiaoyi Ma", 
+        "Dalal Zakhary", 
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

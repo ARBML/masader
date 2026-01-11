@@ -20,8 +20,8 @@
     "Ethical Risks": "High",
     "Provider": [],
     "Derived From": [],
-    "Paper Title": "Dataset of Arabic spam and ham tweets",
-    "Paper Link": "https://data.mendeley.com/datasets/86x733xkb8/2",
+    "Paper Title": "Arabic spam tweets classification using deep learning",
+    "Paper Link": "https://link.springer.com/article/10.1007/s00521-023-08614-w",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "Mendeley Data",
@@ -31,14 +31,24 @@
     "Tasks": [
         "spam detection"
     ],
-    "Venue Title": "Data in Brief",
+    "Venue Title": "NCAA",
     "Venue Type": "journal",
-    "Venue Name": "Data in Brief",
+    "Venue Name": "Neural Computing and Applications",
     "Authors": [
-        "Sanaa Kaddoura",
-        "Safaa Henno"
+    "Sanaa Kaddoura",
+    "Suja A. Alex",
+    "Maher Itani",
+    "Safaa Henno",
+    "Asma AlNashash",
+    "D. Jude Hemanth"
+  ],
+    "Affiliations": [
+        "Zayed University",
+        "St. Xavier’s Catholic College of Engineering",
+        "Sabis Educational Services",
+        "Princess Sumaya University for Technology"
+
     ],
-    "Affiliations": [],
     "Abstract": "This data article provides a dataset of 132421 posts and their corresponding information collected from Twitter social media. The data has two classes, ham or spam, where ham indicates non-spam clean tweets. The main target of this dataset is to study a way to classify whether a post is a spam or not automatically. The data is in Arabic language only, which makes the data essential to the researchers in Arabic natural language processing (NLP) due to the lack of resources in this language. The data is made publicly available to allow researchers to use it as a benchmark for their research in Arabic NLP. The dataset was collected using the Twitter REST API between January 27, 2021, and March 10, 2021. An ad-hoc crawler was constructed using Python programming language to collect the data. Many scientists and researchers will benefit from this dataset in the domain of cybersecurity, NLP, data science and social networking analysis.",
     "Added By": "Zaid Alyafeai"
 }

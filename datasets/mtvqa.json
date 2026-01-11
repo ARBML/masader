@@ -35,9 +35,32 @@
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Jingqun Tang",
+        "Qi Liu",
+        "Yongjie Ye",
+        "Jinghui Lu",
+        "Shu Wei",
+        "Chunhui Lin",
+        "Wanqing Li",
+        "Mohamad Fitri Faiz Bin Mahmood",
+        "Hao Feng",
+        "Zhen Zhao",
+        "Yangfan He",
+        "Kuan Lu",
+        "Yanjie Wang",
+        "Yuliang Liu",
+        "Hao Liu",
+        "Xiang Bai",
+        "Can Huang"
+    ],
+    "Affiliations": [
+        "ByteDance Inc.",
+        "Huazhong University of Science and Technology",
+        "University of Minnesota",
+        "Cornell University"
+    ],
     "Abstract": "Text-Centric Visual Question Answering (TEC-VQA) in its proper format not\nonly facilitates human-machine interaction in text-centric visual environments but\nalso serves as a de facto gold proxy to evaluate AI models in the domain of textcentric scene understanding. Nonetheless, most existing TEC-VQA benchmarks\nhave focused on high-resource languages like English and Chinese. Despite pioneering works to expand multilingual QA pairs in non-text-centric VQA datasets\nthrough translation engines, the translation-based protocol encounters a substantial\n\u201cvisual-textual misalignment\u201d problem when applied to TEC-VQA. Specifically,\nit prioritizes the text in question-answer pairs while disregarding the visual text\npresent in images. Moreover, it fails to address complexities related to nuanced\nmeaning, contextual distortion, language bias, and question-type diversity. In\nthis work, we tackle multilingual TEC-VQA by introducing MTVQA, the first\nbenchmark featuring high-quality human expert annotations across 9 diverse languages, consisting of 6,778 question-answer pairs across 2,116 images. Further,\nby comprehensively evaluating numerous state-of-the-art Multimodal Large Language Models (MLLMs), including GPT-4o, GPT-4V, Claude3, and Gemini, on\nthe MTVQA dataset, it is evident that there is still a large room for performance\nimprovement, underscoring the value of MTVQA. Additionally, we supply multilingual training data within the MTVQA dataset, demonstrating that straightforward\nfine-tuning with this data can substantially enhance multilingual TEC-VQA performance. We aspire that MTVQA will offer the research community fresh insights\nand stimulate further exploration in multilingual visual text comprehension. The\nproject homepage is at https://bytedance.github.io/MTVQA/",
     "Added By": "Zaid Alyafeai"
 }

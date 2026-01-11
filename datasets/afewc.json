@@ -42,9 +42,7 @@
         "Kamel Sma"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Université de Lorraine"
     ],
     "Abstract": "Parallel corpora are not available for all domains and languages, but statistical methods in multilingual research domains require huge parallel/comparable corpora. Comparable corpora can be used when the parallel is not sufficient or not available for specific domains and languages. In this paper, we propose a method to extract all comparable articles from Wikipedia for multiple languages based on interlanguge links. We also extract comparable articles from Euro News website. We also present two comparability measures (CM) to compute the degree of comparability of multilingual articles. We extracted about 40K and 34K comparable articles from Wikipedia and Euro News respectively in three languages including Arabic, French, and English. Experimental results of comparability measures show that our measure can capture the comparability of multilingual corpora and allow to retrieve articles from different language concerning the same topic.",
     "Added By": "Zaid Alyafeai"

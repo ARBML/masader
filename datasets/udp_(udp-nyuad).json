@@ -51,9 +51,8 @@
         "Daniel Zeman"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Computational Approaches to Modeling Language (CAMeL) Lab, New York University Abu Dhabi",
+        "Faculty of Mathematics and Physics, Charles University"
     ],
     "Abstract": "We describe the process of creating NUDAR, a Universal Dependency treebank for Arabic. We present the conversion from the Penn Arabic Treebank to the Universal Dependency syntactic representation through an intermediate dependency representation. We discuss the challenges faced in the conversion of the trees, the decisions we made to solve them, and the validation of our conversion. We also present initial parsing results on NUDAR.",
     "Added By": "Maraim Masoud"

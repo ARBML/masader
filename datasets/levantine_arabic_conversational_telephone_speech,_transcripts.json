@@ -8,11 +8,11 @@
     "Language": "ar",
     "Dialect": "Levant",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "This database contains 982 Levantine Arabic speakers taking part in spontaneous telephone conversations in Colloquial Levantine Arabic. A total of 985 conversation sides are provided (there are three speakers who each appear in two disctinct conversations). The average duration per side is between 5 and 6 minutes.",
     "Volume": 985.0,
@@ -34,7 +34,7 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

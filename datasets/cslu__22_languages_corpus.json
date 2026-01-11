@@ -8,11 +8,11 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "Produced by Center for Spoken Language Understanding and distributed by the Linguistic Data Consortium, the 22 Languages corpus consists of telephone speech from 21 languages: Eastern Arabic, Cantonese, Czech, Farsi, German, Hindi, Hungarian, Japanese, Korean, Malay, Mandarin, Italian, Polish, Portuguese, Russian, Spanish, Swedish, Swahili, Tamil, Vietnamese, and English. The corpus contains fixed vocabulary utterances (e.g. days of the week) as well as fluent continuous speech. Each of the 50,191 utterances is verified by a native speaker to determine if the caller followed instructions when answering the prompts. For this release, approximately 19,758 utterances have corresponding orthographic transcriptions in all the above languages except Eastern Arabic, Farsi, Korean, Russian, Italian.",
     "Volume": 84.0,
@@ -34,7 +34,7 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

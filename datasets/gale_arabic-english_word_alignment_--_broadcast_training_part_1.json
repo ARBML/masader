@@ -8,7 +8,8 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "news articles",
+        "TV channels"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,12 +32,10 @@
     "Cost": "1,750.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
-        "information retrieval",
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

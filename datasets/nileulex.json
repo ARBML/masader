@@ -37,9 +37,11 @@
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
-        "S. El-Beltagy"
+        "Samhaa R. El-Beltagy"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Nile University, Juhayna Square, Sheikh Zayed City, Giza, Egypt"
+    ],
     "Abstract": "This paper presents NileULex, which is an Arabic sentiment lexicon containing close to six thousands Arabic words and compound phrases. Forty five percent of the terms and expressions in the lexicon are Egyptian or colloquial while fifty five percent are Modern Standard Arabic. While the collection of many of the terms included in the lexicon was done automatically, the actual addition of any term was done manually. One of the important criterions for adding terms to the lexicon, was that they be as unambiguous as possible. The result is a lexicon with a much higher quality than any translated variant or automatically constructed one. To demonstrate that a lexicon such as this can directly impact the task of sentiment analysis, a very basic machine learning based sentiment analyser that uses unigrams, bigrams, and lexicon based features was applied on two different Twitter datasets. The obtained results were compared to a baseline system that only uses unigrams and bigrams. The same lexicon based features were also generated using a publicly available translation of a popular sentiment lexicon. The experiments show that usage of the developed lexicon improves the results over both the baseline and the publicly available lexicon.",
     "Added By": ""
 }

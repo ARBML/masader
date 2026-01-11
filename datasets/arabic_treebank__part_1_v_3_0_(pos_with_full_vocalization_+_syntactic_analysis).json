@@ -31,13 +31,17 @@
     "Cost": "4,000.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Tim Buckwalter",
+        "Hubert Jin"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

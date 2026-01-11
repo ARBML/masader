@@ -8,15 +8,16 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Domain": [
-        "commentary"
+        "commentary",
+        "telephone conversations"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "DF data was collected from the web using a manual process. SMS/Chat material was donated or collected via live platforms. CTS data was taken from LDC's Egyptian Arabic CALLHOME and CALLFRIEND telephone collections.",
-    "Volume": 0.0,
-    "Unit": "sentences",
+    "Volume": 697656.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -36,9 +37,16 @@
         "semantic role labeling"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Martha Palmer",
+        "Jena D. Hwang",
+        "Aous Mansouri",
+        "Claire Bonial",
+        "Tim O'Gorman",
+        "James Gung"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

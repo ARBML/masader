@@ -32,7 +32,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "other"
+        "hashtag prediction"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",

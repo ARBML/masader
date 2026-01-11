@@ -25,7 +25,7 @@
         "BRAD 1.0"
     ],
     "Paper Title": "An Arabic Dataset for Disease Named Entity Recognition with Multi-Annotation Schemes",
-    "Paper Link": "https://www.mdpi.com/2306-5729/5/3/60/htm",
+    "Paper Link": "https://www.mdpi.com/2306-5729/5/3/60",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "CAMeL Resources",
@@ -43,8 +43,7 @@
         "S. Alanazi"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Jouf University"
     ],
     "Abstract": "This article outlines a novel data descriptor that provides the Arabic natural language processing community with a dataset dedicated to named entity recognition tasks for diseases. The dataset comprises more than 60 thousand words, which were annotated manually by two independent annotators using the inside\u2013outside (IO) annotation scheme. To ensure the reliability of the annotation process, the inter-annotator agreements rate was calculated, and it scored 95.14%. Due to the lack of research efforts in the literature dedicated to studying Arabic multi-annotation schemes, a distinguishing and a novel aspect of this dataset is the inclusion of six more annotation schemes that will bridge the gap by allowing researchers to explore and compare the effects of these schemes on the performance of the Arabic named entity recognizers. These annotation schemes are IOE, IOB, BIES, IOBES, IE, and BI. Additionally, five linguistic features, including part-of-speech tags, stopwords, gazetteers, lexical markers, and the presence of the definite article, are provided for each record in the dataset.",
     "Added By": "Zaid Alyafeai"

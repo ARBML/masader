@@ -15,7 +15,7 @@
         "crawling"
     ],
     "Description": "The dataset is composed of a set of text documents in both Arabic (Modern Standard) and Egyptian dialect aligned at document level. comparable documents share the same document ID.",
-    "Volume": 0.0,
+    "Volume": 10197,
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [],

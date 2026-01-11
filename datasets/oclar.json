@@ -44,10 +44,7 @@
         "A. Sabra"
     ],
     "Affiliations": [
-        "Universit\u00e9 de Poitiers",
-        "",
-        "",
-        ""
+        "Universit\u00e9 de Poitiers"
     ],
     "Abstract": "This paper proposes a logistic regression approach paired with term and inverse document frequency (TF*IDF) for Arabic sentiment classification on services\u2019 reviews in Lebanon country. Reviews are about public services, including hotels, restaurants, shops, and others. We collected manually from Google reviews and Zomato, which have reached to 3916 reviews. Experiments show three core findings: 1) The classifier is confident when used to predict positive reviews. 2) The model is biased on predicting reviews with negative sentiment. Finally, the low percentage of negative reviews in the corpus contributes to the diffidence of logistic regression model.",
     "Added By": ""

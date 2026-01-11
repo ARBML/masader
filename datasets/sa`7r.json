@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Sa`7r: A Saudi Dialect Irony Dataset",
-    "Paper Link": "",
+    "Paper Link": "https://aclanthology.org/2022.osact-1.7.pdf",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -37,14 +37,17 @@
     "Venue Type": "workshop",
     "Venue Name": "Open-Source Arabic Corpora and Processing Tools",
     "Authors": [
-        "Halah AlMazrua",
         "Najla AlHazzani",
         "Amaal AlDawod",
+        "Hala AlMazrou",
         "Lama AlAwlaqi",
         "Noura AlReshoudi",
-        "Hend Al-Khalifa and Luluh AlDhubayi"
+        "Hend Al-Khalifa",
+        "Luluh AlDhubayi"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Information Technology Department, College of Computer and Information Sciences, King Saud University, Riyadh, Saudi Arabia"
+    ],
     "Abstract": "In sentiment analysis, detecting irony is considered a major challenge. The key problem with detecting irony is the difficulty to recognize the implicit and indirect phrases which signifies the opposite meaning. In this paper, we present Sa`7r \u0633\u0627\u062e\u0631the Saudi irony dataset, and describe our efforts in constructing it. The dataset was collected using Twitter API and it consists of 19,810 tweets, 8,089 of them are labeled as ironic tweets. We trained several models for irony detection task using machine learning models and deep learning models. The machine learning models include: K-Nearest Neighbor (KNN), Logistic Regression (LR), Support Vector Machine (SVM), and Na\u00efve Bayes (NB). While the deep learning models include BiLSTM and AraBERT. The detection results show that among the tested machine learning models, the SVM outperformed other classifiers with an accuracy of 0.68. On the other hand, the deep learning models achieved an accuracy of 0.66 in the BiLSTM model and 0.71 in the AraBERT model. Thus, the AraBERT model achieved the most accurate result in detecting irony phrases in Saudi Dialect.",
     "Added By": "Zaid Alyafeai"
 }

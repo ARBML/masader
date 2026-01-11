@@ -63,17 +63,21 @@
         "part of speech tagging",
         "morphological analysis"
     ],
-    "Venue Title": "",
-    "Venue Type": "conference",
-    "Venue Name": "",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Mustafa Jarrar",
-        "Fadi Zaraket",
+        "Fadi A. Zaraket",
         "Tymaa Hammouda",
-        "Daanish Masood",
-        "Martin Waehlisch"
+        "Daanish Masood Alavi",
+        "Martin W\u00e4hlisch"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "University of Birzeit, Birzeit, Palestine",
+        "American University of Beirut, Beirut, Lebanon",
+        "Department of Political and Peacebuilding Affairs, United Nations, New York"
+    ],
     "Abstract": "This article presents morphologically-annotated Yemeni, Sudanese, Iraqi, and Libyan Arabic dialects Lisan corpora. Lisan features around 1.2 million tokens. We collected the content of the corpora from several social media platforms. The Yemeni corpus (~ 1.05M tokens) was collected automatically from Twitter. The corpora of the other three dialects (~ 50K tokens each) came manually from Facebook and YouTube posts and comments.\nThirty five (35) annotators who are native speakers of the target dialects carried out the annotations. The annotators segemented all words in the four corpora into prefixes, stems and suffixes and labeled each with different morphological features such as part of speech, lemma, and a gloss in English. An Arabic Dialect Annotation Toolkit ADAT was developped for the purpose of the annation. The annotators were trained on a set of guidelines and on how to use ADAT. We developed ADAT to assist the annotators and to ensure compatibility with SAMA and Curras tagsets. The tool is open source, and the four corpora are also available online.",
     "Added By": "Tymaa Hammouda"
 }

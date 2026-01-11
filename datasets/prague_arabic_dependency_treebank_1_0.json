@@ -8,7 +8,8 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "news articles"
+        "news articles",
+        "public datasets"
     ],
     "Form": "text",
     "Collection Style": [
@@ -19,9 +20,16 @@
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
-        "LDC"
+        "Center for Computational Linguistics",
+        "Institute of Formal and Applied Linguistics",
+        "Institute of Comparative Linguistics",
+        "Charles University in Prague"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "Arabic Gigaword",
+        "Arabic Treebank: Part 1 v 2.0",
+        "Arabic Treebank: Part 2 v 2.0"
+    ],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
@@ -36,9 +44,18 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Jan Hajič",
+        "Otakar Smrz",
+        "Petr Zemanek",
+        "Petr Pajas",
+        "Jan Snaidauf",
+        "Emanuel Beska",
+        "Jakub Kracmar",
+        "Kamila Hassanova"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

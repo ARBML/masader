@@ -55,8 +55,8 @@
         "V. Samawi"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Department of Computer Multimedia Systems, Faculty of Information Technology, Isra University, Amman, Jordan",
+        "Internet Brands, Inc, LA, USA"
     ],
     "Abstract": "In Arab nations, people used to express their\r\nopinions using colloquial dialects depending on the country to\r\nwhich they belong to. Analyzing reviews written in various\r\nArabic dialects is a challenging problem. This is because some\r\nwords could have different meanings in various dialects.\r\nFurthermore, dialects could contain words that do not belong\r\nto classical Arabic language.\u200eThis research tackles the problem\r\nof sentiment analysis of reviews and comments written in\r\ncolloquial dialects of Arabic language, at which the ability of\r\ndifferent machine learning algorithms and features are\r\nexamined in polarity determination. In this work, people's\r\nreviews (written in different dialects) are classified into positive\r\nor negative opinions. Each dialect comes with its own stopwords list. Consequently, a list of stop-words that suits\r\ndifferent dialects in addition to modern standard Arabic (MSA)\r\nis suggested. In this paper, a light stemmer that suits dialects is\r\ndeveloped. Two feature sets are utilized (bag of words (BoW),\r\nand N-gram of words) to investigate their effectiveness in\r\nsentiment analysis. Finally, Na\u00efve-Bayes, Support vector\r\nmachine (SVM), and Maximum Entropy machine learning\r\nalgorithms are applied to study their performance in opinion\r\nmining. F1-measure is used to evaluate the performance of\r\nthese machine learning algorithms. To train and test the\r\nsuggested system performance, we built a corpus1\r\n of reviews by\r\ncollecting reviews written in two dialects (Saudi dialect and\r\nJordanian dialect). The testing results show that Maximum\r\nEntropy outperforms the other two machine learning\r\nalgorithms. Using N-gram (with N=3) as features set improves\r\nthe performance of the three machine learning algorithms.",
     "Added By": "Zaid Alyafeai"

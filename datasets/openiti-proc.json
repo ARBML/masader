@@ -45,7 +45,13 @@
         "Avi Shmidman",
         "Maxim Romanov"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "MIT Computer Science and Artificial Intelligence Laboratory",
+        "Department of Modern and Classical Languages and Literatures, University of Rhode Island",
+        "Qatar Computing Research Institute, HBKU",
+        "Department of Hebrew Literature, Bar-Ilan University; Dicta: The Israel Center for Text Analysis",
+        "Department of History, University of Vienna"
+    ],
     "Abstract": "Arabic is a widely-spoken language with a long and rich history, but existing corpora and language technology focus mostly on modern Arabic and its varieties. Therefore, studying the history of the language has so far been mostly limited to manual analyses on a small scale. In this work, we present a large-scale historical corpus of the written Arabic language, spanning 1400 years. We describe our efforts to clean and process this corpus using Arabic NLP tools, including the identification of reused text. We study the history of the Arabic language using a novel automatic periodization algorithm, as well as other techniques. Our findings confirm the established division of written Arabic into Modern Standard and Classical Arabic, and confirm other established periodizations, while suggesting that written Arabic may be divisible into still further periods of development.",
     "Added By": "Yonatan Belinkov"
 }

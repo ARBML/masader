@@ -15,7 +15,7 @@
         "other"
     ],
     "Description": "The data consists primarily of three Arabic-English lexicon files: prefixes (299 entries), suffixes (618 entries), and stems (82,158 entries representing 38,600 lemmas). The lexicons are supplemented by three morphological compatibility tables used for controlling prefix-stem combinations (1,648 entries), stem-suffix combinations (1,285 entries), and prefix-suffix combinations (598 entries). The actual code for morphology analysis and POS tagging is contained in a Perl script. The documentation consists of a readme file with a description of the lexicon files, the morphological compatibility tables, the morphology analysis algorithm, a summary of stem morphological categories, and a table with the author's Arabic transliteration system.",
-    "Volume": 299.0,
+    "Volume": 82158.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
@@ -31,13 +31,15 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
-        "machine translation"
+        "part of speech tagging",
+        "morphological analysis"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [ 
+        "Tim Buckwalter"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

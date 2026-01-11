@@ -39,11 +39,18 @@
     "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Amal Nayouf",
-        "Tymaa Hasanain Hammouda\nMustafa Jarrar",
+        "Tymaa Hasanain Hammouda",
+        "Mustafa Jarrar",
         "Fadi A. Zaraket",
         "Mohamad-Bassam Kurdy"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Syrian Virtual University, Syria",
+        "Birzeit University, Palestine",
+        "Doha Institute for Graduate Studies, Doha",
+        "University of Texas at Austin",
+        "American University of Beirut, Beirut"
+    ],
     "Abstract": "This paper presents N\u00e2b\u00afra, a corpora\nof Syrian Arabic dialects with morphological annotations. A team of Syrian natives\ncollected more than 6K sentences containing\nabout 60K words from several sources including social media posts, scripts of movies and\nseries, lyrics of songs and local proverbs to\nbuild N\u00e2b\u00afra. N\u00e2b\u00afra covers several local Syrian dialects including those of Aleppo, Damascus, Deir-ezzur, Hama, Homs, Huran, Latakia,\nMardin, Raqqah, and Suwayda. A team of\nnine annotators annotated the 60K tokens with\nfull morphological annotations across sentence\ncontexts. We trained the annotators to follow\nmethodological annotation guidelines to ensure\nunique morpheme annotations, and normalized\nthe annotations. F1 and \u03ba agreement scores\nranged between 74% and 98% across features,\nshowing the excellent quality of N\u00e2b\u00afra annotations. Our corpora are open-source and publicly available as part of the Currasat portal\nhttps://sina.birzeit.edu/currasat.",
     "Added By": "Zaid Alyafeai"
 }

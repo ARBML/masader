@@ -8,7 +8,8 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "news articles"
+        "news articles",
+        "TV channels"
     ],
     "Form": "text",
     "Collection Style": [
@@ -34,9 +35,13 @@
         "topic classification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Stephanie Strassel",
+        "Junbo Kong",
+        "David Graff"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

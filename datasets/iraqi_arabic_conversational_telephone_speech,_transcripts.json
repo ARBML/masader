@@ -8,18 +8,18 @@
     "Language": "ar",
     "Dialect": "Iraq",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "A total of 478 conversation sides from 474 unique speakers are provided, and most of these transcripts contain both sides of a conversation (202 transcripts with both sides and 74 with just one side). The average duration per call is about six minutes, so each call side contains about three minutes of speech, on average.",
     "Volume": 50.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
-        "LDC"
+        "Appen Pty Ltd"
     ],
     "Derived From": [],
     "Paper Title": "",
@@ -34,7 +34,7 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

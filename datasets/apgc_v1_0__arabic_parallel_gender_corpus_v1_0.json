@@ -44,9 +44,8 @@
         "Christine Chung"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "New York University Abu Dhabi, UAE",
+        "Carnegie Mellon University in Qatar, Qatar"
     ],
     "Abstract": "The impressive progress in many Natural Language Processing (NLP) applications has increased the awareness of some of the biases these NLP systems have with regards to gender identities. In this paper, we propose an approach to extend biased single-output genderblind NLP systems with gender-specific alternative reinflections. We focus on Arabic, a gender-marking morphologically rich language, in the context of machine translation (MT) from English, and for first-personsingular constructions only. Our contributions are the development of a system-independent gender-awareness wrapper, and the building of a corpus for training and evaluating firstperson-singular gender identification and reinflection in Arabic. Our results successfully demonstrate the viability of this approach with 8% relative increase in BLEU score for firstperson-singular feminine, and 5.3% comparable increase for first-person-singular masculine on top of a state-of-the-art gender-blind MT system on a held-out test set.",
     "Added By": ""

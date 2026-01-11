@@ -12,7 +12,8 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "All source data was drawn from January and February 2003. Here's a breakdown of the data amounts by source contained in this corpus:",
     "Volume": 100.0,
@@ -34,9 +35,11 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Xiaoyi Ma"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

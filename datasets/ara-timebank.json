@@ -42,9 +42,7 @@
         "M. Zrigui"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "University of Monastir"
     ],
     "Abstract": "Automatic temporal information extraction is an important task for many natural language processing systems. This task requires thorough knowledge of the ontological and grammatical characteristics of temporal information in the text as well as annotated linguistic resources of the temporal entities. Before creating the resources or developing the system, it is first necessary to define a structured schema which describes how to annotate temporal entities. In this paper, we present a revised version of Arabic TimeML, and we propose an enriched Arabic corpus, called \u201cARA-TimeBank\u201d, for events, temporal expressions and temporal relations based on the new Arabic TimeML. We describe our methodology which combines a pre-annotation phase with manuel validation and verification. ARA-TimeBank is the first corpus constructed for Arabic, which meets the needs of TimeML and addresses the limitations of existing Arabic TimeBank.",
     "Added By": "Zaid Alyafeai"

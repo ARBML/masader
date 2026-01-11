@@ -2,7 +2,7 @@
     "Name": "CCAligned",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/ahelk/ccaligned_multilingual",
-    "Link": "https://opus.nlpl.eu/CCAligned.php",
+    "Link": "https://opus.nlpl.eu/CCAligned/corpus/version/CCAligned",
     "License": "unknown",
     "Year": 2020,
     "Language": "multilingual",

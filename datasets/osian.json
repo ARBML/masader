@@ -40,13 +40,11 @@
         "Imad Zeroual",
         "Dirk Goldhahn",
         "Thomas Eckart",
-        "A. Lakhouaja"
+        "Abdelhak Lakhouaja"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        ""
+        "Computer Sciences Laboratory, Mohamed First University, Morocco",
+        "Natural Language Processing Group, University of Leipzig, German"
     ],
     "Abstract": "The World Wide Web has become a fundamental resource for building large text corpora. Broadcasting platforms such as news websites are rich sources of data regarding diverse topics and form a valuable foundation for research. The Arabic language is extensively utilized on the Web. Still, Arabic is relatively an under-resourced language in terms of availability of freely annotated corpora. This paper presents the first version of the Open Source International Arabic News (OSIAN) corpus. The corpus data was collected from international Arabic news websites, all being freely available on the Web. The corpus consists of about 3.5 million articles comprising more than 37 million sentences and roughly 1 billion tokens. It is encoded in XML; each article is annotated with metadata information. Moreover, each word is annotated with lemma and part-of-speech. the described corpus is processed, archived and published into the CLARIN infrastructure. This publication includes descriptive metadata via OAI-PMH, direct access to the plain text material (available under Creative Commons Attribution-Non-Commercial 4.0 International License - CC BY-NC 4.0), and integration into the WebLicht annotation platform and CLARIN\u2019s Federated Content Search FCS.",
     "Added By": ""

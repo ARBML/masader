@@ -8,13 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "news articles"
+        "news articles",
+        "TV channels"
     ],
     "Form": "text",
     "Collection Style": [
         "other"
     ],
-    "Description": "The Arabic data is composed of newswire (60%) published in October 2000-December 2000 and weblogs (40%) published during the period November 2004-February 2005. The Spanish data set consists entirely of newswire material from multiple sources published in January 2005-April 2005.",
+    "Description": "The Arabic data is composed of newswire (60%) published in October 2000-December 2000 and weblogs (40%) published during the period November 2004-February 2005.",
     "Volume": 98353.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
@@ -31,12 +32,17 @@
     "Cost": "1,000.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval"
+        "named entity recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Song Chen",
+        "Kazuaki Maeda",
+        "Christopher Walker",
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

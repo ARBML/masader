@@ -33,13 +33,16 @@
     "Tasks": [
         "language modeling"
     ],
-    "Venue Title": "ArXiv",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "ArXiv",
+    "Venue Name": "arXiv",
     "Authors": [
         "I. A. El-Khair"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Information Science Dept., Faculty of Social Sciences, Umm Al-Qura University, KSA",
+        "LIS Dept., Faculty of Arts, Minia University, Egypt"
+    ],
     "Abstract": "This study is an attempt to build a contemporary linguistic corpus for Arabic language. The corpus produced, is a text corpus includes more than five million newspaper articles. It contains over a billion and a half words in total, out of which, there is about three million unique words. The data were collected from newspaper articles in ten major news sources from eight Arabic countries, over a period of fourteen years. The corpus was encoded with two types of encoding, namely: UTF-8, and Windows CP-1256. Also it was marked with two mark-up languages, namely: SGML, and XML.",
     "Added By": ""
 }

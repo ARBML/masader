@@ -8,15 +8,15 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "news articles"
     ],
     "Form": "text",
     "Collection Style": [
         "other"
     ],
     "Description": "Annotations for this corpus were produced by Linguistic Data Consortium to support the following tasks broken down by language:",
-    "Volume": 42197.0,
-    "Unit": "tokens",
+    "Volume": 206.0,
+    "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -34,9 +34,20 @@
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Alexis Mitchell",
+        "Stephanie Strassel",
+        "Mark Przybocki",
+        "JK Davis",
+        "George R. Doddington",
+        "Ralph Grishman",
+        "Adam Meyers",
+        "Ada Brunstein",
+        "Lisa Ferro",
+        "Beth Sundheim"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

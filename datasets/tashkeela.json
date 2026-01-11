@@ -52,7 +52,7 @@
     "Tasks": [
         "diacritization"
     ],
-    "Venue Title": "Data in brief",
+    "Venue Title": "Data in Brief",
     "Venue Type": "journal",
     "Venue Name": "Data in brief",
     "Authors": [
@@ -60,8 +60,7 @@
         "Amar Balla"
     ],
     "Affiliations": [
-        "",
-        ""
+        "The National Computer Science Engineering School"
     ],
     "Abstract": "Arabic diacritics are often missed in Arabic scripts. This feature is a handicap for new learner to read \u064eArabic, text to speech conversion systems, reading and semantic analysis of Arabic texts. The automatic diacritization systems are the best solution to handle this issue. But such automation needs resources as diactritized texts to train and evaluate such systems. In this paper, we describe our corpus of Arabic diacritized texts. This corpus is called Tashkeela. It can be used as a linguistic resource tool for natural language processing such as automatic diacritics systems, dis-ambiguity mechanism, features and data extraction. The corpus is freely available, it contains 75 million of fully vocalized words mainly 97 books from classical and modern Arabic language. The corpus is collected from manually vocalized texts using web crawling process.",
     "Added By": ""

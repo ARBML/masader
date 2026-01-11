@@ -8,7 +8,7 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Domain": [
-        "other"
+        "TV channels"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -34,9 +34,16 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Jonathan G. Fiscus",
+        "George R. Doddington",
+        "Audrey Le",
+        "Greg Sanders",
+        "Mark Przybocki",
+        "David Pallett"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

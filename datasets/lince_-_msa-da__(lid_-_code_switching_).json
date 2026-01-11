@@ -38,21 +38,16 @@
     "Venue Name": "Workshop on Computational Approaches to Code Switching",
     "Authors": [
         "Giovanni Molina",
-        "F. Alghamdi",
-        "Mahmoud A. Ghoneim",
-        "A. Hawwari",
         "Nicolas Rey-Villamizar",
-        "Mona T. Diab",
-        "T. Solorio"
+        "Thamar Solorio",
+        "Fahad AlGhamdi",
+        "Mahmoud Ghoneim",
+        "Abdelati Hawwari",
+        "Mona Diab"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "University of Houston",
+        "George Washington University"
     ],
     "Abstract": "We present an overview of the first shared task on language identification on codeswitched data. The shared task included code-switched data from four language pairs: Modern Standard ArabicDialectal Arabic (MSA-DA), MandarinEnglish (MAN-EN), Nepali-English (NEPEN), and Spanish-English (SPA-EN). A total of seven teams participated in the task and submitted 42 system runs. The evaluation showed that language identification at the token level is more difficult when the languages present are closely related, as in the case of MSA-DA, where the prediction performance was the lowest among all language pairs. In contrast, the language pairs with the higest F-measure where SPA-EN and NEP-EN. The task made evident that language identification in code-switched data is still far from solved and warrants further research.",
     "Added By": "Maraim Masoud"

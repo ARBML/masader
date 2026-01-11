@@ -8,18 +8,19 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "news articles"
+        "news articles",
+        "public datasets"
     ],
     "Form": "text",
     "Collection Style": [
         "other"
     ],
     "Description": "2006 CoNLL Shared Task - Arabic & Czech consists of Arabic and Czech dependency treebanks used as part of the CoNLL 2006 shared task on multi-lingual dependency parsing.",
-    "Volume": 0.0,
+    "Volume": 113500.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
-        "LDC"
+        "Charles University"
     ],
     "Derived From": [
         "PADT"
@@ -36,7 +37,7 @@
         "syntactic parsing"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

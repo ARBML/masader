@@ -8,11 +8,11 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "The corpus consists of 60 unscripted telephone conversations, lasting between 5-30 minutes. The corpus also includes documentation describing speaker information (sex, age, education, callee telephone number) and call information (channel quality, number of speakers).",
     "Volume": 25.0,
@@ -34,7 +34,7 @@
         "language identification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

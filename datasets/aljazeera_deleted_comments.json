@@ -42,8 +42,6 @@
         "Walid Magdy"
     ],
     "Affiliations": [
-        "",
-        "",
         "The University of Edinburgh"
     ],
     "Abstract": "In this paper, we present our work on detecting abusive language on Arabic social media. We extract a list of obscene words and hashtags using common patterns used in offensive and rude communications. We also classify Twitter users according to whether they use any of these words or not in their tweets. We expand the list of obscene words using this classification, and we report results on a newly created dataset of classified Arabic tweets (obscene, offensive, and clean). We make this dataset freely available for research, in addition to the list of obscene words and hashtags. We are also publicly releasing a large corpus of classified user comments that were deleted from a popular Arabic news site due to violations the site\u2019s rules and guidelines.",

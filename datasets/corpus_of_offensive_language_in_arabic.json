@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Dataset Construction for the Detection of Anti-Social Behaviour in\r\nOnline Communication in Arabic",
-    "Paper Link": "https://core.ac.uk/download/pdf/211161742.pdf",
+    "Paper Link": "https://www.sciencedirect.com/science/article/pii/S1877050918321756",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "OneDrive",
@@ -34,7 +34,7 @@
         "offensive language detection",
         "hate speech detection"
     ],
-    "Venue Title": "ACLING",
+    "Venue Title": "ACLing",
     "Venue Type": "conference",
     "Venue Name": "nternational Conference on AI in Computational Linguistics",
     "Authors": [
@@ -43,9 +43,8 @@
         "Nikola S. Nikolov"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Department of Computer Science and Information Systems, University of Limerick, Ireland",
+        "School of Languages, University of Limerick, Ireland"
     ],
     "Abstract": "Abstract Warning: this paper contains a range of words which may cause offence. In recent years, many studies target anti-social behaviour such as offensive language and cyberbullying in online communication. Typically, these studies collect data from various reachable sources, the majority of the datasets being in English. However, to the best of our knowledge, there is no dataset collected from the YouTube platform targeting Arabic text and overall there are only a few datasets of Arabic text, collected from other social platforms for the purpose of offensive language detection. Therefore, in this paper we contribute to this field by presenting a dataset of YouTube comments in Arabic, specifically designed to be used for the detection of offensive language in a machine learning scenario. Our dataset contains a range of offensive language and flaming in the form of YouTube comments. We document the labelling process we have conducted, taking into account the difference in the Arab dialects and the diversity of perception of offensive language throughout the Arab world. Furthermore, statistical analysis of the dataset is presented, in order to make it ready for use as a training dataset for predictive modelling.",
     "Added By": "Zaid Alyafeai"

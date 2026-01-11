@@ -31,10 +31,10 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "other"
+        "troll detection"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

@@ -36,8 +36,14 @@
     "Venue Title": "IJASAT",
     "Venue Type": "journal",
     "Venue Name": "International Journal on Islamic Applications in Computer Science And Technologies",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Shatha Altammami",
+        "Eric Atwell",
+        "Mohammad Ammar Alsalka"
+    ],
+    "Affiliations": [
+        "Unversity of Leeds"
+    ],
     "Abstract": "We present a bilingual parallel corpus of Islamic Hadith, which is the set of narratives reporting different aspects of the prophet Muhammad's life.  The  Hadith collection  is  extracted  from  the  six  canonical Hadith books which possess unique linguistic features and patterns that are automatically extracted and annotated  using  a  domain-specific  tool  for  Hadith segmentation.  In  this  article,  we  present  the methodology of creating the corpus of 39,038 annotated Hadiths which will be freely available for the research community.",
     "Added By": "Mustafa Ghaleb"
 }

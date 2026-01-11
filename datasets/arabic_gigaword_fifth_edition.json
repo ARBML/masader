@@ -12,11 +12,11 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "crawling"
     ],
     "Description": "All text data are presented in SGML form, using a very simple, minimal markup structure. For every opening tag (DOC, HEADLINE, DATELINE, TEXT, P), there is a corresponding closing tag -- always. The attribute values in the DOC tag are always presented within double-quotes the id= attribute of DOC consists of the 7-letter source abbreviation (in CAPS), an underscore character, an 8-digit date string representing the date of the story (YYYYMMDD), a period, and a 4-digit sequence number starting at 0001 for each date (e.g. XIN_ARB_200101.0001) in this way, every DOC in the corpus is uniquely identifiable by the id string.",
-    "Volume": 0.0,
-    "Unit": "tokens",
+    "Volume": 3346167.0,
+    "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -31,13 +31,18 @@
     "Cost": "6,000.00 $",
     "Test Split": false,
     "Tasks": [
-        "language modeling",
-        "information retrieval"
+        "language modeling"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Robert Parker",
+        "David Graff",
+        "Ke Chen",
+        "Junbo Kong",
+        "Kazuaki Maeda"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

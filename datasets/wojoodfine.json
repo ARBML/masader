@@ -40,13 +40,17 @@
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
     "Authors": [
-        "Haneen Liqreina",
+        "Haneen Abdallatif Liqreina",
         "Mustafa Jarrar",
         "Mohammed Khalilia",
         "Ahmed Oumar El-Shangiti",
-        "Muhammad AbdulMageed"
+        "Muhammad Abdul-Mageed"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Birzeit University",
+        "Mohamed bin Zayed University of Artificial Intelligence",
+        "University of British Columbia"
+    ],
     "Abstract": "Traditional NER systems are typically trained to recognize coarse-grained entities, and less attention is given to classifying entities into a hierarchy of fine-grained lower-level subtypes. This article aims to advance Arabic NER with finegrained entities. We chose to extend Wojood (an open-source Nested Arabic Named Entity Corpus) with subtypes. In particular, four main entity types in Wojood, geopolitical entity (GPE), location (LOC), organization (ORG), and facility (FAC), are extended with 31 subtypes. To do this, we first revised Wojood\u2019s annotations of GPE, LOC, ORG, and FAC to be compatible with the LDC\u2019s ACE guidelines, which yielded 5, 614 changes. Second, all mentions of GPE, LOC, ORG, and FAC (\u223c 44K) in Wojood are manually annotated with the LDC\u2019s ACE subtypes. We refer to this extended version of Wojood as WojoodFine. To evaluate our annotations, we measured the inter-annotator agreement (IAA) using both Cohen\u2019s Kappa and F1 score, resulting in 0.9861 and 0.9889, respectively. To compute the baselines of WojoodFine, we finetune three pre-trained Arabic BERT encoders in three settings: flat NER, nested NER and nested NER with subtypes and achieved F1 score of 0.920, 0.866, and 0.885, respectively.",
     "Added By": "Tymaa Hammouda"
 }

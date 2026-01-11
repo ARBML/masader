@@ -40,17 +40,15 @@
     "Venue Name": "Arabic Natural Language Processing Workshop",
     "Authors": [
         "Gilbert Badaro",
-        "R. Baly",
-        "Hazem M. Hajj",
+        "Ramy Baly",
+        "Hazem Hajj",
         "Nizar Habash",
-        "W. El-Hajj"
+        "Wassim El-Hajj"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Electrical and Computer Engineering Department, American University of Beirut, Lebanon",
+        "Computer Science Department, New York University Abu Dhabi, UAE",
+        "Computer Science Department, American University of Beirut, Lebanon"
     ],
     "Abstract": "Most opinion mining methods in English rely successfully on sentiment lexicons, such as English SentiWordnet (ESWN). While there have been efforts towards building Arabic sentiment lexicons, they suffer from many deficiencies: limited size, unclear usability plan given Arabic\u2019s rich morphology, or nonavailability publicly. In this paper, we address all of these issues and produce the first publicly available large scale Standard Arabic sentiment lexicon (ArSenL) using a combination of existing resources: ESWN, Arabic WordNet, and the Standard Arabic Morphological Analyzer (SAMA). We compare and combine two methods of constructing this lexicon with an eye on insights for Arabic dialects and other low resource languages. We also present an extrinsic evaluation in terms of subjectivity and sentiment analysis.",
     "Added By": "Zaid Alyafeai"

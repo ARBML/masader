@@ -32,10 +32,10 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "other"
+        "humor detection"
     ],
-    "Venue Title": "icnlsp",
-    "Venue Type": "preprint",
+    "Venue Title": "ICNLSP",
+    "Venue Type": "conference",
     "Venue Name": "International Conference on Natural Language and Speech Processing",
     "Authors": [
         "Hend Al-Khalifa",

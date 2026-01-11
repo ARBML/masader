@@ -2,7 +2,7 @@
     "Name": "ArTrivia",
     "Subsets": [],
     "HF Link": "",
-    "Link": "https://github.com/salrowili/ArTrivia/tree/main",
+    "Link": "https://github.com/salrowili/ArTrivia",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
@@ -34,8 +34,13 @@
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Sultan Alrowili",
+        "K.Vijay-Shanker"
+    ],
+    "Affiliations": [
+        "University of Delaware"
+    ],
     "Abstract": "We present ArTrivia, a new Arabic question-answering dataset consisting of more than 10,000 question-answer pairs along with relevant passages, covering a wide range of 18 diverse topics in Arabic. We created our dataset using a newly proposed pipeline that leverages diverse structured data sources from Arabic Wikipedia. Moreover, we conducted a comprehensive statistical analysis of ArTrivia and assessed the performance of each component in our pipeline. Additionally, we compared the performance of ArTrivia against the existing TyDi QA dataset using various experimental setups. Our analysis highlights the significance of often overlooked aspects in dataset creation, such as answer normalization, in enhancing the quality of QA datasets. Our evaluation also shows that ArTrivia presents more challenging and out-of-distribution questions to TyDi, raising questions about the feasibility of using ArTrivia as a complementary dataset to TyDi.",
     "Added By": "Amr Keleg"
 }

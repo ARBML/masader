@@ -37,7 +37,7 @@
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Name": "arXiv",
     "Authors": [
         "Akari Asai",
         "Jungo Kasai",
@@ -47,7 +47,6 @@
         "Hannaneh Hajishirzi"
     ],
     "Affiliations": [
-        "University of Washington",
         "University of Washington",
         "Google Research",
         "The University of Texas at Austin; Allen Institute for AI"

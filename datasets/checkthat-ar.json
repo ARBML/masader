@@ -46,15 +46,7 @@
         "Preslav Nakov"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "Qatar Computing Research Institute",
-        ""
+        "Qatar Computing Research Institute"
     ],
     "Abstract": "In this paper, we make freely accessible ANETAC1 our English-Arabic named entity transliteration and\r\nclassification dataset that we built from freely available parallel translation corpora. The dataset contains\r\n79, 924 instances, each instance is a triplet (e, a, c), where e is the English named entity, a is its Arabic\r\ntransliteration and c is its class that can be either a Person, a Location, or an Organization. The ANETAC\r\ndataset is mainly aimed for the researchers that are working on Arabic named entity transliteration, but it can\r\nalso be used for named entity classification purposes. This dataset was developed and used as part of a previous\r\nresearch study done by Hadj Ameur et al.",
     "Added By": ""

@@ -41,7 +41,9 @@
         "Niddal Imam",
         "Vassilios G. Vassilakis"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "University of York"
+    ],
     "Abstract": "Detecting image-based spam in Online Social\nNetworks (OSNs), such as Facebook and Twitter, is an ongoing\nproblem. Spam is prevalent in all forms of online\ncommunication (such as email and the web) However,\nresearchers\u2019 and practitioners\u2019 attention has increasingly\nshifted to spam in OSNs, due to the growing number of\nspammers and the possible negative effects on users. There are\ndifferent types of spam messages that can be found in OSNs.\nSpam images, which are images embedded with malicious text,\nare one of the most difficult types of spam to tackle. Processing\nimages overwhelms classifiers and affects detection\nperformance. Consequently, spammers take advantage of this\nissue to launch more sophisticated attacks, such as evasion\nattacks. After observing some Arabic trending hashtags and\ntopics in Twitter, a substantial amount of image-based spam was\nfound. Thus, this paper proposes an approach for detecting\nimage-based spam with Arabic text in Twitter through using\nDeep Learning (DL) techniques. In this paper, an Efficient and\nAccurate Scene Text Detector (EAST) and Convolutional\nRecurrent Neural Network (CRNN) models were used for text\ndetection and text recognition. After the text extraction step, a\nblacklist and whitelist approach was applied for classifying text\nas either spam or non-spam. The proposed text classification\ntechnique is adaptable and robust against some text\nclassification attacks.",
     "Added By": "Zaid Alyafeai"
 }

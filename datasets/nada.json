@@ -38,11 +38,12 @@
     "Venue Name": "International Journal of Advanced Computer Science and Applications",
     "Authors": [
         "Nada Alalyani",
-        "Souad Larabi Marie-Sainte"
+        "Souad Larabi",
+        "Marie-Sainte"
     ],
     "Affiliations": [
-        "",
-        ""
+        "King Saud University",
+        "Prince Sultan University"
     ],
     "Abstract": "In the recent years, Arabic Natural Language Processing, including Text summarization, Text simplification, Text Categorization and other Natural Language-related disciplines, are attracting more researchers. Appropriate resources for Arabic Text Categorization are becoming a big necessity for the development of this research. The few existing corpora are not ready for use, they require preprocessing and filtering operations. In addition, most of them are not organized based on standard classification methods which makes unbalanced classes and thus reduced the classification accuracy. This paper proposes a New Arabic Dataset (NADA) for Text Categorization purpose. This corpus is composed of two existing corpora OSAC and DAA. The new corpus is preprocessed and filtered using the recent state of the art methods. It is also organized based on Dewey decimal classification scheme and Synthetic Minority Over-Sampling Technique. The experiment results show that NADA is an efficient dataset ready for use in Arabic Text Categorization.",
     "Added By": "Zaid Alyafeai"

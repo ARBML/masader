@@ -34,9 +34,22 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Hassan Gadalla",
+        "Hanaa Kilany",
+        "Howaida Arram",
+        "Ashraf Yacoub",
+        "Alaa El-Habashi",
+        "Amr Shalaby",
+        "Krisjanis Karins",
+        "Everett Rowson",
+        "Robert MacIntyre",
+        "Paul Kingsbury",
+        "David Graff",
+        "Cynthia McLemore"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

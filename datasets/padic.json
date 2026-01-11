@@ -75,17 +75,18 @@
     "Venue Name": "Pacific Asia Conference on Language, Information and Computation",
     "Authors": [
         "Karima Meftouh",
-        "S. Harrat",
-        "S. Jamoussi",
+        "Salima Harrat",
+        "Salma Jamoussi",
         "Mourad Abbas",
-        "Kamel Sma\u00efli"
+        "Kamel Smaili"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Badji Mokhtar University, Annaba, Algeria",
+        "Ecole Sup\u00e9rieure d\u2019Informatique (ESI), Algiers, Algeria",
+        "ENSB, Algiers, Algeria",
+        "MIRACL, Pole Technologique de Sfax, Tunisia",
+        "CRSTDLA, Algiers, Algeria",
+        "LORIA, Campus Scientifique, Nancy, France"
     ],
     "Abstract": "We present in this paper PADIC, a Parallel Arabic DIalect Corpus we built from scratch, then we conducted experiments on crossdialect Arabic machine translation. PADIC is composed of dialects from both the Maghreb and the Middle-East. Each dialect has been aligned with Modern Standard Arabic (MSA). Three dialects from Maghreb are concerned by this study: two from Algeria, one from Tunisia, and two dialects from the MiddleEast (Syria and Palestine). PADIC has been built from scratch because the lack of dialect resources. In fact, Arabic dialects in Arab world in general are used in daily life conversations but they are not written. At the best of our knowledge, PADIC, up to now, is the largest corpus in the community working on dialects and especially those concerning Maghreb. PADIC is composed of 6400 sentences for each of the 5 concerned dialects and MSA. We conducted cross-lingual machine translation experiments between all the language pairs. For translating to MSA we interpolated the corresponding Language Model (LM) with a large Arabic corpus based LM. We also studied the impact of language model smoothing techniques on the results of machine translation because this corpus, even it is the largest one, it still very small in comparison to those used for translation of natural languages.",
     "Added By": ""

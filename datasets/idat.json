@@ -39,16 +39,14 @@
     "Authors": [
         "Bilal Ghanem",
         "Jihen Karoui",
-        "F. Benamara",
+        "Farah Benamara",
         "V\u00e9ronique Moriceau",
-        "P. Rosso"
+        "Paolo Rosso"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "PRHLT Research Center, Universitat Polit\u00e8cnica de Val\u00e8ncia, Spain",
+        "AUSY R&D, Paris",
+        "IRIT-CNRS, Universit\u00e9 de Toulouse, France"
     ],
     "Abstract": "This overview paper describes the first shared task on irony detection for the Arabic language. The task consists of a binary classification of tweets as ironic or not using a dataset composed of 5, 030 Arabic tweets about different political issues and events related to the Middle East and the Maghreb. Tweets in our dataset are written in Modern Standard Arabic but also in different Arabic language varieties including Egypt, Gulf, Levantine and Maghrebi dialects. Eighteen teams registered to the task among which ten submitted their runs. The methods of participants ranged from feature-based to neural networks using either classical machine learning techniques or ensemble methods. The best performing system achieved F-score value of 0.844, showing that classical feature-based models outperform the neural ones.",
     "Added By": "Zaid Alyafeai"

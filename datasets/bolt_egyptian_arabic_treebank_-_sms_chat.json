@@ -31,13 +31,20 @@
     "Cost": "3,500.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
-        "machine translation"
+        "part of speech tagging",
+        "morphological analysis"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Seth Kulick",
+        "Sondos Krouna",
+        "Dalila Tabassi",
+        "Michael Ciul"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

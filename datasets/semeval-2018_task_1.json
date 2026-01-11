@@ -33,7 +33,7 @@
     "Tasks": [
         "emotion classification"
     ],
-    "Venue Title": "SEMEVAL",
+    "Venue Title": "SemEval",
     "Venue Type": "workshop",
     "Venue Name": "International Workshop on Semantic Evaluation",
     "Authors": [
@@ -44,9 +44,7 @@
     ],
     "Affiliations": [
         "National Research Council Canada",
-        "University of Chile",
-        "",
-        ""
+        "University of Chile"
     ],
     "Abstract": "We present the SemEval-2018 Task 1: Affect in Tweets, which includes an array of subtasks on inferring the affectual state of a person from their tweet. For each task, we created labeled data from English, Arabic, and Spanish tweets. The individual tasks are: 1. emotion intensity regression, 2. emotion intensity ordinal classification, 3. valence (sentiment) regression, 4. valence ordinal classification, and 5. emotion classification. Seventy-five teams (about 200 team members) participated in the shared task. We summarize the methods, resources, and tools used by the participating teams, with a focus on the techniques and resources that are particularly useful. We also analyze systems for consistent bias towards a particular race or gender. The data is made freely available to further improve our understanding of how people convey emotions through language.",
     "Added By": "Mustafa Ghaleb"

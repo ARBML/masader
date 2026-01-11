@@ -8,11 +8,11 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "The speech data consists of conversational telephone speech with multi-channel data collected by LDC simultaneously from a number of auxiliary microphones. The files are organized into two segments: 10 second two-channel excerpts (continuous segments from single conversations that are estimated to contain approximately 10 seconds of actual speech in the channel of interest) and five minute two-channel conversations.",
     "Volume": 525.0,
@@ -34,7 +34,7 @@
         "speaker identification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

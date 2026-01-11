@@ -43,8 +43,8 @@
         "Holger Schwenk"
     ],
     "Affiliations": [
-        "",
-        ""
+        "University of the Basque Country (UPV/EHU)",
+        "Facebook AI Research"
     ],
     "Abstract": "Abstract We introduce an architecture to learn joint multilingual sentence representations for 93 languages, belonging to more than 30 different families and written in 28 different scripts. Our system uses a single BiLSTM encoder with a shared byte-pair encoding vocabulary for all languages, which is coupled with an auxiliary decoder and trained on publicly available parallel corpora. This enables us to learn a classifier on top of the resulting embeddings using English annotated data only, and transfer it to any of the 93 languages without any modification. Our experiments in cross-lingual natural language inference (XNLI data set), cross-lingual document classification (MLDoc data set), and parallel corpus mining (BUCC data set) show the effectiveness of our approach. We also introduce a new test set of aligned sentences in 112 languages, and show that our sentence embeddings obtain strong results in multilingual similarity search even for low- resource languages. Our implementation, the pre-trained encoder, and the multilingual test set are available at https://github.com/facebookresearch/LASER.",
     "Added By": "Zaid Alyafeai"

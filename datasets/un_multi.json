@@ -2,7 +2,7 @@
     "Name": "un_multi",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/multiun",
-    "Link": "https://hf.co/datasets/un_multi",
+    "Link": "https://hf.co/datasets/Helsinki-NLP/multiun",
     "License": "unknown",
     "Year": 2010,
     "Language": "multilingual",

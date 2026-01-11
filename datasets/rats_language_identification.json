@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Levant",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
         "other"
     ],
     "Description": "The source audio consists of conversational telephone speech recordings from: (1) conversational telephone speech (CTS) recordings, taken either from previous LDC CTS corpora, or from CTS data collected specifically for the RATS program from Levantine Arabic, Pashto, Urdu, Farsi and Dari native speakers; and (2) portions of VOA broadcast news recordings, taken from data used in the 2009 NIST Language Recognition Evaluation. The 2009 LRE Test Set is available from LDC as LDC2014S06.",
-    "Volume": 600.0,
+    "Volume": 165.1,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
@@ -34,9 +34,15 @@
         "language identification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "David Graff",
+        "Xiaoyi Ma",
+        "Stephanie Strassel",
+        "Kevin Walker",
+        "Karen Jones"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

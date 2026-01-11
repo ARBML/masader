@@ -43,9 +43,7 @@
         "Svetlana Kiritchenko"
     ],
     "Affiliations": [
-        "National Research Council Canada",
-        "",
-        ""
+        "National Research Council Canada"
     ],
     "Abstract": "Existing Arabic sentiment lexicons have low coverage\u2015with only a few thousand entries. In this paper, we present several large sentiment lexicons that were automatically generated using two different methods: (1) by using distant supervision techniques on Arabic tweets, and (2) by translating English sentiment lexicons into Arabic using a freely available statistical machine translation system. We compare the usefulness of new and old sentiment lexicons in the downstream application of sentence-level sentiment analysis. Our baseline sentiment analysis system uses numerous surface form features. Nonetheless, the system benefits from using additional features drawn from sentiment lexicons. The best result is obtained using the automatically generated Dialectal Hashtag Lexicon and the Arabic translations of the NRC Emotion Lexicon (accuracy of 66.6%). Finally, we describe a qualitative study of the automatic translations of English sentiment lexicons into Arabic, which shows that about 88% of the automatically translated entries are valid for English as well. Close to 10% of the invalid entries are caused by gross mistranslations, close to 40% by translations into a related word, and about 50% by differences in how the word is used in Arabic.",
     "Added By": "Zaid Alyafeai"

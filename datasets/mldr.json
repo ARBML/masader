@@ -33,9 +33,19 @@
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Jianlv Chen",
+        "Shitao Xiao",
+        "Peitian Zhang",
+        "Kun Luo",
+        "Defu Lian",
+        "Zheng Liu"
+    ],
+    "Affiliations": [
+        "University of Science and Technology of China",
+        "BAAI"
+    ],
     "Abstract": "In this paper, we introduce a new embedding\nmodel called M3-Embedding, which is distinguished for its versatility in Multi-Linguality,\nMulti-Functionality, and Multi-Granularity. It\nprovides a uniform support for the semantic retrieval of more than 100 working languages. It\ncan simultaneously accomplish the three common retrieval functionalities: dense retrieval,\nmulti-vector retrieval, and sparse retrieval. Besides, it is also capable of processing inputs\nof different granularities, spanning from short\nsentences to long documents of up to 8,192 tokens. The effective training of M3-Embedding\npresents a series of technical contributions. Notably, we propose a novel self-knowledge distillation approach, where the relevance scores\nfrom different retrieval functionalities can be\nintegrated as the teacher signal to enhance\nthe training quality. We also optimize the\nbatching strategy, which enables a large batch\nsize and high training throughput to improve\nthe discriminativeness of embeddings. M3-\nEmbedding exhibits a superior performance in\nour experiment, leading to new state-of-the-art\nresults on multilingual, cross-lingua",
     "Added By": "Zaid Alyafeai"
 }

@@ -2,7 +2,7 @@
     "Name": "Stopword Lists for 19 Languages",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/stoplist_19_arabic",
-    "Link": "https://www.kaggle.com/datasets/rtatman/stopword-lists-for-19-languages/download",
+    "Link": "https://www.kaggle.com/datasets/rtatman/stopword-lists-for-19-languages",
     "License": "unknown",
     "Year": 2017,
     "Language": "multilingual",
@@ -32,7 +32,7 @@
         "stop words"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

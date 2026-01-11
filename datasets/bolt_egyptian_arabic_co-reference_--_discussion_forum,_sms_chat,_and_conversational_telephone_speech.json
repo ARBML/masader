@@ -8,15 +8,17 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Domain": [
-        "commentary"
+        "commentary",
+        "telephone conversations"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "DF data was collected from the web using a combination of manual and automatic processes. SMS/Chat material was donated or collected via live platforms. CTS data was taken from LDC's Egyptian Arabic CALLHOME and CALLFRIEND telephone collections.",
-    "Volume": 0.0,
-    "Unit": "sentences",
+    "Volume": 602513.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -34,9 +36,16 @@
         "coreference resolution"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Nitin Agarwal",
+        "Michelle Francini",
+        "Michelle Kappler",
+        "Linnea Micciulla",
+        "Sameer Pradhan",
+        "Lance Ramshaw"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -15,8 +15,8 @@
         "other"
     ],
     "Description": "ACE 2004 Multilingual Training Corpus was developed by the Linguistic Data Consortium (LDC) and contains the various genre text in English (158,000 words), Chinese (307,000 characters, 154,000 words), and Arabic (151,000 words) annotated for entities and relations.",
-    "Volume": 689.0,
-    "Unit": "documents",
+    "Volume": 151000.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -34,9 +34,14 @@
         "named entity recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Alexis Mitchell",
+        "Stephanie Strassel",
+        "Shudong Huang",
+        "Ramez Zakhary"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

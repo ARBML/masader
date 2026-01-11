@@ -38,11 +38,11 @@
     "Venue Name": "Conference on Agents and Artificial Intelligence",
     "Authors": [
         "Essma Selab",
-        "A. Guessoum"
+        "Ahmed Guessoum"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Natural Language Processing and Machine Learning Research Group (TALAA), Universit\u00e9 des Sciences et de la Technologie Houari Boumediene (USTHB), BP 32, El Alia 16111 Bab Ezzouar, Algiers, Algeria",
+        "Laboratory for Research in Artificial Intelligence (LRIA), Universit\u00e9 des Sciences et de la Technologie Houari Boumediene (USTHB), BP 32, El Alia 16111 Bab Ezzouar, Algiers, Algeria"
     ],
     "Abstract": "Arabic natural language processing (ANLP) has gained increasing interest over the last decade. However, \n  \n the development of ANLP tools depends on the availability of large corpora. It turns out unfortunately that \n  \n the scientific community has a deficit in large and varied Arabic corpora, especially ones that are freely \n  \n accessible. With the Internet continuing its exponential growth, Arabic Internet content has also been \n  \n following the trend, yielding large amounts of textual data available through different Arabic websites. This \n  \n paper describes the TALAA corpus, a voluminous general Arabic corpus, built from daily Arabic \n  \n newspaper websites. The corpus is a collection of more than 14 million words with 15,891,729 tokens \n  \n contained in 57,827 different articles. A part of the TALAA corpus has been tagged to construct an \n  \n annotated Arabic corpus of about 7000 tokens, the POS-tagger used containing a set of 58 detailed tags. The \n  \n annotated corpus was manually checked by two human experts. The methodology used to construct TALAA \n  \n is presented and various metrics are applied to it, showing the usefulness of the corpus. The corpus can be \n  \n made available to the scientific community upon authorisation.",
     "Added By": ""

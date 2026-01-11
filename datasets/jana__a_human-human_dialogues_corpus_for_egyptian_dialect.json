@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "The transcribed dialogues consist of 52 telephone calls and 30 instant messaging conversations, amounting to approximately 20,311 words. The data contains roughly 3,001 conversation turns, with an average of 6.7 words per turn, and 4,725 utterances, with an average of 4.3 words per utterance. The data was transcribed using Transcriber.",
-    "Volume": 20311.0,
+    "Volume": 20311,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
@@ -34,9 +34,13 @@
         "dialogue generation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "AbdelRahim A. Elmadany",
+        "Sherif M. Abdou",
+        "Mervat Gheith"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

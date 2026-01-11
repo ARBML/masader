@@ -58,7 +58,7 @@
     "Dialect": "mixed",
     "Domain": [
         "social media",
-        "TV Channels"
+        "TV channels"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -84,7 +84,7 @@
         "speech recognition",
         "dialect identification"
     ],
-    "Venue Title": "arxiv",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
     "Authors": [

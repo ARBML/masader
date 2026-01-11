@@ -33,26 +33,23 @@
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "ArXiv",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "ArXiv",
+    "Venue Name": "arXiv",
     "Authors": [
         "Basma Alharbi",
         "Hind Alamro",
         "Manal Alshehri",
         "Zuhair Khayyat",
         "Manal Kalkatawi",
-        "I. Jaber",
-        "X. Zhang"
+        "Inji Ibrahim Jaber",
+        "Xiangliang Zhang"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "University of Jeddah",
+        "KAUST",
+        "Lucidya",
+        "KAU"
     ],
     "Abstract": "This paper provides a detailed description of a new Twitter-based benchmark dataset for Arabic Sentiment Analysis (ASAD), which is launched in a competition3, sponsored by KAUST for awarding 10000 USD, 5000 USD and 2000 USD to the first, second and third place winners, respectively. Compared to other publicly released Arabic datasets, ASAD is a large, high-quality annotated dataset(including 95K tweets), with three-class sentiment labels (positive, negative and neutral). We presents the details of the data collection process and annotation process. In addition, we implement several baseline models for the competition task and report the results as a reference for the participants to the competition.",
     "Added By": "Zaid Alyafeai"

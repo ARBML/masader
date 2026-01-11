@@ -15,7 +15,7 @@
         "other"
     ],
     "Description": "The data collection took place in Kuwait. A total of 70 children, in groups of ten, were sampled from the general Kuwaiti population. Residents of Kuwait originating from neighbouring countries were excluded. The subjects were randomly selected from variable ethnic backgrounds and social classes, concentrating on inner city population. The sample was divided into seven gender- balanced subgroups with the following age ranges: 1;4-1;7, 1;8-1;11, 2;0-2;3, 2;4-2;7, 2;8-2:11, 3;0-3;3 and 3;4-3;7.  Spontaneous speech sample was audio and video recorded on a single occasion. The parent was instructed to interact spontaneously with his or her child for 30 minutes. A set of rubber toys and picture books were made available during all recording sessions. The parent/child spontaneous interaction was digitally recorded with an Edirol R-09HR Handheld SD Recorder and a Shure PG14/PG185 Lavalier wireless microphone system attached to a custom made vest and connected wirelessly to the recorder. The vest was made to hold the microphone transmitter on the child\u2019s back and the lavalier microphone was attached approximately 10-15 centimetres below the child\u2019s chin.",
-    "Volume": 0.0,
+    "Volume": 35.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [],
@@ -32,7 +32,7 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "Shaima AlQattan",

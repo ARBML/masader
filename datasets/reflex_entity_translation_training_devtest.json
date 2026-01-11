@@ -15,7 +15,7 @@
         "other"
     ],
     "Description": "Please use this link for a sample.",
-    "Volume": 22500.0,
+    "Volume": 67500.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
@@ -29,15 +29,21 @@
     "Host": "LDC",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Test Split": true,
     "Tasks": [
         "named entity recognition",
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Christopher Walker",
+        "Song Chen",
+        "Stephanie Strassel",
+        "Julie Medero",
+        "Kazuaki Maeda"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

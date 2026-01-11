@@ -12,7 +12,7 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "manual curation"
+        "crawling"
     ],
     "Description": "This dataset is a collection of 300,00 Arabic tokens with their syntactic treebank annotation and annotation on part of speech (POS), gloss, and word segmentation.",
     "Volume": 300000.0,
@@ -36,7 +36,7 @@
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "Mohamed Maamouri",

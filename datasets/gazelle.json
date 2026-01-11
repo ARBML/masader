@@ -35,17 +35,20 @@
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Name": "arXiv",
     "Authors": [
         "Samar M. Magdy",
         "Fakhraddin Alwajih",
-        "Sang Yun Kwon\u03bb",
+        "Sang Yun Kwon",
         "Reem Abdel-Salam",
-        "Muhammad Abdul-Mageed\u03bb",
-        "\u03be",
-        "\u03b3"
+        "Muhammad Abdul-Mageed"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "The University of British Columbia",
+        "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)",
+        "InvertibleAI",
+        "Cairo University"
+    ],
     "Abstract": "Writing has long been considered a hallmark of human intelligence and remains a pinnacle task for artificial intelligence (AI) due to the intricate cognitive processes involved. Recently, rapid advancements in generative AI, particularly through the development of Large Language Models (LLMs), have significantly transformed the landscape of writing assistance. However, underrepresented languages like Arabic encounter significant challenges in the development of advanced AI writing tools, largely due to the limited availability of data. This scarcity constrains the training of effective models, impeding the creation of sophisticated writing assistance technologies. To address these issues, we present Gazelle, a comprehensive dataset for Arabic writing assistance. In addition, we offer an evaluation framework designed to enhance Arabic writing assistance tools. Our human evaluation of leading LLMs, including GPT-4, GPT-4o, Cohere Command R+, and Gemini 1.5 Pro, highlights their respective strengths and limitations in addressing the challenges of Arabic writing. Our findings underscore the need for continuous model training and dataset enrichment to manage the complexities of Arabic language processing, paving the way for more effective AI-powered Arabic writing tools.",
     "Added By": "Zaid Alyafeai"
 }

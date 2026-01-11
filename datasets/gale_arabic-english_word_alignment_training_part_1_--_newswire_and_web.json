@@ -8,6 +8,7 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
+        "news articles",
         "web pages"
     ],
     "Form": "text",
@@ -31,14 +32,17 @@
     "Cost": "1,750.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
-        "information retrieval",
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Xuansong Li",
+        "Stephen Grimes",
+        "Safa Ismael",
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

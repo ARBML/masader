@@ -8,18 +8,18 @@
     "Language": "ar",
     "Dialect": "Gulf",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "Each transcript file is a tab-delimited flat table, where each line contains information and text for a single contiguous utterance, presented via the following fields:",
     "Volume": 976.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
-        "LDC"
+        "Appen Pty Ltd"
     ],
     "Derived From": [],
     "Paper Title": "",
@@ -34,7 +34,7 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

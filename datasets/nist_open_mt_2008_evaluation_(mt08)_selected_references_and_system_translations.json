@@ -8,18 +8,19 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "web pages"
+        "web pages",
+        "news articles"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "120 documents with 1312 segments, output from 17 machine translation systems.",
     "Volume": 1312.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
-        "LDC"
+        "NIST"
     ],
     "Derived From": [],
     "Paper Title": "",
@@ -34,7 +35,7 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

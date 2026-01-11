@@ -71,13 +71,10 @@
         "Israa Alsarsour",
         "Esraa Mohamed",
         "Reem Suwaileh",
-        "T. Elsayed"
+        "Tamer Elsayed"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        ""
+        "Computer Science and Engineering Department, Qatar University, Doha, Qatar"
     ],
     "Abstract": "In this paper, we present a new large manually-annotated multi-dialect dataset of Arabic tweets that is publicly available. The Dialectal ARabic Tweets (DART) dataset has about 25K tweets that are annotated via crowdsourcing and it is well-balanced over five main groups of Arabic dialects: Egyptian, Maghrebi, Levantine, Gulf, and Iraqi. The paper outlines the pipeline of constructing the dataset from crawling tweets that match a list of dialect phrases to annotating the tweets by the crowd. We also touch some challenges that we face during the process. We evaluate the quality of the dataset from two perspectives: the inter-annotator agreement and the accuracy of the final labels. Results show that both measures were substantially high for the Egyptian, Gulf, and Levantine dialect groups, but lower for the Iraqi andMaghrebi dialects, which indicates the difficulty of identifying those two dialectsmanually and hence automatically.",
     "Added By": ""

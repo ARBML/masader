@@ -46,7 +46,9 @@
         "Mustafa Jarrar",
         "Mohammed Khalilia"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Birzeit University"
+    ],
     "Abstract": "Event-argument extraction is a challenging task, particularly in Arabic due to sparse linguistic resources. To fill this gap, we introduce the \\hadath corpus (550k tokens) as an extension of Wojood, enriched with event-argument annotations. We used three types of event arguments: agent, location, and date, which we annotated as relation types. Our inter-annotator agreement evaluation resulted in 82.23% Kappa score and 87.2% F1-score. Additionally, we propose a novel method for event relation extraction using BERT, in which we treat the task as text entailment. This method achieves an F1-score of 94.01%. To further evaluate the generalization of our proposed method, we collected and annotated another out-of-domain corpus (about 80k tokens) called \\testNLI and used it as a second test set, on which our approach achieved promising results (83.59% F1-score). Last but not least, we propose an end-to-end system for event-arguments extraction. This system is implemented as part of SinaTools, and both corpora are publicly available at:https://sina.birzeit.edu/wojood/",
     "Added By": "Tymaa Hammouda"
 }

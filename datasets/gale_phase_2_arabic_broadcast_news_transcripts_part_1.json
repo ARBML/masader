@@ -8,15 +8,16 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "TV channels",
+        "news articles"
     ],
     "Form": "text",
     "Collection Style": [
         "other"
     ],
     "Description": "The transcript files are in plain-text, tab-delimited format (TDF) with UTF-8 encoding, and the transcribed data totals 897,868 tokens. The transcripts were created with the LDC-developed transcription tool, XTrans, a multi-platform, multilingual, multi-channel transcription tool that supports manual transcription and annotation of audio recordings. XTrans is available from the following link, https://www.ldc.upenn.edu/language-resources/tools/xtrans.",
-    "Volume": 897868.0,
-    "Unit": "tokens",
+    "Volume": 165.0,
+    "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -34,9 +35,14 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Meghan Glenn", 
+        "Haejoong Lee", 
+        "Stephanie Strassel", 
+        "Kazuaki Maeda"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

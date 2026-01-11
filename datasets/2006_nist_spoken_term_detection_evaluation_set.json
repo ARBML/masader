@@ -8,18 +8,19 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "TV channels",
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "The evaluation corpus consists of three data genres: broadcast news (BNews), conversational telephone speech (CTS) and conference room meetings (CONFMTG). The broadcast news material was collected in 2003 and 2004 by LDCs broadcast collection system  from the following sources: ABC (English), Aljazeera (Arabic), China Central TV (Chinese), CNN (English), CNBC (English), Dubai TV (Arabic), New Tang Dynasty TV (Chinese), Public Radio International (English) and Radio Free Asia (Chinese). The CTS data was taken from the Switchboard data sets (e.g., Switchboard-2 Phase 1 LDC98S75, Switchboard-2 Phase 2 LDC99S79) and the Fisher corpora (e.g., Fisher English Training Speech Part 1 LDC2004S13), also collected by LDC. The conference room meeting material consists of goal-oriented, small group roundtable meetings and was collected in 2004 and 2005 by NIST, the International Computer Science Institute (Berkeley, California), Carnegie Mellon University (Pittsburgh, PA), TNO (The Netherlands) and Virginia Polytechnic Institute and State University (Blacksburg, VA) as part of the AMI corpus project.",
     "Volume": 18.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
-        "LDC"
+        "NIST"
     ],
     "Derived From": [],
     "Paper Title": "",
@@ -35,7 +36,7 @@
         "keyphrase extraction"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

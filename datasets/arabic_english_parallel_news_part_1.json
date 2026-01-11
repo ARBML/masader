@@ -15,8 +15,8 @@
         "other"
     ],
     "Description": "LDC collected the data in this corpus via Ummah Press Service from January 2001 to September 2004. It totals 8,439 story pairs, 68,685 sentence pairs. The corpus is aligned at sentence level. All data files are SGML documents.",
-    "Volume": 2000000.0,
-    "Unit": "tokens",
+    "Volume": 8439.0,
+    "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -34,7 +34,7 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

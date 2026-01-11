@@ -15,8 +15,8 @@
         "other"
     ],
     "Description": "This release consists of Egyptian source discussion forum threads harvested from the Internet by LDC using a combination of manual and automatic processes. The source data is released as BOLT Arabic Discussion Forums (LDC2018T10).",
-    "Volume": 400448.0,
-    "Unit": "tokens",
+    "Volume": 31454.0,
+    "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -31,13 +31,17 @@
     "Cost": "1,750.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Xuansong Li",
+        "Katherine Peterson",
+        "Stephen Grimes",
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -31,13 +31,17 @@
     "Cost": "1,500.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Hubert Jin",
+        "Ann Bies",
+        "Xiaoyi Ma"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

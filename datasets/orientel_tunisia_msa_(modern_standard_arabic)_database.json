@@ -8,11 +8,11 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "The OrienTel Tunisia MSA (Modern Standard Arabic) database comprises 598 Tunisian speakers (359 males, 239 females) recorded over the Tunisian fixed and mobile telephone network.",
     "Volume": 31096.0,
@@ -32,7 +32,7 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

@@ -32,16 +32,18 @@
         "sentiment analysis",
         "information retrieval"
     ],
-    "Venue Title": "2023 1st International Conference on Advanced Innovations in Smart Cities",
+    "Venue Title": "ICAISC",
     "Venue Type": "conference",
     "Venue Name": "2023 1st International Conference on Advanced Innovations in Smart Cities",
     "Authors": [
-        "Al-Barhamtoshy",
-        "Hassanin & Himdi",
-        "Hanen & Alyahya",
-        "Mohamad."
+            "Hassanin M. Al-Barhamtoshy",
+            "Hanen T. Himdi",
+            "Mohamad Alyahya"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "King Abdulaziz University",
+        "University of Jeddah"
+    ],
     "Abstract": "",
     "Added By": "Hanen Himdi"
 }

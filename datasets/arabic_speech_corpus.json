@@ -37,12 +37,10 @@
     "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [
-        "Nawar Halabi",
-        "Gary B Wills"
+        "Nawar Halabi"
     ],
     "Affiliations": [
-        "",
-        ""
+        "University of Southampton, Faculty of Physical and Applied Sciences, Electronics and Computer Science"
     ],
     "Abstract": "Corpus design for speech synthesis is a well-researched topic in languages such as English\r\ncompared to Modern Standard Arabic, and there is a tendency to focus on methods to automatically\r\ngenerate the orthographic transcript to be recorded (usually greedy methods), which was used in\r\nthis work. In this work, a study of Modern Standard Arabic (MSA) phonetics and phonology is\r\nconducted in order to develop criteria for a greedy method to create a MSA speech corpus\r\ntranscript for recording. The size of the dataset is reduced a number of times using optimisation\r\nmethods with different parameters to yield a much smaller dataset with the identical phonetic\r\ncoverage offered before the reduction. The resulting output transcript is then chosen for recording.\r\nA phoneme set and a phonotactic rule-set are created for automatically generating a phonetic\r\ntranscript of normalised MSA text which is used to annotate and segment the speech corpus after\r\nrecording, achieving 82.5% boundary precision with some manual alignments (~15% of the\r\ncorpus) to increase the precision of the automatic alignment. This is part of a larger work to create\r\na completely annotated and segmented speech corpus for MSA speech synthesis with an evaluation\r\nof the quality of this speech corpus and, where possible, the quality of each stage in the process.",
     "Added By": ""

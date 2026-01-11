@@ -39,9 +39,12 @@
     "Authors": [
         "Zaid Alyafeai",
         "Maged S. Al-shaibani",
-        "Mustafa Ghaleb & Yousif Ahmed Al-Wajih"
+        "Mustafa Ghaleb",
+        "Yousif Ahmed Al-Wajih"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "King Fahd University of Petroleum and Minerals"
+    ],
     "Abstract": "Calligraphy is an essential part of the Arabic heritage and culture. It has been used in the past for the decoration of houses and mosques. Usually, such calligraphy is designed manually by experts with aesthetic insights. In the past few years, there has been a considerable effort to digitize such type of art by either taking a photograph of decorated buildings or drawing them using digital devices. The latter is considered an online form where the drawing is tracked by recording the apparatus movement, an electronic pen, for instance, on a screen. In the literature, there are many offline datasets with diverse Arabic styles for calligraphy. However, there is no available online dataset for Arabic calligraphy. In this paper, we illustrate our approach for collecting and annotating an online dataset for Arabic calligraphy called Calliar, which consists of 2,500 sentences. Calliar is annotated for stroke, character, word, and sentence-level prediction. We also propose various baseline models for the character classification task. The results we achieved highlight that it is still an open problem.",
     "Added By": "Zaid Alyafeai"
 }

@@ -46,11 +46,12 @@
         "Moshe Koppel"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "MIT Computer Science and Artificial Intelligence Laboratory, Cambridge, MA, USA",
+        "Department of Languages and Literatures, University of Rhode Island, USA",
+        "The Humboldt Chair of Digital Humanities, Leipzig University, Leipzig, Germany",
+        "Department of Hebrew Literature, Bar-Ilan University, Israel",
+        "Department of Computer Science, Bar-Ilan University, Israel",
+        "Dicta: The Israel Center for Text Analysis"
     ],
     "Abstract": "Arabic is a widely-spoken language with a rich and long history spanning more than fourteen centuries. Yet existing Arabic corpora largely focus on the modern period or lack sufficient diachronic information. We develop a large-scale, historical corpus of Arabic of about 1 billion words from diverse periods of time. We clean this corpus, process it with a morphological analyzer, and enhance it by detecting parallel passages and automatically dating undated texts. We demonstrate its utility with selected case-studies in which we show its application to the digital humanities.",
     "Added By": "Zaid Alyafeai"

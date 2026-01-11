@@ -8,9 +8,10 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "news articles"
+        "news articles",
+        "web pages"
     ],
-    "Form": "text",
+    "Form": "images",
     "Collection Style": [
         "other"
     ],
@@ -31,13 +32,19 @@
     "Cost": "2,500.00 $",
     "Test Split": false,
     "Tasks": [
-        "optical character recognition",
-        "machine translation"
+        "optical character recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "David Lee",
+        "Safa Ismael",
+        "Dave Doermann",
+        "Stephanie Strassel",
+        "Song Chen",
+        "Stephen Grimes"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

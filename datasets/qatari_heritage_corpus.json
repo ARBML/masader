@@ -38,11 +38,10 @@
     "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
     "Authors": [
         "Sara Al-Mulla",
-        "W. Zaghouani"
+        "Wajdi Zaghouani"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Hamad Bin Khalifa University"
     ],
     "Abstract": "The current Arabic natural language processing resources are mainly build to address the Modern Standard Arabic (MSA), while we witnessed some scattered efforts to build resources for various Arabic dialects such as the Levantine and the Egyptian dialects. We observed a lack of resources for Gulf Arabic and especially the Qatari variety. In this paper, we present the first Qatari idioms and expression corpus of 1000 entries. The corpus was created from on-line and printed sources in addition to transcribed recorded interviews. The corpus covers various Qatari traditional expressions and idioms. To this end, audio recordings were collected from interviews and an online survey questionnaire was conducted to validate our data. This corpus aims to help advance the dialectal Arabic Speech and Natural Language Processing tools and applications for the Qatari dialect.",
     "Added By": "Zaid Alyafeai"

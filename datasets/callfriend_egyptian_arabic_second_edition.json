@@ -15,7 +15,7 @@
         "other"
     ],
     "Description": "All data was collected before July 1997. Participants could speak with a person of their choice on any topic; most called family members and friends. All calls originated in North America. The recorded conversations last up to 30 minutes.",
-    "Volume": 0.5,
+    "Volume": 25.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
@@ -34,9 +34,13 @@
         "language identification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Alexandra Canavan",
+        "George Zipperlen",
+        "John Bartlett"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

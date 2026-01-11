@@ -33,22 +33,19 @@
     "Tasks": [
         "semantic similarity"
     ],
-    "Venue Title": "ArXiv",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "ArXiv",
+    "Venue Name": "arXiv",
     "Authors": [
         "Haitham Seelawi",
         "Ahmad Mustafa",
-        "H. Al-Bataineh",
+        "Hesham Al-Bataineh",
         "Wael Farhan",
         "Hussein T. Al-Natsheh"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Jordan University of Science and Technology, Jordan",
+        "Mawdoo3 Ltd., Amman, Jordan"
     ],
     "Abstract": "Question semantic similarity (Q2Q) is a challenging task that is very useful in many NLP applications, such as detecting duplicate questions and question answering systems. In this paper, we present the results and findings of the shared task (Semantic Question Similarity in Arabic). The task was organized as part of the first workshop on NLP Solutions for Under Resourced Languages (NSURL 2019) The goal of the task is to predict whether two questions are semantically similar or not, even if they are phrased differently. A total of 9 teams participated in the task. The datasets created for this task are made publicly available to support further research on Arabic Q2Q.",
     "Added By": "Zaid Alyafeai"

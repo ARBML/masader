@@ -8,11 +8,11 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "telephone conversations"
     ],
     "Form": "audio",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "The OrienTel Egypt MSA (Modern Standard Arabic) database comprises 500 Egyptian speakers (254 males, 246 females) recorded over the Egyptian fixed and mobile telephone network.",
     "Volume": 24500.0,
@@ -32,7 +32,7 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "TV channels"
     ],
     "Form": "audio",
     "Collection Style": [
         "other"
     ],
     "Description": "The broadcast recordings in this release feature news programs focusing principally on current events from the following sources: Abu Dhabi TV, a televisions station based in Abu Dhabi, United Arab Emirates; Al Alam News Channel, based in Iran; Alhurra, a U.S. government-funded regional broadcaster; Aljazeera, a regional broadcaster located in Doha, Qatar; Dubai TV, a broadcast station in the United Arab Emirates; Al Iraqiyah, an Iraqi television station; Kuwait TV, a national broadcast station in Kuwait; Lebanese Broadcasting Corporation, a Lebanese television station; Nile TV, a broadcast programmer based in Egypt; Saudi TV, a national television station based in Saudi Arabia; and Syria TV, the national television station in Syria.",
-    "Volume": 30000.0,
+    "Volume": 165.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
@@ -34,9 +34,15 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Kevin Walker", 
+        "Christopher Caruso", 
+        "Kazuaki Maeda", 
+        "Denise DiPersio", 
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

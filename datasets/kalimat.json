@@ -45,8 +45,7 @@
         "R. Koulali"
     ],
     "Affiliations": [
-        "Lancaster University",
-        ""
+        "Lancaster University"
     ],
     "Abstract": "Resources, such as corpora, are important for researchers working on Arabic Natural Language Processing (NLP) (Al-Sulaiti et al. 2006). For this reason we came up with the idea of generating an Arabic multipurpose corpus, which we call KALIMAT (Arabic transliteration of \u201cWORDS\u201d). The automatically created corpus could benefit researchers working on different Arabic NLP areas. In our work on Arabic we developed, enhanced and tested many Arabic NLP tools. We tuned these tools to provide high quality results. The tools include auto-summarisers, Part of Speech Tagger, Morphological Analyser and Named Entity Recognition (NER). We ran these tools using the same document collection. We provide the output corpus freely for researchers to evaluate their work and to run experiments for different Arabic NLP purposes using one corpus.",
     "Added By": ""

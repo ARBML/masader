@@ -41,8 +41,7 @@
         "S. El-Beltagy"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Center of Informatics Sciences, Nile University, Giza, Egypt"
     ],
     "Abstract": "Emotion detection in Arabic text is an emerging research area, but the efforts in this new field have been hindered by the very limited availability of Arabic datasets annotated with emotions. In this paper, we review work that has been carried out in the area of emotion analysis in Arabic text. We then present an Arabic tweet dataset that we have built to serve this task. The efforts and methodologies followed to collect, clean, and annotate our dataset are described and preliminary experiments carried out on this dataset for emotion detection are presented. The results of these experiments are provided as a benchmark for future studies and comparisons with other emotion detection models. The best results over a set of eight emotions were obtained using a complement Naive Bayes algorithm with an overall accuracy of 68.12%.",
     "Added By": ""
