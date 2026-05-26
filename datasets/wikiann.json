@@ -40,17 +40,14 @@
         "Xiaoman Pan",
         "Boliang Zhang",
         "Jonathan May",
-        "J. Nothman",
+        "Joel Nothman",
         "Kevin Knight",
         "Heng Ji"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Computer Science Department, Rensselaer Polytechnic Institute",
+        "Information Sciences Institute, University of Southern California",
+        "Sydney Informatics Hub, University of Sydney"
     ],
     "Abstract": "The ambitious goal of this work is to develop a cross-lingual name tagging and linking framework for 282 languages that exist in Wikipedia. Given a document in any of these languages, our framework is able to identify name mentions, assign a coarse-grained or fine-grained type to each mention, and link it to an English Knowledge Base (KB) if it is linkable. We achieve this goal by performing a series of new KB mining methods: generating \u201csilver-standard\u201d annotations by transferring annotations from English to other languages through cross-lingual links and KB properties, refining annotations through self-training and topic selection, deriving language-specific morphology features from anchor links, and mining word translation pairs from cross-lingual links. Both name tagging and linking results for 282 languages are promising on Wikipedia data and on-Wikipedia data.",
     "Added By": "Zaid Alyafeai"

@@ -33,11 +33,19 @@
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "",
+    "Venue Title": "ICCCEEE",
     "Venue Type": "conference",
-    "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Venue Name": "International Conference on Computer, Control, Electrical, and Electronics Engineering",
+    "Authors": [
+        "Rua Ismail",
+        "Mawada Omer",
+        "Mawada Tabir",
+        "Noor Mahadi",
+        "Izzeldein Amin"
+    ],
+    "Affiliations": [
+        "University of Khartoum"
+    ],
     "Abstract": "",
     "Added By": "Rua Ismail"
 }

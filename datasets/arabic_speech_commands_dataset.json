@@ -42,9 +42,9 @@
         "Oumayma Al Dakkak"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Syrian Virtual University",
+        "Innopolis University",
+        "Higher Institute for Applied Sciences and Technology"
     ],
     "Abstract": "The introduction of the Google Speech Commands dataset accelerated research and resulted in a variety of new deep learning approaches that address keyword spotting tasks. The main contribution of this work is the building of an Arabic Speech Commands dataset, a counterpart to Google\u2019s dataset. Our dataset consists of 12000 instances, collected from 30 contributors, and grouped into 40 keywords. We also report different experiments to benchmark this dataset using classical machine learning and deep learning approaches, the best of which is a Convolutional Neural Network with Mel-Frequency Cepstral Coefficients that achieved an accuracy of 98%. Additionally, we point out some key ideas to be considered in such tasks.",
     "Added By": ""

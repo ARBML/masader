@@ -33,7 +33,6 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "text generation",
         "language modeling"
     ],
     "Venue Title": "JMLR",

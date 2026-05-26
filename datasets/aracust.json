@@ -24,7 +24,7 @@
     ],
     "Derived From": [],
     "Paper Title": "AraCust: a Saudi Telecom Tweets corpus for sentiment analysis",
-    "Paper Link": "https://peerj.com/articles/cs-510/#supplemental-information",
+    "Paper Link": "https://peerj.com/articles/cs-510/#MainContent",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -42,8 +42,8 @@
         "A. Cristea"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Durham University",
+        "Princess Nourah bint Abdulrahman University"
     ],
     "Abstract": "Comparing Arabic to other languages, Arabic lacks large corpora for Natural Language Processing (Assiri, Emam & Al-Dossari, 2018; Gamal et al., 2019). A number of scholars depended on translation from one language to another to construct their corpus (Rushdi-Saleh et al., 2011). This paper presents how we have constructed, cleaned, pre-processed, and annotated our 20,0000 Gold Standard Corpus (GSC) AraCust, the first Telecom GSC for Arabic Sentiment Analysis (ASA) for Dialectal Arabic (DA). AraCust contains Saudi dialect tweets, processed from a self-collected Arabic tweets dataset and has been annotated for sentiment analysis, i.e.,manually labelled (k=0.60). In addition, we have illustrated AraCust\u2019s power, by performing an exploratory data analysis, to analyse the features that were sourced from the nature of our corpus, to assist with choosing the right ASA methods for it. To evaluate our Golden Standard corpus AraCust, we have first applied a simple experiment, using a supervised classifier, to offer benchmark outcomes for forthcoming works. In addition, we have applied the same supervised classifier on a publicly available Arabic dataset created from Twitter, ASTD (Nabil, Aly & Atiya, 2015). The result shows that our dataset AraCust outperforms the ASTD result with 91% accuracy and 89% F1avg score. The AraCust corpus will be released, together with code useful for its exploration, via GitHub as a part of this submission.",
     "Added By": ""

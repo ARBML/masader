@@ -71,11 +71,27 @@
         "question answering",
         "instruction tuning"
     ],
-    "Venue Title": "",
-    "Venue Type": "conference",
-    "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Lucas Bandarkar",
+        "Davis Liang",
+        "Benjamin Muller",
+        "Mikel Artetxe",
+        "Satya Narayan Shukla",
+        "Donald Husa",
+        "Naman Goyal",
+        "Abhinandan Krishnan",
+        "Luke Zettlemoyer",
+        "Madian Khabsa"
+    ],
+    "Affiliations": [
+        "Meta AI",
+        "Abridge AI",
+        "University of California, Los Angeles",
+        "Reka AI"
+    ],
     "Abstract": "",
     "Added By": "Amr Keleg"
 }

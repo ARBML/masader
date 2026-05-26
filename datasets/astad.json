@@ -44,11 +44,7 @@
         "Richard Johansson"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "The Islamic University of Gaza",
-        ""
+        "The Islamic University of Gaza"
     ],
     "Abstract": "As the number of social media users increases, they express their thoughts, needs, socialise and publish their opinions reviews. For good social media sentiment analysis, good quality resources are needed, and the lack of these resources is particularly evident for languages other than English, in particular Arabic. The available Arabic resources lack of from either the size of the corpus or the quality of the annotation. In this paper, we present an Arabic Sentiment Analysis Corpus collected from Twitter, which contains 36K tweets labelled into positive and negative. We employed distant supervision and self-training approaches into the corpus to annotate it. Besides, we release an 8K tweets manually annotated as a gold standard. We evaluated the corpus intrinsically by comparing it to human classification and pre-trained sentiment analysis models, Moreover, we apply extrinsic evaluation methods exploiting sentiment analysis task and achieve an accuracy of 86%.",
     "Added By": "Zaid Alyafeai"

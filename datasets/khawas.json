@@ -43,10 +43,8 @@
         "Maram Al-Mousa"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        ""
+        "King Abdulaziz City for Science and Technology",
+        "King Saud University"
     ],
     "Abstract": "Arabic is a resource-poor language relative to other languages with a similar number of speakers. This situation negatively affects corpus-based linguistic studies in Arabic and, to a lesser extent, Arabic language processing. This paper presents a brief overview of recent freely available Arabic corpora and corpora processing tools, and it examines some of the issues that may be preventing Arabic linguists from using the same. These issues reveal the need for new language resources to enrich and foster Arabic corpus-based studies. Accordingly, this paper introduces the design of a new Arabic corpus that includes modern standard Arabic varieties based on newspapers from all Arab countries and that comprises more than two million words, it also describes the main features of a corpus processing tool specifically designed for Arabic, called \"Khawas U\u0302\u00e6C\u0327O\u0303\" (\"diver\" in English). Khawas provides more features than any other freely available corpus processing tool for Arabic, including n-gram frequency and concordance, collocations, and statistical comparison of two corpora. Finally, we outline modifications and improvements that could be made in future works.",
     "Added By": "Zaid Alyafeai"

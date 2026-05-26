@@ -37,9 +37,19 @@
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Beomseok Lee",
+        "Ioan Calapodescu",
+        "Marco Gaido",
+        "Matteo Negri",
+        "Laurent Besacier"
+    ],
+    "Affiliations": [
+        "University of Trento, Italy",
+        "NAVER LABS Europe, France",
+        "Fondazione Bruno Kessler, Italy"
+    ],
     "Abstract": "We present Speech-MASSIVE, a multilingual Spoken Language Understanding (SLU) dataset comprising the speech counterpart for a portion of the MASSIVE textual corpus. Speech-MASSIVE covers 12 languages from different families and inherits from MASSIVE the annotations for the intent\nprediction and slot-filling tasks. Our extension is prompted by the scarcity of massively multilingual SLU datasets and the growing need for versatile speech datasets to assess foundation models\n(LLMs, speech encoders) across languages and tasks. We provide a multimodal, multitask, multilingual dataset and report SLU baselines using both cascaded and end-to-end architectures in various training scenarios (zero-shot, few-shot, and full fine-tune). Furthermore, we demonstrate the\nsuitability of Speech-MASSIVE for benchmarking other tasks such as speech transcription, language\nidentification, and speech translation. The dataset, models, and code are publicly available at:\nhttps://github.com/hlt-mt/Speech-MASSIVE",
     "Added By": "Zaid Alyafeai"
 }

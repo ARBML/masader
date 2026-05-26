@@ -32,7 +32,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "other"
+        "speech recognition"
     ],
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",

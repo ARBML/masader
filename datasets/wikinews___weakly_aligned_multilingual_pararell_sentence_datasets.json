@@ -1,0 +1,52 @@
+{
+    "Name": "Wikinews - weakly aligned multilingual pararell sentence datasets",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Fumika/Wikinews-multilingual",
+    "Link": "https://huggingface.co/datasets/Fumika/Wikinews-multilingual",
+    "License": "CC BY 2.5",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "news articles",
+        "wikipedia"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "manual curation"
+    ],
+    "Description": "Multilingual aligned news articles from WikiNews in 34 languages.",
+    "Volume": 73.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Primer Technologies Inc."
+    ],
+    "Derived From": [],
+    "Paper Title": "Linear Cross-Lingual Mapping of Sentence Embeddings",
+    "Paper Link": "https://arxiv.org/pdf/2305.14256",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "cross-lingual information retrieval",
+        "language modeling"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Oleg Vasilyev",
+        "Fumika Isono",
+        "John Bohannon"
+    ],
+    "Affiliations": [
+        "Primer Technologies Inc."
+    ],
+    "Abstract": "Semantics of a sentence is defined with much less ambiguity than semantics of a single word, and we assume that it should be better preserved by translation to another language. If multilingual sentence embeddings intend to represent sentence semantics, then the similarity between embeddings of any two sentences must be invariant with respect to translation. Based on this suggestion, we consider a simple linear cross-lingual mapping as a possible improvement of the multilingual embeddings.",
+    "Added By": "Zaid Alyafeai"
+}

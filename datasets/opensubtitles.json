@@ -2,7 +2,7 @@
     "Name": "OpenSubtitles",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/open_subtitles",
-    "Link": "https://opus.nlpl.eu/OpenSubtitles.php",
+    "Link": "https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles",
     "License": "unknown",
     "Year": 2016,
     "Language": "multilingual",

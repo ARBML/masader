@@ -3,14 +3,14 @@
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2007T24",
-    "License": "LDC User Agreement for Non-Members",
+    "License": "LDC User Agreement",
     "Year": 2007,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "TV channels"
     ],
-    "Form": "text",
+    "Form": "audio",
     "Collection Style": [
         "other"
     ],
@@ -31,12 +31,17 @@
     "Cost": "1,500.00 $",
     "Test Split": false,
     "Tasks": [
-        "machine translation"
+        "machine translation",
+        "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Xiaoyi Ma",
+        "Dalal Zakhary", 
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

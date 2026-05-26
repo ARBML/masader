@@ -57,8 +57,8 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Domain": [
-        "TV Channels",
-        "social media"
+        "social media",
+        "TV channels"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -85,9 +85,9 @@
         "speech recognition",
         "dialect identification"
     ],
-    "Venue Title": "EMNLP",
-    "Venue Type": "conference",
-    "Venue Name": "Empirical Methods in Natural Language Processing Conference",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Bashar Talafha",
         "Karima Kadaoui",

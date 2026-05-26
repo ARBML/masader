@@ -45,12 +45,7 @@
         "S. Khudanpur"
     ],
     "Affiliations": [
-        "",
-        "Google Brain",
-        "",
-        "",
-        "",
-        ""
+        "Google Brain"
     ],
     "Abstract": "Translation of the output of automatic speech recognition (ASR) systems, also known as speech translation, has received a lot of research interest recently. This is especially true for programs such as DARPA BOLT which focus on improving spontaneous human-human conversation across languages. However, this research is hindered by the dearth of datasets developed for this explicit purpose. For Egyptian Arabic-English, in particular, no parallel speechtranscription-translation dataset exists in the same domain. In order to support research in speech translation, we introduce the Callhome Egyptian Arabic-English Speech Translation Corpus. This supplements the existing LDC corpus with four reference translations for each utterance in the transcripts. The result is a three-way parallel dataset of Egyptian Arabic Speech, transcriptions and English translations.",
     "Added By": ""

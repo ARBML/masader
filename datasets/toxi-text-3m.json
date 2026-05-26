@@ -29,10 +29,10 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "toxicity detection"
+        "offensive language detection"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

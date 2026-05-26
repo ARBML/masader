@@ -49,16 +49,7 @@
         "Nizar Habash"
     ],
     "Affiliations": [
-        "",
-        "",
-        "New York University Abu Dhabi",
-        "",
-        "",
-        "",
-        "New York University;New York University Abu Dhabi",
-        "",
-        "",
-        ""
+        "New York University Abu Dhabi"
     ],
     "Abstract": "We present CAMeL Tools, a collection of open-source tools for Arabic natural language processing in Python. CAMeL Tools currently provides utilities for pre-processing, morphological modeling, Dialect Identification, Named Entity Recognition and Sentiment Analysis. In this paper, we describe the design of CAMeL Tools and the functionalities it provides.",
     "Added By": ""

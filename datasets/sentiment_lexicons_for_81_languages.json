@@ -1,7 +1,7 @@
 {
     "Name": "Sentiment Lexicons for 81 Languages",
     "Subsets": [],
-    "HF Link": "https://hf.co/datasets/senti_lex",
+    "HF Link": "https://huggingface.co/datasets/senti-lex/senti_lex",
     "Link": "https://www.kaggle.com/datasets/rtatman/sentiment-lexicons-for-81-languages",
     "License": "unknown",
     "Year": 2017,
@@ -32,7 +32,7 @@
         "sentiment analysis"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "RACHAEL TATMAN"

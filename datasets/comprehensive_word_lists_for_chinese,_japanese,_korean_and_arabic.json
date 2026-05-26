@@ -15,7 +15,7 @@
         "other"
     ],
     "Description": "Comprehensive monolingual word lists for both Simplified and Traditional Chinese, Japanese, Korean and Arabic, including a full-form Arabic word list. For Simplified and Traditional Chinese, Japanese and Korean, we provide readings as well, making them ideal for speech-related applications such as speech synthesis. The two Arabic databases include both vocalized and romanized Arabic.",
-    "Volume": 0.0,
+    "Volume": 27500000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [],
@@ -32,7 +32,7 @@
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

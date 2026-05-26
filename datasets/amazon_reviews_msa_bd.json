@@ -1,0 +1,68 @@
+{
+    "Name": "Amazon Reviews MSA BD",
+    "Subsets": [
+        {
+            "Name": "BD",
+            "Volume": 5000.0,
+            "Unit": "sentences",
+            "Dialect": "Bahrain"
+        },
+        {
+            "Name": "MSA",
+            "Volume": 5000.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/5rhw2srzjj/1",
+    "License": "CC BY-NC 3.0",
+    "Year": 2022,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "reviews"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "A parallel sentiment dataset of 10K Amazon reviews in English, Modern Standard Arabic, and Bahraini dialects.",
+    "Volume": 10000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Brunel University London"
+    ],
+    "Derived From": [
+        "Kaggle Amazon Reviews"
+    ],
+    "Paper Title": "Ensemble Learning for Sentiment Analysis of Translation-Based Textual Data",
+    "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9988242",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue Title": "ICECCME",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Electrical, Computer, Communications and Mechatronics Engineering",
+    "Authors": [
+        "Thuraya Omran",
+        "Baraa Sharef",
+        "Crina Grosan",
+        "Yongmin Li"
+    ],
+    "Affiliations": [
+        "Brunel University London",
+        "Ahlia University",
+        "King's College London"
+    ],
+    "Abstract": "Ensemble learning is a technique that combines\nseveral learners to generate a model characterized by more\ngeneralized predictions than the constituent learners. Despite\nthe number of conducted studies about ensemble learning of\nsentiment analysis and the ones that studied the impact of\ntranslation on sentiment analysis, the studies that consider\nensemble learning on translated text are limited. Here different\ntechniques of ensemble learning such as bagging, boosting, and\nstacking were applied to classify an English dataset that was\ntranslated to modern standard Arabic, which in turn\ntranslated manually to Bahraini dialects . Interestingly, this\nstudy revealed the outperformance of stacking ensemble based\non LSTM as base-learners and decision tree as meta-learner\nover the other ensemble techniques by achieving 99.52%,\n99.25%, and 98.52% of mean accuracy in English, modern\nstandard Arabic, and Bahraini dialects, respectively.",
+    "Added By": "Zaid Alyafeai"
+}

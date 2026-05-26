@@ -39,19 +39,17 @@
     "Venue Name": "Recent Advances in Natural Language Processing",
     "Authors": [
         "Taha Tobaili",
-        "Miriam Fern\u00e1ndez",
+        "Miriam Fernandez",
         "Harith Alani",
-        "S. Sharafeddine",
-        "Hazem M. Hajj",
-        "Goran Glavas"
+        "Sanaa Sharafeddine",
+        "Hazem Hajj",
+        "Goran Glava\u0161"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Knowledge Media Institute, The Open University",
+        "Department of Computer Science and Mathematics, Lebanese American University",
+        "Department of Electrical and Computer Engineering, American University of Beirut",
+        "Data and Web Science Group, Universit\u00e4t Mannheim"
     ],
     "Abstract": "Arabizi is an informal written form of dialectal Arabic transcribed in Latin alphanumeric characters. It has a proven popularity on chat platforms and social media, yet it suffers from a severe lack of natural language processing (NLP) resources. As such, texts written in Arabizi are often disregarded in sentiment analysis tasks for Arabic. In this paper we describe the creation of a sentiment lexicon for Arabizi that was enriched with word embeddings. The result is a new Arabizi lexicon consisting of 11.3K positive and 13.3K negative words. We evaluated this lexicon by classifying the sentiment of Arabizi tweets achieving an F1-score of 0.72. We provide a detailed error analysis to present the challenges that impact the sentiment analysis of Arabizi.",
     "Added By": "Zaid Alyafeai"

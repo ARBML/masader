@@ -42,9 +42,8 @@
         "E. Hemayed"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Cairo University",
+        "Zewail City of Science and Technology"
     ],
     "Abstract": "Abstract Despite the widespread of social media among all age groups in Arabic countries, the research directed towards Author Profiling (AP) is still in its early stages. This paper provides an Egyptian Dialect Gender Annotated Dataset (EDGAD) obtained from Twitter as well as a proposed text classification solution for the Gender Identification (GI) problem. The dataset consists of 70,000 tweets per gender. In text classification, a Mixed Feature Vector (MFV) with different stylometric and Egyptian Arabic Dialect (EAD) language-specific features is proposed, in addition to N-Gram Feature Vector (NFV). Ensemble weighted average is applied to the Random Forest (RF) with MFV and Logistic Regression (LR) with NFV. The achieved gender identification accuracy is 87.6%.",
     "Added By": "Zaid Alyafeai"

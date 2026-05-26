@@ -1,0 +1,55 @@
+{
+    "Name": "MVL-SIB",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/WueNLP/mvl-sib",
+    "Link": "https://huggingface.co/datasets/WueNLP/mvl-sib",
+    "License": "CC BY-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Massively multilingual vision-language benchmark for cross-modal topical matching across 205 languages.",
+    "Volume": 3012.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of W\u00fcrzburg",
+        "University of Hamburg"
+    ],
+    "Derived From": [
+        "SIB-200",
+        "Flores"
+    ],
+    "Paper Title": "MVL-SIB: A Massively Multilingual Vision-Language Benchmark for Cross-Modal Topical Matching",
+    "Paper Link": "https://arxiv.org/pdf/2502.12852",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Fabian David Schmidt",
+        "Florian Schneider",
+        "Chris Biemann",
+        "Goran Glava\u0161"
+    ],
+    "Affiliations": [
+        "University ofWurzburg",
+        "University of Hamburg"
+    ],
+    "Abstract": "Existing multilingual vision-language (VL)\nbenchmarks often only cover a handful of lan-\nguages. Consequently, evaluations of large\nvision-language models (LVLMs) predomi-\nnantly target high-resource languages, under-\nscoring the need for evaluation data for low-\nresource languages. To address this limitation,\nwe introduce MVL-SIB, a massively multilin-\ngual vision-language benchmark that evaluates\nboth cross-modal and text-only topical match-\ning across 205 languages\u2014over 100 more than\nthe most multilingual existing VL benchmarks\nencompass. We then benchmark a range of of\nopen-weight LVLMs together with GPT-4o(-\nmini) on MVL-SIB. Our results reveal that\nLVLMs struggle in cross-modal topic match-\ning in lower-resource languages, performing\nno better than chance on languages like N\u2019Koo.\nOur analysis further reveals that VL support in\nLVLMs declines disproportionately relative to\ntextual support for lower-resource languages,\nas evidenced by comparison of cross-modal and\ntext-only topical matching performance. We\nfurther observe that open-weight LVLMs do\nnot benefit from representing a topic with more\nthan one image, suggesting that these models\nare not yet fully effective at handling multi-\nimage tasks. By correlating performance on\nMVL-SIB with other multilingual VL bench-\nmarks, we highlight that MVL-SIB serves as\na comprehensive probe of multilingual VL un-",
+    "Added By": "Zaid Alyafeai"
+}

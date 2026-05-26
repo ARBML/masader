@@ -61,7 +61,19 @@
         "Josh Meyer",
         "Vijay Janapa Reddi"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Harvard University",
+        "University of Michigan",
+        "Factored/MLCommons",
+        "Intel",
+        "NVIDIA",
+        "LandingAI",
+        "Google",
+        "MLCommons",
+        "LandingAI",
+        "Google",
+        "Coqui"
+    ],
     "Abstract": "Coqui, Factored, Google, Harvard University, Intel, Landing AI, NVIDIA, University of Michigan",
     "Added By": "Wafaa Mohammed"
 }

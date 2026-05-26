@@ -33,12 +33,11 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "text generation",
         "language modeling"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Name": "arXiv",
     "Authors": [
         "Manel Aloui",
         "Hasna Chouikhi",

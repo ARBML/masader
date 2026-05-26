@@ -1,0 +1,93 @@
+{
+    "Name": "M2Lingual",
+    "Subsets": [
+        {
+            "Name": "Yemeni",
+            "Volume": 2558.0,
+            "Unit": "sentences",
+            "Dialect": "Yemen"
+        },
+        {
+            "Name": "Moroccan",
+            "Volume": 2804.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Standard Arabic",
+            "Volume": 2640.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Levant",
+            "Volume": 2704.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "Najdi",
+            "Volume": 2645.0,
+            "Unit": "sentences",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 2656.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/ServiceNow-AI/M2Lingual",
+    "Link": "https://huggingface.co/datasets/ServiceNow-AI/M2Lingual",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "LLM",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated"
+    ],
+    "Description": "Fully-synthetic multi-turn multilingual instruction-tuning dataset with 175K conversations across 70 languages and 19 NLP tasks.",
+    "Volume": 16007.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "ServiceNow"
+    ],
+    "Derived From": [
+        "Aya Dataset",
+        "Aya Collection"
+    ],
+    "Paper Title": "M2Lingual: Enhancing Multilingual, Multi-Turn Instruction Alignment in Large Language Models",
+    "Paper Link": "https://arxiv.org/pdf/2406.16783",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "instruction tuning"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Rishabh Maheshwary",
+        "Vikas Yadav",
+        "Hoang Nguyen",
+        "Khyati Mahajan",
+        "Sathwik Tejaswi Madhusudhan"
+    ],
+    "Affiliations": [
+        "ServiceNow",
+        "University of Illinois at Chicago"
+    ],
+    "Abstract": "Collecting instruction fine-tuning (IFT) data is a resource and time intensive task,\nespecially in multilingual settings where finding proficient native speakers is chal-\nlenging. Moreover, traditional data collection is prone to privacy risks, toxicity\nand lacks scalability. While fully synthetic datasets are a promising alternative, re-\nsearch on their use in multilingual domain is limited as existing approaches still rely\non machine translation to improve multilingual performance. To bridge this gap\nwe introduce M2Lingual, the first fully synthetic, multi-turn multilingual dataset\nhaving 175K conversations across 70 languages with a balanced mix of high, low\nand mid-resourced languages. M2Lingual is constructed using a cost-efficient and\nscalable method that uses our novel two-step Evol prompt taxonomy to transform a\nsmall set of human written instructions to complex and challenging conversations.\nResults across three model families, six baseline datasets and evaluation spanning\n31 languages demonstrates the effectiveness of M2Lingual over other datasets. We\ncontribute the 2 step Evol taxonomy and the first fully synthetic, general and task-\noriented, multi-turn, multilingual dataset built with Evol - M2Lingual https://\nhuggingface.co/datasets/ServiceNow-AI/M2Lingual - containing 175K\ntotal IFT pairs, covering 70 languages and 17+ NLP tasks.",
+    "Added By": "Zaid Alyafeai"
+}

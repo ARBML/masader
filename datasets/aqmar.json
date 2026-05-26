@@ -37,18 +37,14 @@
     "Venue Type": "conference",
     "Venue Name": "European Chapter of the Association for Computational Linguistics",
     "Authors": [
-        "B. Mohit",
+        "Behrang Mohit",
         "Nathan Schneider",
         "Rishav Bhowmick",
         "Kemal Oflazer",
         "Noah A. Smith"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "School of Computer Science, Carnegie Mellon University"
     ],
     "Abstract": "We consider the problem of NER in Arabic Wikipedia, a semisupervised domain adaptation setting for which we have no labeled training data in the target domain. To facilitate evaluation, we obtain annotations for articles in four topical groups, allowing annotators to identify domain-specific entity types in addition to standard categories. Standard supervised learning on newswire text leads to poor target-domain recall. We train a sequence model and show that a simple modification to the online learner---a loss function encouraging it to \"arrogantly\" favor recall over precision---substantially improves recall and F1. We then adapt our model with self-training on unlabeled target-domain data; enforcing the same recall-oriented bias in the self-training stage yields marginal gains.",
     "Added By": "Zaid Alyafeai"

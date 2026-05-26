@@ -2,7 +2,7 @@
     "Name": "AraCovid19-SSD: Arabic COVID-19 Sentiment and Sarcasm Detection Dataset",
     "Subsets": [],
     "HF Link": "",
-    "Link": "https://github.com/MohamedHadjAmeur/AraCovid19-SSD",
+    "Link": "https://github.com/HadjAmeur/AraCovid19-SSD",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2021,
     "Language": "ar",
@@ -36,7 +36,7 @@
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Name": "arXiv",
     "Authors": [
         "Mohamed Seghir Hadj Ameur",
         "Hassina Aliane"

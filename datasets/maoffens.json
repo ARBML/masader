@@ -1,0 +1,53 @@
+{
+    "Name": "MAOffens ",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Randa/MAOffens",
+    "Link": "https://huggingface.co/datasets/Randa/MAOffens",
+    "License": "CC BY-NC 2.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Morocco",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": " The first MA dataset for offensive language detection",
+    "Volume": 23000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Mohammed V University in Rabat"
+    ],
+    "Derived From": [],
+    "Paper Title": "MAOffens: Moroccan Arabic Offensive Language Dataset",
+    "Paper Link": "https://link.springer.com/chapter/10.1007/978-3-031-80438-0_2",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "fake news detection"
+    ],
+    "Venue Title": "CCIS",
+    "Venue Type": "journal",
+    "Venue Name": " Communications in Computer and Information Science",
+    "Authors": [
+        "Randa Zarnoufi",
+        "Mohammed Hajhouj",
+        "Walid Bachri",
+        " Hamid Jaafar",
+        "Mounia Abik "
+    ],
+    "Affiliations": [
+        "Mohammed V University in Rabat",
+        "Hassan II University"
+    ],
+    "Abstract": "Moroccan Arabic (MA) dialect is a low resource language. To perform any NLP task, we have to develop the necessary resources from scratch. This paper introduces our work on MAOffens, the first MA dataset for offensive language detection. The dataset will serve to build predictive models to detect offensive content widely present on social media and hence help ensure online safety. We built the dataset with a mixture of comments in Arabic and Latin scripts to cover offensiveness in both cases. The resulting dataset consists of 23k comments totally balanced. The dataset is open to the public (https://huggingface.co/datasets/randa/maoffens). We evaluated the annotation and classification power of the dataset through various classifier architectures. Our best performing classifier was based on a MA transformer model.",
+    "Added By": "Zaid Alyafeai"
+}

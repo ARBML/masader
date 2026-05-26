@@ -37,11 +37,11 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "other"
+        "multiple choice question answering"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Name": "arXiv",
     "Authors": [
         "Sandra Rizkallah",
         "Amir F. Atiya",

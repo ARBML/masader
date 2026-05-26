@@ -33,9 +33,21 @@
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Pengcheng Qiu",
+        "Chaoyi Wu",
+        "Xiaoman Zhang",
+        "Weixiong Lin",
+        "Haicheng Wang",
+        "Ya Zhang",
+        "Yanfeng Wang",
+        "Weidi Xie"
+    ],
+    "Affiliations": [
+        "Shanghai Jiao Tong University",
+        "Shanghai AI Laboratory"
+    ],
     "Abstract": "The development of open-source, multilingual medical language models can benefit a wide, linguistically\ndiverse audience from different regions. To promote this domain, we present contributions from the\nfollowing: First, we construct a multilingual medical corpus, containing approximately 25.5B tokens\nencompassing 6 main languages, termed as MMedC, enabling auto-regressive domain adaptation for\ngeneral LLMs; Second, to monitor the development of multilingual medical LLMs, we propose a multilingual\nmedical multi-choice question-answering benchmark with rationale, termed as MMedBench; Third, we\nhave assessed a number of open-source large language models (LLMs) on our benchmark, along with those\nfurther auto-regressive trained on MMedC. Our final model, MMed-Llama 3, with only 8B parameters,\nachieves superior performance compared to all other open-source models on both MMedBench and English\nbenchmarks, even rivaling GPT-4. In conclusion, in this work, We present a large-scale corpus, a benchmark\nand a series of models to support the development of multilingual medical LLMs.",
     "Added By": "Zaid Alyafeai"
 }

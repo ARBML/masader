@@ -1,0 +1,79 @@
+{
+    "Name": " AraDiCE-WinoGrande ",
+    "Subsets": [
+        {
+            "Name": "WinoGrande-egy",
+            "Volume": 1270.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "WinoGrande-lev",
+            "Volume": 1270.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "WinoGrande-msa",
+            "Volume": 1270.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/QCRI/AraDiCE-WinoGrande",
+    "Link": "https://huggingface.co/datasets/QCRI/AraDiCE-WinoGrande",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "The dataset consists of post-edited versions of various benchmark datasets, curated for validation in cultural and dialectal contexts relevant to Arabic. In this repository, we present the WinoGrande split of the data.",
+    "Volume": 3810.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "WinoGrande"
+    ],
+    "Paper Title": "ARADICE: Benchmarks for Dialectal and Cultural Capabilities in LLMs",
+    "Paper Link": "https://arxiv.org/pdf/2409.11404",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "fill-in-the blank"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Basel Mousi",
+        "Nadir Durrani",
+        "Fatema Ahmad",
+        "Md. Arid Hasan",
+        "Maram Hasanain",
+        "Tameem Kabbani",
+        "Fahim Dalvi",
+        "Shammur Absar Chowdhury",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "University of New Brunswick",
+        "American University of Sharjah"
+    ],
+    "Abstract": "Arabic, with its rich diversity of dialects, re-\nmains significantly underrepresented in Large\nLanguage Models, particularly in dialectal vari-\nations. We address this gap by introducing\nseven synthetic datasets in dialects alongside\nModern Standard Arabic (MSA), created us-\ning Machine Translation (MT) combined with\nhuman post-editing. We present AraDiCE, a\nbenchmark for Arabic Dialect and Cultural\nEvaluation. We evaluate LLMs on dialect com-\nprehension and generation, focusing specifi-\ncally on low-resource Arabic dialects. Addi-\ntionally, we introduce the first-ever fine-grained\nbenchmark designed to evaluate cultural aware-\nness across the Gulf, Egypt, and Levant re-\ngions, providing a novel dimension to LLM\nevaluation. Our findings demonstrate that while\nArabic-specific models like Jais and AceGPT\noutperform multilingual models on dialectal\ntasks, significant challenges persist in dialect\nidentification, generation, and translation. This\nwork contributes \u224845K post-edited samples, a\ncultural benchmark, and highlights the impor-\ntance of tailored training to improve LLM per-\nformance in capturing the nuances of diverse\nArabic dialects and cultural contexts. We have\nreleased the dialectal translation models and\nbenchmarks developed in this study.",
+    "Added By": "Zaid Alyafeai"
+}

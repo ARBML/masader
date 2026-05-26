@@ -37,12 +37,12 @@
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
-        "Leila Ouahrani",
-        "Djamel Bennouar"
+        "Leila OUAHRANI",
+        "Djamal BENNOUAR"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Bouira University",
+        "Algeria"
     ],
     "Abstract": "Automatic short answer grading is a significant problem in E-assessment. Several models have been proposed to deal with it. Evaluation and comparison of such solutions need the availability of Datasets with manual examples. In this paper, we introduce AR-ASAG, an Arabic Dataset for automatic short answer grading. The Dataset contains 2133 pairs of (Model Answer, Student Answer) in several versions (txt, xml, Moodle xml and .db). We explore then an unsupervised corpus based approach for automatic grading adapted to the Arabic Language. We use COALS (Correlated Occurrence Analogue to Lexical Semantic) algorithm to create semantic space for word distribution. The summation vector model is combined to term weighting and common words to achieve similarity between a teacher model answer and a student answer. The approach is particularly suitable for languages with scarce resources such as Arabic language where robust specific resources are not yet available. A set of experiments were conducted to analyze the effect of domain specificity, semantic space dimension and stemming techniques on the effectiveness of the grading model. The proposed approach gives promising results for Arabic language. The reported results may serve as baseline for future research work evaluation",
     "Added By": "Zaid Alyafeai"

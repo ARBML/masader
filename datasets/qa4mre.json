@@ -41,7 +41,14 @@
         "\u00c1lvaro Rodrigo",
         "Richard Sutcliffe & Roser Morante"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "UNED",
+        "Carnegie Mellon University",
+        "CELCT",
+        "University of Essex",
+        "University of Antwerp"
+
+    ],
     "Abstract": "This paper describes the methodology for testing the performance of Machine Reading systems through Question Answering and Reading Comprehension Tests. This was the attempt of the QA4MRE challenge which was run as a Lab at CLEF 2011\u20132013. The traditional QA task was replaced by a new Machine Reading task, whose intention was to ask questions that required a deep knowledge of individual short texts and in which systems were required to choose one answer, by analysing the corresponding test document in conjunction with background text collections provided by the organization. Four different tasks have been organized during these years: Main Task, Processing Modality and Negation for Machine Reading, Machine Reading of Biomedical Texts about Alzheimer\u2019s disease, and Entrance Exams. This paper describes their motivation, their goals, their methodology for preparing the data sets, their background collections, their metrics used for the evaluation, and the lessons learned along these three years.",
     "Added By": "Zaid Alyafeai"
 }

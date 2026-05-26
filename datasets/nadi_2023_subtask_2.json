@@ -1,0 +1,84 @@
+{
+    "Name": "NADI 2023 Subtask 2",
+    "Subsets": [
+        {
+            "Name": "Egyptian",
+            "Volume": 600.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Emariti",
+            "Volume": 600.0,
+            "Unit": "sentences",
+            "Dialect": "United Arab Emirates"
+        },
+        {
+            "Name": "Jordanian",
+            "Volume": 600.0,
+            "Unit": "sentences",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "Palestinian",
+            "Volume": 600.0,
+            "Unit": "sentences",
+            "Dialect": "Palestine"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://codalab.lisn.upsaclay.fr/competitions/14643",
+    "License": "CC BY-NC 4.0",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Country-level Arabic dialect tweets from 18 countries for dialect identification; parallel Egyptian/Emirati/Jordanian/Palestinian\u2192MSA sentences for MT.",
+    "Volume": 2400.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "University of British Columbia",
+        "MBZUAI",
+        "Carnegie Mellon University in Qatar",
+        "New York University Abu Dhabi"
+    ],
+    "Derived From": [],
+    "Paper Title": "NADI 2023: The Fourth Nuanced Arabic Dialect Identification Shared Task",
+    "Paper Link": "https://aclanthology.org/2023.arabicnlp-1.62.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "CodaLab",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "dialect identification"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": " Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Muhammad Abdul-Mageed",
+        "AbdelRahim Elmadany",
+        "Chiyu Zhang",
+        "El Moatez Billah Nagoudi",
+        "Houda Bouamor",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "University of British Columbia",
+        "MBZUAI",
+        "Carnegie Mellon University in Qatar",
+        "New York University Abu Dhabi"
+    ],
+    "Abstract": "We describe the findings of the fourth Nuanced Arabic Dialect Identification Shared Task\n(NADI 2023). The objective of NADI is to\nhelp advance state-of-the-art Arabic NLP by\ncreating opportunities for teams of researchers\nto collaboratively compete under standardized\nconditions. It does so with a focus on Arabic\ndialects, offering novel datasets and defining\nsubtasks that allow for meaningful comparisons\nbetween different approaches. NADI 2023 targeted both dialect identification (Subtask 1) and\ndialect-to-MSA machine translation (Subtask 2\nand Subtask 3). A total of 58 unique teams registered for the shared task, of whom 18 teams\nhave participated (with 76 valid submissions\nduring test phase). Among these, 16 teams\nparticipated in Subtask 1, 5 participated in Subtask 2, and 3 participated in Subtask 3. The\nwinning teams achieved 87.27 F1 on Subtask 1,\n14.76 Bleu in Subtask 2, and 21.10 Bleu in Subtask 3, respectively. Results show that all three\nsubtasks remain challenging, thereby motivating future work in this area. We describe the\nmethods employed by the participating teams\nand briefly offer an outlook for NADI.",
+    "Added By": "Zaid Alyafeai"
+}

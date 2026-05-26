@@ -1,0 +1,47 @@
+{
+    "Name": "AlFloos",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/gfbati/alfloos",
+    "Link": "https://www.kaggle.com/datasets/gfbati/alfloos",
+    "License": "GPL-3.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Saudi Arabia",
+    "Domain": [
+        "other"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Balanced image dataset of all seven banknote denominations of the sixth issue of Saudi Arabian currency.",
+    "Volume": 1330.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Umm Al-Qura University"
+    ],
+    "Derived From": [],
+    "Paper Title": "AlFloos: a balanced dataset for the sixth issue of the Saudi Arabian currency banknote",
+    "Paper Link": "https://link.springer.com/content/pdf/10.1007/s43995-024-00067-z.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "kaggle",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "JEA",
+    "Venue Type": "journal",
+    "Venue Name": "Journal of Umm Al-Qura University for Engineering and Architecture",
+    "Authors": [
+        "Ghassan F. Bati"
+    ],
+    "Affiliations": [
+        "Umm Al-Qura University"
+    ],
+    "Abstract": "Artificial Intelligence, especially machine learning, is considered by many researchers the new electricity and an important\nbuilding block of the fourth industrial revolution. Saudi Arabia is amongst the first nations worldwide to realize this importance and apply it in its school systems at various levels. This interest motivates researchers to create Arabic datasets for\nresearch and educational purposes, particularly with the popularity of English sources and the absence of Arabic sources.\nThis study attempts to lessen this gap by creating for the first time ever a dataset for the sixth issue of the Saudi Arabian\ncurrency and analyzing it using the famous machine learning tools: Orange Data Mining, Google Teachable Machine, and\nLiner.ai, which require no coding. The importance of the study to the community is as follows: 1\u2014It provides the first work\never to establish a balanced dataset for the sixth issue of the Saudi Arabian currency banknote, which contains images for\nthe banknote denominations and the tabular data generated using deep learning. 2\u2014It is the first scientific work that uses\nshallow machine learning and deep learning models to create good-performing models for classifying the sixth issue of the\nSaudi Arabian currency without coding. This work paves the way for researchers and those interested from various fields\nand backgrounds to develop machine learning applications to classify the sixth issue of the Saudi Arabian currency, especially in mobile phones or in microcontrollers, to inspire multiple IoT and Tiny machine learning applications like currency\nrecognition and classification for special needs people, automatic counting and sorting of banknotes in banks and stores,\nand fake currency detection.",
+    "Added By": "Zaid Alyafeai"
+}

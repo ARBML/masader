@@ -42,9 +42,7 @@
         "Souad Larabi Marie-Sainte"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Prince Sultan University"
     ],
     "Abstract": "Natural language processing (NLP) captured the attention of researchers for the last years. NLP is applied in various applications and several disciplines. Arabic is a language that also benefited from NLP. However, only few Arabic datasets are available for researchers. For that, applying the Arabic NLP is limited in these datasets. Hence, this paper introduces a new dataset, SNAD. SNAD is collected to fill the gap in Arabic datasets, especially for classification using deep learning. The dataset has more than 45,000 records. Each record consists of the news title, news details, in addition to the news class. The dataset has six different classes. Moreover, cleaning and preprocessing are applied to the raw data to make it more efficient for classification purpose. Finally, the dataset is validated using the Convolutional Neural Networks and the result is efficient. The dataset is freely available online.",
     "Added By": "Zaid Alyafeai"

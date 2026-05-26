@@ -15,8 +15,8 @@
         "crawling"
     ],
     "Description": "designed for Multilingual and Arabic Dialect Identification",
-    "Volume": 0.0,
-    "Unit": "hours",
+    "Volume": 635.0,
+    "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],

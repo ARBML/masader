@@ -1,0 +1,51 @@
+{
+    "Name": "VML-MOC",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://zenodo.org/records/3559101",
+    "License": "CC BY 4.0",
+    "Year": 2019,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "books"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "manual curation"
+    ],
+    "Description": "Handwritten document images with multiply oriented and curved text lines for text line segmentation.",
+    "Volume": 30.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Ben-Gurion University"
+    ],
+    "Derived From": [],
+    "Paper Title": "VML-MOC: Segmenting a multiply oriented and curved handwritten text line dataset",
+    "Paper Link": "https://doi.org/10.1109/ICDARW.2019.50109",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "zenodo",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "ICDARW",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Document Analysis and Recognition Workshops",
+    "Authors": [
+        "Berat Kurar Barakat",
+        "Rafi Cohen",
+        "Jihad El-Sana",
+        "Irina Rabaev"
+    ],
+    "Affiliations": [
+        "Ben-Gurion University",
+        "Shamoon College of Engineering"
+    ],
+    "Abstract": "This paper publishes a natural and very complicated dataset of handwritten documents with multiply oriented and curved text lines, namely VML-MOC dataset. These text lines were written as remarks on the page margins by different writers over the years. They appear at different locations within the orientations that range between 0\u00b0 and 180\u00b0 or as curvilinear forms. We evaluate a multi-oriented Gaussian based method to segment these handwritten text lines that are skewed or curved in any orientation. It achieves a mean pixel Intersection over Union score of 80.96% on the test documents. The results are compared with the results of a single-oriented Gaussian based text line segmentation method.",
+    "Added By": "Zaid Alyafeai"
+}

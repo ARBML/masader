@@ -142,9 +142,9 @@
     "Tasks": [
         "dialect identification"
     ],
-    "Venue Title": "ArXiv",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "ArXiv",
+    "Venue Name": "arXiv",
     "Authors": [
         "Ahmed Abdelali",
         "Hamdy Mubarak",
@@ -153,11 +153,7 @@
         "Kareem Darwish"
     ],
     "Affiliations": [
-        "",
-        "",
-        "University Of D\u00fcsseldorf;Computational Linguistics",
-        "",
-        ""
+        "University Of D\u00fcsseldorf;Computational Linguistics"
     ],
     "Abstract": "We present QADI, an automatically collected dataset of tweets belonging to a wide range of country-level Arabic dialects -covering 18 different countries in the Middle East and North Africa region. Our method for building this dataset relies on applying multiple filters to identify users who belong to different countries based on their account descriptions and to eliminate tweets that are either written in Modern Standard Arabic or contain inappropriate language. The resultant dataset contains 540k tweets from 2,525 users who are evenly distributed across 18 Arab countries. Using intrinsic evaluation, we show that the labels of a set of randomly selected tweets are 91.5% accurate. For extrinsic evaluation, we are able to build effective country-level dialect identification on tweets with a macro-averaged F1-score of 60.6% across 18 classes.",
     "Added By": ""

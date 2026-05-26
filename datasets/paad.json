@@ -42,9 +42,7 @@
         "Ayad R. Abbas"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "University of Technology, Baghdad"
     ],
     "Abstract": "Now day\u2019s text Classification and Sentiment analysis is considered as one of the popular Natural Language Processing (NLP) tasks. This kind of technique plays significant role in human activities and has impact on the daily behaviours. Each article in different fields such as politics and business represent different opinions according to the writer tendency. A huge amount of data will be acquired through that differentiation. The capability to manage the political orientation of an online article automatically. Therefore, there is no corpus for political categorization was directed towards this task in Arabic, due to the lack of rich representative resources for training an Arabic text classifier. However, we introduce political Arabic articles dataset (PAAD) of textual data collected from newspapers, social network, general forum and ideology website. The dataset is 206 articles distributed into three categories as (Reform, Conservative and Revolutionary) that we offer to the research community on Arabic computational linguistics. We anticipate that this dataset would make a great aid for a variety of NLP tasks on Modern Standard Arabic, political text classification purposes. We present the data in raw form and excel file. Excel file will be in four types such as V1 raw data, V2 preprocessing, V3 root stemming and V4 light stemming.",
     "Added By": "Zaid Alyafeai"

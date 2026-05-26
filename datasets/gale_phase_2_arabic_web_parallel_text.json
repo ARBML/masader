@@ -3,12 +3,13 @@
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2013T01",
-    "License": "LDC User Agreement for Non-Members",
+    "License": "LDC User Agreement",
     "Year": 2013,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "web pages",
+        "news articles"
     ],
     "Form": "text",
     "Collection Style": [
@@ -34,9 +35,15 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Lauren Friedman",
+        "Hubert Jin",
+        "Song Chen",
+        "Gary Krug",
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -43,7 +43,7 @@
         "Mohammad AL-Smadi",
         "Mahmoud Al-Ayyoub",
         "Yanyan Zhao",
-        "Bing Qin5",
+        "Bing Qin",
         "Orph\u00e9e De Clercq",
         "V\u00e9ronique Hoste",
         "Marianna Apidianaki",
@@ -54,7 +54,20 @@
         "Salud Mar\u00eda Jim\u00e9nez-Zafra",
         "G\u00fcl\u015fen Eryi\u011fit"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Institute for Language and Speech Processing, Athena R.C., Athens, Greece",
+        "Dept. of Informatics, Athens University of Economics and Business, Greece",
+        "Dept. of Computer Science, University of York, UK",
+        "Computer Science Dept., Jordan University of Science and Technology, Irbid, Jordan",
+        "Harbin Institute of Technology, Harbin, Heilongjiang, P.R. China",
+        "LT3, Ghent University, Ghent, Belgium",
+        "LIMSI, CNRS, Univ. Paris-Sud, Universit\u00e9 Paris-Saclay, Orsay, France",
+        "Lomonosov Moscow State University, Moscow, Russian Federation",
+        "Vyatka State University, Kirov, Russian Federation",
+        "Universitat Pompeu Fabra, Barcelona, Spain",
+        "Dept. of Computer Science, Universidad de Ja\u00e9n, Spain",
+        "Dept. of Computer Engineering, Istanbul Technical University, Turkey"
+    ],
     "Abstract": "This paper describes the SemEval 2016 shared\ntask on Aspect Based Sentiment Analysis\n(ABSA), a continuation of the respective tasks\nof 2014 and 2015. In its third year, the task\nprovided 19 training and 20 testing datasets\nfor 8 languages and 7 domains, as well as a\ncommon evaluation procedure. From these\ndatasets, 25 were for sentence-level and 14 for\ntext-level ABSA; the latter was introduced for\nthe first time as a subtask in SemEval. The task\nattracted 245 submissions from 29 teams.",
     "Added By": "Zaid Alyafeai"
 }

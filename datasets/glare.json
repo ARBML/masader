@@ -37,13 +37,16 @@
     "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [
-        "AlGhamdi",
-        "Fatima; Mohammed",
-        "Reem; Al-Khalifa",
-        "Hend; Alowisheq",
-        "Areeb"
+        "Fatima AlGhamdi",
+        "Mohammed Reem",
+        "Hend Al-Khalifa",
+        "Areeb Alowisheq"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Saudi Data and Artificial Intelligence Authority (SDAIA)",
+        "King Saud University",
+        " Imam Mohammad Ibn Saud Islamic University"
+    ],
     "Abstract": "This paper introduces GLARE an Arabic Apps Reviews dataset collected from Saudi Google PlayStore. It consists of 76M reviews,\n69M of which are Arabic reviews of 9,980 Android Applications. We present the data collection methodology, along with a detailed\nExploratory Data Analysis (EDA) and Feature Engineering on the gathered reviews. We also highlight possible use cases and benefits\nof the dataset.",
     "Added By": "Zaid Alyafeai"
 }

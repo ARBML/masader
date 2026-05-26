@@ -33,7 +33,7 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "ACLING",
+    "Venue Title": "ACLing",
     "Venue Type": "conference",
     "Venue Name": "nternational Conference on AI in Computational Linguistics",
     "Authors": [
@@ -41,8 +41,8 @@
         "Masun Nabhan Homsi"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Emirates College of Technology",
+        "Simon Bolivar University"
     ],
     "Abstract": "Abstract A why question answering system is a tool designed to answer why-questions posed in natural language. Several papers have been published on the problem of answering why-questions. In particular, attempts have been made to analyze Arabic text and predict which passages are best candidates for the why-questions; employing different datasets with limited size and not publicly available. To overcome these limitations, this paper introduces the new publicly available dataset, DAWQAS: Dataset for Arabic Why Question Answering System. It consists of 3205 of why question-answer pairs that were first scraped from public Arabic websites, then texts were preprocessed and converted to feature vectors. Afterwards, why-answers were re-categorized based on their domains. Finally, the rhetorical relations\u2019 probabilities based on discourse markers were computed for each sentence in the dataset. DAWQAS is a valuable resource for research and evaluation in language understanding. The new dataset is freely available at https://github.com/masun/DAWQAS .",
     "Added By": ""

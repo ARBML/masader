@@ -47,8 +47,7 @@
         "Information Technology Department",
         "University College of Applied Sciences",
         "3Department of Computer Engineering",
-        "Istanbul Kultur University",
-        ""
+        "Istanbul Kultur University"
     ],
     "Abstract": "In the field of sentiment analysis, most of research has conducted experiments on datasets collected from Twitter for\nmanipulating a specific language. Little number of datasets has been collected for detecting sentiments expressed in Arabic tweets.\nMoreover, very limited number of such datasets is suitable for conducting recent research directions such as target dependent sentiment\nanalysis and open-domain targeted sentiment analysis. Thereby, there is a dire need for reliable datasets that are specifically acquired\nfor open-domain targeted sentiment analysis with Arabic language. Therefore, in this paper, we introduce AT-ODTSA, a dataset of\nArabic Tweets for Open-Domain Targeted Sentiment Analysis, which includes Arabic tweets along with labels that specify targets\n(topics) and sentiments (opinions) expressed in the collected tweets. To the best of our knowledge, our work presents the first dataset\nthat manually annotated for applying Arabic open-domain targeted sentiment analysis. We also present a detailed statistical analysis of\nthe dataset. The AT-ODTSA dataset is suitable for train numerous machine learning models such as a deep learning-based model.",
     "Added By": "Zaid Alyafeai"

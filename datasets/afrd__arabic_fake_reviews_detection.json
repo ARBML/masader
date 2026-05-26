@@ -47,7 +47,9 @@
         "Waad Alharbi",
         "Arwa A. Albelaihi"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Qassim University"
+    ],
     "Abstract": "Fake reviews in e-commerce can lead to customer deception and financial losses. Despite the importance of fake reviews detection, studies for Arabic language are scarce due to the lack of comprehensive datasets. This study addresses this gap by introducing a full-gold standard dataset, the Arabic Fake Reviews Detection (AFRD), across hotels, restaurants, and product domains. To identify the most effective model for each domain in the context of fake review detection, this research employed Bi-LSTM, Bi-GRU, CNN+Bi-LSTM, and CNN+Bi-GRU models. These models were then used in a cascading approach called Multiscale Cascaded domain-based (MCDB), which transfers knowledge from one domain to enhance results in other domains. Experimental results demonstrated that the MCDB approach improved the results of the models by 2.09% to 7.8% in terms of accuracy. The introduced dataset can be used to build effective models for Arabic e-commerce platforms, in addition to further Natural Language Processing applications. This study demonstrates that leveraging domain-specific datasets in a cascading manner can significantly improve performance, holding substantial implications for future research in problems with limited-size datasets.",
     "Added By": "Nour Qandos"
 }

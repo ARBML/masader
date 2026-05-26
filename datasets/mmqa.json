@@ -1,0 +1,70 @@
+{
+    "Name": "MMQA",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/prometheus-eval/MMQA",
+    "Link": "https://huggingface.co/datasets/prometheus-eval/MMQA",
+    "License": "CC BY-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "MMQA is a multilingual and multicultural long-form question-answering dataset, which originated as a subset of the MM-Eval benchmark. MMQA features long-form question-answer pairs that inquire about culture-related contexts in seven languages: Bengali, Korean, Catalan, Basque, Spanish, Vietnamese, and Arabic. The dataset is designed to evaluate the ability of models to generate detailed, culturally informed answers across diverse languages and contexts.",
+    "Volume": 330.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "Yonsei University",
+        "KAIST",
+        "OneLineAI",
+        "Barcelona Supercomputing Center",
+        "ArtfulMedia",
+        "Bangladesh University of Engineering and Technology",
+        "Carnegie Mellon University"
+    ],
+    "Derived From": [
+        "MM-EVAL"
+    ],
+    "Paper Title": "MM-EVAL: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models",
+    "Paper Link": "https://arxiv.org/pdf/2410.17578",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Guijin Son",
+        "Dongkeun Yoon",
+        "Juyoung Suk",
+        "Javier Aula-Blasco",
+        "Mano Aslan",
+        "Vu Trong Kim",
+        "Shayekh Bin Islam",
+        "Jaume Prats-Cristi\u00e0",
+        "Luc\u00eda Tormo-Ba\u00f1uelos",
+        "Seungone Kim"
+    ],
+    "Affiliations": [
+        "Yonsei University",
+        "KAIST",
+        "OneLineAI",
+        "Barcelona Supercomputing Center",
+        "ArtfulMedia",
+        "Bangladesh University of Engineering and Technology",
+        "Carnegie Mellon University"
+    ],
+    "Abstract": "As Large Language Models (LLMs) are now capable of producing fluent and coherent content in languages other than English, it is not imperative to precisely evaluate these non-English outputs. However, when assessing the outputs from multilingual LLMs, prior works often employed LLM based evaluators that excel at assessing English outputs, without a thorough examination of whether these evaluators could effectively assess non-English text as well. Moreover, existing benchmarks to test evaluator LLMs (referred to as \u201cmeta-evaluation benchmarks\u201d) are mostly English-centric. To bridge this gap and examine whether evaluator LLMs can reliably assess the outputs of multilingual LLMs, we introduce MM-EVAL, a multilingual meta-evaluation benchmark comprising five core subsets covering 18 languages and a Language Consistency subset spanning 122 languages. A core attribute of MM-EVAL is that, instead of merely translating existing English meta-evaluation benchmarks, it is designed with multilingual-specific challenges in mind. Additionally, unlike existing meta-evaluation benchmarks that focus solely on ranking accuracy over pairwise data, MM-EVAL also evaluates the consistency and fairness of absolute score values across a wide range of languages. Our results show that existing evaluator LLMs that excel in English contexts have considerable room for improvement when assessing non-English outputs. Furthermore, we find that evaluators are unfair and inconsistent when evaluating lower-resourced languages. Finally, we validate MM-EVAL by measuring its correlation with Best-of-N rankings, finding a significantly stronger correlation compared to other meta-evaluation benchmarks. We publicly release our benchmark and code.",
+    "Added By": "Zaid Alyafeai"
+}

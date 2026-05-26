@@ -35,16 +35,15 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "ArXiv",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Name": "arXiv",
     "Authors": [
         "Xinyu Zhang",
         "Jimmy J. Lin"
     ],
     "Affiliations": [
-        "",
-        ""
+        "David R. Cheriton School of Computer Science, University of Waterloo"
     ],
     "Abstract": "We present Mr. TYDI, a multi-lingual benchmark dataset for mono-lingual retrieval in eleven typologically diverse languages, designed to evaluate ranking with learned dense representations. The goal of this resource is to spur research in dense retrieval techniques in non-English languages, motivated by recent observations that existing techniques for representation learning perform poorly when applied to out-of-distribution data. As a starting point, we provide zero-shot baselines for this new dataset based on a multi-lingual adaptation of DPR that we call \u201cmDPR\u201d. Experiments show that although the effectiveness of mDPR is much lower than BM25, dense representations nevertheless appear to provide valuable relevance signals, improving BM25 results in sparse\u2013dense hybrids. In addition to analyses of our results, we also discuss future challenges and present a research agenda in multi-lingual dense retrieval. Mr. TYDI can be downloaded at https://github.com/ castorini/mr.tydi.",
     "Added By": "Zaid Alyafeai"

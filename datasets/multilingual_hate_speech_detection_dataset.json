@@ -36,9 +36,9 @@
     "Tasks": [
         "hate speech detection"
     ],
-    "Venue Title": "ArXiv",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "ArXiv",
+    "Venue Name": "arXiv",
     "Authors": [
         "Sai Saket Aluru",
         "Binny Mathew",
@@ -46,10 +46,7 @@
         "Animesh Mukherjee"
     ],
     "Affiliations": [
-        "",
-        "Indian Institute of Technology Kharagpur",
-        "",
-        ""
+        "Indian Institute of Technology Kharagpur"
     ],
     "Abstract": "Hate speech detection is a challenging problem with most of the datasets available in only one language: English. In this paper, we conduct a large scale analysis of multilingual hate speech in 9 languages from 16 different sources. We observe that in low resource setting, simple models such as LASER embedding with logistic regression performs the best, while in high resource setting BERT based models perform better. In case of zero-shot classification, languages such as Italian and Portuguese achieve good results. Our proposed framework could be used as an efficient solution for low-resource languages. These models could also act as good baselines for future multilingual hate speech detection tasks. We have made our code and experimental settings public for other researchers at this https URL.",
     "Added By": "Zaid Alyafeai"

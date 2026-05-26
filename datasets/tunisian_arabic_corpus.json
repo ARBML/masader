@@ -37,7 +37,9 @@
     "Authors": [
         "Karen McNeil"
     ],
-    "Affiliations": [],
-    "Abstract": "",
+    "Affiliations": [
+        "Edinburgh University"
+    ],
+    "Abstract": "Because of the many varieties of Arabic, there can never be ‘one’ authoritative corpus of the language. To achieve the best results for language-learning resources and natural language processing, corpora for both the standard language and the spoken varieties are needed. To this end, the Tunisian Arabic Corpus (TAC) is a project, led by Karen McNeil and Miled Faiza, seeking to build a four-million-word corpus of Tunisian Spoken Arabic. There are many challenges to creating Arabic corpora, and dialectal corpora in particular, including those of sources, balance, and parsing. The corpus currently consists only of about 881,000 words, and issues of balance and parsing have not been completely solved. Nonetheless, the corpus has proved to be a useful resource to Arabic students and researchers, and also presents a model for others who wish to create dialectal Arabic corpora.",
     "Added By": "Zaid Alyafeai"
 }

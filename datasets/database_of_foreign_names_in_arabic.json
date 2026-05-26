@@ -15,7 +15,7 @@
         "manual curation"
     ],
     "Description": "This database covers non-Arabic names, their Arabic equivalents, and Arabic script variants for each name (with the most important variant given first).",
-    "Volume": 0.0,
+    "Volume": 25000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [],
@@ -32,7 +32,7 @@
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

@@ -1,0 +1,53 @@
+{
+    "Name": "HumanEval-XL",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/floatai/HumanEval-XL",
+    "Link": "https://github.com/FloatAI/humaneval-xl",
+    "License": "Apache-2.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation",
+        "LLM generated"
+    ],
+    "Description": "HumanEval-XL is a massively multilingual code generation benchmark connecting 23 natural languages and 12 programming languages.",
+    "Volume": 80.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Baidu Inc."
+    ],
+    "Derived From": [
+        "HumanEval"
+    ],
+    "Paper Title": "HumanEval-XL: A Multilingual Code Generation Benchmark for Cross-lingual Natural Language Generalization",
+    "Paper Link": "https://arxiv.org/pdf/2402.16694",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "code generation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Qiwei Peng",
+        "Yekun Chai",
+        "Xuhong Li"
+    ],
+    "Affiliations": [
+        "University of Copenhagen",
+        "Baidu Inc."
+    ],
+    "Abstract": "Large language models (LLMs) have made significant progress in generating codes from textual prompts. However,\nexisting benchmarks have mainly concentrated on translating English prompts to multilingual codes or have been\nconstrained to very limited natural languages (NLs). These benchmarks have overlooked the vast landscape of\nmassively multilingual NL to multilingual code, leaving a critical gap in the evaluation of multilingual LLMs. In\nresponse, we introduce HumanEval-XL, a massively multilingual code generation benchmark specifically crafted to\naddress this deficiency. HumanEval-XL establishes connections between 23 NLs and 12 programming languages\n(PLs), and comprises of a collection of 22,080 prompts with an average of 8.33 test cases. By ensuring parallel data\nacross multiple NLs and PLs, HumanEval-XL offers a comprehensive evaluation platform for multilingual LLMs,\nallowing the assessment of the understanding of different NLs. Our work serves as a pioneering step towards filling\nthe void in evaluating NL generalization in the area of multilingual code generation. We make our evaluation code\nand data publicly available at https://github.com/FloatAI/humaneval-xl.",
+    "Added By": "Zaid Alyafeai"
+}

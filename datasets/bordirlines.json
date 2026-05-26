@@ -1,0 +1,61 @@
+{
+    "Name": "BordIRLines",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/borderlines/bordirlines",
+    "Link": "https://huggingface.co/datasets/borderlines/bordirlines",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "wikipedia"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "LLM generated"
+    ],
+    "Description": "Multilingual RAG benchmark for 49 languages focusing on territorial disputes.",
+    "Volume": 544.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Pennsylvania"
+    ],
+    "Derived From": [
+        "BORDERLINES"
+    ],
+    "Paper Title": "Multilingual Retrieval Augmented Generation for Culturally-Sensitive Tasks: A Benchmark for Cross-lingual Robustness",
+    "Paper Link": "https://arxiv.org/pdf/2410.01171",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "cross-lingual information retrieval",
+        "information retrieval",
+        "retrieval-augmented generation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Bryan Li",
+        "Fiona Luo",
+        "Samar Haider",
+        "Adwait Agashe",
+        "Tammy Li",
+        "Runqi Liu",
+        "Muqing Miao",
+        "Shriya Ramakrishnan",
+        "Yuan Yuan",
+        "Chris Callison-Burch"
+    ],
+    "Affiliations": [
+        "University of Pennsylvania"
+    ],
+    "Abstract": "The paradigm of retrieval-augmented generated (RAG) helps mitigate hallucinations of large language models (LLMs). However, RAG also introduces biases contained within the retrieved documents. These biases can be amplified in scenarios which are multilingual and culturally-sensitive, such as territorial disputes. We thus introduce BordIRLines, a dataset of territorial disputes paired with retrieved Wikipedia documents, across 49 languages. We evaluate the cross-lingual robustness of this RAG setting by formalizing several modes for multilingual retrieval. Our experiments on several LLMs show that incorporating perspectives from diverse languages can in fact improve robustness; retrieving multilingual documents best improves response consistency and decreases geopolitical bias over RAG with purely in-language documents. We also consider how RAG responses utilize presented documents, finding a much wider variance in the linguistic distribution of response citations, when querying in low-resource languages. Our further analyses investigate the various aspects of a cross-lingual RAG pipeline, from retrieval to document contents. We release our benchmark and code to support continued research towards equitable information access across languages at https://huggingface.co/datasets/borderlines/bordirlines.\n",
+    "Added By": "Zaid Alyafeai"
+}

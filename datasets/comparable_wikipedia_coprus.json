@@ -54,8 +54,7 @@
         "B. Alijla"
     ],
     "Affiliations": [
-        "The Islamic University of Gaza",
-        ""
+        "The Islamic University of Gaza"
     ],
     "Abstract": "Wikipedia encyclopedia is an attractive source for comparable corpora in many languages. Most researchers develop their own script to perform document alignment task, which requires efforts and time. In this paper, we present WikiDocsAligner, an off-the-shelf Wikipedia Articles alignment handy tool. The implementation of WikiDocsAligner does not require the researchers to import/export of interlanguage links databases. The user just need to download Wikipedia dumps (interlanguage links and articles), then provide them to the tool, which performs the alignment. This software can be used easily to align Wikipedia documents in any language pair. Finally, we use WikiDocsAligner to align comparable documents from Arabic Wikipedia and Egyptian Wikipedia. So we shed the light on Wikipedia as a source of Arabic dialects language resources. The produced resources is interesting and useful as the demand on Arabic/dialects language resources increased in the last decade.",
     "Added By": ""

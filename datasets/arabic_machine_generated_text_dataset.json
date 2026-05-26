@@ -1,0 +1,48 @@
+{
+    "Name": "Arabic Machine-Generated Text Dataset",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/KFUPM-JRCAI/arabic-generated-abstracts",
+    "Link": "https://huggingface.co/datasets/KFUPM-JRCAI/arabic-generated-abstracts",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "The dataset addresses the need for comprehensive Arabic machine-generated text resources, enabling research in detection systems, stylometric analysis, and cross-model generalization studies.",
+    "Volume": 8388.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "KFUPM-JRCAI"
+    ],
+    "Derived From": [],
+    "Paper Title": "The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text",
+    "Paper Link": "https://arxiv.org/pdf/2505.23276",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "AI-generated text detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Maged S. Al-Shaibani",
+        "Moataz Ahmed"
+    ],
+    "Affiliations": [
+        "KFUPM"
+    ],
+    "Abstract": "Large Language Models (LLMs) have achieved unprecedented capabilities in generating human-like text, posing subtle yet significant challenges for information integrity across critical domains, including education, social media, and academia, enabling sophisticated misinformation campaigns, compromising healthcare guidance, and facilitating targeted propaganda. This challenge becomes severe, particularly in under-explored and low-resource languages like Arabic. This paper presents a comprehensive investigation of Arabic machine-generated text, examining multiple generation strategies (generation from the title only, content-aware generation, and text refinement) across diverse model architectures (ALLaM, Jais, Llama, and GPT-4) in academic, and social media domains. Our stylometric analysis reveals distinctive linguistic patterns differentiating human-written from machine-generated Arabic text across these varied contexts. Despite their human-like qualities, we demonstrate that LLMs produce detectable signatures in their Arabic outputs, with domain-specific characteristics that vary significantly between different contexts. Based on these insights, we developed BERT-based detection models that achieved exceptional performance in formal contexts (up to 99.9\\% F1-score) with strong precision across model architectures. Our cross-domain analysis confirms generalization challenges previously reported in the literature. To the best of our knowledge, this work represents the most comprehensive investigation of Arabic machine-generated text to date, uniquely combining multiple prompt generation methods, diverse model architectures, and in-depth stylometric analysis across varied textual domains, establishing a foundation for developing robust, linguistically-informed detection systems essential for preserving information integrity in Arabic-language contexts.\n",
+    "Added By": "Zaid Alyafeai"
+}

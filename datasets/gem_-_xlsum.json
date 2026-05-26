@@ -33,28 +33,24 @@
     "Tasks": [
         "summarization"
     ],
-    "Venue Title": "FINDINGS",
+    "Venue Title": "Findings of ACL",
     "Venue Type": "conference",
     "Venue Name": "Findings of the Association for Computational Linguistics",
     "Authors": [
         "Tahmid Hasan",
         "Abhik Bhattacharjee",
-        "Md. Saiful Islam",
+        "Md Saiful Islam",
         "Kazi Samin",
         "Yuan-Fang Li",
         "Yong-Bin Kang",
-        "M. Rahman",
+        "M. Sohel Rahman",
         "Rifat Shahriyar"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Bangladesh University of Engineering and Technology (BUET)",
+        "University of Rochester",
+        "Monash University",
+        "Swinburne University of Technology"
     ],
     "Abstract": "Contemporary works on abstractive text summarization have focused primarily on highresource languages like English, mostly due to the limited availability of datasets for low/midresource ones. In this work, we present XLSum, a comprehensive and diverse dataset comprising 1 million professionally annotated article-summary pairs from BBC, extracted using a set of carefully designed heuristics. The dataset covers 44 languages ranging from low to high-resource, for many of which no public dataset is currently available. XL-Sum is highly abstractive, concise, and of high quality, as indicated by human and intrinsic evaluation. We fine-tune mT5, a state-of-theart pretrained multilingual model, with XLSum and experiment on multilingual and lowresource summarization tasks. XL-Sum induces competitive results compared to the ones obtained using similar monolingual datasets: we show higher than 11 ROUGE-2 scores on 10 languages we benchmark on, with some of them exceeding 15, as obtained by multilingual training. Additionally, training on low-resource languages individually also provides competitive performance. To the best of our knowledge, XL-Sum is the largest abstractive summarization dataset in terms of the number of samples collected from a single source and the number of languages covered. We are releasing our dataset and models to encourage future research on multilingual abstractive summarization. The resources can be found at https://github. com/csebuetnlp/xl-sum.",
     "Added By": "Maraim Masoud"

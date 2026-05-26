@@ -1,0 +1,61 @@
+{
+    "Name": "PolyGuardMix",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/ToxicityPrompts/PolyGuardMix",
+    "Link": "https://huggingface.co/datasets/ToxicityPrompts/PolyGuardMix",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Multilingual safety detection dataset with 1.91M prompts and responses in 17 languages including Arabic.",
+    "Volume": 100041.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Carnegie Mellon University"
+    ],
+    "Derived From": [
+        "WildGuardMix",
+        "LMSys-Chat-1M",
+        "WildChat"
+    ],
+    "Paper Title": "PolyGuard: A Multilingual Safety Moderation Tool for 17 Languages",
+    "Paper Link": "https://arxiv.org/pdf/2504.04377",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "safety evaluation"
+    ],
+    "Venue Title": "COLM",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Language Modeling",
+    "Authors": [
+        "Priyanshu Kumar",
+        "Devansh Jain",
+        "Akhila Yerukola",
+        "Liwei Jiang",
+        "Himanshu Beniwal",
+        "Thomas Hartvigsen",
+        "Maarten Sap"
+    ],
+    "Affiliations": [
+        "Carnegie Mellon University",
+        "University of Washington",
+        "IIT Gandhinagar",
+        "University of Virginia",
+        "Allen Institute for AI"
+    ],
+    "Abstract": "Truly multilingual safety moderation efforts for Large Language Models (LLMs) have been hindered by a narrow focus on a small set of languages (e.g., English, Chinese) as well as a limited scope of safety definition, resulting in significant gaps in moderation capabilities. To bridge these gaps, we release POLYGUARD, a new state-of-the-art multilingual safety model for safeguarding LLM generations, and the corresponding training and evaluation datasets. POLYGUARD is trained on POLYGUARDMIX, the largest multilingual safety training corpus to date containing 1.91M samples across 17 languages (e.g., Chinese, Czech, English, Hindi). We also introduce POLYGUARDPROMPTS, a high-quality multilingual benchmark with 29K samples for the evaluation of safety guardrails. Created by combining naturally occurring multilingual human-LLM interactions and human-verified machine translations of an English-only safety dataset (WildGuardMix; Han et al., 2024), our datasets contain prompt-output pairs with labels of prompt harmfulness, response harmfulness, and response refusal. Through extensive evaluations across multiple safety and toxicity benchmarks, we demonstrate that POLYGUARD outperforms existing state-of-the-art open-weight and commercial safety classifiers by 5.5%. Our contributions advance efforts towards safer multilingual LLMs for all global users.",
+    "Added By": "Zaid Alyafeai"
+}

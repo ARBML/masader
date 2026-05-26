@@ -41,8 +41,8 @@
         "Mark G. Lee"
     ],
     "Affiliations": [
-        "Taibah University;University of Birmingham",
-        ""
+        "Taibah University",
+        "University of Birmingham"
     ],
     "Abstract": "Social media (SM) platforms such as Twitter provide large quantities of real-time data that can be leveraged during mass emergencies. Developing tools to support crisis-affected communities requires available datasets, which often do not exist for low resource languages. This paper introduces Kawarith a multi-dialect Arabic Twitter corpus for crisis events, comprising more than a million Arabic tweets collected during 22 crises that occurred between 2018 and 2020 and involved several types of hazard. Exploration of this content revealed the most discussed topics and information types, and the paper presents a labelled dataset from seven emergency events that serves as a gold standard for several tasks in crisis informatics research. Using annotated data from the same event, a BERT model is fine-tuned to classify tweets into different categories in the multi- label setting. Results show that BERT-based models yield good performance on this task even with small amounts of task-specific training data.",
     "Added By": "Zaid Alyafeai"

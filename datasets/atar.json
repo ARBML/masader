@@ -42,9 +42,8 @@
         "M. Al-Ayyoub"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Jordan University of Science and Technology",
+        "University of Southampton"
     ],
     "Abstract": "A non-standard romanization of Arabic script, known as Arbizi, is widely used in Arabic online and SMS/chat communities. However, since state-of-the-art tools and applications for Arabic NLP expects Arabic to be written in Arabic script, handling contents written in Arabizi requires a special attention either by building customized tools or by transliterating them into Arabic script. The latter approach is the more common one and this work presents two significant contributions in this direction. The first one is to collect and publicly release the first large-scale \u201cArabizi to Arabic script\u201d parallel corpus focusing on the Jordanian dialect and consisting of more than 25 k pairs carefully created and inspected by native speakers to ensure highest quality. Second, we present Atar, an attention-based encoder-decoder model for Arabizi transliteration. Training and testing this model on our dataset yields impressive accuracy (79%) and BLEU score (88.49).",
     "Added By": ""

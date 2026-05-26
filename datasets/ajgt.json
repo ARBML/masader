@@ -42,9 +42,8 @@
         "K. Shaalan"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Abu Dhabi University",
+        "The British University in Dubai"
     ],
     "Abstract": "The continuous rapid growth of electronic Arabic contents in social media channels and in Twitter particularly poses an opportunity for opinion mining research. Nevertheless, it is hindered by either the lack of sentimental analysis resources or Arabic language text analysis challenges. This study introduces an Arabic Jordanian twitter corpus where Tweets are annotated as either positive or negative. It investigates different supervised machine learning sentiment analysis approaches when applied to Arabic user\u2019s social media of general subjects that are found in either Modern Standard Arabic (MSA) or Jordanian dialect. Experiments are conducted to evaluate the use of different weight schemes, stemming and N-grams terms techniques and scenarios. The experimental results provide the best scenario for each classifier and indicate that SVM classifier using term frequency\u2013inverse document frequency (TF-IDF) weighting scheme with stemming through Bigrams feature outperforms the Naive Bayesian classifier best scenario performance results. Furthermore, this study results outperformed other results from comparable related work.",
     "Added By": ""

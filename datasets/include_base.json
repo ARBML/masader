@@ -1,0 +1,63 @@
+{
+    "Name": "INCLUDE-base",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/CohereForAI/include-base-44",
+    "Link": "https://huggingface.co/datasets/CohereForAI/include-base-44",
+    "License": "Apache-2.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "books",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "A large-scale multilingual benchmark of 197k MCQs from regional exams to test regional knowledge.",
+    "Volume": 582.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "CohereForAI"
+    ],
+    "Derived From": [
+        "ArabicMMLU"
+    ],
+    "Paper Title": "Evaluating Multilingual Language Understanding with Regional Knowledge",
+    "Paper Link": "https://arxiv.org/pdf/2411.19799",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "multiple choice question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Angelika Romanou",
+        "Negar Foroutan",
+        "Anna Sotnikova",
+        "Zeming Chen",
+        "Sree Harsha Nelaturu",
+        "Shivalika Singh",
+        "Rishabh Maheshwary",
+        "Micol Altomare",
+        "Mohamed A. Haggag",
+        "Imanol Schlag",
+        " Marzieh Fadaee",
+        "Sara Hooker",
+        "Antoine Bosselut"
+    ],
+    "Affiliations": [
+        "EPFL",
+        "CohereForAI"
+    ],
+    "Abstract": "The performance differential of large language models (LLMs) between languages hinders their effective deployment in many regions, inhibiting the potential economic and societal value of generative AI tools in many communities. However, the development of functional LLMs in many languages (i.e., multilingual LLMs) is bottlenecked by the lack of high-quality evaluation resources in languages other than English. Moreover, current practices in multilingual benchmark construction often translate English resources, ignoring the regional and cultural knowledge of the environments in which multilingual systems would be used. In this work, we construct an evaluation suite of 197,243 QA pairs from local exam sources to measure the capabilities of multilingual LLMs in a variety of regional contexts. Our novel resource, INCLUDE, is a comprehensive knowledge- and reasoning-centric benchmark across 44 written languages that evaluates multilingual LLMs for performance in the actual language environments where they would be deployed. We release INCLUDE for public use.",
+    "Added By": "Zaid Alyafeai"
+}

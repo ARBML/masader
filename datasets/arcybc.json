@@ -1,0 +1,52 @@
+{
+    "Name": "ArCybC",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/z2dfgrzx47/1",
+    "License": "CC BY 4.0",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Multi-dialect Arabic cyberbullying corpus of 4,505 annotated tweets spanning gaming, sports, news, and celebrity topics.",
+    "Volume": 4505.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "University of Jordan"
+    ],
+    "Derived From": [],
+    "Paper Title": "The design, construction and evaluation of annotated Arabic cyberbullying corpus",
+    "Paper Link": "https://www.researchgate.net/publication/360238061_The_design_construction_and_evaluation_of_annotated_Arabic_cyberbullying_corpus",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "offensive language detection"
+    ],
+    "Venue Title": "EAIT",
+    "Venue Type": "journal",
+    "Venue Name": "Education and Information Technologies",
+    "Authors": [
+        "Fatima Shannag",
+        "Bassam H. Hammo",
+        "Hossam Faris"
+    ],
+    "Affiliations": [
+        "University of Jordan",
+        "Princess Sumaya University for Technology",
+        "Al Hussein Technical University"
+    ],
+    "Abstract": "Cyberbullying (CB) is classified as one of the severe misconducts on social media.\nMany CB detection systems have been developed for many natural languages to face\nthis phenomenon. However, Arabic is one of the under-resourced languages suffer-\ning from the lack of quality datasets in many computational research areas. This\npaper discusses the design, construction, and evaluation of a multi-dialect, anno-\ntated Arabic Cyberbullying Corpus (ArCybC), a valuable resource for Arabic CB\ndetection and motivation for future research directions in Arabic Natural Language\nProcessing (NLP). The study describes the phases of ArCybC compilation. By way\nof illustration, it explores the corpus to discover strategies used in rendering Ara-\nbic CB tweets pulled from four Twitter groups, including gaming, sports, news, and\ncelebrities. Based on thorough analysis, we discovered that these groups were the\nmost susceptible to harassment and cyberbullying. The collected tweets were filtered\nbased on a compiled harassment lexicon, which contains a list of multi-dialectical\nprofane words in Arabic compiled from four categories: sexual, racial, physical\nappearance, and intelligence. To annotate ArCybC, we asked five annotators to clas-\nsify 4,505 tweets into two classes manually: Offensive/non-Offensive and CB/non-\nCB. We conducted a rigorous comparison of different machine learning approaches\napplied on ArCybC to detect Arabic CB using two language models: bag-of-words\n(BoW) and word embedding. The experiments showed that Support Vector Machine\n(SVM) with word embedding achieved an accuracy rate of 86.3% and an F1-score\nrate of 85%. The main challenges encountered during the ArCybC construction were\nthe scarcity of freely available Arabic CB texts and the deficiency of annotating the\ntexts.",
+    "Added By": "Zaid Alyafeai"
+}

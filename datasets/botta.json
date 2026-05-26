@@ -41,8 +41,7 @@
         "Nizar Habash"
     ],
     "Affiliations": [
-        "",
-        ""
+        "New York University Abu Dhabi, UAE"
     ],
     "Abstract": "This paper presents BOTTA, the first Arabic dialect chatbot. We explore the challenges of creating a conversational agent that aims to simulate friendly conversations using the Egyptian Arabic dialect. We present a number of solutions and describe the different components of the BOTTA chatbot. The BOTTA database files are publicly available for researchers working on Arabic chatbot technologies. The BOTTA chatbot is also publicly available for any users who want to chat with it online.",
     "Added By": "Zaid Alyafeai"

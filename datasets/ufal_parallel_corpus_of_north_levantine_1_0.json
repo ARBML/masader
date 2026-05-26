@@ -36,8 +36,18 @@
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Mateusz Krubinski",
+        "Hashem Sellat",
+        "Shadi Saleh",
+        "Adam Pospíšil",
+        "Petr Zemánek",
+        "Pavel Pecina"
+    ],
+    "Affiliations": [
+        "Charles University, Faculty of Mathematics and Physics",
+        "Charles University, Faculty of Arts"
+    ],
     "Abstract": "Low-resource Machine Translation (MT) is characterized by the scarce availability of training data and/or standardized evaluation benchmarks. In the context of Dialectal Arabic, recent works introduced several evaluation benchmarks covering both Modern Standard Arabic (MSA) and dialects, mapping, however, mostly to a single Indo-European language - English. In this work, we introduce a multi-lingual corpus consisting of 120,600 multi-parallel sentences in English, French, German, Greek, Spanish, and MSA selected from the OpenSubtitles corpus, which were manually translated into the North Levantine Arabic. By conducting a series of training and fine-tuning experiments, we explore how this novel resource can contribute to the research on Arabic MT.",
     "Added By": "Amr Keleg"
 }

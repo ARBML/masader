@@ -42,10 +42,12 @@
         "Bilel Elayeb"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
-    ],
+        "National Engineering School of Sousse",
+        "Sousse University",
+        "RIADI Research Laboratory",
+        "Manouba University",
+        "Emirates College of Technology"
+  ],
     "Abstract": "We propose in this paper a new online Arabic corpus of news articles, named ANT Corpus, which is collected from RSS Feeds. Each document represents an article structured in the standard XML TREC format. We use the ANT Corpus for Text Classification (TC) by applying the SVM and Naive Bayes (NB) classifiers to assign to each article its accurate predefined category. We study also in this work the contribution of terms weighting, stop-words removal and light stemming on Arabic TC. The experimental results prove that the text length affects considerably the TC accuracy and that titles words are not sufficiently significant to perform good classification rates. As a conclusion, the SVM method gives the best results of classification of both titles and texts parts.",
     "Added By": "Zaid Alyafeai"
 }

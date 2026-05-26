@@ -31,11 +31,18 @@
     "Tasks": [
         "codeswitch detection"
     ],
-    "Venue Title": "",
-    "Venue Type": "conference",
-    "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Venue Title": "NLP+CSS",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on NLP and Computational Social Science",
+    "Authors": [
+        "Michael Miller Yoder",
+        "Shruti Rijhwani",
+        "Carolyn Penstein Ros\u00e9",
+        "Lori Levin"
+    ],
+    "Affiliations": [
+        "Language Technologies Institute, Carnegie Mellon University"
+    ],
     "Abstract": "",
     "Added By": "Amr Keleg"
 }

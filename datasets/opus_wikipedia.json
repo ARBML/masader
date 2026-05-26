@@ -2,7 +2,7 @@
     "Name": "OPUS Wikipedia",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/opus_wikipedia",
-    "Link": "https://opus.nlpl.eu/Wikipedia.php",
+    "Link": "https://opus.nlpl.eu/Wikipedia/corpus/version/Wikipedia",
     "License": "unknown",
     "Year": 2012,
     "Language": "multilingual",
@@ -38,7 +38,7 @@
     "Venue Name": "Language Resources Evaluation Conference",
     "Authors": [],
     "Affiliations": [
-        "Jorg Tiedemann \u00a8"
+        "Department of Linguistics and Philology, Uppsala University, Uppsala/Sweden"
     ],
     "Abstract": "This paper presents the current status of OPUS, a growing language resource of parallel corpora and related tools. The focus in OPUS\nis to provide freely available data sets in various formats together with basic annotation to be useful for applications in computational\nlinguistics, translation studies and cross-linguistic corpus studies. In this paper, we report about new data sets and their features,\nadditional annotation tools and models provided from the website and essential interfaces and on-line services included in the project.",
     "Added By": "Zaid Alyafeai"

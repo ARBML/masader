@@ -1,0 +1,53 @@
+{
+    "Name": "sentiment dataset of Algerian dialect ",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://sourceforge.net/projects/alg-dialect-sentiment-dataset/",
+    "License": "unknown",
+    "Year": 2019,
+    "Language": "ar",
+    "Dialect": "Algeria",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Annotated comments/posts in Algerian Arabizi from Facebook pages, collected via APIs/Facepager & Google Forms.",
+    "Volume": 11760.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "LCSI"
+    ],
+    "Derived From": [],
+    "Paper Title": "Sentiment Analysis for Arabizi: Application to Algerian Dialect",
+    "Paper Link": "https://www.scitepress.org/Papers/2019/83539/83539.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "sourceforge",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue Title": "IC3K",
+    "Venue Type": "conference",
+    "Venue Name": "Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
+    "Authors": [
+        "Asma Chader",
+        "Dihia Lanasri",
+        "Leila Hamdad",
+        "Mohamed Chemes Eddine Belkheir",
+        "Wassim Hennoune"
+    ],
+    "Affiliations": [
+        "Research & Development & Innovation Direction",
+        "LCSI"
+    ],
+    "Abstract": "Sentiment Analysis and its applications have spread to many languages and domains. With regard to Arabic\nand its dialects, we witness an increasing interest simultaneously with increase of Arabic texts volume in social\nmedia. However, the Algerian dialect had received little attention, and even less in Latin script (Arabizi). In\nthis paper, we propose a supervised approach for sentiment analysis of Arabizi Algerian dialect using different\nclassifiers such as Naive Bayes and Support Vector Machines. We investigate the impact of several preprocessing techniques, dealing with dialect specific aspects. Experimental evaluation on three manually annotated\ndatasets shows promising performance where the approach yielded the highest classification accuracy using\nSVM algorithm. Moreover, our results emphasize the positive impact of proposed preprocessing techniques.\nThe adding of vowels removal and transliteration, to overcome phonetic and orthographic varieties, allowed\nus to lift the F-score of SVM from 76 % to 87 %, which is considerable.",
+    "Added By": "Zaid Alyafeai"
+}

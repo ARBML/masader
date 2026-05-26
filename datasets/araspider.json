@@ -33,11 +33,11 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "text-to-SQL generation"
+        "text to SQL"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Name": "arXiv",
     "Authors": [
         "Ahmed Heakl",
         "Youssef Mohamed",

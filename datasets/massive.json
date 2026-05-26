@@ -1,0 +1,64 @@
+{
+    "Name": "MASSIVE",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/qanastek/MASSIVE",
+    "Link": "https://huggingface.co/datasets/qanastek/MASSIVE",
+    "License": "CC BY 4.0",
+    "Year": 2022,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "1M parallel, labeled virtual-assistant utterances in 51 languages for NLU tasks with train/dev/test splits.",
+    "Volume": 19521.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Amazon"
+    ],
+    "Derived From": [
+        "SLURP"
+    ],
+    "Paper Title": "MASSIVE: A 1M-Example Multilingual Natural Language Understanding Dataset with 51 Typologically-Diverse Languages",
+    "Paper Link": "https://arxiv.org/pdf/2204.08582",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "intent classification"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Jack FitzGerald",
+        "Christopher Hench",
+        "Charith Peris",
+        "Scott Mackie",
+        "Kay Rottmann",
+        "Ana Sanchez",
+        "Aaron Nash",
+        "Liam Urbach",
+        "Vishesh Kakarala",
+        "Richa Singh",
+        "Swetha Ranganath",
+        "Laurie Crist",
+        "Misha Britan",
+        "Wouter Leeuwis",
+        "Gokhan Tur",
+        "Prem Natarajan"
+    ],
+    "Affiliations": [
+        "Amazon"
+    ],
+    "Abstract": "We present the MASSIVE dataset\u2014\nMultilingual Amazon Slu resource package\n(SLURP) for Slot-filling, Intent classification,\nand Virtual assistant Evaluation. MASSIVE\ncontains 1M realistic, parallel, labeled virtual\nassistant utterances spanning 51 languages, 18\ndomains, 60 intents, and 55 slots. MASSIVE\nwas created by tasking professional translators\nto localize the English-only SLURP dataset\ninto 50 typologically diverse languages from\n29 genera. We also present modeling results\non XLM-R and mT5, including exact match\naccuracy, intent classification accuracy, and\nslot-filling F1 score. We have released our\ndataset, modeling code, and models publicly.",
+    "Added By": "Zaid Alyafeai"
+}

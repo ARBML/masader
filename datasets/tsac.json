@@ -37,16 +37,14 @@
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",
     "Authors": [
-        "Salima Medhaffar",
+        "Salima Mdhaffar",
         "Fethi Bougares",
-        "Y. Est\u00e8ve",
-        "L. Belguith"
+        "Yannick Est\u00e8ve",
+        "Lamia Hadrich-Belguith"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        ""
+        "LIUM Lab, University of Le Mans, France",
+        "ANLP Research Group, MIRACL Lab, University of Sfax, Tunisia"
     ],
     "Abstract": "Dialectal Arabic (DA) is significantly different from the Arabic language taught in schools and used in written communication and formal speech (broadcast news, religion, politics, etc.). There are many existing researches in the field of Arabic language Sentiment Analysis (SA); however, they are generally restricted to Modern Standard Arabic (MSA) or some dialects of economic or political interest. In this paper we are interested in the SA of the Tunisian Dialect. We utilize Machine Learning techniques to determine the polarity of comments written in Tunisian Dialect. First, we evaluate the SA systems performances with models trained using freely available MSA and Multi-dialectal data sets. We then collect and annotate a Tunisian Dialect corpus of 17.000 comments from Facebook. This corpus allows us a significant accuracy improvement compared to the best model trained on other Arabic dialects or MSA data. We believe that this first freely available corpus will be valuable to researchers working in the field of Tunisian Sentiment Analysis and similar areas.",
     "Added By": ""

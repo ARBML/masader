@@ -3,7 +3,7 @@
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2003T07",
-    "License": "LDC User Agreement for Non-Members",
+    "License": "LDC User Agreement",
     "Year": 2003,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
@@ -31,13 +31,17 @@
     "Cost": "1,500.00 $",
     "Test Split": false,
     "Tasks": [
-        "information retrieval",
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Hubert Jin",
+        "Ann Bies",
+        "Xiaoyi Ma"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

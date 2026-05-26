@@ -2,7 +2,7 @@
     "Name": "TuDiCoI",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/TuDiCoI",
-    "Link": "https://sites.google.com/site/anlprg/outils-et-corpus-realisess",
+    "Link": "https://github.com/MarwaGraja/TuDiCOI",
     "License": "unknown",
     "Year": 2010,
     "Language": "ar",
@@ -26,7 +26,7 @@
     "Paper Link": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.452.7847&rep=rep1&type=pdf",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "other",
+    "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
@@ -37,14 +37,12 @@
     "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [
-        "M. Graja",
-        "M. Jaoua",
-        "L. Belguith"
+        "Marwa Graja",
+        "Maher Jaoua",
+        "Lamia Hadrich Belguith"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "University of Sfax"
     ],
     "Abstract": "The aim of this paper is to present a lexical study of a spoken dialogue corpus in Tunisian dialect since such resources does not currently existing. The lexical analysis permits to take into account the specificity of Tunisian dialect by identifying lexical varieties and significant elements used in the spoken dialogue. This can lead us to provide a useful characterization for dialogue systems and help us to develop models and methods specifically designed for Tunisian dialect.",
     "Added By": "Zaid Alyafeai"

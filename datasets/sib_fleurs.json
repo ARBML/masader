@@ -1,0 +1,58 @@
+{
+    "Name": "SIB-Fleurs",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/WueNLP/sib-fleurs",
+    "Link": "https://huggingface.co/datasets/WueNLP/sib-fleurs",
+    "License": "CC BY-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "A massively multilingual benchmark for spoken language understanding covering 102 languages for utterance classification and 92 languages for multiple-choice QA from spoken paragraphs.",
+    "Volume": 776.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of W\u00fcrzburg",
+        "University of Cambridge",
+        "Mila"
+    ],
+    "Derived From": [
+        "Fleurs",
+        "Flores",
+        "SIB-200"
+    ],
+    "Paper Title": "Fleurs-SLU: A Massively Multilingual Benchmark for Spoken Language Understanding",
+    "Paper Link": "https://arxiv.org/pdf/2501.06117",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "topic classification"
+    ],
+    "Venue Title": "COLM",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Language Modeling",
+    "Authors": [
+        "Fabian David Schmidt",
+        "Ivan Vuli\u0107",
+        "Goran Glava\u0161",
+        "David Ifeoluwa Adelani"
+    ],
+    "Affiliations": [
+        "University of W\u00fcrzburg",
+        "University of Cambridge",
+        "Mila, McGill University"
+    ],
+    "Abstract": "Spoken language understanding (SLU) is indispensable for half of all living languages that lack a formal writing system. Unlike for high-resource languages, for these languages, we cannot offload semantic understanding of speech to the cascade of automatic speech recognition (ASR) and text-based large language models (LLMs). Even if low-resource languages possess a writing system, ASR for these languages remains unreliable due to limited bimodal speech and text training data. Nonetheless, the evaluation of multilingual SLU is limited to shallow tasks such as intent classification or language identification. This is why we present Fleurs-SLU, a multilingual SLU benchmark that encompasses (i) 692 hours of speech for topical utterance classification in 102 languages and (ii) multiple-choice question answering via listening comprehension spanning 944 hours of speech across 92 languages. We extensively evaluate end-to-end speech classification models, cascaded systems that combine speech-to-text transcription with subsequent LLM-based classification, and multimodal speech-LLMs on Fleurs-SLU. Our results show that cascaded systems are more robust in multilingual SLU, though well-pretrained speech encoders can perform competitively in topical speech classification. Closed-source speech-LLMs match or surpass the performance of cascaded systems. We observe a strong correlation between robust multilingual ASR, effective speech-to-text translation, and strong multilingual SLU, indicating mutual benefits between acoustic and semantic speech representations.\n",
+    "Added By": "Zaid Alyafeai"
+}

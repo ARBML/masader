@@ -2,7 +2,7 @@
     "Name": "bible_para",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/bible_para",
-    "Link": "https://hf.co/datasets/bible_para",
+    "Link": "https://hf.co/datasets/Helsinki-NLP/bible_para",
     "License": "CC0",
     "Year": 2014,
     "Language": "multilingual",

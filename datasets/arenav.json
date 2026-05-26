@@ -1,0 +1,57 @@
+{
+    "Name": "ArEnAV",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/kartik060702/ArEnAV-Full",
+    "Link": "https://huggingface.co/datasets/kartik060702/ArEnAV-Full",
+    "License": "CC BY-NC 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "videos",
+    "Collection Style": [
+        "LLM generated",
+        "crawling"
+    ],
+    "Description": "First large-scale Arabic-English audio-visual deepfake dataset with intra-utterance code-switching and dialectal variation.",
+    "Volume": 287280.0,
+    "Unit": "videos",
+    "Ethical Risks": "High",
+    "Provider": [
+        "MBZUAI",
+        "Monash University"
+    ],
+    "Derived From": [
+        "VisPer Arabic Train subset"
+    ],
+    "Paper Title": "Tell me Habibi, is it Real or Fake?",
+    "Paper Link": "https://arxiv.org/pdf/2505.22581",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "deepfake detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Kartik Kuckreja",
+        "Parul Gupta",
+        "Injy Hamed",
+        "Thamar Solorio",
+        "Muhammad Haris Khan",
+        "Abhinav Dhall"
+    ],
+    "Affiliations": [
+        "MBZUAI",
+        "Monash University"
+    ],
+    "Abstract": "Deepfake generation methods are evolving fast, making fake media harder to detect and raising serious societal concerns. Most deepfake detection and dataset creation research focuses on monolingual content, often overlooking the challenges of multilingual and code-switched speech, where multiple languages are mixed within the same discourse. Code-switching, especially between Arabic and English, is common in the Arab world and is widely used in digital communication. This linguistic mixing poses extra challenges for deepfake detection, as it can confuse models trained mostly on monolingual data. To address this, we introduce \\textbf{ArEnAV}, the first large-scale Arabic-English audio-visual deepfake dataset featuring intra-utterance code-switching, dialectal variation, and monolingual Arabic content. It \\textbf{contains 387k videos and over 765 hours of real and fake videos}. Our dataset is generated using a novel pipeline integrating four Text-To-Speech and two lip-sync models, enabling comprehensive analysis of multilingual multimodal deepfake detection. We benchmark our dataset against existing monolingual and multilingual datasets, state-of-the-art deepfake detection models, and a human evaluation, highlighting its potential to advance deepfake research. The dataset can be accessed https://huggingface.co/datasets/kartik060702/ArEnAV-Full.\n",
+    "Added By": "Zaid Alyafeai"
+}

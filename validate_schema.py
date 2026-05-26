@@ -1,12 +1,14 @@
 import json
 import requests
-import re
 import os
-url = "http://localhost:8000/schema"
-from collections import Counter
-schema = requests.post(url, data={"name": "ar"}).json()
-schema = json.loads(schema)
-open("schema.json", "w").write(json.dumps(schema, indent=4))
+MOLE_URL = "https://mextract-production.up.railway.app"
+
+try:
+    schema = requests.post(f"{MOLE_URL}/schema", data={"name": "ar"}).json()
+except Exception as e:
+    print("Error:", str(e))
+
+# open("schema.json", "w").write(json.dumps(schema, indent=4))
 # replace '_' in schema keys with ' '
 schema = {k.replace('_', ' '): v for k, v in schema.items()}
 tasks = []
@@ -35,7 +37,7 @@ def validate_options(data):
                 for item in value:
                     if item not in options[key]:
                         print(f"Invalid item: {item} for {key}")
-                        print(options[key])
+                        # print(options[key])
                         if key == "Tasks":
                             tasks.append(item)
             elif data_types[key] == "str":
@@ -108,8 +110,8 @@ for file in os.listdir("datasets"):
 
 for file in os.listdir("datasets"):
     data = json.load(open(f"datasets/{file}"))
-    data = cast_data(data)
+    # data = cast_data(data)
     data = validate_options(data)
-    json.dump(data, open(f"datasets/{file}", "w"), indent=4)
+    # json.dump(data, open(f"datasets/{file}", "w"), indent=4)
 
 

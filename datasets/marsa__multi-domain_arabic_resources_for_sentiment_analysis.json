@@ -32,7 +32,7 @@
         "sentiment analysis"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "Areeb Alowisheq",
@@ -44,7 +44,13 @@
         "Wejdan Alahaideb",
         "Sarah Alhumoud"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Imam Mohammad Ibn Saud Islamic University",
+        "Saudi Data and Artificial Intelligence Authority",
+        "King Saud University",
+        "Princess Nourah Bint Abdulrahman University",
+        "Elm"
+    ],
     "Abstract": "",
     "Added By": "Aljoharah R"
 }

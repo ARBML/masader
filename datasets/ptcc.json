@@ -31,11 +31,10 @@
     "Tasks": [
         "machine translation",
         "language modeling",
-        "dialect identification",
-        "text generation"
+        "dialect identification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "Amr Keleg"

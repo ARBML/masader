@@ -3,7 +3,7 @@
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009T22",
-    "License": "LDC User Agreement for Non-Members",
+    "License": "LDC User Agreement",
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
@@ -31,12 +31,15 @@
     "Cost": "1,500.00 $",
     "Test Split": false,
     "Tasks": [
-        "syntactic parsing"
+        "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Xiaoyi Ma",
+        "Dalal Zakhary"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

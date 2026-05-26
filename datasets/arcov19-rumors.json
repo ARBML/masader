@@ -36,8 +36,15 @@
     "Venue Title": "WANLP",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Fatima Haouari",
+        "Maram Hasanain",
+        "Reem Suwaileh",
+        "Tamer Elsayed"
+    ],
+    "Affiliations": [
+        "Computer Science and Engineering Department, Qatar University"
+    ],
     "Abstract": "",
     "Added By": "Fatima Haouari"
 }

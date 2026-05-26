@@ -1,0 +1,51 @@
+{
+    "Name": "T-HSAB",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/Hala-Mulki/T-HSAB-A-Tunisian-Hate-Speech-and-Abusive-Dataset",
+    "License": "unknown",
+    "Year": 2019,
+    "Language": "ar",
+    "Dialect": "Tunisia",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "T-HSAB was constructed out of Tunisian comments scraped from facebook and youtube. We collected the comments based on multiple queries formulated from the potential entities that are usually targeted by abusive/hate speech such as \u201c\u0627\u0644\u064a\u0647\u0648\u062f\u201d (Jews), \"\u0627\u0644\u0623\u0641\u0627\u0631\u0642\u0629\" (Africans), \u201c\u0627\u0644\u0645\u0633\u0627\u0648\u0627\u0629 \u0641\u064a \u0627\u0644\u0645\u064a\u0631\u0627\u062b\u201d (gender equality in inheritance), etc.",
+    "Volume": 3834.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Manouba University"
+    ],
+    "Derived From": [],
+    "Paper Title": "T-HSAB: A Tunisian Hate Speech and Abusive Dataset",
+    "Paper Link": "https://link.springer.com/chapter/10.1007/978-3-030-32959-4_18",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "offensive language detection"
+    ],
+    "Venue Title": "ICALP",
+    "Venue Type": "journal",
+    "Venue Name": "Arabic Language Processing: From Theory to Practice",
+    "Authors": [
+        "Hatem Haddad",
+        "Hala Mulki",
+        "Asma Oueslati"
+    ],
+    "Affiliations": [
+        "Manouba University",
+        "Konya Technical University"
+    ],
+    "Abstract": "Since the \u201cJasmine Revolution\u201d at 2011, Tunisia has entered a new era of ultimate freedom of expression with a full access into social media. This has been associated with an unrestricted spread of toxic contents such as Abusive and Hate speech. Considering the psychological harm, let alone the potential hate crimes that might be caused by these toxic contents, automatic Abusive and Hate speech detection systems become a mandatory. This evokes the need for Tunisian benchmark datasets required to evaluate Abusive and Hate speech detection models. Being an underrepresented dialect, no previous Abusive or Hate speech datasets were provided for the Tunisian dialect. In this paper, we introduce the first publicly-available Tunisian Hate and Abusive speech (T-HSAB) dataset with the objective to be a benchmark dataset for automatic detection of online Tunisian toxic contents. We provide a detailed review of the data collection steps and how we design the annotation guidelines such that a reliable dataset annotation is guaranteed. This was later emphasized through the comprehensive evaluation of the annotations as the annotation agreement metrics of Cohen\u2019s Kappa (k) and Krippendorff\u2019s alpha (\n) indicated the consistency of the annotations.\n",
+    "Added By": "Zaid Alyafeai"
+}

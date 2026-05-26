@@ -40,13 +40,10 @@
         "Soumia Bougrine",
         "Aicha Chorana",
         "Abdallah Lakhdari",
-        "H. Cherroun"
+        "Hadda Cherroun"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        ""
+        "Laboratoire d\u2019informatique et Math\u00e9matiques, Universit\u00e9 Amar Telidji Laghouat, Alg\u00e9rie"
     ],
     "Abstract": "The success of machine learning for automatic speech processing has raised the need for large scale datasets. However, collecting such data is often a challenging task as it implies significant investment involving time and money cost. In this paper, we devise a recipe for building largescale Speech Corpora by harnessing Web resources namely YouTube, other Social Media, Online Radio and TV. We illustrate our methodology by building KALAM\u2019DZ, An Arabic Spoken corpus dedicated to Algerian dialectal varieties. The preliminary version of our dataset covers all major Algerian dialects. In addition, we make sure that this material takes into account numerous aspects that foster its richness. In fact, we have targeted various speech topics. Some automatic and manual annotations are provided. They gather useful information related to the speakers and sub-dialect information at the utterance level. Our corpus encompasses the 8 major Algerian Arabic sub-dialects with 4881 speakers and more than 104.4 hours segmented in utterances of at least 6 s.",
     "Added By": "Zaid Alyafeai"

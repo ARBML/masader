@@ -43,10 +43,8 @@
         "D. Oard"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        ""
+        "Qatar University",
+        "University of Maryland"
     ],
     "Abstract": "Social media platforms are a major source of information for both the general public and for journalists. Journalists use Twitter and other social media services to gather story ideas, to find eyewitnesses, and for a wide range of other purposes. One way in which journalists use Twitter is to ask questions. This paper reports on an empirical investigation of questions asked by Arab journalists on Twitter. The analysis begins with the development of an ontology of question types, proceeds to human annotation of training and test data, and concludes by reporting the level of accuracy that can be achieved with automated classification techniques. The results show good classifier effectiveness for high prevalence question types, but that obtaining sufficient training data for lower prevalence question types can be challenging.",
     "Added By": ""

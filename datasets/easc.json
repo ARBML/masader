@@ -43,8 +43,7 @@
     ],
     "Affiliations": [
         "Lancaster University",
-        "University of Regensburg",
-        ""
+        "University of Regensburg"
     ],
     "Abstract": "This paper describes the creation of a human-generated corpus of extractive Arabic summaries of a selection of Wikipedia and Arabic newspaper articles using Mechanical Turk?an online workforce. The purpose of this exercise was two-fold. First, it addresses a shortage of relevant data for Arabic natural language processing. Second, it demonstrates the application of Mechanical Turk to the problem of creating natural language resources. The paper also reports on a number of evaluations we have performed to compare the collected summaries against results obtained from a variety of automatic summarisation systems.",
     "Added By": ""

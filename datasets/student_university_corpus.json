@@ -43,10 +43,7 @@
         "A. Djeradi"
     ],
     "Affiliations": [
-        "CRSTDLA",
-        "",
-        "",
-        ""
+        "CRSTDLA"
     ],
     "Abstract": "In this paper, we suggest the generalization of an Arabic Spoken Language Understanding (SLU) system in a multi-domain humanmachine dialog. We are interested particularly in domain portability of SLU system related to both structured (DBMS) and unstructured data (Information Extraction), related to four domains. In this work, we used the thematic approach for four domains which are School Management, Medical Diagnostics, Consultation domain and Question-Answering domain (DAWQAS). We should note that two kinds of classifiers are used in our experiments: statistical and neural, namely: Gaussian Naive Bayes, Bernoulli Naive Bayes, Logistic Regression, SGD, Passive Aggressive Classifier, Perceptron, Linear Support Vector and Convolutional Neural Network.",
     "Added By": "Zaid Alyafeai"

@@ -1,0 +1,47 @@
+{
+    "Name": "arabic-img2md",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/MohamedRashad/arabic-img2md",
+    "Link": "https://huggingface.co/datasets/MohamedRashad/arabic-img2md",
+    "License": "GPL-3.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "books"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "15k Arabic book pages paired with Markdown for OCR training",
+    "Volume": 15216.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Ain Shams University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Arabic-Nougat: Fine-Tuning Vision Transformers for Arabic OCR and Markdown Extraction",
+    "Paper Link": "https://arxiv.org/pdf/2411.17835",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Mohamed A. Rashad"
+    ],
+    "Affiliations": [
+        "Ain Shams University"
+    ],
+    "Abstract": "We present Arabic-Nougat, a suite of OCR models for converting Arabic book pages into structured Markdown text. Based on Meta's Nougat architecture, Arabic-Nougat includes three specialized models: arabic-small-nougat, arabic-base-nougat, and arabic-large-nougat. These models are fine-tuned on a synthetic dataset, arabic-img2md, comprising 13.7k pairs of Arabic book pages and their Markdown representations. Key contributions include the Aranizer-PBE-86k tokenizer, designed for efficient tokenization, and the use of torch.bfloat16 precision with Flash Attention 2 for optimized training and inference. Our models achieve state-of-the-art performance, with arabic-large-nougat delivering the highest Markdown Structure Accuracy and the lowest Character Error Rate. Additionally, we release a large-scale dataset containing 1.1 billion Arabic tokens extracted from over 8,500 books using our best-performing model, providing a valuable resource for Arabic OCR research. All models, datasets, and code are open-sourced and available at   https://github.com/MohamedAliRashad/arabic-nougat.\n",
+    "Added By": "Zaid Alyafeai"
+}

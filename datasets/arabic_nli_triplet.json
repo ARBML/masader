@@ -1,0 +1,51 @@
+{
+    "Name": "Arabic-NLi-Triplet",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Triplet",
+    "Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Triplet",
+    "License": "Apache-2.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "The Arabic Version of SNLI and MultiNLI datasets. (Triplet Subset)",
+    "Volume": 571043.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Prince Sultan University"
+    ],
+    "Derived From": [
+        "SNLI ",
+        "MultiNLI"
+    ],
+    "Paper Title": "Enhancing Semantic Similarity Understanding in Arabic NLP with Nested Embedding Learning",
+    "Paper Link": "https://arxiv.org/pdf/2407.21139",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "natural language inference"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Omer Nacar",
+        "Anis Koubaa"
+    ],
+    "Affiliations": [
+        "Prince Sultan University"
+    ],
+    "Abstract": "This work presents a novel framework for training Arabic nested embedding models\nthrough Matryoshka Embedding Learning, leveraging multilingual, Arabic-specific, and English-\nbased models, to highlight the power of nested embeddings models in various Arabic NLP down-\nstream tasks. Our innovative contribution includes the translation of various sentence similarity\ndatasets into Arabic, enabling a comprehensive evaluation framework to compare these models\nacross different dimensions. We trained several nested embedding models on the Arabic Natu-\nral Language Inference triplet dataset and assessed their performance using multiple evaluation\nmetrics, including Pearson and Spearman correlations for cosine similarity, Manhattan distance,\nEuclidean distance, and dot product similarity. The results demonstrate the superior performance\nof the Matryoshka embedding models, particularly in capturing semantic nuances unique to the\nArabic language. Results demonstrated that Arabic Matryoshka embedding models have superior\nperformance in capturing semantic nuances unique to the Arabic language, significantly outperform-\ning traditional models by up to 20-25% across various similarity metrics. These results underscore\nthe effectiveness of language-specific training and highlight the potential of Matryoshka models in\nenhancing semantic textual similarity tasks for Arabic NLP.",
+    "Added By": "Zaid Alyafeai"
+}

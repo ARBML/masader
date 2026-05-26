@@ -33,7 +33,7 @@
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "ACLING",
+    "Venue Title": "ACLing",
     "Venue Type": "conference",
     "Venue Name": "nternational Conference on AI in Computational Linguistics",
     "Authors": [
@@ -43,10 +43,7 @@
         "Y. Al-Ohali"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        ""
+        "King Saud University"
     ],
     "Abstract": "Abstract Arabic Sentiment Analysis is an active research area these days. However, the Arabic language still lacks sufficient language resources to enable the tasks of sentiment analysis. In this paper, we present the details of collecting and constructing a large dataset of Arabic tweets. The techniques used in cleaning and pre-processing the collected dataset are explained. A corpus of Arabic tweets annotated for sentiment analysis was extracted from this dataset. The corpus consists mainly of tweets written in Modern Standard Arabic and the Saudi dialect. The corpus was manually annotated for sentiment. The annotation process is explained in detail and the challenges during the annotation are highlighted. The corpus contains 17,573 tweets labelled with four labels for sentiment: positive, negative, neutral and mixed. Baseline experiments were conducted to provide benchmark results for future work.",
     "Added By": "Maraim Masoud"

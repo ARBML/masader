@@ -1,8 +1,8 @@
 {
     "Name": "MGB-2",
     "Subsets": [],
-    "HF Link": "",
-    "Link": "https://arabicspeech.org/mgb2/",
+    "HF Link": "https://huggingface.co/datasets/QCRI/mgb2",
+    "Link": "https://huggingface.co/datasets/QCRI/mgb2",
     "License": "unknown",
     "Year": 2017,
     "Language": "ar",
@@ -26,7 +26,7 @@
     "Paper Link": "https://arxiv.org/pdf/1609.05625",
     "Script": "Arab",
     "Tokenized": true,
-    "Host": "other",
+    "Host": "HuggingFace",
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": false,
@@ -37,14 +37,19 @@
     "Venue Type": "workshop",
     "Venue Name": "IEEE Automatic Speech Recognition and Understanding Workshop",
     "Authors": [
-        "A. Ali",
-        "S. Vogel",
-        "S. Renals"
+        "Ahmed Ali",
+        "Peter Bell",
+        "James Glass",
+        "Yacine Messaoui",
+        "Hamdy Mubarak",
+        "Steve Renals",
+        "Yifan Zhang"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Qatar Computing Research Institute, HBKU, Doha, Qatar",
+        "Centre for Speech Technology Research, University of Edinburgh, UK",
+        "MIT Computer Science and Artificial Intelligence Laboratory (CSAIL), Cambridge, MA, USA",
+        "Aljazeera Media Network, Doha, Qatar"
     ],
     "Abstract": "This paper describes the Arabic MGB-3 Challenge \u2014 Arabic Speech Recognition in the Wild. Unlike last year's Arabic MGB-2 Challenge, for which the recognition task was based on more than 1,200 hours broadcast TV news recordings from Aljazeera Arabic TV programs, MGB-3 emphasises dialectal Arabic using a multi-genre collection of Egyptian YouTube videos. Seven genres were used for the data collection: comedy, cooking, family/kids, fashion, drama, sports, and science (TEDx). A total of 16 hours of videos, split evenly across the different genres, were divided into adaptation, development and evaluation data sets. The Arabic MGB-Challenge comprised two tasks: A) Speech transcription, evaluated on the MGB-3 test set, along with the 10 hour MGB-2 test set to report progress on the MGB-2 evaluation; B) Arabic dialect identification, introduced this year in order to distinguish between four major Arabic dialects \u2014 Egyptian, Levantine, North African, Gulf, as well as Modern Standard Arabic. Two hours of audio per dialect were released for development and a further two hours were used for evaluation. For dialect identification, both lexical features and i-vector bottleneck features were shared with participants in addition to the raw audio recordings. Overall, thirteen teams submitted ten systems to the challenge. We outline the approaches adopted in each system, and summarise the evaluation results.",
     "Added By": ""

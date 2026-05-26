@@ -22,7 +22,7 @@
         "Multiple Institutions"
     ],
     "Derived From": [],
-    "Paper Title": "AraSenCorpus: A Semi-Supervised Approach for Sentiment Annotation of a Large Arabic Text Corpus",
+    "Paper Title": "https://www.mdpi.com/2076-3417/11/5/2434",
     "Paper Link": "https://github.com/yemen2016/AraSenCorpus",
     "Script": "Arab",
     "Tokenized": false,
@@ -33,7 +33,7 @@
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "applsci",
+    "Venue Title": "Appl. Sci.",
     "Venue Type": "journal",
     "Venue Name": "Applied Sciences Journal",
     "Authors": [
@@ -43,10 +43,8 @@
         "Asim Rehmat"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        ""
+        "University of Engineering and Technology",
+        "Prince Sultan University"
     ],
     "Abstract": "At a time when research in the field of sentiment analysis tends to study advanced topics in languages, such as English, other languages such as Arabic still suffer from basic problems and challenges, most notably the availability of large corpora. Furthermore, manual annotation is time-consuming and difficult when the corpus is too large. This paper presents a semi-supervised self-learning technique, to extend an Arabic sentiment annotated corpus with unlabeled data, named AraSenCorpus. We use a neural network to train a set of models on a manually labeled dataset containing 15,000 tweets. We used these models to extend the corpus to a large Arabic sentiment corpus called \u201cAraSenCorpus\u201d. AraSenCorpus contains 4.5 million tweets and covers both modern standard Arabic and some of the Arabic dialects. The long-short term memory (LSTM) deep learning classifier is used to train and test the final corpus. We evaluate our proposed framework on two external benchmark datasets to ensure the improvement of the Arabic sentiment classification. The experimental results show that our corpus outperforms the existing state-of-the-art systems.",
     "Added By": "Zaid Alyafeai"

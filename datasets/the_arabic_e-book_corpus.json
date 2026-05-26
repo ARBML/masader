@@ -36,8 +36,12 @@
     "Venue Title": "Data in Brief",
     "Venue Type": "journal",
     "Venue Name": "Data in Brief",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Andreas Hallberg"
+    ],
+    "Affiliations": [
+        "University of Gothenburg"
+    ],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

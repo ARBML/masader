@@ -1,0 +1,74 @@
+{
+    "Name": "MM-EVAL",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/prometheus-eval/MM-Eval",
+    "Link": "https://huggingface.co/datasets/prometheus-eval/MM-Eval",
+    "License": "CC BY-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Multilingual meta-evaluation benchmark for evaluating Large-Language-Model judges across 18 core languages and 122 consistency-test languages.",
+    "Volume": 278.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Yonsei University",
+        "KAIST",
+        "OneLineAI",
+        "Barcelona Supercomputing Center",
+        "ArtfulMedia",
+        "Bangladesh University of Engineering and Technology",
+        "Carnegie Mellon University"
+    ],
+    "Derived From": [
+        "BiGGen-Bench",
+        "BLeND",
+        "WildGuard"
+    ],
+    "Paper Title": "MM-EVAL: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models",
+    "Paper Link": "https://arxiv.org/pdf/2410.17578",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "safety evaluation",
+        "hallucination detection",
+        "preference optimization"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Guijin Son",
+        "Dongkeun Yoon",
+        "Juyoung Suk",
+        "Javier Aula-Blasco",
+        "Mano Aslan",
+        "Vu Trong Kim",
+        "Shayekh Bin Islam",
+        "Jaume Prats-Cristi\u00e0",
+        "Luc\u00eda Tormo-Ba\u00f1uelos",
+        "Seungone Kim"
+    ],
+    "Affiliations": [
+        "Yonsei University",
+        "KAIST",
+        "OneLineAI",
+        "Barcelona Supercomputing Center",
+        "ArtfulMedia",
+        "Bangladesh University of Engineering and Technology",
+        "Carnegie Mellon University"
+    ],
+    "Abstract": "As Large Language Models (LLMs) produce fluent content in many languages, it becomes critical to verify whether LLM-based evaluators\u2014trained mainly on English\u2014can reliably judge non-English outputs. Existing meta-evaluation benchmarks are English-centric. We introduce MM-EVAL, a multilingual benchmark with five core subsets (covering 18 languages) and a Language-Consistency subset (122 languages) that tests fairness and absolute-score consistency rather than only ranking accuracy. Experiments on 12 evaluator LLMs reveal large accuracy drops in low-resource languages and unfair score assignments. MM-EVAL correlates significantly with Best-of-N rankings, validating its utility for developing robust multilingual evaluators. We release data and code.",
+    "Added By": "Zaid Alyafeai"
+}

@@ -31,10 +31,10 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "text classification"
+        "topic classification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "Al-Debsi Ridhwan",

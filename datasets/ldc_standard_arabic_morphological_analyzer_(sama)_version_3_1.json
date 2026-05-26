@@ -3,7 +3,7 @@
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2010L01",
-    "License": "LDC User Agreement for Non-Members",
+    "License": "LDC User Agreement",
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
@@ -27,17 +27,23 @@
     "Script": "Arab",
     "Tokenized": false,
     "Host": "LDC",
-    "Access": "With-Fee",
-    "Cost": "N/A $",
+    "Access": "Upon-Request",
+    "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "machine translation",
-        "information retrieval"
+        "lexicon analysis"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "David Graff", 
+        "Basma Bouziri", 
+        "Sondos Krouna", 
+        "Ann Bies", 
+        "Seth Kulick"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

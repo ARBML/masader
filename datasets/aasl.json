@@ -1,0 +1,59 @@
+{
+    "Name": "AASL",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/pain/AASL",
+    "Link": "https://kaggle.com/datasets/59761a7132888de252ded8443ced1c7fb21ad28be5598f1f6ca43c663c32b40b",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "The first publicly available RGB dataset of Arabic sign language alphabets with 7,857 labelled images collected from 200+ participants.",
+    "Volume": 7857.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Sharjah",
+        "University of Jordan",
+        "AppsWave for Information Technology"
+    ],
+    "Derived From": [],
+    "Paper Title": "RGB Arabic Alphabets Sign Language Dataset",
+    "Paper Link": "https://arxiv.org/pdf/2301.11932",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "kaggle",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "sign language recognition"
+    ],
+    "Venue Title": "viXra",
+    "Venue Type": "preprint",
+    "Venue Name": "viXra",
+    "Authors": [
+        "Muhammad Al-Barham",
+        "Adham Alsharkawi",
+        "Musa Al-Yaman",
+        "Mohammad Al-Fetyani",
+        "Ashraf Elnagar",
+        "Ahmad Abu Sa\u2019aleek",
+        "Mohammad Al-Odat"
+    ],
+    "Affiliations": [
+        "University of Sharjah",
+        "University of Jordan",
+        "AppsWave for Information Technology",
+        "Al-Wefaq Control Systems"
+    ],
+    "Abstract": "This paper introduces the RGB Arabic Alphabet Sign Language (AASL) dataset. AASL comprises 7,857 raw and fully labelled RGB images of the Arabic sign language alphabets, which to our best knowledge is the first publicly available RGB dataset. The dataset is aimed to help those interested in developing real-life Arabic sign language classification models. AASL was collected from more than 200 participants and with different settings such as lighting, background, image orientation, image size, and image resolution. Experts in the field supervised, validated and filtered the collected images to ensure a high-quality dataset. AASL is made available to the public on Kaggle.",
+    "Added By": "Zaid Alyafeai"
+}

@@ -37,16 +37,19 @@
     "Venue Type": "conference",
     "Venue Name": "Conference and Labs of the Evaluation Forum",
     "Authors": [
-        "Rangel",
-        "Francisco",
-        "Rosso",
-        "Paolo",
-        "Potthast",
-        "Martin",
-        "& Stein",
-        "Benno."
+        "Francisco Rangel",
+        "Paolo Rosso",
+        "Manuel Montes-y-G\u00f3mez",
+        "Martin Potthast",
+        "Benno Stein"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Autoritas Consulting, S.A., Spain",
+        "PRHLT Research Center, Universitat Polit\u00e8cnica de Val\u00e8ncia, Spain",
+        "INAOE, Mexico",
+        "Leipzig University, Germany",
+        "Web Technology & Information Systems, Bauhaus-Universit\u00e4t Weimar, Germany"
+    ],
     "Abstract": "",
     "Added By": "Nouamane Tazi"
 }

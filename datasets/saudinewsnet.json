@@ -31,11 +31,10 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "language modeling",
-        "text generation"
+        "language modeling"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "An open access NLP dataset for Arabic dialects : Data collection, labeling, and model construction",
-    "Paper Link": "https://arxiv.org/abs/2102.11000",
+    "Paper Link": "https://arxiv.org/pdf/2102.11000",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "OneDrive",
@@ -34,11 +34,20 @@
         "sentiment analysis",
         "topic classification"
     ],
-    "Venue Title": "",
-    "Venue Type": "conference",
-    "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "ElMehdi Boujou",
+        "Hamza Chataoui",
+        "Abdellah El Mekki",
+        "Saad Benjelloun",
+        "Ikram Chairi",
+        "Ismail Berrada"
+    ],
+    "Affiliations": [
+        "Mohamed VI Polytechnic University (UM6P), Lot 660, Hay Moulay Rachid, Ben Guerir 43150, Morocco"
+    ],
     "Abstract": "",
     "Added By": "saad benjelloun"
 }

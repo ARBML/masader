@@ -1,0 +1,180 @@
+{
+    "Name": "ARCADE",
+    "Subsets": [
+        {
+            "Name": "Algeria",
+            "Volume": 866.0,
+            "Unit": "sentences",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "Bahrain",
+            "Volume": 447.0,
+            "Unit": "sentences",
+            "Dialect": "Bahrain"
+        },
+        {
+            "Name": "Qatar",
+            "Volume": 341.0,
+            "Unit": "sentences",
+            "Dialect": "Qatar"
+        },
+        {
+            "Name": "Egypt",
+            "Volume": 247.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Sudan",
+            "Volume": 244.0,
+            "Unit": "sentences",
+            "Dialect": "Sudan"
+        },
+        {
+            "Name": "KSA",
+            "Volume": 211.0,
+            "Unit": "sentences",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "UAE",
+            "Volume": 182.0,
+            "Unit": "sentences",
+            "Dialect": "United Arab Emirates"
+        },
+        {
+            "Name": "Palestine",
+            "Volume": 165.0,
+            "Unit": "sentences",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "Morocco",
+            "Volume": 162.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Yemen",
+            "Volume": 136.0,
+            "Unit": "sentences",
+            "Dialect": "Yemen"
+        },
+        {
+            "Name": "Iraq",
+            "Volume": 129.0,
+            "Unit": "sentences",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "Syria",
+            "Volume": 110.0,
+            "Unit": "sentences",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "Libya",
+            "Volume": 82.0,
+            "Unit": "sentences",
+            "Dialect": "Libya"
+        },
+        {
+            "Name": "Somalia",
+            "Volume": 63.0,
+            "Unit": "sentences",
+            "Dialect": "Somalia"
+        },
+        {
+            "Name": "Kuwait",
+            "Volume": 63.0,
+            "Unit": "sentences",
+            "Dialect": "Kuwait"
+        },
+        {
+            "Name": "Jordan",
+            "Volume": 62.0,
+            "Unit": "sentences",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "Lebanon",
+            "Volume": 43.0,
+            "Unit": "sentences",
+            "Dialect": "Lebanon"
+        },
+        {
+            "Name": "Oman",
+            "Volume": 29.0,
+            "Unit": "sentences",
+            "Dialect": "Oman"
+        },
+        {
+            "Name": "Tunisia",
+            "Volume": 20.0,
+            "Unit": "sentences",
+            "Dialect": "Tunisia"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/riotu-lab/ARCADE-full",
+    "Link": "https://huggingface.co/datasets/riotu-lab/ARCADE-full",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "TV Channels"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "First Arabic speech dataset with city-level dialect granularity from radio streams.",
+    "Volume": 31.6,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        " RIOTU Lab"
+    ],
+    "Derived From": [],
+    "Paper Title": "ARCADE: A City-Scale Corpus for Fine-Grained Arabic Dialect Tagging",
+    "Paper Link": "https://arxiv.org/pdf/2601.02209",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification",
+        "emotion classification"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Omer Nacar",
+        "Serry Sibaee",
+        "Adel Ammar",
+        "Yasser Alhabashi",
+        "Nadia Samer Sibai",
+        "Yara Farouk Ahmed",
+        "Ahmed Saud Alqusaiyer",
+        "Sulieman Mahmoud AlMahmoud",
+        "Abdulrhman Mamdoh Mukhaniq",
+        "Lubaba Raed",
+        "Sulaiman Mohammed Alatwah",
+        "Waad Nasser Alqahtani",
+        "Yousif Abdulmajeed Alnasser",
+        "Mohamed Aziz Khadraoui",
+        "Wadii Boulila"
+    ],
+    "Affiliations": [
+        "Tuwaiq Academy, Riyadh, Saudi Arabia",
+        "Robotics and Internet-of-Things Laboratory, Prince Sultan University, Riyadh, Saudi Arabia",
+        "Higher School of Communication of Tunis, Ariana, Tunisia"
+    ],
+    "Abstract": "The Arabic language is characterized by a rich tapestry of regional dialects that differ substantially in phonetics and lexicon, reflecting the geographic and cultural diversity of its speakers. Despite the availability of many multi-dialect datasets, mapping speech to fine-grained dialect sources, such as cities, remains underexplored. We present ARCADE (Arabic Radio Corpus for Audio Dialect Evaluation), the first Arabic speech dataset designed explicitly with city-level dialect granularity. The corpus comprises Arabic radio speech collected from streaming services across the Arab world. Our data pipeline captures 30-second segments from verified radio streams, encompassing both Modern Standard Arabic (MSA) and diverse dialectal speech. To ensure reliability, each clip was annotated by one to three native Arabic reviewers who assigned rich metadata, including emotion, speech type, dialect category, and a validity flag for dialect identification tasks. The resulting corpus comprises 6,907 annotations and 3,790 unique audio segments spanning 58 cities across 19 countries. These fine-grained annotations enable robust multi-task learning, serving as a benchmark for city-level dialect tagging. We detail the data collection methodology, assess audio quality, and provide a comprehensive analysis of label distributions.",
+    "Added By": "Zaid Alyafeai"
+}

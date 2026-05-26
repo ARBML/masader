@@ -3,12 +3,13 @@
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009T10",
-    "License": "LDC User Agreement for Non-Members",
+    "License": "LDC User Agreement",
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "news articles",
+        "TV channels"
     ],
     "Form": "text",
     "Collection Style": [
@@ -34,9 +35,17 @@
         "coreference resolution"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mona Diab",
+        "Bonnie Dorr",
+        "Lori Levin",
+        "Teruko Mitamura",
+        "Rebecca Passonneau",
+        "Owen Rambow",
+        "Lance Ramshaw"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -1,0 +1,55 @@
+{
+    "Name": "WiHArD",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/kdkryh5rs2",
+    "License": "CC BY 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "wikipedia"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "The first hierarchical Arabic classification dataset derived from Wikipedia with up-to-date domain-annotated articles",
+    "Volume": 6027.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University Centre -SALHI Ahmed"
+    ],
+    "Derived From": [],
+    "Paper Title": "WiHArD: Wikipedia based Hierarchical Arabic Dataset for text classification",
+    "Paper Link": "https://ieeexplore.ieee.org/document/10783418",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "topic classification"
+    ],
+    "Venue Title": "EDiS",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Signal, Image and Data Engineering",
+    "Authors": [
+        "Djelloul BOUCHIHA",
+        "Abdelghani BOUZIANE",
+        "Noureddine DOUMI",
+        "Farouk Omar BERBOUCHI",
+        "Aymen Abdelghani KEBIR",
+        "Nihad MEBARKI",
+        "Badia Achouak BENAMEUR"
+    ],
+    "Affiliations": [
+        "University Centre -SALHI Ahmed",
+        "University Dr. Tahar MOULAY Saida"
+    ],
+    "Abstract": "Text classification assigns a text to its corresponding category (class). It is a Natural Language Processing (NLP) task that can be performed using Artificial Intelligence (AI) methods, notably Machine Learning (ML) and deep learning. To be trained, supervised machine learning algorithms need a labelled dataset (corpus) as input. In this paper, we create a labelled dataset called WiHArD (Wikipedia based Hierarchical Arabic Dataset) and make it publicly available for the benefit of NLP and AI communities, especially those working on the Arabic language. Unlike existing datasets, WiHArD has a hierarchical structure based on the Wikipedia hierarchy. Experiments have been carried out to show the consistency and efficiency of the WiHArD dataset when used for the Arabic text classification process.",
+    "Added By": "Zaid Alyafeai"
+}

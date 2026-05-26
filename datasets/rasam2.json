@@ -1,0 +1,57 @@
+{
+    "Name": "RASAM2",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/calfa-co/rasam-dataset",
+    "License": "Apache-2.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Morocco",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "RASAM2 extends RASAM1 to 3750 transcribed lines from 15 Arabic Maghribi manuscripts for benchmarking historical handwritten text recognition.",
+    "Volume": 3750.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Centre Jean-Mabillon\u2013\u00c9cole Nationale des Chartes-PSL"
+    ],
+    "Derived From": [
+        "RASAM1"
+    ],
+    "Paper Title": "Enhancing Arabic Maghribi Handwritten Text Recognition with RASAM 2: A Comprehensive Dataset and Benchmarking",
+    "Paper Link": "https://enc.hal.science/hal-04722622v1",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "CHR",
+    "Venue Type": "conference",
+    "Venue Name": "Computational Humanities Research",
+    "Authors": [
+        "Chahan Vidal-Gor\u00e8ne",
+        "Cl\u00e9ment Salah",
+        "No\u00ebmie Lucas",
+        "Ali\u00e9nor Decours-Perez",
+        "Antoine Perrier"
+    ],
+    "Affiliations": [
+        "\u00c9cole Nationale des Chartes-Universit\u00e9 PSL",
+        "Calfa",
+        "Sorbonne Universit\u00e9-UMR8167",
+        "University of Edinburgh",
+        "CNRS-Centre Jacques Berque"
+    ],
+    "Abstract": "Recent advancements in handwritten text recognition (HTR) for historical documents have demonstrated high performance on cursive Arabic scripts, achieving accuracy comparable to Latin scripts. The initial RASAM dataset, focused on three Arabic Maghribi manuscripts, facilitated rapid coverage of new documents via fine-tuning. However, HTR application for Arabic scripts remains constrained due to the vast diversity in spellings, ambiguities, and languages. To overcome these challenges, we present RASAM2, an extended dataset with 3,750 lines from 15 manuscripts in the BULAC library, showcasing various hands, layouts, and texts in Arabic Maghribi script. RASAM 2 aims to establish a new benchmark for HTR model training for both Maghribi and Oriental scripts, covering text recognition and layout analysis. Preliminary experiments using a word-based CRNN approach indicate significant model versatility, with an almost 40% reduction in Character Error Rate (CER) across new in-domain and out-of-domain manuscripts.",
+    "Added By": "Zaid Alyafeai"
+}

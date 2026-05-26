@@ -41,8 +41,7 @@
         "Mark G. Lee"
     ],
     "Affiliations": [
-        "Taibah University;University of Birmingham",
-        ""
+        "Taibah University;University of Birmingham"
     ],
     "Abstract": "Social media (SM) platforms such as Twitter offer a rich source of real-time information about crises from which useful information can be extracted to support situational\r\nawareness. The task of automatically identifying SM messages related to a specific event\r\nposes many challenges, including processing\r\nlarge volumes of short, noisy data in real time.\r\nThis paper explored the problem of extracting crisis-related messages from Arabic Twitter data. We focused on high-risk floods as\r\nthey are one of the main hazards in the Middle East. In this work, we presented a goldstandard Arabic Twitter corpus for four highrisk floods that occurred in 2018. Using the\r\nannotated dataset, we investigated the performance of different classical machine learning\r\n(ML) and deep neural network (DNN) classifiers. The results showed that deep learning is\r\npromising in identifying flood-related posts",
     "Added By": "Zaid Alyafeai"

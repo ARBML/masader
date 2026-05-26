@@ -1,0 +1,56 @@
+{
+    "Name": "KHATT",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/benhachem/KHATT",
+    "Link": "https://www.kaggle.com/datasets/nizarcharrada/khattarabic",
+    "License": "unknown",
+    "Year": 2013,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Open Arabic offline handwritten text database consisting of 1000 forms written by 1000 distinct writers scanned at 200\u2013600 dpi.",
+    "Volume": 9327.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "KFUPM"
+    ],
+    "Derived From": [],
+    "Paper Title": "KHATT: An open Arabic offline handwritten text database",
+    "Paper Link": "https://www.researchgate.net/publication/259092955_KHATT_An_open_Arabic_offline_handwritten_text_database",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "kaggle",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "Pattern Recognition",
+    "Venue Type": "journal",
+    "Venue Name": "Pattern Recognition",
+    "Authors": [
+        "Sabri A. Mahmoud",
+        "Irfan Ahmad",
+        "Wasfi G. Al-Khatib",
+        "Mohammad Alshayeb",
+        "Mohammad Tanvir Parvez",
+        "Volker M\u00e4rgner",
+        "Gernot A. Fink"
+    ],
+    "Affiliations": [
+        "King Fahd University of Petroleum & Minerals",
+        "Qassim University",
+        "Technische Universit\u00e4t Braunschweig",
+        "Technische Universit\u00e4t Dortmund"
+    ],
+    "Abstract": "A comprehensive Arabic handwritten text database is an essential resource for Arabic handwritten text\nrecognition research. This is especially true due to the lack of such database for Arabic handwritten text.\nIn this paper, we report our comprehensive Arabic offline Handwritten Text database (KHATT) consisting\nof 1000 handwritten forms written by 1000 distinct writers from different countries. The forms were\nscanned at 200, 300, and 600 dpi resolutions. The database contains 2000 randomly selected paragraphs\nfrom 46 sources, 2000 minimal text paragraph covering all the shapes of Arabic characters, and\noptionally written paragraphs on open subjects. The 2000 random text paragraphs consist of 9327 lines.\nThe database forms were randomly divided into 70%, 15%, and 15% sets for training, testing, and\nverification, respectively. This enables researchers to use the database and compare their results. A\nformal verification procedure is implemented to align the handwritten text with its ground truth at the\nform, paragraph and line levels. The verified ground truth database contains meta-data describing the\nwritten text at the page, paragraph, and line levels in text and XML formats. Tools to extract paragraphs\nfrom pages and segment paragraphs into lines are developed. In addition we are presenting our\nexperimental results on the database using two classifiers, viz. Hidden Markov Models (HMM) and our\nnovel syntactic classifier.\nThe database is made freely available to researchers world-wide for research in various handwritten-\nrelated problems such as text recognition, writer identification and verification, forms analysis, pre-\nprocessing, segmentation. Several international research groups/researchers acquired the database for\nuse in their research so far.",
+    "Added By": "Zaid Alyafeai"
+}

@@ -29,10 +29,10 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "emotion detection"
+        "emotion classification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "",
     "Venue Name": "",
     "Authors": [
         "Samira klaylat",

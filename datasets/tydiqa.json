@@ -46,13 +46,7 @@
         "Jennimaria Palomaki"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "Google Research",
-        "",
-        "",
-        ""
+        "Google Research"
     ],
     "Abstract": "Abstract Confidently making progress on multilingual modeling requires challenging, trustworthy evaluations. We present TyDi QA\u2014a question answering dataset covering 11 typologically diverse languages with 204K question-answer pairs. The languages of TyDi QA are diverse with regard to their typology\u2014the set of linguistic features each language expresses\u2014such that we expect models performing well on this set to generalize across a large number of the world\u2019s languages. We present a quantitative analysis of the data quality and example-level qualitative linguistic analyses of observed language phenomena that would not be found in English-only corpora. To provide a realistic information-seeking task and avoid priming effects, questions are written by people who want to know the answer, but don\u2019t know the answer yet, and the data is collected directly in each language without the use of translation.",
     "Added By": "Zaid Alyafeai"

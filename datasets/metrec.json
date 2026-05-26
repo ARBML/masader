@@ -33,7 +33,7 @@
     "Tasks": [
         "meter classification"
     ],
-    "Venue Title": "Data in brief",
+    "Venue Title": "Data in Brief",
     "Venue Type": "journal",
     "Venue Name": "Data in brief",
     "Authors": [
@@ -42,9 +42,7 @@
         "Irfan Ahmad"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "KFUPM"
     ],
     "Abstract": "In this data article, we report a dataset related to the research titled \u201cMeter Classification of Arabic Poems Using Deep Bidirectional Recurrent Neural Networks\u201d[2]. The dataset was collected from a large repository of Arabic poems, Aldiwan website [1]. The data collection was done using a Python script that scrapes the website to find the poems and their associated meters. The dataset contains the verses and their corresponding meter classes. Meter classes are represented as numbers from 0 to 13. The dataset can be highly useful for further research in order to improve the field of Arabic poems\u2019 meter classification.",
     "Added By": ""

@@ -1,0 +1,96 @@
+{
+    "Name": "PM4Bench",
+    "Subsets": [
+        {
+            "Name": "MDUR",
+            "Volume": 1739.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "MIQA",
+            "Volume": 109.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "MMJB",
+            "Volume": 500.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "MSOCR",
+            "Volume": 100.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/songjhPKU/PM4Bench",
+    "Link": "https://github.com/opendatalab/PM4Bench",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Parallel multilingual multi-modal multi-task benchmark for evaluating vision language models.",
+    "Volume": 2439.0,
+    "Unit": "images",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Shanghai Artificial Intelligence Laboratory"
+    ],
+    "Derived From": [
+        "MMMU-pro",
+        "MMDU",
+        "SafeBench"
+    ],
+    "Paper Title": "PM4Bench: A Parallel Multilingual Multi-Modal Multi-task Benchmark for Large Vision Language Model",
+    "Paper Link": "https://arxiv.org/pdf/2503.18484",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "question answering",
+        "image captioning",
+        "offensive language detection",
+        "optical character recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Junyuan Gao",
+        "Jiahe Song",
+        "Jiang Wu",
+        "Runchuan Zhu",
+        "Guanlin Shen",
+        "Shasha Wang",
+        "Xingjian Wei",
+        "Haote Yang",
+        "Songyang Zhang",
+        "Weijia Li",
+        "Bin Wang",
+        "Dahua Lin",
+        "Lijun Wu",
+        "Conghui He"
+    ],
+    "Affiliations": [
+        "Shanghai Artificial Intelligence Laboratory",
+        "University of Chinese Academy of Sciences",
+        "Peking University",
+        "Sun Yat-Sen University",
+        "Chinese University of Hong Kong"
+    ],
+    "Abstract": "Existing multilingual benchmarks for Large Vision Language Models (LVLMs) suffer from limitations including language-specific content biases, disjointed multimodal input formats, and a lack of safety evaluation. To address these gaps, we propose PM4Bench, the first Parallel Multilingual Multi-Modal Multi-task Benchmark for LVLMs. PM4Bench features a parallel corpus design across 10 languages, enabling fair and accurate cross-lingual comparisons. It includes the vision setting where text and queries are embedded in images, requiring LVLMs to simultaneously \"see\", \"read\", and \"think\", aligning with real-world applications. Additionally, PM\\textsuperscript{4}Bench incorporates safety evaluations, addressing critical oversight in existing multilingual benchmarks. Using PM4Bench, we evaluate 11 mainstream LVLMs, revealing significant cross-linguistic performance disparities, particularly in vision settings, and identifying OCR capability as a key determinant of these imbalances. We will release PM4Bench at https://github.com/opendatalab/PM4Bench.\n",
+    "Added By": "Zaid Alyafeai"
+}

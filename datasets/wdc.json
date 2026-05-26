@@ -42,9 +42,7 @@
         "Massimo Poesio"
     ],
     "Affiliations": [
-        "",
-        "University of Regensburg",
-        ""
+        "University of Regensburg"
     ],
     "Abstract": "In this paper we propose a new methodology to exploit Wikipedia features and structure to automatically develop an Arabic NE annotated corpus. Each Wikipedia link is transformed into an NE type of the target article in order to produce the NE annotation. Other Wikipedia features - namely redirects, anchor texts, and inter-language links - are used to tag additional NEs, which appear without links in Wikipedia texts. Furthermore, we have developed a filtering algorithm to eliminate ambiguity when tagging candidate NEs. Herein we also introduce a mechanism based on the high coverage of Wikipedia in order to address two challenges particular to tagging NEs in Arabic text: rich morphology and the absence of capitalisation. The corpus created with our new method (WDC) has been used to train an NE tagger which has been tested on different domains. Judging by the results, an NE tagger trained on WDC can compete with those trained on manually annotated corpora.",
     "Added By": "Zaid Alyafeai"

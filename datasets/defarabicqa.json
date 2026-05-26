@@ -2,7 +2,7 @@
     "Name": "DefArabicQA",
     "Subsets": [],
     "HF Link": "",
-    "Link": "https://sites.google.com/site/anlprg/outils-et-corpus-realises",
+    "Link": "https://github.com/triguiomar/ADQA",
     "License": "unknown",
     "Year": 2010,
     "Language": "ar",
@@ -26,7 +26,7 @@
     "Paper Link": "http://personales.upv.es/prosso/resources/TriguiEtAl_LREC10.pdf",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "other",
+    "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
@@ -38,13 +38,12 @@
     "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Omar Trigui",
-        "L. Belguith",
-        "P. Rosso"
+        "Lamia Hadrich Belguith",
+        "Paolo Rosso"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "ANLP Research Group- MIRACL Laboratory, University of Sfax, Tunisia",
+        "Natural Language Engineering Lab. - ELiRF, Universidad Polit\u00e9cnica de Valencia, Spain"
     ],
     "Abstract": "Today the Web is the largest resource of knowledge and, therefore, sometimes this makes it difficult to find precise information. Current search engines can only return ranked snippets containing the effective answers to a query user. But, they can not return the exact answers. Question Answering systems present the solution to obtain effective and exact answers to a user question asked in natural language question instead of keywords query. Unfortunately, Question Answering task for the Arabic language has not been investigated enough in the last decade, compared to other languages. In this paper, we tackle the definition Question Answering task for the Arabic language. We propose an Arabic definitional Question Answering system based on a pattern approach to identify exact and accurate definitions about organization using Web resources. We experimented this system using 2000 snippets returned by Google search engine and Wikipedia Arabic version and a set of 50 organization definition questions. The obtained results are very encouraging: (90%) of the questions used have complete (vital) definitions in the top-five answers and (64%) of them have complete definitions in the top-one answer. MRR was (0.81).",
     "Added By": "Zaid Alyafeai"

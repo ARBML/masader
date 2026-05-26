@@ -1,0 +1,51 @@
+{
+    "Name": "mLAMA",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/cis-lmu/m_lama",
+    "Link": "https://github.com/norakassner/mlama",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2021,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Multilingual LAMA dataset for probing factual knowledge in mBERT across 53 languages.",
+    "Volume": 37498.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "CIS, LMU Munich"
+    ],
+    "Derived From": [
+        "LAMA"
+    ],
+    "Paper Title": "Multilingual LAMA: Investigating Knowledge in Multilingual Pretrained Language Models",
+    "Paper Link": "https://arxiv.org/pdf/2102.00894",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "fill-in-the blank"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Nora Kassner",
+        "Philipp Dufter",
+        "Hinrich Sch\u00fctze"
+    ],
+    "Affiliations": [
+        "LMU-Munich"
+    ],
+    "Abstract": "Recently, it has been found that monolingual English language models can be used as knowledge bases. Instead of structural knowledge base queries, masked sentences such as \"Paris is the capital of [MASK]\" are used as probes. We translate the established benchmarks TREx and GoogleRE into 53 languages. Working with mBERT, we investigate three questions. (i) Can mBERT be used as a multilingual knowledge base? Most prior work only considers English. Extending research to multiple languages is important for diversity and accessibility. (ii) Is mBERT's performance as knowledge base language-independent or does it vary from language to language? (iii) A multilingual model is trained on more text, e.g., mBERT is trained on 104 Wikipedias. Can mBERT leverage this for better performance? We find that using mBERT as a knowledge base yields varying performance across languages and pooling predictions across languages improves performance. Conversely, mBERT exhibits a language bias; e.g., when queried in Italian, it tends to predict Italy as the country of origin.",
+    "Added By": "Zaid Alyafeai"
+}

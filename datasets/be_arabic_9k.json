@@ -1,0 +1,53 @@
+{
+    "Name": "BE-Arabic-9K",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/wdqin/BE-Arabic-9K",
+    "License": "unknown",
+    "Year": 2021,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "books"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "A large-scale benchmark dataset of over 9000 high-quality scanned images from Arabic books for document layout analysis and text extraction.",
+    "Volume": 9000.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Boston University"
+    ],
+    "Derived From": [
+        "BCE-Arabic-v1"
+    ],
+    "Paper Title": "Extracting text from scanned Arabic books: a large-scale benchmark dataset and a fine-tuned Faster-R-CNN model",
+    "Paper Link": "https://doi.org/10.1007/s10032-021-00382-4",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "IJDAR",
+    "Venue Type": "journal",
+    "Venue Name": "International Journal on Document Analysis and Recognition",
+    "Authors": [
+        "Randa Elanwar",
+        "Wenda Qin",
+        "Margrit Betke",
+        "Derry Wijaya"
+    ],
+    "Affiliations": [
+        "Electronics Research Institute Cairo",
+        "Boston University"
+    ],
+    "Abstract": "Datasets of documents in Arabic are urgently needed to promote computer vision and natural language processing research\nthat addresses the specifics of the language. Unfortunately, publicly available Arabic datasets are limited in size and restricted\nto certain document domains. This paper presents the release of BE-Arabic-9K, a dataset of more than 9000 high-quality\nscanned images from over 700 Arabic books. Among these, 1500 images have been manually segmented into regions and\nlabeled by their functionality. BE-Arabic-9K includes book pages with a wide variety of complex layouts and page contents,\nmaking it suitable for various document layout analysis and text recognition research tasks. The paper also presents a page\nlayout segmentation and text extraction baseline model based on fine-tuned Faster R-CNN structure (FFRA). This baseline\nmodel yields cross-validation results with an average accuracy of 99.4% and F1 score of 99.1% for text versus non-text block\nclassification on 1500 annotated images of BE-Arabic-9K. These results are remarkably better than those of the state-of-the-art\nArabic book page segmentation system ECDP. FFRA also outperforms three other prior systems when tested on a competition\nbenchmark dataset, making it an outstanding baseline model to challenge.",
+    "Added By": "Zaid Alyafeai"
+}

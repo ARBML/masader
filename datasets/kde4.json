@@ -2,7 +2,7 @@
     "Name": "KDE4",
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/kde4",
-    "Link": "https://opus.nlpl.eu/KDE4.php",
+    "Link": "https://opus.nlpl.eu/KDE4/corpus/version/KDE4",
     "License": "custom",
     "Year": 2012,
     "Language": "ar",
@@ -40,8 +40,7 @@
         "Jorg Tiedemann"
     ],
     "Affiliations": [
-        "Department of Linguistics and Philology Uppsala University",
-        "Uppsala/Sweden"
+        "Department of Linguistics and Philology, Uppsala University, Uppsala, Sweden"
     ],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

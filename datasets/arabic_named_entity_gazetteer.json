@@ -32,11 +32,16 @@
         "named entity recognition",
         "information retrieval"
     ],
-    "Venue Title": "",
+    "Venue Title": "IJCNLP",
     "Venue Type": "conference",
-    "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
-    "Abstract": "",
+    "Venue Name": "International Joint Conference on Natural Language Processing",
+    "Authors": [
+        "Fahd Alotaibi",
+        "Mark Lee"
+    ],
+    "Affiliations": [
+        "University of Birmingham, UK"
+    ],
+    "Abstract": "This paper presents a methodology to exploit the potential of Arabic Wikipedia to assist in the automatic development of a large Fine-grained Named Entity (NE) corpus and gazetteer. The corner stone of this approach is efficient classification of Wikipedia articles to target NE classes. The resources developed were thoroughly evaluated to ensure reliability and a high quality. Results show the developed gazetteer boosts the performance of the NE classifier on a news-wire domain by at least 2 points F-measure. Moreover, by combining a learning NE classifier with the developed corpus the score achieved is a high F-measure of 85.18%. The developed resources overcome the limitations of traditional Arabic NE tasks by more fine-grained analysis and providing a beneficial route for further studies.",
     "Added By": "Amr Keleg"
 }

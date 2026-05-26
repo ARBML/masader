@@ -1,0 +1,55 @@
+{
+    "Name": "RASAM",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/calfa-co/rasam-dataset",
+    "License": "Apache-2.0",
+    "Year": 2021,
+    "Language": "ar",
+    "Dialect": "Morocco",
+    "Domain": [
+        "books"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Dataset of 300 annotated images of handwritten Arabic Maghrebi script manuscripts for layout analysis and handwritten text recognition.",
+    "Volume": 300.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Universit\u00e9 Paris Sciences & Lettres"
+    ],
+    "Derived From": [],
+    "Paper Title": "RASAM - A Dataset for the Recognition and Analysis of Scripts in Arabic Maghrebi",
+    "Paper Link": "https://shs.hal.science/halshs-03430697v1",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "ICDAR",
+    "Venue Type": "workshop",
+    "Venue Name": "Document Analysis and Recognition ",
+    "Authors": [
+        "Chahan Vidal-Gor\u00e8ne",
+        "No\u00ebmie Lucas",
+        "Cl\u00e9ment Salah",
+        "Ali\u00e9nor Decours-Perez",
+        "Boris Dupin"
+    ],
+    "Affiliations": [
+        "\u00c9cole Nationale des Chartes \u2013 Universit\u00e9 Paris Sciences & Lettres",
+        "GIS Moyen-Orient et mondes musulmans \u2013 CNRS/EHESS",
+        "Sorbonne-Universit\u00e9",
+        "Calfa",
+        "Universit\u00e9 de Lausanne"
+    ],
+    "Abstract": "The Arabic scripts raise numerous issues in text recognition and layout analysis. To overcome these, several datasets and methods have been proposed in recent years. Although the latter are focused on common scripts and layout, many Arabic writings and written traditions remain under-resourced. We therefore propose a new dataset comprising 300 images representative of the handwritten production of the Arabic Maghrebi scripts. This dataset is the achievement of a collaborative work undertaken in the first quarter of 2021, and it offers several levels of annotation and transcription. The article intends to shed light on the specificities of these writings and manuscripts, as well as highlight the challenges of the recognition. The collaborative tools used for the creation of the dataset are assessed and the dataset itself is evaluated with state of the art methods in layout analysis. The word-based text recognition method used and experimented on for these writings achieves CER of 4.8% on average. The pipeline described constitutes an experience feedback for the quick creation of data and the training of effective HTR systems for Arabic scripts and non-Latin scripts in general.",
+    "Added By": "Zaid Alyafeai"
+}

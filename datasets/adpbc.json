@@ -40,13 +40,12 @@
     "Venue Name": "International Journal of Information Technology and Computer Science",
     "Authors": [
         "Sally Mohamed",
-        "M. Hussien.",
+        "Mahmoud Hussien",
         "Hamdy M. Mousa"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Computer Science Department, Faculty of Computer and Information, Menoufia University, Egypt",
+        "Higher Institute of Engineering and Technology, Tanta, Egypt"
     ],
     "Abstract": "There is a massive amount of different information and data in the World Wide Web, and the number of Arabic users and contents is widely increasing. Information extraction is an essential issue to access and sort the data on the web. In this regard, information extraction becomes a challenge, especially for languages, which have a complex morphology like Arabic. Consequently, the trend today is to build a new corpus that makes the information extraction easier and more precise. This paper presents Arabic linguistically analyzed corpus, including dependency relation. The collected data includes five fields; they are a sport, religious, weather, news and biomedical. The output is CoNLL universal lattice file format (CoNLL-UL). The corpus contains an index for the sentences and their linguistic meta-data to enable quick mining and search across the corpus. This corpus has seventeenth morphological annotations and eight features based on the identification of the textual structures help to recognize and understand the grammatical characteristics of the text and perform the dependency relation. The parsing and dependency process conducted by the universal dependency model and corrected manually. The results illustrated the enhancement in the dependency relation corpus. The designed Arabic corpus helps to quickly get linguistic annotations for a text and make the information Extraction techniques easy and clear to learn. The gotten results illustrated the average enhancement in the dependency relation corpus.",
     "Added By": "Zaid Alyafeai"

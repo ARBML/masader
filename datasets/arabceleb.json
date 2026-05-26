@@ -21,7 +21,7 @@
     "Provider": [],
     "Derived From": [],
     "Paper Title": "ArabCeleb: Speaker Recognition in Arabic",
-    "Paper Link": "",
+    "Paper Link": "https://link.springer.com/chapter/10.1007/978-3-031-08421-8_23",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -35,17 +35,20 @@
     "Venue Type": "conference",
     "Venue Name": "International Conference of the Italian Association for Artificial Intelligence",
     "Authors": [
-        "Bianco",
-        "Simone and Celona",
-        "Luigi and Khalifa",
-        "Intissar and Napoletano",
-        "Paolo and Petrovsky",
-        "Alexey and Piccoli",
-        "Flavio and Schettini",
-        "Raimondo and Shanin",
-        "Ivan"
+        "Simone Bianco",
+        "Luigi Celona",
+        "Paolo Napoletano",
+        "Flavio Piccoli",
+        "Raimondo Schettini",
+        "Intissar Khalifa",
+        "Alexey Petrovsky",
+        "Ivan Shanin"
     ],
-    "Affiliations": [],
-    "Abstract": "",
+    "Affiliations": [
+        "University of Milano-Bicocca",
+        "National Engineering School of Gabes",
+        "Huawei Technologies Co. Ltd."
+    ],
+    "Abstract": "Due to the growing interest in speech recognition technologies, several datasets of speech acquired under uncontrolled conditions have been proposed in recent years. The majority of the datasets available to the community are in English, which reduces the possibility of developing and evaluating recognition technologies in languages other than English. In this paper we try to reduce this language-related gap by proposing a dataset for Arabic language speech recognition. The dataset is made available to the community and contains 100 speakers of both genders. Experiments with some of the latest speaker recognition approaches have been performed both with and without a suitable training on the Arabic language. Results suggest that, to effectively develop recognition technologies in other languages, suitable data for that language are necessary to allow at least a transfer learning approach. In particular, such data is crucial when short utterances are considered.",
     "Added By": "Zaid Alyafeai"
 }

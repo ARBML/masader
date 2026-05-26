@@ -89,7 +89,7 @@
     "Domain": [
         "public datasets"
     ],
-    "Form": "videos",
+    "Form": "text",
     "Collection Style": [
         "machine annotation"
     ],
@@ -101,7 +101,7 @@
     "Derived From": [
         "NanoBEIR"
     ],
-    "Paper Title": "NanoBeir-Multilingual: Multilingual version of NanoBeir for quick evaluation.",
+    "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,

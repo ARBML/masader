@@ -1,0 +1,55 @@
+{
+    "Name": "QARI Markdown Mixed Dataset",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/NAMAA-Space/QariOCR-v0.3-markdown-mixed-dataset",
+    "Link": "https://huggingface.co/datasets/NAMAA-Space/QariOCR-v0.3-markdown-mixed-dataset",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "news articles"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "A vision-language OCR dataset for Arabic text recognition, generated synthetically and used to fine-tune the Qari-OCR model.",
+    "Volume": 37000.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "NAMAA"
+    ],
+    "Derived From": [],
+    "Paper Title": "QARI-OCR: High-Fidelity Arabic Text Recognition through Multimodal Large Language Model Adaptation",
+    "Paper Link": "https://arxiv.org/pdf/2506.02295",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Ahmed Wasfy",
+        "Omer Nacar",
+        "Abdelakreem Elkhateb",
+        "Mahmoud Reda",
+        "Omar Elshehy",
+        "Adel Ammar",
+        "Wadii Boulila"
+    ],
+    "Affiliations": [
+        "NAMAA",
+        "KANDCA Corp.",
+        "Prince Sultan University"
+    ],
+    "Abstract": "The inherent complexities of Arabic script; its cursive nature, diacritical marks (tashkeel), and varied typography, pose persistent challenges for Optical Character Recognition (OCR). We present Qari-OCR, a series of vision-language models derived from Qwen2-VL-2B-Instruct, progressively optimized for Arabic through iterative fine-tuning on specialized synthetic datasets. Our leading model, QARI v0.2, establishes a new open-source state-of-the-art with a Word Error Rate (WER) of 0.160, Character Error Rate (CER) of 0.061, and BLEU score of 0.737 on diacritically-rich texts. Qari-OCR demonstrates superior handling of tashkeel, diverse fonts, and document layouts, alongside impressive performance on low-resolution images. Further explorations (QARI v0.3) showcase strong potential for structural document understanding and handwritten text. This work delivers a marked improvement in Arabic OCR accuracy and efficiency, with all models and datasets released to foster further research.\n",
+    "Added By": "Zaid Alyafeai"
+}
