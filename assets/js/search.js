@@ -93,6 +93,37 @@ const queries = new URLSearchParams(window.location.search);
 const isProvided = (k) =>
   queries.has(k) && (queries.get(k) > 0 || queries.get(k).length > 0);
 
+const getSearchName = () =>
+  isProvided("name") ? queries.get("name").trim() : "";
+
+/**
+ * Server-side filters (Pandas query). Name search uses client-side fuzzy matching.
+ * @returns {string}
+ */
+const buildApiQuery = () =>
+  [
+    ...(isProvided("dialect")
+      ? [`Dialect.str.contains('(?i)${queries.get("dialect")}')`]
+      : []),
+    ...(isProvided("license")
+      ? [`License.str.contains('(?i)${queries.get("license")}')`]
+      : []),
+    ...(isProvided("host")
+      ? [`Host.str.contains('(?i)${queries.get("host")}')`]
+      : []),
+    ...(isProvided("access")
+      ? [`Access.str.contains('(?i)${queries.get("access")}')`]
+      : []),
+    ...(isProvided("since") ? [`Year > ${queries.get("since")}`] : []),
+    ...(isProvided("afore") ? [`Year < ${queries.get("afore")}`] : []),
+    ...(listOfToggable.size > 0
+      ? Array.from(listOfToggable.values())
+          .filter((e) => $(e).children("input")[0].checked)
+          .map((e) => $(e).children("input")[0])
+          .map((e) => `${e.name}.str.contains('${e.value}')`)
+      : []),
+  ].join(" and ");
+
 /**
  * @type {Set<HTMLInputElement>}
  */
@@ -136,28 +167,16 @@ form.addEventListener("submit", (event) => {
     ulClassName: "pagination",
     dataSource: (cb) => {
       const parameter = new URLSearchParams({
-        query: [
-          ...(isProvided("name")
-            ? [`Name.str.contains('(?i)${queries.get("name").trim()}')`]
-            : []),
-          ...(isProvided("dialect") ? [`Dialect.str.contains('(?i)${queries.get("dialect")}')`] : []),
-          ...(isProvided("license") ? [`License.str.contains('(?i)${queries.get("license")}')`] : []),
-          ...(isProvided("host") ? [`Host.str.contains('(?i)${queries.get("host")}')`] : []),
-          ...(isProvided("access") ? [`Access.str.contains('(?i)${queries.get("access")}')`] : []),
-          ...(isProvided("since") ? [`Year > ${queries.get("since")}`] : []),
-          ...(isProvided("afore") ? [`Year < ${queries.get("afore")}`] : []),
-          ...(listOfToggable.size > 0
-            ? Array.from(listOfToggable.values())
-              .filter((e) => $(e).children("input")[0].checked)
-              .map((e) => $(e).children("input")[0])
-              .map((e) => `${e.name}.str.contains('${e.value}')`)
-            : []),
-        ].join(" and "),
+        query: buildApiQuery(),
         features: entries,
       });
+      const searchName = getSearchName();
       request
         .get(`/datasets?${parameter}`)
         .then((response) => response.data)
+        .then((data) =>
+          MasaderFuzzy.filterDatasets(data, searchName)
+        )
         .then(cb);
     },
     callback: (data) => {
@@ -296,16 +315,19 @@ form.addEventListener("submit", (event) => {
         const through = document.querySelector(`#${k} input.through`);
 
         through.addEventListener("keyup", (event) => {
-          const value = event.target.value.toLowerCase();
+          const value = event.target.value.trim();
 
           if (value.length > 0) $(expander).parent().addClass("hidden");
           else $(expander).parent().removeClass("hidden");
 
+          const allLabels = elements.map((el) => $(el).children("input")[0].value);
+          const matchingLabels = new Set(
+            MasaderFuzzy.filterTagLabels(allLabels, value)
+          );
+
           elements.forEach((el, index) => {
-            const isMatching = $(el)
-              .children("input")[0]
-              .value.toLowerCase()
-              .includes(value);
+            const label = $(el).children("input")[0].value;
+            const isMatching = value.length === 0 || matchingLabels.has(label);
 
             if ((value.length <= 0 && index > 7) || !isMatching)
               return el.classList.add("hidden");
