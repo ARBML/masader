@@ -1,0 +1,55 @@
+{
+    "Name": "EmoHopeSpeech",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://doi.org/10.5281/zenodo.14669301",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Bilingual dataset of Arabic and English social media posts annotated for emotions and hope speech.",
+    "Volume": 27456.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [
+        "Arabic Poetry emotions",
+        "Emotional Tone",
+        "Multilabel Hate speech dataset",
+        "Emotion analysis based on text analysis"
+    ],
+    "Paper Title": "EmoHopeSpeech: An Annotated Dataset of Emotions and Hope Speech in English and Arabic",
+    "Paper Link": "https://arxiv.org/pdf/2505.11959",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "zenodo",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "emotion classification"
+    ],
+    "Venue Title": "RANLP",
+    "Venue Type": "conference",
+    "Venue Name": "Recent Advances in Natural Language Processing",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Md. Rafiul Biswas"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "This research introduces a bilingual dataset comprising 27,456 entries for Arabic and 10,036 entries for English, annotated for emotions and hope speech, addressing the scarcity of multi-emotion (Emotion and hope). The dataset provides comprehensive annotations capturing emotion intensity, complexity, and causes, alongside detailed classifications and subcategories for hope speech. To ensure annotation reliability, Fleiss' Kappa was employed, revealing 0.75-0.85 agreement among annotators both for Arabic and English language. The evaluation metrics (F1-score: 0.69) obtained from the baseline model (i.e., machine learning model) validate that the data annotations are worthy for different analyses. This dataset offers a valuable resource for advancing natural language processing in underrepresented languages, fostering better cross-linguistic analysis of emotions and hope speech.",
+    "Added By": "Zaid Alyafeai"
+}
