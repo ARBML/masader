@@ -1,7 +1,7 @@
 {
-    "Name": "ArClue",
-    "Volume": 54196.0,
-    "Unit": "sentences",
+    "Name": "Arabic-Clue-Instruct",
+    "Volume": 14497.0,
+    "Unit": "documents",
     "License": "unknown",
     "Link": "https://github.com/KamyarZeinalipour/Arabic-Text-to-Crosswords",
     "HF_Link": "https://huggingface.co/datasets/Kamyar-zeinalipour/Arabic-Clue-Instruct",
@@ -20,11 +20,9 @@
     "Provider": [
         "University of Siena"
     ],
-    "Derived_From": [
-        "Arabic Wikipedia"
-    ],
+    "Derived_From": [],
     "Paper_Title": "From Arabic Text to Puzzles: LLM-Driven Development of Arabic Educational Crosswords",
-    "Paper_Link": "https://arxiv.org/abs/2411.16936",
+    "Paper_Link": "https://arxiv.org/pdf/2501.11035",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
@@ -50,5 +48,5 @@
     "Dialect": "Modern Standard Arabic",
     "Language": "ar",
     "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added_By": "Zaid Alyafeai"
 }
