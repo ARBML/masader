@@ -7,7 +7,8 @@
     "HF_Link": "",
     "Year": 2025,
     "Domain": [
-        "wikipedia"
+        "wikipedia",
+        "public datasets"
     ],
     "Form": "text",
     "Collection_Style": [
@@ -17,7 +18,7 @@
     "Description": "Public dataset for Arabic Wikipedia proper nouns.",
     "Ethical_Risks": "Low",
     "Provider": [
-        "New York University Abu Dhabi"
+        "CAMeL-Lab"
     ],
     "Derived_From": [
         "CP-WIKI"
@@ -54,5 +55,5 @@
     "Dialect": "mixed",
     "Language": "ar",
     "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added_By": "Zaid Alyafeai"
 }
