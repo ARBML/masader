@@ -1,0 +1,52 @@
+{
+    "Name": "MASRAD",
+    "Volume": 19405.0,
+    "Unit": "tokens",
+    "License": "unknown",
+    "Link": "https://github.com/mnasser-dru/MASRAD",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "machine annotation",
+        "human annotation"
+    ],
+    "Description": "Terminology dataset for Arabic construction.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Arab Center for Research and Policy Studies",
+        "Doha Institute for Policy and Studies"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "MASRAD: Arabic Terminology Management Corpora with Semi-Automatic Construction",
+    "Paper_Link": "http://arxiv.org/abs/2503.19211v2",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
+    "Authors": [
+        "Mahdi Nasser",
+        "Laura Sayyah",
+        "Fadi A. Zaraket"
+    ],
+    "Affiliations": [
+        "Arab Center for Research and Policy Studies",
+        "Doha Institute for Policy and Studies"
+    ],
+    "Abstract": "This paper introduces MASRAD, a large dataset of parallel foreign-Arabic terms sourced from academic books, along with MASRAD-Ex, a semi-automatic construction framework. The dataset aids terminology management, translation consistency, and cross-lingual text processing in Arabic.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
