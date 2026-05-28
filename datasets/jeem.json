@@ -1,40 +1,69 @@
 {
     "Name": "JEEM",
-    "Volume": 2178.0,
-    "Unit": "images",
-    "License": "MIT License",
+    "Subsets": [
+        {
+            "Name": "Jordan",
+            "Volume": 606.0,
+            "Unit": "images",
+            "Dialect": "Jordanian"
+        },
+        {
+            "Name": "Emirates",
+            "Volume": 132.0,
+            "Unit": "images",
+            "Dialect": "Emirati"
+        },
+        {
+            "Name": "Egypt",
+            "Volume": 863.0,
+            "Unit": "images",
+            "Dialect": "Egyptian"
+        },
+        {
+            "Name": "Morocco",
+            "Volume": 577.0,
+            "Unit": "images",
+            "Dialect": "Moroccan"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/toloka/JEEM",
     "Link": "https://huggingface.co/datasets/toloka/JEEM",
-    "HF_Link": "https://huggingface.co/datasets/toloka/JEEM",
-    "Year": 2024,
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
         "captions"
     ],
     "Form": "images",
-    "Collection_Style": [
+    "Collection Style": [
         "crawling",
         "human annotation"
     ],
     "Description": "Benchmark for VLMs visual understanding across four Arabic dialects",
-    "Ethical_Risks": "Low",
+    "Volume": 2178.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
     "Provider": [
         "MBZUAI",
         "TolokaAI"
     ],
-    "Derived_From": [],
-    "Paper_Title": "JEEM: Vision-Language Understanding in Four Arabic Dialects",
-    "Paper_Link": "http://arxiv.org/pdf/2503.21910v1.pdf",
+    "Derived From": [],
+    "Paper Title": "JEEM: Vision-Language Understanding in Four Arabic Dialects",
+    "Paper Link": "http://arxiv.org/pdf/2503.21910v1.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
         "image captioning",
         "visual question answering"
     ],
-    "Venue_Title": "arXiv",
-    "Venue_Type": "preprint",
-    "Venue_Name": "arXiv",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Karima Kadaoui",
         "Hanin Atwany",
@@ -52,34 +81,5 @@
         "TolokaAI"
     ],
     "Abstract": "We introduce JEEM, a benchmark designed to evaluate Vision-Language Models (VLMs) on visual understanding across four Arabic-speaking countries: Jordan, The Emirates, Egypt, and Morocco. JEEM includes the tasks of image captioning and visual question answering, and features culturally rich and regionally diverse content. This dataset aims to assess the ability of VLMs to generalize across dialects and accurately interpret cultural elements in visual contexts. In an evaluation of five prominent open-source Arabic VLMs and GPT-4V, we find that the Arabic VLMs consistently underperform, struggling with both visual understanding and dialect-specific generation. While GPT-4V ranks best in this comparison, the model\u2019s linguistic competence varies across dialects, and its visual understanding capabilities lag behind. This underscores the need for more inclusive models and the value of culturally-diverse evaluation paradigms.",
-    "Subsets": [
-        {
-            "Name": "Jordan",
-            "Volume": 606,
-            "Unit": "images",
-            "Dialect": "Jordanian"
-        },
-        {
-            "Name": "Emirates",
-            "Volume": 132,
-            "Unit": "images",
-            "Dialect": "Emirati"
-        },
-        {
-            "Name": "Egypt",
-            "Volume": 863,
-            "Unit": "images",
-            "Dialect": "Egyptian"
-        },
-        {
-            "Name": "Morocco",
-            "Volume": 577,
-            "Unit": "images",
-            "Dialect": "Moroccan"
-        }
-    ],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
