@@ -1,0 +1,59 @@
+{
+    "Name": "CP-WIKI-D3K",
+    "Volume": 3362.0,
+    "Unit": "tokens",
+    "License": "CC BY-SA 4.0",
+    "Link": "https://github.com/CAMeL-Lab/CamelProp",
+    "HF_Link": "",
+    "Year": 2025,
+    "Domain": [
+        "wikipedia",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "human annotation",
+        "LLM generated"
+    ],
+    "Description": "Public dataset for Arabic Wikipedia proper nouns.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "CAMeL-Lab"
+    ],
+    "Derived_From": [
+        "CP-WIKI"
+    ],
+    "Paper_Title": "Proper Noun Diacritization for Arabic Wikipedia: A Benchmark Dataset",
+    "Paper_Link": "http://arxiv.org/pdf/2505.02656v3.pdf",
+    "Tokenized": true,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "diacritization",
+        "transliteration"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Rawan Bondok",
+        "Mayar Nassar",
+        "Salam Khalifa",
+        "Kurt Micallef",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi",
+        "Ain Shams University",
+        "Stony Brook University",
+        "University of Malta"
+    ],
+    "Abstract": "Proper nouns in Arabic Wikipedia are frequently undiacritized, creating ambiguity in pronunciation and interpretation, especially for transliterated named entities of foreign origin. While transliteration and diacritization have been well-studied separately in Arabic NLP, their intersection remains underexplored. In this paper, we introduce a new manually diacritized dataset of Arabic proper nouns of various origins with their English Wikipedia equivalent glosses, and present the challenges and guidelines we followed to create it. We benchmark GPT-4o on the task of recovering full diacritization given the undiacritized Arabic and English forms, and analyze its performance. Achieving 73% accuracy, our results underscore both the difficulty of the task and the need for improved models and resources. We release our dataset to facilitate further research on Arabic Wikipedia proper noun diacritization.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "Zaid Alyafeai"
+}
