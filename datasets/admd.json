@@ -1,38 +1,42 @@
 {
     "Name": "ADMD",
-    "Volume": 490.0,
-    "Unit": "sentences",
-    "License": "unknown",
-    "Link": "https://arxiv.org/pdf/2504.21677",
-    "HF_Link": "",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/riotu-lab/ADMD",
+    "Link": "https://huggingface.co/datasets/riotu-lab/ADMD",
+    "License": "MIT License",
     "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
     "Domain": [
         "books"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "human annotation",
         "manual curation"
     ],
-    "Description": "490-question Arabic LLM evaluation dataset.",
-    "Ethical_Risks": "Low",
+    "Description": "The Arabic Depth Mini Dataset (ADMD) is a compact yet highly challenging dataset designed to evaluate Arabic language models across diverse domains. It consists of 490 carefully curated questions spanning 10 major domains and 42 topics. ",
+    "Volume": 490.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
     "Provider": [
         "Prince Sultan University"
     ],
-    "Derived_From": [],
-    "Paper_Title": "From Guidelines to Practice: A New Paradigm for Arabic Language Model Evaluation",
-    "Paper_Link": "http://arxiv.org/pdf/2506.01920v1.pdf",
+    "Derived From": [],
+    "Paper Title": "From Guidelines to Practice: A New Paradigm for Arabic Language Model Evaluation",
+    "Paper Link": "http://arxiv.org/pdf/2506.01920v1.pdf",
+    "Script": "Arab",
     "Tokenized": false,
-    "Host": "other",
+    "Host": "HuggingFace",
     "Access": "Free",
-    "Cost": "0",
-    "Test_Split": false,
+    "Cost": "",
+    "Test Split": false,
     "Tasks": [
         "question answering"
     ],
-    "Venue_Title": "arXiv",
-    "Venue_Type": "preprint",
-    "Venue_Name": "arXiv",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Serry Sibaee",
         "Omer Nacar",
@@ -44,10 +48,6 @@
     "Affiliations": [
         "Prince Sultan University"
     ],
-    "Abstract": "The evaluation of Arabic large language models (LLMs) presents unique challenges that extend beyond conventional metrics of linguistic accuracy. As these models become increasingly prevalent in various applications, the need for comprehensive and culturally aware evaluation frameworks has become critical. Recent developments in Arabic LLM evaluation have produced several datasets, including GPTArEval, Ghafa, and ArabicMMLU from openAI, each attempting to address different aspects of model assessment. However, these efforts often fail to provide a comprehensive evaluation that includes both technical proficiency and cultural understanding. Claude 3.5 Sonnet demonstrated the highest overall accuracy at 30%, showing relative strength in mathematical theory in Arabic, Arabic language, and Islamic domains. This work provides both theoretical foundations and practical insights for improving Arabic language model evaluation, emphasizing the importance of cultural competence alongside technical capabilities.",
-    "Subsets": [],
-    "Dialect": "Modern Standard Arabic",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Abstract": "This paper addresses critical gaps in Arabic language model evaluation by establishing comprehensive theoretical guidelines and introducing a novel evaluation framework. We first analyze existing Arabic evaluation datasets, identifying significant issues in linguistic accuracy, cultural alignment, and methodological rigor. To address these limitations in LLMs, we present the Arabic Depth Mini Dataset (ADMD), a carefully curated collection of 490 challenging questions spanning ten major domains (42 sub-domains, see Figure 1). Using ADMD, we evaluate five leading language models: GPT-4, Claude 3.5 Sonnet, Gemini Flash 1.5, CommandR 100B, and Qwen-Max. Our results reveal significant variations in model performance across different domains, with particular challenges in areas requiring deep cultural understanding and specialized knowledge. Claude 3.5 Sonnet demonstrated the highest overall accuracy at 30%, showing relative strength in mathematical theory in Arabic, Arabic language, and islamic domains. This work provides both theoretical foundations and practical insights for improving Arabic language model evaluation, emphasizing the importance of cultural competence alongside technical capabilities.",
+    "Added By": "Zaid Alyafeai"
 }
