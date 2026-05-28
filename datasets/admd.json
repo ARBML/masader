@@ -1,0 +1,53 @@
+{
+    "Name": "ADMD",
+    "Volume": 490.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://arxiv.org/pdf/2504.21677",
+    "HF_Link": "",
+    "Year": 2025,
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "490-question Arabic LLM evaluation dataset.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Prince Sultan University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "From Guidelines to Practice: A New Paradigm for Arabic Language Model Evaluation",
+    "Paper_Link": "http://arxiv.org/pdf/2506.01920v1.pdf",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "0",
+    "Test_Split": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Serry Sibaee",
+        "Omer Nacar",
+        "Adel Ammar",
+        "Yasser Al-Habashi",
+        "Abdulrahman Al-Batati",
+        "Wadii Boulila"
+    ],
+    "Affiliations": [
+        "Prince Sultan University"
+    ],
+    "Abstract": "The evaluation of Arabic large language models (LLMs) presents unique challenges that extend beyond conventional metrics of linguistic accuracy. As these models become increasingly prevalent in various applications, the need for comprehensive and culturally aware evaluation frameworks has become critical. Recent developments in Arabic LLM evaluation have produced several datasets, including GPTArEval, Ghafa, and ArabicMMLU from openAI, each attempting to address different aspects of model assessment. However, these efforts often fail to provide a comprehensive evaluation that includes both technical proficiency and cultural understanding. Claude 3.5 Sonnet demonstrated the highest overall accuracy at 30%, showing relative strength in mathematical theory in Arabic, Arabic language, and Islamic domains. This work provides both theoretical foundations and practical insights for improving Arabic language model evaluation, emphasizing the importance of cultural competence alongside technical capabilities.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
