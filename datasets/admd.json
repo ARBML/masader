@@ -1,0 +1,53 @@
+{
+    "Name": "ADMD",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/riotu-lab/ADMD",
+    "Link": "https://huggingface.co/datasets/riotu-lab/ADMD",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "The Arabic Depth Mini Dataset (ADMD) is a compact yet highly challenging dataset designed to evaluate Arabic language models across diverse domains. It consists of 490 carefully curated questions spanning 10 major domains and 42 topics. ",
+    "Volume": 490.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Prince Sultan University"
+    ],
+    "Derived From": [],
+    "Paper Title": "From Guidelines to Practice: A New Paradigm for Arabic Language Model Evaluation",
+    "Paper Link": "http://arxiv.org/pdf/2506.01920v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Serry Sibaee",
+        "Omer Nacar",
+        "Adel Ammar",
+        "Yasser Al-Habashi",
+        "Abdulrahman Al-Batati",
+        "Wadii Boulila"
+    ],
+    "Affiliations": [
+        "Prince Sultan University"
+    ],
+    "Abstract": "This paper addresses critical gaps in Arabic language model evaluation by establishing comprehensive theoretical guidelines and introducing a novel evaluation framework. We first analyze existing Arabic evaluation datasets, identifying significant issues in linguistic accuracy, cultural alignment, and methodological rigor. To address these limitations in LLMs, we present the Arabic Depth Mini Dataset (ADMD), a carefully curated collection of 490 challenging questions spanning ten major domains (42 sub-domains, see Figure 1). Using ADMD, we evaluate five leading language models: GPT-4, Claude 3.5 Sonnet, Gemini Flash 1.5, CommandR 100B, and Qwen-Max. Our results reveal significant variations in model performance across different domains, with particular challenges in areas requiring deep cultural understanding and specialized knowledge. Claude 3.5 Sonnet demonstrated the highest overall accuracy at 30%, showing relative strength in mathematical theory in Arabic, Arabic language, and islamic domains. This work provides both theoretical foundations and practical insights for improving Arabic language model evaluation, emphasizing the importance of cultural competence alongside technical capabilities.",
+    "Added By": "Zaid Alyafeai"
+}
