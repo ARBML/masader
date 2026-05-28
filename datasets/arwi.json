@@ -1,43 +1,6 @@
 {
     "Name": "ARWI",
-    "Subsets": [
-        {
-            "Name": "A1",
-            "Volume": 470.0,
-            "Unit": "documents",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "A2",
-            "Volume": 470.0,
-            "Unit": "documents",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "B1",
-            "Volume": 530.0,
-            "Unit": "documents",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "B2",
-            "Volume": 530.0,
-            "Unit": "documents",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "C1",
-            "Volume": 520.0,
-            "Unit": "documents",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "C2",
-            "Volume": 520.0,
-            "Unit": "documents",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/mbzuai-nlp/arabic-aes-bea25",
     "License": "unknown",
