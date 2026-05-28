@@ -1,0 +1,52 @@
+{
+    "Name": "Arabic-Clue-Instruct",
+    "Volume": 14497.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/KamyarZeinalipour/Arabic-Text-to-Crosswords",
+    "HF_Link": "https://huggingface.co/datasets/Kamyar-zeinalipour/Arabic-Clue-Instruct",
+    "Year": 2024,
+    "Domain": [
+        "wikipedia"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "LLM generated",
+        "human annotation"
+    ],
+    "Description": "Dataset for Arabic educational crosswords",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "University of Siena"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "From Arabic Text to Puzzles: LLM-Driven Development of Arabic Educational Crosswords",
+    "Paper_Link": "https://arxiv.org/pdf/2501.11035",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Kamyar Zeinalipour",
+        "Mohamed Zaky Saad",
+        "Marco Maggini",
+        "Marco Gori"
+    ],
+    "Affiliations": [
+        "University of Siena"
+    ],
+    "Abstract": "We present an Arabic crossword puzzle generator from a given text that utilizes advanced language models such as GPT-4-Turbo, GPT-3.5-Turbo and Llama3-8B-Instruct, specifically developed for educational purposes, with over 50,000 entries encompassing text, answers, clues, and categories.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "Zaid Alyafeai"
+}
