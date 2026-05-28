@@ -1,0 +1,57 @@
+{
+    "Name": "ArabGEC",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://drive.google.com/file/d/10BJakBI7BOqldxYDJTGVozKTUldJvPDe/view?usp=drive_link",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets",
+        "commentary"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated"
+    ],
+    "Description": "Synthetic dataset for Arabic grammatical error correction",
+    "Volume": 30219310.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Abdulaziz University",
+        "Saudi Electronic University"
+    ],
+    "Derived From": [
+        "QALB-14",
+        "QALB-15",
+        "ZAEBUC",
+        "1.5 billion words corpus",
+        "OSIAN"
+    ],
+    "Paper Title": "TOWARDS THE DEVELOPMENT OF BALANCED SYNTHETIC DATA FOR CORRECTING GRAMMATICAL ERRORS IN ARABIC: AN APPROACH BASED ON ERROR TAGGING MODEL AND SYNTHETIC DATA GENERATING MODEL",
+    "Paper Link": "https://arxiv.org/pdf/2502.05312",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Gdrive",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "grammatical error correction"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Ahlam Alrehili",
+        "Areej Alhothali"
+    ],
+    "Affiliations": [
+        "King Abdulaziz University",
+        "Saudi Electronic University"
+    ],
+    "Abstract": "Synthetic data generation is widely recognized as a way to enhance the quality of neural grammatical error correction (GEC) systems. However, current approaches often lack diversity or are too simplistic to generate the wide range of grammatical errors made by humans, especially for low-resource languages such as Arabic. In this paper, we will develop the error tagging model and the synthetic data generation model to create a large synthetic dataset in Arabic for grammatical error correction. In the error tagging model, the correct sentence is categorized into multiple error types by using the DeBERTa v3 model. Arabic Error Type Annotation tool (ARETA) is used to guide multi-label classification tasks in an error tagging model in which each sentence is classified into 26 error tags. The synthetic data generation model is a back-translation-based model that generates incorrect sentences by appending error tags before the correct sentence that was generated from the error tagging model using the AraT5 model. In the QALB-14 and QALB-15 Test sets, the error tagging model achieved 94.42% F1, which is state-of-the-art in identifying error tags in clean sentences. As a result of our synthetic data training in grammatical error correction, we achieved a new state-of-the-art result of F1-Score: 79.36% in the QALB-14 Test set. We generate 30,219,310 synthetic sentence pairs by using a synthetic data generation model. Our data is accessible to the public.",
+    "Added By": "Zaid Alyafeai"
+}
