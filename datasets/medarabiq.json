@@ -1,49 +1,6 @@
 {
     "Name": "MedArabiQ",
-    "Subsets": [
-        {
-            "Name": "Patient-doctor Q&A",
-            "Volume": 100.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "Q&A with Grammatical Error Correction",
-            "Volume": 100.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "Q&A with LLM Modifications",
-            "Volume": 100.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "Multiple-Choice Questions",
-            "Volume": 100.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "Multiple-Choice Questions with Bias",
-            "Volume": 100.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "Fill-in-the-Blank with Choices",
-            "Volume": 100.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "Fill-in-the-Blank without Choices",
-            "Volume": 100.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/qimma/QA_MedArabiQ",
     "Link": "https://github.com/nyuad-cai/MedArabiQ",
     "License": "custom",
