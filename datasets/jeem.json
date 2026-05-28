@@ -45,7 +45,6 @@
     "Unit": "images",
     "Ethical Risks": "Low",
     "Provider": [
-        "MBZUAI",
         "TolokaAI"
     ],
     "Derived From": [],
@@ -61,9 +60,9 @@
         "image captioning",
         "visual question answering"
     ],
-    "Venue Title": "arXiv",
+    "Venue Title": "EACL Findings",
     "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Name": "Findings of European Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Karima Kadaoui",
         "Hanin Atwany",
