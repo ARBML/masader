@@ -4,36 +4,36 @@
     "Unit": "documents",
     "License": "unknown",
     "Link": "https://github.com/KamyarZeinalipour/Arabic-Text-to-Crosswords",
-    "HF_Link": "https://huggingface.co/datasets/Kamyar-zeinalipour/Arabic-Clue-Instruct",
+    "HF Link": "https://huggingface.co/datasets/Kamyar-zeinalipour/Arabic-Clue-Instruct",
     "Year": 2024,
     "Domain": [
         "wikipedia"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "crawling",
         "LLM generated",
         "human annotation"
     ],
     "Description": "Dataset for Arabic educational crosswords",
-    "Ethical_Risks": "Low",
+    "Ethical Risks": "Low",
     "Provider": [
         "University of Siena"
     ],
-    "Derived_From": [],
-    "Paper_Title": "From Arabic Text to Puzzles: LLM-Driven Development of Arabic Educational Crosswords",
-    "Paper_Link": "https://arxiv.org/pdf/2501.11035",
+    "Derived From": [],
+    "Paper Title": "From Arabic Text to Puzzles: LLM-Driven Development of Arabic Educational Crosswords",
+    "Paper Link": "https://arxiv.org/pdf/2501.11035",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": true,
     "Tasks": [
         "other"
     ],
-    "Venue_Title": "arXiv",
-    "Venue_Type": "preprint",
-    "Venue_Name": "arXiv",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Kamyar Zeinalipour",
         "Mohamed Zaky Saad",
@@ -48,5 +48,5 @@
     "Dialect": "Modern Standard Arabic",
     "Language": "ar",
     "Script": "Arab",
-    "Added_By": "Zaid Alyafeai"
+    "Added By": "Zaid Alyafeai"
 }

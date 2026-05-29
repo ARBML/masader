@@ -4,39 +4,39 @@
     "Unit": "tokens",
     "License": "CC BY-SA 4.0",
     "Link": "https://github.com/CAMeL-Lab/CamelProp",
-    "HF_Link": "",
+    "HF Link": "",
     "Year": 2025,
     "Domain": [
         "wikipedia",
         "public datasets"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "human annotation",
         "LLM generated"
     ],
     "Description": "Public dataset for Arabic Wikipedia proper nouns.",
-    "Ethical_Risks": "Low",
+    "Ethical Risks": "Low",
     "Provider": [
         "CAMeL-Lab"
     ],
-    "Derived_From": [
+    "Derived From": [
         "CP-WIKI"
     ],
-    "Paper_Title": "Proper Noun Diacritization for Arabic Wikipedia: A Benchmark Dataset",
-    "Paper_Link": "http://arxiv.org/pdf/2505.02656v3.pdf",
+    "Paper Title": "Proper Noun Diacritization for Arabic Wikipedia: A Benchmark Dataset",
+    "Paper Link": "http://arxiv.org/pdf/2505.02656v3.pdf",
     "Tokenized": true,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
         "diacritization",
         "transliteration"
     ],
-    "Venue_Title": "arXiv",
-    "Venue_Type": "preprint",
-    "Venue_Name": "arXiv",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Rawan Bondok",
         "Mayar Nassar",
@@ -55,5 +55,5 @@
     "Dialect": "mixed",
     "Language": "ar",
     "Script": "Arab",
-    "Added_By": "Zaid Alyafeai"
+    "Added By": "Zaid Alyafeai"
 }
