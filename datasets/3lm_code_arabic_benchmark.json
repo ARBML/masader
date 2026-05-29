@@ -34,7 +34,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "multiple choice question answering"
+        "code generation"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
