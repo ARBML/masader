@@ -1,6 +1,13 @@
 {
     "Name": "MuDRiC",
-    "Subsets": [],
+    "Subsets": [
+        {
+            "Name": "jkdf",
+            "Volume": 0.0,
+            "Unit": "hours",
+            "Dialect": "mixed"
+        }
+    ],
     "HF Link": "",
     "Link": "https://github.com/KareemElozeiri/MuDRiC",
     "License": "unknown",
