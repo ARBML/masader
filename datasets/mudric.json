@@ -18,6 +18,12 @@
             "Volume": 33288.0,
             "Unit": "sentences",
             "Dialect": "Gulf"
+        },
+        {
+            "Name": "Levantine",
+            "Volume": 33288.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
         }
     ],
     "HF Link": "",
