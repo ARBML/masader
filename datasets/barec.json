@@ -1,61 +1,57 @@
 {
     "Name": "BAREC",
-    "Subsets": [],
-    "HF Link": "https://huggingface.co/datasets/CAMeL-Lab/BAREC-Corpus-v1.0",
-    "Link": "http://barec.camel-lab.com",
-    "License": "CC BY-SA 4.0",
-    "Year": 2025,
-    "Language": "ar",
-    "Dialect": "Modern Standard Arabic",
+    "Volume": 98676.0,
+    "Unit": "tokens",
+    "License": "CC BY-NC-SA 4.0",
+    "Link": "https://arxiv.org/abs/2406.05760",
+    "HF_Link": "",
+    "Year": 2024,
     "Domain": [
         "books",
-        "public datasets",
-        "LLM",
-        "web pages",
-        "wikipedia"
+        "news articles",
+        "wikipedia",
+        "LLM"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Collection_Style": [
         "human annotation"
     ],
-    "Description": "A large-scale, fine-grained Arabic readability corpus with 69K sentences across 19 levels, covering diverse genres and education stages.",
-    "Volume": 69441.0,
-    "Unit": "sentences",
-    "Ethical Risks": "Low",
+    "Description": "A new multi-genre Arabic lemmatization dataset covering diverse genres for NLP research.",
+    "Ethical_Risks": "Low",
     "Provider": [
-        "CaMeL-Lab"
+        "New York University Abu Dhabi"
     ],
-    "Derived From": [
-        "ArabicMMLU",
-        "ZAEBUC",
-        "ALC",
-        "ReadMe++",
-        "Quran Corpus",
-        "LK Hadith Corpus"
-    ],
-    "Paper Title": "A Large and Balanced Corpus for Fine-grained Arabic Readability Assessment",
-    "Paper Link": "https://arxiv.org/pdf/2502.13520",
-    "Script": "Arab",
-    "Tokenized": false,
-    "Host": "other",
+    "Derived_From": [],
+    "Paper_Title": "Lemmatization as a Classification Task: Results from Arabic across Multiple Genres",
+    "Paper_Link": "http://arxiv.org/pdf/2506.18399v1.pdf",
+    "Tokenized": true,
+    "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Test_Split": true,
     "Tasks": [
-        "readability assessment"
+        "machine translation",
+        "summarization",
+        "part of speech tagging",
+        "diacritization",
+        "reading comprehension",
+        "other"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
     "Authors": [
-        "Khalid N. Elmadani",
-        "Nizar Habash",
-        "Hanada Taha-Thomure"
+        "Mustafa Saeed",
+        "Nizar Habash"
     ],
     "Affiliations": [
         "New York University Abu Dhabi",
-        "Zayed University"
+        "Computational Approaches to Modeling Language (CAMeL) Lab"
     ],
-    "Abstract": "This paper introduces the Balanced Arabic Readability Evaluation Corpus (BAREC), a large-scale, fine-grained dataset for Arabic readability assessment. BAREC consists of 69,441 sentences spanning 1+ million words, carefully curated to cover 19 readability levels, from kindergarten to postgraduate comprehension. The corpus balances genre diversity, topical coverage, and target audiences, offering a comprehensive resource for evaluating Arabic text complexity. The corpus was fully manually annotated by a large team of annotators. The average pairwise inter-annotator agreement, measured by Quadratic Weighted Kappa, is 81.8%, reflecting a high level of substantial agreement. Beyond presenting the corpus, we benchmark automatic readability assessment across different granularity levels, comparing a range of techniques. Our results highlight the challenges and opportunities in Arabic readability modeling, demonstrating competitive performance across various methods. To support research and education, we make BAREC openly available, along with detailed annotation guidelines and benchmark results.\n",
-    "Added By": "Zaid Alyafeai"
+    "Abstract": "Lemmatization is crucial for NLP tasks in morphologically rich languages with ambiguous orthography like Arabic, but existing tools face challenges due to inconsistent standards and limited genre coverage. This paper introduces two novel approaches that frame lemmatization as classification into a Lemma-POS-Gloss (LPG) tagset, leveraging machine translation and semantic clustering. We also present a new Arabic lemmatization testset covering diverse genres, standardized alongside existing datasets. We evaluate character-level sequence-to-sequence models, which perform competitively and offer complementary value, but are limited to lemma prediction (not LPG) and prone to hallucinating implausible forms. Our results show that classification and clustering yield more robust, interpretable outputs, setting new benchmarks for Arabic lemmatization.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
 }
