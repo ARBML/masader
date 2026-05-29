@@ -1,0 +1,80 @@
+{
+    "Name": "3LM",
+    "Volume": 3151.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/tiiuae/3LM-benchmark",
+    "HF_Link": "https://huggingface.co/datasets/tiiuae/NativeQA",
+    "Year": 2025,
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "machine annotation",
+        "human annotation"
+    ],
+    "Description": "Benchmark suite for evaluating Arabic LLMs in STEM and code.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Technology Innovation Institute"
+    ],
+    "Derived_From": [
+        "HumanEval",
+        "MBPP",
+        "YourBench"
+    ],
+    "Paper_Title": "3LM: Bridging Arabic, STEM, and Code through Benchmarking",
+    "Paper_Link": "http://arxiv.org/pdf/2507.15850v3.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "multiple choice question answering",
+        "code generation"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
+    "Authors": [
+        "Basma ElAmel Boussaha",
+        "Leen AlQadi",
+        "Mugariya Farooq",
+        "Shaikha Alsuwaidi",
+        "Giulia Campesan",
+        "Ahmed Alzubaidi",
+        "Mohammed Alyafeai",
+        "Hakim Hacid"
+    ],
+    "Affiliations": [
+        "Technology Innovation Institute"
+    ],
+    "Abstract": "Arabic is one of the most widely spoken languages globally, playing an increasingly important role in AI and machine learning. However, Large Language Models (LLMs) are still far behind in Arabic, particularly in STEM and code. To address this, we introduce 3LM, a suite of three benchmarks for evaluating Arabic LLMs across core STEM disciplines, including general science, mathematics, chemistry, physics, and biology, and code generation. The first benchmark consists of native MCQs sourced from Arabic educational worksheets and textbooks. The second is synthetic, generated using the YourBench framework based on scientific textbooks. The third adapts MBPP and HumanEval via machine translation with human-in-the-loop validation. We present these benchmarks, evaluate over 40 LLMs, and analyze cross-task correlations. 3LM fills a key gap in Arabic LLM evaluation, offering a robust framework for assessing model capabilities in scientific and programming domains.",
+    "Subsets": [
+        {
+            "Name": "Native",
+            "Volume": 865.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Synthetic",
+            "Volume": 1744.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Code",
+            "Volume": 542.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
