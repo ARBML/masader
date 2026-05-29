@@ -2,10 +2,16 @@
     "Name": "MuDRiC",
     "Subsets": [
         {
-            "Name": "jkdf",
-            "Volume": 0.0,
-            "Unit": "hours",
-            "Dialect": "mixed"
+            "Name": "Egyptian",
+            "Volume": 33288.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Morrocan",
+            "Volume": 0.0033288,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
         }
     ],
     "HF Link": "",
