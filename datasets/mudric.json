@@ -8,10 +8,16 @@
             "Dialect": "Egypt"
         },
         {
-            "Name": "Morrocan",
-            "Volume": 0.0033288,
+            "Name": "Moroccan",
+            "Volume": 33288.0,
             "Unit": "sentences",
             "Dialect": "Morocco"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 33288.0,
+            "Unit": "sentences",
+            "Dialect": "Gulf"
         }
     ],
     "HF Link": "",
