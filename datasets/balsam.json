@@ -1,44 +1,46 @@
 {
     "Name": "BALSAM",
-    "Volume": 52000.0,
-    "Unit": "sentences",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://benchmarks.ksaa.gov.sa/b/balsam",
-    "HF_Link": "",
+    "License": "unknown",
     "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
-        "public datasets",
-        "other"
+        "public datasets"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "manual curation",
         "LLM generated",
         "human annotation"
     ],
     "Description": "BALSAM benchmark for Arabic LLMs.",
-    "Ethical_Risks": "Low",
+    "Volume": 52000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
     "Provider": [
         "KSAA"
     ],
-    "Derived_From": [
+    "Derived From": [
         "PromptSource",
         "Super-Natural-Instructions",
         "TruthfulQA",
         "P3",
         "AraMath"
     ],
-    "Paper_Title": "BALSAM: A Platform for Benchmarking Arabic Large Language Models",
-    "Paper_Link": "http://arxiv.org/pdf/2507.22603v1.pdf",
+    "Paper Title": "BALSAM: A Platform for Benchmarking Arabic Large Language Models",
+    "Paper Link": "http://arxiv.org/pdf/2507.22603v1.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": true,
     "Tasks": [
         "summarization",
         "question answering",
-        "text classification",
         "machine translation",
         "fill-in-the blank",
         "dialect identification",
@@ -47,19 +49,13 @@
         "hate speech detection",
         "intent classification",
         "coreference resolution",
-        "reading comprehension",
-        "translation",
         "transliteration",
         "diacritization",
-        "sarcasm detection",
-        "text simplification",
-        "paraphrasing",
-        "grammar correction",
-        "ethics classification"
+        "sarcasm detection"
     ],
-    "Venue_Title": "",
-    "Venue_Type": "preprint",
-    "Venue_Name": "",
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "preprint",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Rawan Al-Matham",
         "Kareem Darwish",
@@ -106,10 +102,6 @@
         "Abdulrahman AlOsaimy"
     ],
     "Affiliations": [],
-    "Abstract": "LLM performance in Arabic lags behind, due to data scarcity, linguistic diversity of Arabic and its dialects, morphological complexity, etc. marking initiatives, such as LAraBench (Abdelali et al., 2024), have primarily focused on standard natural language generation and understanding tasks. A more recent effort, AraGen (El Filali et al., 2024), introduced a leaderboard-based framework that evaluates LLM performance across multiple dimensions, including correctness, completeness, conciseness, helpfulness, honesty, and harmlessness, in an LLM-as-a-judge setup. In parallel, several datasets have been developed to assess LLM capabilities across different dimensions: Arabic MMLU (Koto et al., 2024) targets world knowledge, AraDiCE (Mousi et al., 2025) focuses on dialects with cognitive and cultural understanding, Palm (Alwajih et al., 2025) addresses cultural comprehension, and Ashraf et al. (2025) focus on safety. However, existing efforts address limited LLM capabilities, lack comprehensive coverage, and have no dedicated platforms for community collaboration. Critically, measuring progress in a consistent and reliable manner requires a standardized, community-driven framework with blind test datasets, an aspect that remains largely underdeveloped. Here, we aim to bridge this gap. In particular, we present the Benchmark for Arabic Language Models (BALSAM), which is a comprehensive community-driven initiative designed to advance benchmarking efforts for Arabic LLMs. BALSAM includes a collection of 78 tasks across 14 categories, with a total of 52K examples divided into 37K test and 15K dev. These tasks span a wide range of natural language understanding and generation tasks, including summarization, question answering, information extraction, machine translation, and text classification, among others. BALSAM further provides an integrated evaluation platform featuring an Arabic LLM Leaderboard. This enables the research community to systematically assess the performance of Arabic LLMs, to monitor progress over time, and to access up-to-date benchmark results for the top-performing LLMs. The BALSAM platform goes beyond a traditional leaderboard, serving as a collaborative effort for leading academic and governmental institutions across the Middle East and beyond. Its core mission is to drive the creation of domain-specific test datasets and to establish robust benchmarks for evaluating Arabic LLMs. By promoting transparency and cooperation, BALSAM aims to unify the Arabic NLP community around shared datasets and standards. Further, we investigate a variety of automated metrics and measure their correlation with human evaluation. We show that using LLM-as-a-Judge highly correlates with human judgments while other measures such as BLEU, ROUGE, and BertScore don\u2019t.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Abstract": "The impressive advancement of Large Language Models (LLMs) in English has not been matched across all languages. In particular, LLM performance in Arabic lags behind, due to data scarcity, linguistic diversity of Arabic and its dialects, morphological complexity, etc. Progress is further hindered by the quality of Arabic benchmarks, which typically rely on static, publicly available data, lack comprehensive task coverage, or do not provide dedicated platforms with blind test sets. This makes it challenging to measure actual progress and to mitigate data contamination. Here, we aim to bridge these gaps. In particular, we introduce BALSAM, a comprehensive, community-driven benchmark aimed at advancing Arabic LLM development and evaluation. It includes 78 NLP tasks from 14 broad categories, with 52K examples divided into 37K test and 15K development, and a centralized, transparent platform for blind evaluation. We envision BALSAM as a unifying platform that sets standards and promotes collaborative research to advance Arabic LLM capabilities.",
+    "Added By": "Zaid Alyafeai"
 }
