@@ -1,0 +1,64 @@
+{
+    "Name": "MultiDiac",
+    "Volume": 206.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://huggingface.co/datasets/herwoww/MultiDiac",
+    "HF_Link": "https://huggingface.co/datasets/herwoww/MultiDiac",
+    "Year": 2025,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "manual curation"
+    ],
+    "Description": "Multilingual text diacritization dataset",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Mohamed Bin Zayed University of Artificial Intelligence",
+        "University of British Columbia"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Are LLMs Good Text Diacritizers? An Arabic and Yoruba Case Study",
+    "Paper_Link": "http://arxiv.org/pdf/2506.11602v2.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
+    "Authors": [
+        "Hawau Olamide Toyin",
+        "Samar Mohamed Magdy",
+        "Hanan Aldarmaki"
+    ],
+    "Affiliations": [
+        "Mohamed Bin Zayed University of Artificial Intelligence",
+        "University of British Columbia"
+    ],
+    "Abstract": "We investigate the effectiveness of large language models (LLMs) for text diacritization in two typologically distinct languages: Arabic and Yoruba. To enable a rigorous evaluation, we introduce a novel multilingual dataset MultiDiac, with diverse samples that capture a range of diacritic ambiguities. We evaluate 12 LLMs varying in size, accessibility, and language coverage, and benchmark them against 4 specialized diacritization models. Additionally, we fine-tune four small open-source models using LoRA for Yoruba. Our results show that many off-the-shelf LLMs outperform specialized diacritization models, but smaller models suffer from hallucinations. We find that fine-tuning on a small dataset can help improve diacritization performance and reduce hallucinations for Yoruba.",
+    "Subsets": [
+        {
+            "Name": "Arabic",
+            "Volume": 106.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Yoruba",
+            "Volume": 100.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "Dialect": "mixed",
+    "Language": "multilingual",
+    "Script": "Arab-Latin",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
