@@ -1,0 +1,53 @@
+{
+    "Name": "MuDRiC",
+    "Volume": 110000.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/KareemElozeiri/MuDRiC",
+    "HF_Link": "",
+    "Year": 2025,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "LLM generated"
+    ],
+    "Description": "First multi-dialect Arabic commonsense dataset.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Derived_From": [
+        "Arabic Dataset for Commonsense Validation",
+        "ArabicSense"
+    ],
+    "Paper_Title": "MuDRiC: Multi-Dialect Reasoning for Arabic Commonsense Validation",
+    "Paper_Link": "http://arxiv.org/pdf/2508.13130v2.pdf",
+    "Tokenized": true,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Kareem Elozeiri",
+        "Mervat Abassy",
+        "Preslav Nakov",
+        "Yuxia Wang"
+    ],
+    "Affiliations": [
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Abstract": "Commonsense validation evaluates whether a sentence aligns with everyday human understanding. While progress has been made in English, the task remains underexplored in Arabic, particularly given its rich linguistic diversity. Existing Arabic resources focus on Modern Standard Arabic (MSA), leaving regional dialects underrepresented. To bridge this gap, we introduce MuDRiC, the first Arabic multi-dialect commonsense reasoning dataset incorporating multiple dialects. We further propose a novel method adapting Graph Convolutional Networks (GCNs) to Arabic commonsense reasoning, enhancing semantic relationship modeling. Experimental results show this approach outperforms direct language model fine-tuning. Our work enhances Arabic NLP by providing a foundational dataset and a new method for handling complex variations. Data and code are available at https://github.com/KareemElozeiri/MuDRiC.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
