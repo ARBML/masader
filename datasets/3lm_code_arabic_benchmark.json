@@ -1,0 +1,57 @@
+{
+    "Name": "3LM Code Arabic Benchmark",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/tiiuae/evalplus-arabic",
+    "Link": "https://github.com/tiiuae/3LM-benchmark",
+    "License": "custom",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated"
+    ],
+    "Description": "This dataset includes Arabic translations of two widely-used code evaluation benchmarks \u2014 HumanEval+ and MBPP+ \u2014 adapted into Arabic for the first time as part of the 3LM project.",
+    "Volume": 542.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Technology Innovation Institute"
+    ],
+    "Derived From": [
+        "HumanEval+",
+        "MBPP+"
+    ],
+    "Paper Title": "3LM: Bridging Arabic, STEM, and Code through Benchmarking",
+    "Paper Link": "http://arxiv.org/pdf/2507.15850v3.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "code generation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Basma ElAmel Boussaha",
+        "Leen AlQadi",
+        "Mugariya Farooq",
+        "Shaikha Alsuwaidi",
+        "Giulia Campesan",
+        "Ahmed Alzubaidi",
+        "Mohammed Alyafeai",
+        "Hakim Hacid"
+    ],
+    "Affiliations": [
+        "Technology Innovation Institute"
+    ],
+    "Abstract": "Arabic is one of the most widely spoken languages in the world, yet efforts to develop and evaluate Large Language Models (LLMs) for Arabic remain relatively limited. Most existing Arabic benchmarks focus on linguistic, cultural, or religious content, leaving a significant gap in domains like STEM and code which are increasingly relevant for real-world LLM applications. To help bridge this gap, we present 3LM, a suite of three benchmarks designed specifically for Arabic. The first is a set of STEM-related question-answer pairs, naturally sourced from Arabic textbooks and educational worksheets. The second consists of synthetically generated STEM questions, created using the same sources. The third benchmark focuses on code generation, built through a careful translation of two widely used code benchmarks, incorporating a human-in-the-loop process with several rounds of review to ensure high-quality and faithful translations. We release all three benchmarks publicly to support the growth of Arabic LLM research in these essential but underrepresented areas.",
+    "Added By": "Zaid Alyafeai"
+}
