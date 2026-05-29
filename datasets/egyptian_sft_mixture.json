@@ -12,7 +12,6 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation",
         "LLM generated",
         "machine annotation"
     ],
@@ -24,18 +23,13 @@
         "MBZUAI"
     ],
     "Derived From": [
-        "UltraChat",
-        "WildChat",
+        "T\u00fclu-v2&3-mix ",
         "Aya Collection",
-        "EFC-mini",
-        "Egyptian Wikipedia",
-        "TULU Ar",
-        "TULU Ltn",
-        "Translit",
-        "Ben-Ltn",
-        "MT Long",
-        "MT Short",
-        "Ben-Ar"
+        "WildChat",
+        "UltraChat",
+        "MMLU",
+        "HellaSwag",
+        "BeleBele"
     ],
     "Paper Title": "Nile-Chat: Egyptian Language Models for Arabic and Latin Scripts",
     "Paper Link": "http://arxiv.org/pdf/2507.04569v1.pdf",
