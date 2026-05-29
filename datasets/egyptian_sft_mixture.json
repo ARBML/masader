@@ -1,0 +1,72 @@
+{
+    "Name": "Egyptian SFT Mixture",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/MBZUAI-Paris/Egyptian-SFT-Mixture",
+    "Link": "https://huggingface.co/datasets/MBZUAI-Paris/Egyptian-SFT-Mixture",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Egypt",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "LLM generated",
+        "machine annotation"
+    ],
+    "Description": "An LLM family for Egyptian Arabic supporting both Arabic and Latin scripts.",
+    "Volume": 1853126.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "MBZUAI"
+    ],
+    "Derived From": [
+        "UltraChat",
+        "WildChat",
+        "Aya Collection",
+        "EFC-mini",
+        "Egyptian Wikipedia",
+        "TULU Ar",
+        "TULU Ltn",
+        "Translit",
+        "Ben-Ltn",
+        "MT Long",
+        "MT Short",
+        "Ben-Ar"
+    ],
+    "Paper Title": "Nile-Chat: Egyptian Language Models for Arabic and Latin Scripts",
+    "Paper Link": "http://arxiv.org/pdf/2507.04569v1.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "instruction tuning"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Guokan Shang",
+        "Hadi Abdine",
+        "Ahmad Chamma",
+        "Amr Mohamed",
+        "Mohamed Anwar",
+        "Abdelaziz Bounhar",
+        "Omar El Herraoui",
+        "Preslav Nakov",
+        "Michalis Vazirgiannis",
+        "Eric Xing"
+    ],
+    "Affiliations": [
+        "MBZUAI",
+        "Ecole Polytechnique"
+    ],
+    "Abstract": "We introduce Nile-Chat-4B, 3x4B-A6B, and 12B1, a collection of LLMs for Egyptian dialect, uniquely designed to understand and generate texts written in both Arabic and Latin scripts. Specifically, with Nile-Chat-3x4B-A6B, we introduce a novel language adaptation approach by leveraging the Branch-Train-MiX strategy to merge script-specialized experts, into a single MoE model. Our Nile-Chat models significantly outperform leading multilingual and Arabic LLMs\u2014such as LLaMa, Jais, and ALLaM\u2014on our newly introduced Egyptian evaluation benchmarks, which span both understanding and generative tasks. Notably, our 12B model yields a 14.4% performance gain over Qwen2.5-14B-Instruct on Latin-script benchmarks. All our resources are publicly available. We believe this work presents a comprehensive methodology for adapting LLMs to dual-script languages, addressing an often overlooked aspect in modern LLM development.",
+    "Added By": "Zaid Alyafeai"
+}
