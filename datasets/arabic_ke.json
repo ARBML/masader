@@ -1,0 +1,55 @@
+{
+    "Name": "Arabic KE",
+    "Volume": 0.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/baselmousi/arabic-knowledge-editing",
+    "HF_Link": "",
+    "Year": 2025,
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "machine annotation"
+    ],
+    "Description": "Arabic translations of ZsRE and Counterfact benchmarks for knowledge editing analysis.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Qatar Computing Research Institute",
+        "HBKU"
+    ],
+    "Derived_From": [
+        "ZsRE",
+        "Counterfact",
+        "NLLB-200"
+    ],
+    "Paper_Title": "An Exploration of Knowledge Editing for Arabic",
+    "Paper_Link": "http://arxiv.org/pdf/2507.09629v2.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "language modeling"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Basel Mousi",
+        "Nadir Durrani",
+        "Fahim Dalvi"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "HBKU"
+    ],
+    "Abstract": "While Knowledge Editing (KE) has been widely explored in English, its behavior in morphologically rich languages like Arabic remains underexamined. In this work, we present the first study of Arabic KE. We evaluate four methods (ROME, MEMIT, ICE, and LTE) on Arabic translations of the ZsRE and Counterfact benchmarks, analyzing both multilingual and cross-lingual settings. Our experiments on Llama-2-7B-chat show that parameter-based methods struggle with cross-lingual generalization, while instruction-tuned methods perform more robustly. We extend Learning-To-Edit (LTE) to a multilingual setting and show that joint Arabic-English training improves both editability and transfer. We release Arabic KE benchmarks and multilingual training for LTE data to support future research.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "google/gemini-3.1-flash-lite"
+}
