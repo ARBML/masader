@@ -1,0 +1,49 @@
+{
+    "Name": "cyber",
+    "Volume": 10662.0,
+    "Unit": "documents",
+    "License": "CC BY-SA 4.0",
+    "Link": "https://doi.org/10.11591/ijai.v14.i3.pp2258-2269",
+    "HF_Link": "",
+    "Year": 2025,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Dataset for Arabic cyberbullying",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Taibah University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Enhanced Arabic-language cyberbullying detection: deep embedding and transformer (BERT) approaches",
+    "Paper_Link": "http://arxiv.org/pdf/2510.02232v1.pdf",
+    "Tokenized": true,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "offensive language detection"
+    ],
+    "Venue_Title": "IJ-AI",
+    "Venue_Type": "journal",
+    "Venue_Name": "IAES IJ-AI",
+    "Authors": [
+        "Ebtesam Jaber Aljohani",
+        "Wael M. S. Yafooz"
+    ],
+    "Affiliations": [
+        "Taibah University"
+    ],
+    "Abstract": "Recent technological advances in smartphones and communications, including the growth of such online platforms as massive social media networks such as X (formerly known as Twitter) endangers young people and their emotional well-being by exposing them to cyberbullying, taunting, and bullying content. Most proposed approaches for automatically detecting cyberbullying have been developed around the English language, and methods for detecting Arabic-language cyberbullying are scarce. Methods for detecting Arabic-language cyberbullying are especially scarce. This paper aims to enhance the effectiveness of methods for detecting Arabic cyberbullying in Arabic-language content. We assembled a dataset of 10,662 X posts, pre-processed the data, and used the kappa tool to verify and enhance the quality of our annotations. We conducted four experiments to test numerous deep learning models for automatically detecting Arabic-language cyberbullying. We first tested a long short-term memory (LSTM) model and a bidirectional long short-term memory (Bi-LSTM) model with several experimental word embeddings. We also tested the LSTM and Bi-LSTM models with a novel pre-trained bidirectional encoder from representations (BERT) and then tested them on a different experimental models BERT again. LSTM-BERT and Bi-LSTM-BERT demonstrated a 97% accuracy. Bi-LSTM with FastText embedding word performed even better, achieving 98% accuracy. As a result, the outcomes are generalized.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
