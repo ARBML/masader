@@ -1,46 +1,51 @@
 {
     "Name": "AraDhati+",
-    "Volume": 77916.0,
-    "Unit": "documents",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://github.com/Attia14/AraDhati",
-    "HF_Link": "",
-    "Year": 2024,
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
+        "public datasets",
         "social media",
-        "news articles",
-        "reviews"
+        "reviews",
+        "news articles"
     ],
     "Form": "text",
-    "Collection_Style": [
-        "manual curation"
+    "Collection Style": [
+        "other"
     ],
-    "Description": "Dataset for Arabic subjectivity classification.",
-    "Ethical_Risks": "Medium",
+    "Description": "Dataset for Arabic subjectivity classification combined by levering existing Arabic datasets.",
+    "Volume": 77916.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
     "Provider": [
         "Universit\u00e9 de Ghardaia",
         "Ziane Achour University",
         "Universit\u00e9 Amar Telidji"
     ],
-    "Derived_From": [
+    "Derived From": [
         "ASTD",
         "LABR",
         "HARD",
         "SANAD"
     ],
-    "Paper_Title": "Dhati+: Fine-tuned Large Language Models for Arabic Subjectivity Evaluation",
-    "Paper_Link": "http://arxiv.org/pdf/2508.19966v1.pdf",
-    "Tokenized": true,
+    "Paper Title": "Dhati+: Fine-tuned Large Language Models for Arabic Subjectivity Evaluation",
+    "Paper Link": "http://arxiv.org/pdf/2508.19966v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": true,
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue_Title": "unknown",
-    "Venue_Type": "unknown",
-    "Venue_Name": "",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Slimane Bellaouar",
         "Attia Nehar",
@@ -53,9 +58,5 @@
         "Universit\u00e9 Amar Telidji"
     ],
     "Abstract": "Despite its significance, Arabic, a linguistically rich and morphologically complex language, faces the challenge of being under-resourced. The scarcity of large annotated datasets hampers the development of accurate tools for subjectivity analysis in Arabic. Recent advances in deep learning and Transformers have proven highly effective for text classification in English and French. This paper proposes a new approach for subjectivity assessment in Arabic textual data. To address the dearth of specialized annotated datasets, we developed a comprehensive dataset, AraDhati+, by leveraging existing Arabic datasets and collections (ASTD, LABR, HARD, and SANAD). Subsequently, we fine-tuned state-of-the-art Arabic language models (XLM-RoBERTa, AraBERT, and ArabianGPT) on AraDhati+ for effective subjectivity classification. Furthermore, we experimented with an ensemble decision approach to harness the strengths of individual models. Our approach achieves a remarkable accuracy of 97.79% for Arabic subjectivity classification. Results demonstrate the effectiveness of the proposed approach in addressing the challenges posed by limited resources in Arabic language processing.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
