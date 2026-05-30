@@ -1,6 +1,6 @@
 {
     "Name": "ArAIEval",
-    "Volume": 33028.0,
+    "Volume": 20000.0,
     "Unit": "documents",
     "License": "unknown",
     "Link": "https://araieval.gitlab.io/",
@@ -12,36 +12,30 @@
     ],
     "Form": "text",
     "Collection_Style": [
-        "human annotation"
+        "human annotation",
+        "crawling"
     ],
-    "Description": "ArAIEval: Shared task for persuasion and disinfo detection.",
+    "Description": "Arabic persuasion and disinformation detection dataset.",
     "Ethical_Risks": "Medium",
     "Provider": [
-        "Qatar Computing Research Institute, HBKU",
-        "Hamad Bin Khalifa University",
-        "Mohamed bin Zayed University of Artificial Intelligence",
-        "University of Padova",
-        "University of Trento"
+        "Qatar Computing Research Institute"
     ],
     "Derived_From": [
-        "AraFacts",
-        "WANLP 2022"
+        "AraFacts"
     ],
     "Paper_Title": "ArAIEval Shared Task: Persuasion Techniques and Disinformation Detection in Arabic Text",
-    "Paper_Link": "https://aclanthology.org/2023.arabicnlp-1.44.pdf",
-    "Tokenized": false,
+    "Paper_Link": "https://arxiv.org/pdf/2311.03179v1.pdf",
+    "Tokenized": true,
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
     "Test_Split": true,
     "Tasks": [
-        "hate speech detection",
-        "offensive language detection",
         "other"
     ],
     "Venue_Title": "ArabicNLP",
     "Venue_Type": "workshop",
-    "Venue_Name": "ArabicNLP",
+    "Venue_Name": "First Arabic NLP Conference",
     "Authors": [
         "Maram Hasanain",
         "Firoj Alam",
@@ -53,15 +47,15 @@
         "AbedAlhakim Freihat"
     ],
     "Affiliations": [
-        "Qatar Computing Research Institute, HBKU",
+        "Qatar Computing Research Institute",
         "Hamad Bin Khalifa University",
         "Mohamed bin Zayed University of Artificial Intelligence",
         "University of Padova",
         "University of Trento"
     ],
-    "Abstract": "We present an overview of the ArAIEval shared task, organized as part of the first Arabic NLP shared tasks... ArAIEval offers two tasks over Arabic text: (i) persuasion technique detection, focusing on identifying persuasion techniques in tweets and news articles, and (ii) disinformation detection in binary and multiclass setups over tweets. A total of 20 teams participated in the final evaluation phase, with 14 and 16 teams participating in Tasks 1 and 2, respectively. Across both tasks, we observed that fine-tuning transformer models such as AraBERT was at the core of the majority of the participating systems. We provide a description of the task setup, including a description of the dataset construction and the evaluation setup. We further give a brief overview of the participating systems. All datasets and evaluation scripts from the shared task are released to the research community. We hope this will enable further research on these important tasks in Arabic.",
+    "Abstract": "We present an overview of the ArAIEval shared task, organized as part of the first Arabic NLP shared tasks conference co-located with EMNLP 2023. ArAIEval offers two tasks over Arabic text: (i) persuasion technique detection, focusing on identifying persuasion techniques in tweets and news articles, and (ii) disinformation detection in binary and multiclass setups over tweets. A total of 20 teams participated in the final evaluation phase, with 14 and 16 teams participating in Tasks 1 and 2, respectively. Across both tasks, we observed that fine-tuning transformer models such as AraBERT was at the core of the majority of the participating systems. We provide a description of the task setup, including a description of the dataset construction and the evaluation setup. We further give a brief overview of the participating systems. All datasets and evaluation scripts from the shared task are released to the research community. We hope this will enable further research on these important tasks in Arabic.",
     "Subsets": [],
-    "Dialect": "Modern Standard Arabic",
+    "Dialect": "mixed",
     "Language": "ar",
     "Script": "Arab",
     "Added_By": "qwen/qwen3.6-35b-a3b"
