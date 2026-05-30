@@ -1,0 +1,60 @@
+{
+    "Name": "AlphaMWE-Arabic",
+    "Volume": 750.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/aaronlifenghan/AlphaMWE",
+    "HF_Link": "",
+    "Year": 2023,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "machine annotation",
+        "human annotation"
+    ],
+    "Description": "Arabic parallel corpus with MWE annotations",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "University of Tours",
+        "University of Sfax",
+        "University of Stuttgart",
+        "University of Manchester"
+    ],
+    "Derived_From": [
+        "AlphaMWE",
+        "PARSEME"
+    ],
+    "Paper_Title": "AlphaMWE-Arabic: Arabic Edition of Multilingual Parallel Corpora with Multiword Expression Annotations",
+    "Paper_Link": "https://aclanthology.org/2023.ranlp-1.50.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue_Title": "RANLP",
+    "Venue_Type": "conference",
+    "Venue_Name": "RANLP",
+    "Authors": [
+        "Najet Hadj Mohamed",
+        "Malak Rassem",
+        "Lifeng Han",
+        "Goran Nenadic"
+    ],
+    "Affiliations": [
+        "University of Tours",
+        "University of Sfax",
+        "University of Stuttgart",
+        "University of Manchester"
+    ],
+    "Abstract": "Multiword Expressions (MWEs), such as \u201ca cheap shot\u201d (a cruel verbal attack) or \u201ctake it with a grain of salt\u201d (regard something as exaggerated), have been a bottleneck for Natural Language Understanding (NLU) and Natural Language Generation (NLG) tasks due to their idiomaticity, ambiguity, and non-compositionality. Bilingual parallel corpora introducing MWE annotations are very scarce which set another challenge for current Natural Language Processing (NLP) systems, especially in a multilingual setting. This work presents AlphaMWE-Arabic, an Arabic edition of the AlphaMWE parallel corpus with a MWE annotations. We introduce how we created this corpus including machine translation (MT), post-editing, and annotations for both standard and dialectal varieties, i.e. Tunisian and Egyptian Arabic. We analyse the MT errors when they meet MWEs-related content, both quantitatively using the human-in-the-loop metric HOPE and qualitatively. We report the current state-of-the-art MT systems are far from reaching human parity performances. We expect our bilingual English-Arabic corpus will be an asset for multilingual research on MWEs such as translation and localisation, as well as for monolingual settings including the study of Arabic-specific lexicography and phrasal verbs on MWEs. Our corpus and experimental data are available at https://github.com/aaronlifenghan/AlphaMWE",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
