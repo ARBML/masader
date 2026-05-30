@@ -1,0 +1,85 @@
+{
+    "Name": "ArabicCulturalQA",
+    "Volume": 4500.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/QCRI/ArabicCulturalQA",
+    "HF_Link": "",
+    "Year": 2025,
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "machine annotation",
+        "human annotation",
+        "LLM generated"
+    ],
+    "Description": "An open-ended Arabic cultural QA benchmark with dialect variants.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Qatar Computing Research Institute"
+    ],
+    "Derived_From": [
+        "PalmX-GC"
+    ],
+    "Paper_Title": "Beyond MCQ: An Open-Ended Arabic Cultural QA Benchmark with Dialect Variants",
+    "Paper_Link": "http://arxiv.org/pdf/2510.24328v2.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "question answering",
+        "multiple choice question answering"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Hunzalah Hassan Bhatti",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "Large Language Models (LLMs) are increasingly used to answer everyday questions, yet their performance on culturally grounded and dialectal content remains limited across languages and their varieties. We propose a comprehensive method that (i) translates Modern Standard Arabic (MSA) multiple-choice questions (MCQs) into English and several Arabic dialects, (ii) converts them into open-ended questions (OEQs), (iii) benchmarks a range of zero-shot and fine-tuned LLMs under both MCQ and OEQ settings, and (iv) generates chain-of-thought (CoT) rationales to fine-tune models for step-by-step reasoning. Using this method, we extend an existing dataset in which QAs are parallelly aligned across language varieties, making it, to our knowledge, the first of its kind. A large portion of the resulting test set is further validated through targeted human annotation and native-speaker post-editing. We conduct extensive experiments with both open and closed models. Our findings show that (i) models underperform on Arabic dialects, showing persistent gaps in culturally grounded and dialect-specific knowledge; (ii) Arabic-centric models perform well on MCQs but struggle with OEQs; and (iii) CoT improves judged correctness while yielding mixed n-gram-based metrics.",
+    "Subsets": [
+        {
+            "Name": "MSA",
+            "Volume": 4500.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 4500.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Levantine",
+            "Volume": 4500.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 4500.0,
+            "Unit": "sentences",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "Maghrebi",
+            "Volume": 4500.0,
+            "Unit": "sentences",
+            "Dialect": "North Africa"
+        }
+    ],
+    "Dialect": "mixed",
+    "Language": "multilingual",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
