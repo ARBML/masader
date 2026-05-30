@@ -1,0 +1,81 @@
+{
+    "Name": "Synth",
+    "Volume": 2500000.0,
+    "Unit": "images",
+    "License": "unknown",
+    "Link": "https://huggingface.co/datasets/Humain-DocU/SynthDocs",
+    "HF_Link": "https://huggingface.co/datasets/Humain-DocU/SynthDocs",
+    "Year": 2024,
+    "Domain": [
+        "public datasets",
+        "web pages"
+    ],
+    "Form": "images",
+    "Collection_Style": [
+        "LLM generated",
+        "crawling",
+        "machine annotation"
+    ],
+    "Description": "Large-scale synthetic corpus for Arabic OCR & DU.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Humain"
+    ],
+    "Derived_From": [
+        "Industry Documents Library",
+        "arXiv",
+        "arbml/tashkeela",
+        "pixparse/idl-wds"
+    ],
+    "Paper_Title": "Cross-Lingual SynthDocs: A Large-Scale Synthetic Corpus for Any to Arabic OCR and Document Understanding",
+    "Paper_Link": "http://arxiv.org/pdf/2511.04699v1.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Haneen Al-Homoud",
+        "Asma Ibrahim",
+        "Murtadha Al-Jubran",
+        "Fahad Al-Otaibi",
+        "Yazeed Al-Harbi",
+        "Daulet Toibazar",
+        "Kesen Wang",
+        "Pedro J. Moreno"
+    ],
+    "Affiliations": [
+        "Humain"
+    ],
+    "Abstract": "Cross-Lingual SynthDocs is a large-scale synthetic corpus designed to address the scarcity of Arabic resources for Optical Character Recognition (OCR) and Document Understanding (DU). The dataset comprises over 2.5 million of samples, including 1.5 million textual data, 270K fully annotated tables, and hundred thousands of real data based charts. Our pipeline leverages authentic scanned backgrounds, bilingual layouts, and diacritic aware fonts to capture the typographic and structural complexity of Arabic documents. In addition to text, the corpus includes variety of rendered styles for charts and tables. Finetuning Qwen-2.5-VL on SynthDocs yields consistent improvements in Word Error Rate (WER) and Character Error Rate (CER) in terms of OCR across multiple public Arabic benchmarks, Tree-Edit Distance Similarity (TEDS) and Chart Extraction Score(CharTeX) improved as well in other modalities.",
+    "Subsets": [
+        {
+            "Name": "Textual Data",
+            "Volume": 1500000.0,
+            "Unit": "images",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "Tables",
+            "Volume": 270000.0,
+            "Unit": "images",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "Charts",
+            "Volume": 600000.0,
+            "Unit": "images",
+            "Dialect": "mixed"
+        }
+    ],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
