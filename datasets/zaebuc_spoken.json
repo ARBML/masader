@@ -5,16 +5,16 @@
     "License": "unknown",
     "Link": "http://www.zaebuc.org",
     "HF_Link": "",
-    "Year": 2022,
+    "Year": 2024,
     "Domain": [
         "other"
     ],
     "Form": "audio",
     "Collection_Style": [
         "human annotation",
-        "machine annotation"
+        "manual curation"
     ],
-    "Description": "Multilingual multidialectal Arabic-English speech corpus.",
+    "Description": "Multilingual Arabic-English speech corpus.",
     "Ethical_Risks": "Low",
     "Provider": [
         "Zayed University"
@@ -23,7 +23,7 @@
         "ZAEBUC"
     ],
     "Paper_Title": "ZAEBUC-Spoken: A Multilingual Multidialectal Arabic-English Speech Corpus",
-    "Paper_Link": "https://aclanthology.org/2024.lrec-main.1546.pdf",
+    "Paper_Link": "https://arxiv.org/pdf/2403.18182v1.pdf",
     "Tokenized": true,
     "Host": "other",
     "Access": "Free",
@@ -31,12 +31,12 @@
     "Test_Split": false,
     "Tasks": [
         "speech recognition",
-        "dialect identification",
-        "morphological analysis"
+        "morphological analysis",
+        "dialect identification"
     ],
-    "Venue_Title": "",
-    "Venue_Type": "",
-    "Venue_Name": "",
+    "Venue_Title": "LREC",
+    "Venue_Type": "conference",
+    "Venue_Name": "Language Resources and Evaluation Conference",
     "Authors": [
         "Injy Hamed",
         "Fadhl Eryani",
