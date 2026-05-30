@@ -1,0 +1,52 @@
+{
+    "Name": "ArBN",
+    "Volume": 19784.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://huggingface.co/datasets/dru-ac/ArBNTopic",
+    "HF_Link": "https://huggingface.co/datasets/dru-ac/ArBNTopic",
+    "Year": 2023,
+    "Domain": [
+        "books",
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "manual curation"
+    ],
+    "Description": "Arabic dataset for topic classification",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Arab Center for Research and Policy Studies"
+    ],
+    "Derived_From": [
+        "SANAD"
+    ],
+    "Paper_Title": "Arabic Topic Classification in the Generative and AutoML Era",
+    "Paper_Link": "https://aclanthology.org/2023.arabicnlp-1.32.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "0",
+    "Test_Split": true,
+    "Tasks": [
+        "topic classification"
+    ],
+    "Venue_Title": "ArabicNLP",
+    "Venue_Type": "conference",
+    "Venue_Name": "ArabicNLP",
+    "Authors": [
+        "Doha Albared",
+        "Hadi Hamoud",
+        "Fadi A. Zaraket"
+    ],
+    "Affiliations": [
+        "Arab Center for Research and Policy Studies"
+    ],
+    "Abstract": "Abstract less, these models are built from the ground up, demanding large datasets and several days of training. Most recent models for Arabic topic classification leveraged fine-tuning existing pre-trained transformer models and targeted a limited number of categories. More recently, advances in automated ML and generative models introduced novel potentials for the task. While these approaches work for English, it is a question of whether they perform well for low-resourced languages; Arabic in particular. This paper presents (i) ArBNTopic; a novel Arabic dataset with an extended 14-topic class set covering modern books from social sciences and humanities along with newspaper articles, and (ii) a set of topic classifiers built from it. We fine-tuned an open LLM model to build ArGTC. We compared its performance against the best models built with Vertex AI (Google), AutoML(H2O), and AutoTrain(HuggingFace). ArGTC outperformed the VertexAi and AutoML models, and was reasonably similar to the AutoTrain model.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
