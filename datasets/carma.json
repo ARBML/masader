@@ -1,37 +1,41 @@
 {
     "Name": "CARMA",
-    "Volume": 340343.0,
-    "Unit": "documents",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/smankarious/carma",
     "Link": "https://github.com/fibonacci-2/CARMA",
-    "HF_Link": "https://huggingface.co/datasets/smankarious/carma",
+    "License": "MIT License",
     "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
         "social media"
     ],
     "Form": "text",
-    "Collection_Style": [
-        "machine annotation"
+    "Collection Style": [
+        "crawling"
     ],
     "Description": "First auto-annotated Arabic Reddit mental health dataset.",
-    "Ethical_Risks": "Medium",
+    "Volume": 100.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
     "Provider": [
         "George Washington University"
     ],
-    "Derived_From": [],
-    "Paper_Title": "CARMA: COMPREHENSIVE AUTOMATICALLY-ANNOTATED REDDIT MENTAL HEALTH DATASET FOR ARABIC",
-    "Paper_Link": "http://arxiv.org/pdf/2511.03102v1.pdf",
+    "Derived From": [],
+    "Paper Title": "CARMA: COMPREHENSIVE AUTOMATICALLY-ANNOTATED REDDIT MENTAL HEALTH DATASET FOR ARABIC",
+    "Paper Link": "http://arxiv.org/pdf/2511.03102v1.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
-    "Access": "Upon-Request",
+    "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
         "other"
     ],
-    "Venue_Title": "",
-    "Venue_Type": "preprint",
-    "Venue_Name": "arXiv",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Saad Mankarious",
         "Ayah Zirikly"
@@ -40,9 +44,5 @@
         "George Washington University"
     ],
     "Abstract": "Mental health disorders affect millions worldwide, yet early detection remains a major challenge, particularly for Arabic-speaking populations where resources are limited and mental health discourse is often discouraged due to cultural stigma. While substantial research has focused on English-language mental health detection, Arabic remains significantly underexplored, partly due to the scarcity of annotated datasets. We present CARMA, the first automatically annotated large-scale dataset of Arabic Reddit posts. The dataset encompasses six mental health conditions, such as Anxiety, Autism, and Depression, and a control group. CARMA surpasses existing resources in both scale and diversity. We conduct qualitative and quantitative analyses of lexical and semantic differences between users, providing insights into the linguistic markers of specific mental health conditions. To demonstrate the dataset\u2019s potential for further mental health analysis, we perform classification experiments using a range of models, from shallow classifiers to large language models. Our results highlight the promise of advancing mental health detection in underrepresented languages such as Arabic.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
