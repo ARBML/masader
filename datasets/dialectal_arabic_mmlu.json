@@ -1,0 +1,91 @@
+{
+    "Name": "Dialectal Arabic MMLU",
+    "Subsets": [
+        {
+            "Name": "Syrian",
+            "Volume": 3135.0,
+            "Unit": "sentences",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 3135.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Emirati",
+            "Volume": 3135.0,
+            "Unit": "sentences",
+            "Dialect": "United Arab Emirates"
+        },
+        {
+            "Name": "Saudi",
+            "Volume": 3135.0,
+            "Unit": "sentences",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "Moroccan",
+            "Volume": 3135.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/MBZUAI/Dialectal-Arabic-MMLU",
+    "Link": "https://huggingface.co/datasets/MBZUAI/Dialectal-Arabic-MMLU",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Dialectal-Arabic-MMLU is a large-scale, human-translated dataset from MMLU-Redux into 5 major dialects: Syrian, Egyptian, Emirati, Saudi, and Moroccan. ",
+    "Volume": 18810.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "MBZUAI"
+    ],
+    "Derived From": [
+        "MMLU-Redux"
+    ],
+    "Paper Title": "DIALECTALARABICMMLU: Benchmarking Dialectal Capabilities in Arabic and Multilingual Language Models",
+    "Paper Link": "http://arxiv.org/pdf/2510.27543v2.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "multiple choice question answering"
+    ],
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
+    "Authors": [
+        "Malik H. Altakrori",
+        "Nizar Habash",
+        "Abed Alhakim Freihat",
+        "Younes Samih",
+        "Kirill Chirkunov",
+        "Muhammed AbuOdeh",
+        "Radu Florian",
+        "Teresa Lynn",
+        "Preslav Nakov",
+        "Alham Fikri Aji"
+    ],
+    "Affiliations": [
+        "IBM Research AI",
+        "New York University Abu Dhabi",
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Abstract": "We present DIALECTALARABICMMLU, a new benchmark for evaluating the performance of large language models (LLMs) across Arabic dialects. While recently developed Arabic and multilingual benchmarks have advanced LLM evaluation for Modern Standard Arabic (MSA), dialectal varieties remain underrepresented despite their prevalence in everyday communication. DIALECTALARABICMMLU extends the MMLU-Redux framework through manual translation and adaptation of 3K multiple-choice question\u2013answer pairs into five major dialects (Syrian, Egyptian, Emirati, Saudi, and Moroccan), yielding a total of 15K QA pairs across 32 academic and professional domains (22K QA pairs when also including English and MSA). The benchmark enables systematic assessment of LLM reasoning and comprehension beyond MSA, supporting both task-based and linguistic analysis. We evaluate 19 open-weight Arabic and multilingual LLMs (1B\u201313B parameters) and report substantial performance variation across dialects, revealing persistent gaps in dialectal generalization. DIALECTALARABICMMLU provides the first unified, human-curated resource for measuring dialectal understanding in Arabic, thus promoting more inclusive evaluation and future model development.",
+    "Added By": "Zaid Alyafeai"
+}
