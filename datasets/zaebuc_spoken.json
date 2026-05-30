@@ -1,0 +1,59 @@
+{
+    "Name": "ZAEBUC-Spoken",
+    "Volume": 12.0,
+    "Unit": "hours",
+    "License": "unknown",
+    "Link": "http://www.zaebuc.org",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection_Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "Multilingual multidialectal Arabic-English speech corpus.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Zayed University"
+    ],
+    "Derived_From": [
+        "ZAEBUC"
+    ],
+    "Paper_Title": "ZAEBUC-Spoken: A Multilingual Multidialectal Arabic-English Speech Corpus",
+    "Paper_Link": "https://aclanthology.org/2024.lrec-main.1546.pdf",
+    "Tokenized": true,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "speech recognition",
+        "dialect identification",
+        "morphological analysis"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
+    "Authors": [
+        "Injy Hamed",
+        "Fadhl Eryani",
+        "David Palfreyman",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi",
+        "University of Stuttgart",
+        "University of T\u00fcbingen",
+        "United Arab Emirates University",
+        "Zayed University"
+    ],
+    "Abstract": "We present ZAEBUC-Spoken, a multilingual multidialectal Arabic-English speech corpus. The corpus comprises twelve hours of Zoom meetings involving multiple speakers role-playing a work situation where Students brainstorm ideas for a certain topic and then discuss it with an Interlocutor. The meetings cover different topics and are divided into phases with different language setups. The corpus presents a challenging set for automatic speech recognition (ASR), including two languages (Arabic and English) with Arabic spoken in multiple variants (Modern Standard Arabic, Gulf Arabic, and Egyptian Arabic) and English used with various accents. Adding to the complexity of the corpus, there is also code-switching between these languages and dialects. As part of our work, we take inspiration from established sets of transcription guidelines to present a set of guidelines handling issues of conversational speech, code-switching and orthography of both languages. We further enrich the corpus with two layers of annotations; (1) dialectness level annotation for the portion of the corpus where mixing occurs between different variants of Arabic, and (2) automatic morphological annotations, including tokenization, lemmatization, and part-of-speech tagging.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "multilingual",
+    "Script": "Arab-Latin",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
