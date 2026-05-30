@@ -1,0 +1,84 @@
+{
+    "Name": "ArabicCulturalQA",
+    "Subsets": [
+        {
+            "Name": "MSA",
+            "Volume": 8969.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 8969.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Levantine",
+            "Volume": 8969.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 8969.0,
+            "Unit": "sentences",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "Maghrebi",
+            "Volume": 8969.0,
+            "Unit": "sentences",
+            "Dialect": "North Africa"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/QCRI/ArabicCulturalQA",
+    "Link": "https://huggingface.co/datasets/QCRI/ArabicCulturalQA",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2026,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation",
+        "LLM generated"
+    ],
+    "Description": "ArabicCulturalQA is the first cross-dialectal Arabic cultural QA benchmark with parallel multiple-choice (MCQ) and open-ended (OEQ) formats across Modern Standard Arabic (MSA), English, Egyptian, Levantine, Gulf, and Maghrebi.",
+    "Volume": 44845.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "PalmX-GC"
+    ],
+    "Paper Title": "Beyond MCQ: An Open-Ended Arabic Cultural QA Benchmark with Dialect Variants",
+    "Paper Link": "http://arxiv.org/pdf/2510.24328v2.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "question answering",
+        "multiple choice question answering"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "Language Resources and Evaluation Conference",
+    "Authors": [
+        "Hunzalah Hassan Bhatti",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "Large Language Models (LLMs) are increasingly used to answer everyday questions, yet their performance on culturally grounded and dialectal content remains limited across languages and their varieties. We propose a comprehensive method that (i) translates Modern Standard Arabic (MSA) multiple-choice questions (MCQs) into English and several Arabic dialects, (ii) converts them into open-ended questions (OEQs), (iii) benchmarks a range of zero-shot and fine-tuned LLMs under both MCQ and OEQ settings, and (iv) generates chain-of-thought (CoT) rationales to fine-tune models for step-by-step reasoning. Using this method, we extend an existing dataset in which QAs are parallelly aligned across language varieties, making it, to our knowledge, the first of its kind. A large portion of the resulting test set is further validated through targeted human annotation and native-speaker post-editing. We conduct extensive experiments with both open and closed models. Our findings show that (i) models underperform on Arabic dialects, showing persistent gaps in culturally grounded and dialect-specific knowledge; (ii) Arabic-centric models perform well on MCQs but struggle with OEQs; and (iii) CoT improves judged correctness while yielding mixed n-gram-based metrics.",
+    "Added By": "Zaid Alyafeai"
+}
