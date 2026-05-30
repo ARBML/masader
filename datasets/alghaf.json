@@ -1,0 +1,67 @@
+{
+    "Name": "AlGhaf",
+    "Volume": 248000000000.0,
+    "Unit": "tokens",
+    "License": "unknown",
+    "Link": "https://gitlab.com/tiiuae/alghafa",
+    "HF_Link": "",
+    "Year": 2023,
+    "Domain": [
+        "web pages",
+        "news articles",
+        "wikipedia",
+        "books"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Evaluation benchmark for Arabic LLMs.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Technology Innovation Institute"
+    ],
+    "Derived_From": [
+        "CommonCrawl",
+        "ArabicWeb16",
+        "OpenITI"
+    ],
+    "Paper_Title": "AlGhafa Evaluation Benchmark for Arabic Language Models",
+    "Paper_Link": "https://aclanthology.org/2023.arabicnlp-1.21.pdf",
+    "Tokenized": true,
+    "Host": "GitLab",
+    "Access": "Free",
+    "Cost": "Free",
+    "Test_Split": true,
+    "Tasks": [
+        "question answering",
+        "multiple choice question answering",
+        "sentiment analysis"
+    ],
+    "Venue_Title": "ArabicNLP2023",
+    "Venue_Type": "conference",
+    "Venue_Name": "The First Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Ebtesam Almazrouei",
+        "Ruxandra Cojocaru",
+        "Quentin Malartic",
+        "Hamza Alobeidli",
+        "Daniele Mazzotta",
+        "Guilherme Penedo",
+        "Giulia Campesan",
+        "Mugariya Farooq",
+        "Maitha Alhammadi",
+        "Julien Launay",
+        "Badreddine Noune"
+    ],
+    "Affiliations": [
+        "Technology Innovation Institute"
+    ],
+    "Abstract": "Recent advances in the space of Arabic large language models have opened up a wealth of potential practical applications. We introduce AlGhafa, a new multiple-choice evaluation benchmark for Arabic LLMs. For showcasing purposes, we train a new suite of models in numerous tasks within a zero-shot framework. We also perform a qualitative and quantitative toxicity evaluation of several Arabic models, comparing our models to existing public Arabic LLMs.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
