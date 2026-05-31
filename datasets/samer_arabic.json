@@ -1,0 +1,54 @@
+{
+    "Name": "SAMER-Arabic",
+    "Volume": 20358.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/CAMeL-Lab/samer-arabic-readability",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "manual curation",
+        "human annotation"
+    ],
+    "Description": "Dataset for Arabic readability assessment",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "New York University Abu Dhabi"
+    ],
+    "Derived_From": [
+        "SAMER Arabic Text Simplification Corpus"
+    ],
+    "Paper_Title": "Strategies for Arabic Readability Modeling",
+    "Paper_Link": "https://aclanthology.org/2024.arabicnlp-1.5.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "ArabicNLP",
+    "Venue_Type": "conference",
+    "Venue_Name": "The Second Arabic NLP Conference",
+    "Authors": [
+        "Juan Pi\u00f1eros Liberato",
+        "Bashar Alhafni",
+        "Muhamed AlKhalil",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "Computational Approaches to Modeling Language Lab",
+        "New York University Abu Dhabi"
+    ],
+    "Abstract": "Arabic is a morphologically rich and orthographically ambiguous language. Words have many inflected forms varying in terms of gender, number, person, case, aspect, mood, voice, as well as a large number of attachable clitics, such as pronominal objects and prepositions (Habash, 2010). Arabic\u2019s high level of complexity poses a significant challenge for new learners. Furthermore, while Modern Standard Arabic (MSA) is used in education and the media, modern-day Arabs native speak a variety of Arabic dialects that differ from MSA, making MSA readability an relevant issue for them too. There are growing research efforts on Arabic readability assessment. However, we are not aware of any work that systematically explores modeling approaches for Arabic readability at different textual granularity levels. In this paper, we present Arabic readability assessment results using diverse approaches relying on frequency and rule-based models as well as pretrained language models (PLMs). We use the newly created SAMER Arabic Text Simplification Corpus (Alhafni et al., 2024) and report on word-level and fragment-level readability.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
