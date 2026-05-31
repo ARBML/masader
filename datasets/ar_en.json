@@ -1,0 +1,56 @@
+{
+    "Name": "AR-EN",
+    "Volume": 6525.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/CSabty/Code-Switch-Arabic-English-Contextual-Embeddings",
+    "HF_Link": "",
+    "Year": 2021,
+    "Domain": [
+        "social media",
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Arabic-English CS NER & LID Corpus",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "German University in Cairo"
+    ],
+    "Derived_From": [
+        "ANERCorp",
+        "AQMAR",
+        "Twitter",
+        "Facebook",
+        "WhatsApp"
+    ],
+    "Paper_Title": "Computational Approaches to Arabic-English Code-Switching",
+    "Paper_Link": "https://arxiv.org/pdf/2410.13318v1.pdf",
+    "Tokenized": true,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "named entity recognition",
+        "language identification"
+    ],
+    "Venue_Title": "Ph.D. Thesis",
+    "Venue_Type": "other",
+    "Venue_Name": "German University in Cairo",
+    "Authors": [
+        "Caroline Nabil Samy Sabty"
+    ],
+    "Affiliations": [
+        "German University in Cairo"
+    ],
+    "Abstract": "Natural Language Processing (NLP) is a vital computational method for addressing language processing, analysis, and generation. NLP tasks form the core of many daily applications. While significant research has focused on English, less attention has been given to Modern Standard Arabic and Dialectal Arabic. Globalization contributed to the rise of Code-Switching (CS), common in Arab countries. CS between Arabic and English is frequent in Egypt, especially on social media. We focus on the Named Entity Recognition (NER) task and Language Identification (LID) on Arabic-English CS data. We created the first annotated CS Arabic-English corpus for NER and LID. We apply enhancement techniques using CS contextual embeddings and data augmentation. All methods showed improvements in NER taggers. Finally, we propose intra-word language identification approaches to determine the language type of mixed text and identify named entities.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "multilingual",
+    "Script": "Arab-Latin",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
