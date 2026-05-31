@@ -1,39 +1,43 @@
 {
     "Name": "AMuRD",
-    "Volume": 47720.0,
-    "Unit": "documents",
-    "License": "CC BY-NC-ND 4.0",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://github.com/Update-For-Integrated-Business-AI/AMuRD",
-    "HF_Link": "",
+    "License": "CC BY-NC 4.0",
     "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "mixed",
     "Domain": [
         "other"
     ],
-    "Form": "text",
-    "Collection_Style": [
-        "crawling",
-        "human annotation"
+    "Form": "images",
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "Multilingual dataset for receipt extraction",
-    "Ethical_Risks": "Low",
+    "Volume": 47720.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
     "Provider": [
-        "DISCOAI",
-        "University of Innsbruck"
+        "DISCOAI"
     ],
-    "Derived_From": [],
-    "Paper_Title": "AMuRD: Annotated Arabic-English Receipt Dataset for Key Information Extraction and Classification",
-    "Paper_Link": "https://arxiv.org/pdf/2309.09800v3.pdf",
-    "Tokenized": true,
+    "Derived From": [],
+    "Paper Title": "AMuRD: Annotated Arabic-English Receipt Dataset for Key Information Extraction and Classification",
+    "Paper Link": "https://arxiv.org/pdf/2309.09800v3.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": true,
     "Tasks": [
-        "other"
+        "optical character recognition",
+        "keyphrase extraction"
     ],
-    "Venue_Title": "arXiv",
-    "Venue_Type": "preprint",
-    "Venue_Name": "arXiv",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Abdelrahman Abdallah",
         "Mahmoud Abdalla",
@@ -46,16 +50,5 @@
         "DISCOAI"
     ],
     "Abstract": "The extraction of key information from receipts is a complex task that involves the recognition and extraction of text from scanned receipts. This process is crucial as it enables the retrieval of essential content and organizing it into structured documents for easy access and analysis. In this paper, we present AMuRD, a novel multilingual human-annotated dataset specifically designed for information extraction from receipts. This dataset comprises 47,720 samples and addresses the key challenges in information extraction and item classification - the two critical aspects of data analysis in the retail industry. Each sample includes annotations for item names and attributes such as price, brand, and more. This detailed annotation facilitates a comprehensive understanding of each item on the receipt. Furthermore, the dataset provides classification into 44 distinct product categories. This classification feature allows for a more organized and efficient analysis of the items, enhancing the usability of the dataset for various applications. In our study, we evaluated various language model architectures, e.g., by fine-tuning LLaMA models on the AMuRD dataset. Our approach yielded exceptional results, with an F1 score of 97.43% and accuracy of 94.99% in information extraction and classification, and an even higher F1 score of 98.51% and accuracy of 97.06% observed in specific tasks. The dataset and code are publicly accessible for further research.",
-    "Subsets": [
-        {
-            "Name": "AMuRD",
-            "Volume": 47720.0,
-            "Unit": "documents",
-            "Dialect": "mixed"
-        }
-    ],
-    "Dialect": "mixed",
-    "Language": "multilingual",
-    "Script": "Arab-Latin",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
