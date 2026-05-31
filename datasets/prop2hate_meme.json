@@ -1,0 +1,58 @@
+{
+    "Name": "Prop2Hate-Meme",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/QCRI/Prop2Hate-Meme",
+    "Link": "https://huggingface.co/datasets/QCRI/Prop2Hate-Meme",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "images",
+    "Collection Style": [
+        "crawling",
+        "human annotation",
+        "LLM generated"
+    ],
+    "Description": "the first Arabic Prop2Hate-Meme dataset which explore the intersection of propaganda and hate in memes using a multi-agent LLM-based framework.",
+    "Volume": 3061.0,
+    "Unit": "images",
+    "Ethical Risks": "High",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "ArAIEval-2024",
+        "ArMeme"
+    ],
+    "Paper Title": "Propaganda to Hate: A Multimodal Analysis of Arabic Memes with Multi-Agent LLMs",
+    "Paper Link": "https://arxiv.org/pdf/2409.07246v2.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "hate speech detection"
+    ],
+    "Venue Title": "WISE",
+    "Venue Type": "conference",
+    "Venue Name": "Web Information Systems Engineering",
+    "Authors": [
+        "Firoj Alam",
+        "Md. Rafiul Biswas",
+        "Uzair Shah",
+        "Wajdi Zaghouani",
+        "Georgios Mikros"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "Hamad bin Khalifa University",
+        "Northwestern University in Qatar"
+    ],
+    "Abstract": "In the past decade, social media platforms have been used for information dissemination and consumption. While a major portion of the content is posted to promote citizen journalism and public awareness, some content is posted to mislead users. Among different content types such as text, images, and videos, memes (text overlaid on images) are particularly prevalent and can serve as powerful vehicles for propaganda, hate, and humor. In the current literature, there have been efforts to individually detect such content in memes. However, the study of their intersection is very limited. In this study, we explore the intersection between propaganda and hate in memes using a multi-agent LLM-based approach. We extend the propagandistic meme dataset with coarse and fine-grained hate labels. Our findings suggest that there is an association between propaganda and hate in memes. We provided detailed experimental results that can serve as a baseline for future studies. We will make the experimental resources publicly available to the community.",
+    "Added By": "Zaid Alyafeai"
+}
