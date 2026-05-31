@@ -1,0 +1,70 @@
+{
+    "Name": "AlGhafa",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://gitlab.com/tiiuae/alghafa",
+    "License": "unknown",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "machine annotation"
+    ],
+    "Description": "Evaluation benchmark for Arabic LLMs.",
+    "Volume": 33236.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "TII"
+    ],
+    "Derived From": [
+        "BeleBele",
+        "COPA",
+        "AraFacts",
+        "Exams",
+        "OpenbookQA",
+        "HARD",
+        "SOQAL",
+        "XGLUE",
+        "XQuAD",
+        "MLQA",
+        "TyDiQA",
+        "ARCD"
+    ],
+    "Paper Title": "AlGhafa Evaluation Benchmark for Arabic Language Models",
+    "Paper Link": "https://aclanthology.org/2023.arabicnlp-1.21.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitLab",
+    "Access": "Free",
+    "Cost": "Free",
+    "Test Split": true,
+    "Tasks": [
+        "multiple choice question answering"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Ebtesam Almazrouei",
+        "Ruxandra Cojocaru",
+        "Quentin Malartic",
+        "Hamza Alobeidli",
+        "Daniele Mazzotta",
+        "Guilherme Penedo",
+        "Giulia Campesan",
+        "Mugariya Farooq",
+        "Maitha Alhammadi",
+        "Julien Launay",
+        "Badreddine Noune"
+    ],
+    "Affiliations": [
+        "Technology Innovation Institute"
+    ],
+    "Abstract": "Recent advances in the space of Arabic large language models have opened up a wealth of potential practical applications. We introduce AlGhafa, a new multiple-choice evaluation benchmark for Arabic LLMs. For showcasing purposes, we train a new suite of models in numerous tasks within a zero-shot framework. We also perform a qualitative and quantitative toxicity evaluation of several Arabic models, comparing our models to existing public Arabic LLMs.",
+    "Added By": "Zaid Alyafeai"
+}
