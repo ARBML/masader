@@ -1,42 +1,48 @@
 {
     "Name": "ZAEBUC-Spoken",
-    "Volume": 12.0,
-    "Unit": "hours",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "http://www.zaebuc.org",
-    "HF_Link": "",
+    "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "mixed",
     "Domain": [
         "other"
     ],
     "Form": "audio",
-    "Collection_Style": [
+    "Collection Style": [
         "human annotation",
-        "manual curation"
+        "manual curation",
+        "machine annotation"
     ],
-    "Description": "Multilingual Arabic-English speech corpus.",
-    "Ethical_Risks": "Low",
+    "Description": "ZAEBUC Spoken Corpus is a multilingual, multidialectal Arabic-English speech corpus.",
+    "Volume": 12.0,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
     "Provider": [
-        "Zayed University"
+        "CAMeL Lab"
     ],
-    "Derived_From": [
+    "Derived From": [
         "ZAEBUC"
     ],
-    "Paper_Title": "ZAEBUC-Spoken: A Multilingual Multidialectal Arabic-English Speech Corpus",
-    "Paper_Link": "https://arxiv.org/pdf/2403.18182v1.pdf",
+    "Paper Title": "ZAEBUC-Spoken: A Multilingual Multidialectal Arabic-English Speech Corpus",
+    "Paper Link": "https://arxiv.org/pdf/2403.18182v1.pdf",
+    "Script": "Arab-Latin",
     "Tokenized": true,
-    "Host": "other",
-    "Access": "Free",
+    "Host": "CAMeL Resources",
+    "Access": "Upon-Request",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
         "speech recognition",
         "morphological analysis",
-        "dialect identification"
+        "dialect identification",
+        "part of speech tagging"
     ],
-    "Venue_Title": "LREC",
-    "Venue_Type": "conference",
-    "Venue_Name": "Language Resources and Evaluation Conference",
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "Language Resources and Evaluation Conference",
     "Authors": [
         "Injy Hamed",
         "Fadhl Eryani",
@@ -51,9 +57,5 @@
         "Zayed University"
     ],
     "Abstract": "We present ZAEBUC-Spoken, a multilingual multidialectal Arabic-English speech corpus. The corpus comprises twelve hours of Zoom meetings involving multiple speakers role-playing a work situation where Students brainstorm ideas for a certain topic and then discuss it with an Interlocutor. The meetings cover different topics and are divided into phases with different language setups. The corpus presents a challenging set for automatic speech recognition (ASR), including two languages (Arabic and English) with Arabic spoken in multiple variants (Modern Standard Arabic, Gulf Arabic, and Egyptian Arabic) and English used with various accents. Adding to the complexity of the corpus, there is also code-switching between these languages and dialects. As part of our work, we take inspiration from established sets of transcription guidelines to present a set of guidelines handling issues of conversational speech, code-switching and orthography of both languages. We further enrich the corpus with two layers of annotations; (1) dialectness level annotation for the portion of the corpus where mixing occurs between different variants of Arabic, and (2) automatic morphological annotations, including tokenization, lemmatization, and part-of-speech tagging.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "multilingual",
-    "Script": "Arab-Latin",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
