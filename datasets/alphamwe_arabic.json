@@ -12,6 +12,12 @@
             "Volume": 2495.0,
             "Unit": "tokens",
             "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 2055.0,
+            "Unit": "tokens",
+            "Dialect": "Egypt"
         }
     ],
     "HF Link": "",
