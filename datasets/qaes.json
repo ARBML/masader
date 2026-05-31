@@ -1,0 +1,57 @@
+{
+    "Name": "QAES",
+    "Volume": 195.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://sites.google.com/view/bigir/datasets",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "First publicly available trait-specific annotations for Arabic essay scoring",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Qatar University"
+    ],
+    "Derived_From": [
+        "QCAW"
+    ],
+    "Paper_Title": "QAES: First Publicly-Available Trait-Specific Annotations for Automated Scoring of Arabic Essays",
+    "Paper_Link": "https://aclanthology.org/2024.arabicnlp-1.28.pdf",
+    "Tokenized": true,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "ANLP",
+    "Venue_Type": "conference",
+    "Venue_Name": "The Second Arabic Natural Language Processing Conference",
+    "Authors": [
+        "May Bashendy Salam Albatarni",
+        " Sohaila Eltanbouly",
+        " Eman Zahran",
+        " Hamdo Elhusein",
+        " Tamer Elsayed",
+        " Walid Massoud",
+        " Houda Bouamor"
+    ],
+    "Affiliations": [
+        "Qatar University",
+        " English Modern School",
+        " Carnegie Mellon University in Qatar"
+    ],
+    "Abstract": "Automated Essay Scoring (AES) has emerged as a significant research problem within natural language processing, providing valuable support for educators in assessing student writing skills. In this paper, we introduce QAES, the first publicly available trait-specific annotations for Arabic AES, built on the Qatari Corpus of Argumentative Writing (QCAW). QAES includes a diverse collection of essays in Arabic, each of them annotated with holistic and trait-specific scores, including relevance, organization, vocabulary, style, development, mechanics, and grammar. In total, it comprises 195 Arabic essays (with lengths ranging from 239 to 806 words) across two distinct argumentative writing tasks. We benchmark our dataset against the state-of-the-art English baselines and a feature-based approach. In addition, we discuss the adopted guidelines and the challenges encountered during the annotation process. Finally, we provide insights into potential areas for improvement and future directions in Arabic AES research. Toward trait-specific scoring, which assigns scores to distinct traits of the essay (Kumar et al., 2022; Ormerod, 2022). By assessing each trait separately, educators and students gain deeper insight into areas for improvement. Although significant progress has been made in AES for languages such as English (Klebanov and Madnani, 2022), the assessment of Arabic essays remains understudied. This is primarily due to the lack of publicly available annotated datasets tailored for Arabic essays scoring. To address this challenge, we introduce the QCAW annotations for Automated Essay Scoring (QAES), the first freely available annotated Arabic essay corpus for trait-specific scoring. We build QAES by annotating the Qatari Corpus of Argumentative Writing (QCAW) (Ahmed et al., 2024) across seven traits: Relevance, Organization, Vocabulary, Style, Development, Mechanics, and Grammar. We release these annotations to the research community, aiming to foster advancements in Arabic AES. We also evaluate the performance of feature-based and state-of-the-art English baselines on the dataset. Our efforts help bridge the resource gap and empower educators and researchers with valuable insights into the nuances of Arabic writing.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
