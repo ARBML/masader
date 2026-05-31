@@ -1,36 +1,36 @@
 {
     "Name": "Peacock",
-    "Volume": 1132.0,
+    "Volume": 916000.0,
     "Unit": "images",
     "License": "unknown",
     "Link": "https://github.com/UBC-NLP/peacock",
     "HF_Link": "",
     "Year": 2024,
     "Domain": [
-        "wikipedia",
-        "public datasets"
+        "public datasets",
+        "web pages",
+        "wikipedia"
     ],
     "Form": "images",
     "Collection_Style": [
         "crawling",
-        "machine annotation",
-        "manual curation"
+        "LLM generated"
     ],
-    "Description": "Arabic MLLMs and Henna benchmark",
+    "Description": "Arabic multimodal LLMs and benchmarks",
     "Ethical_Risks": "Low",
     "Provider": [
-        "The University of British Columbia",
+        "University of British Columbia",
         "InvertibleAI"
     ],
     "Derived_From": [
-        "LLaMA2-7B",
-        "COCO",
-        "LCS-558K",
-        "VQAv2"
+        "LLaMA2",
+        "AceGPT",
+        "LLaVA",
+        "InstructBLIP"
     ],
     "Paper_Title": "Peacock: A Family of Arabic Multimodal Large Language Models and Benchmarks",
-    "Paper_Link": "https://aclanthology.org/2024.acl-long.689.pdf",
-    "Tokenized": true,
+    "Paper_Link": "https://arxiv.org/pdf/2403.01031v2.pdf",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
@@ -38,24 +38,23 @@
     "Tasks": [
         "question answering",
         "image captioning",
-        "instruction following",
-        "dialect identification"
+        "instruction following"
     ],
-    "Venue_Title": "ACL",
-    "Venue_Type": "conference",
-    "Venue_Name": "Association for Computational Linguistics",
+    "Venue_Title": "",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
     "Authors": [
         "Fakhraddin Alwajih",
-        "ElMoatez Billah Nagoudi",
+        "El Moatez Billah Nagoudi",
         "Gagan Bhatia",
         "Abdelrahman Mohamed",
         "Muhammad Abdul-Mageed"
     ],
     "Affiliations": [
-        "The University of British Columbia",
+        "University of British Columbia",
         "InvertibleAI"
     ],
-    "Abstract": "Multimodal large language models (MLLMs) have proven effective in a wide range of tasks that require complex reasoning and linguistic comprehension. However, due to a lack of high-quality multimodal resources in languages other than English, success of MLLMs remains relatively limited to English-based settings. This poses significant challenges in developing comparable models for other languages, even those with large speaker populations, such as Arabic. To alleviate this challenge, we introduce a comprehensive family of Arabic MLLMs, dubbed Peacock, with strong vision and language capabilities. Through comprehensive qualitative and quantitative analysis, we demonstrate the solid performance of our models on various visual reasoning tasks and further show their emerging dialectal potential. Additionally, we introduce Henna, an new benchmark specifically designed for assessing MLLMs on aspects related to Arabic culture, setting the first stone for culturally-aware Arabic MLLMs.",
+    "Abstract": "Multimodal large language models (MLLMs) have proven effective in a widerangeoftasksrequiringcomplexreasoningandlinguisticcomprehension. However, due to a lack of high-quality multimodalresourcesinlanguagesotherthanEnglish,successofMLLMsremainsrelativelylimited to English-based settings. This poses significant challenges in developing comparable models for other languages, including even those with large speaker populations such as Arabic. To alleviate thischallenge,weintroduceacomprehensivefamilyofArabicMLLMs,dubbedPeacock,withstrong visionandlanguagecapabilities. Throughcomprehensive qualitative and quantitative analysis, we demonstrate the solid performance of our models onvariousvisualreasoningtasksandfurthershow theiremergingdialectalpotential. Additionally,we introduce Henna,anewbenchmarkspecificallydesignedforassessingMLLMsonaspectsrelatedto Arabicculture,settingthefirststoneforculturally-awareArabicMLLMs.",
     "Subsets": [],
     "Dialect": "mixed",
     "Language": "ar",
