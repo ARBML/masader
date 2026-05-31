@@ -11,12 +11,12 @@
     ],
     "Form": "images",
     "Collection_Style": [
-        "manual curation",
         "human annotation"
     ],
-    "Description": "Historical Arabic handwritten text dataset.",
+    "Description": "Historical handwritten Arabic word dataset.",
     "Ethical_Risks": "Low",
     "Provider": [
+        "University of Tamanghasset",
         "University of Bejaia",
         "CERIST"
     ],
@@ -28,21 +28,22 @@
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "0",
+    "Cost": "",
     "Test_Split": false,
     "Tasks": [
-        "optical character recognition"
+        "optical character recognition",
+        "word detection"
     ],
     "Venue_Title": "TAMARICS",
-    "Venue_Type": "conference",
+    "Venue_Type": "workshop",
     "Venue_Name": "TAMARICS",
     "Authors": [
         "H. Bouchal",
         "A. Belaid"
     ],
     "Affiliations": [
-        "University of Bejaia",
-        "CERIST"
+        "LIMED Laboratory, University of Bejaia",
+        "CERIST, Bejaia, Algeria"
     ],
     "Abstract": "Segmentation of Arabic manuscripts into lines of text and words is an important step to make recognition systems more efficient and accurate. The problem of segmentation into text lines is solved since there are carefully annotated dataset dedicated to this task. However, To the best of our knowledge, there are no dataset annotating the word position of Arabic texts. In this paper, we present a new dataset specifically designed for historical Arabic script in which we annotate position in word level.",
     "Subsets": [],
