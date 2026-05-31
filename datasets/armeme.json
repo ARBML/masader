@@ -1,56 +1,59 @@
 {
     "Name": "ArMeme",
-    "Subsets": [],
-    "HF Link": "https://huggingface.co/datasets/QCRI/ArMeme",
-    "Link": "https://huggingface.co/datasets/QCRI/ArMeme",
-    "License": "CC BY-NC-SA 4.0",
+    "Volume": 3061.0,
+    "Unit": "images",
+    "License": "unknown",
+    "Link": "https://github.com/firojalam/propaganda-and-hateful-memes.git",
+    "HF_Link": "",
     "Year": 2024,
-    "Language": "ar",
-    "Dialect": "mixed",
     "Domain": [
         "social media"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Collection_Style": [
         "crawling",
         "human annotation",
-        "machine annotation"
+        "LLM generated"
     ],
-    "Description": "A manually annotated Arabic memes dataset of ~6K images for propaganda detection, compiled from Facebook, Instagram, Pinterest and Twitter.",
-    "Volume": 5725.0,
-    "Unit": "images",
-    "Ethical Risks": "High",
+    "Description": "Arabic multimodal meme dataset for hate detection",
+    "Ethical_Risks": "High",
     "Provider": [
-        "QCRI"
+        "Qatar Computing Research Institute",
+        "Hamad bin Khalifa University",
+        "Northwestern University in Qatar"
     ],
-    "Derived From": [],
-    "Paper Title": "ArMeme: Propagandistic Content in Arabic Memes",
-    "Paper Link": "https://aclanthology.org/2024.emnlp-main.1173.pdf",
-    "Script": "Arab",
+    "Derived_From": [
+        "ArAIEval-2024"
+    ],
+    "Paper_Title": "Propaganda to Hate: A Multimodal Analysis of Arabic Memes with Multi-Agent LLMs",
+    "Paper_Link": "https://arxiv.org/pdf/2409.07246v2.pdf",
     "Tokenized": false,
-    "Host": "HuggingFace",
+    "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Test_Split": true,
     "Tasks": [
-        "other"
+        "hate speech detection"
     ],
-    "Venue Title": "EMNLP",
-    "Venue Type": "conference",
-    "Venue Name": "Empirical Methods in Natural Language Processing Conference",
+    "Venue_Title": "",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
     "Authors": [
         "Firoj Alam",
-        "Abul Hasnat",
-        "Fatema Ahmad",
-        "Md Arid Hasan",
-        "Maram Hasanain"
+        "Md. Rafiul Biswas",
+        "Uzair Shah",
+        "Wajdi Zaghouani",
+        "Georgios Mikros"
     ],
     "Affiliations": [
-        "Blackbird.AI",
-        "APAVI.AI",
-        "University of New Brunswick",
-        "HBKU"
+        "Qatar Computing Research Institute",
+        "Hamad bin Khalifa University",
+        "Northwestern University in Qatar"
     ],
-    "Abstract": "With the rise of digital communication memes have become a significant medium for cultural and political expression that is often used to mislead audience. Identification of such misleading and persuasive multimodal content become more important among various stakeholders, including social media platforms, policymakers, and the broader society as they often cause harm to the individuals, organizations and/or society. While there has been effort to develop AI based automatic system for resource rich languages (e.g., English), it is relatively little to none for medium to low resource languages. In this study, we focused on developing an Arabic memes dataset with manual annotations of propagandistic content. We annotated \u223c6K Arabic memes collected from various social media platforms, which is a first resource for Arabic multimodal research. We provide a comprehensive analysis aiming to develop computational tools for their detection. We made the dataset publicly available for the community.\n",
-    "Added By": "Zaid Alyafeai"
+    "Abstract": "In the past decade, social media platforms have been used for information dissemination and consumption. While a major portion of the content is posted to promote citizen journalism and public awareness, some content is posted to mislead users. Among different content types such as text, images, and videos, memes (text overlaid on images) are particularly prevalent and can serve as powerful vehicles for propaganda, hate, and humor. In the current literature, there have been efforts to individually detect such content in memes. However, the study of their intersection is very limited. In this study, we explore the intersection between propaganda and hate in memes using a multi-agent LLM-based approach. We extend the propagandistic meme dataset with coarse and fine-grained hate labels. Our findings suggest that there is an association between propaganda and hate in memes. We provided detailed experimental results that can serve as a baseline for future studies. We will make the experimental resources publicly available to the community.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
 }
