@@ -33,7 +33,8 @@
         "XQuAD",
         "MLQA",
         "TyDiQA",
-        "ARCD"
+        "ARCD",
+        "ArSarcasm-v2"
     ],
     "Paper Title": "AlGhafa Evaluation Benchmark for Arabic Language Models",
     "Paper Link": "https://aclanthology.org/2023.arabicnlp-1.21.pdf",
