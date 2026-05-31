@@ -12,7 +12,6 @@
     ],
     "Form": "images",
     "Collection Style": [
-        "crawling",
         "human annotation",
         "LLM generated"
     ],
