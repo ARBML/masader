@@ -6,6 +6,12 @@
             "Volume": 2700.0,
             "Unit": "tokens",
             "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Tunisian",
+            "Volume": 2495.0,
+            "Unit": "tokens",
+            "Dialect": "Tunisia"
         }
     ],
     "HF Link": "",
