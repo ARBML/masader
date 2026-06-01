@@ -1,41 +1,37 @@
 {
     "Name": "ArEEG",
-    "Subsets": [],
-    "HF Link": "",
-    "Link": "https://www.kaggle.com/datasets/eslam101ahmed/arabic-eeg-sessions",
-    "License": "GPL-3.0",
+    "Volume": 39857.0,
+    "Unit": "documents",
+    "License": "CC BY 4.0",
+    "Link": "https://data.mendeley.com/datasets/f2bgr7tdtt/1",
+    "HF_Link": "",
     "Year": 2024,
-    "Language": "ar",
-    "Dialect": "Modern Standard Arabic",
     "Domain": [
         "other"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Collection_Style": [
         "human annotation"
     ],
-    "Description": "EEG dataset for envisioned speech recognition using Arabic words",
-    "Volume": 15360.0,
-    "Unit": "documents",
-    "Ethical Risks": "Low",
+    "Description": "EEG dataset for Arabic characters",
+    "Ethical_Risks": "Medium",
     "Provider": [
         "Arab International University"
     ],
-    "Derived From": [],
-    "Paper Title": "ArEEG_Words: Dataset for Envisioned Speech Recognition using EEG for Arabic Words",
-    "Paper Link": "https://arxiv.org/pdf/2411.18888v1.pdf",
-    "Script": "Arab",
+    "Derived_From": [],
+    "Paper_Title": "ArEEG_Chars: Dataset for Envisioned Speech Recognition using EEG for Arabic Characters",
+    "Paper_Link": "https://arxiv.org/pdf/2402.15733v3.pdf",
     "Tokenized": false,
-    "Host": "kaggle",
+    "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Test_Split": false,
     "Tasks": [
         "speech recognition"
     ],
-    "Venue Title": "scientific data",
-    "Venue Type": "journal",
-    "Venue Name": "scientific data",
+    "Venue_Title": "",
+    "Venue_Type": "other",
+    "Venue_Name": "",
     "Authors": [
         "Hazem Darwish",
         "Abdalrahman Al Malah",
@@ -45,6 +41,10 @@
     "Affiliations": [
         "Arab International University"
     ],
-    "Abstract": "Brain-Computer-Interface (BCI) aims to support communication-impaired patients by translating neural signals into speech. A notable research topic in BCI involves Electroencephalography (EEG) signals that measure the electrical activity in the brain. While significant advancements have been made in BCI EEG research, a major limitation still exists: the scarcity of publicly available EEG datasets for non-English languages, such as Arabic. To address this gap, we introduce in this paper ArEEG_Words dataset, a novel EEG dataset recorded from 22 participants with mean age of 22 years (5 female, 17 male) using a 14-channel Emotiv Epoc X device. The participants were asked to be free from any effects on their nervous system, such as coffee, alcohol, cigarettes, and so 8 hours before recording. They were asked to stay calm in a clam room during imagining one of the 16 Arabic Words for 10 seconds. The words include 16 commonly used words such as up, down, left, and right. A total of 352 EEG recordings were collected, then each recording was divided into multiple 250ms signals, resulting in a total of 15,360 EEG signals. To the best of our knowledge, ArEEG_Words data is the first of its kind in Arabic EEG domain. Moreover, it is publicly available for researchers as we hope that will fill the gap in Arabic EEG research.",
-    "Added By": "Zaid Alyafeai"
+    "Abstract": "Brain-computer interfaces is an important and hot research topic that revolutionize how people interact with the world, especially for individuals with neurological disorders. While extensive research has been done in EEG signals of English letters and words, a major limitation remains: the lack of publicly available EEG datasets for many non-English languages, such as Arabic. Although Arabic is one of the most spoken languages worldwide, to the best of our knowledge, there is no publicly available dataset for EEG signals of Arabic characters until now. To address this gap, we introduce ArEEG_Chars, a novel EEG dataset for Arabic 31 characters collected from 30 participants (21 males and 9 females), these records were collected using Epoc X 14 channels device for 10 seconds long for each char record. The number of recorded signals were 930 EEG recordings. To make the EEG signals suitable for analyzing, each recording has been split into multiple signals with a time duration of 250ms, respectively. Therefore, a total of 39857 recordings of EEG signals have been collected in this study. Moreover, ArEEG_Chars will be publicly available for researchers. We do hope that this dataset will fill an important gap in the research of Arabic EEG benefiting Arabic-speaking individuals with disabilities.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
 }
