@@ -1,56 +1,52 @@
 {
     "Name": "ASAD",
-    "Subsets": [],
-    "HF Link": "",
-    "Link": "https://wti.kaust.edu.sa/solve/Arabic-Sentiment-Analysis-Challenge",
+    "Volume": 22352.0,
+    "Unit": "documents",
     "License": "unknown",
-    "Year": 2020,
-    "Language": "ar",
-    "Dialect": "mixed",
+    "Link": "https://github.com/alshehrikhadejaa/ASAD.git",
+    "HF_Link": "",
+    "Year": 2023,
     "Domain": [
         "social media"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
     ],
-    "Description": "ASAD is a large, high-quality annotated dataset\r\n(including 95K tweets), with three-class sentiment labels (positive, negative and neutral)",
-    "Volume": 100000.0,
-    "Unit": "sentences",
-    "Ethical Risks": "Medium",
+    "Description": "Arabic tweets dataset for speech act classification.",
+    "Ethical_Risks": "Medium",
     "Provider": [
-        "Multiple Institutions"
+        "King Abdulaziz University"
     ],
-    "Derived From": [],
-    "Paper Title": "ASAD: A TWITTER-BASED BENCHMARK ARABIC SENTIMENT ANALYSIS DATASET",
-    "Paper Link": "https://arxiv.org/pdf/2011.00578.pdf",
-    "Script": "Arab",
+    "Derived_From": [
+        "ASAD"
+    ],
+    "Paper_Title": "Arabic Tweet Act: A Weighted Ensemble Pre-Trained Transformer Model for Classifying Arabic Speech Acts on Twitter",
+    "Paper_Link": "https://arxiv.org/pdf/2401.17373v1.pdf",
     "Tokenized": false,
-    "Host": "other",
-    "Access": "Upon-Request",
+    "Host": "GitHub",
+    "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Test_Split": true,
     "Tasks": [
-        "sentiment analysis"
+        "other"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
     "Authors": [
-        "Basma Alharbi",
-        "Hind Alamro",
-        "Manal Alshehri",
-        "Zuhair Khayyat",
-        "Manal Kalkatawi",
-        "Inji Ibrahim Jaber",
-        "Xiangliang Zhang"
+        "Khadejaa Alshehri",
+        "Areej Alhothali",
+        "Nahed Alowidi"
     ],
     "Affiliations": [
-        "University of Jeddah",
-        "KAUST",
-        "Lucidya",
-        "KAU"
+        "King Abdulaziz University"
     ],
-    "Abstract": "This paper provides a detailed description of a new Twitter-based benchmark dataset for Arabic Sentiment Analysis (ASAD), which is launched in a competition3, sponsored by KAUST for awarding 10000 USD, 5000 USD and 2000 USD to the first, second and third place winners, respectively. Compared to other publicly released Arabic datasets, ASAD is a large, high-quality annotated dataset(including 95K tweets), with three-class sentiment labels (positive, negative and neutral). We presents the details of the data collection process and annotation process. In addition, we implement several baseline models for the competition task and report the results as a reference for the participants to the competition.",
-    "Added By": "Zaid Alyafeai"
+    "Abstract": "Speech acts are a speaker's actions when performing an utterance within a conversation, such as asking, recommending, greeting, or thanking someone, expressing a thought, or making a suggestion. Understanding speech acts helps interpret the intended meaning and actions behind a speaker\u2019s or writer\u2019s words. This paper proposes a Twitter dialectal Arabic speech act classification approach based on a transformer deep learning neural network. Twitter and social media, are becoming more and more integrated into daily life. As a result, they have evolved into a vital source of information that represents the views and attitudes of their users. We proposed a BERT based weighted ensemble learning approach to integrate the advantages of various BERT models in dialectal Arabic speech acts classification. We compared the proposed model against several variants of Arabic BERT models and sequence-based models. We developed a dialectal Arabic tweet act dataset by annotating a subset of a large existing Arabic sentiment analysis dataset (ASAD) based on six speech act categories. We also evaluated the models on a previously developed Arabic Tweet Act dataset (ArSAS). To overcome the class imbalance issue commonly observed in speech act problems, a transformer-based data augmentation model was implemented to generate an equal proportion of speech act categories. The results show that the best BERT model is araBERTv2-Twitter models with a macro-averaged F1 score and an accuracy of 0.73 and 0.84, respectively. The performance improved using a BERT-based ensemble method with a 0.74 and 0.85 averaged F1 score and accuracy on our dataset, respectively.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
 }
