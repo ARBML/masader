@@ -1,61 +1,67 @@
 {
     "Name": "BAREC",
-    "Subsets": [],
-    "HF Link": "https://huggingface.co/datasets/CAMeL-Lab/BAREC-Corpus-v1.0",
-    "Link": "http://barec.camel-lab.com",
-    "License": "CC BY-SA 4.0",
-    "Year": 2025,
-    "Language": "ar",
-    "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "books",
-        "public datasets",
-        "LLM",
-        "web pages",
-        "wikipedia"
-    ],
-    "Form": "text",
-    "Collection Style": [
-        "human annotation"
-    ],
-    "Description": "A large-scale, fine-grained Arabic readability corpus with 69K sentences across 19 levels, covering diverse genres and education stages.",
     "Volume": 69441.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
+    "License": "unknown",
+    "Link": "http://barec.camel-lab.com",
+    "HF_Link": "",
+    "Year": 2025,
+    "Domain": [
+        "books",
+        "news articles",
+        "wikipedia",
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "human annotation",
+        "crawling",
+        "manual curation",
+        "LLM generated"
+    ],
+    "Description": "Arabic readability corpus, 69,441 sentences.",
+    "Ethical_Risks": "Low",
     "Provider": [
-        "CaMeL-Lab"
+        "New York University Abu Dhabi",
+        "Zayed University",
+        "Abu Dhabi Arabic Language Centre"
     ],
-    "Derived From": [
-        "ArabicMMLU",
-        "ZAEBUC",
-        "ALC",
+    "Derived_From": [
+        "Taha/Arabi21",
         "ReadMe++",
-        "Quran Corpus",
-        "LK Hadith Corpus"
+        "ZAEBUC",
+        "OpenSubtitles",
+        "WikiNews"
     ],
-    "Paper Title": "A Large and Balanced Corpus for Fine-grained Arabic Readability Assessment",
-    "Paper Link": "https://arxiv.org/pdf/2502.13520",
-    "Script": "Arab",
+    "Paper_Title": "Guidelines for Fine-grained Sentence-level Arabic Readability Annotation",
+    "Paper_Link": "https://arxiv.org/pdf/2410.08674v3.pdf",
     "Tokenized": false,
-    "Host": "other",
+    "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Test_Split": true,
     "Tasks": [
         "readability assessment"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue_Title": "ACL",
+    "Venue_Type": "conference",
+    "Venue_Name": "ACL 2025",
     "Authors": [
-        "Khalid N. Elmadani",
         "Nizar Habash",
-        "Hanada Taha-Thomure"
+        "Hanada Taha-Thomure",
+        "Khalid N. Elmadari",
+        "Zeina Zeino",
+        "Abdallah Abushmaes"
     ],
     "Affiliations": [
-        "New York University Abu Dhabi",
-        "Zayed University"
+        "Computational Approaches to Modeling Language Lab, New York University Abu Dhabi",
+        "Zai Arabic Language Research Centre, Zayed University",
+        "Abu Dhabi Arabic Language Centre"
     ],
-    "Abstract": "This paper introduces the Balanced Arabic Readability Evaluation Corpus (BAREC), a large-scale, fine-grained dataset for Arabic readability assessment. BAREC consists of 69,441 sentences spanning 1+ million words, carefully curated to cover 19 readability levels, from kindergarten to postgraduate comprehension. The corpus balances genre diversity, topical coverage, and target audiences, offering a comprehensive resource for evaluating Arabic text complexity. The corpus was fully manually annotated by a large team of annotators. The average pairwise inter-annotator agreement, measured by Quadratic Weighted Kappa, is 81.8%, reflecting a high level of substantial agreement. Beyond presenting the corpus, we benchmark automatic readability assessment across different granularity levels, comparing a range of techniques. Our results highlight the challenges and opportunities in Arabic readability modeling, demonstrating competitive performance across various methods. To support research and education, we make BAREC openly available, along with detailed annotation guidelines and benchmark results.\n",
-    "Added By": "Zaid Alyafeai"
+    "Abstract": "This paper presents the Balanced Arabic Readability Evaluation Corpus (BAREC), a large-scale resource for fine-grained sentence-level readability assessment in Arabic. BAREC includes 69,441 sentences (1M+ words) labeled across 19 levels, from kindergarten to postgraduate. Based on the Taha/Arabi21 framework, the guidelines were refined through iterative training with native Arabic-speaking educators. We highlight key linguistic, pedagogical, and cognitive factors in determining readability and report high inter-annotator agreement: Quadratic Weighted Kappa 81.8% (substantial/excellent agreement) in the last annotation phase. We also benchmark automatic readability models across multiple classification granularities (19-, 7-, 5-, and 3-level).",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
 }
