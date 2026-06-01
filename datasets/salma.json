@@ -1,53 +1,61 @@
 {
     "Name": "SALMA",
-    "Subsets": [],
-    "HF Link": "",
-    "Link": "https://sina.birzeit.edu/salma/",
-    "License": "unknown",
-    "Year": 2023,
-    "Language": "ar",
-    "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "web pages"
-    ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
-    ],
-    "Description": "SALMA corpus is part of the Wojood corpus (Jarrar et al., 2022), and was collected from 33 online media sources written in Modern Standard Arabic (MSA) and covering general topics.",
     "Volume": 34000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
+    "License": "unknown",
+    "Link": "https://sina.birzeit.edu/nlu_sharedtask2024/",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "web pages",
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Manually annotated Arabic WSD and LMD datasets.",
+    "Ethical_Risks": "Low",
     "Provider": [
-        "SinaLab",
-        "Birzeit University"
+        "Birzeit University",
+        "Hamad Bin Khalifa University",
+        "Qatar University",
+        "Google"
     ],
-    "Derived From": [
-        "Wojood"
-    ],
-    "Paper Title": "SALMA: Arabic Sense-Annotated Corpus and WSD Benchmarks",
-    "Paper Link": "https://www.jarrar.info/publications/JMHK23.pdf",
-    "Script": "Arab",
+    "Derived_From": [],
+    "Paper_Title": "ArabicNLU 2024: The First Arabic Natural Language Understanding Shared Task",
+    "Paper_Link": "https://aclanthology.org/2024.arabicnlp-1.30.pdf",
     "Tokenized": true,
-    "Host": "other",
-    "Access": "Upon-Request",
+    "Host": "CodaLab",
+    "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Test_Split": true,
     "Tasks": [
-        "word sense disambiguation"
+        "other"
     ],
-    "Venue Title": "ArabicNLP",
-    "Venue Type": "conference",
-    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Venue_Title": "The Second Arabic Natural Language Processing Conference (ArabicNLP 2024)",
+    "Venue_Type": "conference",
+    "Venue_Name": "ArabicNLP",
     "Authors": [
-        "Mustafa Jarrar",
+        "Mohammed Khalili",
         "Sanad Malaysha",
-        "Tymaa Hammouda",
-        "Mohammed Khalilia"
+        "Reem Suwaileh",
+        "Mustafa Jarrar",
+        "Alaa Aljabari",
+        "Tamer Elsayed",
+        "Imed Zitouni"
     ],
     "Affiliations": [
-        "Birzeit University;Birzeit University;Birzeit University;Birzeit University"
+        "Birzeit University",
+        "Hamad Bin Khalifa University",
+        "Qatar University",
+        "Google"
     ],
-    "Abstract": "SALMA, the first Arabic sense-annotated corpus, consists of ~34K tokens, which are all senseannotated. The corpus is annotated using two different sense inventories simultaneously (Modern\nand Ghani). SALMA novelty lies in how tokens\nand senses are associated. Instead of linking a\ntoken to only one intended sense, SALMA links\na token to multiple senses and provides a score to\neach sense. A smart web-based annotation tool\nwas developed to support scoring multiple senses\nagainst a given word. In addition to sense annotations, we also annotated the corpus using six types\nof named entities. The quality of our annotations\nwas assessed using various metrics (Kappa, Linear Weighted Kappa, Quadratic Weighted Kappa,\nMean Average Error, and Root Mean Square Error), which show very high inter-annotator agreement. To establish a Word Sense Disambiguation\nbaseline using our SALMA corpus, we developed\nan end-to-end Word Sense Disambiguation system using Target Sense Verification. We used this\nsystem to evaluate three Target Sense Verification\nmodels available in the literature. Our best model\nachieved an accuracy with 84.2% using Modern\nand 78.7% using Ghani. The full corpus and the\nannotation tool are open-source and publicly available at https://sina.birzeit.edu/salma/.",
-    "Added By": "Zaid Alyafeai"
+    "Abstract": "This paper presents an overview of the Arabic Natural Language Understanding (ArabicNLU 2024) shared task, focusing on two sub-tasks: Word Sense Disambiguation (WSD) and Location Mention Disambiguation (LMD). The task aimed to evaluate the ability of automated systems to resolve word ambiguity and identify locations mentioned in Arabic text. We provided participants with novel datasets, including a sense-annotated corpus for WSD, called SALMA with approximately 34k annotated tokens, and the IDRISI-DA dataset with 3,893 annotations and 763 unique location mentions. These are challenging tasks. Out of the 38 registered teams, only three teams participated in the final evaluation phase, with the highest accuracy being 77.8% for WSD and 95.0% for LMD. The shared task not only facilitated the evaluation and comparison of different techniques, but also provided valuable insights and resources for the continued advancement of Arabic NLU technologies.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
 }
