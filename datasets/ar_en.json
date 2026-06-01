@@ -8,14 +8,14 @@
     "Year": 2021,
     "Domain": [
         "social media",
-        "news articles"
+        "other"
     ],
     "Form": "text",
     "Collection_Style": [
         "crawling",
         "human annotation"
     ],
-    "Description": "Arabic-English CS NER & LID Corpus",
+    "Description": "Annotated Arabic-English CS corpus.",
     "Ethical_Risks": "Medium",
     "Provider": [
         "German University in Cairo"
@@ -38,19 +38,19 @@
         "named entity recognition",
         "language identification"
     ],
-    "Venue_Title": "Ph.D. Thesis",
-    "Venue_Type": "other",
-    "Venue_Name": "German University in Cairo",
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
     "Authors": [
         "Caroline Nabil Samy Sabty"
     ],
     "Affiliations": [
         "German University in Cairo"
     ],
-    "Abstract": "Natural Language Processing (NLP) is a vital computational method for addressing language processing, analysis, and generation. NLP tasks form the core of many daily applications. While significant research has focused on English, less attention has been given to Modern Standard Arabic and Dialectal Arabic. Globalization contributed to the rise of Code-Switching (CS), common in Arab countries. CS between Arabic and English is frequent in Egypt, especially on social media. We focus on the Named Entity Recognition (NER) task and Language Identification (LID) on Arabic-English CS data. We created the first annotated CS Arabic-English corpus for NER and LID. We apply enhancement techniques using CS contextual embeddings and data augmentation. All methods showed improvements in NER taggers. Finally, we propose intra-word language identification approaches to determine the language type of mixed text and identify named entities.",
+    "Abstract": "Natural Language Processing (NLP) is a vital computational method for addressing language processing, analysis, and generation. NLP tasks form the core of many daily applications, from automatic text correction to speech recognition. While significant research has focused on NLP tasks for the English language, less attention has been given to Modern Standard Arabic and Dialectal Arabic. Globalization has also contributed to the rise of Code-Switching (CS), where speakers mix languages within conversations and even within individual words (intra-word CS). This is especially common in Arab countries, where people often switch between dialects or between dialects and a foreign language they master. CS between Arabic and English is frequent in Egypt, especially on social media. Consequently, a significant amount of code-switched content can be found online. Such code-switched data needs to be investigated and analyzed for several NLP tasks to tackle the challenges of this multilingual phenomenon and Arabic language challenges. No work has been done before for several integral NLP tasks on Arabic-English CS data. In this work, we focus on the Named Entity Recognition (NER) task and other tasks that help propose a solution for the NER task on CS data, e.g., Language Identification. This work addresses this gap by proposing and applying state-of-the-art techniques for Modern Standard Arabic and Arabic-English NER. We have created the first annotated CS Arabic-English corpus for the NER task. Also, we apply two enhancement techniques to improve the NER tagger on CS data using CS contextual embeddings and data augmentation techniques. All methods showed improvements in the performance of the NER taggers on CS data. Finally, we propose several intra-word language identification approaches to determine the language type of a mixed text and identify whether it is a named entity or not.",
     "Subsets": [],
-    "Dialect": "mixed",
+    "Dialect": "Egypt",
     "Language": "multilingual",
-    "Script": "Arab-Latin",
+    "Script": "Arab",
     "Added_By": "qwen/qwen3.6-35b-a3b"
 }
