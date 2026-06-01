@@ -1,0 +1,87 @@
+{
+    "Name": "Atlas",
+    "Volume": 458000.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://hf.co/MBZUAI-Paris/Atlas-Chat-9B",
+    "HF_Link": "https://hf.co/datasets/MBZUAI-Paris/Darija-SFT-Mixture",
+    "Year": 2024,
+    "Domain": [
+        "social media",
+        "wikipedia",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation",
+        "machine annotation",
+        "LLM generated"
+    ],
+    "Description": "Instruction-tuning dataset for Moroccan Arabic LLMs.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "MBZUAI",
+        "EMINES-UM6P",
+        "LINAGORA",
+        "KTH",
+        "AtlasIA",
+        "Ecole Polytechnique"
+    ],
+    "Derived_From": [
+        "DODa-10K",
+        "FLORES+",
+        "MADAR",
+        "NLLB-Seed",
+        "MSAC",
+        "MSDA",
+        "MAC",
+        "MArSum",
+        "T\u00dcLU-V2-Mix"
+    ],
+    "Paper_Title": "Atlas-Chat: Adapting Large Language Models for Low-Resource Moroccan Arabic Dialect",
+    "Paper_Link": "https://arxiv.org/pdf/2409.17912v2.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "machine translation",
+        "sentiment analysis",
+        "summarization",
+        "question answering",
+        "instruction following"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
+    "Authors": [
+        "Guokan Shang",
+        "Hadi Abdine",
+        "Yousef Khoubrane",
+        "Amr Mohamed",
+        "Yassine Abbahaddou",
+        "Sofiane Ennadir",
+        "Imane Momayiz",
+        "Xuguang Ren",
+        "Eric Moulines",
+        "Preslav Nakov",
+        "Michalis Vazirgiannis",
+        "Eric Xing"
+    ],
+    "Affiliations": [
+        "MBZUAI",
+        "EMINES-UM6P",
+        "LINAGORA",
+        "KTH",
+        "AtlasIA",
+        "Ecole Polytechnique"
+    ],
+    "Abstract": "We introduce Atlas-Chat, the first-ever collection of LLMs specifically developed for dialectal Arabic. Focusing on Moroccan Arabic, also known as Darija, we construct our instruction dataset by consolidating existing Darija language resources, creating novel datasets both manually and synthetically, and translating English instructions with stringent quality control. The models exhibit superior ability in following Darija instructions and performing standard NLP tasks.",
+    "Subsets": [],
+    "Dialect": "Morocco",
+    "Language": "ar",
+    "Script": "Arab-Latin",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
