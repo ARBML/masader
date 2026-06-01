@@ -1,0 +1,61 @@
+{
+    "Name": "ArabicNLU",
+    "Volume": 34000.0,
+    "Unit": "tokens",
+    "License": "unknown",
+    "Link": "https://arxiv.org/abs/2406.02263",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "news articles",
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "manual curation"
+    ],
+    "Description": "ArabicNLU 2024 shared task for Arabic WSD & LMD.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Birzeit University",
+        "Hamad Bin Khalifa University",
+        "Qatar University",
+        "Google"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "ArabicNLU 2024: The First Arabic Natural Language Understanding Shared Task",
+    "Paper_Link": "https://arxiv.org/pdf/2407.20663v1.pdf",
+    "Tokenized": true,
+    "Host": "CodaLab",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "ArabicNLP2024",
+    "Venue_Type": "conference",
+    "Venue_Name": "Second Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Mohammed Khalili",
+        "Sanad Malaysha",
+        "Reem Suwaileh",
+        "Mustafa Jarrar",
+        "Alaa Aljabari",
+        "Tamer Elsayed",
+        "Imed Zitouni"
+    ],
+    "Affiliations": [
+        "Birzeit University",
+        "Hamad Bin Khalifa University",
+        "Qatar University",
+        "Google"
+    ],
+    "Abstract": "This paper presents an overview of the Arabic Natural Language Understanding (ArabicNLU 2024) shared task, focusing on two subtasks: Word Sense Disambiguation (WSD) and Location Mention Disambiguation (LMD). The task aimed to evaluate the ability of automated systems to resolve word ambiguity and identify locations mentioned in Arabic text. We provided participants with novel datasets, including a sense-annotated corpus for WSD, called SALMA with approximately 34k annotated tokens, and the IDRISI-DA dataset with 3,893 annotations and 763 unique location mentions. These are challenging tasks. Out of the 38 registered teams, only three teams participated in the final evaluation phase, with the highest accuracy being 77.8% for WSD and the highest MRR@1 being 95.0% for LMD. The shared task not only facilitated the evaluation and comparison of different techniques, but also provided valuable insights into the performance of various AI and machine learning technologies.",
+    "Subsets": [],
+    "Dialect": "",
+    "Language": "",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
