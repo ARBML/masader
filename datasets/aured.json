@@ -1,44 +1,46 @@
 {
     "Name": "AuRED",
-    "Volume": 34000.0,
-    "Unit": "documents",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/bigIR/AuRED",
     "Link": "https://github.com/Fatima-Haouari/AuRED",
-    "HF_Link": "",
+    "License": "unknown",
     "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
-        "social media"
+        "social media",
+        "public datasets"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "crawling",
         "human annotation"
     ],
     "Description": "Arabic rumor verification dataset using authority tweets.",
-    "Ethical_Risks": "Medium",
+    "Volume": 34000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
     "Provider": [
-        "Qatar University",
-        "HBKU"
+        "bigIR"
     ],
-    "Derived_From": [
+    "Derived From": [
         "AuFIN",
         "AuSTR"
     ],
-    "Paper_Title": "AuRED: Enabling Arabic Rumor Verification using Evidence from Authorities over Twitter",
-    "Paper_Link": "https://aclanthology.org/2024.arabicnlp-1.3.pdf",
+    "Paper Title": "AuRED: Enabling Arabic Rumor Verification using Evidence from Authorities over Twitter",
+    "Paper Link": "https://aclanthology.org/2024.arabicnlp-1.3.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": true,
     "Tasks": [
-        "stance detection",
-        "information retrieval",
-        "other"
+        "fact checking"
     ],
-    "Venue_Title": "The Second Arabic Natural Language Processing Conference",
-    "Venue_Type": "conference",
-    "Venue_Name": "The Second Arabic Natural Language Processing Conference",
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Fatima Haouari",
         "Tamer Elsayed",
@@ -49,9 +51,5 @@
         "Hamad Bin Khalifa University"
     ],
     "Abstract": "Diverging from the trend of the previous rumor verification studies, we introduce the new task of rumor verification using evidence that are exclusively captured from authorities, i.e., entities holding the right and knowledge to verify a corresponding information. To enable research on this task for Arabic low-resourced language, we construct and release the first Authority-Rumor-Evidence Dataset (AuRED). The dataset comprises 160 rumors expressed in tweets and 692 Twitter timelines of authorities containing about 34k tweets. Additionally, we explore how existing evidence retrieval and claim verification models for fact-checking perform on our task under both the cross-lingual zero-shot and in-domain fine-tuning setups. Our experiments show that although evidence retrieval models perform relatively well on the tasks establishing strong baselines, there is still a big room for improvement. However, existing claim verification models perform poorly on the task no matter how good the retrieval performance is. The results also show that stance detection can be useful for evidence retrieval. Moreover, existing fact-checking datasets showed a potential in transfer learning to our task, however, further investigation using different datasets and setups is required.",
-    "Subsets": [],
-    "Dialect": "Modern Standard Arabic",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
