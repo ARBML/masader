@@ -1,41 +1,39 @@
 {
     "Name": "ArabicaQA",
-    "Subsets": [],
-    "HF Link": "https://hf.co/datasets/abdoelsayed/Open-ArabicaQA",
+    "Volume": 92796.0,
+    "Unit": "sentences",
+    "License": "unknown",
     "Link": "https://github.com/DataScienceUIBK/ArabicaQA",
-    "License": "MIT License",
+    "HF_Link": "",
     "Year": 2024,
-    "Language": "ar",
-    "Dialect": "Modern Standard Arabic",
     "Domain": [
         "wikipedia"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Collection_Style": [
+        "human annotation"
     ],
-    "Description": "ArabicaQA is a robust dataset designed to support and advance the development of Arabic Question Answering (QA) systems. This dataset encompasses a wide range of question types, including both Machine Reading Comprehension (MRC) and Open-Domain questions, catering to various aspects of QA research and application. The dataset is structured to facilitate training, validation, and testing of Arabic QA models.",
-    "Volume": 88946.0,
-    "Unit": "sentences",
-    "Ethical Risks": "Low",
+    "Description": "First large-scale Arabic QA dataset.",
+    "Ethical_Risks": "Low",
     "Provider": [
-        "Multiple Institutions"
+        "University of Innsbruck",
+        "Assiut University",
+        "DISCO AI"
     ],
-    "Derived From": [],
-    "Paper Title": "ArabicaQA: A Comprehensive Dataset for Arabic Question",
-    "Paper Link": "https://arxiv.org/pdf/2403.17848v1.pdf",
-    "Script": "Arab",
+    "Derived_From": [],
+    "Paper_Title": "ArabicaQA: A Comprehensive Dataset for Arabic Question Answering",
+    "Paper_Link": "https://arxiv.org/pdf/2403.17848v1.pdf",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Test_Split": true,
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue_Title": "SIGIR",
+    "Venue_Type": "conference",
+    "Venue_Name": "SIGIR 2024",
     "Authors": [
         "Abdelrahman Abdallah",
         "Mahmoud Kasem",
@@ -47,9 +45,13 @@
     ],
     "Affiliations": [
         "University of Innsbruck",
-        "Assuit University",
+        "Assiut University",
         "DISCO AI"
     ],
-    "Abstract": "In this paper, we address the significant gap in Arabic natural\nlanguage processing (NLP) resources by introducing ArabicaQA,\nthe first large-scale dataset for machine reading comprehension and\nopen-domain question answering in Arabic. This comprehensive\ndataset, consisting of 89,095 answerable and 3,701 unanswerable\nquestions created by crowdworkers to look similar to answerable\nones, along with additional labels of open-domain questions marks\na crucial advancement in Arabic NLP resources. We also present\nAraDPR, the first dense passage retrieval model trained on the\nArabic Wikipedia corpus, specifically designed to tackle the unique\nchallenges of Arabic text retrieval. Furthermore, our study includes\nextensive benchmarking of large language models (LLMs) for Arabic\nquestion answering, critically evaluating their performance in the\nArabic language context. In conclusion, ArabicaQA, AraDPR, and\nthe benchmarking of LLMs in Arabic question answering offer\nsignificant advancements in the field of Arabic NLP. The dataset\nand code are publicly accessible for further research",
-    "Added By": "Zaid Alyafeai"
+    "Abstract": "In this paper, we address the significant gap in Arabic natural language processing (NLP) resources by introducing ArabicaQA, the first large-scale dataset for machine reading comprehension and open-domain question answering in Arabic. This comprehensive dataset, consisting of 89,095 answerable and 3,701 unanswerable questions created by crowd workers to look similar to answerable ones, along with additional labels of open-domain questions marks a crucial advancement in Arabic NLP resources. We also present AraDPR, the first dense passage retrieval model trained on the Arabic Wikipedia corpus, specifically designed to tackle the unique challenges of Arabic text retrieval. Furthermore, our study includes extensive benchmarking of large language models (LLMs) for Arabic question answering, critically evaluating their performance in the Arabic language context. In conclusion, ArabicaQA, AraDPR, and the benchmarking of LLMs in Arabic question answering offer significant advancements in the field of Arabic NLP. The dataset and code are publicly accessible for further research.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
 }
