@@ -1,0 +1,55 @@
+{
+    "Name": "AraMed",
+    "Volume": 270000.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "unknown",
+    "HF_Link": "unknown",
+    "Year": 2023,
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "manual curation",
+        "machine annotation"
+    ],
+    "Description": "Large-scale Arabic Medical Question Answering dataset.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "King Khalid University",
+        "Imam Mohammad Ibn Saud Islamic University",
+        "King Salman Global Academy for Arabic Language"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "AraMed: Arabic Medical Question Answering using Pretrained Transformer Language Models",
+    "Paper_Link": "https://aclanthology.org/2024.osact-1.6.pdf",
+    "Tokenized": true,
+    "Host": "unknown",
+    "Access": "Upon-Request",
+    "Cost": "Free",
+    "Test_Split": true,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue_Title": "unknown",
+    "Venue_Type": "unknown",
+    "Venue_Name": "unknown",
+    "Authors": [
+        "Ashwag Alasmari",
+        "Sara Alhumoud",
+        "Waad Alshammari"
+    ],
+    "Affiliations": [
+        "Department of Computer Science, King Khalid University",
+        "Imam Mohammad Ibn Saud Islamic University",
+        "King Salman Global Academy for Arabic Language"
+    ],
+    "Abstract": "Medical Question Answering systems have gained significant attention in recent years due to their potential to enhance medical decision-making and improve patient care. However, most of the research in this field has focused on English-language datasets, limiting the generalizability of MQA systems to non-English speaking regions. This study introduces AraMed, a large-scale Arabic Medical Question Answering dataset addressing the limited resources available for Arabic medical question answering. AraMed comprises of 270k question-answer pairs based on health consumer questions submitted to online medical forum. Experiments using various deep learning models showcase the dataset's effectiveness, particularly with AraBERT models achieving highest results, specifically AraBERTv2 obtained an F1 score of 96.73% in the answer selection task. The comparative analysis of different deep learning models provides insights into their strengths and limitations. These findings highlight the potential of AraMed to advance the creation and development of resources specific to Arabic medical question answering research and development.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
