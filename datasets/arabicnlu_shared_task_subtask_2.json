@@ -1,0 +1,59 @@
+{
+    "Name": "ArabicNLU Shared Task Subtask 2",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://codalab.lisn.upsaclay.fr/competitions/18918",
+    "License": "unknown",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets",
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "LMD in a separate task supports developing precise models capable of accurately resolving Location Mentions (LMs) within microblogs and linking them to toponyms in geo-positioning databases",
+    "Volume": 2869.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Birzeit University"
+    ],
+    "Derived From": [
+        "IDRISI-DA"
+    ],
+    "Paper Title": "ArabicNLU 2024: The First Arabic Natural Language Understanding Shared Task",
+    "Paper Link": "https://arxiv.org/pdf/2407.20663v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "CodaLab",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Mohammed Khalili",
+        "Sanad Malaysha",
+        "Reem Suwaileh",
+        "Mustafa Jarrar",
+        "Alaa Aljabari",
+        "Tamer Elsayed",
+        "Imed Zitouni"
+    ],
+    "Affiliations": [
+        "Birzeit University",
+        "Hamad Bin Khalifa University",
+        "Qatar University",
+        "Google"
+    ],
+    "Abstract": "This paper presents an overview of the Arabic Natural Language Understanding (ArabicNLU 2024) shared task, focusing on two subtasks: Word Sense Disambiguation (WSD) and Location Mention Disambiguation (LMD). The task aimed to evaluate the ability of automated systems to resolve word ambiguity and identify locations mentioned in Arabic text. We provided participants with novel datasets, including a sense-annotated corpus for WSD, called SALMA with approximately 34k annotated tokens, and the IDRISI-DA dataset with 3,893 annotations and 763 unique location mentions. These are challenging tasks. Out of the 38 registered teams, only three teams participated in the final evaluation phase, with the highest accuracy being 77.8% for WSD and the highest MRR@1 being 95.0% for LMD. The shared task not only facilitated the evaluation and comparison of different techniques, but also provided valuable insights into the performance of various AI and machine learning technologies.",
+    "Added By": "Zaid Alyafeai"
+}
