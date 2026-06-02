@@ -67,7 +67,8 @@ def validate_types(data, key):
 
 for file in glob("datasets/*.json"):
     data = json.load(open(file))
-    del data["Added By"]
+    if "Added By" in data or "Added_By" in data:
+        del data["Added By"]
     for key in data.keys():
         validate_options(data, key)
         validate_types(data, key)
