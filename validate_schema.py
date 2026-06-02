@@ -3,7 +3,6 @@ import os
 import sys
 from glob import glob
 from pathlib import Path
-from tqdm import tqdm
 
 import requests
 
@@ -66,7 +65,7 @@ def validate_types(data, key):
         sys.exit(f"Invalid type: {type(data[key])} for {key}")
     return data
 
-for i,file in tqdm(enumerate(glob("datasets/*.json"))):
+for file in glob("datasets/*.json"):
     data = json.load(open(file))
     del data["Added By"]
     for key in data.keys():
