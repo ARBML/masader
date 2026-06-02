@@ -1,0 +1,56 @@
+{
+    "Name": "TEDxTN",
+    "Volume": 25.0,
+    "Unit": "hours",
+    "License": "CC BY-NC-ND 4.0",
+    "Link": "https://huggingface.co/datasets/fbougares/TedxTn",
+    "HF_Link": "https://huggingface.co/datasets/fbougares/TedxTn",
+    "Year": 2024,
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "First Tunisian Arabic-English speech translation corpus.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "ELYADATA",
+        "Laboratoire Informatique d'Avignon"
+    ],
+    "Derived_From": [
+        "TEDx talks"
+    ],
+    "Paper_Title": "TEDxTN: A Three-way Speech Translation Corpus for Code-Switched Tunisian Arabic - English",
+    "Paper_Link": "https://arxiv.org/pdf/2511.10780v1.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "speech recognition",
+        "machine translation"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
+    "Authors": [
+        "Fethi Bougares",
+        "Salima Mdhaffar",
+        "Haroun Elleuch",
+        "Yannick Est\u00e8ve"
+    ],
+    "Affiliations": [
+        "ELYADATA",
+        "Laboratoire Informatique d'Avignon"
+    ],
+    "Abstract": "In this paper, we introduce TEDxTN, the first publicly available Tunisian Arabic to English speech translation dataset. This work is inline with the ongoing effort to mitigate the data scarcity obstacle for a number of Arabic dialects. We collected, segmented, transcribed and translated 108 TEDx talks following our internally developed annotation guidelines. The collected talks represent 25 hours of speech with code-switching that covers speakers with various accents from over 11 different regions of Tunisia. We make the annotation guidelines and corpus publicly available. This will enable the extension of TEDxTN to new talks as they become available. We also report results for strong baseline systems of Speech Recognition and Speech Translation using multiple pre-trained and fine-tuned end-to-end models.",
+    "Subsets": [],
+    "Dialect": "Tunisia",
+    "Language": "ar",
+    "Script": "Arab-Latin",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
