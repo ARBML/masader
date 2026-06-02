@@ -4,34 +4,34 @@
     "Unit": "tokens",
     "License": "CC BY 4.0",
     "Link": "https://data.mendeley.com/datasets/f2bgr7tdtt/1",
-    "HF_Link": "",
+    "HF Link": "",
     "Year": 2024,
     "Domain": [
         "other"
     ],
     "Form": "audio",
-    "Collection_Style": [
+    "Collection Style": [
         "human annotation"
     ],
     "Description": "The first EEG dataset for Arabic characters consists of high-quality recordings for 31 unique characters from 30 participants (21 males and 9 females) using the Epoc X 14-channel device",
-    "Ethical_Risks": "Low",
+    "Ethical Risks": "Low",
     "Provider": [
         "Arab International University"
     ],
-    "Derived_From": [],
-    "Paper_Title": "ArEEG_Chars: Dataset for Envisioned Speech Recognition using EEG for Arabic Characters",
-    "Paper_Link": "https://arxiv.org/pdf/2402.15733v3.pdf",
+    "Derived From": [],
+    "Paper Title": "ArEEG_Chars: Dataset for Envisioned Speech Recognition using EEG for Arabic Characters",
+    "Paper Link": "https://arxiv.org/pdf/2402.15733v3.pdf",
     "Tokenized": false,
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
         "speech recognition"
     ],
-    "Venue_Title": "arXiv",
-    "Venue_Type": "preprint",
-    "Venue_Name": "arXiv",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Hazem Darwish",
         "Abdalrahman Al Malah",
@@ -46,5 +46,5 @@
     "Dialect": "Modern Standard Arabic",
     "Language": "ar",
     "Script": "Arab",
-    "Added_By": "Zaid Alyafeai"
+    "Added By": "Zaid Alyafeai"
 }
