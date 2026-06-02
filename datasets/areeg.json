@@ -1,7 +1,7 @@
 {
-    "Name": "ArEEG",
-    "Volume": 39857.0,
-    "Unit": "documents",
+    "Name": "ArEEG_Chars",
+    "Volume": 930.0,
+    "Unit": "tokens",
     "License": "CC BY 4.0",
     "Link": "https://data.mendeley.com/datasets/f2bgr7tdtt/1",
     "HF_Link": "",
@@ -13,8 +13,8 @@
     "Collection_Style": [
         "human annotation"
     ],
-    "Description": "EEG dataset for Arabic characters",
-    "Ethical_Risks": "Medium",
+    "Description": "The first EEG dataset for Arabic characters consists of high-quality recordings for 31 unique characters from 30 participants (21 males and 9 females) using the Epoc X 14-channel device",
+    "Ethical_Risks": "Low",
     "Provider": [
         "Arab International University"
     ],
@@ -29,9 +29,9 @@
     "Tasks": [
         "speech recognition"
     ],
-    "Venue_Title": "",
-    "Venue_Type": "other",
-    "Venue_Name": "",
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
     "Authors": [
         "Hazem Darwish",
         "Abdalrahman Al Malah",
@@ -46,5 +46,5 @@
     "Dialect": "Modern Standard Arabic",
     "Language": "ar",
     "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added_By": "Zaid Alyafeai"
 }
