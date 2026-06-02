@@ -38,7 +38,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "bias assessment",
+        "bias detection",
         "offensive language detection"
     ],
     "Venue Title": "ArabicNLP",

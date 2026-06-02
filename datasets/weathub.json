@@ -34,7 +34,7 @@
     "Cost": "",
     "Test Split": false,
     "Tasks": [
-        "bias assessment"
+        "bias detection"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",

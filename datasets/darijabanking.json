@@ -52,7 +52,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "intent classification",
+        "intent detection",
         "machine translation"
     ],
     "Venue Title": "Natural Language Processing",

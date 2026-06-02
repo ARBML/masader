@@ -30,8 +30,8 @@
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
-    "Access": "",
-    "Cost": "Free",
+    "Access": "Free",
+    "Cost": "",
     "Test Split": true,
     "Tasks": [
         "question answering"
