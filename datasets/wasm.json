@@ -1,0 +1,60 @@
+{
+    "Name": "Wasm",
+    "Volume": 0.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/misraj-ai/wasm",
+    "HF_Link": "https://huggingface.co/datasets/Misraj/msdd",
+    "Year": 2025,
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "images",
+    "Collection_Style": [
+        "crawling",
+        "machine annotation"
+    ],
+    "Description": "Pipeline for Arabic interleaved multimodal corpora.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "misraj.ai"
+    ],
+    "Derived_From": [
+        "Common Crawl"
+    ],
+    "Paper_Title": "Wasm: A Pipeline for Constructing Structured Arabic Interleaved Multimodal Corpora",
+    "Paper_Link": "https://arxiv.org/pdf/2511.07080v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "language modeling",
+        "text generation",
+        "image captioning",
+        "visual question answering"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
+    "Authors": [
+        "Khalil Hennara",
+        "Ahmad Bastati",
+        "Muhammad Hreden",
+        "Mohamed Motasim Hamed",
+        "Zeina Aldallal",
+        "Sara Chrouf",
+        "Safwan AlModhayan"
+    ],
+    "Affiliations": [
+        "misraj.ai",
+        "Khobar, Saudi Arabia"
+    ],
+    "Abstract": "The performance of large language models (LLMs) and large multimodal models (LMMs) depends heavily on the quality and scale of their pre-training datasets. Recent research shows that large multimodal models trained on natural documents where images and text are interleaved outperform those trained only on image\u2013text pairs across a wide range of benchmarks, leveraging advanced pre-trained models to enforce semantic alignment, image-sequence consistency, and textual coherence. For Arabic, however, the lack of high-quality multimodal datasets that preserve document structure has limited progress. In this paper, we present our pipeline Wasm for processing the Common Crawl dataset to create a new Arabic multimodal dataset that uniquely provides markdown output. Unlike existing Arabic corpora that focus solely on text extraction, our approach preserves the structural integrity of web content while maintaining flexibility for both text-only and multimodal pre-training scenarios. We provide a comprehensive comparative analysis of our data processing pipeline against those used for major existing datasets, highlighting the convergences in filtering strategies and justifying our specific design choices. To support future research, we publicly release a representative dataset dump along with the multimodal processing pipeline for Arabic.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
