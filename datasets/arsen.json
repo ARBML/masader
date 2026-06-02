@@ -1,0 +1,60 @@
+{
+    "Name": "ArSen",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/123fangyang/ArSen",
+    "License": "Apache-2.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic COVID-19 sentiment analysis benchmark.",
+    "Volume": 10193.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Huaibei Normal University",
+        "University College Dublin",
+        "Georgia Institute of Technology",
+        "Wuhu Institute of Technology"
+    ],
+    "Derived From": [
+        "AROT-COV23"
+    ],
+    "Paper Title": "Advancing Arabic Sentiment Analysis: ArSen Benchmark and the Improved Fuzzy Deep Hybrid Network",
+    "Paper Link": "https://aclanthology.org/2024.conll-1.39.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue Title": "CoNLL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Computational Natural Language Learning",
+    "Authors": [
+        "Yang Fang",
+        "Cheng Xu",
+        "Shuhao Guan",
+        "Nan Yan",
+        "Yuke Mei"
+    ],
+    "Affiliations": [
+        "Huaibei Normal University",
+        "University College Dublin",
+        "Georgia Institute of Technology",
+        "Wuhu Institute of Technology"
+    ],
+    "Abstract": "Sentiment analysis is pivotal in Natural Language Processing for understanding opinions and emotions in text. While advancements in Sentiment analysis for English are notable, Arabic Sentiment Analysis (ASA) lags, despite the growing Arabic online user base. Existing ASA benchmarks are often outdated and lack comprehensive evaluation capabilities for state-of-the-art models. To bridge this gap, we introduce ArSen, a meticulously annotated COVID-19-themed Arabic dataset, and the IFDHN, a novel model incorporating fuzzy logic for enhanced sentiment classification. ArSen provides a contemporary, robust benchmark, and IFDHN achieves state-of-the-art performance on ASA tasks. Comprehensive evaluations demonstrate the efficacy of IFDHN using the ArSen dataset, highlighting future research directions in ASA.",
+    "Added By": "Zaid alayfeai"
+}

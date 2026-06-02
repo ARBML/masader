@@ -1,0 +1,58 @@
+{
+    "Name": "AWN V3",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/HadiPTUK/AWN3.0",
+    "License": "unknown",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "9576 synsets that was enhanced from AWN V1. ",
+    "Volume": 9576.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Trento",
+        "Palestine Technical University\u2013Kadoorie",
+        "IMT Atlantique"
+    ],
+    "Derived From": [
+        "AWN V1"
+    ],
+    "Paper Title": "Advancing the Arabic WordNet: Elevating Content Quality",
+    "Paper Link": "https://aclanthology.org/2024.osact-1.9.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "semantic similarity",
+        "word sense disambiguation",
+        "word similarity"
+    ],
+    "Venue Title": "OSACT",
+    "Venue Type": "workshop",
+    "Venue Name": "Open-Source Arabic Corpora and Processing Tools.",
+    "Authors": [
+        "Abed Alhakim Freihat",
+        "Hadi Khalilia",
+        "G\u00e1bor Bella",
+        "Fausto Giunchiglia"
+    ],
+    "Affiliations": [
+        "University of Trento",
+        "Palestine Technical University\u2013Kadoorie",
+        "IMT Atlantique"
+    ],
+    "Abstract": "High-quality WordNets are crucial for achieving high-quality results in NLP applications that rely on such resources. However, the wordnets of most languages suffer from serious issues of correctness and completeness with respect to the words and word meanings they define, such as incorrect lemmas, missing glosses and example sentences, or an inadequate, Western-centric representation of the morphology and the semantics of the language. Previous efforts have largely focused on increasing lexical coverage while ignoring other qualitative aspects. In this paper, we focus on the Arabic language and introduce a major revision of the Arabic WordNet that addresses multiple dimensions of lexico-semantic resource quality. As a result, we updated more than 58% of the synsets of the existing Arabic WordNet by adding missing information and correcting errors. In order to address issues of language diversity and untranslatability, we also extended the wordnet structure by new elements: phrasets and lexical gaps.",
+    "Added By": "Zaid Alyafeai"
+}
