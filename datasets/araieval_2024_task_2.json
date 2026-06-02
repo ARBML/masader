@@ -32,7 +32,7 @@
     "Paper Link": "https://arxiv.org/pdf/2407.04247v1.pdf",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "CodaLab",
+    "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
