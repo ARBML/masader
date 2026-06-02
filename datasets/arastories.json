@@ -1,0 +1,74 @@
+{
+    "Name": "arastories",
+    "Subsets": [
+        {
+            "Name": "MSA",
+            "Volume": 1000.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 1000.0,
+            "Unit": "documents",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Moroccan",
+            "Volume": 1000.0,
+            "Unit": "documents",
+            "Dialect": "Morocco"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://github.com/UBC-NLP/arastories",
+    "License": "MIT License",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "LLM",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated",
+        "machine annotation"
+    ],
+    "Description": "A dataset for automatic Arabic story generation containing MSA and two dialects.",
+    "Volume": 3000.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "UBC-NLP"
+    ],
+    "Derived From": [
+        "TinyStories"
+    ],
+    "Paper Title": "Arabic Automatic Story Generation with Large Language Models",
+    "Paper Link": "https://arxiv.org/pdf/2407.07551v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "language modeling"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing",
+    "Authors": [
+        "Ahmed Oumar El-Shangiti",
+        "Fakhraddin Alwajih",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "The University of British Columbia",
+        "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)",
+        "Invertible AI"
+    ],
+    "Abstract": "Large language models (LLMs) have recently emerged as a powerful tool for a wide range of language generation tasks. Nevertheless, this progress has been slower in Arabic. In this work, we focus on the task of generating stories from LLMs. For our training, we use stories acquired through machine translation (MT) as well as GPT-4. For the MT data, we develop a careful pipeline that ensures we acquire high-quality stories. For our GPT-4 data, we introduce crafted prompts that allow us to generate data well-suited to the Arabic context in both Modern Standard Arabic (MSA) and two Arabic dialects (Egyptian and Moroccan). For example, we generate stories tailored to various Arab countries on a wide host of topics. Our manual evaluations show that our model fine-tuned on these training datasets can generate coherent stories that adhere to our instructions. We also conduct an extensive automatic and human evaluation comparing our models against state-of-the-art proprietary and open-source models. Our datasets and models will be made publicly available at https://github.com/UBC-NLP/arastories.",
+    "Added By": "Zaid Alyafeai"
+}
