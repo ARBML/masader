@@ -1,0 +1,54 @@
+{
+    "Name": "Ar-Spider",
+    "Volume": 9691.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/sasmohaimeed/Ar-Spider",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "LLM generated",
+        "manual curation"
+    ],
+    "Description": "First Arabic cross-domain text-to-SQL dataset.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "University of Central Florida"
+    ],
+    "Derived_From": [
+        "Spider"
+    ],
+    "Paper_Title": "Ar-Spider: Text-to-SQL in Arabic",
+    "Paper_Link": "https://arxiv.org/pdf/2402.15012v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "text to SQL",
+        "semantic parsing"
+    ],
+    "Venue_Title": "SAC",
+    "Venue_Type": "conference",
+    "Venue_Name": "ACM SAC",
+    "Authors": [
+        "Saleh Almohaimeed",
+        "Saad Almohaimeed",
+        "Mansour AlGhanim",
+        "Liqiang Wang"
+    ],
+    "Affiliations": [
+        "University of Central Florida"
+    ],
+    "Abstract": "In Natural Language Processing (NLP), one of the most important tasks is text-to-SQL semantic parsing, which focuses on enabling users to interact with the database in a more natural manner. In recent years, text-to-SQL has made significant progress, but most were English-centric. In this paper, we introduce Ar-Spider, the first Arabic cross-domain text-to-SQL dataset. Due to the unique nature of the language, two major challenges have been encountered, namely schema linguistic and SQL structural challenges. In order to handle these issues and conduct the experiments, we adopt two baseline models LGESQL [4] and S2SQL [12], both of which are tested with two cross-lingual models to alleviate the effects of schema linguistic and SQL structure linking challenges. The baselines demonstrate decent single-language performance on our Arabic text-to-SQL dataset, Ar-Spider, achieving 62.48% for S2SQL and 65.57% for LGESQL, only 8.79% below the highest results achieved by the baselines when trained in English dataset. To achieve better performance on Arabic text-to-SQL, we propose the context similarity relationship (CSR) approach, which results in a significant increase in the overall performance of about 1.52% for S2SQL and 1.06% for LGESQL and close the gap between Arabic and English languages to 7.73%.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
