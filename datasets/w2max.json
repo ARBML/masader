@@ -1,0 +1,66 @@
+{
+    "Name": "W2Max",
+    "Volume": 6000.0,
+    "Unit": "tokens",
+    "License": "unknown",
+    "Link": "https://github.com/CAMeL-Lab/wild_diacritics",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "news articles",
+        "books",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "New dataset for Arabic diacritization.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "New York University Abu Dhabi",
+        "American University of Sharjah",
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Derived_From": [
+        "WikiNews",
+        "Penn Arabic Treebank",
+        "Hindawi",
+        "APCD",
+        "UN Corpus",
+        "Arabic Gigaword",
+        "ChatGPT"
+    ],
+    "Paper_Title": "Arabic Diacritics in the Wild: Exploiting Opportunities for Improved Diacritization",
+    "Paper_Link": "https://arxiv.org/pdf/2406.05760v1.pdf",
+    "Tokenized": true,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Salman Elgamal",
+        "Ossama Obeid",
+        "Tameem Kabbani",
+        "Go Inoue",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "Computational Approaches to Modeling Language Lab, New York University Abu Dhabi",
+        "American University of Sharjah",
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Abstract": "The widespread absence of diacritical marks in Arabic text poses a significant challenge for Arabic natural language processing (NLP). This paper explores instances of naturally occurring diacritics, referred to as \u201cdiacritics in the wild,\u201d to unveil patterns and latent information across six diverse genres: news articles, novels, children\u2019s books, poetry, political documents, and ChatGPT outputs. We present an new annotated dataset that maps real-world partially diacritized words to their maximal full diacritization in context. Additionally, we propose extensions to the analyze-and-disambiguate approach in Arabic NLP to leverage these diacritics, resulting in notable improvements.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
