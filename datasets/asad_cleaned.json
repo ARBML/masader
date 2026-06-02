@@ -1,0 +1,52 @@
+{
+    "Name": "ASAD Cleaned",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/alshehrikhadejaa/ASAD",
+    "License": "unknown",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Annoated subset from ASAD on six speech act categories.",
+    "Volume": 22352.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "King Abdulaziz University"
+    ],
+    "Derived From": [
+        "ASAD"
+    ],
+    "Paper Title": "Arabic Tweet Act: A Weighted Ensemble Pre-Trained Transformer Model for Classifying Arabic Speech Acts on Twitter",
+    "Paper Link": "https://arxiv.org/pdf/2401.17373v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Khadejaa Alshehri",
+        "Areej Alhothali",
+        "Nahed Alowidi"
+    ],
+    "Affiliations": [
+        "King Abdulaziz University"
+    ],
+    "Abstract": "Speech acts are a speakers actions when performing an utterance within a conversation, such as asking, recommending, greeting, or thanking someone, expressing a thought, or making a suggestion. Understanding speech acts helps interpret the intended meaning and actions behind a speakers or writers words. This paper proposes a Twitter dialectal Arabic speech act classification approach based on a transformer deep learning neural network. Twitter and social media, are becoming more and more integrated into daily life. As a result, they have evolved into a vital source of information that represents the views and attitudes of their users. We proposed a BERT based weighted ensemble learning approach to integrate the advantages of various BERT models in dialectal Arabic speech acts classification. We compared the proposed model against several variants of Arabic BERT models and sequence-based models. We developed a dialectal Arabic tweet act dataset by annotating a subset of a large existing Arabic sentiment analysis dataset (ASAD) based on six speech act categories. We also evaluated the models on a previously developed Arabic Tweet Act dataset (ArSAS). To overcome the class imbalance issue commonly observed in speech act problems, a transformer-based data augmentation model was implemented to generate an equal proportion of speech act categories. The results show that the best BERT model is araBERTv2-Twitter models with a macro-averaged F1 score and an accuracy of 0.73 and 0.84, respectively. The performance improved using a BERT-based ensemble method with a 0.74 and 0.85 averaged F1 score and accuracy on our dataset, respectively.",
+    "Added By": "Zaid Alyafeai"
+}
