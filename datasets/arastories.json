@@ -1,0 +1,73 @@
+{
+    "Name": "AraStories",
+    "Volume": 3000.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/UBC-NLP/arastories",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "LLM generated"
+    ],
+    "Description": "Dataset for Arabic story generation.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "UBC",
+        "MBZUAI"
+    ],
+    "Derived_From": [
+        "TinyStories"
+    ],
+    "Paper_Title": "Arabic Automatic Story Generation with Large Language Models",
+    "Paper_Link": "https://aclanthology.org/2024.arabicnlp-1.13.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "ArabicNLP",
+    "Venue_Type": "conference",
+    "Venue_Name": "ArabicNLP",
+    "Authors": [
+        "Ahmed Oumar El-Shangiti",
+        "Fakhraddin Alwajih",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "University of British Columbia",
+        "Mohamed bin Zayed University of Artificial Intelligence",
+        "InvertibleAI"
+    ],
+    "Abstract": "Large language models (LLMs) have recently emerged as a powerful tool for a wide range of language generation tasks. Nevertheless, this progress has been slower in Arabic. In this work, we focus on the task of generating stories from LLMs. For our training, we use stories acquired through machine translation (MT) as well as GPT-4. For the MT data, we develop a careful pipeline that ensures we acquire high-quality stories. For our GPT-4 data, we introduce crafted prompts that allow us to generate data well-suited to the Arabic context in both Modern Standard Arabic (MSA) and two Arabic dialects (Egyptian and Moroccan). For example, we generate stories tailored to various Arab countries on a wide host of topics. Our manual evaluations show that our model fine-tuned on these training datasets can generate coherent stories that adhere to our instructions. We also conduct an extensive automatic and human evaluation comparing our models against state-of-the-art proprietary and open-source models. Our datasets and models will be made publicly available at https://github.com/UBC-NLP/arastories.",
+    "Subsets": [
+        {
+            "Name": "MSA",
+            "Volume": 1000.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 1000.0,
+            "Unit": "documents",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Moroccan",
+            "Volume": 1000.0,
+            "Unit": "documents",
+            "Dialect": "Morocco"
+        }
+    ],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
