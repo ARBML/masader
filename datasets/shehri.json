@@ -1,0 +1,50 @@
+{
+    "Name": "Shehri",
+    "Volume": 2250.0,
+    "Unit": "sentences",
+    "License": "CC BY-NC 4.0",
+    "Link": "https://github.com/iwan-rg/Shehri-Jibbali-Speech-Dataset",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "Speech dataset for Shehri (Jibbali)",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "King Saud University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Arabic Speech Recognition of zero-resourced Languages: A Case of Shehri (Jibbali) Language",
+    "Paper_Link": "https://aclanthology.org/2024.osact-1.10.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue_Title": "OSACT 2024 Workshop",
+    "Venue_Type": "workshop",
+    "Venue_Name": "",
+    "Authors": [
+        "Norah Alrashoudi",
+        "Omar Said Alshahri",
+        "Hend Al-Khalifa"
+    ],
+    "Affiliations": [
+        "King Saud University",
+        "Islamic Sciences Institute, Diwan of the Royal Court"
+    ],
+    "Abstract": "Many under-resourced languages face data scarcity issues due to a lack of standardized writing systems, making ASR training more challenging and costly. However, there's a growing need to adapt ASR for indigenous languages to support language documentation, preservation, and the development of learning materials for these communities. Shehri or Jibbali, a spoken language in Oman, lacks extensive annotated speech data. This paper aims to investigate transfer learning techniques to develop an ASR model for this under-resourced language. We collected a Shehri (Jibbali) speech corpus and utilized transfer learning by fine-tuning pre-trained ASR models on this dataset, including Wav2Vec2.0, HuBERT and Whisper. Evaluation using word error rate (WER) and character error rate (CER) showed that the Whisper model, fine-tuned on the Shehri (Jibbali) dataset, significantly outperformed other models, with the best results from Whisper-medium achieving 3.5% WER. This demonstrates the effectiveness of transfer learning for resource-constrained tasks, showing high zero-shot performance of pre-trained models.",
+    "Subsets": [],
+    "Dialect": "Oman",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
