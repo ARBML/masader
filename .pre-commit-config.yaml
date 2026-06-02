@@ -24,3 +24,14 @@ repos:
             files: \.(js|ts|jsx|tsx|css|less|json|markdown|md|yaml|yml)$
             exclude: tata.js|palette.js|style.min.css
             args: ['--tab-width', '4', '--single-quote']
+    - repo: local
+      hooks:
+          - id: validate-schema
+            name: validate dataset schema
+            entry: python validate_schema.py
+            language: python
+            additional_dependencies: [requests]
+            pass_filenames: false
+            files: ^datasets/.*\.json$
+            env:
+                USE_LOCAL_SCHEMA: 'true'

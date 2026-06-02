@@ -3,16 +3,17 @@ import os
 import sys
 from glob import glob
 from pathlib import Path
+from tqdm import tqdm
 
 import requests
 
 SCHEMA_URL = os.environ.get("SCHEMA_URL", "https://mextract-production.up.railway.app/schema")
-# SCHEMA_FILE = Path(__file__).resolve().parent / "schema.json"
+SCHEMA_FILE = Path(__file__).resolve().parent / "schema.json"
 
 
 def load_schema():
-    # if os.environ.get("USE_LOCAL_SCHEMA", "").lower() in ("1", "true", "yes"):
-    #     return json.loads(SCHEMA_FILE.read_text())
+    if os.environ.get("USE_LOCAL_SCHEMA", "").lower() in ("1", "true", "yes"):
+        return json.loads(SCHEMA_FILE.read_text())
 
     try:
         response = requests.post(SCHEMA_URL, data={"name": "ar"}, timeout=30)
@@ -65,15 +66,10 @@ def validate_types(data, key):
         sys.exit(f"Invalid type: {type(data[key])} for {key}")
     return data
 
-for i,file in enumerate(glob("datasets/*.json")):
+for i,file in tqdm(enumerate(glob("datasets/*.json"))):
     data = json.load(open(file))
     del data["Added By"]
-    print(f"Validating {file} ({i+1}/{len(glob('datasets/*.json'))})")
     for key in data.keys():
         validate_options(data, key)
         validate_types(data, key)
         validate_keys(data, key)
-    
-
-
-

@@ -55,12 +55,13 @@
             "CC BY-NC-SA 4.0",
             "CC BY-NC 4.0",
             "CC0",
+            "CC BY 2.5",
             "CDLA-Permissive-1.0",
             "CDLA-Permissive-2.0",
             "GPL-1.0",
             "GPL-2.0",
             "GPL-3.0",
-            "LDC User Agreement for Non-Members",
+            "LDC User Agreement",
             "LGPL-2.0",
             "LGPL-3.0",
             "MIT License",
@@ -70,6 +71,8 @@
             "ODC-By",
             "AFL-3.0",
             "CDLA-SHARING-1.0",
+            "BigScience RAIL License",
+            "DbCL",
             "unknown",
             "custom"
         ]
@@ -102,9 +105,10 @@
             "wikipedia",
             "web pages",
             "public datasets",
-            "TV Channels",
+            "TV channels",
             "captions",
             "LLM",
+            "telephone conversations",
             "other"
         ]
     },
@@ -112,12 +116,7 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": [
-            "text",
-            "audio",
-            "images",
-            "videos"
-        ]
+        "options": ["text", "audio", "images", "videos"]
     },
     "Collection_Style": {
         "answer_type": "list[str]",
@@ -141,11 +140,7 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": [
-            "Low",
-            "Medium",
-            "High"
-        ]
+        "options": ["Low", "Medium", "High"]
     },
     "Provider": {
         "answer_type": "list[str]",
@@ -203,11 +198,7 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": [
-            "Free",
-            "Upon-Request",
-            "With-Fee"
-        ]
+        "options": ["Free", "Upon-Request", "With-Fee"]
     },
     "Cost": {
         "answer_type": "str",
@@ -293,7 +284,7 @@
             "fact checking",
             "misinformation detection",
             "word sense disambiguation",
-            "trolls detection",
+            "troll detection",
             "entity retrieval",
             "semantic role labeling",
             "syntactic parsing",
@@ -320,6 +311,33 @@
             "information extraction",
             "spam detection",
             "diacritization",
+            "hallucination detection",
+            "deepfake detection",
+            "instruction following",
+            "multimodal evaluation",
+            "preference optimization",
+            "gender bias detection",
+            "bias detection",
+            "code generation",
+            "humor detection",
+            "AI-generated text detection",
+            "video generation",
+            "answerable questions detection",
+            "propaganda detection",
+            "retrieval-augmented generation",
+            "LLM judge evaluation",
+            "spoken language modeling",
+            "table to text",
+            "disease identification",
+            "agentic AI evaluation",
+            "knowledge graphs",
+            "visual question answering",
+            "educational value of web documents",
+            "event linking",
+            "hashtag prediction",
+            "document type classification",
+            "spoken term detection",
+            "function calling",
             "other"
         ]
     },
@@ -332,12 +350,7 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": [
-            "preprint",
-            "workshop",
-            "conference",
-            "journal"
-        ]
+        "options": ["preprint", "workshop", "conference", "journal", "other"]
     },
     "Venue_Name": {
         "answer_type": "str",
@@ -404,19 +417,12 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": [
-            "ar",
-            "multilingual"
-        ]
+        "options": ["ar", "multilingual"]
     },
     "Script": {
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": [
-            "Arab",
-            "Latin",
-            "Arab-Latin"
-        ]
+        "options": ["Arab", "Latin", "Arab-Latin"]
     }
 }
