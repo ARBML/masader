@@ -30,7 +30,7 @@ repos:
             name: validate dataset schema
             entry: python validate_schema.py
             language: python
-            additional_dependencies: [requests]
+            additional_dependencies: [requests, tqdm]
             pass_filenames: false
             files: ^datasets/.*\.json$
             env:
