@@ -1,0 +1,62 @@
+{
+    "Name": "ArAIEval 2024 Task 2",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://gitlab.com/araieval/araieval_arabicnlp24/-/tree/main/task2",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media",
+        "news articles",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "categorize memes as either propagandistic or non-propagandistic",
+    "Volume": 3062.0,
+    "Unit": "images",
+    "Ethical Risks": "High",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "ArPro",
+        "AraFacts"
+    ],
+    "Paper Title": "ArAIEval Shared Task: Propagandistic Techniques Detection in Unimodal and Multimodal Arabic Content",
+    "Paper Link": "https://arxiv.org/pdf/2407.04247v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "CodaLab",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Maram Hasanain",
+        "Md. Arid Hasan",
+        "Fatema Ahmed",
+        "Reem Suwaileh",
+        "Md. Rafiul Biswas",
+        "Wajdi Zaghouani",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute, HBKU",
+        "University of New Brunswick",
+        "Hamad Bin Khalifa University",
+        "Northwestern University in Qatar"
+    ],
+    "Abstract": "We present an overview of the second edition of the ArAIEval shared task, organized as part of the ArabicNLP2024 conference co-located with ACL2024. In this edition, ArAIEval offers two tasks: (i) detection of propagandistic textual spans with persuasion techniques identification in tweets and news articles, and (ii) distinguishing between propagandistic and non-propagandistic memes. A total of 14 teams participated in the finalevaluation phase, with 6 and 9 teams participating in Tasks 1 and 2, respectively. Finally, 11 teams submitted system description papers. Across both tasks, we observed that fine-tuning transformer models such as AraBERT was at the core of the majority of the participating systems. We provide a description of the task setup, including a description of the dataset construction and the evaluation setup. We further provide a brief overview of the participating systems. All datasets and evaluation scripts are released to the research community. We hope this will enable further research on these important tasks in Arabic.",
+    "Added By": "Zaid Alyafeai"
+}
