@@ -1,0 +1,61 @@
+{
+    "Name": "AlcLa",
+    "Volume": 3372744.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/amurtadha/Alclam",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "manual curation"
+    ],
+    "Description": "Arabic dialectal language model.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Zhuiyi AI Lab",
+        "Mayo Clinic",
+        "Dongbei University of Finance and Economics",
+        "Northwestern Polytechnical University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "AlcLaM: Arabic Dialectal Language Model",
+    "Paper_Link": "https://aclanthology.org/2024.arabicnlp-1.14.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "dialect identification",
+        "sentiment analysis",
+        "hate speech detection"
+    ],
+    "Venue_Title": "WANLP",
+    "Venue_Type": "conference",
+    "Venue_Name": "WANLP 2024",
+    "Authors": [
+        "Murtadha Ahmed",
+        "Saghir Alfasly",
+        "Wenbo",
+        "Jamaal Qasem",
+        "Mohammed Ahmed",
+        "Yunfeng Liu"
+    ],
+    "Affiliations": [
+        "Zhuiyi AI Lab",
+        "Mayo Clinic",
+        "Dongbei University of Finance and Economics",
+        "Northwestern Polytechnical University"
+    ],
+    "Abstract": "Pre-trained Language Models (PLMs) are integral to many modern natural language processing (NLP) systems. Although multilingual models cover a wide range of languages, they often grapple with challenges like high inference costs and a lack of diverse non-English training data. Arabic-specific PLMs are trained predominantly on modern standard Arabic, which compromises their performance on regional dialects. To tackle this, we construct an Arabic dialectal corpus comprising 3.4M sentences gathered from social media platforms. We utilize this corpus to expand the vocabulary and retrain a BERT-based model from scratch. Named AlcLaM, our model was trained using only 13 GB of text, which represents a fraction of the data used by existing models such as CAMeL, MARBERT, and ArBERT, compared to 7.8%, 10.2%, and 21.3%, respectively. Remarkably, AlcLaM demonstrates superior performance on a variety of Arabic NLP tasks despite the limited training data.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
