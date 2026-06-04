@@ -19,7 +19,9 @@
     "Volume": 100.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [],
+    "Provider": [
+        "National Engineering School of Tunis"
+    ],
     "Derived From": [],
     "Paper Title": "How Well Do LLMs Understand Tunisian Arabic?",
     "Paper Link": "https://arxiv.org/pdf/2511.16683v1",
