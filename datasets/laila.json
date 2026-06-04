@@ -1,42 +1,42 @@
 {
     "Name": "LAILA",
-    "Volume": 7859.0,
-    "Unit": "documents",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://gitlab.com/bigirqu/laila",
-    "HF_Link": "",
-    "Year": 2025,
+    "License": "CC BY-NC-ND 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
         "other"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "human annotation",
         "manual curation"
     ],
     "Description": "Large Arabic AES dataset with trait annotations.",
-    "Ethical_Risks": "Low",
+    "Volume": 7859.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
     "Provider": [
-        "Qatar University",
-        "Carnegie Mellon University in Qatar"
+        "bigIR"
     ],
-    "Derived_From": [
-        "QAES",
-        "TAQEEM 2025"
-    ],
-    "Paper_Title": "LAILA: A Large Trait-Based Dataset for Arabic Automated Essay Scoring",
-    "Paper_Link": "https://arxiv.org/pdf/2512.24235v2",
+    "Derived From": [],
+    "Paper Title": "LAILA: A Large Trait-Based Dataset for Arabic Automated Essay Scoring",
+    "Paper Link": "https://arxiv.org/pdf/2512.24235v2",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": true,
     "Tasks": [
-        "other"
+        "answer grading"
     ],
-    "Venue_Title": "",
-    "Venue_Type": "",
-    "Venue_Name": "",
+    "Venue Title": "EACL",
+    "Venue Type": "conference",
+    "Venue Name": "European Chapter of the Association for Computational Linguistics",
     "Authors": [
         "May Bashendy",
         "Walid Massoud",
@@ -52,9 +52,5 @@
         "Carnegie Mellon University in Qatar"
     ],
     "Abstract": "Automated Essay Scoring (AES) has gained increasing attention in recent years, yet research on Arabic AES remains limited. To address this challenge, we introduce LAILA, the largest publicly available Arabic AES dataset to date, comprising 7,859 essays annotated with holistic and trait-specific scores on seven dimensions: relevance, organization, vocabulary, style, development, mechanics, and grammar. We detail the dataset design, collection, and annotations, and provide benchmark results using state-of-the-art Arabic and English models in prompt-specific and cross-prompt settings. LAILA fills a critical need in Arabic AES research, supporting the development of robust scoring systems.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
