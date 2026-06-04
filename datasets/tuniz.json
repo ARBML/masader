@@ -1,40 +1,41 @@
 {
     "Name": "Tuniz",
-    "Volume": 100.0,
-    "Unit": "sentences",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://github.com/Mahdyy02/llm-tunisian-language",
-    "HF_Link": "",
+    "License": "unknown",
     "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Tunisia",
     "Domain": [
         "social media"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "manual curation",
         "human annotation"
     ],
     "Description": "Parallel Tunisian Arabic dataset with translation.",
-    "Ethical_Risks": "Low",
-    "Provider": [
-        "Mohamed MAHDI"
-    ],
-    "Derived_From": [],
-    "Paper_Title": "How Well Do LLMs Understand Tunisian Arabic?",
-    "Paper_Link": "https://arxiv.org/pdf/2511.16683v1",
+    "Volume": 100.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "How Well Do LLMs Understand Tunisian Arabic?",
+    "Paper Link": "https://arxiv.org/pdf/2511.16683v1",
+    "Script": "Arab-Latin",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
         "sentiment analysis",
-        "machine translation",
-        "text classification"
+        "machine translation"
     ],
-    "Venue_Title": "",
-    "Venue_Type": "preprint",
-    "Venue_Name": "",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Mohamed MAHDI"
     ],
@@ -42,9 +43,5 @@
         "National Engineering School of Tunis"
     ],
     "Abstract": "Large Language Models (LLMs) are the engines driving today\u2019s AI agents. The betterthese modelsunderstandhumanlanguages,themorenaturalanduser-friendly the interaction with AI becomes, from everyday devices like computers and smart-watches to any tool that can act intelligently. Yet, the ability of industrial-scale LLMs to comprehend low-resource languages, such as Tunisian Arabic (Tunizi), is often overlooked. This neglect risks excluding millions of Tunisians from fully interacting with AI in their own language, pushing them toward French or English. Such a shift not only threatens the preservation of the Tunisian dialect but may alsocreatechallengesforliteracyandinfluenceyoungergenerationstofavorforeign languages. In this study, we introduce a novel dataset containing parallel Tunizi, standard Tunisian Arabic, and English translations, along with sentiment labels. We benchmark several popular LLMs on three tasks: transliteration, translation, and sentiment analysis. Our results reveal significant differences between models, highlighting both their strengths and limitations in understanding and processing Tunisiandialects. By quantifyingthese gaps, this workunderscores the importance of including low-resource languages in the next generation of AI systems, ensuring technology remains accessible, inclusive, and culturally grounded.",
-    "Subsets": [],
-    "Dialect": "Tunisia",
-    "Language": "ar",
-    "Script": "Arab-Latin",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
