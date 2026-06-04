@@ -35,7 +35,7 @@ data_types = {c:schema[c]['answer_type'] for c in schema}
 options = {c:schema[c]['options'] for c in schema if 'options' in schema[c]}
 
 def validate_keys(data, key):
-    if key not in schema:
+    if key.replace("_", " ") not in schema:
         sys.exit(f"Invalid key: {key}")
     return data
 
