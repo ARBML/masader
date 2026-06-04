@@ -1,0 +1,51 @@
+{
+    "Name": "ArEEG_Words",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/7m472ykkx7/1",
+    "License": "CC BY 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "ArEEG_Words dataset is a novel EEG dataset recorded from 22 participants with mean age of 22 years (5 female, 17 male) using a 14-channel Emotiv Epoc X device. ",
+    "Volume": 15360.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Arab International University"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArEEG_Words: Dataset for Envisioned Speech Recognition using EEG for Arabic Words",
+    "Paper Link": "https://arxiv.org/pdf/2411.18888v1",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Hazem Darwish",
+        "Abdalrahman Al Malah",
+        "Khloud Al Jallad",
+        "Nada Ghneim"
+    ],
+    "Affiliations": [
+        "Arab International University"
+    ],
+    "Abstract": "Brain-Computer-Interface (BCI) aims to support communication-impaired patients by translating neural signals into speech. A notable research topic in BCI involves Electroencephalography (EEG) signals that measure the electrical activity in the brain. While significant advancements have been made in BCI EEG research, a major limitation still exists: the scarcity of publicly available EEG datasets for non-English languages, such as Arabic. To address this gap, we introduce in this paper ArEEG_Words dataset, a novel EEG dataset recorded from 22 participants with mean age of 22 years (5 female, 17 male) using a 14-channel Emotiv Epoc X device. The participants were asked to be free from any effects on their nervous system, such as coffee, alcohol, cigarettes, and so 8 hours before recording. They were asked to stay calm in a clam room during imagining one of the 16 Arabic Words for 10 seconds. The words include 16 commonly used words such as up, down, left, and right. A total of 352 EEG recordings were collected, then each recording was divided into multiple 250ms signals, resulting in a total of 15,360 EEG signals. To the best of our knowledge, ArEEG_Words data is the first of its kind in Arabic EEG domain. Moreover, it is publicly available for researchers as we hope that will fill the gap in Arabic EEG research.",
+    "Added By": "Zaid Alyafeai"
+}
