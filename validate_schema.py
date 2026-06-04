@@ -35,7 +35,7 @@ data_types = {c:schema[c]['answer_type'] for c in schema}
 options = {c:schema[c]['options'] for c in schema if 'options' in schema[c]}
 
 def validate_keys(data, key):
-    if key.replace("_", " ") not in schema:
+    if key not in schema:
         sys.exit(f"Invalid key: {key}")
     return data
 
@@ -67,8 +67,8 @@ def validate_types(data, key):
 
 for file in glob("datasets/*.json"):
     data = json.load(open(file))
+    data = {k.replace("_", " "): v for k, v in data.items()}
     data.pop("Added By", None)
-    data.pop("Added_By", None)
     for key in data.keys():
         validate_options(data, key)
         validate_types(data, key)
