@@ -11,31 +11,32 @@
     ],
     "Form": "audio",
     "Collection_Style": [
+        "manual curation",
         "human annotation"
     ],
-    "Description": "Curated test set of 5 hours of dialectal Arabic speech.",
+    "Description": "5h of dialectal speech across 15 Arab countries.",
     "Ethical_Risks": "Low",
     "Provider": [
-        "Qatar Computing Research Institute"
+        "HBKU"
     ],
     "Derived_From": [
         "ADI17",
-        "Common Voice"
+        "Common Voice Arabic"
     ],
     "Paper_Title": "Beyond Orthography: Automatic Recovery of Short Vowels and Dialectal Sounds in Arabic",
     "Paper_Link": "https://aclanthology.org/2024.acl-long.711.pdf",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
-    "Cost": "",
-    "Test_Split": false,
+    "Cost": "Free",
+    "Test_Split": true,
     "Tasks": [
         "speech recognition",
-        "dialect identification"
+        "diacritization"
     ],
     "Venue_Title": "ACL",
     "Venue_Type": "conference",
-    "Venue_Name": "Annual Meeting of the Association for Computational Linguistics",
+    "Venue_Name": "ACL",
     "Authors": [
         "Yassine El Kheir",
         "Hamdy Mubarak",
@@ -43,10 +44,9 @@
         "Shammur Absar Chowdhury"
     ],
     "Affiliations": [
-        "Hamad Bin Khalifa University",
-        "Qatar Computing Research Institute"
+        "HBKU"
     ],
-    "Abstract": "This paper presents a novel Dialectal Sound and Vowelization Recovery framework, designed to recognize borrowed and dialectal sounds within phonologically diverse and dialect-rich languages, that extends beyond its standard orthographic sound sets. The proposed framework utilized quantized sequence of input with (out) continuous pretrained self-supervised representation. We show the efficacy of the pipeline using limited data for Arabic, a dialect-rich language containing more than 22 major dialects. Phonetically correct transcribed speech resources for dialectal Arabic is scarce. Therefore, we introduce ArabVoice15, a first of its kind, curated test set featuring 5 hours of dialectal speech across 15 Arab countries, with phonetically accurate transcriptions, including borrowed and dialect-specific sounds. We described in detail the annotation guideline along with the analysis of the dialectal confusion pairs. Our extensive evaluation includes both subjective \u2013 human perception tests and objective measures. Our empirical results, reported with three test sets, show that with only one and half hours of training data, our model improve character error rate by 7% in ArabVoice15 compared to the baseline.",
+    "Abstract": "This paper presents a novel Dialectal Sound and Vowelization Recovery framework, designed to recognize borrowed and dialectal sounds within phonologically diverse and dialect-rich languages, that extends beyond its standard orthographic sound sets. The proposed framework utilized quantized sequence of input with (out) continuous pretrained self-supervised representation. We show the efficacy of the pipeline using limited data for Arabic, a dialect-rich language containing more than 22 major dialects. Phonetically correct transcribed speech resources for dialectal Arabic is scare. Therefore, we introduce ArabVoice15, a first of its kind, curated test set featuring 5 hours of dialectal speech across 15 Arab countries, with phonetically accurate transcriptions, including borrowed and dialect-specific sounds. We described in detail the annotation guideline along with the analysis of the dialectal confusion pairs. Our extensive evaluation includes both subjective \u2013 human perception tests and objective measures. Our empirical results, reported with three test sets, show that with only one and half hour of training data, our model improve character error rate by 7% in ArabVoice15 compared to the baseline.",
     "Subsets": [],
     "Dialect": "mixed",
     "Language": "ar",
