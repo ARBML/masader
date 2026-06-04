@@ -1,42 +1,46 @@
 {
     "Name": "ADI20",
-    "Volume": 3556.0,
-    "Unit": "hours",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://github.com/elyadata/ADI-20",
-    "HF_Link": "",
-    "Year": 2024,
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
         "TV channels",
-        "web pages"
+        "public datasets"
     ],
     "Form": "audio",
-    "Collection_Style": [
-        "crawling"
+    "Collection Style": [
+        "human annotation"
     ],
-    "Description": "Arabic dialect identification dataset",
-    "Ethical_Risks": "Medium",
+    "Description": "An extension of the ADI-17 dataset with MSA,  Tunisian, and Bahraini dataset. ",
+    "Volume": 3556.0,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
     "Provider": [
-        "LIA, Avignon Universite",
         "Elyadata"
     ],
-    "Derived_From": [
+    "Derived From": [
         "ADI-17",
-        "ADI-5"
+        "ADI-5",
+        "TunSwitch"
     ],
-    "Paper_Title": "ADI-20: Arabic Dialect Identification dataset and models",
-    "Paper_Link": "https://arxiv.org/pdf/2511.10070v1",
+    "Paper Title": "ADI-20: Arabic Dialect Identification dataset and models",
+    "Paper Link": "https://arxiv.org/pdf/2511.10070v1",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": false,
     "Tasks": [
         "dialect identification"
     ],
-    "Venue_Title": "",
-    "Venue_Type": "preprint",
-    "Venue_Name": "",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Haroun Elleuch",
         "Salima Mdhaffar",
@@ -44,13 +48,9 @@
         "Fethi Bougares"
     ],
     "Affiliations": [
-        "LIA, Avignon Universite",
-        "Elyadata"
+        "Elyadata",
+        "Avignon Universite"
     ],
-    "Abstract": "Recently, the Arabic Dialect Identification (ADI) from speech task has gained significant attention, leading to the development of various datasets and models aimed at addressing its challenges [3,8,9,10]. Several research initiatives have advanced ADI from speech, notably with the organization of multiple shared tasks. The ADI shared task was introduced in VarDial 2016 [11]. It consists of identifying a set of four regional Arabic dialects (Egyptian, Gulf, Levantine, North African) and MSA in a transcribed speech corpus. In its second edition, the task was further enriched with the inclusion of acoustic features and the release of audio files, providing richer resources for dialect classification of speech. Driven by the success of the VarDial challenge, ADI-5 [8] and ADI-17 [12,13] shared tasks have been organized as part of the MGB challenge. ADI-5 contains 74 hours of audio segments from the Al Jazeera TV channel, classified into five dialect groups. ADI-17 consists of 3,033 hours of audio segments from YouTube programs covering a variety of different genres. The segments are split into 17 different dialectal categories, allowing for much finer grain dialectal analysis than the ADI-5 corpus. These efforts provided the research community with two valuable datasets for speech dialect identification, each offering different levels of granularity.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Abstract": "We present ADI-20, an extension of the previously published ADI-17 Arabic Dialect Identification (ADI) dataset. ADI-20 covers all Arabic-speaking countries' dialects. It comprises 3,556 hours from 19 Arabic dialects in addition to Modern Standard Arabic (MSA). We used this dataset to train and evaluate various state-of-the-art ADI systems. We explored fine-tuning pre-trained ECAPA-TDNN-based models, as well as Whisper encoder blocks coupled with an attention pooling layer and a classification dense layer. We investigated the effect of (i) training data size and (ii) the model's number of parameters on identification performance. Our results show a small decrease in F1 score while using only 30% of the original training data. We open-source our collected data and trained models to enable the reproduction of our work, as well as support further research in ADI.",
+    "Added By": "Zaid Alyafeai"
 }
