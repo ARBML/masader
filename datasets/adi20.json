@@ -1,0 +1,56 @@
+{
+    "Name": "ADI20",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/elyadata/ADI-20",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "TV channels",
+        "public datasets"
+    ],
+    "Form": "audio",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "An extension of the ADI-17 dataset with MSA,  Tunisian, and Bahraini dataset. ",
+    "Volume": 3556.0,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Elyadata"
+    ],
+    "Derived From": [
+        "ADI-17",
+        "ADI-5",
+        "TunSwitch"
+    ],
+    "Paper Title": "ADI-20: Arabic Dialect Identification dataset and models",
+    "Paper Link": "https://arxiv.org/pdf/2511.10070v1",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "dialect identification"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Haroun Elleuch",
+        "Salima Mdhaffar",
+        "Yannick Esteve",
+        "Fethi Bougares"
+    ],
+    "Affiliations": [
+        "Elyadata",
+        "Avignon Universite"
+    ],
+    "Abstract": "We present ADI-20, an extension of the previously published ADI-17 Arabic Dialect Identification (ADI) dataset. ADI-20 covers all Arabic-speaking countries' dialects. It comprises 3,556 hours from 19 Arabic dialects in addition to Modern Standard Arabic (MSA). We used this dataset to train and evaluate various state-of-the-art ADI systems. We explored fine-tuning pre-trained ECAPA-TDNN-based models, as well as Whisper encoder blocks coupled with an attention pooling layer and a classification dense layer. We investigated the effect of (i) training data size and (ii) the model's number of parameters on identification performance. Our results show a small decrease in F1 score while using only 30% of the original training data. We open-source our collected data and trained models to enable the reproduction of our work, as well as support further research in ADI.",
+    "Added By": "Zaid Alyafeai"
+}
