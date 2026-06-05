@@ -20,4 +20,7 @@ window.MasaderConfig = {
     get CHAT_URL() {
         return `${this.API_BASE_URL}/chat`;
     },
+
+    // Show the debug activity log panel in chat UIs (full page + widget)
+    SHOW_CHAT_ACTIVITY_LOG: false,
 };

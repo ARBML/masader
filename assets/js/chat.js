@@ -199,6 +199,17 @@
             this.clearBtn = opts.clear || null;
             // Temporary debug panel that shows backend pipeline logs in real time.
             this.logPanel = opts.logPanel || null;
+            if (
+                this.logPanel &&
+                window.MasaderConfig &&
+                window.MasaderConfig.SHOW_CHAT_ACTIVITY_LOG === false
+            ) {
+                const details = this.logPanel.closest(
+                    'details.masader-log-panel'
+                );
+                if (details) details.hidden = true;
+                this.logPanel = null;
+            }
             this.withSuggestions = opts.withSuggestions !== false;
             this.history = [];
             this.sessionId = newSessionId();
