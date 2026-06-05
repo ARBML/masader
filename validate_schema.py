@@ -67,8 +67,8 @@ def validate_types(data, key):
 
 for file in glob("datasets/*.json"):
     data = json.load(open(file))
-    data = {k.replace("_", " "): v for k, v in data.items()}
     data.pop("Added By", None)
+    data.pop("Added_By", None)
     for key in data.keys():
         validate_options(data, key)
         validate_types(data, key)
