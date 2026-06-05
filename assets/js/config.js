@@ -1,7 +1,7 @@
 // Global configuration for Masader application
 window.MasaderConfig = {
     // Base API URL for all dataset endpoints
-    API_BASE_URL: 'http://127.0.0.1:5000',
+    API_BASE_URL: 'https://arbml.github.io/masader-webservice',
 
     // Derived URLs for convenience
     get DATASETS_URL() {
