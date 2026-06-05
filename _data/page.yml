@@ -2,6 +2,8 @@ nav:
     logo: /assets/images/logo.png
     title: Arabic NLP Data Catalouge
     tabs:
+        - title: Chat
+          url: /chat
         - title: Stats
           url: /stats
         - title: Contribute

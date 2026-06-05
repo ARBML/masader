@@ -1,0 +1,82 @@
+<link href="{{ site.baseurl }}/assets/css/chat.css" rel="stylesheet" />
+
+<button id="masader-fab" class="masader-fab" aria-label="Open dataset chatbot" title="Ask about datasets">
+  <i class="fa-solid fa-comment-dots"></i>
+</button>
+
+<div id="masader-widget" class="masader-widget" role="dialog" aria-label="Masader datasets chatbot">
+  <div class="masader-widget__header">
+    <h3>Ask Masader</h3>
+    <div class="flex items-center gap-3">
+      <button id="masader-widget-clear" aria-label="Clear chat" title="Clear chat">
+        <i class="fa-solid fa-trash-can"></i>
+      </button>
+      <a href="{{ site.baseurl }}/chat" title="Open full page" style="color:#fff;opacity:.85">
+        <i class="fa-solid fa-up-right-from-square"></i>
+      </a>
+      <button id="masader-widget-close" aria-label="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+  </div>
+  <div id="masader-widget-thread" class="masader-widget__thread masader-chat-thread"></div>
+  <details class="masader-log-panel masader-log-panel--widget">
+    <summary>
+      <span class="masader-log-panel__title">Activity log <span class="masader-log-panel__tag">debug</span></span>
+      <span class="masader-log-panel__usage"></span>
+    </summary>
+    <div id="masader-widget-log" class="masader-log"></div>
+  </details>
+  <div class="masader-widget__composer">
+    <div class="masader-composer">
+      <textarea id="masader-widget-input" rows="1" placeholder="Ask about Arabic NLP datasets..."></textarea>
+      <button id="masader-widget-send" class="masader-send" aria-label="Send">
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/chat.js"></script>
+<script>
+  (function () {
+    var fab = document.getElementById("masader-fab");
+    var widget = document.getElementById("masader-widget");
+    var closeBtn = document.getElementById("masader-widget-close");
+    var clearBtn = document.getElementById("masader-widget-clear");
+    var thread = document.getElementById("masader-widget-thread");
+    var input = document.getElementById("masader-widget-input");
+    var send = document.getElementById("masader-widget-send");
+    var logPanel = document.getElementById("masader-widget-log");
+
+    // Don't show the floating widget on the dedicated chat page.
+    if (window.location.pathname.replace(/\/$/, "").endsWith("/chat")) {
+      if (fab) fab.style.display = "none";
+      return;
+    }
+
+    var chat = null;
+    function ensureChat() {
+      if (!chat && window.MasaderChat) {
+        chat = new window.MasaderChat({
+          thread: thread,
+          input: input,
+          send: send,
+          clear: clearBtn,
+          logPanel: logPanel,
+        });
+      }
+    }
+
+    fab.addEventListener("click", function () {
+      var open = widget.classList.toggle("is-open");
+      if (open) {
+        ensureChat();
+        input.focus();
+      }
+    });
+    closeBtn.addEventListener("click", function () {
+      widget.classList.remove("is-open");
+    });
+  })();
+</script>
