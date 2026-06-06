@@ -1,0 +1,53 @@
+{
+    "Name": "ASMDD",
+    "Volume": 100.0,
+    "Unit": "hours",
+    "License": "unknown",
+    "Link": "https://drive.google.com/drive/folders/1dhlp-L0n6_RAzoosVK4bRa7hxBnzebqs",
+    "HF_Link": "",
+    "Year": 2021,
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic speech mispronunciation detection dataset.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Fayoum University",
+        "Nahdat Misr AI",
+        "American University in Cairo"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "ASMDD: Arabic Speech Mispronunciation Detection Dataset",
+    "Paper_Link": "https://arxiv.org/pdf/2111.01136v1",
+    "Tokenized": false,
+    "Host": "Gdrive",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
+    "Authors": [
+        "Salah A. Aly",
+        "Abdelrahman Salah",
+        "Hesham M. Eraqi"
+    ],
+    "Affiliations": [
+        "Fayoum University",
+        "Nahdat Misr AI",
+        "American University in Cairo"
+    ],
+    "Abstract": "The largest dataset of Arabic speech mispronunciation errors in Egyptian dialogues is introduced. The dataset is composed of annotated audio files representing the top 100 words that are most frequently used in the Arabic language, pronounced by 100 Egyptian children (aged between 2 and 8 years old). The dataset is collected and annotated on segmental pronunciation errors by expert listeners.",
+    "Subsets": [],
+    "Dialect": "Egypt",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
