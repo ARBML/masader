@@ -1,19 +1,6 @@
 {
     "Name": "ASND",
-    "Subsets": [
-        {
-            "Name": "ASND",
-            "Volume": 8346.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "AITD",
-            "Volume": 115692.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/shammur/Arabic_news_text_classification_datasets",
     "License": "CC BY 4.0",
@@ -46,7 +33,8 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "text classification"
+        "text classification",
+        "topic classification"
     ],
     "Venue Title": "WANLP",
     "Venue Type": "workshop",
