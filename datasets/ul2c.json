@@ -1,39 +1,45 @@
 {
     "Name": "UL2C",
-    "Volume": 28000.0,
-    "Unit": "documents",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://alt.qcri.org/resources/UL2C-UserLocationsToCountries.tsv",
-    "HF_Link": "",
+    "License": "unknown",
     "Year": 2020,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
-        "social media"
+        "social media",
+        "public datasets"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "crawling",
-        "human annotation",
-        "manual curation"
+        "human annotation"
     ],
     "Description": "Mapping Arabic Twitter user locations to countries",
-    "Ethical_Risks": "Medium",
+    "Volume": 28000.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
     "Provider": [
-        "Qatar Computing Research Institute"
+        "QCRI"
     ],
-    "Derived_From": [],
-    "Paper_Title": "UL2C: Mapping User Locations to Countries on Arabic Twitter",
-    "Paper_Link": "https://aclanthology.org/2021.wanlp-1.15.pdf",
+    "Derived From": [
+        "Top10KLoc"
+    ],
+    "Paper Title": "UL2C: Mapping User Locations to Countries on Arabic Twitter",
+    "Paper Link": "https://aclanthology.org/2021.wanlp-1.15.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
-        "dialect identification"
+        "other"
     ],
-    "Venue_Title": "arXiv",
-    "Venue_Type": "preprint",
-    "Venue_Name": "",
+    "Venue Title": "WANLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Arabic Natural Language Processing",
     "Authors": [
         "Hamdy Mubarak",
         "Sabit Hassan"
@@ -42,9 +48,5 @@
         "Qatar Computing Research Institute"
     ],
     "Abstract": "Mapping user locations to countries can be useful for many applications such as dialect identification, author profiling, recommendation systems, etc. Twitter allows users to declare their locations as free text, and these user-declared locations are often noisy and hard to decipher automatically. In this paper, we present the largest manually labeled dataset for mapping user locations on Arabic Twitter to their corresponding countries. We build effective machine learning models that can automate this mapping with significantly better efficiency compared to libraries such as geopy. We also show that our dataset is more effective than data extracted from GeoNames geographical database in this task as the latter covers only locations written in formal ways.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
