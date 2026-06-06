@@ -1,56 +1,58 @@
 {
     "Name": "ASAD",
-    "Subsets": [],
-    "HF Link": "",
-    "Link": "https://wti.kaust.edu.sa/solve/Arabic-Sentiment-Analysis-Challenge",
+    "Volume": 100000.0,
+    "Unit": "sentences",
     "License": "unknown",
-    "Year": 2020,
-    "Language": "ar",
-    "Dialect": "mixed",
+    "Link": "https://www.kaggle.com/c/arabic-sentiment-analysis-2021-kaust/data",
+    "HF_Link": "",
+    "Year": 2021,
     "Domain": [
         "social media"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
     ],
-    "Description": "ASAD is a large, high-quality annotated dataset\r\n(including 95K tweets), with three-class sentiment labels (positive, negative and neutral)",
-    "Volume": 100000.0,
-    "Unit": "sentences",
-    "Ethical Risks": "Medium",
+    "Description": "Arabic sentiment analysis dataset with 100K tweets.",
+    "Ethical_Risks": "Medium",
     "Provider": [
-        "Multiple Institutions"
+        "KAUST",
+        "Lucidya"
     ],
-    "Derived From": [],
-    "Paper Title": "ASAD: A TWITTER-BASED BENCHMARK ARABIC SENTIMENT ANALYSIS DATASET",
-    "Paper Link": "https://arxiv.org/pdf/2011.00578.pdf",
-    "Script": "Arab",
+    "Derived_From": [],
+    "Paper_Title": "OVERVIEW OF THE ARABIC SENTIMENT ANALYSIS 2021 COMPETITION AT KAUST",
+    "Paper_Link": "https://arxiv.org/pdf/2109.14456v1",
     "Tokenized": false,
-    "Host": "other",
-    "Access": "Upon-Request",
+    "Host": "kaggle",
+    "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Test_Split": true,
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
     "Authors": [
-        "Basma Alharbi",
         "Hind Alamro",
         "Manal Alshehri",
+        "Basma Alharbi",
         "Zuhair Khayyat",
         "Manal Kalkatawi",
         "Inji Ibrahim Jaber",
         "Xiangliang Zhang"
     ],
     "Affiliations": [
-        "University of Jeddah",
         "KAUST",
+        "University of Jeddah",
         "Lucidya",
         "KAU"
     ],
-    "Abstract": "This paper provides a detailed description of a new Twitter-based benchmark dataset for Arabic Sentiment Analysis (ASAD), which is launched in a competition3, sponsored by KAUST for awarding 10000 USD, 5000 USD and 2000 USD to the first, second and third place winners, respectively. Compared to other publicly released Arabic datasets, ASAD is a large, high-quality annotated dataset(including 95K tweets), with three-class sentiment labels (positive, negative and neutral). We presents the details of the data collection process and annotation process. In addition, we implement several baseline models for the competition task and report the results as a reference for the participants to the competition.",
-    "Added By": "Zaid Alyafeai"
+    "Abstract": "This paper provides an overview of the Arabic Sentiment Analysis Challenge organized by King Abdullah University of Science and Technology (KAUST). The task in this challenge is to develop machine learning models to classify a given tweet into one of the three categories Positive, Negative, or Neutral. From our recently released ASAD dataset, we provide the competitors with 55K tweets for training, and 20K tweets for validation, based on which the performance of participating teams are ranked on a leaderboard, https://www.kaggle.com/c/arabic-sentiment-analysis-2021-kaust. The competition received in total 1247 submissions from 74 teams (99 team members). The final winners are determined by another private set of 20K tweets that have the same distribution as the training and validation set. In this paper, we present the main findings in the competition and summarize the methods and tools used by the top ranked teams. The full dataset of 100K labeled tweets is also released for public usage, at https://www.kaggle.com/c/arabic-sentiment-analysis-2021-kaust/data.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
 }
