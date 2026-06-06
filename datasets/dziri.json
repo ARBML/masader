@@ -1,0 +1,49 @@
+{
+    "Name": "Dziri",
+    "Volume": 8700.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/xprogramer/DziriOFN",
+    "HF_Link": "",
+    "Year": 2020,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Offensive language corpus for Algerian Arabic.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Universit\u00e9 8 Mai 1945, Guelma"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Offensive Language Detection in Under-resourced Algerian Dialectal Arabic Language",
+    "Paper_Link": "https://arxiv.org/pdf/2203.10024v1",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "offensive language detection"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
+    "Authors": [
+        "Oussama Boucherit",
+        "Kheireddine Abainia"
+    ],
+    "Affiliations": [
+        "Universit\u00e9 8 Mai 1945, Guelma"
+    ],
+    "Abstract": "This paper addresses the problem of detecting the offensive and abusive content in Facebook comments, where we focus on the Algerian dialectal Arabic which is one of under-resourced languages. The latter has a variety of dialects mixed with different languages (i.e. Berber, French and English). In addition, we deal with texts written in both Arabic and Roman scripts (i.e.Arabizi). Due to the scarcity of works on the same language, we have built a new corpus regrouping more than 8.7k texts manually annotated as normal, abusive and offensive. We have conducted a series of experiments using the state-of-the-art classifiers of text categorisation, namely: BiLSTM, CNN, FastText, SVM and NB. The results showed acceptable performances, but the problem requires further investigation on linguistic features to increase the identification accuracy.",
+    "Subsets": [],
+    "Dialect": "Algeria",
+    "Language": "ar",
+    "Script": "Arab-Latin",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
