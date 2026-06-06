@@ -1,52 +1,58 @@
 {
     "Name": "ArzEn",
-    "Subsets": [],
-    "HF Link": "",
-    "Link": "https://sites.google.com/view/arzen-corpus/resources?authuser=0",
+    "Volume": 6216.0,
+    "Unit": "sentences",
     "License": "unknown",
-    "Year": 2020,
-    "Language": "multilingual",
-    "Dialect": "Egypt",
+    "Link": "http://arzen.camel-lab.com/",
+    "HF_Link": "",
+    "Year": 2022,
     "Domain": [
         "other"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Collection_Style": [
+        "human annotation"
     ],
-    "Description": "12-hour Egyptian Arabic-English code-switched spontaneous speech corpus with transcriptions and speaker metadata.",
-    "Volume": 12.0,
-    "Unit": "hours",
-    "Ethical Risks": "Low",
+    "Description": "Code-switched Egy-En speech translation corpus",
+    "Ethical_Risks": "Low",
     "Provider": [
-        "The German University in Cairo",
-        "University of Stuttgart"
+        "NYU Abu Dhabi",
+        "University of Stuttgart",
+        "German University in Cairo"
     ],
-    "Derived From": [],
-    "Paper Title": "ArzEn: A Speech Corpus for Code-switched Egyptian Arabic-English",
-    "Paper Link": "https://aclanthology.org/2020.lrec-1.523.pdf",
-    "Script": "Arab",
-    "Tokenized": false,
-    "Host": "other",
-    "Access": "Upon-Request",
+    "Derived_From": [
+        "ArzEn"
+    ],
+    "Paper_Title": "ArzEn-ST: A Three-way Speech Translation Corpus for Code-Switched Egyptian Arabic - English",
+    "Paper_Link": "https://arxiv.org/pdf/2211.12000v1",
+    "Tokenized": true,
+    "Host": "CAMeL Resources",
+    "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Test_Split": true,
     "Tasks": [
-        "speech recognition"
+        "speech recognition",
+        "machine translation",
+        "speech translation"
     ],
-    "Venue Title": "LREC",
-    "Venue Type": "conference",
-    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Venue_Title": "ACL",
+    "Venue_Type": "conference",
+    "Venue_Name": "ACL",
     "Authors": [
         "Injy Hamed",
-        "Ngoc Thang Vu",
-        "Slim Abdennadher"
+        "Nizar Habash",
+        "Slim Abdennadher",
+        "Ngoc Thang Vu"
     ],
     "Affiliations": [
-        "The German University in Cairo",
-        "University of Stuttgart"
+        "Computational Approaches to Modeling Language Lab, New York University Abu Dhabi",
+        "Institute for Natural Language Processing, University of Stuttgart",
+        "Computer Science Department, The German University in Cairo"
     ],
-    "Abstract": "In this paper, we present our ArzEn corpus, an Egyptian Arabic-English code-switching (CS) spontaneous speech corpus. The corpus is collected through informal interviews with 38 Egyptian bilingual university students and employees held in a soundproof room. A total of 12 hours are recorded, transcribed, validated and sentence segmented. The corpus is mainly designed to be used in Automatic Speech Recognition (ASR) systems, however, it also provides a useful resource for analyzing the CS phenomenon from linguistic, sociological, and psychological perspectives. In this paper, we first discuss the CS phenomenon in Egypt and the factors that gave rise to the current language. We then provide a detailed description on how the corpus was collected, giving an overview on the participants involved. We also present statistics on the CS involved in the corpus, as well as a summary to the effort exerted in the corpus development, in terms of number of hours required for transcription, validation, segmentation and speaker annotation. Finally, we discuss some factors contributing to the complexity of the corpus, as well as Arabic-English CS behaviour that could pose potential challenges to ASR systems.\n",
-    "Added By": "Zaid Alyafeai"
+    "Abstract": "Audio: We present our work on collecting ArzEn-ST, a code-switched Egyptian Arabic - English Speech Translation Corpus. This corpus is an extension of the ArzEn speech corpus, which was collected through informal interviews with bilingual speakers. In this work, we collect translations in both directions, monolingual Egyptian Arabic and monolingual English, forming a three-way speech translation corpus. We make the translation guidelines and corpus publicly available. We also report results for baseline systems for machine translation and speech translation tasks.",
+    "Subsets": [],
+    "Dialect": "Egypt",
+    "Language": "ar",
+    "Script": "Arab-Latin",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
 }
