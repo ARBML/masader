@@ -1,0 +1,57 @@
+{
+    "Name": "iSarcasmEval",
+    "Volume": 4903.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/iabufarha/iSarcasmEval",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "manual curation"
+    ],
+    "Description": "A multilingual dataset for sarcasm detection and category classification in English and Arabic.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "University of Edinburgh",
+        "The Alan Turing Institute",
+        "Oakland University"
+    ],
+    "Derived_From": [
+        "ArSarcasm-v2"
+    ],
+    "Paper_Title": "SemEval-2022 Task 6: iSarcasmEval, Intended Sarcasm Detection in English and Arabic",
+    "Paper_Link": "https://aclanthology.org/2022.semeval-1.111.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "text classification",
+        "other"
+    ],
+    "Venue_Title": "SemEval-2022",
+    "Venue_Type": "workshop",
+    "Venue_Name": "16th International Workshop on Semantic Evaluation",
+    "Authors": [
+        "Ibrahim AbuFarha",
+        "Silviu Vlad Oprea",
+        "Steven R. Wilson",
+        "Walid Magdy"
+    ],
+    "Affiliations": [
+        "School of Informatics, The University of Edinburgh",
+        "The Alan Turing Institute",
+        "Oakland University"
+    ],
+    "Abstract": "Arabic sentiment analysis systems, where the performance dropped significantly for the sarcastic iSarcasmEval is the first shared task to target intended sarcasm detection in tweets. As such, it is imperative to devise models for sarcasm detection. Such models are usually built in a supervised learning paradigm, relying on a dataset of texts labelled as either sarcastic or non-sarcastic. Two methods have typically been used to label texts for sarcasm: distant supervision (Pt\u00e1\u010dek et al., 2014; Khodak et al., 2018; Barbieri et al., 2014), where texts are considered sarcastic if they meet predefined criteria, such as including the tag #sarcasm; or manual labelling (Filatova, 2012; Riloff et al., 2013a; Abercrombie and Hovy, 2016), where texts are presented to human annotators. However, both methods could produce noisy labels, in terms of both false positives, and false negatives. For instance, when human annotators label texts, they are limited by their subjective perception of sarcasm, which might differ from the intention of the authors of those texts. In response, we suggest the current shared task, iSarcasmEval. We rely on a novel method of labelling texts for sarcasm, where the sarcastic nature of texts is self-reported by the authors of those texts. Our shared task is also novel in that it includes two languages, English and Arabic, and includes three subtasks. The first subtask, covering both languages, is sarcasm detection as commonly understood: given a text, determine whether or not it is sarcastic. Next, as the sarcastic texts in our English dataset are also further labelled for the ironic speech category that they represent out of the categories specified by Leggitt and Gibbs (2000), the second subtask is: given an English text, determine which ironic speech category it represents, or whether it is non-sarcastic. Finally, for both languages, we also ask authors to provide non-sarcastic rephrases of their sarcastic texts. As such, the third subtask, covering both languages, is: given a sarcastic text and its non-sarcastic rephrase, identify the sarcastic text.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "multilingual",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
