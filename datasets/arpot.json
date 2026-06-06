@@ -12,7 +12,9 @@
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling"
+        "crawling",
+        "machine annotation",
+        "human annotation"
     ],
     "Description": "First syntactic treebank for Classical Arabic poetry collected from adab and aldiwan.",
     "Volume": 35459.0,
