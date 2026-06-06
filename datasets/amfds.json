@@ -1,0 +1,56 @@
+{
+    "Name": "AMFDS",
+    "Volume": 2160000.0,
+    "Unit": "images",
+    "License": "unknown",
+    "Link": "https://drive.google.com/drive/folders/1mRefmN4Yzy60Uh7z3B6cllyyOXaxQrgg?usp=sharing",
+    "HF_Link": "",
+    "Year": 2020,
+    "Domain": [
+        "wikipedia"
+    ],
+    "Form": "images",
+    "Collection_Style": [
+        "crawling"
+    ],
+    "Description": "Custom Arabic OCR dataset with 18 fonts from Wikipedia.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "King Abdullah II School for Information Technology",
+        "The University of Jordan",
+        "Princess Sumayah School for Technology"
+    ],
+    "Derived_From": [
+        "Wikipedia"
+    ],
+    "Paper_Title": "A Hybrid Deep Learning Model for Arabic Text Recognition",
+    "Paper_Link": "https://arxiv.org/pdf/2009.01987v1",
+    "Tokenized": false,
+    "Host": "Gdrive",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "IJACSA",
+    "Venue_Type": "journal",
+    "Venue_Name": "IJACSA",
+    "Authors": [
+        "Mohammad Fasha",
+        "Bassam Hammo",
+        "Nadim Obeid",
+        "Jabir AlWidian"
+    ],
+    "Affiliations": [
+        "King Abdullah II School for Information Technology",
+        "The University of Jordan",
+        "Princess Sumayah School for Technology"
+    ],
+    "Abstract": "Arabic text recognition is a challenging task images, while handwritten text is considered more challenging because of the cursive nature of Arabic writing system, its joint because of the diverse writing styles of individuals. Recognizing Arabic text in images has additional challenges that are mainly caused by the cursive nature of Arabic script. In addition, Arabic characters are connected in words, and the writing system has a large number of ligatures, which increase the challenge of recognizing text based on characters\u2019 boundaries. Further, the scarcity of labelled datasets for Arabic language increases the challenges of developing new solutions that depend on supervised learning models. This work presents a model that employs a hybrid DL network to recognize multiple Arabic fonts types including fonts that mimic Arabic handwritten scripts. The hybrid DL model uses a Convolution Neural Network (CNN) and a Bi-Directional Short Long Term Memory network (BDLSTM) and it operates in an end-to-end fashion without the need for character segmentation.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
