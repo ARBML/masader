@@ -1,0 +1,50 @@
+{
+    "Name": "ArPoT",
+    "Volume": 35459.0,
+    "Unit": "tokens",
+    "License": "CC BY 4.0",
+    "Link": "https://github.com/arpot-ksu",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "manual curation"
+    ],
+    "Description": "First syntactic treebank for Classical Arabic poetry",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "King Saud University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "A Dependency Treebank for Classical Arabic Poetry",
+    "Paper_Link": "https://aclanthology.org/2021.depling-1.1.pdf",
+    "Tokenized": true,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "dependency parsing"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
+    "Authors": [
+        "Sharefah Al-Ghamdi",
+        "Hend Al-Khalifa",
+        "Abdulmalik Al-Salman"
+    ],
+    "Affiliations": [
+        "King Saud University"
+    ],
+    "Abstract": "This paper introduces the first syntactically annotated corpus for Classical Arabic poetry, a morphologically rich ancient Arabic text. The paper describes how the dependency treebank was prepared, focusing on some issues dealing with Classical Arabic poems in which syntactic constructions require special attention. We also present the results of the baseline experiments on Classical Arabic poetry dependency parsing with this treebank.",
+    "Subsets": [],
+    "Dialect": "Classical Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
