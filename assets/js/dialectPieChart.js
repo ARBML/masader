@@ -1,3 +1,8 @@
+/**
+ * 创建方言数量分布的饼图
+ * @param {Object.<string, Array>} groupData - 按方言分组的数据对象，键为方言代码，值为对应数据数组
+ * @param {HTMLCanvasElement} canvas - 用于绘制饼图的canvas元素
+ */
 function createDialectVolumePieChart(groupData, canvas) {
   let countriesDataset = {};
   let sum = 0;
