@@ -1,0 +1,60 @@
+{
+    "Name": "ArzEn-ST",
+    "Volume": 6216.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "http://arzen.camel-lab.com/",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection_Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "Code-switched Egyptian Arabic-English ST corpus.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "CAMeL Lab",
+        "New York University Abu Dhabi",
+        "University of Stuttgart",
+        "The German University in Cairo"
+    ],
+    "Derived_From": [
+        "ArzEn"
+    ],
+    "Paper_Title": "ArzEn-ST: A Three-way Speech Translation Corpus for Code-Switched Egyptian Arabic - English",
+    "Paper_Link": "https://aclanthology.org/2022.wanlp-1.12.pdf",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "speech recognition",
+        "machine translation",
+        "speech translation"
+    ],
+    "Venue_Title": "WANLP",
+    "Venue_Type": "workshop",
+    "Venue_Name": "WANLP",
+    "Authors": [
+        "Injy Hamed",
+        "Nizar Habash",
+        "Slim Abdennadher",
+        "Ngoc Thang Vu"
+    ],
+    "Affiliations": [
+        "Computational Approaches to Modeling Language Lab, New York University Abu Dhabi",
+        "Institute for Natural Language Processing, University of Stuttgart",
+        "Computer Science Department, The German University in Cairo"
+    ],
+    "Abstract": "We present our work on collecting ArzEn-ST, a code-switched Egyptian Arabic - English Speech Translation Corpus. This corpus is an extension of the ArzEn speech corpus, which was collected through informal interviews with bilingual speakers. In this work, we collect translations in both directions, monolingual Egyptian Arabic and monolingual English, forming a three-way speech translation corpus. We make the translation guidelines and corpus publicly available. We also report results for baseline systems for machine translation and speech translation tasks. We believe this is a valuable resource that can motivate and facilitate further research studying the code-switching phenomenon from a linguistic perspective and can be used to train and evaluate NLP systems.",
+    "Subsets": [],
+    "Dialect": "Egyptian",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
