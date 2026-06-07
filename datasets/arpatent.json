@@ -1,37 +1,41 @@
 {
     "Name": "ArPatent",
-    "Volume": 9765.0,
-    "Unit": "documents",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://github.com/iwan-rg/Arabic-Patents",
-    "HF_Link": "",
+    "License": "CC0",
     "Year": 2022,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
     "Domain": [
         "web pages"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "crawling"
     ],
     "Description": "The first public Arabic patent dataset for classification.",
-    "Ethical_Risks": "Low",
+    "Volume": 9765.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
     "Provider": [
         "King Saud University"
     ],
-    "Derived_From": [],
-    "Paper_Title": "Establishing a Baseline for Arabic Patents Classification: A Comparison of Twelve Approaches",
-    "Paper_Link": "https://aclanthology.org/2022.wanlp-1.26.pdf",
+    "Derived From": [],
+    "Paper Title": "Establishing a Baseline for Arabic Patents Classification: A Comparison of Twelve Approaches",
+    "Paper Link": "https://aclanthology.org/2022.wanlp-1.26.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": true,
     "Tasks": [
         "text classification"
     ],
-    "Venue_Title": "WANLP",
-    "Venue_Type": "workshop",
-    "Venue_Name": "The Seventh Arabic Natural Language Processing Workshop",
+    "Venue Title": "WANLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Arabic Natural Language Processing",
     "Authors": [
         "Taif Al-Omar",
         "Hend Al-Khalifa",
@@ -41,9 +45,5 @@
         "King Saud University"
     ],
     "Abstract": "Nowadays, the number of patent applications is constantly growing and there is an economical interest on developing accurate and fast models to automate their classification task. In this paper, we introduce the first public Arabic patent dataset called ArPatent and experiment with twelve classification approaches to develop a baseline for Arabic patents classification. To achieve the goal of finding the best baseline for classifying Arabic patents, different machine learning, pre-trained language models as well as ensemble approaches were conducted. From the obtained results, we can observe that the best performing model for classifying Arabic patents was ARBERT with F1 of 66.53%, while the ensemble approach of the best three performing language models, namely: ARBERT, CAMeL-MSA, and QARiB, achieved the second best F1 score, i.e., 64.52%.",
-    "Subsets": [],
-    "Dialect": "Modern Standard Arabic",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
