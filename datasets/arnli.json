@@ -1,55 +1,54 @@
 {
     "Name": "ArNLI",
-    "Volume": 12000.0,
-    "Unit": "sentences",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://github.com/Khloud-AL/ArNLI",
-    "HF_Link": "",
-    "Year": 2025,
+    "License": "MIT License",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "social media",
-        "web pages"
+        "public datasets"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "machine annotation",
         "human annotation"
     ],
-    "Description": "Arabic NLI dataset for contradiction detection.",
-    "Ethical_Risks": "Low",
+    "Description": "Arabic NLI dataset for natural language inference collected by translating and re-annotating English and Arabic datasets. ",
+    "Volume": 6366.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
     "Provider": [
         "Arab International University"
     ],
-    "Derived_From": [
+    "Derived From": [
         "PHEME",
         "SICK",
         "ArbTEDS",
         "Stanford Real Life contradiction corpus"
     ],
-    "Paper_Title": "ArNLI: Arabic Natural Language Inference for Entailment and Contradiction Detection",
-    "Paper_Link": "https://arxiv.org/pdf/2209.13953v1.pdf",
+    "Paper Title": "ArNLI: Arabic Natural Language Inference for Entailment and Contradiction Detection",
+    "Paper Link": "https://arxiv.org/pdf/2209.13953v1.pdf",
+    "Script": "Arab",
     "Tokenized": true,
     "Host": "GitHub",
-    "Access": "Free",
+    "Access": "Upon-Request",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": true,
     "Tasks": [
         "natural language inference"
     ],
-    "Venue_Title": "Computer Science journal",
-    "Venue_Type": "journal",
-    "Venue_Name": "Comp Sci",
+    "Venue Title": "CSCI",
+    "Venue Type": "journal",
+    "Venue Name": "Computer Science journal",
     "Authors": [
         "Khloud Al Jallad",
         "Nada Ghneim"
     ],
     "Affiliations": [
-        "Faculty of Information Technology Engineering, Arab International University, Daraa, Syria"
+        "Arab International University"
     ],
     "Abstract": "Natural Language Inference (NLI) is a hot topic research in natural language processing, contradiction detection between sentences is a special case of NLI. This is considered a difficult NLP task which has a big influence when added as a component in many NLP applications, such as Question Answering Systems, text Summarization. Arabic Language is one of the most challenging low-resources languages in detecting contradictions due to its rich lexical, semantics ambiguity. We have created a data set of more than 12k sentences and named ArNLI, that will be publicly available. Moreover, we have applied a new model inspired by Stanford contradiction detection proposed solutions on English language. We proposed an approach to detect contradictions between pairs of sentences in Arabic language using contradiction vector combined with language model vector as an input to machine learning model. We analyzed results of different traditional machine learning classifiers and compared their results on our created data set (ArNLI) and on an automatic translation of both PHEME, SICK English data sets. Best results achieved using Random Forest classifier with an accuracy of 99%, 60%, 75% on PHEME, SICK and ArNLI respectively.",
-    "Subsets": [],
-    "Dialect": "Modern Standard Arabic",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
