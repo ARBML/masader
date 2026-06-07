@@ -1,0 +1,58 @@
+{
+    "Name": "NLI",
+    "Volume": 14758.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/fraunhofer-iais/arabic_nlp/",
+    "HF_Link": "",
+    "Year": 2023,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "manual curation"
+    ],
+    "Description": "Dataset for NLI and Contradiction Detection in Arabic",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Fraunhofer IAIS"
+    ],
+    "Derived_From": [
+        "XNLI",
+        "SNLI",
+        "arNLI"
+    ],
+    "Paper_Title": "Improving Natural Language Inference in Arabic using Transformer Models and Linguistically Informed Pre-Training",
+    "Paper_Link": "https://arxiv.org/pdf/2307.14666v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "natural language inference",
+        "text classification"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Mohammad Majd Saad Al Deen",
+        "Maren Pielka",
+        "J\u00f6rn Hees",
+        "Bouthaina Soulef Abdou",
+        "Rafet Sifa"
+    ],
+    "Affiliations": [
+        "Fraunhofer IAIS",
+        "Hochschule Bonn-Rhein-Sieg",
+        "University of Bonn"
+    ],
+    "Abstract": "This paper addresses the classification of Arabic text data in the field of Natural Language Processing (NLP), with a particular focus on Natural Language Inference (NLI) and Contradiction Detection (CD). Arabic is considered a resource-poor language, meaning that there are few data sets available, which lead to limited availability of NLP methods. To overcome this limitation, we create a dedicated data set from publicly available resources. Subsequently, transformer-based machine learning models are being trained and evaluated. We find that a language-specific model (AraBERT) performs competitively with state-of-the-art multilingual approaches, when we apply linguistically informed pre-training methods such as Named Entity Recognition(NER). To our knowledge, this is the first large-scale evaluation for this task in Arabic, as well as the first application of multi-task pre-training in this context.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
