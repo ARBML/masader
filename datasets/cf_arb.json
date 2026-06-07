@@ -1,0 +1,53 @@
+{
+    "Name": "CF-Arb",
+    "Volume": 1069.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/ShathaHakami/Context-Free-Arabic-Emoji-Sentiment-Lexicon",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "Context-free Arabic emoji sentiment lexicon.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "University of Birmingham, UK",
+        "Jazan University, Saudi Arabia"
+    ],
+    "Derived_From": [
+        "Arab-ESL"
+    ],
+    "Paper_Title": "A Context-free Arabic Emoji Sentiment Lexicon (CF-Arab-ESL)",
+    "Paper_Link": "https://aclanthology.org/2022.osact-1.6.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
+    "Authors": [
+        "Shatha Ali A. Hakami",
+        "Robert Hendley",
+        "Phillip Smith"
+    ],
+    "Affiliations": [
+        "University of Birmingham, UK",
+        "Jazan University, Saudi Arabia"
+    ],
+    "Abstract": "Emojis can be valuable features in textual sentiment analysis. One of the key elements of the use of emoji in sentiment analysis is the emoji sentiment lexicon. However, constructing such a lexicon is a challenging task. This is because interpreting the sentiment conveyed by these pictographic symbols is highly subjective, and differs depending upon how each person perceives them. Cultural background is considered to be one of the main factors that affect emoji sentiment interpretation. Thus, we focus in this work on targeting people from Arabic cultures. This is done by constructing a context-free Arabic emoji sentiment lexicon annotated by native Arabic speakers from seven different regions (Gulf, Egypt, Levant, Sudan, North Africa, Iraq, and Yemen) to see how these Arabic users label the sentiment of these symbols without a textual context. We recruited 53 annotators (males and females) to annotate 1,069 unique emoji. Then we evaluated the reliability of the annotation for each participant by applying sensitivity (Recall) and consistency (Krippendorff\u2019s Alpha) tests. For the analysis, we investigated the resulting emoji sentiment annotations to explore the impact of the Arabic cultural context. We analyzed this cultural reflection from different perspectives, including national affiliation, use of colour indications, animal indications, weather indications and religious impact.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
