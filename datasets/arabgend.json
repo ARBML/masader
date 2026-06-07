@@ -1,0 +1,53 @@
+{
+    "Name": "ArabGend",
+    "Volume": 167000.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://alt.qcri.org/resources/ArabGend.zip",
+    "HF_Link": "",
+    "Year": 2025,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Dataset of 167K Arabic Twitter accounts labeled for gender and location.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Qatar Computing Research Institute",
+        "HBKU"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "ArabGend: Gender Analysis and Inference on Arabic Twitter",
+    "Paper_Link": "https://aclanthology.org/2022.wnut-1.14.pdf",
+    "Tokenized": false,
+    "Host": "QCRI Resources",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "gender identification"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
+    "Authors": [
+        "Hamdy Mubarak",
+        "Shammur Absar Chowdhury",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "HBKU",
+        "Qatar"
+    ],
+    "Abstract": "Gender analysis of Twitter can reveal important socio-cultural differences between male and female users. There has been a significant effort to analyze and automatically infer gender in the past for most widely spoken languages\u2019 content, however, to our knowledge very limited work has been done for Arabic. In this paper, we evaluate an extensive analysis of differences between male and female users in the Arabic Twitter-sphere. We study differences in user engagement, topics of interest, and the gender gap in professions. Along with gender analysis, we also propose a method to infer gender by utilizing usernames, profile pictures, tweets, and networks of friends. In order to do so, we manually annotated gender and locations for \u223c167K Twitter accounts associated with \u223c92K user location, which we make publicly available. Our proposed gender inference method achieves an F1 score of 82.1% (47.3% higher than the majority baseline). We also developed a demo and made it publicly available.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
