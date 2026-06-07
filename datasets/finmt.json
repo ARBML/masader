@@ -1,11 +1,11 @@
 {
     "Name": "FinMT",
     "Subsets": [],
-    "HF Link": "https://huggingface.co/asas-ai/",
-    "Link": "https://huggingface.co/asas-ai/",
-    "License": "unknown",
+    "HF Link": "https://huggingface.co/datasets/asas-ai/financial_news",
+    "Link": "https://huggingface.co/datasets/asas-ai/financial_news",
+    "License": "Apache-2.0",
     "Year": 2023,
-    "Language": "ar",
+    "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
         "web pages"
