@@ -1,40 +1,45 @@
 {
     "Name": "EEC",
-    "Volume": 8040.0,
-    "Unit": "sentences",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://github.com/ascamara/ml-intersectionality",
-    "HF_Link": "",
+    "License": "unknown",
     "Year": 2022,
+    "Language": "multilingual",
+    "Dialect": "mixed",
     "Domain": [
-        "social media"
+        "wikipedia",
+        "books"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "human annotation"
     ],
-    "Description": "Multilingual test sets for bias measurement",
-    "Ethical_Risks": "Medium",
+    "Description": "Multilingual test sets for bias measurement in English, Arabic, and Spanish.",
+    "Volume": 8037.999999999993,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
     "Provider": [
         "Columbia University"
     ],
-    "Derived_From": [
+    "Derived From": [
         "original Equity Evaluation Corpora",
         "SemEval-2018 Task 1"
     ],
-    "Paper_Title": "Mapping the Multilingual Margins: Intersectional Biases of Sentiment Analysis Systems in English, Spanish, and Arabic",
-    "Paper_Link": "https://aclanthology.org/2022.ltedi-1.11.pdf",
+    "Paper Title": "Mapping the Multilingual Margins: Intersectional Biases of Sentiment Analysis Systems in English, Spanish, and Arabic",
+    "Paper Link": "https://aclanthology.org/2022.ltedi-1.11.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": false,
     "Tasks": [
-        "sentiment analysis"
+        "bias detection"
     ],
-    "Venue_Title": "Second Workshop on Language Technology for Equality, Diversity and Inclusion",
-    "Venue_Type": "workshop",
-    "Venue_Name": "Workshop on Language Technology for Equality, Diversity and Inclusion",
+    "Venue Title": "ltedi",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Language Technology for Equality, Diversity and Inclusion",
     "Authors": [
         "Ant\u00f3nio C\u00e2mara",
         "Nina Taneja",
@@ -46,28 +51,5 @@
         "Columbia University"
     ],
     "Abstract": "As natural language processing systems become more widespread, it is necessary to address fairness issues in their implementation and deployment to ensure that their negative impacts on society are understood and minimized. However, there is limited work that studies fairness using a multilingual and intersectional framework or on downstream tasks. In this paper, we introduce four multilingual Equity Evaluation Corpora, supplementary test sets designed to measure social biases, and a novel statistical framework for studying unisectional and intersectional social biases in natural language processing. We use these tools to measure gender, racial, ethnic, and intersectional social biases across five models trained on emotion regression tasks in English, Spanish, and Arabic. We find that many systems demonstrate statistically significant unisectional and intersectional social biases.",
-    "Subsets": [
-        {
-            "Name": "English",
-            "Volume": 17280.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        },
-        {
-            "Name": "Spanish",
-            "Volume": 8460.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        },
-        {
-            "Name": "Arabic",
-            "Volume": 8040.0,
-            "Unit": "sentences",
-            "Dialect": "mixed"
-        }
-    ],
-    "Dialect": "mixed",
-    "Language": "multilingual",
-    "Script": "Latin",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
