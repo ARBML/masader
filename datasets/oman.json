@@ -1,0 +1,49 @@
+{
+    "Name": "Oman",
+    "Volume": 2906.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/khoula-k/OmaniArabicTranslation",
+    "HF_Link": "",
+    "Year": 2023,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Parallel Omani Arabic-English MT dataset",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Sultan Qaboos University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Machine Translation of Omani Arabic Dialect from Social Media",
+    "Paper_Link": "https://aclanthology.org/2023.arabicnlp-1.24.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue_Title": "ArabicNLP",
+    "Venue_Type": "conference",
+    "Venue_Name": "ArabicNLP",
+    "Authors": [
+        "Khoula Kahlan Al Kharusi",
+        "Abdurahman Khalifa AAlAbdulsalam"
+    ],
+    "Affiliations": [
+        "Sultan Qaboos University"
+    ],
+    "Abstract": "Dialects is still in its early stages. Arabic is the world\u2019s fifth most widely used language, with almost 450 million speakers in 22 countries. Classical Arabic (CA) and MSA are the standard Arabic varieties recognized by Western linguists. The Quran, classical texts, and old Arabic literature are written in CA. MSA is a modern form that is based on the syntactic, morphological, and phonological structures of CA. MSA is the primary form of official communication in the Arab world that is used in education, business, news, and legislation (Al-Qaraghuli et al., 2021). Arabic dialects are used informally in day-to-day conversations throughout the Arab world. Arabic dialects are primarily spoken-only languages; however, in the last decade, these dialects have become increasingly prevalent in social media, text messages, TV shows, and other forms of informal communication. Nowadays, Arabic dialects are being increasingly used in written format for informal communication online (Harrat et al., 2019).",
+    "Subsets": [],
+    "Dialect": "Oman",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
