@@ -1,42 +1,70 @@
 {
     "Name": "CDNER",
-    "Volume": 1592.0,
-    "Unit": "sentences",
-    "License": "unknown",
+    "Subsets": [
+        {
+            "Name": "MSA",
+            "Volume": 14168.0,
+            "Unit": "tokens",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Moroccan",
+            "Volume": 6780.0,
+            "Unit": "tokens",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 6533.0,
+            "Unit": "tokens",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Syrian",
+            "Volume": 6034.0,
+            "Unit": "tokens",
+            "Dialect": "Syria"
+        }
+    ],
+    "HF Link": "",
     "Link": "https://github.com/niamaelkhbir/Arabic-Cross-Dialectal-NER",
-    "HF_Link": "",
+    "License": "unknown",
     "Year": 2023,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
         "news articles",
         "public datasets"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "human annotation"
     ],
     "Description": "Cross-dialectal NER dataset for Arabic",
-    "Ethical_Risks": "Low",
+    "Volume": 33515.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
     "Provider": [
-        "CNRS",
         "LIPN"
     ],
-    "Derived_From": [
+    "Derived From": [
         "ACE 2005",
         "xP3x"
     ],
-    "Paper_Title": "Cross-Dialectal Named Entity Recognition in Arabic",
-    "Paper_Link": "https://aclanthology.org/2023.arabicnlp-1.12.pdf",
+    "Paper Title": "Cross-Dialectal Named Entity Recognition in Arabic",
+    "Paper Link": "https://aclanthology.org/2023.arabicnlp-1.12.pdf",
+    "Script": "Arab",
     "Tokenized": true,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
         "named entity recognition"
     ],
-    "Venue_Title": "ArabicNLP",
-    "Venue_Type": "conference",
-    "Venue_Name": "The First Arabic Natural Language Processing Conference",
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Niama El Khbir",
         "Urchade Zaratiana",
@@ -47,35 +75,6 @@
         "CNRS",
         "LIPN"
     ],
-    "Abstract": "Arabic language models have recently driven significant advancements in Arabic NER. We study the transferability of Named Entity Recognition (NER) models between Arabic dialects. Resources are unequally distributed: MSA is rich, while other dialects lack datasets. We construct four datasets: MSA from ACE 2005, and manually annotated datasets for Egyptian, Moroccan, and Syrian. We train a span-based NER model on MSA data and test zero-shot performance on dialects using multiple PLM encoders. Annotations and models are publicly available. Our goal is bridging the linguistic gap between MSA and dialects, exploring knowledge transfer in NER. Contributions: 1) A manually annotated NER dataset for Moroccan, Egyptian, and Syrian dialects for evaluation. 2) An efficient span-based NER model trained on MSA data analyzing transferability to other dialects.",
-    "Subsets": [
-        {
-            "Name": "MSA",
-            "Volume": 500.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "Moroccan",
-            "Volume": 378.0,
-            "Unit": "sentences",
-            "Dialect": "Morocco"
-        },
-        {
-            "Name": "Egyptian",
-            "Volume": 353.0,
-            "Unit": "sentences",
-            "Dialect": "Egypt"
-        },
-        {
-            "Name": "Syrian",
-            "Volume": 361.0,
-            "Unit": "sentences",
-            "Dialect": "Syria"
-        }
-    ],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Abstract": "In this paper, we study the transferability of Named Entity Recognition (NER) models between Arabic dialects. This question is important because the available manually-annotated resources are not distributed equally across dialects: Modern Standard Arabic (MSA) is much richer than other dialects for which little to no datasets exist. How well does a NER model, trained on MSA, perform on other dialects? To answer this question, we construct four datasets. The first is an MSA dataset extracted from the ACE 2005 corpus. The others are datasets for Egyptian, Morocan and Syrian which we manually annotate following the ACE guidelines. We train a span-based NER model on top of a pretrained language model (PLM) encoder on the MSA data and study its performance on the other datasets in zero-shot settings. We study the performance of multiple PLM encoders from the literature and show that they achieve acceptable performance with no annotation effort. Our annotations and models are publicly available (https://github.com/niamaelkhbir/Arabic-Cross-Dialectal-NER).",
+    "Added By": "Zaid Alyafeai"
 }
