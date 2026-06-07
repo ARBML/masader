@@ -1,50 +1,63 @@
 {
     "Name": "Wojood",
-    "Subsets": [],
-    "HF Link": "",
-    "Link": "https://ontology.birzeit.edu/Wojood/",
-    "License": "custom",
-    "Year": 2022,
-    "Language": "ar",
-    "Dialect": "Modern Standard Arabic",
+    "Volume": 550000.0,
+    "Unit": "tokens",
+    "License": "unknown",
+    "Link": "https://dlnlp.ai/st/wojood/",
+    "HF_Link": "",
+    "Year": 2023,
     "Domain": [
-        "news articles"
+        "news articles",
+        "social media",
+        "other"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Collection_Style": [
+        "manual curation",
+        "human annotation"
     ],
-    "Description": "Wojood consists of about 550K tokens (MSA and dialect) that are manually annotated with 21 entity types (e.g., person, organization, location, event, date, etc). It covers multiple domains and was annotated with nested entities. The corpus contains about 75K entities and 22.5% of which are nested.",
-    "Volume": 550464.0,
-    "Unit": "tokens",
-    "Ethical Risks": "Low",
+    "Description": "First Arabic NER shared task.",
+    "Ethical_Risks": "Low",
     "Provider": [
-        "SinaLab",
-        "Birzeit University"
+        "Birzeit University",
+        "University of British Columbia",
+        "MBZUAI"
     ],
-    "Derived From": [],
-    "Paper Title": "Wojood: Nested Arabic Named Entity Corpus and Recognition using BERT",
-    "Paper Link": "https://arxiv.org/pdf/2205.09651.pdf",
-    "Script": "Arab",
-    "Tokenized": false,
+    "Derived_From": [
+        "Curras and Baladi corpora",
+        "Wojood corpus"
+    ],
+    "Paper_Title": "WojoodNER 2023: The First Arabic Named Entity Recognition Shared Task",
+    "Paper_Link": "https://aclanthology.org/2023.arabicnlp-1.83.pdf",
+    "Tokenized": true,
     "Host": "other",
-    "Access": "Upon-Request",
+    "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Test_Split": true,
     "Tasks": [
         "named entity recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue_Title": "ArabicNLP 2023",
+    "Venue_Type": "conference",
+    "Venue_Name": "ArabicNLP",
     "Authors": [
         "Mustafa Jarrar",
-        "Mohammed Khalilia",
-        "Sana Ghanem"
+        "Muhammad Abdul-Mageed",
+        "Mohammed Khalil",
+        "Bashar Talafha",
+        "Abdel Rahim Elmadany",
+        "Nagham Hamad",
+        "Alaa Omar"
     ],
     "Affiliations": [
-        "Birzeit University"
+        "Birzeit University",
+        "University of British Columbia",
+        "MBZUAI"
     ],
-    "Abstract": "This paper presents Wojood, a corpus for Arabic nested Named Entity Recognition (NER). Nested entities occur when one\nentity mention is embedded inside another entity mention. Wojood consists of about 550K Modern Standard Arabic (MSA) and\ndialect tokens that are manually annotated with 21 entity types including person, organization, location, event and date. More\nimportantly, the corpus is annotated with nested entities instead of the more common flat annotations. The data contains about\n75K entities and 22.5% of which are nested. The inter-annotator evaluation of the corpus demonstrated a strong agreement\nwith Cohen\u2019s Kappa of 0.979 and an F1-score of 0.976. To validate our data, we used the corpus to train a nested NER model\nbased on multi-task learning using the pre-trained AraBERT (Arabic BERT). The model achieved an overall micro F1-score of\n0.884. Our corpus, the annotation guidelines, the source code and the pre-trained model are publicly available.",
-    "Added By": "Zaid Alyafeai"
+    "Abstract": "We present WojoodNER-2023, the first Arabic Named Entity Recognition (NER) Shared Task. The primary focus of WojoodNER2023 is on Arabic NER, offering novel NER datasets (i.e., Wojood) and the definition of subtasks designed to facilitate meaningful comparisons between different NER approaches. WojoodNER-2023 encompassed two Subtasks: Flat NER and Nested NER. A total of 45 unique teams registered for this shared task, with 11 of them actively participating in the test phase. Specifically, 11 teams participated in Flat NER, while 8 teams tackled Nested NER. The winning teams achieved F scores of 91.96 and 93.73 in Flat NER and Nested NER, respectively.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
 }
