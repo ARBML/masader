@@ -1,57 +1,57 @@
 {
     "Name": "MADAR",
-    "Subsets": [],
-    "HF Link": "",
-    "Link": "https://camel.abudhabi.nyu.edu/madar-parallel-corpus/",
-    "License": "custom",
-    "Year": 2018,
-    "Language": "ar",
-    "Dialect": "mixed",
+    "Volume": 2000.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "http://resources.camel-lab.com/",
+    "HF_Link": "",
+    "Year": 2024,
     "Domain": [
         "other"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Collection_Style": [
+        "human annotation"
     ],
-    "Description": "a collection of parallel sentences covering the dialects of 25 cities from the Arab World",
-    "Volume": 14000.0,
-    "Unit": "sentences",
-    "Ethical Risks": "Low",
+    "Description": "First dataset for Syrian Arabic-Turkish machine translation.",
+    "Ethical_Risks": "Low",
     "Provider": [
-        "NYU Abu Dhabi"
-    ],
-    "Derived From": [],
-    "Paper Title": "The MADAR Arabic Dialect Corpus and Lexicon",
-    "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2018/pdf/351.pdf",
-    "Script": "Arab",
-    "Tokenized": false,
-    "Host": "CAMeL Resources",
-    "Access": "Upon-Request",
-    "Cost": "",
-    "Test Split": false,
-    "Tasks": [
-        "dialect identification"
-    ],
-    "Venue Title": "LREC",
-    "Venue Type": "conference",
-    "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": [
-        "Houda Bouamor",
-        "Nizar Habash",
-        "Mohammad Salameh",
-        "W. Zaghouani",
-        "Owen Rambow",
-        "D. Abdulrahim",
-        "Ossama Obeid",
-        "Salam Khalifa",
-        "Fadhl Eryani",
-        "Alexander Erdmann",
-        "Kemal Oflazer"
-    ],
-    "Affiliations": [
+        "Sakarya University",
+        "Carnegie Mellon University",
         "New York University Abu Dhabi"
     ],
-    "Abstract": "In this paper, we present two resources that were created as part of the Multi Arabic Dialect Applications and Resources (MADAR) project. The first is a large parallel corpus of 25 Arabic city dialects in the travel domain. The second is a lexicon of 1,045 concepts with an average of 45 words from 25 cities per concept. These resources are the first of their kind in terms of the breadth of their coverage and the fine location granularity. The focus on cities, as opposed to regions in studying Arabic dialects, opens new avenues to many areas of research from dialectology to dialect identification and machine translation.",
-    "Added By": ""
+    "Derived_From": [
+        "MADAR corpus",
+        "Basic Traveling Expression Corpus"
+    ],
+    "Paper_Title": "Benchmarking Dialectal Arabic-Turkish Machine Translation",
+    "Paper_Link": "https://aclanthology.org/2023.mtsummit-research.22.pdf",
+    "Tokenized": false,
+    "Host": "CAMeL Resources",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "other",
+    "Venue_Name": "",
+    "Authors": [
+        "Hasan Alkheder",
+        "Houda Bouamor",
+        "Nizar Habash",
+        "Ahmet Zengin"
+    ],
+    "Affiliations": [
+        "Sakarya University",
+        "Carnegie Mellon University Qatar",
+        "New York University Abu Dhabi"
+    ],
+    "Abstract": "Due to the significant influx of Syrian refugees in Turkey in recent years, the Syrian Arabic dialect has become increasingly prevalent in certain regions of Turkey. Developing a machine translation system between Turkish and Syrian Arabic would be crucial in facilitating communication between the Turkish and Syrian communities in these regions, which can have a positive impact on various domains such as politics, trade, and humanitarian aid. Such a system would also contribute positively to the growing Arab-focused tourism industry in Turkey. In this paper we present the first research effort exploring translation between Syrian Arabic and Turkish. We use a set of 2,000 parallel sentences from the MADAR corpus containing 25 different city dialects from different cities across the Arab world, in addition to Modern Standard Arabic (MSA), English, and French. Additionally, we explore the translation performance into Turkish from other Arabic dialects and compare the results to the performance achieved when translating from Syrian Arabic. We build our MADAR-Turk dataset by manually translating the set of 2,000 sentences from the Damascus dialect of Syria to Turkish with the help of two native Arabic speakers from Syria who are also highly fluent in Turkish. We evaluate the quality of the translations and report the results achieved. We make this first-of-a-kind dataset publicly available to support research in machine translation between these important but less studied language pairs.",
+    "Subsets": [],
+    "Dialect": "Syria",
+    "Language": "multilingual",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
 }
