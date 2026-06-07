@@ -1,0 +1,49 @@
+{
+    "Name": "Omani Parallel Corpus",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/khoula-k/OmaniArabicTranslation",
+    "License": "unknown",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Oman",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Parallel Omani Arabic-English MT dataset",
+    "Volume": 2595.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "Sultan Qaboos University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Machine Translation of Omani Arabic Dialect from Social Media",
+    "Paper Link": "https://aclanthology.org/2023.arabicnlp-1.24.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Khoula Kahlan Al Kharusi",
+        "Abdurahman Khalifa AAlAbdulsalam"
+    ],
+    "Affiliations": [
+        "Sultan Qaboos University"
+    ],
+    "Abstract": "Research studies on Machine Translation (MT) between Modern Standard Arabic (MSA) and English are abundant. However, studies on MT between Omani Arabic (OA) dialects and English are very scarce. This research study focuses on the lack of availability of an Omani dialect parallel dataset, as well as MT of OA to English. The study uses social media data from X (formerly Twitter) to build an authentic parallel text of the Omani dialects. The research presents baseline results on this dataset using Google Translate, Microsoft Translation, and Marian NMT. A taxonomy of the most common\nlinguistic errors is used to analyze the translations made by the NMT systems to provide\ninsights on future improvements. Finally, transfer learning is used to adapt Marian NMT to the Omani dialect, with significant improvement of 9.88 points in the BLEU score.",
+    "Added By": "Zaid Alyafeai"
+}
