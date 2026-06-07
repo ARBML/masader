@@ -1,42 +1,41 @@
 {
     "Name": "FinMT",
-    "Volume": 15771.0,
-    "Unit": "sentences",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/asas-ai/",
     "Link": "https://huggingface.co/asas-ai/",
-    "HF_Link": "https://huggingface.co/asas-ai/",
+    "License": "unknown",
     "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "news articles"
+        "web pages"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "crawling"
     ],
     "Description": "Parallel Arabic-English financial corpus for MT domain adaptation.",
-    "Ethical_Risks": "Low",
+    "Volume": 7560.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
     "Provider": [
-        "King Abdulaziz University",
         "ASASAI Lab"
     ],
-    "Derived_From": [
-        "Tadawul",
-        "Capital Markets Authority",
-        "Eye of Riyadh"
-    ],
-    "Paper_Title": "DOMAIN ADAPTATION FOR ARABIC MACHINE TRANSLATION: THE CASE OF FINANCIAL TEXTS",
-    "Paper_Link": "https://arxiv.org/pdf/2309.12863v1.pdf",
+    "Derived From": [],
+    "Paper Title": "Domain Adaptation For Arabic Machine Translation: The Case of Financial Texts",
+    "Paper Link": "https://arxiv.org/pdf/2309.12863v1.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": false,
     "Tasks": [
         "machine translation"
     ],
-    "Venue_Title": "arXiv",
-    "Venue_Type": "preprint",
-    "Venue_Name": "arXiv",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Emad A. Alghamdi",
         "Jezia Zakraoui",
@@ -47,9 +46,5 @@
         "ASASAI Lab"
     ],
     "Abstract": "Neural machine translation (NMT) has shown impressive performance when trained on large-scale corpora. However, generic NMT systems have demonstrated poor performance on out-of-domain translation. To mitigate this issue, several domain adaptation methods have recently been proposed which often lead to better translation quality than genetic NMT systems. While there has been some continuous progress in NMT for English and other European languages, domain adaptation in Arabic has received little attention in the literature. The current study, therefore, aims to explore the effectiveness of domain-specific adaptation for Arabic MT (AMT), in yet unexplored domain, financial news articles. To this end, we developed a carefully parallel corpus for Arabic-English (AR-EN) translation in the financial domain for benchmarking different domain adaptation methods. We then fine-tuned several pre-trained NMT and Large Language models including ChatGPT-3.5 Turbo on our dataset. The results showed that the fine-tuning is successful using just a few well-aligned in-domain AR-EN segments. The quality of ChatGPT translation was superior than other models based on automatic and human evaluations. To the best of our knowledge, this is the first work on fine-tuning ChatGPT towards financial domain transfer learning. To contribute to research in domain translation, we made our datasets and fine-tuned models available at https://huggingface.co/asas-ai/.",
-    "Subsets": [],
-    "Dialect": "Modern Standard Arabic",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
