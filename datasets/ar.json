@@ -1,49 +1,56 @@
 {
     "Name": "ar",
-    "Volume": 36380.0,
-    "Unit": "sentences",
+    "Volume": 1015.0,
+    "Unit": "documents",
     "License": "unknown",
-    "Link": "https://github.com/Alaa-Shaker/",
+    "Link": "https://github.com/Kaitelfqih/Gold-standard-Terminology-Translation-Evaluation-Data-Set",
     "HF_Link": "",
-    "Year": 2021,
+    "Year": 2023,
     "Domain": [
-        "news articles"
+        "other"
     ],
     "Form": "text",
     "Collection_Style": [
-        "human annotation"
+        "human annotation",
+        "manual curation"
     ],
-    "Description": "A new Arabic NER dataset covering 7 domains with over 36k records.",
+    "Description": "Arabic legal MT eval dataset.",
     "Ethical_Risks": "Low",
     "Provider": [
-        "ITMO University"
+        "University of Naples L\u2019Orientale"
     ],
     "Derived_From": [],
-    "Paper_Title": "Using LSTM and GRU With a New Dataset for Named Entity Recognition in the Arabic Language",
-    "Paper_Link": "https://arxiv.org/pdf/2304.03399v1.pdf",
-    "Tokenized": true,
+    "Paper_Title": "On the Evaluation of Terminology Translation Errors in NMT and PB-SMT",
+    "Paper_Link": "https://aclanthology.org/2023.contents-1.4.pdf",
+    "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test_Split": false,
     "Tasks": [
-        "named entity recognition"
+        "machine translation"
     ],
-    "Venue_Title": "MICSECS",
-    "Venue_Type": "conference",
-    "Venue_Name": "MICSECS",
+    "Venue_Title": "BUCC",
+    "Venue_Type": "workshop",
+    "Venue_Name": "BUCC",
     "Authors": [
-        "Alaa Shaker",
-        "Alaa Aldarf",
-        "Igor Alexandrovich Bessmertny"
+        "Khadija Ait ElFqih",
+        "Johanna Monti"
     ],
     "Affiliations": [
-        "ITMO University"
+        "UNIOR NLP Research Group, University of Naples \u2018L\u2019Orientale\u2019"
     ],
-    "Abstract": "Named entity recognition (NER) is a natural language processing task (NLP), which aims to identify named entities and classify them like person, location, organization, etc. In the Arabic language, we can find a considerable size of unstructured data, and it needs to different preprocessing tool than languages like (English, Russian, German...). From this point, we can note the importance of building a new structured dataset to solve the lack of structured data. In this work, we use the BIOES format to tag the word, which allows us to handle the nested name entity that consists of more than one sentence and define the start and the end of the name. The dataset consists of more than thirty-six thousand records. In addition, this work proposes long short-term memory (LSTM) units and Gated Recurrent Units (GRU) for building the named entity recognition model in the Arabic language. The models give an approximately good result (80%) because LSTM and GRU models can find the relationships between the words of the sentence. Also, use a new library from Google, which is Trax and platform Colab.",
-    "Subsets": [],
+    "Abstract": "In the translation process, terminological resources are used to solve translation problems, so information on terminological equivalence is crucial to make the most appropriate choices in terms of translation. In the context of Machine translation, indeed, neural models have improved the state-of-the-art in Machine Translation considerably in recent years. However, they still underperform in domain-specific fields and in under-resourced languages. This is particularly evident in translating legal terminology for Arabic, where current Machine Translation outputs do not adhere to the contextual, linguistic, cultural, and terminological constraints posed by translating legal terms in Arabic. In this paper, we conduct a comparative qualitative evaluation and comprehensive error analysis on legal terminology translation in Phrase-Based Statistical Machine Translation and Neural Machine Translation in two language pairs: Arabic-English, Arabic-French. We propose an error typology taking the legal terminology translation from Arabic into account. We demonstrate our findings highlighting the strengths and weaknesses of both approaches in the area of legal terminology translation for Arabic. We also introduce a multilingual gold standard dataset that we developed using our Arabic legal corpus. This dataset serves as a reliable benchmark and/or reference during the evaluation process to decide the degree of adequacy and fluency of the Phrase-Based Statistical Machine Translation and Neural Machine Translation systems.",
+    "Subsets": [
+        {
+            "Name": "Arabic",
+            "Volume": 1015.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
     "Dialect": "Modern Standard Arabic",
-    "Language": "ar",
+    "Language": "multilingual",
     "Script": "Arab",
     "Added_By": "qwen/qwen3.6-35b-a3b"
 }
