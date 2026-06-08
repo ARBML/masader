@@ -1,53 +1,43 @@
 {
     "Name": "Murabaa",
-    "Volume": 7133106.0,
-    "Unit": "tokens",
-    "License": "CC BY-NC-ND 4.0",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://github.com/alelm-lab/Murabaa/",
-    "HF_Link": "",
-    "Year": 2025,
+    "License": "CC BY-NC-ND 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "public datasets"
     ],
     "Form": "text",
-    "Collection_Style": [
-        "manual curation",
-        "human annotation"
+    "Collection Style": [
+        "other"
     ],
-    "Description": "Comprehensive platform for Arabic morphology resources",
-    "Ethical_Risks": "Low",
+    "Description": "Comprehensive platform for Arabic morphology resources that combines eight dictionaries",
+    "Volume": 717380.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
     "Provider": [
         "Mohammed V University in Rabat"
     ],
-    "Derived_From": [
-        "DIINAR",
-        "Alkhalil",
-        "FARASA",
-        "Khoja",
-        "ISRI",
-        "Abu El-Khair",
-        "Attia",
-        "Elghamry",
-        "Neme Neme",
-        "Qabas"
-    ],
-    "Paper_Title": "Murabaa: A comprehensive Resource Platform for Arabic Morphology",
-    "Paper_Link": "https://aclanthology.org/2026.abjadnlp-1.47.pdf",
+    "Derived From": [],
+    "Paper Title": "Murabaa: A comprehensive Resource Platform for Arabic Morphology",
+    "Paper Link": "https://aclanthology.org/2026.abjadnlp-1.47.pdf",
+    "Script": "Arab",
     "Tokenized": true,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
-        "text classification",
-        "tokenization",
         "lemmatization",
         "stemming",
-        "machine translation"
+        "morphological analysis"
     ],
-    "Venue_Title": "",
-    "Venue_Type": "other",
-    "Venue_Name": "",
+    "Venue Title": "abjadnlp",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on NLP for Languages Using Arabic Script",
     "Authors": [
         "Karim Bouzoubaa",
         "Driss Namly",
@@ -63,10 +53,6 @@
         "Faculty of Arts and Humanities",
         "Mohammed V University in Rabat"
     ],
-    "Abstract": "Despite its historical depth and cultural richness, the Arabic language faces several pressing challenges. First, Arabic suffers from a notable lack of systematic efforts to digitize its core scientific and linguistic knowledge, which hinders the development of robust language technologies and applications. Existing initiatives often remain fragmented and limited in scope, without a comprehensive and integrated treatment of derivational, morphological, syntactic, and semantic levels. Second, the rapid spread of AI applications, particularly Large Language Models (LLMs), has led many users to develop the misconception that AI-generated outputs are inherently more reliable than established reference texts, even though such models are prone to issues such as hallucination. This unwarranted trust coincides with a declining status of standard and Classical Arabic among many speakers and the growing dominance of regional dialects and foreign languages. Together, these trends complicate efforts to preserve, standardize, and disseminate both traditional and contemporary Arabic linguistic knowledge, especially among younger generations. This Arabic\u2019s morphological richness, combined with its declining status, presents an urgent challenge that demands high-quality, standardized digital resources. In this context, there is an imperative need to convert the extensive body of Arabic linguistic knowledge \u2014 much of which is not only preserved in printed books and manuscripts, but also resides tacitly in the minds of linguists who may be unwilling or unable to effectively communicate and formalize it \u2014 into comprehensive, open-access digital formats. Such resources are crucial for supplying linguistically precise texts that can directly and indirectly enhance the training and performance of LLMs. Our overarching long-term goal is to systematically digitize and computationally represent the entirety of Arabic scientific linguistic knowledge, progressing from foundational to advanced levels. Given the ambitious scope of this endeavor, the present project concentrates specifically on Arabic morphology, while the treatment of syntax and semantics is deferred to later stages.",
-    "Subsets": [],
-    "Dialect": "Modern Standard Arabic",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Abstract": "Arabic language faces technical and cultural challenges, including a lack of high-quality resources and the prevalence of regional dialects, which hinders the development of effective language processing systems. Therefore, the \"Murabaa\" platform was developed to transform Arabic linguistic knowledge into integrated digital resources. The platform aims to provide accurate digital content and promote the use of Arabic in various fields to bridge the gap between tradition and modernity by offering integrated linguistic resources for developing advanced research tools. The platform provides eight accurate dictionaries in the form of a website and a web application, contributing to the digitization of knowledge and its representation within the framework of standard lexical markup. In this study, we also conduct a quantitative comparison of the resources against similar ones to assess the quality of the linguistic knowledge they provide.",
+    "Added By": "Zaid Alyafeai"
 }
