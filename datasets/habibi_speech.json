@@ -1,12 +1,86 @@
 {
     "Name": "Habibi Speech",
     "Subsets": [
-        {
-            "Name": "MSA",
-            "Volume": 921.5,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        }
+        [
+  {
+    "Name": "MSA",
+    "Volume": 921.5,
+    "Unit": "hours",
+    "Dialect": "Modern Standard Arabic"
+  },
+  {
+    "Name": "SAU",
+    "Volume": 249.3,
+    "Unit": "hours",
+    "Dialect": "Saudi Arabia"
+  },
+  {
+    "Name": "UAE",
+    "Volume": 112.4,
+    "Unit": "hours",
+    "Dialect": "United Arab Emirates"
+  },
+  {
+    "Name": "ALG",
+    "Volume": 72.9,
+    "Unit": "hours",
+    "Dialect": "Algeria"
+  },
+  {
+    "Name": "IRQ",
+    "Volume": 70.7,
+    "Unit": "hours",
+    "Dialect": "Iraq"
+  },
+  {
+    "Name": "EGY",
+    "Volume": 62.2,
+    "Unit": "hours",
+    "Dialect": "Egypt"
+  },
+  {
+    "Name": "MAR",
+    "Volume": 81.7,
+    "Unit": "hours",
+    "Dialect": "Morocco"
+  },
+  {
+    "Name": "OMN",
+    "Volume": 20.7,
+    "Unit": "hours",
+    "Dialect": "Oman"
+  },
+  {
+    "Name": "TUN",
+    "Volume": 19.4,
+    "Unit": "hours",
+    "Dialect": "Tunisia"
+  },
+  {
+    "Name": "LEV",
+    "Volume": 8.3,
+    "Unit": "hours",
+    "Dialect": "Levant"
+  },
+  {
+    "Name": "SDN",
+    "Volume": 4.2,
+    "Unit": "hours",
+    "Dialect": "Sudan"
+  },
+  {
+    "Name": "LBY",
+    "Volume": 14.8,
+    "Unit": "hours",
+    "Dialect": "Libya"
+  },
+  {
+    "Name": "UNK",
+    "Volume": 219.2,
+    "Unit": "hours",
+    "Dialect": "Unknown"
+  }
+]
     ],
     "HF Link": "https://huggingface.co/datasets/SWivid/Habibi",
     "Link": "https://SWivid.github.io/Habibi/",
