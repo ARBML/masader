@@ -1,44 +1,42 @@
 {
     "Name": "MURAD",
-    "Volume": 96243.0,
-    "Unit": "documents",
-    "License": "CC BY 4.0",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/riotu-lab/MURAD",
     "Link": "https://github.com/riotu-lab/RD-creation-library-RDCL",
-    "HF_Link": "https://huggingface.co/datasets/riotu-lab/MURAD",
+    "License": "CC BY 4.0",
     "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
     "Domain": [
         "books"
     ],
     "Form": "text",
-    "Collection_Style": [
-        "manual curation",
+    "Collection Style": [
         "LLM generated",
         "machine annotation"
     ],
     "Description": "Open lexical dataset with 96,243 Arabic word-definition pairs.",
-    "Ethical_Risks": "Low",
+    "Volume": 96243.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
     "Provider": [
-        "Robotics and Internet-of-Things Laboratory (RIOTU)",
-        "Prince Sultan University"
+        "RIOTU Lab"
     ],
-    "Derived_From": [],
-    "Paper_Title": "MURAD: A Large-Scale Multi-Domain Unified Reverse Arabic Dictionary Dataset",
-    "Paper_Link": "https://arxiv.org/pdf/2601.21512v1.pdf",
+    "Derived From": [],
+    "Paper Title": "MURAD: A Large-Scale Multi-Domain Unified Reverse Arabic Dictionary Dataset",
+    "Paper Link": "https://arxiv.org/pdf/2601.21512v1.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
-        "semantic retrieval",
-        "word-sense disambiguation",
-        "definition generation",
-        "embedding evaluation",
-        "other"
+        "lexicon analysis"
     ],
-    "Venue_Title": "",
-    "Venue_Type": "preprint",
-    "Venue_Name": "",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Serry Sibaee",
         "Yasser Alhabashi",
@@ -49,13 +47,8 @@
         "Wadii Boulila"
     ],
     "Affiliations": [
-        "Robotics and Internet-of-Things Laboratory (RIOTU)",
         "Prince Sultan University"
     ],
     "Abstract": "Arabic is a linguistically and culturally rich language with a vast vocabulary that spans scientific, religious, and literary domains. Yet, large-scale lexical datasets linking Arabic words to precise definitions remain limited. We present MURAD (Multi-domain Unified Reverse Arabic Dictionary), an open lexical dataset with 96,243 word\u2013definition pairs. The data come from trusted reference works and educational sources. Extraction used a hybrid pipeline integrating direct text parsing, optical character recognition, and automated reconstruction. This ensures accuracy and clarity. Each record aligns a target word with its standardized Arabic definition and metadata that identifies the source domain. The dataset covers terms from linguistics, Islamic studies, mathematics, physics, psychology, and engineering. It supports computational linguistics and lexicographic research. Applications include reverse dictionary modeling, semantic retrieval, and educational tools. By releasing this resource, we aim to advance Arabic natural language processing and promote reproducible research on Arabic lexical semantics.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
