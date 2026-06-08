@@ -31,7 +31,7 @@
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
-    "Cost": "free",
+    "Cost": "",
     "Test Split": true,
     "Tasks": [
         "named entity recognition",
