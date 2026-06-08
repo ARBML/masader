@@ -1,84 +1,76 @@
 {
     "Name": "Habibi",
-    "Subsets": [
-        {
-            "Name": "Gulf",
-            "Dialect": "Gulf",
-            "Volume": 9484.0,
-            "Unit": "documents"
-        },
-        {
-            "Name": "Egyptian",
-            "Dialect": "Egypt",
-            "Volume": 7265.0,
-            "Unit": "documents"
-        },
-        {
-            "Name": "Levantine",
-            "Dialect": "Levant",
-            "Volume": 6016.0,
-            "Unit": "documents"
-        },
-        {
-            "Name": "Iraqi",
-            "Dialect": "Iraq",
-            "Volume": 3438.0,
-            "Unit": "documents"
-        },
-        {
-            "Name": "Sudan",
-            "Dialect": "Sudan",
-            "Volume": 2662.0,
-            "Unit": "documents"
-        },
-        {
-            "Name": "Maghrebi",
-            "Dialect": "North Africa",
-            "Volume": 1207.0,
-            "Unit": "documents"
-        }
-    ],
-    "HF Link": "https://hf.co/datasets/arbml/Habibi",
-    "Link": "https://www.lancaster.ac.uk/staff/elhaj/corpora.html",
+    "Volume": 1857.3,
+    "Unit": "hours",
     "License": "unknown",
-    "Year": 2020,
-    "Language": "ar",
-    "Dialect": "mixed",
+    "Link": "https://SWivid.github.io/Habibi/",
+    "HF_Link": "",
+    "Year": 2024,
     "Domain": [
-        "other"
+        "public datasets"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Form": "audio",
+    "Collection_Style": [
+        "crawling",
+        "manual curation",
+        "machine annotation"
     ],
-    "Description": "The corpus comprises more than 30,000 Arabic song lyrics in 6 Arabic dialects for singers from 18 different Arabic countries.",
-    "Volume": 30072.0,
-    "Unit": "documents",
-    "Ethical Risks": "Low",
+    "Description": "Unified-dialectal Arabic TTS framework with 12+ dialects.",
+    "Ethical_Risks": "Low",
     "Provider": [
-        "Lancaster University"
+        "Shanghai Jiao Tong University",
+        "Shanghai Innovation Institute",
+        "University of the Chinese Academy of Sciences",
+        "Kuaishou Technology"
     ],
-    "Derived From": [],
-    "Paper Title": "Habibi - a multi Dialect multi National Arabic Song Lyrics Corpus",
-    "Paper Link": "https://aclanthology.org/2020.lrec-1.165.pdf",
-    "Script": "Arab",
+    "Derived_From": [
+        "MASC",
+        "SADA",
+        "MGB-2",
+        "MGB-3",
+        "MGB-5",
+        "FLEURS",
+        "Omnilingual ASR Corpus",
+        "UAE-100K",
+        "UAE-Nexdata",
+        "Darija-S2T",
+        "DarijaTTS-clean",
+        "Jordan-Audio"
+    ],
+    "Paper_Title": "Habibi: Laying the Open-Source Foundation of Unified-Dialectal Arabic Speech Synthesis",
+    "Paper_Link": "https://arxiv.org/pdf/2601.13802v2.pdf",
     "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Test_Split": true,
     "Tasks": [
-        "language modeling"
+        "text to speech"
     ],
-    "Venue Title": "LREC",
-    "Venue Type": "conference",
-    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
     "Authors": [
-        "Mahmoud El-Haj"
+        "Yushen Chen",
+        "Junzhe Liu",
+        "Yujie Tu",
+        "Zhikang Niu",
+        "Yuzhe Liang",
+        "Chunyu Qiang",
+        "Chen Zhang",
+        "Kai Yu",
+        "Xie Chen"
     ],
     "Affiliations": [
-        "School of Computing and Communications, Lancaster University, United Kingdom"
+        "Shanghai Jiao Tong University",
+        "Shanghai Innovation Institute",
+        "University of the Chinese Academy of Sciences",
+        "Kuaishou Technology"
     ],
-    "Abstract": "This paper introduces Habibi the first Arabic Song Lyrics corpus. The corpus comprises more than 30,000 Arabic song lyrics in 6 Arabic dialects for singers from 18 different Arabic countries. The lyrics are segmented into more than 500,000 sentences (song verses) with more than 3.5 million words. I provide the corpus in both comma separated value (csv) and annotated plain text (txt) file formats. In addition, I converted the csv version into JavaScript Object Notation (json) and eXtensible Markup Language (xml) file formats. To experiment with the corpus I run extensive binary and multi-class experiments for dialect and country-of-origin identification. The identification tasks include the use of several classical machine learning and deep learning models utilising different word embeddings. For the binary dialect identification task the best performing classifier achieved a testing accuracy of 93%. This was achieved using a word-based Convolutional Neural Network (CNN) utilising a Continuous Bag of Words (CBOW) word embeddings model. The results overall show all classical and deep learning models to outperform our baseline, which demonstrates the suitability of the corpus for both dialect and country-of-origin identification tasks. I am making the corpus and the trained CBOW word embeddings freely available for research purposes.",
-    "Added By": ""
+    "Abstract": "Arabic spans over 30 spoken varieties, yet no open-source text-to-speech system unifies them. Key barriers include substantial cross-dialect lexical and phonological divergence, scarce synthesis-grade data, and the absence of a standardized multi-dialect evaluation benchmark. We present Habibi, a unified-dialectal Arabic TTS framework that addresses all three. Through a multi-step curation pipeline, we repurpose open-source ASR corpora into TTS training data covering 12+ regional dialects. A linguistically-informed curriculum learning strategy\u2014progressing from Modern Standard Arabic to dialectal data\u2014enables robust zero-shot synthesis without text diacritization. We further release the first standardized multi-dialect Arabic TTS benchmark, comprising over 11,000 utterances across 7 dialect subsets with manually verified transcripts. On this benchmark, our unified model matches or surpasses per-dialect specialized models.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
 }
