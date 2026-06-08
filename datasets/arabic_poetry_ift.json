@@ -67,7 +67,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Test Split": false,
     "Tasks": [
         "instruction following"
     ],
