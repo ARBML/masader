@@ -1,0 +1,70 @@
+{
+    "Name": "QIMMA",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/collections/qimma/qimma-leaderboard-datasets",
+    "Link": "https://huggingface.co/collections/qimma/qimma-leaderboard-datasets",
+    "License": "custom",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "other"
+    ],
+    "Description": "A quality-assured Arabic LLM leaderboard spanning 109 subsets and over 52k native Arabic samples across multiple domains and tasks.",
+    "Volume": 52000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "TII"
+    ],
+    "Derived From": [
+        "AraDiCE-Culture",
+        "ArabCulture",
+        "PalmX",
+        "ArabicMMLU",
+        "3LM STEM",
+        "ArabLegalQA",
+        "MizanQA",
+        "MedAraBench",
+        "FannOrFlop",
+        "AraTrust",
+        "HumanEval+",
+        "MBPP+",
+        "GAT"
+    ],
+    "Paper Title": "Are Arabic Benchmarks Reliable? QIMMA\u2019s Quality-First Approach to LLM Evaluation",
+    "Paper Link": "https://arxiv.org/pdf/2604.03395v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "multiple choice question answering",
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Leen AlQadi",
+        "Ahmed Alzubaidi",
+        "Mohammed Alyafeai",
+        "Hamza Alobeidli",
+        "Maitha Alhammadi",
+        "Shaikha Alsuwaidi",
+        "Omar Alkaabi",
+        "Basma ElAmel Boussaha",
+        "Hakim Hacid"
+    ],
+    "Affiliations": [
+        "Technology Innovation Institute"
+    ],
+    "Abstract": "We present QIMMA, a quality-assured Arabic LLM leaderboard that places systematic benchmark validation at its core. Rather than aggregating existing resources as-is, QIMMA applies a multi-model assessment pipeline combining automated LLM judgment with human review to surface and resolve systematic quality issues in well-established Arabic benchmarks before evaluation. The result is a curated, multi-domain, multi-task evaluation suite of over 52k samples, grounded predominantly in native Arabic content; code evaluation tasks are the sole exception, as they are inherently language-agnostic. Transparent implementation via LightEval, EvalPlus and public release of per-sample inference outputs make QIMMA reproducible and community-extensible foundation for Arabic NLP evaluation.",
+    "Added By": "Zaid Alyafeai"
+}
