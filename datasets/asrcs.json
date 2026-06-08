@@ -1,0 +1,76 @@
+{
+    "Name": "ASRCS",
+    "Volume": 1200.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://huggingface.co/datasets/Perle-ai/ASR_Code_Switch",
+    "HF_Link": "https://huggingface.co/datasets/Perle-ai/ASR_Code_Switch",
+    "Year": 2026,
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "Benchmark for commercial ASR on code-switching speech.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Perle AI"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Benchmarking Commercial ASR Systems on Code-Switching Speech: Arabic, Persian, and German",
+    "Paper_Link": "https://arxiv.org/pdf/2605.19069v3.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Sajjad Abdoli",
+        "Ghassan Al-Sumaidaee",
+        "Clayton W. Taylor",
+        "Ahmad ElShiekh",
+        "Ahmed Rashad"
+    ],
+    "Affiliations": [
+        "Perle AI"
+    ],
+    "Abstract": "Code-switching\u2014the natural alternation between two languages within a single utterance\u2014remains one of the most challenging and under-studied conditions for automatic speech recognition (ASR). We present a benchmark evaluating five commercial ASR providers across four language pairs: Egyptian Arabic\u2013English, Saudi Arabic (Najdi/Hijazi)\u2013English, Persian (Farsi)\u2013English, and German\u2013English, comprising 300 samples per pair selected by a two-stage pipeline combining heuristic filtering with a GPT-4o and Gemini 1.5 Pro ensemble scorer, reducing LLM costs by \u224891%. We evaluate on both WER and BERTScore, showing that while both metrics agree on the ordinal ranking of systems for all Arabic and Persian pairs (\u03c4 =1.0), WER inflates the magnitude of quality gaps by approximately 3\u00d7 by penalising semantically correct transliteration choices. ElevenLabs Scribe v2 achieves the lowest WER (13.2% overall) and leads on BERTScore (0.936 overall). Difficulty-stratified analysis reveals performance gaps masked by aggregate averages, and BERT embedding projections confirm semantic proximity between reference and hypothesis despite surface-level script differences. The dataset is publicly available at https://huggingface.co/datasets/Perle-ai/ASR_Code_Switch.",
+    "Subsets": [
+        {
+            "Name": "Egyptian Arabic-English",
+            "Volume": 300.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Saudi Arabic-English",
+            "Volume": 300.0,
+            "Unit": "sentences",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "Persian-English",
+            "Volume": 300.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "German-English",
+            "Volume": 300.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "Dialect": "mixed",
+    "Language": "multilingual",
+    "Script": "Arab-Latin",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
