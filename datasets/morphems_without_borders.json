@@ -1,48 +1,46 @@
 {
     "Name": "morphems_without_borders",
-    "Volume": 230.0,
-    "Unit": "documents",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://github.com/YaraAlakeel/morphems_without_borders",
-    "HF_Link": "",
-    "Year": 2024,
+    "License": "MIT License",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
         "public datasets"
     ],
     "Form": "text",
-    "Collection_Style": [
-        "manual curation",
+    "Collection Style": [
         "machine annotation"
     ],
-    "Description": "Evaluating Arabic Morphology",
-    "Ethical_Risks": "Low",
+    "Description": "A datasets to control evaluation of Arabic derivational morphology across multiple tasks",
+    "Volume": 130.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
     "Provider": [
         "Yara Alakeel",
         "Chatrine Qwaider",
         "Hanan Aldarmaki",
         "Sawsan Alqahtani"
     ],
-    "Derived_From": [
-        "Arabic Billion Words corpus",
-        "CAMEL Tools",
-        "ATB3",
-        "BOLT Egyptian Arabic corpus"
+    "Derived From": [
+        "Arabic Billion Words corpus"
     ],
-    "Paper_Title": "Morphemes Without Borders: Evaluating Root\u2013Pattern Morphology in Arabic Tokenizers and LLMs",
-    "Paper_Link": "https://arxiv.org/pdf/2603.15773v1.pdf",
+    "Paper Title": "Morphemes Without Borders: Evaluating Root\u2013Pattern Morphology in Arabic Tokenizers and LLMs",
+    "Paper Link": "https://arxiv.org/pdf/2603.15773v1.pdf",
+    "Script": "Arab",
     "Tokenized": true,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
-        "text generation",
-        "morphological analysis",
-        "linguistic acceptability"
+        "morphological analysis"
     ],
-    "Venue_Title": "Preprint",
-    "Venue_Type": "preprint",
-    "Venue_Name": "",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Yara Alakeel",
         "Chatrine Qwaider",
@@ -50,14 +48,10 @@
         "Sawsan Alqahtani"
     ],
     "Affiliations": [
-        "SaudiData&AIAuthority (SDAIA)",
-        "MohamedbinZayedUniversityofArtificialIntelligence (MBZUAI)",
-        "PrincessNourahBintAbdulrahmanUniversity (PNU)"
+        "SDAIA",
+        "MBZUAI",
+        "PNU"
     ],
     "Abstract": "This work investigates how effectively large language models (LLMs) and their tokenization schemes represent and generate Arabic root-pattern morphology, probing whether they capture genuine morphological structure or rely on surface memorization. Arabic morphological system provides a rich testbed for analyzing how LLMs handle complex, non-concatenative forms and how tokenization choices influence this process. Our study begins with an evaluation of morphological fidelity across Arabic and multilingual tokenizers against gold-standard segmentation, followed by an analysis of LLM performance in productive root-pattern generation using a newly developed test set. Our findings across seven Arabic-centric and multilingual LLMs and their respective tokenizers reveal that tokenizer morphological alignment is not necessary nor sufficient for morphological generation, which questions the role of morphological tokenization in downstream performance.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
