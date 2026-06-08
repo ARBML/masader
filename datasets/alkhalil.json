@@ -1,0 +1,52 @@
+{
+    "Name": "Alkhalil",
+    "Volume": 76000000.0,
+    "Unit": "tokens",
+    "License": "unknown",
+    "Link": "https://huggingface.co/datasets/oujda-nlp-team/TopicClassifiedTexts",
+    "HF_Link": "https://huggingface.co/datasets/oujda-nlp-team/TopicClassifiedTexts",
+    "Year": 2025,
+    "Domain": [
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "machine annotation",
+        "human annotation"
+    ],
+    "Description": "Thematic and lemmatized MSA corpus",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Mohammed First University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Alkhalil Corpus: An Open-Source Thematic and Lemmatized Corpus for Modern Standard Arabic",
+    "Paper_Link": "https://aclanthology.org/2026.abjadnlp-1.27.pdf",
+    "Tokenized": true,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "topic classification",
+        "sentiment analysis",
+        "text readability assessment"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
+    "Authors": [
+        "Samir BELAYACHI",
+        "Azzeddine MAZROUI"
+    ],
+    "Affiliations": [
+        "Mohammed First University"
+    ],
+    "Abstract": "In NLP, corpora are indispensable for numerous applications (Manning, 1999). They play a central role in machine learning, where systems require natural language processing systems for under-resourced languages such as Arabic. In this paper, we present two annotated corpora dedicated to Modern Standard Arabic. These corpora are open-source and freely available on the Hugging Face platform. The first corpus, annotated by theme and designed to provide a balanced representation of contemporary Arabic usage, comprises approximately 76 million words collected from diverse sources covering multiple domains and geographical regions. The second corpus, containing approximately one million words, is a sub-corpus extracted from the first. It was annotated with lemmatags using a semi-automatic approach that combines automatic annotation with the Alkhalil lemmatizer and MADAMIRA, followed by manual validation.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
