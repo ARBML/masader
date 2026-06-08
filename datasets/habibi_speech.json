@@ -1,84 +1,84 @@
 {
     "Name": "Habibi Speech",
     "Subsets": [
-  {
-    "Name": "MSA",
-    "Volume": 921.5,
-    "Unit": "hours",
-    "Dialect": "Modern Standard Arabic"
-  },
-  {
-    "Name": "SAU",
-    "Volume": 249.3,
-    "Unit": "hours",
-    "Dialect": "Saudi Arabia"
-  },
-  {
-    "Name": "UAE",
-    "Volume": 112.4,
-    "Unit": "hours",
-    "Dialect": "United Arab Emirates"
-  },
-  {
-    "Name": "ALG",
-    "Volume": 72.9,
-    "Unit": "hours",
-    "Dialect": "Algeria"
-  },
-  {
-    "Name": "IRQ",
-    "Volume": 70.7,
-    "Unit": "hours",
-    "Dialect": "Iraq"
-  },
-  {
-    "Name": "EGY",
-    "Volume": 62.2,
-    "Unit": "hours",
-    "Dialect": "Egypt"
-  },
-  {
-    "Name": "MAR",
-    "Volume": 81.7,
-    "Unit": "hours",
-    "Dialect": "Morocco"
-  },
-  {
-    "Name": "OMN",
-    "Volume": 20.7,
-    "Unit": "hours",
-    "Dialect": "Oman"
-  },
-  {
-    "Name": "TUN",
-    "Volume": 19.4,
-    "Unit": "hours",
-    "Dialect": "Tunisia"
-  },
-  {
-    "Name": "LEV",
-    "Volume": 8.3,
-    "Unit": "hours",
-    "Dialect": "Levant"
-  },
-  {
-    "Name": "SDN",
-    "Volume": 4.2,
-    "Unit": "hours",
-    "Dialect": "Sudan"
-  },
-  {
-    "Name": "LBY",
-    "Volume": 14.8,
-    "Unit": "hours",
-    "Dialect": "Libya"
-  },
-  {
-    "Name": "UNK",
-    "Volume": 219.2,
-    "Unit": "hours",
-    "Dialect": "mixed"
-  }
+        {
+            "Name": "MSA",
+            "Volume": 921.5,
+            "Unit": "hours",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "SAU",
+            "Volume": 249.3,
+            "Unit": "hours",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "UAE",
+            "Volume": 112.4,
+            "Unit": "hours",
+            "Dialect": "United Arab Emirates"
+        },
+        {
+            "Name": "ALG",
+            "Volume": 72.9,
+            "Unit": "hours",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "IRQ",
+            "Volume": 70.7,
+            "Unit": "hours",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "EGY",
+            "Volume": 62.2,
+            "Unit": "hours",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "MAR",
+            "Volume": 81.7,
+            "Unit": "hours",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "OMN",
+            "Volume": 20.7,
+            "Unit": "hours",
+            "Dialect": "Oman"
+        },
+        {
+            "Name": "TUN",
+            "Volume": 19.4,
+            "Unit": "hours",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "LEV",
+            "Volume": 8.3,
+            "Unit": "hours",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "SDN",
+            "Volume": 4.2,
+            "Unit": "hours",
+            "Dialect": "Sudan"
+        },
+        {
+            "Name": "LBY",
+            "Volume": 14.8,
+            "Unit": "hours",
+            "Dialect": "Libya"
+        },
+        {
+            "Name": "UNK",
+            "Volume": 219.2,
+            "Unit": "hours",
+            "Dialect": "mixed"
+        }
     ],
     "HF Link": "https://huggingface.co/datasets/SWivid/Habibi",
     "Link": "https://SWivid.github.io/Habibi/",
@@ -99,10 +99,7 @@
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
-        "Shanghai Jiao Tong University",
-        "Shanghai Innovation Institute",
-        "University of the Chinese Academy of Sciences",
-        "Kuaishou Technology"
+        "Shanghai Jiao Tong University"
     ],
     "Derived From": [
         "MASC",
@@ -149,6 +146,6 @@
         "University of the Chinese Academy of Sciences",
         "Kuaishou Technology"
     ],
-    "Abstract": "Arabic spans over 30 spoken varieties, yet no open-source text-to-speech system unifies them. Key barriers include substantial cross-dialect lexical and phonological divergence, scarce synthesis-grade data, and the absence of a standardized multi-dialect evaluation benchmark. We present Habibi, a unified-dialectal Arabic TTS framework that addresses all three. Through a multi-step curation pipeline, we repurpose open-source ASR corpora into TTS training data covering 12+ regional dialects. A linguistically-informed curriculum learning strategy\u2014progressing from Modern Standard Arabic to dialectal data\u2014enables robust zero-shot synthesis without text diacritization. We further release the first standardized multi-dialect Arabic TTS benchmark, comprising over 11,000 utterances across 7 dialect subsets with manually verified transcripts. On this benchmark, our unified model matches or surpasses per-dialect specialized models.",
+    "Abstract": "Arabic spans over 30 spoken varieties, yet no open-source text-to-speech system unifies them. Key barriers include substantial cross-dialect lexical and phonological divergence, scarce synthesis-grade data, and the absence of a standardized multi-dialect evaluation benchmark. We present Habibi, a unified-dialectal Arabic TTS framework that addresses all three. Through a multi-step curation pipeline, we repurpose open-source ASR corpora into TTS training data covering 12+ regional dialects. A linguistically-informed curriculum learning strategy - progressing from Modern Standard Arabic to dialectal data - enables robust zero-shot synthesis without text diacritization. We further release the first standardized multi-dialect Arabic TTS benchmark, comprising over 11,000 utterances across 7 dialect subsets with manually verified transcripts. On this benchmark, our unified model matches or surpasses per-dialect specialized models. Both automatic metrics and human evaluations confirm that Habibi is highly competitive with ElevenLabs' Eleven v3 (alpha) in intelligibility, speaker similarity, and naturalness. Extensive ablations (~8,000 H100 GPU hours, 30+ configurations) validate each design choice. We open-source all checkpoints, training and inference code, and benchmark data - the first such release for multi-dialect Arabic TTS - at  https://SWivid.github.io/Habibi/.\n",
     "Added By": "Zaid Alyafeai"
 }
