@@ -1,47 +1,43 @@
 {
     "Name": "Jawhar",
-    "Volume": 46529.0,
-    "Unit": "tokens",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://github.com/CAMeL-Lab/jawhar",
-    "HF_Link": "",
+    "License": "unknown",
     "Year": 2026,
+    "Language": "multilingual",
+    "Dialect": "Classical Arabic",
     "Domain": [
         "books",
         "web pages"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "crawling",
-        "manual curation"
+        "machine annotation"
     ],
     "Description": "Benchmark for Judeo-Arabic transliteration.",
-    "Ethical_Risks": "Low",
+    "Volume": 46529.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
     "Provider": [
-        "University of Cambridge",
-        "Mohamed bin Zayed University of Artificial Intelligence",
-        "New York University"
+        "CAMeL Lab"
     ],
-    "Derived_From": [
-        "Sefaria",
-        "Friedberg Geniza Project",
-        "Al-Khazari"
-    ],
-    "Paper_Title": "A Tale of Two Scripts: Transliteration and Post-Correction for Judeo-Arabic",
-    "Paper_Link": "https://aclanthology.org/2026.eacl-long.93.pdf",
+    "Derived From": [],
+    "Paper Title": "A Tale of Two Scripts: Transliteration and Post-Correction for Judeo-Arabic",
+    "Paper Link": "https://aclanthology.org/2026.eacl-long.93.pdf",
+    "Script": "Arab-Latin",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": true,
     "Tasks": [
-        "machine translation",
-        "part of speech tagging",
-        "morphological analysis"
+        "transliteration"
     ],
-    "Venue_Title": "EACL",
-    "Venue_Type": "conference",
-    "Venue_Name": "EACL",
+    "Venue Title": "EACL",
+    "Venue Type": "conference",
+    "Venue Name": "European Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Juan Moreno-Gonzalez",
         "Bashar Alhafni",
@@ -53,9 +49,5 @@
         "New York University"
     ],
     "Abstract": "Judeo-Arabic refers to Arabic variants historically spoken by Jewish communities across the Arab world, primarily during the Middle Ages. Unlike standard Arabic, it is written in Hebrew script by Jewish writers and for Jewish audiences. Transliterating Judeo-Arabic into Arabic script is challenging due to ambiguous letter mappings, inconsistent orthographic conventions, and frequent code-switching into Hebrew. In this paper, we introduce a two-step approach to automatically transliterate Judeo-Arabic into Arabic script: simple character-level mapping followed by post-correction to address grammatical and orthographic errors. We also present the first benchmark evaluation of LLMs on this task. Finally, we show that transliteration enables Arabic NLP tools to perform morphosyntactic tagging and machine translation, which would not have been feasible on the original texts. We make our code and data publicly available.",
-    "Subsets": [],
-    "Dialect": "Classical Arabic",
-    "Language": "ar",
-    "Script": "Latin",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
