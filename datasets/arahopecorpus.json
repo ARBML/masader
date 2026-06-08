@@ -1,41 +1,43 @@
 {
     "Name": "AraHopeCorpus",
-    "Volume": 10000.0,
-    "Unit": "documents",
-    "License": "CC BY-NC-SA 4.0",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://tinyurl.com/4ke5jwyw",
-    "HF_Link": "",
+    "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
-        "social media"
+        "social media",
+        "commentary"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "crawling",
         "human annotation"
     ],
-    "Description": "Annotated Arabic hope speech dataset",
-    "Ethical_Risks": "Medium",
+    "Description": "The dataset was built from 23 carefully selected YouTube videos covering the Gaza genocide (2023\u2013 2024)",
+    "Volume": 10000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
     "Provider": [
-        "Hamad Bin Khalifa University",
-        "Northwestern University in Qatar"
+        "Marsad Lab"
     ],
-    "Derived_From": [],
-    "Paper_Title": "AraHopeCorpus: Annotation Guidelines and Dataset for Hope Speech in Arabic Social Media Crisis Discourse",
-    "Paper_Link": "https://arxiv.org/pdf/2605.23325v1.pdf",
+    "Derived From": [],
+    "Paper Title": "AraHopeCorpus: Annotation Guidelines and Dataset for Hope Speech in Arabic Social Media Crisis Discourse",
+    "Paper Link": "https://arxiv.org/pdf/2605.23325v1.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
-        "text classification",
-        "sentiment analysis",
-        "other"
+        "stance detection"
     ],
-    "Venue_Title": "",
-    "Venue_Type": "conference",
-    "Venue_Name": "Language Resources and Evaluation Conference",
+    "Venue Title": "arXiv",
+    "Venue Type": "conference",
+    "Venue Name": "arXiv",
     "Authors": [
         "Esra\u2019a Sharqawi",
         "Wajdi Zaghouani"
@@ -45,9 +47,5 @@
         "Northwestern University in Qatar"
     ],
     "Abstract": "Social media has become a crucial arena for shaping public narratives during armed conflicts, providing space for both harmful and constructive communication. While hate speech and misinformation have been widely studied, expressions that promote resilience, solidarity, and optimism remain underexplored, particularly in Arabic contexts. This paper introduces AraHopeCorpus, the first annotated dataset of Arabic hope speech collected from ten thousand YouTube comments related to the war on Gaza between 2023 and 2024. Using a detailed annotation framework, comments were classified into three categories: hope speech, no hope speech, and neutral or unclear discourse. The dataset shows that hopeful language dominates, accounting for more than sixty four percent of all comments. These expressions of hope appear mainly as religious encouragement, collective solidarity, and optimism for endurance and justice. No hope speech, representing about thirteen percent, reflects despair and disillusionment, while the rest of the comments contain neutral or mixed content. Inter-Annotator Agreement reached substantial levels (Cohen\u2019s Kappa equals 0.71), though dialectal variation, sarcasm, and implicit meaning posed annotation challenges. A comparative analysis between human annotators and ChatGPT revealed that large language models can support annotation but remain limited in handling dialectal and culturally embedded expressions. AraHopeCorpus will be released for research purposes under an open and non commercial license. It provides a valuable resource for studying constructive digital discourse, enabling further research on hope speech detection, crisis communication, and resilience in Arabic social media.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
