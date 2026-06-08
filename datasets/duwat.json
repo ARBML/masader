@@ -1,0 +1,58 @@
+{
+    "Name": "Duwat",
+    "Volume": 1272.0,
+    "Unit": "images",
+    "License": "unknown",
+    "Link": "https://mbzuai-oryx.github.io/DuwatBench/",
+    "HF_Link": "https://huggingface.co/datasets/MBZUAI/DuwatBench",
+    "Year": 2025,
+    "Domain": [
+        "other"
+    ],
+    "Form": "images",
+    "Collection_Style": [
+        "crawling",
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "Arabic calligraphy benchmark dataset.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "DuwatBench: Bridging Language and Visual Heritage through an Arabic Calligraphy Benchmark",
+    "Paper_Link": "https://aclanthology.org/2026.eacl-long.243.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue_Title": "EACL",
+    "Venue_Type": "conference",
+    "Venue_Name": "EACL",
+    "Authors": [
+        "Shubham Patle",
+        "Sara Ghaboura",
+        "Hania Tariq",
+        "Mohammad Usman Khan",
+        "Omkar Thawakar",
+        "Rao Muhammad Anwer",
+        "Salman Khan"
+    ],
+    "Affiliations": [
+        "Mohamed bin Zayed University of Artificial Intelligence",
+        "NUCES",
+        "NUST",
+        "Australian National University"
+    ],
+    "Abstract": "Arabic calligraphy represents one of the richest visual traditions of the Arabic language, blending linguistic meaning with artistic form. Although multimodal models have advanced across languages, their ability to process Arabic script, especially in artistic and stylized calligraphic forms, remains largely unexplored. To address this gap, we present DuwatBench, a benchmark of 1,272 curated samples containing sentence-level detection annotations. The dataset reflects real-world challenges in Arabic writing, such as complex stroke patterns, dense ligatures, and stylistic variations that often challenge standard text recognition systems. Using DuwatBench, we evaluated 13 leading Arabic and multilingual multimodal models and showed that while they perform well in clean text, they struggle with calligraphic variation, artistic distortions, and precise visual\u2013text alignment. By publicly releasing DuwatBench and its annotations, we aim to advance culturally grounded multimodal research, foster fair inclusion of Arabic language and visual heritage in AI systems, and support continued progress in this area.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
