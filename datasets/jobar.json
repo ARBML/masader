@@ -1,0 +1,55 @@
+{
+    "Name": "JobAr",
+    "Volume": 20528.0,
+    "Unit": "documents",
+    "License": "CC BY-NC-SA 4.0",
+    "Link": "https://tinyurl.com/4ke5jwyw",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling"
+    ],
+    "Description": "Arabic job announcements corpus from social media",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Northwestern University in Qatar",
+        "Carnegie Mellon University in Qatar"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "JobArabi: An Arabic Corpus and Analysis of Job Announcements from Social Media",
+    "Paper_Link": "https://arxiv.org/pdf/2605.20960v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "sentiment analysis",
+        "emotion detection",
+        "named entity recognition",
+        "text classification"
+    ],
+    "Venue_Title": "L",
+    "Venue_Type": "conference",
+    "Venue_Name": "LREC-COL",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Shimaa Amer Ibrahim",
+        "Mabrouka Bessghaier",
+        "Houda Bouamor"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Carnegie Mellon University in Qatar"
+    ],
+    "Abstract": "This paper introduces JobArabi, a large-scale corpus of Arabic job announcements collected from social media between January 2024 and October 2025. The dataset contains 20,528 public posts from X and captures more than two years of employment-related discourse across Arabic-speaking online communities. The corpus was compiled using a linguistically informed query framework covering 21 Arabic keyword families that reflect gendered, plural, formal, and dialectal expressions of recruitment language. The resulting dataset includes posts from institutional, commercial, and individual accounts and provides metadata such as timestamps, engagement indicators, and geolocation when available, enabling temporal and regional analysis of employment discourse. Quantitative analysis reveals several sociolinguistic patterns in online recruitment, including the persistence of gendered hiring language, regional variation in occupational demand, and the emotional framing of recruitment messages. These findings highlight the potential of Arabic social media as a resource for studying labor market communication and linguistic change. The JobArabi corpus, together with documentation and collection scripts, will be released to support research in Arabic NLP, computational social science, and digital labor studies.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
