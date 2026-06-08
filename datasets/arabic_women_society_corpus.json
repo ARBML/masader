@@ -1,0 +1,57 @@
+{
+    "Name": "Arabic Women Society Corpus",
+    "Volume": 252487.0,
+    "Unit": "documents",
+    "License": "CC BY-NC-SA 4.0",
+    "Link": "https://tinyurl.com/4ke5jwyw",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling"
+    ],
+    "Description": "252K Arabic Facebook posts on women's empowerment.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Qatar National Research Fund",
+        "Northwestern University in Qatar",
+        "Hamad bin Khalifa University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Audience Engagement with Arabic Women\u2019s Social Empowerment and Wellbeing: A Decadal Corpus",
+    "Paper_Link": "https://arxiv.org/pdf/2605.22204v1.pdf",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "sentiment analysis",
+        "emotion classification",
+        "topic classification",
+        "dialect identification",
+        "text classification"
+    ],
+    "Venue_Title": "LREC",
+    "Venue_Type": "conference",
+    "Venue_Name": "LRECCOLING",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Mabrouka Bessghaier",
+        "Md. Rafiul Biswas",
+        "Shimaa Amer Ibrahim"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Hamad bin Khalifa University"
+    ],
+    "Abstract": "This paper presents the Arabic Women and Society Corpus, a ten-year collection of 252,487 public Arabic Facebook posts related to women\u2019s empowerment and social wellbeing. The corpus was collected from 51,660 pages across 77 countries between 2013 and 2024, resulting in more than 267 million user interactions. Each post includes engagement metrics such as shares, comments, and emotional reactions, providing a unique view of audience sentiment and social attention. The data were processed using an automated pipeline with language identification, normalization, and metadata cleaning to ensure reliability and reproducibility. The corpus enables large-scale analysis of gender discourse, social reform, and emotional engagement across Arabic dialects. It supports research in Arabic natural language processing, computational social science, and digital communication studies. The dataset and accompanying documentation will be released under request for research use.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
