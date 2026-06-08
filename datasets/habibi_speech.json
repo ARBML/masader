@@ -1,7 +1,6 @@
 {
     "Name": "Habibi Speech",
     "Subsets": [
-        [
   {
     "Name": "MSA",
     "Volume": 921.5,
@@ -80,7 +79,6 @@
     "Unit": "hours",
     "Dialect": "mixed"
   }
-]
     ],
     "HF Link": "https://huggingface.co/datasets/SWivid/Habibi",
     "Link": "https://SWivid.github.io/Habibi/",
