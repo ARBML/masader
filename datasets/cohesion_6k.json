@@ -1,0 +1,51 @@
+{
+    "Name": "Cohesion-6K",
+    "Volume": 6000.0,
+    "Unit": "documents",
+    "License": "CC BY-NC-SA 4.0",
+    "Link": "https://tinyurl.com/4ke5jwyw",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "human annotation",
+        "LLM generated"
+    ],
+    "Description": "6K annotated Arabic Facebook posts dataset.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Hamad Bin Khalifa University",
+        "Northwestern University in Qatar"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Cohesion-6K: An Arabic Dataset for Analyzing Social Cohesion and Conflict in Online Discourse",
+    "Paper_Link": "https://arxiv.org/pdf/2605.22447v1.pdf",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "text classification"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
+    "Authors": [
+        "Aisha Ali Al-Athba",
+        "Wajdi Zaghouani"
+    ],
+    "Affiliations": [
+        "Hamad Bin Khalifa University",
+        "Northwestern University in Qatar"
+    ],
+    "Abstract": "The study of online discourse has become central to understanding societal polarization. While much research has focused on detecting overt toxicity, the subtle dynamics of social cohesion, meaning the interaction between divisive and unifying narratives, remain computationally underexplored (Bail, 2021; Gonz\u00e1lez-Bail\u00f3n and Lelkes, 2023). This paper presents Cohesion-6K, a manually and ChatGPT-assisted annotated dataset of six thousand Arabic public Facebook posts related to the Israeli Occupation of Palestine. Each post is assigned to one of five discourse categories that represent a continuum from conflict to cohesion: Conflict, Resolution, Community Engagement, Supportive Interactions, and Shared Values. The annotation process combines expert human judgment with model-assisted pre-labeling verified by trained annotators, achieving substantial inter-annotator agreement (Cohen\u2019s \u03ba = 0.85). Quantitative analysis reveals a consistent engagement gap, where conflict-oriented posts receive between two and four times more user interaction than resolution-oriented ones (p < 0.01). This pattern illustrates how divisive discourse tends to attract disproportionate visibility in Arabic social media spaces. Cohesion-6K provides a transparent and reproducible resource for the study of online cohesion and polarization. The dataset, annotation guidelines, and preprocessing code will be released for research use under an open license, supporting future work in computational social science, digital communication, and Arabic natural language processing.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
