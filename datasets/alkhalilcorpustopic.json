@@ -1,0 +1,50 @@
+{
+    "Name": "AlkhalilCorpusTopic ",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/oujda-nlp-team/TopicClassifiedTexts",
+    "Link": "https://huggingface.co/datasets/oujda-nlp-team/TopicClassifiedTexts",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "news articles",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
+    "Description": "Thematic Modern Standard Arabic collected form the web with 7 different topics. ",
+    "Volume": 766.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Mohammed First University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Alkhalil Corpus: An Open-Source Thematic and Lemmatized Corpus for Modern Standard Arabic",
+    "Paper Link": "https://aclanthology.org/2026.abjadnlp-1.27.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "topic classification"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Samir BELAYACHI",
+        "Azzeddine MAZROUI"
+    ],
+    "Affiliations": [
+        "Mohammed First University"
+    ],
+    "Abstract": "In NLP, corpora are indispensable for numerous applications (Manning, 1999). They play a central role in machine learning, where systems require natural language processing systems for under-resourced languages such as Arabic. In this paper, we present two annotated corpora dedicated to Modern Standard Arabic. These corpora are open-source and freely available on the Hugging Face platform. The first corpus, annotated by theme and designed to provide a balanced representation of contemporary Arabic usage, comprises approximately 76 million words collected from diverse sources covering multiple domains and geographical regions. The second corpus, containing approximately one million words, is a sub-corpus extracted from the first. It was annotated with lemmatags using a semi-automatic approach that combines automatic annotation with the Alkhalil lemmatizer and MADAMIRA, followed by manual validation.",
+    "Added By": "Zaid Alyafeai"
+}
