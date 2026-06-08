@@ -1,0 +1,64 @@
+{
+    "Name": "arabab",
+    "Volume": 26000.0,
+    "Unit": "tokens",
+    "License": "CC BY-NC-SA 3.0",
+    "Link": "http://arababytalk.camel-lab.com/",
+    "HF_Link": "",
+    "Year": 2026,
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection_Style": [
+        "manual curation",
+        "LLM generated",
+        "human annotation"
+    ],
+    "Description": "enriched Egyptian Arabic CDS corpus",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Stony Brook University",
+        "New York University Abu Dhabi"
+    ],
+    "Derived_From": [
+        "EGY CHILDES"
+    ],
+    "Paper_Title": "Computational Benchmarks for Egyptian Arabic Child Directed Speech",
+    "Paper_Link": "https://aclanthology.org/2026.eacl-long.102.pdf",
+    "Tokenized": true,
+    "Host": "CAMeL Resources",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "morphological analysis",
+        "speech recognition"
+    ],
+    "Venue_Title": "EACL",
+    "Venue_Type": "conference",
+    "Venue_Name": "EACL",
+    "Authors": [
+        "Salam Khalifa",
+        "Abdelrahim Qaddoumi",
+        "Nizar Habash",
+        "Owen Rambow"
+    ],
+    "Affiliations": [
+        "Stony Brook University",
+        "New York University Abu Dhabi"
+    ],
+    "Abstract": "We present ARABABYTALK-EGY, an enriched release of the Egyptian Arabic CHILDES corpus, that opens the child-adult interactions genre to modern Arabic NLP research. Starting from the original CHILDES recordings and IPA transcriptions of caregiver-child sessions, we (i) map each IPA token to fully diacritized Arabic script, and (ii) add core part-of-speech tags and lemmas aligned with existing dialectal Arabic morphological resources. These layers yield 26K annotated tokens suitable for both text- and speech-based NLP tasks. We provide a benchmark on morphological disambiguation and Arabic ASR. We outline lexical and morphosyntactic differences between ARABABYTALK-EGY and general Egyptian Arabic resources, highlighting the value of genre-specific training data for language acquisition studies and Arabic speech technology.",
+    "Subsets": [
+        {
+            "Name": "Children",
+            "Volume": 26000.0,
+            "Unit": "tokens",
+            "Dialect": "Egypt"
+        }
+    ],
+    "Dialect": "Egypt",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
