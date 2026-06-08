@@ -1,0 +1,53 @@
+{
+    "Name": "Jawhar",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/CAMeL-Lab/jawhar",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "multilingual",
+    "Dialect": "Classical Arabic",
+    "Domain": [
+        "books",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
+    "Description": "Benchmark for Judeo-Arabic transliteration.",
+    "Volume": 46529.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "CAMeL Lab"
+    ],
+    "Derived From": [],
+    "Paper Title": "A Tale of Two Scripts: Transliteration and Post-Correction for Judeo-Arabic",
+    "Paper Link": "https://aclanthology.org/2026.eacl-long.93.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "transliteration"
+    ],
+    "Venue Title": "EACL",
+    "Venue Type": "conference",
+    "Venue Name": "European Chapter of the Association for Computational Linguistics",
+    "Authors": [
+        "Juan Moreno-Gonzalez",
+        "Bashar Alhafni",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "University of Cambridge",
+        "Mohamed bin Zayed University of Artificial Intelligence",
+        "New York University"
+    ],
+    "Abstract": "Judeo-Arabic refers to Arabic variants historically spoken by Jewish communities across the Arab world, primarily during the Middle Ages. Unlike standard Arabic, it is written in Hebrew script by Jewish writers and for Jewish audiences. Transliterating Judeo-Arabic into Arabic script is challenging due to ambiguous letter mappings, inconsistent orthographic conventions, and frequent code-switching into Hebrew. In this paper, we introduce a two-step approach to automatically transliterate Judeo-Arabic into Arabic script: simple character-level mapping followed by post-correction to address grammatical and orthographic errors. We also present the first benchmark evaluation of LLMs on this task. Finally, we show that transliteration enables Arabic NLP tools to perform morphosyntactic tagging and machine translation, which would not have been feasible on the original texts. We make our code and data publicly available.",
+    "Added By": "Zaid Alyafeai"
+}
