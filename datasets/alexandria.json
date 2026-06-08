@@ -112,7 +112,22 @@
         "Institut Sup\u00e9rieur du Num\u00e9rique"
     ],
     "Abstract": "Arabic is a highly diglossic language where most daily communication occurs in regional dialects rather than Modern Standard Arabic (MSA). Despite significant progress in Neural MT, Arabic continues to struggle with the challenges of diglossia and data scarcity. Recent parallel corpora remain limited in scale: PADIC provides approximately 6,400 parallel sentences per dialect across five Maghrebi and Levantine varieties, while MADAR translates 2,000 sentences into 25 city-specific dialects. Even the FLORES+ benchmark includes fewer than 1,000 dev/test sentences per 9 covered Arabic dialects, leaving many dialects underrepresented. We introduce Alexandria, a large-scale, community-driven, human-translated dataset designed to bridge this gap. Alexandria covers 13 Arab countries and 11 high-impact domains, including health, education, and agriculture. Unlike previous resources, Alexandria provides unprecedented granularity by associating contributions with city-of-origin metadata, capturing authentic local varieties beyond coarse regional labels. The dataset consists of parallel English-Dialectal Arabic multi-turn conversational scenarios annotated with speaker-addressee gender configurations, enabling the study of gender-conditioned variation in dialectal use. Comprising 107K total turns, Alexandria serves as both a training resource and as a rigorous benchmark for evaluating MT and Large Language Models (LLMs).",
-    "Subsets": [],
+    "Subsets": [
+         { "Name": "PSE", "Volume": 5391.0, "Unit": "documents", "Dialect": "Palestine" },
+  { "Name": "LBN", "Volume": 3655.0, "Unit": "documents", "Dialect": "Lebanon" },
+  { "Name": "SAU", "Volume": 3413.0, "Unit": "documents", "Dialect": "Saudi Arabia" },
+  { "Name": "OMN", "Volume": 2834.0, "Unit": "documents", "Dialect": "Oman" },
+  { "Name": "SYR", "Volume": 2569.0, "Unit": "documents", "Dialect": "Syria" },
+  { "Name": "MRT", "Volume": 2457.0, "Unit": "documents", "Dialect": "Mauritania" },
+  { "Name": "JOR", "Volume": 2429.0, "Unit": "documents", "Dialect": "Jordan" },
+  { "Name": "YEM", "Volume": 1704.0, "Unit": "documents", "Dialect": "Yemen" },
+  { "Name": "EGY", "Volume": 1700.0, "Unit": "documents", "Dialect": "Egypt" },
+  { "Name": "MAR", "Volume": 1522.0, "Unit": "documents", "Dialect": "Morocco" },
+  { "Name": "TUN", "Volume": 1422.0, "Unit": "documents", "Dialect": "Tunisia" },
+  { "Name": "LBY", "Volume": 374.0, "Unit": "documents", "Dialect": "Libya" },
+  { "Name": "SDN", "Volume": 345.0, "Unit": "documents", "Dialect": "Sudan" }
+
+    ],
     "Dialect": "mixed",
     "Language": "ar",
     "Script": "Arab",
