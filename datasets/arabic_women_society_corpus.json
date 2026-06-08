@@ -1,6 +1,74 @@
 {
     "Name": "Arabic Women Society Corpus",
-    "Subsets": [],
+    "Subsets": [
+  {
+    "Name": "EGY",
+    "Volume": 75676.0,
+    "Unit": "documents",
+    "Dialect": "Egypt"
+  },
+  {
+    "Name": "TUN",
+    "Volume": 18132.0,
+    "Unit": "documents",
+    "Dialect": "Tunisia"
+  },
+  {
+    "Name": "IRQ",
+    "Volume": 17932.0,
+    "Unit": "documents",
+    "Dialect": "Iraq"
+  },
+  {
+    "Name": "ALG",
+    "Volume": 16257.0,
+    "Unit": "documents",
+    "Dialect": "Algeria"
+  },
+  {
+    "Name": "SYR",
+    "Volume": 14344.0,
+    "Unit": "documents",
+    "Dialect": "Syria"
+  },
+  {
+    "Name": "MAR",
+    "Volume": 13433.0,
+    "Unit": "documents",
+    "Dialect": "Morocco"
+  },
+  {
+    "Name": "PSE",
+    "Volume": 13316.0,
+    "Unit": "documents",
+    "Dialect": "Palestine"
+  },
+  {
+    "Name": "JOR",
+    "Volume": 10646.0,
+    "Unit": "documents",
+    "Dialect": "Jordan"
+  },
+  {
+    "Name": "TUR",
+    "Volume": 7276.0,
+    "Unit": "documents",
+    "Dialect": "Turkey"
+  },
+  {
+    "Name": "LBY",
+    "Volume": 6560.0,
+    "Unit": "documents",
+    "Dialect": "Libya"
+  },
+  {
+    "Name": "Other",
+    "Volume": 58915.0,
+    "Unit": "documents",
+    "Dialect": "mixed"
+  },
+  
+],
     "HF Link": "",
     "Link": "https://tinyurl.com/4ke5jwyw",
     "License": "CC BY-NC-SA 4.0",
