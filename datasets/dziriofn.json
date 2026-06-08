@@ -1,0 +1,49 @@
+{
+    "Name": "DziriOFN",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/xprogramer/DziriOFN",
+    "License": "unknown",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "Algeria",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Offensive language corpus for Algerian Arabic collected from Facebook.",
+    "Volume": 8749.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "Universit\u00e9 8 Mai 1945, Guelma"
+    ],
+    "Derived From": [],
+    "Paper Title": "Offensive Language Detection in Under-resourced Algerian Dialectal Arabic Language",
+    "Paper Link": "https://arxiv.org/pdf/2203.10024v1",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "offensive language detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Oussama Boucherit",
+        "Kheireddine Abainia"
+    ],
+    "Affiliations": [
+        "Universit\u00e9 8 Mai 1945, Guelma"
+    ],
+    "Abstract": "This paper addresses the problem of detecting the offensive and abusive content in Facebook comments, where we focus on the Algerian dialectal Arabic which is one of under-resourced languages. The latter has a variety of dialects mixed with different languages (i.e. Berber, French and English). In addition, we deal with texts written in both Arabic and Roman scripts (i.e.Arabizi). Due to the scarcity of works on the same language, we have built a new corpus regrouping more than 8.7k texts manually annotated as normal, abusive and offensive. We have conducted a series of experiments using the state-of-the-art classifiers of text categorisation, namely: BiLSTM, CNN, FastText, SVM and NB. The results showed acceptable performances, but the problem requires further investigation on linguistic features to increase the identification accuracy.",
+    "Added By": "Zaid Alyafeai"
+}

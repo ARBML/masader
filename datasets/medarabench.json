@@ -1,0 +1,57 @@
+{
+    "Name": "MedAraBench",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/nyuad-cai/MedAraBench",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "human annotation"
+    ],
+    "Description": "Large-Scale Arabic Medical Question Answering Dataset and Benchmark",
+    "Volume": 24883.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "New York University Abu Dhabi"
+    ],
+    "Derived From": [],
+    "Paper Title": "MedAraBench: Large-Scale Arabic Medical Question Answering Dataset and Benchmark",
+    "Paper Link": "https://arxiv.org/pdf/2602.01714v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "multiple choice question answering",
+        "question answering"
+    ],
+    "Venue Title": "ICLR",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Learning Representations",
+    "Authors": [
+        "Mouath Abu-Daoud",
+        "Leen Kharouf",
+        "Omar El Hajj",
+        "Dana El Samad",
+        "Mariam Al-Omari",
+        "Jihad Mallat",
+        "Khaled Saleh",
+        "Nizar Habash",
+        "Farah E. Shamout"
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi",
+        "Cleveland Clinic Abu Dhabi"
+    ],
+    "Abstract": "Arabic remains one of the most underrepresented languages in natural language processing research, particularly in medical applications, due to the limited availability of open-source data and benchmarks. The lack of resources hinders efforts to evaluate and advance the multilingual capabilities of Large Language Models (LLMs). In this paper, we introduce MedAraBench, a large-scale dataset consisting of Arabic multiple-choice question-answer pairs across various medical specialties. We constructed the dataset by manually digitizing a large repository of academic materials created by medical professionals in the Arabic-speaking region. We then conducted extensive preprocessing and split the dataset into training and test sets to support future research efforts in the area. To assess the quality of the data, we adopted two frameworks, namely expert human evaluation and LLM-as-a-judge. Our dataset is diverse and of high quality, spanning 19 specialties and five difficulty levels. For benchmarking purposes, we assessed the performance of eight state-of-the-art open-source and proprietary models, such as GPT-5, Gemini 2.0 Flash, and Claude 4-Sonnet. Our findings highlight the need for further domain-specific enhancements. We release the dataset and evaluation scripts to broaden the diversity of medical data benchmarks, expand the scope of evaluation suites for LLMs, and enhance the multilingual capabilities of models for deployment in clinical settings.",
+    "Added By": "Zaid Alyafeai"
+}
