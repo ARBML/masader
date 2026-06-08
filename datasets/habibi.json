@@ -1,29 +1,38 @@
 {
     "Name": "Habibi",
-    "Volume": 1857.3,
-    "Unit": "hours",
-    "License": "unknown",
+    "Subsets": [
+        {
+            "Name": "MSA",
+            "Volume": 921.5,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/SWivid/Habibi",
     "Link": "https://SWivid.github.io/Habibi/",
-    "HF_Link": "",
-    "Year": 2024,
+    "License": "Apache-2.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
         "public datasets"
     ],
     "Form": "audio",
-    "Collection_Style": [
+    "Collection Style": [
         "crawling",
-        "manual curation",
         "machine annotation"
     ],
-    "Description": "Unified-dialectal Arabic TTS framework with 12+ dialects.",
-    "Ethical_Risks": "Low",
+    "Description": "Unified-dialectal Arabic Text to Speech framework with 12+ dialects.",
+    "Volume": 1857.3,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
     "Provider": [
         "Shanghai Jiao Tong University",
         "Shanghai Innovation Institute",
         "University of the Chinese Academy of Sciences",
         "Kuaishou Technology"
     ],
-    "Derived_From": [
+    "Derived From": [
         "MASC",
         "SADA",
         "MGB-2",
@@ -37,19 +46,20 @@
         "DarijaTTS-clean",
         "Jordan-Audio"
     ],
-    "Paper_Title": "Habibi: Laying the Open-Source Foundation of Unified-Dialectal Arabic Speech Synthesis",
-    "Paper_Link": "https://arxiv.org/pdf/2601.13802v2.pdf",
+    "Paper Title": "Habibi: Laying the Open-Source Foundation of Unified-Dialectal Arabic Speech Synthesis",
+    "Paper Link": "https://arxiv.org/pdf/2601.13802v2.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": false,
     "Tasks": [
         "text to speech"
     ],
-    "Venue_Title": "arXiv",
-    "Venue_Type": "preprint",
-    "Venue_Name": "",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "",
     "Authors": [
         "Yushen Chen",
         "Junzhe Liu",
@@ -68,9 +78,5 @@
         "Kuaishou Technology"
     ],
     "Abstract": "Arabic spans over 30 spoken varieties, yet no open-source text-to-speech system unifies them. Key barriers include substantial cross-dialect lexical and phonological divergence, scarce synthesis-grade data, and the absence of a standardized multi-dialect evaluation benchmark. We present Habibi, a unified-dialectal Arabic TTS framework that addresses all three. Through a multi-step curation pipeline, we repurpose open-source ASR corpora into TTS training data covering 12+ regional dialects. A linguistically-informed curriculum learning strategy\u2014progressing from Modern Standard Arabic to dialectal data\u2014enables robust zero-shot synthesis without text diacritization. We further release the first standardized multi-dialect Arabic TTS benchmark, comprising over 11,000 utterances across 7 dialect subsets with manually verified transcripts. On this benchmark, our unified model matches or surpasses per-dialect specialized models.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
