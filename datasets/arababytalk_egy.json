@@ -1,13 +1,6 @@
 {
     "Name": "ARABABYTALK-EGY",
-    "Subsets": [
-        {
-            "Name": "Children",
-            "Volume": 26000.0,
-            "Unit": "tokens",
-            "Dialect": "Egypt"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "http://arababytalk.camel-lab.com/",
     "License": "CC BY-NC-SA 3.0",
