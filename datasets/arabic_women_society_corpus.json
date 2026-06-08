@@ -1,0 +1,113 @@
+{
+    "Name": "Arabic Women Society Corpus",
+    "Subsets": [
+        {
+            "Name": "EGY",
+            "Volume": 75676.0,
+            "Unit": "documents",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "TUN",
+            "Volume": 18132.0,
+            "Unit": "documents",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "IRQ",
+            "Volume": 17932.0,
+            "Unit": "documents",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "ALG",
+            "Volume": 16257.0,
+            "Unit": "documents",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "SYR",
+            "Volume": 14344.0,
+            "Unit": "documents",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "MAR",
+            "Volume": 13433.0,
+            "Unit": "documents",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "PSE",
+            "Volume": 13316.0,
+            "Unit": "documents",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "JOR",
+            "Volume": 10646.0,
+            "Unit": "documents",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "LBY",
+            "Volume": 6560.0,
+            "Unit": "documents",
+            "Dialect": "Libya"
+        },
+        {
+            "Name": "Other",
+            "Volume": 58915.0,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://tinyurl.com/4ke5jwyw",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling"
+    ],
+    "Description": "252K Arabic Facebook posts on women's empowerment.",
+    "Volume": 252487.0,
+    "Unit": "documents",
+    "Ethical Risks": "High",
+    "Provider": [
+        "MARSAD Lab"
+    ],
+    "Derived From": [],
+    "Paper Title": "Audience Engagement with Arabic Women\u2019s Social Empowerment and Wellbeing: A Decadal Corpus",
+    "Paper Link": "https://arxiv.org/pdf/2605.22204v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": [
+        "gender bias detection",
+        "bias detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Mabrouka Bessghaier",
+        "Md. Rafiul Biswas",
+        "Shimaa Amer Ibrahim"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Hamad bin Khalifa University"
+    ],
+    "Abstract": "This paper presents the Arabic Women and Society Corpus, a ten-year collection of 252,487 public Arabic Facebook posts related to women\u2019s empowerment and social wellbeing. The corpus was collected from 51,660 pages across 77 countries between 2013 and 2024, resulting in more than 267 million user interactions. Each post includes engagement metrics such as shares, comments, and emotional reactions, providing a unique view of audience sentiment and social attention. The data were processed using an automated pipeline with language identification, normalization, and metadata cleaning to ensure reliability and reproducibility. The corpus enables large-scale analysis of gender discourse, social reform, and emotional engagement across Arabic dialects. It supports research in Arabic natural language processing, computational social science, and digital communication studies. The dataset and accompanying documentation will be released under request for research use.",
+    "Added By": "Zaid Alyafeai"
+}
