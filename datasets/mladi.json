@@ -1,0 +1,57 @@
+{
+    "Name": "MLADI",
+    "Volume": 1000.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://mohamedalaa9.github.io/lahjatbert/",
+    "HF_Link": "",
+    "Year": 2025,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "LLM generated",
+        "machine annotation"
+    ],
+    "Description": "Pseudo-labeled multi-label dataset for MLADI.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Derived_From": [
+        "NADI2020",
+        "NADI2021",
+        "NADI2023",
+        "NADI2024"
+    ],
+    "Paper_Title": "Curriculum Learning and Pseudo-Labeling Improve the Generalization of Multi-Label Arabic Dialect Identification Models",
+    "Paper_Link": "https://aclanthology.org/2026.vardial-1.22.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "dialect identification"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
+    "Authors": [
+        "Ali Mekky",
+        "Mohamed ElZeftawy",
+        "Lara Hassan",
+        "Amr Keleg",
+        "Preslav Nakov"
+    ],
+    "Affiliations": [
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Abstract": "Being modeled as a single-label classification task for a long time, recent work has argued that Arabic Dialect Identification (ADI) should be framed as a multi-label classification task. However, ADI remains constrained by the availability of its training datasets. By analyzing models trained on single-label ADI datasets, we show that a substantial portion of samples treated as negative supervision is actually judged acceptable by native speakers. This observation highlights the difficulty of accurately selecting negative samples when repurposing single-label, geo-located datasets for multi-label dialect identification and motivates explicit multi-label supervision. Building on these insights, we construct a multi-label training set by aggregating pseudo-labels from two heterogeneous sources: GPT-4o and a set of 18 binary dialect acceptability classifiers. Using this dataset, we train a BERT-based multi-label classifier, which we refer to as LAHJATBERT. We train it under three settings: without curriculum learning, with an ALDi-aware curriculum, and with a label-cardinality-based curriculum.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
