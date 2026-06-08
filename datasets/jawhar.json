@@ -53,23 +53,7 @@
         "New York University"
     ],
     "Abstract": "Judeo-Arabic refers to Arabic variants historically spoken by Jewish communities across the Arab world, primarily during the Middle Ages. Unlike standard Arabic, it is written in Hebrew script by Jewish writers and for Jewish audiences. Transliterating Judeo-Arabic into Arabic script is challenging due to ambiguous letter mappings, inconsistent orthographic conventions, and frequent code-switching into Hebrew. In this paper, we introduce a two-step approach to automatically transliterate Judeo-Arabic into Arabic script: simple character-level mapping followed by post-correction to address grammatical and orthographic errors. We also present the first benchmark evaluation of LLMs on this task. Finally, we show that transliteration enables Arabic NLP tools to perform morphosyntactic tagging and machine translation, which would not have been feasible on the original texts. We make our code and data publicly available.",
-    "Subsets": [
-        
-  { "Name": "PSE", "Volume": 5391.0, "Unit": "documents", "Dialect": "Palestine" },
-  { "Name": "LBN", "Volume": 3655.0, "Unit": "documents", "Dialect": "Lebanon" },
-  { "Name": "SAU", "Volume": 3413.0, "Unit": "documents", "Dialect": "Saudi Arabia" },
-  { "Name": "OMN", "Volume": 2834.0, "Unit": "documents", "Dialect": "Oman" },
-  { "Name": "SYR", "Volume": 2569.0, "Unit": "documents", "Dialect": "Syria" },
-  { "Name": "MRT", "Volume": 2457.0, "Unit": "documents", "Dialect": "Mauritania" },
-  { "Name": "JOR", "Volume": 2429.0, "Unit": "documents", "Dialect": "Jordan" },
-  { "Name": "YEM", "Volume": 1704.0, "Unit": "documents", "Dialect": "Yemen" },
-  { "Name": "EGY", "Volume": 1700.0, "Unit": "documents", "Dialect": "Egypt" },
-  { "Name": "MAR", "Volume": 1522.0, "Unit": "documents", "Dialect": "Morocco" },
-  { "Name": "TUN", "Volume": 1422.0, "Unit": "documents", "Dialect": "Tunisia" },
-  { "Name": "LBY", "Volume": 374.0, "Unit": "documents", "Dialect": "Libya" },
-  { "Name": "SDN", "Volume": 345.0, "Unit": "documents", "Dialect": "Sudan" }
-
-    ],
+    "Subsets": [],
     "Dialect": "Classical Arabic",
     "Language": "ar",
     "Script": "Latin",
