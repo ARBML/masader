@@ -1,0 +1,92 @@
+{
+    "Name": "Arabic Poetry IFT",
+    "Subsets": [
+        {
+            "Name": "MSA",
+            "Volume": 657.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 657.0,
+            "Unit": "sentences",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "Levant",
+            "Volume": 657.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "North African",
+            "Volume": 657.0,
+            "Unit": "sentences",
+            "Dialect": "North Africa"
+        },
+        {
+            "Name": "Nile Valley",
+            "Volume": 657.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/MBZUAI/instructpoet-ar",
+    "Link": "https://github.com/mbzuai-nlp/instructpoet-ar",
+    "License": "custom",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": [
+        "public datasets",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "crawling",
+        "LLM generated"
+    ],
+    "Description": "Arabic Poetry IFT is a large-scale instruction-following dataset for Arabic poetry understanding and co-creation. It supports four task families: generation, continuation, revision/restoration, and multiple-choice analysis. ",
+    "Volume": 3285.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "MBZUAI"
+    ],
+    "Derived From": [
+        "Ashaar",
+        "AraPoems",
+        "Arabic Poetry Dataset",
+        "Arabic-Poetry-Melody"
+    ],
+    "Paper Title": "Instruction-Guided Poetry Generation in Arabic and Its Dialects",
+    "Paper Link": "https://arxiv.org/pdf/2604.27766v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "instruction following"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Abdelrahman Sadallah",
+        "Kareem Elozeiri",
+        "Mervat Abassy",
+        "Rania Elbadry",
+        "Mohamed Anwar",
+        "AbedAlhakim Freihat",
+        "Preslav Nakov",
+        "Fajri Koto"
+    ],
+    "Affiliations": [
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Abstract": "Poetry has long been a central art form for Arabic speakers, serving as a powerful medium of expression and cultural identity. While modern Arabic speakers continue to value poetry, existing research on Arabic poetry within Large Language Models (LLMs) has primarily focused on analysis tasks such as interpretation or metadata prediction, e.g., rhyme schemes and titles. In contrast, our work addresses the practical aspect of poetry creation in Arabic of the Early Islamic Era, using controlled generation capabilities to assist users in writing poetry. Specifically, we present a large-scale, carefully curated instruction-based dataset in Modern Standard Arabic (MSA) and various Arabic dialects. This dataset enables tasks such as writing, revising, and continuing poems based on predefined criteria, including style and rhyme, as well as performing poetry analysis. Our experiments show that fine-tuning LLMs on this dataset yields models that can effectively generate poetry that is aligned with user requirements, based on both automated metrics and human evaluation with native Arabic speakers. The data and the code are available at https://github.com/mbzuai-nlp/instructpoet-ar",
+    "Added By": "Zaid Alyafeai"
+}
