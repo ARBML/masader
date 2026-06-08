@@ -1,0 +1,157 @@
+{
+    "Name": "QIMMA",
+    "Volume": 52000.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/tiiuae/QIMMA-leaderboard",
+    "HF_Link": "https://huggingface.co/spaces/qimma/leaderboard",
+    "Year": 2025,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "manual curation"
+    ],
+    "Description": "A quality-assured Arabic LLM leaderboard spanning 109 subsets and over 52k native Arabic samples across multiple domains and tasks.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Technology Innovation Institute"
+    ],
+    "Derived_From": [
+        "AraDiCE-Culture",
+        "ArabCulture",
+        "PalmX",
+        "ArabicMMLU",
+        "GAT",
+        "3LM STEM",
+        "ArabLegalQA",
+        "MizanQA",
+        "MedArabiQ",
+        "MedAraBench",
+        "FannOrFlop",
+        "AraTrust",
+        "HumanEval+",
+        "MBPP+"
+    ],
+    "Paper_Title": "Are Arabic Benchmarks Reliable? QIMMA\u2019s Quality-First Approach to LLM Evaluation",
+    "Paper_Link": "https://arxiv.org/pdf/2604.03395v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "multiple choice question answering",
+        "code generation",
+        "safety evaluation"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
+    "Authors": [
+        "Leen AlQadi",
+        "Ahmed Alzubaidi",
+        "Mohammed Alyafeai",
+        "Hamza Alobeidli",
+        "Maitha Alhammadi",
+        "Shaikha Alsuwaidi",
+        "Omar Alkaabi",
+        "Basma ElAmel Boussaha",
+        "Hakim Hacid"
+    ],
+    "Affiliations": [
+        "Technology Innovation Institute, Abu Dhabi, UAE"
+    ],
+    "Abstract": "We present QIMMA, a quality-assured Arabic LLM leaderboard that places systematic benchmark validation at its core. Rather than aggregating existing resources as-is, QIMMA applies a multi-model assessment pipeline combining automated LLM judgment with human review to surface and resolve systematic quality issues in well-established Arabic benchmarks before evaluation. The result is a curated, multi-domain, multi-task evaluation suite of over 52k samples, grounded predominantly in native Arabic content; code evaluation tasks are the sole exception, as they are inherently language-agnostic. Transparent implementation via LightEval, EvalPlus and public release of per-sample inference outputs make QIMMA reproducible and community-extensible foundation for Arabic NLP evaluation.",
+    "Subsets": [
+        {
+            "Name": "AraDiCE-Culture",
+            "Volume": 6,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "ArabCulture",
+            "Volume": 13,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "PalmX",
+            "Volume": 2,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "ArabicMMLU",
+            "Volume": 40,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "GAT",
+            "Volume": 9,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "3LM STEM",
+            "Volume": 2,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "ArabLegalQA",
+            "Volume": 1,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "MizanQA",
+            "Volume": 1,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "MedArabiQ",
+            "Volume": 3,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "MedAraBench",
+            "Volume": 26,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "FannOrFlop",
+            "Volume": 1,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "AraTrust",
+            "Volume": 1,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "HumanEval+",
+            "Volume": 1,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "MBPP+",
+            "Volume": 1,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        }
+    ],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
