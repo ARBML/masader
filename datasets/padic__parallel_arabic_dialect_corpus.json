@@ -44,20 +44,14 @@
     "Year": 2014,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
-        "social media"
-    ],
+    "Domain": ["social media"],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
-    ],
-    "Description": "s composed of about 6400 sentences of dialects from both the Maghreb and the middle east",
-    "Volume": 12824.0,
+    "Collection Style": ["crawling"],
+    "Description": "a corpus composed of about 6400 sentences of dialects from both the Maghreb and the middle east",
+    "Volume": 8244.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": [
-        "Loris Fr"
-    ],
+    "Provider": ["Loris Fr"],
     "Derived From": [],
     "Paper Title": "A multidialectal parallel corpus of Arabic",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2014/pdf/523_Paper.pdf",
@@ -67,17 +61,11 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "machine translation"
-    ],
+    "Tasks": ["machine translation"],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": [
-        "Houda Bouamor",
-        "Nizar Habash",
-        "Kemal Oflazer"
-    ],
+    "Authors": ["Houda Bouamor", "Nizar Habash", "Kemal Oflazer"],
     "Affiliations": [
         "Carnegie Mellon University in Qatar",
         "Columbia University"

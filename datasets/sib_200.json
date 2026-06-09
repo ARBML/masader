@@ -66,7 +66,7 @@
     "Form": "text",
     "Collection Style": ["human annotation", "machine annotation"],
     "Description": "A large-scale open-source benchmark dataset for topic classification in 200+ languages and dialects, based on Flores-200.",
-    "Volume": 1004.0,
+    "Volume": 12870.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [

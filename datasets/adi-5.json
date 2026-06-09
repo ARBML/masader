@@ -38,20 +38,14 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "This will be divided across the five major Arabic dialects; Egyptian (EGY), Levantine (LAV), Gulf (GLF), North African (NOR), and Modern Standard Arabic (MSA)",
-    "Volume": 50.0,
+    "Volume": 71.7,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": [
-        "QCRI"
-    ],
+    "Provider": ["QCRI"],
     "Derived From": [],
     "Paper Title": "Automatic Dialect Detection in Arabic Broadcast Speech",
     "Paper Link": "https://arxiv.org/pdf/1509.06928.pdf",
@@ -61,9 +55,7 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "dialect identification"
-    ],
+    "Tasks": ["dialect identification"],
     "Venue Title": "Interspeech",
     "Venue Type": "conference",
     "Venue Name": "Conference of the International Speech Communication Association",
