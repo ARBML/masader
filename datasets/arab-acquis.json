@@ -7,21 +7,14 @@
     "Year": 2017,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
-    ],
+    "Collection Style": ["crawling", "machine annotation"],
     "Description": "consists of over 12,000 sentences from the JRCAcquis (Acquis Communautaire) corpus",
     "Volume": 12000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "NYU Abu Dhabi"
-    ],
+    "Provider": ["NYU Abu Dhabi"],
     "Derived From": [],
     "Paper Title": "A Parallel Corpus for Evaluating Machine Translation between Arabic and European Languages",
     "Paper Link": "https://aclanthology.org/E17-2038.pdf",
@@ -31,12 +24,10 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "machine translation"
-    ],
+    "Tasks": ["machine translation"],
     "Venue Title": "EACL",
     "Venue Type": "conference",
-    "Venue Name": "European Chapter of the Association for Computational Linguistics",
+    "Venue Name": "Conference of the European Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Nizar Habash",
         "Nasser Zalmout",

@@ -7,14 +7,9 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
-        "social media"
-    ],
+    "Domain": ["social media"],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "human annotation"
-    ],
+    "Collection Style": ["crawling", "human annotation"],
     "Description": "Multilingual Facebook posts about the Israel-Gaza war annotated for bias and propaganda.",
     "Volume": 25960.0,
     "Unit": "sentences",
@@ -37,12 +32,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "bias detection",
-        "offensive language detection"
-    ],
+    "Tasks": ["bias detection", "offensive language detection"],
     "Venue Title": "ArabicNLP",
-    "Venue Type": "workshop",
+    "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Wajdi Zaghouani",

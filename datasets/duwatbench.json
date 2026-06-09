@@ -7,20 +7,14 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "web pages"
-    ],
+    "Domain": ["web pages"],
     "Form": "images",
-    "Collection Style": [
-        "human annotation"
-    ],
+    "Collection Style": ["human annotation"],
     "Description": "DuwatBench is a comprehensive benchmark for evaluating LMMs on Arabic calligraphy recognition. Arabic calligraphy represents one of the richest visual traditions of the Arabic language, blending linguistic meaning with artistic form. ",
     "Volume": 1272.0,
     "Unit": "images",
     "Ethical Risks": "Low",
-    "Provider": [
-        "MBZUAI-ORYX"
-    ],
+    "Provider": ["MBZUAI-ORYX"],
     "Derived From": [],
     "Paper Title": "DuwatBench: Bridging Language and Visual Heritage through an Arabic Calligraphy Benchmark",
     "Paper Link": "https://aclanthology.org/2026.eacl-long.243.pdf",
@@ -30,12 +24,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "optical character recognition"
-    ],
+    "Tasks": ["optical character recognition"],
     "Venue Title": "EACL",
     "Venue Type": "conference",
-    "Venue Name": "European Chapter of the Association for Computational Linguistics",
+    "Venue Name": "Conference of the European Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Shubham Patle",
         "Sara Ghaboura",
@@ -51,6 +43,6 @@
         "NUST",
         "Australian National University"
     ],
-    "Abstract": "Arabic calligraphy represents one of the richest visual traditions of the Arabic language, blending linguistic meaning with artistic form. Although multimodal models have advanced across languages, their ability to process Arabic script, especially in artistic and stylized calligraphic forms, remains largely unexplored. To address this gap, we present DuwatBench, a benchmark of 1,272 curated samples containing about 1,475 unique words across 6 classical and modern calligraphic styles, each paired with sentence-level detection annotations. The dataset reflects real-world challenges in Arabic writing, such as complex stroke patterns, dense ligatures, and stylistic variations that often challenge standard text recognition systems.Using DuwatBench, we evaluated 13 leading Arabic and multilingual multimodal models and showed that while they perform well in clean text, they struggle with calligraphic variation, artistic distortions, and precise visual\u2013text alignment. By publicly releasing DuwatBench and its annotations, we aim to advance culturally grounded multimodal research, foster fair inclusion of Arabic language and visual heritage in AI systems, and support continued progress in this area. Our dataset and code are publicly available.",
+    "Abstract": "Arabic calligraphy represents one of the richest visual traditions of the Arabic language, blending linguistic meaning with artistic form. Although multimodal models have advanced across languages, their ability to process Arabic script, especially in artistic and stylized calligraphic forms, remains largely unexplored. To address this gap, we present DuwatBench, a benchmark of 1,272 curated samples containing about 1,475 unique words across 6 classical and modern calligraphic styles, each paired with sentence-level detection annotations. The dataset reflects real-world challenges in Arabic writing, such as complex stroke patterns, dense ligatures, and stylistic variations that often challenge standard text recognition systems.Using DuwatBench, we evaluated 13 leading Arabic and multilingual multimodal models and showed that while they perform well in clean text, they struggle with calligraphic variation, artistic distortions, and precise visual–text alignment. By publicly releasing DuwatBench and its annotations, we aim to advance culturally grounded multimodal research, foster fair inclusion of Arabic language and visual heritage in AI systems, and support continued progress in this area. Our dataset and code are publicly available.",
     "Added By": "Zaid Alyafeai"
 }

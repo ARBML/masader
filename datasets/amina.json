@@ -7,20 +7,14 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "news articles"
-    ],
+    "Domain": ["news articles"],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "A large-scale integral Arabic news dataset with 1.85M articles from 9 newspapers.",
     "Volume": 1850000.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": [
-        "Alexandria University"
-    ],
+    "Provider": ["Alexandria University"],
     "Derived From": [],
     "Paper Title": "Amina: an Arabic multi-purpose integral news articles dataset",
     "Paper Link": "https://link.springer.com/content/pdf/10.1007/s00521-024-10277-0.pdf",
@@ -30,13 +24,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "topic classification",
-        "language modeling"
-    ],
-    "Venue Title": "Neural Computing and Applications",
+    "Tasks": ["topic classification", "language modeling"],
+    "Venue Title": "NCAA",
     "Venue Type": "journal",
-    "Venue Name": "NCAA",
+    "Venue Name": "Neural Computing and Applications",
     "Authors": [
         "Mohamed Zaytoon",
         "Muhannad Bashar",

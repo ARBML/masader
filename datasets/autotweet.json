@@ -7,20 +7,14 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
-        "social media"
-    ],
+    "Domain": ["social media"],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "classification of Arabic tweets into automated or manual.",
     "Volume": 3503.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": [
-        "Qatar University"
-    ],
+    "Provider": ["Qatar University"],
     "Derived From": [],
     "Paper Title": "Detecting Automatically-Generated Arabic Tweets",
     "Paper Link": "https://link.springer.com/chapter/10.1007/978-3-319-28940-3_10",
@@ -30,20 +24,12 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "gender identification"
-    ],
+    "Tasks": ["gender identification"],
     "Venue Title": "AIRS",
     "Venue Type": "conference",
-    "Venue Name": "Conference on Alliance of Information and Referral Systems",
-    "Authors": [
-        "H. Almerekhi",
-        "T. Elsayed"
-    ],
-    "Affiliations": [
-        "Qatar Computing Research Institute",
-        "Qatar University"
-    ],
+    "Venue Name": "Asia Information Retrieval Societies Conference",
+    "Authors": ["H. Almerekhi", "T. Elsayed"],
+    "Affiliations": ["Qatar Computing Research Institute", "Qatar University"],
     "Abstract": "Recently, Twitter, one of the most widely-known social media platforms, got infiltrated by several automation programs, commonly known as \u201cbots\u201d. Bots can be easily abused to spread spam and hinder information extraction applications by posting lots of automatically-generated tweets that occupy a good portion of the continuous stream of tweets. This problem heavily affects users in the Arab region due to the recent developing political events as automated tweets can disturb communication and waste time needed in filtering such tweets.",
     "Added By": "Zaid Alyafeai"
 }

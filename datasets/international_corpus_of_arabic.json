@@ -7,20 +7,14 @@
     "Year": 2007,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "text",
-    "Collection Style": [
-        "other"
-    ],
+    "Collection Style": ["other"],
     "Description": "There are two points of view about the need for corpora. The first one says that there can not be any corpora, however large, that contain information about all of the areas of any language lexicon and grammar of that language. The second point of view is that every corpus, however small, has taught the person facts that could not be imagined finding out about in any other way.",
     "Volume": 100000000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": [
-        "Alexandria University"
-    ],
+    "Provider": ["Alexandria University"],
     "Derived From": [],
     "Paper Title": "Building an International Corpus of Arabic (ICA): Progress of Compilation Stage",
     "Paper Link": "http://www.bibalex.org/isis/UploadedFiles/Publications/Building%20an%20Intl%20corpus%20of%20arabic.pdf",
@@ -30,17 +24,11 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "language modeling"
-    ],
-    "Venue Title": "",
+    "Tasks": ["language modeling"],
+    "Venue Title": "ESOLEC",
     "Venue Type": "conference",
-    "Venue Name": "7th international conference on language engineering, Cairo, Egypt",
-    "Authors": [
-        "Sameh Alansary",
-        "Magdy Nagi",
-        "Noha Adly"
-    ],
+    "Venue Name": "International Conference on Language Engineering",
+    "Authors": ["Sameh Alansary", "Magdy Nagi", "Noha Adly"],
     "Affiliations": [
         "Bibliotheca Alexandrina, Alexandria, Egypt",
         "Department of Phonetics and Linguistics, Faculty of Arts, Alexandria University, Alexandria, Egypt",

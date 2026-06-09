@@ -7,24 +7,15 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
-        "public datasets"
-    ],
+    "Domain": ["public datasets"],
     "Form": "audio",
-    "Collection Style": [
-        "LLM generated",
-        "human annotation"
-    ],
+    "Collection Style": ["LLM generated", "human annotation"],
     "Description": "AraBabyTalk-EGY is an enriched release of the Egyptian Arabic CHILDES corpus that opens the child-adult interactions genre to modern Arabic NLP research. ",
     "Volume": 26000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": [
-        "CAMeL Lab"
-    ],
-    "Derived From": [
-        "EGY CHILDES"
-    ],
+    "Provider": ["CAMeL Lab"],
+    "Derived From": ["EGY CHILDES"],
     "Paper Title": "Computational Benchmarks for Egyptian Arabic Child Directed Speech",
     "Paper Link": "https://aclanthology.org/2026.eacl-long.102.pdf",
     "Script": "Arab",
@@ -33,23 +24,17 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "morphological analysis",
-        "speech recognition"
-    ],
+    "Tasks": ["morphological analysis", "speech recognition"],
     "Venue Title": "EACL",
     "Venue Type": "conference",
-    "Venue Name": "European Chapter of the Association for Computational Linguistics",
+    "Venue Name": "Conference of the European Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Salam Khalifa",
         "Abdelrahim Qaddoumi",
         "Nizar Habash",
         "Owen Rambow"
     ],
-    "Affiliations": [
-        "Stony Brook University",
-        "New York University Abu Dhabi"
-    ],
+    "Affiliations": ["Stony Brook University", "New York University Abu Dhabi"],
     "Abstract": "We present ARABABYTALK-EGY, an enriched release of the Egyptian Arabic CHILDES corpus, that opens the child-adult interactions genre to modern Arabic NLP research. Starting from the original CHILDES recordings and IPA transcriptions of caregiver-child sessions, we (i) map each IPA token to fully diacritized Arabic script, and (ii) add core part-of-speech tags and lemmas aligned with existing dialectal Arabic morphological resources. These layers yield 26K annotated tokens suitable for both text- and speech-based NLP tasks. We provide a benchmark on morphological disambiguation and Arabic ASR. We outline lexical and morphosyntactic differences between ARABABYTALK-EGY and general Egyptian Arabic resources, highlighting the value of genre-specific training data for language acquisition studies and Arabic speech technology.",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,14 +7,9 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "images",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
-    ],
+    "Collection Style": ["human annotation", "manual curation"],
     "Description": "The first publicly available RGB dataset of Arabic sign language alphabets with 7,857 labelled images collected from 200+ participants.",
     "Volume": 7857.0,
     "Unit": "images",
@@ -33,19 +28,17 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "sign language recognition"
-    ],
-    "Venue Title": "viXra",
+    "Tasks": ["sign language recognition"],
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "viXra",
+    "Venue Name": "arXiv",
     "Authors": [
         "Muhammad Al-Barham",
         "Adham Alsharkawi",
         "Musa Al-Yaman",
         "Mohammad Al-Fetyani",
         "Ashraf Elnagar",
-        "Ahmad Abu Sa\u2019aleek",
+        "Ahmad Abu Sa’aleek",
         "Mohammad Al-Odat"
     ],
     "Affiliations": [

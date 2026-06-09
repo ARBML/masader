@@ -7,23 +7,15 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "text",
-    "Collection Style": [
-        "human annotation"
-    ],
+    "Collection Style": ["human annotation"],
     "Description": "The dataset studies code-switching between Egyptian and modern standard Arabic in broadcast domain.",
     "Volume": 2.0,
     "Unit": "hours",
     "Ethical Risks": "Medium",
-    "Provider": [
-        "QCRI"
-    ],
-    "Derived From": [
-        "ADI-5"
-    ],
+    "Provider": ["QCRI"],
+    "Derived From": ["ADI-5"],
     "Paper Title": "Effects of Dialectal Code-Switching on Speech Modules: A Study using Egyptian Arabic Broadcast Speech",
     "Paper Link": "http://www.interspeech2020.org/uploadfile/pdf/Wed-1-10-5.pdf",
     "Script": "Arab",
@@ -32,12 +24,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "codeswitch detection"
-    ],
+    "Tasks": ["codeswitch detection"],
     "Venue Title": "Interspeech",
     "Venue Type": "conference",
-    "Venue Name": "Interspeech Conference",
+    "Venue Name": "Conference of the International Speech Communication Association",
     "Authors": [
         "Shammur A Chowdhury",
         "Younes Samih",

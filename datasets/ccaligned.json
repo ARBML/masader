@@ -7,20 +7,14 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "text",
-    "Collection Style": [
-        "other"
-    ],
+    "Collection Style": ["other"],
     "Description": "CCAligned consists of parallel or comparable web-document pairs in 137 languages aligned with English. These web-document pairs were constructed by performing language identification on raw web-documents, and ensuring corresponding language codes were corresponding in the URLs of web documents.",
     "Volume": 1219374.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "Multiple Institutions"
-    ],
+    "Provider": ["Multiple Institutions"],
     "Derived From": [],
     "Paper Title": "CCAligned: A Massive Collection of Cross-lingual Web-Document Pairs",
     "Paper Link": "http://aclanthology.lst.uni-saarland.de/2020.emnlp-main.480.pdf",
@@ -30,16 +24,14 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "machine translation"
-    ],
+    "Tasks": ["machine translation"],
     "Venue Title": "EMNLP",
     "Venue Type": "conference",
-    "Venue Name": "Empirical Methods in Natural Language Processing",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Ahmed El-Kishky",
         "Vishrav Chaudhary",
-        "Francisco Guzm\u00e1",
+        "Francisco Guzmá",
         "Philipp Koehn"
     ],
     "Affiliations": [

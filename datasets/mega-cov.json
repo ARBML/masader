@@ -7,20 +7,14 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "social media"
-    ],
+    "Domain": ["social media"],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "A Billion-Scale Dataset of 100+ Languages for COVID-19",
     "Volume": 45000000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": [
-        "University of British Columbia"
-    ],
+    "Provider": ["University of British Columbia"],
     "Derived From": [],
     "Paper Title": "Mega-COV: A Billion-Scale Dataset of 100+ Languages for COVID-19",
     "Paper Link": "https://arxiv.org/pdf/2005.06012.pdf",
@@ -30,12 +24,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "fact checking"
-    ],
+    "Tasks": ["fact checking"],
     "Venue Title": "EACL",
     "Venue Type": "conference",
-    "Venue Name": "European Chapter of the Association for Computational Linguistics",
+    "Venue Name": "Conference of the European Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Muhammad Abdul-Mageed",
         "AbdelRahim Elmadany",

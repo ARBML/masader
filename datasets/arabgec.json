@@ -7,22 +7,14 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "public datasets",
-        "commentary"
-    ],
+    "Domain": ["public datasets", "commentary"],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
-    ],
+    "Collection Style": ["LLM generated"],
     "Description": "Synthetic dataset for Arabic grammatical error correction",
     "Volume": 30219310.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "King Abdulaziz University",
-        "Saudi Electronic University"
-    ],
+    "Provider": ["King Abdulaziz University", "Saudi Electronic University"],
     "Derived From": [
         "QALB-14",
         "QALB-15",
@@ -38,16 +30,11 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "grammatical error correction"
-    ],
+    "Tasks": ["grammatical error correction"],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
-    "Authors": [
-        "Ahlam Alrehili",
-        "Areej Alhothali"
-    ],
+    "Venue Name": "arXiv",
+    "Authors": ["Ahlam Alrehili", "Areej Alhothali"],
     "Affiliations": [
         "King Abdulaziz University",
         "Saudi Electronic University"

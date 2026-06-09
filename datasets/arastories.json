@@ -26,25 +26,15 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
-        "LLM",
-        "public datasets"
-    ],
+    "Domain": ["LLM", "public datasets"],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated",
-        "machine annotation"
-    ],
+    "Collection Style": ["LLM generated", "machine annotation"],
     "Description": "A dataset for automatic Arabic story generation containing MSA and two dialects.",
     "Volume": 3000.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": [
-        "UBC-NLP"
-    ],
-    "Derived From": [
-        "TinyStories"
-    ],
+    "Provider": ["UBC-NLP"],
+    "Derived From": ["TinyStories"],
     "Paper Title": "Arabic Automatic Story Generation with Large Language Models",
     "Paper Link": "https://arxiv.org/pdf/2407.07551v1.pdf",
     "Script": "Arab",
@@ -53,12 +43,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "language modeling"
-    ],
+    "Tasks": ["language modeling"],
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
-    "Venue Name": "Arabic Natural Language Processing",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Ahmed Oumar El-Shangiti",
         "Fakhraddin Alwajih",

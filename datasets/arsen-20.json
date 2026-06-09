@@ -7,13 +7,9 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
-        "social media"
-    ],
+    "Domain": ["social media"],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "ArSen-20, a benchmark dataset tailored to propel Arabic sentiment detection forward. ArSen-20 comprises 20,000 professionally labeled tweets sourced from Twitter, focusing on the theme of COVID-19 and spanning the period from 2020 to 2023",
     "Volume": 20000.0,
     "Unit": "sentences",
@@ -28,16 +24,11 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "sentiment analysis"
-    ],
+    "Tasks": ["sentiment analysis"],
     "Venue Title": "ISCKU",
-    "Venue Type": "workshop",
+    "Venue Type": "conference",
     "Venue Name": "International Scientific Conference of Alkafeel University",
-    "Authors": [
-        "Zaid Rajih Mohammed",
-        "Ahmed H. Aliwy"
-    ],
+    "Authors": ["Zaid Rajih Mohammed", "Ahmed H. Aliwy"],
     "Affiliations": [
         "Jaber bin Hayyan University of Medical and Pharmaceutical Sciences",
         "Department of Computer Science, Faculty of Computer Science and Mathematics, University of Kufa, Najaf, Iraq"

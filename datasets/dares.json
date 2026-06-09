@@ -7,23 +7,15 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "books"
-    ],
+    "Domain": ["books"],
     "Form": "text",
-    "Collection Style": [
-        "other"
-    ],
+    "Collection Style": ["other"],
     "Description": "DARES is a dataset for Arabic readability estimation based on Saudi school textbooks. It contains 13,335 instances of text, focusing on the readability levels of different educational levels (grades 1-12). It is organized into two main subtasks: (a) Coarse-grained readability, classifying texts into broad educational levels (elementary, intermediate, high school), and (b) Fine-grained readability, classifying texts into individual grade levels.",
     "Volume": 13335.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": [
-        "Multiple Institutions"
-    ],
-    "Derived From": [
-        "Saudi school textbooks (grades 1-12)"
-    ],
+    "Provider": ["Multiple Institutions"],
+    "Derived From": ["Saudi school textbooks (grades 1-12)"],
     "Paper Title": "DARES: Dataset for Arabic Readability Estimation of School Materials",
     "Paper Link": "https://aclanthology.org/2024.determit-1.10.pdf",
     "Script": "Arab",
@@ -32,12 +24,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "readability assessment"
-    ],
+    "Tasks": ["readability assessment"],
     "Venue Title": "LREC-COLING",
-    "Venue Type": "workshop",
-    "Venue Name": "Workshop on DeTermIt! Evaluating Text Difficulty in a Multilingual Context @ LREC-COLING 2024",
+    "Venue Type": "conference",
+    "Venue Name": "Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
     "Authors": [
         "Mo El-Haj",
         "Sultan Almujaiwel",

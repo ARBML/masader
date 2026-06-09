@@ -45,23 +45,13 @@
         "social media"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
-        "human annotation"
-    ],
+    "Collection Style": ["crawling", "human annotation"],
     "Description": "Multi-domain Arabic dialect speech benchmark with ~12 hours spanning radio, TV dramas, TEDx, theater content.",
     "Volume": 4854.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "Saarland University"
-    ],
-    "Derived From": [
-        "ADI-5",
-        "TEDx Arabic",
-        "SARA",
-        "radio.garden"
-    ],
+    "Provider": ["Saarland University"],
+    "Derived From": ["ADI-5", "TEDx Arabic", "SARA", "radio.garden"],
     "Paper Title": "Voice Conversion Improves Cross-Domain Robustness for Spoken Arabic Dialect Identification",
     "Paper Link": "https://arxiv.org/pdf/2505.24713",
     "Script": "Arab",
@@ -70,22 +60,17 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "dialect identification"
-    ],
+    "Tasks": ["dialect identification"],
     "Venue Title": "Interspeech",
     "Venue Type": "conference",
-    "Venue Name": "Interspeech",
+    "Venue Name": "Conference of the International Speech Communication Association",
     "Authors": [
         "Badr M. Abdullah",
         "Matthew Baas",
-        "Bernd M\u00f6bius",
+        "Bernd Möbius",
         "Dietrich Klakow"
     ],
-    "Affiliations": [
-        "Saarland University",
-        "Camb.AI"
-    ],
+    "Affiliations": ["Saarland University", "Camb.AI"],
     "Abstract": "Arabic dialect identification (ADI) systems are essential for large-scale data collection pipelines that enable the development of inclusive speech technologies for Arabic language varieties. However, the reliability of current ADI systems is limited by poor generalization to out-of-domain speech. In this paper, we present an effective approach based on voice conversion for training ADI models that achieves state-of-the-art performance and significantly improves robustness in cross-domain scenarios. Evaluated on a newly collected real-world test set spanning four different domains, our approach yields consistent improvements of up to +34.1% in accuracy across domains. Furthermore, we present an analysis of our approach and demonstrate that voice conversion helps mitigate the speaker bias in the ADI dataset. We release our robust ADI model and cross-domain evaluation dataset to support the development of inclusive speech technologies for Arabic.\n",
     "Added By": "Zaid Alyafeai"
 }

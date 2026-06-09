@@ -7,21 +7,14 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Lebanon",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "The corpus consists of about 9.6K words/tokens collected from Facebook, blog posts and traditional poems. The corpus was annotated as an extension to Curras and following the same annotation methodology to form a Levantine Corpus.",
     "Volume": 10000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": [
-        "SinaLab",
-        "Birzeit University"
-    ],
+    "Provider": ["SinaLab", "Birzeit University"],
     "Derived From": [],
     "Paper Title": "Curras + Baladi: Towards a Levantine Corpus",
     "Paper Link": "https://arxiv.org/pdf/2212.06468.pdf",
@@ -40,15 +33,15 @@
         "language identification",
         "morphological analysis"
     ],
-    "Venue Title": "LERC",
+    "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "Language Resources and Evaluation Conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Mustafa Jarrar",
         "Fadi A. Zaraket",
         "Tymaa Hammouda",
         "Daanish Masood Alavi",
-        "Martin W\u00e4hlisch"
+        "Martin Wählisch"
     ],
     "Affiliations": [
         "University of Birzeit, Birzeit, Palestine",

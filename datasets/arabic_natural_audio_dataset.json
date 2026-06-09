@@ -7,20 +7,14 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "audio",
-    "Collection Style": [
-        "other"
-    ],
+    "Collection Style": ["other"],
     "Description": "This is the  first Arabic Natural Audio Dataset (ANAD) developed to recognize 3 discrete emotions: Happy,angry, and surprised.",
     "Volume": 1384.0,
     "Unit": "hours",
     "Ethical Risks": "Medium",
-    "Provider": [
-        "Lebanese International University"
-    ],
+    "Provider": ["Lebanese International University"],
     "Derived From": [],
     "Paper Title": "Emotion recognition in Arabic speech",
     "Paper Link": "https://link.springer.com/content/pdf/10.1007/s10470-018-1142-4.pdf",
@@ -30,10 +24,8 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "emotion classification"
-    ],
-    "Venue Title": "",
+    "Tasks": ["emotion classification"],
+    "Venue Title": "AICSP",
     "Venue Type": "journal",
     "Venue Name": "Analog Integrated Circuits and Signal Processing",
     "Authors": [

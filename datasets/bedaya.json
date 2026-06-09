@@ -7,20 +7,14 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
-        "books"
-    ],
+    "Domain": ["books"],
     "Form": "text",
-    "Collection Style": [
-        "human annotation"
-    ],
+    "Collection Style": ["human annotation"],
     "Description": "Historical Arabic NER dataset based on Ibn Kathir book.",
     "Volume": 20500.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": [
-        "University of Haifa"
-    ],
+    "Provider": ["University of Haifa"],
     "Derived From": [],
     "Paper Title": "Dynamic Ensembles in Named Entity Recognition for Historical Arabic Texts",
     "Paper Link": "https://aclanthology.org/2021.wanlp-1.12.pdf",
@@ -30,19 +24,12 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "named entity recognition"
-    ],
+    "Tasks": ["named entity recognition"],
     "Venue Title": "WANLP",
     "Venue Type": "workshop",
-    "Venue Name": "Workshop on Arabic Natural Language Processing",
-    "Authors": [
-        "Muhammad Majadly",
-        "Tomer Sagi"
-    ],
-    "Affiliations": [
-        "University of Haifa"
-    ],
+    "Venue Name": "Arabic Natural Language Processing Workshop",
+    "Authors": ["Muhammad Majadly", "Tomer Sagi"],
+    "Affiliations": ["University of Haifa"],
     "Abstract": "The use of Named Entity Recognition (NER) over archaic Arabic texts is steadily increasing. However, most tools have been either developed for modern English or trained over English language documents and are limited over historical Arabic text. Even Arabic NER tools are often trained on modern web-sourced text, making their fit for a historical task questionable. To mitigate historic Arabic NER resource scarcity, we propose a dynamic ensemble model utilizing several learners. The dynamic aspect is achieved by utilizing predictors and features over NER algorithm results that identify which have performed better on a specific task in real-time. We evaluate our approach against state-of-the-art Arabic NER and static ensemble methods over a novel historical Arabic NER task we have created. Our results show that our approach improves upon the state-of-the-art and reaches a 0.8 F-score on this challenging task.",
     "Added By": "Zaid Alyafeai"
 }

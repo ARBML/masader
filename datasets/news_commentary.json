@@ -7,23 +7,15 @@
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "news articles"
-    ],
+    "Domain": ["news articles"],
     "Form": "text",
-    "Collection Style": [
-        "other"
-    ],
+    "Collection Style": ["other"],
     "Description": "A parallel corpus of News Commentaries provided by WMT for training SMT",
     "Volume": 200000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "OPUS"
-    ],
-    "Derived From": [
-        "WMT 19"
-    ],
+    "Provider": ["OPUS"],
+    "Derived From": ["WMT 19"],
     "Paper Title": "Parallel Data, Tools and Interfaces in OPUS",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf",
     "Script": "Arab",
@@ -32,15 +24,11 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "machine translation"
-    ],
+    "Tasks": ["machine translation"],
     "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "Language Resources and Evaluation Conference",
-    "Authors": [
-        "Jorg Tiedemann"
-    ],
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": ["Jorg Tiedemann"],
     "Affiliations": [
         "Department of Linguistics and Philology, Uppsala University, Uppsala/Sweden"
     ],

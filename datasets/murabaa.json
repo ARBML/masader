@@ -7,20 +7,14 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "public datasets"
-    ],
+    "Domain": ["public datasets"],
     "Form": "text",
-    "Collection Style": [
-        "other"
-    ],
+    "Collection Style": ["other"],
     "Description": "Comprehensive platform for Arabic morphology resources that combines eight dictionaries",
     "Volume": 717380.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": [
-        "Mohammed V University in Rabat"
-    ],
+    "Provider": ["Mohammed V University in Rabat"],
     "Derived From": [],
     "Paper Title": "Murabaa: A comprehensive Resource Platform for Arabic Morphology",
     "Paper Link": "https://aclanthology.org/2026.abjadnlp-1.47.pdf",
@@ -30,12 +24,8 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "lemmatization",
-        "stemming",
-        "morphological analysis"
-    ],
-    "Venue Title": "abjadnlp",
+    "Tasks": ["lemmatization", "stemming", "morphological analysis"],
+    "Venue Title": "AbjadNLP",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on NLP for Languages Using Arabic Script",
     "Authors": [

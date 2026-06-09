@@ -7,13 +7,9 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "text",
-    "Collection Style": [
-        "other"
-    ],
+    "Collection Style": ["other"],
     "Description": "Arabic Daily Comunication Corpus (ADCC) is daily conversations written text in Modern Standard Arabic which was collected from different resources.",
     "Volume": 4000000.0,
     "Unit": "tokens",
@@ -37,7 +33,7 @@
     ],
     "Venue Title": "ICIHT",
     "Venue Type": "conference",
-    "Venue Name": "Proceeding of International Conference on Informatics, Health & Technology",
+    "Venue Name": "International Conference on Informatics, Health & Technology",
     "Authors": [
         "Amal Alsaif",
         "Njoud Albadrani",

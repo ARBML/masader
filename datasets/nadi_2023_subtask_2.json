@@ -32,15 +32,10 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
-        "social media"
-    ],
+    "Domain": ["social media"],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "human annotation"
-    ],
-    "Description": "Country-level Arabic dialect tweets from 18 countries for dialect identification; parallel Egyptian/Emirati/Jordanian/Palestinian\u2192MSA sentences for MT.",
+    "Collection Style": ["crawling", "human annotation"],
+    "Description": "Country-level Arabic dialect tweets from 18 countries for dialect identification; parallel Egyptian/Emirati/Jordanian/Palestinian→MSA sentences for MT.",
     "Volume": 2400.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
@@ -59,12 +54,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "dialect identification"
-    ],
+    "Tasks": ["dialect identification"],
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
-    "Venue Name": " Arabic Natural Language Processing Conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Muhammad Abdul-Mageed",
         "AbdelRahim Elmadany",

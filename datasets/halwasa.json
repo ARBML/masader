@@ -7,24 +7,15 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "LLM"
-    ],
+    "Domain": ["LLM"],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated",
-        "human annotation"
-    ],
+    "Collection Style": ["LLM generated", "human annotation"],
     "Description": "First Arabic dataset with 10K LLM-generated sentences annotated for factuality.",
     "Volume": 10000.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": [
-        "QCRI"
-    ],
-    "Derived From": [
-        "SAMER Arabic readability lexicon"
-    ],
+    "Provider": ["QCRI"],
+    "Derived From": ["SAMER Arabic readability lexicon"],
     "Paper Title": "Halwasa: Quantify and Analyze Hallucinations in Large Language Models: Arabic as a Case Study",
     "Paper Link": "https://aclanthology.org/2024.lrec-main.705.pdf",
     "Script": "Arab",
@@ -33,22 +24,16 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "AI-generated text detection"
-    ],
+    "Tasks": ["AI-generated text detection"],
     "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "Language Resource and Evaluation Conference",
-    "Authors": [
-        "Hamdy Mubarak",
-        "Hend Al-Khalifa",
-        "Khaloud Alkhalefah"
-    ],
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": ["Hamdy Mubarak", "Hend Al-Khalifa", "Khaloud Alkhalefah"],
     "Affiliations": [
         "HBKU",
         "King Saud University",
         "Imam Ibn Saud Islamic University"
     ],
-    "Abstract": "Large Language Models (LLMs) have shown superb abilities to generate texts that are indistinguishable from human-generated texts in many cases. However, sometimes they generate false, incorrect, or misleading content, which is often described as \u201challucinations\u201d. Quantifying and analyzing hallucinations in LLMs can increase their reliability and usage. While hallucination is being actively studied for English and other languages, and different benchmarking datasets have been created, this area is not studied at all for Arabic. In our paper, we create the first Arabic dataset that contains 10K generated sentences by LLMs and annotate it for factuality and correctness. We provide a detailed analysis of the dataset to analyze factual and linguistic errors. We found that 25% of the generated sentences are factually incorrect. We share the dataset with the research community.",
+    "Abstract": "Large Language Models (LLMs) have shown superb abilities to generate texts that are indistinguishable from human-generated texts in many cases. However, sometimes they generate false, incorrect, or misleading content, which is often described as “hallucinations”. Quantifying and analyzing hallucinations in LLMs can increase their reliability and usage. While hallucination is being actively studied for English and other languages, and different benchmarking datasets have been created, this area is not studied at all for Arabic. In our paper, we create the first Arabic dataset that contains 10K generated sentences by LLMs and annotate it for factuality and correctness. We provide a detailed analysis of the dataset to analyze factual and linguistic errors. We found that 25% of the generated sentences are factually incorrect. We share the dataset with the research community.",
     "Added By": "Zaid Alyafeai"
 }

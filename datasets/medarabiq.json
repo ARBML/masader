@@ -7,25 +7,15 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "public datasets"
-    ],
+    "Domain": ["public datasets"],
     "Form": "text",
-    "Collection Style": [
-        "manual curation",
-        "crawling",
-        "LLM generated"
-    ],
+    "Collection Style": ["manual curation", "crawling", "LLM generated"],
     "Description": "Benchmark for evaluating Arabic medical LLMs.",
     "Volume": 700.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "New York University Abu Dhabi"
-    ],
-    "Derived From": [
-        "AraMed"
-    ],
+    "Provider": ["New York University Abu Dhabi"],
+    "Derived From": ["AraMed"],
     "Paper Title": "MedArabiQ: Benchmarking Large Language Models on Arabic Medical Tasks",
     "Paper Link": "http://arxiv.org/pdf/2505.03427v2.pdf",
     "Script": "Arab",
@@ -39,8 +29,8 @@
         "question answering",
         "fill-in-the blank"
     ],
-    "Venue Title": "Machine Learning for Healthcare",
-    "Venue Type": "conference",
+    "Venue Title": "PMLR",
+    "Venue Type": "journal",
     "Venue Name": "Proceedings of Machine Learning Research",
     "Authors": [
         "Mouath Abu Daoud",
@@ -50,9 +40,7 @@
         "Nizar Habash",
         "Farah E. Shamout"
     ],
-    "Affiliations": [
-        "New York University Abu Dhabi"
-    ],
+    "Affiliations": ["New York University Abu Dhabi"],
     "Abstract": "Large Language Models (LLMs) have demonstrated significant promise for various applications in healthcare. However, their effectiveness in the Arabic medical domain remains unexplored due to the lack of high-quality domain-specific datasets and benchmarks. This study introduces MedArabiQ, a new benchmark dataset consisting of seven Arabic medical tasks, covering multiple specialties and including multiple-choice questions, fill-in-the-blank questions, and patient-doctor questions and answers. We first constructed the dataset using past medical exams as well as publicly available datasets. We conducted an extensive evaluation with eight state-of-the-art open-access and proprietary high-resource LLMs, including GPT-4, Deepseek v3, and Gemini 1.5. Our findings highlight the need for the creation of new high-quality benchmarks that span different languages to ensure fair deployment and scalability of LLMs in healthcare. By establishing this benchmark and releasing the dataset, we provide a foundation for future research aimed at evaluating and enhancing the multilingual capabilities of LLMs for the equitable use of generative AI in healthcare.",
     "Added By": "Zaid Alyafeai"
 }

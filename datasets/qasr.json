@@ -7,20 +7,14 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "This multi-dialect speech dataset contains 2, 000 hours of speech sampled at 16kHz crawled from Aljazeera news channel",
     "Volume": 2000.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": [
-        "QCRI"
-    ],
+    "Provider": ["QCRI"],
     "Derived From": [],
     "Paper Title": "QASR: QCRI Aljazeera Speech Resource\r\nA Large Scale Annotated Arabic Speech Corpus",
     "Paper Link": "https://arxiv.org/pdf/2106.13000.pdf",
@@ -30,17 +24,11 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "speech recognition"
-    ],
+    "Tasks": ["speech recognition"],
     "Venue Title": "ACL",
     "Venue Type": "conference",
-    "Venue Name": "Assofications of computation linguisitcs",
-    "Authors": [
-        "Hamdy Mubarak",
-        "Amir Hussein",
-        "S. A. Chowdhury"
-    ],
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
+    "Authors": ["Hamdy Mubarak", "Amir Hussein", "S. A. Chowdhury"],
     "Affiliations": [
         "Qatar Computing Research Institute, HBKU, Doha, Qatar",
         "Kanari AI, California, USA"

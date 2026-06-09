@@ -7,23 +7,15 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "wikipedia"
-    ],
+    "Domain": ["wikipedia"],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "WIKIQAar is a bilingual English--Arabic Question Answering corpus built on top of WIKIQA",
     "Volume": 3047.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "QCRI"
-    ],
-    "Derived From": [
-        "WikiQA"
-    ],
+    "Provider": ["QCRI"],
+    "Derived From": ["WikiQA"],
     "Paper Title": "WIKIQA: A Challenge Dataset for Open-Domain Question Answering",
     "Paper Link": "https://aclanthology.org/D15-1237.pdf",
     "Script": "Arab",
@@ -32,16 +24,11 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "question answering"
-    ],
+    "Tasks": ["question answering"],
     "Venue Title": "EMNLP",
     "Venue Type": "conference",
-    "Venue Name": "Empirical Methods in Natural Language Processing",
-    "Authors": [
-        "Yi Yang",
-        "Wen-tau Yih Christopher Meek"
-    ],
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
+    "Authors": ["Yi Yang", "Wen-tau Yih Christopher Meek"],
     "Affiliations": [
         "Georgia Institute of Technology",
         "Microsoft",

@@ -7,22 +7,14 @@
     "Year": 2026,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
-        "books",
-        "web pages"
-    ],
+    "Domain": ["books", "web pages"],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
-    ],
+    "Collection Style": ["crawling", "machine annotation"],
     "Description": "Benchmark for Judeo-Arabic transliteration.",
     "Volume": 46529.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": [
-        "CAMeL Lab"
-    ],
+    "Provider": ["CAMeL Lab"],
     "Derived From": [],
     "Paper Title": "A Tale of Two Scripts: Transliteration and Post-Correction for Judeo-Arabic",
     "Paper Link": "https://aclanthology.org/2026.eacl-long.93.pdf",
@@ -32,17 +24,11 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "transliteration"
-    ],
+    "Tasks": ["transliteration"],
     "Venue Title": "EACL",
     "Venue Type": "conference",
-    "Venue Name": "European Chapter of the Association for Computational Linguistics",
-    "Authors": [
-        "Juan Moreno-Gonzalez",
-        "Bashar Alhafni",
-        "Nizar Habash"
-    ],
+    "Venue Name": "Conference of the European Chapter of the Association for Computational Linguistics",
+    "Authors": ["Juan Moreno-Gonzalez", "Bashar Alhafni", "Nizar Habash"],
     "Affiliations": [
         "University of Cambridge",
         "Mohamed bin Zayed University of Artificial Intelligence",

@@ -7,22 +7,14 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "public datasets",
-        "LLM"
-    ],
+    "Domain": ["public datasets", "LLM"],
     "Form": "images",
-    "Collection Style": [
-        "human annotation",
-        "LLM generated"
-    ],
+    "Collection Style": ["human annotation", "LLM generated"],
     "Description": "A comprehensive Arabic large multimodal model benchmark spanning 8 domains and 38 sub-domains with 29,036 manually verified questions.",
     "Volume": 29036.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "MBZUAI"
-    ],
+    "Provider": ["MBZUAI"],
     "Derived From": [
         "MME",
         "MMBench",
@@ -76,9 +68,9 @@
         "optical character recognition",
         "scene text detection"
     ],
-    "Venue Title": "NACCL",
+    "Venue Title": "NAACL",
     "Venue Type": "conference",
-    "Venue Name": "Nations of the Americas Chapter of the Association for Computational Linguistics",
+    "Venue Name": "Conference of the North American Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Sara Ghaboura",
         "Ahmed Heakl",
@@ -94,7 +86,7 @@
     "Affiliations": [
         "Mohamed bin Zayed University of AI",
         "Aalto University",
-        "Link\u00f6ping University",
+        "Linköping University",
         "Australian National University"
     ],
     "Abstract": "Recent years have witnessed a significant interest in developing large multimodal models (LMMs) capable of performing various visual reasoning and understanding tasks. This has led to the introduction of multiple LMM benchmarks to evaluate LMMs on different tasks. However, most existing LMM evaluation benchmarks are predominantly English-centric. In this work, we develop a comprehensive LMM evaluation benchmark for the Arabic language to represent a large population of over 400 million speakers. The proposed benchmark, named CAMEL-Bench, comprises eight diverse domains and 38 sub-domains including, multi-image understanding, complex visual perception, handwritten document understanding, video understanding, medical imaging, plant diseases, and remote sensing-based land use understanding to evaluate broad scenario generalizability. Our CAMEL-Bench comprises around 29,036 questions that are filtered from a larger pool of samples, where the quality is manually verified by native speakers to ensure reliable model assessment. We conduct evaluations of both closed-source, including GPT-4 series, and open-source LMMs. Our analysis reveals the need for substantial improvement, especially among the best open-source models, with even the closed-source GPT-4o achieving an overall score of 62%. Our benchmark and evaluation scripts are open-sourced.\n",

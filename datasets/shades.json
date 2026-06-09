@@ -7,14 +7,9 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
-    ],
+    "Collection Style": ["human annotation", "manual curation"],
     "Description": "Multilingual dataset of stereotypes across 16 languages and 37 regions to evaluate bias in LLMs.",
     "Volume": 304.0,
     "Unit": "sentences",
@@ -29,12 +24,10 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "safety evaluation"
-    ],
-    "Venue Title": "NAACL-HLT",
+    "Tasks": ["safety evaluation"],
+    "Venue Title": "NAACL",
     "Venue Type": "conference",
-    "Venue Name": "North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "Venue Name": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
     "Authors": [
         "Margaret Mitchell",
         "Hamdan Al-Ali",
@@ -56,11 +49,11 @@
         "Sil Hamilton",
         "Carolin Holtermann",
         "Jerry Huang",
-        "Lucie-Aim\u00e9e Kaffee",
+        "Lucie-Aimée Kaffee",
         "Janavi Kasera",
         "Tanmay Laud",
         "Anne Lauscher",
-        "Roberto Luis L\u00f3pez",
+        "Roberto Luis López",
         "Jonibek Mansurov",
         "Maraim Masoud",
         "Sagnik Mukherjee",
@@ -76,7 +69,7 @@
         "Beatrice Savoldi",
         "Shanya Sharma",
         "Xudong Shen",
-        "Karolina Sta\u0144czak",
+        "Karolina Stańczak",
         "Arjun Subramonian",
         "Kaiser Sun",
         "Eliza Szczechla",
@@ -89,7 +82,7 @@
         "Kayo Yin",
         "Mike Zhang",
         "Sydney Zink",
-        "Aur\u00e9lie N\u00e9v\u00e9ol",
+        "Aurélie Névéol",
         "Zeerak Talat"
     ],
     "Affiliations": [
@@ -138,8 +131,7 @@
         "KBR",
         "Université Paris-Saclay, CNRS, LISN",
         "Aleph Alpha"
-]
-,
-    "Abstract": "Large Language Models (LLMs) reproduce and exacerbate the social biases present in their training data, and resources to quantify this issue are limited. While research has attempted to identify and mitigate such biases, most efforts have been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. In this paper, we introduce a new multilingual parallel dataset SHADES to help address this issue, designed for examining culturally-specific stereotypes that may be learned by LLMs. The dataset includes stereotypes from 20 regions around the world and 16 languages, spanning multiple identity categories subject to discrimination worldwide. We demonstrate its utility in a series of exploratory evaluations for both \u201cbase\u201d and \u201cinstruction-tuned\u201d language models. Our results suggest that stereotypes are consistently reflected across models and languages, with some languages and models indicating much stronger stereotype biases than others.",
+    ],
+    "Abstract": "Large Language Models (LLMs) reproduce and exacerbate the social biases present in their training data, and resources to quantify this issue are limited. While research has attempted to identify and mitigate such biases, most efforts have been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. In this paper, we introduce a new multilingual parallel dataset SHADES to help address this issue, designed for examining culturally-specific stereotypes that may be learned by LLMs. The dataset includes stereotypes from 20 regions around the world and 16 languages, spanning multiple identity categories subject to discrimination worldwide. We demonstrate its utility in a series of exploratory evaluations for both “base” and “instruction-tuned” language models. Our results suggest that stereotypes are consistently reflected across models and languages, with some languages and models indicating much stronger stereotype biases than others.",
     "Added By": "Zaid Alyafeai"
 }

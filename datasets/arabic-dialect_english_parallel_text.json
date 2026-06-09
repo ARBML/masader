@@ -20,21 +20,14 @@
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
-        "web pages"
-    ],
+    "Domain": ["web pages"],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
-    ],
+    "Collection Style": ["crawling", "machine annotation"],
     "Description": "it uses crowdsourcing to cheaply and quickly build LevantineEnglish and Egyptian-English parallel corpora, consisting of 1.1M words and 380k words, respectively.",
     "Volume": 176164.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "Multiple Institutions"
-    ],
+    "Provider": ["Multiple Institutions"],
     "Derived From": [],
     "Paper Title": "Machine Translation of Arabic Dialects",
     "Paper Link": "https://aclanthology.org/N12-1006.pdf",
@@ -44,12 +37,10 @@
     "Access": "With-Fee",
     "Cost": "2250 $",
     "Test Split": false,
-    "Tasks": [
-        "machine translation"
-    ],
+    "Tasks": ["machine translation"],
     "Venue Title": "NAACL",
     "Venue Type": "conference",
-    "Venue Name": "North American Chapter of the Association for Computational Linguistics",
+    "Venue Name": "Conference of the North American Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Rabih Zbib",
         "Erika Malchiodi",

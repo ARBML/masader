@@ -7,13 +7,9 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
-        "news articles"
-    ],
+    "Domain": ["news articles"],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "Goud-sum contains 158k articles and their headlines extracted from Goud.ma news website. The articles are written in the Arabic script. All headlines are in Moroccan Darija, while articles may be in Moroccan Darija, in Modern Standard Arabic, or a mix of both (code-switched Moroccan Darija).",
     "Volume": 158000.0,
     "Unit": "documents",
@@ -28,16 +24,11 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "summarization"
-    ],
+    "Tasks": ["summarization"],
     "Venue Title": "ICLR",
-    "Venue Type": "workshop",
+    "Venue Type": "conference",
     "Venue Name": "International Conference on Learning Representations",
-    "Authors": [
-        "Abderrahmane Issam",
-        "Khalil Mrini"
-    ],
+    "Authors": ["Abderrahmane Issam", "Khalil Mrini"],
     "Affiliations": [
         "Archipel Cognitive",
         "University of California San Diego"

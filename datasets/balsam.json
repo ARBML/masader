@@ -7,9 +7,7 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
-        "public datasets"
-    ],
+    "Domain": ["public datasets"],
     "Form": "text",
     "Collection Style": [
         "manual curation",
@@ -20,9 +18,7 @@
     "Volume": 52000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "KSAA"
-    ],
+    "Provider": ["KSAA"],
     "Derived From": [
         "PromptSource",
         "Super-Natural-Instructions",
@@ -61,7 +57,7 @@
         "hate speech detection"
     ],
     "Venue Title": "ArabicNLP",
-    "Venue Type": "preprint",
+    "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Rawan Al-Matham",

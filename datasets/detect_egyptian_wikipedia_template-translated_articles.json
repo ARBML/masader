@@ -7,23 +7,15 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
-        "wikipedia"
-    ],
+    "Domain": ["wikipedia"],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
-    ],
+    "Collection Style": ["manual curation"],
     "Description": "A labeled dataset of Egyptian Arabic Wikipedia articles extracted from Wikipedia dumps 2024-01-01, along with their metadata.",
     "Volume": 755665.0,
     "Unit": "documents",
     "Ethical Risks": "Medium",
-    "Provider": [
-        "Clarkson University"
-    ],
-    "Derived From": [
-        "Egyptian Arabic Wikipedia"
-    ],
+    "Provider": ["Clarkson University"],
+    "Derived From": ["Egyptian Arabic Wikipedia"],
     "Paper Title": "Leveraging Corpus Metadata to Detect Template-based Translation: An Exploratory Case Study of the Egyptian Arabic Wikipedia Edition",
     "Paper Link": "https://arxiv.org/pdf/2404.00565.pdf",
     "Script": "Arab",
@@ -39,7 +31,7 @@
     ],
     "Venue Title": "OSACT",
     "Venue Type": "workshop",
-    "Venue Name": "The 6th Workshop on Open-Source Arabic Corpora and Processing Tools",
+    "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
     "Authors": [
         "Saied Alshahrani",
         "Hesham Haroon",

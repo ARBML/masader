@@ -7,22 +7,14 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
-        "web pages"
-    ],
+    "Domain": ["web pages"],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation",
-        "human annotation"
-    ],
+    "Collection Style": ["crawling", "machine annotation", "human annotation"],
     "Description": "First syntactic treebank for Classical Arabic poetry collected from adab and aldiwan.",
     "Volume": 35459.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": [
-        "King Saud University"
-    ],
+    "Provider": ["King Saud University"],
     "Derived From": [],
     "Paper Title": "A Dependency Treebank for Classical Arabic Poetry",
     "Paper Link": "https://aclanthology.org/2021.depling-1.1.pdf",
@@ -32,20 +24,16 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "dependency parsing"
-    ],
+    "Tasks": ["dependency parsing"],
     "Venue Title": "Depling",
     "Venue Type": "conference",
-    "Venue Name": "Conference on Dependency Linguistics",
+    "Venue Name": "International Conference on Dependency Linguistics",
     "Authors": [
         "Sharefah Al-Ghamdi",
         "Hend Al-Khalifa",
         "Abdulmalik Al-Salman"
     ],
-    "Affiliations": [
-        "King Saud University"
-    ],
+    "Affiliations": ["King Saud University"],
     "Abstract": "This paper introduces the first syntactically annotated corpus for Classical Arabic poetry, a morphologically rich ancient Arabic text. The paper describes how the dependency treebank was prepared, focusing on some issues dealing with Classical Arabic poems in which syntactic constructions require special attention. We also present the results of the baseline experiments on Classical Arabic poetry dependency parsing with this treebank.",
     "Added By": "Zaid Alyafeai"
 }
