@@ -1,50 +1,21 @@
 {
     "Name": "Universal Dependencies",
-    "Subsets": [
-        {
-            "Name": "ar_nyuad",
-            "Dialect": "Modern Standard Arabic",
-            "Volume": 738889.0,
-            "Unit": "tokens"
-        },
-        {
-            "Name": "ar_padt",
-            "Dialect": "Modern Standard Arabic",
-            "Volume": 282384.0,
-            "Unit": "tokens"
-        },
-        {
-            "Name": "ar_pud",
-            "Dialect": "Modern Standard Arabic",
-            "Volume": 20751.0,
-            "Unit": "tokens"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "https://hf.co/datasets/universal_dependencies",
     "Link": "https://github.com/UniversalDependencies",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "text",
-    "Collection Style": [
-        "other"
-    ],
+    "Collection Style": ["other"],
     "Description": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages.",
     "Volume": 1042000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "Universal Dependencies(UD)"
-    ],
-    "Derived From": [
-        "UDP (UDP-NYUAD)",
-        "PADT",
-        "PUD"
-    ],
+    "Provider": ["Universal Dependencies(UD)"],
+    "Derived From": ["UDP (UDP-NYUAD)", "PADT", "PUD"],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
@@ -53,10 +24,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "part of speech tagging",
-        "morphological analysis"
-    ],
+    "Tasks": ["part of speech tagging", "morphological analysis"],
     "Venue Title": "",
     "Venue Type": "other",
     "Venue Name": "",

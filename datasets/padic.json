@@ -2,12 +2,6 @@
     "Name": "PADIC",
     "Subsets": [
         {
-            "Name": "ALG",
-            "Dialect": "Algeria",
-            "Volume": 6400.0,
-            "Unit": "sentences"
-        },
-        {
             "Name": "ANB",
             "Dialect": "Algeria",
             "Volume": 6400.0,
@@ -44,20 +38,14 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
-    ],
+    "Collection Style": ["manual curation"],
     "Description": "a Parallel Arabic DIalect Corpus we built from scratch,",
     "Volume": 32000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "Multiple Institutions"
-    ],
+    "Provider": ["Multiple Institutions"],
     "Derived From": [],
     "Paper Title": "Machine Translation Experiments on PADIC:\r\nA Parallel Arabic DIalect Corpus",
     "Paper Link": "https://aclanthology.org/Y15-1004.pdf",
@@ -67,9 +55,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "machine translation"
-    ],
+    "Tasks": ["machine translation"],
     "Venue Title": "PACLIC",
     "Venue Type": "conference",
     "Venue Name": "Pacific Asia Conference on Language, Information and Computation",

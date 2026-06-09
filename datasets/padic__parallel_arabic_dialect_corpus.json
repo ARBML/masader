@@ -14,12 +14,6 @@
             "Unit": "sentences"
         },
         {
-            "Name": "ANB",
-            "Dialect": "Algeria",
-            "Volume": 8244.0,
-            "Unit": "sentences"
-        },
-        {
             "Name": "TUN",
             "Dialect": "Tunisia",
             "Volume": 8244.0,

@@ -2,14 +2,8 @@
     "Name": "SawtArabi",
     "Subsets": [
         {
-            "Name": "Code-Switching",
-            "Volume": 1.0,
-            "Unit": "hours",
-            "Dialect": "Egypt"
-        },
-        {
             "Name": "Egyptian",
-            "Volume": 1.0,
+            "Volume": 2.0,
             "Unit": "hours",
             "Dialect": "Egypt"
         },

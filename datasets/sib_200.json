@@ -32,12 +32,6 @@
             "Dialect": "Levant"
         },
         {
-            "Name": "apc_Arab",
-            "Volume": 1430,
-            "Unit": "sentences",
-            "Dialect": "Levant"
-        },
-        {
             "Name": "ars_Arab",
             "Volume": 1430,
             "Unit": "sentences",
