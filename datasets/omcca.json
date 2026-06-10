@@ -20,20 +20,14 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
-        "reviews"
-    ],
+    "Domain": ["reviews"],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "Opinion Mining Corpus for Colloquial Variety of Arabic language",
     "Volume": 28576.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "Multiple Institutions"
-    ],
+    "Provider": ["Multiple Institutions"],
     "Derived From": [],
     "Paper Title": "Opinion Mining: Analysis of Comments Written\r\nin Arabic Colloquial",
     "Paper Link": "http://www.iaeng.org/publication/WCECS2016/WCECS2016_pp470-475.pdf",
@@ -43,17 +37,11 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "dialect identification",
-        "sentiment analysis"
-    ],
+    "Tasks": ["dialect identification", "sentiment analysis"],
     "Venue Title": "WCECS",
     "Venue Type": "conference",
     "Venue Name": "World Congress on Engineering and Computer Science",
-    "Authors": [
-        "Ahmed Y. Al-Obaidi",
-        "V. Samawi"
-    ],
+    "Authors": ["Ahmed Y. Al-Obaidi", "Venus W. Samawi"],
     "Affiliations": [
         "Department of Computer Multimedia Systems, Faculty of Information Technology, Isra University, Amman, Jordan",
         "Internet Brands, Inc, LA, USA"

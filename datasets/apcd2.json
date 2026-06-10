@@ -7,23 +7,15 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "1657 k verses of poems and prose to develop neural networks to classify and diacritize Arabic poetry",
     "Volume": 1831770.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "The University of Jordan"
-    ],
-    "Derived From": [
-        "APCD"
-    ],
+    "Provider": ["The University of Jordan"],
+    "Derived From": ["APCD"],
     "Paper Title": "Classifying and diacritizing Arabic poems using deep recurrent neural networks",
     "Paper Link": "https://www.sciencedirect.com/science/article/pii/S1319157820305784/pdfft?md5=07be922e052bf43933bdb7bea5189718&pid=1-s2.0-S1319157820305784-main.pdf",
     "Script": "Arab",
@@ -32,12 +24,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "meter classification"
-    ],
+    "Tasks": ["meter classification"],
     "Venue Title": "JKSU",
     "Venue Type": "journal",
-    "Venue Name": "Journal of King Saud University - Computer and Information Sciences",
+    "Venue Name": "Journal of King Saud University",
     "Authors": [
         "Gheith A. Abandah",
         "Mohammed Z. Khedher",

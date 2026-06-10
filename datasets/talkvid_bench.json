@@ -7,32 +7,24 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
-        "social media"
-    ],
+    "Domain": ["social media"],
     "Form": "videos",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "Large-scale high-quality 1244-hour video dataset of 7,729 speakers for audio-driven talking-head synthesis with diverse demographics and languages",
     "Volume": 14.0,
     "Unit": "videos",
     "Ethical Risks": "Low",
-    "Provider": [
-        "FreedomIntelligence"
-    ],
+    "Provider": ["FreedomIntelligence"],
     "Derived From": [],
     "Paper Title": "TalkVid: A Large-Scale Diversified Dataset for Audio-Driven Talking Head Synthesis",
     "Paper Link": "https://arxiv.org/pdf/2508.13618",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "GitHub",
+    "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "video generation"
-    ],
+    "Tasks": ["video generation"],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
     "Venue Name": "arXiv",

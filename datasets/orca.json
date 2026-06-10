@@ -47,7 +47,7 @@
     "Paper Link": "https://aclanthology.org/2023.findings-acl.609.pdf",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "HuggingFace",
+    "Host": "other",
     "Access": "Free",
     "Cost": "",
     "Test Split": true,

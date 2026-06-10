@@ -7,10 +7,7 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "public datasets",
-        "wikipedia"
-    ],
+    "Domain": ["public datasets", "wikipedia"],
     "Form": "text",
     "Collection Style": [
         "machine annotation",
@@ -26,7 +23,7 @@
         "Huazhong University of Science and Technology",
         "University of Maryland"
     ],
-    "Derived From": [],
+    "Derived From": ["DocVQA", "MMLongBench-Doc", "SlideVQA"],
     "Paper Title": "ARE WE ON THE RIGHT WAY FOR ASSESSING DOCUMENT RETRIEVAL-AUGMENTED GENERATION?",
     "Paper Link": "https://arxiv.org/pdf/2508.03644",
     "Script": "Arab",
@@ -35,9 +32,7 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "retrieval-augmented generation"
-    ],
+    "Tasks": ["retrieval-augmented generation"],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
