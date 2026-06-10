@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Treebank - Weblog",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2016T02",
@@ -7,12 +9,18 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "This release contains 243,117 source tokens before clitics were split, and 308,996 tree tokens after clitics were separated for treebank annotation. The source material is weblogs collected by LDC from various sources.",
     "Volume": 243117.0,
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "4,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "part of speech tagging"
     ],

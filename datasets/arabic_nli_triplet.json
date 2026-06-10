@@ -1,5 +1,7 @@
 {
     "Name": "Arabic-NLi-Triplet",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Triplet",
     "Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Triplet",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "The Arabic Version of SNLI and MultiNLI datasets. (Triplet Subset)",
@@ -32,7 +40,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "natural language inference"
     ],

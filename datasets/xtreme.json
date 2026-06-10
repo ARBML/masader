@@ -1,5 +1,7 @@
 {
     "Name": "XTREME",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/google/xtreme",
     "Link": "https://github.com/google-research/xtreme",
@@ -7,11 +9,17 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "contains many datasets from different benchmarks like XNLI, TYDiQA, etc.",
@@ -33,7 +41,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "natural language inference",
         "part of speech tagging",

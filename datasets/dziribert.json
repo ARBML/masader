@@ -1,5 +1,7 @@
 {
     "Name": "DziriBERT",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/alger-ia/dziribert",
     "Link": "https://github.com/alger-ia/dziribert",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The DziriBERT dataset contains over 1.1 million tweets written in the Algerian dialect, collected from Twitter. It includes tweets written in both Arabic script and Romanized script (Arabizi). The dataset is designed to develop language models specifically for the Algerian dialect, which differs from Modern Standard Arabic (MSA).",
     "Volume": 1100000.0,
@@ -27,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis",
         "language modeling",

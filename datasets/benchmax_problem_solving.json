@@ -1,5 +1,7 @@
 {
     "Name": "BenchMAX_Problem_Solving",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Problem_Solving",
     "Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Problem_Solving",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "BenchMAX_Problem_Solving is a dataset of BenchMAX, sourcing from LiveCodeBench_v4, which evaluates the code generation capability for solving multilingual competitive code problems.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "code generation"
     ],

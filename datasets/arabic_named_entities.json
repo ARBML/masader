@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Named Entities",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Arabic_Named_Entities",
     "Link": "https://sourceforge.net/projects/arabicnes/",
@@ -7,12 +9,18 @@
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "we have extracted\r\napproximately 45,000 Arabic NE",
     "Volume": 45000.0,
@@ -29,7 +37,7 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "named entity recognition"
     ],

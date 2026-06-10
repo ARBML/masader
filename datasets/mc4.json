@@ -1,5 +1,7 @@
 {
     "Name": "mC4",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/legacy-datasets/mc4",
     "Link": "https://www.tensorflow.org/datasets/catalog/c4#c4multilingual_nights_stay",
@@ -7,12 +9,18 @@
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "A colossal, cleaned version of Common Crawl's web crawl corpus.",
     "Volume": 53256040.0,
@@ -31,7 +39,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "language modeling"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Speech Corpus",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/halabi2016/arabic_speech_corpus",
     "Link": "http://en.arabicspeechcorpus.com/",
@@ -7,12 +9,18 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The corpus was recorded in south Levantine Arabic (Damascian accent) using a professional studio.",
     "Volume": 4.0,
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

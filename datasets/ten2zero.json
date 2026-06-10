@@ -1,5 +1,7 @@
 {
     "Name": "Ten2Zero",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/gfbati/Ten2Zero",
     "Link": "https://huggingface.co/datasets/gfbati/Ten2Zero",
@@ -7,13 +9,18 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
-        "human annotation",
         "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Balanced spoken Arabic digit dataset (numbers 0-10) for teaching machine learning without coding, including wav files and generated tabular features/spectrograms.",
     "Volume": 935.0,
@@ -30,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

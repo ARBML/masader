@@ -1,5 +1,7 @@
 {
     "Name": "Fusion Pairwise Preference ",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/CohereLabs/fusion-pairwise-evals-finetuned",
     "Link": "https://huggingface.co/datasets/CohereLabs/fusion-pairwise-evals-finetuned",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "This data contains pairwise automatic win-rate evaluations for the m-ArenaHard-v2.0 benchmark and it compares 2 models against gemini-2.5-flash",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "instruction tuning",
         "preference optimization"

@@ -1,5 +1,7 @@
 {
     "Name": "Multilingual Speech & Translation Dataset ",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/alconost/alconost-multilingual-speech-en-ja-ar-pl-v1",
     "Link": "https://huggingface.co/datasets/alconost/alconost-multilingual-speech-en-ja-ar-pl-v1",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Description 10 English source phrases with expert human translations into Japanese, Egyptian Arabic, and Polish. Each target phrase is recorded by 5 native speakers per language (two takes each). Audio is WAV 48 kHz mono, 16\u2011bit PCM. ",
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition",
         "machine translation"

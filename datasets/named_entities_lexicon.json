@@ -1,5 +1,7 @@
 {
     "Name": "Named Entities Lexicon",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Named_Entities_Lexicon",
     "Link": "https://github.com/Hkiri-Emna/Named_Entities_Lexicon_Project",
@@ -7,12 +9,18 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Named entities (person,organisation and location) Arabic-English Pairs Person 27480 Organization 17237 Location 4036 Overall Arabic-English Pairs 48753",
     "Volume": 48753.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "named entity recognition",
         "machine translation"

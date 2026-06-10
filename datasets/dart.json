@@ -1,6 +1,7 @@
 {
     "Name": "DART",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "EGY",
             "Dialect": "Egypt",
@@ -32,18 +33,25 @@
             "Unit": "sentences"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/DART",
     "Link": "https://www.dropbox.com/s/jslg6fzxeu47flu/DART.zip?dl=0",
     "License": "unknown",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Dialectal Arabic Tweets",
     "Volume": 24280.0,
@@ -60,7 +68,7 @@
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "dialect identification"
     ],

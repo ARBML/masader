@@ -1,5 +1,7 @@
 {
     "Name": "ArtELingo",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/youssef101/artelingo",
     "Link": "https://www.artelingo.org",
@@ -7,11 +9,17 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Multilingual emotion and caption dataset for 80k WikiArt images in Arabic, Chinese, English and Spanish.",
@@ -32,7 +40,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "emotion classification"
     ],

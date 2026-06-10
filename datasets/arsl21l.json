@@ -1,5 +1,7 @@
 {
     "Name": "ArSL21L",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArSL21L",
     "Link": "https://data.mendeley.com/datasets/8hrn3bvdvk/1",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Annotated Arabic Sign Language Letters Dataset (ArSL21L) consisting of 14202 images of 32 letter signs with various back- grounds collected from 50 people.",
     "Volume": 14202.0,
@@ -29,7 +37,7 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "sign language recognition"
     ],

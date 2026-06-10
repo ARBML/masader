@@ -1,6 +1,7 @@
 {
     "Name": "DiaLex",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Algerian",
             "Dialect": "Algeria",
@@ -32,17 +33,24 @@
             "Unit": "sentences"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/dialex",
     "Link": "https://github.com/UBC-NLP/dialex",
     "License": "unknown",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "A Benchmark for Evaluating Multidialectal Arabic Word Embeddings",
@@ -60,7 +68,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "embedding evaluation"
     ],

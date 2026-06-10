@@ -1,5 +1,7 @@
 {
     "Name": "GALE Phase 4 Arabic Weblog Parallel Sentences",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2016T14",
@@ -7,12 +9,18 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages",
         "news articles"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "GALE Phase 4 Arabic Weblog Parallel Sentences includes 1,067 source-translation document pairs, comprising 68,346 words (Arabic source) of translated data. Data is drawn from various Arabic newsgroup and weblog sources.",
@@ -30,7 +38,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],
@@ -39,7 +47,7 @@
     "Venue Name": "",
     "Authors": [
         "Song Chen",
-        "Gary Krug", 
+        "Gary Krug",
         "Stephanie Strassel"
     ],
     "Affiliations": [],

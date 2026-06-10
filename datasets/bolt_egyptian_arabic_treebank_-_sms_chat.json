@@ -1,5 +1,7 @@
 {
     "Name": "BOLT Egyptian Arabic Treebank - SMS/Chat",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2021T17",
@@ -7,11 +9,17 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This release contains 349,414 tokens before clitics were split and 435,677 tree tokens after clitics were split for treebank annotation. The source data was collected by LDC from its collection platform or by donation and was manually reviewed to exclude material not in the target language or with sensitive content. Originally written in Arabizi (or Romanized/Latin characters) script, the source data was transliterated to Arabic script and manually corrected prior to treebank annotation.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "part of speech tagging",
         "morphological analysis"

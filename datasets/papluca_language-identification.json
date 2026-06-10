@@ -1,5 +1,7 @@
 {
     "Name": "papluca/language-identification",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/papluca/language-identification",
     "Link": "https://hf.co/datasets/papluca/language-identification",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The Language Identification dataset is a collection of 90k samples consisting of text passages and corresponding language label.",
     "Volume": 90000.0,
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "language identification"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "Arabic WikiReading and KaifLematha",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/esulaiman/Arabic-WikiReading-and-KaifLematha-datasets",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "high quality and large-scale Arabic reading comprehension datasets: Arabic WikiReading and KaifLematha with around +100 K instances.",
     "Volume": 100000.0,
@@ -27,7 +35,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "question answering"
     ],

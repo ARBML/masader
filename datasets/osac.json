@@ -1,5 +1,7 @@
 {
     "Name": "OSAC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/OSAC_CNN",
     "Link": "https://sourceforge.net/projects/ar-text-mining/files/Arabic-Corpora/",
@@ -7,12 +9,18 @@
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "collecting the largest free\r\naccessible Arabic corpus, OSAC, which contains about\r\n18M words and about 0.5M district keywords.",
     "Volume": 22429.0,
@@ -29,7 +37,7 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "topic classification"
     ],

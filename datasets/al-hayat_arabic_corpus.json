@@ -1,5 +1,7 @@
 {
     "Name": "Al-Hayat Arabic Corpus",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-W0030/",
@@ -7,12 +9,18 @@
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "Science"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The corpus was developed in the course of a research project at the University of Essex, in collaboration with the Open University. The corpus contains Al-Hayat newspaper articles with value added for Language Engineering and Information Retrieval applications development purposes. The data have been distributed into 7 subject-specific databases, thus following the Al-Hayat subject tags: General, Car, Computer, News, Economics, Science, and Sport. Mark-up, numbers, special characters and punctuation have been removed. The size of the total file is 268 MB. The dataset contains 18,639,264 distinct tokens in 42,591 articles, organised in 7 domains",
     "Volume": 42591.0,
@@ -27,7 +35,7 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "720.00\u20ac",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "topic classification"
     ],

@@ -1,6 +1,7 @@
 {
     "Name": "Habibi Speech",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "MSA",
             "Volume": 921.5,
@@ -80,18 +81,24 @@
             "Dialect": "mixed"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/SWivid/Habibi",
     "Link": "https://SWivid.github.io/Habibi/",
     "License": "Apache-2.0",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Unified-dialectal Arabic Text to Speech framework with 12+ dialects.",
@@ -122,7 +129,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "text to speech"
     ],

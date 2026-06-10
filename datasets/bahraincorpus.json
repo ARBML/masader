@@ -1,5 +1,7 @@
 {
     "Name": "BahrainCorpus",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "http://www.bahraincorpus.com",
@@ -7,16 +9,22 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Bahrain",
-    "Domain": [
+    "Source": [
         "social media",
         "TV channels",
         "web pages",
         "public datasets"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
-        "machine annotation",
-        "human annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "A 620K-word multi-genre corpus of Bahraini Arabic with written texts and spoken transcripts, automatically morphologically annotated.",
     "Volume": 620301.0,
@@ -37,7 +45,7 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "morphological analysis",
         "speech recognition"

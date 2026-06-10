@@ -150,6 +150,10 @@ async function fomratDetails(data, index) {
         '<span class="text-gray-800">' + data['Dialect'] + '</span>' +
         '</div>' +
         ' <div class="grid grid-cols-2  ">' +
+        '<span class="text-gray-400">Source</span>' +
+        '<span class="text-gray-800">' + data['Source'] + '</span>' +
+        '</div>' +
+        ' <div class="grid grid-cols-2  ">' +
         '<span class="text-gray-400">Domain</span>' +
         '<span class="text-gray-800">' + data['Domain'] + '</span>' +
         '</div>' +
@@ -160,6 +164,10 @@ async function fomratDetails(data, index) {
         ' <div class="grid grid-cols-2  ">' +
         '<span class="text-gray-400">Collection Style</span>' +
         '<span class="text-gray-800">' + data['Collection Style'] + '</span>' +
+        '</div>' +
+        ' <div class="grid grid-cols-2  ">' +
+        '<span class="text-gray-400">Annotation Style</span>' +
+        '<span class="text-gray-800">' + data['Annotation Style'] + '</span>' +
         '</div>' +
         ' <div class=" grid grid-cols-2 ">' +
         '<span class="text-gray-400">Provider</span>' +
@@ -182,8 +190,8 @@ async function fomratDetails(data, index) {
         '<span class="text-gray-800">' + (data['Cost'] != '' ? row['Cost'] : 'Not Available') + '</span>' +
         '</div>' +
         ' <div class="grid grid-cols-2  ">' +
-        '<span class="text-gray-400">Test Split</span>' +
-        '<span class="text-gray-800">' + data['Test Split'] + '</span>' +
+        '<span class="text-gray-400">Has Splits</span>' +
+        '<span class="text-gray-800">' + data['Has Splits'] + '</span>' +
         '</div>' +
         '</div>' +
         '<div class="collapse-footer flex justify-end gap-x-5 mt-7">' +

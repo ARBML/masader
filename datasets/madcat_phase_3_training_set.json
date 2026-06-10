@@ -1,5 +1,7 @@
 {
     "Name": "MADCAT Phase 3 Training Set",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2013T15",
@@ -7,11 +9,17 @@
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "images",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This release includes 4,540 annotation files in both GEDI XML and MADCAT XML formats (gedi.xml and madcat.xml) along with their corresponding scanned image files in TIFF format. The annotation results in GEDI XML files include ground truth annotations and source transcripts.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "optical character recognition"
     ],
@@ -37,12 +45,12 @@
     "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
-       "David Lee",
-       "Safa Ismael",
-       "Dave Doermann",
-       "Stephanie Strassel",
-       "Song Chen",
-       "Stephen Grimes"
+        "David Lee",
+        "Safa Ismael",
+        "Dave Doermann",
+        "Stephanie Strassel",
+        "Song Chen",
+        "Stephen Grimes"
     ],
     "Affiliations": [],
     "Abstract": "",

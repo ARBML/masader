@@ -1,6 +1,7 @@
 {
     "Name": "IDRISI-R",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Arabic gold",
             "Dialect": "mixed",
@@ -26,18 +27,25 @@
             "Unit": "sentences"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/rsuwaileh/IDRISI",
     "License": "custom",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "IDRISI-R is the largest-scale publicly-available Twitter Location Mention Recognition (LMR) dataset, in both English and Arabic languages. It contains 41 disaster events of different types such as floods, fires, etc. In addition to tagging LMs in text, the LMs are labeled for location types such as countries, cities, streets, POIs, etc.",
     "Volume": 1268912.0,
@@ -58,7 +66,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "named entity recognition",
         "crisis detection",

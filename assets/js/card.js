@@ -84,6 +84,7 @@ axios
         let headers = [];
         let headersWhiteList = [
             'Name',
+            'Partial',
             'Link',
             'HF Link',
             'Description',
@@ -96,9 +97,11 @@ axios
             'License',
             'Language',
             'Dialect',
+            'Source',
             'Domain',
             'Form',
             'Collection Style',
+            'Annotation Style',
             'Ethical Risks',
             'Provider',
             'Derived From',
@@ -106,7 +109,8 @@ axios
             'Tokenized',
             'Host',
             'Cost',
-            'Test Split',
+            'Has Splits',
+            'Dialect Subsets',
             'Subsets',
         ];
 
@@ -155,7 +159,10 @@ axios
                     }
                 } else
                     value = linkuize(value, value);
-            } else if (element.title == 'Subsets') {
+            } else if (
+                element.title == 'Dialect Subsets' ||
+                element.title == 'Subsets'
+            ) {
                 if (row[element.title] != '') {
                     let subsets = row[element.title];
                     value = createSubsets(subsets);

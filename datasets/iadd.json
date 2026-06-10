@@ -1,6 +1,7 @@
 {
     "Name": "IADD",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Volume": 14426.0,
@@ -68,17 +69,24 @@
             "Dialect": "Lebanon"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/evageon/IADD",
     "Link": "https://github.com/JihadZa/IADD",
     "License": "CC BY 4.0",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Integrated dataset for Arabic dialect identification with 135k texts from 5 regions and 9 countries.",
@@ -102,7 +110,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "dialect identification"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "Egyptian Arabic Islamic QA Dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Omar-youssef/islamic-qa-egyptian-arabic",
     "Link": "https://huggingface.co/datasets/Omar-youssef/islamic-qa-egyptian-arabic",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This dataset contains 7,465 question-answer pairs in Egyptian Arabic covering comprehensive Islamic studies topics. The dataset serves as a valuable resource for developing Arabic NLP models focused on Islamic education and religious knowledge.",
@@ -27,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering"
     ],

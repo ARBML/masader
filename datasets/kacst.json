@@ -1,5 +1,7 @@
 {
     "Name": "KACST",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "http://www.kacstac.org.sa",
@@ -7,12 +9,18 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The KACST Arabic corpus comprises more than 700 million words from the pre-Islamic era to the present day (a period covering more than 1,500 years), collected from 10 diverse mediums.",
     "Volume": 7000000.0,
@@ -31,7 +39,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "natural language inference"
     ],

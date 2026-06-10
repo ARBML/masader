@@ -1,5 +1,7 @@
 {
     "Name": "TSAC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/TSAC",
     "Link": "https://github.com/fbougares/TSAC",
@@ -7,12 +9,18 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "About 17k user comments manually annotated to positive and negative polarities. This corpus is collected from Facebook users comments written on official pages of Tunisian radios and TV channels",
     "Volume": 17000.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis"
     ],

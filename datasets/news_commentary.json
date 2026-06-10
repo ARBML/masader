@@ -1,5 +1,7 @@
 {
     "Name": "News Commentary",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/news_commentary",
     "Link": "https://opus.nlpl.eu/News-Commentary/corpus/version/News-Commentary",
@@ -7,11 +9,17 @@
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "A parallel corpus of News Commentaries provided by WMT for training SMT",
@@ -31,7 +39,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "machine translation"
     ],

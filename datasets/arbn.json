@@ -1,5 +1,7 @@
 {
     "Name": "ArBN",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/dru-ac/ArBNTopic",
     "Link": "https://huggingface.co/datasets/dru-ac/ArBNTopic",
@@ -7,14 +9,20 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "news articles",
         "public datasets"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Arabic dataset for topic classification",
     "Volume": 19784.0,
@@ -33,7 +41,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "topic classification"
     ],

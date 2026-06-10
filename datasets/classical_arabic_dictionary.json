@@ -1,5 +1,7 @@
 {
     "Name": "Classical Arabic Dictionary",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2021L01",
@@ -7,11 +9,17 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The dictionary is presented in three formats: plain text in UTF-8 encoding, plain text in CP1256 encoding, and as an SQL database file. Source documents are presented in UTF-8 and CP1256 encodings.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "250.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "dictionary"
     ],

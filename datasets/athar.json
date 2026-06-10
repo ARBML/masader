@@ -1,5 +1,7 @@
 {
     "Name": "ATHAR",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/mohamed-khalil/ATHAR",
     "Link": "https://hf.co/datasets/mohamed-khalil/ATHAR",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The ATHAR dataset comprises 66,000 translation pairs from Classical Arabic to English. It spans a wide array of subjects, aiming to enhance the development of NLP models specialized in Classical Arabic. This dataset addresses the gap in translation resources for Classical Arabic and is useful for fine-tuning large language models (LLMs) to improve their performance in handling ancient texts.",
@@ -35,7 +43,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "machine translation"
     ],

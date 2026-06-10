@@ -1,5 +1,7 @@
 {
     "Name": "Mawqif",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/NoraAlt/Mawqif_Stance-Detection",
     "Link": "https://github.com/NoraAlt/Mawqif-Arabic-Stance",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Mawqif is the first Arabic dataset that can be used for target-specific stance detection. This is a multi-label dataset where each data point is annotated for stance, sentiment, and sarcasm.",
     "Volume": 4121.0,
@@ -27,7 +35,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis",
         "topic classification",

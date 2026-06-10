@@ -1,5 +1,7 @@
 {
     "Name": "MAGBIG",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/felfri/MAGBIG",
     "Link": "https://huggingface.co/datasets/felfri/MAGBIG",
@@ -7,13 +9,19 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
-        "LLM generated",
-        "human annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "LLM generated"
     ],
     "Description": "Multilingual Assessment of Gender Bias in Image Generation with controlled prompts in nine languages.",
     "Volume": 624.0,
@@ -30,7 +38,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "instruction tuning",
         "gender bias detection"

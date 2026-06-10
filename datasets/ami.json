@@ -1,5 +1,7 @@
 {
     "Name": "AMI",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/Allarwa/AMI-Dataset",
@@ -7,14 +9,19 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
-        "machine annotation",
-        "human annotation"
+        "crawling"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "An Arabic Twitter-based mental-illness focused sentiment dataset automatically annotated via transfer learning.",
     "Volume": 3500.0,
@@ -32,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis",
         "topic classification"

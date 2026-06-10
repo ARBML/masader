@@ -1,5 +1,7 @@
 {
     "Name": "ASAS",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/HebArabNlpProject/ASAS",
     "Link": "https://huggingface.co/datasets/HebArabNlpProject/ASAS",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "a high-quality Arabic summarization dataset with sentence-level human validation and explicit supporting evidence from the source text. It is designed for long-form, factual, and faithful summarization research.",
@@ -27,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "summarization"
     ],

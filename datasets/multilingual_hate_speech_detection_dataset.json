@@ -1,5 +1,7 @@
 {
     "Name": "Multilingual Hate\r\nSpeech Detection Dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/hate-alert/DE-LIMIT/tree/master/Dataset",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Combined MLMA and L-HSAB datasets",
     "Volume": 5790.0,
@@ -32,7 +40,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "hate speech detection"
     ],

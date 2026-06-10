@@ -1,5 +1,7 @@
 {
     "Name": "3LM Native STEM Arabic Benchmark",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/tiiuae/NativeQA",
     "Link": "https://github.com/tiiuae/3LM-benchmark",
@@ -7,13 +9,19 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The 3LM Native STEM dataset contains 865 multiple-choice questions (MCQs) curated from real Arabic educational sources.",
     "Volume": 865.0,
@@ -30,7 +38,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "multiple choice question answering"
     ],

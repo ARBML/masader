@@ -1,5 +1,7 @@
 {
     "Name": "XFact",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/utahnlp/x-fact",
     "Link": "https://github.com/utahnlp/x-fact",
@@ -7,13 +9,19 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "web pages"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "X-FACT is a multilingual dataset for fact-checking with real world claims. The dataset contains short statments in 25 languages with top five evidence documents retrieved by performing google search with claim statements. ",
     "Volume": 2090.0,
@@ -30,7 +38,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "fact checking"
     ],

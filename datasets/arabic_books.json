@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Books",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/MohamedRashad/arabic-books",
     "Link": "https://huggingface.co/datasets/MohamedRashad/arabic-books",
@@ -7,13 +9,18 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "web pages"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "images",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "A large scale dataset of 1.1 billion Arabic tokens extracted from over 8500 books using nougat models.",
@@ -31,7 +38,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "optical character recognition",
         "language modeling",

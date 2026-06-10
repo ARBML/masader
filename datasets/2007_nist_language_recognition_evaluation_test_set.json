@@ -1,5 +1,7 @@
 {
     "Name": "2007 NIST Language Recognition Evaluation Test Set",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009S04",
@@ -7,11 +9,17 @@
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "Legal"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Each speech file in the test data is one side of a 4-wire telephone conversation represented as 8-bit 8-kHz mu-law format. There are 7530 speech files in SPHERE (.sph) format for a total of 66 hours of speech. The speech data was compiled from LDCs CALLFRIEND, Fisher Spanish, and Mixer 3 corpora and from data collected by Oregon Health and Science University (OHSU), Beaverton, Oregon.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language identification"
     ],

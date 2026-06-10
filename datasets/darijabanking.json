@@ -1,6 +1,7 @@
 {
     "Name": "DarijaBanking",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Darija",
             "Volume": 1800.0,
@@ -14,17 +15,24 @@
             "Dialect": "Modern Standard Arabic"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/abderrahmanskiredj/DarijaBanking",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -50,7 +58,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "intent detection",
         "machine translation"

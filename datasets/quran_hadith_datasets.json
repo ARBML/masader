@@ -1,5 +1,7 @@
 {
     "Name": "Quran Hadith Datasets",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Quran_Hadith",
     "Link": "https://github.com/ShathaTm/Quran_Hadith_Datasets",
@@ -7,12 +9,17 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "Quran"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "The datasets showcase the related and non-related pairs of Quran-Quran and Quran-Hadith. It has Classical Arabic and English translated verses and teachings.",
@@ -28,7 +35,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "semantic similarity"
     ],

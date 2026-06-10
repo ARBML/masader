@@ -1,5 +1,7 @@
 {
     "Name": "LLM Safeguard Evaluation",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/mbzuai-nlp/Arabic_safety_evaluation",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Arab-region-specific safety evaluation dataset for large language models comprising 5,799 questions (direct attacks, indirect attacks, and harmless prompts) crafted for socio-cultural context.",
@@ -31,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "safety evaluation"
     ],

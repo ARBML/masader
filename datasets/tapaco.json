@@ -1,5 +1,7 @@
 {
     "Name": "TaPaCo",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/community-datasets/tapaco",
     "Link": "https://zenodo.org/record/3707949#.YRKu0ogzaUk",
@@ -7,11 +9,17 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The corpus contains a total of 1.9 million sentences, with 200 \u2013 250 000\r\nsentences per language",
@@ -31,7 +39,7 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "paraphrase identification"
     ],

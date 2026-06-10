@@ -1,5 +1,7 @@
 {
     "Name": "GALE Phase 2 Arabic Broadcast News Speech Part 2",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2015S01",
@@ -7,12 +9,18 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels",
         "news articles"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The broadcast recordings in this release feature news programs focusing principally on current events from the following sources: Abu Dhabi TV, a television station based in Abu Dhabi, United Arab Emirates; Al Alam News Channel, based in Iran; Aljazeera , a regional broadcaster located in Doha, Qatar; Al Ordiniyah, a national broadcast station in Jordan; Dubai TV, based in Dubai, United Arab Emirates; Al Iraqiyah, a television network based in Iraq; Kuwait TV, a national television station based in Kuwait; Lebanese Broadcasting Corporation, a Lebanese television station; Nile TV, a broadcast programmer based in Egypt; Saudi TV, a national television station based in Saudi Arabia; and Syria TV, the national television station in Syria.",
@@ -30,7 +38,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],
@@ -38,10 +46,10 @@
     "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
-        "Kevin Walker", 
-        "Christopher Caruso", 
-        "Kazuaki Maeda", 
-        "Denise DiPersio", 
+        "Kevin Walker",
+        "Christopher Caruso",
+        "Kazuaki Maeda",
+        "Denise DiPersio",
         "Stephanie Strassel"
     ],
     "Affiliations": [],

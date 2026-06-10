@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Gigaword",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2003T12",
@@ -7,12 +9,18 @@
     "Year": 2003,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "There are 319 files, totalling approximately 1.1GB in compressed form (4348 MB uncompressed, and 391619 Kwords).",
     "Volume": 1256719.0,
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "information retrieval",
         "language modeling"

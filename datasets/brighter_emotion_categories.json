@@ -1,6 +1,7 @@
 {
     "Name": "BRIGHTER Emotion Categories",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "arq",
             "Volume": 2905.0,
@@ -14,19 +15,26 @@
             "Dialect": "Morocco"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/brighter-dataset/BRIGHTER-emotion-categories",
     "Link": "https://huggingface.co/datasets/brighter-dataset/BRIGHTER-emotion-categories",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "books",
         "news articles"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The BRIGHTER Emotion Categories dataset is a comprehensive multi-language, multi-label emotion classification dataset with separate configurations for each language. It represents one of the largest human-annotated emotion datasets across multiple languages.",
@@ -44,7 +52,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "emotion classification"
     ],

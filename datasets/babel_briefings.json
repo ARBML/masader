@@ -1,5 +1,7 @@
 {
     "Name": "BABEL BRIEFINGS",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/felixludos/babel-briefings",
     "Link": "https://www.kaggle.com/datasets/felixludos/babel-briefings",
@@ -7,12 +9,18 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Multilingual headlines corpus spanning August 2020\u2013November 2021, drawn from global press via News API.",
     "Volume": 178854.0,
@@ -29,7 +37,7 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

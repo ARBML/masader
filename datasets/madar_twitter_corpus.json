@@ -1,6 +1,7 @@
 {
     "Name": "MADAR Twitter Corpus",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Saudi Arabia",
             "Dialect": "Saudi Arabia",
@@ -128,18 +129,25 @@
             "Unit": "sentences"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/CAMeL-Lab/CAMeLBERT",
     "License": "unknown",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "A  large-scale collection of parallel sentences built to cover the dialects of 25 cities from the Arab World",
     "Volume": 2980.0,
@@ -156,7 +164,7 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "machine translation",
         "dialect identification"

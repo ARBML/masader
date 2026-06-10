@@ -1,5 +1,7 @@
 {
     "Name": "ArPanEmo",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/d9yy8w52ns",
@@ -7,13 +9,18 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": [
+    "Source": [
         "social media",
         "news articles"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Manually annotated Arabic online posts on COVID-19 for fine-grained emotion recognition, covering 11 emotion labels.",
@@ -31,7 +38,7 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "emotion classification"
     ],

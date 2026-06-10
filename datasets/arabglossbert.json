@@ -1,5 +1,7 @@
 {
     "Name": "ArabGlossBERT",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://huggingface.co/spaces/SinaLab/ArabGlossBERT/tree/main",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "It is a fine-tuned BERT model designed for Arabic Word Sense Disambiguation (WSD). The model treats WSD as a sentence-pair binary classification task, leveraging a custom dataset of 167k labeled Arabic context-gloss pairs extracted from the Arabic Ontology. Each pair is labeled as True or False, with target words identified and annotated. The dataset was used to fine-tune three pre-trained Arabic BERT models, incorporating supervised signals to emphasize target words in context. The model achieved an accuracy of 84%, demonstrating strong performance despite the use of a large set of senses.",
     "Volume": 167.0,
@@ -30,7 +38,7 @@
     "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling",
         "natural language inference"

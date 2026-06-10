@@ -1,5 +1,7 @@
 {
     "Name": "ArabSign",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://hamzah-luqman.github.io/ArabSign/",
@@ -7,13 +9,18 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "videos",
     "Collection Style": [
-        "human annotation",
         "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A continuous Arabic Sign Language dataset with 9,335 video samples from 6 signers across 3 modalities (color, depth, skeleton).",
     "Volume": 10.2,
@@ -30,13 +37,13 @@
     "Host": "GitHub",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sign language recognition"
     ],
     "Venue Title": "IEEE FG",
     "Venue Type": "conference",
-    "Venue Name": "IEEE International Conference on Automatic Face and Gesture Recognition ",
+    "Venue Name": "IEEE International Conference on Automatic Face and Gesture Recognition",
     "Authors": [
         "Hamzah Luqman"
     ],

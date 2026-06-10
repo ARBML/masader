@@ -1,5 +1,7 @@
 {
     "Name": "Ultimate Arabic News Dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/khalidalt/ultimate_arabic_news",
     "Link": "https://data.mendeley.com/datasets/jz56k5wxz7/1",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The Ultimate Arabic News Dataset is a collection of single-label modern Arabic texts that are used in news websites and press articles.",
     "Volume": 381000.0,
@@ -29,7 +37,7 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "topic classification"
     ],

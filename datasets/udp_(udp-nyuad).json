@@ -1,5 +1,7 @@
 {
     "Name": "UDP (UDP-NYUAD)",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/universal_dependencies/viewer/ar_nyuad",
     "Link": "https://github.com/UniversalDependencies/UD_Arabic-NYUAD",
@@ -7,12 +9,18 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The treebank consists of 19,738 sentences (738889 tokens), and its domain is mainly newswire.",
     "Volume": 738889.0,
@@ -36,7 +44,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "morphological analysis",
         "dependency parsing",

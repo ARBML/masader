@@ -1,5 +1,7 @@
 {
     "Name": "MentorEval",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/alvaro-francisco-gil/mentor-eval",
     "Link": "https://github.com/alvaro-francisco-gil/mentor-eval",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The benchmark contains 57,444 student responses across 6 datasets from 3 languages (English, Portuguese, Arabic), covering ISCED levels 1, 2, 3, 6, and 7.",
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "answer grading"
     ],

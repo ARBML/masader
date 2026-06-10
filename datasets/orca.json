@@ -1,5 +1,7 @@
 {
     "Name": "ORCA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://orca.dlnlp.ai/",
@@ -7,11 +9,17 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Public benchmark for Arabic language understanding",
@@ -57,7 +65,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "text classification",
         "named entity recognition",
@@ -68,7 +76,7 @@
     ],
     "Venue Title": "Findings of ACL",
     "Venue Type": "conference",
-    "Venue Name": "Findings of Associations of Computation Linguistics ",
+    "Venue Name": "Findings of Associations of Computation Linguistics",
     "Authors": [
         "AbdelRahim Elmadany",
         "ElMoatezBillah Nagoudi",

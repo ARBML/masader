@@ -1,5 +1,7 @@
 {
     "Name": "Buckwalter Arabic Morphological Analyzer Version 2.0",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2004L02",
@@ -7,11 +9,17 @@
     "Year": 2004,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The data consists primarily of three Arabic-English lexicon files: prefixes (299 entries), suffixes (618 entries), and stems (82158 entries representing 38600 lemmas). The lexicons are supplemented by three morphological compatibility tables used for controlling prefix-stem combinations (1648 entries), stem-suffix combinations (1285 entries), and prefix-suffix combinations (598 entries). The actual code for morphology analysis and POS tagging is contained in a Perl script. The documentation consists of a readme file with a description of the lexicon files, the morphological compatibility tables, the morphology analysis algorithm, a summary of stem morphological categories, and a table with the authors Arabic transliteration system.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "N/A $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "morphological analysis",
         "part of speech tagging"

@@ -1,5 +1,7 @@
 {
     "Name": "ARABABYTALK-EGY",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "http://arababytalk.camel-lab.com/",
@@ -7,13 +9,19 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
-        "LLM generated",
-        "human annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "LLM generated"
     ],
     "Description": "AraBabyTalk-EGY is an enriched release of the Egyptian Arabic CHILDES corpus that opens the child-adult interactions genre to modern Arabic NLP research. ",
     "Volume": 26000.0,
@@ -32,7 +40,7 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "morphological analysis",
         "speech recognition"

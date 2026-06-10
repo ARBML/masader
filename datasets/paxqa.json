@@ -1,5 +1,7 @@
 {
     "Name": "PAXQA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/manestay/paxqa_val_test",
     "Link": "https://huggingface.co/datasets/manestay/paxqa_val_test",
@@ -7,14 +9,20 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "public datasets"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
-        "machine annotation",
-        "human annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "A synthetic Arabic-English cross-lingual QA dataset generated with parallel corpora and alignment-based translation.",
     "Volume": 593.0,
@@ -33,7 +41,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "question answering"
     ],

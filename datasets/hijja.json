@@ -1,5 +1,7 @@
 {
     "Name": "Hijja",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Hijja2",
     "Link": "https://github.com/israksu/Hijja2",
@@ -7,13 +9,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
-        "human annotation",
         "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic handwritten letters dataset written by children aged 7\u201312",
     "Volume": 47434.0,
@@ -30,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "optical character recognition"
     ],

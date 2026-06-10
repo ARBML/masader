@@ -1,5 +1,7 @@
 {
     "Name": "GALE Arabic-English Parallel Aligned Treebank -- Broadcast News Part 2",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2014T03",
@@ -7,11 +9,17 @@
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The source data consists of Arabic broadcast news programming collected by LDC in 2007 and 2008 from Al Arabiya, Abu Dhabi TV, Al Baghdadya TV, Al Fayha, Alhurra, Al Iraqiyah, Aljazeera, Al Ordiniyah, Al Sharqiya, Dubai TV, Oman TV, Radio Sawa and Saudi TV. All data is encoded as UTF-8. A count of files, words, tokens and segments is below.",
@@ -29,14 +37,14 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "",
     "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [ 
+    "Authors": [
         "Xuansong Li",
         "Stephen Grimes",
         "Safa Ismael",

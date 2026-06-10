@@ -1,5 +1,7 @@
 {
     "Name": "Dialect2SQL",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/salmane11/Dialect2SQL",
     "Link": "https://huggingface.co/datasets/salmane11/Dialect2SQL",
@@ -7,13 +9,19 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "LLM generated",
-        "human annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "LLM generated"
     ],
     "Description": "Moroccan Darija text-to-SQL dataset, 9428 pairs.",
     "Volume": 9428.0,
@@ -32,7 +40,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "text-to-SQL generation"
     ],

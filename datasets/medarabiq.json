@@ -1,5 +1,7 @@
 {
     "Name": "MedArabiQ",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/qimma/QA_MedArabiQ",
     "Link": "https://github.com/nyuad-cai/MedArabiQ",
@@ -7,13 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "Science"
     ],
     "Form": "text",
     "Collection Style": [
-        "manual curation",
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "Benchmark for evaluating Arabic medical LLMs.",
@@ -33,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "multiple choice question answering",
         "question answering",

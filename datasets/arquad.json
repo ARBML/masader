@@ -1,5 +1,7 @@
 {
     "Name": "ArQuAD",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArQuAD",
     "Link": "https://github.com/RashaMObeidat/ArQuAD",
@@ -7,12 +9,18 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "a large MRC dataset for the Arabic language. The dataset comprises 16,020 questions posed by language experts on passages extracted from Arabic Wikipedia articles, where the answer to each question is a text segment from the corresponding reading passage.",
     "Volume": 16020.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "question answering"
     ],

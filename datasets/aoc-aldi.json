@@ -1,5 +1,7 @@
 {
     "Name": "AOC-ALDi",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AOC_ALDi",
     "Link": "https://github.com/AMR-KELEG/ALDi/raw/master/data/AOC-ALDi.tar.gz",
@@ -7,12 +9,18 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "commentary"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Comments to news articles with a continuous level of dialectness score between 0 and 1.",
     "Volume": 127835.0,
@@ -31,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "dialect identification"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "CORMAP: Corpus for Moroccan Arabic Processing",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/CORMAP",
     "Link": "https://lindat.mff.cuni.cz/repository/xmlui/handle/11372/LRT-3551",
@@ -7,11 +9,17 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This resource is a corpus containing 34k Moroccan Colloquial Arabic sentences collected from different sources. The sentences are written in Arabic letters. This resource can be useful in some NLP applications such as Language Identification.",
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language identification"
     ],

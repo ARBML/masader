@@ -1,5 +1,7 @@
 {
     "Name": "Gulf Arabic Conversational Telephone Speech",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2006S43",
@@ -7,11 +9,17 @@
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Gulf",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A total of 976 conversation sides from 975 Gulf Arabic speakers are provided (one speaker appears on two distinct calls). Most of the calls contain both sides of a conversation (that is, 450 two-channel recordings plus 76 single-channel recordings). The average duration per side is about 5.7 minutes.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "800.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speaker identification",
         "speech recognition",

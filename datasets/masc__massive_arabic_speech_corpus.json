@@ -1,5 +1,7 @@
 {
     "Name": "MASC: Massive Arabic Speech Corpus",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/pain/MASC",
     "Link": "https://ieee-dataport.org/open-access/masc-massive-arabic-speech-corpus",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "This corpus is a dataset that contains 1,000 hours of speech sampled at 16~kHz and crawled from over 700 YouTube channels.",
     "Volume": 1000.0,
@@ -27,7 +35,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "speech recognition"
     ],

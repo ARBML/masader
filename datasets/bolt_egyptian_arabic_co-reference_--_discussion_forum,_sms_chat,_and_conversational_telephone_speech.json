@@ -1,5 +1,7 @@
 {
     "Name": "BOLT Egyptian Arabic Co-reference -- Discussion Forum, SMS/Chat, and Conversational Telephone Speech",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2021T14",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "commentary",
         "telephone conversations"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -31,7 +39,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,250.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "coreference resolution"
     ],

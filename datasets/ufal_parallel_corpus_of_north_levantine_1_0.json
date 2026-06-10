@@ -1,5 +1,7 @@
 {
     "Name": "UFAL Parallel Corpus of North Levantine 1.0",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/UFAL",
     "Link": "https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-5033",
@@ -7,11 +9,17 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "120,600 multiparallel sentences in English, French, German, Greek, Spanish, and Standard Arabic selected from the OpenSubtitles2018 corpus [1] and manually translated into the North Levantine Arabic language.",
@@ -27,7 +35,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "language modeling",
@@ -40,8 +48,8 @@
         "Mateusz Krubinski",
         "Hashem Sellat",
         "Shadi Saleh",
-        "Adam Pospíšil",
-        "Petr Zemánek",
+        "Adam Posp\u00ed\u0161il",
+        "Petr Zem\u00e1nek",
         "Pavel Pecina"
     ],
     "Affiliations": [

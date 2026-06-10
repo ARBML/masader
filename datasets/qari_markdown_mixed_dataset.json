@@ -1,5 +1,7 @@
 {
     "Name": "QARI Markdown Mixed Dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/NAMAA-Space/QariOCR-v0.3-markdown-mixed-dataset",
     "Link": "https://huggingface.co/datasets/NAMAA-Space/QariOCR-v0.3-markdown-mixed-dataset",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "images",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A vision-language OCR dataset for Arabic text recognition, generated synthetically and used to fine-tune the Qari-OCR model.",
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "optical character recognition"
     ],

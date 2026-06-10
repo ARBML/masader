@@ -1,5 +1,7 @@
 {
     "Name": "SADA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://www.kaggle.com/datasets/sdaiancai/sada2022",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "TV channels"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "668h of Saudi-dialect Arabic TV broadcasts for ASR (train 637.7h, dev 13.4h, test 16.6h).",
@@ -29,7 +37,7 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "speech recognition"
     ],

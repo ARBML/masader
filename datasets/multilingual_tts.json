@@ -1,5 +1,7 @@
 {
     "Name": "Multilingual TTS",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/MohamedRashad/multilingual-tts",
     "Link": "https://hf.co/datasets/MohamedRashad/multilingual-tts",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The Multilingual TTS dataset is an exceptional compilation of text-to-speech (TTS) samples, meticulously crafted to showcase the richness and diversity of human languages. This dataset encompasses a variety of real-world sentences in fifteen prominent languages, carefully chosen to reflect global linguistic diversity. Each sample is accompanied by its corresponding high-quality audio output.",
@@ -27,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "text to speech"
     ],

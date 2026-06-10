@@ -1,6 +1,7 @@
 {
     "Name": "AraDiCE-TruthfulQA ",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "TruthfulQA-egy",
             "Volume": 780.0,
@@ -20,17 +21,24 @@
             "Dialect": "Modern Standard Arabic"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/QCRI/AraDiCE-TruthfulQA",
     "Link": "https://huggingface.co/datasets/QCRI/AraDiCE-TruthfulQA",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -51,7 +59,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering"
     ],

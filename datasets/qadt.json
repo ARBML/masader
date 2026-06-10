@@ -1,5 +1,7 @@
 {
     "Name": "QADT",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/obadx/qdat",
     "Link": "https://www.kaggle.com/datasets/annealdahi/quran-recitation",
@@ -7,11 +9,17 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "Quran"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The audio files are manually annotated by expert to show the correctness of the Reciting the Quran with Tajwid according to three rules of recitation of Quran.",
@@ -29,7 +37,7 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "AraLingBench",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/hammh0a/AraLingBench",
     "Link": "https://github.com/hammoudhasan/AraLingBench",
@@ -7,13 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation",
         "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A fully human-annotated benchmark of 150 multiple-choice questions that evaluates core Arabic linguistic skills across grammar, morphology, spelling, reading comprehension, and syntax.",
     "Volume": 150.0,
@@ -30,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "multiple choice question answering"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "MDER-MA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/yzsw3ff6rn/1",
@@ -7,14 +9,26 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": ["TV channels"],
+    "Source": [
+        "TV channels"
+    ],
+    "Domain": [
+        "General"
+    ],
     "Form": "images",
-    "Collection Style": ["crawling", "human annotation"],
+    "Collection Style": [
+        "crawling"
+    ],
+    "Annotation Style": [
+        "human annotation"
+    ],
     "Description": "A multimodal Emotion Recognition Dataset for Moroccan Arabic, contain 5288 data items that express one of the four emotions: Happy, Sad, Angry, and Neutral, expressed in four different modalities: audio, text, spectrogram, and Mel-spectrogram images",
     "Volume": 1322.0,
     "Unit": "images",
     "Ethical Risks": "Low",
-    "Provider": ["Sidi Mohamed Ben Abdellah University"],
+    "Provider": [
+        "Sidi Mohamed Ben Abdellah University"
+    ],
     "Derived From": [],
     "Paper Title": "MDER-MA: A multimodal dataset for emotion recognition in low-resource Moroccan Arabic language",
     "Paper Link": "https://doi.org/10.1016/j.dib.2025.112005",
@@ -23,7 +37,7 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "emotion detection",
         "speech recognition",
@@ -33,8 +47,13 @@
     "Venue Title": "Data in Brief",
     "Venue Type": "journal",
     "Venue Name": "Data Brief",
-    "Authors": ["Soufiyan Ouali", "Said El Garouani"],
-    "Affiliations": ["Sidi Mohamed Ben Abdellah University"],
+    "Authors": [
+        "Soufiyan Ouali",
+        "Said El Garouani"
+    ],
+    "Affiliations": [
+        "Sidi Mohamed Ben Abdellah University"
+    ],
     "Abstract": "Emotion recognition and analysis have become increasingly important in recent years, particularly with the rapid digitization and automation of virtual agents. As these systems are integrated into various aspects of daily life, enabling them to understand and respond to human emotions is essential for creating more natural, empathetic, and effective interactions. Humanizing virtual agents through emotion-aware capabilities enhances user experience, plays a critical role in emotion-driven services, such as personalized customer support and mental health assistance, thereby offering significant socio-economic benefits. Despite the significant advancements achieved in high-resource languages within this field, these results cannot be directly generalized to low-resource languages such as Moroccan Arabic. This is because emotional expression is highly influenced by cultural, regional, and linguistic factors, leaving a gap between research on high- and low-resource languages. One of the major challenges hindering the development of such a powered system is the lack of a high-quality and realistic dataset. This paper introduces MDER-MA, a comprehensive multimodal dataset designed for emotion recognition in the Moroccan Arabic dialect. Contains 5288 data items that express one of the four emotions: Happy, Sad, Angry, and Neutral, expressed in four different modalities: audio, text, spectrogram, and Mel-spectrogram images. Each modality contains 1322 samples. The samples were collected from various regions across Morocco to ensure the creation of a representative dataset that is not biased toward any single geographic or linguistic area. MDER-MA supports multiple applications, including emotion recognition, audio transcription, age and gender identification from both speech, text, and image modalities. Annotation was conducted by five native Moroccan speakers, ensuring high linguistic reliability for real-time emotion recognition tasks. This work aims to bridge the gap between high-resource and low-resource languages in the field of emotion-aware and humanized intelligent systems, and to foster the development of Arabic language technologies, with particular attention to regional dialects such as Moroccan Arabic.",
     "Added By": "Zaid Alyafeai"
 }

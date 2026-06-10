@@ -1,5 +1,7 @@
 {
     "Name": "TransWebEdu",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/britllm/TransWebEdu",
     "Link": "https://huggingface.co/datasets/britllm/TransWebEdu",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A multilingual dataset created by translating the English FineWeb-Edu corpus into 9 languages using NLLB-200-1.3B.",
@@ -33,7 +41,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

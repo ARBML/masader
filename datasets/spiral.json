@@ -1,5 +1,7 @@
 {
     "Name": "SPIRAL",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/Dahouabdelhalim/SPIRAL",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "SPIRAL is a corpus dedicated to the detection and correction of spelling errors in MSA Arabic texts.",
     "Volume": 248441892.0,
@@ -27,7 +35,7 @@
     "Host": "Gdrive",
     "Access": "Upon-Request",
     "Cost": "0",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "machine translation",
         "morphological analysis",

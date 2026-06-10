@@ -1,5 +1,7 @@
 {
     "Name": "FASSILA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/amincoding/FASSILA",
@@ -7,15 +9,19 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media",
         "commentary"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
-        "human annotation",
-        "manual curation"
+        "crawling"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This corpus comprises 10,087 sentences, encompassing over 19,497 unique words in Algerian Dialect, and addresses the significant lack of linguistic resources in the language and covers seven distinct domains.",
     "Volume": 10087.0,
@@ -32,7 +38,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "fake news detection",
         "sentiment analysis"

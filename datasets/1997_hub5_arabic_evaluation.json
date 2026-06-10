@@ -1,5 +1,7 @@
 {
     "Name": "1997 HUB5 Arabic Evaluation",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2002S22",
@@ -7,11 +9,17 @@
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This publication contains 20 sphere files encoded in two channel interleaved mulaw with a sampling rate of 8 KHz, for a total of 424,160,000 bytes (405 Mbytes) of sphere data. The sphere headers have been modified from the original Evaluation data by the addition of sample checksums to the CALLHOME data files.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

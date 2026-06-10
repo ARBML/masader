@@ -1,5 +1,7 @@
 {
     "Name": "AQQAC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AQQAC",
     "Link": "https://archive.researchdata.leeds.ac.uk/464/1/AAQQAC.XML",
@@ -7,11 +9,17 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "Quran"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "QQAC is a collection of approximately 2224 questions and answers about Al-Al-Quran. Each question and answer is annotated with the question ID, question word (particles), chapter number, verse number, question topic, question type, Al-Quran ontology concepts (Alqahtani & Atwell, 2018) and question source. The aim of this corpus is to provide a Question-Answering taxonomy for questions about Al-Quran.",
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering"
     ],

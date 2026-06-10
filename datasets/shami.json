@@ -1,6 +1,7 @@
 {
     "Name": "Shami",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Jordanian",
             "Dialect": "Jordan",
@@ -26,18 +27,25 @@
             "Unit": "sentences"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Shami",
     "Link": "https://github.com/GU-CLASP/shami-corpus",
     "License": "Apache-2.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "the first Levantine Dialect Corpus (SDC) covering data from the four dialects spoken in Palestine, Jordan, Lebanon and Syria.",
     "Volume": 117805.0,
@@ -54,7 +62,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "dialect identification"
     ],

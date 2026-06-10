@@ -1,5 +1,7 @@
 {
     "Name": "Detect Egyptian Wikipedia Template-translated Articles",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/SaiedAlshahrani/Detect-Egyptian-Wikipedia-Articles",
     "Link": "https://github.com/SaiedAlshahrani/leveraging-corpus-metadata",
@@ -7,12 +9,18 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "A labeled dataset of Egyptian Arabic Wikipedia articles extracted from Wikipedia dumps 2024-01-01, along with their metadata.",
     "Volume": 755665.0,
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "language modeling",
         "topic classification",

@@ -1,5 +1,7 @@
 {
     "Name": "Poly-FEVER",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/HanzhiZhang/Poly-FEVER",
     "Link": "https://huggingface.co/datasets/HanzhiZhang/Poly-FEVER",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia",
         "public datasets"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A multilingual fact-verification benchmark with claims translated from English to 11 languages for hallucination detection in LLMs.",
@@ -35,7 +43,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "hallucination detection"
     ],

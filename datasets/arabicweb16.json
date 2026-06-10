@@ -1,5 +1,7 @@
 {
     "Name": "ArabicWeb16",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://sites.google.com/view/arabicweb16/",
@@ -7,12 +9,18 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "public Web crawl of 150,211,934 Arabic Web pages with high coverage of dialectal Arabic as well as Modern Standard Arabic (MSA)",
     "Volume": 150211934.0,
@@ -29,7 +37,7 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

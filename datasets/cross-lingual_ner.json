@@ -1,5 +1,7 @@
 {
     "Name": "Cross-lingual NER",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Zero_Shot_Cross_Lingual_NER_ar",
     "Link": "https://github.com/ntunlp/Zero-Shot-Cross-Lingual-NER",
@@ -7,11 +9,17 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "NER for five different target languages\r\n\u2014 Spanish, Dutch, German, Arabic and Finnish",
@@ -31,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "named entity recognition"
     ],

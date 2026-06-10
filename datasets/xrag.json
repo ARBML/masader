@@ -1,5 +1,7 @@
 {
     "Name": "XRAG",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/AmazonScience/XRAG",
     "Link": "https://huggingface.co/datasets/AmazonScience/XRAG",
@@ -7,14 +9,19 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
-        "LLM generated",
-        "human annotation"
+        "crawling"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "LLM generated"
     ],
     "Description": "XRAG is a cross-lingual RAG benchmark covering German, Spanish, Chinese, and Arabic questions with English retrieval documents.",
     "Volume": 1500.0,
@@ -31,7 +38,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "retrieval-augmented generation"
     ],

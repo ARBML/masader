@@ -1,5 +1,7 @@
 {
     "Name": "DivEMT",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/GroNLP/divemt",
     "Link": "https://github.com/gsarti/divemt",
@@ -7,11 +9,17 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "DivEMT is the first publicly available post-editing study of Neural Machine Translation (NMT) over a typologically diverse set of six target languages (Arabic, Dutch, Italian, Turkish, Ukrainian, Vietnamese).",
@@ -31,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "machine translation"
     ],

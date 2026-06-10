@@ -1,5 +1,7 @@
 {
     "Name": "HPLTv2",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
     "Link": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "HPLT v2 is a large-scale multilingual dataset offering 8 T tokens across 193 languages, extracted with a quality-controlled pipeline from Internet Archive & CommonCrawl.",
     "Volume": 82670000.0,
@@ -32,7 +40,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

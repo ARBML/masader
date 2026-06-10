@@ -1,5 +1,7 @@
 {
     "Name": "WanJuan\u00b7SiLu Multimodal Multilingual Corpus (Video)",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/opendatalab/WanJuanSiLu-Multimodal-5Languages",
     "Link": "https://huggingface.co/datasets/opendatalab/WanJuanSiLu-Multimodal-5Languages",
@@ -7,12 +9,18 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "videos",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Multimodal annotation system, constructing fine-grained labels and descriptions: It provides three forms of video screen annotation, subtitle annotation, and video screen and subtitle integrated annotation at the same time, providing more comprehensive information support for the research and development of multimodal models; It provides 17 types of multidimensional labels to meet diverse needs;",
     "Volume": 1738.0,
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "multimodal evaluation"
     ],

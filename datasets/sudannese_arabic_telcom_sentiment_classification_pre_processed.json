@@ -1,5 +1,7 @@
 {
     "Name": "Sudannese Arabic Telcom Sentiment Classification Pre Processed",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://docs.google.com/spreadsheets/d/13fIV8oHss-QRBKN-2h5LYF1i_1O9qH1R/edit?usp=sharing&ouid=113975694262803649646&rtpof=true&sd=true",
@@ -7,12 +9,18 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Sudan",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "it is pre processed dataset from Twitter about Telecom companies in Sudan, it labelled by 3 different labels from different age, gender and background",
     "Volume": 5349.0,
@@ -29,7 +37,7 @@
     "Host": "Gdrive",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "sentiment analysis"
     ],

@@ -15,18 +15,22 @@ The first online catalogue for Arabic NLP datasets. This catalogue contains more
 
 -   `No.` dataset number
 -   `Name` name of the dataset
--   `Subsets` subsets of the datasets
+-   `Partial` whether the catalogue entry represents only part of the dataset
+-   `Dialect Subsets` dialect-specific subsets of the dataset
+-   `Subsets` other named subsets of the dataset
 -   `Link` direct link to the dataset or instructions on how to download it
 -   `License` license of the dataset
 -   `Year` year of the publishing the dataset/paper
 -   `Language` ar or multilingual
 -   `Dialect` region Levant, country ar-EGY: (Arabic (Egypt)) or type Modern Standard Arabic
--   `Domain` social media, news articles, reviews, commentary, books, transcribed audio or other
+-   `Source` social media, news articles, reviews, commentary, books, public datasets or other
+-   `Domain` topical domain: General, Legal, News, Quran or Science
 -   `Form` text, audio or sign language
--   `Collection style` crawling, crawling and annotation (translation), crawling and annotation (other), machine translation, human translation, human curation or other
+-   `Collection style` crawling or manual curation
+-   `Annotation style` human annotation, machine annotation, LLM generated, no annotation or other
 -   `Description` short statement describing the dataset
 -   `Volume` the size of the dataset in numbers
--   `Unit` unit of the volume, could be tokens, sentences, documents, MB, GB, TB, hours or other
+-   `Unit` unit of the volume, such as tokens, sentences, documents, conversations, images, videos or hours
 -   `Provider` company or university providing the dataset
 -   `Related Datasets` any datasets that is related in terms of content to the dataset
 -   `Paper Title` title of the paper
@@ -36,7 +40,7 @@ The first online catalogue for Arabic NLP datasets. This catalogue contains more
 -   `Host` the host website for the data i.e GitHub
 -   `Access` the data is either free, upon-request or with-fee.
 -   `Cost` cost of the data is with-fee.
--   `Test split` does the data contain test split: Yes or No
+-   `Has splits` whether the data contains predefined splits: Yes or No
 -   `Tasks` the tasks included in the dataset spearated by comma
 -   `Evaluation Set` the data included in the evaluation suit by BigScience
 -   `Venue Title` the venue title i.e ACL
@@ -68,12 +72,13 @@ which gives the following output
  'Affiliations': ',The Islamic University of Gaza,,',
  'Authors': 'Chatrine Qwaider,Motaz Saad,S. Chatzikyriakidis,Simon Dobnik',
  'Citations': '25.0',
- 'Collection Style': 'crawling,annotation',
+ 'Annotation Style': 'human annotation',
+ 'Collection Style': 'crawling',
  'Cost': '',
  'Derived From': '',
  'Description': 'the first Levantine Dialect Corpus (SDC) covering data from the four dialects spoken in Palestine, Jordan, Lebanon and Syria.',
  'Dialect': 'Levant',
- 'Domain': 'social media',
+ 'Domain': 'General',
  'Ethical Risks': 'Medium',
  'Form': 'text',
  'Host': 'GitHub',
@@ -85,7 +90,7 @@ which gives the following output
  'Paper Title': 'Shami: A Corpus of Levantine Arabic Dialects',
  'Provider': 'Multiple institutions ',
  'Script': 'Arab',
- 'Subsets': [{'Dialect': 'Jordan',
+ 'Dialect Subsets': [{'Dialect': 'Jordan',
    'Name': 'Jordanian',
    'Unit': 'sentences',
    'Volume': '32,078'},
@@ -101,8 +106,11 @@ which gives the following output
    'Name': 'Lebanese',
    'Unit': 'sentences',
    'Volume': '16,304'}],
+ 'Subsets': [],
  'Tasks': 'dialect identification',
- 'Test Split': 'No',
+ 'Has Splits': 'No',
+ 'Partial': 'No',
+ 'Source': 'social media',
  'Tokenized': 'No',
  'Unit': 'sentences',
  'Venue Name': 'International Conference on Language Resources and Evaluation',

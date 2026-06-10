@@ -1,5 +1,7 @@
 {
     "Name": "EgyMMLU",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/EgyMMLU",
     "Link": "https://huggingface.co/datasets/UBC-NLP/EgyMMLU",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Large-scale Egyptian and Moroccan dialectal Arabic datasets for pre-training and instruction-tuning NileChat LLM.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "multiple choice question answering"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "Arabic OSACT5 : Arabic Hate Speech",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/osact5_hatespeech",
     "Link": "https://codalab.lisn.upsaclay.fr/competitions/2324",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Fine-Grained Hate Speech Detection on Arabic Twitter",
     "Volume": 10157.0,
@@ -29,7 +37,7 @@
     "Host": "CodaLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "hate speech detection"
     ],

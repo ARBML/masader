@@ -1,5 +1,7 @@
 {
     "Name": "OSCAR-2201",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/oscar-corpus/OSCAR-2201",
     "Link": "https://hf.co/datasets/oscar-corpus/OSCAR-2201",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the ungoliant architecture. Data is distributed by language in both original and deduplicated form.",
     "Volume": 8718929.0,
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

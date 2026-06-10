@@ -1,6 +1,7 @@
 {
     "Name": "CDNER",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "MSA",
             "Volume": 14168.0,
@@ -26,18 +27,25 @@
             "Dialect": "Syria"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/niamaelkhbir/Arabic-Cross-Dialectal-NER",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "news articles",
         "public datasets"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Cross-dialectal NER dataset for Arabic",
@@ -58,7 +66,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "named entity recognition"
     ],

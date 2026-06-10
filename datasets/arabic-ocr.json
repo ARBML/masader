@@ -1,5 +1,7 @@
 {
     "Name": "Arabic-OCR",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/Kareem-Emad/arabic-ocr",
@@ -7,11 +9,17 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This dataset contains multi-font Arabic printed text images used for text segmentation and OCR tasks. It involves different fonts and styles of Arabic script. The data is segmented using a hybrid method for character recognition, focusing on features like text skew correction, line, word, and character segmentation, and feature extraction for Arabic characters.",
@@ -31,7 +39,7 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "optical character recognition"
     ],

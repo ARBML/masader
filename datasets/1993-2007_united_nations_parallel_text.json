@@ -1,5 +1,7 @@
 {
     "Name": "1993-2007 United Nations Parallel Text",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2013T06",
@@ -7,12 +9,18 @@
     "Year": 2013,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The data is presented as raw text and word-aligned text. The raw text is very close to what was extracted from the original word processing documents in UN ODS (e.g., Word, WordPerfect, PDF), converted to UTF-8 encoding.",
     "Volume": 520283.0,
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "175.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

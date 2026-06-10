@@ -1,5 +1,7 @@
 {
     "Name": "CV22-Sidon",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/sarulab-speech/commonvoice22_sidon",
     "Link": "https://huggingface.co/datasets/sarulab-speech/commonvoice22_sidon",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "This dataset hosts a release of Mozilla Common Voice 22 restored with the Sidon speech restoration model.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "text to speech"
     ],

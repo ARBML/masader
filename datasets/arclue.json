@@ -1,19 +1,25 @@
 {
     "Name": "Arabic-Clue-Instruct",
+    "Partial": false,
     "Volume": 14497.0,
     "Unit": "documents",
     "License": "unknown",
     "Link": "https://github.com/KamyarZeinalipour/Arabic-Text-to-Crosswords",
     "HF Link": "https://huggingface.co/datasets/Kamyar-zeinalipour/Arabic-Clue-Instruct",
     "Year": 2024,
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
-        "LLM generated",
-        "human annotation"
+        "crawling"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "LLM generated"
     ],
     "Description": "Dataset for Arabic educational crosswords",
     "Ethical Risks": "Low",
@@ -27,7 +33,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "other"
     ],
@@ -44,6 +50,7 @@
         "University of Siena"
     ],
     "Abstract": "We present an Arabic crossword puzzle generator from a given text that utilizes advanced language models such as GPT-4-Turbo, GPT-3.5-Turbo and Llama3-8B-Instruct, specifically developed for educational purposes, with over 50,000 entries encompassing text, answers, clues, and categories.",
+    "Dialect Subsets": [],
     "Subsets": [],
     "Dialect": "Modern Standard Arabic",
     "Language": "ar",

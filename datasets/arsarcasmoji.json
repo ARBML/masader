@@ -1,5 +1,7 @@
 {
     "Name": "ArSarcasMoji",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArSarcasMoji",
     "Link": "https://github.com/ShathaHakami/ArSarcasMoji-Dataset",
@@ -7,11 +9,17 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "A dataset of 24,630 emoji-augmented Arabic texts, with 17.5% that are ironic (either humorous or sarcastic).",
@@ -39,7 +47,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "sentiment analysis",
         "irony detection"

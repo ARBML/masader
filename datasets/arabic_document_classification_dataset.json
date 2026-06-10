@@ -1,5 +1,7 @@
 {
     "Name": "Arabic document classification dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Document_Classification",
     "Link": "https://diab.edublogs.org/dataset-for-arabic-document-classification/",
@@ -7,12 +9,18 @@
     "Year": 2014,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "Legal"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The dataset contains nine major disciplines: Art, Literature, Religion, Politics, Law, Economy, Sport, Health, and Technology.",
     "Volume": 2700.0,
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "topic classification"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "ADMD",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/riotu-lab/ADMD",
     "Link": "https://huggingface.co/datasets/riotu-lab/ADMD",
@@ -7,13 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation",
         "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The Arabic Depth Mini Dataset (ADMD) is a compact yet highly challenging dataset designed to evaluate Arabic language models across diverse domains. It consists of 490 carefully curated questions spanning 10 major domains and 42 topics. ",
     "Volume": 490.0,
@@ -30,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering"
     ],

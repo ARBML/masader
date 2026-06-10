@@ -1,5 +1,7 @@
 {
     "Name": "NADA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/NADA",
     "Link": "https://www.researchgate.net/publication/326060650_NADA_A_New_Arabic_Dataset",
@@ -7,12 +9,18 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "NADA corpus is collected from two existing corpora,\r\nwhich are Diab Dataset DAA corpus and OSAC corpus.",
     "Volume": 13066.0,
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "topic classification"
     ],

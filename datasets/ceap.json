@@ -1,5 +1,7 @@
 {
     "Name": "CEAP",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/CEAP",
     "Link": "https://sourceforge.net/projects/ceap-bp/",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "It contains 50 TXT files recording poetry composition by various authors from 6th and 7th c. It was derived from two corpora: King Saud University Classical Arabic Corpus (KSUCAC) created by the team led by Maha S. Alrabiah (2014), and a corpus prepared by Abeer Alsheddi (2016).",
     "Volume": 50.0,
@@ -32,7 +40,7 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "poetry analysis"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "ELQV",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/Arwaalmrzoqi/ELQV",
@@ -7,13 +9,18 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "web pages"
     ],
+    "Domain": [
+        "Quran"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "a dataset that consists of a collection of the Quran verses annotated with emotion classes. ",
@@ -31,13 +38,13 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "emotion classification"
     ],
     "Venue Title": "JKSU-CIS",
     "Venue Type": "journal",
-    "Venue Name": " Journal of King Saud University - Computer and Information Sciences",
+    "Venue Name": "Journal of King Saud University - Computer and Information Sciences",
     "Authors": [
         "Arwa Almarzoqi",
         "Mohammed Alsuhaibani"

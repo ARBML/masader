@@ -1,5 +1,7 @@
 {
     "Name": " X-ALMA-Preference ",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/haoranxu/X-ALMA-Preference",
     "Link": "https://huggingface.co/datasets/haoranxu/X-ALMA-Preference",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "Multilingual parallel dataset for 50 languages created for training the X-ALMA translation model, containing preference data and high-quality parallel sentences.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "preference optimization"
     ],

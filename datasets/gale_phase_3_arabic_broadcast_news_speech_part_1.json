@@ -1,5 +1,7 @@
 {
     "Name": "GALE Phase 3 Arabic Broadcast News Speech Part 1",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2016S07",
@@ -7,12 +9,18 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels",
         "news articles"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The broadcast news recordings in this release feature news broadcasts focusing principally on current events from the following sources: Abu Dhabi TV, a television station based in Abu Dhabi, Al Alam News Channel, based in Iran; Al Arabiya, a news television station based in Dubai; Al Iraqiyah, an Iraqi television station; Aljazeera , a regional broadcaster located in Doha, Qatar; Al Ordiniyah, a national broadcast station in Jordan; Dubai TV, a broadcast station in the United Arab Emirates; Kuwait TV, a national broadcast station in Kuwait; Lebanese Broadcasting Corporation, a Lebanese television station; Nile TV, a broadcast programmer based in Egypt, Saudi TV, a national television station based in Saudi Arabia; and Syria TV, the national television station in Syria.",
@@ -30,7 +38,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

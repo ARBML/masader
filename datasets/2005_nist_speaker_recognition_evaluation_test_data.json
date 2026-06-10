@@ -1,5 +1,7 @@
 {
     "Name": "2005 NIST Speaker Recognition Evaluation Test Data",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2011S04",
@@ -7,11 +9,17 @@
     "Year": 2011,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The speech data consists of conversational telephone speech with multi-channel data collected by LDC simultaneously from a number of auxiliary microphones. The files are organized into two segments: 10 second two-channel excerpts (continuous segments from single conversations that are estimated to contain approximately 10 seconds of actual speech in the channel of interest) and five minute two-channel conversations.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "400.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speaker identification"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "GALE Phase 1 Distillation Training",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2007T20",
@@ -7,12 +9,18 @@
     "Year": 2007,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels",
         "news articles"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The annotation task involves responding to a series of user queries. For each query, annotators first find relevant documents and identify snippets (strings of contiguous text that answer the query) in the Arabic, Chinese or English source document. Annotators then create a nugget for each fact expressed in the snippet. Semantically equivalent nuggets are grouped into cross-language, cross-document \"supernugs\". Judges at BAE Systems finally provide relevance weights for each supernug.",
@@ -30,7 +38,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "information retrieval"
     ],
@@ -38,11 +46,11 @@
     "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
-        "Olga Babko-Malaya", 
-        "Song Chen", 
-        "Ramez Zakhary", 
-        "Julie Medero", 
-        "Kazuaki Maeda", 
+        "Olga Babko-Malaya",
+        "Song Chen",
+        "Ramez Zakhary",
+        "Julie Medero",
+        "Kazuaki Maeda",
         "Stephanie Strassel"
     ],
     "Affiliations": [],

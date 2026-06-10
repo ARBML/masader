@@ -1,5 +1,7 @@
 {
     "Name": "GALE Phase 1 Arabic Broadcast News Parallel Text - Part 2",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2008T09",
@@ -7,12 +9,18 @@
     "Year": 2008,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels",
         "news articles"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "A total of 10.7 hours of Arabic broadcast news recordings were selected from four sources and four different programs.",
@@ -30,7 +38,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "speech recognition"

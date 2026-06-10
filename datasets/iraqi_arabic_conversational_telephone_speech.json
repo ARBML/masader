@@ -1,5 +1,7 @@
 {
     "Name": "Iraqi Arabic Conversational Telephone Speech",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2006S45",
@@ -7,11 +9,17 @@
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Iraq",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Iraqi Arabic Conversational Telephone Speech was developed by Appen Pty Ltd, Sydney, Australia and contains roughly 3000 mins of speech from Iraqi Arabic speakers taking part in spontaneous telephone conversations in Colloquial Iraqi Arabic.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

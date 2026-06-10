@@ -1,6 +1,7 @@
 {
     "Name": "ADI-17",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Dialect": "Algeria",
@@ -104,18 +105,25 @@
             "Unit": "hours"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/ArabicSpeech/ADI17",
     "Link": "https://huggingface.co/datasets/ArabicSpeech/ADI17",
     "License": "unknown",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "dialect identification of speech from YouTube to one of the 17 dialects",
     "Volume": 3091.0,
@@ -132,7 +140,7 @@
     "Host": "HuggingFace",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "dialect identification"
     ],

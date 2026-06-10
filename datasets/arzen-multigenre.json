@@ -1,5 +1,7 @@
 {
     "Name": "Arzen-Multigenre",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArzEn_MultiGenre_songs,https://hf.co/datasets/arbml/ArzEn_MultiGenre_subtitles,https://hf.co/datasets/arbml/ArzEn_MultiGenre_novels",
     "Link": "https://data.mendeley.com/datasets/6k97jty9xg/3",
@@ -7,12 +9,18 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "parallel dataset of Egyptian Arabic song lyrics, novels, and TV show subtitles that are manually translated and aligned with their English counterparts.",
     "Volume": 25557.0,
@@ -27,7 +35,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "language modeling",

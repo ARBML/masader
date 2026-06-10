@@ -1,5 +1,7 @@
 {
     "Name": "Halwasa",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://alt.qcri.org/resources/ArabicLLMsHallucination.zip",
@@ -7,13 +9,19 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "LLM generated",
-        "human annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "LLM generated"
     ],
     "Description": "First Arabic dataset with 10K LLM-generated sentences annotated for factuality.",
     "Volume": 10000.0,
@@ -32,7 +40,7 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "AI-generated text detection"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "MediaSpeech",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/MediaSpeech_ar",
     "Link": "https://github.com/NTRLab/MediaSpeech",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "an open-source 10-hour ASR system evaluation\r\ndataset NTR MediaSpeech for 4 languages: Spanish, French,\r\nTurkish and Arabic",
     "Volume": 10.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],
@@ -50,7 +58,7 @@
         "Tomsk Polytechnic University, Tomsk, Russia",
         "NTR Labs, Moscow, Russia",
         "AO HTSTS, Moscow, Russia",
-        "Higher School of Economics – State University, Moscow, Russia",
+        "Higher School of Economics \u2013 State University, Moscow, Russia",
         "Tomsk State University, Tomsk, Russia"
     ],
     "Abstract": "The performance of automated speech recognition (ASR) systems is well known to differ for varied application domains. At the same time, vendors and research groups typically report ASR quality results either for limited use simplistic domains (audiobooks, TED talks), or proprietary datasets. To fill this gap, we provide an open-source 10-hour ASR system evaluation dataset NTR MediaSpeech for 4 languages: Spanish, French, Turkish and Arabic. The dataset was collected from the official youtube channels of media in the respective languages, and manually transcribed. We estimate that the WER of the dataset is under 5%. We have benchmarked many ASR systems available both commercially and freely, and provide the benchmark results. We also open-source baseline QuartzNet models for each language.",

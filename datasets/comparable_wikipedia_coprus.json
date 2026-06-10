@@ -1,6 +1,7 @@
 {
     "Name": "Comparable Wikipedia Coprus",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Arabic Wikipedia",
             "Dialect": "Modern Standard Arabic",
@@ -14,18 +15,25 @@
             "Unit": "documents"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/comparable_arabizi",
     "Link": "https://github.com/motazsaad/comparableWikiCoprus",
     "License": "CC BY-SA 4.0",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Comparable Wikipedia Corpus (aligned documents) Corpus extracts from 20-01-2017 Wikipedia dumps",
     "Volume": 20394.0,
@@ -42,7 +50,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

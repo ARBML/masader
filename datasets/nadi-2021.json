@@ -1,6 +1,7 @@
 {
     "Name": "NADI-2021",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Dialect": "Algeria",
@@ -128,18 +129,25 @@
             "Unit": "sentences"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://sites.google.com/view/nadi-shared-task",
     "License": "CC BY-NC-ND 4.0",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The shared task dataset covers a total of 100 provinces from 21 Arab countries, collected from the Twitter domain.",
     "Volume": 310000.0,
@@ -156,7 +164,7 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "dialect identification"
     ],

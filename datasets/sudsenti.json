@@ -1,5 +1,7 @@
 {
     "Name": "SudSenti",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/mustafa20999/Sudanese-Arabic-Sentiment-Datasets",
@@ -7,12 +9,17 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Sudan",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A sudanese dataset collected from Facebook and Youtube annotated with sentiment analysis",
@@ -30,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis"
     ],

@@ -1,6 +1,7 @@
 {
     "Name": "M2Lingual",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Yemeni",
             "Volume": 2558.0,
@@ -38,18 +39,25 @@
             "Dialect": "Egypt"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/ServiceNow-AI/M2Lingual",
     "Link": "https://huggingface.co/datasets/ServiceNow-AI/M2Lingual",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "LLM",
         "public datasets"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "Fully-synthetic multi-turn multilingual instruction-tuning dataset with 175K conversations across 70 languages and 19 NLP tasks.",
@@ -70,7 +78,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "instruction tuning"
     ],

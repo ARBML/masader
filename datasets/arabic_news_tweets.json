@@ -1,5 +1,7 @@
 {
     "Name": "Arabic News Tweets",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Arabic_News_Tweets",
     "Link": "https://data.mendeley.com/datasets/9dxgbgx86k/3",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "This dataset is a relatively great size collection of Arabic news tweets that were collected from an official and verified users in Twitter. All news that is collected from the most popular and official users in Saudi Arabia belongs to Saudi Arabia news. All data that is gathered was retrieved using specific time period and collected all news in that time. To the best of our knowledge, this dataset is the first Arabic news data collection that does not specify by keywords and belongs to Saudi Arabia. This news dataset can be valuable for diverse tasks in NLP, such as text classification and automated verification system. The dataset has been categorized into 5 different news classes which are general news, regions news, sport news, economic news, and quality life news. In this data article, 89,179 original tweets have presented and fully labeled into related categories.",
     "Volume": 89179.0,
@@ -30,7 +38,7 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "topic classification"
     ],

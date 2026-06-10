@@ -1,17 +1,24 @@
 {
     "Name": "CP-WIKI-D3K",
+    "Partial": false,
     "Volume": 3362.0,
     "Unit": "tokens",
     "License": "CC BY-SA 4.0",
     "Link": "https://github.com/CAMeL-Lab/CamelProp",
     "HF Link": "",
     "Year": 2025,
-    "Domain": [
+    "Source": [
         "wikipedia",
         "public datasets"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "LLM generated"
     ],
@@ -29,7 +36,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "diacritization",
         "transliteration"
@@ -51,6 +58,7 @@
         "University of Malta"
     ],
     "Abstract": "Proper nouns in Arabic Wikipedia are frequently undiacritized, creating ambiguity in pronunciation and interpretation, especially for transliterated named entities of foreign origin. While transliteration and diacritization have been well-studied separately in Arabic NLP, their intersection remains underexplored. In this paper, we introduce a new manually diacritized dataset of Arabic proper nouns of various origins with their English Wikipedia equivalent glosses, and present the challenges and guidelines we followed to create it. We benchmark GPT-4o on the task of recovering full diacritization given the undiacritized Arabic and English forms, and analyze its performance. Achieving 73% accuracy, our results underscore both the difficulty of the task and the need for improved models and resources. We release our dataset to facilitate further research on Arabic Wikipedia proper noun diacritization.",
+    "Dialect Subsets": [],
     "Subsets": [],
     "Dialect": "mixed",
     "Language": "ar",

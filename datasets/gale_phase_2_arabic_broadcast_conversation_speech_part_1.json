@@ -1,5 +1,7 @@
 {
     "Name": "GALE Phase 2 Arabic Broadcast Conversation Speech Part 1",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2013S02",
@@ -7,11 +9,17 @@
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The broadcast conversation recordings in this release feature interviews, call-in programs and round table discussions focusing principally on current events from the following sources: Al Alam News Channel, based in Iran, Al Arabiya, a news television station based in Dubai, Aljazeera, a regional broadcaster located in Doha, Qatar, Al Ordiniyah, a national broadcast station in Jordan, Lebanese Broadcasting Corporation, a Lebanese television station, Nile TV, a broadcast programmer based in Egypt, Oman TV, a national broadcaster located in the Sultanate of Oman, Saudi TV, a national television station based in Saudi Arabia and Syria TV, the national television station in Syria. A table showing the number of programs and hours recorded from each source is contained in the readme file.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

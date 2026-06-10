@@ -1,5 +1,7 @@
 {
     "Name": "AlkhalilCorpusTopic ",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/oujda-nlp-team/TopicClassifiedTexts",
     "Link": "https://huggingface.co/datasets/oujda-nlp-team/TopicClassifiedTexts",
@@ -7,13 +9,18 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "web pages"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Thematic Modern Standard Arabic collected form the web with 7 different topics. ",
@@ -31,7 +38,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "topic classification"
     ],

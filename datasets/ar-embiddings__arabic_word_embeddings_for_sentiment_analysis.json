@@ -1,5 +1,7 @@
 {
     "Name": "ar-embiddings: Arabic Word Embeddings for Sentiment Analysis",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/iamaziz/ar-embeddings",
@@ -7,12 +9,18 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "Quran"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "A large corpus for generating Arabic word embeddings from multiple sources such as news articles, consumer reviews, Quran text, and tweets. The embeddings are used to perform sentiment analysis in both Standard and Dialectal Arabic without relying on hand-crafted features. The embeddings are applied to several binary classifiers to detect subjectivity and sentiment in Arabic texts.",
     "Volume": 190000000.0,
@@ -35,7 +43,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis",
         "embedding evaluation"

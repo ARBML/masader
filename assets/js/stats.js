@@ -10,6 +10,7 @@ titles = {
   Year: 'Number of datasets published every year',
   Access: 'Accessability of datasets',
   Tasks: 'Top 20 tasks in the published Arabic NLP datasets',
+  Source: 'Sources used to build Arabic NLP datasets',
   Domain: 'Domains in Arabic NLP datasets',
   License: 'Linceses used in Arabic NLP datasets',
   Form: 'Text vs Spoken datasets',
@@ -46,7 +47,7 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
           ? decodeDialect(data[index][idx])
           : 'other';
 
-      // Subsets
+      // Dialect subsets
       for (let subDialect of data[index][`${subsetsIdx}`]) {
         dialectCode = decodeDialect(subDialect['Dialect']);
 
@@ -279,7 +280,7 @@ function getCounts(array, sorting = true) {
 function extractDilects(data) {
   const entryDialects = [
     decodeDialect(String(data['Dialect'])),
-    ...data['Subsets'].map((d) => decodeDialect(d['Dialect'])),
+    ...data['Dialect Subsets'].map((d) => decodeDialect(d['Dialect'])),
   ];
 
   for (const d of entryDialects)
@@ -298,6 +299,7 @@ axios
       'Year',
       'Language',
       'Dialect',
+      'Source',
       'Domain',
       'Form',
       'Ethical Risks',
@@ -306,7 +308,7 @@ axios
       'Access',
       'Tasks',
       'Venue Type',
-      'Subsets',
+      'Dialect Subsets',
     ];
     headersWhiteList = headersWhiteList.concat([
       'Name',
@@ -318,7 +320,7 @@ axios
 
     $('.loading-spinner').hide();
 
-    const subsetsIdx = headersWhiteList.indexOf('Subsets');
+    const subsetsIdx = headersWhiteList.indexOf('Dialect Subsets');
 
     // Grabbing row's values
     dataset = [];

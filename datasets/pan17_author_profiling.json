@@ -1,5 +1,7 @@
 {
     "Name": "PAN17 Author Profiling",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://zenodo.org/record/3745980#.YqTxWnZBxD9",
@@ -7,12 +9,18 @@
     "Year": 2017,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "We provide you with a training data set that consists of Twitter tweets in English, Spanish, Portuguese and Arabic, labeled with gender and language variety.",
     "Volume": 4000.0,
@@ -29,7 +37,7 @@
     "Host": "zenodo",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "author profiling"
     ],

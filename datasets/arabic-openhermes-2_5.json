@@ -1,5 +1,7 @@
 {
     "Name": "Arabic-OpenHermes-2.5",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/2A2I/Arabic-OpenHermes-2.5",
     "Link": "https://hf.co/datasets/2A2I/Arabic-OpenHermes-2.5",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Arabic-OpenHermes-2.5 is a carefully curated dataset extracted / translated from the OpenHermes-2.5 collection provided by teknium.",
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "instruction tuning"
     ],

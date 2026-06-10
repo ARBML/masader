@@ -1,5 +1,7 @@
 {
     "Name": "CTAB: Corpus of Tunisian Arabizi",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/CTAB",
     "Link": "https://zenodo.org/record/4781769#.YqSPY3ZBxD9",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "This dataset has been created between 2017 and 2021 to provide a textual resource that can be used to study the behaviors of Tunisian people in writing Tunisian Arabic (ISO 693-3: aeb) in Latin Script. This corpus is constituted from messages written using Tunisian Arabic Chat Alphabet or Arabizi and is developed to solve the matter of the lack of NLP databases about the use of the Latin Script for transcribing Tunisian Arabic.",
     "Volume": 5702.0,
@@ -29,7 +37,7 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "dialect identification"
     ],

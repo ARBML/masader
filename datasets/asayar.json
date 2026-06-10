@@ -1,5 +1,7 @@
 {
     "Name": "ASAYAR",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://vcar.github.io/ASAYAR/",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The ASAYAR dataset is the first public dataset for Arabic and Latin scene text detection in highway traffic panels. It includes over 1800 annotated images and can be used to develop and evaluate models for traffic sign detection and text detection in Arabic and French.",
     "Volume": 1800.0,
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "scene text detection"
     ],

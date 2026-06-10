@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Machine-Generated Text Dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/KFUPM-JRCAI/arabic-generated-abstracts",
     "Link": "https://huggingface.co/datasets/KFUPM-JRCAI/arabic-generated-abstracts",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The dataset addresses the need for comprehensive Arabic machine-generated text resources, enabling research in detection systems, stylometric analysis, and cross-model generalization studies.",
     "Volume": 8388.0,
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "AI-generated text detection"
     ],

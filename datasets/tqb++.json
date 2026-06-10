@@ -1,5 +1,7 @@
 {
     "Name": "TQB++",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/vincentkoc/tiny_qa_benchmark_pp",
     "Link": "https://github.com/vincentkoc/tiny_qa_benchmark_pp",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "Tiny QA Benchmark++ (TQB++) is an ultra-lightweight evaluation suite designed to expose critical failures in Large Language Model (LLM) systems within seconds.",
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering"
     ],

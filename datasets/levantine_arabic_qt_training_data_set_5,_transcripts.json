@@ -1,5 +1,7 @@
 {
     "Name": "Levantine Arabic QT Training Data Set 5, Transcripts",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2006T07",
@@ -7,11 +9,17 @@
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This corpus is the combination of four former training data sets: LDC2004E21 and LDC2004E22, LDC2004E65 and LDC2004E66, Arabic CTS Levantine Fisher Training Data Set 3, Speech (LDC2005S07) and Arabic CTS Levantine Fisher Training Data Set 3, Transcripts (LDC2005T03), and Levantine Arabic QT Training Data Set 4 (Speech + Transcripts) (LDC2005S14). More than half of the speakers are Lebanese, the others are Jordanian, Palestinian, and Syrian. The table below shows the distribution of the speakers' national origin:",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "United Nations General Assembly Resolutions",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/un_ga",
     "Link": "https://opus.nlpl.eu/UN.php",
@@ -7,12 +9,18 @@
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "This is a collection of translated documents from the United Nations originally compiled into a translation memory by Alexandre Rafalovitch, Robert Dale",
     "Volume": 73000.0,
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

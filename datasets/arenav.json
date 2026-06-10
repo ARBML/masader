@@ -1,5 +1,7 @@
 {
     "Name": "ArEnAV",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/kartik060702/ArEnAV-Full",
     "Link": "https://huggingface.co/datasets/kartik060702/ArEnAV-Full",
@@ -7,13 +9,18 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "videos",
     "Collection Style": [
-        "LLM generated",
         "crawling"
+    ],
+    "Annotation Style": [
+        "LLM generated"
     ],
     "Description": "First large-scale Arabic-English audio-visual deepfake dataset with intra-utterance code-switching and dialectal variation.",
     "Volume": 287280.0,
@@ -33,7 +40,7 @@
     "Host": "HuggingFace",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "deepfake detection"
     ],

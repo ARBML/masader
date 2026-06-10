@@ -1,5 +1,7 @@
 {
     "Name": "MMAC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "http://www.ashrafraouf.com/mmac",
@@ -7,12 +9,18 @@
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The multi-modal Arabic corpus contains 6 million Arabic words selected from various sources covering old Arabic, religious texts, traditional language, modern language, different specialisations and very modern material from online \u201cchat rooms.\u201d",
     "Volume": 6000000.0,
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "dictionary"
     ],

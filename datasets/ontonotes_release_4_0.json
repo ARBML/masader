@@ -1,5 +1,7 @@
 {
     "Name": "OntoNotes Release 4.0",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2011T03",
@@ -7,13 +9,19 @@
     "Year": 2011,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "web pages",
         "TV channels"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Documents describing the annotation guidelines and the routines for deriving various views of the data from the database are included in the documentation directory of this release. The annotation is provided both in separate text files for each annotation layer (Treebank, PropBank, word sense, etc.) and in the form of an integrated relational database (ontonotes-v4.0.sql.gz) with a Python API to provide convenient cross-layer access.",
@@ -31,7 +39,7 @@
     "Host": "LDC",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "information retrieval"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "EvArEST",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Melaraby/EvArEST-dataset-for-Arabic-scene-text-recognition",
     "Link": "https://huggingface.co/datasets/Melaraby/EvArEST-dataset-for-Arabic-scene-text-recognition",
@@ -7,12 +9,17 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
-        "manual curation",
+        "manual curation"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "The dataset includes both the recognition dataset and the synthetic one in a single train and test split.",
@@ -28,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "optical character recognition"
     ],

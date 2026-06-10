@@ -1,6 +1,7 @@
 {
     "Name": "ArabicCulturalQA",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "MSA",
             "Volume": 8969.0,
@@ -32,17 +33,24 @@
             "Dialect": "North Africa"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/QCRI/ArabicCulturalQA",
     "Link": "https://huggingface.co/datasets/QCRI/ArabicCulturalQA",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2026,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "LLM generated"
     ],
@@ -63,7 +71,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "question answering",
         "multiple choice question answering"

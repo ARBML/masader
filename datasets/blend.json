@@ -1,5 +1,7 @@
 {
     "Name": "BLEND",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/nayeon212/BLEnD",
     "Link": "https://github.com/nlee0212/BLEnD",
@@ -7,13 +9,18 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation",
         "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A benchmark for LLMs on everyday cultural knowledge across 16 countries/regions in 13 languages.",
     "Volume": 2600.0,
@@ -35,7 +42,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "multiple choice question answering"
     ],

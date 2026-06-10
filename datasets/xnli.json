@@ -1,5 +1,7 @@
 {
     "Name": "XNLI",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/facebook/xnli",
     "Link": "https://github.com/facebookresearch/XNLI",
@@ -7,11 +9,17 @@
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "evaluation set for XLU\r\nby extending the development and test sets of\r\nthe Multi-Genre Natural Language Inference\r\nCorpus (MultiNLI) to 15 languages,",
@@ -30,7 +38,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "natural language inference"
     ],

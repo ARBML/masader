@@ -1,5 +1,7 @@
 {
     "Name": "NArabizi treebank",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://parsiti.github.io/NArabizi/",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "fully annotated in morpho-syntax\r\nand Universal Dependency syntax, with full\r\ntranslation at both the word and the sentence\r\nlevels",
     "Volume": 1500.0,
@@ -30,7 +38,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "part of speech tagging",
         "dependency parsing",

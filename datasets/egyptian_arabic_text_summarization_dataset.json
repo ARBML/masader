@@ -1,5 +1,7 @@
 {
     "Name": "Egyptian Arabic Text Summarization Dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Omar-youssef/Egyptian-text-summarization",
     "Link": "https://huggingface.co/datasets/Omar-youssef/Egyptian-text-summarization",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This dataset contains text-summary pairs in Egyptian Arabic designed for training and evaluating text summarization models.",
@@ -27,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "summarization"
     ],

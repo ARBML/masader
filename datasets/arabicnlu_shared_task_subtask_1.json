@@ -1,5 +1,7 @@
 {
     "Name": "ArabicNLU Shared Task Subtask 1",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://codalab.lisn.upsaclay.fr/competitions/17758",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Sense-annotated dataset for Arabic, containing 1,440 sentences and 34K tokens",
@@ -31,7 +39,7 @@
     "Host": "CodaLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "word sense disambiguation"
     ],

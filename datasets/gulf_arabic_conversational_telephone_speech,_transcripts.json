@@ -1,5 +1,7 @@
 {
     "Name": "Gulf Arabic Conversational Telephone Speech, Transcripts",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2006T15",
@@ -7,11 +9,17 @@
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Gulf",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Each transcript file is a tab-delimited flat table, where each line contains information and text for a single contiguous utterance, presented via the following fields:",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "400.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

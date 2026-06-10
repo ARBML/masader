@@ -1,16 +1,23 @@
 {
     "Name": "ArEEG_Chars",
+    "Partial": false,
     "Volume": 930.0,
     "Unit": "tokens",
     "License": "CC BY 4.0",
     "Link": "https://data.mendeley.com/datasets/f2bgr7tdtt/1",
     "HF Link": "",
     "Year": 2024,
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The first EEG dataset for Arabic characters consists of high-quality recordings for 31 unique characters from 30 participants (21 males and 9 females) using the Epoc X 14-channel device",
@@ -25,7 +32,7 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],
@@ -42,6 +49,7 @@
         "Arab International University"
     ],
     "Abstract": "Brain-computer interfaces is an important and hot research topic that revolutionize how people interact with the world, especially for individuals with neurological disorders. While extensive research has been done in EEG signals of English letters and words, a major limitation remains: the lack of publicly available EEG datasets for many non-English languages, such as Arabic. Although Arabic is one of the most spoken languages worldwide, to the best of our knowledge, there is no publicly available dataset for EEG signals of Arabic characters until now. To address this gap, we introduce ArEEG_Chars, a novel EEG dataset for Arabic 31 characters collected from 30 participants (21 males and 9 females), these records were collected using Epoc X 14 channels device for 10 seconds long for each char record. The number of recorded signals were 930 EEG recordings. To make the EEG signals suitable for analyzing, each recording has been split into multiple signals with a time duration of 250ms, respectively. Therefore, a total of 39857 recordings of EEG signals have been collected in this study. Moreover, ArEEG_Chars will be publicly available for researchers. We do hope that this dataset will fill an important gap in the research of Arabic EEG benefiting Arabic-speaking individuals with disabilities.",
+    "Dialect Subsets": [],
     "Subsets": [],
     "Dialect": "Modern Standard Arabic",
     "Language": "ar",

@@ -1,5 +1,7 @@
 {
     "Name": "A-SpeechDB",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-S0315/",
@@ -7,11 +9,17 @@
     "Year": 2011,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "A-SpeechDB\u00a9 is an Arabic speech database suited for training acoustic models for Arabic phoneme-based speaker-independent automatic speech recognition systems. The database contains about 20 hours of continuous speech recorded through one desktop omni microphone by 205 native speakers from Egypt (about 30% of females and 70% of males), aged between 20 and 45.",
@@ -29,7 +37,7 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "1,000.00\u20ac",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

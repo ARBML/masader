@@ -1,5 +1,7 @@
 {
     "Name": "ml_spoken_words",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/MLCommons/ml_spoken_words",
     "Link": "https://mlcommons.org/en/multilingual-spoken-words/",
@@ -7,11 +9,17 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Multilingual Spoken Words Corpus (MSWC), a large and growing audio dataset of spoken words in 50 different languages.",
@@ -38,7 +46,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "keyphrase extraction"
     ],

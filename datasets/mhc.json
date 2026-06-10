@@ -1,5 +1,7 @@
 {
     "Name": "MHC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Paul/hatecheck-arabic",
     "Link": "https://github.com/rewire-online/multilingual-hatecheck",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "manual curation", "human annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a suite of functional tests for multilingual hate speech detection models",
     "Volume": 3577.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "offensive language detection"
     ],

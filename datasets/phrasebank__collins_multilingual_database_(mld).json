@@ -1,5 +1,7 @@
 {
     "Name": "PhraseBank: Collins Multilingual database (MLD)",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-T0377/",
@@ -7,11 +9,17 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "Science"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The PhraseBank consists of 2,000 phrases in 28 languages (Arabic, Chinese, Croatian, Czech, Danish, Dutch, American English, British English, Farsi, Finnish, French, German, Greek, Hindi, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Iberian), Portuguese (Brazilian), Russian, Spanish (Iberian), Spanish (Latin American), Swedish, Thai, Turkish, Vietnamese). Phrases are organised under 12 main topics and 67 subtopics. Covered topics are: talking to people, getting around, accommodation, shopping, leisure, communications, practicalities, health and beauty, eating and drinking, time.",
@@ -29,7 +37,7 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "2,240.00\u20ac",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

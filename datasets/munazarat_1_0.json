@@ -1,5 +1,7 @@
 {
     "Name": "Munazarat 1.0",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Munazarat",
     "Link": "https://github.com/moh72y/Munazarat1.0/tree/main",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The Munazarat 1.0 Corpus is a unique resource for researchers interested in various aspects of Arabic competitive debating, Arabic linguistics studies, argumentation studies, education, and Arabic Natural Language Processing (NLP). It consists of approximately 50 hours of transcribed competitive debates, hosted by QatarDebate, covering university and school-level debates held between 2013 and 2023.",
@@ -27,7 +35,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "dialogue generation"
     ],

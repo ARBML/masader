@@ -1,5 +1,7 @@
 {
     "Name": "WanJuan\u00b7SiLu Multimodal Multilingual Corpus (SFT)",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/opendatalab/WanJuanSiLu-Multimodal-5Languages",
     "Link": "https://huggingface.co/datasets/opendatalab/WanJuanSiLu-Multimodal-5Languages",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Cultural adversarial samples: Contains culturally relevant question-answer pairs designed by local residents to detect cultural bias in models",
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "instruction tuning"
     ],

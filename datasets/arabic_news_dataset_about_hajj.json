@@ -1,5 +1,7 @@
 {
     "Name": "Arabic news dataset about Hajj",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Haneen84/Arabic_news/tree/main",
     "Link": "https://hf.co/datasets/Haneen84/Arabic_news/tree/main",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "more than 2k articles about Hajj",
     "Volume": 2000.0,
@@ -27,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "sentiment analysis",
         "information retrieval"
@@ -36,9 +44,9 @@
     "Venue Type": "conference",
     "Venue Name": "2023 1st International Conference on Advanced Innovations in Smart Cities",
     "Authors": [
-            "Hassanin M. Al-Barhamtoshy",
-            "Hanen T. Himdi",
-            "Mohamad Alyahya"
+        "Hassanin M. Al-Barhamtoshy",
+        "Hanen T. Himdi",
+        "Mohamad Alyahya"
     ],
     "Affiliations": [
         "King Abdulaziz University",

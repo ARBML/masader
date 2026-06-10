@@ -1,5 +1,7 @@
 {
     "Name": "ArCOV19-Rumors",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArCOV19_claims",
     "Link": "https://gitlab.com/bigirqu/ArCOV-19/-/tree/master/ArCOV19-Rumors",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The first Arabic dataset for rumors verification in Twitter",
     "Volume": 9414.0,
@@ -29,7 +37,7 @@
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "fact checking"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "Egyptian People Speaking Video Dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Kratos-AI/Egyptian_People_Speaking_Video_Dataset",
     "Link": "https://huggingface.co/datasets/Kratos-AI/Egyptian_People_Speaking_Video_Dataset",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "videos",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "This dataset contains high-quality video recordings of Egyptian people speaking on a range of topics. It is curated for AI research in speech recognition, multimodal analysis, topic understanding, and spoken-language modeling.",
     "Volume": 13.0,
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "video generation"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "Arabizi-Egypt",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/nilechat-arabizi-egy",
     "Link": "https://huggingface.co/datasets/UBC-NLP/nilechat-arabizi-egy",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Arabizi-Egypt is a substantial dataset specifically developed to foster the creation and improvement of language models for the Egyptian Arabic dialect. This resource consists of a converted Egyptian Arabic dialect in Arabic script to Arabizi from a sample taken from both https://huggingface.co/datasets/UBC-NLP/fineweb-edu-Egypt",
@@ -32,7 +40,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

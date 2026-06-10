@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Treebank - Broadcast News v1.0",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2012T07",
@@ -7,11 +9,17 @@
     "Year": 2012,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This release contains 432,976 source tokens before clitics were split, and 517,080 tree tokens after clitics were separated for treebank annotation. The source materials are Arabic broadcast news stories collected by LDC during the period 2005-2008 from the following sources: Abu Dhabi TV, Al Alam News Channel, Al Arabiya, Al Baghdadya TV, Al Fayha, Alhurra, Al Iraqiyah, Aljazeera, Al Ordiniyah, Al Sharqiyah, Dubai TV, Kuwait TV, Lebanese Broadcasting Corp., Oman TV, Radio Sawa, Saudi TV and Syria TV. The transcripts were produced by LDC.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "4,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

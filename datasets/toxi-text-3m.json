@@ -1,5 +1,7 @@
 {
     "Name": "toxi-text-3M",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/FredZhang7/toxi-text-3M",
     "Link": "https://hf.co/datasets/FredZhang7/toxi-text-3M",
@@ -7,12 +9,18 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "This is a large multilingual toxicity dataset with 3M rows of text data from 55 natural languages, all of which are written/sent by humans, not machine translation models.",
     "Volume": 51852.0,
@@ -27,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "offensive language detection"
     ],

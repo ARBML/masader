@@ -1,5 +1,7 @@
 {
     "Name": "wikiann",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/unimelb-nlp/wikiann",
     "Link": "https://drive.google.com/drive/folders/1Q-xdT99SeaCghihGa7nRkcXGwRGUIsKN",
@@ -7,12 +9,18 @@
     "Year": 2017,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Both name tagging and linking results for 282 languages are promising on Wikipedia data and on-Wikipedia\r\ndata",
     "Volume": 185000.0,
@@ -29,7 +37,7 @@
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "named entity recognition"
     ],

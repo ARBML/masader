@@ -1,6 +1,7 @@
 {
     "Name": "ArSarcasm-v2",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Egyptian",
             "Dialect": "Egypt",
@@ -32,18 +33,25 @@
             "Unit": "sentences"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArSarcasm_v2",
     "Link": "https://github.com/iabufarha/ArSarcasm-v2",
     "License": "MIT License",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "ArSarcasm-v2 is an extension of the original ArSarcasm dataset published along with the paper From Arabic Sentiment Analysis to Sarcasm Detection: The ArSarcasm Dataset. ArSarcasm-v2 consists of ArSarcasm along with portions of DAICT corpus and some new tweets. Each tweet was annotated for sarcasm, sentiment and dialect. The final dataset consists of 15,548 tweets divided into 12,548 training tweets and 3,000 testing tweets. ArSarcasm-v2 was used and released as a part of the shared task on sarcasm detection and sentiment analysis in Arabic",
     "Volume": 15548.0,
@@ -62,7 +70,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sarcasm detection",
         "sentiment analysis",

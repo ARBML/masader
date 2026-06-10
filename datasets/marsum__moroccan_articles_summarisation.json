@@ -1,5 +1,7 @@
 {
     "Name": "MArSUM: Moroccan Articles Summarisation",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/MArSum",
     "Link": "https://github.com/KamelGaanoun/MoroccanSummarization",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "MArSUM is the first open corpus destinated for Moroccan dialect text summarization. The articles are retrieved from the GOUD.ma website and filtered to retain only Moroccan dialect. We have compiled a corpus of almost 20k articles with their titles.",
     "Volume": 20000.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "summarization"
     ],

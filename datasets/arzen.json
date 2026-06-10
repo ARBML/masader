@@ -1,5 +1,7 @@
 {
     "Name": "ArzEn",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://sites.google.com/view/arzen-corpus/resources?authuser=0",
@@ -7,13 +9,18 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
-        "human annotation",
         "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "12-hour Egyptian Arabic-English code-switched spontaneous speech corpus with transcriptions and speaker metadata.",
     "Volume": 12.0,
@@ -31,7 +38,7 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "speech recognition"
     ],

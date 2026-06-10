@@ -1,5 +1,7 @@
 {
     "Name": "Open-R1-Mulitlingual-SFT",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/amphora/Open-R1-Mulitlingual-SFT",
     "Link": "https://huggingface.co/datasets/amphora/Open-R1-Mulitlingual-SFT",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "Open-R1-Mulitlingual-SFT is a curated dataset designed for multilingual supervised fine-tuning. The source data comprises multiple datasets containing original prompts and responses, which were subsequently translated into 14 languages using GPT-4o.",
@@ -34,7 +42,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "instruction tuning"
     ],

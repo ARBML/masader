@@ -1,5 +1,7 @@
 {
     "Name": "ArQAT-AQI: Answerable Question Identification in Arabic Tweets",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AQweets",
     "Link": "https://www.dropbox.com/sh/coba3b1nqkyloa8/AAC4Sk5WQvtXZRgH5liBkMiGa?dl=0",
@@ -7,11 +9,17 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Answerable Question Identification in Arabic Tweets",
@@ -29,7 +37,7 @@
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "answerable questions detection"
     ],

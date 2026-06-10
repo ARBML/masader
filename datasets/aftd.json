@@ -1,5 +1,7 @@
 {
     "Name": "AFTD",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/zeydferhat/functional_text_dimensions_for_arabic_text_classification",
     "Link": "https://huggingface.co/datasets/zeydferhat/functional_text_dimensions_for_arabic_text_classification",
@@ -7,13 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
-        "manual curation",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "(AFTD Corpus) is introduced as a curated collection of Arabic documents aimed at evaluating text classification methodologies using the Functional Text Dimensions (FTD) approach.",
@@ -31,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "topic classification"
     ],

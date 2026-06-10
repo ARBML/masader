@@ -1,5 +1,7 @@
 {
     "Name": "CAI-Corpus",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/alaabouomar/Optimizing-Arabic-Dialect-Translation-for-Children-s-Literature-Using-Neural-Models.git",
@@ -7,14 +9,20 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "books",
         "public datasets"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
-        "machine annotation",
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
+        "machine annotation",
         "LLM generated"
     ],
     "Description": "Parallel corpus of 130 children\u2019s stories translated from Modern Standard Arabic to Egyptian (Cairo) dialect.",
@@ -25,14 +33,14 @@
     "Derived From": [
         "Arabic Children's Corpus"
     ],
-    "Paper Title": "AraSim: Optimizing Arabic Dialect Translation in Children’s Literature with LLMs and Similarity Scores",
+    "Paper Title": "AraSim: Optimizing Arabic Dialect Translation in Children\u2019s Literature with LLMs and Similarity Scores",
     "Paper Link": "https://aclanthology.org/2025.wacl-1.11.pdf",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

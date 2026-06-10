@@ -1,5 +1,7 @@
 {
     "Name": "KITAB-Bench",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/ahmedheakl/arocrbench_khatt",
     "Link": "https://huggingface.co/datasets/ahmedheakl/arocrbench_khatt",
@@ -7,15 +9,20 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets",
         "LLM"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "images",
     "Collection Style": [
-        "manual curation",
-        "LLM generated",
-        "human annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "LLM generated"
     ],
     "Description": "K\u0130TAB-Bench is a comprehensive multi-domain benchmark for evaluating Arabic OCR models. It includes 8, 809 document images covering nine domains and 36 sub-domains.",
     "Volume": 200.0,
@@ -48,7 +55,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "optical character recognition"
     ],

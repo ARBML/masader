@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Fact-Checking Corpus",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://alt.qcri.org/resources/arabic-fact-checking-and-stance-detection-corpus/",
@@ -7,13 +9,18 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages",
         "news articles"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First Arabic corpus integrating stance detection and fact checking with sentence-level rationales.",
@@ -31,7 +38,7 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "stance detection"
     ],

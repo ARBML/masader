@@ -1,5 +1,7 @@
 {
     "Name": "ArabCulture",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/MBZUAI/ArabCulture",
     "Link": "https://huggingface.co/datasets/MBZUAI/ArabCulture",
@@ -7,13 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation",
         "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A commonsense reasoning dataset in Modern Standard Arabic covering 13 Arab countries across four regions.",
     "Volume": 3482.0,
@@ -30,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "commonsense reasoning",
         "multiple choice question answering"

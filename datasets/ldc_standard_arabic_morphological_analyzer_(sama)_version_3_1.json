@@ -1,5 +1,7 @@
 {
     "Name": "LDC Standard Arabic Morphological Analyzer (SAMA) Version 3.1",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2010L01",
@@ -7,11 +9,17 @@
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The input format, output format, and data layer of SAMA 3.1 were designed to be backward compatible with BAMA. Incremental changes to the data layer in SAMA have resulted in:",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "lexicon analysis"
     ],
@@ -38,10 +46,10 @@
     "Venue Name": "",
     "Authors": [
         "Mohamed Maamouri",
-        "David Graff", 
-        "Basma Bouziri", 
-        "Sondos Krouna", 
-        "Ann Bies", 
+        "David Graff",
+        "Basma Bouziri",
+        "Sondos Krouna",
+        "Ann Bies",
         "Seth Kulick"
     ],
     "Affiliations": [],
