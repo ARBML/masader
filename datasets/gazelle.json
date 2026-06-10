@@ -14,7 +14,7 @@
     "Collection Style": [
         "manual curation"
     ],
-    "Description": "Gazelle comprises two main themes, text rewriting and writing advice,\nacross five distinct types of writing assistance instructions that we manually curate. Gazelle encompasses parallel data with instructions crafted in\nboth Arabic and English, covering both input and\noutput, allowing users to fine-tune models for these\nvarious tasks bilingually. Except for the I\u2019rab and\nArabic grammatical rules and definitions datasets,\nwe manually translate the Arabic explanations and\ninstructions into English.",
+    "Description": "Gazelle comprises two main themes, text rewriting and writing advice,\nacross five distinct types of writing assistance instructions that we manually curate. Gazelle encompasses parallel data with instructions crafted in\nboth Arabic and English, covering both input and\noutput, allowing users to fine-tune models for these\nvarious tasks bilingually. Except for the I’rab and\nArabic grammatical rules and definitions datasets,\nwe manually translate the Arabic explanations and\ninstructions into English.",
     "Volume": 9423.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

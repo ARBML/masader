@@ -7,14 +7,20 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "A Dataset for Arabic Why Question Answering System",
     "Volume": 3205.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["Multiple Institutions"],
+    "Provider": [
+        "Multiple Institutions"
+    ],
     "Derived From": [],
     "Paper Title": "DAWQAS: A Dataset for Arabic Why Question Answering System",
     "Paper Link": "https://www.sciencedirect.com/science/article/pii/S1877050918321690",
@@ -24,11 +30,16 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["question answering"],
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "ACLing",
     "Venue Type": "conference",
     "Venue Name": "International Conference on AI in Computational Linguistics",
-    "Authors": ["Walaa S. Ismail", "Masun Nabhan Homsi"],
+    "Authors": [
+        "Walaa S. Ismail",
+        "Masun Nabhan Homsi"
+    ],
     "Affiliations": [
         "Emirates College of Technology",
         "Simon Bolivar University"

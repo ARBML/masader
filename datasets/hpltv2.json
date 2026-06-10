@@ -7,15 +7,24 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": ["web pages"],
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "HPLT v2 is a large-scale multilingual dataset offering 8 T tokens across 193 languages, extracted with a quality-controlled pipeline from Internet Archive & CommonCrawl.",
     "Volume": 82670000.0,
     "Unit": "documents",
     "Ethical Risks": "High",
-    "Provider": ["HPLT"],
-    "Derived From": ["HPLTv1.2", "CommonCrawl"],
+    "Provider": [
+        "HPLT"
+    ],
+    "Derived From": [
+        "HPLTv1.2",
+        "CommonCrawl"
+    ],
     "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
     "Paper Link": "https://aclanthology.org/2025.acl-long.854.pdf",
     "Script": "Arab",
@@ -24,7 +33,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["language modeling"],
+    "Tasks": [
+        "language modeling"
+    ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
     "Venue Name": "Annual Meeting of the Association for Computational Linguistics",

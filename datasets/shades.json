@@ -7,9 +7,14 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation", "manual curation"],
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
     "Description": "Multilingual dataset of stereotypes across 16 languages and 37 regions to evaluate bias in LLMs.",
     "Volume": 304.0,
     "Unit": "sentences",
@@ -24,7 +29,9 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["safety evaluation"],
+    "Tasks": [
+        "safety evaluation"
+    ],
     "Venue Title": "NAACL-HLT",
     "Venue Type": "conference",
     "Venue Name": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",

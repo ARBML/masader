@@ -7,9 +7,15 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "human annotation", "machine annotation"],
+    "Collection Style": [
+        "crawling",
+        "human annotation",
+        "machine annotation"
+    ],
     "Description": "A corpus of Arabic short tweets in the tourism domain annotated for sentiment analysis in positive, negative, and neutral classes.",
     "Volume": 2293.0,
     "Unit": "sentences",
@@ -28,7 +34,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["sentiment analysis"],
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "Expert Systems",
     "Venue Type": "journal",
     "Venue Name": "Expert Systems",

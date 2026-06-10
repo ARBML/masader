@@ -7,14 +7,20 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "BOLT Arabic Discussion Forums was developed by the Linguistic Data Consortium (LDC) and consists of 813,080 discussion forum threads in Egyptian Arabic harvested from the Internet using a combination of manual and automatic processes.",
     "Volume": 813080.0,
     "Unit": "documents",
     "Ethical Risks": "Medium",
-    "Provider": ["University of Pennsylvania"],
+    "Provider": [
+        "University of Pennsylvania"
+    ],
     "Derived From": [],
     "Paper Title": "BOLT Arabic Discussion Forums",
     "Paper Link": "https://catalog.ldc.upenn.edu/LDC2018T10",
@@ -24,7 +30,9 @@
     "Access": "With-Fee",
     "Cost": "3,500.00 $",
     "Test Split": false,
-    "Tasks": ["machine translation"],
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "",
     "Venue Type": "other",
     "Venue Name": "",

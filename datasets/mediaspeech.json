@@ -7,14 +7,20 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "an open-source 10-hour ASR system evaluation\r\ndataset NTR MediaSpeech for 4 languages: Spanish, French,\r\nTurkish and Arabic",
     "Volume": 10.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": ["Multiple Institutions"],
+    "Provider": [
+        "Multiple Institutions"
+    ],
     "Derived From": [],
     "Paper Title": "MediaSpeech: Multilanguage ASR Benchmark and Dataset",
     "Paper Link": "https://arxiv.org/ftp/arxiv/papers/2103/2103.16193.pdf",
@@ -24,7 +30,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["speech recognition"],
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
     "Venue Name": "arXiv",

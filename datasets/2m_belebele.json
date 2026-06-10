@@ -41,7 +41,7 @@
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
     "Authors": [
-        "Marta R. Costa-juss\u00e0",
+        "Marta R. Costa-jussà",
         "Bokai Yu",
         "Pierre Andrews",
         "Belen Alastruey",
@@ -55,6 +55,6 @@
     "Affiliations": [
         "FAIR, Meta"
     ],
-    "Abstract": "We introduce the first highly multilingual speech and American Sign Language (ASL) comprehension dataset by extending BELEBELE. Our dataset covers 74 spoken languages at the intersection of BELEBELE and FLEURS, and one sign language (ASL). We evaluate 2M-BELEBELE dataset for both 5-shot and zero-shot settings and across languages, the speech comprehension accuracy is \u2248 2-3% average lower compared to reading comprehension.",
+    "Abstract": "We introduce the first highly multilingual speech and American Sign Language (ASL) comprehension dataset by extending BELEBELE. Our dataset covers 74 spoken languages at the intersection of BELEBELE and FLEURS, and one sign language (ASL). We evaluate 2M-BELEBELE dataset for both 5-shot and zero-shot settings and across languages, the speech comprehension accuracy is ≈ 2-3% average lower compared to reading comprehension.",
     "Added By": "Zaid Alyafeai"
 }

@@ -7,14 +7,20 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["manual curation"],
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "Arabizi transliteration",
     "Volume": 2743.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": ["Multiple Institutions"],
+    "Provider": [
+        "Multiple Institutions"
+    ],
     "Derived From": [],
     "Paper Title": "Atar: Attention-based LSTM for Arabizi transliteration",
     "Paper Link": "http://ijece.iaescore.com/index.php/IJECE/article/view/22767/14781",
@@ -24,11 +30,17 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["transliteration"],
+    "Tasks": [
+        "transliteration"
+    ],
     "Venue Title": "IJECE",
     "Venue Type": "journal",
     "Venue Name": "International Journal of Electrical and Computer Engineering",
-    "Authors": ["Bashar Talafha", "Analle Abuammar", "Mahmoud Al-Ayyoub"],
+    "Authors": [
+        "Bashar Talafha",
+        "Analle Abuammar",
+        "Mahmoud Al-Ayyoub"
+    ],
     "Affiliations": [
         "Jordan University of Science and Technology",
         "University of Southampton"

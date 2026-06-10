@@ -7,15 +7,23 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "QAES dataset is the first publicly available trait-specific annotations for Arabic Automated Essay Scoring, built on the Qatari Corpus of Argumentative Writing (QCAW).",
     "Volume": 195.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": ["bigIR"],
-    "Derived From": ["QCAW"],
+    "Provider": [
+        "bigIR"
+    ],
+    "Derived From": [
+        "QCAW"
+    ],
     "Paper Title": "QAES: First Publicly-Available Trait-Specific Annotations for Automated Scoring of Arabic Essays",
     "Paper Link": "https://aclanthology.org/2024.arabicnlp-1.28.pdf",
     "Script": "Arab",
@@ -24,7 +32,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["answer grading"],
+    "Tasks": [
+        "answer grading"
+    ],
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",

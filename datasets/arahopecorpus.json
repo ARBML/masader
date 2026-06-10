@@ -7,14 +7,22 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["social media", "commentary"],
+    "Domain": [
+        "social media",
+        "commentary"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "human annotation"],
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
     "Description": "The dataset was built from 23 carefully selected YouTube videos covering the Gaza genocide (2023– 2024)",
     "Volume": 10000.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": ["Marsad Lab"],
+    "Provider": [
+        "Marsad Lab"
+    ],
     "Derived From": [],
     "Paper Title": "AraHopeCorpus: Annotation Guidelines and Dataset for Hope Speech in Arabic Social Media Crisis Discourse",
     "Paper Link": "https://arxiv.org/pdf/2605.23325v1.pdf",
@@ -24,11 +32,16 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["stance detection"],
+    "Tasks": [
+        "stance detection"
+    ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
-    "Authors": ["Esra’a Sharqawi", "Wajdi Zaghouani"],
+    "Authors": [
+        "Esra’a Sharqawi",
+        "Wajdi Zaghouani"
+    ],
     "Affiliations": [
         "Hamad Bin Khalifa University",
         "Northwestern University in Qatar"

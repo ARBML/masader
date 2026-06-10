@@ -7,14 +7,21 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["other"],
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Public benchmark for Arabic language understanding",
     "Volume": 588200.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["The University of British Columbia", "MBZUAI"],
+    "Provider": [
+        "The University of British Columbia",
+        "MBZUAI"
+    ],
     "Derived From": [
         "ARCD",
         "MLQA",
@@ -67,7 +74,10 @@
         "ElMoatezBillah Nagoudi",
         "Muhammad Abdul-Mageed"
     ],
-    "Affiliations": ["The University of British Columbia", "MBZUAI"],
+    "Affiliations": [
+        "The University of British Columbia",
+        "MBZUAI"
+    ],
     "Abstract": "Due to the crucial role pretrained language models play in modern NLP, several benchmarks have been proposed to evaluate their performance. Inspite of these efforts, no public benchmark of diverse nature currently exists for evaluating Arabic NLU. This makes it challenging to measure progress for both Arabic and multilingual language models. This challenge is compounded by the fact that any benchmark targeting Arabic needs to take into account the fact that Arabic is not a single language but rather a collection of languages and language varieties. In this work, we introduce a publicly available benchmark for Arabic language understanding evaluation dubbed ORCA. It is carefully constructed to cover diverse Arabic varieties and a widerange of challenging Arabic understanding tasks exploiting 60 different datasets (across seven NLU task clusters). To measure current progress in Arabic NLU, we use ORCA to offer a comprehensive comparison between 18 multilingual and Arabic language models. We also provide a public leaderboard with a unified single-number evaluation metric (ORCA score) to facilitate future research.",
     "Added By": "Zaid Alyafeai"
 }

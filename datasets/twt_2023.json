@@ -7,14 +7,21 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "human annotation"],
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
     "Description": "A massive unlabeled Twitter collection of 1B Arabic tweets plus a manually-verified gold corpus covering 319 city-level micro-varieties across 21 Arab countries, created to train MARBERT and benchmark micro-dialect identification.",
     "Volume": 1000000000.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": ["University of British Columbia"],
+    "Provider": [
+        "University of British Columbia"
+    ],
     "Derived From": [],
     "Paper Title": "Toward Micro-Dialect Identification in Diaglossic and Code-Switched Environments",
     "Paper Link": "https://aclanthology.org/2020.emnlp-main.472.pdf",
@@ -24,7 +31,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["dialect identification"],
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "EMNLP",
     "Venue Type": "conference",
     "Venue Name": "Conference on Empirical Methods in Natural Language Processing",

@@ -7,15 +7,24 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation", "LLM generated"],
+    "Collection Style": [
+        "human annotation",
+        "LLM generated"
+    ],
     "Description": "First Arabic cross-domain text-to-SQL dataset",
     "Volume": 10225.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["University of Central Florida"],
-    "Derived From": ["SParC"],
+    "Provider": [
+        "University of Central Florida"
+    ],
+    "Derived From": [
+        "SParC"
+    ],
     "Paper Title": "Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic",
     "Paper Link": "https://arxiv.org/pdf/2511.20677v1.pdf",
     "Script": "Arab",
@@ -24,7 +33,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["text-to-SQL generation"],
+    "Tasks": [
+        "text-to-SQL generation"
+    ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
@@ -35,7 +46,9 @@
         "Mansour Al Ghanim",
         "Liqiang Wang"
     ],
-    "Affiliations": ["University of Central Florida"],
+    "Affiliations": [
+        "University of Central Florida"
+    ],
     "Abstract": "In recent years, the task of cross-domain, context-dependent text-to-SQL has received significant attention. Enables users with no prior knowledge of SQL to have a conversation with databases using natural language. However, most of the available datasets and research have been conducted in English, along with some work in Chinese. To this date, no effort has been made to address this task in the Arabic language. In this paper, we introduce Ar-SParC1, the first Arabic cross-domain, context-dependent text-to-SQL dataset. The dataset consists of 3,450 sequences of interrelated questions, each sequence containing an average of approximately three questions, which results in a total of 10225 questions along with their corresponding SQL queries. We conducted 40 experiments on the Ar-SParC dataset using two large language models, GPT-3.5-turbo and GPT-4.5-turbo, applying 10 different prompt engineering techniques, including four question representation methods and six in-context learning techniques. Furthermore, we developed a novel approach named GAT corrector, which enhanced the performance across all 40 experiments, yielding an average improvement of 1.9% in execution accuracy (EX) and 1.9% in interaction accuracy (IX) under zero-shot settings, and an average increase of 1.72% EX and 0.92% IX under in-context learning settings. Finally, we conducted an ablation study with two more experiments to explain why the GAT corrector outperformed the previous GAT verifier technique, particularly for the Arabic language.",
     "Added By": "Zaid Alyafeai"
 }

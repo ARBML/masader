@@ -14,7 +14,7 @@
     "Collection Style": [
         "human annotation"
     ],
-    "Description": "Description 10 English source phrases with expert human translations into Japanese, Egyptian Arabic, and Polish. Each target phrase is recorded by 5 native speakers per language (two takes each). Audio is WAV 48 kHz mono, 16\u2011bit PCM. ",
+    "Description": "Description 10 English source phrases with expert human translations into Japanese, Egyptian Arabic, and Polish. Each target phrase is recorded by 5 native speakers per language (two takes each). Audio is WAV 48 kHz mono, 16‑bit PCM. ",
     "Volume": 10.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

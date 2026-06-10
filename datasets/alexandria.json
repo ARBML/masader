@@ -86,14 +86,21 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation", "LLM generated"],
+    "Collection Style": [
+        "human annotation",
+        "LLM generated"
+    ],
     "Description": "A multi-domain dialectal Arabic machine translation dataset covering 13 countries and 11 domains.",
     "Volume": 29815.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": ["UBC-NLP"],
+    "Provider": [
+        "UBC-NLP"
+    ],
     "Derived From": [],
     "Paper Title": "Alexandria: A Multi-Domain Dialectal Arabic Machine Translation Dataset for Culturally Inclusive and Linguistically Diverse LLMs",
     "Paper Link": "https://arxiv.org/pdf/2601.13099v2.pdf",
@@ -103,7 +110,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["instruction tuning", "machine translation"],
+    "Tasks": [
+        "instruction tuning",
+        "machine translation"
+    ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
@@ -183,7 +193,7 @@
         "Sultan Qaboos Higher Centre for Culture and Science",
         "Arab Center for Research and Policy Studies",
         "Hamad Bin Khalifa University",
-        "Institut Sup\u00e9rieur du Num\u00e9rique"
+        "Institut Supérieur du Numérique"
     ],
     "Abstract": "Arabic is a highly diglossic language where most daily communication occurs in regional dialects rather than Modern Standard Arabic (MSA). Despite this, machine translation (MT) systems often generalize poorly to dialectal input, limiting their utility for millions of speakers. We introduce Alexandria, a large-scale, community-driven, human-translated dataset designed to bridge this gap. Alexandria covers 13 Arab countries and 11 high-impact domains, including health, education, and agriculture. Unlike previous resources, Alexandria provides unprecedented granularity by associating contributions with city-of-origin metadata, capturing authentic local varieties beyond coarse regional labels. The dataset consists of parallel English-Dialectal Arabic multi-turn conversational scenarios annotated with speaker-addressee gender configurations, enabling the study of gender-conditioned variation in dialectal use. Comprising 107K total turns, Alexandria serves as both a training resource and as a rigorous benchmark for evaluating MT and Large Language Models (LLMs). Our automatic and human evaluation benchmarks the current capabilities of Arabic-aware LLMs in translating across diverse Arabic dialects and sub-dialects while exposing significant persistent challenges. The Alexandria dataset, the creation prompts, the translation and revision guidelines, and the evaluation code are publicly available in the following repository: https://github.com/UBC-NLP/Alexandria.",
     "Added By": "Zaid Alyafeai"

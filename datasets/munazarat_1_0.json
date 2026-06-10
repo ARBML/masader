@@ -7,9 +7,13 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["other"],
+    "Collection Style": [
+        "other"
+    ],
     "Description": "The Munazarat 1.0 Corpus is a unique resource for researchers interested in various aspects of Arabic competitive debating, Arabic linguistics studies, argumentation studies, education, and Arabic Natural Language Processing (NLP). It consists of approximately 50 hours of transcribed competitive debates, hosted by QatarDebate, covering university and school-level debates held between 2013 and 2023.",
     "Volume": 73.0,
     "Unit": "documents",
@@ -24,7 +28,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["dialogue generation"],
+    "Tasks": [
+        "dialogue generation"
+    ],
     "Venue Title": "OSACT",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",

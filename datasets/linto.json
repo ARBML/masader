@@ -7,14 +7,23 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": ["social media", "TV channels", "public datasets"],
+    "Domain": [
+        "social media",
+        "TV channels",
+        "public datasets"
+    ],
     "Form": "audio",
-    "Collection Style": ["crawling", "machine annotation"],
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "Audio & textual datasets for Tunisian Arabic ASR with code-switching, augmentation and normalization.",
     "Volume": 373.17,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": ["LINAGORA"],
+    "Provider": [
+        "LINAGORA"
+    ],
     "Derived From": [
         "TunSwitch",
         "MASC",
@@ -32,16 +41,20 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["speech recognition"],
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
     "Authors": [
         "Hedi Naouara",
-        "Jean-Pierre Lorr\u00e9",
-        "J\u00e9r\u00f4me Louradour"
+        "Jean-Pierre Lorré",
+        "Jérôme Louradour"
     ],
-    "Affiliations": ["LINAGORA"],
-    "Abstract": "Developing Automatic Speech Recognition (ASR) systems for Tunisian Arabic Dialect is challenging due to the dialect\u2019s linguistic complexity and the scarcity of annotated speech datasets. To address these challenges, we propose the LinTO audio and textual datasets \u2013 comprehensive resources that capture phonological and lexical features of Tunisian Arabic Dialect. These datasets include a variety of texts from numerous sources and real-world audio samples featuring diverse speakers and code-switching between Tunisian Arabic Dialect and English or French. By providing high-quality audio paired with precise transcriptions, the LinTO audio and textual datasets aim to provide qualitative material to build and benchmark ASR systems for the Tunisian Arabic Dialect.",
+    "Affiliations": [
+        "LINAGORA"
+    ],
+    "Abstract": "Developing Automatic Speech Recognition (ASR) systems for Tunisian Arabic Dialect is challenging due to the dialect’s linguistic complexity and the scarcity of annotated speech datasets. To address these challenges, we propose the LinTO audio and textual datasets – comprehensive resources that capture phonological and lexical features of Tunisian Arabic Dialect. These datasets include a variety of texts from numerous sources and real-world audio samples featuring diverse speakers and code-switching between Tunisian Arabic Dialect and English or French. By providing high-quality audio paired with precise transcriptions, the LinTO audio and textual datasets aim to provide qualitative material to build and benchmark ASR systems for the Tunisian Arabic Dialect.",
     "Added By": "Zaid Alyafeai"
 }

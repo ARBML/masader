@@ -7,14 +7,20 @@
     "Year": 2014,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["other"],
+    "Collection Style": [
+        "other"
+    ],
     "Description": "5,691 conversations totaling 1,029,248 words across 262,026 messages. Messages were natively written in either Arabic orthography or romanized Arabizi",
     "Volume": 262026.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["LDC"],
+    "Provider": [
+        "LDC"
+    ],
     "Derived From": [],
     "Paper Title": "Transliteration of Arabizi into Arabic Orthography: Developing a\r\nParallel Annotated Arabizi-Arabic Script SMS/Chat Corpus",
     "Paper Link": "https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/emnlp2014-transliteration-aribizi-into-arabic-orthography.pdf",
@@ -24,7 +30,10 @@
     "Access": "With-Fee",
     "Cost": "1750 $",
     "Test Split": false,
-    "Tasks": ["transliteration", "machine translation"],
+    "Tasks": [
+        "transliteration",
+        "machine translation"
+    ],
     "Venue Title": "WANLP",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",

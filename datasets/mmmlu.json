@@ -14,7 +14,7 @@
     "Collection Style": [
         "human annotation"
     ],
-    "Description": "Translated the MMLU\u2019s test set into 14 languages using professional human translators.",
+    "Description": "Translated the MMLU’s test set into 14 languages using professional human translators.",
     "Volume": 14000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

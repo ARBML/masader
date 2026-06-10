@@ -7,15 +7,23 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Egypt",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "audio",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "Code-switched Egyptian Arabic-English ST corpus.",
     "Volume": 12.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": ["CAMeL Lab"],
-    "Derived From": ["ArzEn"],
+    "Provider": [
+        "CAMeL Lab"
+    ],
+    "Derived From": [
+        "ArzEn"
+    ],
     "Paper Title": "ArzEn-ST: A Three-way Speech Translation Corpus for Code-Switched Egyptian Arabic - English",
     "Paper Link": "https://aclanthology.org/2022.wanlp-1.12.pdf",
     "Script": "Arab",
@@ -24,7 +32,10 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["speech recognition", "codeswitch detection"],
+    "Tasks": [
+        "speech recognition",
+        "codeswitch detection"
+    ],
     "Venue Title": "WANLP",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",

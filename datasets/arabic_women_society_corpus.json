@@ -83,7 +83,7 @@
         "MARSAD Lab"
     ],
     "Derived From": [],
-    "Paper Title": "Audience Engagement with Arabic Women\u2019s Social Empowerment and Wellbeing: A Decadal Corpus",
+    "Paper Title": "Audience Engagement with Arabic Women’s Social Empowerment and Wellbeing: A Decadal Corpus",
     "Paper Link": "https://arxiv.org/pdf/2605.22204v1.pdf",
     "Script": "Arab",
     "Tokenized": false,
@@ -108,6 +108,6 @@
         "Northwestern University in Qatar",
         "Hamad bin Khalifa University"
     ],
-    "Abstract": "This paper presents the Arabic Women and Society Corpus, a ten-year collection of 252,487 public Arabic Facebook posts related to women\u2019s empowerment and social wellbeing. The corpus was collected from 51,660 pages across 77 countries between 2013 and 2024, resulting in more than 267 million user interactions. Each post includes engagement metrics such as shares, comments, and emotional reactions, providing a unique view of audience sentiment and social attention. The data were processed using an automated pipeline with language identification, normalization, and metadata cleaning to ensure reliability and reproducibility. The corpus enables large-scale analysis of gender discourse, social reform, and emotional engagement across Arabic dialects. It supports research in Arabic natural language processing, computational social science, and digital communication studies. The dataset and accompanying documentation will be released under request for research use.",
+    "Abstract": "This paper presents the Arabic Women and Society Corpus, a ten-year collection of 252,487 public Arabic Facebook posts related to women’s empowerment and social wellbeing. The corpus was collected from 51,660 pages across 77 countries between 2013 and 2024, resulting in more than 267 million user interactions. Each post includes engagement metrics such as shares, comments, and emotional reactions, providing a unique view of audience sentiment and social attention. The data were processed using an automated pipeline with language identification, normalization, and metadata cleaning to ensure reliability and reproducibility. The corpus enables large-scale analysis of gender discourse, social reform, and emotional engagement across Arabic dialects. It supports research in Arabic natural language processing, computational social science, and digital communication studies. The dataset and accompanying documentation will be released under request for research use.",
     "Added By": "Zaid Alyafeai"
 }

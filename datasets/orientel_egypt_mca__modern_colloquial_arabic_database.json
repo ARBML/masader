@@ -28,7 +28,7 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "22,500.00\u20ac",
+    "Cost": "22,500.00€",
     "Test Split": false,
     "Tasks": [
         "speech recognition"

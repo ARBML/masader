@@ -7,14 +7,20 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The KACST Arabic corpus comprises more than 700 million words from the pre-Islamic era to the present day (a period covering more than 1,500 years), collected from 10 diverse mediums.",
     "Volume": 7000000.0,
     "Unit": "tokens",
     "Ethical Risks": "Medium",
-    "Provider": ["KACST"],
+    "Provider": [
+        "KACST"
+    ],
     "Derived From": [
         "http://shamela.ws/  http://saaid.net/  http://www.awu.sy/  https://uqu.edu.sa/page/ar/518  http://www.kfu.edu.sa/ar/departments/sjournal/Pages/Home.aspx  http://www.boe.gov.sa/MainLaws.aspx?lang=en  http://www.arablegalportal.org/  http://www.alwatan.com.sa http://rosa-magazine.com/  http://www.spa.gov.sa/"
     ],
@@ -26,11 +32,16 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["natural language inference"],
+    "Tasks": [
+        "natural language inference"
+    ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": ["Al-Thubaity", "A.O"],
+    "Authors": [
+        "Al-Thubaity",
+        "A.O"
+    ],
     "Affiliations": [
         "King Abdulaziz City for Science & Technology (KACST) university"
     ],

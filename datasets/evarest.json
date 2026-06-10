@@ -7,9 +7,14 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["LLM"],
+    "Domain": [
+        "LLM"
+    ],
     "Form": "images",
-    "Collection Style": ["manual curation", "LLM generated"],
+    "Collection Style": [
+        "manual curation",
+        "LLM generated"
+    ],
     "Description": "The dataset includes both the recognition dataset and the synthetic one in a single train and test split.",
     "Volume": 296413.0,
     "Unit": "images",
@@ -24,11 +29,17 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["optical character recognition"],
+    "Tasks": [
+        "optical character recognition"
+    ],
     "Venue Title": "IEEE Access",
     "Venue Type": "journal",
     "Venue Name": "IEEE Access",
-    "Authors": ["HEBA HASSAN", "AHMED EL-MAHDY", "MOHAMED E. HUSSEIN"],
+    "Authors": [
+        "HEBA HASSAN",
+        "AHMED EL-MAHDY",
+        "MOHAMED E. HUSSEIN"
+    ],
     "Affiliations": [
         "Egypt-Japan University for Science and Technology",
         "Alexandria University",

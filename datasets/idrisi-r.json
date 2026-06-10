@@ -7,15 +7,25 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "IDRISI-R is the largest-scale publicly-available Twitter Location Mention Recognition (LMR) dataset, in both English and Arabic languages. It contains 41 disaster events of different types such as floods, fires, etc. In addition to tagging LMs in text, the LMs are labeled for location types such as countries, cities, streets, POIs, etc.",
     "Volume": 1268912.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": ["Qatar University", "QCRI", "Hamad Bin Khalifa University"],
-    "Derived From": ["Kawarith and humAID datasets"],
+    "Provider": [
+        "Qatar University",
+        "QCRI",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [
+        "Kawarith and humAID datasets"
+    ],
     "Paper Title": "(Under review) IDRISI-R: Large-scale English and Arabic Location Mention Recognition Datasets for Disaster Response over Twitter",
     "Paper Link": "",
     "Script": "Arab-Latin",
@@ -32,7 +42,11 @@
     "Venue Title": "",
     "Venue Type": "journal",
     "Venue Name": "",
-    "Authors": ["Reem Suwaileh", "Tamer Elsayed", "Muhammad Imran"],
+    "Authors": [
+        "Reem Suwaileh",
+        "Tamer Elsayed",
+        "Muhammad Imran"
+    ],
     "Affiliations": [
         "Computer Science and Engineering Department",
         "College of Engineering",

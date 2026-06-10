@@ -7,14 +7,20 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The dataset was collected using Twitter API and it consists of 19,810 tweets, 8,089 of them are labeled as ironic tweets.",
     "Volume": 19810.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": ["King Saud University"],
+    "Provider": [
+        "King Saud University"
+    ],
     "Derived From": [],
     "Paper Title": "Sa`7r: A Saudi Dialect Irony Dataset",
     "Paper Link": "https://aclanthology.org/2022.osact-1.7.pdf",
@@ -24,7 +30,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["irony detection"],
+    "Tasks": [
+        "irony detection"
+    ],
     "Venue Title": "OSACT",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",

@@ -7,14 +7,22 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "images",
-    "Collection Style": ["crawling", "human annotation", "machine annotation"],
+    "Collection Style": [
+        "crawling",
+        "human annotation",
+        "machine annotation"
+    ],
     "Description": "A manually annotated Arabic memes dataset of ~6K images for propaganda detection, compiled from Facebook, Instagram, Pinterest and Twitter.",
     "Volume": 5725.0,
     "Unit": "images",
     "Ethical Risks": "High",
-    "Provider": ["QCRI"],
+    "Provider": [
+        "QCRI"
+    ],
     "Derived From": [],
     "Paper Title": "ArMeme: Propagandistic Content in Arabic Memes",
     "Paper Link": "https://aclanthology.org/2024.emnlp-main.1173.pdf",
@@ -24,7 +32,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["propaganda detection"],
+    "Tasks": [
+        "propaganda detection"
+    ],
     "Venue Title": "EMNLP",
     "Venue Type": "conference",
     "Venue Name": "Conference on Empirical Methods in Natural Language Processing",

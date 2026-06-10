@@ -7,14 +7,22 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Palestine",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "human annotation"],
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
     "Description": "Annotated Arabic conversational dataset for SA and NER in Palestinian dialect",
     "Volume": 644800.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": ["Reichman University", "Ben-Gurion University of the Negev"],
+    "Provider": [
+        "Reichman University",
+        "Ben-Gurion University of the Negev"
+    ],
     "Derived From": [],
     "Paper Title": "DiaSet: An Annotated Dataset of Arabic Conversations",
     "Paper Link": "https://aclanthology.org/2024.lrec-main.436.pdf",
@@ -24,7 +32,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["sentiment analysis", "named entity recognition"],
+    "Tasks": [
+        "sentiment analysis",
+        "named entity recognition"
+    ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",

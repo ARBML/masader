@@ -7,9 +7,14 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "machine annotation"],
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "The datasets showcase the related and non-related pairs of Quran-Quran and Quran-Hadith. It has Classical Arabic and English translated verses and teachings.",
     "Volume": 20360.0,
     "Unit": "sentences",
@@ -24,12 +29,19 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["semantic similarity"],
+    "Tasks": [
+        "semantic similarity"
+    ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": ["Shatha Altammami", "Eric Atwell"],
-    "Affiliations": ["University of Leeds/King Saud University"],
+    "Authors": [
+        "Shatha Altammami",
+        "Eric Atwell"
+    ],
+    "Affiliations": [
+        "University of Leeds/King Saud University"
+    ],
     "Abstract": "",
     "Added By": "Abdullah Alsaleh"
 }

@@ -7,7 +7,12 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": ["social media", "wikipedia", "web pages", "public datasets"],
+    "Domain": [
+        "social media",
+        "wikipedia",
+        "web pages",
+        "public datasets"
+    ],
     "Form": "text",
     "Collection Style": [
         "human annotation",
@@ -18,7 +23,9 @@
     "Volume": 458285.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": ["MBZUAI"],
+    "Provider": [
+        "MBZUAI"
+    ],
     "Derived From": [
         "DODa-10K",
         "FLORES+",
@@ -43,7 +50,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["instruction following"],
+    "Tasks": [
+        "instruction following"
+    ],
     "Venue Title": "loreslm",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Language Models for Low-Resource Languages",

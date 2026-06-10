@@ -17,7 +17,7 @@
         "human annotation",
         "LLM generated"
     ],
-    "Description": "Parallel corpus of 130 children\u2019s stories translated from Modern Standard Arabic to Egyptian (Cairo) dialect.",
+    "Description": "Parallel corpus of 130 children’s stories translated from Modern Standard Arabic to Egyptian (Cairo) dialect.",
     "Volume": 130.0,
     "Unit": "documents",
     "Ethical Risks": "Low",

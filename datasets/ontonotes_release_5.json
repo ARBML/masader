@@ -7,14 +7,20 @@
     "Year": 2013,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["news articles"],
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The goal of the project was to annotate a large corpus comprising various genres of text (news, conversational telephone speech, weblogs, usenet newsgroups, broadcast, talk shows) in three languages (English, Chinese, and Arabic) with structural information (syntax and predicate argument structure) and shallow semantics (word sense linked to an ontology and coreference).",
     "Volume": 300000.0,
     "Unit": "tokens",
     "Ethical Risks": "Medium",
-    "Provider": ["LDC"],
+    "Provider": [
+        "LDC"
+    ],
     "Derived From": [],
     "Paper Title": "CoNLL-2012 Shared Task: Modeling Multilingual Unrestricted Coreference in OntoNotes",
     "Paper Link": "https://aclanthology.org/W12-4501.pdf",

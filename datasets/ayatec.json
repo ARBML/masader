@@ -7,14 +7,20 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["manual curation"],
+    "Collection Style": [
+        "manual curation"
+    ],
     "Description": "QA on the Holy Qur’an Dataset",
     "Volume": 207.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["Qatar University"],
+    "Provider": [
+        "Qatar University"
+    ],
     "Derived From": [],
     "Paper Title": "AyaTEC: Building a Reusable Verse-Based Test Collection for\r\nArabic Question Answering on the Holy Qur’an",
     "Paper Link": "https://dl.acm.org/doi/pdf/10.1145/3400396",
@@ -24,12 +30,19 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["question answering"],
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "TALLIP",
     "Venue Type": "journal",
     "Venue Name": "ACM Transactions on Asian and Low-Resource Language Information Processing",
-    "Authors": ["Rana Malhas", "Tamer Elsayed"],
-    "Affiliations": ["Qatar University"],
+    "Authors": [
+        "Rana Malhas",
+        "Tamer Elsayed"
+    ],
+    "Affiliations": [
+        "Qatar University"
+    ],
     "Abstract": "The absence of publicly available reusable test collections for Arabic question answering on the Holy Qur’an has impeded the possibility of fairly comparing the performance of systems in that domain. In this article, we introduce AyaTEC, a reusable test collection for verse-based question answering on the Holy Qur’an, which serves as a common experimental testbed for this task.AyaTEC includes 207 questions (with their corresponding 1,762 answers) covering 11 topic categories of the Holy Qur’an that target the information needs of both curious and skeptical users. To the best of our effort, the answers to the questions (each represented as a sequence of verses) in AyaTECwere exhaustive—that is, all qur’anic verses that directly answered the questions were exhaustively extracted and annotated. To facilitate the use ofAyaTEC in evaluating the systems designed for that task, we propose several evaluation measures to support the different types of questions and the nature of verse-based answers while integrating the concept of partial matching of answers in the evaluation.",
     "Added By": "Zaid Alyafeai"
 }

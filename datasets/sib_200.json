@@ -56,9 +56,15 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": ["public datasets", "news articles"],
+    "Domain": [
+        "public datasets",
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation", "machine annotation"],
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
     "Description": "A large-scale open-source benchmark dataset for topic classification in 200+ languages and dialects, based on Flores-200.",
     "Volume": 12870.0,
     "Unit": "sentences",
@@ -69,7 +75,9 @@
         "University of Toronto",
         "Amazon Alexa AI"
     ],
-    "Derived From": ["Flores-200"],
+    "Derived From": [
+        "Flores-200"
+    ],
     "Paper Title": "SIB-200: A Simple, Inclusive, and Big Evaluation Dataset for Topic Classification in 200+ Languages and Dialects",
     "Paper Link": "https://arxiv.org/pdf/2309.07445",
     "Script": "Arab",
@@ -78,7 +86,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["topic classification"],
+    "Tasks": [
+        "topic classification"
+    ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
     "Venue Name": "Annual Meeting of the Association for Computational Linguistics",

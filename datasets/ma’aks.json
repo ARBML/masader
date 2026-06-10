@@ -1,5 +1,5 @@
 {
-    "Name": "MA\u2019AKS",
+    "Name": "MA’AKS",
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/sabudalfa/ArabicTextSentimentSwap",
@@ -23,7 +23,7 @@
         "KFUPM"
     ],
     "Derived From": [],
-    "Paper Title": "MA\u2019AKS: manually-curated parallel dataset for Arabic text sentiment swap",
+    "Paper Title": "MA’AKS: manually-curated parallel dataset for Arabic text sentiment swap",
     "Paper Link": "https://www.researchgate.net/publication/394575152_MA%27AKS_manually-curated_parallel_dataset_for_Arabic_text_sentiment_swap",
     "Script": "Arab",
     "Tokenized": false,
@@ -50,6 +50,6 @@
         "KFUPM",
         "SDAIA"
     ],
-    "Abstract": "The advancement of NLP has made significant strides in sentiment style transfer,\nmodifying the linguistic style of a text while preserving its content. However,\nmost existing datasets are non-parallel and focus on English, neglecting lowresource\nlanguages like Arabic. The lack of comprehensive Arabic parallel datasets\nhas hindered the development and evaluation of robust sentiment transfer models\nfor Arabic. To address this, we introduce MA\u2019AKS, a novel Arabic parallel\ndataset for sentiment style transfer. MA\u2019AKS consists of 5k sentences in modern standard Arabic with positive/negative sentiments. Each sentence is meticulously\nannotated to ensure high-quality parallel sentiment pairs, supporting both\nsupervised and unsupervised learning. To benchmark the dataset, we evaluated\nAceGPT, JAIS, and Llama-3 LLMs on Arabic sentiment transfer with\ndifferent learning settings, including zero-shot, few-shot, and fine-tuning. By publicly\nreleasing MA\u2019AKS, annotation guidelines, and experiment code, we aim\nto advance research on Arabic sentiment transfer and contribute to the NLP\ncommunity.",
+    "Abstract": "The advancement of NLP has made significant strides in sentiment style transfer,\nmodifying the linguistic style of a text while preserving its content. However,\nmost existing datasets are non-parallel and focus on English, neglecting lowresource\nlanguages like Arabic. The lack of comprehensive Arabic parallel datasets\nhas hindered the development and evaluation of robust sentiment transfer models\nfor Arabic. To address this, we introduce MA’AKS, a novel Arabic parallel\ndataset for sentiment style transfer. MA’AKS consists of 5k sentences in modern standard Arabic with positive/negative sentiments. Each sentence is meticulously\nannotated to ensure high-quality parallel sentiment pairs, supporting both\nsupervised and unsupervised learning. To benchmark the dataset, we evaluated\nAceGPT, JAIS, and Llama-3 LLMs on Arabic sentiment transfer with\ndifferent learning settings, including zero-shot, few-shot, and fine-tuning. By publicly\nreleasing MA’AKS, annotation guidelines, and experiment code, we aim\nto advance research on Arabic sentiment transfer and contribute to the NLP\ncommunity.",
     "Added By": "Shadi Abudalfa"
 }

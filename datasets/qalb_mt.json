@@ -7,9 +7,14 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["news articles"],
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation", "machine annotation"],
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
     "Description": "A 100K-word human post-edited English-to-Arabic machine-translation corpus created from Wikinews articles.",
     "Volume": 100000.0,
     "Unit": "tokens",
@@ -28,7 +33,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["machine translation"],
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",

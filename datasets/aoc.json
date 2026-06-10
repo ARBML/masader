@@ -20,14 +20,20 @@
     "Year": 2011,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["news articles"],
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "a 52M-word monolingual dataset rich in dialectal content",
     "Volume": 108000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["Johns Hopkins University"],
+    "Provider": [
+        "Johns Hopkins University"
+    ],
     "Derived From": [],
     "Paper Title": "The Arabic Online Commentary Dataset: an Annotated Dataset of Informal Arabic with High Dialectal Content",
     "Paper Link": "https://aclanthology.org/P11-2007.pdf",
@@ -37,12 +43,19 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["dialect identification"],
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
     "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
-    "Authors": ["Omar F. Zaidan", "Chris Callison-Burch"],
-    "Affiliations": ["Dept. of Computer Science, Johns Hopkins University"],
+    "Authors": [
+        "Omar F. Zaidan",
+        "Chris Callison-Burch"
+    ],
+    "Affiliations": [
+        "Dept. of Computer Science, Johns Hopkins University"
+    ],
     "Abstract": "The written form of Arabic, Modern Standard Arabic (MSA), differs quite a bit from the spoken dialects of Arabic, which are the true \"native\" languages of Arabic speakers used in daily life. However, due to MSA's prevalence in written form, almost all Arabic datasets have predominantly MSA content. We present the Arabic Online Commentary Dataset, a 52M-word monolingual dataset rich in dialectal content, and we describe our long-term annotation effort to identify the dialect level (and dialect itself) in each sentence of the dataset. So far, we have labeled 108K sentences, 41% of which as having dialectal content. We also present experimental results on the task of automatic dialect identification, using the collected labels for training and evaluation.",
     "Added By": ""
 }

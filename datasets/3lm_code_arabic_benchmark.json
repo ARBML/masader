@@ -14,7 +14,7 @@
     "Collection Style": [
         "LLM generated"
     ],
-    "Description": "This dataset includes Arabic translations of two widely-used code evaluation benchmarks \u2014 HumanEval+ and MBPP+ \u2014 adapted into Arabic for the first time as part of the 3LM project.",
+    "Description": "This dataset includes Arabic translations of two widely-used code evaluation benchmarks — HumanEval+ and MBPP+ — adapted into Arabic for the first time as part of the 3LM project.",
     "Volume": 542.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

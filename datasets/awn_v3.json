@@ -7,9 +7,13 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "9576 synsets that was enhanced from AWN V1. ",
     "Volume": 9576.0,
     "Unit": "tokens",
@@ -19,7 +23,9 @@
         "Palestine Technical University–Kadoorie",
         "IMT Atlantique"
     ],
-    "Derived From": ["AWN V1"],
+    "Derived From": [
+        "AWN V1"
+    ],
     "Paper Title": "Advancing the Arabic WordNet: Elevating Content Quality",
     "Paper Link": "https://aclanthology.org/2024.osact-1.9.pdf",
     "Script": "Arab",

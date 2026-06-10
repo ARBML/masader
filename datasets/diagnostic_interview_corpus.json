@@ -32,14 +32,21 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["manual curation", "human annotation"],
+    "Collection Style": [
+        "manual curation",
+        "human annotation"
+    ],
     "Description": "The Diagnostic interview corpus is a multilingual dataset of 12,754 French medical diagnostic interview sentences (questions and instructions) with translations into 12 target languages and a semantic gloss based on UMLS (Unified Medical Language System).",
     "Volume": 12754.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["University of Geneva"],
+    "Provider": [
+        "University of Geneva"
+    ],
     "Derived From": [],
     "Paper Title": "A Speech-enabled Fixed-phrase Translator for Healthcare Accessibility",
     "Paper Link": "https://aclanthology.org/2021.nlp4posimpact-1.15.pdf",
@@ -49,7 +56,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["machine translation"],
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "NLP4PI",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on NLP for Positive Impact",

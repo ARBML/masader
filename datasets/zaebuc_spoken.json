@@ -7,7 +7,9 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "audio",
     "Collection Style": [
         "human annotation",
@@ -18,8 +20,12 @@
     "Volume": 12.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": ["CAMeL Lab"],
-    "Derived From": ["ZAEBUC"],
+    "Provider": [
+        "CAMeL Lab"
+    ],
+    "Derived From": [
+        "ZAEBUC"
+    ],
     "Paper Title": "ZAEBUC-Spoken: A Multilingual Multidialectal Arabic-English Speech Corpus",
     "Paper Link": "https://arxiv.org/pdf/2403.18182v1.pdf",
     "Script": "Arab-Latin",

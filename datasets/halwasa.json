@@ -7,15 +7,24 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["LLM"],
+    "Domain": [
+        "LLM"
+    ],
     "Form": "text",
-    "Collection Style": ["LLM generated", "human annotation"],
+    "Collection Style": [
+        "LLM generated",
+        "human annotation"
+    ],
     "Description": "First Arabic dataset with 10K LLM-generated sentences annotated for factuality.",
     "Volume": 10000.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": ["QCRI"],
-    "Derived From": ["SAMER Arabic readability lexicon"],
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "SAMER Arabic readability lexicon"
+    ],
     "Paper Title": "Halwasa: Quantify and Analyze Hallucinations in Large Language Models: Arabic as a Case Study",
     "Paper Link": "https://aclanthology.org/2024.lrec-main.705.pdf",
     "Script": "Arab",
@@ -24,11 +33,17 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["AI-generated text detection"],
+    "Tasks": [
+        "AI-generated text detection"
+    ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": ["Hamdy Mubarak", "Hend Al-Khalifa", "Khaloud Alkhalefah"],
+    "Authors": [
+        "Hamdy Mubarak",
+        "Hend Al-Khalifa",
+        "Khaloud Alkhalefah"
+    ],
     "Affiliations": [
         "HBKU",
         "King Saud University",

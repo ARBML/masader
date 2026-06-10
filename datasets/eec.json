@@ -7,14 +7,21 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": ["wikipedia", "books"],
+    "Domain": [
+        "wikipedia",
+        "books"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "Multilingual test sets for bias measurement in English, Arabic, and Spanish.",
     "Volume": 8038.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": ["Columbia University"],
+    "Provider": [
+        "Columbia University"
+    ],
     "Derived From": [],
     "Paper Title": "Mapping the Multilingual Margins: Intersectional Biases of Sentiment Analysis Systems in English, Spanish, and Arabic",
     "Paper Link": "https://aclanthology.org/2022.ltedi-1.11.pdf",
@@ -24,7 +31,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["bias detection"],
+    "Tasks": [
+        "bias detection"
+    ],
     "Venue Title": "LT-EDI",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Language Technology for Equality, Diversity and Inclusion",
@@ -35,7 +44,9 @@
         "Emily Allaway",
         "Richard Zemel"
     ],
-    "Affiliations": ["Columbia University"],
+    "Affiliations": [
+        "Columbia University"
+    ],
     "Abstract": "As natural language processing systems become more widespread, it is necessary to address fairness issues in their implementation and deployment to ensure that their negative impacts on society are understood and minimized. However, there is limited work that studies fairness using a multilingual and intersectional framework or on downstream tasks. In this paper, we introduce four multilingual Equity Evaluation Corpora, supplementary test sets designed to measure social biases, and a novel statistical framework for studying unisectional and intersectional social biases in natural language processing. We use these tools to measure gender, racial, ethnic, and intersectional social biases across five models trained on emotion regression tasks in English, Spanish, and Arabic. We find that many systems demonstrate statistically significant unisectional and intersectional social biases.",
     "Added By": "Zaid Alyafeai"
 }

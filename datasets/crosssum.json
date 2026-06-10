@@ -7,14 +7,20 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["news articles"],
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "a large-scale dataset comprising 1.65 million cross-lingual article-summary samples in 1500+ language-pairs",
     "Volume": 72795.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": ["Multiple Institutions"],
+    "Provider": [
+        "Multiple Institutions"
+    ],
     "Derived From": [],
     "Paper Title": "CrossSum: Beyond English-Centric Cross-Lingual Abstractive Text Summarization for 1500+ Language Pairs",
     "Paper Link": "https://arxiv.org/pdf/2112.08804.pdf",
@@ -24,7 +30,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["summarization"],
+    "Tasks": [
+        "summarization"
+    ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
     "Venue Name": "arXiv",

@@ -7,9 +7,14 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Algeria",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation", "manual curation"],
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
     "Description": "A benchmark for LLMs on everyday cultural knowledge across 16 countries/regions in 13 languages.",
     "Volume": 2600.0,
     "Unit": "sentences",
@@ -31,7 +36,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["multiple choice question answering"],
+    "Tasks": [
+        "multiple choice question answering"
+    ],
     "Venue Title": "NeurIPS",
     "Venue Type": "conference",
     "Venue Name": "Conference on Neural Information Processing Systems",

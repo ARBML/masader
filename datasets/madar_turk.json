@@ -7,15 +7,23 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Syria",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "First dataset for Syrian Arabic-Turkish machine translation sourced from MADAR.",
     "Volume": 2000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["CAMeL Lab"],
-    "Derived From": ["MADAR corpus"],
+    "Provider": [
+        "CAMeL Lab"
+    ],
+    "Derived From": [
+        "MADAR corpus"
+    ],
     "Paper Title": "Benchmarking Dialectal Arabic-Turkish Machine Translation",
     "Paper Link": "https://aclanthology.org/2023.mtsummit-research.22.pdf",
     "Script": "Arab",
@@ -24,7 +32,9 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["machine translation"],
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "MT Summit",
     "Venue Type": "conference",
     "Venue Name": "Machine Translation Summit",

@@ -7,14 +7,20 @@
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["wikipedia"],
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "This dataset add sentiment lexicons for 81 languages generated via graph propagation based on a knowledge graph--a graphical representation of real-world entities and the links between them",
     "Volume": 2794.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": ["Stony Brook University"],
+    "Provider": [
+        "Stony Brook University"
+    ],
     "Derived From": [],
     "Paper Title": "Building Sentiment Lexicons for All Major Languages",
     "Paper Link": "https://aclanthology.org/P14-2063.pdf",
@@ -24,12 +30,19 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["sentiment analysis"],
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
     "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
-    "Authors": ["Yanqing Chen", "Steven Skiena"],
-    "Affiliations": ["Stony Brook University"],
+    "Authors": [
+        "Yanqing Chen",
+        "Steven Skiena"
+    ],
+    "Affiliations": [
+        "Stony Brook University"
+    ],
     "Abstract": "Sentiment analysis in a multilingual world remains a challenging problem, because developing language-specific sentiment lexicons is an extremely resourceintensive process. Such lexicons remain a scarce resource for most languages. In this paper, we address this lexicon gap by building high-quality sentiment lexicons for 136 major languages. We integrate a variety of linguistic resources to produce an immense knowledge graph. By appropriately propagating from seed words, we construct sentiment lexicons for each component language of our graph. Our lexicons have a polarity agreement of 95.7% with published lexicons, while achieving an overall coverage of 45.2%. We demonstrate the performance of our lexicons in an extrinsic analysis of 2,000 distinct historical figures’ Wikipedia articles on 30 languages. Despite cultural difference and the intended neutrality of Wikipedia articles, our lexicons show an average sentiment correlation of 0.28 across all language pairs.",
     "Added By": "Abdelrahman Kaseb"
 }

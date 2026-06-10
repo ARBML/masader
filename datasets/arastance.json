@@ -7,14 +7,20 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["news articles"],
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "covers false and true claims from multiple domains (e.g., politics, sports, health) and several Arab countries",
     "Volume": 4063.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["Multiple Institutions"],
+    "Provider": [
+        "Multiple Institutions"
+    ],
     "Derived From": [],
     "Paper Title": "AraStance: A Multi-Country and Multi-Domain Dataset of\r\nArabic Stance Detection for Fact Checking",
     "Paper Link": "https://arxiv.org/pdf/2104.13559.pdf",
@@ -24,7 +30,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["stance detection"],
+    "Tasks": [
+        "stance detection"
+    ],
     "Venue Title": "NLP4IF",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on NLP for Internet Freedom",

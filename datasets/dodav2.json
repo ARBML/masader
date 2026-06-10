@@ -16,7 +16,7 @@
         "manual curation",
         "machine annotation"
     ],
-    "Description": "Open Moroccan Darija\u2013English parallel corpus with ~100 k entries, dual-script (Arab/Latin) and rich linguistic annotations.",
+    "Description": "Open Moroccan Darija–English parallel corpus with ~100 k entries, dual-script (Arab/Latin) and rich linguistic annotations.",
     "Volume": 100000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

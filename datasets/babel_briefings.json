@@ -14,7 +14,7 @@
     "Collection Style": [
         "crawling"
     ],
-    "Description": "Multilingual headlines corpus spanning August 2020\u2013November 2021, drawn from global press via News API.",
+    "Description": "Multilingual headlines corpus spanning August 2020–November 2021, drawn from global press via News API.",
     "Volume": 178854.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
@@ -38,7 +38,7 @@
     "Venue Name": "arXiv",
     "Authors": [
         "Felix Leeb",
-        "Bernhard Sch\u00f6lkopf"
+        "Bernhard Schölkopf"
     ],
     "Affiliations": [
         "Max Planck Institute for Intelligent Systems"

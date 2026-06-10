@@ -7,9 +7,15 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": ["books", "web pages"],
+    "Domain": [
+        "books",
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "machine annotation"],
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "First open-source literary corpus of Sa'idi Egyptian Arabic (SEA), containing 4 million words from novels and poetry.",
     "Volume": 413.0,
     "Unit": "documents",
@@ -27,11 +33,17 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["language modeling", "morphological analysis"],
+    "Tasks": [
+        "language modeling",
+        "morphological analysis"
+    ],
     "Venue Title": "NL4DH",
     "Venue Type": "workshop",
     "Venue Name": "International Conference on Natural Language Processing for Digital Humanities",
-    "Authors": ["Mai Mohamed Eida", "Nizar Habash"],
+    "Authors": [
+        "Mai Mohamed Eida",
+        "Nizar Habash"
+    ],
     "Affiliations": [
         "University of Illinois Urbana-Champaign",
         "New York University Abu Dhabi"

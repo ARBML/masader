@@ -22,7 +22,7 @@ repos:
       hooks:
           - id: prettier
             files: \.(js|ts|jsx|tsx|css|less|json|markdown|md|yaml|yml)$
-            exclude: tata.js|palette.js|style.min.css
+            exclude: tata.js|palette.js|style.min.css|^datasets/.*\.json$
             args: ['--tab-width', '4', '--single-quote']
     - repo: local
       hooks:

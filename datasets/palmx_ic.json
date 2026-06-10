@@ -16,7 +16,7 @@
         "crawling",
         "LLM generated"
     ],
-    "Description": "PalmX-IC assesses a model\u2019s knowledge of Islamic culture\u2014rituals, Qur\u02be\u0101n verses, \u1e24ad\u012bth, historic events, jurisprudence, and religious holidays\u2014core elements of life across the Arab world. All items are authored in Modern Standard Arabic (MSA) . The dataset powers Subtask 2 of the PalmX 2025 shared task.",
+    "Description": "PalmX-IC assesses a model’s knowledge of Islamic culture—rituals, Qurʾān verses, Ḥadīth, historic events, jurisprudence, and religious holidays—core elements of life across the Arab world. All items are authored in Modern Standard Arabic (MSA) . The dataset powers Subtask 2 of the PalmX 2025 shared task.",
     "Volume": 1900.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

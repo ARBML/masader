@@ -7,14 +7,20 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": ["books"],
+    "Domain": [
+        "books"
+    ],
     "Form": "images",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "Dataset of 300 annotated images of handwritten Arabic Maghrebi script manuscripts for layout analysis and handwritten text recognition.",
     "Volume": 300.0,
     "Unit": "images",
     "Ethical Risks": "Low",
-    "Provider": ["Université Paris Sciences & Lettres"],
+    "Provider": [
+        "Université Paris Sciences & Lettres"
+    ],
     "Derived From": [],
     "Paper Title": "RASAM - A Dataset for the Recognition and Analysis of Scripts in Arabic Maghrebi",
     "Paper Link": "https://shs.hal.science/halshs-03430697v1",
@@ -24,7 +30,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["optical character recognition"],
+    "Tasks": [
+        "optical character recognition"
+    ],
     "Venue Title": "ICDAR",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Document Analysis and Recognition",

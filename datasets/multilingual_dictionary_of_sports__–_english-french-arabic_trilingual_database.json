@@ -1,5 +1,5 @@
 {
-    "Name": "Multilingual Dictionary of Sports: \u2013 English-French-Arabic trilingual database",
+    "Name": "Multilingual Dictionary of Sports: – English-French-Arabic trilingual database",
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-T0372_04/",
@@ -28,7 +28,7 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "200.00\u20ac",
+    "Cost": "200.00€",
     "Test Split": false,
     "Tasks": [
         "dictionary"

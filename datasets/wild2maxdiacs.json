@@ -7,14 +7,21 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["public datasets", "LLM"],
+    "Domain": [
+        "public datasets",
+        "LLM"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "Wild2MaxDiacs is composed of 6k words with partial diacritization from 6 different sources. ",
     "Volume": 6000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": ["CAMeL-Lab"],
+    "Provider": [
+        "CAMeL-Lab"
+    ],
     "Derived From": [
         "WikiNews",
         "Penn Arabic Treebank",
@@ -31,7 +38,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["diacritization"],
+    "Tasks": [
+        "diacritization"
+    ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
     "Venue Name": "Annual Meeting of the Association for Computational Linguistics",

@@ -7,15 +7,24 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["news articles", "public datasets"],
+    "Domain": [
+        "news articles",
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "A new version of WikiNews that was manually extended for maximal diacritization",
     "Volume": 16215.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": ["CAMeL-Lab"],
-    "Derived From": ["WikiNews"],
+    "Provider": [
+        "CAMeL-Lab"
+    ],
+    "Derived From": [
+        "WikiNews"
+    ],
     "Paper Title": "Arabic Diacritics in the Wild: Exploiting Opportunities for Improved Diacritization",
     "Paper Link": "https://arxiv.org/pdf/2406.05760v1.pdf",
     "Script": "Arab",
@@ -24,7 +33,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["diacritization"],
+    "Tasks": [
+        "diacritization"
+    ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
     "Venue Name": "Annual Meeting of the Association for Computational Linguistics",

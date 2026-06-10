@@ -7,9 +7,13 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "An Algerian dialect dataset annotated for both sentiment (9,000 tweets), emotion (about 5,000 tweets) and extra-linguistic information including author profiling (age and gender)",
     "Volume": 14000.0,
     "Unit": "sentences",
@@ -24,11 +28,18 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["sentiment analysis", "emotion classification"],
+    "Tasks": [
+        "sentiment analysis",
+        "emotion classification"
+    ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": ["Leila Moudjari", "Karima Akli-Astouati", "Farah Benamara"],
+    "Authors": [
+        "Leila Moudjari",
+        "Karima Akli-Astouati",
+        "Farah Benamara"
+    ],
     "Affiliations": [
         "RIIMA Laboratory USTHB Bab Ezzouar, Algiers Algeria",
         "IRIT Universite de Toulouse"

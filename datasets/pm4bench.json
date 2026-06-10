@@ -7,15 +7,25 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "images",
-    "Collection Style": ["machine annotation"],
+    "Collection Style": [
+        "machine annotation"
+    ],
     "Description": "Parallel multilingual multi-modal multi-task benchmark for evaluating vision language models.",
     "Volume": 2439.0,
     "Unit": "images",
     "Ethical Risks": "High",
-    "Provider": ["Shanghai Artificial Intelligence Laboratory"],
-    "Derived From": ["MMMU-pro", "MMDU", "SafeBench"],
+    "Provider": [
+        "Shanghai Artificial Intelligence Laboratory"
+    ],
+    "Derived From": [
+        "MMMU-pro",
+        "MMDU",
+        "SafeBench"
+    ],
     "Paper Title": "PM4Bench: A Parallel Multilingual Multi-Modal Multi-task Benchmark for Large Vision Language Model",
     "Paper Link": "https://arxiv.org/pdf/2503.18484",
     "Script": "Arab",

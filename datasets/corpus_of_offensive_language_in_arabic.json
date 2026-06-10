@@ -7,14 +7,20 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "a dataset of YouTube comments in Arabic, specifically designed to be used for thedetection of offensive language in a machine learning scenario",
     "Volume": 15050.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": ["University of Limerick"],
+    "Provider": [
+        "University of Limerick"
+    ],
     "Derived From": [],
     "Paper Title": "Dataset Construction for the Detection of Anti-Social Behaviour in\r\nOnline Communication in Arabic",
     "Paper Link": "https://www.sciencedirect.com/science/article/pii/S1877050918321756",
@@ -24,11 +30,18 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["offensive language detection", "hate speech detection"],
+    "Tasks": [
+        "offensive language detection",
+        "hate speech detection"
+    ],
     "Venue Title": "ACLing",
     "Venue Type": "conference",
     "Venue Name": "International Conference on AI in Computational Linguistics",
-    "Authors": ["Azalden Alakrot", "Liam Murray", "Nikola S. Nikolov"],
+    "Authors": [
+        "Azalden Alakrot",
+        "Liam Murray",
+        "Nikola S. Nikolov"
+    ],
     "Affiliations": [
         "Department of Computer Science and Information Systems, University of Limerick, Ireland",
         "School of Languages, University of Limerick, Ireland"

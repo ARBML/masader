@@ -7,9 +7,13 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "audio",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "Tunisian railway-transport conversations annotated with dialogue acts and slots for SLU benchmarking.",
     "Volume": 6.0,
     "Unit": "hours",
@@ -20,7 +24,9 @@
         "LTCI, Télécom Paris",
         "Mila-Quebec AI Institute"
     ],
-    "Derived From": ["TARIC"],
+    "Derived From": [
+        "TARIC"
+    ],
     "Paper Title": "TARIC-SLU: A Tunisian Benchmark Dataset For Spoken Language Understanding",
     "Paper Link": "https://aclanthology.org/2024.lrec-main.1357.pdf",
     "Script": "Arab",
@@ -29,7 +35,9 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["speech recognition"],
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",

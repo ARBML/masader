@@ -7,15 +7,23 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": " Linguistic annotations for the Tunisian part of the MADAR corpus (Bouamor et al., 2018)",
     "Volume": 3990.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["Univ. Grenoble Alpes"],
-    "Derived From": ["MADAR"],
+    "Provider": [
+        "Univ. Grenoble Alpes"
+    ],
+    "Derived From": [
+        "MADAR"
+    ],
     "Paper Title": "An Empirical Analysis of Task Relations in the Multi-Task Annotation of an Arabizi Corpus",
     "Paper Link": "https://aclanthology.org/2023.ldk-1.14.pdf",
     "Script": "Arab",
@@ -24,12 +32,19 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["morphological analysis"],
+    "Tasks": [
+        "morphological analysis"
+    ],
     "Venue Title": "LDK",
     "Venue Type": "conference",
     "Venue Name": "Language, Data and Knowledge Conference",
-    "Authors": ["Elisa Gugliotta", "Marco Dinarelli"],
-    "Affiliations": ["Univ. Grenoble Alpes"],
+    "Authors": [
+        "Elisa Gugliotta",
+        "Marco Dinarelli"
+    ],
+    "Affiliations": [
+        "Univ. Grenoble Alpes"
+    ],
     "Abstract": "In this study, we deal with the design of computational-linguistic resources and strategies for the analysis of under-resourced languages. In particular, we present empirical analyses aiming at identifying the best path to semi-automatically annotate a dialectal Arabic corpus via a neural multi-task architecture. Such an architecture is used to automatically generate several levels of linguistic annotation which can be evaluated by comparison with the gold annotation. Changing the order in which annotations are produced can have an impact on the quantitative results. Through multiple sets of experiments we show how to get the best performances with this methodology.",
     "Added By": "Zaid Alyafeai"
 }

@@ -26,7 +26,7 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "11,250.00\u20ac",
+    "Cost": "11,250.00€",
     "Test Split": false,
     "Tasks": [
         "part of speech tagging"

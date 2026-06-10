@@ -36,7 +36,7 @@
         "MBPP+",
         "GAT"
     ],
-    "Paper Title": "Are Arabic Benchmarks Reliable? QIMMA\u2019s Quality-First Approach to LLM Evaluation",
+    "Paper Title": "Are Arabic Benchmarks Reliable? QIMMA’s Quality-First Approach to LLM Evaluation",
     "Paper Link": "https://arxiv.org/pdf/2604.03395v1.pdf",
     "Script": "Arab",
     "Tokenized": false,

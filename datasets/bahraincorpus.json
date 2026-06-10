@@ -7,9 +7,17 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Bahrain",
-    "Domain": ["social media", "TV channels", "web pages", "public datasets"],
+    "Domain": [
+        "social media",
+        "TV channels",
+        "web pages",
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["machine annotation", "human annotation"],
+    "Collection Style": [
+        "machine annotation",
+        "human annotation"
+    ],
     "Description": "A 620K-word multi-genre corpus of Bahraini Arabic with written texts and spoken transcripts, automatically morphologically annotated.",
     "Volume": 620301.0,
     "Unit": "tokens",
@@ -19,7 +27,9 @@
         "New York University Abu Dhabi",
         "Stony Brook University"
     ],
-    "Derived From": ["Gumar Corpus"],
+    "Derived From": [
+        "Gumar Corpus"
+    ],
     "Paper Title": "The Bahrain Corpus: A Multi-genre Corpus of Bahraini Arabic",
     "Paper Link": "https://aclanthology.org/2022.lrec-1.251.pdf",
     "Script": "Arab",
@@ -28,7 +38,10 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["morphological analysis", "speech recognition"],
+    "Tasks": [
+        "morphological analysis",
+        "speech recognition"
+    ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",

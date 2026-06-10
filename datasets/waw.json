@@ -7,14 +7,21 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "audio",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "an interpreting corpus for English/Arabic",
     "Volume": 31.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": ["QCRI", "Hamad Bin Khalifa University"],
+    "Provider": [
+        "QCRI",
+        "Hamad Bin Khalifa University"
+    ],
     "Derived From": [],
     "Paper Title": "The WAW Corpus: The First Corpus of Interpreted Speeches and their\r\nTranslations for English and Arabic",
     "Paper Link": "https://alt.qcri.org/resources/wawcorpus/",
@@ -24,7 +31,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["speech recognition", "machine translation"],
+    "Tasks": [
+        "speech recognition",
+        "machine translation"
+    ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",

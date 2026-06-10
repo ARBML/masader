@@ -28,7 +28,7 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "42,000.00\u20ac",
+    "Cost": "42,000.00€",
     "Test Split": false,
     "Tasks": [
         "morphological analysis",

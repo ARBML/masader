@@ -7,9 +7,13 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "images",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "A dataset of 190,000 annotated RGB images of 32 Arabic sign-language letters and gestures collected under varied lighting, distance, and background conditions.",
     "Volume": 190000.0,
     "Unit": "images",
@@ -27,7 +31,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["sign language recognition"],
+    "Tasks": [
+        "sign language recognition"
+    ],
     "Venue Title": "OSFPreprints",
     "Venue Type": "preprint",
     "Venue Name": "OSFPreprints",

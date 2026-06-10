@@ -7,9 +7,13 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "audio",
-    "Collection Style": ["other"],
+    "Collection Style": [
+        "other"
+    ],
     "Description": "Multilingual Spoken Words Corpus (MSWC), a large and growing audio dataset of spoken words in 50 different languages.",
     "Volume": 7.6,
     "Unit": "hours",
@@ -24,7 +28,9 @@
         "NVIDIA",
         "University of Michigan"
     ],
-    "Derived From": ["Common Voice dataset"],
+    "Derived From": [
+        "Common Voice dataset"
+    ],
     "Paper Title": "Multilingual Spoken Words Corpus",
     "Paper Link": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/fe131d7f5a6b38b23cc967316c13dae2-Paper-round2.pdf",
     "Script": "Arab",
@@ -33,7 +39,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["keyphrase extraction"],
+    "Tasks": [
+        "keyphrase extraction"
+    ],
     "Venue Title": "NeurIPS",
     "Venue Type": "conference",
     "Venue Name": "Conference on Neural Information Processing Systems",

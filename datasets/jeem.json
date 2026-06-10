@@ -32,14 +32,21 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["captions"],
+    "Domain": [
+        "captions"
+    ],
     "Form": "images",
-    "Collection Style": ["crawling", "human annotation"],
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
     "Description": "Benchmark for VLMs visual understanding across four Arabic dialects",
     "Volume": 2178.0,
     "Unit": "images",
     "Ethical Risks": "Low",
-    "Provider": ["TolokaAI"],
+    "Provider": [
+        "TolokaAI"
+    ],
     "Derived From": [],
     "Paper Title": "JEEM: Vision-Language Understanding in Four Arabic Dialects",
     "Paper Link": "http://arxiv.org/pdf/2503.21910v1.pdf",
@@ -49,7 +56,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["image captioning", "visual question answering"],
+    "Tasks": [
+        "image captioning",
+        "visual question answering"
+    ],
     "Venue Title": "Findings of EACL",
     "Venue Type": "conference",
     "Venue Name": "Findings of the European Chapter of the Association for Computational Linguistics",
@@ -65,7 +75,10 @@
         "Hanan Aldarmaki",
         "Yova Kementchedjhieva"
     ],
-    "Affiliations": ["MBZUAI", "TolokaAI"],
+    "Affiliations": [
+        "MBZUAI",
+        "TolokaAI"
+    ],
     "Abstract": "We introduce JEEM, a benchmark designed to evaluate Vision-Language Models (VLMs) on visual understanding across four Arabic-speaking countries: Jordan, The Emirates, Egypt, and Morocco. JEEM includes the tasks of image captioning and visual question answering, and features culturally rich and regionally diverse content. This dataset aims to assess the ability of VLMs to generalize across dialects and accurately interpret cultural elements in visual contexts. In an evaluation of five prominent open-source Arabic VLMs and GPT-4V, we find that the Arabic VLMs consistently underperform, struggling with both visual understanding and dialect-specific generation. While GPT-4V ranks best in this comparison, the model’s linguistic competence varies across dialects, and its visual understanding capabilities lag behind. This underscores the need for more inclusive models and the value of culturally-diverse evaluation paradigms.",
     "Added By": "Zaid Alyafeai"
 }

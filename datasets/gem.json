@@ -7,14 +7,20 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["wikipedia"],
+    "Domain": [
+        "wikipedia"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "benchmark environment for Natural Language Generation with a focus on its Evaluation, both through human annotations and automated Metric",
     "Volume": 29229.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": ["Multiple Institutions"],
+    "Provider": [
+        "Multiple Institutions"
+    ],
     "Derived From": [
         "MLSUM",
         "XSUM",
@@ -38,7 +44,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["summarization"],
+    "Tasks": [
+        "summarization"
+    ],
     "Venue Title": "GEM",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Generation, Evaluation and Metrics",

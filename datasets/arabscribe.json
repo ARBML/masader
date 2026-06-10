@@ -43,6 +43,6 @@
     "Affiliations": [
         "NYU"
     ],
-    "Abstract": "We present the MultiScript Phonetic\nSearch algorithm to address the problem\nof language learners looking up unfamiliar words that they heard. We apply it\nto Arabic dictionary lookup with noisy\nqueries done using both the Arabic and\nRoman scripts. Our algorithm is based on\na computational phonetic distance metric\nthat can be optionally machine learned. To\nbenchmark our performance, we created\nthe ArabScribe dataset, containing 10,000\nnoisy transcriptions of random Arabic dictionary words. Our algorithm outperforms\nGoogle Translate\u2019s \u201cdid you mean\" feature, as well as the Yamli smart Arabic\nkeyboard.",
+    "Abstract": "We present the MultiScript Phonetic\nSearch algorithm to address the problem\nof language learners looking up unfamiliar words that they heard. We apply it\nto Arabic dictionary lookup with noisy\nqueries done using both the Arabic and\nRoman scripts. Our algorithm is based on\na computational phonetic distance metric\nthat can be optionally machine learned. To\nbenchmark our performance, we created\nthe ArabScribe dataset, containing 10,000\nnoisy transcriptions of random Arabic dictionary words. Our algorithm outperforms\nGoogle Translate’s “did you mean\" feature, as well as the Yamli smart Arabic\nkeyboard.",
     "Added By": "Zaid Alyafeai"
 }

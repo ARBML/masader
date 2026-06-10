@@ -7,9 +7,13 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Saudi Telecom Tweets corpus for sentiment analysis",
     "Volume": 20000.0,
     "Unit": "sentences",
@@ -27,11 +31,16 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["sentiment analysis"],
+    "Tasks": [
+        "sentiment analysis"
+    ],
     "Venue Title": "PeerJ Comput. Sci.",
     "Venue Type": "journal",
     "Venue Name": "PeerJ Computer Science",
-    "Authors": ["Latifah Almuqren", "Alexandra Cristea"],
+    "Authors": [
+        "Latifah Almuqren",
+        "Alexandra Cristea"
+    ],
     "Affiliations": [
         "Durham University",
         "Princess Nourah bint Abdulrahman University"

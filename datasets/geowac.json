@@ -104,14 +104,20 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "match the ground-truth geographic\r\ndistribution of each language",
     "Volume": 373020007.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": ["University of Canterbury"],
+    "Provider": [
+        "University of Canterbury"
+    ],
     "Derived From": [],
     "Paper Title": "Geographically-Balanced Gigaword Corpora for 50 Language Varieties",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.308.pdf",
@@ -121,12 +127,19 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["dialect identification"],
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": ["Jonathan Dunn", "Benjamin Adams"],
-    "Affiliations": ["University of Canterbury"],
+    "Authors": [
+        "Jonathan Dunn",
+        "Benjamin Adams"
+    ],
+    "Affiliations": [
+        "University of Canterbury"
+    ],
     "Abstract": "While text corpora have been steadily increasing in overall size, even very large corpora are not designed to represent global population demographics. For example, recent work has shown that existing English gigaword corpora over-represent inner-circle varieties from the US and the UK. To correct implicit geographic and demographic biases, this paper uses country-level population demographics to guide the construction of gigaword web corpora. The resulting corpora explicitly match the ground-truth geographic distribution of each language, thus equally representing language users from around the world. This is important because it ensures that speakers of under-resourced language varieties (i.e., Indian English or Algerian French) are represented, both in the corpora themselves but also in derivative resources like word embeddings.",
     "Added By": "Zaid Alyafeai"
 }

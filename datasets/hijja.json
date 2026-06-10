@@ -7,14 +7,21 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "images",
-    "Collection Style": ["human annotation", "manual curation"],
+    "Collection Style": [
+        "human annotation",
+        "manual curation"
+    ],
     "Description": "Arabic handwritten letters dataset written by children aged 7–12",
     "Volume": 47434.0,
     "Unit": "images",
     "Ethical Risks": "Low",
-    "Provider": ["King Saud University"],
+    "Provider": [
+        "King Saud University"
+    ],
     "Derived From": [],
     "Paper Title": "Arabic handwriting recognition system using convolutional neural network",
     "Paper Link": "https://link.springer.com/content/pdf/10.1007/s00521-020-05070-8.pdf",
@@ -24,12 +31,19 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["optical character recognition"],
+    "Tasks": [
+        "optical character recognition"
+    ],
     "Venue Title": "NCAA",
     "Venue Type": "journal",
     "Venue Name": "Neural Computing and Applications",
-    "Authors": ["Najwa Altwaijry", "Isra Al-Turaiki"],
-    "Affiliations": ["King Saud University"],
+    "Authors": [
+        "Najwa Altwaijry",
+        "Isra Al-Turaiki"
+    ],
+    "Affiliations": [
+        "King Saud University"
+    ],
     "Abstract": "Automatic handwriting recognition is an important component for many applications in various fields. It is a challenging problem that has received a lot of attention in the past three decades. Research has focused on the recognition of Latin languages’ handwriting. Fewer studies have been done for the Arabic language. In this paper, we present a new dataset of Arabic letters written exclusively by children aged 7–12 which we call Hijja. Our dataset contains 47,434 characters written by 591 participants. In addition, we propose an automatic handwriting recognition model based on convolutional neural networks (CNN). We train our model on Hijja, as well as the Arabic Handwritten Character Dataset (AHCD) dataset. Results show that our model’s performance is promising, achieving accuracies of 97% and 88% on the AHCD dataset and the Hijja dataset, respectively, outperforming other models in the literature.",
     "Added By": "Zaid Alyafeai"
 }

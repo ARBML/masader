@@ -56,8 +56,8 @@
         "Mano Aslan",
         "Vu Trong Kim",
         "Shayekh Bin Islam",
-        "Jaume Prats-Cristi\u00e0",
-        "Luc\u00eda Tormo-Ba\u00f1uelos",
+        "Jaume Prats-Cristià",
+        "Lucía Tormo-Bañuelos",
         "Seungone Kim"
     ],
     "Affiliations": [
@@ -69,6 +69,6 @@
         "Bangladesh University of Engineering and Technology",
         "Carnegie Mellon University"
     ],
-    "Abstract": "As Large Language Models (LLMs) produce fluent content in many languages, it becomes critical to verify whether LLM-based evaluators\u2014trained mainly on English\u2014can reliably judge non-English outputs. Existing meta-evaluation benchmarks are English-centric. We introduce MM-EVAL, a multilingual benchmark with five core subsets (covering 18 languages) and a Language-Consistency subset (122 languages) that tests fairness and absolute-score consistency rather than only ranking accuracy. Experiments on 12 evaluator LLMs reveal large accuracy drops in low-resource languages and unfair score assignments. MM-EVAL correlates significantly with Best-of-N rankings, validating its utility for developing robust multilingual evaluators. We release data and code.",
+    "Abstract": "As Large Language Models (LLMs) produce fluent content in many languages, it becomes critical to verify whether LLM-based evaluators—trained mainly on English—can reliably judge non-English outputs. Existing meta-evaluation benchmarks are English-centric. We introduce MM-EVAL, a multilingual benchmark with five core subsets (covering 18 languages) and a Language-Consistency subset (122 languages) that tests fairness and absolute-score consistency rather than only ranking accuracy. Experiments on 12 evaluator LLMs reveal large accuracy drops in low-resource languages and unfair score assignments. MM-EVAL correlates significantly with Best-of-N rankings, validating its utility for developing robust multilingual evaluators. We release data and code.",
     "Added By": "Zaid Alyafeai"
 }

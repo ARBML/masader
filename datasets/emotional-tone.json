@@ -7,14 +7,20 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "emotion detection dataset",
     "Volume": 10065.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": ["Nile University"],
+    "Provider": [
+        "Nile University"
+    ],
     "Derived From": [],
     "Paper Title": "Emotional Tone Detection in Arabic Tweets",
     "Paper Link": "https://www.researchgate.net/profile/Samhaa-El-Beltagy/publication/320271778_Emotional_Tone_Detection_in_Arabic_Tweets/links/59d9f0a5458515a5bc2b1d8a/Emotional-Tone-Detection-in-Arabic-Tweets.pdf",
@@ -24,11 +30,16 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["emotion classification"],
+    "Tasks": [
+        "emotion classification"
+    ],
     "Venue Title": "CICLing",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Computational Linguistics and Intelligent Text Processing",
-    "Authors": ["Amr Al-Khatib", "Samhaa El-Beltagy"],
+    "Authors": [
+        "Amr Al-Khatib",
+        "Samhaa El-Beltagy"
+    ],
     "Affiliations": [
         "Center of Informatics Sciences, Nile University, Giza, Egypt"
     ],

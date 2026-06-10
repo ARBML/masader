@@ -7,9 +7,14 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["books", "web pages"],
+    "Domain": [
+        "books",
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "The largest annotated Arabic poetry corpus, containing ~14M verses across 16 categories with metadata on genres, prosody, themes, and poet information.",
     "Volume": 14000000.0,
     "Unit": "sentences",
@@ -28,11 +33,18 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["language modeling", "meter classification"],
+    "Tasks": [
+        "language modeling",
+        "meter classification"
+    ],
     "Venue Title": "IEEE Access",
     "Venue Type": "journal",
     "Venue Name": "IEEE Access",
-    "Authors": ["Badriyya B. Al-Onazi", "Wadee A. Nashir", "Asma Al-Shargabi"],
+    "Authors": [
+        "Badriyya B. Al-Onazi",
+        "Wadee A. Nashir",
+        "Asma Al-Shargabi"
+    ],
     "Affiliations": [
         "Princess Nourah bint Abdulrahman University",
         "University of Science and Technology Sana’a",

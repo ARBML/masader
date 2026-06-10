@@ -7,14 +7,20 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["news articles"],
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "collections of articles",
     "Volume": 57827.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": ["USTHB Algeria"],
+    "Provider": [
+        "USTHB Algeria"
+    ],
     "Derived From": [],
     "Paper Title": "Building TALAA, a Free General and Categorized Arabic Corpus",
     "Paper Link": "https://www.scitepress.org/Papers/2015/53521/53521.pdf",
@@ -24,11 +30,16 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["topic classification"],
+    "Tasks": [
+        "topic classification"
+    ],
     "Venue Title": "ICAART",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Agents and Artificial Intelligence",
-    "Authors": ["Essma Selab", "Ahmed Guessoum"],
+    "Authors": [
+        "Essma Selab",
+        "Ahmed Guessoum"
+    ],
     "Affiliations": [
         "Natural Language Processing and Machine Learning Research Group (TALAA), Université des Sciences et de la Technologie Houari Boumediene (USTHB), BP 32, El Alia 16111 Bab Ezzouar, Algiers, Algeria",
         "Laboratory for Research in Artificial Intelligence (LRIA), Université des Sciences et de la Technologie Houari Boumediene (USTHB), BP 32, El Alia 16111 Bab Ezzouar, Algiers, Algeria"

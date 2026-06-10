@@ -7,14 +7,22 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": ["books", "web pages"],
+    "Domain": [
+        "books",
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "human annotation"],
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
     "Description": "a dataset that consists of a collection of the Quran verses annotated with emotion classes. ",
     "Volume": 2100.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["Qassim University"],
+    "Provider": [
+        "Qassim University"
+    ],
     "Derived From": [],
     "Paper Title": "Leveraging large language models for detecting and preserving emotions in quran translations",
     "Paper Link": "https://doi.org/10.1007/s44443-025-00269-y",
@@ -24,11 +32,16 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["emotion classification"],
+    "Tasks": [
+        "emotion classification"
+    ],
     "Venue Title": "JKSU",
     "Venue Type": "journal",
     "Venue Name": "Journal of King Saud University",
-    "Authors": ["Arwa Almarzoqi", "Mohammed Alsuhaibani"],
+    "Authors": [
+        "Arwa Almarzoqi",
+        "Mohammed Alsuhaibani"
+    ],
     "Affiliations": [],
     "Abstract": "Over the years, translations of the Quran have served as a vital tool for conveying its message to non-Arabic-speaking audiences. This research proposes a computational quantitative approach to investigate emotion preservation in English translations of the Quran using Large Language Models (LLMs). The proposed approach implements emotion analysis using the state-of-the-art models and evaluates the agreement levels through a human validation process, using a parallel corpus of the Quran with seven English translations. This research yields the Emotionally-Labeled Quran Verses (ELQV) dataset, a collection of 2100 Quran verses annotated by specialists, designed to advance Arabic Natural Language Processing (NLP), particularly NLP-based Quranic research. The analysis demonstrates that the investigated translations preserved the emotional semantics at a fair level. Compared to the Quran, neither of the translations reached substantial agreement with Arabic readers, with Cohen’s Kappa (κ) scores ranging from 0.29 to 0.35. Despite the challenges associated with Classical Arabic scripts, the LLMs adopted in this research proved their ability to capture the emotional semantics of the Quran, indicating their aptitude to comprehend complex scripts with cultural and theological significance.",
     "Added By": "Zaid Alyafeai"

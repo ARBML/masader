@@ -14,7 +14,7 @@
     "Collection Style": [
         "other"
     ],
-    "Description": "DixAF (Dictionnaire bilingue fran\u00e7ais arabe, arabe fran\u00e7ais - Bilingual Dictionary French Arabic, Arabic French) is a joint ownership of CNRS/ENS lettres et sciences humaines. It was developed by Mr Fathi Debili, a CNRS officer, and it consists of around 125,000 binary links between ca. 43,800 French entries and ca. 35,000 Arabic entries.",
+    "Description": "DixAF (Dictionnaire bilingue français arabe, arabe français - Bilingual Dictionary French Arabic, Arabic French) is a joint ownership of CNRS/ENS lettres et sciences humaines. It was developed by Mr Fathi Debili, a CNRS officer, and it consists of around 125,000 binary links between ca. 43,800 French entries and ca. 35,000 Arabic entries.",
     "Volume": 35000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
@@ -26,7 +26,7 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "18,000.00\u20ac",
+    "Cost": "18,000.00€",
     "Test Split": false,
     "Tasks": [
         "machine translation"

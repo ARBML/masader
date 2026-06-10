@@ -7,14 +7,23 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": ["social media", "commentary"],
+    "Domain": [
+        "social media",
+        "commentary"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "human annotation", "manual curation"],
+    "Collection Style": [
+        "crawling",
+        "human annotation",
+        "manual curation"
+    ],
     "Description": "This corpus comprises 10,087 sentences, encompassing over 19,497 unique words in Algerian Dialect, and addresses the significant lack of linguistic resources in the language and covers seven distinct domains.",
     "Volume": 10087.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
-    "Provider": ["Ahmed Draia University"],
+    "Provider": [
+        "Ahmed Draia University"
+    ],
     "Derived From": [],
     "Paper Title": "FASSILA: A Corpus for Algerian Dialect Fake News Detection and Sentiment Analysis",
     "Paper Link": "https://journal.iberamia.org/index.php/intartif/article/view/1151/204",
@@ -24,7 +33,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["fake news detection", "sentiment analysis"],
+    "Tasks": [
+        "fake news detection",
+        "sentiment analysis"
+    ],
     "Venue Title": "Inteligencia Artificial",
     "Venue Type": "journal",
     "Venue Name": "Inteligencia Artificial",

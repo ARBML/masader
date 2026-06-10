@@ -7,9 +7,14 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["web pages"],
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "machine annotation"],
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "Large-scale Arabic Medical Question Answering dataset.",
     "Volume": 137293.0,
     "Unit": "sentences",
@@ -28,11 +33,17 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["question answering"],
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "OSACT",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
-    "Authors": ["Ashwag Alasmari", "Sara Alhumoud", "Waad Alshammari"],
+    "Authors": [
+        "Ashwag Alasmari",
+        "Sara Alhumoud",
+        "Waad Alshammari"
+    ],
     "Affiliations": [
         "Department of Computer Science, King Khalid University",
         "Imam Mohammad Ibn Saud Islamic University",

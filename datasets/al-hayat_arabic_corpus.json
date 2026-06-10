@@ -26,7 +26,7 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "720.00\u20ac",
+    "Cost": "720.00€",
     "Test Split": false,
     "Tasks": [
         "topic classification"

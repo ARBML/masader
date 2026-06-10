@@ -7,15 +7,24 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "audio",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "First spoken Egyptian Arabic intra-utterance code-switching corpus.",
     "Volume": 2.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": ["QCRI"],
-    "Derived From": ["ADI-5", "MGB-3"],
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "ADI-5",
+        "MGB-3"
+    ],
     "Paper Title": "Effects of Dialectal Code-Switching on Speech Modules: A Study using Egyptian Arabic Broadcast Speech",
     "Paper Link": "https://www.isca-archive.org/interspeech_2020/chowdhury20c_interspeech.pdf",
     "Script": "Arab",
@@ -24,7 +33,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["speech recognition", "codeswitch detection"],
+    "Tasks": [
+        "speech recognition",
+        "codeswitch detection"
+    ],
     "Venue Title": "Interspeech",
     "Venue Type": "conference",
     "Venue Name": "Conference of the International Speech Communication Association",

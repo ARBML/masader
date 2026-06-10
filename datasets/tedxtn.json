@@ -7,15 +7,25 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "audio",
-    "Collection Style": ["crawling", "human annotation"],
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
     "Description": "First Tunisian Arabic-English speech translation corpus.",
     "Volume": 28.65,
     "Unit": "hours",
     "Ethical Risks": "Low",
-    "Provider": ["ELYADATA", "Laboratoire Informatique d'Avignon"],
-    "Derived From": ["TEDx talks"],
+    "Provider": [
+        "ELYADATA",
+        "Laboratoire Informatique d'Avignon"
+    ],
+    "Derived From": [
+        "TEDx talks"
+    ],
     "Paper Title": "TEDxTN: A Three-way Speech Translation Corpus for Code-Switched Tunisian Arabic - English",
     "Paper Link": "https://arxiv.org/pdf/2511.10780v1.pdf",
     "Script": "Arab",
@@ -24,7 +34,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["speech recognition"],
+    "Tasks": [
+        "speech recognition"
+    ],
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",
@@ -34,7 +46,10 @@
         "Haroun Elleuch",
         "Yannick Estève"
     ],
-    "Affiliations": ["ELYADATA", "Laboratoire Informatique d'Avignon"],
+    "Affiliations": [
+        "ELYADATA",
+        "Laboratoire Informatique d'Avignon"
+    ],
     "Abstract": "In this paper, we introduce TEDxTN, the first publicly available Tunisian Arabic to English speech translation dataset. This work is in line with the ongoing effort to mitigate the data scarcity obstacle for a number of Arabic dialects. We collected, segmented, transcribed and translated 108 TEDx talks following our internally developed annotations guidelines. The. collected talks represent 25 hours of speech with code-switching that cover speakers with various accents from over 11 different regions of Tunisia. We make the annotation guidelines and corpus publicly available. This will enable the extension of TEDxTN to new talks as they become available. We also report results for strong baseline systems of Speech Recognition and Speech Translation using multiple pre-trained and fine-tuned end-to-end models. This corpus is the first open source and publicly available speech translation corpus of Code-Switching Tunisian dialect. We believe that this is a valuable resource that can motivate and facilitate further research studying Tunisian Dialect.",
     "Added By": "Zaid Alyafeai"
 }

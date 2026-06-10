@@ -7,14 +7,20 @@
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["machine annotation"],
+    "Collection Style": [
+        "machine annotation"
+    ],
     "Description": "Evaluating Gender Bias in Machine Translation",
     "Volume": 3888.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["Multiple Institutions"],
+    "Provider": [
+        "Multiple Institutions"
+    ],
     "Derived From": [],
     "Paper Title": "Evaluating Gender Bias in Machine Translation",
     "Paper Link": "https://arxiv.org/pdf/1906.00591.pdf",
@@ -24,11 +30,17 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["machine translation"],
+    "Tasks": [
+        "machine translation"
+    ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
     "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
-    "Authors": ["Gabriel Stanovsky", "Noah A. Smith", "Luke Zettlemoyer"],
+    "Authors": [
+        "Gabriel Stanovsky",
+        "Noah A. Smith",
+        "Luke Zettlemoyer"
+    ],
     "Affiliations": [
         "Allen Institute for Artificial Intelligence",
         "University of Washington",

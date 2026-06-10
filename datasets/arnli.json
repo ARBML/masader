@@ -7,14 +7,21 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["machine annotation", "human annotation"],
+    "Collection Style": [
+        "machine annotation",
+        "human annotation"
+    ],
     "Description": "Arabic NLI dataset for natural language inference collected by translating and re-annotating English and Arabic datasets. ",
     "Volume": 6366.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["Arab International University"],
+    "Provider": [
+        "Arab International University"
+    ],
     "Derived From": [
         "PHEME",
         "SICK",
@@ -29,12 +36,19 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["natural language inference"],
+    "Tasks": [
+        "natural language inference"
+    ],
     "Venue Title": "CSCI",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Computational Science and Computational Intelligence",
-    "Authors": ["Khloud Al Jallad", "Nada Ghneim"],
-    "Affiliations": ["Arab International University"],
+    "Authors": [
+        "Khloud Al Jallad",
+        "Nada Ghneim"
+    ],
+    "Affiliations": [
+        "Arab International University"
+    ],
     "Abstract": "Natural Language Inference (NLI) is a hot topic research in natural language processing, contradiction detection between sentences is a special case of NLI. This is considered a difficult NLP task which has a big influence when added as a component in many NLP applications, such as Question Answering Systems, text Summarization. Arabic Language is one of the most challenging low-resources languages in detecting contradictions due to its rich lexical, semantics ambiguity. We have created a data set of more than 12k sentences and named ArNLI, that will be publicly available. Moreover, we have applied a new model inspired by Stanford contradiction detection proposed solutions on English language. We proposed an approach to detect contradictions between pairs of sentences in Arabic language using contradiction vector combined with language model vector as an input to machine learning model. We analyzed results of different traditional machine learning classifiers and compared their results on our created data set (ArNLI) and on an automatic translation of both PHEME, SICK English data sets. Best results achieved using Random Forest classifier with an accuracy of 99%, 60%, 75% on PHEME, SICK and ArNLI respectively.",
     "Added By": "Zaid Alyafeai"
 }

@@ -20,9 +20,14 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation", "machine annotation"],
+    "Collection Style": [
+        "human annotation",
+        "machine annotation"
+    ],
     "Description": "A Moroccan Darija and MSA dataset for banking intent detection with 3600 sentences across 24 intents.",
     "Volume": 3600.0,
     "Unit": "sentences",
@@ -33,7 +38,11 @@
         "National Institute of Posts and Telecoms",
         "Lancaster University"
     ],
-    "Derived From": ["Banking77", "Banking-Faq-Bot", "Smart-Banking-Chatbot"],
+    "Derived From": [
+        "Banking77",
+        "Banking-Faq-Bot",
+        "Smart-Banking-Chatbot"
+    ],
     "Paper Title": "DarijaBanking: A new resource for overcoming language barriers in banking intent detection for Moroccan Arabic speakers",
     "Paper Link": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CEA99875FE7F18DBFBE9E8F4DC5B64DB/S2977042424000554a.pdf",
     "Script": "Arab",
@@ -42,7 +51,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["intent detection", "machine translation"],
+    "Tasks": [
+        "intent detection",
+        "machine translation"
+    ],
     "Venue Title": "NLP",
     "Venue Type": "journal",
     "Venue Name": "Natural Language Processing",

@@ -7,14 +7,20 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": ["books"],
+    "Domain": [
+        "books"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "A multi-task dataset for Named Entity Recognition and Topic Modeling on Classical Arabic Quranic exegesis (Tafsir Al-Tabari).",
     "Volume": 51704.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["Goethe University Frankfurt"],
+    "Provider": [
+        "Goethe University Frankfurt"
+    ],
     "Derived From": [],
     "Paper Title": "Tafsir Dataset: A Novel Multi-Task Benchmark for Named Entity Recognition and Topic Modeling in Classical Arabic Literature",
     "Paper Link": "https://aclanthology.org/2022.coling-1.330.pdf",
@@ -24,7 +30,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["named entity recognition", "topic classification"],
+    "Tasks": [
+        "named entity recognition",
+        "topic classification"
+    ],
     "Venue Title": "COLING",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Computational Linguistics",

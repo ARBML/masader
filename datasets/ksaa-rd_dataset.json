@@ -7,14 +7,21 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["other"],
+    "Domain": [
+        "other"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "machine annotation"],
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "The KSAA-RD dataset contains over 58,000 Arabic entries and 63,000 English entries. Each entry consists of a word (lemma), its part of speech, and a gloss (definition). The dataset provides both contextualized word embeddings (from AraELECTRA) and fixed word embeddings (from AraVec’s skip-gram model).",
     "Volume": 58000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": ["King Salman Global Academy for Arabic Language (KSAA)"],
+    "Provider": [
+        "King Salman Global Academy for Arabic Language (KSAA)"
+    ],
     "Derived From": [
         "Contemporary Arabic Language dictionary (Arabic)",
         "SemEval 2022 English dictionary"
@@ -27,7 +34,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["information retrieval", "dictionary"],
+    "Tasks": [
+        "information retrieval",
+        "dictionary"
+    ],
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",
@@ -41,7 +51,9 @@
         "Halah Alharbi",
         "Abdullah Alfaifi"
     ],
-    "Affiliations": ["King Salman Global Academy for Arabic Language (KSAA)"],
+    "Affiliations": [
+        "King Salman Global Academy for Arabic Language (KSAA)"
+    ],
     "Abstract": "The KSAA-RD shared task involves developing a reverse dictionary system for Arabic, with two subtasks focusing on Arabic-to-Arabic and cross-lingual (English-to-Arabic) reverse dictionary tasks. The dataset includes glosses and word embeddings, and the task aimed to improve word embedding models for reverse dictionary generation. Teams participated to predict the most accurate word embeddings from glosses using neural language models like BERT.",
     "Added By": "Maryam Al Emadi"
 }

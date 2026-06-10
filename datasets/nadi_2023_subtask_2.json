@@ -32,9 +32,14 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "human annotation"],
+    "Collection Style": [
+        "crawling",
+        "human annotation"
+    ],
     "Description": "Country-level Arabic dialect tweets from 18 countries for dialect identification; parallel Egyptian/Emirati/Jordanian/Palestinian→MSA sentences for MT.",
     "Volume": 2400.0,
     "Unit": "sentences",
@@ -54,7 +59,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["dialect identification"],
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",

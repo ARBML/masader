@@ -7,14 +7,20 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["web pages"],
+    "Domain": [
+        "web pages"
+    ],
     "Form": "images",
-    "Collection Style": ["human annotation"],
+    "Collection Style": [
+        "human annotation"
+    ],
     "Description": "DuwatBench is a comprehensive benchmark for evaluating LMMs on Arabic calligraphy recognition. Arabic calligraphy represents one of the richest visual traditions of the Arabic language, blending linguistic meaning with artistic form. ",
     "Volume": 1272.0,
     "Unit": "images",
     "Ethical Risks": "Low",
-    "Provider": ["MBZUAI-ORYX"],
+    "Provider": [
+        "MBZUAI-ORYX"
+    ],
     "Derived From": [],
     "Paper Title": "DuwatBench: Bridging Language and Visual Heritage through an Arabic Calligraphy Benchmark",
     "Paper Link": "https://aclanthology.org/2026.eacl-long.243.pdf",
@@ -24,7 +30,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["optical character recognition"],
+    "Tasks": [
+        "optical character recognition"
+    ],
     "Venue Title": "EACL",
     "Venue Type": "conference",
     "Venue Name": "Conference of the European Chapter of the Association for Computational Linguistics",

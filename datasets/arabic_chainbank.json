@@ -7,15 +7,24 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["public datasets"],
+    "Domain": [
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["manual curation", "machine annotation"],
+    "Collection Style": [
+        "manual curation",
+        "machine annotation"
+    ],
     "Description": "Graph network for Arabic derivational morphology.",
     "Volume": 23333.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": ["CAMeL Lab"],
-    "Derived From": ["CamelMorph v1.0"],
+    "Provider": [
+        "CAMeL Lab"
+    ],
+    "Derived From": [
+        "CamelMorph v1.0"
+    ],
     "Paper Title": "A Derivational Chain Bank for Modern Standard Arabic",
     "Paper Link": "https://arxiv.org/pdf/2410.20463v2.pdf",
     "Script": "Arab",
@@ -24,11 +33,17 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["morphological analysis"],
+    "Tasks": [
+        "morphological analysis"
+    ],
     "Venue Title": "AbjadNLP",
     "Venue Type": "workshop",
     "Venue Name": "Workshop on NLP for Languages Using Arabic Script",
-    "Authors": ["Reham Marzouk", "Sondos Krouna", "Nizar Habash"],
+    "Authors": [
+        "Reham Marzouk",
+        "Sondos Krouna",
+        "Nizar Habash"
+    ],
     "Affiliations": [
         "New York University",
         "Alexandria University",

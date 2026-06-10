@@ -22,9 +22,9 @@
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [
-        "Universit\u00e9 de Ghardaia",
+        "Université de Ghardaia",
         "Ziane Achour University",
-        "Universit\u00e9 Amar Telidji"
+        "Université Amar Telidji"
     ],
     "Derived From": [
         "ASTD",
@@ -53,9 +53,9 @@
         "Mounia Bouameur"
     ],
     "Affiliations": [
-        "Universit\u00e9 de Ghardaia",
+        "Université de Ghardaia",
         "Ziane Achour University",
-        "Universit\u00e9 Amar Telidji"
+        "Université Amar Telidji"
     ],
     "Abstract": "Despite its significance, Arabic, a linguistically rich and morphologically complex language, faces the challenge of being under-resourced. The scarcity of large annotated datasets hampers the development of accurate tools for subjectivity analysis in Arabic. Recent advances in deep learning and Transformers have proven highly effective for text classification in English and French. This paper proposes a new approach for subjectivity assessment in Arabic textual data. To address the dearth of specialized annotated datasets, we developed a comprehensive dataset, AraDhati+, by leveraging existing Arabic datasets and collections (ASTD, LABR, HARD, and SANAD). Subsequently, we fine-tuned state-of-the-art Arabic language models (XLM-RoBERTa, AraBERT, and ArabianGPT) on AraDhati+ for effective subjectivity classification. Furthermore, we experimented with an ensemble decision approach to harness the strengths of individual models. Our approach achieves a remarkable accuracy of 97.79% for Arabic subjectivity classification. Results demonstrate the effectiveness of the proposed approach in addressing the challenges posed by limited resources in Arabic language processing.",
     "Added By": "Zaid Alyafeai"

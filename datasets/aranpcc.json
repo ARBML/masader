@@ -7,14 +7,20 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["news articles"],
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "the corpus is a large Arabic newspaper COVID-19 corpus, automatically collected from 88 Arabic newspapers from 12 Arab countries.",
     "Volume": 7277525.0,
     "Unit": "documents",
     "Ethical Risks": "Medium",
-    "Provider": ["KACST"],
+    "Provider": [
+        "KACST"
+    ],
     "Derived From": [],
     "Paper Title": "AraNPCC: The Arabic Newspaper COVID-19 Corpus",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2022/workshops/OSACT/pdf/2022.osact-1.4.pdf",
@@ -24,7 +30,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["language modeling", "topic classification"],
+    "Tasks": [
+        "language modeling",
+        "topic classification"
+    ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",

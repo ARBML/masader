@@ -7,14 +7,21 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "machine annotation"],
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "A weakly annotated dataset for the most common tweet category. ",
     "Volume": 115692.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["QCRI"],
+    "Provider": [
+        "QCRI"
+    ],
     "Derived From": [],
     "Paper Title": "Improving Arabic Text Categorization Using Transformer Training Diversification",
     "Paper Link": "https://aclanthology.org/2020.wanlp-1.21.pdf",
@@ -24,7 +31,10 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["text classification", "topic classification"],
+    "Tasks": [
+        "text classification",
+        "topic classification"
+    ],
     "Venue Title": "WANLP",
     "Venue Type": "workshop",
     "Venue Name": "Arabic Natural Language Processing Workshop",

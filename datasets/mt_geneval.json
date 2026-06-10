@@ -38,15 +38,15 @@
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
     "Authors": [
-  "Anna Currey",
-  "Maria Nadejde",
-  "Raghavendra Pappagari",
-  "Mia Mayer",
-  "Stanislas Lauly",
-  "Xing Niu",
-  "Benjamin Hsu",
-  "Georgiana Dinu"
-],
+        "Anna Currey",
+        "Maria Nadejde",
+        "Raghavendra Pappagari",
+        "Mia Mayer",
+        "Stanislas Lauly",
+        "Xing Niu",
+        "Benjamin Hsu",
+        "Georgiana Dinu"
+    ],
     "Affiliations": [
         "AWS AI Labs"
     ],

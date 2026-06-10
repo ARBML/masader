@@ -7,9 +7,13 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["news articles"],
+    "Domain": [
+        "news articles"
+    ],
     "Form": "text",
-    "Collection Style": ["LLM generated"],
+    "Collection Style": [
+        "LLM generated"
+    ],
     "Description": "Datasets for AI-generated and AI-polished Arabic text detection.",
     "Volume": 16400.0,
     "Unit": "documents",
@@ -27,7 +31,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["AI-generated text detection"],
+    "Tasks": [
+        "AI-generated text detection"
+    ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
     "Venue Name": "arXiv",

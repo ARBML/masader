@@ -27,7 +27,7 @@
     "Derived From": [
         "Arabic Billion Words corpus"
     ],
-    "Paper Title": "Morphemes Without Borders: Evaluating Root\u2013Pattern Morphology in Arabic Tokenizers and LLMs",
+    "Paper Title": "Morphemes Without Borders: Evaluating Root–Pattern Morphology in Arabic Tokenizers and LLMs",
     "Paper Link": "https://arxiv.org/pdf/2603.15773v1.pdf",
     "Script": "Arab",
     "Tokenized": true,

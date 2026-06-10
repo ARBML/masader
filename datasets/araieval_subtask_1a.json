@@ -7,15 +7,26 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["social media", "news articles", "public datasets"],
+    "Domain": [
+        "social media",
+        "news articles",
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["human annotation", "crawling"],
+    "Collection Style": [
+        "human annotation",
+        "crawling"
+    ],
     "Description": "Part of the propaganda detection task for classification of persuasion in tweets. ",
     "Volume": 3189.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": ["QCRI"],
-    "Derived From": ["AraFacts"],
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "AraFacts"
+    ],
     "Paper Title": "ArAIEval Shared Task: Persuasion Techniques and Disinformation Detection in Arabic Text",
     "Paper Link": "https://arxiv.org/pdf/2311.03179v1.pdf",
     "Script": "Arab",
@@ -24,7 +35,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["other"],
+    "Tasks": [
+        "other"
+    ],
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
     "Venue Name": "Arabic Natural Language Processing Conference",

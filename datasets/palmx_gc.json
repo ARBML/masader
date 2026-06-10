@@ -16,7 +16,7 @@
         "crawling",
         "LLM generated"
     ],
-    "Description": "PalmX-GC evaluates a model\u2019s grasp of general Arab culture\u2014customs, history, geography, arts, cuisine, notable figures, and everyday life across the 22 Arab League countries. Every item is written in Modern Standard Arabic (MSA). The dataset powers Subtask 1 of the PalmX 2025 shared task.",
+    "Description": "PalmX-GC evaluates a model’s grasp of general Arab culture—customs, history, geography, arts, cuisine, notable figures, and everyday life across the 22 Arab League countries. Every item is written in Modern Standard Arabic (MSA). The dataset powers Subtask 1 of the PalmX 2025 shared task.",
     "Volume": 4500.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

@@ -7,14 +7,20 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": ["web pages"],
+    "Domain": [
+        "web pages"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "It includes a TRAIN/DEV split with reliable double-checked DEV (1,281 original questions, and 37,795 potentially related question-answer pairs) + unannotated (163,383 question--answer pairs)",
     "Volume": 45164.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["QCRI"],
+    "Provider": [
+        "QCRI"
+    ],
     "Derived From": [],
     "Paper Title": "SemEval-2016 Task 3: Community Question Answering",
     "Paper Link": "https://alt.qcri.org/semeval2016/task3/data/uploads/semeval2016-task3-report.pdf",
@@ -24,7 +30,9 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["question answering"],
+    "Tasks": [
+        "question answering"
+    ],
     "Venue Title": "SemEval",
     "Venue Type": "workshop",
     "Venue Name": "International Workshop on Semantic Evaluation",

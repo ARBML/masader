@@ -134,14 +134,20 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "A  large-scale collection of parallel sentences built to cover the dialects of 25 cities from the Arab World",
     "Volume": 2980.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
-    "Provider": ["NYU Abu Dhabi"],
+    "Provider": [
+        "NYU Abu Dhabi"
+    ],
     "Derived From": [],
     "Paper Title": "Fine-Grained Arabic Dialect Identification",
     "Paper Link": "https://aclanthology.org/C18-1113.pdf",
@@ -151,11 +157,18 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Test Split": true,
-    "Tasks": ["machine translation", "dialect identification"],
+    "Tasks": [
+        "machine translation",
+        "dialect identification"
+    ],
     "Venue Title": "COLING",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Computational Linguistics",
-    "Authors": ["Mohammad Salameh", "Houda Bouamor", "Nizar Habash"],
+    "Authors": [
+        "Mohammad Salameh",
+        "Houda Bouamor",
+        "Nizar Habash"
+    ],
     "Affiliations": [
         "Carnegie Mellon University in Qatar;Carnegie Mellon University in Qatar;New York University Abu Dhabi"
     ],

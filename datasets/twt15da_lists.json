@@ -98,14 +98,21 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["social media"],
+    "Domain": [
+        "social media"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling", "machine annotation"],
+    "Collection Style": [
+        "crawling",
+        "machine annotation"
+    ],
     "Description": "The annotated dialectal Arabic corpus (Twt15DA) is collected from Twitter and consists of 311,785 tweets containing 3,858,459 words in total. They randomly selected a sample of 75 tweets per country, 1125 tweets in total, and conducted a manual dialect identification task by native speakers.",
     "Volume": 311785.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["Taif University"],
+    "Provider": [
+        "Taif University"
+    ],
     "Derived From": [],
     "Paper Title": "Creation of annotated country-level dialectal Arabic resources: An unsupervised approach",
     "Paper Link": "https://web.archive.org/web/20210813220628id_/https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2DE64B777EF0277557AFA90E2BB75B62/S135132492100019Xa.pdf/div-class-title-creation-of-annotated-country-level-dialectal-arabic-resources-an-unsupervised-approach-div.pdf",
@@ -115,11 +122,15 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["dialect identification"],
+    "Tasks": [
+        "dialect identification"
+    ],
     "Venue Title": "NLE",
     "Venue Type": "journal",
     "Venue Name": "Natural Language Engineering",
-    "Authors": ["Maha J. Althobaiti"],
+    "Authors": [
+        "Maha J. Althobaiti"
+    ],
     "Affiliations": [
         "Department of Computer Science",
         "College of Computers and Information Technology",
