@@ -1,0 +1,69 @@
+{
+    "Name": "Nahw",
+    "Volume": 5100.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/qcri/nahw-arabic-grammar-benchmark/",
+    "HF_Link": "",
+    "Year": 2026,
+    "Domain": [
+        "web pages",
+        "books"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "manual curation"
+    ],
+    "Description": "Arabic grammar benchmark for LLM evaluation.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Qatar Computing Research Institute",
+        "HBKU"
+    ],
+    "Derived_From": [
+        "alnahw.com",
+        "educational book"
+    ],
+    "Paper_Title": "Nahw: A Comprehensive Arabic Grammar Benchmark",
+    "Paper_Link": "https://aclanthology.org/2026.eacl-long.296.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "multiple choice question answering",
+        "other"
+    ],
+    "Venue_Title": "EACL",
+    "Venue_Type": "conference",
+    "Venue_Name": "EACL 2026",
+    "Authors": [
+        "Hamdy Mubarak",
+        "Majd Hawasly",
+        "Abubakr Mohamed"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "HBKU"
+    ],
+    "Abstract": "Grammar comprehension is a critical capability for large language models (LLMs) to achieve fluency in a target language. In low-resource settings, such as the case with Arabic, limited availability of high-quality data can lead to significant gaps in grammatical understanding, making systematic evaluation essential. We introduce Nahw, a comprehensive benchmark for Arabic grammar that covers both theoretical knowledge and practical applications, including grammatical error detection, correction, and explanation. We evaluate a range of LLMs on these tasks and find that many models still exhibit substantial deficiencies in Arabic grammar comprehension, with GPT-4o achieving a score of 67% on average over all tasks, while the best performing Arabic model in our experiment (ALLaM-7B) achieving 42%. Our experiments also demonstrate that while fine-tuning with synthetic data can improve performance, it does not match the effectiveness of training on natural, high-quality data.",
+    "Subsets": [
+        {
+            "Name": "Nahw-MCQ",
+            "Volume": 5000.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Nahw-Passage",
+            "Volume": 100.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
