@@ -7,39 +7,28 @@
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "news articles"
-    ],
+    "Domain": ["news articles"],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
-    ],
+    "Collection Style": ["manual curation"],
     "Description": "This dataset contains 600 Arabic premise:hypothesis pairs.",
     "Volume": 600.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "Multiple Institutions"
-    ],
+    "Provider": ["Multiple Institutions"],
     "Derived From": [],
-    "Paper Title": "Natural Language Inference for Arabic Using Extended Tree\r\nEdit Distance with Subtrees",
-    "Paper Link": "https://arxiv.org/ftp/arxiv/papers/1402/1402.0578.pdf",
+    "Paper Title": "Natural Language Inference for Arabic Using Extended Tree Edit Distance with Subtrees",
+    "Paper Link": "https://arxiv.org/pdf/1402.0578",
     "Script": "Latin",
     "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "natural language inference"
-    ],
+    "Tasks": ["natural language inference"],
     "Venue Title": "JAIR",
     "Venue Type": "journal",
     "Venue Name": "Journal of Artificial Intelligence Research",
-    "Authors": [
-        "Maytham Alabbas",
-        "A. Ramsay"
-    ],
+    "Authors": ["Maytham Alabbas", "Allan Ramsay"],
     "Affiliations": [
         "Department of Computer Science, University of Basrah, Basrah, Iraq",
         "School of Computer Science, University of Manchester, Manchester, UK"

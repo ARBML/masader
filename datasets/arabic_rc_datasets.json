@@ -7,20 +7,14 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
-    ],
+    "Collection Style": ["crawling"],
     "Description": "Arabic Reading Comprehension Benchmarks Created Semiautomatically",
     "Volume": 2862.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "PSUT"
-    ],
+    "Provider": ["PSUT"],
     "Derived From": [
         "AQA (1008)",
         "Modified TREC (979)",
@@ -34,17 +28,11 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": [
-        "question answering"
-    ],
+    "Tasks": ["question answering"],
     "Venue Title": "ACIT",
     "Venue Type": "conference",
     "Venue Name": "International Arab Conference on Information Technology",
-    "Authors": [
-        "Mariam Biltawi",
-        "A. Awajan",
-        "Sara Tedmori"
-    ],
+    "Authors": ["Mariam Biltawi", "Arafat Awajan", "Sara Tedmori"],
     "Affiliations": [
         "Princess Sumaya University for Technology",
         "Mutah University"

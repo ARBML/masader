@@ -29,11 +29,11 @@
     "Venue Type": "journal",
     "Venue Name": "IEEE Transactions on Intelligent Transportation Systems",
     "Authors": [
-        "M. Akallouch",
-        "K. S. Boujemaa",
-        "A. Bouhoute",
-        "K. Fardousse",
-        "I. Berrada"
+        "Mohammed Akallouch",
+        "Kaoutar S. Boujemaa",
+        "Afaf Bouhoute",
+        "Khalid Fardousse",
+        "Ismail Berrada"
     ],
     "Affiliations": ["Sidi Mohamed Ben Abdellah University - Fez Morocco"],
     "Abstract": "ASAYAR is the first public dataset for Arabic-Latin scene text localization in highway traffic panels, consisting of over 1800 images captured from the Moroccan Highway. It can be used for developing systems for Arabic and French text detection in traffic signs. This paper presents the dataset and evaluates methods for scene text detection in highway panels.",

@@ -7,20 +7,14 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "other"
-    ],
+    "Domain": ["other"],
     "Form": "text",
-    "Collection Style": [
-        "human annotation"
-    ],
+    "Collection Style": ["human annotation"],
     "Description": "The parallel corpus presented consists of manually translated UN documents from the last 25 years",
     "Volume": 540152.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
-    "Provider": [
-        "United Nations"
-    ],
+    "Provider": ["United Nations"],
     "Derived From": [],
     "Paper Title": "The United Nations Parallel Corpus v1.0",
     "Paper Link": "https://www.un.org/dgacm/sites/www.un.org.dgacm/files/files/UNCORPUS/un.pdf",
@@ -30,17 +24,11 @@
     "Access": "Free",
     "Cost": "",
     "Test Split": true,
-    "Tasks": [
-        "machine translation"
-    ],
+    "Tasks": ["machine translation"],
     "Venue Title": "LREC",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
-    "Authors": [
-        "Michal Ziemski",
-        "Marcin Junczys-Dowmunt",
-        "B. Pouliquen"
-    ],
+    "Authors": ["Michal Ziemski", "Marcin Junczys-Dowmunt", "Bruno Pouliquen"],
     "Affiliations": [
         "United Nations, DGACM, New York, United States of America",
         "Adam Mickiewicz University, Poznan, Poland",
