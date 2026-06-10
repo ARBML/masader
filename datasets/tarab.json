@@ -1,12 +1,14 @@
 {
     "Name": "Tarab",
-    "Volume": 13509336.0,
+    "Volume": 2557311.0,
     "Unit": "tokens",
     "License": "unknown",
     "Link": "https://huggingface.co/datasets/drelhaj/Tarab",
     "HF_Link": "https://huggingface.co/datasets/drelhaj/Tarab",
-    "Year": 2024,
+    "Year": 2025,
     "Domain": [
+        "web pages",
+        "public datasets",
         "other"
     ],
     "Form": "text",
@@ -17,15 +19,14 @@
     "Description": "Large-scale Arabic corpus of lyrics and poetry.",
     "Ethical_Risks": "Low",
     "Provider": [
-        "VinUniversity",
-        "Lancaster University"
+        "Vin University"
     ],
     "Derived_From": [
-        "Habibi corpus",
-        "Kaggle Arabic poetry dataset"
+        "Kaggle",
+        "Habibi Lyrics Corpus"
     ],
     "Paper_Title": "Tarab: A Multi-Dialect Corpus of Arabic Lyrics and Poetry",
-    "Paper_Link": "https://aclanthology.org/2026.abjadnlp-1.5.pdf",
+    "Paper_Link": "https://arxiv.org/pdf/2603.16601v1.pdf",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
@@ -33,20 +34,20 @@
     "Test_Split": false,
     "Tasks": [
         "dialect identification",
-        "authorship attribution",
-        "other"
+        "author profiling",
+        "text classification",
+        "language modeling"
     ],
-    "Venue_Title": "LREC",
-    "Venue_Type": "conference",
-    "Venue_Name": "OSACT 2024",
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
     "Authors": [
         "Mo El-Haj"
     ],
     "Affiliations": [
-        "VinUniversity",
-        "Lancaster University"
+        "College of Engineering and Computer Science, Vin University"
     ],
-    "Abstract": "We introduce the Tarab Corpus, a large-scale cultural and linguistic resource that brings together Arabic song lyrics and poetry within a unified analytical framework. The corpus comprises 2.56 million verses and more than 13.5 million tokens, making it the largest open Arabic corpus of creative text spanning both classical and contemporary production. Tarab covers Classical Arabic, MSA, and six regional varieties. Each verse has structured metadata for diachronic analysis. The dataset is publicly available on HuggingFace.",
+    "Abstract": "We introduce the Tarab Corpus, a large-scale cultural and linguistic resource that brings together Arabic song lyrics and poetry within a unified analytical framework. The corpus comprises 2.56 million verses and more than 13.5 million tokens, making it, to our knowledge, the largest open Arabic corpus of creative texts spanning both classical and contemporary production. Tarab is broadly balanced between songs and poems and covers Classical Arabic, Modern Standard Arabic (MSA), and six major regional varieties: Egyptian, Gulf, Levantine, Iraqi, Sudanese, and Maghrebi Arabic. The artists and poets represented in the corpus are associated with 28 modern nation states and multiple historical eras, covering over fourteen centuries of Arabic creative expression from the Pre-Islamic period to the twenty-first century. Each verse is accompanied by structured metadata describing linguistic variety, geographic origin, and historical or cultural context, enabling comparative linguistic, stylistic, and diachronic analysis across genres and time. We describe the data collection, normalisation, and validation pipeline and present baseline analyses for variety identification and genre differentiation. The dataset is publicly available on HuggingFace at https://huggingface.co/datasets/drelhaj/Tarab.",
     "Subsets": [],
     "Dialect": "mixed",
     "Language": "ar",
