@@ -1,0 +1,50 @@
+{
+    "Name": "SyriSign",
+    "Volume": 1500.0,
+    "Unit": "videos",
+    "License": "unknown",
+    "Link": "https://github.com/Moham-Amer/SyriSign",
+    "HF_Link": "https://huggingface.co/datasets/Mohammad-Amer-Khalil/SyriSign",
+    "Year": 2025,
+    "Domain": [
+        "news articles"
+    ],
+    "Form": "videos",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "SyArSL translation dataset with 1500 videos",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Arab International University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "SyriSign: A Parallel Corpus for Arabic Text to Syrian Arabic Sign Language Translation",
+    "Paper_Link": "https://arxiv.org/pdf/2603.29219v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
+    "Authors": [
+        "Mohammad Amer Khalil",
+        "Raghad Nahas",
+        "Ahmad Nassar",
+        "Khloud Al Jallad"
+    ],
+    "Affiliations": [
+        "Arab International University, Daraa, Syria"
+    ],
+    "Abstract": "Sign language is the primary approach of communication for the Deaf and Hard-of-Hearing (DHH) community. While there are numerous benchmarks for high-resource sign languages, low-resource languages like Arabic remain underrepresented. Currently, there is no publicly available dataset for Syrian Arabic Sign Language (SyArSL). To overcome this gap, we introduce SyriSign, a dataset comprising 1500 video samples across 150 unique lexical signs, designed for text-to-SyArSL translation tasks. This work aims to reduce communication barriers in Syria, as most news are delivered in spoken or written Arabic, which is often inaccessible to the deaf community. We evaluated SyriSign using three deep learning architectures: MotionCLIP for semantic motion generation, T2M-GPT for text-conditioned motion synthesis, and SignCLIP for bilingual embedding alignment. Experimental results indicate that while generative approaches show strong potential for sign representation, the limited dataset size constrains generalization performance. We will release SyriSign publicly, hoping it serves as an initial benchmark.",
+    "Subsets": [],
+    "Dialect": "Syria",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
