@@ -1,0 +1,53 @@
+{
+    "Name": "WASIL",
+    "Volume": 9304.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "",
+    "HF_Link": "https://huggingface.co/datasets/QCRI/WASIL",
+    "Year": 2025,
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "In-the-wild Arabic spoken LLM interaction dataset",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Qatar Computing Research Institute"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "WASIL: In-the-Wild Arabic Spoken Interactions with LLMs",
+    "Paper_Link": "https://arxiv.org/pdf/2605.16364v1.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "free",
+    "Test_Split": true,
+    "Tasks": [
+        "instruction tuning",
+        "dialogue generation"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Zien Sheikh Ali",
+        "Hamdy Mubarak",
+        "Soon-Gyo Jung",
+        "Hunzalah Hassan Bhatti",
+        "Firoj Alam",
+        "Shammur Absar Chowdhury"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute"
+    ],
+    "Abstract": "Large Language Models (LLMs) voice assistants are commonly built as cascaded Automatic Speech Recognition (ASR) \u2192 LLM systems, where recognition errors can distort user intent. Dislikes may also arise from ambiguous, out-of-domain, or non-request turns, making it hard to isolate ASR effects. We release WASIL: in-the-wild Arabic spoken interaction prompts with audio, ASR hypotheses, assistant responses, and explicit like/dislike feedback (8,529 turns; 14.2% dislikes), plus a 2,000-turn test set covering Modern Standard Arabic (MSA) and four major dialects with their labels. We provide low-cost gold transcripts via multi-ASR agreement\u2013guided post-editing and annotate answerability (answerable, ambiguous/needs-clarification, unsupported, not-a-request/noise) to separate intrinsic unanswerability from ASR-induced degradation. Finally, we describe scalable reference-free evaluation of responses from ASR vs. gold transcripts using multi-judge LLM scoring.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
