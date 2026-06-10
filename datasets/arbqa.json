@@ -1,0 +1,56 @@
+{
+    "Name": "ArbQA",
+    "Volume": 6000.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/msfasha/Research-Resources/tree/main/ArabicLegalLLM",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "manual curation",
+        "LLM generated"
+    ],
+    "Description": "6000 Jordanian legal QA pairs",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "University of Petra",
+        "University of Jordan",
+        "University of Zarqa"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Parameter Efficient Fine Tuning Llama 3.1 for Answering Arabic Legal Questions: A Case Study on Jordanian Laws",
+    "Paper_Link": "https://arxiv.org/pdf/2601.17364v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue_Title": "x",
+    "Venue_Type": "other",
+    "Venue_Name": "",
+    "Authors": [
+        "Mohammed Fasha",
+        "Bassam Hammo",
+        "Bilal Sowan",
+        "Husam Barham",
+        "Esam Nsour"
+    ],
+    "Affiliations": [
+        "University of Petra",
+        "University of Jordan",
+        "University of Zarqa"
+    ],
+    "Abstract": "This study uses Jordanian law as a case study to large language models for Arabic legal question-answering, explore the fine-tuning of the Llama-3.1 large language model mainly using country-specific laws as a case study. for Arabic question-answering. Two versions of the model\u2014 Llama-3.1-8B-bnb-4bit and Llama-3.1-8B-Instruct-bnb-4bit\u2014 This paper focuses on fine-tuning two variants of Llama- were fine-tuned using parameter-efficient fine-tuning (PEFT) 3.1\u2014Llama-3.1-8B-bnb-4bit and Llama-3.1-8B-Instruct- bnb-4bit\u2014for Arabic question-answering tasks within Jordanian law. The models were trained using a custom dataset of legal question-answer pairs, leveraging Unsloth for the efficient training and LoRA adapters for parameter-efficient updates. The primary objective is to evaluate and compare the performance of the fine-tuned models with their respective base models to determine their effectiveness in understanding and answering legal questions using external contexts similar to Retrieval-Augmented Generation (RAG) [3]. By addressing these objectives, this study contributes to Arabic NLP by introducing efficient methods for fine-tuning large language models in low-resource domains and providing insights into their applicability in specialized tasks. The results demonstrate the potential of fine-tuned models in delivering accurate and contextually relevant answers, paving the way for practical implementations in legal systems and other specialized fields. This work builds on prior advancements in Arabic NLP, domain adaptation [4]",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
