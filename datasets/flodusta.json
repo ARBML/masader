@@ -1,5 +1,7 @@
 {
     "Name": "FloDusTA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/FloDusTA_Dust_Storm",
     "Link": "https://github.com/BatoolHamawi/FloDusTA",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "FloDusTA is a dataset of annotated tweets collected for the purpose of developing an event detection system. The dataset contains tweets written in both the MSA and Saudi dialect. Labels are: flood, dust storm, traffic accident, and non-event.",
     "Volume": 8998.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "event detection"
     ],

@@ -1,6 +1,7 @@
 {
     "Name": "Casablanca",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Volume": 4.63,
@@ -50,19 +51,25 @@
             "Dialect": "Yemen"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/Casablanca",
     "Link": "https://www.dlnlp.ai/speech/casablanca",
     "License": "CC BY-NC-ND 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "TV channels"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "audio",
     "Collection Style": [
-        "manual curation",
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Arabic speech dataset with eight dialects.",
@@ -80,7 +87,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "speech recognition",
         "dialect identification"

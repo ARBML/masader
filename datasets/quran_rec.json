@@ -1,5 +1,7 @@
 {
     "Name": "Quran REC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/obadx/recitation-segmentation-augmented",
     "Link": "https://huggingface.co/datasets/obadx/recitation-segmentation-augmented",
@@ -7,14 +9,19 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "Quran"
     ],
     "Form": "audio",
     "Collection Style": [
-        "crawling",
-        "machine annotation",
-        "human annotation"
+        "crawling"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "Annotated audio dataset of expert Quranic recitations aligned with phonetic tags for Tajweed rules.",
     "Volume": 847.99,
@@ -31,7 +38,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "speech recognition"
     ],

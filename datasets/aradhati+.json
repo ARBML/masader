@@ -1,5 +1,7 @@
 {
     "Name": "AraDhati+",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/Attia14/AraDhati",
@@ -7,14 +9,20 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets",
         "social media",
         "reviews",
         "news articles"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Dataset for Arabic subjectivity classification combined by levering existing Arabic datasets.",
@@ -39,7 +47,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis"
     ],

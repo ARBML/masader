@@ -1,5 +1,7 @@
 {
     "Name": "XTREME-R UDPOS",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/izhx/xtreme-r-udpos",
     "Link": "https://sites.research.google/xtreme",
@@ -7,11 +9,17 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "UD-POS employed the part-of-speech tagging data from the Universal Dependencies v2.7 treebanks",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "part of speech tagging"
     ],

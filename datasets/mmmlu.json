@@ -1,5 +1,7 @@
 {
     "Name": "MMMLU",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/openai/MMMLU",
     "Link": "https://huggingface.co/datasets/openai/MMMLU",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Translated the MMLU\u2019s test set into 14 languages using professional human translators.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "multiple choice question answering"
     ],

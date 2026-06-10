@@ -1,6 +1,7 @@
 {
     "Name": "Arabic-Dialect/English Parallel Text",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Egyptian",
             "Dialect": "Egypt",
@@ -14,18 +15,24 @@
             "Unit": "sentences"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2012T09",
     "License": "LDC User Agreement",
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "it uses crowdsourcing to cheaply and quickly build LevantineEnglish and Egyptian-English parallel corpora, consisting of 1.1M words and 380k words, respectively.",
@@ -43,7 +50,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2250 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "Maknuune",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Maknuune",
     "Link": "http://www.palestine-lexicon.org/",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Palestine",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Palestinian Arabic lexicon collected through manual curation and field surveys.",
     "Volume": 36302.0,
@@ -30,7 +38,7 @@
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "lexicon analysis"
     ],

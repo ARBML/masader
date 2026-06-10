@@ -1,5 +1,7 @@
 {
     "Name": "MVL-SIB",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/WueNLP/mvl-sib",
     "Link": "https://huggingface.co/datasets/WueNLP/mvl-sib",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Massively multilingual vision-language benchmark for cross-modal topical matching across 205 languages.",
@@ -33,7 +41,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "question answering"
     ],

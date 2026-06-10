@@ -1,5 +1,7 @@
 {
     "Name": "RATS Speaker Identification",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2021S08",
@@ -7,11 +9,17 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The source audio consists of conversational telephone speech recordings collected by LDC specifically for the RATS program from Levantine Arabic, Pashto, Urdu, Farsi and Dari native speakers. Annotations on the audio files include start time, end time, speech activity detection (SAD) label, SAD provenance, speaker ID, speaker ID provenance, language ID, and language ID provenance.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "7,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speaker identification"
     ],

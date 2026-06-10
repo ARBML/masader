@@ -1,5 +1,7 @@
 {
     "Name": "SHADES",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/LanguageShades/BiasShades",
     "Link": "https://huggingface.co/datasets/LanguageShades/BiasShades",
@@ -7,13 +9,18 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation",
         "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Multilingual dataset of stereotypes across 16 languages and 37 regions to evaluate bias in LLMs.",
     "Volume": 304.0,
@@ -28,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "safety evaluation"
     ],
@@ -95,7 +102,7 @@
     "Affiliations": [
         "Hugging Face",
         "Mohamed bin Zayed University of Artificial Intelligence",
-        "Instituto de Telecomunicações",
+        "Instituto de Telecomunica\u00e7\u00f5es",
         "IBM Research",
         "Heriot-Watt University",
         "University of Edinburgh",
@@ -103,13 +110,13 @@
         "KU Leuven",
         "Salesforce",
         "Emory University",
-        "Universität Hamburg",
+        "Universit\u00e4t Hamburg",
         "KAIST AI",
         "Carnegie Mellon University",
         "Brown University",
         "Cornell University",
         "MILA",
-        "Université de Montréal",
+        "Universit\u00e9 de Montr\u00e9al",
         "Boston University",
         "Hippocratic AI",
         "University Of California, San Diego",
@@ -136,10 +143,9 @@
         "Amsterdam University",
         "University of California, Berkeley",
         "KBR",
-        "Université Paris-Saclay, CNRS, LISN",
+        "Universit\u00e9 Paris-Saclay, CNRS, LISN",
         "Aleph Alpha"
-]
-,
+    ],
     "Abstract": "Large Language Models (LLMs) reproduce and exacerbate the social biases present in their training data, and resources to quantify this issue are limited. While research has attempted to identify and mitigate such biases, most efforts have been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. In this paper, we introduce a new multilingual parallel dataset SHADES to help address this issue, designed for examining culturally-specific stereotypes that may be learned by LLMs. The dataset includes stereotypes from 20 regions around the world and 16 languages, spanning multiple identity categories subject to discrimination worldwide. We demonstrate its utility in a series of exploratory evaluations for both \u201cbase\u201d and \u201cinstruction-tuned\u201d language models. Our results suggest that stereotypes are consistently reflected across models and languages, with some languages and models indicating much stronger stereotype biases than others.",
     "Added By": "Zaid Alyafeai"
 }

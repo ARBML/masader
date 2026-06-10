@@ -1,5 +1,7 @@
 {
     "Name": "MSDD",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Misraj/msdd",
     "Link": "https://huggingface.co/datasets/Misraj/msdd",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "It is extracted and filtered from the Common Crawl dumps and uniquely preserves the structural integrity of web content by providing markdown output. ",
     "Volume": 23000000.0,
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling",
         "text generation"

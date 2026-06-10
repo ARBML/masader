@@ -1,5 +1,7 @@
 {
     "Name": "Anti-Social Behaviour in Online Communication",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/offensive_language_arabic",
     "Link": "https://onedrive.live.com/?authkey=!ACDXj_ZNcZPqzy0&id=6EF6951FBF8217F9!105&cid=6EF6951FBF8217F9",
@@ -7,12 +9,18 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "a corpus of 15,050 labelled YouTube comments in Arabic",
     "Volume": 15050.0,
@@ -29,7 +37,7 @@
     "Host": "OneDrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "offensive language detection"
     ],

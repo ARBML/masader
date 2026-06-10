@@ -1,5 +1,7 @@
 {
     "Name": "Comprehensive Word Lists for Chinese, Japanese, Korean and Arabic",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-M0071/",
@@ -7,11 +9,17 @@
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Comprehensive monolingual word lists for both Simplified and Traditional Chinese, Japanese, Korean and Arabic, including a full-form Arabic word list. For Simplified and Traditional Chinese, Japanese and Korean, we provide readings as well, making them ideal for speech-related applications such as speech synthesis. The two Arabic databases include both vocalized and romanized Arabic.",
@@ -27,7 +35,7 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "37,500.00\u20ac",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

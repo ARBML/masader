@@ -1,5 +1,7 @@
 {
     "Name": "Twifil",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Twifil",
     "Link": "https://github.com/kinmokusu/oea_algd",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "An Algerian dialect dataset annotated for both sentiment (9,000 tweets), emotion (about 5,000 tweets) and extra-linguistic information including author profiling (age and gender)",
     "Volume": 14000.0,
@@ -27,7 +35,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "sentiment analysis",
         "emotion classification"

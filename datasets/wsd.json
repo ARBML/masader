@@ -1,5 +1,7 @@
 {
     "Name": "WSD",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/pmdbs9tby8/1",
@@ -7,12 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A dataset for Arabic Word Sense Disambiguation (WSD) consisting of 3670 labeled examples of 100 polysemous Arabic words. It provides multiple senses for each word, annotated with real-world and GPT-generated sentences.",
@@ -30,7 +37,7 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "sentiment analysis",

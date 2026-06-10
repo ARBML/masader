@@ -1,5 +1,7 @@
 {
     "Name": "Wild2MaxDiacs",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/CAMeL-Lab/wild_diacritics",
@@ -7,12 +9,18 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets",
         "LLM"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Wild2MaxDiacs is composed of 6k words with partial diacritization from 6 different sources. ",
@@ -37,7 +45,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "diacritization"
     ],

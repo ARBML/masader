@@ -1,5 +1,7 @@
 {
     "Name": "ALC: Arabic Learner Corpus",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2015S10",
@@ -7,12 +9,18 @@
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "comprises a\r\ncollection of texts written by learners of Arabic in\r\nSaudi Arabia",
     "Volume": 1.0,
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "25 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "2008 NIST Metrics for Machine Translation (MetricsMATR08) Development Data",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009T05",
@@ -7,11 +9,17 @@
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The MetricsMATR08 development data set released here is reflective of the test data set only to a degree; the evaluation data set contains more varied data -- from more genres, more source languages, more systems and different evaluations -- than this development data set. There are also more types of human assessments for the test data. The MetricsMATR08 test data remains unseen to allow for repeated use as test data.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "150.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],
@@ -37,9 +45,9 @@
     "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
-        "Mark Przybocki", 
-        "Kay Peterson", 
-        "Sébastien Bronsart"
+        "Mark Przybocki",
+        "Kay Peterson",
+        "S\u00e9bastien Bronsart"
     ],
     "Affiliations": [],
     "Abstract": "",

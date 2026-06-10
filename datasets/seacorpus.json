@@ -1,5 +1,7 @@
 {
     "Name": "SEACorpus",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/maimm2/SaidiCorpus2025",
@@ -7,13 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "books",
         "web pages"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "First open-source literary corpus of Sa'idi Egyptian Arabic (SEA), containing 4 million words from novels and poetry.",
@@ -32,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling",
         "morphological analysis"

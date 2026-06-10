@@ -1,6 +1,7 @@
 {
     "Name": "NADI 2025 (ASR)",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Volume": 3200.0,
@@ -50,17 +51,24 @@
             "Dialect": "Yemen"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/NADI2025_subtask2_ASR",
     "Link": "https://huggingface.co/datasets/UBC-NLP/NADI2025_subtask2_ASR",
     "License": "BigScience RAIL License",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This datasets is related to NADI-2015 Subtask-2: Multidialectal Arabic ASR.",
@@ -80,7 +88,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "speech recognition"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "ApolloMoEDataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/FreedomIntelligence/ApolloMoEDataset",
     "Link": "https://huggingface.co/datasets/FreedomIntelligence/ApolloMoEDataset",
@@ -7,13 +9,18 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "books",
         "web pages"
     ],
+    "Domain": [
+        "Science"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "A high-quality multilingual medical dataset covering 50 languages for democratizing medical LLMs.",
@@ -31,7 +38,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering"
     ],

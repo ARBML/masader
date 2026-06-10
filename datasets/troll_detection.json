@@ -1,5 +1,7 @@
 {
     "Name": "Troll Detection",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://www.dropbox.com/s/hqab7kp2zyex01h/Trolls%20Dataset.zip?dl=0",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Trolls detection in Tweets",
     "Volume": 128.0,
@@ -29,7 +37,7 @@
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "troll detection"
     ],

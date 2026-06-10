@@ -1,5 +1,7 @@
 {
     "Name": "TWT-2023",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/UBC-NLP/microdialects",
@@ -7,12 +9,17 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A massive unlabeled Twitter collection of 1B Arabic tweets plus a manually-verified gold corpus covering 319 city-level micro-varieties across 21 Arab countries, created to train MARBERT and benchmark micro-dialect identification.",
@@ -30,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "dialect identification"
     ],

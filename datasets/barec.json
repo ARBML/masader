@@ -1,5 +1,7 @@
 {
     "Name": "BAREC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/CAMeL-Lab/BAREC-Corpus-v1.0",
     "Link": "http://barec.camel-lab.com",
@@ -7,15 +9,21 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "public datasets",
         "LLM",
         "web pages",
         "wikipedia"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A large-scale, fine-grained Arabic readability corpus with 69K sentences across 19 levels, covering diverse genres and education stages.",
@@ -40,7 +48,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "readability assessment"
     ],

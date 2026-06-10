@@ -1,5 +1,7 @@
 {
     "Name": "NERDz",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/SamiaTouileb/NERDz",
@@ -7,11 +9,17 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A preliminary annotated NER dataset for Algerian in Latin (NArabizi), Arabic, and code-switched scripts built atop the NArabizi treebank extension.",
@@ -31,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "named entity recognition"
     ],

@@ -7,6 +7,7 @@ window.MasaderFuzzy = {
     { name: "Name", weight: 0.55 },
     { name: "Tasks", weight: 0.25 },
     { name: "Dialect", weight: 0.1 },
+    { name: "Source", weight: 0.05 },
     { name: "Domain", weight: 0.05 },
     { name: "Provider", weight: 0.05 },
   ],
@@ -69,7 +70,7 @@ window.MasaderFuzzy = {
   _substringFilterDatasets(datasets, term) {
     const lower = term.toLowerCase();
     return datasets.filter((row) =>
-      ["Name", "Tasks", "Dialect", "Domain", "Provider"].some((key) =>
+      ["Name", "Tasks", "Dialect", "Source", "Domain", "Provider"].some((key) =>
         String(row[key] || "")
           .toLowerCase()
           .includes(lower)

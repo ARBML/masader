@@ -1,6 +1,7 @@
 {
     "Name": "The SADID Evaluation Datasets",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Levantine",
             "Dialect": "Levant",
@@ -26,17 +27,24 @@
             "Unit": "sentences"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/SADID",
     "Link": "https://github.com/we7el/SADID",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Evaluation Datasets for Low-Resource Spoken Language Machine Translation of Arabic Dialects",
@@ -60,7 +68,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "machine translation"
     ],

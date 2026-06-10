@@ -1,5 +1,7 @@
 {
     "Name": "APCD2",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/APCDv2",
     "Link": "https://github.com/Gheith-Abandah/classify-arabic-poetry",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "1657 k verses of poems and prose to develop neural networks to classify and diacritize Arabic poetry",
     "Volume": 1831770.0,
@@ -31,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "meter classification"
     ],

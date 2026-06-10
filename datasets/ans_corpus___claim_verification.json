@@ -1,6 +1,7 @@
 {
     "Name": "ANS CORPUS:  claim verification",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "",
             "Dialect": "Modern Standard Arabic",
@@ -8,18 +9,25 @@
             "Unit": "sentences"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ANS_stance",
     "Link": "https://github.com/latynt/ans",
     "License": "Apache-2.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "corpus comes in two perspectives: a version consisting of 4,547 true and false claims and a version consisting of 3,786 pairs (claim, evidence).",
     "Volume": 4547.0,
@@ -36,7 +44,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "stance detection",
         "fact checking"

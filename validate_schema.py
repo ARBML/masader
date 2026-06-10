@@ -46,7 +46,7 @@ def validate_options(data, key):
                 if item not in options[key]:
                     sys.exit(f"Invalid item: {item} for {key}")
         elif data_types[key] == "str":
-            if data[key] not in options[key]:
+            if data[key] and data[key] not in options[key]:
                 sys.exit(f"Invalid option: {data[key]} for {key}")
     return data
 

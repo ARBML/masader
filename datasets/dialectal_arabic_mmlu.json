@@ -1,6 +1,7 @@
 {
     "Name": "Dialectal Arabic MMLU",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Syrian",
             "Volume": 3135.0,
@@ -32,17 +33,24 @@
             "Dialect": "Morocco"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/MBZUAI/Dialectal-Arabic-MMLU",
     "Link": "https://huggingface.co/datasets/MBZUAI/Dialectal-Arabic-MMLU",
     "License": "unknown",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Dialectal-Arabic-MMLU is a large-scale, human-translated dataset from MMLU-Redux into 5 major dialects: Syrian, Egyptian, Emirati, Saudi, and Moroccan. ",
@@ -62,7 +70,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "multiple choice question answering"
     ],

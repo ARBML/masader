@@ -1,6 +1,7 @@
 {
     "Name": "Universal Dependencies",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "ar_nyuad",
             "Dialect": "Modern Standard Arabic",
@@ -20,17 +21,24 @@
             "Unit": "tokens"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://hf.co/datasets/universal_dependencies",
     "Link": "https://github.com/UniversalDependencies",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages.",
@@ -52,7 +60,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "part of speech tagging",
         "morphological analysis"

@@ -1,5 +1,7 @@
 {
     "Name": "MMedC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Henrychur/MMedC",
     "Link": "https://hf.co/datasets/Henrychur/MMedC",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "Science"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "a multilingual medical corpus with 25.5 billion tokens",
@@ -27,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

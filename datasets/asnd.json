@@ -1,5 +1,7 @@
 {
     "Name": "ASND",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/shammur/Arabic_news_text_classification_datasets",
@@ -7,13 +9,18 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media",
         "news articles"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A dataset collected from the official news channel accounts on Twitter, Facebook and Youtube annotated for topics. ",
@@ -31,7 +38,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "text classification",
         "topic classification"

@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Broadcast News Speech",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2006S46",
@@ -7,11 +9,17 @@
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The recordings were captured from a dedicated satellite receiver and stored as 16-bit PCM, 16-kHz, single-channel, in NIST SPHERE format. The duration of each recording is either 60 minutes or 120 minutes, depending on the VOA broadcast schedule. The date (YYYYMMDD), start-time, and end-time (HHMM EST) for each recording are indicated in the file names. The sample data are not compressed.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "700.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

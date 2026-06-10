@@ -1,5 +1,7 @@
 {
     "Name": "TRECVID 2006 Keyframes",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2010V02",
@@ -7,11 +9,17 @@
     "Year": 2010,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "videos",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The video stills that compose this corpus are drawn from approximately 158.6 hours of English, Arabic, and Chinese language broadcast programming data collected by LDC from NBC (\"NBC Nightly News\"), CNN (\"Live From..\", \"Anderson Cooper 360\"), MSNBC (\"MSNBC News live\"), New Tang Dynsaty TV (\"Economic Frontier\", \"Focus Interactive\"), Phoenix TV (\"Good Morning China\"), Lebanese Broadcasting Corp. (\"Naharkum Saiid\", \"News on LBC\"), Alhurra TV (\"Alhurra News\") and China Central TV (\"CCTV_News\").",
@@ -32,7 +40,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "event detection"
     ],

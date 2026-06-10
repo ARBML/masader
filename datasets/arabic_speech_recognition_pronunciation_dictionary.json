@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Speech Recognition Pronunciation Dictionary",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2017L01",
@@ -7,11 +9,17 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The dictionary was developed from news archive resources, including the Arabic news website Aljazeera.net. The selected words were those that occurred more than once in the news collection. The text was processed using MADA.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "200.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

@@ -1,6 +1,7 @@
 {
     "Name": "SVQ",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "ar_eg",
             "Volume": 1381.0,
@@ -26,17 +27,24 @@
             "Dialect": "North Africa"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/google/svq",
     "Link": "https://huggingface.co/datasets/google/svq",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Simple Voice Questions (SVQ) is a set of short audio questions recorded in 26 locales across 17 languages under multiple audio conditions.",
@@ -56,7 +64,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

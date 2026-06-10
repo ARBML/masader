@@ -1,5 +1,7 @@
 {
     "Name": "QAC: Qatari Arabic Corpus",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "http://www.isle.illinois.edu/dialect/QAC/index.html",
@@ -7,12 +9,18 @@
     "Year": 2014,
     "Language": "ar",
     "Dialect": "Qatar",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Speech was recorded from four Qatari television programs in 2009-2011:",
     "Volume": 18.45,
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

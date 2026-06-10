@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Broadcast News Transcripts",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2006T20",
@@ -7,11 +9,17 @@
     "Year": 2001,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Arabic Broadcast News Transcripts was developed by the Linguistic Data Consortium (LDC) and consists of 10 hours of transcribed speech from Voice of America satellite radio news broadcasts in Arabic recorded by LDC between June 2000 and January 2001.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "400.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

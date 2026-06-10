@@ -1,5 +1,7 @@
 {
     "Name": "M-ABSA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Multilingual-NLP/M-ABSA",
     "Link": "https://huggingface.co/datasets/Multilingual-NLP/M-ABSA",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A multilingual parallel dataset for aspect-based sentiment analysis with 7 domains and 21 languages.",
@@ -38,7 +46,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis"
     ],

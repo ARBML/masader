@@ -1,5 +1,7 @@
 {
     "Name": "ARL Arabic Dependency Treebank",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2016T18",
@@ -7,12 +9,18 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "TV channels"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The source data in this release consists of Arabic newswire and broadcast programming collected by LDC from various news and broadcast providers.",
@@ -32,7 +40,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "part of speech tagging"
     ],

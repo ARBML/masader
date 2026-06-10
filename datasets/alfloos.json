@@ -1,5 +1,7 @@
 {
     "Name": "AlFloos",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/gfbati/alfloos",
     "Link": "https://www.kaggle.com/datasets/gfbati/alfloos",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Balanced image dataset of all seven banknote denominations of the sixth issue of Saudi Arabian currency.",
@@ -29,7 +37,7 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering"
     ],

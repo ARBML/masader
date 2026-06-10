@@ -1,5 +1,7 @@
 {
     "Name": "Wojood",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://ontology.birzeit.edu/Wojood/",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Wojood consists of about 550K tokens (MSA and dialect) that are manually annotated with 21 entity types (e.g., person, organization, location, event, date, etc). It covers multiple domains and was annotated with nested entities. The corpus contains about 75K entities and 22.5% of which are nested.",
     "Volume": 550464.0,
@@ -30,7 +38,7 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "named entity recognition"
     ],

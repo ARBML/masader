@@ -1,5 +1,7 @@
 {
     "Name": "TRAD Arabic-French Parallel Text -- Newsgroup",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2018T13",
@@ -7,11 +9,17 @@
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This release consists of 398 segments (translation units) from 17 documents. The source data is Arabic newsgroup text collected and translated into English by the Linguistic Data Consortium for the DARPA GALE (Global Autonomous Language Exploitation) program. Information about the ELDA translation team, translation guidelines and validation results is contained in the documentation accompanying this release.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "300.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

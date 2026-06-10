@@ -1,6 +1,7 @@
 {
     "Name": "AlphaMWE-Arabic",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "MSA",
             "Volume": 2700.0,
@@ -20,19 +21,26 @@
             "Dialect": "Egypt"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/aaronlifenghan/AlphaMWE",
     "License": "CC BY-SA 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "machine annotation",
-        "human annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "Arabic parallel corpus with MWE annotations",
     "Volume": 7250.0,
@@ -55,7 +63,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "other"
     ],

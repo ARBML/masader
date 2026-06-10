@@ -1,5 +1,7 @@
 {
     "Name": "MemeXplain",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/QCRI/MemeXplain",
     "Link": "https://github.com/MohamedBayan/MemeIntel",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "public datasets"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "images",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "This dataset contains Arabic meme images with explanations for propaganda detection.",
@@ -32,7 +40,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "propaganda detection"
     ],

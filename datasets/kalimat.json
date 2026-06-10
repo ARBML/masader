@@ -1,5 +1,7 @@
 {
     "Name": "KALIMAT",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/kalimat_articles",
     "Link": "https://sourceforge.net/projects/kalimat/",
@@ -7,12 +9,18 @@
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "20,291 Arabic articles collected from the Omani newspaper Alwatan",
     "Volume": 20291.0,
@@ -29,7 +37,7 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "topic classification",
         "summarization",

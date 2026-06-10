@@ -1,5 +1,7 @@
 {
     "Name": "Amd\u2019SaEr",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/belgats/Arabic-Multimodal-Dataset",
@@ -7,13 +9,19 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "TV channels",
         "public datasets"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "videos",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Arabic multimodal dataset for sentiment analysis and emotion recognition with 1037 samples across audio, text, and visual modalities",
@@ -35,7 +43,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis",
         "emotion classification"

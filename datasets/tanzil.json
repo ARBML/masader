@@ -1,5 +1,7 @@
 {
     "Name": "Tanzil",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/tanzil",
     "Link": "https://opus.nlpl.eu/Tanzil/corpus/version/Tanzil",
@@ -7,11 +9,17 @@
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "Quran"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This is a collection of Quran translations compiled by the Tanzil project",
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "ArCybC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/z2dfgrzx47/1",
@@ -7,12 +9,17 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Multi-dialect Arabic cyberbullying corpus of 4,505 annotated tweets spanning gaming, sports, news, and celebrity topics.",
@@ -30,7 +37,7 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "offensive language detection"
     ],

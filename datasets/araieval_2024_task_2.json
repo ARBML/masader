@@ -1,5 +1,7 @@
 {
     "Name": "ArAIEval 2024 Task 2",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://gitlab.com/araieval/araieval_arabicnlp24/-/tree/main/task2",
@@ -7,14 +9,19 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "news articles",
         "public datasets"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "categorize memes as either propagandistic or non-propagandistic",
@@ -35,7 +42,7 @@
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "other"
     ],

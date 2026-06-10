@@ -1,5 +1,7 @@
 {
     "Name": "DocHPLT",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/HPLT/DocHPLT",
     "Link": "https://huggingface.co/datasets/HPLT/DocHPLT",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Largest publicly available document-level translation dataset with 124M aligned document pairs across 50 languages paired with English.",
     "Volume": 2196334.0,
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

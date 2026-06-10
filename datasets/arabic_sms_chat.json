@@ -1,5 +1,7 @@
 {
     "Name": "Arabic SMS/Chat",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2017T07",
@@ -7,11 +9,17 @@
     "Year": 2014,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "5,691 conversations totaling 1,029,248 words across 262,026 messages. Messages were natively written in either Arabic orthography or romanized Arabizi",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1750 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "transliteration",
         "machine translation"

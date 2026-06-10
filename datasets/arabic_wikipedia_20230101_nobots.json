@@ -1,5 +1,7 @@
 {
     "Name": "Arabic_Wikipedia_20230101_nobots",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_nobots",
     "Link": "https://hf.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_nobots",
@@ -7,12 +9,18 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Arabic_Wikipedia_20230101_nobots is a dataset created using the Arabic Wikipedia articles, excluding the bot-generated articles, downloaded on the 1st of January 2023, and processed to train an Arabic RoBERTa model.",
     "Volume": 847000.0,
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

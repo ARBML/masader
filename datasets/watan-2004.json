@@ -1,5 +1,7 @@
 {
     "Name": "Watan-2004",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/watan_2004",
     "Link": "https://sourceforge.net/projects/arabiccorpus/files/",
@@ -7,12 +9,18 @@
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Watan-2004 corpus contains about 20000 articles talking about the six following topics \"categories\":  Culture, Religion, Economy, Local News, International News and sports.  In this corpus, punctuation has been omitted intentionally in order to make it useful for Language Modeling.",
     "Volume": 20000.0,
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "topic classification"
     ],

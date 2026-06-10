@@ -1,5 +1,7 @@
 {
     "Name": "Medical Corpus",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/MedicalCorpus",
     "Link": "https://github.com/licvol/Arabic-Spoken-Language-Understanding/tree/master/MedicalCorpus",
@@ -7,12 +9,18 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "Science"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "corpus from a medical care forum known as Doctissimo",
     "Volume": 152.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "disease identification"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "ArabicQA_2.1M",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/riotu-lab/ArabicQA_2.1M",
     "Link": "https://hf.co/datasets/riotu-lab/ArabicQA_2.1M",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Our dataset is an amalgamation of several filtered datasets, the total number of rows for all datasets was 4,731,600 which was reduced to 2,141,146 rows after filtering. The dataset was collected to fine a pretraind model, the model forced a number of contrains on us discussed in the following section.",
@@ -34,7 +42,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering",
         "instruction tuning"

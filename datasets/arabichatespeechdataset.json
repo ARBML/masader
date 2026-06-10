@@ -1,5 +1,7 @@
 {
     "Name": "ArabicHateSpeechDataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/sbalsefri/ArabicHateSpeechDataset",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The dataset contains 5361 Arabic tweets annotated with six categories: clean, offensive, and hateful speech (religion-based, ethnicity-based, nationality-based, gender-based). It focuses on Arabic dialects (Gulf and Modern Standard Arabic) and uses a three-level annotation schema.",
     "Volume": 5361.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis",
         "offensive language detection",

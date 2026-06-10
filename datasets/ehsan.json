@@ -1,5 +1,7 @@
 {
     "Name": "EHSAN",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://zenodo.org/records/15418860",
@@ -7,14 +9,19 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": [
+    "Source": [
         "reviews"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "LLM generated",
-        "human annotation",
         "crawling"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "LLM generated"
     ],
     "Description": "Arabic aspect-based sentiment dataset for healthcare reviews from Saudi hospitals.",
     "Volume": 6000.0,
@@ -31,7 +38,7 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis",
         "topic classification"

@@ -1,5 +1,7 @@
 {
     "Name": "ARASPIDER",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/ahmedheakl/AraSpider",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "AraSpider is a translated version of the Spider dataset, which is commonly used for semantic parsing and text-to-SQL generation. The dataset includes 200 databases across 138 domains with 10,181 questions and 5,693 unique complex SQL queries. This study assesses multilingual models for Arabic text-to-SQL tasks and uses techniques like back translation and prompt engineering to improve the models' accuracy in handling Arabic inputs.",
@@ -31,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "text-to-SQL generation"
     ],

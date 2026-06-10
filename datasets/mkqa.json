@@ -1,5 +1,7 @@
 {
     "Name": "MKQA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/apple/mkqa",
     "Link": "https://github.com/apple/ml-mkqa",
@@ -7,11 +9,17 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "10k question-answer pairs aligned across 26 typologically diverse languages",
@@ -31,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "question answering"
     ],

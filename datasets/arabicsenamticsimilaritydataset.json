@@ -1,5 +1,7 @@
 {
     "Name": "ArabicSenamticSimilarityDataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/ArimaKn/ArabicSemanticSimilairtyDataset",
     "Link": "https://hf.co/datasets/ArimaKn/ArabicSemanticSimilairtyDataset",
@@ -7,12 +9,18 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "this is a simple dataset for the semantic similarity task with 3 different judges",
     "Volume": 778.0,
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "sentiment analysis",

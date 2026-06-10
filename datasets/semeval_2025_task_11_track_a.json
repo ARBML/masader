@@ -1,6 +1,7 @@
 {
     "Name": "SemEval-2025 Task 11 Track A",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "arq",
             "Volume": 1901.0,
@@ -14,17 +15,24 @@
             "Dialect": "Morocco"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/vgaraujov/semeval-2025-task11-track-a",
     "Link": "https://huggingface.co/datasets/vgaraujov/semeval-2025-task11-track-a",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This dataset contains the data for SemEval 2025 Task 11: Bridging the Gap in Text-Based Emotion Detection - Track A, organized as language-specific configurations.",
@@ -43,7 +51,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "emotion classification"
     ],

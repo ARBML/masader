@@ -1,6 +1,7 @@
 {
     "Name": "Arabic Women Society Corpus",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "EGY",
             "Volume": 75676.0,
@@ -62,18 +63,25 @@
             "Dialect": "mixed"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://tinyurl.com/4ke5jwyw",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "252K Arabic Facebook posts on women's empowerment.",
     "Volume": 252487.0,
@@ -90,7 +98,7 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "gender bias detection",
         "bias detection"

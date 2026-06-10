@@ -1,5 +1,7 @@
 {
     "Name": "CODA* (Conventional Orthography for Dialectal Arabic)",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/CAMeL-Lab/camel-guidelines/edit/master/docs/orthography.md",
@@ -7,12 +9,18 @@
     "Year": 2011,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "CODA* is a unified orthographic system for Arabic dialects designed for computational purposes. It maintains dialectal uniqueness while aligning with some conventions of Modern Standard Arabic (MSA).",
     "Volume": 176364.0,
@@ -33,7 +41,7 @@
     "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "morphological analysis"
     ],

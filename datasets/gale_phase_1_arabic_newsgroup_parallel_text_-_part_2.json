@@ -1,5 +1,7 @@
 {
     "Name": "GALE Phase 1 Arabic Newsgroup Parallel Text - Part 2",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009T09",
@@ -7,11 +9,17 @@
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "contains a total of 145,000 words (263 files) of Arabic newsgroup text and its translation selected from thirty-five sources.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "speech recognition"
@@ -38,8 +46,8 @@
     "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
-        "Xiaoyi Ma", 
-        "Dalal Zakhary", 
+        "Xiaoyi Ma",
+        "Dalal Zakhary",
         "Stephanie Strassel"
     ],
     "Affiliations": [],

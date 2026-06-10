@@ -1,5 +1,7 @@
 {
     "Name": "BBN/AUB DARPA Babylon Levantine Arabic Speech and Transcripts",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2005S08",
@@ -7,11 +9,17 @@
     "Year": 2005,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "BBN/AUB DARPA Babylon Levantine Arabic Speech and Transcripts was developed by BBN Technologies and contains 60.6 hours of spontaneous speech recorded from subjects speaking Levantine colloquial Arabic and associated transcripts. Levantine Arabic is the dialect of Arabic spoken in Lebanon, Jordan, Syria, and Palestine. It is significantly different from Modern Standard Arabic. It is a spoken rather than a written language, and includes different words and pronounciations from Modern Standard Arabic.",
@@ -30,7 +38,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,500 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "speech recognition",

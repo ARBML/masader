@@ -1,5 +1,7 @@
 {
     "Name": "ArPFN",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://gitlab.com/bigirqu/ArPFN",
@@ -7,12 +9,17 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "1546-user Arabic Twitter dataset for fake news.",
@@ -33,7 +40,7 @@
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "text classification"
     ],

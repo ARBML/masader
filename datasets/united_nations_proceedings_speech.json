@@ -1,5 +1,7 @@
 {
     "Name": "United Nations Proceedings Speech",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2014S08",
@@ -7,11 +9,17 @@
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Data is presented either as mp3 or flac compressed wav and are 16-bit single channel files in either 22,050 or 8,000 Hz organized by committee and session number, then language. The folder labeled \"Floor\" indicates the microphone used by the particular speaker. Those files may include other languages, for instance, if the speaker's language was not among the six official UN languages.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "5,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition",
         "language identification"

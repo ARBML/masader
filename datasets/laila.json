@@ -1,5 +1,7 @@
 {
     "Name": "LAILA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://gitlab.com/bigirqu/laila",
@@ -7,13 +9,18 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation",
         "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Large Arabic AES dataset with trait annotations.",
     "Volume": 7859.0,
@@ -30,7 +37,7 @@
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "answer grading"
     ],

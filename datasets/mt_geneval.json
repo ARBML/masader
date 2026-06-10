@@ -1,5 +1,7 @@
 {
     "Name": "MT-GenEval",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/gsarti/mt_geneval",
     "Link": "https://github.com/amazon-science/machine-translation-gender-eval",
@@ -7,11 +9,17 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The MT-GenEval benchmark evaluates gender translation accuracy on English -> {Arabic, French, German, Hindi, Italian, Portuguese, Russian, Spanish}. ",
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "gender bias detection"
@@ -38,15 +46,15 @@
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
     "Authors": [
-  "Anna Currey",
-  "Maria Nadejde",
-  "Raghavendra Pappagari",
-  "Mia Mayer",
-  "Stanislas Lauly",
-  "Xing Niu",
-  "Benjamin Hsu",
-  "Georgiana Dinu"
-],
+        "Anna Currey",
+        "Maria Nadejde",
+        "Raghavendra Pappagari",
+        "Mia Mayer",
+        "Stanislas Lauly",
+        "Xing Niu",
+        "Benjamin Hsu",
+        "Georgiana Dinu"
+    ],
     "Affiliations": [
         "AWS AI Labs"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "Aya Red-teaming",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/CohereForAI/aya_redteaming",
     "Link": "https://huggingface.co/datasets/CohereForAI/aya_redteaming",
@@ -7,13 +9,18 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation",
         "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Multilingual red-teaming prompts in 8 languages distinguishing global vs local harms.",
     "Volume": 900.0,
@@ -30,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "safety evaluation"
     ],

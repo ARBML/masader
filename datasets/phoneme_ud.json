@@ -1,5 +1,7 @@
 {
     "Name": "Phoneme-UD",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/suchirsalhan/Phonemized-UD",
     "Link": "https://huggingface.co/datasets/suchirsalhan/Phonemized-UD",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A phonemic dataset of child-directed and child-produced speech across 31 languages.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "spoken language modeling"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "CommonLanguage",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/anton-l/common_language",
     "Link": "https://github.com/speechbrain/speechbrain/tree/develop/recipes/CommonLanguage",
@@ -7,11 +9,17 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This dataset is composed of speech recordings from languages that were carefully selected from the CommonVoice database. The total duration of audio recordings is 45.1 hours (i.e., 1 hour of material for each language). The dataset has been extracted from CommonVoice to train language-id systems.",
@@ -31,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

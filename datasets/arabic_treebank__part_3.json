@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Treebank: Part 3",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2005T20",
@@ -7,12 +9,18 @@
     "Year": 2005,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "This dataset is a collection of 300,00 Arabic tokens with their syntactic treebank annotation and annotation on part of speech (POS), gloss, and word segmentation.",
     "Volume": 300000.0,
@@ -31,7 +39,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "information retrieval"
     ],

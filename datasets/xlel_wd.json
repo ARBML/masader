@@ -1,5 +1,7 @@
 {
     "Name": "xlel_wd",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/adithya7/xlel_wd",
     "Link": "https://hf.co/datasets/adithya7/xlel_wd",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "XLEL-WD is a multilingual event linking dataset. This dataset contains mention references in multilingual Wikipedia/Wikinews articles to event items from Wikidata. The descriptions for Wikidata event items are taken from the corresponding Wikipedia articles.",
     "Volume": 10947.0,
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "event linking"
     ],

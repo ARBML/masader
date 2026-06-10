@@ -1,5 +1,7 @@
 {
     "Name": "TRAD Arabic-English Parallel corpus of transcribed Broadcast News Speech",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-W0102/",
@@ -7,11 +9,17 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This is a parallel corpus of 10,000 words in Arabic and 2 reference translations in English. The source texts are transcriptions of broadcast news in Arabic recorded on France 24. The translation has been conducted by two different translation teams following a strict protocol aimed at producing high quality translations.",
@@ -27,7 +35,7 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "300.00\u20ac",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "speech recognition"

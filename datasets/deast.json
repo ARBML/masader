@@ -1,5 +1,7 @@
 {
     "Name": "DEAST",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://zenodo.org/records/17754563",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "Science"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Parallel English-Arabic corpus of 33k thesis titles in 13 scientific domains for machine translation.",
     "Volume": 33000.0,
@@ -30,7 +38,7 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "machine translation"
     ],

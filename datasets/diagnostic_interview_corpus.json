@@ -1,6 +1,7 @@
 {
     "Name": "Diagnostic interview corpus ",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "ar",
             "Volume": 12754.0,
@@ -26,18 +27,24 @@
             "Dialect": "Algeria"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/jonathanmutal/Medical-Questionnaire-Multilingual-Translation",
     "Link": "https://huggingface.co/datasets/jonathanmutal/Medical-Questionnaire-Multilingual-Translation",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "Science"
     ],
     "Form": "text",
     "Collection Style": [
-        "manual curation",
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The Diagnostic interview corpus is a multilingual dataset of 12,754 French medical diagnostic interview sentences (questions and instructions) with translations into 12 target languages and a semantic gloss based on UMLS (Unified Medical Language System).",
@@ -55,7 +62,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

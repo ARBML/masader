@@ -1,5 +1,7 @@
 {
     "Name": "MAPS",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Fujitsu-FRE/MAPS",
     "Link": "https://huggingface.co/datasets/Fujitsu-FRE/MAPS",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Multilingual agentic AI benchmark suite extending 4 English benchmarks into 11 languages plus English, yielding 9 660 task instances for performance & security evaluation.",
@@ -34,7 +42,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "agentic AI evaluation"
     ],

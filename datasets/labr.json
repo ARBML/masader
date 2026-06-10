@@ -1,5 +1,7 @@
 {
     "Name": "LABR",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/mohamedadaly/labr",
     "Link": "https://github.com/mohamedadaly/LABR",
@@ -7,12 +9,18 @@
     "Year": 2013,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "reviews"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The largest sentiment analysis dataset to-date for the Arabic language.",
     "Volume": 63257.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis"
     ],

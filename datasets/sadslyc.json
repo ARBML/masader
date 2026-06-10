@@ -1,5 +1,7 @@
 {
     "Name": "SADSLyC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/SalwaAlahmari/SADSLyC_Corpus",
@@ -7,12 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First Saudi song-lyrics corpus covering five Saudi dialects (Najdi, Hijazi, Shamali, Janoubi, Shargawi).",
@@ -32,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "dialect identification"
     ],

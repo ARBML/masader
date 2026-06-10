@@ -1,5 +1,7 @@
 {
     "Name": "Author Attribution Tweets",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Author_Attribution_Tweets",
     "Link": "https://fada.birzeit.edu/handle/20.500.11889/6743",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "consists of 71,397 tweets for 45 authors for MSA collected from twitter.",
     "Volume": 71397.0,
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "authorship attribution"
     ],

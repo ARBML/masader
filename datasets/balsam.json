@@ -1,5 +1,7 @@
 {
     "Name": "BALSAM",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://benchmarks.ksaa.gov.sa/b/balsam",
@@ -7,14 +9,19 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "manual curation",
-        "LLM generated",
-        "human annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "LLM generated"
     ],
     "Description": "Pooling resources and expertise to create high-quality datasets tailored for AI testing, covering diverse domains and various Arabic dialects to enhance the robustness and versatility of LLMs.",
     "Volume": 52000.0,
@@ -37,7 +44,7 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "natural language inference",
         "fill-in-the blank",

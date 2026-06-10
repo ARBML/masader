@@ -1,5 +1,7 @@
 {
     "Name": "CALLFRIEND Egyptian Arabic",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC96S49",
@@ -7,11 +9,17 @@
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The corpus consists of 60 unscripted telephone conversations, lasting between 5-30 minutes. The corpus also includes documentation describing speaker information (sex, age, education, callee telephone number) and call information (channel quality, number of speakers).",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language identification"
     ],

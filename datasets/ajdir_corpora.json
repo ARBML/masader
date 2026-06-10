@@ -1,5 +1,7 @@
 {
     "Name": "Ajdir Corpora",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "http://aracorpus.e3rab.com/argistestsrv.nmsu.edu/AraCorpus/",
@@ -7,12 +9,18 @@
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "This is a raw text from Arabic daily newspapers collected over a year between 2004 and 2005. Each file is compiled as cleaned raw text from documents that are separated by two blank lines.",
     "Volume": 28.0,
@@ -27,7 +35,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

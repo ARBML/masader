@@ -1,5 +1,7 @@
 {
     "Name": "Open-Domain Response Generation in Arabic Dialects",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/reponse_generation",
     "Link": "https://github.com/tareknaous/dialogue-arabic-dialects",
@@ -7,12 +9,18 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "1K open-domain dialectal utterance-response pairs, manually translated from an English dataset (DailyDialogue), and adapted to three different Arabic dialects.",
     "Volume": 1000.0,
@@ -27,7 +35,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "dialect identification",
@@ -44,7 +52,7 @@
         "Hazem M HAJJ",
         "Wassim El-Hajj",
         "Khaled BASHIR SHABAN"
-  ],
+    ],
     "Affiliations": [
         "American University of Beirut",
         "Qatar University"

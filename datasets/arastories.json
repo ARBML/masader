@@ -1,6 +1,7 @@
 {
     "Name": "arastories",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "MSA",
             "Volume": 1000.0,
@@ -20,20 +21,27 @@
             "Dialect": "Morocco"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/UBC-NLP/arastories",
     "License": "MIT License",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "LLM",
         "public datasets"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
-        "LLM generated",
-        "machine annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "machine annotation",
+        "LLM generated"
     ],
     "Description": "A dataset for automatic Arabic story generation containing MSA and two dialects.",
     "Volume": 3000.0,
@@ -52,7 +60,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "un_multi",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/multiun",
     "Link": "https://hf.co/datasets/Helsinki-NLP/multiun",
@@ -7,11 +9,17 @@
     "Year": 2010,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This is a collection of translated documents from the United Nations.",
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

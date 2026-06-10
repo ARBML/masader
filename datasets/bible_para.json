@@ -1,5 +1,7 @@
 {
     "Name": "bible_para",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/bible_para",
     "Link": "https://hf.co/datasets/Helsinki-NLP/bible_para",
@@ -7,11 +9,17 @@
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This is a multilingual parallel corpus created from translations of the Bible",
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

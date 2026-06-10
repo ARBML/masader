@@ -1,5 +1,7 @@
 {
     "Name": "GALE Arabic-English Parallel Aligned Treebank -- Newswire",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2013T10",
@@ -7,11 +9,17 @@
     "Year": 2013,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The source data consists of Arabic newswire from the Lebanese publication An Nahar collected by LDC in 2002. All data is encoded as UTF-8. A count of files, words, tokens and segments is below.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "information retrieval"
@@ -37,9 +45,9 @@
     "Venue Title": "",
     "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [ 
+    "Authors": [
         "Xuansong Li",
-        "Stephen Grimes", 
+        "Stephen Grimes",
         "Safa Ismael",
         "Dalal Zakhary",
         "Stephanie Strassel",

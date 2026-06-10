@@ -1,5 +1,7 @@
 {
     "Name": "Speech-MASSIVE",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/FBK-MT/Speech-MASSIVE",
     "Link": "https://hf.co/datasets/FBK-MT/Speech-MASSIVE",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Saudi Arabia",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Speech-MASSIVE is a multilingual Spoken Language Understanding (SLU) dataset comprising the speech counterpart for a portion of the MASSIVE textual corpus. Speech-MASSIVE covers 12 languages (Arabic, German, Spanish, French, Hungarian, Korean, Dutch, Polish, European Portuguese, Russian, Turkish, and Vietnamese) from different families and inherits from MASSIVE the annotations for the intent prediction and slot-filling tasks. MASSIVE utterances' labels span 18 domains, with 60 intents and 55 slots. Full train split is provided for French and German, and for all the 12 languages (including French and German), we provide few-shot train, validation, test splits. Few-shot train (115 examples) covers all 18 domains, 60 intents, and 55 slots (including empty slots).",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

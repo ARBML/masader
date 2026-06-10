@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Gigaword Fifth Edition",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2011T11",
@@ -7,12 +9,18 @@
     "Year": 2011,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "All text data are presented in SGML form, using a very simple, minimal markup structure. For every opening tag (DOC, HEADLINE, DATELINE, TEXT, P), there is a corresponding closing tag -- always. The attribute values in the DOC tag are always presented within double-quotes the id= attribute of DOC consists of the 7-letter source abbreviation (in CAPS), an underscore character, an 8-digit date string representing the date of the story (YYYYMMDD), a period, and a 4-digit sequence number starting at 0001 for each date (e.g. XIN_ARB_200101.0001) in this way, every DOC in the corpus is uniquely identifiable by the id string.",
     "Volume": 3346167.0,
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "6,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

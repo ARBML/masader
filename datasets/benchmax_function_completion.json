@@ -1,5 +1,7 @@
 {
     "Name": "BenchMAX_Function_Completion",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Function_Completion",
     "Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Function_Completion",
@@ -7,13 +9,19 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "machine annotation",
-        "human annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "BenchMAX_Function_Completion is a dataset of BenchMAX, sourcing from humanevalplus, which evaluates the code generation capability in multilingual scenarios.",
     "Volume": 164.0,
@@ -32,7 +40,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "code generation"
     ],

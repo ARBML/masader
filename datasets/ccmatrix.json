@@ -1,5 +1,7 @@
 {
     "Name": "CCMatrix",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/yhavinga/ccmatrix",
     "Link": "https://github.com/facebookresearch/LASER/tree/main/tasks/CCMatrix",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "80 languages, we were able to mine 10.8 billion parallel sentences, out of which only 2.9 billion are aligned with English",
     "Volume": 196000000.0,
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

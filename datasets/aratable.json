@@ -1,5 +1,7 @@
 {
     "Name": "AraTable",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/rana-alshaikh/AraTable-Benchmark",
@@ -7,15 +9,21 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia",
         "LLM",
         "web pages"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
-        "LLM generated",
-        "human annotation"
+        "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "LLM generated"
     ],
     "Description": "AraTable is the first large-scale Arabic tabular reasoning benchmark, consisting of diverse tables and tasks",
     "Volume": 615.0,
@@ -34,7 +42,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering"
     ],

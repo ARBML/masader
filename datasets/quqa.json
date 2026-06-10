@@ -1,5 +1,7 @@
 {
     "Name": "QUQA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/scsaln/HAQA-and-QUQA",
@@ -7,13 +9,19 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "public datasets"
+    ],
+    "Domain": [
+        "Quran"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "QUQA is an Arabic question-and-answer dataset on the Holy Quran consisting of 3382 records and over 301,000 tokens.",
     "Volume": 3382.0,
@@ -34,7 +42,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "ATSAD",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/motazsaad/arabic-sentiment-analysis",
@@ -7,15 +9,20 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "public datasets"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
-        "machine annotation",
-        "human annotation"
+        "crawling"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "Arabic Twitter sentiment analysis dataset containing 36k tweets labeled positive or negative using distant supervision.",
     "Volume": 18173.0,
@@ -35,7 +42,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis"
     ],

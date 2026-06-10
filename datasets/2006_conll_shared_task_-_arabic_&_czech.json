@@ -1,5 +1,7 @@
 {
     "Name": "2006 CoNLL Shared Task - Arabic & Czech",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2015T12",
@@ -7,12 +9,18 @@
     "Year": 2006,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "public datasets"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "2006 CoNLL Shared Task - Arabic & Czech consists of Arabic and Czech dependency treebanks used as part of the CoNLL 2006 shared task on multi-lingual dependency parsing.",
@@ -32,7 +40,7 @@
     "Host": "LDC",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "syntactic parsing"
     ],

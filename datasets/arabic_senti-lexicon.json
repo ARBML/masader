@@ -1,5 +1,7 @@
 {
     "Name": "Arabic senti-lexicon",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Senti_Lexicon",
     "Link": "https://github.com/almoslmi/masc",
@@ -7,12 +9,18 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "a list of 3880 positive and negative synsets annotated with their part of speech, polarity scores, dialects synsets and inflected forms",
     "Volume": 3880.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "part of speech tagging",
         "sentiment analysis"

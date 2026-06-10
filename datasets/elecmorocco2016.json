@@ -1,5 +1,7 @@
 {
     "Name": "ElecMorocco2016",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ElecMorocco",
     "Link": "https://github.com/sentiprojects/ElecMorocco2016",
@@ -7,12 +9,18 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "A sentiment analysis dataset containing 10254 Arabic facebook comments about the Moroccan elections of 2016. The comments are written in standard arabic and morrocan dialect.",
     "Volume": 10000.0,
@@ -27,7 +35,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "sentiment analysis"
     ],

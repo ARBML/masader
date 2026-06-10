@@ -1,5 +1,7 @@
 {
     "Name": "Okapi",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/nlp-uoregon/Okapi",
@@ -7,11 +9,17 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation",
         "LLM generated"
     ],
@@ -33,7 +41,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "instruction tuning"
     ],

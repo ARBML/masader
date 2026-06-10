@@ -1,5 +1,7 @@
 {
     "Name": "ExaASC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/exaco/exaasc",
@@ -7,13 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation",
         "crawling"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "General target-based Arabic stance-detection corpus built from Twitter source tweets and their replies, covering ~200 targets.",
     "Volume": 9566.0,
@@ -30,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "stance detection"
     ],

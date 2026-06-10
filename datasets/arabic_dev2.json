@@ -1,5 +1,7 @@
 {
     "Name": "Arabic DEv2",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArabicDEv2",
     "Link": "https://zenodo.org/record/4560653#.YqSGWXZBxD9",
@@ -7,11 +9,17 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The dataset is a translation of a subset (139/467) of the queries in DBpedia Entity v2 (https://github.com/iai-group/DBpedia-Entity) to Modern Standard Arabic. We used the \u201cstopped\u201d version of DBpedia Entity v2 (queries-v2_stopped.txt).",
@@ -31,7 +39,7 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "entity retrieval"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "AMFDS",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://drive.google.com/drive/folders/1mRefmN4Yzy60Uh7z3B6cllyyOXaxQrgg?usp=sharing",
@@ -7,11 +9,17 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Custom Arabic OCR dataset with 18 fonts from Wikipedia.",
@@ -31,7 +39,7 @@
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "optical character recognition"
     ],

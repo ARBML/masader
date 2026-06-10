@@ -1,6 +1,7 @@
 {
     "Name": "Gumar",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "SA",
             "Dialect": "Saudi Arabia",
@@ -50,18 +51,25 @@
             "Unit": "documents"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://camel.abudhabi.nyu.edu/gumar/?page=download&lang=en",
     "License": "custom",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "a large-scale corpus of Gulf Arabic consisting of 110 million words from 1,200 forum novels",
     "Volume": 1236.0,
@@ -78,7 +86,7 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "morphological analysis"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "CARMA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/smankarious/carma",
     "Link": "https://huggingface.co/datasets/smankarious/carma",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "Science"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "CARMA is the first comprehensive dataset for mental health analysis in Arabic. The data encompasses seven mental health conditions, some of which have never been explored previously in Arabic literature, such as OCD, PTSD, and ADHD.",
     "Volume": 100.0,
@@ -27,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "topic classification"
     ],

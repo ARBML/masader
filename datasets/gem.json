@@ -1,5 +1,7 @@
 {
     "Name": "GEM",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/gem/xlsumm",
     "Link": "https://gem-benchmark.com/",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "benchmark environment for Natural Language Generation with a focus on its Evaluation, both through human annotations and automated Metric",
     "Volume": 29229.0,
@@ -43,7 +51,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "summarization"
     ],

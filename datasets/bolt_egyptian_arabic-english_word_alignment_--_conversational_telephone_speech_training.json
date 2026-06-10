@@ -1,5 +1,7 @@
 {
     "Name": "BOLT Egyptian Arabic-English Word Alignment -- Conversational Telephone Speech Training",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2020T05",
@@ -7,11 +9,17 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The source data in this release consists of transcripts of Egyptian Arabic conversational telephone speech (CTS) from LDC's CALLHOME and CALLFRIEND collections (LDC97S45, LDC97T19, LDC2002S37, LDC2002T38, LDC96S49) that were translated into English by professional translation agencies and annotated for the word alignment task.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

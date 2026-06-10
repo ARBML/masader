@@ -1,5 +1,7 @@
 {
     "Name": "AFRD: Arabic Fake Reviews Detection",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Noor0/AFRD_Arabic-Fake-Reviews-Detection",
     "Link": "https://github.com/NoorAmer0/AFRD-arabic-fake-reviews-dataset",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": [
+    "Source": [
         "reviews"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "Arabic Fake Reviews Detection (AFRD) is the first gold-standard dataset comprised of three domains, namely, hotel, restaurant, and product domains. Each domain has a set of attributes, the reviewer\u2019s age, the reviewer\u2019s gender, the service name, the review\u2019s text, the rating, the text\u2019s polarity, and the review\u2019s class. The overall balanced dataset is consisted of 1728 reviews, 310 reviews for the hotel domain, 714 reviews for the restaurant domain, and 704 reviews for the product domain, the two classes in each domain are balanced. However, there are unbalanced version with 1958 reviews.",
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "sentiment analysis",
         "dialect identification",

@@ -1,5 +1,7 @@
 {
     "Name": "ClArTTS: An Open-Source Classical Arabic Text-to-Speech Corpus",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/MBZUAI/ClArTTS",
     "Link": "https://hf.co/datasets/MBZUAI/ClArTTS",
@@ -7,11 +9,17 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "ClArTTS is a speech Classical Arabic corpus designed for E2E TTS systems. The speech is extracted from a LibriVox audiobook, which is then processed, segmented, and manually transcribed and annotated. It contains about 12 hours of speech from a single male speaker sampled at 40100 Hz.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "speech recognition"
     ],

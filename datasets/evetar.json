@@ -1,5 +1,7 @@
 {
     "Name": "EveTAR",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://sites.google.com/view/bigir/datasets?authuser=0#h.p_dB9cxP-26Xnc",
@@ -7,12 +9,18 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "a crawl of 355M Arabic tweets and covers 50 significant events",
     "Volume": 3550000.0,
@@ -29,7 +37,7 @@
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "event detection",
         "event detection",

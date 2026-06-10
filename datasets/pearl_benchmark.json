@@ -1,5 +1,7 @@
 {
     "Name": "PEARL Benchmark",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/PEARL",
     "Link": "https://huggingface.co/datasets/UBC-NLP/PEARL",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia",
         "LLM"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "images",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "LLM generated"
     ],
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering"
     ],

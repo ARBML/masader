@@ -1,5 +1,7 @@
 {
     "Name": "oasst1",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/RajChat/Chatgpt",
     "Link": "https://huggingface.co/datasets/RajChat/Chatgpt",
@@ -7,13 +9,18 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation",
         "manual curation"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Crowdsourced multilingual assistant-style conversations with quality annotations for LLM alignment training",
     "Volume": 666.0,
@@ -30,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "instruction tuning",
         "preference optimization"

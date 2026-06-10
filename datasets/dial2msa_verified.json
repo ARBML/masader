@@ -1,6 +1,7 @@
 {
     "Name": "Dial2MSA-Verified",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "EGY",
             "Volume": 11299.0,
@@ -26,19 +27,25 @@
             "Dialect": "North Africa"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/khered20/Dial2MSA-Verified",
     "License": "MIT License",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "human annotation",
         "crawling"
+    ],
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Parallel tweets in 4 dialects with verified MSA translations for neural MT evaluation",
     "Volume": 31887.0,
@@ -58,7 +65,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "machine translation"
     ],

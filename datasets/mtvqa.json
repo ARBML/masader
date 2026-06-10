@@ -1,5 +1,7 @@
 {
     "Name": "MTVQA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/ByteDance/MTVQA",
     "Link": "https://hf.co/datasets/ByteDance/MTVQA",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The dataset is oriented toward visual question answering of multilingual text scenes in nine languages, including Korean, Japanese, Italian, Russian, Deutsch, French, Thai, Arabic, and Vietnamese.",
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "image captioning"
     ],

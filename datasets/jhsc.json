@@ -1,5 +1,7 @@
 {
     "Name": "JHSC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/mcnzzpgrdj/2",
@@ -7,12 +9,17 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Jordan",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -32,7 +39,7 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "offensive language detection",
         "sentiment analysis"

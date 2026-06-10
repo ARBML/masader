@@ -1,5 +1,7 @@
 {
     "Name": "AKEC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AKEC",
     "Link": "https://github.com/ailab-uniud/akec",
@@ -7,12 +9,18 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The corpus consists in 160 arabic documents and their keyphrases.",
     "Volume": 160.0,
@@ -35,7 +43,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "keyphrase extraction"
     ],

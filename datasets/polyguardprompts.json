@@ -1,5 +1,7 @@
 {
     "Name": "PolyGuardPrompts",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/ToxicityPrompts/PolyGuardPrompts",
     "Link": "https://huggingface.co/datasets/ToxicityPrompts/PolyGuardPrompts",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Multilingual safety detection dataset with 1.91M prompts and responses in 17 languages including Arabic.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "instruction tuning"
     ],

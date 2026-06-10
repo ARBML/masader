@@ -1,5 +1,7 @@
 {
     "Name": "MegaWika",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/hltcoe/megawika",
     "Link": "https://huggingface.co/datasets/hltcoe/megawika",
@@ -7,13 +9,19 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia",
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "A cross-lingual dataset of 128M QA pairs from 13M Wikipedia articles in 50 languages and their 71M web sources.",
     "Volume": 5000000.0,
@@ -30,7 +38,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

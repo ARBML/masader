@@ -1,5 +1,7 @@
 {
     "Name": "WojoodHadath",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://sina.birzeit.edu/relations/",
@@ -7,12 +9,18 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Extends the Wojood dataset by incorporating relations into Wojood's nested structure. The added relations include hasAgent, hasLocation, and hasDate. The dataset, provided in JSON format, consists of sentences, each containing one or more events along with their corresponding arguments. It is divided into three subsets: training, validation, and test.",
     "Volume": 550000.0,
@@ -30,7 +38,7 @@
     "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "language modeling",
         "tokenization",

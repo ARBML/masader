@@ -1,5 +1,7 @@
 {
     "Name": "NArabizi corpus",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/NArabizi",
     "Link": "https://github.com/SamiaTouileb/Narabizi",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "extension of NArabizi treebank by adding to annotations.",
     "Volume": 1500.0,
@@ -31,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "part of speech tagging",
         "dependency parsing",

@@ -1,5 +1,7 @@
 {
     "Name": "Corpus of Offensive Language in Arabic",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Corpus_of_Offensive_Language_in_Arabic",
     "Link": "https://onedrive.live.com/?authkey=!ACDXj_ZNcZPqzy0&id=6EF6951FBF8217F9!105&cid=6EF6951FBF8217F9",
@@ -7,12 +9,18 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "a dataset of YouTube comments in Arabic, specifically designed to be used for thedetection of offensive language in a machine learning scenario",
     "Volume": 15050.0,
@@ -29,7 +37,7 @@
     "Host": "OneDrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "offensive language detection",
         "hate speech detection"

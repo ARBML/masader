@@ -1,5 +1,7 @@
 {
     "Name": "Levantine Arabic Conversational Telephone Speech, Transcripts",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2007T01",
@@ -7,11 +9,17 @@
     "Year": 2007,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This database contains 982 Levantine Arabic speakers taking part in spontaneous telephone conversations in Colloquial Levantine Arabic. A total of 985 conversation sides are provided (there are three speakers who each appear in two disctinct conversations). The average duration per side is between 5 and 6 minutes.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "200.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

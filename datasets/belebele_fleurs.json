@@ -1,5 +1,7 @@
 {
     "Name": "Belebele-Fleurs",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/WueNLP/belebele-fleurs",
     "Link": "https://huggingface.co/datasets/WueNLP/belebele-fleurs",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A massively multilingual benchmark for spoken language understanding covering 102 languages for utterance classification and 92 languages for multiple-choice QA from spoken paragraphs.",
@@ -33,7 +41,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "multiple choice question answering"
     ],

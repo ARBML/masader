@@ -1,5 +1,7 @@
 {
     "Name": "Arabic-stsb",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-stsb",
     "Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-stsb",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Arabic translations of stsb for semantic similarity.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "embedding evaluation"
     ],

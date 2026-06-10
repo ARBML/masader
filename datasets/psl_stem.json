@@ -1,5 +1,7 @@
 {
     "Name": "PSL-STEM",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/fidaakh/STEM_data",
     "Link": "https://huggingface.co/datasets/fidaakh/STEM_data",
@@ -7,12 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Palestine",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
-        "manual curation",
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Dataset of 41 mathematical gesture classes in Palestinian Sign Language for hard-of-hearing education.",
@@ -30,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sign language recognition"
     ],

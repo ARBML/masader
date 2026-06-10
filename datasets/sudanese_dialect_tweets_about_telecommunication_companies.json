@@ -1,5 +1,7 @@
 {
     "Name": "Sudanese Dialect tweets about telecommunication companies",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Sudanese_Dialect_Tweet_Tele",
     "Link": "https://docs.google.com/spreadsheets/d/13fIV8oHss-QRBKN-2h5LYF1i_1O9qH1R/edit?usp=sharing&ouid=101796411348671465142&rtpof=true&sd=true",
@@ -7,12 +9,18 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Sudan",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Sentiment Analysis dataset written in Sudanese Arabic Dialect",
     "Volume": 4712.0,
@@ -29,7 +37,7 @@
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "sentiment analysis"
     ],

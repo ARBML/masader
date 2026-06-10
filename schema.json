@@ -4,6 +4,11 @@
         "answer_min": 1,
         "answer_max": 5
     },
+    "Partial": {
+        "answer_type": "bool",
+        "answer_min": 1,
+        "answer_max": 1
+    },
     "Volume": {
         "answer_type": "float",
         "answer_min": 0
@@ -18,7 +23,8 @@
             "documents",
             "images",
             "videos",
-            "hours"
+            "hours",
+            "conversations"
         ]
     },
     "License": {
@@ -92,7 +98,7 @@
         "answer_min": 1900,
         "answer_max": 2025
     },
-    "Domain": {
+    "Source": {
         "answer_type": "list[str]",
         "answer_min": 1,
         "answer_max": 12,
@@ -112,22 +118,47 @@
             "other"
         ]
     },
+    "Domain": {
+        "answer_type": "list[str]",
+        "answer_min": 1,
+        "answer_max": 5,
+        "options": [
+            "General",
+            "Legal",
+            "News",
+            "Quran",
+            "Science"
+        ]
+    },
     "Form": {
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": ["text", "audio", "images", "videos"]
+        "options": [
+            "text",
+            "audio",
+            "images",
+            "videos"
+        ]
     },
     "Collection_Style": {
         "answer_type": "list[str]",
         "answer_min": 1,
-        "answer_max": 6,
+        "answer_max": 1,
         "options": [
             "crawling",
+            "manual curation"
+        ]
+    },
+    "Annotation_Style": {
+        "answer_type": "list[str]",
+        "answer_min": 1,
+        "answer_max": 4,
+        "options": [
             "human annotation",
             "machine annotation",
-            "manual curation",
             "LLM generated",
+            "no annotation",
             "other"
         ]
     },
@@ -140,7 +171,11 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": ["Low", "Medium", "High"]
+        "options": [
+            "Low",
+            "Medium",
+            "High"
+        ]
     },
     "Provider": {
         "answer_type": "list[str]",
@@ -198,14 +233,18 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": ["Free", "Upon-Request", "With-Fee"]
+        "options": [
+            "Free",
+            "Upon-Request",
+            "With-Fee"
+        ]
     },
     "Cost": {
         "answer_type": "str",
         "answer_min": 0,
         "answer_max": 1
     },
-    "Test_Split": {
+    "Has_Splits": {
         "answer_type": "bool",
         "answer_min": 1,
         "answer_max": 1
@@ -350,12 +389,253 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": ["preprint", "workshop", "conference", "journal", "other"]
+        "options": [
+            "preprint",
+            "workshop",
+            "conference",
+            "journal",
+            "other"
+        ]
     },
     "Venue_Name": {
         "answer_type": "str",
         "answer_min": 0,
-        "answer_max": 10
+        "answer_max": 10,
+        "options": [
+            ". International Conference on Cyber Security, Artificial Intelligence and Theoretical Computer Science",
+            "2020 International Conference on Computer, Control, Electrical, and Electronics Engineering",
+            "2023 1st International Conference on Advanced Innovations in Smart Cities",
+            "4th International Conference on Arabic Computational Linguistics",
+            "61st Annual Meeting of the Association for Computational Linguistics",
+            "7th international conference on language engineering, Cairo, Egypt",
+            "Abusive Language Online",
+            "ACM SIGIR Conference on Research and Development in Information Retrieval",
+            "ACM Transactions on Asian and Low-Resource Language Information Processing",
+            "Analog Integrated Circuits and Signal Processing",
+            "Annual Meeting of the Association for Computational Linguistics",
+            "Applied Sciences",
+            "Applied Sciences Journal",
+            "Arabic Language Processing: From Theory to Practice",
+            "Arabic Natural Language Processing",
+            "Arabic Natural Language Processing Conference",
+            "Arabic Natural Language Processing workshop",
+            "Arabic Natural Language Processing Workshop",
+            "arXiv",
+            "Asia-Pacific Chapter of the Association for Computational Linguistics",
+            "Association for Computational Linguistics",
+            "Association for the Advancement of Artificial Intelligence",
+            "Association of Computation Linguisicts",
+            "Association of Computation Linguistics",
+            "Association of Computational Linguistics",
+            "Associations of computation linguistics",
+            "Assofications of computation linguisitcs",
+            "Cognitive Computation",
+            "Communications in Computer and Information Science",
+            "Computaci\u00f3n y Sistemas",
+            "Computational Humanities Research",
+            "Computer Science journal",
+            "Conference and Labs of the Evaluation Forum",
+            "Conference of the International Speech Communication Association",
+            "Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics",
+            "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+            "Conference on Agents and Artificial Intelligence",
+            "Conference on Alliance of Information and Referral Systems",
+            "Conference on Computational Linguistics",
+            "Conference on Computational Natural Language Learning",
+            "Conference on Dependency Linguistics",
+            "Conference on Empirical Methods in Natural Language Processing",
+            "Conference on Future Internet of Things and Cloud",
+            "Conference on Language Modeling",
+            "Conference on Neural Information Processing Systems",
+            "Corpora",
+            "Data Brief",
+            "Data in Brief",
+            "Data in brief",
+            "Document Analysis and Recognition",
+            "Education and Information Technologies",
+            "Efficient Natural Language and Speech Processing",
+            "Egyptian Informatics Journal",
+            "Empirical Methods in Natural Language Processing",
+            "Empirical Methods in Natural Language Processing Conference",
+            "Engineering Applications of Artificial Intelligence",
+            "European Association for Machine Translation",
+            "European Association for Machine Translation (EAMT)",
+            "European Chapter of the Association for Computational Linguistics",
+            "Expert Systems",
+            "Expert Systems published by John Wiley & Sons Ltd",
+            "Findings of Associations of Computation Linguistics",
+            "Findings of Associations of computation linguistics",
+            "findings of Conference on Empirical Methods in Natural Language Processing",
+            "Findings of European Chapter of the Association for Computational Linguistics",
+            "Findings of the Association for Computational Linguistics",
+            "First Arabic Natural Language Processing Conference",
+            "Forum for Information Retrieval Evaluation",
+            "Frontiers in Artificial Intelligence",
+            "Generation Evaluation and Metrics",
+            "he Second Workshop on Computational Modeling of People\u2019s Opinions, Personality, and Emotions in Social Media, ACL",
+            "IEEE Access",
+            "IEEE Automatic Speech Recognition and Understanding Workshop",
+            "IEEE Global Engineering Education Conference",
+            "IEEE International Conference on Automatic Face and Gesture Recognition",
+            "IEEE International Conference on Big Data (Big Data)",
+            "IEEE International Conference on Intelligent Computing and Systems",
+            "IEEE International Conference on Natural Language Processing",
+            "IEEE Transactions on Intelligent Transportation Systems",
+            "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
+            "Information Retrieval Journal",
+            "Information Sciences",
+            "Innovative Use of NLP for Building Educational Applications",
+            "Inteligencia Artifical",
+            "Intelligent Natural Language Processing: Trends and Applications",
+            "Intelligent Systems Conference",
+            "International AAAI Conference on Web and Social Media",
+            "International academic conference on computational linguistics",
+            "international Arab Conference on Information Technology",
+            "International Arab Conference on Information Technology",
+            "International Conference of Business Intelligence",
+            "International Conference of the Cross-Language Evaluation Forum for European Languages",
+            "International Conference of the Italian Association for Artificial Intelligence",
+            "International Conference on Acoustics, Speech and Signal Processing",
+            "International Conference on Advanced Machine Learning Technologies and Applications",
+            "International Conference on AI in Computational Linguistics",
+            "International Conference on Arabic Language Processing",
+            "International Conference on Artificial Neural Networks",
+            "International Conference on Asian Language Processing",
+            "International Conference on Computational Linguistics",
+            "International Conference on Computational Linguistics and Intelligent Text Processing",
+            "International Conference on Computer and Information Sciences",
+            "International Conference on Computer and Knowledge Engineering",
+            "International Conference on Computer Applications & Information Security",
+            "International Conference on Computer Science and Information Technologies",
+            "International Conference on Computer Systems and Applications",
+            "International Conference on Computer, Control, Electrical, and Electronics Engineering",
+            "International Conference on Computer, Control, Electrical, and Electronics Engineering 2018",
+            "International Conference on Document Analysis and Recognition",
+            "International Conference on Document Analysis and Recognition Workshops",
+            "International Conference on Electrical, Communication and Computer Engineering",
+            "International Conference on Electrical, Computer, Communications and Mechatronics Engineering",
+            "International Conference on Future Internet of Things and Cloud",
+            "International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems",
+            "International Conference on Information Retrieval and Knowledge Management",
+            "International Conference on Innovative Trends in Communication and Computer Engineering",
+            "International Conference on Intelligent Data Engineering and Automated Systems",
+            "International Conference on Intelligent Networking and Collaborative Systems",
+            "International Conference on Language Representation",
+            "International Conference on Language Resources and Evaluation",
+            "International Conference on Language Resources and Evaluation (LREC 2010).",
+            "International Conference on Learning Representations",
+            "International Conference on Machine Learning",
+            "International Conference on Machine Learning and Applications",
+            "International Conference on Model and Data Engineering",
+            "International Conference on Natural Language and Speech Processing",
+            "International Conference on Natural Language Processing for Digital Humanities",
+            "International Conference on Signal, Image and Data Engineering",
+            "International Conference on Web and Social Media",
+            "International Joint Conference on Natural Language Processing",
+            "International Journal of Advanced Computer Science and Applications",
+            "International Journal of Computer Applications",
+            "International Journal of Computing and Digital Systems",
+            "International Journal of Electrical and Computer Engineering",
+            "International Journal of Information Technology and Computer Science",
+            "International Journal of Speech Technology",
+            "International Journal on Document Analysis and Recognition",
+            "International Journal on Islamic Applications in Computer Science And Technologies",
+            "international scientific conference for research in the field of Computational Collective Intelligence",
+            "International Scientific Conference of Alkafeel University",
+            "International Workshop on Rumours and Deception in Social Media",
+            "International Workshop on Semantic Evaluation",
+            "International Workshop on Spoken Language Translation",
+            "Interspeech",
+            "Interspeech Conference",
+            "Iraqi journal of computer and informatics",
+            "Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
+            "Journal of Artificial Intelligence Research",
+            "Journal of Engineering Sciences",
+            "Journal of Information Science",
+            "Journal of King Saud University - Computer and Information Sciences",
+            "Journal of Machine Learning Research",
+            "Journal of Umm Al-Qura University for Engineering and Architecture",
+            "Langauge and Resources Evaluation Conference",
+            "Language and Resources Evaluation Conference",
+            "Language Models for Low-Resource Languages",
+            "Language Resource & Evaluation",
+            "Language Resource and Evaluation Conference",
+            "Language Resources and Evaluation",
+            "Language Resources and Evaluation Conference",
+            "Language Resources Evaluation Conference",
+            "LDK",
+            "Machine Translation Summit",
+            "Machine Translation Summit XII",
+            "Nakba Narratives as Language Resources",
+            "Nations of the Americas Chapter of the Association for Computational Linguistics",
+            "Natural Language Engineering",
+            "Natural Language Engineering (2021), Cambridge University Press",
+            "Natural Language Processing",
+            "NCAA",
+            "Neural Computing and Applications",
+            "Neural Information Processing Systems",
+            "NLP",
+            "NLP for Internet Freedom",
+            "NLP for Languages Using Arabic Script",
+            "NLP for Positive Impact",
+            "North American Chapter of the Association for Computational Linguistics",
+            "North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+            "nternational Conference on AI in Computational Linguistics",
+            "Online Social Networks and Media",
+            "Open-Source Arabic Corpora and Processing Tools",
+            "Open-Source Arabic Corpora and Processing Tools.",
+            "OSFPreprints",
+            "Pacific Asia Conference on Language, Information and Computation",
+            "Palestinian International Conference on Information and Communication Technology",
+            "Pattern Recognition",
+            "PeerJ Computer Science",
+            "PLOS ONE",
+            "preprint",
+            "Procedia Social and Behavioral Sciences",
+            "Proceeding of International Conference on Informatics, Health & Technology",
+            "Proceedings of Machine Learning Research",
+            "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+            "Recent Advances in Natural Language Processing",
+            "ResearchGate",
+            "Scientific and Technical Journal of Information Technologies, Mechanics and Optics",
+            "Semantic Evaluation",
+            "Smart City Applications International Conference",
+            "SN Computer Science",
+            "Special Interest Group on Discourse and Dialogue",
+            "Special Interest Group on Information Retrieval",
+            "Special Interest Group on Linguistic data and corpus-based approaches to NLP",
+            "The 18th Conference of the European Chapter of the Association for Computational Linguistics",
+            "The 6th Workshop on Open-Source Arabic Corpora and Processing Tools",
+            "The Conference on Neural Information Processing Systems",
+            "The First Arabic Natural Language Processing Conference",
+            "The International Arab Journal of Information Technology",
+            "The International Conference on Language Resources and Evaluation",
+            "The Journal of the Association for Information Science and Technology",
+            "The open access journal for computer science",
+            "The Polish Journal of the Arts and Culture. New Series}",
+            "The Sixth Arabic Natural Language Processing Workshop (WANLP 2021),",
+            "The Third Arabic Natural Language Processing Workshop",
+            "The Workshop on Open-Source Arabic Corpora and Processing Tools",
+            "Transactions of the Association for Computational Linguistics",
+            "viXra",
+            "Web Information Systems Engineering",
+            "Workshop on Arabic Corpus Linguistics",
+            "Workshop on Arabic Natural Language Processing",
+            "Workshop on Asian Translation (WAT)",
+            "Workshop on Building and Using Comparable Corpora",
+            "Workshop on Computational Approaches to Code Switching",
+            "Workshop on DeTermIt! Evaluating Text Difficulty in a Multilingual Context @ LREC-COLING 2024",
+            "Workshop on Fact Extraction and Verification",
+            "Workshop on Gender Bias in Natural Language Processing",
+            "Workshop on Language Technology for Equality, Diversity and Inclusion",
+            "Workshop on Language Technology Resources and Tools for Digital Humanities",
+            "Workshop on NLP and Computational Social Science",
+            "Workshop on NLP for Languages Using Arabic Script",
+            "Workshop on Noisy User-generated Text",
+            "Workshop on Open-Source Arabic Corpora and Processing Tools",
+            "World Congress on Engineering and Computer Science",
+            "other"
+        ]
     },
     "Authors": {
         "answer_type": "list[str]",
@@ -372,10 +652,15 @@
         "answer_min": 1,
         "answer_max": 1000
     },
-    "Subsets": {
+    "Dialect_Subsets": {
         "answer_type": "list[dict[Name, Volume, Unit, Dialect]]",
         "answer_min": 0,
         "answer_max": 29
+    },
+    "Subsets": {
+        "answer_type": "list[dict[Name, Volume, Unit]]",
+        "answer_min": 0,
+        "answer_max": 100
     },
     "Dialect": {
         "answer_type": "str",
@@ -417,12 +702,19 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": ["ar", "multilingual"]
+        "options": [
+            "ar",
+            "multilingual"
+        ]
     },
     "Script": {
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": ["Arab", "Latin", "Arab-Latin"]
+        "options": [
+            "Arab",
+            "Latin",
+            "Arab-Latin"
+        ]
     }
 }

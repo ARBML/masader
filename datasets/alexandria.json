@@ -1,6 +1,7 @@
 {
     "Name": "Alexandria",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "PSE",
             "Volume": 5391.0,
@@ -80,17 +81,24 @@
             "Dialect": "Sudan"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://github.com/UBC-NLP/Alexandria",
     "Link": "https://github.com/UBC-NLP/Alexandria",
     "License": "CC BY-NC-ND 4.0",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "LLM generated"
     ],
@@ -109,7 +117,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "instruction tuning",
         "machine translation"

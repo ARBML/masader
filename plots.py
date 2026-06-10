@@ -13,14 +13,14 @@ print("")
 # count machine generated data
 count = 0
 for ex in datasets:
-    if "machine annotation" in ex["Collection Style"] or "LLM generated" in ex["Collection Style"]:
+    if "machine annotation" in ex["Annotation Style"] or "LLM generated" in ex["Annotation Style"]:
         count += 1
 print("Machine generated data", count)
 print("")
 # count the dialects
 dialects = []
 for ex in datasets:
-    for subset in ex["Subsets"]:
+    for subset in ex["Dialect Subsets"]:
         dialects.append(subset["Dialect"])
     dialects.append(ex["Dialect"])
 print("Dialects", Counter(dialects))

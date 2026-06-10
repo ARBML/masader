@@ -1,6 +1,7 @@
 {
     "Name": "Amazon Reviews MSA BD",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "BD",
             "Volume": 5000.0,
@@ -14,17 +15,24 @@
             "Dialect": "Modern Standard Arabic"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/5rhw2srzjj/1",
     "License": "CC BY-NC 3.0",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "reviews"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -45,7 +53,7 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "sentiment analysis"
     ],

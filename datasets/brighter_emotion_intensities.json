@@ -1,5 +1,7 @@
 {
     "Name": "BRIGHTER Emotion Intensities",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/brighter-dataset/BRIGHTER-emotion-intensities",
     "Link": "https://huggingface.co/datasets/brighter-dataset/BRIGHTER-emotion-intensities",
@@ -7,13 +9,19 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media",
         "books",
         "news articles"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The BRIGHTER Emotion Intensities dataset is a comprehensive multi-language emotion intensity dataset with separate configurations for each language. It represents one of the largest human-annotated emotion datasets across multiple languages, providing numerical intensity scores for emotions.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "emotion classification"
     ],

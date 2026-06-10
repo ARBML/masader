@@ -1,5 +1,7 @@
 {
     "Name": "Arab-Acquis",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://camel.abudhabi.nyu.edu/arabacquis/",
@@ -7,12 +9,17 @@
     "Year": 2017,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "consists of over 12,000 sentences from the JRCAcquis (Acquis Communautaire) corpus",
@@ -30,7 +37,7 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "machine translation"
     ],

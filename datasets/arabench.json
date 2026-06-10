@@ -1,5 +1,7 @@
 {
     "Name": "Arabench",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AraBench",
     "Link": "https://alt.qcri.org/resources1/mt/arabench/",
@@ -7,11 +9,17 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "an evaluation suite for dialectal Arabic to English machine translation",
@@ -35,7 +43,7 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "machine translation"
     ],

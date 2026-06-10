@@ -1,5 +1,7 @@
 {
     "Name": "InstAr-500k",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
     "Link": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
@@ -7,12 +9,18 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages",
         "public datasets"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "LLM generated"
     ],
@@ -54,7 +62,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "instruction tuning",
         "question answering"

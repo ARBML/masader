@@ -1,5 +1,7 @@
 {
     "Name": "BenchMAX_Rule-based",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Rule-based",
     "Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Rule-based",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -32,7 +40,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "instruction following"
     ],

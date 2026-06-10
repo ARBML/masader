@@ -1,5 +1,7 @@
 {
     "Name": "OpenSubtitles",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/open_subtitles",
     "Link": "https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles",
@@ -7,12 +9,18 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "This is a new collection of translated movie subtitles from http://www.opensubtitles.org/.",
     "Volume": 83600000.0,
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

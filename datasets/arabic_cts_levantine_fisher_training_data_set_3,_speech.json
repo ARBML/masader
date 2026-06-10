@@ -1,5 +1,7 @@
 {
     "Name": "Arabic CTS Levantine Fisher Training Data Set 3, Speech",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2005S07",
@@ -7,11 +9,17 @@
     "Year": 2005,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This corpus contains 322 audio files of Arabic telephone conversations in 2-channel SPHERE ulaw format, sampled at 8 kHz.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

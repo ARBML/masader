@@ -1,5 +1,7 @@
 {
     "Name": "MegaWika 2",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/jhu-clsp/megawika-2",
     "Link": "https://huggingface.co/datasets/jhu-clsp/megawika-2",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "MegaWika 2 is an improved multilingual text dataset containing a structured view of Wikipedia articles, the web sources they cite, source text quality estimates, article text translations, and additional article enrichments",
     "Volume": 1000000.0,
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

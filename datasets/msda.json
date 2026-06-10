@@ -1,5 +1,7 @@
 {
     "Name": "MSDA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://msda.um6p.ma/msda_datasets",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "tweets anotated for sentiment  analysis and topic detection",
     "Volume": 50000.0,
@@ -29,7 +37,7 @@
     "Host": "OneDrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "sentiment analysis",
         "topic classification"

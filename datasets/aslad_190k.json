@@ -1,5 +1,7 @@
 {
     "Name": "ASLAD-190K",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/aboulesnane/ASLAD-190K",
     "Link": "https://data.mendeley.com/datasets/2fgpn5dwgc/2",
@@ -7,11 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A dataset of 190,000 annotated RGB images of 32 Arabic sign-language letters and gestures collected under varied lighting, distance, and background conditions.",
@@ -30,7 +38,7 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "sign language recognition"
     ],

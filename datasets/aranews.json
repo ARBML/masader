@@ -1,5 +1,7 @@
 {
     "Name": "AraNews",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/UBC-NLP/wanlp2020_arabic_fake_news_detection",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "a large-scale, multi-topic, and multi-country Arabic news dataset",
     "Volume": 1000000.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "fake news detection"
     ],

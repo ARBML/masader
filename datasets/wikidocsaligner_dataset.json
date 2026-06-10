@@ -1,6 +1,7 @@
 {
     "Name": "WikiDocsAligner Dataset",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Arabic",
             "Dialect": "Modern Standard Arabic",
@@ -14,18 +15,25 @@
             "Unit": "documents"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/motazsaad/egy-arb-dialect-id",
     "License": "CC BY-SA 4.0",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "WikiDocsAligner is a tool designed to align Wikipedia articles from different languages, creating comparable corpora. It can align documents between language pairs, including Arabic and its dialects. The tool uses Wikipedia dumps and interlanguage links to perform document alignment.",
     "Volume": 20394.0,
@@ -44,7 +52,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "information retrieval",
         "machine translation"

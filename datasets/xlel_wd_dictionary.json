@@ -1,5 +1,7 @@
 {
     "Name": "xlel_wd_dictionary",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/adithya7/xlel_wd_dictionary",
     "Link": "https://hf.co/datasets/adithya7/xlel_wd_dictionary",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "XLEL-WD is a multilingual event linking dataset. This supplementary dataset contains a dictionary of event items from Wikidata. The descriptions for Wikidata event items are taken from the corresponding multilingual Wikipedia articles.",
     "Volume": 114834.0,
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "event linking"
     ],

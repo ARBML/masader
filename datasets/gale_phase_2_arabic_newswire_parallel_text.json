@@ -1,5 +1,7 @@
 {
     "Name": "GALE Phase 2 Arabic Newswire Parallel Text",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2012T17",
@@ -7,11 +9,17 @@
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "GALE Phase 2 Arabic Newswire Parallel Text includes 400 source-translation pairs, comprising 181,704 tokens of Arabic source text and its English translation. Data is drawn from six distinct Arabic newswire sources.: Al Ahram, Al Hayat, Al-Quds Al-Arabi, An Nahar, Asharq Al-Awsat and Assabah.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],
@@ -37,10 +45,10 @@
     "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
-        "Lauren Friedman", 
-        "Hubert Jin", 
-        "Song Chen", 
-        "Gary Krug", 
+        "Lauren Friedman",
+        "Hubert Jin",
+        "Song Chen",
+        "Gary Krug",
         "Stephanie Strassel"
     ],
     "Affiliations": [],

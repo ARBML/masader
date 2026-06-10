@@ -1,5 +1,7 @@
 {
     "Name": "HateSpeechArabic",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://zenodo.org/records/14669917",
@@ -7,12 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A multilabel Arabic hate speech corpus of 10,000 tweets annotated for offensive content and hate targets.",
@@ -31,7 +38,7 @@
     "Host": "zenodo",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "offensive language detection"
     ],

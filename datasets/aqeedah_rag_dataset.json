@@ -1,5 +1,7 @@
 {
     "Name": "Aqeedah RAG Dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/abdullah-alamodi/aqeedah-rag-dataset",
     "Link": "https://huggingface.co/datasets/abdullah-alamodi/aqeedah-rag-dataset",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "A curated Arabic Islamic theology (Aqeedah) dataset with pre-computed FAISS embeddings, designed for advanced Retrieval-Augmented Generation (RAG) applications in Islamic scholarly research.",
     "Volume": 5419.0,
@@ -29,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "retrieval-augmented generation"
     ],

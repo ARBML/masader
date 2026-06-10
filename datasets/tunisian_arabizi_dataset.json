@@ -1,5 +1,7 @@
 {
     "Name": "Tunisian Arabizi dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://zenodo.org/record/4275240",
@@ -7,12 +9,17 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A large Tunisian Arabizi dialectal sentiment analysis dataset containing 100k comments",
@@ -32,13 +39,13 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "sentiment analysis"
     ],
     "Venue Title": "WANLP",
     "Venue Type": "workshop",
-    "Venue Name": "Arabic Natural Language Processing Workshop ",
+    "Venue Name": "Arabic Natural Language Processing Workshop",
     "Authors": [
         "Chayma Fourati",
         "Hatem Haddad",

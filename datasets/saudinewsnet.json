@@ -1,5 +1,7 @@
 {
     "Name": "SaudiNewsNet",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/inparallel/saudinewsnet",
     "Link": "https://github.com/inparallel/SaudiNewsNet",
@@ -7,12 +9,18 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "a set of 31,030 Arabic newspaper articles alongwith metadata, extracted from various online Saudi newspapers.",
     "Volume": 31030.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

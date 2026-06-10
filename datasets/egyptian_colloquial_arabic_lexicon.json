@@ -1,5 +1,7 @@
 {
     "Name": "Egyptian Colloquial Arabic Lexicon",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC99L22",
@@ -7,11 +9,17 @@
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The lexicon contains 51,202 entries, drawn from 140 CALLHOME telephone conversations among native speakers of Colloquial Egyptian Arabic, collected and published by the LDC as follows: CALLHOME Egyptian Arabic Speech LDC97S45, CALLHOME Egyptian Arabic Transcripts LDC97T19, CALLHOME Egyptian Arabic Speech Supplement LDC200237 and CALLHOME Egyptian Arabic Transcripts Supplement LDC2002T38. The lexicon also contains entries derived manually from the Badawi & Hines dictionary of Colloquial Egyptian Arabic.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "AraFinNews",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/drelhaj/AraFinNews",
     "Link": "https://github.com/ArabicNLP-UK/AraFinNews",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Arabic financial news article\u2013headline pairs for abstractive summarisation, spanning 2015\u20132025.",
     "Volume": 39951000.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "summarization",
         "language modeling"

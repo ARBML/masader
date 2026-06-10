@@ -1,5 +1,7 @@
 {
     "Name": "CALLHOME Egyptian Arabic Transcripts",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC97T19",
@@ -7,11 +9,17 @@
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The transcripts are timestamped by speaker turn for alignment with the speech signal and are provided in standard orthography.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

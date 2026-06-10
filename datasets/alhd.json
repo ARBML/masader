@@ -1,5 +1,7 @@
 {
     "Name": "ALHD",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://doi.org/10.5281/zenodo.17249602",
@@ -7,13 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets",
         "LLM"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "A large-scale Arabic dataset for detecting human vs LLM-generated texts, with 405k samples across 3 genres (news, social media, reviews) and MSA + multiple dialects.",
@@ -38,7 +45,7 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "AI-generated text detection"
     ],

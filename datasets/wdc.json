@@ -1,5 +1,7 @@
 {
     "Name": "WDC",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/WDC",
     "Link": "https://github.com/Maha-J-Althobaiti/Arabic_NER_Wiki-Corpus",
@@ -7,12 +9,18 @@
     "Year": 2014,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "contains around\n6 million tokens representing different genres, as\nWikipedia is considered an open domain",
     "Volume": 6000000.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "named entity recognition"
     ],

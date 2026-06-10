@@ -1,5 +1,7 @@
 {
     "Name": "Multiple-Translation Arabic (MTA) Part 2",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2005T05",
@@ -7,11 +9,17 @@
     "Year": 2005,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -30,7 +38,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "AlRiyadh-Newspaper-Covid-Dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AlRiyadh_Newspaper_Covid",
     "Link": "https://github.com/alioh/AlRiyadh-Newspaper-Covid-Dataset",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "It is a dataset of Arabic newspapers articles addressing COVID-19 related events. The data origin is Alriyadh newspaper. It contains all news articles until 1 February 2021",
     "Volume": 24084.0,
@@ -27,7 +35,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

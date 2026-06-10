@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Humor",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/iwan-rg/Arabic-Humor",
@@ -7,12 +9,17 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Arabic humor detection dataset with 10039 tweets in dialectal and MSA Arabic annotated as Humor vs Non-Humor.",
@@ -30,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "humor detection"
     ],

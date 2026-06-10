@@ -1,5 +1,7 @@
 {
     "Name": "ArVoice",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/MBZUAI/ArVoice",
     "Link": "https://huggingface.co/datasets/MBZUAI/ArVoice",
@@ -7,12 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
-        "manual curation",
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -35,7 +42,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "text to speech",
         "speech recognition"

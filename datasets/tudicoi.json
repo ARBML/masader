@@ -1,5 +1,7 @@
 {
     "Name": "TuDiCoI",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/TuDiCoI",
     "Link": "https://github.com/MarwaGraja/TuDiCOI",
@@ -7,12 +9,18 @@
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The corpus consists of 434 1465 staff utterances and 1615 client utterances",
     "Volume": 127.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

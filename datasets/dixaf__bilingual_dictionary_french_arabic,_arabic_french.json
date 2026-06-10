@@ -1,5 +1,7 @@
 {
     "Name": "DixAF: Bilingual Dictionary French Arabic, Arabic French",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-M0040/",
@@ -7,11 +9,17 @@
     "Year": 2004,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "DixAF (Dictionnaire bilingue fran\u00e7ais arabe, arabe fran\u00e7ais - Bilingual Dictionary French Arabic, Arabic French) is a joint ownership of CNRS/ENS lettres et sciences humaines. It was developed by Mr Fathi Debili, a CNRS officer, and it consists of around 125,000 binary links between ca. 43,800 French entries and ca. 35,000 Arabic entries.",
@@ -27,7 +35,7 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "18,000.00\u20ac",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

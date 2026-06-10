@@ -1,5 +1,7 @@
 {
     "Name": "ArPoT",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/ArPoT-KSU/ArPoT_v1.0",
@@ -7,14 +9,19 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
-        "machine annotation",
-        "human annotation"
+        "crawling"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "First syntactic treebank for Classical Arabic poetry collected from adab and aldiwan.",
     "Volume": 35459.0,
@@ -31,7 +38,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "dependency parsing"
     ],

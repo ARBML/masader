@@ -1,5 +1,7 @@
 {
     "Name": "Arabic-Multi-Classification-Dataset-AMCD",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AMCD",
     "Link": "https://github.com/waelyafooz/Arabic-Multi-Classification-Dataset-AMCD",
@@ -7,12 +9,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "commentary"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "This is an Arabic dataset called Arabic Multi Classification Dataset version 0.1 (AMCD). AMCD can be used for texting mining and clustering and classification algorithm. It collected from YouTube Videos meta data and user comments. It can be used for topic modelling, text summarization, apply classification or clustering algorithms.",
     "Volume": 8046.0,
@@ -27,7 +35,7 @@
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "topic classification",
         "summarization"

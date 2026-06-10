@@ -1,5 +1,7 @@
 {
     "Name": "ALUE",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://www.alue.org/tasks",
@@ -7,11 +9,17 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "8 carefully selected and previously\r\npublished tasks",
@@ -36,7 +44,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "irony detection",
         "dialect identification",

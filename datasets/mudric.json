@@ -1,6 +1,7 @@
 {
     "Name": "MuDRiC",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "Egyptian",
             "Volume": 33288.0,
@@ -26,17 +27,24 @@
             "Dialect": "Levant"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/KareemElozeiri/MuDRiC",
     "License": "unknown",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "LLM generated"
     ],
     "Description": "First multi-dialect Arabic commonsense dataset.",
@@ -57,7 +65,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "commonsense reasoning"
     ],

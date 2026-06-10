@@ -1,5 +1,7 @@
 {
     "Name": "KSU Rich Arabic Speech Database",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2014S02",
@@ -7,12 +9,18 @@
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "it has 752 speakers; the speakers are from different\r\nethnic groups: Saudis, Arabs, and non-Arabs;",
     "Volume": 590.0,
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2000 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],
@@ -37,10 +45,10 @@
     "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [
-        "Mansour Alsulaiman", 
-        "Ghulam Muhammad", 
-        "Bencherif Mohamed Abdelkader", 
-        "Awais Mahmood", 
+        "Mansour Alsulaiman",
+        "Ghulam Muhammad",
+        "Bencherif Mohamed Abdelkader",
+        "Awais Mahmood",
         "Zulfiqar Ali"
     ],
     "Affiliations": [

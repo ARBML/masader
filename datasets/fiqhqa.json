@@ -1,5 +1,7 @@
 {
     "Name": "FiqhQA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/MBZUAI/FiqhQA",
     "Link": "https://huggingface.co/datasets/MBZUAI/FiqhQA",
@@ -7,12 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "manual curation",
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A benchmark dataset of 960 Islamic question-answer pairs covering rulings from the four major Sunni schools of thought in Arabic and English.",
@@ -30,7 +37,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering"
     ],

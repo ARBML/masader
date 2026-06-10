@@ -1,5 +1,7 @@
 {
     "Name": "ashaar",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/MagedSaeed/ashaar",
     "Link": "https://hf.co/datasets/MagedSaeed/ashaar",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "ashaar: a dataset for Arabic poetry",
     "Volume": 254000.0,
@@ -27,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "poetry analysis"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "Baladi Lebanese dialect corpora",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://portal.sina.birzeit.edu/curras",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Lebanon",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "The corpus consists of about 9.6K words/tokens collected from Facebook, blog posts and traditional poems. The corpus was annotated as an extension to Curras and following the same annotation methodology to form a Levantine Corpus.",
     "Volume": 10000.0,
@@ -30,7 +38,7 @@
     "Host": "Dropbox",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "speech recognition",

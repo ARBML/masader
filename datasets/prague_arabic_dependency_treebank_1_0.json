@@ -1,5 +1,7 @@
 {
     "Name": "Prague Arabic Dependency Treebank 1.0",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2004T23",
@@ -7,12 +9,18 @@
     "Year": 2004,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "public datasets"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The corpus of PADT 1.0 consists of morphologically and analytically annotated newswire texts of Modern Standard Arabic, which originate from the Arabic Gigaword (LDC2003T12) and the plain data of Arabic Treebank: Part 1 v 2.0 (LDC2003T06) and Arabic Treebank: Part 2 v 2.0 (LDC2004T02).",
@@ -37,7 +45,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "100.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "information retrieval",
         "language modeling",
@@ -47,7 +55,7 @@
     "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
-        "Jan Hajič",
+        "Jan Haji\u010d",
         "Otakar Smrz",
         "Petr Zemanek",
         "Petr Pajas",

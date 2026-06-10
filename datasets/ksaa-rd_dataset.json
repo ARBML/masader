@@ -1,5 +1,7 @@
 {
     "Name": "KSAA-RD Dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/StephenETaylor/KSAA-RD",
@@ -7,12 +9,17 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "The KSAA-RD dataset contains over 58,000 Arabic entries and 63,000 English entries. Each entry consists of a word (lemma), its part of speech, and a gloss (definition). The dataset provides both contextualized word embeddings (from AraELECTRA) and fixed word embeddings (from AraVec\u2019s skip-gram model).",
@@ -33,7 +40,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "information retrieval",
         "dictionary"

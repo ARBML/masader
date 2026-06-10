@@ -1,5 +1,7 @@
 {
     "Name": "XL-HeadTags",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/faisaltareque/XL-HeadTags",
     "Link": "https://hf.co/datasets/faisaltareque/XL-HeadTags",
@@ -7,12 +9,18 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "We provide XL-HeadTags, a large-scale news headline and tags generation dataset. The dataset consists of 20 languages across six diverse language families. It contains 415K news headline-article pairs with auxiliary information such as image captions, topic words",
     "Volume": 6922.0,
@@ -27,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "summarization"
     ],

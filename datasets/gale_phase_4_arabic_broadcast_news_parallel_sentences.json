@@ -1,5 +1,7 @@
 {
     "Name": "GALE Phase 4 Arabic Broadcast News Parallel Sentences",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2016T20",
@@ -7,11 +9,17 @@
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "GALE Phase 4 Arabic Broadcast News Parallel Sentences includes 106 source-translation document pairs, comprising 114,251 words (Arabic source) of translated data. Data is drawn from 24 distinct Arabic programs featuring news broadcasts.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "HICMA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://hicma.net/dataset.html",
@@ -7,13 +9,18 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages",
         "books"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "images",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First publicly available dataset of real-world Arabic handwriting in historic manuscripts and calligraphy, containing 5,031 image-text pairs across five calligraphic styles.",
@@ -33,7 +40,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "optical character recognition"
     ],

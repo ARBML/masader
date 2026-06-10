@@ -1,5 +1,7 @@
 {
     "Name": "JANA: A Human-Human Dialogues Corpus for Egyptian Dialect",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2016T24",
@@ -7,11 +9,17 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The transcribed dialogues consist of 52 telephone calls and 30 instant messaging conversations, amounting to approximately 20,311 words. The data contains roughly 3,001 conversation turns, with an average of 6.7 words per turn, and 4,725 utterances, with an average of 4.3 words per utterance. The data was transcribed using Transcriber.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,650.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "dialogue generation"
     ],

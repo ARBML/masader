@@ -1,5 +1,7 @@
 {
     "Name": "journalists_questions",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/mkqa",
     "Link": "http://qufaculty.qu.edu.qa/telsayed/datasets/",
@@ -7,11 +9,17 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "crowdsorucing to collect\r\nbinary annotations for 10K of the potential question tweets\r\nbased on whether they truly contain questions or not",
@@ -29,7 +37,7 @@
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "question answering"
     ],

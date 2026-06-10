@@ -1,5 +1,7 @@
 {
     "Name": "APCD",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/APCD",
     "Link": "https://hci-lab.github.io/LearningMetersPoems/",
@@ -7,12 +9,18 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "A dataset of Arabic poetry containing 1,831,770 along with there meters.",
     "Volume": 1831770.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "meter classification"
     ],

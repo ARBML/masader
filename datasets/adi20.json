@@ -1,5 +1,7 @@
 {
     "Name": "ADI20",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/elyadata/ADI-20",
@@ -7,12 +9,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "TV channels",
         "public datasets"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "An extension of the ADI-17 dataset with MSA,  Tunisian, and Bahraini dataset. ",
@@ -34,7 +42,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "dialect identification"
     ],

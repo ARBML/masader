@@ -1,5 +1,7 @@
 {
     "Name": "ArMeme",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/QCRI/ArMeme",
     "Link": "https://huggingface.co/datasets/QCRI/ArMeme",
@@ -7,12 +9,17 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "images",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -31,7 +38,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "propaganda detection"
     ],

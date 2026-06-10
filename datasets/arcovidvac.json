@@ -1,5 +1,7 @@
 {
     "Name": "ArCovidVac",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArCovidVac",
     "Link": "https://alt.qcri.org/resources/ArCovidVac.zip",
@@ -7,12 +9,18 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "the largest manually annotated Arabic tweet dataset, ArCovidVac, for the COVID-19 vaccination campaign, covering many countries in the Arab region",
     "Volume": 10000.0,
@@ -29,7 +37,7 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "stance detection"
     ],

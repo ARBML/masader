@@ -1,5 +1,7 @@
 {
     "Name": "Global-MMLU Lite",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
     "Link": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Global-MMLU-Lite is a multilingual evaluation set spanning 16 languages, including English. It is \"lite\" version of the original Global-MMLU dataset \ud83c\udf0d. It includes 200 Culturally Sensitive (CS) and 200 Culturally Agnostic (CA) samples per language. The samples in Global-MMLU-Lite are corresponding to languages which are fully human translated or post-edited in the original Global-MMLU dataset.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "multiple choice question answering"
     ],

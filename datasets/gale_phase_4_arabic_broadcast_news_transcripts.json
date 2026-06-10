@@ -1,5 +1,7 @@
 {
     "Name": "GALE Phase 4 Arabic Broadcast News Transcripts",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2018T14",
@@ -7,12 +9,18 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels",
         "news articles"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The transcript files are in plain-text, tab-delimited format (TDF) with UTF-8 encoding, and the transcribed data totals 204,735 tokens. The transcripts were created with the LDC tool XTrans, which supports manual transcription and annotation of audio recordings. XTrans is available from the following link, https://www.ldc.upenn.edu/language-resources/tools/xtrans/downloads.",
@@ -30,7 +38,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "speech recognition"
     ],

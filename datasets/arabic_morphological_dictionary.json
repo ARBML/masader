@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Morphological Dictionary",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-L0088/",
@@ -7,11 +9,17 @@
     "Year": 2012,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The Arabic Morphological Dictionary contains 4,912,749 entries, including: - 3,374,852 nouns, - 1,537,699 verbs, - 198 grammatical words.",
@@ -29,7 +37,7 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "450.00\u20ac",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "morphological analysis"
     ],

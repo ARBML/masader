@@ -1,5 +1,7 @@
 {
     "Name": "ArzEn-ST",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "http://arzen.camel-lab.com/",
@@ -7,11 +9,17 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Code-switched Egyptian Arabic-English ST corpus.",
@@ -31,7 +39,7 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "speech recognition",
         "codeswitch detection"

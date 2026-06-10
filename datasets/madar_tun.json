@@ -1,5 +1,7 @@
 {
     "Name": "MADAR-TUN",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/tunis-ai/MADAR-TUN",
     "Link": "https://github.com/eligugliotta/MADAR-TUN",
@@ -7,11 +9,17 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": " Linguistic annotations for the Tunisian part of the MADAR corpus (Bouamor et al., 2018)",
@@ -31,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "morphological analysis"
     ],

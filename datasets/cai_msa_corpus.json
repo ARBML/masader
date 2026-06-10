@@ -1,6 +1,7 @@
 {
     "Name": "CAI-MSA-Corpus",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "MSA subset",
             "Volume": 130.0,
@@ -14,17 +15,24 @@
             "Dialect": "Egypt"
         }
     ],
+    "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/alaabouomar/Optimizing-Arabic-Dialect-Translation-for-Children-s-Literature-Using-Neural-Models.git",
     "License": "unknown",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -45,7 +53,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "machine translation"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "BOLT Egyptian Arabic SMS/Chat Parallel Training Data",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2021T15",
@@ -7,11 +9,17 @@
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The source data in this release was collected using two methods: new collection via LDC's collection platform, and donation of SMS or chat archives from BOLT collection participants. All data were reviewed manually to exclude any messages/conversations that were not in the target language or that had sensitive content, such as personal identifying information.",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

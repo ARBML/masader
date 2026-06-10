@@ -1,5 +1,7 @@
 {
     "Name": "TYDIQA",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/google-research-datasets/tydiqa",
     "Link": "https://github.com/google-research-datasets/tydiqa",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "question answering dataset covering 11 typologically diverse languages with 200K question-answer pairs",
     "Volume": 25893.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "question answering"
     ],

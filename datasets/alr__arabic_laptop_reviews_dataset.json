@@ -1,5 +1,7 @@
 {
     "Name": "ALR: Arabic Laptop Reviews dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/bashartalafha/Arabic-Laptop-Reviews-ALR-Dataset",
@@ -7,12 +9,18 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "reviews"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Arabic  Laptops Reviews  (ALR) dataset focuses on laptops reviews written in Arabic",
     "Volume": 1753.0,
@@ -31,7 +39,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "sentiment analysis"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "GEM - WikiLingua",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/esdurmus/wiki_lingua",
     "Link": "https://github.com/esdurmus/Wikilingua",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "New Benchmark Dataset for Multilingual Abstractive Summarization",
     "Volume": 29229.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "summarization"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "Arabic Paraphrased Dataset",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/iwan-rg/Arabic-Paraphrased-Dataset",
@@ -7,16 +9,21 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "public datasets",
         "web pages"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
-        "machine annotation",
-        "human annotation"
+        "crawling"
+    ],
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "A synthetic Arabic parallel paraphrase dataset generated via back-translation to advance NLP applications like MT, summarization and sentiment analysis.",
     "Volume": 1010.0,
@@ -38,7 +45,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "summarization",

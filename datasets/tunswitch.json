@@ -1,5 +1,7 @@
 {
     "Name": "TunSwitch CS",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/tunis-ai/TunSwitch",
     "Link": "https://zenodo.org/record/8370566",
@@ -7,13 +9,19 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "social media",
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "audio",
     "Collection Style": [
         "manual curation"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "A corpus of Tunisian Arabic speech with code-switching, including spontaneous and read speech from radio shows and podcasts.",
     "Volume": 8.55,
@@ -32,7 +40,7 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "speech recognition"
     ],

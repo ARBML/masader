@@ -1,5 +1,7 @@
 {
     "Name": "AGS",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/FahdSeddik/AGS-Corpus",
     "Link": "https://hf.co/datasets/FahdSeddik/AGS-Corpus",
@@ -7,11 +9,17 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "Science"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "AGS is the first publicly accessible abstractive summarization dataset for Arabic. It consists of 142,000 pairs of articles and summaries, all written in Modern Standard Arabic (MSA). The summaries are generated using GPT-3.5 Turbo, a large language model, through meticulous prompt engineering. The dataset covers a wide range of topics, such as politics, sports, culture, science, and technology.",
@@ -27,7 +35,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "summarization"
     ],

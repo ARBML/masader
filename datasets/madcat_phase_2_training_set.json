@@ -1,5 +1,7 @@
 {
     "Name": "MADCAT Phase 2 Training Set",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2013T09",
@@ -7,12 +9,18 @@
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "web pages"
     ],
+    "Domain": [
+        "News"
+    ],
     "Form": "images",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This release includes 27,814 annotation files in both GEDI XML and MADCAT XML formats (gedi.xml and madcat.xml) along with their corresponding scanned image files in TIFF format. The annotation results in GEDI XML output files include ground truth annotations and source transcripts.",
@@ -30,7 +38,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "optical character recognition"
     ],

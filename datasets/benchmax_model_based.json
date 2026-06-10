@@ -1,5 +1,7 @@
 {
     "Name": "BenchMAX_Model-based",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Model-based",
     "Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Model-based",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "BenchMAX_Model-based is a dataset of BenchMAX, sourcing from m-ArenaHard, which evaluates the instruction following capability via model-based judgment.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "preference optimization"
     ],

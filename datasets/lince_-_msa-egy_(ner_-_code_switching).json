@@ -1,5 +1,7 @@
 {
     "Name": "LinCE - MSA-EGY (NER - Code Switching)",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://ritual.uh.edu/lince/datasets",
@@ -7,12 +9,18 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "Modern Standard ArabicDialectal Arabic (MSA-DA)",
     "Volume": 11224.0,
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "named entity recognition"
     ],

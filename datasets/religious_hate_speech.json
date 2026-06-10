@@ -1,5 +1,7 @@
 {
     "Name": "Religious Hate Speech",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Religious_Hate_Speech",
     "Link": "https://github.com/nuhaalbadi/Arabic_hatespeech",
@@ -7,12 +9,18 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "training dataset contains 5,569 examples, while the testing dataset contains 567 examples collected from twittter",
     "Volume": 6136.0,
@@ -29,7 +37,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "hate speech detection"
     ],

@@ -1,6 +1,7 @@
 {
     "Name": "CAAMT",
-    "Subsets": [
+    "Partial": false,
+    "Dialect Subsets": [
         {
             "Name": "ALG",
             "Volume": 6400.0,
@@ -50,18 +51,24 @@
             "Dialect": "mixed"
         }
     ],
+    "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Senju2/context-aware-arabic-to-english-model-with-register",
     "Link": "https://huggingface.co/datasets/Senju2/context-aware-arabic-to-english-model-with-register",
     "License": "MIT License",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "57.6k parallel Arabic dialect MT dataset.",
@@ -83,7 +90,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "machine translation"
     ],

@@ -1,5 +1,7 @@
 {
     "Name": "DOUBLE-BENCH",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Episoode/Double-Bench",
     "Link": "https://huggingface.co/datasets/Episoode/Double-Bench",
@@ -7,14 +9,20 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets",
         "wikipedia"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
-        "machine annotation",
+        "manual curation"
+    ],
+    "Annotation Style": [
         "human annotation",
+        "machine annotation",
         "LLM generated"
     ],
     "Description": "A large-scale multilingual and multimodal benchmark for evaluating Retrieval-Augmented Generation (RAG) systems on document understanding tasks.",
@@ -34,7 +42,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "retrieval-augmented generation"
     ],

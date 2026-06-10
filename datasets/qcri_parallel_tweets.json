@@ -1,5 +1,7 @@
 {
     "Name": "QCRI Parallel Tweets",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/alt-qsri/tweets_ar_en_parallel",
     "Link": "https://alt.qcri.org/resources/bilingual_corpus_of_parallel_tweets",
@@ -7,12 +9,18 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "bilingual corpus of Arabic-English parallel tweets and a list of Twitter accounts who post Arabic-English",
     "Volume": 166000.0,
@@ -29,7 +37,7 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

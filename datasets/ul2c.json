@@ -1,5 +1,7 @@
 {
     "Name": "UL2C",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://alt.qcri.org/resources/UL2C-UserLocationsToCountries.tsv",
@@ -7,13 +9,18 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "public datasets"
     ],
+    "Domain": [
+        "General"
+    ],
     "Form": "text",
     "Collection Style": [
-        "crawling",
+        "crawling"
+    ],
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Mapping Arabic Twitter user locations to countries",
@@ -33,7 +40,7 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "other"
     ],

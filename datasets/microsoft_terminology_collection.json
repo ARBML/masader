@@ -1,5 +1,7 @@
 {
     "Name": "Microsoft Terminology Collection",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://hf.co/datasets/microsoft/ms_terms",
     "Link": "https://www.microsoft.com/en-us/language/terminology",
@@ -7,11 +9,17 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "The Microsoft Terminology Collection can be used to develop localized versions of applications that integrate with Microsoft products. It can also be used to integrate Microsoft terminology into other terminology collections or serve as a base IT glossary for language development in the nearly 100 languages available. Terminology is provided in .tbx format, an industry standard for terminology exchange.",
@@ -29,7 +37,7 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation",
         "language modeling"

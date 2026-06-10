@@ -1,5 +1,7 @@
 {
     "Name": "PEACH",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/5k6yrrhng7/3",
@@ -7,12 +9,18 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
+    ],
+    "Annotation Style": [
+        "no annotation"
     ],
     "Description": "A sentence-aligned parallel English\u2013Arabic corpus of healthcare texts encompassing patient information leaflets and educational materials.",
     "Volume": 51671.0,
@@ -29,7 +37,7 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],

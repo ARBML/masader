@@ -1,5 +1,7 @@
 {
     "Name": "EgyHellaSwag",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/EgyHellaSwag",
     "Link": "https://huggingface.co/datasets/UBC-NLP/EgyHellaSwag",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "It is a translated version of the HellaSwag benchmark, consisting of multiple-choice sentence completion tasks. Each example includes a context and four plausible sentence endings, with only one correct choice. The dataset helps assess how well models understand everyday scenarios and plausible event sequences in Egyptian Arabic.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
     "Tasks": [
         "commonsense reasoning"
     ],

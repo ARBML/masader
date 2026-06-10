@@ -1,5 +1,7 @@
 {
     "Name": "fineweb-edu-Egypt",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/nilechat-fw-edu-egy",
     "Link": "https://huggingface.co/datasets/UBC-NLP/nilechat-fw-edu-egy",
@@ -7,11 +9,17 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "General"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "fineweb-edu-Egypt is a substantial dataset specifically developed to foster the creation and improvement of language models for the Egyptian Arabic dialect. This resource consists of a machine-translated version of the renowned FineWeb-Edu dataset.",
@@ -31,7 +39,7 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "language modeling"
     ],

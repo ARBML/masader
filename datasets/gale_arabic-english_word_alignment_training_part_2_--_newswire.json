@@ -1,5 +1,7 @@
 {
     "Name": "GALE Arabic-English Word Alignment Training Part 2 -- Newswire",
+    "Partial": false,
+    "Dialect Subsets": [],
     "Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2014T10",
@@ -7,11 +9,17 @@
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "News"
     ],
     "Form": "text",
     "Collection Style": [
+        "manual curation"
+    ],
+    "Annotation Style": [
         "other"
     ],
     "Description": "This release consists of Arabic source newswire collected by LDC in 2004 - 2006 and 2008. The distribution by genre, words, character tokens and segments appears below:",
@@ -29,7 +37,7 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
     "Tasks": [
         "machine translation"
     ],
@@ -38,8 +46,8 @@
     "Venue Name": "",
     "Authors": [
         "Xuansong Li",
-        "Stephen Grimes", 
-        "Safa Ismael", 
+        "Stephen Grimes",
+        "Safa Ismael",
         "Stephanie Strassel"
     ],
     "Affiliations": [],
