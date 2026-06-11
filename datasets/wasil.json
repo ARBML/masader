@@ -6,6 +6,12 @@
             "Volume": 1063.0,
             "Unit": "sentences",
             "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 959.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
         }
     ],
     "HF Link": "https://huggingface.co/datasets/QCRI/WASIL",
