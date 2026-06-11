@@ -52,11 +52,10 @@
     ],
     "Affiliations": [
         "Carnegie Mellon University in Qatar",
-        "Qatar; Hamad Bin Khalifa University",
-        "Qatar; New York University Abu Dhabi",
-        "UAE; Columbia University",
-        "USA",
-        "University of Bahrain; Bahrain"
+        "Hamad Bin Khalifa University",
+        "New York University Abu Dhabi",
+        "Columbia University",
+        "University of Bahrain"
     ],
     "Abstract": "In this paper, we present two resources that were created as part of the Multi Arabic Dialect Applications and Resources (MADAR) project. The first is a large parallel corpus of 25 Arabic city dialects in the travel domain. The second is a lexicon of 1,045 concepts with an average of 45 words from 25 cities per concept. These resources are the first of their kind in terms of the breadth of their coverage and the fine location granularity. The focus on cities, as opposed to regions in studying Arabic dialects, opens new avenues to many areas of research from dialectology to dialect identification and machine translation.",
     "Added By": "Fadhl Al-Eryani"

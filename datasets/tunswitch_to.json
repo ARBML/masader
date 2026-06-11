@@ -49,7 +49,7 @@
         "Tunis Business School",
         "University of Michigan-Dearborn",
         "Abshore",
-        "LTCI, Télécom Paris, Institut Polytechnique de Paris"
+        "Institut Polytechnique de Paris"
     ],
     "Abstract": "Crafting an effective Automatic Speech Recognition (ASR) solution for dialects demands innovative approaches that not only address the data scarcity issue but also navigate the intricacies of linguistic diversity. In this paper, we address the aforementioned ASR challenge, focusing on the Tunisian dialect. First, textual and audio data is collected and in some cases annotated. Second, we explore self-supervision, semi-supervision and few-shot code-switching approaches to push the state-of-the-art on different Tunisian test sets; covering different acoustic, linguistic and prosodic conditions. Finally, and given the absence of conventional spelling, we produce a human evaluation of our transcripts to avoid the noise coming from spelling inadequacies in our testing references. Our models, allowing to transcribe audio samples in a linguistic mix involving Tunisian Arabic, English and French, and all the data used during training and testing are released for public use and further improvements.\n",
     "Added By": "Zaid Alyafeai"

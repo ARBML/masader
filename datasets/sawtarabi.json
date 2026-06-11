@@ -70,7 +70,7 @@
         "Humain",
         "SDAIA",
         "KTH Royal Institute of Technology",
-        "QCRI"
+        "Qatar Computing Research Institute"
     ],
     "Abstract": "Curating Text-to-Speech (TTS) datasets is a strenuous task given the quality considerations. While it is hard to find highquality TTS datasets in languages other than English, it is rare to come across code-switching (CS) datasets. As a part of this work, we curate a 4-hour Arabic-English TTS corpus consisting of code-switched Egyptian-English, monolingual Modern Standard Arabic (MSA), Egyptian, and English, all recorded by the same voice talent. We demonstrate the importance of vowelization and the need for better phonemization of Arabic text. To this effect, we present the modified espeak-ng phonemizer that handles various irregularities of espeak-ng over Arabic text. Upon training baseline TTS systems over this benchmark, we demonstrate its efficacy through extensive subjective evaluations.",
     "Added By": "Zaid Alyafeai"

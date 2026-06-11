@@ -102,10 +102,10 @@
         "Muhammad Abdul-Mageed"
     ],
     "Affiliations": [
-        "The University of British Columbia ",
+        "The University of British Columbia",
         "Hamad Bin Khalifa University",
         "Birzeit University",
-        "MBZUAI ",
+        "MBZUAI",
         "NYU Abu Dhabi"
     ],
     "Abstract": "We present the findings of the sixth Nuanced Arabic Dialect Identification (NADI 2025) Shared Task, which focused on Arabic speech dialect processing across three subtasks: spoken dialect identification (Subtask 1), speech recognition (Subtask 2), and diacritic restoration for spoken dialects (Subtask 3). A total of 44 teams registered, and during the testing phase, 100 valid submissions were received from eight unique teams. The distribution was as follows: 34 submissions for Subtask 1 \"five teamsæ, 47 submissions for Subtask 2 \"six teams\", and 19 submissions for Subtask 3 \"two teams\". The best-performing systems achieved 79.8% accuracy on Subtask 1, 35.68/12.20 WER/CER (overall average) on Subtask 2, and 55/13 WER/CER on Subtask 3. These results highlight the ongoing challenges of Arabic dialect speech processing, particularly in dialect identification, recognition, and diacritic restoration. We also summarize the methods adopted by participating teams and briefly outline directions for future editions of NADI.",

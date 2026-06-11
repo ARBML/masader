@@ -46,11 +46,9 @@
         "and Anis Charfi"
     ],
     "Affiliations": [
-        "College of Humanities and Social Sciences",
         "Hamad Bin Khalifa University",
-        "Qatar; Information Systems Program",
         "Carnegie Mellon University",
-        "Qatar"
+        "Hamad Bin Khalifa University"
     ],
     "Abstract": "This paper presents the Arap-Tweet corpus, a large-scale, multi-dialectal Arabic corpus sourced from Twitter, which has been annotated for age, gender, and dialectal variety. The corpus is intended to provide resources for developing NLP tools and models for Arabic dialects and can be used in tasks such as author profiling, sentiment analysis, and more. The dataset covers 11 major dialect regions and includes over 2.4 million tweets. Annotators identified users based on dialect-specific keywords and verified additional metadata (age and gender) through manual checks and external resources.",
     "Added By": "Maryam Al Emadi"

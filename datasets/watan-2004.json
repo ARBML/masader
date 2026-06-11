@@ -42,8 +42,10 @@
         "and D. Berkani"
     ],
     "Affiliations": [
-        "CRSTDLA /Speech Processing Laboratory;NRIA-LORIA/Parole team",
-        "Villers les Nancy;NPS/ Signal and Communication laboratory"
+        "CRSTDLA /Speech Processing Laboratory",
+        "NRIA-LORIA/Parole team",
+        "Villers les Nancy",
+        "NPS/ Signal and Communication laboratory"
     ],
     "Abstract": "The aim of this study is topic identification by\nusing two methods, in this case, a new one that we have\nproposed: TR-classifier which is based on computing\ntriggers, and the well-known k Nearest Neighbors.\nPerformances are acceptable, particularly for TR-classifier,\nthough we have used reduced sizes of vocabularies. For the\nTR-Classifier, each topic is represented by a vocabulary\nwhich has been built using the corresponding training\ncorpus. Whereas, the kNN method uses a general\nvocabulary, obtained by the concatenation of those used by\nthe TR-Classifier. For the evaluation task, six topics have\nbeen selected to be identified: Culture, religion, economy,\nlocal news, international news and sports. An Arabic corpus\nhas been used to achieve experiments.",
     "Added By": "Zaid Alyafeai"

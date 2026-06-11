@@ -42,7 +42,7 @@
         "Yusra Faisal"
     ],
     "Affiliations": [
-        " Mosul University"
+        "Mosul University"
     ],
     "Abstract": "Dataset are considered as an important part of any audio research and an important resource for speech processing. Availability of dataset in speech processing field is important. The effort and time needed to build a complete good dataset are very long. The available public dataset in Arabic language are very little. This paper presents the \"QDAT\" dataset of audio Arabic speech files. The audio files are manually annotated by expert to show the correctness of the Reciting the Quran with Tajwid according to three rules of recitation of Quran. The dataset can be used for training and classification models based on machine learning and deep learning algorithms",
     "Added By": "Zaid Alyafeai"

@@ -78,7 +78,7 @@
     ],
     "Affiliations": [
         "USTHB University",
-        "Algeria; CRSTDLA;CRSTDLA"
+        "CRSTDLA"
     ],
     "Abstract": "In this paper, we present ArPod, a new Arabic speech\ncorpus made of Arabic audio podcasts. We built this\ndataset, mainly for both speech-based multi-lingual and\nmulti-dialectal identification tasks. It includes two languages: Modern Standard Arabic (MSA) and English,\nand four Arabic dialects: Saudi, Egyptian, Lebanese\nand Syrian. A set of supervised classifiers have been\nused: Support Vector Machines (SVM), Multi Layer\nPerceptron (MLP), K-Nearest Neighbors (KNN), Extratrees and Convolutional Neural Networks (CNN),\nusing acoustic and spectral features. For both tasks,\nSVM yielded encouraging results and outperformed the\nother classifiers. Language Identification, Dialect\nIdentification, CNN, Acoustic features, spectral features, SVM, Arabic Podcast",
     "Added By": "Zaid Alyafeai"

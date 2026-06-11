@@ -42,7 +42,7 @@
         "Stephen Ash"
     ],
     "Affiliations": [
-        "Amazon Alexa AI; Amazon AWS AI"
+        "Amazon"
     ],
     "Abstract": "We analyze some of the fundamental design challenges that impact the development of a multilingual state-of-the-art named entity transliteration system, including curating bilingual named entity datasets and evaluation of multiple transliteration methods. We empirically evaluate the transliteration task using the traditional weighted finite state transducer (WFST) approach against two neural approaches: the encoder-decoder recurrent neural network method and the recent, non-sequential Transformer method. In order to improve availability of bilingual named entity transliteration datasets, we release personal name bilingual dictionaries mined from Wikidata for English to Russian, Hebrew, Arabic, and Japanese Katakana. Our code and dictionaries are publicly available.",
     "Added By": "Zaid Alyafeai"

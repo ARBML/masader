@@ -171,9 +171,9 @@
         "Wadii Boulila"
     ],
     "Affiliations": [
-        "Tuwaiq Academy, Riyadh, Saudi Arabia",
-        "Robotics and Internet-of-Things Laboratory, Prince Sultan University, Riyadh, Saudi Arabia",
-        "Higher School of Communication of Tunis, Ariana, Tunisia"
+        "Tuwaiq Academy",
+        "Prince Sultan University",
+        "Higher School of Communication of Tunis"
     ],
     "Abstract": "The Arabic language is characterized by a rich tapestry of regional dialects that differ substantially in phonetics and lexicon, reflecting the geographic and cultural diversity of its speakers. Despite the availability of many multi-dialect datasets, mapping speech to fine-grained dialect sources, such as cities, remains underexplored. We present ARCADE (Arabic Radio Corpus for Audio Dialect Evaluation), the first Arabic speech dataset designed explicitly with city-level dialect granularity. The corpus comprises Arabic radio speech collected from streaming services across the Arab world. Our data pipeline captures 30-second segments from verified radio streams, encompassing both Modern Standard Arabic (MSA) and diverse dialectal speech. To ensure reliability, each clip was annotated by one to three native Arabic reviewers who assigned rich metadata, including emotion, speech type, dialect category, and a validity flag for dialect identification tasks. The resulting corpus comprises 6,907 annotations and 3,790 unique audio segments spanning 58 cities across 19 countries. These fine-grained annotations enable robust multi-task learning, serving as a benchmark for city-level dialect tagging. We detail the data collection methodology, assess audio quality, and provide a comprehensive analysis of label distributions.",
     "Added By": "Zaid Alyafeai"

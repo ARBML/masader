@@ -48,9 +48,7 @@
         "Marcello Federico"
     ],
     "Affiliations": [
-        "FBK – Fondazione Bruno Kessler",
-        "Trento",
-        "Italy"
+        "FBK – Fondazione Bruno Kessler"
     ],
     "Abstract": "WIT3 is a web-based inventory that provides access to the TED Talks corpus. It includes transcribed and translated talks in over 80 languages, making it a valuable resource for machine translation research. The corpus has been processed to be more convenient for researchers, providing benchmarks and tools for handling multilingual parallel texts.",
     "Added By": "Maryam Al Emadi"

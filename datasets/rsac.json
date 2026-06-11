@@ -44,11 +44,8 @@
         "Ahmed R. Galal"
     ],
     "Affiliations": [
-        "Computer Science Department",
-        "Faculty of Science",
         "Minia University",
-        "Minia",
-        "Egypt"
+        "Minia University"
     ],
     "Abstract": "This paper presents a novel approach for enhancing Arabic sentiment analysis using nine machine learning classifiers on a dataset of hotel reviews. It aims to improve classification accuracy with various pre-processing and feature extraction techniques.",
     "Added By": "Maryam Al Emadi"

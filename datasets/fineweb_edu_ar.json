@@ -47,7 +47,7 @@
     ],
     "Affiliations": [
         "SDAIA",
-        "KAUST"
+        "King Abdullah University of Science and Technology"
     ],
     "Abstract": "As large language models (LLMs) grow and develop, so too do their data demands. This is especially true for multilingual LLMs, where the scarcity of high-quality and readily available data online has led to a multitude of synthetic dataset-generation approaches. A key technique seen in this space is machine translation (MT), where high-quality English text is adapted to a target, comparatively low-resource, language. In this report we introduce FineWeb-Edu-Ar, a machine-translated version of HuggingFace’s exceedingly popular (deduplicated) FineWeb-Edu dataset. To the best of our knowledge, FineWeb-Edu-Ar is the biggest publicly available machine-translated Arabic dataset out there, with its size of 202B tokens of an Arabic-trained tokenizer. The data is available on HuggingFace.",
     "Added By": "Zaid Alyafeai"

@@ -52,7 +52,7 @@
     "Affiliations": [
         "Princess Sumaya University for Technology",
         "Jordan University of Science and Technology",
-        "SAE Institute, Luminus Technical University College"
+        "Luminus Technical University College"
     ],
     "Abstract": "This paper presents a new large-scale, publicly available Arabic hate-speech dataset consisting of 403,688 Jordanian-dialect tweets categorized into four sentiment classes based on the presence and intensity of hate speech. The dataset is constructed by systematically collecting tweets from Twitter between 2014 and 2022, followed by rigorous pre-processing and manual annotation. Machine-learning and deep-learning classifiers (TF-IDF, Word2Vec, AraBERT) are evaluated for detecting hate speech, demonstrating the dataset’s utility in Arabic and Jordanian-dialect NLP research.",
     "Added By": "Zaid Alyafeai"

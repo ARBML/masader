@@ -50,12 +50,7 @@
         "Kheireddine Abainia"
     ],
     "Affiliations": [
-        "PIMIS Laboratory",
-        "Department of Electronics and Telecommunications",
-        "Université 8 Mai 1945 Guelma",
-        "24000",
-        "Guelma",
-        "Algeria"
+        "Université 8 Mai 1945 Guelma"
     ],
     "Abstract": "Algeria’s socio-linguistic situation is known as a complex phenomenon involving several historical, cultural and technological factors. However, there are three languages that are mainly spoken in Algeria (Arabic, Tamazight and French) and they can be mixed in the same sentence (code-switching). Moreover, there are several varieties of dialects that differ from one region to another and sometimes within the same region. This paper aims to provide a new multi-purpose parallel corpus (i.e., DZDC12 corpus), which will serve as a testbed for various natural language processing and information retrieval applications. In particular, it can be a useful tool to study Arabic–French code-switching phenomenon, Algerian Romanized Arabic (Arabizi), different Algerian sub-dialects, sentiment analysis, gender writing style, machine translation, abuse detection, etc. To the best of our knowledge, the proposed corpus is the first of its kind, where the texts are written in Latin script and crawled from Facebook. More specifically, this corpus is organised by gender, region and city, and is transliterated into Arabic script and translated into Modern Standard Arabic. In addition, it is annotated for emotion detection and abuse detection, and annotated at the word level. This article focuses in particular on Algeria’s socio-linguistic situation and the effect of social media networks. Furthermore, the general guidelines for the design of DZDC12 corpus are described as well as the dialects clustering over the map.",
     "Added By": "Jezia Zakraoui"

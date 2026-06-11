@@ -49,7 +49,8 @@
     "Affiliations": [
         "University of Würzburg",
         "University of Cambridge",
-        "Mila, McGill University"
+        "Mila",
+        "McGill University"
     ],
     "Abstract": "Spoken language understanding (SLU) is indispensable for half of all living languages that lack a formal writing system. Unlike for high-resource languages, for these languages, we cannot offload semantic understanding of speech to the cascade of automatic speech recognition (ASR) and text-based large language models (LLMs). Even if low-resource languages possess a writing system, ASR for these languages remains unreliable due to limited bimodal speech and text training data. Nonetheless, the evaluation of multilingual SLU is limited to shallow tasks such as intent classification or language identification. This is why we present Fleurs-SLU, a multilingual SLU benchmark that encompasses (i) 692 hours of speech for topical utterance classification in 102 languages and (ii) multiple-choice question answering via listening comprehension spanning 944 hours of speech across 92 languages. We extensively evaluate end-to-end speech classification models, cascaded systems that combine speech-to-text transcription with subsequent LLM-based classification, and multimodal speech-LLMs on Fleurs-SLU. Our results show that cascaded systems are more robust in multilingual SLU, though well-pretrained speech encoders can perform competitively in topical speech classification. Closed-source speech-LLMs match or surpass the performance of cascaded systems. We observe a strong correlation between robust multilingual ASR, effective speech-to-text translation, and strong multilingual SLU, indicating mutual benefits between acoustic and semantic speech representations.\n",
     "Added By": "Zaid Alyafeai"

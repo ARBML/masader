@@ -43,18 +43,7 @@
         "ADNAN YAHYA"
     ],
     "Affiliations": [
-        "Department of Electrical and Computer Engineering",
-        "Birzeit University",
-        "Palestine",
-        "Department of Electrical and Computer Engineering",
-        "Birzeit University",
-        "Palestine",
-        "Department of Electrical and Computer Engineering",
-        "Birzeit University",
-        "Palestine",
-        "Department of Electrical and Computer Engineering",
-        "Birzeit University",
-        "Palestine"
+        "Birzeit University"
     ],
     "Abstract": "Text data, including short texts, constitute a major share of web content. The availability of this data to billions of users triggers\nfrequent plagiarism attacks. Authorship Attribution (AA) seeks to identify the most probable author of a given text based on similarity\nto the writing style of potential authors. In this paper, we approach AA as a writing style profile generation process, where we group\ntext instances for each author into a single profile. We use Twitter as the source for our short Modern Standard Arabic (MSA) texts.\nNumerous experiments with various training approaches, tools and features allowed us to settle on a text representation method that\nrelies on text concatenation of Arabic tweets to form chunks, which are then duplicated to reach a precalculated length. These chunks\nare used to train machine learning models for our 45 author profiles. This allowed us to achieve accuracies up to 99%, which compares\nfavorably with the best results reported in the literature",
     "Added By": "Zaid Alyafeai"

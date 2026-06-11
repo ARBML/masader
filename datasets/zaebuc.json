@@ -47,11 +47,7 @@
     ],
     "Affiliations": [
         "New York University Abu Dhabi",
-        "Abu Dhabi",
-        "UAE",
-        "Zayed University",
-        "Abu Dhabi",
-        "UAE"
+        "Zayed University"
     ],
     "Abstract": "We present ZAEBUC, an annotated Arabic-English bilingual writer corpus comprising short essays by first-year university students at Zayed University in the United Arab Emirates. We describe and discuss the various guidelines and pipeline processes we followed to create the annotations and quality check them. The annotations include spelling and grammar correction, morphological tokenization, Part-of-Speech tagging, lemmatization, and Common European Framework of Reference (CEFR) ratings. All of the annotations are done on Arabic and English texts using consistent guidelines as much as possible, with tracked alignments among the different annotations, and to the original raw texts. For morphological tokenization, POS tagging, and lemmatization, we use existing automatic annotation tools followed by manual correction. We also present various measurements and correlations with preliminary insights drawn from the data and annotations. The publicly available ZAEBUC corpus and its annotations are intended to be the stepping stones for additional annotations.",
     "Added By": "Jezia Zakraoui"

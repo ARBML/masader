@@ -45,11 +45,11 @@
         "Mohamad-Bassam Kurdy"
     ],
     "Affiliations": [
-        "Syrian Virtual University, Syria",
-        "Birzeit University, Palestine",
-        "Doha Institute for Graduate Studies, Doha",
+        "Syrian Virtual University",
+        "Birzeit University",
+        "Doha Institute for Graduate Studies",
         "University of Texas at Austin",
-        "American University of Beirut, Beirut"
+        "American University of Beirut"
     ],
     "Abstract": "This paper presents Nâb¯ra, a corpora\nof Syrian Arabic dialects with morphological annotations. A team of Syrian natives\ncollected more than 6K sentences containing\nabout 60K words from several sources including social media posts, scripts of movies and\nseries, lyrics of songs and local proverbs to\nbuild Nâb¯ra. Nâb¯ra covers several local Syrian dialects including those of Aleppo, Damascus, Deir-ezzur, Hama, Homs, Huran, Latakia,\nMardin, Raqqah, and Suwayda. A team of\nnine annotators annotated the 60K tokens with\nfull morphological annotations across sentence\ncontexts. We trained the annotators to follow\nmethodological annotation guidelines to ensure\nunique morpheme annotations, and normalized\nthe annotations. F1 and κ agreement scores\nranged between 74% and 98% across features,\nshowing the excellent quality of Nâb¯ra annotations. Our corpora are open-source and publicly available as part of the Currasat portal\nhttps://sina.birzeit.edu/currasat.",
     "Added By": "Zaid Alyafeai"

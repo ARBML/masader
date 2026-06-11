@@ -46,9 +46,8 @@
     ],
     "Affiliations": [
         "¹MISC Lab. Constantine 2 university",
-        "Algeria  PRHLT",
-        "Universitat Politècnica de València",
-        "Spain"
+        "Constantine 2 University",
+        "Universitat Politècnica de València"
     ],
     "Abstract": "The present paper introduces the first corpus for the evaluation of Arabic intrinsic plagiarism detection. The corpus consists of 1024 artificial suspicious documents in which 2833 plagiarism cases have been inserted automatically from source documents.",
     "Added By": "Kamel GAANOUN"

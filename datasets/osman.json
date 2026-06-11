@@ -41,7 +41,6 @@
         "Paul Rayson"
     ],
     "Affiliations": [
-        "Lancaster University",
         "Lancaster University"
     ],
     "Abstract": "We present OSMAN (Open Source Metric for Measuring Arabic Narratives) - a novel open source Arabic readability metric and tool. It allows researchers to calculate readability for Arabic text with and without diacritics. OSMAN is a modified version of the conventional readability formulas such as Flesch and Fog. In our work we introduce a novel approach towards counting short, long and stress syllables in Arabic which is essential for judging readability of Arabic narratives. We also introduce an additional factor called “Faseeh” which considers aspects of script usually dropped in informal Arabic writing. To evaluate our methods we used Spearman’s correlation metric to compare text readability for 73,000 parallel sentences from English and Arabic UN documents. The Arabic sentences were written with the absence of diacritics and in order to count the number of syllables we added the diacritics in using an open source tool called Mishkal. The results show that OSMAN readability formula correlates well with the English ones making it a useful tool for researchers and educators working with Arabic text.",

@@ -54,9 +54,9 @@
         "Yaser Alonaizan"
     ],
     "Affiliations": [
-        "National Center for Artificial Intelligence (NCAI), Saudi Data and Artificial Intelligence Authority (SDAIA)",
+        "Saudi Data and Artificial Intelligence Authority (SDAIA)",
         "Applications Technology (AppTek)",
-        "aiXplain Inc."
+        "aiXplain"
     ],
     "Abstract": "Arabic is among the most challenging languages in the world. Unfortunately, the scarcity of Arabic datasets makes studies in Arabic speech technology demanding. This paper introduces SADA, the Saudi Audio Dataset for Arabic, with 668 hours of high-quality audios suitable for supervised training. The audio recordings were sourced from 57 television shows provided by the Saudi Broadcasting Authority. The audio covers both read and spontaneous speaking styles in various genres. The National Center for Artificial Intelligence in Saudi Arabia transcribed and prepared the data for training and processing. The recordings are in Arabic. Most are in Saudi dialects, while other Arabic dialects include Yemeni, Egyptian, and Levantine. The dataset is split into training, validation, and testing sets to enhance its usage. The validation and testing sets contain 10 hours of audio segments each. Besides giving a detailed description of the dataset, wide range of speech recognition experiments using standard tools are also presented.",
     "Added By": "Zaid Alyafeai"

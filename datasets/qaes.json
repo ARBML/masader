@@ -49,8 +49,8 @@
     ],
     "Affiliations": [
         "Qatar University",
-        " English Modern School",
-        " Carnegie Mellon University in Qatar"
+        "English Modern School",
+        "Carnegie Mellon University in Qatar"
     ],
     "Abstract": "Automated Essay Scoring (AES) has emerged as a significant research problem within natural language processing, providing valuable support for educators in assessing student writing skills. In this paper, we introduce QAES, the first publicly available trait-specific annotations for Arabic AES, built on the Qatari Corpus of Argumentative Writing (QCAW). QAES includes a diverse collection of essays in Arabic, each of them annotated with holistic and trait-specific scores, including relevance, organization, vocabulary, style, development, mechanics, and grammar. In total, it comprises 195 Arabic essays (with lengths ranging from 239 to 806 words) across two distinct argumentative writing tasks. We benchmark our dataset against the state-of-the-art English baselines and a feature-based approach. In addition, we discuss the adopted guidelines and the challenges encountered during the annotation process. Finally, we provide insights into potential areas for improvement and future directions in Arabic AES research.",
     "Added By": "Zaid Alyafeai"

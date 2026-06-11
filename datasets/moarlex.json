@@ -42,8 +42,7 @@
         "Mohab Youssef and Samhaa R. El-Beltagy"
     ],
     "Affiliations": [
-        "Nile University",
-        "Egypt"
+        "Nile University"
     ],
     "Abstract": "MoArLex presents a novel approach to building a large-scale Arabic sentiment lexicon by automatically expanding an existing seed lexicon (NileULex) using word embeddings. The lexicon is designed to be used for sentiment analysis tasks on Arabic social media data and includes dialectal and colloquial terms commonly used in online communication. It demonstrates high accuracy compared to lexicons generated through machine translation and other automated methods.",
     "Added By": "Maryam Al Emadi"

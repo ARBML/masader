@@ -48,14 +48,10 @@
         "Muhammad Imran"
     ],
     "Affiliations": [
-        "Computer Science and Engineering Department",
-        "College of Engineering",
         "Qatar University",
-        "Doha",
         "Qatar. Qatar Computing Research Institute (QCRI)",
-        "Hamad Bin Khalifa University (HBKU)",
-        "Doha",
-        "Qatar"
+        "Hamad Bin Khalifa University",
+        "Qatar Computing Research Institute"
     ],
     "Abstract": "While utilizing Twitter data for crisis management, a critical challenge that hinders authorities' response is the scarcity of geotagged messages. Although studies show the presence of toponyms in tweets and their effectiveness as alternative information to geotagged messages, limited focus has been given to location mention recognition in tweets. In fact, the community lacks a standard dataset to thrive research towards building robust models and solutions. To bridge this gap, we present two human-labeled datasets for the location mention recognition task in text messages, particularly tweets. The human annotation task labels toponym spans and assigns a location type (e.g., country, state, city) to them. The datasets contain tweets from 41 large-scale disaster events (e.g., floods, earthquakes) covering a wide geographical area of English and Arabic-speaking countries. Moreover, we benchmark the datasets using standard and deep learning models and present rigorous quantitative and qualitative analysis to highlight their superiority over past efforts. Last but not least, the trained models are used to process raw data comprising millions of tweets and offered as a silver dataset.",
     "Added By": "Reem Suwaileh"

@@ -52,9 +52,9 @@
         "Firoj Alam"
     ],
     "Affiliations": [
-        "Qatar Computing Research Institute, HBKU",
-        "University of New Brunswick",
+        "Qatar Computing Research Institute",
         "Hamad Bin Khalifa University",
+        "University of New Brunswick",
         "Northwestern University in Qatar"
     ],
     "Abstract": "We present an overview of the second edition of the ArAIEval shared task, organized as part of the ArabicNLP2024 conference co-located with ACL2024. In this edition, ArAIEval offers two tasks: (i) detection of propagandistic textual spans with persuasion techniques identification in tweets and news articles, and (ii) distinguishing between propagandistic and non-propagandistic memes. A total of 14 teams participated in the finalevaluation phase, with 6 and 9 teams participating in Tasks 1 and 2, respectively. Finally, 11 teams submitted system description papers. Across both tasks, we observed that fine-tuning transformer models such as AraBERT was at the core of the majority of the participating systems. We provide a description of the task setup, including a description of the dataset construction and the evaluation setup. We further provide a brief overview of the participating systems. All datasets and evaluation scripts are released to the research community. We hope this will enable further research on these important tasks in Arabic.",
