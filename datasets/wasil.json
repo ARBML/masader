@@ -42,17 +42,18 @@
     "Link": "https://huggingface.co/datasets/QCRI/WASIL",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2025,
-    "Language": "ar",
+    "Language": "multilingual",
     "Dialect": "mixed",
     "Domain": [
-        "other"
+        "LLM"
     ],
     "Form": "audio",
     "Collection Style": [
-        "human annotation"
+        "human annotation",
+        "LLM generated"
     ],
     "Description": "WASIL is a dataset of in-the-wild Arabic spoken interactions with an LLM-based assistant. The dataset contains \u223c9K turns (9,304 turns from 93 users), spans multiple dialects and countries, and includes explicit user feedback on assistant responses, including like or dislike signals and scalar scores.",
-    "Volume": 9304.0,
+    "Volume": 2702.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
