@@ -129,7 +129,7 @@ which gives the following output
 
 Note: Navigate to the publishing source for MASADER site. For more information about publishing sources, [see](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites).
 
-## Web Service 
+## Web Service
 
 Masader depends on a set of end points provided by our [web service](https://github.com/ARBML/masader-webservice).
 
@@ -141,10 +141,11 @@ To contribute to the project development, please visit [contributing instruction
 
 ## Collaborative Work
 
-Masader was developed in 2021 as part of the [BigScience project for open research 🌸](https://bigscience.huggingface.co/), a year-long initiative targeting the study of large langauge models and datasets. In 2022, Masader was furthere developed by the arbml team and community. 
+Masader was developed in 2021 as part of the [BigScience project for open research 🌸](https://bigscience.huggingface.co/), a year-long initiative targeting the study of large langauge models and datasets. In 2022, Masader was furthere developed by the arbml team and community.
 
 ## Citation
-If you use Masader in research please cite the following papers. 
+
+If you use Masader in research please cite the following papers.
 
 ```
 @misc{alyafeai2021masader,

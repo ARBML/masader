@@ -1,9 +1,10 @@
 let url = window.MasaderConfig.DATASETS_URL + '/';
 
 function recaptchaChange() {
-    let recaptcha_box_checked = (grecaptcha.getResponse()) ? true : false;
-    if (recaptcha_box_checked) document.getElementById("grecaptcha-submit").disabled = false;
-    else document.getElementById("grecaptcha-submit").disabled = true;
+    let recaptcha_box_checked = grecaptcha.getResponse() ? true : false;
+    if (recaptcha_box_checked)
+        document.getElementById('grecaptcha-submit').disabled = false;
+    else document.getElementById('grecaptcha-submit').disabled = true;
 }
 
 function ethicalBadge(text) {
@@ -17,7 +18,7 @@ function ethicalBadge(text) {
 function createSubsets(subsetsValue) {
     let result = '<table><tbody>';
     subsetsValue.forEach((subset) => {
-        result += `<tr class="border-0"><td class="border-0"><b>${subset["Name"]}</b></td><td class="border-0">${subset["Volume"]}</td></tr>`;
+        result += `<tr class="border-0"><td class="border-0"><b>${subset['Name']}</b></td><td class="border-0">${subset['Volume']}</td></tr>`;
     });
     result += '</tbody></table>';
     return result;
@@ -42,7 +43,7 @@ function injectPaperName(paperName) {
     // change the values of the spans without loop
     paperNameSpans[0].innerText = paperName;
     paperNameSpans[1].innerText = paperName;
-    // append the paper name to href of the link 
+    // append the paper name to href of the link
     paperNameLink = document.getElementById('paperATag');
     paperNameLink.href = `${paperNameLink.href}${paperName}`;
 }
@@ -125,8 +126,7 @@ axios
 
         for (let i = 0; i < headers.length; i++) {
             let element = headers[i];
-            let value =
-                row[element.title] != '' ? row[element.title] : 'N/A';
+            let value = row[element.title] != '' ? row[element.title] : 'N/A';
             // console.log(element.title, value);
             if (value == 'N/A') {
                 dataset.push({
@@ -142,19 +142,15 @@ axios
                 element.title == 'Paper Link'
             ) {
                 value = linkuize(value, value);
-            } else if (
-                element.title == 'HF Link'
-            ) {
+            } else if (element.title == 'HF Link') {
                 if (value.includes(',')) {
-                    hf_links = value.split(',')
-                    value = ""
+                    hf_links = value.split(',');
+                    value = '';
                     for (i = 0; i < hf_links.length; i++) {
                         value += linkuize(hf_links[i], hf_links[i]);
-                        if (i < hf_links.length - 1)
-                            value += '</br>'
+                        if (i < hf_links.length - 1) value += '</br>';
                     }
-                } else
-                    value = linkuize(value, value);
+                } else value = linkuize(value, value);
             } else if (element.title == 'Subsets') {
                 if (row[element.title] != '') {
                     let subsets = row[element.title];

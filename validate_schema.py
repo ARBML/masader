@@ -66,13 +66,16 @@ def validate_types(data, key):
     return data
 
 for file in glob("datasets/*.json"):
-    data = json.load(open(file))
-    data = {k.replace("_", " "): v for k, v in data.items()}
-    data.pop("Added By", None)
-    for key in data.keys():
-        validate_options(data, key)
-        validate_types(data, key)
-        validate_keys(data, key)
+    try:
+        data = json.load(open(file))
+        data = {k.replace("_", " "): v for k, v in data.items()}
+        data.pop("Added By", None)
+        for key in data.keys():
+            validate_options(data, key)
+            validate_types(data, key)
+            validate_keys(data, key)
+    except Exception as e:
+        sys.exit(f"Error loading {file}: {e}")
 
 
 print("Schema validation passed")
