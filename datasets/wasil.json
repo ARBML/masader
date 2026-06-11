@@ -18,6 +18,12 @@
             "Volume": 240.0,
             "Unit": "sentences",
             "Dialect": "Sudan"
+        },
+        {
+            "Name": "DZ",
+            "Volume": 172.0,
+            "Unit": "sentences",
+            "Dialect": "Algeria"
         }
     ],
     "HF Link": "https://huggingface.co/datasets/QCRI/WASIL",
