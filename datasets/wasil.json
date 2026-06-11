@@ -24,6 +24,12 @@
             "Volume": 172.0,
             "Unit": "sentences",
             "Dialect": "Algeria"
+        },
+        {
+            "Name": "SY",
+            "Volume": 57.0,
+            "Unit": "sentences",
+            "Dialect": "Syria"
         }
     ],
     "HF Link": "https://huggingface.co/datasets/QCRI/WASIL",
