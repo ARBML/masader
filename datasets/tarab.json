@@ -1,6 +1,129 @@
 {
     "Name": "Tarab",
-    "Subsets": [],
+    "Subsets": [
+        [
+    {
+        "Name": "Egyptian",
+        "Volume": 414914.0,
+        "Unit": "sentences",
+        "Dialect": "Egypt"
+    },
+    {
+        "Name": "Classical Arabic",
+        "Volume": 945344.0,
+        "Unit": "sentences",
+        "Dialect": "Classical Arabic"
+    },
+    {
+        "Name": "Lebanese",
+        "Volume": 253143.0,
+        "Unit": "sentences",
+        "Dialect": "Lebanon"
+    },
+    {
+        "Name": "Saudi",
+        "Volume": 197384.0,
+        "Unit": "sentences",
+        "Dialect": "Saudi Arabia"
+    },
+    {
+        "Name": "Iraqi",
+        "Volume": 195165.0,
+        "Unit": "sentences",
+        "Dialect": "Iraq"
+    },
+    {
+        "Name": "Syrian",
+        "Volume": 99693.0,
+        "Unit": "sentences",
+        "Dialect": "Syria"
+    },
+    {
+        "Name": "Sudanese",
+        "Volume": 89829.0,
+        "Unit": "sentences",
+        "Dialect": "Sudan"
+    },
+    {
+        "Name": "Kuwaiti",
+        "Volume": 61867.0,
+        "Unit": "sentences",
+        "Dialect": "Kuwait"
+    },
+    {
+        "Name": "Palestinian",
+        "Volume": 56448.0,
+        "Unit": "sentences",
+        "Dialect": "Palestine"
+    },
+    {
+        "Name": "UAE",
+        "Volume": 54462.0,
+        "Unit": "sentences",
+        "Dialect": "United Arab Emirates"
+    },
+    {
+        "Name": "Moroccan",
+        "Volume": 41298.0,
+        "Unit": "sentences",
+        "Dialect": "Morocco"
+    },
+    {
+        "Name": "Tunisian",
+        "Volume": 31671.0,
+        "Unit": "sentences",
+        "Dialect": "Tunisia"
+    },
+    {
+        "Name": "Yemeni",
+        "Volume": 30535.0,
+        "Unit": "sentences",
+        "Dialect": "Yemen"
+    },
+    {
+        "Name": "Algerian",
+        "Volume": 25157.0,
+        "Unit": "sentences",
+        "Dialect": "Algeria"
+    },
+    {
+        "Name": "Jordanian",
+        "Volume": 23574.0,
+        "Unit": "sentences",
+        "Dialect": "Jordan"
+    },
+    {
+        "Name": "Omani",
+        "Volume": 19872.0,
+        "Unit": "sentences",
+        "Dialect": "Oman"
+    },
+    {
+        "Name": "Bahraini",
+        "Volume": 5863.0,
+        "Unit": "sentences",
+        "Dialect": "Bahrain"
+    },
+    {
+        "Name": "Qatari",
+        "Volume": 5723.0,
+        "Unit": "sentences",
+        "Dialect": "Qatar"
+    },
+    {
+        "Name": "Libyan",
+        "Volume": 3775.0,
+        "Unit": "sentences",
+        "Dialect": "Libya"
+    },
+    {
+        "Name": "Mauritanian",
+        "Volume": 1594.0,
+        "Unit": "sentences",
+        "Dialect": "Mauritania"
+    }
+]
+    ],
     "HF Link": "https://huggingface.co/datasets/drelhaj/Tarab",
     "Link": "https://huggingface.co/datasets/drelhaj/Tarab",
     "License": "CC BY 4.0",
