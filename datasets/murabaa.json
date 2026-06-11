@@ -21,7 +21,21 @@
     "Provider": [
         "Mohammed V University in Rabat"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "Taj al-Arus",
+        "Lisan al-Arab",
+        "El Jihad et al. (2018) Arabic verb database",
+        "List of Arabic Broken Plurals (Attia et al., 2011)",
+        "Elghamry (2010) broken plural lexicon",
+        "Neme (2020) broken plural collection",
+        "Ouamer et al. (2022) broken plural model",
+        "Jamal Al-Zawain et al. (2023) morphological patterns",
+        "Abu El-Khair (2017) stop words lists",
+        "Medhat et al. (2014) stop words list",
+        "Alajmi et al. (2012) stop words list",
+        "Stop Words Project Balucha (2014)",
+        "Zerrouki Taha (2012) stop words generator"
+    ],
     "Paper Title": "Murabaa: A comprehensive Resource Platform for Arabic Morphology",
     "Paper Link": "https://aclanthology.org/2026.abjadnlp-1.47.pdf",
     "Script": "Arab",
