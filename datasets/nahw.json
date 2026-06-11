@@ -1,43 +1,42 @@
 {
     "Name": "Nahw",
-    "Volume": 5100.0,
-    "Unit": "documents",
-    "License": "unknown",
+    "Subsets": [],
+    "HF Link": "",
     "Link": "https://github.com/qcri/nahw-arabic-grammar-benchmark/",
-    "HF_Link": "",
+    "License": "Apache-2.0",
     "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
     "Domain": [
         "web pages",
         "books"
     ],
     "Form": "text",
-    "Collection_Style": [
+    "Collection Style": [
         "manual curation"
     ],
-    "Description": "Arabic grammar benchmark for LLM evaluation.",
-    "Ethical_Risks": "Low",
+    "Description": "Nahw is a comprehensive benchmark for evaluating Arabic grammar understanding in large language models. It includes multiple-choice grammar questions (Nahw-MCQ), annotated passages for grammatical error detection, correction, and explanation (Nahw-Passage), and synthetic training data.",
+    "Volume": 5100.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
     "Provider": [
-        "Qatar Computing Research Institute",
-        "HBKU"
+        "Qatar Computing Research Institute"
     ],
-    "Derived_From": [
-        "alnahw.com",
-        "educational book"
-    ],
-    "Paper_Title": "Nahw: A Comprehensive Arabic Grammar Benchmark",
-    "Paper_Link": "https://aclanthology.org/2026.eacl-long.296.pdf",
+    "Derived From": [],
+    "Paper Title": "Nahw: A Comprehensive Arabic Grammar Benchmark",
+    "Paper Link": "https://aclanthology.org/2026.eacl-long.296.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Test Split": false,
     "Tasks": [
-        "multiple choice question answering",
-        "other"
+        "multiple choice question answering"
     ],
-    "Venue_Title": "EACL",
-    "Venue_Type": "conference",
-    "Venue_Name": "EACL 2026",
+    "Venue Title": "EACL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the European Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Hamdy Mubarak",
         "Majd Hawasly",
@@ -48,22 +47,5 @@
         "HBKU"
     ],
     "Abstract": "Grammar comprehension is a critical capability for large language models (LLMs) to achieve fluency in a target language. In low-resource settings, such as the case with Arabic, limited availability of high-quality data can lead to significant gaps in grammatical understanding, making systematic evaluation essential. We introduce Nahw, a comprehensive benchmark for Arabic grammar that covers both theoretical knowledge and practical applications, including grammatical error detection, correction, and explanation. We evaluate a range of LLMs on these tasks and find that many models still exhibit substantial deficiencies in Arabic grammar comprehension, with GPT-4o achieving a score of 67% on average over all tasks, while the best performing Arabic model in our experiment (ALLaM-7B) achieving 42%. Our experiments also demonstrate that while fine-tuning with synthetic data can improve performance, it does not match the effectiveness of training on natural, high-quality data.",
-    "Subsets": [
-        {
-            "Name": "Nahw-MCQ",
-            "Volume": 5000.0,
-            "Unit": "documents",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "Nahw-Passage",
-            "Volume": 100.0,
-            "Unit": "documents",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
-    "Dialect": "Modern Standard Arabic",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
