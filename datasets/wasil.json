@@ -1,38 +1,49 @@
 {
     "Name": "WASIL",
-    "Volume": 9304.0,
-    "Unit": "documents",
-    "License": "unknown",
-    "Link": "",
-    "HF_Link": "https://huggingface.co/datasets/QCRI/WASIL",
+    "Subsets": [
+        {
+            "Name": "MSA",
+            "Volume": 1063.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/QCRI/WASIL",
+    "Link": "https://huggingface.co/datasets/QCRI/WASIL",
+    "License": "CC BY-NC-SA 4.0",
     "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
     "Domain": [
         "other"
     ],
     "Form": "audio",
-    "Collection_Style": [
+    "Collection Style": [
         "human annotation"
     ],
-    "Description": "In-the-wild Arabic spoken LLM interaction dataset",
-    "Ethical_Risks": "Medium",
+    "Description": "WASIL is a dataset of in-the-wild Arabic spoken interactions with an LLM-based assistant. The dataset contains \u223c9K turns (9,304 turns from 93 users), spans multiple dialects and countries, and includes explicit user feedback on assistant responses, including like or dislike signals and scalar scores.",
+    "Volume": 9304.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
     "Provider": [
-        "Qatar Computing Research Institute"
+        "QCRI"
     ],
-    "Derived_From": [],
-    "Paper_Title": "WASIL: In-the-Wild Arabic Spoken Interactions with LLMs",
-    "Paper_Link": "https://arxiv.org/pdf/2605.16364v1.pdf",
+    "Derived From": [],
+    "Paper Title": "WASIL: In-the-Wild Arabic Spoken Interactions with LLMs",
+    "Paper Link": "https://arxiv.org/pdf/2605.16364v1.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
-    "Cost": "free",
-    "Test_Split": true,
+    "Cost": "",
+    "Test Split": false,
     "Tasks": [
         "instruction tuning",
-        "dialogue generation"
+        "speech recognition"
     ],
-    "Venue_Title": "",
-    "Venue_Type": "preprint",
-    "Venue_Name": "arXiv",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Zien Sheikh Ali",
         "Hamdy Mubarak",
@@ -45,9 +56,5 @@
         "Qatar Computing Research Institute"
     ],
     "Abstract": "Large Language Models (LLMs) voice assistants are commonly built as cascaded Automatic Speech Recognition (ASR) \u2192 LLM systems, where recognition errors can distort user intent. Dislikes may also arise from ambiguous, out-of-domain, or non-request turns, making it hard to isolate ASR effects. We release WASIL: in-the-wild Arabic spoken interaction prompts with audio, ASR hypotheses, assistant responses, and explicit like/dislike feedback (8,529 turns; 14.2% dislikes), plus a 2,000-turn test set covering Modern Standard Arabic (MSA) and four major dialects with their labels. We provide low-cost gold transcripts via multi-ASR agreement\u2013guided post-editing and annotate answerability (answerable, ambiguous/needs-clarification, unsupported, not-a-request/noise) to separate intrinsic unanswerability from ASR-induced degradation. Finally, we describe scalable reference-free evaluation of responses from ASR vs. gold transcripts using multi-judge LLM scoring.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
