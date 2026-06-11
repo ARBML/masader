@@ -1,47 +1,43 @@
 {
     "Name": "SAHM",
-    "Volume": 14380.0,
-    "Unit": "documents",
-    "License": "CC BY-NC 4.0",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/SahmBenchmark",
     "Link": "https://github.com/mbzuai-nlp/SAHM",
-    "HF_Link": "https://huggingface.co/SahmBenchmark",
-    "Year": 2024,
+    "License": "CC BY-NC 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
     "Domain": [
-        "other"
+        "books"
     ],
     "Form": "text",
-    "Collection_Style": [
-        "crawling",
+    "Collection Style": [
         "human annotation",
-        "manual curation",
         "LLM generated"
     ],
-    "Description": "first Arabic financial benchmark",
-    "Ethical_Risks": "Low",
+    "Description": "SAHM, a comprehensive benchmark for evaluating Arabic financial reasoning across di- verse, real-world tasks spanning Islamic finance, accounting, and market analysis",
+    "Volume": 14380.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
     "Provider": [
-        "MBZUAI",
-        "INSAIT",
-        "The University of Manchester",
-        "The FinAI"
+        "MBZUAI"
     ],
-    "Derived_From": [],
-    "Paper_Title": "SAHM: A Benchmark for Arabic Financial and Shari\u2019ah-Compliant Reasoning",
-    "Paper_Link": "https://arxiv.org/pdf/2604.19098v2.pdf",
+    "Derived From": [],
+    "Paper Title": "SAHM: A Benchmark for Arabic Financial and Shari\u2019ah-Compliant Reasoning",
+    "Paper Link": "https://arxiv.org/pdf/2604.19098v2.pdf",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Test Split": true,
     "Tasks": [
         "question answering",
-        "multiple choice question answering",
-        "sentiment analysis",
-        "summarization",
-        "text generation"
+        "multiple choice question answering"
     ],
-    "Venue_Title": "arXiv",
-    "Venue_Type": "preprint",
-    "Venue_Name": "arXiv",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Rania Elbadry",
         "Sarfraz Ahmad",
@@ -66,9 +62,5 @@
         "The FinAI"
     ],
     "Abstract": "Arabic benchmarks remain limited in scope: ArBanking77 (Jarrar et al., 2023) addresses only English financial NLP has advanced rapidly through benchmarks targeting earnings analysis, market sentiment, tabular reasoning, and financial question answering, yet Arabic financial NLP remains virtually nonexistent, despite 422 million speakers, $4.9 trillion in Gulf sovereign wealth, and a $4\u20135 trillion Islamic finance industry requiring specialized Shari\u2019ah compliance over instruments like sukuk, murabaha, and takaful. We introduce SAHM, the first Arabic financial benchmark spanning seven tasks: AAOIFI standards QA, fatwa-based QA/MCQ, accounting and business exams, financial sentiment analysis, extractive summarization, and event-cause reasoning, comprising 14,380 expert-verified instances from authentic regulatory, juristic, and corporate sources. Evaluating 20 LLMs, we find Arabic fluency does not imply financial reasoning: models achieving 91% on recognition tasks drop sharply on generation, and event-cause reasoning exposes the widest performance gap (1.89\u20139.84/10). We release the benchmark and dataset to support trustworthy Arabic financial assistants.",
-    "Subsets": [],
-    "Dialect": "Modern Standard Arabic",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Added By": "Zaid Alyafeai"
 }
