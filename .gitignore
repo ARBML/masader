@@ -9,3 +9,4 @@ vendor
 Gemfile.lock
 save_jsons.py
 json_format.py
+qa_report.json
