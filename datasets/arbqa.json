@@ -1,0 +1,55 @@
+{
+    "Name": "ArbQA",
+    "Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/msfasha/Research-Resources/tree/main/ArabicLegalLLM",
+    "License": "MIT License",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated"
+    ],
+    "Description": "The generated dataset comprised around 6,000 QA pairs, and the context was used to create a question and answer based on each legal article",
+    "Volume": 6000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Petra",
+        "University of Jordan",
+        "University of Zarqa"
+    ],
+    "Derived From": [],
+    "Paper Title": "Parameter Efficient Fine Tuning Llama 3.1 for Answering Arabic Legal Questions: A Case Study on Jordanian Laws",
+    "Paper Link": "https://arxiv.org/pdf/2601.17364v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Mohammed Fasha",
+        "Bassam Hammo",
+        "Bilal Sowan",
+        "Husam Barham",
+        "Esam Nsour"
+    ],
+    "Affiliations": [
+        "University of Petra",
+        "University of Jordan",
+        "University of Zarqa"
+    ],
+    "Abstract": "This study uses Jordanian law as a case study to explore the fine-tuning of the Llama-3.1 large language model for Arabic question-answering. Two versions of the model - Llama-3.1-8B-bnb-4bit and Llama-3.1-8B-Instruct-bnb-4bit - were fine-tuned using parameter-efficient fine-tuning (PEFT) with LoRA adapters and 4-bit quantized models, leveraging the Unsloth framework for accelerated and resource-efficient training. A custom dataset of 6000 legal question-answer pairs was curated from Jordanian laws and formatted into structured prompts. Performance was evaluated using the BLEU and the ROUGE metrics to compare the fine-tuned models to their respective base versions. Results demonstrated improved legal reasoning and accuracy while achieving resource efficiency through quantization and optimized fine-tuning strategies. This work underscores the potential of adapting large language models for Arabic legal domains and highlights effective techniques for fine-tuning domain-specific tasks.",
+    "Added By": "Zaid Alyafeai"
+}

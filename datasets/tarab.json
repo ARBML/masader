@@ -1,0 +1,156 @@
+{
+    "Name": "Tarab",
+    "Subsets": [
+        {
+            "Name": "Egyptian",
+            "Volume": 414914.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Classical Arabic",
+            "Volume": 945344.0,
+            "Unit": "sentences",
+            "Dialect": "Classical Arabic"
+        },
+        {
+            "Name": "Lebanese",
+            "Volume": 253143.0,
+            "Unit": "sentences",
+            "Dialect": "Lebanon"
+        },
+        {
+            "Name": "Saudi",
+            "Volume": 197384.0,
+            "Unit": "sentences",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "Iraqi",
+            "Volume": 195165.0,
+            "Unit": "sentences",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "Syrian",
+            "Volume": 99693.0,
+            "Unit": "sentences",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "Sudanese",
+            "Volume": 89829.0,
+            "Unit": "sentences",
+            "Dialect": "Sudan"
+        },
+        {
+            "Name": "Kuwaiti",
+            "Volume": 61867.0,
+            "Unit": "sentences",
+            "Dialect": "Kuwait"
+        },
+        {
+            "Name": "Palestinian",
+            "Volume": 56448.0,
+            "Unit": "sentences",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "UAE",
+            "Volume": 54462.0,
+            "Unit": "sentences",
+            "Dialect": "United Arab Emirates"
+        },
+        {
+            "Name": "Moroccan",
+            "Volume": 41298.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Tunisian",
+            "Volume": 31671.0,
+            "Unit": "sentences",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Yemeni",
+            "Volume": 30535.0,
+            "Unit": "sentences",
+            "Dialect": "Yemen"
+        },
+        {
+            "Name": "Algerian",
+            "Volume": 25157.0,
+            "Unit": "sentences",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "Jordanian",
+            "Volume": 23574.0,
+            "Unit": "sentences",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "Omani",
+            "Volume": 19872.0,
+            "Unit": "sentences",
+            "Dialect": "Oman"
+        },
+        {
+            "Name": "Bahraini",
+            "Volume": 5863.0,
+            "Unit": "sentences",
+            "Dialect": "Bahrain"
+        },
+        {
+            "Name": "Qatari",
+            "Volume": 5723.0,
+            "Unit": "sentences",
+            "Dialect": "Qatar"
+        },
+        {
+            "Name": "Libyan",
+            "Volume": 3775.0,
+            "Unit": "sentences",
+            "Dialect": "Libya"
+        },
+        {
+            "Name": "Mauritanian",
+            "Volume": 1594.0,
+            "Unit": "sentences",
+            "Dialect": "Mauritania"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/drelhaj/Tarab",
+    "Link": "https://huggingface.co/datasets/drelhaj/Tarab",
+    "License": "CC BY 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Domain": ["web pages", "public datasets"],
+    "Form": "text",
+    "Collection Style": ["crawling"],
+    "Description": "Tarab is a large-scale Arabic creative-text corpus that unifies song lyrics and poetry in a single verse-level representation. It contains 2,557,311 verses and 13,509,336 tokens, spanning Classical Arabic, MSA, and six major regional dialect groups, and covering both modern countries and historical eras.",
+    "Volume": 2557311.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": ["Vin University"],
+    "Derived From": ["Habibi Lyrics Corpus", "Arabic Poetry"],
+    "Paper Title": "Tarab: A Multi-Dialect Corpus of Arabic Lyrics and Poetry",
+    "Paper Link": "https://arxiv.org/pdf/2603.16601v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": false,
+    "Tasks": ["poetry analysis"],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": ["Mo El-Haj"],
+    "Affiliations": [],
+    "Abstract": "We introduce the Tarab Corpus, a large-scale cultural and linguistic resource that brings together Arabic song lyrics and poetry within a unified analytical framework. The corpus comprises 2.56 million verses and more than 13.5 million tokens, making it, to our knowledge, the largest open Arabic corpus of creative texts spanning both classical and contemporary production. Tarab is broadly balanced between songs and poems and covers Classical Arabic, Modern Standard Arabic (MSA), and six major regional varieties: Egyptian, Gulf, Levantine, Iraqi, Sudanese, and Maghrebi Arabic. The artists and poets represented in the corpus are associated with 28 modern nation states and multiple historical eras, covering over fourteen centuries of Arabic creative expression from the Pre-Islamic period to the twenty-first century. Each verse is accompanied by structured metadata describing linguistic variety, geographic origin, and historical or cultural context, enabling comparative linguistic, stylistic, and diachronic analysis across genres and time. We describe the data collection, normalisation, and validation pipeline and present baseline analyses for variety identification and genre differentiation. The dataset is publicly available on HuggingFace at https://huggingface.co/datasets/drelhaj/Tarab.",
+    "Added By": "Zaid Alyafeai"
+}
