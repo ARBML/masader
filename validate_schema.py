@@ -34,35 +34,37 @@ schema = {k.replace("_", " "): v for k, v in load_schema().items()}
 data_types = {c:schema[c]['answer_type'] for c in schema}
 options = {c:schema[c]['options'] for c in schema if 'options' in schema[c]}
 
-def validate_keys(data, key):
+def validate_keys(data, key, file):
     if key not in schema:
-        sys.exit(f"Invalid key: {key}")
+        sys.exit(f"{file}: Invalid key: {key}")
     return data
 
-def validate_options(data, key):
+def validate_options(data, key, file):
     if key in options:
         if data_types[key] == "list[str]":
             for item in data[key]:
                 if item not in options[key]:
-                    sys.exit(f"Invalid item: {item} for {key}")
+                    sys.exit(f"{file}: Invalid item: {item} for {key}")
         elif data_types[key] == "str":
             if data[key] not in options[key]:
-                sys.exit(f"Invalid option: {data[key]} for {key}")
+                sys.exit(f"{file}: Invalid option: {data[key]} for {key}")
     return data
 
-def validate_types(data, key):
-    if data_types[key] == "list[str]" and not isinstance(data[key], list):
-        sys.exit(f"Invalid type: {type(data[key])} for {key}")
+def validate_types(data, key, file):
+    if "list" in data_types[key] and not isinstance(data[key], list):
+        sys.exit(f"{file}: Invalid type: {type(data[key])} for {key}")
+    elif data_types[key] == "list[dict[Name, Volume, Unit, Dialect]]" and not all(isinstance(item, dict) for item in data[key]):
+        sys.exit(f"{file}: Invalid type: {type(data[key])} for {key}")
     elif data_types[key] == "str" and not isinstance(data[key], str):
-        sys.exit(f"Invalid type: {type(data[key])} for {key}")
+        sys.exit(f"{file}: Invalid type: {type(data[key])} for {key}")
     elif data_types[key] == "float" and (not isinstance(data[key], float) and not isinstance(data[key], int)):
-        sys.exit(f"Invalid type: {type(data[key])} for {key}")
+        sys.exit(f"{file}: Invalid type: {type(data[key])} for {key}")
     elif data_types[key] == "int" and not isinstance(data[key], int):
-        sys.exit(f"Invalid type: {type(data[key])} for {key}")
+        sys.exit(f"{file}: Invalid type: {type(data[key])} for {key}")
     elif data_types[key] == "year" and not isinstance(data[key], int):
-        sys.exit(f"Invalid type: {type(data[key])} for {key}")
+        sys.exit(f"{file}: Invalid type: {type(data[key])} for {key}")
     elif data_types[key] == "bool" and not isinstance(data[key], bool):
-        sys.exit(f"Invalid type: {type(data[key])} for {key}")
+        sys.exit(f"{file}: Invalid type: {type(data[key])} for {key}")
     return data
 
 for file in glob("datasets/*.json"):
@@ -70,9 +72,9 @@ for file in glob("datasets/*.json"):
     data = {k.replace("_", " "): v for k, v in data.items()}
     data.pop("Added By", None)
     for key in data.keys():
-        validate_options(data, key)
-        validate_types(data, key)
-        validate_keys(data, key)
+        validate_options(data, key, file)
+        validate_types(data, key, file)
+        validate_keys(data, key, file)
 
 
 print("Schema validation passed")
