@@ -5,25 +5,25 @@
             "Name": "Jordan",
             "Volume": 606.0,
             "Unit": "images",
-            "Dialect": "Jordanian"
+            "Dialect": "Jordan"
         },
         {
             "Name": "Emirates",
             "Volume": 132.0,
             "Unit": "images",
-            "Dialect": "Emirati"
+            "Dialect": "United Arab Emirates"
         },
         {
             "Name": "Egypt",
             "Volume": 863.0,
             "Unit": "images",
-            "Dialect": "Egyptian"
+            "Dialect": "Egypt"
         },
         {
             "Name": "Morocco",
             "Volume": 577.0,
             "Unit": "images",
-            "Dialect": "Moroccan"
+            "Dialect": "Morocco"
         }
     ],
     "HF Link": "https://huggingface.co/datasets/toloka/JEEM",

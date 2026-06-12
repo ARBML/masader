@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import sys
 from glob import glob
 from pathlib import Path
@@ -67,6 +68,33 @@ def validate_types(data, key, file):
         sys.exit(f"{file}: Invalid type: {type(data[key])} for {key}")
     return data
 
+SUBSET_FIELDS_RE = re.compile(r"list\[dict\[([^\]]+)\]\]")
+
+def subset_fields(answer_type):
+    match = SUBSET_FIELDS_RE.match(answer_type)
+    if not match:
+        return []
+    return [field.strip() for field in match.group(1).split(",")]
+
+def validate_subsets(data, key, file):
+    fields = subset_fields(data_types[key])
+    if not fields:
+        return data
+    for i, item in enumerate(data[key]):
+        ctx = f"{file}:{key}[{i}]"
+        if not isinstance(item, dict):
+            sys.exit(f"{ctx}: Invalid type: {type(item)}")
+        for field in item:
+            if field not in fields:
+                sys.exit(f"{ctx}: Invalid key: {field}")
+        for field in fields:
+            if field not in item:
+                sys.exit(f"{ctx}: Missing key: {field}")
+            validate_options(item, field, ctx)
+            validate_types(item, field, ctx)
+            validate_keys(item, field, ctx)
+    return data
+
 for file in glob("datasets/*.json"):
     data = json.load(open(file))
     data = {k.replace("_", " "): v for k, v in data.items()}
@@ -75,6 +103,7 @@ for file in glob("datasets/*.json"):
         validate_options(data, key, file)
         validate_types(data, key, file)
         validate_keys(data, key, file)
+        validate_subsets(data, key, file)
 
 
 print("Schema validation passed")
