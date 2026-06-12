@@ -111,8 +111,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "instruction tuning",
-        "machine translation"
+        "instruction tuning"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",

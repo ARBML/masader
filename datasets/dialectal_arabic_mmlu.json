@@ -30,13 +30,19 @@
             "Volume": 3135.0,
             "Unit": "sentences",
             "Dialect": "Morocco"
+        },
+        {
+            "Name": "MSA",
+            "Volume": 3135.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
         }
     ],
     "HF Link": "https://huggingface.co/datasets/MBZUAI/Dialectal-Arabic-MMLU",
     "Link": "https://huggingface.co/datasets/MBZUAI/Dialectal-Arabic-MMLU",
     "License": "unknown",
     "Year": 2026,
-    "Language": "ar",
+    "Language": "multilingual",
     "Dialect": "mixed",
     "Domain": [
         "public datasets"

@@ -3,26 +3,26 @@
     "Subsets": [
         {
             "Name": "ar_eg",
-            "Volume": 1381.0,
-            "Unit": "sentences",
+            "Volume": 18.23,
+            "Unit": "hours",
             "Dialect": "Egypt"
         },
         {
             "Name": "ar_x_gulf",
-            "Volume": 13452.0,
-            "Unit": "sentences",
+            "Volume": 17.78,
+            "Unit": "hours",
             "Dialect": "Gulf"
         },
         {
             "Name": "ar_x_levant",
-            "Volume": 12600.0,
-            "Unit": "sentences",
+            "Volume": 14.13,
+            "Unit": "hours",
             "Dialect": "Levant"
         },
         {
             "Name": "ar_x_maghrebi",
-            "Volume": 12590.0,
-            "Unit": "sentences",
+            "Volume": 17.39,
+            "Unit": "hours",
             "Dialect": "North Africa"
         }
     ],
@@ -40,8 +40,8 @@
         "human annotation"
     ],
     "Description": "Simple Voice Questions (SVQ) is a set of short audio questions recorded in 26 locales across 17 languages under multiple audio conditions.",
-    "Volume": 52453.0,
-    "Unit": "sentences",
+    "Volume": 67.52,
+    "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
         "Google"

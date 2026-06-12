@@ -40,7 +40,7 @@
         "crawling"
     ],
     "Description": "A morphologically-annotated Yemeni, Sudanese, Iraqi, and Libyan Arabic dialects Lisan corpora. Lisan features around 1.2 million tokens. It was collected the content of the corpora from several social media platforms.",
-    "Volume": 1200000.0,
+    "Volume": 1205000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [

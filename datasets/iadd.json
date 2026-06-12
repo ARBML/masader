@@ -38,6 +38,12 @@
             "Dialect": "Modern Standard Arabic"
         },
         {
+            "Name": "Levantine",
+            "Volume": 6900.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
             "Name": "Tunisia",
             "Volume": 11998.0,
             "Unit": "sentences",
@@ -66,6 +72,12 @@
             "Volume": 10829.0,
             "Unit": "sentences",
             "Dialect": "Lebanon"
+        },
+        {
+            "Name": "Maghrebi",
+            "Volume": 359.0,
+            "Unit": "sentences",
+            "Dialect": "North Africa"
         }
     ],
     "HF Link": "https://huggingface.co/datasets/evageon/IADD",

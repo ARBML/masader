@@ -24,7 +24,7 @@
     "Link": "https://huggingface.co/datasets/QCRI/AraDiCE-BoolQ",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
-    "Language": "ar",
+    "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Domain": [
         "public datasets"
@@ -35,7 +35,7 @@
         "machine annotation"
     ],
     "Description": "The dataset consists of post-edited versions of various benchmark datasets, curated for validation in cultural and dialectal contexts relevant to Arabic.",
-    "Volume": 1968.0,
+    "Volume": 2952.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [

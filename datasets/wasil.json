@@ -3,37 +3,37 @@
     "Subsets": [
         {
             "Name": "MSA",
-            "Volume": 1063.0,
+            "Volume": 935.0,
             "Unit": "sentences",
             "Dialect": "Modern Standard Arabic"
         },
         {
             "Name": "Egyptian",
-            "Volume": 959.0,
+            "Volume": 724.0,
             "Unit": "sentences",
             "Dialect": "Egypt"
         },
         {
             "Name": "SD",
-            "Volume": 240.0,
+            "Volume": 189.0,
             "Unit": "sentences",
             "Dialect": "Sudan"
         },
         {
             "Name": "DZ",
-            "Volume": 172.0,
+            "Volume": 115.0,
             "Unit": "sentences",
             "Dialect": "Algeria"
         },
         {
             "Name": "SY",
-            "Volume": 57.0,
+            "Volume": 46.0,
             "Unit": "sentences",
             "Dialect": "Syria"
         },
         {
             "Name": "MIX",
-            "Volume": 155.0,
+            "Volume": 204.0,
             "Unit": "sentences",
             "Dialect": "mixed"
         }
@@ -53,7 +53,7 @@
         "LLM generated"
     ],
     "Description": "WASIL is a dataset of in-the-wild Arabic spoken interactions with an LLM-based assistant. The dataset contains \u223c9K turns (9,304 turns from 93 users), spans multiple dialects and countries, and includes explicit user feedback on assistant responses, including like or dislike signals and scalar scores.",
-    "Volume": 2702.0,
+    "Volume": 2213.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [

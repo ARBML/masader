@@ -1,13 +1,6 @@
 {
     "Name": "ANS CORPUS:  claim verification",
-    "Subsets": [
-        {
-            "Name": "",
-            "Dialect": "Modern Standard Arabic",
-            "Volume": 3786.0,
-            "Unit": "sentences"
-        }
-    ],
+    "Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ANS_stance",
     "Link": "https://github.com/latynt/ans",
     "License": "Apache-2.0",
@@ -22,7 +15,7 @@
         "crawling"
     ],
     "Description": "corpus comes in two perspectives: a version consisting of 4,547 true and false claims and a version consisting of 3,786 pairs (claim, evidence).",
-    "Volume": 4547.0,
+    "Volume": 3786.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [

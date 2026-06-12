@@ -40,7 +40,7 @@
         "other"
     ],
     "Description": "This dataset contains culturally-aware multiple-choice questions (MCQs) in various Arabic dialects, designed to test and evaluate language models' understanding of cultural nuances across different Arabic-speaking regions.",
-    "Volume": 12068.0,
+    "Volume": 12072.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [],

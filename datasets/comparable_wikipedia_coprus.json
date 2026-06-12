@@ -28,7 +28,7 @@
         "crawling"
     ],
     "Description": "Comparable Wikipedia Corpus (aligned documents) Corpus extracts from 20-01-2017 Wikipedia dumps",
-    "Volume": 20394.0,
+    "Volume": 10197.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [

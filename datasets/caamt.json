@@ -26,10 +26,16 @@
             "Dialect": "Morocco"
         },
         {
-            "Name": "LEV",
-            "Volume": 12800.0,
+            "Name": "NOR-LEV",
+            "Volume": 6400.0,
             "Unit": "sentences",
             "Dialect": "Levant"
+        },
+        {
+            "Name": "STH-LEV",
+            "Volume": 6400.0,
+            "Unit": "sentences",
+            "Dialect": "North Africa"
         },
         {
             "Name": "IRQ",
@@ -65,7 +71,7 @@
         "human annotation"
     ],
     "Description": "57.6k parallel Arabic dialect MT dataset.",
-    "Volume": 57600.0,
+    "Volume": 6400.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [

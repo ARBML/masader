@@ -52,8 +52,7 @@
     "Cost": "",
     "Test Split": true,
     "Tasks": [
-        "intent detection",
-        "machine translation"
+        "intent detection"
     ],
     "Venue Title": "NLP",
     "Venue Type": "journal",
