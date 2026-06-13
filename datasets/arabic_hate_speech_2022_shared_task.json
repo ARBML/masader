@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Emojis as Anchors to Detect Arabic Offensive Language and Hate Speech",
-    "Paper Link": "https://arxiv.org/pdf/2201.06723.pdf",
+    "Paper Link": "https://doi.org/10.1017/S1351324923000402",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "QCRI Resources",
@@ -34,9 +34,9 @@
         "offensive language detection",
         "hate speech detection"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "NLE",
+    "Venue Type": "journal",
+    "Venue Name": "Natural Language Engineering",
     "Authors": [],
     "Affiliations": [
         "Hamdy Mubarak",

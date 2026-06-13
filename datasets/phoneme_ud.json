@@ -25,7 +25,7 @@
         "Universal Dependencies."
     ],
     "Paper Title": "IPA CHILDES & G2P+: Feature-Rich Resources for Cross-Lingual Phonology and Phonemic Language Modeling",
-    "Paper Link": "https://arxiv.org/pdf/2504.03036",
+    "Paper Link": "https://aclanthology.org/2025.conll-1.33",
     "Script": "Latin",
     "Tokenized": true,
     "Host": "HuggingFace",
@@ -35,9 +35,9 @@
     "Tasks": [
         "spoken language modeling"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "CoNLL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Computational Natural Language Learning",
     "Authors": [
         "Zébulon Goriely",
         "Paula Buttery"

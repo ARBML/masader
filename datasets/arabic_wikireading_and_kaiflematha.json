@@ -20,7 +20,7 @@
     "Ethical Risks": "Medium",
     "Provider": [],
     "Derived From": [],
-    "Paper Title": "",
+    "Paper Title": "Constructing Arabic Reading Comprehension Datasets: Arabic WikiReading and KaifLematha",
     "Paper Link": "https://link.springer.com/content/pdf/10.1007/s10579-022-09577-5.pdf",
     "Script": "Arab",
     "Tokenized": false,
@@ -31,9 +31,9 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "",
+    "Venue Title": "LRE",
     "Venue Type": "journal",
-    "Venue Name": "",
+    "Venue Name": "Language Resources and Evaluation",
     "Authors": [],
     "Affiliations": [],
     "Abstract": "",

@@ -25,7 +25,7 @@
         "XQuAD dataset"
     ],
     "Paper Title": "LAReQA: Language-agnostic answer retrieval from a multilingual pool",
-    "Paper Link": "https://arxiv.org/pdf/2004.05484.pdf",
+    "Paper Link": "https://doi.org/10.18653/v1/2020.emnlp-main.477",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -36,9 +36,9 @@
         "information retrieval",
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Uma Roy",
         "Noah Constant",

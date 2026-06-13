@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "A diverse Multilingual News Headlines Dataset from around the World",
-    "Paper Link": "https://arxiv.org/pdf/2403.19352",
+    "Paper Link": "https://doi.org/10.18653/v1/2024.naacl-short.55",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "kaggle",
@@ -33,9 +33,9 @@
     "Tasks": [
         "language modeling"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "NAACL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the North American Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Felix Leeb",
         "Bernhard Schölkopf"

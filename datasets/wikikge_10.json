@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Increasing Coverage and Precision of Textual Information in Multilingual Knowledge Graphs",
-    "Paper Link": "https://arxiv.org/pdf/2311.15781",
+    "Paper Link": "https://doi.org/10.18653/v1/2023.emnlp-main.100",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -33,9 +33,9 @@
     "Tasks": [
         "knowledge graphs"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Simone Conia",
         "Min Li",

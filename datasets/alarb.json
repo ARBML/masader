@@ -24,7 +24,7 @@
     ],
     "Derived From": [],
     "Paper Title": "ALARB: An Arabic Legal Argument Reasoning Benchmark",
-    "Paper Link": "https://arxiv.org/pdf/2510.00694",
+    "Paper Link": "https://aclanthology.org/2025.arabicnlp-main.32.pdf",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -34,9 +34,9 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Harethah AbuShairah",
         "Somayah AlHarbi",

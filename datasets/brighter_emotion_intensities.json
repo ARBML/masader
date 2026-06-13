@@ -25,7 +25,7 @@
     ],
     "Derived From": [],
     "Paper Title": "BRIGHTER: Bridging the Gap in Human-Annotated Textual Emotion Recognition Datasets for 28 Languages",
-    "Paper Link": "https://arxiv.org/pdf/2502.11926",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.acl-long.436",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -35,9 +35,9 @@
     "Tasks": [
         "emotion classification"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
         "Shamsuddeen Hassan Muhammad",
         "Nedjma Ousidhoum",

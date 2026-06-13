@@ -42,7 +42,7 @@
         "DocLayNet"
     ],
     "Paper Title": "KITAB-Bench: A Comprehensive Multi-Domain Benchmark for Arabic OCR and Document Understanding",
-    "Paper Link": "https://arxiv.org/pdf/2502.14949",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-acl.1135",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -52,9 +52,9 @@
     "Tasks": [
         "optical character recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Association for Computational Linguistics",
     "Authors": [
         "Ahmed Heakl",
         "Abdullah Sohail",

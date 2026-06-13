@@ -28,7 +28,7 @@
         "TunSwitch"
     ],
     "Paper Title": "ADI-20: Arabic Dialect Identification dataset and models",
-    "Paper Link": "https://arxiv.org/pdf/2511.10070v1",
+    "Paper Link": "https://doi.org/10.21437/Interspeech.2025-884",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -38,9 +38,9 @@
     "Tasks": [
         "dialect identification"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Interspeech",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the International Speech Communication Association",
     "Authors": [
         "Haroun Elleuch",
         "Salima Mdhaffar",

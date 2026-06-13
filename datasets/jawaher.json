@@ -145,7 +145,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Jawaher: A Multidialectal Dataset of Arabic Proverbs for LLM Benchmarking",
-    "Paper Link": "https://arxiv.org/pdf/2503.00231",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.naacl-long.613",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -155,9 +155,9 @@
     "Tasks": [
         "instruction tuning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "NAACL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the North American Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Samar M. Magdy",
         "Sang Yun Kwon",

@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
-    "Paper Link": "https://arxiv.org/pdf/2402.06619.pdf",
+    "Paper Link": "https://doi.org/10.18653/v1/2024.acl-long.620",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -34,9 +34,9 @@
         "question answering",
         "instruction tuning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
         "Shivalika Singh",
         "Freddie Vargus",

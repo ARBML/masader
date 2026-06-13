@@ -29,7 +29,7 @@
         "Khaleej Corpus"
     ],
     "Paper Title": "ArVoice: A Multi-Speaker Dataset for Arabic Speech Synthesis",
-    "Paper Link": "https://arxiv.org/pdf/2504.21677",
+    "Paper Link": "https://doi.org/10.21437/Interspeech.2025-1550",
     "Script": "Arab",
     "Tokenized": true,
     "Host": "HuggingFace",
@@ -40,9 +40,9 @@
         "text to speech",
         "speech recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Interspeech",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the International Speech Communication Association",
     "Authors": [
         "Hawau Olamide Toyin",
         "Rufael Marew",

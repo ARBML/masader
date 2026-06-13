@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "ClArTTS: An Open-Source Classical Arabic Text-to-Speech Corpus",
-    "Paper Link": "https://arxiv.org/pdf/2303.00069",
+    "Paper Link": "https://doi.org/10.21437/Interspeech.2023-2224",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -33,9 +33,9 @@
     "Tasks": [
         "text to speech"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Interspeech",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the International Speech Communication Association",
     "Authors": [
         "Ajinkya Kulkarni",
         "Atharva Kulkarni",

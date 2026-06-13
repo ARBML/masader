@@ -24,7 +24,7 @@
     ],
     "Derived From": [],
     "Paper Title": "ArabGlossBERT: Fine-Tuning BERT on Context-Gloss Pairs for WSD.",
-    "Paper Link": "https://arxiv.org/pdf/2205.09685",
+    "Paper Link": "https://aclanthology.org/2021.ranlp-1.5/",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "CAMeL Resources",
@@ -35,9 +35,9 @@
         "language modeling",
         "natural language inference"
     ],
-    "Venue Title": "",
+    "Venue Title": "RANLP",
     "Venue Type": "conference",
-    "Venue Name": "",
+    "Venue Name": "Recent Advances in Natural Language Processing",
     "Authors": [
         "Moustafa Al-Hajj",
         "Mustafa Jarrar"

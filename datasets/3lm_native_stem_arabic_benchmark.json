@@ -24,7 +24,7 @@
     ],
     "Derived From": [],
     "Paper Title": "3LM: Bridging Arabic, STEM, and Code through Benchmarking",
-    "Paper Link": "http://arxiv.org/pdf/2507.15850v3.pdf",
+    "Paper Link": "https://aclanthology.org/2025.arabicnlp-main.4.pdf",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -34,9 +34,9 @@
     "Tasks": [
         "multiple choice question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Basma ElAmel Boussaha",
         "Leen AlQadi",

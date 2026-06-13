@@ -93,6 +93,15 @@ def validate_subsets(data, key, file):
             validate_options(item, field, ctx)
             validate_types(item, field, ctx)
             validate_keys(item, field, ctx)
+def validate_venues(data, file):
+    normalized_veneus = json.load(open("venues.json"))
+
+    if data["Venue Title"] not in normalized_veneus:
+        sys.exit(f"{file}: Invalid Venue Title: {data['Venue Title']}")
+    if data["Venue Name"] != normalized_veneus[data["Venue Title"]]["name"]:
+        sys.exit(f"{file}: Invalid Venue Name: {data['Venue Name']}")
+    if data["Venue Type"] != normalized_veneus[data["Venue Title"]]["type"]:
+        sys.exit(f"{file}: Invalid Venue Type: {data['Venue Type']}")
     return data
 
 for file in glob("datasets/*.json"):
@@ -104,6 +113,7 @@ for file in glob("datasets/*.json"):
         validate_types(data, key, file)
         validate_keys(data, key, file)
         validate_subsets(data, key, file)
+    validate_venues(data, file)
 
 
 print("Schema validation passed")

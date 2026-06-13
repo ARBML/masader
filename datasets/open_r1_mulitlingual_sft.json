@@ -28,7 +28,7 @@
         "Bespoke-Stratos-17k"
     ],
     "Paper Title": "Linguistic Generalizability of Test-Time Scaling in Mathematical Reasoning",
-    "Paper Link": "https://arxiv.org/pdf/2502.17407",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.acl-long.699",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -38,9 +38,9 @@
     "Tasks": [
         "instruction tuning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
         "Guijin Son",
         "Jiwoo Hong",

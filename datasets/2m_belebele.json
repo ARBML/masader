@@ -27,7 +27,7 @@
         "FLORES-200"
     ],
     "Paper Title": "2M-BELEBELE: Highly Multilingual Speech and American Sign Language Comprehension Dataset",
-    "Paper Link": "https://arxiv.org/pdf/2412.08274",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-acl.569",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -37,9 +37,9 @@
     "Tasks": [
         "speech recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
         "Marta R. Costa-jussà",
         "Bokai Yu",

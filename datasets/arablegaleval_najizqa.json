@@ -25,7 +25,7 @@
     ],
     "Derived From": [],
     "Paper Title": "ArabLegalEval: A Multitask Benchmark for Assessing Arabic Legal Knowledge in Large Language Models",
-    "Paper Link": "https://arxiv.org/pdf/2408.07983",
+    "Paper Link": "https://doi.org/10.18653/v1/2024.arabicnlp-1.20",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -35,9 +35,9 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Faris Hijazi",
         "Somayah AlHarbi",

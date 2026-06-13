@@ -30,7 +30,7 @@
         "PolyGuardMix"
     ],
     "Paper Title": "MR3: Multilingual Rubric-Agnostic Reward Reasoning Models",
-    "Paper Link": "https://arxiv.org/pdf/2510.01146",
+    "Paper Link": "https://openreview.net/forum?id=ST0wOB1bdX",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -40,9 +40,9 @@
     "Tasks": [
         "preference optimization"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ICLR",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Learning Representations",
     "Authors": [
         "David Anugraha",
         "Shou-Yi Hung",

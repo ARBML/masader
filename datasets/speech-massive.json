@@ -25,7 +25,7 @@
         "MASSIVE"
     ],
     "Paper Title": "Speech-MASSIVE: A Multilingual Speech Dataset for SLU and Beyond",
-    "Paper Link": "https://arxiv.org/pdf/2408.03900",
+    "Paper Link": "https://doi.org/10.21437/Interspeech.2024-957",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -35,9 +35,9 @@
     "Tasks": [
         "speech recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Interspeech",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the International Speech Communication Association",
     "Authors": [
         "Beomseok Lee",
         "Ioan Calapodescu",

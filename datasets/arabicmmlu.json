@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "ArabicMMLU: Assessing Massive Multitask Language Understanding in Arabic",
-    "Paper Link": "https://arxiv.org/pdf/2402.12840.pdf",
+    "Paper Link": "https://doi.org/10.18653/v1/2024.findings-acl.334",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -33,9 +33,9 @@
     "Tasks": [
         "multiple choice question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
         "Fajri Koto",
         "Haonan Li",

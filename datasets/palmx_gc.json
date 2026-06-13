@@ -27,7 +27,7 @@
         "Palm"
     ],
     "Paper Title": "PalmX 2025: The First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture",
-    "Paper Link": "https://arxiv.org/pdf/2509.02550",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.arabicnlp-sharedtasks.107",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -37,9 +37,9 @@
     "Tasks": [
         "multiple choice question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Fakhraddin Alwajih",
         "Abdellah El Mekki",

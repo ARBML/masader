@@ -21,7 +21,7 @@
     "Provider": [],
     "Derived From": [],
     "Paper Title": "M3-Embedding: Multi-Linguality, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation",
-    "Paper Link": "https://arxiv.org/pdf/2402.03216",
+    "Paper Link": "https://doi.org/10.18653/v1/2024.findings-acl.137",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -31,9 +31,9 @@
     "Tasks": [
         "information retrieval"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Association for Computational Linguistics",
     "Authors": [
         "Jianlv Chen",
         "Shitao Xiao",

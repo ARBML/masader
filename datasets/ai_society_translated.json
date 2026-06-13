@@ -25,7 +25,7 @@
         "AI Society"
     ],
     "Paper Title": "CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model Society",
-    "Paper Link": "https://arxiv.org/pdf/2303.17760",
+    "Paper Link": "https://neurips.cc/virtual/2023/poster/72905",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -35,9 +35,9 @@
     "Tasks": [
         "instruction tuning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "NeurIPS",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Neural Information Processing Systems",
     "Authors": [
         "Guohao Li",
         "Hasan Abed AlKader Hammoud",

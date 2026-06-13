@@ -26,7 +26,7 @@
         "Tunisiya"
     ],
     "Paper Title": "Leveraging Data Collection and Unsupervised Learning for Code-Switched Tunisian Arabic Automatic Speech Recognition",
-    "Paper Link": "https://arxiv.org/pdf/2309.11327",
+    "Paper Link": "https://doi.org/10.1109/ICASSP48485.2024.10445734",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "zenodo",
@@ -36,9 +36,9 @@
     "Tasks": [
         "speech recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ICASSP",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Acoustics, Speech and Signal Processing",
     "Authors": [
         "Ahmed Amine Ben Abdallah",
         "Ata Kabboudi",

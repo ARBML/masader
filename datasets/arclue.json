@@ -22,7 +22,7 @@
     ],
     "Derived From": [],
     "Paper Title": "From Arabic Text to Puzzles: LLM-Driven Development of Arabic Educational Crosswords",
-    "Paper Link": "https://arxiv.org/pdf/2501.11035",
+    "Paper Link": "https://aclanthology.org/2025.loreslm-1.36/",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
@@ -31,9 +31,9 @@
     "Tasks": [
         "other"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "loreslm",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Language Models for Low-Resource Languages",
     "Authors": [
         "Kamyar Zeinalipour",
         "Mohamed Zaky Saad",

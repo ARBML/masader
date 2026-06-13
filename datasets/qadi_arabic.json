@@ -132,7 +132,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Arabic Dialect Identification in the Wild",
-    "Paper Link": "https://arxiv.org/pdf/2005.06557.pdf",
+    "Paper Link": "https://www.aclweb.org/anthology/2021.wanlp-1.1/",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "QCRI Resources",
@@ -142,9 +142,9 @@
     "Tasks": [
         "dialect identification"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "WANLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Arabic Natural Language Processing Workshop",
     "Authors": [
         "Ahmed Abdelali",
         "Hamdy Mubarak",

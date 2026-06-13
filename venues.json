@@ -1,1090 +1,946 @@
 {
-    "_comment": "Curated list of known venues. Each dataset's `Venue Title`/`Venue Name` is matched against `title`, `name`, and `aliases` (case/punctuation-insensitive). Add new venues or aliases here, then re-run `python3 quality_assurance.py --check venue`. Matching ignores case, punctuation, a leading 'The', and treats '&' as 'and', so you only need to list genuinely different wordings/acronyms/typos as aliases.",
-    "venues": [
-        {
-            "title": "ACL",
-            "name": "Annual Meeting of the Association for Computational Linguistics",
-            "type": "conference",
-            "aliases": [
-                "Association for Computational Linguistics",
-                "Associations of computation linguistics",
-                "Assofications of computation linguisitcs",
-                "Association of Computational Linguistics",
-                "Association of Computation Linguistics",
-                "Association of Computation Linguisicts",
-                "61st Annual Meeting of the Association for Computational Linguistics"
-            ]
-        },
-        {
-            "title": "Findings of ACL",
-            "name": "Findings of the Association for Computational Linguistics",
-            "type": "conference",
-            "aliases": [
-                "Findings of Associations of Computation Linguistics",
-                "Findings of Associations of computation linguistics"
-            ]
-        },
-        {
-            "title": "EMNLP",
-            "name": "Conference on Empirical Methods in Natural Language Processing",
-            "type": "conference",
-            "aliases": [
-                "Empirical Methods in Natural Language Processing",
-                "Empirical Methods in Natural Language Processing Conference"
-            ]
-        },
-        {
-            "title": "Findings of EMNLP",
-            "name": "Findings of the Conference on Empirical Methods in Natural Language Processing",
-            "type": "conference",
-            "aliases": [
-                "findings of Conference on Empirical Methods in Natural Language Processing"
-            ]
-        },
-        {
-            "title": "LREC",
-            "name": "International Conference on Language Resources and Evaluation",
-            "type": "conference",
-            "aliases": [
-                "Language Resources and Evaluation Conference",
-                "Language Resources Evaluation Conference",
-                "Language and Resources Evaluation Conference",
-                "Langauge and Resources Evaluation Conference",
-                "Language Resource and Evaluation Conference",
-                "Language Resources and Evaluation Conference (LREC)"
-            ]
-        },
-        {
-            "title": "LREC-COLING",
-            "name": "Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "LRE",
-            "name": "Language Resources and Evaluation",
-            "type": "journal",
-            "aliases": [
-                "Language Resource and Evaluation",
-                "Language Resources & Evaluation"
-            ]
-        },
-        {
-            "title": "COLING",
-            "name": "International Conference on Computational Linguistics",
-            "type": "conference",
-            "aliases": ["Conference on Computational Linguistics"]
-        },
-        {
-            "title": "WANLP",
-            "name": "Arabic Natural Language Processing Workshop",
-            "type": "workshop",
-            "aliases": [
-                "Workshop on Arabic Natural Language Processing",
-                "Arabic Natural Language Processing",
-                "The Third Arabic Natural Language Processing Workshop",
-                "The Sixth Arabic Natural Language Processing Workshop"
-            ]
-        },
-        {
-            "title": "ArabicNLP",
-            "name": "Arabic Natural Language Processing Conference",
-            "type": "conference",
-            "aliases": [
-                "The First Arabic Natural Language Processing Conference",
-                "First Arabic Natural Language Processing Conference"
-            ]
-        },
-        {
-            "title": "WACL",
-            "name": "Workshop on Arabic Corpus Linguistics",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "OSACT",
-            "name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
-            "type": "workshop",
-            "aliases": [
-                "Open-Source Arabic Corpora and Processing Tools",
-                "The 6th Workshop on Open-Source Arabic Corpora and Processing Tools"
-            ]
-        },
-        {
-            "title": "SemEval",
-            "name": "International Workshop on Semantic Evaluation",
-            "type": "workshop",
-            "aliases": ["Semantic Evaluation"]
-        },
-        {
-            "title": "EACL",
-            "name": "Conference of the European Chapter of the Association for Computational Linguistics",
-            "type": "conference",
-            "aliases": [
-                "European Chapter of the Association for Computational Linguistics",
-                "The 18th Conference of the European Chapter of the Association for Computational Linguistics"
-            ]
-        },
-        {
-            "title": "Findings of EACL",
-            "name": "Findings of the European Chapter of the Association for Computational Linguistics",
-            "type": "conference",
-            "aliases": ["EACL Findings"]
-        },
-        {
-            "title": "NAACL",
-            "name": "Conference of the North American Chapter of the Association for Computational Linguistics",
-            "type": "conference",
-            "aliases": [
-                "North American Chapter of the Association for Computational Linguistics",
-                "North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
-                "Nations of the Americas Chapter of the Association for Computational Linguistics",
-                "Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics",
-                "NACCL"
-            ]
-        },
-        {
-            "title": "AACL",
-            "name": "Asia-Pacific Chapter of the Association for Computational Linguistics",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "RANLP",
-            "name": "Recent Advances in Natural Language Processing",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "Interspeech",
-            "name": "Conference of the International Speech Communication Association",
-            "type": "conference",
-            "aliases": ["Interspeech", "Interspeech Conference"]
-        },
-        {
-            "title": "NeurIPS",
-            "name": "Conference on Neural Information Processing Systems",
-            "type": "conference",
-            "aliases": ["Neural Information Processing Systems"]
-        },
-        {
-            "title": "ICLR",
-            "name": "International Conference on Learning Representations",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICML",
-            "name": "International Conference on Machine Learning",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "COLM",
-            "name": "Conference on Language Modeling",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "AAAI",
-            "name": "AAAI Conference on Artificial Intelligence",
-            "type": "conference",
-            "aliases": [
-                "Association for the Advancement of Artificial Intelligence"
-            ]
-        },
-        {
-            "title": "CLEF",
-            "name": "Conference and Labs of the Evaluation Forum",
-            "type": "conference",
-            "aliases": [
-                "International Conference of the Cross-Language Evaluation Forum for European Languages"
-            ]
-        },
-        {
-            "title": "AICCSA",
-            "name": "International Conference on Computer Systems and Applications",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ASRU",
-            "name": "IEEE Automatic Speech Recognition and Understanding Workshop",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "ICASSP",
-            "name": "International Conference on Acoustics, Speech and Signal Processing",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICNLSP",
-            "name": "International Conference on Natural Language and Speech Processing",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ACLing",
-            "name": "International Conference on AI in Computational Linguistics",
-            "type": "conference",
-            "aliases": [
-                "International Conference on Arabic Computational Linguistics"
-            ]
-        },
-        {
-            "title": "CICLing",
-            "name": "International Conference on Computational Linguistics and Intelligent Text Processing",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "PACLIC",
-            "name": "Pacific Asia Conference on Language, Information and Computation",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "CoNLL",
-            "name": "Conference on Computational Natural Language Learning",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "IALP",
-            "name": "International Conference on Asian Language Processing",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "IJCNLP",
-            "name": "International Joint Conference on Natural Language Processing",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "IWSLT",
-            "name": "International Workshop on Spoken Language Translation",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "ALW",
-            "name": "Workshop on Abusive Language Online",
-            "type": "workshop",
-            "aliases": ["Abusive Language Online"]
-        },
-        {
-            "title": "CALCS",
-            "name": "Workshop on Computational Approaches to Linguistic Code-Switching",
-            "type": "workshop",
-            "aliases": [
-                "Workshop on Computational Approaches to Code Switching"
-            ]
-        },
-        {
-            "title": "GeBNLP",
-            "name": "Workshop on Gender Bias in Natural Language Processing",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "W-NUT",
-            "name": "Workshop on Noisy User-generated Text",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "FEVER",
-            "name": "Workshop on Fact Extraction and Verification",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "NLP4IF",
-            "name": "Workshop on NLP for Internet Freedom",
-            "type": "workshop",
-            "aliases": ["NLP for Internet Freedom"]
-        },
-        {
-            "title": "NLP+CSS",
-            "name": "Workshop on NLP and Computational Social Science",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "BEA",
-            "name": "Workshop on Innovative Use of NLP for Building Educational Applications",
-            "type": "workshop",
-            "aliases": [
-                "Innovative Use of NLP for Building Educational Applications"
-            ]
-        },
-        {
-            "title": "SIGDIAL",
-            "name": "Special Interest Group on Discourse and Dialogue",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "SIGIR",
-            "name": "ACM SIGIR Conference on Research and Development in Information Retrieval",
-            "type": "conference",
-            "aliases": ["Special Interest Group on Information Retrieval"]
-        },
-        {
-            "title": "Depling",
-            "name": "International Conference on Dependency Linguistics",
-            "type": "conference",
-            "aliases": ["Conference on Dependency Linguistics"]
-        },
-        {
-            "title": "ICWSM",
-            "name": "International AAAI Conference on Web and Social Media",
-            "type": "conference",
-            "aliases": ["International Conference on Web and Social Media"]
-        },
-        {
-            "title": "FIRE",
-            "name": "Forum for Information Retrieval Evaluation",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICDAR",
-            "name": "International Conference on Document Analysis and Recognition",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICDARW",
-            "name": "International Conference on Document Analysis and Recognition Workshops",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "EAMT",
-            "name": "European Association for Machine Translation",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "MT Summit",
-            "name": "Machine Translation Summit",
-            "type": "conference",
-            "aliases": ["Machine Translation Summit XII"]
-        },
-        {
-            "title": "EDUCON",
-            "name": "IEEE Global Engineering Education Conference",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ACIT",
-            "name": "International Arab Conference on Information Technology",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "loreslm",
-            "name": "Workshop on Language Models for Low-Resource Languages",
-            "type": "workshop",
-            "aliases": ["Language Models for Low-Resource Languages"]
-        },
-        {
-            "title": "TACL",
-            "name": "Transactions of the Association for Computational Linguistics",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "TALLIP",
-            "name": "ACM Transactions on Asian and Low-Resource Language Information Processing",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "JAIR",
-            "name": "Journal of Artificial Intelligence Research",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "JMLR",
-            "name": "Journal of Machine Learning Research",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "PMLR",
-            "name": "Proceedings of Machine Learning Research",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "NLE",
-            "name": "Natural Language Engineering",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "Data in Brief",
-            "name": "Data in Brief",
-            "type": "journal",
-            "aliases": ["Data Brief"]
-        },
-        {
-            "title": "IEEE Access",
-            "name": "IEEE Access",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "PLOS ONE",
-            "name": "PLOS ONE",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "PeerJ Comput. Sci.",
-            "name": "PeerJ Computer Science",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "Appl. Sci.",
-            "name": "Applied Sciences",
-            "type": "journal",
-            "aliases": ["Applied Sciences Journal"]
-        },
-        {
-            "title": "NCAA",
-            "name": "Neural Computing and Applications",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "JKSU",
-            "name": "Journal of King Saud University",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "IJACSA",
-            "name": "International Journal of Advanced Computer Science and Applications",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "JIS",
-            "name": "Journal of Information Science",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "IAJIT",
-            "name": "The International Arab Journal of Information Technology",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "IJDAR",
-            "name": "International Journal on Document Analysis and Recognition",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "OSNEM",
-            "name": "Online Social Networks and Media",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "arXiv",
-            "name": "arXiv",
-            "type": "preprint",
-            "aliases": ["arxiv preprint", "viXra"]
-        },
-        {
-            "title": "ENLSP",
-            "name": "Efficient Natural Language and Speech Processing",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "WAT",
-            "name": "Workshop on Asian Translation",
-            "type": "workshop",
-            "aliases": ["Workshop on Asian Translation (WAT)"]
-        },
-        {
-            "title": "EIJ",
-            "name": "Egyptian Informatics Journal",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "EDiS",
-            "name": "International Conference on Signal, Image and Data Engineering",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "PJACNS",
-            "name": "The Polish Journal of the Arts and Culture. New Series",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "AbjadNLP",
-            "name": "Workshop on NLP for Languages Using Arabic Script",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "ESOLEC",
-            "name": "International Conference on Language Engineering",
-            "type": "conference",
-            "aliases": [
-                "7th international conference on language engineering, Cairo, Egypt"
-            ]
-        },
-        {
-            "title": "SENSET",
-            "name": "Sensors Networks Smart and Emerging Technologies",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ITS",
-            "name": "IEEE Transactions on Intelligent Transportation Systems",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "AIRS",
-            "name": "Asia Information Retrieval Societies Conference",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "AIxIA",
-            "name": "International Conference of the Italian Association for Artificial Intelligence",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "AMLTA",
-            "name": "International Conference on Advanced Machine Learning Technologies and Applications",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ASONAM",
-            "name": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "BUCC",
-            "name": "Workshop on Building and Using Comparable Corpora",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "CAMP",
-            "name": "International Conference on Information Retrieval and Knowledge Management",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "CBI",
-            "name": "International Conference of Business Intelligence",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "CCIS",
-            "name": "Communications in Computer and Information Science",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "CHR",
-            "name": "Computational Humanities Research",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "CSCI",
-            "name": "International Conference on Computational Science and Computational Intelligence",
-            "type": "conference",
-            "aliases": ["Computer Science journal"]
-        },
-        {
-            "title": "CSIT",
-            "name": "International Conference on Computer Science and Information Technologies",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "Cognitive Computation",
-            "name": "Cognitive Computation",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "Computación y Sistemas",
-            "name": "Computación y Sistemas",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "Corpora",
-            "name": "Corpora",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "Data",
-            "name": "Data",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "EAAI",
-            "name": "Engineering Applications of Artificial Intelligence",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "EAIT",
-            "name": "Education and Information Technologies",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "Expert Systems",
-            "name": "Expert Systems",
-            "type": "journal",
-            "aliases": ["Expert Systems published by John Wiley & Sons Ltd"]
-        },
-        {
-            "title": "FiCloud",
-            "name": "International Conference on Future Internet of Things and Cloud",
-            "type": "conference",
-            "aliases": ["Conference on Future Internet of Things and Cloud"]
-        },
-        {
-            "title": "Frontiers in Artificial Intelligence",
-            "name": "Frontiers in Artificial Intelligence",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "GEM",
-            "name": "Workshop on Generation, Evaluation and Metrics",
-            "type": "workshop",
-            "aliases": ["Generation Evaluation and Metrics"]
-        },
-        {
-            "title": "IC3K",
-            "name": "International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
-            "type": "conference",
-            "aliases": [
-                "Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management"
-            ]
-        },
-        {
-            "title": "ICAART",
-            "name": "International Conference on Agents and Artificial Intelligence",
-            "type": "conference",
-            "aliases": ["Conference on Agents and Artificial Intelligence"]
-        },
-        {
-            "title": "ICAISC",
-            "name": "International Conference on Advanced Innovations in Smart Cities",
-            "type": "conference",
-            "aliases": [
-                "2023 1st International Conference on Advanced Innovations in Smart Cities"
-            ]
-        },
-        {
-            "title": "ICALP",
-            "name": "Arabic Language Processing: From Theory to Practice",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICANN",
-            "name": "International Conference on Artificial Neural Networks",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICCAIS",
-            "name": "International Conference on Computer Applications & Information Security",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICCCEEE",
-            "name": "International Conference on Computer, Control, Electrical, and Electronics Engineering",
-            "type": "conference",
-            "aliases": [
-                "2020 International Conference on Computer, Control, Electrical, and Electronics Engineering",
-                "International Conference on Computer, Control, Electrical, and Electronics Engineering 2018"
-            ]
-        },
-        {
-            "title": "ICCCI",
-            "name": "International Conference on Computational Collective Intelligence",
-            "type": "conference",
-            "aliases": [
-                "international scientific conference for research in the field of Computational Collective Intelligence"
-            ]
-        },
-        {
-            "title": "ICCIS",
-            "name": "International Conference on Computer and Information Sciences",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICCKE",
-            "name": "International Conference on Computer and Knowledge Engineering",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICCSAITCS",
-            "name": "International Conference on Cyber Security, Artificial Intelligence and Theoretical Computer Science",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICECCE",
-            "name": "International Conference on Electrical, Communication and Computer Engineering",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICECCME",
-            "name": "International Conference on Electrical, Computer, Communications and Mechatronics Engineering",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICICoS",
-            "name": "IEEE International Conference on Intelligent Computing and Systems",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICIHT",
-            "name": "International Conference on Informatics, Health & Technology",
-            "type": "conference",
-            "aliases": [
-                "Proceeding of International Conference on Informatics, Health & Technology"
-            ]
-        },
-        {
-            "title": "IDEAS",
-            "name": "International Conference on Intelligent Data Engineering and Automated Systems",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "IEA/AIE",
-            "name": "International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "IEEE BigData",
-            "name": "IEEE International Conference on Big Data",
-            "type": "conference",
-            "aliases": ["IEEE International Conference on Big Data (Big Data)"]
-        },
-        {
-            "title": "IEEE FG",
-            "name": "IEEE International Conference on Automatic Face and Gesture Recognition",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "IJASAT",
-            "name": "International Journal on Islamic Applications in Computer Science And Technologies",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "IJCA",
-            "name": "International Journal of Computer Applications",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "IJCDS",
-            "name": "International Journal of Computing and Digital Systems",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "IJCI",
-            "name": "Iraqi Journal of Computer and Informatics",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "IJECE",
-            "name": "International Journal of Electrical and Computer Engineering",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "IJITCS",
-            "name": "International Journal of Information Technology and Computer Science",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "IJST",
-            "name": "International Journal of Speech Technology",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "INCoS",
-            "name": "International Conference on Intelligent Networking and Collaborative Systems",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "INLP",
-            "name": "Intelligent Natural Language Processing: Trends and Applications",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "PICICT",
-            "name": "Palestinian International Conference on Information and Communication Technology",
-            "type": "conference",
-            "aliases": ["IPICICT"]
-        },
-        {
-            "title": "IRJ",
-            "name": "Information Retrieval Journal",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "ISCKU",
-            "name": "International Scientific Conference of Alkafeel University",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ITCE",
-            "name": "International Conference on Innovative Trends in Communication and Computer Engineering",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "Information Sciences",
-            "name": "Information Sciences",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "Inteligencia Artificial",
-            "name": "Inteligencia Artificial",
-            "type": "journal",
-            "aliases": ["Inteligencia Artifical"]
-        },
-        {
-            "title": "IntelliSys",
-            "name": "Intelligent Systems Conference",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "JASIST",
-            "name": "Journal of the Association for Information Science and Technology",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "JEA",
-            "name": "Journal of Umm Al-Qura University for Engineering and Architecture",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "JES",
-            "name": "Journal of Engineering Sciences",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "LDK",
-            "name": "Language, Data and Knowledge Conference",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "LT4DH",
-            "name": "Workshop on Language Technology Resources and Tools for Digital Humanities",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "MEDI",
-            "name": "International Conference on Model and Data Engineering",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "NL4DH",
-            "name": "International Conference on Natural Language Processing for Digital Humanities",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "NLP",
-            "name": "Natural Language Processing",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "NLP4PI",
-            "name": "Workshop on NLP for Positive Impact",
-            "type": "workshop",
-            "aliases": ["NLP for Positive Impact"]
-        },
-        {
-            "title": "Nakba-NLP",
-            "name": "Nakba Narratives as Language Resources",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "PSBS",
-            "name": "Procedia Social and Behavioral Sciences",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "Pattern Recognition",
-            "name": "Pattern Recognition",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "RDSM",
-            "name": "International Workshop on Rumours and Deception in Social Media",
-            "type": "workshop",
-            "aliases": []
-        },
-        {
-            "title": "ResearchGate",
-            "name": "ResearchGate",
-            "type": "preprint",
-            "aliases": []
-        },
-        {
-            "title": "SCA",
-            "name": "Smart City Applications International Conference",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "SIGDAT",
-            "name": "Special Interest Group on Linguistic data and corpus-based approaches to NLP",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "SN Computer Science",
-            "name": "SN Computer Science",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "STJITMO",
-            "name": "Scientific and Technical Journal of Information Technologies, Mechanics and Optics",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "WCECS",
-            "name": "World Congress on Engineering and Computer Science",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "WISE",
-            "name": "Web Information Systems Engineering",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "LT-EDI",
-            "name": "Workshop on Language Technology for Equality, Diversity and Inclusion",
-            "type": "workshop",
-            "aliases": ["ltedi"]
-        },
-        {
-            "title": "NLP-KE",
-            "name": "International Conference on Natural Language Processing and Knowledge Engineering",
-            "type": "conference",
-            "aliases": [
-                "IEEE International Conference on Natural Language Processing"
-            ]
-        },
-        {
-            "title": "CITALA",
-            "name": "International Conference on Arabic Language Processing",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "ICMLA",
-            "name": "International Conference on Machine Learning and Applications",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "NAACL-HLT",
-            "name": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
-            "type": "conference",
-            "aliases": []
-        },
-        {
-            "title": "AICSP",
-            "name": "Analog Integrated Circuits and Signal Processing",
-            "type": "journal",
-            "aliases": []
-        },
-        {
-            "title": "OSFPreprints",
-            "name": "OSFPreprints",
-            "type": "preprint",
-            "aliases": []
-        },
-        {
-            "title": "",
-            "name": "",
-            "type": "other",
-            "aliases": []
-        },
-        {
-            "title": "other",
-            "name": "",
-            "type": "preprint",
-            "aliases": []
-        }
-    ]
+    "ACL": {
+        "name": "Annual Meeting of the Association for Computational Linguistics",
+        "type": "conference",
+        "aliases": [
+            "Association for Computational Linguistics",
+            "Associations of computation linguistics",
+            "Assofications of computation linguisitcs",
+            "Association of Computational Linguistics",
+            "Association of Computation Linguistics",
+            "Association of Computation Linguisicts",
+            "61st Annual Meeting of the Association for Computational Linguistics"
+        ]
+    },
+    "Findings of ACL": {
+        "name": "Findings of the Association for Computational Linguistics",
+        "type": "conference",
+        "aliases": [
+            "Findings of Associations of Computation Linguistics",
+            "Findings of Associations of computation linguistics"
+        ]
+    },
+    "EMNLP": {
+        "name": "Conference on Empirical Methods in Natural Language Processing",
+        "type": "conference",
+        "aliases": [
+            "Empirical Methods in Natural Language Processing",
+            "Empirical Methods in Natural Language Processing Conference"
+        ]
+    },
+    "Findings of EMNLP": {
+        "name": "Findings of the Conference on Empirical Methods in Natural Language Processing",
+        "type": "conference",
+        "aliases": [
+            "findings of Conference on Empirical Methods in Natural Language Processing"
+        ]
+    },
+    "LREC": {
+        "name": "International Conference on Language Resources and Evaluation",
+        "type": "conference",
+        "aliases": [
+            "Language Resources and Evaluation Conference",
+            "Language Resources Evaluation Conference",
+            "Language and Resources Evaluation Conference",
+            "Langauge and Resources Evaluation Conference",
+            "Language Resource and Evaluation Conference",
+            "Language Resources and Evaluation Conference (LREC)"
+        ]
+    },
+    "LREC-COLING": {
+        "name": "Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
+        "type": "conference",
+        "aliases": []
+    },
+    "LRE": {
+        "name": "Language Resources and Evaluation",
+        "type": "journal",
+        "aliases": [
+            "Language Resource and Evaluation",
+            "Language Resources & Evaluation"
+        ]
+    },
+    "COLING": {
+        "name": "International Conference on Computational Linguistics",
+        "type": "conference",
+        "aliases": ["Conference on Computational Linguistics"]
+    },
+    "WANLP": {
+        "name": "Arabic Natural Language Processing Workshop",
+        "type": "workshop",
+        "aliases": [
+            "Workshop on Arabic Natural Language Processing",
+            "Arabic Natural Language Processing",
+            "The Third Arabic Natural Language Processing Workshop",
+            "The Sixth Arabic Natural Language Processing Workshop"
+        ]
+    },
+    "ArabicNLP": {
+        "name": "Arabic Natural Language Processing Conference",
+        "type": "conference",
+        "aliases": [
+            "The First Arabic Natural Language Processing Conference",
+            "First Arabic Natural Language Processing Conference"
+        ]
+    },
+    "WACL": {
+        "name": "Workshop on Arabic Corpus Linguistics",
+        "type": "workshop",
+        "aliases": []
+    },
+    "OSACT": {
+        "name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
+        "type": "workshop",
+        "aliases": [
+            "Open-Source Arabic Corpora and Processing Tools",
+            "The 6th Workshop on Open-Source Arabic Corpora and Processing Tools"
+        ]
+    },
+    "SemEval": {
+        "name": "International Workshop on Semantic Evaluation",
+        "type": "workshop",
+        "aliases": ["Semantic Evaluation"]
+    },
+    "EACL": {
+        "name": "Conference of the European Chapter of the Association for Computational Linguistics",
+        "type": "conference",
+        "aliases": [
+            "European Chapter of the Association for Computational Linguistics",
+            "The 18th Conference of the European Chapter of the Association for Computational Linguistics"
+        ]
+    },
+    "Findings of EACL": {
+        "name": "Findings of the European Chapter of the Association for Computational Linguistics",
+        "type": "conference",
+        "aliases": ["EACL Findings"]
+    },
+    "NAACL": {
+        "name": "Conference of the North American Chapter of the Association for Computational Linguistics",
+        "type": "conference",
+        "aliases": [
+            "North American Chapter of the Association for Computational Linguistics",
+            "North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+            "Nations of the Americas Chapter of the Association for Computational Linguistics",
+            "Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics",
+            "NACCL"
+        ]
+    },
+    "AACL": {
+        "name": "Asia-Pacific Chapter of the Association for Computational Linguistics",
+        "type": "conference",
+        "aliases": []
+    },
+    "RANLP": {
+        "name": "Recent Advances in Natural Language Processing",
+        "type": "conference",
+        "aliases": []
+    },
+    "Interspeech": {
+        "name": "Conference of the International Speech Communication Association",
+        "type": "conference",
+        "aliases": ["Interspeech", "Interspeech Conference"]
+    },
+    "NeurIPS": {
+        "name": "Conference on Neural Information Processing Systems",
+        "type": "conference",
+        "aliases": ["Neural Information Processing Systems"]
+    },
+    "ICLR": {
+        "name": "International Conference on Learning Representations",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICML": {
+        "name": "International Conference on Machine Learning",
+        "type": "conference",
+        "aliases": []
+    },
+    "COLM": {
+        "name": "Conference on Language Modeling",
+        "type": "conference",
+        "aliases": []
+    },
+    "AAAI": {
+        "name": "AAAI Conference on Artificial Intelligence",
+        "type": "conference",
+        "aliases": [
+            "Association for the Advancement of Artificial Intelligence"
+        ]
+    },
+    "CLEF": {
+        "name": "Conference and Labs of the Evaluation Forum",
+        "type": "conference",
+        "aliases": [
+            "International Conference of the Cross-Language Evaluation Forum for European Languages"
+        ]
+    },
+    "AICCSA": {
+        "name": "International Conference on Computer Systems and Applications",
+        "type": "conference",
+        "aliases": []
+    },
+    "ASRU": {
+        "name": "IEEE Automatic Speech Recognition and Understanding Workshop",
+        "type": "workshop",
+        "aliases": []
+    },
+    "ICASSP": {
+        "name": "International Conference on Acoustics, Speech and Signal Processing",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICNLSP": {
+        "name": "International Conference on Natural Language and Speech Processing",
+        "type": "conference",
+        "aliases": []
+    },
+    "ACLing": {
+        "name": "International Conference on AI in Computational Linguistics",
+        "type": "conference",
+        "aliases": [
+            "International Conference on Arabic Computational Linguistics"
+        ]
+    },
+    "CICLing": {
+        "name": "International Conference on Computational Linguistics and Intelligent Text Processing",
+        "type": "conference",
+        "aliases": []
+    },
+    "PACLIC": {
+        "name": "Pacific Asia Conference on Language, Information and Computation",
+        "type": "conference",
+        "aliases": []
+    },
+    "CoNLL": {
+        "name": "Conference on Computational Natural Language Learning",
+        "type": "conference",
+        "aliases": []
+    },
+    "IALP": {
+        "name": "International Conference on Asian Language Processing",
+        "type": "conference",
+        "aliases": []
+    },
+    "IJCNLP": {
+        "name": "International Joint Conference on Natural Language Processing",
+        "type": "conference",
+        "aliases": []
+    },
+    "IWSLT": {
+        "name": "International Workshop on Spoken Language Translation",
+        "type": "workshop",
+        "aliases": []
+    },
+    "ALW": {
+        "name": "Workshop on Abusive Language Online",
+        "type": "workshop",
+        "aliases": ["Abusive Language Online"]
+    },
+    "CALCS": {
+        "name": "Workshop on Computational Approaches to Linguistic Code-Switching",
+        "type": "workshop",
+        "aliases": ["Workshop on Computational Approaches to Code Switching"]
+    },
+    "GeBNLP": {
+        "name": "Workshop on Gender Bias in Natural Language Processing",
+        "type": "workshop",
+        "aliases": []
+    },
+    "W-NUT": {
+        "name": "Workshop on Noisy User-generated Text",
+        "type": "workshop",
+        "aliases": []
+    },
+    "FEVER": {
+        "name": "Workshop on Fact Extraction and Verification",
+        "type": "workshop",
+        "aliases": []
+    },
+    "NLP4IF": {
+        "name": "Workshop on NLP for Internet Freedom",
+        "type": "workshop",
+        "aliases": ["NLP for Internet Freedom"]
+    },
+    "NLP+CSS": {
+        "name": "Workshop on NLP and Computational Social Science",
+        "type": "workshop",
+        "aliases": []
+    },
+    "BEA": {
+        "name": "Workshop on Innovative Use of NLP for Building Educational Applications",
+        "type": "workshop",
+        "aliases": [
+            "Innovative Use of NLP for Building Educational Applications"
+        ]
+    },
+    "SIGDIAL": {
+        "name": "Special Interest Group on Discourse and Dialogue",
+        "type": "conference",
+        "aliases": []
+    },
+    "SIGIR": {
+        "name": "ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "type": "conference",
+        "aliases": ["Special Interest Group on Information Retrieval"]
+    },
+    "Depling": {
+        "name": "International Conference on Dependency Linguistics",
+        "type": "conference",
+        "aliases": ["Conference on Dependency Linguistics"]
+    },
+    "ICWSM": {
+        "name": "International AAAI Conference on Web and Social Media",
+        "type": "conference",
+        "aliases": ["International Conference on Web and Social Media"]
+    },
+    "FIRE": {
+        "name": "Forum for Information Retrieval Evaluation",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICDAR": {
+        "name": "International Conference on Document Analysis and Recognition",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICDARW": {
+        "name": "International Conference on Document Analysis and Recognition Workshops",
+        "type": "workshop",
+        "aliases": []
+    },
+    "EAMT": {
+        "name": "European Association for Machine Translation",
+        "type": "conference",
+        "aliases": []
+    },
+    "MT Summit": {
+        "name": "Machine Translation Summit",
+        "type": "conference",
+        "aliases": ["Machine Translation Summit XII"]
+    },
+    "EDUCON": {
+        "name": "IEEE Global Engineering Education Conference",
+        "type": "conference",
+        "aliases": []
+    },
+    "ACIT": {
+        "name": "International Arab Conference on Information Technology",
+        "type": "conference",
+        "aliases": []
+    },
+    "loreslm": {
+        "name": "Workshop on Language Models for Low-Resource Languages",
+        "type": "workshop",
+        "aliases": ["Language Models for Low-Resource Languages"]
+    },
+    "TACL": {
+        "name": "Transactions of the Association for Computational Linguistics",
+        "type": "journal",
+        "aliases": []
+    },
+    "TALLIP": {
+        "name": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+        "type": "journal",
+        "aliases": []
+    },
+    "JAIR": {
+        "name": "Journal of Artificial Intelligence Research",
+        "type": "journal",
+        "aliases": []
+    },
+    "JMLR": {
+        "name": "Journal of Machine Learning Research",
+        "type": "journal",
+        "aliases": []
+    },
+    "PMLR": {
+        "name": "Proceedings of Machine Learning Research",
+        "type": "journal",
+        "aliases": []
+    },
+    "NLE": {
+        "name": "Natural Language Engineering",
+        "type": "journal",
+        "aliases": []
+    },
+    "Data in Brief": {
+        "name": "Data in Brief",
+        "type": "journal",
+        "aliases": ["Data Brief"]
+    },
+    "IEEE Access": {
+        "name": "IEEE Access",
+        "type": "journal",
+        "aliases": []
+    },
+    "PLOS ONE": {
+        "name": "PLOS ONE",
+        "type": "journal",
+        "aliases": []
+    },
+    "PeerJ Comput. Sci.": {
+        "name": "PeerJ Computer Science",
+        "type": "journal",
+        "aliases": []
+    },
+    "Appl. Sci.": {
+        "name": "Applied Sciences",
+        "type": "journal",
+        "aliases": ["Applied Sciences Journal"]
+    },
+    "NCAA": {
+        "name": "Neural Computing and Applications",
+        "type": "journal",
+        "aliases": []
+    },
+    "JKSU": {
+        "name": "Journal of King Saud University",
+        "type": "journal",
+        "aliases": []
+    },
+    "IJACSA": {
+        "name": "International Journal of Advanced Computer Science and Applications",
+        "type": "journal",
+        "aliases": []
+    },
+    "JIS": {
+        "name": "Journal of Information Science",
+        "type": "journal",
+        "aliases": []
+    },
+    "IAJIT": {
+        "name": "The International Arab Journal of Information Technology",
+        "type": "journal",
+        "aliases": []
+    },
+    "IJDAR": {
+        "name": "International Journal on Document Analysis and Recognition",
+        "type": "journal",
+        "aliases": []
+    },
+    "OSNEM": {
+        "name": "Online Social Networks and Media",
+        "type": "journal",
+        "aliases": []
+    },
+    "arXiv": {
+        "name": "arXiv",
+        "type": "preprint",
+        "aliases": ["arxiv preprint", "viXra"]
+    },
+    "ENLSP": {
+        "name": "Efficient Natural Language and Speech Processing",
+        "type": "conference",
+        "aliases": []
+    },
+    "WAT": {
+        "name": "Workshop on Asian Translation",
+        "type": "workshop",
+        "aliases": ["Workshop on Asian Translation (WAT)"]
+    },
+    "EIJ": {
+        "name": "Egyptian Informatics Journal",
+        "type": "journal",
+        "aliases": []
+    },
+    "EDiS": {
+        "name": "International Conference on Signal, Image and Data Engineering",
+        "type": "conference",
+        "aliases": []
+    },
+    "PJACNS": {
+        "name": "The Polish Journal of the Arts and Culture. New Series",
+        "type": "journal",
+        "aliases": []
+    },
+    "AbjadNLP": {
+        "name": "Workshop on NLP for Languages Using Arabic Script",
+        "type": "workshop",
+        "aliases": []
+    },
+    "ESOLEC": {
+        "name": "International Conference on Language Engineering",
+        "type": "conference",
+        "aliases": [
+            "7th international conference on language engineering, Cairo, Egypt"
+        ]
+    },
+    "SENSET": {
+        "name": "Sensors Networks Smart and Emerging Technologies",
+        "type": "conference",
+        "aliases": []
+    },
+    "ITS": {
+        "name": "IEEE Transactions on Intelligent Transportation Systems",
+        "type": "journal",
+        "aliases": []
+    },
+    "AIRS": {
+        "name": "Asia Information Retrieval Societies Conference",
+        "type": "conference",
+        "aliases": []
+    },
+    "AIxIA": {
+        "name": "International Conference of the Italian Association for Artificial Intelligence",
+        "type": "conference",
+        "aliases": []
+    },
+    "AMLTA": {
+        "name": "International Conference on Advanced Machine Learning Technologies and Applications",
+        "type": "conference",
+        "aliases": []
+    },
+    "ASONAM": {
+        "name": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
+        "type": "conference",
+        "aliases": []
+    },
+    "BUCC": {
+        "name": "Workshop on Building and Using Comparable Corpora",
+        "type": "workshop",
+        "aliases": []
+    },
+    "CAMP": {
+        "name": "International Conference on Information Retrieval and Knowledge Management",
+        "type": "conference",
+        "aliases": []
+    },
+    "CBI": {
+        "name": "International Conference of Business Intelligence",
+        "type": "conference",
+        "aliases": []
+    },
+    "CCIS": {
+        "name": "Communications in Computer and Information Science",
+        "type": "journal",
+        "aliases": []
+    },
+    "CHR": {
+        "name": "Computational Humanities Research",
+        "type": "conference",
+        "aliases": []
+    },
+    "CSCI": {
+        "name": "International Conference on Computational Science and Computational Intelligence",
+        "type": "conference",
+        "aliases": ["Computer Science journal"]
+    },
+    "CSIT": {
+        "name": "International Conference on Computer Science and Information Technologies",
+        "type": "conference",
+        "aliases": []
+    },
+    "Cognitive Computation": {
+        "name": "Cognitive Computation",
+        "type": "journal",
+        "aliases": []
+    },
+    "Computación y Sistemas": {
+        "name": "Computación y Sistemas",
+        "type": "journal",
+        "aliases": []
+    },
+    "Corpora": {
+        "name": "Corpora",
+        "type": "journal",
+        "aliases": []
+    },
+    "Data": {
+        "name": "Data",
+        "type": "journal",
+        "aliases": []
+    },
+    "EAAI": {
+        "name": "Engineering Applications of Artificial Intelligence",
+        "type": "journal",
+        "aliases": []
+    },
+    "EAIT": {
+        "name": "Education and Information Technologies",
+        "type": "journal",
+        "aliases": []
+    },
+    "Expert Systems": {
+        "name": "Expert Systems",
+        "type": "journal",
+        "aliases": ["Expert Systems published by John Wiley & Sons Ltd"]
+    },
+    "FiCloud": {
+        "name": "International Conference on Future Internet of Things and Cloud",
+        "type": "conference",
+        "aliases": ["Conference on Future Internet of Things and Cloud"]
+    },
+    "Frontiers in Artificial Intelligence": {
+        "name": "Frontiers in Artificial Intelligence",
+        "type": "journal",
+        "aliases": []
+    },
+    "GEM": {
+        "name": "Workshop on Generation, Evaluation and Metrics",
+        "type": "workshop",
+        "aliases": ["Generation Evaluation and Metrics"]
+    },
+    "IC3K": {
+        "name": "International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
+        "type": "conference",
+        "aliases": [
+            "Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management"
+        ]
+    },
+    "ICAART": {
+        "name": "International Conference on Agents and Artificial Intelligence",
+        "type": "conference",
+        "aliases": ["Conference on Agents and Artificial Intelligence"]
+    },
+    "ICAISC": {
+        "name": "International Conference on Advanced Innovations in Smart Cities",
+        "type": "conference",
+        "aliases": [
+            "2023 1st International Conference on Advanced Innovations in Smart Cities"
+        ]
+    },
+    "ICALP": {
+        "name": "Arabic Language Processing: From Theory to Practice",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICANN": {
+        "name": "International Conference on Artificial Neural Networks",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICCAIS": {
+        "name": "International Conference on Computer Applications & Information Security",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICCCEEE": {
+        "name": "International Conference on Computer, Control, Electrical, and Electronics Engineering",
+        "type": "conference",
+        "aliases": [
+            "2020 International Conference on Computer, Control, Electrical, and Electronics Engineering",
+            "International Conference on Computer, Control, Electrical, and Electronics Engineering 2018"
+        ]
+    },
+    "ICCCI": {
+        "name": "International Conference on Computational Collective Intelligence",
+        "type": "conference",
+        "aliases": [
+            "international scientific conference for research in the field of Computational Collective Intelligence"
+        ]
+    },
+    "ICCIS": {
+        "name": "International Conference on Computer and Information Sciences",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICCKE": {
+        "name": "International Conference on Computer and Knowledge Engineering",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICCSAITCS": {
+        "name": "International Conference on Cyber Security, Artificial Intelligence and Theoretical Computer Science",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICECCE": {
+        "name": "International Conference on Electrical, Communication and Computer Engineering",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICECCME": {
+        "name": "International Conference on Electrical, Computer, Communications and Mechatronics Engineering",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICICoS": {
+        "name": "IEEE International Conference on Intelligent Computing and Systems",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICIHT": {
+        "name": "International Conference on Informatics, Health & Technology",
+        "type": "conference",
+        "aliases": [
+            "Proceeding of International Conference on Informatics, Health & Technology"
+        ]
+    },
+    "IDEAS": {
+        "name": "International Conference on Intelligent Data Engineering and Automated Systems",
+        "type": "conference",
+        "aliases": []
+    },
+    "IEA/AIE": {
+        "name": "International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems",
+        "type": "conference",
+        "aliases": []
+    },
+    "IEEE BigData": {
+        "name": "IEEE International Conference on Big Data",
+        "type": "conference",
+        "aliases": ["IEEE International Conference on Big Data (Big Data)"]
+    },
+    "IEEE FG": {
+        "name": "IEEE International Conference on Automatic Face and Gesture Recognition",
+        "type": "conference",
+        "aliases": []
+    },
+    "IJASAT": {
+        "name": "International Journal on Islamic Applications in Computer Science And Technologies",
+        "type": "journal",
+        "aliases": []
+    },
+    "IJCA": {
+        "name": "International Journal of Computer Applications",
+        "type": "journal",
+        "aliases": []
+    },
+    "IJCDS": {
+        "name": "International Journal of Computing and Digital Systems",
+        "type": "journal",
+        "aliases": []
+    },
+    "IJCI": {
+        "name": "Iraqi Journal of Computer and Informatics",
+        "type": "journal",
+        "aliases": []
+    },
+    "IJECE": {
+        "name": "International Journal of Electrical and Computer Engineering",
+        "type": "journal",
+        "aliases": []
+    },
+    "IJITCS": {
+        "name": "International Journal of Information Technology and Computer Science",
+        "type": "journal",
+        "aliases": []
+    },
+    "IJST": {
+        "name": "International Journal of Speech Technology",
+        "type": "journal",
+        "aliases": []
+    },
+    "INCoS": {
+        "name": "International Conference on Intelligent Networking and Collaborative Systems",
+        "type": "conference",
+        "aliases": []
+    },
+    "INLP": {
+        "name": "Intelligent Natural Language Processing: Trends and Applications",
+        "type": "conference",
+        "aliases": []
+    },
+    "PICICT": {
+        "name": "Palestinian International Conference on Information and Communication Technology",
+        "type": "conference",
+        "aliases": ["IPICICT"]
+    },
+    "IRJ": {
+        "name": "Information Retrieval Journal",
+        "type": "journal",
+        "aliases": []
+    },
+    "ISCKU": {
+        "name": "International Scientific Conference of Alkafeel University",
+        "type": "conference",
+        "aliases": []
+    },
+    "ITCE": {
+        "name": "International Conference on Innovative Trends in Communication and Computer Engineering",
+        "type": "conference",
+        "aliases": []
+    },
+    "Information Sciences": {
+        "name": "Information Sciences",
+        "type": "journal",
+        "aliases": []
+    },
+    "Inteligencia Artificial": {
+        "name": "Inteligencia Artificial",
+        "type": "journal",
+        "aliases": ["Inteligencia Artifical"]
+    },
+    "IntelliSys": {
+        "name": "Intelligent Systems Conference",
+        "type": "conference",
+        "aliases": []
+    },
+    "JASIST": {
+        "name": "Journal of the Association for Information Science and Technology",
+        "type": "journal",
+        "aliases": []
+    },
+    "JEA": {
+        "name": "Journal of Umm Al-Qura University for Engineering and Architecture",
+        "type": "journal",
+        "aliases": []
+    },
+    "JES": {
+        "name": "Journal of Engineering Sciences",
+        "type": "journal",
+        "aliases": []
+    },
+    "LDK": {
+        "name": "Language, Data and Knowledge Conference",
+        "type": "conference",
+        "aliases": []
+    },
+    "LT4DH": {
+        "name": "Workshop on Language Technology Resources and Tools for Digital Humanities",
+        "type": "workshop",
+        "aliases": []
+    },
+    "MEDI": {
+        "name": "International Conference on Model and Data Engineering",
+        "type": "conference",
+        "aliases": []
+    },
+    "NL4DH": {
+        "name": "International Conference on Natural Language Processing for Digital Humanities",
+        "type": "workshop",
+        "aliases": []
+    },
+    "NLP": {
+        "name": "Natural Language Processing",
+        "type": "journal",
+        "aliases": []
+    },
+    "NLP4PI": {
+        "name": "Workshop on NLP for Positive Impact",
+        "type": "workshop",
+        "aliases": ["NLP for Positive Impact"]
+    },
+    "Nakba-NLP": {
+        "name": "Nakba Narratives as Language Resources",
+        "type": "workshop",
+        "aliases": []
+    },
+    "PSBS": {
+        "name": "Procedia Social and Behavioral Sciences",
+        "type": "journal",
+        "aliases": []
+    },
+    "Pattern Recognition": {
+        "name": "Pattern Recognition",
+        "type": "journal",
+        "aliases": []
+    },
+    "RDSM": {
+        "name": "International Workshop on Rumours and Deception in Social Media",
+        "type": "workshop",
+        "aliases": []
+    },
+    "ResearchGate": {
+        "name": "ResearchGate",
+        "type": "preprint",
+        "aliases": []
+    },
+    "SCA": {
+        "name": "Smart City Applications International Conference",
+        "type": "conference",
+        "aliases": []
+    },
+    "SIGDAT": {
+        "name": "Special Interest Group on Linguistic data and corpus-based approaches to NLP",
+        "type": "conference",
+        "aliases": []
+    },
+    "SN Computer Science": {
+        "name": "SN Computer Science",
+        "type": "journal",
+        "aliases": []
+    },
+    "STJITMO": {
+        "name": "Scientific and Technical Journal of Information Technologies, Mechanics and Optics",
+        "type": "journal",
+        "aliases": []
+    },
+    "WCECS": {
+        "name": "World Congress on Engineering and Computer Science",
+        "type": "conference",
+        "aliases": []
+    },
+    "WISE": {
+        "name": "Web Information Systems Engineering",
+        "type": "conference",
+        "aliases": []
+    },
+    "LT-EDI": {
+        "name": "Workshop on Language Technology for Equality, Diversity and Inclusion",
+        "type": "workshop",
+        "aliases": ["ltedi"]
+    },
+    "NLP-KE": {
+        "name": "International Conference on Natural Language Processing and Knowledge Engineering",
+        "type": "conference",
+        "aliases": [
+            "IEEE International Conference on Natural Language Processing"
+        ]
+    },
+    "CITALA": {
+        "name": "International Conference on Arabic Language Processing",
+        "type": "conference",
+        "aliases": []
+    },
+    "ICMLA": {
+        "name": "International Conference on Machine Learning and Applications",
+        "type": "conference",
+        "aliases": []
+    },
+    "NAACL-HLT": {
+        "name": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+        "type": "conference",
+        "aliases": []
+    },
+    "AICSP": {
+        "name": "Analog Integrated Circuits and Signal Processing",
+        "type": "journal",
+        "aliases": []
+    },
+    "OSFPreprints": {
+        "name": "OSFPreprints",
+        "type": "preprint",
+        "aliases": []
+    },
+    "": {
+        "name": "",
+        "type": "other",
+        "aliases": []
+    },
+    "other": {
+        "name": "",
+        "type": "preprint",
+        "aliases": []
+    },
+    "WOAH": {
+        "name": "Workshop on Online Abuse and Harms",
+        "type": "workshop",
+        "aliases": []
+    },
+    "MRQA": {
+        "name": "Workshop on Machine Reading for Question Answering",
+        "type": "workshop",
+        "aliases": []
+    },
+    "Louhi": {
+        "name": "Workshop on Health Text Mining and Information Analysis",
+        "type": "workshop",
+        "aliases": []
+    },
+    "EMNLP Demo": {
+        "name": "Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+        "type": "conference",
+        "aliases": []
+    },
+    "SDM": {
+        "name": "SIAM International Conference on Data Mining",
+        "type": "conference",
+        "aliases": []
+    },
+    "MIA": {
+        "name": "Workshop on Multilingual Information Access",
+        "type": "workshop",
+        "aliases": []
+    }
 }

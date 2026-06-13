@@ -25,7 +25,7 @@
         "Natural Questions"
     ],
     "Paper Title": "MKQA: A Linguistically Diverse Benchmark for\r\nMultilingual Open Domain Question Answering",
-    "Paper Link": "https://arxiv.org/pdf/2007.15207.pdf",
+    "Paper Link": "https://doi.org/10.1162/tacl_a_00433",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -35,9 +35,9 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "TACL",
+    "Venue Type": "journal",
+    "Venue Name": "Transactions of the Association for Computational Linguistics",
     "Authors": [
         "Shayne Longpre",
         "Yi Lu",

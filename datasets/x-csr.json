@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Common Sense Beyond English: Evaluating and Improving Multilingual Language Models for Commonsense Reasoning",
-    "Paper Link": "https://arxiv.org/pdf/2106.06937.pdf",
+    "Paper Link": "https://doi.org/10.18653/v1/2021.acl-long.102",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "other",
@@ -33,9 +33,9 @@
     "Tasks": [
         "commonsense reasoning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "IJCNLP",
+    "Venue Type": "conference",
+    "Venue Name": "International Joint Conference on Natural Language Processing",
     "Authors": [
         "Bill Yuchen Lin",
         "Seyeon Lee",

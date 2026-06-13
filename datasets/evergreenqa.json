@@ -27,7 +27,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Will It Still Be True Tomorrow? Multilingual Evergreen Question Classification to Improve Trustworthy QA",
-    "Paper Link": "https://arxiv.org/pdf/2505.21115",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.emnlp-main.434",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -37,9 +37,9 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Sergey Pletenev",
         "Maria Marina",

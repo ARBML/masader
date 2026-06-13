@@ -26,7 +26,7 @@
         "HumanEval"
     ],
     "Paper Title": "HumanEval-XL: A Multilingual Code Generation Benchmark for Cross-lingual Natural Language Generalization",
-    "Paper Link": "https://arxiv.org/pdf/2402.16694",
+    "Paper Link": "https://aclanthology.org/2024.lrec-main.735",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -36,9 +36,9 @@
     "Tasks": [
         "code generation"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "LREC-COLING",
+    "Venue Type": "conference",
+    "Venue Name": "Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
     "Authors": [
         "Qiwei Peng",
         "Yekun Chai",

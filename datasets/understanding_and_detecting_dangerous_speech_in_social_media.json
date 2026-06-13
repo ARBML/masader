@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Understanding and Detecting Dangerous Speech in Social Media",
-    "Paper Link": "https://arxiv.org/pdf/2005.06608.pdf",
+    "Paper Link": "https://aclanthology.org/2020.osact-1.6",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -33,9 +33,9 @@
     "Tasks": [
         "hate speech detection"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "OSACT",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
     "Authors": [
         "Ali Alshehri",
         "El Moatez Billah Nagoudi",

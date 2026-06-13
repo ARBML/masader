@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "CATT: Character-based Arabic Tashkeel Transformer",
-    "Paper Link": "https://arxiv.org/pdf/2407.03236",
+    "Paper Link": "https://doi.org/10.18653/v1/2024.arabicnlp-1.21",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -33,9 +33,9 @@
     "Tasks": [
         "diacritization"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Faris Alasmary",
         "Orjuwan Zaafarani",

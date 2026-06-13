@@ -60,7 +60,7 @@
     ],
     "Derived From": [],
     "Paper Title": "ARADICE: Benchmarks for Dialectal and Cultural Capabilities in LLMs",
-    "Paper Link": "https://arxiv.org/pdf/2409.11404",
+    "Paper Link": "https://aclanthology.org/2025.coling-main.283/",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -70,9 +70,9 @@
     "Tasks": [
         "multiple choice question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "COLING",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Computational Linguistics",
     "Authors": [
         "Basel Mousi",
         "Nadir Durrani",

@@ -128,28 +128,42 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": ["web pages", "public datasets"],
+    "Domain": [
+        "web pages",
+        "public datasets"
+    ],
     "Form": "text",
-    "Collection Style": ["crawling"],
+    "Collection Style": [
+        "crawling"
+    ],
     "Description": "Tarab is a large-scale Arabic creative-text corpus that unifies song lyrics and poetry in a single verse-level representation. It contains 2,557,311 verses and 13,509,336 tokens, spanning Classical Arabic, MSA, and six major regional dialect groups, and covering both modern countries and historical eras.",
     "Volume": 2557311.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": ["Vin University"],
-    "Derived From": ["Habibi Lyrics Corpus", "Arabic Poetry"],
+    "Provider": [
+        "Vin University"
+    ],
+    "Derived From": [
+        "Habibi Lyrics Corpus",
+        "Arabic Poetry"
+    ],
     "Paper Title": "Tarab: A Multi-Dialect Corpus of Arabic Lyrics and Poetry",
-    "Paper Link": "https://arxiv.org/pdf/2603.16601v1.pdf",
+    "Paper Link": "https://aclanthology.org/2026.abjadnlp-1.5",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
     "Test Split": false,
-    "Tasks": ["poetry analysis"],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
-    "Authors": ["Mo El-Haj"],
+    "Tasks": [
+        "poetry analysis"
+    ],
+    "Venue Title": "AbjadNLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on NLP for Languages Using Arabic Script",
+    "Authors": [
+        "Mo El-Haj"
+    ],
     "Affiliations": [],
     "Abstract": "We introduce the Tarab Corpus, a large-scale cultural and linguistic resource that brings together Arabic song lyrics and poetry within a unified analytical framework. The corpus comprises 2.56 million verses and more than 13.5 million tokens, making it, to our knowledge, the largest open Arabic corpus of creative texts spanning both classical and contemporary production. Tarab is broadly balanced between songs and poems and covers Classical Arabic, Modern Standard Arabic (MSA), and six major regional varieties: Egyptian, Gulf, Levantine, Iraqi, Sudanese, and Maghrebi Arabic. The artists and poets represented in the corpus are associated with 28 modern nation states and multiple historical eras, covering over fourteen centuries of Arabic creative expression from the Pre-Islamic period to the twenty-first century. Each verse is accompanied by structured metadata describing linguistic variety, geographic origin, and historical or cultural context, enabling comparative linguistic, stylistic, and diachronic analysis across genres and time. We describe the data collection, normalisation, and validation pipeline and present baseline analyses for variety identification and genre differentiation. The dataset is publicly available on HuggingFace at https://huggingface.co/datasets/drelhaj/Tarab.",
     "Added By": "Zaid Alyafeai"
