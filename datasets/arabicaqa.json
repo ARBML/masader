@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "ArabicaQA: A Comprehensive Dataset for Arabic Question",
-    "Paper Link": "https://arxiv.org/pdf/2403.17848v1.pdf",
+    "Paper Link": "https://doi.org/10.1145/3626772.3657889",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -33,9 +33,9 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "SIGIR",
+    "Venue Type": "conference",
+    "Venue Name": "ACM SIGIR Conference on Research and Development in Information Retrieval",
     "Authors": [
         "Abdelrahman Abdallah",
         "Mahmoud Kasem",

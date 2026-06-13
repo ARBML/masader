@@ -31,7 +31,7 @@
         "BiMediXv1"
     ],
     "Paper Title": "BiMediX2: Bio-Medical Expert LMM for Diverse Medical Modalities",
-    "Paper Link": "https://arxiv.org/pdf/2412.07769",
+    "Paper Link": "https://aclanthology.org/2025.findings-emnlp.756",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -41,9 +41,9 @@
     "Tasks": [
         "instruction tuning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Sahal Shaji Mullappilly",
         "Mohammed Irfan Kurpath",

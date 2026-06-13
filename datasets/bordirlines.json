@@ -26,7 +26,7 @@
         "BORDERLINES"
     ],
     "Paper Title": "Multilingual Retrieval Augmented Generation for Culturally-Sensitive Tasks: A Benchmark for Cross-lingual Robustness",
-    "Paper Link": "https://arxiv.org/pdf/2410.01171",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-acl.219",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -38,9 +38,9 @@
         "information retrieval",
         "retrieval-augmented generation"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Association for Computational Linguistics",
     "Authors": [
         "Bryan Li",
         "Fiona Luo",

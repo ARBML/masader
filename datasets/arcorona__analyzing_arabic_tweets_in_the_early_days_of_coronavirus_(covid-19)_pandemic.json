@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "ArCorona: Analyzing Arabic Tweets in the Early Days of Coronavirus (COVID-19) Pandemic",
-    "Paper Link": "https://arxiv.org/pdf/2012.01462",
+    "Paper Link": "https://www.aclweb.org/anthology/2021.louhi-1.1/",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "other",
@@ -33,9 +33,9 @@
     "Tasks": [
         "fact checking"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Louhi",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Health Text Mining and Information Analysis",
     "Authors": [
         "Hamdy Mubarak",
         "Sabit Hassan"
