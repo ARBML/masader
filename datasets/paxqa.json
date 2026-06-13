@@ -27,7 +27,7 @@
         "XORQA"
     ],
     "Paper Title": "PAXQA: Generating Cross-lingual Question Answering Examples at Training Scale",
-    "Paper Link": "https://arxiv.org/pdf/2304.12206",
+    "Paper Link": "https://doi.org/10.18653/v1/2023.findings-emnlp.32",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -37,9 +37,9 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Bryan Li",
         "Chris Callison-Burch"

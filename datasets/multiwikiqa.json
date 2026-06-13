@@ -24,7 +24,7 @@
     ],
     "Derived From": [],
     "Paper Title": "MultiWikiQA: A Reading Comprehension Benchmark in 300+ Languages",
-    "Paper Link": "https://arxiv.org/pdf/2509.04111",
+    "Paper Link": "https://lrec.elra.info/lrec2026-main-499",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -34,9 +34,9 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Dan Saattrup Nielsen"
     ],

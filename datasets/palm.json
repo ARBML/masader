@@ -163,7 +163,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs",
-    "Paper Link": "https://arxiv.org/pdf/2503.00151",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.acl-long.1579",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -173,9 +173,9 @@
     "Tasks": [
         "instruction tuning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
         "Fakhraddin Alwajih",
         "Abdellah El Mekki",

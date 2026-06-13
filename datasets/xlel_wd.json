@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Multilingual Event Linking to Wikidata",
-    "Paper Link": "https://arxiv.org/pdf/2204.06535.pdf",
+    "Paper Link": "https://aclanthology.org/2022.mia-1.5/",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -33,9 +33,9 @@
     "Tasks": [
         "event linking"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "MIA",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Multilingual Information Access",
     "Authors": [
         "Adithya Pratapa",
         "Rishubh Gupta",

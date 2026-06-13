@@ -28,7 +28,7 @@
         "Agent Security Benchmark"
     ],
     "Paper Title": "MAPS: A Multilingual Benchmark for Agent Performance and Security",
-    "Paper Link": "https://arxiv.org/pdf/2505.15935",
+    "Paper Link": "https://doi.org/10.18653/v1/2026.findings-eacl.42",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -38,9 +38,9 @@
     "Tasks": [
         "agentic AI evaluation"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of EACL",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the European Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Omer Hofman",
         "Oren Rachmil",

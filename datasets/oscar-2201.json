@@ -23,7 +23,7 @@
         "Common Crawl"
     ],
     "Paper Title": "Towards a Cleaner Document-Oriented Multilingual Crawled Corpus",
-    "Paper Link": "https://arxiv.org/pdf/2201.06642.pdf",
+    "Paper Link": "https://aclanthology.org/2022.lrec-1.463",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -33,9 +33,9 @@
     "Tasks": [
         "language modeling"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Julien Abadji",
         "Pedro Ortiz Suarez",

@@ -25,7 +25,7 @@
         "SLURP"
     ],
     "Paper Title": "MASSIVE: A 1M-Example Multilingual Natural Language Understanding Dataset with 51 Typologically-Diverse Languages",
-    "Paper Link": "https://arxiv.org/pdf/2204.08582",
+    "Paper Link": "https://doi.org/10.18653/v1/2023.acl-long.235",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -35,9 +35,9 @@
     "Tasks": [
         "intent detection"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
         "Jack FitzGerald",
         "Christopher Hench",

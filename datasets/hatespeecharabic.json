@@ -25,7 +25,7 @@
     ],
     "Derived From": [],
     "Paper Title": "An Annotated Corpus of Arabic Tweets for Hate Speech Analysis",
-    "Paper Link": "https://arxiv.org/pdf/2505.11969",
+    "Paper Link": "https://aclanthology.org/2025.ranlp-1.163/",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "zenodo",
@@ -35,9 +35,9 @@
     "Tasks": [
         "offensive language detection"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "RANLP",
+    "Venue Type": "conference",
+    "Venue Name": "Recent Advances in Natural Language Processing",
     "Authors": [
         "Wajdi Zaghouani",
         "Md. Rafiul Biswas"

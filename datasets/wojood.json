@@ -24,7 +24,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Wojood: Nested Arabic Named Entity Corpus and Recognition using BERT",
-    "Paper Link": "https://arxiv.org/pdf/2205.09651.pdf",
+    "Paper Link": "https://aclanthology.org/2022.lrec-1.387",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "other",
@@ -34,9 +34,9 @@
     "Tasks": [
         "named entity recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Mustafa Jarrar",
         "Mohammed Khalilia",

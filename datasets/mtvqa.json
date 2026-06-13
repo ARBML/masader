@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "MTVQA: Benchmarking Multilingual Text-Centric Visual Question Answering",
-    "Paper Link": "https://arxiv.org/pdf/2405.11985",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-acl.404",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -33,9 +33,9 @@
     "Tasks": [
         "image captioning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Association for Computational Linguistics",
     "Authors": [
         "Jingqun Tang",
         "Qi Liu",

@@ -25,7 +25,7 @@
         "ML-WiC"
     ],
     "Paper Title": "Simplifications are Absolutists: How Simplified Language Reduces Word Sense Awareness in LLM-Generated Definitions",
-    "Paper Link": "https://arxiv.org/pdf/2507.11981",
+    "Paper Link": "https://aclanthology.org/2025.ranlp-1.42/",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -35,9 +35,9 @@
     "Tasks": [
         "word sense disambiguation"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "RANLP",
+    "Venue Type": "conference",
+    "Venue Name": "Recent Advances in Natural Language Processing",
     "Authors": [
         "Lukas Ellinger",
         "Miriam Anschütz",

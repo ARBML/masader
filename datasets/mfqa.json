@@ -25,7 +25,7 @@
         "Common Crawl"
     ],
     "Paper Title": "MFAQ: a Multilingual FAQ Dataset",
-    "Paper Link": "https://arxiv.org/pdf/2109.12870.pdf",
+    "Paper Link": "https://aclanthology.org/2021.mrqa-1.1",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -35,9 +35,9 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "MRQA",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Machine Reading for Question Answering",
     "Authors": [
         "Maxime De Bruyn",
         "Ehsan Lotfi",

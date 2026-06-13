@@ -25,7 +25,7 @@
     ],
     "Derived From": [],
     "Paper Title": "Linear Cross-Lingual Mapping of Sentence Embeddings",
-    "Paper Link": "https://arxiv.org/pdf/2305.14256",
+    "Paper Link": "https://doi.org/10.18653/v1/2024.findings-acl.486",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -36,9 +36,9 @@
         "cross-lingual information retrieval",
         "language modeling"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Association for Computational Linguistics",
     "Authors": [
         "Oleg Vasilyev",
         "Fumika Isono",

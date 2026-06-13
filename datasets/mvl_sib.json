@@ -27,7 +27,7 @@
         "Flores"
     ],
     "Paper Title": "MVL-SIB: A Massively Multilingual Vision-Language Benchmark for Cross-Modal Topical Matching",
-    "Paper Link": "https://arxiv.org/pdf/2502.12852",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-acl.838",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -37,9 +37,9 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Association for Computational Linguistics",
     "Authors": [
         "Fabian David Schmidt",
         "Florian Schneider",

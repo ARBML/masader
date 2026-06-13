@@ -25,7 +25,7 @@
         "TYDIQA"
     ],
     "Paper Title": "XOR QA: Cross-lingual Open-Retrieval Question Answering",
-    "Paper Link": "https://arxiv.org/pdf/2010.11856.pdf",
+    "Paper Link": "https://doi.org/10.18653/v1/2021.naacl-main.46",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "other",
@@ -35,9 +35,9 @@
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "NAACL-HLT",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
     "Authors": [
         "Akari Asai",
         "Jungo Kasai",

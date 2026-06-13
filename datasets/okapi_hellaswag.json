@@ -26,7 +26,7 @@
         "Hellaswag"
     ],
     "Paper Title": "Okapi: Instruction-tuned Large Language Models in Multiple Languages with Reinforcement Learning from Human Feedback",
-    "Paper Link": "https://arxiv.org/pdf/2307.16039",
+    "Paper Link": "https://doi.org/10.18653/v1/2023.emnlp-demo.28",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -36,9 +36,9 @@
     "Tasks": [
         "natural language inference"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP Demo",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
     "Authors": [
         "Viet Dac Lai",
         "Chien Van Nguyen",

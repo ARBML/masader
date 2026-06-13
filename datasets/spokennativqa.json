@@ -26,7 +26,7 @@
         "MultiNativQA"
     ],
     "Paper Title": "SpokenNativQA: Multilingual Everyday Spoken Queries for LLMs",
-    "Paper Link": "https://www.arxiv.org/pdf/2505.19163",
+    "Paper Link": "https://doi.org/10.21437/Interspeech.2025-2011",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
@@ -37,9 +37,9 @@
         "question answering",
         "speech recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Interspeech",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the International Speech Communication Association",
     "Authors": [
         "Firoj Alam",
         "Md Arid Hasan",

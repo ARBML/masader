@@ -25,7 +25,7 @@
         "FLORES-101"
     ],
     "Paper Title": "DivEMT: Neural Machine Translation Post-Editing Effort Across Typologically Diverse Languages",
-    "Paper Link": "https://arxiv.org/pdf/2205.12215",
+    "Paper Link": "https://aclanthology.org/2022.emnlp-main.532",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -35,9 +35,9 @@
     "Tasks": [
         "machine translation"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Gabriele Sarti",
         "Arianna Bisazza",

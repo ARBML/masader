@@ -23,7 +23,7 @@
     ],
     "Derived From": [],
     "Paper Title": "When Models Lie, We Learn: Multilingual Span-Level Hallucination Detection with PsiloQA",
-    "Paper Link": "https://arxiv.org/pdf/2504.21677",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-emnlp.626",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -33,9 +33,9 @@
     "Tasks": [
         "hallucination detection"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Elisei Rykov",
         "Kseniia Petrushina",
