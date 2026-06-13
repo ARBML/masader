@@ -67,6 +67,17 @@ def validate_types(data, key, file):
         sys.exit(f"{file}: Invalid type: {type(data[key])} for {key}")
     return data
 
+def validate_venues(data, file):
+    normalized_veneus = json.load(open("venues.json"))
+
+    if data["Venue Title"] not in normalized_veneus:
+        sys.exit(f"{file}: Invalid Venue Title: {data['Venue Title']}")
+    if data["Venue Name"] != normalized_veneus[data["Venue Title"]]["name"]:
+        sys.exit(f"{file}: Invalid Venue Name: {data['Venue Name']}")
+    if data["Venue Type"] != normalized_veneus[data["Venue Title"]]["type"]:
+        sys.exit(f"{file}: Invalid Venue Type: {data['Venue Type']}")
+    return data
+
 for file in glob("datasets/*.json"):
     data = json.load(open(file))
     data = {k.replace("_", " "): v for k, v in data.items()}
@@ -75,6 +86,7 @@ for file in glob("datasets/*.json"):
         validate_options(data, key, file)
         validate_types(data, key, file)
         validate_keys(data, key, file)
+    validate_venues(data, file)
 
 
 print("Schema validation passed")
