@@ -1,0 +1,60 @@
+{
+    "Name": "ARASEG",
+    "Volume": 1450000.0,
+    "Unit": "tokens",
+    "License": "unknown",
+    "Link": "https://github.com/mbzuai-nlp/araseg",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "wikipedia",
+        "books",
+        "news articles",
+        "public datasets",
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "manual curation",
+        "human annotation"
+    ],
+    "Description": "A genre-diverse benchmark for Arabic sentence segmentation.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "MBZUAI",
+        "NYU Abu Dhabi"
+    ],
+    "Derived_From": [
+        "CAMeL Treebank",
+        "BAREC"
+    ],
+    "Paper_Title": "Arabic Sentence Segmentation Across Genres and Punctuation Conditions",
+    "Paper_Link": "https://arxiv.org/pdf/2606.08025v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
+    "Authors": [
+        "Mohammed Elkholy",
+        "Khalid N. Elmadani",
+        "Nizar Habash",
+        "Bashar Alhafni"
+    ],
+    "Affiliations": [
+        "Mohamed bin Zayed University of Artificial Intelligence",
+        "New York University Abu Dhabi"
+    ],
+    "Abstract": "Sentence segmentation in Arabic is challenging due to ambiguous and inconsistent punctuation, with many texts lacking reliable sentence boundary markers. Existing approaches rely heavily on punctuation cues and are typically limited to well-formed text, limiting their realistic Arabic settings. To address this, we introduce ARASEG, a genre-diverse segmentation corpus spanning eight genres with a wide range of punctuation and document structure conditions. Using ARASEG, we evaluate LLMs, lightweight encoder models, and dependency parser-based models under increasingly challenging segmentation settings. Our experiments show that lightweight encoders, and even dependency parser-based models, outperform LLMs in the most challenging settings. We further investigate the effects of limited benchmarks and evaluation settings for systematically studying the task. Unlike many languages, Arabic often exhibits sparse, inconsistent, or entirely absent punctuation, particularly in historical and literary texts predating the widespread adoption of modern punctuation. Instead, clauses and sentences are often linked through coordinating conjunctions and discourse markers, making sentence boundaries less explicit and reducing the reliability of punctuation-based segmentation. Figure 1 illustrates an example of Arabic sentence segmentation, where sentence boundaries are not always recoverable from punctuation alone. To address this, we introduce ARASEG, a manually annotated, genre-diverse benchmark for Arabic sentence segmentation spanning eight genres with varying writing styles, punctuation usage, and document structures. Using ARASEG, we benchmark LLMs, lightweight encoder models, and dependency parser-based approaches across segmentation settings with varying punctuation and document conditions. Our experiments show that lightweight supervised models substantially outperform LLMs. Our contributions are as follows: 1. We introduce ARASEG, the first genre-diverse benchmark for Arabic sentence segmentation. 2. We benchmark lightweight encoder, dependency parser-based, and LLM approaches across multiple punctuation and document settings, showing that lightweight supervised models substantially outperform LLMs. 3. We analyze punctuation ambiguity, training data size, and cross-genre generalization, and the impact of sentence segmentation on downstream dependency parsing.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
