@@ -1,0 +1,49 @@
+{
+    "Name": "Arabic Little STT",
+    "Volume": 355.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://huggingface.co/datasets/little-stt/little-stt-dataset",
+    "HF_Link": "https://huggingface.co/datasets/little-stt/little-stt-dataset",
+    "Year": 2024,
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic children speech ASR dataset.",
+    "Ethical_Risks": "High",
+    "Provider": [
+        "Arab International University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Arabic Little STT: Arabic Children Speech Recognition Dataset",
+    "Paper_Link": "http://arxiv.org/pdf/2510.23319v1.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "0",
+    "Test_Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "other",
+    "Venue_Name": "",
+    "Authors": [
+        "Mouhand Alkadri",
+        "Dania Desouki",
+        "Khloud Al Jallad"
+    ],
+    "Affiliations": [
+        "Arab International University"
+    ],
+    "Abstract": "The performance of Artificial Intelligence (AI) systems fundamentally depends on high-quality training data. However, low-resource languages like Arabic suffer from severe data scarcity. Moreover, the absence of child-specific speech corpora is an essential gap that poses significant challenges. To address this gap, we present our created dataset, Arabic Little STT, a dataset of Levantine Arabic child speech recorded in classrooms, containing 355 utterances from 288 children (ages 6\u201313). We further conduct a systematic assessment of Whisper, a state-of-the-art automatic speech recognition (ASR) model, on this dataset and compare its performance with adult Arabic benchmarks. Our evaluation across eight Whisper variants reveals that even the best-performing model (Large-v3) struggles significantly, achieving a 66% word error rate (WER) on child speech \u2013 starkly contrasting with its sub-20% WER on adult datasets. These results align with other research on English speech. Results highlight the critical need for dedicated child speech benchmarks and inclusive training data in ASR development. Emphasizing that such data must be governed by strict ethical and privacy frameworks to protect sensitive child information We hope that this study provides an initial step for future work on equitable speech technologies for Arabic-speaking children, enriching the children\u2019s demographic representation in ASR datasets.",
+    "Subsets": [],
+    "Dialect": "Levant",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
