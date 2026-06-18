@@ -1,0 +1,62 @@
+{
+    "Name": "EANames",
+    "Volume": 105221.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/synlp/EATrans",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "social media",
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Corpus for English-Arabic transliteration",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "University of Science and Technology of China",
+        "University of Washington",
+        "Temple University",
+        "Guangdong University of Foreign Studies"
+    ],
+    "Derived_From": [
+        "ISIArabic-EnglishAutomaticallyExtractedParallelTextcorpus"
+    ],
+    "Paper_Title": "Improving English-Arabic Transliteration with Phonemic Memories",
+    "Paper_Link": "https://aclanthology.org/2022.findings-emnlp.238.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "transliteration"
+    ],
+    "Venue_Title": "EMNLP",
+    "Venue_Type": "conference",
+    "Venue_Name": "EMNLP",
+    "Authors": [
+        "Yuanhe Tian",
+        "Renze Lou",
+        "Xiangyu Pang",
+        "Lianxi Wang",
+        "Shengyi Jiang",
+        "Yan Song"
+    ],
+    "Affiliations": [
+        "University of Science and Technology of China",
+        "University of Washington",
+        "Temple University",
+        "Guangdong University of Foreign Studies"
+    ],
+    "Abstract": "Transliteration is an important task in natural language processing (NLP) which aims to convert a name in the source language to the target language without changing its pronunciation. Particularly, transliteration from English to Arabic is highly needed in many applications, especially in countries (e.g., United Arab Emirates (UAE)) whose most citizens are foreigners but the official language is Arabic. In such a task-oriented scenario, namely transliterating the English names to the corresponding Arabic ones, the performance of the transliteration model is highly important. However, most existing neural approaches mainly apply a universal transliteration model with advanced encoders and decoders to the task, where limited attention is paid to leveraging the phonemic association between English and Arabic to further improve model performance. In this paper, we focus on transliteration of people's names from English to Arabic for the general public. In doing so, we collect a corpus named EANames by extracting high quality name pairs from online resources which better represent the names in the general public than linked Wikipedia entries that are always names of famous people). We propose a model for English-Arabic transliteration, where a memory module modeling the phonemic association between English and Arabic is used to guide the transliteration process. We run experiments on the collected data and the results demonstrate the effectiveness of our approach for English-Arabic transliteration.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
