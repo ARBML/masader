@@ -1,0 +1,52 @@
+{
+    "Name": "SmolKalam",
+    "Volume": 1500000.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/SultanR/smolkalam",
+    "HF_Link": "",
+    "Year": 2025,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "LLM generated"
+    ],
+    "Description": "Quality-filtered Arabic SFT dataset for post-training.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "King Abdullah University of Science and Technology"
+    ],
+    "Derived_From": [
+        "SmolTalk2"
+    ],
+    "Paper_Title": "SmolKalam: Ensemble Quality-Filtered Translation at Scale for High Quality Arabic Post-Training Data",
+    "Paper_Link": "https://arxiv.org/pdf/2511.18411v1",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "instruction following",
+        "instruction tuning"
+    ],
+    "Venue_Title": "Preprint",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Sultan AlRashed",
+        "Chadi Helwe",
+        "Francesco Orabona"
+    ],
+    "Affiliations": [
+        "King Abdullah University of Science and Technology"
+    ],
+    "Abstract": "Although the community has tackled the acquisition of high-quality Arabic pre-training data, we still lack large-scale, multi-turn Arabic datasets that include reasoning and tool calling. Naive translation can work at the pretraining scale, but post-training demands much higher quality, which requires a stricter approach to dataset curation. In this work, we introduce SmolKalam, a translation of Smol talk 2 that uses a multi-model ensemble translation pipeline, applies quality filtering, and examines effective translation techniques for traditional decoder-only models through ablations.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
