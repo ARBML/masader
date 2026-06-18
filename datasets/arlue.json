@@ -1,0 +1,62 @@
+{
+    "Name": "ARLUE",
+    "Volume": 42.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/UBC-NLP/marbert",
+    "HF_Link": "",
+    "Year": 2020,
+    "Domain": [
+        "social media",
+        "news articles",
+        "books",
+        "wikipedia",
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "manual curation"
+    ],
+    "Description": "BERT-based models for Arabic NLP benchmark",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Natural Language Processing Lab, The University of British Columbia"
+    ],
+    "Derived_From": [
+        "BERT"
+    ],
+    "Paper_Title": "ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic",
+    "Paper_Link": "https://aclanthology.org/2021.acl-long.551.pdf",
+    "Tokenized": true,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "sentiment analysis",
+        "topic classification",
+        "dialect identification",
+        "named entity recognition",
+        "question answering",
+        "language modeling"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "conference",
+    "Venue_Name": "",
+    "Authors": [
+        "Muhammad Abdul-Mageed",
+        "AbdelRahim Elmadany",
+        "ElMoatez Billah Nagoudi"
+    ],
+    "Affiliations": [
+        "Natural Language Processing Lab",
+        "The University of British Columbia"
+    ],
+    "Abstract": "Pre-trained language models (LMs) are currently integral to many natural language processing systems. Although multilingual LMs were also introduced to serve many languages, these have limitations such as being costly at inference time and the size and diversity of non-English data involved in their pre-training. We remedy these issues for a collection of diverse Arabic varieties by introducing two powerful deep bidirectional transformer-based models, ARBERT and MARBERT. To evaluate our models, we also introduce ARLUE, a new benchmark for multi-dialectal Arabic language understanding evaluation. ARLUE is built using 42 datasets targeting six different task clusters, allowing us to offer a series of standardized experiments under rich conditions. When fine-tuned on ARLUE, our models collectively achieve new state-of-the-art results across the majority of tasks (37 out of 48 classification tasks, on the 42 datasets). Our best model acquires the highest ARLUE score (77.40) across all six task clusters, outperforming all other models including XLM-R (~3.4x larger size). Our models are publicly available at https://github.com/UBC-NLP/marbert and ARLUE will be released through the same repository.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
