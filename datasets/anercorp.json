@@ -1,14 +1,17 @@
 {
     "Name": "ANERcorp",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://camel.abudhabi.nyu.edu/anercorp/",
     "License": "CC BY-SA 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],

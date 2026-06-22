@@ -1,14 +1,17 @@
 {
     "Name": "Transliteration",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/google_transliteration",
     "Link": "https://github.com/google/transliteration",
     "License": "Apache-2.0",
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "transliteration"
     ],

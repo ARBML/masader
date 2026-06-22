@@ -1,14 +1,17 @@
 {
     "Name": "Egyptian Colloquial Arabic Lexicon",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC99L22",
     "License": "LDC User Agreement",
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

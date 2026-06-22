@@ -1,14 +1,17 @@
 {
     "Name": "ARASPIDER",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/ahmedheakl/AraSpider",
     "License": "MIT License",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "text-to-SQL generation"
     ],

@@ -1,14 +1,17 @@
 {
     "Name": "AKEC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AKEC",
     "Link": "https://github.com/ailab-uniud/akec",
     "License": "unknown",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -35,7 +38,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "keyphrase extraction"
     ],

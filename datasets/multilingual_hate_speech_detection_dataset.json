@@ -1,14 +1,17 @@
 {
     "Name": "Multilingual Hate\r\nSpeech Detection Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/hate-alert/DE-LIMIT/tree/master/Dataset",
     "License": "unknown",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -32,7 +35,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "hate speech detection"
     ],

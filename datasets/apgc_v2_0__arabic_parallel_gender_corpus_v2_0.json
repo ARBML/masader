@@ -1,14 +1,17 @@
 {
     "Name": "APGC v2.0: Arabic Parallel Gender Corpus v2.0",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://camel.abudhabi.nyu.edu/arabic-parallel-gender-corpus/",
     "License": "custom",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "gender identification"
     ],

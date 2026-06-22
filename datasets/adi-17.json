@@ -1,6 +1,6 @@
 {
     "Name": "ADI-17",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Dialect": "Algeria",
@@ -110,8 +110,11 @@
     "Year": 2019,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -132,7 +135,8 @@
     "Host": "HuggingFace",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

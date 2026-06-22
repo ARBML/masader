@@ -1,14 +1,17 @@
 {
     "Name": "WojoodHadath",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://sina.birzeit.edu/relations/",
     "License": "CC BY 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -30,7 +33,8 @@
     "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "language modeling",
         "tokenization",

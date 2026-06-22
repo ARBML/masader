@@ -1,14 +1,17 @@
 {
     "Name": "MIRACL-VISION",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/nvidia/miracl-vision",
     "Link": "https://huggingface.co/datasets/nvidia/miracl-vision",
     "License": "CC BY-SA 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "images",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "information retrieval",
         "retrieval-augmented generation"

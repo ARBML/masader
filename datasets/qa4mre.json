@@ -1,14 +1,17 @@
 {
     "Name": "QA4MRE",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/community-datasets/qa4mre",
     "Link": "http://nlp.uned.es/clef-qa/repository/qa4mre.php",
     "License": "unknown",
     "Year": 2013,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],

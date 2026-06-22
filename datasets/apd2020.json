@@ -1,14 +1,17 @@
 {
     "Name": "APD2020",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/mcj6vkg6zw/1",
     "License": "CC BY 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "poetry analysis"
     ],

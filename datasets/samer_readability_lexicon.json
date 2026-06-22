@@ -1,14 +1,17 @@
 {
     "Name": "SAMER readability lexicon",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://camel.abudhabi.nyu.edu/samer-readability-lexicon/",
     "License": "custom",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "readability assessment"
     ],

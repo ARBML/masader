@@ -1,14 +1,17 @@
 {
     "Name": "FloDusTA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/FloDusTA_Dust_Storm",
     "Link": "https://github.com/BatoolHamawi/FloDusTA",
     "License": "CC BY 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "event detection"
     ],

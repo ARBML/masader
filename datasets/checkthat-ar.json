@@ -1,14 +1,17 @@
 {
     "Name": "CheckThat-AR",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://gitlab.com/bigirqu/checkthat-ar/",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "fact checking"
     ],

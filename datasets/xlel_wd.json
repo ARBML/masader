@@ -1,14 +1,17 @@
 {
     "Name": "xlel_wd",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/adithya7/xlel_wd",
     "Link": "https://hf.co/datasets/adithya7/xlel_wd",
     "License": "CC BY 4.0",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "event linking"
     ],

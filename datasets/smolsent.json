@@ -1,6 +1,6 @@
 {
     "Name": "SMOLSENT",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Tunisian",
             "Volume": 862.0,
@@ -38,8 +38,11 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -61,7 +64,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

@@ -1,15 +1,18 @@
 {
     "Name": "DzNER",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/Dahouabdelhalim/NER-model-on-the-DzNER-corpus",
     "License": "CC BY-NC-ND 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media",
         "commentary"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],

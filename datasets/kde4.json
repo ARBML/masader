@@ -1,14 +1,17 @@
 {
     "Name": "KDE4",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/kde4",
     "Link": "https://opus.nlpl.eu/KDE4/corpus/version/KDE4",
     "License": "custom",
     "Year": 2012,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

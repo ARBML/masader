@@ -1,14 +1,17 @@
 {
     "Name": "CALLHOME: Egyptian Arabic Speech Translation Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/CALLHOME",
     "Link": "https://github.com/noisychannel/ARZ_callhome_corpus",
     "License": "CC BY-SA 4.0",
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

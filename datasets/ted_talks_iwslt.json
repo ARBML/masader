@@ -1,14 +1,17 @@
 {
     "Name": "TED TALKS IWSLT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/IWSLT/ted_talks_iwslt",
     "Link": "https://drive.google.com/u/0/uc?id=1Cz1Un9p8Xn9IpEMMrg2kXSDt0dnjxc4z&export=download",
     "License": "CC BY-NC 4.0",
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

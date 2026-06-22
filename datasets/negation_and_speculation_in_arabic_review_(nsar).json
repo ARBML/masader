@@ -1,14 +1,17 @@
 {
     "Name": "Negation and Speculation in Arabic Review (NSAR)",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/amahany/NSAR",
     "License": "unknown",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "reviews"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -33,7 +36,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "information retrieval",

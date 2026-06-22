@@ -1,14 +1,17 @@
 {
     "Name": "Hijja",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Hijja2",
     "Link": "https://github.com/israksu/Hijja2",
     "License": "unknown",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "images",
     "Collection Style": [
@@ -30,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "optical character recognition"
     ],

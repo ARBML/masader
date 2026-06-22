@@ -1,14 +1,17 @@
 {
     "Name": "CLEANANERCorp",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/CLEANANERCorp",
     "Link": "https://github.com/iwan-rg/CLEANANERCorp",
     "License": "LGPL-3.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],

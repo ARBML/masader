@@ -1,14 +1,17 @@
 {
     "Name": "EASC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/EASC",
     "Link": "https://sourceforge.net/projects/easc-corpus/",
     "License": "CC BY-SA 3.0",
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "summarization"
     ],

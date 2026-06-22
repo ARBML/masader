@@ -1,6 +1,6 @@
 {
     "Name": "CAAMT",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "ALG",
             "Volume": 6400.0,
@@ -62,8 +62,11 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -89,7 +92,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

@@ -1,14 +1,17 @@
 {
     "Name": "journalists_questions",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/mkqa",
     "Link": "http://qufaculty.qu.edu.qa/telsayed/datasets/",
     "License": "unknown",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

@@ -1,15 +1,18 @@
 {
     "Name": "AraHopeCorpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://tinyurl.com/4ke5jwyw",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "commentary"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "stance detection"
     ],

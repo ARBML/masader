@@ -1,14 +1,17 @@
 {
     "Name": "Twifil",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Twifil",
     "Link": "https://github.com/kinmokusu/oea_algd",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "emotion classification"

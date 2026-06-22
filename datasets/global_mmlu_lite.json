@@ -1,14 +1,17 @@
 {
     "Name": "Global-MMLU Lite",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
     "Link": "https://huggingface.co/datasets/CohereLabs/Global-MMLU-Lite",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],

@@ -1,14 +1,17 @@
 {
     "Name": "OCA: Opinion corpus for Arabic",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://150.214.174.171:8059/investigacion/recursos/oca-corpus",
     "License": "unknown",
     "Year": 2011,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

@@ -1,14 +1,17 @@
 {
     "Name": "ArabicQA_2.1M",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/riotu-lab/ArabicQA_2.1M",
     "Link": "https://hf.co/datasets/riotu-lab/ArabicQA_2.1M",
     "License": "Apache-2.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -34,7 +37,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering",
         "instruction tuning"

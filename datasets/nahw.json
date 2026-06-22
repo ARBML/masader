@@ -1,15 +1,18 @@
 {
     "Name": "Nahw",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/qcri/nahw-arabic-grammar-benchmark/",
     "License": "Apache-2.0",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages",
         "books"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -30,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],

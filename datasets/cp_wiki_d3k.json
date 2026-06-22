@@ -1,14 +1,18 @@
 {
     "Name": "CP-WIKI-D3K",
-    "Volume": 3362.0,
-    "Unit": "tokens",
-    "License": "CC BY-SA 4.0",
-    "Link": "https://github.com/CAMeL-Lab/CamelProp",
+    "Dialect Subsets": [],
     "HF Link": "",
+    "Link": "https://github.com/CAMeL-Lab/CamelProp",
+    "License": "CC BY-SA 4.0",
     "Year": 2025,
-    "Domain": [
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
         "wikipedia",
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -16,6 +20,8 @@
         "LLM generated"
     ],
     "Description": "Public dataset for Arabic Wikipedia proper nouns.",
+    "Volume": 3362.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
         "CAMeL-Lab"
@@ -25,11 +31,13 @@
     ],
     "Paper Title": "Proper Noun Diacritization for Arabic Wikipedia: A Benchmark Dataset",
     "Paper Link": "http://arxiv.org/pdf/2505.02656v3.pdf",
+    "Script": "Arab",
     "Tokenized": true,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "diacritization",
         "transliteration"
@@ -51,9 +59,5 @@
         "University of Malta"
     ],
     "Abstract": "Proper nouns in Arabic Wikipedia are frequently undiacritized, creating ambiguity in pronunciation and interpretation, especially for transliterated named entities of foreign origin. While transliteration and diacritization have been well-studied separately in Arabic NLP, their intersection remains underexplored. In this paper, we introduce a new manually diacritized dataset of Arabic proper nouns of various origins with their English Wikipedia equivalent glosses, and present the challenges and guidelines we followed to create it. We benchmark GPT-4o on the task of recovering full diacritization given the undiacritized Arabic and English forms, and analyze its performance. Achieving 73% accuracy, our results underscore both the difficulty of the task and the need for improved models and resources. We release our dataset to facilitate further research on Arabic Wikipedia proper noun diacritization.",
-    "Subsets": [],
-    "Dialect": "mixed",
-    "Language": "ar",
-    "Script": "Arab",
     "Added By": "Zaid Alyafeai"
 }

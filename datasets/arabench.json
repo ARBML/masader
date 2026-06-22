@@ -1,14 +1,17 @@
 {
     "Name": "Arabench",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AraBench",
     "Link": "https://alt.qcri.org/resources1/mt/arabench/",
     "License": "Apache-2.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -35,7 +38,8 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

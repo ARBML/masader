@@ -1,14 +1,17 @@
 {
     "Name": "EveryAyah",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/tarteel-ai/everyayah",
     "Link": "https://hf.co/datasets/tarteel-ai/everyayah",
     "License": "MIT License",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

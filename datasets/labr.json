@@ -1,14 +1,17 @@
 {
     "Name": "LABR",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/mohamedadaly/labr",
     "Link": "https://github.com/mohamedadaly/LABR",
     "License": "GPL-2.0",
     "Year": 2013,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "reviews"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

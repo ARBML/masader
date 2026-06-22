@@ -1,14 +1,17 @@
 {
     "Name": "toxi-text-3M",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/FredZhang7/toxi-text-3M",
     "Link": "https://hf.co/datasets/FredZhang7/toxi-text-3M",
     "License": "Apache-2.0",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "offensive language detection"
     ],

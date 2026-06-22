@@ -1,14 +1,17 @@
 {
     "Name": " X-ALMA-Preference ",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/haoranxu/X-ALMA-Preference",
     "Link": "https://huggingface.co/datasets/haoranxu/X-ALMA-Preference",
     "License": "MIT License",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "preference optimization"
     ],

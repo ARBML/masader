@@ -1,6 +1,6 @@
 {
     "Name": "PALM",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Egypt",
             "Volume": 1480.0,
@@ -146,8 +146,11 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -169,7 +172,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],

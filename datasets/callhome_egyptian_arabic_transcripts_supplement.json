@@ -1,14 +1,17 @@
 {
     "Name": "CALLHOME Egyptian Arabic Transcripts Supplement",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2002T38",
     "License": "LDC User Agreement",
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

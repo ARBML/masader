@@ -1,15 +1,18 @@
 {
     "Name": "TunSwitch CS",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/tunis-ai/TunSwitch",
     "Link": "https://zenodo.org/record/8370566",
     "License": "CC BY 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "social media",
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -32,7 +35,8 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

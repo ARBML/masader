@@ -1,14 +1,17 @@
 {
     "Name": "JANA: A Human-Human Dialogues Corpus for Egyptian Dialect",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2016T24",
     "License": "LDC User Agreement",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,650.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialogue generation"
     ],

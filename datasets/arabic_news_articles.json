@@ -1,14 +1,17 @@
 {
     "Name": "Arabic news articles",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://webz.io/free-datasets/arabic-news-articles/",
     "License": "unknown",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "topic classification"
     ],

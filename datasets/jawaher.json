@@ -1,6 +1,6 @@
 {
     "Name": "Jawaher",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algerian",
             "Volume": 312.0,
@@ -128,8 +128,11 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -151,7 +154,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],

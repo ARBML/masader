@@ -1,6 +1,6 @@
 {
     "Name": "AfriSenti",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algerian Arabic",
             "Volume": 3062.0,
@@ -20,8 +20,11 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -43,7 +46,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

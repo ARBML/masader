@@ -1,14 +1,17 @@
 {
     "Name": "The Arabic Speech Corpus for Isolated Words",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Speech_Corpus_for_Isolated_Words",
     "Link": "https://www.cs.stir.ac.uk/~lss/arabic/",
     "License": "unknown",
     "Year": 2014,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

@@ -1,14 +1,17 @@
 {
     "Name": "pulpo",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/linhd-postdata/pulpo",
     "Link": "https://hf.co/datasets/linhd-postdata/pulpo",
     "License": "unknown",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "poetry analysis"
     ],

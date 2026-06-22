@@ -1,14 +1,17 @@
 {
     "Name": "DziriBERT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/alger-ia/dziribert",
     "Link": "https://github.com/alger-ia/dziribert",
     "License": "Apache-2.0",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "language modeling",

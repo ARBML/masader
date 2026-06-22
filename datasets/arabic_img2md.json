@@ -1,14 +1,17 @@
 {
     "Name": "arabic-img2md",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/MohamedRashad/arabic-img2md",
     "Link": "https://huggingface.co/datasets/MohamedRashad/arabic-img2md",
     "License": "GPL-3.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "images",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "optical character recognition"
     ],

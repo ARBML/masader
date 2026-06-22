@@ -1,14 +1,17 @@
 {
     "Name": "KHATT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/benhachem/KHATT",
     "Link": "https://www.kaggle.com/datasets/nizarcharrada/khattarabic",
     "License": "unknown",
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "images",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "optical character recognition"
     ],

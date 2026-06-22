@@ -1,6 +1,6 @@
 {
     "Name": "SawtArabi",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Egyptian",
             "Volume": 2.0,
@@ -20,9 +20,12 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "LLM",
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -47,7 +50,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition",
         "text to speech"

@@ -1,14 +1,17 @@
 {
     "Name": "TARIC-SLU",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://demo-lia.univ-avignon.fr/taric-dataset/",
     "License": "CC BY-NC 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -34,7 +37,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

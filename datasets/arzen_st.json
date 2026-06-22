@@ -1,14 +1,17 @@
 {
     "Name": "ArzEn-ST",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://arzen.camel-lab.com/",
     "License": "CC BY-SA 4.0",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition",
         "codeswitch detection"

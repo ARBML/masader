@@ -1,6 +1,6 @@
 {
     "Name": "MultiNativQA",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Arabic-Egypt",
             "Volume": 7956.0,
@@ -44,8 +44,11 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -68,7 +71,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

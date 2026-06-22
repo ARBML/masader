@@ -1,14 +1,17 @@
 {
     "Name": "Arabic Morphological Dictionary",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-L0088/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2012,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "450.00€",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "morphological analysis"
     ],

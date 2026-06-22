@@ -1,14 +1,17 @@
 {
     "Name": "EverGreenQA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/s-nlp/EverGreen-Multilingual",
     "Link": "https://huggingface.co/datasets/s-nlp/EverGreen-Multilingual",
     "License": "unknown",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -33,7 +36,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

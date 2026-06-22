@@ -1,14 +1,17 @@
 {
     "Name": "MADAR-TUN",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/tunis-ai/MADAR-TUN",
     "Link": "https://github.com/eligugliotta/MADAR-TUN",
     "License": "CC BY-NC 3.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "morphological analysis"
     ],

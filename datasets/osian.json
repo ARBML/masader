@@ -1,14 +1,17 @@
 {
     "Name": "OSIAN",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://oujda-nlp-team.net/en/corpora/osian-corpus/",
     "License": "CC BY-NC 4.0",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

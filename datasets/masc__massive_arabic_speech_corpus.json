@@ -1,14 +1,17 @@
 {
     "Name": "MASC: Massive Arabic Speech Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/pain/MASC",
     "Link": "https://ieee-dataport.org/open-access/masc-massive-arabic-speech-corpus",
     "License": "CC BY 4.0",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

@@ -1,6 +1,6 @@
 {
     "Name": "NADI 2025 (ASR)",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Volume": 3200.0,
@@ -56,8 +56,11 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -80,7 +83,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

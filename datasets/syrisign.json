@@ -1,14 +1,17 @@
 {
     "Name": "SyriSign",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Mohammad-Amer-Khalil/SyriSign",
     "Link": "https://github.com/Moham-Amer/SyriSign",
     "License": "CC0",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Syria",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "videos",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sign language recognition"
     ],

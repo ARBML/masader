@@ -1,14 +1,17 @@
 {
     "Name": "TRECVID 2005 Keyframes & Transcripts",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2007V01",
     "License": "LDC User Agreement",
     "Year": 2007,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "videos",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "500.00 $",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "event detection"
     ],

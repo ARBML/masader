@@ -1,14 +1,17 @@
 {
     "Name": "TalkVid-bench",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/FreedomIntelligence/TalkVid",
     "Link": "https://huggingface.co/datasets/FreedomIntelligence/TalkVid",
     "License": "CC BY-NC 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "videos",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "video generation"
     ],

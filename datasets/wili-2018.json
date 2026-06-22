@@ -1,14 +1,17 @@
 {
     "Name": "WiLI-2018",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/MartinThoma/wili_2018",
     "Link": "https://zenodo.org/record/841984#.YpBRIahBxD8",
     "License": "Apache-1.0",
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "language identification"
     ],

@@ -1,14 +1,17 @@
 {
     "Name": "ClArTTS",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/MBZUAI/ClArTTS",
     "Link": "https://huggingface.co/datasets/MBZUAI/ClArTTS",
     "License": "CC BY 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "text to speech"
     ],

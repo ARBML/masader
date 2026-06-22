@@ -1,14 +1,17 @@
 {
     "Name": "TUFS Media",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://ngc2068.tufs.ac.jp/tufsmedia-corpus/",
     "License": "unknown",
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -30,7 +33,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

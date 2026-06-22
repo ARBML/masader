@@ -1,14 +1,17 @@
 {
     "Name": "Arabic dictionary of inflected words",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-L0098/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "4,500.00€",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "lexicon analysis",
         "part of speech tagging"

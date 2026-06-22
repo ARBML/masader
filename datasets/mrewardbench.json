@@ -1,14 +1,17 @@
 {
     "Name": "M-REWARDBENCH",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/CohereLabsCommunity/multilingual-reward-bench",
     "Link": "https://huggingface.co/datasets/CohereLabsCommunity/multilingual-reward-bench",
     "License": "ODC-By",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -32,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "preference optimization"
     ],

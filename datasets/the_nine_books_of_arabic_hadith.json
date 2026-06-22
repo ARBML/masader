@@ -1,14 +1,17 @@
 {
     "Name": "The Nine Books Of Arabic Hadith",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Hadith",
     "Link": "https://github.com/abdelrahmaan/Hadith-Data-Sets",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "diacritization"
     ],

@@ -1,15 +1,18 @@
 {
     "Name": "ThatiAR",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/QCRI/ThatiAR",
     "Link": "https://huggingface.co/datasets/QCRI/ThatiAR",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -32,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

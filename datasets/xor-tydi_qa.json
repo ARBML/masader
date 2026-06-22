@@ -1,14 +1,17 @@
 {
     "Name": "XOR-TyDi QA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/akariasai/xor_tydi_qa",
     "Link": "https://nlp.cs.washington.edu/xorqa/index.html",
     "License": "CC BY-SA 4.0",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

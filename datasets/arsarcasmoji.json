@@ -1,14 +1,17 @@
 {
     "Name": "ArSarcasMoji",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArSarcasMoji",
     "Link": "https://github.com/ShathaHakami/ArSarcasMoji-Dataset",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -39,7 +42,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "irony detection"

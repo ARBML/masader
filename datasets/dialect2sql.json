@@ -1,14 +1,17 @@
 {
     "Name": "Dialect2SQL",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/salmane11/Dialect2SQL",
     "Link": "https://huggingface.co/datasets/salmane11/Dialect2SQL",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -32,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "text-to-SQL generation"
     ],

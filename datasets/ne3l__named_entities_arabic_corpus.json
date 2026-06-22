@@ -1,14 +1,17 @@
 {
     "Name": "NE3L: named entities Arabic corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-W0078/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "5,000.00€",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],

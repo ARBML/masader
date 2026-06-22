@@ -1,14 +1,17 @@
 {
     "Name": "mozilla foundation common voice dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/mozilla-foundation/common_voice_17_0",
     "Link": "https://github.com/common-voice/cv-dataset/tree/main/datasets",
     "License": "MPL-2.0",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -32,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition",
         "language identification"

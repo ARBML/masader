@@ -1,14 +1,17 @@
 {
     "Name": "ARABABYTALK-EGY",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://arababytalk.camel-lab.com/",
     "License": "CC BY-NC-SA 3.0",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -32,7 +35,8 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "morphological analysis",
         "speech recognition"

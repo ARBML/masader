@@ -1,14 +1,17 @@
 {
     "Name": "xquad_r",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/xquad_r",
     "Link": "https://github.com/google-research-datasets/lareqa",
     "License": "CC BY 4.0",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "information retrieval",
         "question answering"

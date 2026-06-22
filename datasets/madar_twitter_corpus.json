@@ -1,6 +1,6 @@
 {
     "Name": "MADAR Twitter Corpus",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Saudi Arabia",
             "Dialect": "Saudi Arabia",
@@ -134,8 +134,11 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -156,7 +159,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "dialect identification"

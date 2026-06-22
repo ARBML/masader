@@ -1,6 +1,6 @@
 {
     "Name": "Arabic Women Society Corpus",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "EGY",
             "Volume": 75676.0,
@@ -68,8 +68,11 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -90,7 +93,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "gender bias detection",
         "bias detection"

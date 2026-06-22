@@ -1,14 +1,17 @@
 {
     "Name": "CHILDES Egyptian Arabic Salama Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://childes.talkbank.org/access/Other/Arabic/Salama.html",
     "License": "unknown",
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

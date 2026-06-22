@@ -1,6 +1,6 @@
 {
     "Name": "ArSarcasm-v2",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Egyptian",
             "Dialect": "Egypt",
@@ -38,8 +38,11 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -62,7 +65,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sarcasm detection",
         "sentiment analysis",

@@ -1,14 +1,17 @@
 {
     "Name": "Arabic Broadcast News Transcripts",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2006T20",
     "License": "LDC User Agreement",
     "Year": 2001,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "400.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

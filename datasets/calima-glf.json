@@ -1,14 +1,17 @@
 {
     "Name": "CALIMA-GLF",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/unimorph/afb",
     "License": "CC BY-SA 3.0",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Gulf",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "part of speech tagging",
         "morphological analysis"

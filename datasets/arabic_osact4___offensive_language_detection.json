@@ -1,14 +1,17 @@
 {
     "Name": "Arabic OSACT4 : Offensive Language Detection",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/OSACT4_hatespeech",
     "Link": "https://github.com/motazsaad/arabic-hatespeech-data/blob/master/OSACT4/README.md",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "offensive language detection"
     ],

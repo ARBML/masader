@@ -1,6 +1,6 @@
 {
     "Name": "MuDRiC",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Egyptian",
             "Volume": 33288.0,
@@ -32,8 +32,11 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -57,7 +60,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "commonsense reasoning"
     ],

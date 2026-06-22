@@ -1,15 +1,18 @@
 {
     "Name": "FineWeb-Edu-Ar",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/kaust-generative-ai/fineweb-edu-ar",
     "Link": "https://huggingface.co/datasets/kaust-generative-ai/fineweb-edu-ar",
     "License": "CC BY-NC 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages",
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -33,7 +36,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

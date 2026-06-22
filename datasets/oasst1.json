@@ -1,14 +1,17 @@
 {
     "Name": "oasst1",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/RajChat/Chatgpt",
     "Link": "https://huggingface.co/datasets/RajChat/Chatgpt",
     "License": "Apache-2.0",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -30,7 +33,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "instruction tuning",
         "preference optimization"

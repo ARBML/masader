@@ -1,6 +1,6 @@
 {
     "Name": "SemEval-2025 Task 11 Track A",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "arq",
             "Volume": 1901.0,
@@ -20,8 +20,11 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -43,7 +46,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "emotion classification"
     ],

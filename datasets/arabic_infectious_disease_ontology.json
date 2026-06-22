@@ -1,14 +1,17 @@
 {
     "Name": "Arabic Infectious Disease Ontology",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://www.research.lancs.ac.uk/portal/en/datasets/arabic-infectious-disease-ontology(39dbef60-ae9b-4405-99c8-35a41e95a3e0).html",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dictionary"
     ],

@@ -1,14 +1,17 @@
 {
     "Name": "Arabic News articles from Aljazeera.net",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/news_articles_aljazeera",
     "Link": "https://www.kaggle.com/datasets/arhouati/arabic-news-articles-from-aljazeeranet",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

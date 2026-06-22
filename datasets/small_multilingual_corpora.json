@@ -1,15 +1,18 @@
 {
     "Name": "Small-Multilingual-Corpora ",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/m0pper/Small-Multilingual-Corpora",
     "Link": "https://huggingface.co/datasets/m0pper/Small-Multilingual-Corpora",
     "License": "unknown",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages",
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -32,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

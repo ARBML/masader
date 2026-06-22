@@ -1,14 +1,17 @@
 {
     "Name": "MAPS",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Fujitsu-FRE/MAPS",
     "Link": "https://huggingface.co/datasets/Fujitsu-FRE/MAPS",
     "License": "MIT License",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -34,7 +37,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "agentic AI evaluation"
     ],

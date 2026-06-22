@@ -1,14 +1,17 @@
 {
     "Name": "sentiment dataset of Algerian dialect ",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://sourceforge.net/projects/alg-dialect-sentiment-dataset/",
     "License": "unknown",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -30,7 +33,8 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

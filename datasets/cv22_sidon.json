@@ -1,14 +1,17 @@
 {
     "Name": "CV22-Sidon",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/sarulab-speech/commonvoice22_sidon",
     "Link": "https://huggingface.co/datasets/sarulab-speech/commonvoice22_sidon",
     "License": "CC0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "text to speech"
     ],

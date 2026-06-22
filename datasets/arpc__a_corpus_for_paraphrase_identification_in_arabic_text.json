@@ -1,14 +1,17 @@
 {
     "Name": "ARPC: A Corpus for Paraphrase Identification in Arabic Text",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://ieee-dataport.org/documents/arpc-corpus-paraphrase-identification-arabic-text#files",
     "License": "unknown",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "paraphrase identification"
     ],

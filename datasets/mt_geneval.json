@@ -1,14 +1,17 @@
 {
     "Name": "MT-GenEval",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/gsarti/mt_geneval",
     "Link": "https://github.com/amazon-science/machine-translation-gender-eval",
     "License": "CC BY-SA 3.0",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "gender bias detection"

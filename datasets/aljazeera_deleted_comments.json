@@ -1,14 +1,17 @@
 {
     "Name": "Aljazeera Deleted Comments",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://alt.qcri.org/people/hmubarak/public_html/offensive/",
     "License": "unknown",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "commentary"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "hate speech detection"
     ],

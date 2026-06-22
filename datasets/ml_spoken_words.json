@@ -1,14 +1,17 @@
 {
     "Name": "ml_spoken_words",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/MLCommons/ml_spoken_words",
     "Link": "https://mlcommons.org/en/multilingual-spoken-words/",
     "License": "CC BY 4.0",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -38,7 +41,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "keyphrase extraction"
     ],

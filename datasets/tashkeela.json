@@ -1,6 +1,6 @@
 {
     "Name": "Tashkeela",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Classical Arabic",
             "Dialect": "Classical Arabic",
@@ -26,8 +26,11 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -48,7 +51,8 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "diacritization"
     ],

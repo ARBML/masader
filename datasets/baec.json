@@ -1,6 +1,6 @@
 {
     "Name": "BAEC",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "SDC",
             "Dialect": "Saudi Arabia",
@@ -26,8 +26,11 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -46,7 +49,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "codeswitch detection"
     ],

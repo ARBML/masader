@@ -1,14 +1,17 @@
 {
     "Name": "MSAC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/MSAC",
     "Link": "https://github.com/ososs/Arabic-Sentiment-Analysis-corpus",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

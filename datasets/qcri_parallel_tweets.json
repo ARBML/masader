@@ -1,14 +1,17 @@
 {
     "Name": "QCRI Parallel Tweets",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/alt-qsri/tweets_ar_en_parallel",
     "Link": "https://alt.qcri.org/resources/bilingual_corpus_of_parallel_tweets",
     "License": "Apache-2.0",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

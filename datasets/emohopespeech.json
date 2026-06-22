@@ -1,14 +1,17 @@
 {
     "Name": "EmoHopeSpeech",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://doi.org/10.5281/zenodo.14669301",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -35,7 +38,8 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "emotion classification"
     ],

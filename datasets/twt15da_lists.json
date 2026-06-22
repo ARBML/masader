@@ -1,6 +1,6 @@
 {
     "Name": "Twt15DA_Lists",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Yemeni",
             "Dialect": "Yemen",
@@ -98,8 +98,11 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -121,7 +124,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

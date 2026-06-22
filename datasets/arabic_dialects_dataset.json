@@ -1,6 +1,6 @@
 {
     "Name": "Arabic Dialects Dataset",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "GLF",
             "Dialect": "Gulf",
@@ -38,8 +38,11 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -62,7 +65,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

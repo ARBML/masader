@@ -1,14 +1,17 @@
 {
     "Name": "AlGhafa",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://gitlab.com/tiiuae/alghafa",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -43,7 +46,8 @@
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],

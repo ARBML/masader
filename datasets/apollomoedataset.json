@@ -1,15 +1,18 @@
 {
     "Name": "ApolloMoEDataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/FreedomIntelligence/ApolloMoEDataset",
     "Link": "https://huggingface.co/datasets/FreedomIntelligence/ApolloMoEDataset",
     "License": "MIT License",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "books",
         "web pages"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

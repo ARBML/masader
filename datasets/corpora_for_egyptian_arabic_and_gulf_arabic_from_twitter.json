@@ -1,6 +1,6 @@
 {
     "Name": "Corpora for Egyptian Arabic and Gulf Arabic from Twitter",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "GLF",
             "Dialect": "Gulf",
@@ -20,8 +20,11 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -40,7 +43,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

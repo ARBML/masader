@@ -1,6 +1,6 @@
 {
     "Name": "ArabicCulturalQA",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "MSA",
             "Volume": 8969.0,
@@ -38,8 +38,11 @@
     "Year": 2026,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -63,7 +66,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering",
         "multiple choice question answering"

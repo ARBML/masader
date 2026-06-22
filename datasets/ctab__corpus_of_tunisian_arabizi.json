@@ -1,14 +1,17 @@
 {
     "Name": "CTAB: Corpus of Tunisian Arabizi",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/CTAB",
     "Link": "https://zenodo.org/record/4781769#.YqSPY3ZBxD9",
     "License": "CC BY 4.0",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

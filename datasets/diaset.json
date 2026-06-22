@@ -1,14 +1,17 @@
 {
     "Name": "DiaSet",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://idc-dsi.github.io/DiaCorpus/",
     "License": "CC BY-SA 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Palestine",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "named entity recognition"

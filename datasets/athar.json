@@ -1,14 +1,17 @@
 {
     "Name": "ATHAR",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/mohamed-khalil/ATHAR",
     "Link": "https://hf.co/datasets/mohamed-khalil/ATHAR",
     "License": "CC BY-SA 4.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -35,7 +38,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

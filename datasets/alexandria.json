@@ -1,6 +1,6 @@
 {
     "Name": "Alexandria",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "PSE",
             "Volume": 5391.0,
@@ -86,8 +86,11 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -109,7 +112,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],

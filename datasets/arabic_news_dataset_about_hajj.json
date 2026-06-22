@@ -1,14 +1,17 @@
 {
     "Name": "Arabic news dataset about Hajj",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Haneen84/Arabic_news/tree/main",
     "Link": "https://hf.co/datasets/Haneen84/Arabic_news/tree/main",
     "License": "unknown",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "information retrieval"

@@ -1,14 +1,17 @@
 {
     "Name": "AI Society Translated",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/camel-ai/ai_society_translated",
     "Link": "https://hf.co/datasets/camel-ai/ai_society_translated",
     "License": "CC BY-NC 4.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],

@@ -1,15 +1,18 @@
 {
     "Name": "MADCAT Phase 2 Training Set",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2013T09",
     "License": "LDC User Agreement",
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "web pages"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "images",
     "Collection Style": [
@@ -30,7 +33,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "optical character recognition"
     ],

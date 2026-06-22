@@ -1,14 +1,17 @@
 {
     "Name": "SHADES",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/LanguageShades/BiasShades",
     "Link": "https://huggingface.co/datasets/LanguageShades/BiasShades",
     "License": "custom",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -28,7 +31,8 @@
     "Host": "HuggingFace",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "safety evaluation"
     ],

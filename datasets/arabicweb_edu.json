@@ -1,14 +1,17 @@
 {
     "Name": "ArabicWeb-Edu",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/sboughorbel/arabic-web-edu-seed",
     "Link": "https://huggingface.co/datasets/sboughorbel/arabic-web-edu-seed",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

@@ -1,17 +1,20 @@
 {
     "Name": "BahrainCorpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://www.bahraincorpus.com",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Bahrain",
-    "Domain": [
+    "Source": [
         "social media",
         "TV channels",
         "web pages",
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -37,7 +40,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "morphological analysis",
         "speech recognition"

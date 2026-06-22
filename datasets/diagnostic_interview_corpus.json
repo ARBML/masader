@@ -1,6 +1,6 @@
 {
     "Name": "Diagnostic interview corpus ",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "ar",
             "Volume": 12754.0,
@@ -32,8 +32,11 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -55,7 +58,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

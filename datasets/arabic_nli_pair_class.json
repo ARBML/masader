@@ -1,14 +1,17 @@
 {
     "Name": " Arabic-NLi-Pair-Class",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Pair-Class",
     "Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/Arabic-NLi-Pair-Class",
     "License": "Apache-2.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -32,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "natural language inference"
     ],

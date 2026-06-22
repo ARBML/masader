@@ -1,14 +1,17 @@
 {
     "Name": "Arabic 100k Reviews",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/arabic_100k_reviews",
     "Link": "https://www.kaggle.com/datasets/abedkhooli/arabic-100k-reviews",
     "License": "unknown",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "reviews"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

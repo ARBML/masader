@@ -1,6 +1,6 @@
 {
     "Name": "QADI Arabic",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "AE",
             "Dialect": "United Arab Emirates",
@@ -116,8 +116,11 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -138,7 +141,8 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

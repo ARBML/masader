@@ -1,14 +1,17 @@
 {
     "Name": "RATS Speaker Identification",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2021S08",
     "License": "LDC User Agreement",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "7,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speaker identification"
     ],

@@ -1,6 +1,6 @@
 {
     "Name": "SadeedDiac-25",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Classical Arabic",
             "Volume": 600.0,
@@ -20,8 +20,11 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -45,7 +48,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "diacritization"
     ],

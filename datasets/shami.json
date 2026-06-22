@@ -1,6 +1,6 @@
 {
     "Name": "Shami",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Jordanian",
             "Dialect": "Jordan",
@@ -32,8 +32,11 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -54,7 +57,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

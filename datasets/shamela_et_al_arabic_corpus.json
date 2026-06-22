@@ -1,14 +1,17 @@
 {
     "Name": "Shamela et al Arabic Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/tarekeldeeb/arabic_corpus/tree/3ecc54d435f5326625d2e7b5246c92b5c62bac51",
     "License": "CC BY 4.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

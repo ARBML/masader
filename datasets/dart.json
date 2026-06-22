@@ -1,6 +1,6 @@
 {
     "Name": "DART",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "EGY",
             "Dialect": "Egypt",
@@ -38,8 +38,11 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -60,7 +63,8 @@
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

@@ -1,6 +1,6 @@
 {
     "Name": "MADIS-5",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Levantine",
             "Volume": 1155.0,
@@ -38,11 +38,14 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "TV channels",
         "public datasets",
         "news articles",
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -69,7 +72,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

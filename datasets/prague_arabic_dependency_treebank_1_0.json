@@ -1,15 +1,18 @@
 {
     "Name": "Prague Arabic Dependency Treebank 1.0",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2004T23",
     "License": "LDC User Agreement",
     "Year": 2004,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -37,7 +40,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "100.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "information retrieval",
         "language modeling",

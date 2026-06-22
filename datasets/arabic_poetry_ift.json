@@ -1,6 +1,6 @@
 {
     "Name": "Arabic Poetry IFT",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "MSA",
             "Volume": 657.0,
@@ -38,9 +38,12 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets",
         "web pages"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -67,7 +70,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction following"
     ],

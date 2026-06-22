@@ -1,14 +1,17 @@
 {
     "Name": "Quran-Ayah-Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/rabah2026/Quran-Ayah-Corpus",
     "Link": "https://huggingface.co/datasets/rabah2026/Quran-Ayah-Corpus",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

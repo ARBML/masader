@@ -1,14 +1,17 @@
 {
     "Name": "Arabic Hate Speech 2022 Shared Task",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Arabic_Hate_Speech",
     "Link": "https://sites.google.com/view/arabichate2022/home",
     "License": "custom",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "offensive language detection",
         "hate speech detection"

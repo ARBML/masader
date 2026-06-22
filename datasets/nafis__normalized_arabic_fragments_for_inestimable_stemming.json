@@ -1,14 +1,17 @@
 {
     "Name": "NAFIS: Normalized Arabic Fragments for Inestimable Stemming",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.elra.info/en-us/repository/browse/ELRA-W0127/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "ELRA",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "stemming"
     ],

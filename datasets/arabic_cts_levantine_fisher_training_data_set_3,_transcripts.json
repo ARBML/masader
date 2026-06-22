@@ -1,14 +1,17 @@
 {
     "Name": "Arabic CTS Levantine Fisher Training Data Set 3, Transcripts",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2005T03",
     "License": "LDC User Agreement",
     "Year": 2005,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "telephone conversations"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

@@ -1,14 +1,17 @@
 {
     "Name": "Al-Hayat Arabic Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-W0030/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "720.00€",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "topic classification"
     ],

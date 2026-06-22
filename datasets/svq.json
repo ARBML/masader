@@ -1,6 +1,6 @@
 {
     "Name": "SVQ",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "ar_eg",
             "Volume": 18.23,
@@ -32,8 +32,11 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -56,7 +59,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

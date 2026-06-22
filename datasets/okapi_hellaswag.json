@@ -1,14 +1,17 @@
 {
     "Name": "Okapi Hellaswag",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/jon-tow/okapi_hellaswag",
     "Link": "https://huggingface.co/datasets/jon-tow/okapi_hellaswag",
     "License": "CC BY-NC 4.0",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -32,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "natural language inference"
     ],

@@ -1,14 +1,17 @@
 {
     "Name": "Le Monde Diplomatique: Arabic tagged corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-W0049/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2009,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "400.00€",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "grammatical analysis",
         "morphological analysis"

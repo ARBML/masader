@@ -1,14 +1,17 @@
 {
     "Name": "Arzen-Multigenre",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArzEn_MultiGenre_songs,https://hf.co/datasets/arbml/ArzEn_MultiGenre_subtitles,https://hf.co/datasets/arbml/ArzEn_MultiGenre_novels",
     "Link": "https://data.mendeley.com/datasets/6k97jty9xg/3",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "language modeling",

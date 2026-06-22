@@ -1,14 +1,17 @@
 {
     "Name": "Sudanese Dialect tweets about ridesharing companies",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Sudanese_Dialect_Tweet",
     "Link": "https://docs.google.com/spreadsheets/d/1bNwimEQFMWtjlsKtL8PH_RNFNjg-b6p3/edit?usp=sharing&ouid=101796411348671465142&rtpof=true&sd=true",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Sudan",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

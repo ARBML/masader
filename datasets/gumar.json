@@ -1,6 +1,6 @@
 {
     "Name": "Gumar",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "SA",
             "Dialect": "Saudi Arabia",
@@ -56,8 +56,11 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -78,7 +81,8 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "morphological analysis"
     ],

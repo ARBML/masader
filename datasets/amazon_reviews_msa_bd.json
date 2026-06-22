@@ -1,6 +1,6 @@
 {
     "Name": "Amazon Reviews MSA BD",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "BD",
             "Volume": 5000.0,
@@ -20,8 +20,11 @@
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "reviews"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -45,7 +48,8 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

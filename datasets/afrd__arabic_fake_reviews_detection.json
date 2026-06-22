@@ -1,14 +1,17 @@
 {
     "Name": "AFRD: Arabic Fake Reviews Detection",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Noor0/AFRD_Arabic-Fake-Reviews-Detection",
     "Link": "https://github.com/NoorAmer0/AFRD-arabic-fake-reviews-dataset",
     "License": "CC BY 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
-    "Domain": [
+    "Source": [
         "reviews"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "dialect identification",

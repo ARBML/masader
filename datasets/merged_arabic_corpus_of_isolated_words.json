@@ -1,14 +1,17 @@
 {
     "Name": "Merged Arabic Corpus of Isolated Words",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Merged_Arabic_Corpus_of_Isolated_Words",
     "Link": "https://www.kaggle.com/datasets/mohamedanwarvic/merged-arabic-corpus-of-isolated-words",
     "License": "Apache-1.0",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

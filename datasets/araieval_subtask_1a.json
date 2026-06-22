@@ -1,16 +1,19 @@
 {
     "Name": "ArAIEval Subtask 1A",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://gitlab.com/araieval/araieval_arabicnlp24/-/tree/main/task1",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "news articles",
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -34,7 +37,8 @@
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "other"
     ],

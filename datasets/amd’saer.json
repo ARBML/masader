@@ -1,16 +1,19 @@
 {
     "Name": "Amd’SaEr",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/belgats/Arabic-Multimodal-Dataset",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "TV channels",
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "videos",
     "Collection Style": [
@@ -35,7 +38,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "emotion classification"

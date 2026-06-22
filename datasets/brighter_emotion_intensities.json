@@ -1,16 +1,19 @@
 {
     "Name": "BRIGHTER Emotion Intensities",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/brighter-dataset/BRIGHTER-emotion-intensities",
     "Link": "https://huggingface.co/datasets/brighter-dataset/BRIGHTER-emotion-intensities",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media",
         "books",
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "emotion classification"
     ],

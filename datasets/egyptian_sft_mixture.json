@@ -1,14 +1,17 @@
 {
     "Name": "Egyptian SFT Mixture",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/MBZUAI-Paris/Egyptian-SFT-Mixture",
     "Link": "https://huggingface.co/datasets/MBZUAI-Paris/Egyptian-SFT-Mixture",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -38,7 +41,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],

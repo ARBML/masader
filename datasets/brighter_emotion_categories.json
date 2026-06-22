@@ -1,6 +1,6 @@
 {
     "Name": "BRIGHTER Emotion Categories",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "arq",
             "Volume": 2905.0,
@@ -20,10 +20,13 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "books",
         "news articles"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -44,7 +47,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "emotion classification"
     ],

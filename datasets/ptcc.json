@@ -1,14 +1,17 @@
 {
     "Name": "PTCC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/AMR-KELEG/PTCC",
     "Link": "https://hf.co/datasets/AMR-KELEG/PTCC",
     "License": "MIT License",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "language modeling",

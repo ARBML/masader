@@ -1,14 +1,17 @@
 {
     "Name": "Arab States Analogy Dataset (ASAD)",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/SaiedAlshahrani/ASAD",
     "Link": "https://github.com/SaiedAlshahrani/performance-implications/tree/main/Word-Representation-Evals/ASAD",
     "License": "MIT License",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "embedding evaluation"
     ],

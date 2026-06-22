@@ -1,14 +1,17 @@
 {
     "Name": "Sudannese Arabic Telcom Sentiment Classification Pre Processed",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://docs.google.com/spreadsheets/d/13fIV8oHss-QRBKN-2h5LYF1i_1O9qH1R/edit?usp=sharing&ouid=113975694262803649646&rtpof=true&sd=true",
     "License": "MIT License",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Sudan",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -29,7 +32,8 @@
     "Host": "Gdrive",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

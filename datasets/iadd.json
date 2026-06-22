@@ -1,6 +1,6 @@
 {
     "Name": "IADD",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Volume": 14426.0,
@@ -86,8 +86,11 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -114,7 +117,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

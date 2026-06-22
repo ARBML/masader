@@ -1,14 +1,17 @@
 {
     "Name": "ArSenTD-LEV",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/ramybaly/arsentd_lev",
     "Link": "http://oma-project.com/ArSenL/ArSenTD_Lev_Intro",
     "License": "custom",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -30,7 +33,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

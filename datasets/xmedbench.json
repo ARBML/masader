@@ -1,14 +1,17 @@
 {
     "Name": "XMedbench",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/FreedomIntelligence/XMedbench",
     "Link": "https://huggingface.co/datasets/FreedomIntelligence/XMedbench",
     "License": "Apache-2.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -32,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],

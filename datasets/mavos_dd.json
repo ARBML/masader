@@ -1,15 +1,18 @@
 {
     "Name": "MAVOS-DD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/unibuc-cs/MAVOS-DD",
     "Link": "https://huggingface.co/datasets/unibuc-cs/MAVOS-DD",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media",
         "TV channels"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "videos",
     "Collection Style": [
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "deepfake detection"
     ],

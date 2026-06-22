@@ -1,14 +1,17 @@
 {
     "Name": "CODA* (Conventional Orthography for Dialectal Arabic)",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/CAMeL-Lab/camel-guidelines/edit/master/docs/orthography.md",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2011,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -33,7 +36,8 @@
     "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "morphological analysis"
     ],

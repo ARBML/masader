@@ -1,14 +1,17 @@
 {
     "Name": "Arabic Named Entity Gazetteer",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/WikiFANEGazet",
     "Link": "https://sourceforge.net/projects/arabic-named-entity-gazetteer/",
     "License": "CC BY 3.0",
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -27,7 +30,8 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition",
         "information retrieval"

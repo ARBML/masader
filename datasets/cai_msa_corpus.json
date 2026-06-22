@@ -1,6 +1,6 @@
 {
     "Name": "CAI-MSA-Corpus",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "MSA subset",
             "Volume": 130.0,
@@ -20,8 +20,11 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "books"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -45,7 +48,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

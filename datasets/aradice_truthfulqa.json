@@ -1,6 +1,6 @@
 {
     "Name": "AraDiCE-TruthfulQA ",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "TruthfulQA-egy",
             "Volume": 780.0,
@@ -26,8 +26,11 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -51,7 +54,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

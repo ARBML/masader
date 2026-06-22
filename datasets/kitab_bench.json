@@ -1,15 +1,18 @@
 {
     "Name": "KITAB-Bench",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/ahmedheakl/arocrbench_khatt",
     "Link": "https://huggingface.co/datasets/ahmedheakl/arocrbench_khatt",
     "License": "MIT License",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets",
         "LLM"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "images",
     "Collection Style": [
@@ -48,7 +51,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "optical character recognition"
     ],

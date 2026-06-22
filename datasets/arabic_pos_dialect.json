@@ -1,6 +1,6 @@
 {
     "Name": "Arabic POS Dialect",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Egyptian",
             "Dialect": "Egypt",
@@ -32,8 +32,11 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -54,7 +57,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "part of speech tagging"
     ],

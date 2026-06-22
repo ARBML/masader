@@ -1,14 +1,17 @@
 {
     "Name": "Arabizi-Egypt",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/nilechat-arabizi-egy",
     "Link": "https://huggingface.co/datasets/UBC-NLP/nilechat-arabizi-egy",
     "License": "CC BY-NC 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -32,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

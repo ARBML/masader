@@ -1,6 +1,6 @@
 {
     "Name": "The SADID Evaluation Datasets",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Levantine",
             "Dialect": "Levant",
@@ -32,8 +32,11 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "other"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -60,7 +63,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

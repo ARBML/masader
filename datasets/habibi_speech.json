@@ -1,6 +1,6 @@
 {
     "Name": "Habibi Speech",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "MSA",
             "Volume": 921.5,
@@ -86,8 +86,11 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -122,7 +125,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "text to speech"
     ],

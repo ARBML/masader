@@ -1,6 +1,6 @@
 {
     "Name": "NADI-2021",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Dialect": "Algeria",
@@ -134,8 +134,11 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
     "Collection Style": [
@@ -156,7 +159,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],
