@@ -8,10 +8,11 @@
     "Language": "ar",
     "Dialect": "Classical Arabic",
     "Source": [
-        "web pages"
+        "books"
     ],
     "Domain": [
-        "general"
+        "literature",
+        "poetry"
     ],
     "Form": "text",
     "Collection Style": [

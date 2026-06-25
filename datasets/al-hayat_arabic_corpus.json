@@ -11,7 +11,13 @@
         "news articles"
     ],
     "Domain": [
-        "general"
+        "news",
+        "general",
+        "science",
+        "politics",
+        "technology",
+        "sports",
+        "economics"
     ],
     "Form": "text",
     "Collection Style": [

@@ -8,16 +8,18 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "news articles",
+        "telephone conversations"
     ],
     "Domain": [
-        "general"
+        "general",
+        "news"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
-    "Description": "Below is information about the amount of data in this release and its annotation status. Further information such as breakdown of genres and formats can be found in the associated README file.",
+    "Description": "ACE 2005 Multilingual Training Corpus was developed by the Linguistic Data Consortium (LDC) and contains approximately 1,800 files of mixed genre text in English, Arabic, and Chinese annotated for entities, relations, and events.",
     "Volume": 303833.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",

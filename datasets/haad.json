@@ -8,10 +8,10 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "books"
+        "reviews"
     ],
     "Domain": [
-        "general"
+        "literature"
     ],
     "Form": "text",
     "Collection Style": [

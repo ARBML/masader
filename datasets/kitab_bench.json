@@ -8,8 +8,7 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "public datasets",
-        "LLM"
+        "public datasets"
     ],
     "Domain": [
         "general"

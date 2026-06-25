@@ -8,10 +8,10 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "web pages"
+        "public datasets"
     ],
     "Domain": [
-        "general"
+        "science"
     ],
     "Form": "text",
     "Collection Style": [

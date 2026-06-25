@@ -8,7 +8,7 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -25,7 +25,9 @@
     "Provider": [
         "NYU Abu Dhabi"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "JRC-Acquis"
+    ],
     "Paper Title": "A Parallel Corpus for Evaluating Machine Translation between Arabic and European Languages",
     "Paper Link": "https://aclanthology.org/E17-2038.pdf",
     "Script": "Arab",

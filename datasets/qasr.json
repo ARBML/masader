@@ -8,16 +8,16 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "TV channels"
     ],
     "Domain": [
-        "general"
+        "news"
     ],
     "Form": "audio",
     "Collection Style": [
         "crawling"
     ],
-    "Description": "This multi-dialect speech dataset contains 2, 000 hours of speech sampled at 16kHz crawled from Aljazeera news channel",
+    "Description": "This multi-dialect speech dataset contains 2,000 hours of speech sampled at 16kHz crawled from Aljazeera news channel",
     "Volume": 2000.0,
     "Unit": "hours",
     "Ethical Risks": "Low",

@@ -8,10 +8,11 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
-        "general"
+        "education",
+        "science"
     ],
     "Form": "text",
     "Collection Style": [
@@ -22,9 +23,11 @@
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
-        "-"
+        "KAUST"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "MATH23K"
+    ],
     "Paper Title": "ArMATH: a Dataset for Solving Arabic Math Word Problems",
     "Paper Link": "https://aclanthology.org/2022.lrec-1.37.pdf",
     "Script": "Arab",

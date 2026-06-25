@@ -8,7 +8,7 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -24,7 +24,9 @@
     "Provider": [
         "Multiple Institutions"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "Arabic TimeML"
+    ],
     "Paper Title": "Enrichment of Arabic TimeML Corpus",
     "Paper Link": "https://link.springer.com/chapter/10.1007/978-3-030-63007-2_51",
     "Script": "Arab",

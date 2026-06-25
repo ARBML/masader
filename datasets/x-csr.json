@@ -8,7 +8,7 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -24,7 +24,10 @@
     "Provider": [
         "University of Southern California"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "CSQA",
+        "CODAH"
+    ],
     "Paper Title": "Common Sense Beyond English: Evaluating and Improving Multilingual Language Models for Commonsense Reasoning",
     "Paper Link": "https://doi.org/10.18653/v1/2021.acl-long.102",
     "Script": "Arab",

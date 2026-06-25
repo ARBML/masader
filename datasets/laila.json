@@ -8,10 +8,10 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
-        "general"
+        "education"
     ],
     "Form": "text",
     "Collection Style": [

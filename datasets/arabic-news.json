@@ -8,10 +8,12 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "news articles"
+        "news articles",
+        "TV channels"
     ],
     "Domain": [
-        "general"
+        "general",
+        "news"
     ],
     "Form": "text",
     "Collection Style": [

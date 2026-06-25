@@ -8,16 +8,17 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "news articles"
     ],
     "Domain": [
-        "general"
+        "news",
+        "society"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
     ],
-    "Description": "A Study of Arabic Satirical Fake News",
+    "Description": "This is a dataset for Arabic satirical fake news. It is scraped from two satirical news websites, Al-Hudood and Al-Ahram Al-Mexici.",
     "Volume": 6895.0,
     "Unit": "documents",
     "Ethical Risks": "Low",

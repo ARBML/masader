@@ -8,7 +8,7 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -17,7 +17,7 @@
     "Collection Style": [
         "crawling"
     ],
-    "Description": "A parallel corpus of 12 languages, 66 bitexts.",
+    "Description": "A parallel corpus of 12 languages, 66 bitexts for machine translation",
     "Volume": 63000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

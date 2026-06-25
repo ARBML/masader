@@ -39,11 +39,13 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "public datasets",
-        "web pages"
+        "books",
+        "public datasets"
     ],
     "Domain": [
-        "general"
+        "literature",
+        "culture",
+        "poetry"
     ],
     "Form": "text",
     "Collection Style": [

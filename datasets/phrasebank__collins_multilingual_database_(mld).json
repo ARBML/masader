@@ -8,10 +8,11 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "treebanks"
     ],
     "Domain": [
-        "general"
+        "general",
+        "health"
     ],
     "Form": "audio",
     "Collection Style": [
@@ -22,7 +23,7 @@
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
-        "-"
+        "ELRA"
     ],
     "Derived From": [],
     "Paper Title": "",

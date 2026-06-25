@@ -17,7 +17,7 @@
     "Collection Style": [
         "crawling"
     ],
-    "Description": "Following the success of DeepMoji and TorchMoji (1, 2), we would like to leverage Twitter as an open source of self-annotated data to create a balanced multi-language \"in-the-wild\" sentiment dataset to test the quality of various NLP models and/or word/sub-word tokenization techniques.",
+    "Description": "Twitter-based annotated dataset that is balanced multi-language 'in-the-wild' sentiment dataset",
     "Volume": 287578.0,
     "Unit": "tokens",
     "Ethical Risks": "Medium",

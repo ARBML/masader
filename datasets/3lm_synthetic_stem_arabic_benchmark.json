@@ -8,11 +8,11 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "books",
-        "web pages"
+        "LLM"
     ],
     "Domain": [
-        "general"
+        "science",
+        "education"
     ],
     "Form": "text",
     "Collection Style": [

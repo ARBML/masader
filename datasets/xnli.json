@@ -8,7 +8,7 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -25,7 +25,9 @@
         "Facebook",
         "NYU"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "MultiNLI"
+    ],
     "Paper Title": "XNLI: Evaluating Cross-lingual Sentence Representations",
     "Paper Link": "https://arxiv.org/pdf/1809.05053.pdf",
     "Script": "Arab",

@@ -8,9 +8,12 @@
     "Language": "ar",
     "Dialect": "Morocco",
     "Source": [
-        "other"
+        "TV channels",
+        "social media"
     ],
     "Domain": [
+        "sports",
+        "science",
         "general"
     ],
     "Form": "audio",

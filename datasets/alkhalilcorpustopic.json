@@ -12,7 +12,13 @@
         "web pages"
     ],
     "Domain": [
-        "general"
+        "culture",
+        "politics",
+        "society",
+        "literature",
+        "economics",
+        "science",
+        "sports"
     ],
     "Form": "text",
     "Collection Style": [

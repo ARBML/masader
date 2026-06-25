@@ -8,7 +8,8 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets",
+        "social media"
     ],
     "Domain": [
         "general"
@@ -22,7 +23,9 @@
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [],
-    "Derived From": [],
+    "Derived From": [
+        "Snips Data"
+    ],
     "Paper Title": "From Masked Language Modeling to Translation: Non-English Auxiliary Tasks Improve Zero-shot Spoken Language Understanding",
     "Paper Link": "https://aclanthology.org/2021.naacl-main.197.pdf",
     "Script": "Arab",

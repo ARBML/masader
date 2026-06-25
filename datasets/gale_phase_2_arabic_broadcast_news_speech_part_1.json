@@ -11,6 +11,7 @@
         "TV channels"
     ],
     "Domain": [
+        "news",
         "general"
     ],
     "Form": "audio",

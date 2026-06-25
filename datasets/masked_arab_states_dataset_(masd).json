@@ -8,10 +8,11 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
-        "general"
+        "culture",
+        "society"
     ],
     "Form": "text",
     "Collection Style": [

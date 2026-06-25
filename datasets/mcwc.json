@@ -8,10 +8,11 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "web pages",
+        "wikipedia"
     ],
     "Domain": [
-        "general"
+        "law"
     ],
     "Form": "text",
     "Collection Style": [

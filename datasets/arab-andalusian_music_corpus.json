@@ -8,16 +8,17 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "studio recordings"
     ],
     "Domain": [
-        "general"
+        "art",
+        "culture"
     ],
     "Form": "audio",
     "Collection Style": [
         "other"
     ],
-    "Description": "The following files are available for 164 concert recordings (overall playable time more than 125 hours):",
+    "Description": "164 concert recordings (overall playable time more than 125 hours)",
     "Volume": 125.0,
     "Unit": "hours",
     "Ethical Risks": "Low",

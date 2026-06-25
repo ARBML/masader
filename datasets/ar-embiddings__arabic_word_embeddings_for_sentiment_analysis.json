@@ -8,10 +8,15 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "social media"
+        "social media",
+        "news articles",
+        "reviews",
+        "books"
     ],
     "Domain": [
-        "general"
+        "general",
+        "news",
+        "religion"
     ],
     "Form": "text",
     "Collection Style": [

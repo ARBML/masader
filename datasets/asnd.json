@@ -12,7 +12,14 @@
         "news articles"
     ],
     "Domain": [
-        "general"
+        "news",
+        "art",
+        "politics",
+        "technology",
+        "science",
+        "religion",
+        "education",
+        "economics"
     ],
     "Form": "text",
     "Collection Style": [

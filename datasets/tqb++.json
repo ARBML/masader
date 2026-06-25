@@ -11,7 +11,11 @@
         "other"
     ],
     "Domain": [
-        "general"
+        "science",
+        "technology",
+        "literature",
+        "art",
+        "culture"
     ],
     "Form": "text",
     "Collection Style": [

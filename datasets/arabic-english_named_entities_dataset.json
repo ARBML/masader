@@ -8,7 +8,7 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "news articles"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -26,7 +26,9 @@
         "Monastir University - Tunisia",
         "Umm Al-Qura University - Saudi Arabia"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "DBpedia"
+    ],
     "Paper Title": "Constructing a Lexicon of Arabic-English Named Entity using SMT and Semantic Linked Data",
     "Paper Link": "http://iajit.org/PDF//vol.%2014,%20no%206/10491.pdf",
     "Script": "Arab-Latin",

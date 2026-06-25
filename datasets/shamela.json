@@ -11,7 +11,9 @@
         "books"
     ],
     "Domain": [
-        "general"
+        "religion",
+        "literature",
+        "history"
     ],
     "Form": "text",
     "Collection Style": [

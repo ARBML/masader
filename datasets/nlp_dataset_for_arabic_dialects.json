@@ -48,7 +48,7 @@
     "Collection Style": [
         "crawling"
     ],
-    "Description": "This data was collected from the Twitter social network and consists on +50K\ntwits in five (5) national dialects",
+    "Description": "This data was collected from the Twitter social network and consists on +50K tweets in five (5) national dialects",
     "Volume": 53403.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",

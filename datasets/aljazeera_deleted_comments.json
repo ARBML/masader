@@ -11,13 +11,13 @@
         "commentary"
     ],
     "Domain": [
-        "general"
+        "news"
     ],
     "Form": "text",
     "Collection Style": [
         "other"
     ],
-    "Description": "offensive and obsene language dataset",
+    "Description": "Aljazeera Deleted Comments is a dataset of 32K deleted comments from Aljazeera.net, a popular Arabic news channel, moderates all the comments that appear on their site.",
     "Volume": 33100.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

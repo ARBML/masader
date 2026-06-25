@@ -8,10 +8,11 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "studio recordings"
     ],
     "Domain": [
-        "general"
+        "general",
+        "education"
     ],
     "Form": "text",
     "Collection Style": [

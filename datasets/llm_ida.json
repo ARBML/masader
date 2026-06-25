@@ -8,11 +8,11 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "wikipedia",
         "public datasets"
     ],
     "Domain": [
-        "general"
+        "politics",
+        "society"
     ],
     "Form": "text",
     "Collection Style": [

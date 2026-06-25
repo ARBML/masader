@@ -12,6 +12,7 @@
         "news articles"
     ],
     "Domain": [
+        "news",
         "general"
     ],
     "Form": "text",

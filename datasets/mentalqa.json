@@ -8,11 +8,12 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "commentary",
-        "web pages"
+        "web pages",
+        "social media"
     ],
     "Domain": [
-        "general"
+        "health",
+        "society"
     ],
     "Form": "text",
     "Collection Style": [

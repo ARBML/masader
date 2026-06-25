@@ -8,10 +8,14 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Source": [
-        "other"
+        "books",
+        "TV channels",
+        "subtitles"
     ],
     "Domain": [
-        "general"
+        "literature",
+        "culture",
+        "art"
     ],
     "Form": "text",
     "Collection Style": [

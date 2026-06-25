@@ -8,9 +8,12 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "news articles"
+        "news articles",
+        "treebanks",
+        "public datasets"
     ],
     "Domain": [
+        "news",
         "general"
     ],
     "Form": "text",
@@ -24,7 +27,9 @@
     "Provider": [
         "Al-Imam Mohammad Ibn Saud Islamic University"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "Arabic Treebank: Part 1 v 4.1"
+    ],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab-Latin",

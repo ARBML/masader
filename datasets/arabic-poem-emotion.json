@@ -8,10 +8,11 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "books"
     ],
     "Domain": [
-        "general"
+        "literature",
+        "culture"
     ],
     "Form": "text",
     "Collection Style": [

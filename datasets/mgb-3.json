@@ -8,9 +8,12 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Source": [
-        "other"
+        "TV channels"
     ],
     "Domain": [
+        "culture",
+        "science",
+        "sports",
         "general"
     ],
     "Form": "audio",

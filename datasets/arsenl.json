@@ -8,7 +8,7 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -17,7 +17,7 @@
     "Collection Style": [
         "crawling"
     ],
-    "Description": "large scale\r\nStandard Arabic sentiment lexicon (ArSenL) using a combination of existing resources: ESWN, Arabic WordNet, and\r\nthe Standard Arabic Morphological Analyzer (SAMA)",
+    "Description": "large scale Standard Arabic sentiment lexicon (ArSenL) using a combination of existing resources: ESWN, Arabic WordNet, and\r\nthe Standard Arabic Morphological Analyzer (SAMA)",
     "Volume": 28760.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
@@ -25,7 +25,10 @@
         "AUB",
         "NYUAD"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "ESWN",
+        "Arabic WordNet"
+    ],
     "Paper Title": "A Large Scale Arabic Sentiment Lexicon\r\nfor Arabic Opinion Mining",
     "Paper Link": "https://aclanthology.org/W14-3623.pdf",
     "Script": "Latin",

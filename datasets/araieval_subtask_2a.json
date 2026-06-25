@@ -13,6 +13,8 @@
         "public datasets"
     ],
     "Domain": [
+        "politics",
+        "society",
         "general"
     ],
     "Form": "text",

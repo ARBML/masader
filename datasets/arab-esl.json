@@ -8,16 +8,18 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "social media"
+        "social media",
+        "public datasets"
     ],
     "Domain": [
-        "general"
+        "culture",
+        "society"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
     ],
-    "Description": "Emoji (the popular digital pictograms) are sometimes seen as a new kind of artificial and universally usable and consistent writing code. In spite of their assumed universality, there is some evidence that the sense of an emoji, specifically in regard to sentiment, may change from language to language and culture to culture. This paper investigates whether contextual emoji sentiment analysis is consistent across Arabic and European languages. To conduct this investigation, we, first, created the Arabic emoji sentiment lexicon (Arab-ESL). Then, we exploited an existing European emoji sentiment lexicon to compare the sentiment conveyed in each of the two families of language and culture (Arabic and European). The results show that the pairwise correlation between the two lexicons is consistent for emoji that represent, for instance, hearts, facial expressions, and body language. However, for a subset of emoji (those that represent objects, nature, symbols, and some human activities), there are large differences in the sentiment conveyed. More interestingly, an extremely high level of inconsistency has been shown with food emoji.",
+    "Description": "This is a context-sensitive Arabic sentiment lexicon of 1034 emoji, extracted from 144,196 tweets in existing Arabic datasets.",
     "Volume": 1034.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
@@ -25,7 +27,24 @@
         "Jazan University",
         "University of Birmingham"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "ATSAD",
+        "Arabic Twitter Data for Sentiment",
+        "TEAD",
+        "ArSAS",
+        "ATSAD",
+        "SS2030",
+        "SemEval-2018",
+        "ArSenTD-Lev",
+        "SemEval-2017",
+        "Syria Tweets",
+        "L-HSAB",
+        "Arabic Floods Detection",
+        "DART",
+        "ArSAS",
+        "Arabic-Tweets-vs-Dialects",
+        "L-HSAB"
+      ],
     "Paper Title": "Arabic Emoji Sentiment Lexicon (Arab-ESL): A Comparison between Arabic and European Emoji Sentiment Lexicons",
     "Paper Link": "https://aclanthology.org/2021.wanlp-1.7/",
     "Script": "Arab",

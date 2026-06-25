@@ -8,10 +8,10 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "news articles"
     ],
     "Domain": [
-        "general"
+        "news"
     ],
     "Form": "text",
     "Collection Style": [

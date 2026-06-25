@@ -8,16 +8,17 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "news articles"
     ],
     "Domain": [
-        "general"
+        "news",
+        "politics"
     ],
     "Form": "text",
     "Collection Style": [
         "other"
     ],
-    "Description": "This corpus contains 102,960 vowelized, lemmatized and tagged words (",
+    "Description": "This corpus contains 102,960 vowelised, lemmatised and tagged words (58 texts from Le Monde Diplomatique Arabic)",
     "Volume": 102960.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",

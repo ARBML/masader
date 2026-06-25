@@ -17,7 +17,7 @@
     "Collection Style": [
         "manual curation"
     ],
-    "Description": "Moroccan_Arabic_Wikipedia_20230101_nobots is a dataset created using the Moroccan Arabic Wikipedia articles, excluding the bot-generated articles, downloaded on the 1st of January 2023, and processed to train a Moroccan Arabic RoBERTa model.",
+    "Description": "It is a dataset created using the Moroccan Arabic Wikipedia articles, excluding the bot-generated articles, downloaded on the 1st of January 2023, and processed to train a Moroccan Arabic RoBERTa model.",
     "Volume": 4680.0,
     "Unit": "documents",
     "Ethical Risks": "Low",

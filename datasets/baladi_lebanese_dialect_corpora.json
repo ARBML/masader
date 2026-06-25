@@ -8,10 +8,13 @@
     "Language": "ar",
     "Dialect": "Lebanon",
     "Source": [
+        "social media",
         "other"
     ],
     "Domain": [
-        "general"
+        "general",
+        "literature",
+        "culture"
     ],
     "Form": "text",
     "Collection Style": [

@@ -12,7 +12,8 @@
         "news articles"
     ],
     "Domain": [
-        "general"
+        "general",
+        "news"
     ],
     "Form": "text",
     "Collection Style": [

@@ -8,7 +8,9 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "web pages",
+        "public datasets",
+        "books"
     ],
     "Domain": [
         "general"
@@ -25,7 +27,8 @@
         "KACST"
     ],
     "Derived From": [
-        "http://shamela.ws/  http://saaid.net/  http://www.awu.sy/  https://uqu.edu.sa/page/ar/518  http://www.kfu.edu.sa/ar/departments/sjournal/Pages/Home.aspx  http://www.boe.gov.sa/MainLaws.aspx?lang=en  http://www.arablegalportal.org/  http://www.alwatan.com.sa http://rosa-magazine.com/  http://www.spa.gov.sa/"
+        "Shamela",
+        "Alwatan"
     ],
     "Paper Title": "A 700M+ Arabic corpus: KACST Arabic corpus design and construction",
     "Paper Link": "https://link.springer.com/article/10.1007/s10579-014-9284-1",
@@ -39,12 +42,11 @@
     "Tasks": [
         "natural language inference"
     ],
-    "Venue Title": "LREC",
-    "Venue Type": "conference",
-    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Venue Title": "LRE",
+    "Venue Type": "journal",
+    "Venue Name": "Language Resources and Evaluation",
     "Authors": [
-        "Al-Thubaity",
-        "A.O"
+        "Abdulmohsen O. Al-Thubaity"
     ],
     "Affiliations": [
         "King Abdulaziz City for Science & Technology (KACST) university"

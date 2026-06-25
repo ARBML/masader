@@ -8,7 +8,7 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -25,8 +25,13 @@
         "USTHB University",
         "University of Salford"
     ],
-    "Derived From": [],
-    "Paper Title": "Automatic Identification and Verification",
+    "Derived From": [
+        "United Nations",
+        "OpenSubtitles",
+        "News Commentary",
+        "IWSLT2016"
+    ],
+    "Paper Title": "ANETAC: Arabic Named Entity Transliteration and Classification Dataset",
     "Paper Link": "https://arxiv.org/pdf/1907.03110.pdf",
     "Script": "Arab-Latin",
     "Tokenized": false,

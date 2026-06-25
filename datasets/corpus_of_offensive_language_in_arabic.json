@@ -11,13 +11,14 @@
         "social media"
     ],
     "Domain": [
+        "society",
         "general"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
     ],
-    "Description": "a dataset of YouTube comments in Arabic, specifically designed to be used for thedetection of offensive language in a machine learning scenario",
+    "Description": "a dataset of YouTube comments in Arabic, specifically designed to be used for the detection of offensive language in a machine learning scenario",
     "Volume": 15050.0,
     "Unit": "sentences",
     "Ethical Risks": "High",

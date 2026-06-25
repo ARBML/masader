@@ -11,7 +11,10 @@
         "books"
     ],
     "Domain": [
-        "general"
+        "religion",
+        "culture",
+        "law",
+        "education"
     ],
     "Form": "text",
     "Collection Style": [

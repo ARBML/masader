@@ -8,10 +8,11 @@
     "Language": "multilingual",
     "Dialect": "Palestine",
     "Source": [
-        "other"
+        "studio recordings"
     ],
     "Domain": [
-        "general"
+        "education",
+        "science"
     ],
     "Form": "images",
     "Collection Style": [

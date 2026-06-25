@@ -12,6 +12,7 @@
         "TV channels"
     ],
     "Domain": [
+        "news",
         "general"
     ],
     "Form": "text",

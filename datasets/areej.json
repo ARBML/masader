@@ -8,7 +8,7 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -22,7 +22,9 @@
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [],
-    "Derived From": [],
+    "Derived From": [
+        "SREDFM"
+    ],
     "Paper Title": "AREEj: Arabic Relation Extraction with Evidence",
     "Paper Link": "https://aclanthology.org/2024.arabicnlp-1.6.pdf",
     "Script": "Arab",

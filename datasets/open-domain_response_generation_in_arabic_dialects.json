@@ -8,10 +8,13 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
+        "public datasets",
         "other"
     ],
     "Domain": [
-        "general"
+        "general",
+        "society",
+        "culture"
     ],
     "Form": "text",
     "Collection Style": [

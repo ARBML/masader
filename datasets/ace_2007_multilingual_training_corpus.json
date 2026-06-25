@@ -12,11 +12,12 @@
         "TV channels"
     ],
     "Domain": [
+        "news",
         "general"
     ],
     "Form": "text",
     "Collection Style": [
-        "other"
+        "human annotation"
     ],
     "Description": "The Arabic data is composed of newswire (60%) published in October 2000-December 2000 and weblogs (40%) published during the period November 2004-February 2005.",
     "Volume": 98353.0,

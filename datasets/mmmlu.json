@@ -11,7 +11,12 @@
         "public datasets"
     ],
     "Domain": [
-        "general"
+        "science",
+        "education",
+        "literature",
+        "law",
+        "politics",
+        "health"
     ],
     "Form": "text",
     "Collection Style": [

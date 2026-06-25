@@ -8,9 +8,10 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "TV channels"
     ],
     "Domain": [
+        "news",
         "general"
     ],
     "Form": "audio",

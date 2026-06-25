@@ -11,7 +11,8 @@
         "news articles"
     ],
     "Domain": [
-        "general"
+        "news",
+        "religion"
     ],
     "Form": "text",
     "Collection Style": [

@@ -11,13 +11,13 @@
         "LLM"
     ],
     "Domain": [
-        "general"
+        "finance"
     ],
     "Form": "text",
     "Collection Style": [
         "LLM generated"
     ],
-    "Description": "A synthetic dataset created using Llama 3",
+    "Description": "A synthetic dataset created using Llama 3 for finance",
     "Volume": 30.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

@@ -11,6 +11,9 @@
         "TV channels"
     ],
     "Domain": [
+        "news",
+        "politics",
+        "society",
         "general"
     ],
     "Form": "text",

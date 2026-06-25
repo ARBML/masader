@@ -8,10 +8,11 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "news articles"
+        "news articles",
+        "treebanks"
     ],
     "Domain": [
-        "general"
+        "news"
     ],
     "Form": "text",
     "Collection Style": [

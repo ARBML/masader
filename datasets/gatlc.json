@@ -8,10 +8,11 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "web pages"
+        "public datasets"
     ],
     "Domain": [
-        "general"
+        "education",
+        "science"
     ],
     "Form": "text",
     "Collection Style": [
@@ -24,7 +25,9 @@
     "Provider": [
         "King Saud University"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "GAT"
+    ],
     "Paper Title": "GATmath and GATLc: Comprehensive benchmarks for evaluating Arabic large language models",
     "Paper Link": "https://doi.org/10.1371/journal.pone.0329129",
     "Script": "Arab",

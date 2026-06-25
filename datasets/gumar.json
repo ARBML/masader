@@ -57,10 +57,10 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "books"
     ],
     "Domain": [
-        "general"
+        "literature"
     ],
     "Form": "text",
     "Collection Style": [

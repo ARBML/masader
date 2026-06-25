@@ -8,10 +8,11 @@
     "Language": "ar",
     "Dialect": "Classical Arabic",
     "Source": [
-        "books"
+        "books",
+        "public datasets"
     ],
     "Domain": [
-        "general"
+        "literature"
     ],
     "Form": "text",
     "Collection Style": [

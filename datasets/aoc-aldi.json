@@ -8,9 +8,11 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "commentary"
+        "commentary",
+        "news articles"
     ],
     "Domain": [
+        "news",
         "general"
     ],
     "Form": "text",

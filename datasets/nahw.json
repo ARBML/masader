@@ -9,9 +9,10 @@
     "Dialect": "Modern Standard Arabic",
     "Source": [
         "web pages",
-        "books"
+        "LLM"
     ],
     "Domain": [
+        "education",
         "general"
     ],
     "Form": "text",

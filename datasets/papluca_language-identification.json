@@ -8,7 +8,7 @@
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -25,7 +25,7 @@
     "Derived From": [
         "Multilingual Amazon Reviews Corpus",
         "XNLI",
-        "and STSb Multi MT"
+        "STSb Multi MT"
     ],
     "Paper Title": "",
     "Paper Link": "",

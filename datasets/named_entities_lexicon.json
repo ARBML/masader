@@ -8,7 +8,7 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -24,7 +24,10 @@
     "Provider": [
         "Latice Laboratory"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "United Nations",
+        "News Commentary 2012"
+    ],
     "Paper Title": "Arabic-English Text Translation Leveraging Hybrid NER",
     "Paper Link": "https://aclanthology.org/Y17-1019.pdf",
     "Script": "Arab",

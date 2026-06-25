@@ -8,11 +8,12 @@
     "Language": "ar",
     "Dialect": "Tunisia",
     "Source": [
-        "social media",
         "public datasets"
     ],
     "Domain": [
-        "general"
+        "general",
+        "culture",
+        "society"
     ],
     "Form": "audio",
     "Collection Style": [

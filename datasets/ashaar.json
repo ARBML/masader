@@ -8,10 +8,13 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "books",
+        "web pages"
     ],
     "Domain": [
-        "general"
+        "literature",
+        "culture",
+        "poetry"
     ],
     "Form": "text",
     "Collection Style": [

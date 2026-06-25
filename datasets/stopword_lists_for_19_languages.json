@@ -17,7 +17,7 @@
     "Collection Style": [
         "other"
     ],
-    "Description": "Some words, like “the” or “and” in English, are used a lot in speech and writing. For most Natural Language Processing applications, you will want to remove these very frequent words. This is usually done using a list of “stopwords” which has been complied by hand.",
+    "Description": "This dataset contains a list of stopwords in 19 languages.",
     "Volume": 19.0,
     "Unit": "documents",
     "Ethical Risks": "Low",

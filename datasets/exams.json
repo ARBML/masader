@@ -8,10 +8,11 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "books"
     ],
     "Domain": [
-        "general"
+        "education",
+        "science"
     ],
     "Form": "text",
     "Collection Style": [

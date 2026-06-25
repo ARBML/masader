@@ -8,10 +8,11 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
+        "books",
         "web pages"
     ],
     "Domain": [
-        "general"
+        "poetry"
     ],
     "Form": "text",
     "Collection Style": [

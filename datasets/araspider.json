@@ -8,7 +8,7 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -25,7 +25,7 @@
         "Multiple Institutions"
     ],
     "Derived From": [
-        "Spider dataset (originally in English)"
+        "Spider dataset"
     ],
     "Paper Title": "ARASPIDER: Democratizing Arabic-to-SQL",
     "Paper Link": "https://arxiv.org/pdf/2402.07448",

@@ -8,11 +8,11 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "web pages",
         "books"
     ],
     "Domain": [
-        "general"
+        "literature",
+        "art"
     ],
     "Form": "images",
     "Collection Style": [

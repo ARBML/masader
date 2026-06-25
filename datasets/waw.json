@@ -8,7 +8,7 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "studio recordings"
     ],
     "Domain": [
         "general"
@@ -17,7 +17,7 @@
     "Collection Style": [
         "human annotation"
     ],
-    "Description": "an interpreting corpus for English/Arabic",
+    "Description": "WAW Corpus is a bilingual translation and interpretation corpus in Arabic and English.",
     "Volume": 31.0,
     "Unit": "hours",
     "Ethical Risks": "Low",

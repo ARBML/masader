@@ -8,10 +8,11 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "TV channels"
     ],
     "Domain": [
-        "general"
+        "news",
+        "politics"
     ],
     "Form": "audio",
     "Collection Style": [

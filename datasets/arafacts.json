@@ -8,7 +8,9 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "web pages",
+        "social media",
+        "news articles"
     ],
     "Domain": [
         "general"

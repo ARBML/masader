@@ -12,13 +12,14 @@
         "TV channels"
     ],
     "Domain": [
+        "news",
         "general"
     ],
     "Form": "text",
     "Collection Style": [
         "other"
     ],
-    "Description": "This release consists of Arabic source broadcast news and broadcast conversation data collected by LDC from 2007-2009. The distribution by genre, words, tokens and segments appears below:",
+    "Description": "GALE Arabic-English Word Alignment -- Broadcast Training Part 1 was developed by the Linguistic Data Consortium (LDC) and contains 267,257 tokens of word aligned Arabic and English parallel text enriched with linguistic tags.",
     "Volume": 11341.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

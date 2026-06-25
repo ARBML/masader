@@ -12,7 +12,8 @@
         "public datasets"
     ],
     "Domain": [
-        "general"
+        "news",
+        "politics"
     ],
     "Form": "text",
     "Collection Style": [

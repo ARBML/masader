@@ -8,10 +8,11 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "TV channels"
+        "TV channels",
+        "treebanks"
     ],
     "Domain": [
-        "general"
+        "news"
     ],
     "Form": "audio",
     "Collection Style": [

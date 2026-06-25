@@ -11,7 +11,10 @@
         "social media"
     ],
     "Domain": [
-        "general"
+        "health",
+        "crisis",
+        "news",
+        "society"
     ],
     "Form": "text",
     "Collection Style": [

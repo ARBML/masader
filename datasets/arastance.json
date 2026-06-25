@@ -11,7 +11,9 @@
         "news articles"
     ],
     "Domain": [
-        "general"
+        "politics",
+        "sports",
+        "health"
     ],
     "Form": "text",
     "Collection Style": [

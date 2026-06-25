@@ -8,7 +8,9 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "TV channels",
+        "subtitles",
+        "public datasets"
     ],
     "Domain": [
         "general"

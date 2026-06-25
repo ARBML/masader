@@ -21,8 +21,7 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "LLM",
-        "public datasets"
+        "studio recordings"
     ],
     "Domain": [
         "general"

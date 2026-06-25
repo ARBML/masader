@@ -11,7 +11,8 @@
         "news articles"
     ],
     "Domain": [
-        "general"
+        "finance",
+        "news"
     ],
     "Form": "text",
     "Collection Style": [

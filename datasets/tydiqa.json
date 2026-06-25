@@ -26,7 +26,7 @@
     ],
     "Derived From": [],
     "Paper Title": "TYDI QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages",
-    "Paper Link": "https://storage.googleapis.com/tydiqa/tydiqa.pdf",
+    "Paper Link": "https://aclanthology.org/2020.tacl-1.30.pdf",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",

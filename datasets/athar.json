@@ -8,10 +8,12 @@
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
     "Source": [
-        "other"
+        "books"
     ],
     "Domain": [
-        "general"
+        "literature",
+        "religion",
+        "culture"
     ],
     "Form": "text",
     "Collection Style": [

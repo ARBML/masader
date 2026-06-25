@@ -17,7 +17,7 @@
     "Collection Style": [
         "crawling"
     ],
-    "Description": "emotion detection dataset",
+    "Description": "Dataset of 10065 tweets in Arabic for Emotion detection in Arabic text",
     "Volume": 10065.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",

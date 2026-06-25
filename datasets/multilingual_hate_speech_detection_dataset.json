@@ -8,10 +8,11 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "social media"
+        "social media",
+        "public datasets"
     ],
     "Domain": [
-        "general"
+        "society"
     ],
     "Form": "text",
     "Collection Style": [

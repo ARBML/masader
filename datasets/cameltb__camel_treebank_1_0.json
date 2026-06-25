@@ -8,10 +8,14 @@
     "Language": "ar",
     "Dialect": "Classical Arabic",
     "Source": [
-        "books"
+        "books",
+        "treebanks"
     ],
     "Domain": [
-        "general"
+        "religion",
+        "literature",
+        "news",
+        "poetry"
     ],
     "Form": "text",
     "Collection Style": [

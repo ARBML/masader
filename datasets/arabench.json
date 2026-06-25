@@ -1,6 +1,103 @@
 {
     "Name": "Arabench",
-    "Dialect Subsets": [],
+    "Dialect Subsets": [
+        {
+            "Name": "MSA",
+            "Dialect": "Modern Standard Arabic",
+            "Volume": 19913.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Qatari",
+            "Dialect": "Qatar",
+            "Volume": 18713.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Moroccan",
+            "Dialect": "Morocco",
+            "Volume": 10500.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Tunisian",
+            "Dialect": "Tunisia",
+            "Volume": 10100.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Egyptian",
+            "Dialect": "Egypt",
+            "Volume": 9500.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Iraqi",
+            "Dialect": "Iraq",
+            "Volume": 9100.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Yemeni",
+            "Dialect": "Yemen",
+            "Volume": 9100.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Lebanese",
+            "Dialect": "Lebanon",
+            "Volume": 8100.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Saudi",
+            "Dialect": "Saudi Arabia",
+            "Volume": 7700.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Syrian",
+            "Dialect": "Syria",
+            "Volume": 7500.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Omani",
+            "Dialect": "Oman",
+            "Volume": 6000.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Palestinian",
+            "Dialect": "Palestine",
+            "Volume": 4000.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Algerian",
+            "Dialect": "Algeria",
+            "Volume": 4000.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Jordanian",
+            "Dialect": "Jordan",
+            "Volume": 2000.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Sudanese",
+            "Dialect": "Sudan",
+            "Volume": 2000.0,
+            "Unit": "sentences"
+        },
+        {
+            "Name": "Libyan",
+            "Dialect": "Libya",
+            "Volume": 2000.0,
+            "Unit": "sentences"
+        }
+    ],
     "HF Link": "https://hf.co/datasets/arbml/AraBench",
     "Link": "https://alt.qcri.org/resources1/mt/arabench/",
     "License": "Apache-2.0",
@@ -8,7 +105,7 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
@@ -18,18 +115,18 @@
         "other"
     ],
     "Description": "an evaluation suite for dialectal Arabic to English machine translation",
-    "Volume": 947000.0,
+    "Volume": 130226.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],
     "Derived From": [
-        "contains data from APT",
         "MDC",
         "MADAR",
-        "QCA(QAraC",
-        "the bible)"
+        "QAraC",
+        "the bible",
+        "Arabic-Dialect/English Parallel Text"
     ],
     "Paper Title": "AraBench: Benchmarking Dialectal Arabic-English Machine Translation",
     "Paper Link": "https://aclanthology.org/2020.coling-main.447.pdf",

@@ -9,10 +9,11 @@
     "Dialect": "Modern Standard Arabic",
     "Source": [
         "news articles",
-        "public datasets"
+        "public datasets",
+        "wikipedia"
     ],
     "Domain": [
-        "general"
+        "news"
     ],
     "Form": "text",
     "Collection Style": [

@@ -12,7 +12,8 @@
         "public datasets"
     ],
     "Domain": [
-        "general"
+        "education",
+        "science"
     ],
     "Form": "text",
     "Collection Style": [

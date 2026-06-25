@@ -11,7 +11,11 @@
         "news articles"
     ],
     "Domain": [
-        "general"
+        "news",
+        "culture",
+        "religion",
+        "politics",
+        "society"
     ],
     "Form": "text",
     "Collection Style": [

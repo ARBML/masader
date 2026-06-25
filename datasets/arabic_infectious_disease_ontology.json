@@ -11,13 +11,13 @@
         "web pages"
     ],
     "Domain": [
-        "general"
+        "health"
     ],
     "Form": "text",
     "Collection Style": [
         "crawling"
     ],
-    "Description": "This file contains an Arabic Infectious Disease Ontology to include Non-Standard Terminology. The Arabic Infectious Disease Ontology is written in the Arabic language, and is the first ontology in Arabic specialising in the infectious disease domain. It contains 11 classes, 21 object properties, 11 datatype properties, and 215 individual concepts.",
+    "Description": "The Arabic Infectious Disease Ontology is written in the Arabic language, and is the first ontology in Arabic specialising in the infectious disease domain. It contains 11 classes, 21 object properties, 11 datatype properties, and 215 individual concepts.",
     "Volume": 215.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

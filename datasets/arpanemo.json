@@ -12,6 +12,9 @@
         "news articles"
     ],
     "Domain": [
+        "health",
+        "crisis",
+        "society",
         "general"
     ],
     "Form": "text",

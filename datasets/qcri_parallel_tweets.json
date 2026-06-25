@@ -17,7 +17,7 @@
     "Collection Style": [
         "crawling"
     ],
-    "Description": "bilingual corpus of Arabic-English parallel tweets and a list of Twitter accounts who post Arabic-English",
+    "Description": "A bilingual corpus of Arabic-English parallel tweets and a list of Twitter accounts who post Arabic-English",
     "Volume": 166000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",

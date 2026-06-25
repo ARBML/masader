@@ -8,10 +8,10 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "public datasets"
+        "LLM"
     ],
     "Domain": [
-        "general"
+        "education"
     ],
     "Form": "text",
     "Collection Style": [

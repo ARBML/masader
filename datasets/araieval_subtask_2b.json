@@ -8,12 +8,11 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "social media",
-        "news articles",
-        "public datasets"
+        "social media"
     ],
     "Domain": [
-        "general"
+        "politics",
+        "society"
     ],
     "Form": "text",
     "Collection Style": [
