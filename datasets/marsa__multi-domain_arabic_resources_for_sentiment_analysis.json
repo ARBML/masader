@@ -57,6 +57,6 @@
         "Princess Nourah Bint Abdulrahman University",
         "Elm"
     ],
-    "Abstract": "",
+    "Abstract": "The Arabic language has many spoken dialects. However, until recently, it was primarily written in Modern Standard Arabic (MSA), which is the formal variant of Arabic. Social media platforms have changed the face of written Arabic where users converse freely in various dialects, thus offering a massive number of resources for the study of dialectal text. The Arabic dialects differ from MSA in morphology, syntax, and phonetics. Consequently, since the effectiveness of NLP tasks—like sentiment analysis—is dependent on the availability of representative resources, there is currently a great need for such resources in these dialects. In this paper, we present MARSA—the largest sentiment annotated corpus for Dialectal Arabic (DA) in the Gulf region, which consists of 61,353 manually labeled tweets that contain a total of 840 K tokens. The tweets were collected from trending hashtags in four domains: political, social, sports, and technology to create a multi-domain corpus. The importance of such a corpus is to facilitate the study of domain-dependent sentiment analysis in Arabic. In addition to this corpus, the annotators extracted indicator words to form affect lexicons for each domain. We draw insights from these lexicons regarding contextual polarity of certain words. Furthermore, we present benchmark experiments on the MARSA corpus in order to establish a baseline for further studies.",
     "Added By": "Aljoharah R"
 }

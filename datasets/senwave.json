@@ -34,7 +34,7 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Has Splits": false,
-    "Partial": false,
+    "Partial": true,
     "Tasks": [
         "emotion classification"
     ],

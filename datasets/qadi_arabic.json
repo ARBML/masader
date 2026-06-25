@@ -142,7 +142,7 @@
     "Access": "Free",
     "Cost": "",
     "Has Splits": true,
-    "Partial": false,
+    "Partial": true,
     "Tasks": [
         "dialect identification"
     ],

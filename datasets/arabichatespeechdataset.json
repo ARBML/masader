@@ -1,7 +1,7 @@
 {
     "Name": "ArabicHateSpeechDataset",
     "Dialect Subsets": [],
-    "HF Link": "",
+    "HF Link": "https://huggingface.co/datasets/sbalsefri/ArabicHateSpeechDataset",
     "Link": "https://github.com/sbalsefri/ArabicHateSpeechDataset",
     "License": "CC BY-SA 4.0",
     "Year": 2020,
@@ -34,7 +34,7 @@
     "Access": "Free",
     "Cost": "",
     "Has Splits": true,
-    "Partial": false,
+    "Partial": true,
     "Tasks": [
         "sentiment analysis",
         "offensive language detection",

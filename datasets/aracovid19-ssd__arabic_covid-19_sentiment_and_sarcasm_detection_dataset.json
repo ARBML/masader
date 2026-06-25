@@ -35,7 +35,7 @@
     "Access": "Upon-Request",
     "Cost": "",
     "Has Splits": false,
-    "Partial": false,
+    "Partial": true,
     "Tasks": [
         "sarcasm detection",
         "sentiment analysis"

@@ -1,8 +1,8 @@
 {
     "Name": "journalists_questions",
     "Dialect Subsets": [],
-    "HF Link": "https://hf.co/datasets/mkqa",
-    "Link": "http://qufaculty.qu.edu.qa/telsayed/datasets/",
+    "HF Link": "https://huggingface.co/datasets/community-datasets/journalists_questions",
+    "Link": "https://www.dropbox.com/scl/fi/0r3mrx1npf1gi0d1zbhzu/ArQAT-JQ-Dataset-v1.0.zip?rlkey=fhigh3hpjvp4ptpyj780kqo9c&e=1&dl=0",
     "License": "unknown",
     "Year": 2016,
     "Language": "ar",
@@ -33,7 +33,7 @@
     "Access": "Free",
     "Cost": "",
     "Has Splits": false,
-    "Partial": false,
+    "Partial": true,
     "Tasks": [
         "question answering"
     ],

@@ -34,7 +34,7 @@
     "Access": "Free",
     "Cost": "",
     "Has Splits": false,
-    "Partial": false,
+    "Partial": true,
     "Tasks": [
         "topic classification"
     ],
