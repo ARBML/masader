@@ -152,7 +152,7 @@
         "answer_max": 13,
         "options": [
             "religion",
-            "medicine",
+            "health",
             "news",
             "education",
             "science",
@@ -163,6 +163,10 @@
             "culture",
             "society",
             "crisis",
+            "sports",
+            "economics",
+            "technology",
+            "art",
             "general"
         ]
     },
