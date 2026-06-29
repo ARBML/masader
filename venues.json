@@ -942,5 +942,20 @@
         "name": "Workshop on Multilingual Information Access",
         "type": "workshop",
         "aliases": []
+    },
+    "AfricaNLP": {
+        "name": "Workshop on African Natural Language Processing",
+        "type": "workshop",
+        "aliases": []
+    },
+    "Computers": {
+        "name": "Computers",
+        "type": "journal",
+        "aliases": []
+    },
+    "SLT": {
+        "name": "IEEE Spoken Language Technology Workshop",
+        "type": "workshop",
+        "aliases": []
     }
 }
