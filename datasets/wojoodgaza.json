@@ -34,7 +34,7 @@
     "Paper Link": "https://doi.org/10.18653/v1/2024.arabicnlp-1.101",
     "Script": "Arab-Latin",
     "Tokenized": true,
-    "Host": "CAMeL Resources",
+    "Host": "other",
     "Access": "Free",
     "Cost": "",
     "Has Splits": true,
