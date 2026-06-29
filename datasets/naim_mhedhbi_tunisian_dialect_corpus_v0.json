@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "More than 40000 comments and posts from facebook. Labeled about 10000 comments (positive / negative/ neutral).",
     "Volume": 40000.0,

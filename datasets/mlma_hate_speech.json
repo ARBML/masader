@@ -14,8 +14,8 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Multilingual and Multi-Aspect Hate Speech Analysis",
     "Volume": 3354.0,

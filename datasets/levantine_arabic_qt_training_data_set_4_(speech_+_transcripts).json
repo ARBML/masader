@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Levantine Arabic QT Training Data Set 4 (Speech + Transcripts) was developed by the Linguistic Data Consortium (LDC) and contains approximately 138 hours of conversational telephone speech in Levantine Arabic and the associated transcripts.",

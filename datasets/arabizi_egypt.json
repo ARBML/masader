@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Arabizi-Egypt is a substantial dataset specifically developed to foster the creation and improvement of language models for the Egyptian Arabic dialect. This resource consists of a converted Egyptian Arabic dialect in Arabic script to Arabizi from a sample taken from both https://huggingface.co/datasets/UBC-NLP/fineweb-edu-Egypt",

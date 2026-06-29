@@ -40,8 +40,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "A publicly available corpus of Arabic job advertisements collected from Egypt, Jordan, Saudi Arabia, and the UAE.",
     "Volume": 8546.0,

@@ -15,8 +15,8 @@
         "politics"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This corpus contains 102,960 vowelised, lemmatised and tagged words (58 texts from Le Monde Diplomatique Arabic)",
     "Volume": 102960.0,

@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "This data contains pairwise automatic win-rate evaluations for the m-ArenaHard-v2.0 benchmark and it compares 2 models against gemini-2.5-flash",
     "Volume": 450.0,

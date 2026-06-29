@@ -14,10 +14,9 @@
         "education"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
     ],
     "Description": "Dataset for Arabic educational crosswords",
     "Volume": 14497.0,

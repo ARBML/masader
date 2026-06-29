@@ -8,8 +8,7 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "public datasets",
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general",
@@ -17,15 +16,17 @@
         "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "1K open-domain dialectal utterance-response pairs, manually translated from an English dataset (DailyDialogue), and adapted to three different Arabic dialects.",
     "Volume": 1000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [],
-    "Derived From": [],
+    "Derived From": [
+        "DailyDialogue"
+    ],
     "Paper Title": "Open-Domain Response Generation in Low-Resource Settings using Self-Supervised Pre-Training of Warm-Started Transformers",
     "Paper Link": "https://dl.acm.org/doi/full/10.1145/3579164",
     "Script": "Arab",

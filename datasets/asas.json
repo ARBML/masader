@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "a high-quality Arabic summarization dataset with sentence-level human validation and explicit supporting evidence from the source text. It is designed for long-form, factual, and faithful summarization research.",
     "Volume": 388.0,

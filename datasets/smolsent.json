@@ -39,14 +39,13 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "863 English sentences covering 5.5k of the most common English tokens professionally translated into 81 languages",

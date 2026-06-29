@@ -8,14 +8,16 @@
     "Language": "ar",
     "Dialect": "Algeria",
     "Source": [
-        "treebanks"
+        "treebanks",
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation",
+        "inherited annotation"
     ],
     "Description": "extension of NArabizi treebank by adding to annotations.",
     "Volume": 1500.0,

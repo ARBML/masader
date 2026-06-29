@@ -8,15 +8,16 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "books"
+        "books",
+        "web crawls"
     ],
     "Domain": [
         "literature",
         "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The largest annotated Arabic poetry corpus, containing ~14M verses across 16 categories with metadata on genres, prosody, themes, and poet information.",
     "Volume": 14000000.0,

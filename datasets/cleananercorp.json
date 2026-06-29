@@ -14,8 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation",
+        "inherited annotation"
     ],
     "Description": "we conducted empirical research to understand the errors in ANERcorp, correct them and propose a cleaner version of the dataset named CLEANANERCorp. CLEANANERCorp will serve the research community as a more accurate and consistent benchmark",
     "Volume": 150000.0,

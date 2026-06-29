@@ -8,15 +8,16 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "public datasets"
+        "public datasets",
+        "treebanks"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "machine annotation",
+        "human annotation"
     ],
     "Description": "The KSAA-RD dataset contains over 58,000 Arabic entries and 63,000 English entries. Each entry consists of a word (lemma), its part of speech, and a gloss (definition). The dataset provides both contextualized word embeddings (from AraELECTRA) and fixed word embeddings (from AraVec’s skip-gram model).",
     "Volume": 58000.0,

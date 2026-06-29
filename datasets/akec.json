@@ -8,14 +8,15 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "news articles"
+        "news articles",
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The corpus consists in 160 arabic documents and their keyphrases.",
     "Volume": 160.0,

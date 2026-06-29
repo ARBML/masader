@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Arabic benchmark dataset for evaluating AI-generated text detectors, containing 500 human-written and 500 AI-generated passages with and without diacritics.",
     "Volume": 1000.0,

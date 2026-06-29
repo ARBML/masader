@@ -14,10 +14,10 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
-    "Description": "t 135M parallel sentences for\r\n1620 different language pairs, out of which\r\nonly 34M are aligned with English",
+    "Description": "135M parallel sentences for 1620 different language pairs, out of which only 34M are aligned with English",
     "Volume": 4435.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",

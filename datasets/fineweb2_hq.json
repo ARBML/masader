@@ -15,7 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A filtered subset of CommonCrawl focusing on 20 languages including Arabic with 127B tokens.",

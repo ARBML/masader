@@ -14,8 +14,7 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First speech corpus for Tunisian Arabic TTS with 3+ hours of male speaker audio",

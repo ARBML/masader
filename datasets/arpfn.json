@@ -15,8 +15,7 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "1546-user Arabic Twitter dataset for fake news.",

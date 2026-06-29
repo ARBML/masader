@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "The Arabic Version of SNLI and MultiNLI datasets. (Triplet Subset)",

@@ -15,7 +15,7 @@
         "education"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Dataset for Arabic readability assessment",

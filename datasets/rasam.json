@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Dataset of 300 annotated images of handwritten Arabic Maghrebi script manuscripts for layout analysis and handwritten text recognition.",

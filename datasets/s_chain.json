@@ -14,7 +14,7 @@
         "health"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Expert-annotated medical images with structured visual chain-of-thought for Alzheimer’s MRI analysis across 16 languages.",

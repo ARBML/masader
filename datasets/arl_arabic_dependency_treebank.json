@@ -16,8 +16,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "The source data in this release consists of Arabic newswire and broadcast programming collected by LDC from various news and broadcast providers.",
     "Volume": 0.0,

@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Multilingual LLM evaluation benchmark comparing translations vs original prompts across 5 languages",
     "Volume": 750.0,

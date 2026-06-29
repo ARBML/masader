@@ -87,15 +87,15 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "A multi-domain dialectal Arabic machine translation dataset covering 13 countries and 11 domains.",
     "Volume": 29815.0,

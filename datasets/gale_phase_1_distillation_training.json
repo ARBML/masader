@@ -16,7 +16,7 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The annotation task involves responding to a series of user queries. For each query, annotators first find relevant documents and identify snippets (strings of contiguous text that answer the query) in the Arabic, Chinese or English source document. Annotators then create a nugget for each fact expressed in the snippet. Semantically equivalent nuggets are grouped into cross-language, cross-document \"supernugs\". Judges at BAE Systems finally provide relevance weights for each supernug.",

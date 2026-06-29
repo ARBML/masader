@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "This corpus contains the words and their dependency relation produced by performing some steps",
     "Volume": 16.0,

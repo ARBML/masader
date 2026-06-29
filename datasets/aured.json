@@ -16,8 +16,7 @@
         "politics"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Arabic rumor verification dataset using authority tweets.",

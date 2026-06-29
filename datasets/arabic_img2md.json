@@ -15,8 +15,8 @@
         "literature"
     ],
     "Form": "images",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "15k Arabic book pages paired with Markdown for OCR training",
     "Volume": 15216.0,

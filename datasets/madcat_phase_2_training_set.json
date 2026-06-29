@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release includes 27,814 annotation files in both GEDI XML and MADCAT XML formats (gedi.xml and madcat.xml) along with their corresponding scanned image files in TIFF format. The annotation results in GEDI XML output files include ground truth annotations and source transcripts.",
     "Volume": 27814.0,

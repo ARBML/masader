@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "this is a simple dataset for the semantic similarity task with 3 different judges",
     "Volume": 778.0,
@@ -35,9 +35,6 @@
     "Has Splits": false,
     "Partial": false,
     "Tasks": [
-        "machine translation",
-        "sentiment analysis",
-        "topic classification",
         "semantic similarity"
     ],
     "Venue Title": "",

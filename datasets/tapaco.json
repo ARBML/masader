@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The corpus contains a total of 1.9 million sentences, with 200 – 250 000\r\nsentences per language",
     "Volume": 6446.0,

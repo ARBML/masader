@@ -8,15 +8,16 @@
     "Language": "ar",
     "Dialect": "Classical Arabic",
     "Source": [
-        "books"
+        "books",
+        "web crawls"
     ],
     "Domain": [
         "history",
         "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "A linguistically annotated version of the OpenITI corpus, with annotations for lemmas, POS tags, parse trees, and morphological segmentation",
     "Volume": 1500000000.0,

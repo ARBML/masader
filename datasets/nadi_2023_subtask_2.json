@@ -39,8 +39,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Country-level Arabic dialect tweets from 18 countries for dialect identification; parallel Egyptian/Emirati/Jordanian/Palestinian→MSA sentences for MT.",

@@ -15,8 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Offensive language corpus for Algerian Arabic collected from Facebook.",

@@ -14,7 +14,7 @@
         "education"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A phonemic dataset of child-directed and child-produced speech across 31 languages.",

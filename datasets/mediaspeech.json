@@ -8,14 +8,16 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "studio recordings"
+        "TV channels",
+        "social media"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation",
+        "human annotation"
     ],
     "Description": "an open-source 10-hour ASR system evaluation\r\ndataset NTR MediaSpeech for 4 languages: Spanish, French,\r\nTurkish and Arabic",
     "Volume": 10.0,
@@ -26,7 +28,7 @@
     ],
     "Derived From": [],
     "Paper Title": "MediaSpeech: Multilanguage ASR Benchmark and Dataset",
-    "Paper Link": "https://arxiv.org/ftp/arxiv/papers/2103/2103.16193.pdf",
+    "Paper Link": "https://arxiv.org/pdf/2103.16193",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",

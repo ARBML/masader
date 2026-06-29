@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "classification of Arabic tweets into automated or manual.",
     "Volume": 3503.0,

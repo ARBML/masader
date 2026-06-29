@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "the 49 translations for this AFP subset are not included in this release, resulting in a total 1,682 translations for the 1,731 source stories.",
     "Volume": 1731.0,

@@ -8,14 +8,15 @@
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
     "Source": [
-        "public datasets"
+        "public datasets",
+        "web crawls"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "The Language Identification dataset is a collection of 90k samples consisting of text passages and corresponding language label.",
     "Volume": 90000.0,

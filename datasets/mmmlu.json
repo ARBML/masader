@@ -19,7 +19,7 @@
         "health"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Translated the MMLU’s test set into 14 languages using professional human translators.",

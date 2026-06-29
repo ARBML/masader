@@ -14,9 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A dataset for Modern Standard and Dialectal Arabic emotion detection focused at Robert Plutchik’s 8 basic emotion types",
     "Volume": 7000.0,

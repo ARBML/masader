@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "HPLT v2 is a large-scale multilingual dataset offering 8 T tokens across 193 languages, extracted with a quality-controlled pipeline from Internet Archive & CommonCrawl.",
     "Volume": 82670000.0,

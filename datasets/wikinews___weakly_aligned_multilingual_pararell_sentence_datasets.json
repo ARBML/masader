@@ -15,9 +15,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Multilingual aligned news articles from WikiNews in 34 languages.",
     "Volume": 73.0,

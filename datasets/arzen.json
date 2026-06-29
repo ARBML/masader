@@ -8,15 +8,15 @@
     "Language": "multilingual",
     "Dialect": "Egypt",
     "Source": [
-        "other"
+        "studio recordings",
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "12-hour Egyptian Arabic-English code-switched spontaneous speech corpus with transcriptions and speaker metadata.",
     "Volume": 12.0,

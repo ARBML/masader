@@ -8,21 +8,27 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "books",
+        "social media",
+        "web pages",
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "Arabic Daily Comunication Corpus (ADCC) is daily conversations written text in Modern Standard Arabic which was collected from different resources.",
     "Volume": 4000000.0,
     "Unit": "tokens",
     "Ethical Risks": "Medium",
     "Provider": [],
-    "Derived From": [],
+    "Derived From": [
+        "Corpus of Contemporary Arabic",
+        "Arabic Learner Corpora"
+    ],
     "Paper Title": "Towards Intelligent Arabic Text-to-Speech Application for Disabled People",
     "Paper Link": "https://ieeexplore.ieee.org/document/7899133",
     "Script": "Arab",

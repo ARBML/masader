@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "120,600 multiparallel sentences in English, French, German, Greek, Spanish, and Standard Arabic selected from the OpenSubtitles2018 corpus [1] and manually translated into the North Levantine Arabic language.",

@@ -8,14 +8,16 @@
     "Language": "ar",
     "Dialect": "Classical Arabic",
     "Source": [
-        "books"
+        "books",
+        "web crawls"
     ],
     "Domain": [
-        "religion"
+        "religion",
+        "history"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Sanadset is a full hadith dataset that contains over 650,986 records collected from 926 historical Arabic books of hadith. This dataset can be used for further investigation and classification of hadiths (Strong/Weak), and narrators (trustworthy/not) using AI techniques, and also it can be used as a linguistic resource tool for Arabic Natural Language Processing.",
     "Volume": 650000.0,

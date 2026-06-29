@@ -14,8 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "tweets anotated for sentiment  analysis and topic detection",
     "Volume": 50000.0,

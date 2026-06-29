@@ -8,7 +8,8 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "public datasets"
+        "public datasets",
+        "web crawls"
     ],
     "Domain": [
         "politics",
@@ -16,17 +17,20 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation",
+        "machine annotation"
     ],
-    "Description": "e text readability for 73,000 parallel sentences from English and Arabic UN documents",
+    "Description": "text readability for 73,000 parallel sentences from English and Arabic UN documents",
     "Volume": 73000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
         "Lancaster University"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "United Nations Parallel Corpus"
+    ],
     "Paper Title": "OSMAN – A Novel Arabic Readability Metric",
     "Paper Link": "https://aclanthology.org/L16-1038.pdf",
     "Script": "Arab",

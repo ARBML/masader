@@ -8,14 +8,15 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "wikipedia"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "167 languages have been annotated according to the UniMorph schema.",
     "Volume": 140003.0,

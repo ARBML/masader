@@ -15,7 +15,7 @@
         "culture"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Arab-region-specific safety evaluation dataset for large language models comprising 5,799 questions (direct attacks, indirect attacks, and harmless prompts) crafted for socio-cultural context.",

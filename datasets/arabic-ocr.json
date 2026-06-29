@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "This dataset contains multi-font Arabic printed text images used for text segmentation and OCR tasks. It involves different fonts and styles of Arabic script. The data is segmented using a hybrid method for character recognition, focusing on features like text skew correction, line, word, and character segmentation, and feature extraction for Arabic characters.",
     "Volume": 83.0,

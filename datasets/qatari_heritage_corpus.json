@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Qatar",
     "Source": [
-        "other"
+        "web pages"
     ],
     "Domain": [
         "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "qatari heritage expressions dataset with translations",
     "Volume": 1000.0,

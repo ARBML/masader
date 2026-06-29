@@ -105,14 +105,14 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "web crawls"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "match the ground-truth geographic\r\ndistribution of each language",
     "Volume": 373020007.0,

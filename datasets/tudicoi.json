@@ -14,12 +14,12 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The corpus consists of 434 1465 staff utterances and 1615 client utterances",
     "Volume": 127.0,
-    "Unit": "sentences",
+    "Unit": "conversations",
     "Ethical Risks": "Low",
     "Provider": [
         "University of Sfax"

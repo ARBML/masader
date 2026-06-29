@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "It is a translated version of the HellaSwag benchmark, consisting of multiple-choice sentence completion tasks. Each example includes a context and four plausible sentence endings, with only one correct choice. The dataset helps assess how well models understand everyday scenarios and plausible event sequences in Egyptian Arabic.",

@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "MQA is a Multilingual corpus of Questions and Answers (MQA) parsed from the Common Crawl. Questions are divided in two types: Frequently Asked Questions (FAQ) and Community Question Answering (CQA).",
     "Volume": 3017456.0,

@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "studio recordings"
     ],
     "Domain": [
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "designed for Multilingual and Arabic Dialect Identification",
     "Volume": 635.0,

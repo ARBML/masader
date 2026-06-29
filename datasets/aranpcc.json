@@ -13,11 +13,17 @@
     "Domain": [
         "news",
         "crisis",
-        "health"
+        "health",
+        "culture",
+        "sports",
+        "technology",
+        "religion",
+        "economics",
+        "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "the corpus is a large Arabic newspaper COVID-19 corpus, automatically collected from 88 Arabic newspapers from 12 Arab countries.",
     "Volume": 7277525.0,

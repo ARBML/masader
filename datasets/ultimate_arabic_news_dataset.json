@@ -11,11 +11,18 @@
         "news articles"
     ],
     "Domain": [
-        "general"
+        "culture",
+        "health",
+        "religion",
+        "politics",
+        "art",
+        "technology",
+        "economics"
+
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The Ultimate Arabic News Dataset is a collection of single-label modern Arabic texts that are used in news websites and press articles.",
     "Volume": 381000.0,

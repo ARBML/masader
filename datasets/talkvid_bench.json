@@ -14,8 +14,9 @@
         "general"
     ],
     "Form": "videos",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation",
+        "human annotation"
     ],
     "Description": "Large-scale high-quality 1244-hour video dataset of 7,729 speakers for audio-driven talking-head synthesis with diverse demographics and languages",
     "Volume": 14.0,

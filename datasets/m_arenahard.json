@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Multilingual translation of the 500-question Arena-Hard-Auto dataset.",

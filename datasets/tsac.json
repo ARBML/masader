@@ -8,14 +8,15 @@
     "Language": "ar",
     "Dialect": "Tunisia",
     "Source": [
-        "social media"
+        "social media",
+        "commentary"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "About 17k user comments manually annotated to positive and negative polarities. This corpus is collected from Facebook users comments written on official pages of Tunisian radios and TV channels",
     "Volume": 17000.0,

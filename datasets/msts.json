@@ -14,9 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A multilingual multimodal safety test suite for vision-language models.",
     "Volume": 400.0,

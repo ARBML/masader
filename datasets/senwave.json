@@ -15,8 +15,8 @@
         "health"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The largest fine-grained annotated Covid-19 tweets dataset",
     "Volume": 10000.0,

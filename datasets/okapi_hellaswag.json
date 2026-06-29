@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Multilingual translation of Hellaswag in 31 languages",
     "Volume": 9180.0,

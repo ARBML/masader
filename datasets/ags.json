@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "AGS is the first publicly accessible abstractive summarization dataset for Arabic. It consists of 142,000 pairs of articles and summaries, all written in Modern Standard Arabic (MSA). The summaries are generated using GPT-3.5 Turbo, a large language model, through meticulous prompt engineering. The dataset covers a wide range of topics, such as politics, sports, culture, science, and technology.",
     "Volume": 142000.0,

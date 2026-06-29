@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Datasets for AI-generated and AI-polished Arabic text detection.",
     "Volume": 16400.0,

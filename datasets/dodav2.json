@@ -8,15 +8,14 @@
     "Language": "ar",
     "Dialect": "Morocco",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "manual curation",
         "machine annotation"
     ],
     "Description": "Open Moroccan Darija–English parallel corpus with ~100 k entries, dual-script (Arab/Latin) and rich linguistic annotations.",

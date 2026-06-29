@@ -33,14 +33,14 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "LLM"
     ],
     "Domain": [
         "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "This dataset contains culturally-aware multiple-choice questions (MCQs) in various Arabic dialects, designed to test and evaluate language models' understanding of cultural nuances across different Arabic-speaking regions.",
     "Volume": 12072.0,

@@ -16,10 +16,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "A synthetic Arabic parallel paraphrase dataset generated via back-translation to advance NLP applications like MT, summarization and sentiment analysis.",
     "Volume": 1010.0,

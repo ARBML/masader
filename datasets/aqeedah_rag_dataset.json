@@ -8,14 +8,15 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "books"
+        "books",
+        "web crawls"
     ],
     "Domain": [
         "religion"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "A curated Arabic Islamic theology (Aqeedah) dataset with pre-computed FAISS embeddings, designed for advanced Retrieval-Augmented Generation (RAG) applications in Islamic scholarly research.",
     "Volume": 5419.0,

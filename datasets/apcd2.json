@@ -8,15 +8,16 @@
     "Language": "ar",
     "Dialect": "Classical Arabic",
     "Source": [
-        "books"
+        "books",
+        "web crawls"
     ],
     "Domain": [
         "literature",
         "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "1657 k verses of poems and prose to develop neural networks to classify and diacritize Arabic poetry",
     "Volume": 1831770.0,

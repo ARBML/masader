@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Tunisian railway-transport conversations annotated with dialogue acts and slots for SLU benchmarking.",

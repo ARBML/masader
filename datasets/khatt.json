@@ -8,13 +8,13 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "art"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Open Arabic offline handwritten text database consisting of 1000 forms written by 1000 distinct writers scanned at 200–600 dpi.",

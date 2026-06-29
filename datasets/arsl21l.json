@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Annotated Arabic Sign Language Letters Dataset (ArSL21L) consisting of 14202 images of 32 letter signs with various back- grounds collected from 50 people.",
     "Volume": 14202.0,

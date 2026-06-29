@@ -18,8 +18,8 @@
         "art"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "parallel dataset of Egyptian Arabic song lyrics, novels, and TV show subtitles that are manually translated and aligned with their English counterparts.",
     "Volume": 25557.0,

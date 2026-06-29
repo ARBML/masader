@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The task of preparing this corpus involved four stages of work: data scouting, data harvesting, formatting, and data selection.",
     "Volume": 222.0,

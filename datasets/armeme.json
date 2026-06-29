@@ -16,8 +16,7 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],

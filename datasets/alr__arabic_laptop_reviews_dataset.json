@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic  Laptops Reviews  (ALR) dataset focuses on laptops reviews written in Arabic",
     "Volume": 1753.0,

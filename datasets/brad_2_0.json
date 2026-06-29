@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "extension to BRAD 1.0 with more than 200K extra records to account for several Arabic dialects.",
     "Volume": 692586.0,

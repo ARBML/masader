@@ -14,8 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation",
+        "human annotation"
     ],
     "Description": "a large-scale dataset comprising 1.65 million cross-lingual article-summary samples in 1500+ language-pairs",
     "Volume": 72795.0,

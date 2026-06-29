@@ -15,7 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The first and largest Arabic corpus annotated for fine-grained hate speech type and target detection with multi-label classification.",

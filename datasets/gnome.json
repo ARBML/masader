@@ -8,14 +8,15 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "web crawls",
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "A parallel corpus of GNOME localization files",
     "Volume": 800000.0,

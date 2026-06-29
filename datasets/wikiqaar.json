@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "WIKIQAar is a bilingual English--Arabic Question Answering corpus built on top of WIKIQA",
     "Volume": 3047.0,

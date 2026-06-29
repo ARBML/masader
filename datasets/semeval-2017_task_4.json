@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a large accessible benchmark dataset containing over 70,000 tweets\nacross two languages",
     "Volume": 70000.0,

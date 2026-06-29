@@ -14,8 +14,8 @@
         "finance"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Parallel Arabic-English financial corpus for MT domain adaptation.",
     "Volume": 7560.0,

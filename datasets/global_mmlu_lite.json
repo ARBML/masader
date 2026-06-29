@@ -15,7 +15,7 @@
         "culture"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Global-MMLU-Lite is a multilingual evaluation set spanning 16 languages, including English. It is \"lite\" version of the original Global-MMLU dataset 🌍. It includes 200 Culturally Sensitive (CS) and 200 Culturally Agnostic (CA) samples per language. The samples in Global-MMLU-Lite are corresponding to languages which are fully human translated or post-edited in the original Global-MMLU dataset.",

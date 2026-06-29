@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "This is a corpus of parallel sentences extracted from Wikipedia",
     "Volume": 1000000.0,

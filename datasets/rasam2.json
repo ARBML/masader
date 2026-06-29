@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "RASAM2 extends RASAM1 to 3750 transcribed lines from 15 Arabic Maghribi manuscripts for benchmarking historical handwritten text recognition.",

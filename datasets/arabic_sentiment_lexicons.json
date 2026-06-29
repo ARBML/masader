@@ -14,8 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "by using distant supervision techniques on Arabic tweets, and by translating English sentiment lexicons into Arabic using a freely available statistical machine translation system",

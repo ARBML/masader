@@ -14,7 +14,7 @@
         "science"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "BenchMAX_Math is a dataset of BenchMAX, sourcing from MGSM, which evaluates the math reasoning capability in multilingual scenarios.",

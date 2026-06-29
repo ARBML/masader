@@ -14,8 +14,8 @@
         "finance"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "This dataset was generated using LLaMa3 synthetic data generation pipeline.",
     "Volume": 30.0,

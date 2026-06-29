@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Multilingual evergreen/mutable question–answer dataset with 4.757 human-curated examples across 7 languages.",
     "Volume": 4757.0,

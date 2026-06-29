@@ -15,7 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Moroccan YouTube sentiment dataset with 20k balanced Arabic/Latin comments.",

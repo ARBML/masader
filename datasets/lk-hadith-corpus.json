@@ -17,8 +17,8 @@
         "education"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "a bilingual parallel corpus of Islamic Hadith",
     "Volume": 39038.0,

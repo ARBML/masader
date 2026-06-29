@@ -8,14 +8,15 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "web pages"
+        "web pages",
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "SALMA corpus is part of the Wojood corpus (Jarrar et al., 2022), and was collected from 33 online media sources written in Modern Standard Arabic (MSA) and covering general topics.",
     "Volume": 34000.0,

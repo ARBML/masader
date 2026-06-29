@@ -16,7 +16,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The BRIGHTER Emotion Intensities dataset is a comprehensive multi-language emotion intensity dataset with separate configurations for each language. It represents one of the largest human-annotated emotion datasets across multiple languages, providing numerical intensity scores for emotions.",

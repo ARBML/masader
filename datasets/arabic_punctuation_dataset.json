@@ -14,9 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This is a curated dataset, specifically designed to facilitate the study of punctuation. It has undergone rigorous manual annotation and verification on the basis of sentence structure, with sentence boundaries clearly marked.",
     "Volume": 12183000.0,

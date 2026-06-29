@@ -14,8 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation",
+        "metadata-derived"
     ],
     "Description": "A Comparable Spoken Algerian Corpus Harvested from YouTube",
     "Volume": 5190.0,

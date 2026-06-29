@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "a corpus containing more than two million words and a corpora processing tool that is specifically designed for Arabic",
     "Volume": 2910.0,

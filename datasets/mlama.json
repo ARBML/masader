@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Multilingual LAMA dataset for probing factual knowledge in mBERT across 53 languages.",

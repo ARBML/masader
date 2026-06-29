@@ -14,7 +14,7 @@
         "religion"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Historical Arabic NER dataset based on Ibn Kathir book.",

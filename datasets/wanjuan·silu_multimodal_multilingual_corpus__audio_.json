@@ -14,8 +14,7 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Dual ASR verification of audio ensures ultra-high quality: This dataset uses audio-text data transcribed from the main streaming video media platform, cross-validated by Google and Microsoft dual commercial ASR engines to ensure high-precision text annotation, and combined with environmental noise elimination technology to improve sound quality",

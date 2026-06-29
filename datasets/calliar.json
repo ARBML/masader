@@ -8,15 +8,15 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "web pages"
     ],
     "Domain": [
         "culture",
         "art"
     ],
     "Form": "images",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Calliar is a dataset for Arabic calligraphy. The dataset consists of 2500 json files that contain strokes manually annotated for Arabic calligraphy. This repository contains the dataset for the following paper",
     "Volume": 2500.0,

@@ -40,7 +40,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Cross-dialectal NER dataset for Arabic",

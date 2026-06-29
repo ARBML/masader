@@ -16,8 +16,8 @@
         "crisis"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "the largest manually annotated Arabic tweet dataset, ArCovidVac, for the COVID-19 vaccination campaign, covering many countries in the Arab region",
     "Volume": 10000.0,

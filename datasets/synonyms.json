@@ -8,14 +8,15 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "treebanks"
+        "treebanks",
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A set of 500 synsets (extracted from the Arabic Wordnet). Each synset is enriched with a list of candidate synonyms. The total number is 3K candidates.",
     "Volume": 300000.0,

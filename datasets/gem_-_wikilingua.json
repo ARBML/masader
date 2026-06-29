@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "New Benchmark Dataset for Multilingual Abstractive Summarization",
     "Volume": 29229.0,

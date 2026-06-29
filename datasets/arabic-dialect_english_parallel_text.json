@@ -27,8 +27,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "it uses crowdsourcing to cheaply and quickly build LevantineEnglish and Egyptian-English parallel corpora, consisting of 1.1M words and 380k words, respectively.",

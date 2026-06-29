@@ -8,14 +8,15 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "public datasets"
+        "public datasets",
+        "web crawls"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "Largest publicly available document-level translation dataset with 124M aligned document pairs across 50 languages paired with English.",
     "Volume": 2196334.0,

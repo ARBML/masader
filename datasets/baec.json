@@ -33,8 +33,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "consists of 45,251 words and is 436 KB in size.It was collected from different Facebook pages",
     "Volume": 473796.0,

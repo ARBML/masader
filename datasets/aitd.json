@@ -14,8 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A weakly annotated dataset for the most common tweet category. ",

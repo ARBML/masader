@@ -14,8 +14,7 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Images with Arabic embedded text collected from Twitter for spam detection research",

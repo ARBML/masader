@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Fine-Grained Hate Speech Detection on Arabic Twitter",
     "Volume": 10157.0,

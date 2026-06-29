@@ -27,9 +27,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "4-hour benchmark Arabic TTS corpus of single-speaker recordings in Egyptian Arabic, MSA, English, and Egyptian-English code-switching.",
     "Volume": 3.0,

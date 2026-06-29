@@ -14,8 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Annotated comments/posts in Algerian Arabizi from Facebook pages, collected via APIs/Facepager & Google Forms.",

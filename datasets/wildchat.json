@@ -14,8 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "One million user-ChatGPT interaction logs collected with explicit consent, featuring multi-turn multilingual conversations enriched with demographic metadata for studying real-world chatbot usage.",

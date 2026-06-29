@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The corpus has the following characteristics: • 37 sentences • The average length of sentences is 5,05 words, with the longest being 10 words • Declarative, interrogative, imperative and exclamatory sentences accounted for 37,84%, 32,43%, 16,22% and 13,51% respectively • 154 tokens with 5,95 solutions as an average number of stemming solutions",
     "Volume": 154.0,

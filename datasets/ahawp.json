@@ -8,14 +8,13 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Handwritten Arabic alphabets, words and paragraphs from 82 writers for OCR and writer identification.",

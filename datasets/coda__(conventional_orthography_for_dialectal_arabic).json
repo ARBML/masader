@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "CODA* is a unified orthographic system for Arabic dialects designed for computational purposes. It maintains dialectal uniqueness while aligning with some conventions of Modern Standard Arabic (MSA).",
     "Volume": 176364.0,

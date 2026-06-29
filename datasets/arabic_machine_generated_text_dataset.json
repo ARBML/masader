@@ -11,11 +11,12 @@
         "web pages"
     ],
     "Domain": [
-        "general"
+        "science",
+        "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "The dataset addresses the need for comprehensive Arabic machine-generated text resources, enabling research in detection systems, stylometric analysis, and cross-model generalization studies.",
     "Volume": 8388.0,

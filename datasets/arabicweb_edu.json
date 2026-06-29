@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "The dataset includes web extracts from various Arabic sources (Common Crawl) that have been evaluated using an additive 5-point scoring system for educational value.",
     "Volume": 236305.0,

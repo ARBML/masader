@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "It is extracted and filtered from the Common Crawl dumps and uniquely preserves the structural integrity of web content by providing markdown output. ",
     "Volume": 23000000.0,

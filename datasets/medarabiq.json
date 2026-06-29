@@ -8,16 +8,16 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "public datasets"
+        "public datasets",
+        "web crawls",
+        "manual construction"
     ],
     "Domain": [
         "health"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation",
-        "crawling",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Benchmark for evaluating Arabic medical LLMs.",
     "Volume": 700.0,

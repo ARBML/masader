@@ -8,14 +8,16 @@
     "Language": "ar",
     "Dialect": "Classical Arabic",
     "Source": [
+        "web pages",
         "news articles"
     ],
     "Domain": [
-        "general"
+        "general",
+        "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "500 Arabic news and 500 Arabic satire articles",
     "Volume": 1000.0,

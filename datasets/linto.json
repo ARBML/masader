@@ -16,8 +16,7 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Audio & textual datasets for Tunisian Arabic ASR with code-switching, augmentation and normalization.",

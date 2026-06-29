@@ -15,8 +15,8 @@
         "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "QA on the Holy Qur’an Dataset",
     "Volume": 207.0,

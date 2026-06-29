@@ -8,15 +8,16 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "public datasets"
+        "public datasets",
+        "manual construction"
     ],
     "Domain": [
         "culture",
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "MASD is a masked prompts dataset created using 20 Arab States with their corresponding capital cities, nationalities, currencies, and on which continents they are located, consisting of four categories: country-capital prompts, country-currency prompts, country-nationality prompts, and country-continent prompts. Each prompts category has 40 masked prompts, and the total number of masked prompts in the MASD dataset is 160. This dataset is used to evaluate these Arabic Masked Language Models (MLMs).",
     "Volume": 160.0,

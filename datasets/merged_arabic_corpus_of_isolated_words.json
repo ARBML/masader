@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This dataset is a voice-recorded dataset of 50 Native-Arabic speakers saying 20 words about 10 times. It has been recorded with a 44100 Hz sampling rate and 16-bit resolution. This dataset can be used for tasks like Speaker Recognition, Speaker Verification, Voice biometrics,",
     "Volume": 9992.0,

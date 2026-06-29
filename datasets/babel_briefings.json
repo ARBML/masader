@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "Multilingual headlines corpus spanning August 2020–November 2021, drawn from global press via News API.",
     "Volume": 178854.0,

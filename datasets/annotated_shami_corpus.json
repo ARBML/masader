@@ -8,14 +8,15 @@
     "Language": "ar",
     "Dialect": "Lebanon",
     "Source": [
-        "social media"
+        "social media",
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Subsection of the Lebanese portion of the Shami Corpus annotated for spelling standardization (CODA), morphological segmentation and tagging, and spontaneous orthography taxonomy tagging.",
     "Volume": 10000.0,

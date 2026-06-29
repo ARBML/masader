@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "It is a dataset of 73,000 parallel English and Arabic paragraphs from the United Nations (UN) corpus",
     "Volume": 73000.0,

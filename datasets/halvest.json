@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "public datasets"
+        "web crawls"
     ],
     "Domain": [
         "science"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "Multilingual open-access scholarly document dataset harvested from the French HAL repository.",
     "Volume": 92.0,

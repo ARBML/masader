@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The corpus was recorded in south Levantine Arabic (Damascian accent) using a professional studio.",
     "Volume": 4.0,

@@ -16,7 +16,7 @@
         "crisis"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "COVID-19 Arabic named entity corpus extracted from Saudi newspapers",

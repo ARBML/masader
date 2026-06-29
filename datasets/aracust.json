@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Saudi Telecom Tweets corpus for sentiment analysis",
     "Volume": 20000.0,

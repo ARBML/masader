@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "a deduplicated Arabic pretraining corpus",
     "Volume": 178000000000.0,

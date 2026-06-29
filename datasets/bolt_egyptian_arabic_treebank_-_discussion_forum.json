@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release contains 440,448 tokens before clitics were split and 508,548 tree tokens after clitics were split for treebank annotation. The source material is web discussion forums collected by LDC from various sources.",
     "Volume": 440448.0,

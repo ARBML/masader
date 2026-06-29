@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Custom Arabic OCR dataset with 18 fonts from Wikipedia.",

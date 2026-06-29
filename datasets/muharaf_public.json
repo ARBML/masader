@@ -15,7 +15,7 @@
         "art"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This dataset contains 24,495 line images of Arabic handwriting and the corresponding text. The images are Manuscripts from the 19th to 21st century.",

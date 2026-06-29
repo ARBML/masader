@@ -14,9 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
     ],
     "Description": "Moroccan Darija text-to-SQL dataset, 9428 pairs.",
     "Volume": 9428.0,

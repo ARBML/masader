@@ -17,7 +17,7 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Arabic COVID-19 sentiment analysis benchmark.",

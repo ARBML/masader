@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "rich and publicly available Arabic corpus called Moroccan Sentiment Analysis Corpus (MSAC)",
     "Volume": 2000.0,

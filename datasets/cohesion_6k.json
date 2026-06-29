@@ -15,9 +15,9 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "Cohesion-6K provides a transparent and reproducible resource for the study of online cohesion and polarization. ",
     "Volume": 6000.0,

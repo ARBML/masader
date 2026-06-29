@@ -15,7 +15,7 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A large-scale multilingual non-parallel news corpus compiled from five sources covering 77 languages and 19 scripts.",

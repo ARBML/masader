@@ -16,8 +16,8 @@
         "crisis"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "This is a collection of tweets related to the Arabic hashtag (#لبنان_ينتفض) on Lebanon uprising in October 2019.",
     "Volume": 100000.0,

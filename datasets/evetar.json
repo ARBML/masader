@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a crawl of 355M Arabic tweets and covers 50 significant events",
     "Volume": 3550000.0,

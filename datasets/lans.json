@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "NewsTent extracts 8,443,484 articles and their summaries from 22 newspapers of 19 Arab countries\r\ndated from 1999 to 2019",
     "Volume": 8443484.0,

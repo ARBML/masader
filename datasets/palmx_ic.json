@@ -16,9 +16,8 @@
         "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "PalmX-IC assesses a model’s knowledge of Islamic culture—rituals, Qurʾān verses, Ḥadīth, historic events, jurisprudence, and religious holidays—core elements of life across the Arab world. All items are authored in Modern Standard Arabic (MSA) . The dataset powers Subtask 2 of the PalmX 2025 shared task.",
     "Volume": 1900.0,

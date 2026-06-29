@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Aljazeera Deleted Comments is a dataset of 32K deleted comments from Aljazeera.net, a popular Arabic news channel, moderates all the comments that appear on their site.",
     "Volume": 33100.0,

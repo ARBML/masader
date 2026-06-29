@@ -17,8 +17,7 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The dataset was built from 23 carefully selected YouTube videos covering the Gaza genocide (2023– 2024)",

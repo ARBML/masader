@@ -8,13 +8,13 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "finance"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Queries in MSA and Palestinian Arabic annotated for their intent (77 classes)",

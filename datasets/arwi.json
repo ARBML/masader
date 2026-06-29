@@ -14,8 +14,8 @@
         "education"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Synthetic Arabic AES dataset with CEFR annotations",
     "Volume": 3040.0,

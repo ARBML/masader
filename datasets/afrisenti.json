@@ -27,8 +27,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Twitter sentiment analysis benchmark for 14 African languages with 110k+ labeled tweets",

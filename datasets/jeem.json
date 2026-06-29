@@ -39,8 +39,7 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Benchmark for VLMs visual understanding across four Arabic dialects",

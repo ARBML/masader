@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This database covers both regular and irregular Arabic plurals, and was developed by experts over a period of several years. The data includes various grammatical attributes such as part-of-speech, collectivity codes, gender codes, and full vocalization.",
     "Volume": 3137.0,

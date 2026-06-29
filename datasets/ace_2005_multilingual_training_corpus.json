@@ -16,7 +16,7 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "ACE 2005 Multilingual Training Corpus was developed by the Linguistic Data Consortium (LDC) and contains approximately 1,800 files of mixed genre text in English, Arabic, and Chinese annotated for entities, relations, and events.",

@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Arabic translations of SNLI/MultiNLI for semantic similarity and NLI tasks.",

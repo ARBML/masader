@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Manually diacritized Arabic news sentences for evaluating Arabic Text Diacritization.",
     "Volume": 742.0,

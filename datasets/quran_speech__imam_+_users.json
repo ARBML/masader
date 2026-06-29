@@ -14,8 +14,8 @@
         "religion"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "7 full Quran recitations + 18K filtered user recitation",
     "Volume": 61000.0,

@@ -14,8 +14,8 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Levantine Twitter dataset for Misogynistic language",
     "Volume": 6603.0,

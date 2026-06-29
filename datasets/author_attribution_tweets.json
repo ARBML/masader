@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "consists of 71,397 tweets for 45 authors for MSA collected from twitter.",
     "Volume": 71397.0,

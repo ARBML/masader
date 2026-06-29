@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "There are 40 data files. Each of the 20 calls has transcripts in two formats: .txt and .scr.",
     "Volume": 40.0,

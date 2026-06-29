@@ -14,8 +14,8 @@
         "crisis"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a multi-dialect Arabic Twitter corpus for crisis events, comprising more than\r\na million Arabic tweets collected during 22\r\ncrises that occurred between 2018 and 2020\r\nand involved several types of hazard",
     "Volume": 12446.0,

@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": " Linguistic annotations for the Tunisian part of the MADAR corpus (Bouamor et al., 2018)",

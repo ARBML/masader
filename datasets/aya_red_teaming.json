@@ -16,9 +16,8 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Multilingual red-teaming prompts in 8 languages distinguishing global vs local harms.",
     "Volume": 900.0,

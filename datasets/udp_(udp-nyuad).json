@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The treebank consists of 19,738 sentences (738889 tokens), and its domain is mainly newswire.",
     "Volume": 738889.0,

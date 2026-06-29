@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Sense-annotated dataset for Arabic, containing 1,440 sentences and 34K tokens",

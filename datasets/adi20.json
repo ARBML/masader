@@ -15,7 +15,7 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "An extension of the ADI-17 dataset with MSA,  Tunisian, and Bahraini dataset. ",

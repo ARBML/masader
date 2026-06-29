@@ -14,8 +14,8 @@
         "finance"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "The main corpora contains 1200 articles. The articles have been tagged using Stanford Arabic Part of Speech Tagger.",
     "Volume": 1200.0,

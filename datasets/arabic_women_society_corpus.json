@@ -76,8 +76,8 @@
         "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "252K Arabic Facebook posts on women's empowerment.",
     "Volume": 245211.0,

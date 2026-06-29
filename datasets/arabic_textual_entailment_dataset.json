@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This dataset contains 600 Arabic premise:hypothesis pairs.",
     "Volume": 600.0,

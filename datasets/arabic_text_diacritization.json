@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "Arabic Text Diacritization dataset",
     "Volume": 55000.0,

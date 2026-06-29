@@ -14,19 +14,17 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
-    "Description": "Arabic Questions & Answers dataset",
+    "Description": "AQAD 17,000+ Arabic Questions & Answers dataset",
     "Volume": 17911.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
         "Alexu"
     ],
-    "Derived From": [
-        "QA from wikipedia (based on SQuAD 2 articles)"
-    ],
+    "Derived From": [],
     "Paper Title": "AQAD: 17,000+ Arabic Questions for Machine Comprehension of Text",
     "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9316526",
     "Script": "Arab",

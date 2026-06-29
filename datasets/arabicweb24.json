@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "The ArabicWeb24 dataset consists of more than 28 billion tokens of cleaned and deduplicated Arabic web data from a customized crawl. This was processed using the large scale data processing library datatrove.",
     "Volume": 28000000000.0,

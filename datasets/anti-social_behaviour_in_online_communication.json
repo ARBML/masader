@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "a corpus of 15,050 labelled YouTube comments in Arabic",
     "Volume": 15050.0,

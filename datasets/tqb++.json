@@ -8,7 +8,7 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "science",
@@ -18,8 +18,8 @@
         "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Tiny QA Benchmark++ (TQB++) is an ultra-lightweight evaluation suite designed to expose critical failures in Large Language Model (LLM) systems within seconds.",
     "Volume": 50.0,

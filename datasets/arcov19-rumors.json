@@ -17,8 +17,8 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The first Arabic dataset for rumors verification in Twitter",
     "Volume": 9414.0,

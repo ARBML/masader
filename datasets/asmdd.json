@@ -8,13 +8,13 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "education"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Arabic speech mispronunciation detection dataset collected from children in Egypt..",

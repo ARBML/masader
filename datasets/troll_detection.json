@@ -14,15 +14,14 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Trolls detection in Tweets",
     "Volume": 128.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [
-        "-"
     ],
     "Derived From": [],
     "Paper Title": "",

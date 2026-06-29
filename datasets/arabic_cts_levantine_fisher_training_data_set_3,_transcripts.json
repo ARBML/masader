@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This corpus contains Arabic transcripts for 322 telephone conversations in UTF-8 format and associated documentation including a word list with frequency of occurences. The list shows all the occurences of words in their pronunciation spellings mapped to their corresponding canonical forms, as well as their raw frequency (the amount of times they appear in the corpus) and source document frequency (the number of documents in which they appear in the corpus).",

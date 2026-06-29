@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "This dataset includes Arabic translations of two widely-used code evaluation benchmarks — HumanEval+ and MBPP+ — adapted into Arabic for the first time as part of the 3LM project.",
     "Volume": 542.0,

@@ -1,5 +1,5 @@
 {
-    "Name": "Arabic news dataset about Hajj",
+    "Name": "ArPiS",
     "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Haneen84/Arabic_news/tree/main",
     "Link": "https://hf.co/datasets/Haneen84/Arabic_news/tree/main",
@@ -15,8 +15,8 @@
         "religion"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "more than 2k articles about Hajj",
     "Volume": 2000.0,

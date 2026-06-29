@@ -14,10 +14,9 @@
         "religion"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
-        "machine annotation",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "Annotated audio dataset of expert Quranic recitations aligned with phonetic tags for Tajweed rules.",
     "Volume": 847.99,

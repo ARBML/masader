@@ -8,13 +8,13 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This release contains 349,414 tokens before clitics were split and 435,677 tree tokens after clitics were split for treebank annotation. The source data was collected by LDC from its collection platform or by donation and was manually reviewed to exclude material not in the target language or with sensitive content. Originally written in Arabizi (or Romanized/Latin characters) script, the source data was transliterated to Arabic script and manually corrected prior to treebank annotation.",

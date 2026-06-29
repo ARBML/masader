@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A large-scale benchmark dataset of over 9000 high-quality scanned images from Arabic books for document layout analysis and text extraction.",

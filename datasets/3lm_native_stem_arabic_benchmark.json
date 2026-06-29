@@ -16,8 +16,8 @@
         "science"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The 3LM Native STEM dataset contains 865 multiple-choice questions (MCQs) curated from real Arabic educational sources.",
     "Volume": 865.0,

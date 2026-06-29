@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "BenchMAX_Domain_Translation is a dataset of BenchMAX, which evaluates the translation capability on specific domains.",

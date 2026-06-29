@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic Reading Comprehension Benchmarks Created Semiautomatically",
     "Volume": 2862.0,
@@ -25,9 +25,7 @@
         "PSUT"
     ],
     "Derived From": [
-        "AQA (1008)",
-        "Modified TREC (979)",
-        "Modified CLEF (418)"
+        "TREC"
     ],
     "Paper Title": "Arabic Reading Comprehension Benchmarks Created Semiautomatically",
     "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9300111",

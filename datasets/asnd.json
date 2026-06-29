@@ -22,8 +22,7 @@
         "economics"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A dataset collected from the official news channel accounts on Twitter, Facebook and Youtube annotated for topics. ",

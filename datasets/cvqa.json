@@ -8,15 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Egypt",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "culture"
     ],
     "Form": "images",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A multilingual visual question answering benchmark covering 30 countries and 31 languages with 10k culturally-driven questions.",
     "Volume": 203.0,

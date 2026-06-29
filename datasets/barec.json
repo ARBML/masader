@@ -18,7 +18,7 @@
         "education"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A large-scale, fine-grained Arabic readability corpus with 69K sentences across 19 levels, covering diverse genres and education stages.",

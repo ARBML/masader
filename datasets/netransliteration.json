@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "new multilingual named entity transliteration datasets based on Wikidata",
     "Volume": 145186.0,

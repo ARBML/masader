@@ -8,15 +8,15 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "culture",
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Cultural adversarial samples: Contains culturally relevant question-answer pairs designed by local residents to detect cultural bias in models",
     "Volume": 23000.0,

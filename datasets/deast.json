@@ -14,8 +14,8 @@
         "science"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Parallel English-Arabic corpus of 33k thesis titles in 13 scientific domains for machine translation.",
     "Volume": 33000.0,

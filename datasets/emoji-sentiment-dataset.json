@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "Twitter-based annotated dataset that is balanced multi-language 'in-the-wild' sentiment dataset",
     "Volume": 287578.0,

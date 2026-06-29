@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Algeria",
     "Source": [
-        "other"
+        "news articles"
     ],
     "Domain": [
-        "general"
+        "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "fully annotated in morpho-syntax\r\nand Universal Dependency syntax, with full\r\ntranslation at both the word and the sentence\r\nlevels",
     "Volume": 1500.0,

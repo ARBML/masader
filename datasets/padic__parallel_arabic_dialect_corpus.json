@@ -39,14 +39,14 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "social media"
+        "web pages"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a corpus composed of about 6400 sentences of dialects from both the Maghreb and the middle east",
     "Volume": 8244.0,

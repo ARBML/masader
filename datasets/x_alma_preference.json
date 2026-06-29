@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Multilingual parallel dataset for 50 languages created for training the X-ALMA translation model, containing preference data and high-quality parallel sentences.",
     "Volume": 7720.0,

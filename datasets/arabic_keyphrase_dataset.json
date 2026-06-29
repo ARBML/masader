@@ -8,14 +8,20 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "news articles"
+        "wikipedia"
     ],
     "Domain": [
-        "general"
+        "general",
+        "health",
+        "religion",
+        "history",
+        "technology",
+        "science",
+        "sports"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A dataset in Arabic language for automatic keyphrase extraction algorithms",
     "Volume": 400.0,

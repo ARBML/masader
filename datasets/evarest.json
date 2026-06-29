@@ -14,9 +14,9 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "manual curation",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation",
+        "human annotation"
     ],
     "Description": "The dataset includes both the recognition dataset and the synthetic one in a single train and test split.",
     "Volume": 296413.0,

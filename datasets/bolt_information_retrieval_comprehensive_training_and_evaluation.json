@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "BOLT Information Retrieval Comprehensive Training and Evaluation contains the pilot, dry run, and evaluation data developed for each phase of the BOLT IR task, including: (1) natural-language IR queries, system responses to queries, and manually-generated assessment judgments for system responses; (2) discussion forum source documents in Arabic, Chinese and English; (3) scoring software for each evaluation phase; and (4) experimental data developed in Phase 2.",
     "Volume": 1212102.0,

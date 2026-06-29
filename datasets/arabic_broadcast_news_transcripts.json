@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic Broadcast News Transcripts was developed by the Linguistic Data Consortium (LDC) and consists of 10 hours of transcribed speech from Voice of America satellite radio news broadcasts in Arabic recorded by LDC between June 2000 and January 2001.",
     "Volume": 10.0,

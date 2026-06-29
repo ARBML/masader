@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "This is a new collection of translated movie subtitles from http://www.opensubtitles.org/.",
     "Volume": 83600000.0,

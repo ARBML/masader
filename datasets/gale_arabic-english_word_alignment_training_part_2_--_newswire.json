@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release consists of Arabic source newswire collected by LDC in 2004 - 2006 and 2008. The distribution by genre, words, character tokens and segments appears below:",
     "Volume": 5349.0,

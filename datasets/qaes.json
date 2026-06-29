@@ -14,7 +14,7 @@
         "education"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "QAES dataset is the first publicly available trait-specific annotations for Arabic Automated Essay Scoring, built on the Qatari Corpus of Argumentative Writing (QCAW).",

@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "a set of 31,030 Arabic newspaper articles alongwith metadata, extracted from various online Saudi newspapers.",
     "Volume": 31030.0,

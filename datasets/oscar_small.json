@@ -8,21 +8,21 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "web crawls"
+        "web crawls",
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "a processed version of and smaller subset of OSCAR",
     "Volume": 408438.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
-        "-"
     ],
     "Derived From": [
         "OSCAR"

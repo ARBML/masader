@@ -16,8 +16,8 @@
         "crisis"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "It is a dataset of Arabic newspapers articles addressing COVID-19 related events. The data origin is Alriyadh newspaper. It contains all news articles until 1 February 2021",
     "Volume": 24084.0,

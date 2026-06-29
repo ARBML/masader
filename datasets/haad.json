@@ -14,8 +14,8 @@
         "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Human Annotated Arabic Dataset of Book Reviews for Aspect Based Sentiment Analysis",
     "Volume": 2389.0,

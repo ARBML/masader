@@ -14,8 +14,8 @@
         "law"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "The generated dataset comprised around 6,000 QA pairs, and the context was used to create a question and answer based on each legal article",
     "Volume": 6000.0,

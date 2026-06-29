@@ -8,7 +8,8 @@
     "Language": "ar",
     "Dialect": "Classical Arabic",
     "Source": [
-        "books"
+        "books",
+        "web crawls"
     ],
     "Domain": [
         "religion",
@@ -16,8 +17,8 @@
         "history"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "a large-scale, historical corpus of Arabic of about 1 billion\r\nwords from diverse periods of time",
     "Volume": 6100.0,

@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "A large-scale integral Arabic news dataset with 1.85M articles from 9 newspapers.",
     "Volume": 1850000.0,

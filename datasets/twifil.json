@@ -11,11 +11,13 @@
         "social media"
     ],
     "Domain": [
-        "general"
+        "politics",
+        "art",
+        "sports"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "An Algerian dialect dataset annotated for both sentiment (9,000 tweets), emotion (about 5,000 tweets) and extra-linguistic information including author profiling (age and gender)",
     "Volume": 14000.0,

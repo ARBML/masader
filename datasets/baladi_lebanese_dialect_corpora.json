@@ -8,8 +8,7 @@
     "Language": "ar",
     "Dialect": "Lebanon",
     "Source": [
-        "social media",
-        "other"
+        "social media"
     ],
     "Domain": [
         "general",
@@ -17,8 +16,8 @@
         "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The corpus consists of about 9.6K words/tokens collected from Facebook, blog posts and traditional poems. The corpus was annotated as an extension to Curras and following the same annotation methodology to form a Levantine Corpus.",
     "Volume": 10000.0,

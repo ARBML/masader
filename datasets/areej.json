@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "This dataset was made by adding evidence annotations to the Arabic subset of SREDFM. The dataset is from the Proceedings of The Second Arabic Natural Language Processing Conference paper AREEj: Arabic Relation Extraction with Evidence. If you use the dataset or the model, please reference this work in your paper:",
     "Volume": 500000.0,

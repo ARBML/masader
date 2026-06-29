@@ -15,7 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Wild2MaxDiacs is composed of 6k words with partial diacritization from 6 different sources. ",

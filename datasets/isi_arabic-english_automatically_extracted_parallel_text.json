@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "The corpus contains 1,124,609 sentence pairs; the word count on the English side is approximately 31M words. The sentences in the parallel corpus preserve the form and encoding of the texts in the original Gigaword corpora.",
     "Volume": 1124609.0,

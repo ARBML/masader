@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Comprehensive monolingual word lists for both Simplified and Traditional Chinese, Japanese, Korean and Arabic, including a full-form Arabic word list. For Simplified and Traditional Chinese, Japanese and Korean, we provide readings as well, making them ideal for speech-related applications such as speech synthesis. The two Arabic databases include both vocalized and romanized Arabic.",
     "Volume": 27500000.0,
@@ -25,7 +25,7 @@
     "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
-    "Script": "Arab",
+    "Script": "Arab-Latin",
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",

@@ -8,15 +8,14 @@
     "Language": "ar",
     "Dialect": "Saudi Arabia",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "education"
     ],
     "Form": "images",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic handwritten letters dataset written by children aged 7–12",
     "Volume": 47434.0,

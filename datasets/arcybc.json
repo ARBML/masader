@@ -15,8 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Multi-dialect Arabic cyberbullying corpus of 4,505 annotated tweets spanning gaming, sports, news, and celebrity topics.",

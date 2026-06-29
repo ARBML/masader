@@ -16,7 +16,7 @@
         "science"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A large-scale multilingual benchmark of 197k MCQs from regional exams to test regional knowledge.",

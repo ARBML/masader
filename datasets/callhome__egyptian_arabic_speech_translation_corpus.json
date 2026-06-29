@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "three-way parallel dataset of Egyptian Arabic Speech, transcriptions and English translations",

@@ -87,15 +87,15 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "public datasets"
+        "public datasets",
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A physical commonsense reasoning benchmark covering 116 language varieties, constructed by 335 native researchers worldwide.",
     "Volume": 1300.0,

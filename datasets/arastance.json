@@ -16,8 +16,8 @@
         "health"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "covers false and true claims from multiple domains (e.g., politics, sports, health) and several Arab countries",
     "Volume": 4063.0,

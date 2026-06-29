@@ -15,7 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "LMD in a separate task supports developing precise models capable of accurately resolving Location Mentions (LMs) within microblogs and linking them to toponyms in geo-positioning databases",

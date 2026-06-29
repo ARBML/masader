@@ -14,8 +14,8 @@
         "culture"
     ],
     "Form": "images",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Afri-Aya is a community-curated multilingual image dataset covering 13 major African languages with AI-powered categorization, created as part of Expedition Aya - a six-week global open-build challenge hosted by Cohere Labs.",
     "Volume": 413.0,

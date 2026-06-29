@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Multilingual reward-model evaluation benchmark with 2.87k preference instances across 23 languages.",

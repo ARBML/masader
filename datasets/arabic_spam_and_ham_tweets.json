@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "The dataset contains 13241 records. Each record represents a tweet. The tweets are labeled either Ham or Spam. Ham means non-spam tweet. There are 1924 Spam tweets and 11299 Ham tweets. The tweets are unique i.e. there are no repeated tweets records.",
     "Volume": 13241.0,

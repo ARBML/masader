@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "MArSUM is the first open corpus destinated for Moroccan dialect text summarization. The articles are retrieved from the GOUD.ma website and filtered to retain only Moroccan dialect. We have compiled a corpus of almost 20k articles with their titles.",
     "Volume": 20000.0,

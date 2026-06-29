@@ -14,8 +14,8 @@
         "religion"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "This dataset contains 7,465 question-answer pairs in Egyptian Arabic covering comprehensive Islamic studies topics. The dataset serves as a valuable resource for developing Arabic NLP models focused on Islamic education and religious knowledge.",
     "Volume": 7465.0,

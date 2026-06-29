@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Massively multilingual vision-language benchmark for cross-modal topical matching across 205 languages.",

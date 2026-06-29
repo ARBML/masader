@@ -8,13 +8,13 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "receipts"
     ],
     "Domain": [
         "finance"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],

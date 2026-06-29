@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "benchmark environment for Natural Language Generation with a focus on its Evaluation, both through human annotations and automated Metric",
     "Volume": 29229.0,

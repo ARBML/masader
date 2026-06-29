@@ -14,9 +14,8 @@
         "general"
     ],
     "Form": "videos",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A continuous Arabic Sign Language dataset with 9,335 video samples from 6 signers across 3 modalities (color, depth, skeleton).",
     "Volume": 10.2,

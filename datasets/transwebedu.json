@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A multilingual dataset created by translating the English FineWeb-Edu corpus into 9 languages using NLLB-200-1.3B.",

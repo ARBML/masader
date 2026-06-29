@@ -18,8 +18,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "categorize memes as either propagandistic or non-propagandistic",

@@ -15,8 +15,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "It includes 4,037 human-labelled Arabic Twitter messages for four high-risk flood events that occurred in 2018",
     "Volume": 4037.0,

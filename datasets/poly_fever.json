@@ -15,7 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A multilingual fact-verification benchmark with claims translated from English to 11 languages for hallucination detection in LLMs.",

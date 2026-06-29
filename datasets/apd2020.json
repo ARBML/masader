@@ -16,8 +16,8 @@
         "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Updated Classical Arabic poetry dataset (APD2020) covering five eras scraped from Adab.com, cleaned, made publicly available via Kaggle",
     "Volume": 86061.0,

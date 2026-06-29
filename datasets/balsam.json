@@ -8,16 +8,16 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "public datasets"
+        "public datasets",
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation",
-        "LLM generated",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
     ],
     "Description": "Pooling resources and expertise to create high-quality datasets tailored for AI testing, covering diverse domains and various Arabic dialects to enhance the robustness and versatility of LLMs.",
     "Volume": 52000.0,

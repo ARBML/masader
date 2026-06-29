@@ -18,8 +18,8 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "Dataset for Arabic subjectivity classification combined by levering existing Arabic datasets.",
     "Volume": 77916.0,

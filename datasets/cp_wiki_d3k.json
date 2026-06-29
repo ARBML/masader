@@ -15,9 +15,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "Public dataset for Arabic Wikipedia proper nouns.",
     "Volume": 3362.0,

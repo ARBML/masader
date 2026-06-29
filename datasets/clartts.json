@@ -14,7 +14,7 @@
         "literature"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A single-speaker classical Arabic Text-to-Speech corpus of 12 hours manually transcribed from a LibriVox audiobook.",

@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "10,045 question-answer-passages triplets extracted from Wikipedia passages",
     "Volume": 10045.0,

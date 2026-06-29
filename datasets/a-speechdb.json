@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A-SpeechDB© is an Arabic speech database suited for training acoustic models for Arabic phoneme-based speaker-independent automatic speech recognition systems. The database contains about 20 hours of continuous speech recorded through one desktop omni microphone by 205 native speakers from Egypt (about 30% of females and 70% of males), aged between 20 and 45.",
     "Volume": 20.0,

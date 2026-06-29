@@ -14,8 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Arabic humor detection dataset with 10039 tweets in dialectal and MSA Arabic annotated as Humor vs Non-Humor.",

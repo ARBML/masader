@@ -39,14 +39,14 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A Benchmark for Evaluating Multidialectal Arabic Word Embeddings",
     "Volume": 3070.0,

@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Egyptian Arabic and Modern Standard Arabic sentiment words and their polarity",
     "Volume": 5953.0,

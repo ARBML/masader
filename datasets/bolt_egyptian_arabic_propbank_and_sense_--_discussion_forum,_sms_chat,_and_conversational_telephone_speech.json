@@ -15,7 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "DF data was collected from the web using a manual process. SMS/Chat material was donated or collected via live platforms. CTS data was taken from LDC's Egyptian Arabic CALLHOME and CALLFRIEND telephone collections.",

@@ -39,8 +39,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "First multi-dialect Arabic commonsense dataset.",
     "Volume": 133152.0,

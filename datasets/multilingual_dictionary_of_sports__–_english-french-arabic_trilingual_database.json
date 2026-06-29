@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
-        "general"
+        "sports"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This dictionary was produced within the French national project EuRADic (European and Arabic Dictionaries and Corpora), as part of the Technolangue programme funded by the French Ministry of Industry.",
     "Volume": 40000.0,

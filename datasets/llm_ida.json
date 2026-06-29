@@ -15,7 +15,7 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Moral judgments of 19 LLMs on 3,991 contemporary political figures in 6 UN languages.",

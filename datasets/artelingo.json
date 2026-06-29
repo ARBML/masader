@@ -14,7 +14,7 @@
         "art"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Multilingual emotion and caption dataset for 80k WikiArt images in Arabic, Chinese, English and Spanish.",

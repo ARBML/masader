@@ -14,8 +14,7 @@
         "health"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "2000 Arabic medical documents from Arabic medical websites and the Arab Medical Encyclopedia, 10-class disease classification.",

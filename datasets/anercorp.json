@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "news articles"
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "collected from different resources",
     "Volume": 316.0,
@@ -24,7 +24,9 @@
     "Provider": [
         "NYU Abu Dhabi University"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "Original ANERcorp"
+    ],
     "Paper Title": "CAMeL Tools: An Open Source Python Toolkit for Arabic Natural Language Processing",
     "Paper Link": "https://aclanthology.org/2020.lrec-1.868.pdf",
     "Script": "Arab",

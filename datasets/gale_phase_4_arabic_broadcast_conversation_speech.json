@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The broadcast conversation recordings in this release feature interviews, call-in programs and roundtable discussions focusing principally on current events from the following sources: Al Alam News Channel, based in Iran; Al Fayhaa, an Iraqi television channel; Al Hiwar, a regional broadcast station based in the United Kingdom; Alnurra, a U.S. government-funded regional broadcaster; Aljazeera, a regional broadcaster located in Doha, Qatar; Al Ordiniyah, a national broadcast station in Jordan; Dubai TV, a broadcast station in the United Arab Emirates; Lebanese Broadcasting Corporation, a Lebanese television station; Saudi TV, a national television station based in Saudi Arabia; Syria TV, the national television station in Syria; and Tunisian National TV, a national television station in Tunisia.",
     "Volume": 75.0,

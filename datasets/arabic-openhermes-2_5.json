@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Arabic-OpenHermes-2.5 is a carefully curated dataset extracted / translated from the OpenHermes-2.5 collection provided by teknium.",

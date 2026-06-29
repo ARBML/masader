@@ -15,9 +15,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "An Arabic instruction-tuning dataset of 500k samples created by combining synthetic and human-crafted data.",
     "Volume": 500000.0,

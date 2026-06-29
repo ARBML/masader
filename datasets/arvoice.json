@@ -14,8 +14,7 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],

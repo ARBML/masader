@@ -14,8 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation",
+        "metadata-derived"
     ],
     "Description": "A bilingual corpus of Arabic-English parallel tweets and a list of Twitter accounts who post Arabic-English",
     "Volume": 166000.0,

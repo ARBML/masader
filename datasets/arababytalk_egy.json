@@ -15,9 +15,9 @@
         "society"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "LLM generated",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
     ],
     "Description": "AraBabyTalk-EGY is an enriched release of the Egyptian Arabic CHILDES corpus that opens the child-adult interactions genre to modern Arabic NLP research. ",
     "Volume": 26000.0,

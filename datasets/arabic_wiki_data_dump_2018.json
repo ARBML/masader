@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "Arabic is a rich and major world language. Recent advances in computational linguistics and AI can be applied to Arabic but not in the generic way most languages are treated. This dataset (Arabic articles from Wikipedia) will be used to train Word2Vec and compare performance with publicly available pre-trained model from FastText (Facebook) in a generic way. A related model is now available: https://www.kaggle.com/abedkhooli/arabic-ulmfit-model",
     "Volume": 0.0,

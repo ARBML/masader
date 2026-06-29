@@ -17,8 +17,8 @@
         "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "ashaar: a dataset for Arabic poetry",
     "Volume": 254000.0,

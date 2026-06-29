@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "Largest list of Arabic stop words on Github.",
     "Volume": 750.0,

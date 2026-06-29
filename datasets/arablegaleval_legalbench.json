@@ -14,7 +14,7 @@
         "law"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Translated subset of tasks from LegalBench",

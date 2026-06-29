@@ -14,9 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "First Arabic cross-domain text-to-SQL dataset",
     "Volume": 10225.0,

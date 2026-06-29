@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A total of 250 topics, numbered 55001 - 55250, were annotated by LDC using a search guided annotation technique. Details of the annotation process are described in the annotation task definition.",

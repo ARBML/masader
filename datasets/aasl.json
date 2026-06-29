@@ -8,15 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The first publicly available RGB dataset of Arabic sign language alphabets with 7,857 labelled images collected from 200+ participants.",
     "Volume": 7857.0,

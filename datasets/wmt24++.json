@@ -27,7 +27,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Extended WMT24 benchmark covering 55 languages/dialects with human references and post-edits for evaluating MT and LLMs.",

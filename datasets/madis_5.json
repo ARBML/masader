@@ -48,8 +48,7 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Multi-domain Arabic dialect speech benchmark with ~12 hours spanning radio, TV dramas, TEDx, theater content.",

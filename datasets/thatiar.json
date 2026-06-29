@@ -15,7 +15,7 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Arabic news sentences annotated for subjectivity detection",

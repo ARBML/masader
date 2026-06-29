@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "DivEMT is the first publicly available post-editing study of Neural Machine Translation (NMT) over a typologically diverse set of six target languages (Arabic, Dutch, Italian, Turkish, Ukrainian, Vietnamese).",

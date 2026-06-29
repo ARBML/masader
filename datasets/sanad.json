@@ -11,11 +11,18 @@
         "news articles"
     ],
     "Domain": [
-        "news"
+        "news",
+        "finance",
+        "sports",
+        "culture",
+        "technology",
+        "politics",
+        "health",
+        "religion"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "textual data collected from three news portals",
     "Volume": 194797.0,

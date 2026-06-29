@@ -111,8 +111,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "an evaluation suite for dialectal Arabic to English machine translation",
     "Volume": 130226.0,

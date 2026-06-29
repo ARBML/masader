@@ -17,10 +17,10 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
         "machine annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "Darija-SFT-Mixture is a dataset consisting of 458K instruction samples, by consolidating existing Darija language resources, creating novel datasets both manually and synthetically, and translating English instructions under strict quality control",
     "Volume": 458285.0,

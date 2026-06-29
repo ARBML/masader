@@ -8,15 +8,14 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "studio recordings"
+        "web crawls"
     ],
     "Domain": [
         "religion"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
-        "manual curation"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "A large Arabic audio dataset of 15,810 clips from 30 Quran reciters plus 397 imitation clips from 12 skilled imitators, organized by chapter and verse for speaker-identification and imitation-detection tasks.",
     "Volume": 15810.0,

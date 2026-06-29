@@ -17,8 +17,8 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "Bilingual (Arabic/English) COVID-19 Twitter dataset for misleading information detection",
     "Volume": 3263000.0,

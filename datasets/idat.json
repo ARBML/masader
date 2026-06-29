@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "written in\r\nModern Standard Arabic but also in different Arabic language varieties\r\nincluding Egypt, Gulf, Levantine and Maghrebi dialects",
     "Volume": 5030.0,

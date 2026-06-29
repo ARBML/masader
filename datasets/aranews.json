@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a large-scale, multi-topic, and multi-country Arabic news dataset",
     "Volume": 1000000.0,

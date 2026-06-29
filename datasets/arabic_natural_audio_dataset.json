@@ -8,16 +8,16 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "TV channels"
     ],
     "Domain": [
         "general"
     ],
-    "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Form": "videos",
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "This is the  first Arabic Natural Audio Dataset (ANAD) developed to recognize 3 discrete emotions: Happy,angry, and surprised.",
+    "Description": "This is the first Arabic Natural Audio Dataset (ANAD) developed to recognize 3 discrete emotions: Happy,angry, and surprised.",
     "Volume": 1384.0,
     "Unit": "hours",
     "Ethical Risks": "Medium",

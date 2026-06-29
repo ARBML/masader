@@ -14,9 +14,9 @@
         "science"
     ],
     "Form": "text",
-    "Collection Style": [
-        "machine annotation",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "Within the AraDiCE collection, this particular subset is designated as ArabicMMLU - Levant Dialects.",
     "Volume": 14459.0,

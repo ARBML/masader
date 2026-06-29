@@ -14,7 +14,7 @@
         "literature"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A vision-language OCR dataset for Arabic text recognition, generated synthetically and used to fine-tune the Qari-OCR model.",

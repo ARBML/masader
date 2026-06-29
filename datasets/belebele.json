@@ -51,7 +51,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants.",

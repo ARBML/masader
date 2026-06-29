@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "it is pre processed dataset from Twitter about Telecom companies in Sudan, it labelled by 3 different labels from different age, gender and background",
     "Volume": 5349.0,

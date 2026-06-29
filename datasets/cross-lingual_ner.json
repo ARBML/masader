@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "NER for five different target languages\r\n— Spanish, Dutch, German, Arabic and Finnish",
     "Volume": 2687.0,

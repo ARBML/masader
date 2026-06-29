@@ -14,19 +14,15 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "DZDC12 is a multi-purpose parallel corpus crawled from facebook",
     "Volume": 2400.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
     "Provider": [
-        "Department of Electronics and Telecommunications",
-        "Université 8 Mai 1945 Guelma",
-        "24000",
-        "Guelma",
-        "Algeria"
+        "Université 8 Mai 1945 Guelma"
     ],
     "Derived From": [],
     "Paper Title": "DZDC12: a new multipurpose parallel Algerian Arabizi–French code-switched corpus",

@@ -14,8 +14,8 @@
         "health"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A sentence-aligned parallel English–Arabic corpus of healthcare texts encompassing patient information leaflets and educational materials.",
     "Volume": 51671.0,

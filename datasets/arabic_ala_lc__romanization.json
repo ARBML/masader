@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "parallel Arabic and Romanized bibliographic entries",
     "Volume": 107439.0,
@@ -24,7 +24,11 @@
     "Provider": [
         "NYU Abu Dhabi"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "LC",
+        "UMICH",
+        "ACO"
+    ],
     "Paper Title": "Automatic Romanization of Arabic Bibliographic Records",
     "Paper Link": "https://aclanthology.org/2021.wanlp-1.23.pdf",
     "Script": "Arab-Latin",

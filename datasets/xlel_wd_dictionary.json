@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "XLEL-WD is a multilingual event linking dataset. This supplementary dataset contains a dictionary of event items from Wikidata. The descriptions for Wikidata event items are taken from the corresponding multilingual Wikipedia articles.",
     "Volume": 114834.0,

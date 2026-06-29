@@ -14,7 +14,7 @@
         "science"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Large-scale Egyptian and Moroccan dialectal Arabic datasets for pre-training and instruction-tuning NileChat LLM.",

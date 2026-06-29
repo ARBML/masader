@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Multilingual safety detection dataset with 1.91M prompts and responses in 17 languages including Arabic.",

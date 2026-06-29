@@ -8,15 +8,14 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Crowdsourced multilingual assistant-style conversations with quality annotations for LLM alignment training",
     "Volume": 666.0,

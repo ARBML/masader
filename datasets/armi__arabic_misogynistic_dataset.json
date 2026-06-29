@@ -8,15 +8,16 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "social media"
+        "social media",
+        "public datasets"
     ],
     "Domain": [
         "society",
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic multidialectal dataset for misogynistic language",
     "Volume": 9833.0,
@@ -26,7 +27,9 @@
         "The ORSAM Center for Middle Eastern Studies",
         "University of Alberta"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "Let-Mi"
+    ],
     "Paper Title": "ArMI at FIRE 2021: Overview of the First Shared Task on Arabic Misogyny Identification",
     "Paper Link": "http://ceur-ws.org/Vol-3159/T5-1.pdf",
     "Script": "Arab",

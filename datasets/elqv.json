@@ -15,8 +15,7 @@
         "religion"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "a dataset that consists of a collection of the Quran verses annotated with emotion classes. ",

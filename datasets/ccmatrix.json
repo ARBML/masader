@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "80 languages, we were able to mine 10.8 billion parallel sentences, out of which only 2.9 billion are aligned with English",
     "Volume": 196000000.0,

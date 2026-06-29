@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "This multilingual collection is derived from the original English NanoBEIR datasets, which are smaller versions of BEIR datasets.",

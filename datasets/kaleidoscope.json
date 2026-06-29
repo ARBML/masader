@@ -15,9 +15,8 @@
         "science"
     ],
     "Form": "images",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Multilingual multimodal exam benchmark with 20,911 multiple-choice questions across 18 languages and 14 subjects.",
     "Volume": 382.0,

@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "XStoryCloze consists of the professionally translated version of the English StoryCloze dataset (Spring 2016 version) to 10 non-English languages. This dataset is released by Meta AI.",

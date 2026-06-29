@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "1M parallel, labeled virtual-assistant utterances in 51 languages for NLU tasks with train/dev/test splits.",

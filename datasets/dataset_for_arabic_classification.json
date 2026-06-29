@@ -11,11 +11,15 @@
         "news articles"
     ],
     "Domain": [
+        "sports",
+        "politics",
+        "culture",
+        "economics",
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "DataSet for Arabic text classification. The dataset, as mentioned by the author's description has been collected semi-automatically.",
     "Volume": 111700.0,

@@ -14,11 +14,11 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "The following table gives a breakdown of the data contained in the entire Arabic Treebank project, with discrepancies between versions for Parts 1 and 3. The fields include source, number of stories, total number of tokens, number of tokens after clitic separation, and number of Arabic word tokens after punctuation, numbers, and latin strings have been taken out. The totals given at the bottom are calculated from the latest versions where discrepencies exist, and do not include tokens after clitic separation since that number is missing from Part 4.",
-    "Volume": 2231.0,
+    "Description": "Arabic Treebank: Part 1 v 3.0 (POS with full vocalization + syntactic analysis) was developed by the Linguistic Data Consortium (LDC) and contains 123,795 Arabic word tokens with part-of-speech (POS) and syntactic treebank annotation. The POS annotation includes the lexical category, inflectional features, a gloss, full vocalization, and case ending.",
+    "Volume": 123795.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
@@ -35,7 +35,7 @@
     "Has Splits": false,
     "Partial": false,
     "Tasks": [
-        "information retrieval"
+        "part of speech tagging"
     ],
     "Venue Title": "",
     "Venue Type": "other",

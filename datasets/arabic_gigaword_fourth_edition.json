@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "The table below shows data quantity by source under the following categories: data source (Source); the number of files per source (#Files); compressed file size (Gzip-MB); uncompressed file size (Totl-MB); the number of space-separated words tokens in the text (K-words); and the number of documents per source (#DOCs).",
     "Volume": 2716995.0,

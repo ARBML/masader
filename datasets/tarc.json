@@ -14,8 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "flexible and multi-purpose open corpus in order to be a useful support for different types of analyses: computational and linguistics, as well as for NLP tools training",
     "Volume": 4790.0,

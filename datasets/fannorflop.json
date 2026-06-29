@@ -15,9 +15,8 @@
         "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "A curated Arabic poetry benchmark with explanations for evaluating LLMs across 12 historical eras and 14 poetic genres.",
     "Volume": 6984.0,

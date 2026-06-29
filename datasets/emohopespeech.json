@@ -15,7 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Bilingual dataset of Arabic and English social media posts annotated for emotions and hope speech.",

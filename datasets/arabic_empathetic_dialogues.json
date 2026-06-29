@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "38K samples of open-domain utterances and empathetic responses in Modern Standard Arabic (MSA)",
     "Volume": 36629.0,
@@ -24,7 +24,9 @@
     "Provider": [
         "AUB"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "EmpatheticDialogues"
+    ],
     "Paper Title": "Empathy-driven Arabic Conversational Chatbot",
     "Paper Link": "https://aclanthology.org/2020.wanlp-1.6.pdf",
     "Script": "Arab",

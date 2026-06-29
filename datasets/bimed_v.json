@@ -14,9 +14,9 @@
         "health"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "Bilingual medical text dataset for training a medical multimodal model, containing 1.6M instructional samples in Arabic and English.",
     "Volume": 1600000.0,

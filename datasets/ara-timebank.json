@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "enriched Arabic corpus, called “ARA-TimeBank”, for events, temporal expressions and temporal relations based on the new Arabic TimeML.",
     "Volume": 1000.0,

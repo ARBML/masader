@@ -15,8 +15,8 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Egyptian Dialect Gender Annotated Dataset (EDGAD) obtained from Twitter as well as a proposed text classification solution for the Gender Identification (GI) problem. The dataset consists of 70,000 tweets per gender",
     "Volume": 140000.0,

@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The broadcast conversation recordings in this release feature interviews, call-in programs and roundtable discussions focusing principally on current events from the following sources: Abu Dhabi TV, based in Abu Dhabi, United Arab Emirates; Al Alam News Channel, based in Iran; Al Arabiya, a news television station based in Dubai; Aljazeera, a regional broadcaster located in Doha, Qatar; Lebanese Broadcasting Corporation, a Lebanese television station; Oman TV, a national broadcaster located in the Sultanate of Oman; Saudi TV, a national television station based in Saudi Arabia; and Syria TV, the national television station in Syria. A table showing the number of programs and hours recorded from each source is contained in the readme file.",
     "Volume": 128.0,

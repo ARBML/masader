@@ -16,9 +16,8 @@
         "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Benchmark for Judeo-Arabic transliteration.",
     "Volume": 46529.0,

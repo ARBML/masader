@@ -14,7 +14,7 @@
         "finance"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "OGC_Energy_Arabic is a curated multimodal dataset focused on Arabic energy sector documents, including reports, financial statements, technical documentation, and industry analyses. It combines text and image data extracted from real energy-related PDFs to support tasks such as RAG DSE, question answering, document search, and vision-language model training in Arabic.",

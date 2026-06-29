@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A multilingual parallel dataset for aspect-based sentiment analysis with 7 domains and 21 languages.",

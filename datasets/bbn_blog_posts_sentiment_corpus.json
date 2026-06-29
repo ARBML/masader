@@ -14,8 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "A random subset of 1200 Levantine dialectal sentences\r\nchosen from the BBN Arabic-Dialect–English Parallel Text",
     "Volume": 1200.0,

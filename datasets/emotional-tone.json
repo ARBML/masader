@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Dataset of 10065 tweets in Arabic for Emotion detection in Arabic text",
     "Volume": 10065.0,
@@ -24,7 +24,9 @@
     "Provider": [
         "Nile University"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "NileULex"
+    ],
     "Paper Title": "Emotional Tone Detection in Arabic Tweets",
     "Paper Link": "https://www.researchgate.net/profile/Samhaa-El-Beltagy/publication/320271778_Emotional_Tone_Detection_in_Arabic_Tweets/links/59d9f0a5458515a5bc2b1d8a/Emotional-Tone-Detection-in-Arabic-Tweets.pdf",
     "Script": "Arab",

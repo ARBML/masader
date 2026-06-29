@@ -33,8 +33,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Participants were recruited by native speakers who contacted acquaintances in their social network. Those native speakers made one call, up to 15 minutes, to each acquaintance. The data was collected using LDC's telephone collection infrastructure, comprised of three computer telephony systems. Human auditors labeled calls for callee gender, dialect type and noise. Demographic information about the participants was not collected.",
     "Volume": 117.1,

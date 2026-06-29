@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Palestine",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Curras: a dataset for Palestinian Arabic with rich metadata including POS tagging, lemma, stem, and other",
     "Volume": 56700.0,

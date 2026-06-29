@@ -18,8 +18,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Identify the propagandistic content from multigenre (tweet and news paragraphs from  news articles) text.",

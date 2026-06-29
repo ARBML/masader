@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release includes 9,693 annotation files in MADCAT XML format (.madcat.xml) along with their corresponding scanned image files in TIFF format.",
     "Volume": 9693.0,

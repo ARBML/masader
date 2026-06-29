@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "a huge multilingual corpus obtained by language classification and filtering of the Common Crawl",
     "Volume": 8117162828.0,

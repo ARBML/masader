@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Contains a collection of Arabic prompts designed for use with AI language models (such as ChatGPT).",
     "Volume": 201.0,

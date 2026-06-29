@@ -16,7 +16,7 @@
         "science"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "It contains 11,095 4-option multiple-choice-questions (MCQ) extracted from academic and professional exams, covering 57 topics, including regional knowledge.",

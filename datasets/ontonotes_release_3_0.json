@@ -15,7 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Each data directory has been stored as a Gnu Zipped Tar File (.tgz) due to the complexity and depth of each directory and the limitations of the ISO CD9660 file system for CD and DVD media. These directories may be easily unpacked using the Unix command line or using utilities such as StuffIt or WinZip under Windows.",

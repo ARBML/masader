@@ -14,8 +14,8 @@
         "health"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "corpus from a medical care forum known as Doctissimo",
     "Volume": 152.0,

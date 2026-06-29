@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Multilingual dataset for evaluating knowledge graph enhancement systems across 10 languages with curated entity names and aliases.",

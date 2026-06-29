@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "BenchMAX_General_Translation is a dataset of BenchMAX, which evaluates the translation capability on the general domain.  We collect parallel test data from Flore-200, TED-talk, and WMT24.",

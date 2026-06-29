@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The first manually-created multilingual jailbreak dataset designed to evaluate safety vulnerabilities of large language models across 10 languages under intentional and unintentional attack scenarios.",

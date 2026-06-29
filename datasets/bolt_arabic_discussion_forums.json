@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "BOLT Arabic Discussion Forums was developed by the Linguistic Data Consortium (LDC) and consists of 813,080 discussion forum threads in Egyptian Arabic harvested from the Internet using a combination of manual and automatic processes.",
     "Volume": 813080.0,

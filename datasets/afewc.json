@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "a multilingual comparable text articles in Arabic, French, and English languages",
     "Volume": 40290.0,

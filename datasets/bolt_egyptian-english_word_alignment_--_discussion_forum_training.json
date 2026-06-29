@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release consists of Egyptian source discussion forum threads harvested from the Internet by LDC using a combination of manual and automatic processes. The source data is released as BOLT Arabic Discussion Forums (LDC2018T10).",
     "Volume": 31454.0,

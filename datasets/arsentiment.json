@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "Automatically annotated Reviews in Domains of Movies, Hotels, Restaurants and Products",
     "Volume": 42692.0,

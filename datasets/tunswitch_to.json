@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The tunisian only version of TunSwitch CS dataset",
     "Volume": 2.92,

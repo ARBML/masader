@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic Levantine Hate Speech and Abusive Language Dataset",
     "Volume": 5851.0,

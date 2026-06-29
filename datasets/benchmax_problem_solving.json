@@ -14,7 +14,7 @@
         "science"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "BenchMAX_Problem_Solving is a dataset of BenchMAX, sourcing from LiveCodeBench_v4, which evaluates the code generation capability for solving multilingual competitive code problems.",

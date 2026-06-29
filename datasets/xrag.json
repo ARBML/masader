@@ -14,10 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
     ],
     "Description": "XRAG is a cross-lingual RAG benchmark covering German, Spanish, Chinese, and Arabic questions with English retrieval documents.",
     "Volume": 1500.0,

@@ -8,15 +8,16 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "books"
+        "books",
+        "web crawls"
     ],
     "Domain": [
         "literature",
+        "history",
         "art"
     ],
     "Form": "images",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First publicly available dataset of real-world Arabic handwriting in historic manuscripts and calligraphy, containing 5,031 image-text pairs across five calligraphic styles.",

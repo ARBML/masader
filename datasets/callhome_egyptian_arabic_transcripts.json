@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The transcripts are timestamped by speaker turn for alignment with the speech signal and are provided in standard orthography.",
     "Volume": 120.0,

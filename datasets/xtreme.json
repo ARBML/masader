@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "contains many datasets from different benchmarks like XNLI, TYDiQA, etc.",
     "Volume": 0.0,

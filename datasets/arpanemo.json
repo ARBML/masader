@@ -18,8 +18,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Manually annotated Arabic online posts on COVID-19 for fine-grained emotion recognition, covering 11 emotion labels.",

@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "GLARE an Arabic Apps Reviews dataset collected from Saudi Google PlayStore. It consists of 76M reviews, 69M of which are Arabic reviews of 9,980 Android Applications. We present the data collection methodology, along with a detailed Exploratory Data Analysis (EDA) and Feature Engineering on the gathered reviews. We also highlight possible use cases and benefits of the dataset.",
     "Volume": 76000000.0,

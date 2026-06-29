@@ -8,15 +8,14 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "manual curation",
         "machine annotation"
     ],
     "Description": "ZAEBUC Spoken Corpus is a multilingual, multidialectal Arabic-English speech corpus.",

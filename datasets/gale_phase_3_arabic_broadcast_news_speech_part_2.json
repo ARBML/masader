@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The recordings in this release feature news broadcasts focusing principally on current events from the following sources: Abu Dhabi TV, United Arab Emirates; Al Alam News Channel, based in Iran; Al Arabiya, a news television station based in Dubai; Al Iraqiyah, an Iraqi television station; Aljazeera, a regional broadcaster located in Doha, Qatar; Al-Manar TV, a broadcast programmer located in Lebanon; Al Ordiniyah, a national broadcast station in Jordan; Al Sharqiya, an Iraqi television station; Dubai TV, a broadcast station in the United Arab Emirates; Kuwait TV, a national broadcast station in Kuwait; Nile TV, a broadcast programmer based in Egypt; Oman TV, a national broadcaster located in the Sultanate of Oman; Saudi TV, a national television station based in Saudi Arabia; and Syria TV, the national television station in Syria.",
     "Volume": 128.0,

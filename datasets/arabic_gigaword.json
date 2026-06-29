@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "There are 319 files, totalling approximately 1.1GB in compressed form (4348 MB uncompressed, and 391619 Kwords).",
     "Volume": 1256719.0,

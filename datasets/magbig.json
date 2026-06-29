@@ -14,9 +14,9 @@
         "society"
     ],
     "Form": "images",
-    "Collection Style": [
-        "LLM generated",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
     ],
     "Description": "Multilingual Assessment of Gender Bias in Image Generation with controlled prompts in nine languages.",
     "Volume": 624.0,

@@ -15,8 +15,8 @@
         "religion"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "QUQA is an Arabic question-and-answer dataset on the Holy Quran consisting of 3382 records and over 301,000 tokens.",
     "Volume": 3382.0,

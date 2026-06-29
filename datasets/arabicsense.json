@@ -14,9 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
     ],
     "Description": "A synthetic commonsense reasoning benchmark in Arabic covering validation and explanation tasks.",
     "Volume": 5650.0,

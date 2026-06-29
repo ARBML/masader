@@ -14,8 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation",
+        "inherited annotation"
     ],
     "Description": "Mr. TYDI is constructed from TYDI, a question answering dataset covering\r\neleven typologically diverse languages",
     "Volume": 16573.0,

@@ -14,7 +14,7 @@
         "finance"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Balanced image dataset of all seven banknote denominations of the sixth issue of Saudi Arabian currency.",

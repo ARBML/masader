@@ -14,8 +14,8 @@
         "law"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "ALARB is a 13K-case Arabic legal reasoning benchmark from Saudi commercial courts.",
     "Volume": 13344.0,

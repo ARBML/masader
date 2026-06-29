@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The dataset is oriented toward visual question answering of multilingual text scenes in nine languages, including Korean, Japanese, Italian, Russian, Deutsch, French, Thai, Arabic, and Vietnamese.",
     "Volume": 818.0,

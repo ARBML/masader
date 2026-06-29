@@ -14,8 +14,7 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "a parallel corpus of translated news articles collected at Tokyo University of Foreign Studies (TUFS)",

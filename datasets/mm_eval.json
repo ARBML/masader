@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Multilingual meta-evaluation benchmark for evaluating Large-Language-Model judges across 18 core languages and 122 consistency-test languages.",

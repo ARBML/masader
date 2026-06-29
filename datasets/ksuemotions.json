@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Audio was recorded in each participant's home. Audio is presented as 16-bit 16 kHz flac compressed wav. In addition to speech files and metadata about the speakers, timeless label files and automatic time segmentation alignment files are included. Text is presented as UTF-8 plain text.",

@@ -16,7 +16,7 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A new version of WikiNews that was manually extended for maximal diacritization",

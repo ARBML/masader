@@ -93,9 +93,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "Unified-dialectal Arabic Text to Speech framework with 12+ dialects.",
     "Volume": 1857.3,

@@ -8,14 +8,15 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "studio recordings"
+        "studio recordings",
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This dataset is designed to help train simple machine learning models that serve educational and research purposes in the speech recognition domain",
     "Volume": 3.0,

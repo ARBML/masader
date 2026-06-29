@@ -8,14 +8,15 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "other",
+        "web crawls"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "question answering dataset covering 11 typologically diverse languages with 200K question-answer pairs",
     "Volume": 25893.0,

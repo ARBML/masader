@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "Comprehensive platform for Arabic morphology resources that combines eight dictionaries",
     "Volume": 717380.0,

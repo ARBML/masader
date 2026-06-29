@@ -16,8 +16,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "A parallel corpus of News Commentaries provided by WMT for training SMT",
     "Volume": 200000.0,

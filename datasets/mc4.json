@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "A colossal, cleaned version of Common Crawl's web crawl corpus.",
     "Volume": 53256040.0,

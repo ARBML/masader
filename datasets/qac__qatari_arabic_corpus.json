@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Speech was recorded from four Qatari television programs in 2009-2011:",
     "Volume": 18.45,

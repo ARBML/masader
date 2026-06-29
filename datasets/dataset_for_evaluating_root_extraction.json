@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "treebanks"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "This dataset contains data to evaluate the roots extracted by Arabic stemmers and morphological analyzers.",
     "Volume": 2962.0,

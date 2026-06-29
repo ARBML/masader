@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The source audio consists of conversational telephone speech recordings collected by LDC: (1) data collected for the RATS program from Levantine Arabic and Farsi speakers; and (2) material from Levantine Arabic QT Training Data Set 5, Speech (LDC2006S29) and CALLFRIEND Farsi Second Edition Speech (LDC2014S01).",
     "Volume": 400.0,

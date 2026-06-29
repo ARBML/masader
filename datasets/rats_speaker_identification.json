@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The source audio consists of conversational telephone speech recordings collected by LDC specifically for the RATS program from Levantine Arabic, Pashto, Urdu, Farsi and Dari native speakers. Annotations on the audio files include start time, end time, speech activity detection (SAD) label, SAD provenance, speaker ID, speaker ID provenance, language ID, and language ID provenance.",
     "Volume": 224.87,

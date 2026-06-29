@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "BenchMAX_Multiple_Functions is a dataset of BenchMAX, sourcing from Nexus. This dataset evaluates the tool use capability in multilingual senarios, which requires a model to call the correct function given the user query and multiple functions.",

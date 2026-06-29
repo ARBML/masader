@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "education"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "comprises a collection of texts written by learners of Arabic in\r\nSaudi Arabia",
     "Volume": 1.0,

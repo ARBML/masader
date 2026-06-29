@@ -39,7 +39,7 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Simple Voice Questions (SVQ) is a set of short audio questions recorded in 26 locales across 17 languages under multiple audio conditions.",

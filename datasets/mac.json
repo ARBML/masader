@@ -28,8 +28,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "An open and free Moroccan Arabic corpus of 18000 sentiment-annotated tweets plus a 30k-word lexicon.",

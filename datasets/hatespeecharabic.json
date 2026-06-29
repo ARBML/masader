@@ -15,8 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A multilabel Arabic hate speech corpus of 10,000 tweets annotated for offensive content and hate targets.",

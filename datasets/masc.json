@@ -8,14 +8,22 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "reviews"
+        "reviews",
+        "social media",
+        "web pages"
     ],
     "Domain": [
+        "culture",
+        "art",
+        "health",
+        "politics",
+        "education",
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "Multi-domain Arabic Sentiment Corpus (MASC) with a size of 8860 positive and negative reviews from different domains",
     "Volume": 8860.0,

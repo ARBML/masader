@@ -11,11 +11,19 @@
         "news articles"
     ],
     "Domain": [
+        "economics",
+        "history",
+        "education",
+        "religion",
+        "sports",
+        "health",
+        "science",
+        "law",
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "collecting the largest free\r\naccessible Arabic corpus, OSAC, which contains about\r\n18M words and about 0.5M district keywords.",
     "Volume": 22429.0,

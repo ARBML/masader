@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The largest sentiment analysis dataset to-date for the Arabic language.",
     "Volume": 63257.0,

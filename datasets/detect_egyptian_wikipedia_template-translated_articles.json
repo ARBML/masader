@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "A labeled dataset of Egyptian Arabic Wikipedia articles extracted from Wikipedia dumps 2024-01-01, along with their metadata.",
     "Volume": 755665.0,

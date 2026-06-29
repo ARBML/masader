@@ -15,8 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "T-HSAB was constructed out of Tunisian comments scraped from facebook and youtube. Collected the comments based on multiple queries formulated from the potential entities that are usually targeted by abusive/hate speech such as “اليهود” (Jews), \"الأفارقة\" (Africans), “المساواة في الميراث” (gender equality in inheritance), etc.",

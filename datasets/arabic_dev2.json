@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The dataset is a translation of a subset (139/467) of the queries in DBpedia Entity v2 (https://github.com/iai-group/DBpedia-Entity) to Modern Standard Arabic. We used the “stopped” version of DBpedia Entity v2 (queries-v2_stopped.txt).",

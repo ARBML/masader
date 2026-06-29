@@ -8,14 +8,16 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "other",
+        "web crawls"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation",
+        "human annotation"
     ],
     "Description": "A Dataset for Arabic Why Question Answering System",
     "Volume": 3205.0,

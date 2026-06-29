@@ -15,8 +15,8 @@
         "crisis"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "contains data collected from December 1st 2019 until April 11th 2020",
     "Volume": 3800856.0,

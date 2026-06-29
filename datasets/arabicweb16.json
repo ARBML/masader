@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "public Web crawl of 150,211,934 Arabic Web pages with high coverage of dialectal Arabic as well as Modern Standard Arabic (MSA)",
     "Volume": 150211934.0,

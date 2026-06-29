@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "A cross-lingual dataset of 128M QA pairs from 13M Wikipedia articles in 50 languages and their 71M web sources.",
     "Volume": 5000000.0,

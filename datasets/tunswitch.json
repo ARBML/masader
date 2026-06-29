@@ -8,7 +8,8 @@
     "Language": "ar",
     "Dialect": "Tunisia",
     "Source": [
-        "public datasets"
+        "public datasets",
+        "manual construction"
     ],
     "Domain": [
         "general",
@@ -16,8 +17,8 @@
         "society"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A corpus of Tunisian Arabic speech with code-switching, including spontaneous and read speech from radio shows and podcasts.",
     "Volume": 8.55,

@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "evaluation set for XLU\r\nby extending the development and test sets of\r\nthe Multi-Genre Natural Language Inference\r\nCorpus (MultiNLI) to 15 languages,",

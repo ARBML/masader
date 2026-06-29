@@ -21,8 +21,7 @@
         "sports"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Thematic Modern Standard Arabic collected form the web with 7 different topics. ",

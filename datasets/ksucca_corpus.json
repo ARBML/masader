@@ -14,8 +14,8 @@
         "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "KSUCCA is a pioneering 50+ million word corpus that captures the culture of a nation.",
     "Volume": 410.0,

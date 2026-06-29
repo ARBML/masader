@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "treebanks"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A comprehensive full-form lexicon of Arabic general vocabulary including all inflected, conjugated and cliticized forms. Each entry is accompanied by a rich set of morphological, grammatical, and phonological attributes. Ideally suited for NLP applications, DAG provides precise phonemic transcriptions and full vowel diacritics designed to enhance Arabic speech technology.",
     "Volume": 87930738.0,

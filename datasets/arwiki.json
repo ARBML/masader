@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "This dataset is extracted using wikiextractor tool, from Wikipedia Arabic pages.",
     "Volume": 1136455.0,

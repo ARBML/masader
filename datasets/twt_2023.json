@@ -14,8 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A massive unlabeled Twitter collection of 1B Arabic tweets plus a manually-verified gold corpus covering 319 city-level micro-varieties across 21 Arab countries, created to train MARBERT and benchmark micro-dialect identification.",

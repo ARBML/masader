@@ -14,8 +14,8 @@
         "finance"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "A synthetic dataset created using Llama 3 for finance",
     "Volume": 30.0,

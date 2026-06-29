@@ -15,8 +15,7 @@
         "science"
     ],
     "Form": "images",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Dataset of 41 mathematical gesture classes in Palestinian Sign Language for hard-of-hearing education.",

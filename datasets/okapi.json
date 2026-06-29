@@ -14,9 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "Multilingual instruction-tuned RLHF dataset covering 26 languages.",
     "Volume": 158000.0,

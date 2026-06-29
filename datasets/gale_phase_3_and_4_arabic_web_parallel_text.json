@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "GALE Phase 3 and 4 Arabic Web Parallel Text includes 124 source-translation document pairs, comprising 61,662 tokens of Arabic source text and its English translation. Data is drawn from various Arabic weblog and newsgroup sources.",
     "Volume": 61662.0,

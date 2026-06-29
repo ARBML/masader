@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The data was scraped and collected from two of the most famous news sources in Saudi Arabia",
     "Volume": 45000.0,

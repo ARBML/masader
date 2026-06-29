@@ -8,21 +8,31 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets",
+        "captions",
+        "TV channels",
+        "LLM"
     ],
     "Domain": [
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "MIMIC-IT offers a diverse and extensive dataset of 2.8M multimodal instruction-response pairs, designed to enhance the performance of Vision-Language Models (VLMs) in real-life scenarios, enabling VLMs to excel in perception, reasoning, and planning while also catering to a multilingual audience.",
     "Volume": 2100000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [],
-    "Derived From": [],
+    "Derived From": [
+        "COCO",
+        "Spot the Diff",
+        "ScanNetV2",
+        "VIST",
+        "ACtivityNet Captions",
+        "Ego4D"
+    ],
     "Paper Title": "MIMIC-IT: Multi-Modal In-Context Instruction Tuning",
     "Paper Link": "https://arxiv.org/pdf/2306.05425",
     "Script": "Arab",

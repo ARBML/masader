@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Benchmark Arabic dataset for commonsense explanation containing false sentences and three-choice explanations.",

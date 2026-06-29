@@ -48,9 +48,8 @@
         "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Arabic Poetry IFT is a template dataset for Arabic poetry understanding and co-creation. It supports four task families: generation, continuation, revision/restoration, and multiple-choice analysis. ",
     "Volume": 3285.0,

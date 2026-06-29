@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Modern Standard ArabicDialectal Arabic (MSA-DA)",
     "Volume": 11224.0,

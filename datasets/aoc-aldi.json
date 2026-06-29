@@ -9,15 +9,16 @@
     "Dialect": "mixed",
     "Source": [
         "commentary",
-        "news articles"
+        "news articles",
+        "public datasets"
     ],
     "Domain": [
         "news",
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Comments to news articles with a continuous level of dialectness score between 0 and 1.",
     "Volume": 127835.0,

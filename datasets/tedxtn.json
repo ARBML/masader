@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Tunisia",
     "Source": [
-        "other"
+        "web pages",
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First Tunisian Arabic-English speech translation corpus.",

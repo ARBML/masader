@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Source": [
-        "other"
+        "web pages"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "This dataset contains text-summary pairs in Egyptian Arabic designed for training and evaluating text summarization models.",
     "Volume": 3689.0,

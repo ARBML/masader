@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Arabic news articles dataset crawled from the Webz.io API Language category",
     "Volume": 236383.0,

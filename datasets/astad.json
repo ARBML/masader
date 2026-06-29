@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "It contains 58K Arabic tweets (47K training, 11K test) tweets annotated in positive and negative labels",
     "Volume": 58000.0,

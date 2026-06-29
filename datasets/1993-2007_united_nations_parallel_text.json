@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The data is presented as raw text and word-aligned text. The raw text is very close to what was extracted from the original word processing documents in UN ODS (e.g., Word, WordPerfect, PDF), converted to UTF-8 encoding.",
     "Volume": 520283.0,

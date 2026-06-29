@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "monolingual datasets from Common Crawl for a variety of languages",
     "Volume": 7132000.0,

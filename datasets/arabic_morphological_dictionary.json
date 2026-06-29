@@ -8,22 +8,20 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The Arabic Morphological Dictionary contains 4,912,749 entries, including: - 3,374,852 nouns, - 1,537,699 verbs, - 198 grammatical words.",
     "Volume": 4912749.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
-    "Provider": [
-        "-"
-    ],
+    "Provider": [],
     "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",

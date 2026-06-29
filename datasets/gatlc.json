@@ -15,7 +15,7 @@
         "science"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Dataset derived from the General Aptitude Test (GAT) for evaluating LLMs' mathematical reasoning and language comprehension.",

@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Egyptian_Arabic_Wikipedia_20230101 is a dataset created using the Egyptian Arabic Wikipedia articles, downloaded on the 1st of January 2023, and processed to train an Egyptian Arabic RoBERTa model.",
     "Volume": 728000.0,

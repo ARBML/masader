@@ -8,15 +8,16 @@
     "Language": "ar",
     "Dialect": "Classical Arabic",
     "Source": [
-        "books"
+        "books",
+        "public datasets"
     ],
     "Domain": [
         "literature",
         "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "It contains 50 TXT files recording poetry composition by various authors from 6th and 7th c. It was derived from two corpora: King Saud University Classical Arabic Corpus (KSUCAC) created by the team led by Maha S. Alrabiah (2014), and a corpus prepared by Abeer Alsheddi (2016).",
     "Volume": 50.0,
@@ -24,10 +25,7 @@
     "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
-        "Alrabiah",
-        "Maha S. (2014): \tKing Saud University Classical Arabic Corpus",
-        "Ar-Riyāḍ. Alsheddi",
-        "Abeer. (2016): \tEdit Distance Adapted to Natural Language Words. M.A. Thesis. Ar-Riyāḍ."
+        "KSUCAC"
     ],
     "Paper Title": "Cultural Conceptualizations of shame & dishonor in Early Poetic Arabic (EPA)",
     "Paper Link": "https://www.ejournals.eu/pliki/art/20227/",

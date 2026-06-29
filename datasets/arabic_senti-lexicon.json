@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "reviews"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "a list of 3880 positive and negative synsets annotated with their part of speech, polarity scores, dialects synsets and inflected forms",
     "Volume": 3880.0,

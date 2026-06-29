@@ -11,11 +11,11 @@
         "wikipedia"
     ],
     "Domain": [
-        "general"
+        "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Comments on Arabic Wikipedia Talk pages that have some code-switching to latin.",
     "Volume": 5259.0,

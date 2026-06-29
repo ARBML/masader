@@ -8,15 +8,15 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "public datasets"
+        "manual construction"
     ],
     "Domain": [
         "education",
         "science"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "There are 6000 samples and 883 templates. A template is an equation once the variables have been replaced with ordered placeholders.",
     "Volume": 6000.0,
@@ -25,9 +25,7 @@
     "Provider": [
         "KAUST"
     ],
-    "Derived From": [
-        "MATH23K"
-    ],
+    "Derived From": [],
     "Paper Title": "ArMATH: a Dataset for Solving Arabic Math Word Problems",
     "Paper Link": "https://aclanthology.org/2022.lrec-1.37.pdf",
     "Script": "Arab",

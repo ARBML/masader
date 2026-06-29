@@ -15,8 +15,8 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "Combined MLMA and L-HSAB datasets",
     "Volume": 5790.0,

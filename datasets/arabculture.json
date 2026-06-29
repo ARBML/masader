@@ -8,15 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A commonsense reasoning dataset in Modern Standard Arabic covering 13 Arab countries across four regions.",
     "Volume": 3482.0,

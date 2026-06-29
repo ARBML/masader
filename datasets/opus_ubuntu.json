@@ -8,15 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
     "Source": [
-        "other"
+        "web pages"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "These are translations of the Ubuntu software package messages, donated by the Ubuntu community.",
     "Volume": 299.0,

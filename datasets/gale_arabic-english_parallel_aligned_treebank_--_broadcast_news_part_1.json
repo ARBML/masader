@@ -17,8 +17,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The source data consists of Arabic broadcast news programming collected by LDC in 2005 and 2006 from Alhurra, Aljazeera and Dubai TV.",
     "Volume": 115826.0,

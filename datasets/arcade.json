@@ -129,8 +129,7 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First Arabic speech dataset with city-level dialect granularity from radio streams.",

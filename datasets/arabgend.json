@@ -15,8 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Dataset of 167K Arabic Twitter accounts labeled for gender and location.",

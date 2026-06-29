@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Annotations for this corpus were produced by Linguistic Data Consortium to support the following tasks broken down by language:",
     "Volume": 206.0,

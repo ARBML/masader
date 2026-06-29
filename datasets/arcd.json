@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "1,395 questions posed by crowdworkers on Wikipedia articles",
     "Volume": 1395.0,

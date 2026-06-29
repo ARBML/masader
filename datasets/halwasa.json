@@ -14,9 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
     ],
     "Description": "First Arabic dataset with 10K LLM-generated sentences annotated for factuality.",
     "Volume": 10000.0,

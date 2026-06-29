@@ -8,16 +8,16 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "wikipedia"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
-    "Description": "we have extracted\r\napproximately 45,000 Arabic NE",
+    "Description": "Extracted approximately 45,000 Arabic NEs and built the largest, most mature and well-structured Arabic NE lexical resource to date",
     "Volume": 45000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",

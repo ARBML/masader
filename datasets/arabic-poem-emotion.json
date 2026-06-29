@@ -8,26 +8,27 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "books"
+        "books",
+        "web pages"
     ],
     "Domain": [
         "literature",
         "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "A dataset containing over 9000 Arabic poems labeled by three emotion classes.",
     "Volume": 9000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
-        "University of Guelph"
+        "American University of Sharjah"
     ],
     "Derived From": [],
-    "Paper Title": "",
-    "Paper Link": "",
+    "Paper Title": "Classification of Arabic Poetry Emotions Using Deep Learning",
+    "Paper Link": "https://www.mdpi.com/2073-431X/12/5/89",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
@@ -38,11 +39,17 @@
     "Tasks": [
         "emotion classification"
     ],
-    "Venue Title": "",
-    "Venue Type": "other",
-    "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
-    "Abstract": "",
+    "Venue Title": "Computers",
+    "Venue Type": "journal",
+    "Venue Name": "Computers",
+    "Authors": [
+        "Sakib Shahriar",
+        "Noora Al Roken",
+        "Imran Zualkernan"
+    ],
+    "Affiliations": [
+        "American University of Sharjah"
+    ],
+    "Abstract": "The automatic classification of poems into various categories, such as by author or era, is an interesting problem. However, most current work categorizing Arabic poems into eras or emotions has utilized traditional feature engineering and machine learning approaches. This paper explores deep learning methods to classify Arabic poems into emotional categories. A new labeled poem emotion dataset was developed, containing 9452 poems with emotional labels of joy, sadness, and love. Various deep learning models were trained on this dataset. The results show that traditional deep learning models, such as one-dimensional Convolutional Neural Networks (1DCNN), Gated Recurrent Unit (GRU), and Long Short-Term Memory (LSTM) networks, performed with F1-scores of 0.62, 0.62, and 0.53, respectively. However, the AraBERT model, an Arabic version of the Bidirectional Encoder Representations from Transformers (BERT), performed best, obtaining an accuracy of 76.5% and an F1-score of 0.77. This model outperformed the previous state-of-the-art in this domain.",
     "Added By": "Abdelrahman Rezk"
 }

@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "The dataset is composed of a set of text documents in both Arabic (Modern Standard) and Egyptian dialect aligned at document level. comparable documents share the same document ID.",
     "Volume": 10197,

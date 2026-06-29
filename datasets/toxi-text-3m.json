@@ -8,15 +8,16 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "social media"
+        "social media",
+        "public datasets"
     ],
     "Domain": [
         "general",
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "This is a large multilingual toxicity dataset with 3M rows of text data from 55 natural languages, all of which are written/sent by humans, not machine translation models.",
     "Volume": 51852.0,

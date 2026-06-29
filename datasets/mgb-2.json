@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "from Aljazeera TV programs have been manually captioned with no timing information",
     "Volume": 1200.0,

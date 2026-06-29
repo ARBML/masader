@@ -15,10 +15,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "Arabic Twitter sentiment analysis dataset containing 36k tweets labeled positive or negative using distant supervision.",
     "Volume": 18173.0,

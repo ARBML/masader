@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Multilingual span-level hallucination detection dataset with 14 languages, automatically annotated using GPT-4o.",
     "Volume": 2072.0,

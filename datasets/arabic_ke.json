@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Arabic translations of ZsRE and Counterfact benchmarks for knowledge editing analysis.",

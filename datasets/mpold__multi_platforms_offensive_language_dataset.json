@@ -14,8 +14,8 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic Offensive Comments dataset from Multiple Social Media Platforms",
     "Volume": 400.0,

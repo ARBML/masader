@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "ATB1 v 4.1 contains a total of 145,386 tokens before clitics are split, and 167,280 tokens after clitics are separated for the treebank annotation.",
     "Volume": 145386.0,
@@ -35,7 +35,7 @@
     "Has Splits": false,
     "Partial": false,
     "Tasks": [
-        "information retrieval"
+        "part of speech tagging"
     ],
     "Venue Title": "",
     "Venue Type": "other",

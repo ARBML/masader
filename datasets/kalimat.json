@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "20,291 Arabic articles collected from the Omani newspaper Alwatan",
     "Volume": 20291.0,

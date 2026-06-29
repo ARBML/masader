@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Egypt",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "videos",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This dataset contains high-quality video recordings of Egyptian people speaking on a range of topics. It is curated for AI research in speech recognition, multimodal analysis, topic understanding, and spoken-language modeling.",
     "Volume": 13.0,

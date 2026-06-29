@@ -16,8 +16,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "Arabic News for language modeling collected from  BBC Arabic EuroNews Aljazeera CNN Arabic RT Arabic",
     "Volume": 713134.0,

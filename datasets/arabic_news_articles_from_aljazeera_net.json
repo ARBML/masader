@@ -15,10 +15,10 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
-    "Description": "Natural Language Process, or NLP, is one of the most studied machine learning field. Much progress has been made in recent years which has allowed this field to move into large scale use in several domains. Nowadays, NLP is widely used in social networks, in search engines, in translation tools, in chatbot assistants, and many others cases … However, the progress and results differ from language to another. The majority of machine learning models treat in priority English and abandon the other languages, in particular Arabic. The main reason for this is the lack of datasets. Hence all the interest of the current datasets gathering +5000 news articles in Arabic.",
+    "Description": "This data-set contains 5870 news articles in Arabic language extraced from aljazeera.net website.",
     "Volume": 5870.0,
     "Unit": "documents",
     "Ethical Risks": "Low",

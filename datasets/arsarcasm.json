@@ -46,8 +46,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The dataset was created using previously available Arabic sentiment analysis datasets",
     "Volume": 10547.0,

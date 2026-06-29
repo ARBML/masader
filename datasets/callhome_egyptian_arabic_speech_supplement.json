@@ -14,12 +14,12 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "There are 20 data files in sphere format. The files are 8 KHz shorten-compressed two-channel mulaw. 12 of the files were recorded from domestic phone calls (both parties living in the continental U.S.), while the other eight are overseas calls (a participant in the U.S. called a friend or relative in Egypt or some other overseas country).",
-    "Volume": 20.0,
-    "Unit": "documents",
+    "Volume": 8.0,
+    "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"

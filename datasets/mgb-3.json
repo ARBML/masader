@@ -17,8 +17,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "explores multi-genre data; comedy, cooking, cultural, environment, family-kids, fashion, movies-drama, sports, and science talks (TEDX)",
     "Volume": 16.0,

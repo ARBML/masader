@@ -8,15 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "public datasets"
+        "public datasets" 
     ],
     "Domain": [
         "culture"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "First multilingual culturally-aligned spoken QA dataset with ~33k real user questions/answers in Arabic and English for evaluating LLMs in conversational spoken settings.",
     "Volume": 988.0,

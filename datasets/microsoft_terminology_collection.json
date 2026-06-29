@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The Microsoft Terminology Collection can be used to develop localized versions of applications that integrate with Microsoft products. It can also be used to integrate Microsoft terminology into other terminology collections or serve as a base IT glossary for language development in the nearly 100 languages available. Terminology is provided in .tbx format, an industry standard for terminology exchange.",
     "Volume": 20000.0,

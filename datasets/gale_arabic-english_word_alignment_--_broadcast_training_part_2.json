@@ -16,8 +16,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release consists of Arabic source broadcast news and broadcast conversation data collected by LDC from 2007-2009. The distribution by genre, words, tokens and segments appears below:",
     "Volume": 11693.0,

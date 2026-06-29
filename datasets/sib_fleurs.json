@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A massively multilingual benchmark for spoken language understanding covering 102 languages for utterance classification and 92 languages for multiple-choice QA from spoken paragraphs.",

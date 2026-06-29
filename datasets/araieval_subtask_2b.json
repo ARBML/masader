@@ -15,9 +15,8 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Part of the propaganda detection task for classification of fine-grained disinformation in tweets. ",
     "Volume": 3929.0,

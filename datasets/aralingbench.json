@@ -8,15 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A fully human-annotated benchmark of 150 multiple-choice questions that evaluates core Arabic linguistic skills across grammar, morphology, spelling, reading comprehension, and syntax.",
     "Volume": 150.0,

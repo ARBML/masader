@@ -14,9 +14,9 @@
         "politics"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "Multilingual RAG benchmark for 49 languages focusing on territorial disputes.",
     "Volume": 544.0,

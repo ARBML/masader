@@ -45,14 +45,14 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "web pages"
     ],
     "Domain": [
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The corpus has a duration of 8.1 hours sampled at 16 kHz and coded on 16 bits. The considered languages are: MSA, English; whereas the dialects are: Syrian, Saudi Arabic, Egyptian, and Lebanese. 70% of this dataset had been used for training, and the remaining for the test phase.",
     "Volume": 7.82,

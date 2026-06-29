@@ -14,8 +14,7 @@
         "crisis"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First Arabic Location Mention recognition dataset of disaster tweets",

@@ -15,9 +15,8 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "crawling",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Balanced coverage of multiple fields: high-quality image-text data from Wikipedia, Wikiquote, encyclopedia and mainstream media news from eight language countries;",
     "Volume": 220000.0,

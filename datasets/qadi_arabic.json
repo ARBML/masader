@@ -123,10 +123,10 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "Dialects dataset",
+    "Description": " QCRI Arabic Dialects Identification (QADI) is a Country-level Arabic dialects identification (DI) dataset.",
     "Volume": 543893.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",

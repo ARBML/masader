@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Multilingual visual document retrieval benchmark extending MIRACL with Wikipedia page images for 18 languages.",

@@ -27,14 +27,15 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "books"
+        "books",
+        "web crawls"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "Arabic discritization Corpus, Resource, Arabic vocalized texts",
     "Volume": 75637622.0,

@@ -15,9 +15,9 @@
         "general"
     ],
     "Form": "videos",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "machine annotation",
+        "LLM annotation"
     ],
     "Description": "Multilingual audio-video open-set deepfake detection benchmark with over 60K real and fake videos across eight languages, including Arabic.",
     "Volume": 9861.0,

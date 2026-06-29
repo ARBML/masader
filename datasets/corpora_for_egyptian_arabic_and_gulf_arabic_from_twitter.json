@@ -27,8 +27,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "An evenly balanced dataset of Arabic dialects, Egyptian and Gulf using a variety of dialectal terms.",
     "Volume": 300000.0,

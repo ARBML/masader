@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "SPIRAL is a corpus dedicated to the detection and correction of spelling errors in MSA Arabic texts.",
     "Volume": 248441892.0,

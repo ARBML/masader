@@ -15,8 +15,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "The corpus of PADT 1.0 consists of morphologically and analytically annotated newswire texts of Modern Standard Arabic, which originate from the Arabic Gigaword (LDC2003T12) and the plain data of Arabic Treebank: Part 1 v 2.0 (LDC2003T06) and Arabic Treebank: Part 2 v 2.0 (LDC2004T02).",
     "Volume": 212500.0,

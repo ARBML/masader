@@ -33,14 +33,13 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "health"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The Diagnostic interview corpus is a multilingual dataset of 12,754 French medical diagnostic interview sentences (questions and instructions) with translations into 12 target languages and a semantic gloss based on UMLS (Unified Medical Language System).",

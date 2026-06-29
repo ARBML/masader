@@ -27,8 +27,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Opinion Mining Corpus for Colloquial Variety of Arabic language",
     "Volume": 28576.0,

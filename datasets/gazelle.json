@@ -8,14 +8,16 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction",
+        "public datasets",
+        "LLM"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Gazelle comprises two main themes, text rewriting and writing advice,\nacross five distinct types of writing assistance instructions that we manually curate. Gazelle encompasses parallel data with instructions crafted in\nboth Arabic and English, covering both input and\noutput, allowing users to fine-tune models for these\nvarious tasks bilingually. Except for the I’rab and\nArabic grammatical rules and definitions datasets,\nwe manually translate the Arabic explanations and\ninstructions into English.",
     "Volume": 9423.0,
@@ -24,7 +26,11 @@
     "Provider": [
         "UBC-NLP"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "ALC taxonomy",
+        "ATB",
+        "PARSEME"
+    ],
     "Paper Title": "Gazelle: An Instruction Dataset for Arabic Writing Assistance",
     "Paper Link": "https://doi.org/10.18653/v1/2024.findings-emnlp.941",
     "Script": "Arab",

@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "ASAD is a word analogy dataset created using 20 Arab States with their corresponding capital cities, nationalities, currencies, and on which continents they are located, consisting of four sets: country-capital set, country-currency set, country-nationality set, and country-continent set. Each set has 380 word analogies, and the total number of word analogies in the ASAD dataset is 1520. This dataset is used to evaluate Arabic Word Embedding Models (WEMs).",
     "Volume": 1520.0,

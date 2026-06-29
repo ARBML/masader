@@ -141,8 +141,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A  large-scale collection of parallel sentences built to cover the dialects of 25 cities from the Arab World",
     "Volume": 2989.0,
@@ -151,7 +151,9 @@
     "Provider": [
         "NYU Abu Dhabi"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "BTEC"
+    ],
     "Paper Title": "Fine-Grained Arabic Dialect Identification",
     "Paper Link": "https://aclanthology.org/C18-1113.pdf",
     "Script": "Arab",

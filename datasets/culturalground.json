@@ -14,10 +14,9 @@
         "culture"
     ],
     "Form": "images",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "22 million multilingual image-question-answer triplets covering 39 languages and 42 countries.",
     "Volume": 346263.0,

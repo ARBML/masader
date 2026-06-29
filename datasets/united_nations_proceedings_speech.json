@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "United Nations Proceedings Speech was developed by the United Nations (UN) and contains approximately 8,500 hours of recorded proceedings in the six official UN languages, Arabic, Chinese, English, French, Russian and Spanish.",
     "Volume": 8500.0,

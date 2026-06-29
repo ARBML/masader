@@ -15,8 +15,7 @@
         "crisis"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Multilingual Facebook posts about the Israel-Gaza war annotated for bias and propaganda.",

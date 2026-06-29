@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Very comprehensive database of Arabic personal names and name variants mapped to the original Arabic script with a large variety of supplementary information. The database consists of 6,500,000 terms.",
     "Volume": 6500000.0,

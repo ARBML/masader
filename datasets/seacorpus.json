@@ -16,8 +16,7 @@
         "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "First open-source literary corpus of Sa'idi Egyptian Arabic (SEA), containing 4 million words from novels and poetry.",

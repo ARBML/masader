@@ -14,10 +14,10 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
-    "Description": "contains around\n6 million tokens representing different genres, as\nWikipedia is considered an open domain",
+    "Description": "contains around 6 million tokens representing different genres, as\nWikipedia is considered an open domain",
     "Volume": 6000000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",

@@ -14,10 +14,10 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "Here's a breakdown of the data amounts by source contained in this corpus:",
+    "Description": "developed by the Linguistic Data Consortium (LDC) and contains approximately 23,000 words of Arabic news text with 13 sets of English translations, 10 by humans and three by automatic Machine Translation (MT) systems, and assessments of the MT.",
     "Volume": 141.0,
     "Unit": "documents",
     "Ethical Risks": "Low",

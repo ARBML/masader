@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The Arabic portion of OntoNotes 5.0 includes 300K words of newswire data.",
     "Volume": 300000.0,

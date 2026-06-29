@@ -8,14 +8,15 @@
     "Language": "ar",
     "Dialect": "Classical Arabic",
     "Source": [
-        "books"
+        "books",
+        "web crawls"
     ],
     "Domain": [
         "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "A dataset of Arabic poetry containing 1,831,770 along with there meters.",
     "Volume": 1831770.0,

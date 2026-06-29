@@ -16,38 +16,38 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "ArSen-20, a benchmark dataset tailored to propel Arabic sentiment detection forward. ArSen-20 comprises 20,000 professionally labeled tweets sourced from Twitter, focusing on the theme of COVID-19 and spanning the period from 2020 to 2023",
     "Volume": 20000.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
+    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
-    "Paper Title": "English-Arabic Phonetic Dataset construction",
-    "Paper Link": "https://www.bio-conferences.org/articles/bioconf/pdf/2024/16/bioconf_iscku2024_00057.pdf",
+    "Paper Title": "ArSen-20: A New Benchmark for Arabic Sentiment Detection",
+    "Paper Link": "https://openreview.net/forum?id=GgsRUF5kJt",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
     "Has Splits": false,
-    "Partial": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "ISCKU",
-    "Venue Type": "conference",
-    "Venue Name": "International Scientific Conference of Alkafeel University",
+    "Venue Title": "AfricaNLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on African Natural Language Processing",
     "Authors": [
-        "Zaid Rajih Mohammed",
-        "Ahmed H. Aliwy"
+        "Yang Fang",
+        "Cheng Xu"
     ],
     "Affiliations": [
-        "Jaber bin Hayyan University of Medical and Pharmaceutical Sciences",
-        "University of Kufa"
+        "Huaibei Normal University",
+        "University College Dublin"
     ],
-    "Abstract": "In the field of natural language processing, the effectiveness of a semantic similarity\ntask is significantly influenced by the presence of an extensive corpus. While numerous\nmonolingual corpora exist, predominantly in English, the availability of multilingual resources remains quite restricted. In this study, we present a semi- automated framework designed for generating a multilingual phonetic English- Arabic corpus, specifically tailored for application in multilingual phonetically and semantic similarity tasks. The proposed model consists of four phases: data gathering, preprocessing and translation, extraction IPA representation, and manual correction. Four datasets were used one of them was constructed from many sources. A manual correction was used at all the levels of the system to produce a golden standard dataset. The final dataset was in the form (English Word, English Phonetic, equivalent Arabic Word, and Arabic Phonetic). Also, a deep learning approach was used for extracting International Phonetic Alphabet\n(IPA) phonetic representation where the results for 13400 samples show that the Phonetic Error Rate (PER) and accuracy were 11.96% and 88.04 % respectively which are good results for producing IPA representation for unknown English and Arabic names.",
+    "Abstract": "Sentiment detection remains a pivotal task in natural language processing, yet its development in Arabic lags due to a scarcity of training materials compared to English. Addressing this gap, we present ArSen-20, a benchmark dataset tailored to propel Arabic sentiment detection forward. ArSen-20 comprises 20,000 professionally labeled tweets sourced from Twitter, focusing on the theme of COVID-19 and spanning the period from 2020 to 2023. Beyond tweet content, the dataset incorporates metadata associated with the user, enriching the contextual understanding. ArSen-20 offers a comprehensive resource to foster advancements in Arabic sentiment analysis and facilitate research in this critical domain.",
     "Added By": "Zaid Alyafeai"
 }

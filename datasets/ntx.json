@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A multi-lingual benchmark dataset covering temporal and numerical expression recognition and normalization in 14 languages including Arabic.",

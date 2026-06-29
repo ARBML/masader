@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "studio recordings"
+        "LLM"
     ],
     "Domain": [
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "The Multilingual TTS dataset is an exceptional compilation of text-to-speech (TTS) samples, meticulously crafted to showcase the richness and diversity of human languages. This dataset encompasses a variety of real-world sentences in fifteen prominent languages, carefully chosen to reflect global linguistic diversity. Each sample is accompanied by its corresponding high-quality audio output.",
     "Volume": 1938.0,

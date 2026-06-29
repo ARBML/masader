@@ -29,7 +29,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The BRIGHTER Emotion Categories dataset is a comprehensive multi-language, multi-label emotion classification dataset with separate configurations for each language. It represents one of the largest human-annotated emotion datasets across multiple languages.",

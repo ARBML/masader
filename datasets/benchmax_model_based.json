@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "BenchMAX_Model-based is a dataset of BenchMAX, sourcing from m-ArenaHard, which evaluates the instruction following capability via model-based judgment.",

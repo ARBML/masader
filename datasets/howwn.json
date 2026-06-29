@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The ML-WiC dataset was constructed to target homonyms with multiple distinct senses. The dataset from Martelli et al. (2021) was designed for Multilingual and Cross-lingual Word-in-Context Disambiguation (MCL-WiC)",

@@ -45,16 +45,15 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "manual construction",
+        "LLM"
     ],
     "Domain": [
-        "general"
+        "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Multilingual native QA dataset with ~64k manually annotated pairs in seven languages covering 18 topics from nine regions.",
     "Volume": 49248.0,

@@ -12,11 +12,12 @@
         "social media"
     ],
     "Domain": [
-        "general"
+        "general",
+        "news"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "a 732-hour clean Arabic speech dataset for ASR pre-training and finetuning",
     "Volume": 732.0,

@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "5,691 conversations totaling 1,029,248 words across 262,026 messages. Messages were natively written in either Arabic orthography or romanized Arabizi",
     "Volume": 262026.0,

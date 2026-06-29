@@ -16,9 +16,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
     ],
     "Description": "AraTable is the first large-scale Arabic tabular reasoning benchmark, consisting of diverse tables and tasks",
     "Volume": 615.0,

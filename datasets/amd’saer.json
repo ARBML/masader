@@ -16,7 +16,7 @@
         "general"
     ],
     "Form": "videos",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Arabic multimodal dataset for sentiment analysis and emotion recognition with 1037 samples across audio, text, and visual modalities",

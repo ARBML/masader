@@ -16,8 +16,9 @@
         "crisis"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived",
+        "machine annotation"
     ],
     "Description": "collection of Arabic tweets IDs related to novel coronavirus COVID-19.",
     "Volume": 3934610.0,

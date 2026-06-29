@@ -15,9 +15,8 @@
         "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The datasets showcase the related and non-related pairs of Quran-Quran and Quran-Hadith. It has Classical Arabic and English translated verses and teachings.",
     "Volume": 20360.0,
@@ -26,7 +25,7 @@
     "Provider": [],
     "Derived From": [],
     "Paper Title": "Challenging the Transformer-based models with a Classical Arabic dataset: Quran and Hadith",
-    "Paper Link": "",
+    "Paper Link": "https://aclanthology.org/2022.lrec-1.157/",
     "Script": "Arab-Latin",
     "Tokenized": false,
     "Host": "GitHub",

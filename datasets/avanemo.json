@@ -14,8 +14,7 @@
         "general"
     ],
     "Form": "videos",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First audio-visual Arabic emotional dataset with 3000 clips covering six emotions from natural YouTube videos",

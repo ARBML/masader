@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This is a collection of translated documents from the United Nations originally compiled into a translation memory by Alexandre Rafalovitch, Robert Dale",
     "Volume": 73000.0,

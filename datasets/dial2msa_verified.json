@@ -39,9 +39,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Parallel tweets in 4 dialects with verified MSA translations for neural MT evaluation",
     "Volume": 31887.0,

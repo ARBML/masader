@@ -14,8 +14,8 @@
         "religion"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This dataset is a collection of Quranic verses and their transcriptions, with diacritization, by different reciters.",
     "Volume": 127400.0,

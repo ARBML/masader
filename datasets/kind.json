@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The KIND dataset consists of fine-grained Arabic dialect data collected through a social collaboration approach, emphasizing community involvement. It includes both aligned parallel corpora (MSA to dialectal translations) and dialectal Q&A data. The dataset covers underrepresented Arabic dialects, is suitable for training NLP models, and supports nuanced dialect analysis and comparison with MSA.",
     "Volume": 55484.0,

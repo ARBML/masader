@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "A quality-assured Arabic LLM leaderboard spanning 109 subsets and over 52k native Arabic samples across multiple domains and tasks.",
     "Volume": 52000.0,

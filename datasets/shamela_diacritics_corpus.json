@@ -15,8 +15,8 @@
         "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "An Arabic diacriticized corpus using data from the old Maktaba Shamela website",
     "Volume": 1305.0,
@@ -26,7 +26,7 @@
         "Independent"
     ],
     "Derived From": [
-        "Old Maktaba Shamela website: https://t.me/shamela_kindle/37678"
+        "Shamela"
     ],
     "Paper Title": "",
     "Paper Link": "",

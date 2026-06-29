@@ -16,8 +16,8 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "Arabic Stories Corpus  collected from mawdoo3",
     "Volume": 146.0,

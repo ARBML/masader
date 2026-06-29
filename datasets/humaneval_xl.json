@@ -14,9 +14,9 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "HumanEval-XL is a massively multilingual code generation benchmark connecting 23 natural languages and 12 programming languages.",
     "Volume": 80.0,

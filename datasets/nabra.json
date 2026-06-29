@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Syria",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a corpora of Syrian Arabic dialects with morphological annotations.",
     "Volume": 60000.0,

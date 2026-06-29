@@ -14,7 +14,7 @@
         "health"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Large-Scale Arabic Medical Question Answering Dataset and Benchmark",

@@ -8,13 +8,13 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Evaluating Gender Bias in Machine Translation",
@@ -24,7 +24,10 @@
     "Provider": [
         "Multiple Institutions"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "Winogender",
+        "WinoBias"
+    ],
     "Paper Title": "Evaluating Gender Bias in Machine Translation",
     "Paper Link": "https://arxiv.org/pdf/1906.00591.pdf",
     "Script": "Arab",

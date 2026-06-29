@@ -14,8 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The first hierarchical Arabic classification dataset derived from Wikipedia with up-to-date domain-annotated articles",

@@ -14,8 +14,8 @@
         "religion"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "training dataset contains 5,569 examples, while the testing dataset contains 567 examples collected from twittter",
     "Volume": 6136.0,

@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Each transcript file is a tab-delimited flat table, where each line contains information and text for a single contiguous utterance, presented via the following fields:",

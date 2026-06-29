@@ -15,8 +15,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "GALE Phase 4 Arabic Newswire Parallel Sentences includes 393 source-translation document pairs, comprising 62,669 words (Arabic source) of translated data. Data is drawn from six distinct Arabic newswire sources.",
     "Volume": 62669.0,

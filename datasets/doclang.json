@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A multilingual document type classification dataset for identifying various document and visual content types. The dataset contains 13,200 images across 11 languages, with 1,200 images per language.",
     "Volume": 1200.0,

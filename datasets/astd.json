@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "10k Arabic sentiment tweets classified into four classes subjective positive, subjective negative, subjective mixed, and objective",
     "Volume": 10006.0,

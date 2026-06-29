@@ -14,8 +14,8 @@
         "education"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "DARES is a dataset for Arabic readability estimation based on Saudi school textbooks. It contains 13,335 instances of text, focusing on the readability levels of different educational levels (grades 1-12). It is organized into two main subtasks: (a) Coarse-grained readability, classifying texts into broad educational levels (elementary, intermediate, high school), and (b) Fine-grained readability, classifying texts into individual grade levels.",
     "Volume": 13335.0,

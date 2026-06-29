@@ -8,13 +8,13 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "studio recordings"
     ],
     "Domain": [
         "general"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A dataset of 190,000 annotated RGB images of 32 Arabic sign-language letters and gestures collected under varied lighting, distance, and background conditions.",

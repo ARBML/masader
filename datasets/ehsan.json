@@ -14,10 +14,9 @@
         "health"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated",
+    "Annotation Style": [
         "human annotation",
-        "crawling"
+        "LLM annotation"
     ],
     "Description": "Arabic aspect-based sentiment dataset for healthcare reviews from Saudi hospitals.",
     "Volume": 6000.0,

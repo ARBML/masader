@@ -8,14 +8,14 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "public datasets"
     ],
     "Domain": [
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a collection of parallel sentences covering the dialects of 25 cities from the Arab World",
     "Volume": 14000.0,
@@ -24,7 +24,9 @@
     "Provider": [
         "NYU Abu Dhabi"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "BTEC"
+    ],
     "Paper Title": "The MADAR Arabic Dialect Corpus and Lexicon",
     "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2018/pdf/351.pdf",
     "Script": "Arab",

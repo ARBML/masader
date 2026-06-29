@@ -14,8 +14,7 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "a suite of functional tests for multilingual hate speech detection models",

@@ -14,8 +14,8 @@
         "science"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "The first public Arabic patent dataset for classification.",
     "Volume": 9765.0,

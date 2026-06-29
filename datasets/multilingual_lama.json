@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "multilingual version of lama.  The underlying idea of LAMA is to query knowledge from pretrained LMs using templates without any finetuning",

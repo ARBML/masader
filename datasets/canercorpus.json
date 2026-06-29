@@ -15,8 +15,8 @@
         "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "It is freely available and manual annotation by human experts, containing more than 7,000 Hadiths",
     "Volume": 72108.0,

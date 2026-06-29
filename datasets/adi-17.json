@@ -117,8 +117,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "dialect identification of speech from YouTube to one of the 17 dialects",
     "Volume": 3032.4,

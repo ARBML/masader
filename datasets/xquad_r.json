@@ -14,7 +14,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "XQuAD-R is a retrieval version of the XQuAD dataset (a cross-lingual extractive QA dataset). Like XQuAD, XQUAD-R is an 11-way parallel dataset, where each question appears in 11 different languages and has 11 parallel correct answers across the languages",

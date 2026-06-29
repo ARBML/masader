@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The corpus has been collected, annotated and made publicly accessible to other researchers for sentiment analysis research.",
     "Volume": 1170.0,

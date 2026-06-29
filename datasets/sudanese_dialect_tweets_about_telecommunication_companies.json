@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "Sentiment Analysis dataset written in Sudanese Arabic Dialect",
     "Volume": 4712.0,

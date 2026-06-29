@@ -14,7 +14,7 @@
         "news"
     ],
     "Form": "videos",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "SyriSign dataset was specifically created for translating Arabic text within the domain of local news and public announcements, with a focus on the Syrian dialect Sign language. ",

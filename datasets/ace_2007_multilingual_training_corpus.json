@@ -16,7 +16,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The Arabic data is composed of newswire (60%) published in October 2000-December 2000 and weblogs (40%) published during the period November 2004-February 2005.",

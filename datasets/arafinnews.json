@@ -15,8 +15,8 @@
         "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Arabic financial news article–headline pairs for abstractive summarisation, spanning 2015–2025.",
     "Volume": 39951000.0,

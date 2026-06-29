@@ -15,7 +15,7 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Machine-translated Arabic version of HuggingFace’s FineWeb-Edu dataset.",

@@ -8,15 +8,14 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "public datasets"
+        "manual construction"
     ],
     "Domain": [
         "education"
     ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Large Arabic AES dataset with trait annotations.",
     "Volume": 7859.0,

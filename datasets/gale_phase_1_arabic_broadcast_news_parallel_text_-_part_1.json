@@ -14,8 +14,8 @@
         "news"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A total of 17 hours of Arabic broadcast news recordings was selected from six sources and seven different programs.",
     "Volume": 17.0,

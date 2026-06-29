@@ -15,8 +15,8 @@
         "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "PULPO, the Prolific Unannotated Literary Poetry Corpus, is a set of multilingual corpora of verses and stanzas with over 95M words",
     "Volume": 256000.0,

@@ -14,8 +14,8 @@
         "health"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "4476 sentences with over 61k words, extracted from 94 sources of Arabic written medicine information",
     "Volume": 4476.0,

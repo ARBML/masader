@@ -13,11 +13,19 @@
         "public datasets"
     ],
     "Domain": [
-        "general"
+        "culture",
+        "finance",
+        "health",
+        "politics",
+        "religion",
+        "sports",
+        "technology",
+        "art",
+        "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Arabic dataset for topic classification",
     "Volume": 19784.0,

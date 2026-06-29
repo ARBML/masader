@@ -14,8 +14,8 @@
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "It consists of 118 hours of conversational telephone speech segments in the following languages and dialects: Arabic (Egyptian colloquial), Bengali, Min Nan Chinese, Wu Chinese, Taiwan Mandarin, Cantonese, Russian, Mexican Spanish, Thai, Urdu, and Tamil.",
     "Volume": 118.0,

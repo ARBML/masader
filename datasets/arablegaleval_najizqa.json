@@ -14,8 +14,7 @@
         "law"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "filtered FQA verified by legal experts, consists of 79 question-answer pairs",

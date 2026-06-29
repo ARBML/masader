@@ -8,14 +8,14 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "education"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "the corpus is an annotated Arabic-English bilingual writer corpus comprising short essays by first-year university students at Zayed University in the United Arab Emirates.",
     "Volume": 33300.0,
@@ -23,8 +23,7 @@
     "Ethical Risks": "Medium",
     "Provider": [
         "NYU Abu Dhabi",
-        "Zayed University",
-        "UAE"
+        "Zayed University"
     ],
     "Derived From": [],
     "Paper Title": "ZAEBUC: An annotated Arabic-English bilingual writer corpus",

@@ -16,8 +16,8 @@
         "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "AraCovid19-SSD is a manually annotated Arabic COVID-19 sarcasm and sentiment detection dataset containing 5,162 tweets.",
     "Volume": 5162.0,

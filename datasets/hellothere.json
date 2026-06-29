@@ -14,9 +14,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Dialogue corpus with 317 multi-turn conversations between users and Time-Offset Interaction Application avatars.",
     "Volume": 317.0,

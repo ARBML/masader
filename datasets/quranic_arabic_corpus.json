@@ -14,8 +14,8 @@
         "religion"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "morphology of quranic corpus",
     "Volume": 128218.0,

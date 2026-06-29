@@ -45,8 +45,8 @@
         "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Dialectal Arabic Tweets",
     "Volume": 24280.0,

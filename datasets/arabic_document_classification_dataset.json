@@ -8,7 +8,7 @@
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other"
+        "web pages"
     ],
     "Domain": [
         "religion",
@@ -22,8 +22,8 @@
         "economics"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The dataset contains nine major disciplines: Art, Literature, Religion, Politics, Law, Economy, Sport, Health, and Technology.",
     "Volume": 2700.0,
@@ -34,7 +34,7 @@
     ],
     "Derived From": [],
     "Paper Title": "On the Impact of Dataset Characteristics on Arabic Document Classification",
-    "Paper Link": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.800.5666&rep=rep1&type=pdf",
+    "Paper Link": "https://www.ijcaonline.org/archives/volume101/number7/17701-8680",
     "Script": "Arab",
     "Tokenized": true,
     "Host": "other",

@@ -8,13 +8,13 @@
     "Language": "multilingual",
     "Dialect": "mixed",
     "Source": [
-        "other"
+        "manual construction"
     ],
     "Domain": [
         "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Eight-hour multilingual speech corpus collected from two days of United Nations ESCWA meetings in 2019, focusing on intrasentential Arabic-English code-switching.",
