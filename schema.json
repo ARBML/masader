@@ -143,6 +143,8 @@
             "subtitles",
             "treebanks",
             "web crawls",
+            "manual construction",
+            "receipts",
             "other"
         ]
     },
@@ -178,16 +180,17 @@
         "answer_max": 1,
         "options": ["text", "audio", "images", "videos"]
     },
-    "Collection_Style": {
+    "Annotation_Style": {
         "answer_type": "list[str]",
         "answer_min": 1,
-        "answer_max": 6,
+        "answer_max": 5,
         "options": [
-            "crawling",
             "human annotation",
             "machine annotation",
-            "manual curation",
-            "LLM generated",
+            "LLM annotation",
+            "metadata-derived",
+            "inherited annotation",
+            "none",
             "other"
         ]
     },
