@@ -36,7 +36,7 @@
     "Has Splits": true,
     "Partial": false,
     "Tasks": [
-        "other"
+        "text generation"
     ],
     "Venue Title": "loreslm",
     "Venue Type": "workshop",

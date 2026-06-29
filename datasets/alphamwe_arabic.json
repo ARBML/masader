@@ -61,7 +61,7 @@
     "Has Splits": true,
     "Partial": false,
     "Tasks": [
-        "other"
+        "multiword expression identification"
     ],
     "Venue Title": "RANLP",
     "Venue Type": "conference",

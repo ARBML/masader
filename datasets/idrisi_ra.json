@@ -37,7 +37,7 @@
     "Has Splits": true,
     "Partial": false,
     "Tasks": [
-        "other"
+        "named entity recognition"
     ],
     "Venue Title": "ACL",
     "Venue Type": "conference",

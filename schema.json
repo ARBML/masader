@@ -429,6 +429,9 @@
             "document type classification",
             "spoken term detection",
             "function calling",
+            "mental health detection",
+            "knowledge editing",
+            "multiword expression identification",
             "other"
         ]
     },
