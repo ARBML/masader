@@ -369,7 +369,7 @@ axios
                 createdRow: function (row, data, dataIndex) {
                     $('td:eq(`10`)', row).css('min-width', '200px');
                 },
-                order: [[1, 'asc']],
+                order: [[4, 'desc']],
                 searching: true,
                 // "columnDefs": [
                 //   {
