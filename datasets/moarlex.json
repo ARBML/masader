@@ -1,18 +1,21 @@
 {
     "Name": "MoArLex",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/Mohabyoussef09/MoArLex",
     "License": "CC BY 3.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "MoArLex is a large-scale Arabic sentiment lexicon developed by expanding an existing seed lexicon, NileULex, using word embeddings from AraVec (trained on Arabic Twitter data). The lexicon includes sentiment words commonly used in social media, including various forms of dialectal Arabic and even misspelled or emphasized words typical of social media communication. It covers positive, negative, and strong positive/negative sentiment labels.",
     "Volume": 36775.0,
@@ -31,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

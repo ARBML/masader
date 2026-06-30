@@ -1,23 +1,26 @@
 {
     "Name": "Darija-SFT-Mixture",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/MBZUAI-Paris/Darija-SFT-Mixture",
     "Link": "https://hf.co/datasets/MBZUAI-Paris/Darija-SFT-Mixture",
     "License": "ODC-By",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "social media",
         "wikipedia",
         "web pages",
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
         "machine annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "Darija-SFT-Mixture is a dataset consisting of 458K instruction samples, by consolidating existing Darija language resources, creating novel datasets both manually and synthetically, and translating English instructions under strict quality control",
     "Volume": 458285.0,
@@ -49,7 +52,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction following"
     ],

@@ -1,18 +1,21 @@
 {
     "Name": "DAICT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://www.hbku.edu.qa/en/DAICT",
     "License": "custom",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The dataset includes 5,588 tweets -- written in both MSA and dialectual Arabic -- manually annotated by two professional linguistics from HBKU",
     "Volume": 5588.0,
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "irony detection"
     ],

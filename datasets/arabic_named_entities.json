@@ -1,20 +1,23 @@
 {
     "Name": "Arabic Named Entities",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Arabic_Named_Entities",
     "Link": "https://sourceforge.net/projects/arabicnes/",
     "License": "unknown",
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "wikipedia"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
-    "Description": "we have extracted\r\napproximately 45,000 Arabic NE",
+    "Description": "Extracted approximately 45,000 Arabic NEs and built the largest, most mature and well-structured Arabic NE lexical resource to date",
     "Volume": 45000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
@@ -29,7 +32,8 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],

@@ -1,19 +1,22 @@
 {
     "Name": "FannOrFlop",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/omkarthawakar/FannOrFlop",
     "Link": "https://huggingface.co/datasets/omkarthawakar/FannOrFlop",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
+        "books",
         "web pages"
     ],
+    "Domain": [
+        "poetry"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "A curated Arabic poetry benchmark with explanations for evaluating LLMs across 12 historical eras and 14 poetic genres.",
     "Volume": 6984.0,
@@ -30,7 +33,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

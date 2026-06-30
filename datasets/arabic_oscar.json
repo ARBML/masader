@@ -1,18 +1,21 @@
 {
     "Name": "Arabic OSCAR",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/oscar-corpus/oscar",
     "Link": "https://oscar-corpus.com/",
     "License": "CC0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "a huge multilingual corpus obtained by language classification and filtering of the Common Crawl",
     "Volume": 8117162828.0,
@@ -31,7 +34,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

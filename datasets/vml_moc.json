@@ -1,18 +1,21 @@
 {
     "Name": "VML-MOC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://zenodo.org/records/3559101",
     "License": "CC BY 4.0",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "images",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Handwritten document images with multiply oriented and curved text lines for text line segmentation.",
     "Volume": 30.0,
@@ -29,7 +32,8 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "optical character recognition"
     ],

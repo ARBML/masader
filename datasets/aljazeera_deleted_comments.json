@@ -1,20 +1,23 @@
 {
     "Name": "Aljazeera Deleted Comments",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://alt.qcri.org/people/hmubarak/public_html/offensive/",
     "License": "unknown",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "commentary"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "other"
+    "Domain": [
+        "news"
     ],
-    "Description": "offensive and obsene language dataset",
+    "Form": "text",
+    "Annotation Style": [
+        "metadata-derived"
+    ],
+    "Description": "Aljazeera Deleted Comments is a dataset of 32K deleted comments from Aljazeera.net, a popular Arabic news channel, moderates all the comments that appear on their site.",
     "Volume": 33100.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
@@ -29,7 +32,8 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "hate speech detection"
     ],

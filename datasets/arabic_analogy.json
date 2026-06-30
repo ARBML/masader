@@ -1,18 +1,22 @@
 {
     "Name": "Arabic analogy",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://computersystemsartists.net/arabic-morphological-analogies.zip",
     "License": "unknown",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction",
+        "wikipedia"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The corpus consists of pairs of Arabic words that explore different morphological constructs and relationships. The analogy pairs represent semantic relations like masculine-feminine forms, imperfect-perfect verb forms, possessive noun phrases, and verb-object constructions. The goal of the corpus is to explore how word vectors in different semantic spaces handle these Arabic linguistic features.",
     "Volume": 240.0,
@@ -21,17 +25,16 @@
     "Provider": [
         "Multiple Institutions"
     ],
-    "Derived From": [
-        "Common words in Arabic Wikipedia and other corpora"
-    ],
+    "Derived From": [],
     "Paper Title": "Arabic Word Analogies and Semantics of Simple Phrases",
-    "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8374386&tag=1",
+    "Paper Link": "https://ieeexplore.ieee.org/document/8374386",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "embedding evaluation"
     ],

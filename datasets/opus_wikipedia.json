@@ -1,18 +1,21 @@
 {
     "Name": "OPUS Wikipedia",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/opus_wikipedia",
     "Link": "https://opus.nlpl.eu/Wikipedia/corpus/version/Wikipedia",
     "License": "unknown",
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "This is a corpus of parallel sentences extracted from Wikipedia",
     "Volume": 1000000.0,
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

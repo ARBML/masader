@@ -1,6 +1,6 @@
 {
     "Name": "Alexandria",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "PSE",
             "Volume": 5391.0,
@@ -86,13 +86,16 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "A multi-domain dialectal Arabic machine translation dataset covering 13 countries and 11 domains.",
     "Volume": 29815.0,
@@ -109,7 +112,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],

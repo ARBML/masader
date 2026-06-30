@@ -1,17 +1,21 @@
 {
     "Name": "xSID - (X) Slot and Intent Detection",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/SEACrowd/xsid",
     "Link": "https://github.com/mainlp/xsid",
     "License": "CC BY-SA 4.0",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "social media"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "An evaluation dataset of intent classification and slot detection",
@@ -19,7 +23,9 @@
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [],
-    "Derived From": [],
+    "Derived From": [
+        "Snips Data"
+    ],
     "Paper Title": "From Masked Language Modeling to Translation: Non-English Auxiliary Tasks Improve Zero-shot Spoken Language Understanding",
     "Paper Link": "https://aclanthology.org/2021.naacl-main.197.pdf",
     "Script": "Arab",
@@ -27,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "intent detection"
     ],

@@ -1,18 +1,21 @@
 {
     "Name": "ASTAD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Sentiment_Analysis_Tweets",
     "Link": "https://github.com/motazsaad/arabic-sentiment-analysis",
     "License": "Apache-2.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "It contains 58K Arabic tweets (47K training, 11K test) tweets annotated in positive and negative labels",
     "Volume": 58000.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

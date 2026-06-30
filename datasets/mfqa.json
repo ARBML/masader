@@ -1,18 +1,21 @@
 {
     "Name": "MFQA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/clips/mqa",
     "Link": "https://hf.co/datasets/clips/mqa",
     "License": "CC0",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "web crawls"
+    ],
     "Domain": [
-        "web pages"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "MQA is a Multilingual corpus of Questions and Answers (MQA) parsed from the Common Crawl. Questions are divided in two types: Frequently Asked Questions (FAQ) and Community Question Answering (CQA).",
     "Volume": 3017456.0,
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

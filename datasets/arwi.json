@@ -1,18 +1,21 @@
 {
     "Name": "ARWI",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/mbzuai-nlp/arabic-aes-bea25",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "LLM"
+    ],
     "Domain": [
-        "public datasets"
+        "education"
     ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Synthetic Arabic AES dataset with CEFR annotations",
     "Volume": 3040.0,
@@ -31,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "answer grading"
     ],

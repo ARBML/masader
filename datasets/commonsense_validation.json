@@ -1,17 +1,20 @@
 {
     "Name": "Commonsense validation",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Commonsense_Validation",
     "Link": "https://github.com/msmadi/Arabic-Dataset-for-Commonsense-Validationion",
     "License": "CC BY-SA 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "a benchmark Arabic dataset for commonsense understanding and validation",
@@ -21,7 +24,9 @@
     "Provider": [
         "Jordan University"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "ComVE"
+    ],
     "Paper Title": "Is this sentence valid? An Arabic Dataset for Commonsense Validation",
     "Paper Link": "https://arxiv.org/pdf/2008.10873",
     "Script": "Arab",
@@ -29,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "commonsense reasoning"
     ],

@@ -1,20 +1,22 @@
 {
     "Name": "ArPoMeme",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://forms.gle/W7xpLt7io326bR3A6",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "politics"
+    ],
     "Form": "images",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "Arabic multimodal dataset for political ideology and polarization",
     "Volume": 7300.0,
@@ -31,9 +33,10 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "other"
+        "stance detection"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",

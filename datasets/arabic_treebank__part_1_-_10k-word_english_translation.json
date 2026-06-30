@@ -1,18 +1,22 @@
 {
     "Name": "Arabic Treebank: Part 1 - 10K-word English Translation",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2003T07",
     "License": "LDC User Agreement",
     "Year": 2003,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles",
+        "treebanks"
+    ],
     "Domain": [
-        "news articles"
+        "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The project targets the translation of a written Modern Standard Arabic corpus from the Agence France Presse (AFP) newswire archives for July 2000 (the files are dated 07/15/2000). The corpus consists of 49 source stories, which is a subset of the 734 stories published in Arabic Treebank: Part 1 v 2.0 (LDC2003T06). These 49 source files comprise 418 paragraphs and 9,981 words.",
     "Volume": 9981.0,
@@ -29,7 +33,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "information retrieval"
     ],

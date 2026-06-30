@@ -1,6 +1,6 @@
 {
     "Name": "BRIGHTER Emotion Categories",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "arq",
             "Volume": 2905.0,
@@ -20,13 +20,16 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "books",
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The BRIGHTER Emotion Categories dataset is a comprehensive multi-language, multi-label emotion classification dataset with separate configurations for each language. It represents one of the largest human-annotated emotion datasets across multiple languages.",
@@ -44,7 +47,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "emotion classification"
     ],

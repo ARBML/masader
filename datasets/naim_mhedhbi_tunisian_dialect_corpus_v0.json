@@ -1,20 +1,23 @@
 {
     "Name": "Naim Mhedhbi Tunisian Dialect Corpus v0",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Tunisian_Dialect_Corpus",
     "Link": "https://www.kaggle.com/datasets/naim99/ts-naim-mhedhbi",
     "License": "unknown",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "social media"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "general"
     ],
-    "Description": "I have collected more than 40000 comments and posts from facebook. I labeled about 10000 comments (positive / negative/ neutral) You can use it for your researches ! Enjoy :)",
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "More than 40000 comments and posts from facebook. Labeled about 10000 comments (positive / negative/ neutral).",
     "Volume": 40000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
@@ -27,7 +30,8 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

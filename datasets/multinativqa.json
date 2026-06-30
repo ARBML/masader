@@ -1,6 +1,6 @@
 {
     "Name": "MultiNativQA",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Arabic-Egypt",
             "Volume": 7956.0,
@@ -44,14 +44,16 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "manual construction",
+        "LLM"
+    ],
     "Domain": [
-        "other"
+        "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Multilingual native QA dataset with ~64k manually annotated pairs in seven languages covering 18 topics from nine regions.",
     "Volume": 49248.0,
@@ -68,7 +70,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

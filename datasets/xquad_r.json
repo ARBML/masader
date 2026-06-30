@@ -1,17 +1,20 @@
 {
     "Name": "xquad_r",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/xquad_r",
     "Link": "https://github.com/google-research-datasets/lareqa",
     "License": "CC BY 4.0",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "wikipedia"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "XQuAD-R is a retrieval version of the XQuAD dataset (a cross-lingual extractive QA dataset). Like XQuAD, XQUAD-R is an 11-way parallel dataset, where each question appears in 11 different languages and has 11 parallel correct answers across the languages",
@@ -31,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "information retrieval",
         "question answering"

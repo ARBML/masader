@@ -1,18 +1,22 @@
 {
     "Name": "MentalQA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/hasanhuz/MentalQA",
     "License": "MIT License",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "web pages",
+        "social media"
+    ],
     "Domain": [
-        "commentary",
-        "web pages"
+        "health",
+        "society"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Annotated Arabic corpus for questions and answers on mental healthcare.",
@@ -32,7 +36,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

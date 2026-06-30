@@ -1,18 +1,23 @@
 {
     "Name": "MetRec",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Zaid/metrec",
     "Link": "https://github.com/zaidalyafeai/MetRec",
     "License": "MIT License",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "books",
+        "web pages"
+    ],
     "Domain": [
-        "other"
+        "literature",
+        "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "More than 40K of verses with their meters",
     "Volume": 47124.0,
@@ -29,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "meter classification"
     ],

@@ -1,18 +1,22 @@
 {
     "Name": "Synonyms",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://sina.birzeit.edu/synonyms/",
     "License": "CC BY 4.0",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "treebanks",
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A set of 500 synsets (extracted from the Arabic Wordnet). Each synset is enriched with a list of candidate synonyms. The total number is 3K candidates.",
     "Volume": 300000.0,
@@ -27,10 +31,11 @@
     "Paper Link": "https://arxiv.org/pdf/2302.02232",
     "Script": "Arab-Latin",
     "Tokenized": false,
-    "Host": "CAMeL Resources",
+    "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling",
         "information retrieval",

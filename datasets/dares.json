@@ -1,18 +1,21 @@
 {
     "Name": "DARES",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/DamithDR/arabic-readability-assessment",
     "License": "CC BY-NC 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "education"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "DARES is a dataset for Arabic readability estimation based on Saudi school textbooks. It contains 13,335 instances of text, focusing on the readability levels of different educational levels (grades 1-12). It is organized into two main subtasks: (a) Coarse-grained readability, classifying texts into broad educational levels (elementary, intermediate, high school), and (b) Fine-grained readability, classifying texts into individual grade levels.",
     "Volume": 13335.0,
@@ -31,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "readability assessment"
     ],

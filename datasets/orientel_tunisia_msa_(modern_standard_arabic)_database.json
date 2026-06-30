@@ -1,17 +1,21 @@
 {
     "Name": "OrienTel Tunisia MSA (Modern Standard Arabic) database",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-S0187/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2005,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "telephone conversations"
     ],
+    "Domain": [
+        "general",
+        "society"
+    ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The OrienTel Tunisia MSA (Modern Standard Arabic) database comprises 598 Tunisian speakers (359 males, 239 females) recorded over the Tunisian fixed and mobile telephone network.",
@@ -27,7 +31,8 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "6,000.00€",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

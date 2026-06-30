@@ -1,20 +1,22 @@
 {
     "Name": "LinTO",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/linagora/linto-dataset-audio-ar-tn",
     "Link": "https://huggingface.co/datasets/linagora/linto-dataset-audio-ar-tn",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "social media",
         "TV channels",
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Audio & textual datasets for Tunisian Arabic ASR with code-switching, augmentation and normalization.",
@@ -40,7 +42,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

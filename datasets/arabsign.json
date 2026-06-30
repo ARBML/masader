@@ -1,19 +1,21 @@
 {
     "Name": "ArabSign",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://hamzah-luqman.github.io/ArabSign/",
     "License": "unknown",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "studio recordings"
+    ],
     "Domain": [
-        "TV channels"
+        "general"
     ],
     "Form": "videos",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A continuous Arabic Sign Language dataset with 9,335 video samples from 6 signers across 3 modalities (color, depth, skeleton).",
     "Volume": 10.2,
@@ -30,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sign language recognition"
     ],

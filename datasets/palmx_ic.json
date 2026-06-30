@@ -1,20 +1,23 @@
 {
     "Name": "PalmX-IC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/palmx_2025_subtask2_islamic",
     "Link": "https://huggingface.co/datasets/UBC-NLP/palmx_2025_subtask2_islamic",
     "License": "custom",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "web pages"
     ],
+    "Domain": [
+        "religion",
+        "culture"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "PalmX-IC assesses a model’s knowledge of Islamic culture—rituals, Qurʾān verses, Ḥadīth, historic events, jurisprudence, and religious holidays—core elements of life across the Arab world. All items are authored in Modern Standard Arabic (MSA) . The dataset powers Subtask 2 of the PalmX 2025 shared task.",
     "Volume": 1900.0,
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],

@@ -1,6 +1,6 @@
 {
     "Name": "ARCADE",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Volume": 7.2,
@@ -122,12 +122,14 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "TV channels"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First Arabic speech dataset with city-level dialect granularity from radio streams.",
@@ -145,7 +147,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification",
         "emotion classification"

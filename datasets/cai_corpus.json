@@ -1,21 +1,25 @@
 {
     "Name": "CAI-Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/alaabouomar/Optimizing-Arabic-Dialect-Translation-for-Children-s-Literature-Using-Neural-Models.git",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "books",
         "public datasets"
     ],
+    "Domain": [
+        "literature",
+        "education"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "machine annotation",
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "machine annotation",
+        "LLM annotation"
     ],
     "Description": "Parallel corpus of 130 children’s stories translated from Modern Standard Arabic to Egyptian (Cairo) dialect.",
     "Volume": 130.0,
@@ -32,7 +36,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

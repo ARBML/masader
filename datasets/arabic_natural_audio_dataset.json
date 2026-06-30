@@ -1,20 +1,23 @@
 {
     "Name": "Arabic Natural Audio Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/xm232yxf7t/1",
     "License": "CC BY 4.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "TV channels"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
-    "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Form": "videos",
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "This is the  first Arabic Natural Audio Dataset (ANAD) developed to recognize 3 discrete emotions: Happy,angry, and surprised.",
+    "Description": "This is the first Arabic Natural Audio Dataset (ANAD) developed to recognize 3 discrete emotions: Happy,angry, and surprised.",
     "Volume": 1384.0,
     "Unit": "hours",
     "Ethical Risks": "Medium",
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "emotion classification"
     ],

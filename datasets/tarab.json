@@ -1,6 +1,6 @@
 {
     "Name": "Tarab",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Egyptian",
             "Volume": 414914.0,
@@ -128,13 +128,19 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages",
         "public datasets"
     ],
+    "Domain": [
+        "literature",
+        "poetry",
+        "art"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived",
+        "inherited annotation"
     ],
     "Description": "Tarab is a large-scale Arabic creative-text corpus that unifies song lyrics and poetry in a single verse-level representation. It contains 2,557,311 verses and 13,509,336 tokens, spanning Classical Arabic, MSA, and six major regional dialect groups, and covering both modern countries and historical eras.",
     "Volume": 2557311.0,
@@ -154,7 +160,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "poetry analysis"
     ],

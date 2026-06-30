@@ -1,18 +1,21 @@
 {
     "Name": "AutoTweet",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AutoTweet",
     "Link": "https://www.dropbox.com/s/amnv06boef2vn4k/Autotweet-Dataset-v1.0.zip?dl=0",
     "License": "unknown",
     "Year": 2015,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "classification of Arabic tweets into automated or manual.",
     "Volume": 3503.0,
@@ -29,7 +32,8 @@
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "gender identification"
     ],

@@ -1,20 +1,24 @@
 {
     "Name": "Arabic Satirical Fake News Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Satirical_Fake_News",
     "Link": "https://github.com/sadanyh/Arabic-Satirical-Fake-News-Dataset",
     "License": "CC BY 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "news articles"
+    ],
     "Domain": [
-        "other"
+        "news",
+        "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
-    "Description": "A Study of Arabic Satirical Fake News",
+    "Description": "This is a dataset for Arabic satirical fake news. It is scraped from two satirical news websites, Al-Hudood and Al-Ahram Al-Mexici.",
     "Volume": 6895.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
@@ -31,7 +35,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "fake news detection"
     ],

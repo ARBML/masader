@@ -1,19 +1,23 @@
 {
     "Name": "Cohesion-6K",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://tinyurl.com/4ke5jwyw",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "politics",
+        "society"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "Cohesion-6K provides a transparent and reproducible resource for the study of online cohesion and polarization. ",
     "Volume": 6000.0,
@@ -30,7 +34,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "text classification",
         "topic classification"

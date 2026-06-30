@@ -1,18 +1,22 @@
 {
     "Name": "Coronavirus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/CoronaVirus",
     "Link": "https://github.com/aseelad/Coronavirus-Public-Arabic-Twitter-Data-Set/",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "health",
+        "crisis"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "contains data collected from December 1st 2019 until April 11th 2020",
     "Volume": 3800856.0,
@@ -29,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": true,
     "Tasks": [
         "language modeling"
     ],

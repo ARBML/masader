@@ -1,19 +1,23 @@
 {
     "Name": "Diwan",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/NoorBayan/Diwan",
     "License": "MIT License",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "books",
-        "web pages"
+        "web crawls"
+    ],
+    "Domain": [
+        "literature",
+        "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The largest annotated Arabic poetry corpus, containing ~14M verses across 16 categories with metadata on genres, prosody, themes, and poet information.",
     "Volume": 14000000.0,
@@ -32,7 +36,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling",
         "meter classification"

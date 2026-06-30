@@ -1,18 +1,21 @@
 {
     "Name": "HAAD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/msmadi/HAAD",
     "License": "GPL-2.0",
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "reviews"
+    ],
     "Domain": [
-        "books"
+        "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Human Annotated Arabic Dataset of Book Reviews for Aspect Based Sentiment Analysis",
     "Volume": 2389.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

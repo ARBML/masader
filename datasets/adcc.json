@@ -1,25 +1,34 @@
 {
     "Name": "ADCC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://adccorpus.wixsite.com/site/single-post/2016/11/30/what-is-adcc",
     "License": "unknown",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "books",
+        "social media",
+        "web pages",
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "Arabic Daily Comunication Corpus (ADCC) is daily conversations written text in Modern Standard Arabic which was collected from different resources.",
     "Volume": 4000000.0,
     "Unit": "tokens",
     "Ethical Risks": "Medium",
     "Provider": [],
-    "Derived From": [],
+    "Derived From": [
+        "Corpus of Contemporary Arabic",
+        "Arabic Learner Corpora"
+    ],
     "Paper Title": "Towards Intelligent Arabic Text-to-Speech Application for Disabled People",
     "Paper Link": "https://ieeexplore.ieee.org/document/7899133",
     "Script": "Arab",
@@ -27,7 +36,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling",
         "topic classification",

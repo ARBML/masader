@@ -1,20 +1,24 @@
 {
     "Name": "ArAIEval 2024 Task 1",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://gitlab.com/araieval/araieval_arabicnlp24/-/tree/main/task1",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "news articles",
         "public datasets"
     ],
+    "Domain": [
+        "politics",
+        "society",
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Identify the propagandistic content from multigenre (tweet and news paragraphs from  news articles) text.",
@@ -35,9 +39,10 @@
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
-        "other"
+        "propaganda detection"
     ],
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",

@@ -1,18 +1,21 @@
 {
     "Name": "ADPBC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ADPBC",
     "Link": "https://github.com/salsama/Arabic-Information-Extraction-Corpus",
     "License": "unknown",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "treebanks"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "This corpus contains the words and their dependency relation produced by performing some steps",
     "Volume": 16.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "part of speech tagging",
         "dependency parsing",

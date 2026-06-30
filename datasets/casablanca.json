@@ -1,6 +1,6 @@
 {
     "Name": "Casablanca",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Volume": 4.63,
@@ -56,13 +56,15 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "TV channels"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Arabic speech dataset with eight dialects.",
@@ -80,7 +82,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition",
         "dialect identification"

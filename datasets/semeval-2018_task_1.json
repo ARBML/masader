@@ -1,18 +1,21 @@
 {
     "Name": "SemEval-2018 Task 1",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/SemEvalWorkshop/sem_eval_2018_task_1",
     "Link": "https://competitions.codalab.org/competitions/17751#learn_the_details-datasets",
     "License": "unknown",
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "it creates a new Affect in Tweets dataset of more than 22,000 tweets such\nthat subsets are annotated for a number of emotion dimensions.",
     "Volume": 22000.0,
@@ -29,7 +32,8 @@
     "Host": "CodaLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "emotion classification"
     ],

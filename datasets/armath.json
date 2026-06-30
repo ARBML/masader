@@ -1,25 +1,29 @@
 {
     "Name": "ArMATH",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArMATH",
     "Link": "https://github.com/reem-codes/ArMATH",
     "License": "unknown",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "education",
+        "science"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "There are 6000 samples and 883 templates. A template is an equation once the variables have been replaced with ordered placeholders.",
     "Volume": 6000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
-        "-"
+        "KAUST"
     ],
     "Derived From": [],
     "Paper Title": "ArMATH: a Dataset for Solving Arabic Math Word Problems",
@@ -29,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

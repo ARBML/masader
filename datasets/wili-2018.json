@@ -1,26 +1,27 @@
 {
     "Name": "WiLI-2018",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/MartinThoma/wili_2018",
     "Link": "https://zenodo.org/record/841984#.YpBRIahBxD8",
     "License": "Apache-1.0",
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "WiLI-2018, the Wikipedia language identification benchmark dataset, contains 235000 paragraphs of 235 languages. The dataset is balanced and a train-test split is provided.",
     "Volume": 1000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [
-        "-"
-    ],
+    "Provider": [],
     "Derived From": [],
     "Paper Title": "The WiLI benchmark dataset for written language identification",
     "Paper Link": "https://arxiv.org/pdf/1801.07779.pdf",
@@ -29,7 +30,8 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "language identification"
     ],

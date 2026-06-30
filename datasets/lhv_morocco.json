@@ -1,18 +1,21 @@
 {
     "Name": "LHV-Morocco",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/nilechat-lhv-mor",
     "Link": "https://huggingface.co/datasets/UBC-NLP/nilechat-lhv-mor",
     "License": "CC BY-NC 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "LLM"
     ],
+    "Domain": [
+        "culture"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "LHV-Morocco is a substantial dataset specifically developed to foster the creation and improvement of language models for the Moroccan Arabic dialect. This resource was created through controlled generation using a teacher LLM (CohereLabs/c4ai-command-r-plus-08-2024) to generate diverse texts reflecting specific cultural heritage concepts and local persona descriptions. This integrates:",
     "Volume": 761041.0,
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

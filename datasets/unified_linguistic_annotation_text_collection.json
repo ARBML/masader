@@ -1,17 +1,20 @@
 {
     "Name": "Unified Linguistic Annotation Text Collection",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009T07",
     "License": "LDC User Agreement",
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "news articles"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "It consists of two datasets, the Language Understanding Annotation Corpus from the Johns Hopkins Center of Excellence in Human Language Technology and ACE Reflex Entity Translation Training Dev/Test developed by LDC.",
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "summarization",
         "question answering",

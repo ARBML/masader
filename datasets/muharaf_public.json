@@ -1,17 +1,21 @@
 {
     "Name": "muharaf public",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://zenodo.org/records/11492215",
     "Link": "https://huggingface.co/datasets/aamijar/muharaf-public",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "literature",
+        "art"
+    ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This dataset contains 24,495 line images of Arabic handwriting and the corresponding text. The images are Manuscripts from the 19th to 21st century.",
@@ -27,7 +31,8 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "optical character recognition"
     ],

@@ -1,18 +1,21 @@
 {
     "Name": "Tatoeba",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/tatoeba",
     "Link": "https://tatoeba.org/en/downloads",
     "License": "CC BY 2.0",
     "Year": 2006,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A crowd-sourced dataset of parallel sentences.",
     "Volume": 62836.0,
@@ -27,7 +30,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

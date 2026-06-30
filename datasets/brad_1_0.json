@@ -1,18 +1,21 @@
 {
     "Name": "BRAD 1.0",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/BRAD",
     "Link": "https://github.com/elnagara/BRAD-Arabic-Dataset",
     "License": "unknown",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "reviews"
     ],
+    "Domain": [
+        "literature"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The reviews were collected from GoodReads.com website during June/July 2016",
     "Volume": 156506.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "review classification"
     ],

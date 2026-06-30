@@ -1,17 +1,20 @@
 {
     "Name": "AI Society Translated",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/camel-ai/ai_society_translated",
     "Link": "https://hf.co/datasets/camel-ai/ai_society_translated",
     "License": "CC BY-NC 4.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "LLM"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "The original AI Society dataset is in English and is composed of 25K conversations between two gpt-3.5-turbo agents. The dataset is obtained by running role-playing for a combination of 50 user roles and 50 assistant roles with each combination running over 10 tasks.",
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],

@@ -1,18 +1,21 @@
 {
     "Name": "Arabic Gigaword Fourth Edition",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009T30",
     "License": "LDC User Agreement",
     "Year": 2009,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "The table below shows data quantity by source under the following categories: data source (Source); the number of files per source (#Files); compressed file size (Gzip-MB); uncompressed file size (Totl-MB); the number of space-separated words tokens in the text (K-words); and the number of documents per source (#DOCs).",
     "Volume": 2716995.0,
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "5,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling",
         "information retrieval"

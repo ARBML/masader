@@ -1,6 +1,6 @@
 {
     "Name": "DarijaBanking",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Darija",
             "Volume": 1800.0,
@@ -20,11 +20,14 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "finance"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -50,7 +53,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "intent detection"
     ],

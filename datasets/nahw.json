@@ -1,19 +1,23 @@
 {
     "Name": "Nahw",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/qcri/nahw-arabic-grammar-benchmark/",
     "License": "Apache-2.0",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages",
-        "books"
+        "LLM"
+    ],
+    "Domain": [
+        "education",
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Nahw is a comprehensive benchmark for evaluating Arabic grammar understanding in large language models. It includes multiple-choice grammar questions (Nahw-MCQ), annotated passages for grammatical error detection, correction, and explanation (Nahw-Passage), and synthetic training data.",
     "Volume": 5100.0,
@@ -30,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],

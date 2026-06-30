@@ -1,19 +1,23 @@
 {
     "Name": "Aswat",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/AswatDataset/AswatDataset",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages",
         "social media"
     ],
+    "Domain": [
+        "general",
+        "news"
+    ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "a 732-hour clean Arabic speech dataset for ASR pre-training and finetuning",
     "Volume": 732.0,
@@ -30,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": true,
     "Tasks": [
         "speech recognition"
     ],

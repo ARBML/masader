@@ -1,18 +1,20 @@
 {
     "Name": "Arabic Sentiment Lexicons",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Sentiment_Lexicons",
     "Link": "https://saifmohammad.com/WebPages/ArabicSA.html",
     "License": "unknown",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "by using distant supervision techniques on Arabic tweets, and by translating English sentiment lexicons into Arabic using a freely available statistical machine translation system",
@@ -30,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

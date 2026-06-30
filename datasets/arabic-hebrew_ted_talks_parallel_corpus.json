@@ -1,18 +1,21 @@
 {
     "Name": "Arabic-Hebrew TED Talks Parallel Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus",
     "License": "unknown",
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "subtitles"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This dataset consists of 2023 TED talks with aligned Arabic and Hebrew subtitles. Sentences were rebuilt and aligned using English as a pivot to improve accuracy, offering a valuable resource for Arabic-Hebrew machine translation tasks.",
     "Volume": 225000.0,
@@ -32,7 +35,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "language modeling",

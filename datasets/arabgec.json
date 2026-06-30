@@ -1,19 +1,22 @@
 {
     "Name": "ArabGEC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://drive.google.com/file/d/10BJakBI7BOqldxYDJTGVozKTUldJvPDe/view?usp=drive_link",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets",
         "commentary"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Synthetic dataset for Arabic grammatical error correction",
     "Volume": 30219310.0,
@@ -37,7 +40,8 @@
     "Host": "Gdrive",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "grammatical error correction"
     ],

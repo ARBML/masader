@@ -1,27 +1,32 @@
 {
     "Name": "Emotional-Tone",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/emotone-ar-cicling2017/emotone_ar",
     "Link": "https://github.com/AmrMehasseb/Emotional-Tone",
     "License": "unknown",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "social media"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "general"
     ],
-    "Description": "emotion detection dataset",
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Dataset of 10065 tweets in Arabic for Emotion detection in Arabic text",
     "Volume": 10065.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [
         "Nile University"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "NileULex"
+    ],
     "Paper Title": "Emotional Tone Detection in Arabic Tweets",
     "Paper Link": "https://www.researchgate.net/profile/Samhaa-El-Beltagy/publication/320271778_Emotional_Tone_Detection_in_Arabic_Tweets/links/59d9f0a5458515a5bc2b1d8a/Emotional-Tone-Detection-in-Arabic-Tweets.pdf",
     "Script": "Arab",
@@ -29,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "emotion classification"
     ],

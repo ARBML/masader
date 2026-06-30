@@ -1,18 +1,21 @@
 {
     "Name": "NEMLAR: Speech Synthesis Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-S0220/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Egypt",
+    "Source": [
+        "studio recordings"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The NEMLAR Speech Synthesis Corpus contains the recordings of 2 native Egyptian Arabic speakers (male and female, 35 and 27 years old respectively) recorded in a studio over 2 channels (voice + laryngograph). The recordings comprise more than 10 hours of data with transcriptions.",
     "Volume": 10.0,
@@ -27,7 +30,8 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "1,000.00€",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

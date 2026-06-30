@@ -1,18 +1,21 @@
 {
     "Name": "Disease NER",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Disease_NER",
     "Link": "https://www.mdpi.com/2306-5729/5/3/60/htm#app1-data-05-00060",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "web pages"
+    ],
     "Domain": [
-        "other"
+        "health"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The data consist of 27 Arabic medical articles, totaling around 50,000 words.",
     "Volume": 62506.0,
@@ -28,10 +31,11 @@
     "Paper Link": "https://www.mdpi.com/2306-5729/5/3/60",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "CAMeL Resources",
+    "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],

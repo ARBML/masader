@@ -1,18 +1,21 @@
 {
     "Name": "Misraj-DocOCR",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Misraj/Misraj-DocOCR",
     "Link": "https://huggingface.co/datasets/Misraj/Misraj-DocOCR",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "web pages"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Misraj-DocOCR is a curated, expert-verified benchmark for Arabic document OCR with an emphasis on structure preservation (Markdown/HTML tables, lists, footnotes, math, watermarks, multi-column, marginalia, etc.).",
@@ -30,7 +33,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "optical character recognition"
     ],

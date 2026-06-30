@@ -1,6 +1,6 @@
 {
     "Name": "araData",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "GLF",
             "Dialect": "Gulf",
@@ -50,18 +50,23 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "araData is a clean and balanced dataset containing sentences for 7 Arabic dialects represented as follows: 2007 GLF, 2003 general, 2002 EGY, 2001 LEV, 2001 MGH, 2001 Tunisian, and 216 IRQ. This data is a collection of different resources prepared by HEDHLI Malek for a project to identify Arabic dialects.",
     "Volume": 12231.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
-    "Provider": [],
+    "Provider": [
+        "T-HSAB"
+    ],
     "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",
@@ -70,14 +75,17 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],
     "Venue Title": "",
     "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "HEDHLI Malek"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

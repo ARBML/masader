@@ -1,18 +1,21 @@
 {
     "Name": "ArabicWeb-Edu",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/sboughorbel/arabic-web-edu-seed",
     "Link": "https://huggingface.co/datasets/sboughorbel/arabic-web-edu-seed",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "web crawls"
+    ],
     "Domain": [
-        "web pages"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "The dataset includes web extracts from various Arabic sources (Common Crawl) that have been evaluated using an additive 5-point scoring system for educational value.",
     "Volume": 236305.0,
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

@@ -1,6 +1,6 @@
 {
     "Name": "Jawaher",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algerian",
             "Volume": 312.0,
@@ -128,12 +128,14 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "culture"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A multidialectal benchmark of Arabic proverbs for evaluating LLMs' cultural understanding.",
@@ -151,7 +153,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],

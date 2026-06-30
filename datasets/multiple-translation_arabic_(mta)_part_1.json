@@ -1,20 +1,23 @@
 {
     "Name": "Multiple-Translation Arabic (MTA) Part 1",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2003T18",
     "License": "LDC User Agreement",
     "Year": 2003,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "other"
+    "Domain": [
+        "general"
     ],
-    "Description": "Here's a breakdown of the data amounts by source contained in this corpus:",
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "developed by the Linguistic Data Consortium (LDC) and contains approximately 23,000 words of Arabic news text with 13 sets of English translations, 10 by humans and three by automatic Machine Translation (MT) systems, and assessments of the MT.",
     "Volume": 141.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

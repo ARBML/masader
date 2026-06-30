@@ -1,19 +1,21 @@
 {
     "Name": "Ar-DAD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/3kndp5vs6b/3",
     "License": "CC BY 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "religion"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
-        "manual curation"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "A large Arabic audio dataset of 15,810 clips from 30 Quran reciters plus 397 imitation clips from 12 skilled imitators, organized by chapter and verse for speaker-identification and imitation-detection tasks.",
     "Volume": 15810.0,
@@ -30,7 +32,8 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speaker identification"
     ],

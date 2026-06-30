@@ -1,18 +1,21 @@
 {
     "Name": "Kawarith",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/kawarith_Kuwait_floods_18",
     "Link": "https://github.com/alaa-a-a/kawarith",
     "License": "CC BY-NC 4.0",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "crisis"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a multi-dialect Arabic Twitter corpus for crisis events, comprising more than\r\na million Arabic tweets collected during 22\r\ncrises that occurred between 2018 and 2020\r\nand involved several types of hazard",
     "Volume": 12446.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": true,
     "Tasks": [
         "crisis detection"
     ],

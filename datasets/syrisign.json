@@ -1,17 +1,20 @@
 {
     "Name": "SyriSign",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Mohammad-Amer-Khalil/SyriSign",
     "Link": "https://github.com/Moham-Amer/SyriSign",
     "License": "CC0",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Syria",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news"
+    ],
     "Form": "videos",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "SyriSign dataset was specifically created for translating Arabic text within the domain of local news and public announcements, with a focus on the Syrian dialect Sign language. ",
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sign language recognition"
     ],

@@ -1,18 +1,31 @@
 {
     "Name": "International Corpus of Arabic",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://www.bibalex.org/ica/ar/",
     "License": "unknown",
     "Year": 2007,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "news articles",
+        "books"
+    ],
     "Domain": [
-        "other"
+        "sports",
+        "religion",
+        "society",
+        "science",
+        "literature",
+        "law",
+        "poetry",
+        "economics",
+        "art"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "metadata-derived",
+        "human annotation"
     ],
     "Description": "There are two points of view about the need for corpora. The first one says that there can not be any corpora, however large, that contain information about all of the areas of any language lexicon and grammar of that language. The second point of view is that every corpus, however small, has taught the person facts that could not be imagined finding out about in any other way.",
     "Volume": 100000000.0,
@@ -29,7 +42,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

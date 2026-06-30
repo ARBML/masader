@@ -1,6 +1,6 @@
 {
     "Name": "Belebele",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "acm_Arab",
             "Dialect": "Iraq",
@@ -44,11 +44,14 @@
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants.",
@@ -66,7 +69,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering",
         "instruction tuning"

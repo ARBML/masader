@@ -1,27 +1,36 @@
 {
     "Name": "Osman",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Osman_Un_Corpus",
     "Link": "https://github.com/drelhaj/OsmanReadability",
     "License": "unknown",
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "politics",
+        "law",
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation",
+        "machine annotation"
     ],
-    "Description": "e text readability for 73,000 parallel sentences from English and Arabic UN documents",
+    "Description": "text readability for 73,000 parallel sentences from English and Arabic UN documents",
     "Volume": 73000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
         "Lancaster University"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "United Nations Parallel Corpus"
+    ],
     "Paper Title": "OSMAN – A Novel Arabic Readability Metric",
     "Paper Link": "https://aclanthology.org/L16-1038.pdf",
     "Script": "Arab",
@@ -29,7 +38,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

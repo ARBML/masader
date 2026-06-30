@@ -1,18 +1,21 @@
 {
     "Name": "FinanceTripletSecond",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/omar-emad/FinanceTripletSecond",
     "Link": "https://huggingface.co/datasets/omar-emad/FinanceTripletSecond",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
     ],
+    "Domain": [
+        "finance"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "This dataset was generated using LLaMa3 synthetic data generation pipeline.",
     "Volume": 30.0,
@@ -27,7 +30,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

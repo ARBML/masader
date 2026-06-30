@@ -1,19 +1,23 @@
 {
     "Name": "ACE 2007 Multilingual Training Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2014T18",
     "License": "LDC User Agreement",
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
         "TV channels"
     ],
+    "Domain": [
+        "news",
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The Arabic data is composed of newswire (60%) published in October 2000-December 2000 and weblogs (40%) published during the period November 2004-February 2005.",
     "Volume": 98353.0,
@@ -30,7 +34,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],

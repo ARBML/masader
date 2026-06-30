@@ -1,18 +1,22 @@
 {
     "Name": "Annotated Shami Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/christios/annotated-shami-corpus",
     "License": "CC BY 4.0",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Lebanon",
+    "Source": [
+        "social media",
+        "public datasets"
+    ],
     "Domain": [
-        "social media"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Subsection of the Lebanese portion of the Shami Corpus annotated for spelling standardization (CODA), morphological segmentation and tagging, and spontaneous orthography taxonomy tagging.",
     "Volume": 10000.0,
@@ -29,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "part of speech tagging",
         "morphological analysis"

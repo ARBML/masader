@@ -1,18 +1,22 @@
 {
     "Name": "GALE Phase 1 Distillation Training",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2007T20",
     "License": "LDC User Agreement",
     "Year": 2007,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels",
         "news articles"
     ],
+    "Domain": [
+        "general",
+        "news"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The annotation task involves responding to a series of user queries. For each query, annotators first find relevant documents and identify snippets (strings of contiguous text that answer the query) in the Arabic, Chinese or English source document. Annotators then create a nugget for each fact expressed in the snippet. Semantically equivalent nuggets are grouped into cross-language, cross-document \"supernugs\". Judges at BAE Systems finally provide relevance weights for each supernug.",
@@ -30,7 +34,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "information retrieval"
     ],

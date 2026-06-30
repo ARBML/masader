@@ -1,18 +1,21 @@
 {
     "Name": "TEDxTN",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/fbougares/TedxTn",
     "Link": "https://huggingface.co/datasets/fbougares/TedxTn",
     "License": "CC BY-NC-ND 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Tunisia",
+    "Source": [
+        "web pages",
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First Tunisian Arabic-English speech translation corpus.",
@@ -33,7 +36,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

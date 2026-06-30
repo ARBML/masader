@@ -1,17 +1,20 @@
 {
     "Name": "Multilingual POPE",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/HIT4Yzk/Multilingual_POPE",
     "Link": "https://huggingface.co/datasets/HIT4Yzk/Multilingual_POPE",
     "License": "CC BY 4.0",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Object hallucination benchmark translated into Arabic and other languages.",
@@ -34,7 +37,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "hallucination detection"
     ],

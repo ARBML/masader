@@ -1,18 +1,23 @@
 {
     "Name": "Sanadset 650K: Data on Hadith Narrators",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Sanadset",
     "Link": "https://data.mendeley.com/datasets/5xth87zwb5/4",
     "License": "CC BY 4.0",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "books",
+        "web crawls"
+    ],
     "Domain": [
-        "books"
+        "religion",
+        "history"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Sanadset is a full hadith dataset that contains over 650,986 records collected from 926 historical Arabic books of hadith. This dataset can be used for further investigation and classification of hadiths (Strong/Weak), and narrators (trustworthy/not) using AI techniques, and also it can be used as a linguistic resource tool for Arabic Natural Language Processing.",
     "Volume": 650000.0,
@@ -29,7 +34,8 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "topic classification",

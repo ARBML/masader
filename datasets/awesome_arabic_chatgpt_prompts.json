@@ -1,18 +1,21 @@
 {
     "Name": "Awesome Arabic Chatgpt Prompts",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/awesome_chatgpt_prompts_ar",
     "Link": "https://huggingface.co/datasets/Omartificial-Intelligence-Space/awesome_chatgpt_prompts_ar",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Contains a collection of Arabic prompts designed for use with AI language models (such as ChatGPT).",
     "Volume": 201.0,
@@ -27,7 +30,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],

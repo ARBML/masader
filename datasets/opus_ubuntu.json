@@ -1,19 +1,21 @@
 {
     "Name": "opus_ubuntu",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/opus_ubuntu",
     "Link": "https://hf.co/datasets/Helsinki-NLP/opus_ubuntu",
     "License": "BSD",
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "web pages"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "These are translations of the Ubuntu software package messages, donated by the Ubuntu community.",
     "Volume": 299.0,
@@ -30,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

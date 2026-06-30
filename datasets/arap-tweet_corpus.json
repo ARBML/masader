@@ -1,18 +1,22 @@
 {
     "Name": "Arap-Tweet Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://arap.qatar.cmu.edu/",
     "License": "unknown",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general",
+        "society"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arap-Tweet is a large-scale, multi-dialectal Arabic Twitter corpus containing 2.4 million tweets from 11 regions across 16 countries in the Arab world. The dataset includes annotations for dialect, age group, and gender of the users. Tweets were collected using region-specific keywords to ensure accurate dialect identification, and the profiles of users were manually verified and annotated by trained annotators. This corpus is designed to support research in author profiling, stylometry, and dialect identification, providing a valuable resource for natural language processing applications in Arabic.",
     "Volume": 2400000.0,
@@ -21,9 +25,7 @@
     "Provider": [
         "Multiple Institutions"
     ],
-    "Derived From": [
-        "Public Twitter profiles and their tweets"
-    ],
+    "Derived From": [],
     "Paper Title": "Arap-Tweet: A Large Multi-Dialect Twitter Corpus for Gender, Age, and Language Variety Identification",
     "Paper Link": "https://arxiv.org/pdf/1808.07674",
     "Script": "Arab",
@@ -31,7 +33,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "dialect identification",

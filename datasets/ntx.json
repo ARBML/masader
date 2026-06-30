@@ -1,17 +1,20 @@
 {
     "Name": "NTX",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/tellarin-ai/ntx_llm_instructions",
     "Link": "https://huggingface.co/datasets/tellarin-ai/ntx_llm_instructions",
     "License": "CC BY-SA 4.0",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A multi-lingual benchmark dataset covering temporal and numerical expression recognition and normalization in 14 languages including Arabic.",
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],

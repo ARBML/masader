@@ -1,18 +1,21 @@
 {
     "Name": "ArabicWeb24",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/lightonai/ArabicWeb24",
     "Link": "https://hf.co/datasets/lightonai/ArabicWeb24",
     "License": "Apache-1.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "web crawls"
+    ],
     "Domain": [
-        "web pages"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "The ArabicWeb24 dataset consists of more than 28 billion tokens of cleaned and deduplicated Arabic web data from a customized crawl. This was processed using the large scale data processing library datatrove.",
     "Volume": 28000000000.0,
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

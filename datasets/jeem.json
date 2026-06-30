@@ -1,6 +1,6 @@
 {
     "Name": "JEEM",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Jordan",
             "Volume": 606.0,
@@ -32,12 +32,14 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "captions"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "images",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Benchmark for VLMs visual understanding across four Arabic dialects",
@@ -55,7 +57,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "image captioning",
         "visual question answering"

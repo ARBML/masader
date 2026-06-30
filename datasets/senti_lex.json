@@ -1,18 +1,22 @@
 {
     "Name": "Senti lex",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/senti-lex/senti_lex",
     "Link": "https://www.kaggle.com/datasets/rtatman/sentiment-lexicons-for-81-languages",
     "License": "GPL-3.0",
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "wikipedia",
+        "treebanks"
+    ],
     "Domain": [
-        "wikipedia"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "This dataset add sentiment lexicons for 81 languages generated via graph propagation based on a knowledge graph--a graphical representation of real-world entities and the links between them",
     "Volume": 2794.0,
@@ -29,7 +33,8 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

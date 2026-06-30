@@ -1,18 +1,21 @@
 {
     "Name": "TED Talks Corpus (WIT3)",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://wit3.fbk.eu/",
     "License": "CC BY-NC-ND 4.0",
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "TV channels",
+        "subtitles"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "The TED Talks corpus contains transcribed and translated TED Talks from 82+ languages. It is curated for use in machine translation and natural language processing research, providing a valuable multilingual parallel corpus.",
@@ -20,12 +23,9 @@
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
-        "Trento",
-        "Italy"
+        "FBK – Fondazione Bruno Kessler"
     ],
-    "Derived From": [
-        "TED Conference website"
-    ],
+    "Derived From": [],
     "Paper Title": "WIT3: Web Inventory of Transcribed and Translated Talks",
     "Paper Link": "https://www.aclweb.org/anthology/2012.eamt-1.60.pdf",
     "Script": "Arab-Latin",
@@ -33,7 +33,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "speech recognition",

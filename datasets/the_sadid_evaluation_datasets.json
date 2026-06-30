@@ -1,6 +1,6 @@
 {
     "Name": "The SADID Evaluation Datasets",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Levantine",
             "Dialect": "Levant",
@@ -32,12 +32,16 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "manual construction",
+        "wikipedia"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Evaluation Datasets for Low-Resource Spoken Language Machine Translation of Arabic Dialects",
     "Volume": 29964.0,
@@ -47,11 +51,12 @@
         "Stanford University"
     ],
     "Derived From": [
-        "Contains curated data and data from the following corpus (LDC2012T09",
+        "LDC2012T09",
         "LDC2019T01",
         "LDC2019T18",
         "LDC2020T05",
-        "LDC2012T09)"
+        "LDC2012T09",
+        "Cornell Movie Dialogs Corpus"
     ],
     "Paper Title": "The SADID Evaluation Datasets for Low-Resource Spoken Language\r\nMachine Translation of Arabic Dialects",
     "Paper Link": "https://aclanthology.org/2020.coling-main.530.pdf",
@@ -60,7 +65,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

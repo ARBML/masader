@@ -1,17 +1,20 @@
 {
     "Name": "TRECVID 2005 Keyframes & Transcripts",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2007V01",
     "License": "LDC User Agreement",
     "Year": 2007,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "TV channels"
     ],
+    "Domain": [
+        "news"
+    ],
     "Form": "videos",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The source data is Arabic, Chinese and English language broadcast programming collected in November 2004 from the following sources: Lebanese Broadcasting Corp. (Arabic); China Central TV and New Tang Dynasty TV (Chinese); and CNN and MSNBC/NBC (English).",
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "500.00 $",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "event detection"
     ],

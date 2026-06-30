@@ -1,19 +1,21 @@
 {
     "Name": "SpokenNativQA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/QCRI/SpokenNativQA",
     "Link": "https://huggingface.co/datasets/QCRI/SpokenNativQA",
     "License": "CC BY-SA 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "culture"
+    ],
     "Form": "audio",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "First multilingual culturally-aligned spoken QA dataset with ~33k real user questions/answers in Arabic and English for evaluating LLMs in conversational spoken settings.",
     "Volume": 988.0,
@@ -32,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering",
         "speech recognition"

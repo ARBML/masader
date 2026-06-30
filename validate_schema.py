@@ -109,9 +109,9 @@ for file in glob("datasets/*.json"):
     data = {k.replace("_", " "): v for k, v in data.items()}
     data.pop("Added By", None)
     for key in data.keys():
+        validate_keys(data, key, file)
         validate_options(data, key, file)
         validate_types(data, key, file)
-        validate_keys(data, key, file)
         validate_subsets(data, key, file)
     validate_venues(data, file)
 

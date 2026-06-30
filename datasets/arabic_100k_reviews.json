@@ -1,20 +1,23 @@
 {
     "Name": "Arabic 100k Reviews",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/arabic_100k_reviews",
     "Link": "https://www.kaggle.com/datasets/abedkhooli/arabic-100k-reviews",
     "License": "unknown",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "reviews"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "other"
+    "Domain": [
+        "general"
     ],
-    "Description": "Few Arabic datasets are available for classification comparison and other NLP tasks. This dataset is mainly a compilation of several available datasets and a sampling of 100k rows (99999 to be exact).",
+    "Form": "text",
+    "Annotation Style": [
+        "inherited annotation"
+    ],
+    "Description": "This dataset is mainly a compilation of several available datasets and a sampling of 100k rows (99999 to be exact).",
     "Volume": 99999.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
@@ -31,7 +34,8 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

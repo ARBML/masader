@@ -1,20 +1,23 @@
 {
     "Name": "WAW",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/WAW",
     "Link": "https://alt.qcri.org/resources/wawcorpus/",
     "License": "custom",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "studio recordings"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
-    "Description": "an interpreting corpus for English/Arabic",
+    "Description": "WAW Corpus is a bilingual translation and interpretation corpus in Arabic and English.",
     "Volume": 31.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
@@ -30,7 +33,8 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition",
         "machine translation"

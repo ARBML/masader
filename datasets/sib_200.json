@@ -1,6 +1,6 @@
 {
     "Name": "SIB-200",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "arb_Arab",
             "Volume": 1430,
@@ -56,12 +56,15 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets",
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -85,7 +88,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "topic classification"
     ],

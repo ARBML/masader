@@ -1,6 +1,6 @@
 {
     "Name": "NLP dataset for Arabic dialects",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Dialect": "Algeria",
@@ -38,14 +38,21 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "politics",
+        "health",
+        "society",
+        "sports",
+        "economics"
     ],
-    "Description": "This data was collected from the Twitter social network and consists on +50K\ntwits in five (5) national dialects",
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "This data was collected from the Twitter social network and consists on +50K tweets in five (5) national dialects",
     "Volume": 53403.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
@@ -60,7 +67,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification",
         "topic classification",

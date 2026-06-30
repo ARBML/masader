@@ -1,18 +1,21 @@
 {
     "Name": "Arabic-Dataset-for-CAPT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/CAPT",
     "Link": "https://github.com/bhalima/Arabic-Dataset-for-CAPT",
     "License": "unknown",
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "studio recordings"
+    ],
     "Domain": [
-        "other"
+        "education"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The dataset includes both “correct” and “wrong” non-artificial pronunciations. The pronunciations are from nine pupils aged from 5 to 8 years; each of them uttered a set of 16 sequences (words or group of words). The chosen words included some difficulties to learners such as the long vowels and the words written with more than one connected component.",
     "Volume": 143.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

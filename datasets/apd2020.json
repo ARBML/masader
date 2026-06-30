@@ -1,18 +1,23 @@
 {
     "Name": "APD2020",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/mcj6vkg6zw/1",
     "License": "CC BY 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "web pages",
+        "books"
+    ],
     "Domain": [
-        "web pages"
+        "literature",
+        "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Updated Classical Arabic poetry dataset (APD2020) covering five eras scraped from Adab.com, cleaned, made publicly available via Kaggle",
     "Volume": 86061.0,
@@ -29,7 +34,8 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "poetry analysis"
     ],

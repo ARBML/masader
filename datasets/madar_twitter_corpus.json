@@ -1,6 +1,6 @@
 {
     "Name": "MADAR Twitter Corpus",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Saudi Arabia",
             "Dialect": "Saudi Arabia",
@@ -134,12 +134,15 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A  large-scale collection of parallel sentences built to cover the dialects of 25 cities from the Arab World",
     "Volume": 2989.0,
@@ -148,7 +151,9 @@
     "Provider": [
         "NYU Abu Dhabi"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "BTEC"
+    ],
     "Paper Title": "Fine-Grained Arabic Dialect Identification",
     "Paper Link": "https://aclanthology.org/C18-1113.pdf",
     "Script": "Arab",
@@ -156,7 +161,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "dialect identification"

@@ -1,18 +1,23 @@
 {
     "Name": "ACE 2004 Multilingual Training Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2005T09",
     "License": "LDC User Agreement",
     "Year": 2004,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles",
+        "treebanks"
+    ],
     "Domain": [
-        "other"
+        "news",
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "ACE 2004 Multilingual Training Corpus was developed by the Linguistic Data Consortium (LDC) and contains the various genre text in English (158,000 words), Chinese (307,000 characters, 154,000 words), and Arabic (151,000 words) annotated for entities and relations.",
     "Volume": 151000.0,
@@ -29,7 +34,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],

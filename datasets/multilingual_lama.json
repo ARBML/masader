@@ -1,17 +1,20 @@
 {
     "Name": "Multilingual LAMA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/cis-lmu/m_lama",
     "Link": "https://github.com/norakassner/mlama",
     "License": "CC BY-NC 4.0",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "multilingual version of lama.  The underlying idea of LAMA is to query knowledge from pretrained LMs using templates without any finetuning",
@@ -21,7 +24,10 @@
     "Provider": [
         "LMU Munich"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "TREx",
+        "GoogleRE"
+    ],
     "Paper Title": "Multilingual LAMA: Investigating Knowledge in Multilingual Pretrained Language Models",
     "Paper Link": "https://doi.org/10.18653/v1/2021.eacl-main.284",
     "Script": "Arab",
@@ -29,7 +35,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "fill-in-the blank"
     ],

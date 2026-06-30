@@ -1,18 +1,21 @@
 {
     "Name": "arabic billion words",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/abuelkhair-corpus/arabic_billion_words",
     "Link": "http://www.abuelkhair.net/index.php/en/arabic/abu-el-khair-corpus",
     "License": "unknown",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "includes more than five million newspaper articles",
     "Volume": 5222973.0,
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

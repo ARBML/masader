@@ -1,18 +1,21 @@
 {
     "Name": "ISI Arabic-English Automatically Extracted Parallel Text",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2007T08",
     "License": "LDC User Agreement",
     "Year": 2007,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "The corpus contains 1,124,609 sentence pairs; the word count on the English side is approximately 31M words. The sentences in the parallel corpus preserve the form and encoding of the texts in the original Gigaword corpora.",
     "Volume": 1124609.0,
@@ -31,7 +34,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "4,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

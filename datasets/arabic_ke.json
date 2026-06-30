@@ -1,17 +1,20 @@
 {
     "Name": "Arabic KE",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/baselmousi/arabic-knowledge-editing",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Arabic translations of ZsRE and Counterfact benchmarks for knowledge editing analysis.",
@@ -32,9 +35,10 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "other"
+        "knowledge editing"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",

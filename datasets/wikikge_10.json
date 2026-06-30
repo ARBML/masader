@@ -1,17 +1,20 @@
 {
     "Name": "WikiKGE-10",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/davanstrien/ml-kge",
     "Link": "https://github.com/apple/ml-kge",
     "License": "CC BY-SA 4.0",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Multilingual dataset for evaluating knowledge graph enhancement systems across 10 languages with curated entity names and aliases.",
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "knowledge graphs"
     ],

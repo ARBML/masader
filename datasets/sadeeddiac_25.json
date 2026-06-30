@@ -1,6 +1,6 @@
 {
     "Name": "SadeedDiac-25",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Classical Arabic",
             "Volume": 600.0,
@@ -20,13 +20,16 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "machine annotation",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "SadeedDiac-25 is a comprehensive and linguistically diverse benchmark specifically designed for evaluating Arabic diacritization models. It unifies Modern Standard Arabic (MSA) and Classical Arabic (CA) in a single dataset, addressing key limitations in existing benchmarks.",
     "Volume": 1200.0,
@@ -45,7 +48,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "diacritization"
     ],

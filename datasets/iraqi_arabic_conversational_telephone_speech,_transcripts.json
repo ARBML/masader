@@ -1,17 +1,20 @@
 {
     "Name": "Iraqi Arabic Conversational Telephone Speech, Transcripts",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2006T16",
     "License": "LDC User Agreement",
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Iraq",
-    "Domain": [
+    "Source": [
         "telephone conversations"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A total of 478 conversation sides from 474 unique speakers are provided, and most of these transcripts contain both sides of a conversation (202 transcripts with both sides and 74 with just one side). The average duration per call is about six minutes, so each call side contains about three minutes of speech, on average.",
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "200.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

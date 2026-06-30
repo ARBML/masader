@@ -1,17 +1,20 @@
 {
     "Name": "KHATT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/benhachem/KHATT",
     "Link": "https://www.kaggle.com/datasets/nizarcharrada/khattarabic",
     "License": "unknown",
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "art"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Open Arabic offline handwritten text database consisting of 1000 forms written by 1000 distinct writers scanned at 200–600 dpi.",
@@ -29,7 +32,8 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "optical character recognition"
     ],

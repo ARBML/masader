@@ -1,22 +1,23 @@
 {
     "Name": "ARCOQ",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/SandraRizkallah/ARCOQ-dataset",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages",
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation",
-        "machine annotation",
-        "manual curation"
+        "machine annotation"
     ],
     "Description": "ARCOQ is the first Arabic dataset of 500 closest-opposite (antonym) multiple-choice questions for Arabic systems evaluation.",
     "Volume": 500.0,
@@ -35,7 +36,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],

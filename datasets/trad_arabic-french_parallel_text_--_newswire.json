@@ -1,18 +1,22 @@
 {
     "Name": "TRAD Arabic-French Parallel Text -- Newswire",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2018T21",
     "License": "LDC User Agreement",
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news",
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release consists of 813 segments (translations units) from 74 documents. The source data is Arabic newswire text collected and translated into English by LDC. Information about the ELDA translation team, translation guidelines and validation results is contained in the documentation accompanying this release.",
     "Volume": 813.0,
@@ -29,7 +33,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "350.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling",
         "machine translation"

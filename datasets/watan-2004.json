@@ -1,38 +1,35 @@
 {
     "Name": "Watan-2004",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/watan_2004",
     "Link": "https://sourceforge.net/projects/arabiccorpus/files/",
     "License": "unknown",
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news",
+        "culture",
+        "religion",
+        "politics",
+        "society"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Watan-2004 corpus contains about 20000 articles talking about the six following topics \"categories\":  Culture, Religion, Economy, Local News, International News and sports.  In this corpus, punctuation has been omitted intentionally in order to make it useful for Language Modeling.",
     "Volume": 20000.0,
-    "Unit": "sentences",
+    "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
-        "Multiple Institutions"
+        "INRIA"
     ],
     "Derived From": [],
     "Paper Title": "Comparing TR-Classifier and KNN by using Reduced Sizes of Vocabularies",
-    "Paper Link": "https://hal.archives-ouvertes.fr/hal-01586533/document",
-    "Script": "Arab",
-    "Tokenized": false,
-    "Host": "other",
-    "Access": "Free",
-    "Cost": "",
-    "Test Split": false,
-    "Tasks": [
-        "topic classification"
-    ],
     "Venue Title": "CITALA",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Arabic Language Processing",

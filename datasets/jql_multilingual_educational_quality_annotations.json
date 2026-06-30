@@ -1,17 +1,20 @@
 {
     "Name": "JQL Multilingual Educational Quality Annotations",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/JQL-AI/JQL-Human-Edu-Annotations",
     "Link": "https://huggingface.co/datasets/JQL-AI/JQL-Human-Edu-Annotations",
     "License": "ODC-By",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "education"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -36,7 +39,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "educational value of web documents"
     ],

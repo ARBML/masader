@@ -1,18 +1,21 @@
 {
     "Name": "2008 NIST Metrics for Machine Translation (MetricsMATR08) Development Data",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009T05",
     "License": "LDC User Agreement",
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The MetricsMATR08 development data set released here is reflective of the test data set only to a degree; the evaluation data set contains more varied data -- from more genres, more source languages, more systems and different evaluations -- than this development data set. There are also more types of human assessments for the test data. The MetricsMATR08 test data remains unseen to allow for repeated use as test data.",
     "Volume": 249.0,
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "150.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

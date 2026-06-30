@@ -1,18 +1,21 @@
 {
     "Name": "llm-ida",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/aida-ugent/llm-ideology-analysis",
     "Link": "https://huggingface.co/datasets/aida-ugent/llm-ideology-analysis",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "wikipedia",
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "politics",
+        "society"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Moral judgments of 19 LLMs on 3,991 contemporary political figures in 6 UN languages.",
@@ -33,7 +36,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "bias detection"
     ],

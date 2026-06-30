@@ -1,17 +1,20 @@
 {
     "Name": "MultiTACRED",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/DFKI-SLT/multitacred",
     "Link": "https://hf.co/datasets/DFKI-SLT/multitacred",
     "License": "LDC User Agreement",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "MultiTACRED is a multilingual version of the large-scale TAC Relation Extraction Dataset. It covers 12 typologically diverse languages from 9 language families, and was created by the Speech & Language Technology group of DFKI by machine-translating the instances of the original TACRED dataset and automatically projecting their entity annotations.",
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "relation extraction"
     ],

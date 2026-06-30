@@ -1,18 +1,21 @@
 {
     "Name": "ABSA-Hotels",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/msmadi/ABSA-Hotels",
     "License": "MIT License",
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "reviews"
+    ],
     "Domain": [
-        "web pages"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Around 15,562 Hotels' reviews were thoroughly reviewed by this research authors and a subset of 2,291 reviews were selected. The original dataset has been collected from well known Hotels' booking websites such as Booking.com, TripAdvisor.com.",
     "Volume": 24028.0,
@@ -27,7 +30,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "review classification"
     ],

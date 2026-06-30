@@ -1,18 +1,21 @@
 {
     "Name": "UFB Translated",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/CohereLabs/fusion-synth-data-ufb",
     "Link": "https://huggingface.co/datasets/CohereLabs/fusion-synth-data-ufb",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "This data contains completions for a 10,000 subset of the UFB prompts (translated into 9 languages) from 5 different teacher models and 2 aggregations",
     "Volume": 10000.0,
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning",
         "preference optimization"

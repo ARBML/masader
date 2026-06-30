@@ -1,18 +1,22 @@
 {
     "Name": "TYDIQA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/google-research-datasets/tydiqa",
     "Link": "https://github.com/google-research-datasets/tydiqa",
     "License": "Apache-2.0",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "other",
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "question answering dataset covering 11 typologically diverse languages with 200K question-answer pairs",
     "Volume": 25893.0,
@@ -23,13 +27,14 @@
     ],
     "Derived From": [],
     "Paper Title": "TYDI QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages",
-    "Paper Link": "https://storage.googleapis.com/tydiqa/tydiqa.pdf",
+    "Paper Link": "https://aclanthology.org/2020.tacl-1.30.pdf",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

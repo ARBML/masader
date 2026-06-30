@@ -1,18 +1,21 @@
 {
     "Name": "ANETAC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ANETAC",
     "Link": "https://github.com/HadjAmeur/ANETAC-Dataset",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "English-Arabic named entity transliteration and classification dataset",
     "Volume": 79924.0,
@@ -22,15 +25,21 @@
         "USTHB University",
         "University of Salford"
     ],
-    "Derived From": [],
-    "Paper Title": "Automatic Identification and Verification",
+    "Derived From": [
+        "United Nations",
+        "OpenSubtitles",
+        "News Commentary",
+        "IWSLT2016"
+    ],
+    "Paper Title": "ANETAC: Arabic Named Entity Transliteration and Classification Dataset",
     "Paper Link": "https://arxiv.org/pdf/1907.03110.pdf",
     "Script": "Arab-Latin",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition",
         "transliteration"

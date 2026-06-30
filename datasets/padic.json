@@ -1,6 +1,6 @@
 {
     "Name": "PADIC",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "ANB",
             "Dialect": "Algeria",
@@ -38,12 +38,16 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "manual construction",
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a Parallel Arabic DIalect Corpus we built from scratch,",
     "Volume": 6400.0,
@@ -52,7 +56,10 @@
     "Provider": [
         "Multiple Institutions"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "ANB corpus",
+        "ALG corpus"
+    ],
     "Paper Title": "Machine Translation Experiments on PADIC:\r\nA Parallel Arabic DIalect Corpus",
     "Paper Link": "https://aclanthology.org/Y15-1004.pdf",
     "Script": "Arab-Latin",
@@ -60,7 +67,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

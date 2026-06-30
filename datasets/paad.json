@@ -1,20 +1,24 @@
 {
     "Name": "PAAD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/PAAD",
     "Link": "https://data.mendeley.com/datasets/spvbf5bgjs/2",
     "License": "CC BY 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "politics",
+        "news"
     ],
-    "Description": "he  dataset  is  206  articles distributed  into  three  categories  as  (Reform,  Conservative  and Revolutionary) that we offer to the research community on Arabiccomputational  linguistics.",
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation"
+    ],
+    "Description": "the  dataset  is  206  articles distributed  into  three  categories  as  (Reform,  Conservative  and Revolutionary) that we offer to the research community on Arabic computational  linguistics.",
     "Volume": 206.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
@@ -29,7 +33,8 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "topic classification"
     ],

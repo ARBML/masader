@@ -1,6 +1,6 @@
 {
     "Name": "Arabic Dialects Dataset",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "GLF",
             "Dialect": "Gulf",
@@ -38,12 +38,15 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Dataset of Arabic dialects for GULF, EGYPT, LEVANT, TONESIAN Arabic dialects in addition to MSA.",
     "Volume": 16494.0,
@@ -53,7 +56,7 @@
         "Lancaster University"
     ],
     "Derived From": [
-        "OAC"
+        "AOC"
     ],
     "Paper Title": "Arabic Dialect Identification in the Context of Bivalency and Code-Switching",
     "Paper Link": "https://aclanthology.org/L18-1573.pdf",
@@ -62,7 +65,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

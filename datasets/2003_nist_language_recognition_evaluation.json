@@ -1,18 +1,21 @@
 {
     "Name": "2003 NIST Language Recognition Evaluation",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2006S31",
     "License": "LDC User Agreement",
     "Year": 2006,
     "Language": "multilingual",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "public datasets",
         "telephone conversations"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Each speech file is one side of a \"four wire\" telephone conversation represented as 8-bit, 8-kHz mulaw data. There are 11,830 speech files in SPHERE (.sph) format. The speech data was compiled from LDC's CALLFRIEND, CALLHOME, and Switchboard-2 corpora. Each file contains one test segment. The test segments are divided into three-second, 10-second, and 30-second tests, each in its own directory.",
@@ -34,7 +37,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language identification"
     ],

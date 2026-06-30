@@ -1,18 +1,21 @@
 {
     "Name": "ArabicNLU Shared Task Subtask 2",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://codalab.lisn.upsaclay.fr/competitions/18918",
     "License": "unknown",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets",
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "LMD in a separate task supports developing precise models capable of accurately resolving Location Mentions (LMs) within microblogs and linking them to toponyms in geo-positioning databases",
@@ -32,9 +35,10 @@
     "Host": "CodaLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
-        "other"
+        "linking"
     ],
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",

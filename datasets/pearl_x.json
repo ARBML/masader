@@ -1,20 +1,23 @@
 {
     "Name": "PEARL-X",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/PEARL-X",
     "Link": "https://huggingface.co/datasets/UBC-NLP/PEARL-X",
     "License": "CC BY-NC-ND 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia",
         "LLM"
     ],
+    "Domain": [
+        "culture"
+    ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "PEARL-X (PEARL eXtension) is a specialized benchmark designed to evaluate nuanced cultural understanding by focusing on shared cultural concepts that manifest differently across various Arab contexts.",
     "Volume": 367.0,
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

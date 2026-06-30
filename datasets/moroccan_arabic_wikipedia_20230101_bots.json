@@ -1,18 +1,21 @@
 {
     "Name": "Moroccan_Arabic_Wikipedia_20230101_bots",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/SaiedAlshahrani/Moroccan_Arabic_Wikipedia_20230101_bots",
     "Link": "https://hf.co/datasets/SaiedAlshahrani/Moroccan_Arabic_Wikipedia_20230101_bots",
     "License": "MIT License",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Moroccan_Arabic_Wikipedia_20230101_bots is a dataset created using the Moroccan Arabic Wikipedia articles, including the bot-generated articles, downloaded on the 1st of January 2023, and processed to train a Moroccan Arabic RoBERTa model.",
     "Volume": 5400.0,
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

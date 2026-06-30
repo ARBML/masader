@@ -1,17 +1,21 @@
 {
     "Name": "MR3",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/rubricreward/mR3-Dataset-100K-EasyToHard",
     "Link": "https://github.com/rubricreward/mr3",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "LLM"
+    ],
     "Domain": [
-        "public datasets"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Massively multilingual reward-model training set with 72-language coverage and human/LLM-generated rubrics.",
@@ -36,7 +40,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "preference optimization"
     ],

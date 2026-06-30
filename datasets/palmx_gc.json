@@ -1,20 +1,22 @@
 {
     "Name": "PalmX-GC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/palmx_2025_subtask1_culture",
     "Link": "https://huggingface.co/datasets/UBC-NLP/palmx_2025_subtask1_culture",
     "License": "custom",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets",
         "web pages"
     ],
+    "Domain": [
+        "culture"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "PalmX-GC evaluates a model’s grasp of general Arab culture—customs, history, geography, arts, cuisine, notable figures, and everyday life across the 22 Arab League countries. Every item is written in Modern Standard Arabic (MSA). The dataset powers Subtask 1 of the PalmX 2025 shared task.",
     "Volume": 4500.0,
@@ -33,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],

@@ -1,19 +1,22 @@
 {
     "Name": "BenchMAX_Science",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Science",
     "Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Science",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "science"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "machine annotation",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "BenchMAX_Science is a dataset of BenchMAX, sourcing from GPQA, which evaluates the natural science reasoning capability in multilingual scenarios.",
     "Volume": 448.0,
@@ -32,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],

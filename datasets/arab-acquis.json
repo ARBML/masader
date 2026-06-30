@@ -1,18 +1,20 @@
 {
     "Name": "Arab-Acquis",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://camel.abudhabi.nyu.edu/arabacquis/",
     "License": "custom",
     "Year": 2017,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "consists of over 12,000 sentences from the JRCAcquis (Acquis Communautaire) corpus",
@@ -22,7 +24,9 @@
     "Provider": [
         "NYU Abu Dhabi"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "JRC-Acquis"
+    ],
     "Paper Title": "A Parallel Corpus for Evaluating Machine Translation between Arabic and European Languages",
     "Paper Link": "https://aclanthology.org/E17-2038.pdf",
     "Script": "Arab",
@@ -30,7 +34,8 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

@@ -1,17 +1,20 @@
 {
     "Name": "BenchMAX_Multiple_Functions",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Multiple_Functions",
     "Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Multiple_Functions",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "BenchMAX_Multiple_Functions is a dataset of BenchMAX, sourcing from Nexus. This dataset evaluates the tool use capability in multilingual senarios, which requires a model to call the correct function given the user query and multiple functions.",
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "function calling"
     ],

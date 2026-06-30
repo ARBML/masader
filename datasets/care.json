@@ -1,17 +1,22 @@
 {
     "Name": "CARE",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/geyang627/CARE",
     "Link": "https://github.com/Guochry/CARE",
     "License": "MIT License",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "culture",
+        "society",
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A multilingual human preference dataset featuring 3,490 culture-specific QA pairs (31.7k rated responses) in Arabic, Chinese, and Japanese, curated via native annotators to enhance cultural awareness in language models.",
@@ -29,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning",
         "preference optimization"

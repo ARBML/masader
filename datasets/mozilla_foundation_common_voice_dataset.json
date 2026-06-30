@@ -1,28 +1,28 @@
 {
     "Name": "mozilla foundation common voice dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/mozilla-foundation/common_voice_17_0",
     "Link": "https://github.com/common-voice/cv-dataset/tree/main/datasets",
     "License": "MPL-2.0",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The Common Voice dataset consists of a unique MP3 and corresponding text file. Many of the 20217 recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help improve the accuracy of speech recognition engines.",
     "Volume": 87.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
-        "Mozilla",
-        "Indiana University",
-        "Artie",
-        "Inc."
+        "Mozilla"
     ],
     "Derived From": [],
     "Paper Title": "Common Voice: A Massively-Multilingual Speech Corpus",
@@ -32,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition",
         "language identification"

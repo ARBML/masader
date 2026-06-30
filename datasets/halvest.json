@@ -1,18 +1,21 @@
 {
     "Name": "HALvest",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/almanach/HALvest",
     "Link": "https://huggingface.co/datasets/almanach/HALvest",
     "License": "custom",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "web crawls"
+    ],
     "Domain": [
-        "web pages"
+        "science"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "Multilingual open-access scholarly document dataset harvested from the French HAL repository.",
     "Volume": 92.0,
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

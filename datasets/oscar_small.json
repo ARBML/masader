@@ -1,25 +1,28 @@
 {
     "Name": "OSCAR Small",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/nthngdy/oscar-small",
     "Link": "https://hf.co/datasets/nthngdy/oscar-small",
     "License": "CC0",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "web crawls",
+        "public datasets"
+    ],
     "Domain": [
-        "web pages"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "a processed version of and smaller subset of OSCAR",
     "Volume": 408438.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
-        "-"
     ],
     "Derived From": [
         "OSCAR"
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

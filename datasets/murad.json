@@ -1,19 +1,22 @@
 {
     "Name": "MURAD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/riotu-lab/MURAD",
     "Link": "https://github.com/riotu-lab/RD-creation-library-RDCL",
     "License": "CC BY 4.0",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated",
-        "machine annotation"
+    "Annotation Style": [
+        "machine annotation",
+        "LLM annotation"
     ],
     "Description": "Open lexical dataset with 96,243 Arabic word-definition pairs.",
     "Volume": 96243.0,
@@ -30,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "lexicon analysis"
     ],

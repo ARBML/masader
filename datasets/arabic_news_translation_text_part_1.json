@@ -1,20 +1,23 @@
 {
     "Name": "Arabic News Translation Text Part 1",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2004T17",
     "License": "LDC User Agreement",
     "Year": 2004,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "other"
+    "Domain": [
+        "news"
     ],
-    "Description": "Here is a breakdown of the Arabic material by source:",
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic News Translation Text Part 1 was produced by the Linguistic Data Consortium (LDC) and contains 1,526 Arabic news stories and their English translations, totaling approximately 441,000 Arabic words and 581,000 English words.",
     "Volume": 1526.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "information retrieval",
         "machine translation"

@@ -1,6 +1,6 @@
 {
     "Name": "Shami",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Jordanian",
             "Dialect": "Jordan",
@@ -32,12 +32,15 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "the first Levantine Dialect Corpus (SDC) covering data from the four dialects spoken in Palestine, Jordan, Lebanon and Syria.",
     "Volume": 117805.0,
@@ -54,7 +57,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

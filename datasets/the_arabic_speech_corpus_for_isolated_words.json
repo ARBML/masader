@@ -1,18 +1,21 @@
 {
     "Name": "The Arabic Speech Corpus for Isolated Words",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Speech_Corpus_for_Isolated_Words",
     "Link": "https://www.cs.stir.ac.uk/~lss/arabic/",
     "License": "unknown",
     "Year": 2014,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "studio recordings"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The Arabic speech corpus for isolated words contains 9992 utterances of 20 words spoken by 50 native male Arabic speakers. It has been recorded with a 44100 Hz sampling rate and 16-bit resolution. This corpus is free for noncommercial uses in the raw format (.wav files) and other formats e.g. (MFCCs) are available under request.",
     "Volume": 9992.0,
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

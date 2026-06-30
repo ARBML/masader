@@ -1,18 +1,22 @@
 {
     "Name": "SAD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/SAD",
     "Link": "http://www.cs.stir.ac.uk/~lss/arabic/",
     "License": "unknown",
     "Year": 2014,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "studio recordings",
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The Arabic speech corpus for isolated words contains 9992 utterances of 20 words spoken by 50 native male Arabic speakers.",
     "Volume": 6.0,
@@ -29,7 +33,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

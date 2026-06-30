@@ -1,18 +1,24 @@
 {
     "Name": "LK-Hadith-Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/LK_Hadith",
     "Link": "https://github.com/ShathaTm/LK-Hadith-Corpus",
     "License": "unknown",
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "religion",
+        "culture",
+        "law",
+        "education"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "a bilingual parallel corpus of Islamic Hadith",
     "Volume": 39038.0,
@@ -29,7 +35,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

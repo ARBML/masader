@@ -1,6 +1,6 @@
 {
     "Name": "Twt15DA_Lists",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Yemeni",
             "Dialect": "Yemen",
@@ -98,12 +98,14 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "The annotated dialectal Arabic corpus (Twt15DA) is collected from Twitter and consists of 311,785 tweets containing 3,858,459 words in total. They randomly selected a sample of 75 tweets per country, 1125 tweets in total, and conducted a manual dialect identification task by native speakers.",
@@ -121,7 +123,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

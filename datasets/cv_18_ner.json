@@ -1,17 +1,20 @@
 {
     "Name": "CV-18 NER",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Elyadata/CV18-NER",
     "Link": "https://huggingface.co/datasets/Elyadata/CV18-NER",
     "License": "CC BY-NC 4.0",
     "Year": 2026,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First publicly available dataset for NER from Arabic speech.",
@@ -32,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "named entity recognition",
         "speech recognition"

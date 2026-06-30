@@ -1,17 +1,21 @@
 {
     "Name": "SAMER Arabic Text Simplification",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://samer.camel-lab.com/",
     "License": "custom",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "literature",
+        "education"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First manually annotated Arabic parallel corpus for text simplification targeting school-aged learners, with 159K words from 15 Arabic fiction novels.",
@@ -26,10 +30,11 @@
     "Paper Link": "https://aclanthology.org/2024.lrec-main.1398.pdf",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "CAMeL Resources",
+    "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "readability assessment"
     ],

@@ -1,6 +1,6 @@
 {
     "Name": "Gumar",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "SA",
             "Dialect": "Saudi Arabia",
@@ -56,12 +56,16 @@
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "books",
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a large-scale corpus of Gulf Arabic consisting of 110 million words from 1,200 forum novels",
     "Volume": 1235.0,
@@ -78,7 +82,8 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "morphological analysis"
     ],

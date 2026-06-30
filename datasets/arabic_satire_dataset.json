@@ -1,18 +1,23 @@
 {
     "Name": "Arabic satire dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Arbic-satire-dataset",
     "Link": "https://github.com/Noza1234/Arbic-satire-dataset",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "web pages",
+        "news articles"
+    ],
     "Domain": [
-        "other"
+        "general",
+        "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "500 Arabic news and 500 Arabic satire articles",
     "Volume": 1000.0,
@@ -27,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "information retrieval",

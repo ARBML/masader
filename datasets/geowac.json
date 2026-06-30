@@ -1,6 +1,6 @@
 {
     "Name": "GeoWAC",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "United_Arab_Emirates",
             "Dialect": "United Arab Emirates",
@@ -104,12 +104,15 @@
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "match the ground-truth geographic\r\ndistribution of each language",
     "Volume": 373020007.0,
@@ -126,7 +129,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

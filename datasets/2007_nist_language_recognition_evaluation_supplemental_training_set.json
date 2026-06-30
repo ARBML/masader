@@ -1,20 +1,23 @@
 {
     "Name": "2007 NIST Language Recognition Evaluation Supplemental Training Set",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009S05",
     "License": "LDC User Agreement",
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Egypt",
+    "Source": [
+        "telephone conversations"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "The supplemental training material in this release consists of the following:",
+    "Description": "It consists of 118 hours of conversational telephone speech segments in the following languages and dialects: Arabic (Egyptian colloquial), Bengali, Min Nan Chinese, Wu Chinese, Taiwan Mandarin, Cantonese, Russian, Mexican Spanish, Thai, Urdu, and Tamil.",
     "Volume": 118.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language identification"
     ],

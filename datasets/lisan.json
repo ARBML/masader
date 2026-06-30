@@ -1,6 +1,6 @@
 {
     "Name": "Lisan",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Iraqi",
             "Dialect": "Iraq",
@@ -32,12 +32,15 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A morphologically-annotated Yemeni, Sudanese, Iraqi, and Libyan Arabic dialects Lisan corpora. Lisan features around 1.2 million tokens. It was collected the content of the corpora from several social media platforms.",
     "Volume": 1205000.0,
@@ -52,10 +55,11 @@
     "Paper Link": "https://doi.org/10.1109/AICCSA59173.2023.10479250",
     "Script": "Arab",
     "Tokenized": true,
-    "Host": "CAMeL Resources",
+    "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling",
         "dialect identification",

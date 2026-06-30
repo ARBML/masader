@@ -1,21 +1,62 @@
 {
     "Name": "TEAD",
-    "Subsets": [],
+    "Dialect Subsets": [
+        {
+            "Name": "Maghrebi",
+            "Volume": 1702347,
+            "Unit": "documents",
+            "Dialect": "North Africa"
+        },
+        {
+            "Name": "Egypt",
+            "Volume": 2070320,
+            "Unit": "documents",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 1523121,
+            "Unit": "documents",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "Iraqi",
+            "Volume": 75622,
+            "Unit": "documents",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "Levant",
+            "Volume": 320155,
+            "Unit": "documents",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "Others",
+            "Volume": 335645,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        }
+    ],
     "HF Link": "https://hf.co/datasets/arbml/TEAD",
     "Link": "https://github.com/HSMAabdellaoui/TEAD",
     "License": "GPL-3.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation",
+        "human annotation"
     ],
     "Description": "dataset for Arabic Sentiment Analysis",
-    "Volume": 6000000.0,
+    "Volume": 6027210.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [
@@ -29,7 +70,8 @@
     "Host": "GitHub",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

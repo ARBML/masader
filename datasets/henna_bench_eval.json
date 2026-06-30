@@ -1,19 +1,21 @@
 {
     "Name": "Henna Bench Eval",
-    "Subsets": [],
-    "HF Link": "",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/UBC-NLP/Henna-Bench-Eval",
     "Link": "https://huggingface.co/datasets/UBC-NLP/Henna-Bench-Eval",
     "License": "unknown",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "images",
-    "Collection Style": [
-        "crawling",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Arabic multimodal LLMs and benchmarks",
     "Volume": 1132.0,
@@ -30,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering",
         "instruction following",

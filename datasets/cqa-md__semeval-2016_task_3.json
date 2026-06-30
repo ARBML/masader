@@ -1,18 +1,21 @@
 {
     "Name": "CQA-MD: SemEval-2016 Task 3",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/CQA_MD_ar",
     "Link": "https://alt.qcri.org/semeval2016/task3/index.php?id=data-and-tools",
     "License": "unknown",
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "It includes a TRAIN/DEV split with reliable double-checked DEV (1,281 original questions, and 37,795 potentially related question-answer pairs) + unannotated (163,383 question--answer pairs)",
     "Volume": 45164.0,
@@ -29,7 +32,8 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

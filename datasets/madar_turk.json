@@ -1,17 +1,20 @@
 {
     "Name": "MADAR-Turk",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://resources.camel-lab.com/",
     "License": "custom",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Syria",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First dataset for Syrian Arabic-Turkish machine translation sourced from MADAR.",
@@ -31,7 +34,8 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

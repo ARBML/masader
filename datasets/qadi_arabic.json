@@ -1,6 +1,6 @@
 {
     "Name": "QADI Arabic",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "AE",
             "Dialect": "United Arab Emirates",
@@ -116,14 +116,17 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "general"
     ],
-    "Description": "Dialects dataset",
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": " QCRI Arabic Dialects Identification (QADI) is a Country-level Arabic dialects identification (DI) dataset.",
     "Volume": 543893.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
@@ -138,7 +141,8 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": true,
     "Tasks": [
         "dialect identification"
     ],

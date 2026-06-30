@@ -1,17 +1,21 @@
 {
     "Name": "LAION-COCO-NLLB",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/visheratin/laion-coco-nllb",
     "Link": "https://huggingface.co/datasets/visheratin/laion-coco-nllb",
     "License": "CC BY-NC 4.0",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "captions"
+    ],
     "Domain": [
-        "public datasets"
+        "general"
     ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "106k image-caption pairs from LAION-COCO with captions translated into 201 languages using NLLB.",
@@ -31,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "image captioning"
     ],

@@ -1,18 +1,22 @@
 {
     "Name": "INCLUDE-base",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/CohereForAI/include-base-44",
     "Link": "https://huggingface.co/datasets/CohereForAI/include-base-44",
     "License": "Apache-2.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "public datasets"
     ],
+    "Domain": [
+        "education",
+        "science"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A large-scale multilingual benchmark of 197k MCQs from regional exams to test regional knowledge.",
@@ -32,7 +36,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],

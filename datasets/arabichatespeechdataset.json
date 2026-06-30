@@ -1,25 +1,29 @@
 {
     "Name": "ArabicHateSpeechDataset",
-    "Subsets": [],
-    "HF Link": "",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/sbalsefri/ArabicHateSpeechDataset",
     "Link": "https://github.com/sbalsefri/ArabicHateSpeechDataset",
     "License": "CC BY-SA 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "society",
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The dataset contains 5361 Arabic tweets annotated with six categories: clean, offensive, and hateful speech (religion-based, ethnicity-based, nationality-based, gender-based). It focuses on Arabic dialects (Gulf and Modern Standard Arabic) and uses a three-level annotation schema.",
     "Volume": 5361.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [
-        "Multiple INstitutions"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "Hate and Offensive Speech Detection on Arabic Social Media",
@@ -29,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": true,
     "Tasks": [
         "sentiment analysis",
         "offensive language detection",

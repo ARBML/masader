@@ -1,18 +1,21 @@
 {
     "Name": "APGC v1.0: Arabic Parallel Gender Corpus v1.0",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://camel.abudhabi.nyu.edu/arabic-parallel-gender-corpus/",
     "License": "custom",
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "society"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a corpus designed to support research on gender bias in natural language processing applications working on Arabic",
     "Volume": 12000.0,
@@ -31,7 +34,8 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "gender identification"
     ],

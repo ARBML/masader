@@ -1,17 +1,20 @@
 {
     "Name": "journalists_questions",
-    "Subsets": [],
-    "HF Link": "https://hf.co/datasets/mkqa",
-    "Link": "http://qufaculty.qu.edu.qa/telsayed/datasets/",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/community-datasets/journalists_questions",
+    "Link": "https://www.dropbox.com/scl/fi/0r3mrx1npf1gi0d1zbhzu/ArQAT-JQ-Dataset-v1.0.zip?rlkey=fhigh3hpjvp4ptpyj780kqo9c&e=1&dl=0",
     "License": "unknown",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "crowdsorucing to collect\r\nbinary annotations for 10K of the potential question tweets\r\nbased on whether they truly contain questions or not",
@@ -29,7 +32,8 @@
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": true,
     "Tasks": [
         "question answering"
     ],

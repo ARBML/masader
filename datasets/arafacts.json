@@ -1,18 +1,23 @@
 {
     "Name": "AraFacts",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AraFacts",
     "Link": "https://gitlab.com/bigirqu/AraFacts/",
     "License": "CC BY-NC 4.0",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "web pages",
+        "social media",
+        "news articles"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "consists of 6,222 claims\r\nalong with their factual labels and additional\r\nmetadata, such as fact-checking article content,\r\ntopical category, and links to posts or Web\r\npages spreading the claim",
     "Volume": 6222.0,
@@ -29,7 +34,8 @@
     "Host": "GitLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "topic classification",
         "fact checking"

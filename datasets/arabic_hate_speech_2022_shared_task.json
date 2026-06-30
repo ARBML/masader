@@ -1,18 +1,23 @@
 {
     "Name": "Arabic Hate Speech 2022 Shared Task",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Arabic_Hate_Speech",
     "Link": "https://sites.google.com/view/arabichate2022/home",
     "License": "custom",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "social media",
+        "public datasets"
+    ],
     "Domain": [
-        "social media"
+        "society",
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "largest Arabic dataset for offensive, fine-grained hate speech, vulgar and violence content",
     "Volume": 12698.0,
@@ -21,7 +26,10 @@
     "Provider": [
         "QCRI"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "SemEval-2020 task 12",
+        "MPOLD"
+    ],
     "Paper Title": "Emojis as Anchors to Detect Arabic Offensive Language and Hate Speech",
     "Paper Link": "https://doi.org/10.1017/S1351324923000402",
     "Script": "Arab",
@@ -29,7 +37,8 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "offensive language detection",
         "hate speech detection"

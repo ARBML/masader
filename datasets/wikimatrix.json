@@ -1,20 +1,23 @@
 {
     "Name": "WikiMatrix",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Tyler/wikimatrix_collapsed",
     "Link": "https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix",
     "License": "Apache-1.0",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "general"
     ],
-    "Description": "t 135M parallel sentences for\r\n1620 different language pairs, out of which\r\nonly 34M are aligned with English",
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation"
+    ],
+    "Description": "135M parallel sentences for 1620 different language pairs, out of which only 34M are aligned with English",
     "Volume": 4435.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
@@ -30,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

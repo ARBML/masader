@@ -1,18 +1,21 @@
 {
     "Name": "Aljazeera-dialectal speech",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/aljazeera_dialectal_speech",
     "Link": "https://alt.qcri.org/resources/aljazeeraspeechcorpus/",
     "License": "unknown",
     "Year": 2015,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "TV channels"
     ],
+    "Domain": [
+        "news"
+    ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "utterance-level dialect labels for 57 hours of high-quality audio from Al Jazeera consisting of four major varieties of DA: Egyptian, Levantine, Gulf, and North African.",
     "Volume": 57.0,
@@ -29,7 +32,8 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

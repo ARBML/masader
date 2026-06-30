@@ -1,18 +1,22 @@
 {
     "Name": "AraSenCorpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AraSenCorpus",
     "Link": "https://github.com/yemen2016/AraSenCorpus",
     "License": "MIT License",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "contains 4.5 million tweets and covers both modern standard Arabic and some of the Arabic dialects",
     "Volume": 4500000.0,
@@ -22,14 +26,15 @@
         "Multiple Institutions"
     ],
     "Derived From": [],
-    "Paper Title": "https://www.mdpi.com/2076-3417/11/5/2434",
-    "Paper Link": "https://github.com/yemen2016/AraSenCorpus",
+    "Paper Title": "AraSenCorpus: A Semi-Supervised Approach for Sentiment Annotation of a Large Arabic Text Corpus",
+    "Paper Link": "https://www.mdpi.com/2076-3417/11/5/2434",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

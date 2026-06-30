@@ -1,17 +1,20 @@
 {
     "Name": "Dialectal Arabic Code-Switching Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Dialectal_Speech_Code_Switching",
     "Link": "https://github.com/qcri/Arabic_speech_code_switching",
     "License": "MIT License",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Egypt",
+    "Source": [
+        "TV channels"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The dataset studies code-switching between Egyptian and modern standard Arabic in broadcast domain.",
@@ -31,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "codeswitch detection"
     ],

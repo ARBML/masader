@@ -1,18 +1,22 @@
 {
     "Name": "Shamela Diacritics Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://archive.org/details/shamela-diacritics-corpus",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "religion",
+        "literature"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "An Arabic diacriticized corpus using data from the old Maktaba Shamela website",
     "Volume": 1305.0,
@@ -22,7 +26,7 @@
         "Independent"
     ],
     "Derived From": [
-        "Old Maktaba Shamela website: https://t.me/shamela_kindle/37678"
+        "Shamela"
     ],
     "Paper Title": "",
     "Paper Link": "",
@@ -31,7 +35,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "diacritization"
     ],

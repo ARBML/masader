@@ -1,18 +1,21 @@
 {
     "Name": "Arabic ontology",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://ontology.birzeit.edu/about#download",
     "License": "CC BY 4.0",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "An Arabic Wordnet with ontologically-clean content. Classification of the meanings of the Arabic terms, based on state-of-art science, rather than on speakers' naïve knowledge.",
     "Volume": 30000.0,
@@ -27,10 +30,11 @@
     "Paper Link": "https://arxiv.org/pdf/2205.09664",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "CAMeL Resources",
+    "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling",
         "topic classification",

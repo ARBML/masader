@@ -1,18 +1,21 @@
 {
     "Name": "CALLHOME Egyptian Arabic Transcripts Supplement",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2002T38",
     "License": "LDC User Agreement",
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Egypt",
+    "Source": [
+        "telephone conversations"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "There are 40 data files. Each of the 20 calls has transcripts in two formats: .txt and .scr.",
     "Volume": 40.0,
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

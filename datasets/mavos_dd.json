@@ -1,20 +1,23 @@
 {
     "Name": "MAVOS-DD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/unibuc-cs/MAVOS-DD",
     "Link": "https://huggingface.co/datasets/unibuc-cs/MAVOS-DD",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media",
         "TV channels"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "videos",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "machine annotation",
+        "LLM annotation"
     ],
     "Description": "Multilingual audio-video open-set deepfake detection benchmark with over 60K real and fake videos across eight languages, including Arabic.",
     "Volume": 9861.0,
@@ -29,9 +32,10 @@
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
-    "Access": "Free",
+    "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "deepfake detection"
     ],

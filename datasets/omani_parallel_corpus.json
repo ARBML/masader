@@ -1,18 +1,20 @@
 {
     "Name": "Omani Parallel Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/khoula-k/OmaniArabicTranslation",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Oman",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Parallel Omani Arabic-English MT dataset",
@@ -30,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": true,
     "Tasks": [
         "machine translation"
     ],

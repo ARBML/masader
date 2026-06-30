@@ -1,19 +1,23 @@
 {
     "Name": "HAQA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/scsaln/HAQA-and-QUQA",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "public datasets"
     ],
+    "Domain": [
+        "religion",
+        "literature"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "The Arabic HAQA dataset of Hadith sharif answers that contains 1598 records and 1359 questions.",
     "Volume": 1598.0,
@@ -34,7 +38,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

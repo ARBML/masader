@@ -1,17 +1,20 @@
 {
     "Name": "X-CSR",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/INK-USC/xcsr",
     "Link": "https://inklab.usc.edu//XCSR/xcsr_datasets",
     "License": "unknown",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "automatically translate the original CSQA and CODAH datasets, which only have English versions, to 15 other languages, forming development and test sets for studying X-CSR",
@@ -21,7 +24,10 @@
     "Provider": [
         "University of Southern California"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "CSQA",
+        "CODAH"
+    ],
     "Paper Title": "Common Sense Beyond English: Evaluating and Improving Multilingual Language Models for Commonsense Reasoning",
     "Paper Link": "https://doi.org/10.18653/v1/2021.acl-long.102",
     "Script": "Arab",
@@ -29,7 +35,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "commonsense reasoning"
     ],

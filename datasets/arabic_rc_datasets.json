@@ -1,18 +1,21 @@
 {
     "Name": "Arabic RC datasets",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Arabic_RC_AQA",
     "Link": "https://github.com/MariamBiltawi/Arabic_RC_datasets",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic Reading Comprehension Benchmarks Created Semiautomatically",
     "Volume": 2862.0,
@@ -22,9 +25,7 @@
         "PSUT"
     ],
     "Derived From": [
-        "AQA (1008)",
-        "Modified TREC (979)",
-        "Modified CLEF (418)"
+        "TREC"
     ],
     "Paper Title": "Arabic Reading Comprehension Benchmarks Created Semiautomatically",
     "Paper Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9300111",
@@ -33,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

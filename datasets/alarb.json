@@ -1,18 +1,21 @@
 {
     "Name": "ALARB",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/HarethahMo/ALARB",
     "Link": "https://huggingface.co/datasets/HarethahMo/ALARB",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "law"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "ALARB is a 13K-case Arabic legal reasoning benchmark from Saudi commercial courts.",
     "Volume": 13344.0,
@@ -30,7 +33,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

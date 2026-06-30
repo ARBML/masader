@@ -1,18 +1,21 @@
 {
     "Name": "CulturaX",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/uonlp/CulturaX",
     "Link": "https://hf.co/datasets/uonlp/CulturaX",
     "License": "custom",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "We present CulturaX, a substantial multilingual dataset with 6.3 trillion tokens in 167 languages, tailored for large language model (LLM) development. Our dataset undergoes meticulous cleaning and deduplication through a rigorous pipeline of multiple stages to accomplish the best quality for model training, including language identification, URL-based filtering, metric-based cleaning, document refinement, and data deduplication. We employ MinHash at document level to achieve fuzzy deduplication for the datasets in different languages. Our data cleaning framework includes diverse criteria and threshold selections, guided by extensive data samples, ensuring comprehensive noise filtering in various aspects. CulturaX is fully released to the public in HuggingFace to facilitate research and advancements in multilingual LLMs.",
     "Volume": 74027952.0,
@@ -30,7 +33,8 @@
     "Host": "HuggingFace",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

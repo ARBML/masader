@@ -1,18 +1,21 @@
 {
     "Name": "Let-mi",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/bilalghanem/let-mi",
     "License": "unknown",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Levant",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "society"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Levantine Twitter dataset for Misogynistic language",
     "Volume": 6603.0,
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "gender bias detection"
     ],

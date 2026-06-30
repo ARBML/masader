@@ -1,18 +1,21 @@
 {
     "Name": "KDE4",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/kde4",
     "Link": "https://opus.nlpl.eu/KDE4/corpus/version/KDE4",
     "License": "custom",
     "Year": 2012,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "A parallel corpus of KDE4 localization files (v.2).  92 languages, 4,099 bitexts",
     "Volume": 700000.0,
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

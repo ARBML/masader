@@ -1,18 +1,24 @@
 {
     "Name": "ArCorona: Analyzing Arabic Tweets in the Early Days of Coronavirus (COVID-19) Pandemic",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArCorona",
     "Link": "https://alt.qcri.org/resources/ArCorona.tsv",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "health",
+        "news",
+        "crisis",
+        "society"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Collected to prevent\r\nspreading of rumors and misinformation about\r\nthe virus or bad cures",
     "Volume": 8000.0,
@@ -29,7 +35,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "fact checking"
     ],

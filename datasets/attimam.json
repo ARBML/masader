@@ -1,18 +1,24 @@
 {
     "Name": "AttImam",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2022T02",
     "License": "LDC User Agreement",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles",
+        "treebanks",
+        "public datasets"
+    ],
     "Domain": [
-        "news articles"
+        "news",
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "AttImam was developed by Al-Imam Mohammad Ibn Saud Islamic University and consists of approximately 2,000 attribution relations applied to Arabic newswire text from Arabic Treebank: Part 1 v 4.1 (LDC2010T13). Attribution refers to the process of reporting or assigning an utterance to the correct speaker.",
     "Volume": 2000.0,
@@ -21,7 +27,9 @@
     "Provider": [
         "Al-Imam Mohammad Ibn Saud Islamic University"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "Arabic Treebank: Part 1 v 4.1"
+    ],
     "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab-Latin",
@@ -29,7 +37,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "250.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "entity retrieval",
         "language identification"

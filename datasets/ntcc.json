@@ -1,17 +1,20 @@
 {
     "Name": "NTCC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/PsArNLP/Nakba",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Palestine",
+    "Source": [
+        "books"
+    ],
     "Domain": [
-        "web pages"
+        "literature"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -32,7 +35,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "topic classification"
     ],

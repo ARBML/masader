@@ -1,17 +1,20 @@
 {
     "Name": "MultiJail",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/DAMO-NLP-SG/MultiJail",
     "Link": "https://github.com/DAMO-NLP-SG/multilingual-safety-for-LLMs",
     "License": "MIT License",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The first manually-created multilingual jailbreak dataset designed to evaluate safety vulnerabilities of large language models across 10 languages under intentional and unintentional attack scenarios.",
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "safety evaluation",
         "offensive language detection"

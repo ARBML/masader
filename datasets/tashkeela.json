@@ -1,6 +1,6 @@
 {
     "Name": "Tashkeela",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Classical Arabic",
             "Dialect": "Classical Arabic",
@@ -26,12 +26,16 @@
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "books",
+        "web crawls"
+    ],
     "Domain": [
-        "books"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "Arabic discritization Corpus, Resource, Arabic vocalized texts",
     "Volume": 75637622.0,
@@ -48,7 +52,8 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "diacritization"
     ],

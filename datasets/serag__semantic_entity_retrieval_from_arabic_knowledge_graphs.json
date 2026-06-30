@@ -1,17 +1,20 @@
 {
     "Name": "SERAG: Semantic Entity Retrieval from Arabic knowledge Graphs",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArabicDEv2",
     "Link": "https://zenodo.org/record/4560653#.YprApXZBxD8",
     "License": "CC BY 4.0",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This is the dataset used in: \"S. Esmeir, SERAG: Semantic Entity Retrieval from Arabic knowledge Graphs, In: Proceedings of the Sixth Arabic Natural Language Processing Workshop (WANLP 2021) at EACL 2021\".  The dataset is a translation of a subset (139/467) of the queries in DBpedia Entity v2 to Modern Standard Arabic. We used the “stopped” version of DBpedia Entity v2 (queries-v2_stopped.txt).  Please use the query ID to link the translated queries to their English counterparts, and to the relevance judgment files provided with DBpedia Entity v2 (qrels-v2.txt).  DBpedia’s interlingual mapping file (interlanguage_links_ar.ttl.bz2) can be used to map entities from English to Arabic and vice-versa.",
@@ -29,7 +32,8 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "entity retrieval"
     ],

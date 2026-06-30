@@ -1,18 +1,20 @@
 {
     "Name": "arparallel",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://www.cs.cmu.edu/~fraisi/arabic/arparallel/",
     "License": "CC BY 3.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "The first monolingual parallel corpus of Arabic generated automatically from translating a bilingual English-French corpus. It can be used to train sequence-to-sequence models for paraphrasing, machine translation, text simplification, and other language generation tasks.",
@@ -32,7 +34,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "summarization",

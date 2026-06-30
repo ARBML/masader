@@ -1,18 +1,21 @@
 {
     "Name": "iSarcasmEval: SemEval-2022 Task 6",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/iSarcasmEval_task_A",
     "Link": "https://github.com/iabufarha/iSarcasmEval",
     "License": "unknown",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A Dataset of Intended Sarcasm",
     "Volume": 4447.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sarcasm detection"
     ],

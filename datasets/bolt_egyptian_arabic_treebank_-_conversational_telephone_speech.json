@@ -1,17 +1,20 @@
 {
     "Name": "BOLT Egyptian Arabic Treebank - Conversational Telephone Speech",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2021T12",
     "License": "LDC User Agreement",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "telephone conversations"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This release contains 153,171 tokens before clitics were split and 182,965 tree tokens after clitics were split for treebank annotation. The source data was selected from conversational telephone speech collected by LDC for the CALLHOME project that was transcribed and segmented into sentence units.",
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "part of speech tagging",
         "morphological analysis"

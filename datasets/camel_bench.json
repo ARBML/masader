@@ -1,20 +1,23 @@
 {
     "Name": "CAMEL-Bench",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/MBZUAI/CAMEL-Bench",
     "Link": "https://mbzuai-oryx.github.io/Camel-Bench/",
     "License": "unknown",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets",
         "LLM"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "A comprehensive Arabic large multimodal model benchmark spanning 8 domains and 38 sub-domains with 29,036 manually verified questions.",
     "Volume": 29036.0,
@@ -69,7 +72,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering",
         "multiple choice question answering",

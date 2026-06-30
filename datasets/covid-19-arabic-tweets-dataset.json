@@ -1,18 +1,24 @@
 {
     "Name": "COVID-19-Arabic-Tweets-Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/COVID_19_Arabic_Tweets_Dataset",
     "Link": "https://github.com/SarahAlqurashi/COVID-19-Arabic-Tweets-Dataset",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "health",
+        "society",
+        "crisis"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived",
+        "machine annotation"
     ],
     "Description": "collection of Arabic tweets IDs related to novel coronavirus COVID-19.",
     "Volume": 3934610.0,
@@ -29,7 +35,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": true,
     "Tasks": [
         "fact checking"
     ],

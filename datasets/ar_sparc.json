@@ -1,19 +1,22 @@
 {
     "Name": "ar-sparc",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://drive.google.com/drive/folders/1hwla8aSZ8wFhLZJHNiPFSkJvavypl-In",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "First Arabic cross-domain text-to-SQL dataset",
     "Volume": 10225.0,
@@ -32,7 +35,8 @@
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "text-to-SQL generation"
     ],

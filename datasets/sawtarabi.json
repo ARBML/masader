@@ -1,6 +1,6 @@
 {
     "Name": "SawtArabi",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Egyptian",
             "Volume": 2.0,
@@ -20,14 +20,15 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "studio recordings"
+    ],
     "Domain": [
-        "LLM",
-        "public datasets"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "4-hour benchmark Arabic TTS corpus of single-speaker recordings in Egyptian Arabic, MSA, English, and Egyptian-English code-switching.",
     "Volume": 3.0,
@@ -47,7 +48,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition",
         "text to speech"

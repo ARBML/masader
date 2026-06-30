@@ -1,6 +1,6 @@
 {
     "Name": "AraDiCE-OpenBookQA ",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "OBQA-egy",
             "Volume": 497.0,
@@ -26,11 +26,15 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "culture",
+        "science"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -51,7 +55,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

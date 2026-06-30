@@ -1,18 +1,27 @@
 {
     "Name": "Arabic Keyphrase dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Keyphrase_Extraction",
     "Link": "https://github.com/logmani/ArabicDataset",
     "License": "unknown",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "wikipedia"
+    ],
     "Domain": [
-        "news articles"
+        "general",
+        "health",
+        "religion",
+        "history",
+        "technology",
+        "science",
+        "sports"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A dataset in Arabic language for automatic keyphrase extraction algorithms",
     "Volume": 400.0,
@@ -29,7 +38,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "keyphrase extraction"
     ],

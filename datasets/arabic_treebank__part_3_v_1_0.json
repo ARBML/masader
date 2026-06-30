@@ -1,20 +1,23 @@
 {
     "Name": "Arabic Treebank: Part 3 v 1.0",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2004T11",
     "License": "LDC User Agreement",
     "Year": 2004,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "general"
     ],
-    "Description": "The following table gives a breakdown of the data contained in the entire Arabic Treebank project, with discrepancies between versions for Parts 1 and 3. The fields include source, number of stories, total number of tokens, number of tokens after clitic separation, and number of Arabic word tokens after punctuation, numbers, and latin strings have been taken out. The totals given at the bottom are calculated from the latest versions where discrepencies exist, and do not include tokens after clitic separation since that number is missing from Part 4.",
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic Treebank: Part 3 v 1.0 was developed by the Linguistic Data Consortium (LDC) and contains approximately 300,000 Arabic word tokens with part of speech (POS) annotation that includes complete vocalization with case endings, lemma IDs, and more specific POS tags for verbs and particles.",
     "Volume": 300000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
@@ -29,9 +32,10 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "information retrieval"
+        "part of speech tagging"
     ],
     "Venue Title": "",
     "Venue Type": "other",

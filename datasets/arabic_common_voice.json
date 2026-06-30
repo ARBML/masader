@@ -1,18 +1,21 @@
 {
     "Name": "Arabic Common Voice",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/legacy-datasets/common_voice",
     "Link": "https://datacollective.mozillafoundation.org/datasets?q=common+voice",
     "License": "CC0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.",
     "Volume": 85.0,
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

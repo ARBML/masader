@@ -1,26 +1,30 @@
 {
     "Name": "Maknuune",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Maknuune",
     "Link": "http://www.palestine-lexicon.org/",
     "License": "CC BY-SA 4.0",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Palestine",
+    "Source": [
+        "treebanks",
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "machine annotation",
+        "human annotation"
     ],
     "Description": "Palestinian Arabic lexicon collected through manual curation and field surveys.",
     "Volume": 36302.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
-        "Shahd Dibas",
-        "NYU Abu Dhabi"
+        "CAMEL Lab"
     ],
     "Derived From": [],
     "Paper Title": "Maknuune: A Large Open Palestinian Arabic Lexicon",
@@ -30,7 +34,8 @@
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "lexicon analysis"
     ],

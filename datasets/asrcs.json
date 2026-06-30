@@ -1,6 +1,6 @@
 {
     "Name": "ASRCS",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Egyptian Arabic-English",
             "Volume": 300.0,
@@ -20,13 +20,15 @@
     "Year": 2026,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "studio recordings"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A curated benchmark of 1,200 code-switching utterances (300 per language pair) for evaluating commercial ASR systems on multilingual speech with intra-sentential language switching.",
     "Volume": 600.0,
@@ -43,7 +45,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

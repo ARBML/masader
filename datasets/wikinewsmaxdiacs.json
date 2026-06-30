@@ -1,18 +1,22 @@
 {
     "Name": "WikiNewsMaxDiacs",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/CAMeL-Lab/wild_diacritics",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles",
-        "public datasets"
+        "public datasets",
+        "wikipedia"
+    ],
+    "Domain": [
+        "news"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A new version of WikiNews that was manually extended for maximal diacritization",
@@ -32,7 +36,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "diacritization"
     ],

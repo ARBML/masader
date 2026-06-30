@@ -4,22 +4,20 @@
         "answer_min": 1,
         "answer_max": 5
     },
-    "Volume": {
-        "answer_type": "float",
-        "answer_min": 0
+    "Dialect_Subsets": {
+        "answer_type": "list[dict[Name, Volume, Unit, Dialect]]",
+        "answer_min": 0,
+        "answer_max": 29
     },
-    "Unit": {
-        "answer_type": "str",
-        "answer_min": 1,
-        "answer_max": 1,
-        "options": [
-            "tokens",
-            "sentences",
-            "documents",
-            "images",
-            "videos",
-            "hours"
-        ]
+    "HF_Link": {
+        "answer_type": "url",
+        "answer_min": 0,
+        "answer_max": 1
+    },
+    "Link": {
+        "answer_type": "url",
+        "answer_min": 0,
+        "answer_max": 1
     },
     "License": {
         "answer_type": "str",
@@ -77,25 +75,57 @@
             "custom"
         ]
     },
-    "Link": {
-        "answer_type": "url",
-        "answer_min": 0,
-        "answer_max": 1
-    },
-    "HF_Link": {
-        "answer_type": "url",
-        "answer_min": 0,
-        "answer_max": 1
-    },
     "Year": {
         "answer_type": "year",
         "answer_min": 1900,
         "answer_max": 2025
     },
-    "Domain": {
+    "Language": {
+        "answer_type": "str",
+        "answer_min": 1,
+        "answer_max": 1,
+        "options": ["ar", "multilingual"]
+    },
+    "Dialect": {
+        "answer_type": "str",
+        "answer_min": 1,
+        "answer_max": 1,
+        "options": [
+            "Classical Arabic",
+            "Modern Standard Arabic",
+            "United Arab Emirates",
+            "Bahrain",
+            "Djibouti",
+            "Algeria",
+            "Egypt",
+            "Iraq",
+            "Jordan",
+            "Comoros",
+            "Kuwait",
+            "Lebanon",
+            "Libya",
+            "Morocco",
+            "Mauritania",
+            "Oman",
+            "Palestine",
+            "Qatar",
+            "Saudi Arabia",
+            "Sudan",
+            "Somalia",
+            "South Sudan",
+            "Syria",
+            "Tunisia",
+            "Yemen",
+            "Levant",
+            "North Africa",
+            "Gulf",
+            "mixed"
+        ]
+    },
+    "Source": {
         "answer_type": "list[str]",
         "answer_min": 1,
-        "answer_max": 12,
+        "answer_max": 17,
         "options": [
             "social media",
             "news articles",
@@ -109,7 +139,38 @@
             "captions",
             "LLM",
             "telephone conversations",
+            "studio recordings",
+            "subtitles",
+            "treebanks",
+            "web crawls",
+            "manual construction",
             "other"
+        ]
+    },
+    "Domain": {
+        "answer_type": "list[str]",
+        "answer_min": 1,
+        "answer_max": 13,
+        "options": [
+            "religion",
+            "health",
+            "news",
+            "education",
+            "science",
+            "literature",
+            "finance",
+            "law",
+            "politics",
+            "culture",
+            "society",
+            "crisis",
+            "sports",
+            "economics",
+            "technology",
+            "art",
+            "general",
+            "poetry",
+            "history"
         ]
     },
     "Form": {
@@ -118,16 +179,17 @@
         "answer_max": 1,
         "options": ["text", "audio", "images", "videos"]
     },
-    "Collection_Style": {
+    "Annotation_Style": {
         "answer_type": "list[str]",
         "answer_min": 1,
-        "answer_max": 6,
+        "answer_max": 5,
         "options": [
-            "crawling",
             "human annotation",
             "machine annotation",
-            "manual curation",
-            "LLM generated",
+            "LLM annotation",
+            "metadata-derived",
+            "inherited annotation",
+            "none",
             "other"
         ]
     },
@@ -135,6 +197,24 @@
         "answer_type": "str",
         "answer_min": 0,
         "answer_max": 50
+    },
+    "Volume": {
+        "answer_type": "float",
+        "answer_min": 0
+    },
+    "Unit": {
+        "answer_type": "str",
+        "answer_min": 1,
+        "answer_max": 1,
+        "options": [
+            "tokens",
+            "sentences",
+            "documents",
+            "conversations",
+            "images",
+            "videos",
+            "hours"
+        ]
     },
     "Ethical_Risks": {
         "answer_type": "str",
@@ -161,6 +241,12 @@
         "answer_type": "url",
         "answer_min": 1,
         "answer_max": 1
+    },
+    "Script": {
+        "answer_type": "str",
+        "answer_min": 1,
+        "answer_max": 1,
+        "options": ["Arab", "Latin", "Arab-Latin"]
     },
     "Tokenized": {
         "answer_type": "bool",
@@ -205,7 +291,12 @@
         "answer_min": 0,
         "answer_max": 1
     },
-    "Test_Split": {
+    "Has_Splits": {
+        "answer_type": "bool",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Partial": {
         "answer_type": "bool",
         "answer_min": 1,
         "answer_max": 1
@@ -338,6 +429,9 @@
             "document type classification",
             "spoken term detection",
             "function calling",
+            "mental health detection",
+            "knowledge editing",
+            "multiword expression identification",
             "other"
         ]
     },
@@ -371,58 +465,5 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1000
-    },
-    "Subsets": {
-        "answer_type": "list[dict[Name, Volume, Unit, Dialect]]",
-        "answer_min": 0,
-        "answer_max": 29
-    },
-    "Dialect": {
-        "answer_type": "str",
-        "answer_min": 1,
-        "answer_max": 1,
-        "options": [
-            "Classical Arabic",
-            "Modern Standard Arabic",
-            "United Arab Emirates",
-            "Bahrain",
-            "Djibouti",
-            "Algeria",
-            "Egypt",
-            "Iraq",
-            "Jordan",
-            "Comoros",
-            "Kuwait",
-            "Lebanon",
-            "Libya",
-            "Morocco",
-            "Mauritania",
-            "Oman",
-            "Palestine",
-            "Qatar",
-            "Saudi Arabia",
-            "Sudan",
-            "Somalia",
-            "South Sudan",
-            "Syria",
-            "Tunisia",
-            "Yemen",
-            "Levant",
-            "North Africa",
-            "Gulf",
-            "mixed"
-        ]
-    },
-    "Language": {
-        "answer_type": "str",
-        "answer_min": 1,
-        "answer_max": 1,
-        "options": ["ar", "multilingual"]
-    },
-    "Script": {
-        "answer_type": "str",
-        "answer_min": 1,
-        "answer_max": 1,
-        "options": ["Arab", "Latin", "Arab-Latin"]
     }
 }

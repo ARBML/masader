@@ -1,18 +1,24 @@
 {
     "Name": "MGB-3",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://arabicspeech.org/mgb3-asr-2/",
     "License": "unknown",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Egypt",
+    "Source": [
+        "TV channels"
+    ],
     "Domain": [
-        "other"
+        "culture",
+        "science",
+        "sports",
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "explores multi-genre data; comedy, cooking, cultural, environment, family-kids, fashion, movies-drama, sports, and science talks (TEDX)",
     "Volume": 16.0,
@@ -29,7 +35,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

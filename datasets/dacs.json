@@ -1,17 +1,20 @@
 {
     "Name": "DACS",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/QCRI/DACS",
     "Link": "https://github.com/qcri/Arabic_speech_code_switching",
     "License": "CC BY-NC 4.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First spoken Egyptian Arabic intra-utterance code-switching corpus.",
@@ -32,7 +35,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition",
         "codeswitch detection"

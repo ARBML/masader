@@ -1,17 +1,20 @@
 {
     "Name": "2018 NIST Speaker Recognition Evaluation Test Set",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2020S04",
     "License": "LDC User Agreement",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "telephone conversations"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The telephone speech data was drawn from the Call My Net 2 (CMN2) collection conducted by LDC in Tunisia in which Tunisian Arabic speakers called friends or relatives who agreed to record their telephone conversations lasting between 8-10 minutes. The speech segments include PSTN (public switched telephone network) and VOIP (voice over IP) data.",
@@ -30,7 +33,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speaker identification"
     ],

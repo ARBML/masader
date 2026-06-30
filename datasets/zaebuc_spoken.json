@@ -1,19 +1,21 @@
 {
     "Name": "ZAEBUC-Spoken",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://www.zaebuc.org",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "manual curation",
         "machine annotation"
     ],
     "Description": "ZAEBUC Spoken Corpus is a multilingual, multidialectal Arabic-English speech corpus.",
@@ -33,7 +35,8 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition",
         "morphological analysis",

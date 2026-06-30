@@ -1,19 +1,21 @@
 {
     "Name": "DzNER",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/Dahouabdelhalim/NER-model-on-the-DzNER-corpus",
     "License": "CC BY-NC-ND 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media",
         "commentary"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The DzNER dataset is designed for Named Entity Recognition (NER) in the Algerian dialect, a significantly low-resource language in NLP research. This dataset contains over 21,000 manually annotated sentences (220,000+ tokens) derived from Algerian Facebook pages and YouTube channels. DzNER focuses on labeling three types of entities: Person, Location, and Organization.",
@@ -31,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],

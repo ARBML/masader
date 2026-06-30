@@ -1,17 +1,20 @@
 {
     "Name": "MM-EVAL",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/prometheus-eval/MM-Eval",
     "Link": "https://huggingface.co/datasets/prometheus-eval/MM-Eval",
     "License": "CC BY-SA 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Multilingual meta-evaluation benchmark for evaluating Large-Language-Model judges across 18 core languages and 122 consistency-test languages.",
@@ -39,7 +42,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "safety evaluation",
         "hallucination detection",

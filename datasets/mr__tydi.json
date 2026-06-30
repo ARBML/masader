@@ -1,18 +1,22 @@
 {
     "Name": "Mr. TyDi",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/castorini/mr-tydi",
     "Link": "https://github.com/castorini/mr.tydi",
     "License": "unknown",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation",
+        "inherited annotation"
     ],
     "Description": "Mr. TYDI is constructed from TYDI, a question answering dataset covering\r\neleven typologically diverse languages",
     "Volume": 16573.0,
@@ -31,7 +35,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

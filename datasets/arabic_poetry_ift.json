@@ -1,6 +1,6 @@
 {
     "Name": "Arabic Poetry IFT",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "MSA",
             "Volume": 657.0,
@@ -38,14 +38,18 @@
     "Year": 2026,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "books",
+        "public datasets"
+    ],
     "Domain": [
-        "public datasets",
-        "web pages"
+        "literature",
+        "culture",
+        "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Arabic Poetry IFT is a template dataset for Arabic poetry understanding and co-creation. It supports four task families: generation, continuation, revision/restoration, and multiple-choice analysis. ",
     "Volume": 3285.0,
@@ -67,7 +71,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction following"
     ],

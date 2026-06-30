@@ -1,18 +1,20 @@
 {
     "Name": "IDRISI-RA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/rsuwaileh/IDRISI/",
     "License": "CC BY 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "crisis"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First Arabic Location Mention recognition dataset of disaster tweets",
@@ -32,9 +34,10 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
-        "other"
+        "named entity recognition"
     ],
     "Venue Title": "ACL",
     "Venue Type": "conference",

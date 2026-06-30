@@ -1,18 +1,21 @@
 {
     "Name": "NSURL-2019 Shared Task 8",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/nsurl_2019_task8_train,https://hf.co/datasets/arbml/nsurl_2019_task8_test",
     "Link": "https://ai.mawdoo3.com/nsurl-2019-task8",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "web pages"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This dataset is composed of 12000 question pairs labelled with 1 for semantically similar questions and 0 for semantically different",
     "Volume": 15712.0,
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "semantic similarity"
     ],

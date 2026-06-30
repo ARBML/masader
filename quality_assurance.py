@@ -97,13 +97,13 @@ def check_subsets_volume(data, ctx):
     share the same count), total Volume equals each subset Volume (not their
     sum). Otherwise, the sum of subset volumes must equal total Volume.
     """
-    subsets = data.get("Subsets")
+    subsets = data.get("Dialect Subsets")
     if not isinstance(subsets, list) or not subsets:
         return []
 
     total = data.get("Volume")
     if not isinstance(total, (int, float)):
-        return ["has Subsets but no numeric Volume to compare against"]
+        return ["has Dialect Subsets but no numeric Volume to compare against"]
 
     volumes = []
     for i, sub in enumerate(subsets):
@@ -160,16 +160,16 @@ def check_host(data, ctx):
 
 def check_public_derived_from(data, ctx):
     """Datasets sourced from public datasets must list Derived From."""
-    domain = data.get("Domain")
-    domain = domain if isinstance(domain, list) else []
-    if "public datasets" not in domain:
+    source = data.get("Source")
+    source = source if isinstance(source, list) else []
+    if "public datasets" not in source:
         return []
 
     derived = data.get("Derived From")
     if not isinstance(derived, list) or not any(
         isinstance(d, str) and d.strip() for d in derived
     ):
-        return ["Domain includes 'public datasets' but Derived From is empty"]
+        return ["Source includes 'public datasets' but Derived From is empty"]
     return []
 
 

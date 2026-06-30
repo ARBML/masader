@@ -1,22 +1,24 @@
 {
     "Name": "Tibyan",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://zenodo.org/records/14623621",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "LLM"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation",
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "machine annotation",
+        "LLM annotation"
     ],
     "Description": "A balanced and comprehensive Arabic grammatical error correction corpus created using ChatGPT consisting of 600K tokens.",
     "Volume": 6191.0,
@@ -38,7 +40,8 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "grammatical error correction"
     ],

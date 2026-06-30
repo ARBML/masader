@@ -1,20 +1,23 @@
 {
     "Name": "QASR",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/QCRI/QASR",
     "Link": "https://huggingface.co/datasets/QCRI/QASR",
     "License": "unknown",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "TV channels"
+    ],
     "Domain": [
-        "other"
+        "news"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
-    "Description": "This multi-dialect speech dataset contains 2, 000 hours of speech sampled at 16kHz crawled from Aljazeera news channel",
+    "Description": "This multi-dialect speech dataset contains 2,000 hours of speech sampled at 16kHz crawled from Aljazeera news channel",
     "Volume": 2000.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
@@ -29,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

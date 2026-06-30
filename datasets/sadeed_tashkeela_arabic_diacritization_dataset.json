@@ -1,18 +1,21 @@
 {
     "Name": "Sadeed Tashkeela Arabic Diacritization Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Misraj/Sadeed_Tashkeela",
     "Link": "https://huggingface.co/datasets/Misraj/Sadeed_Tashkeela",
     "License": "custom",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "The Sadeed dataset is a large, high-quality Arabic diacritized corpus optimized for training and evaluating Arabic diacritization models.",
     "Volume": 1045183.0,
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "diacritization"
     ],

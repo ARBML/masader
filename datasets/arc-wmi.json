@@ -1,18 +1,21 @@
 {
     "Name": "ARC-WMI",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ARC_WMI",
     "Link": "https://github.com/iwan-rg/ARC-WMI",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "books"
+    ],
     "Domain": [
-        "other"
+        "health"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "4476 sentences with over 61k words, extracted from 94 sources of Arabic written medicine information",
     "Volume": 4476.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "readability assessment"
     ],

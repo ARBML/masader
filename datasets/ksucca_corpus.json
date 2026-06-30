@@ -1,18 +1,21 @@
 {
     "Name": "KSUCCA Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/KSUCCA",
     "Link": "https://sourceforge.net/projects/ksucca-corpus/",
     "License": "unknown",
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "culture"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "KSUCCA is a pioneering 50+ million word corpus that captures the culture of a nation.",
     "Volume": 410.0,
@@ -29,7 +32,8 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "semantic similarity"
     ],

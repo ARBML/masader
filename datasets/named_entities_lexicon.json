@@ -1,18 +1,21 @@
 {
     "Name": "Named Entities Lexicon",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Named_Entities_Lexicon",
     "Link": "https://github.com/Hkiri-Emna/Named_Entities_Lexicon_Project",
     "License": "unknown",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "Named entities (person,organisation and location) Arabic-English Pairs Person 27480 Organization 17237 Location 4036 Overall Arabic-English Pairs 48753",
     "Volume": 48753.0,
@@ -21,7 +24,10 @@
     "Provider": [
         "Latice Laboratory"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "United Nations",
+        "News Commentary 2012"
+    ],
     "Paper Title": "Arabic-English Text Translation Leveraging Hybrid NER",
     "Paper Link": "https://aclanthology.org/Y17-1019.pdf",
     "Script": "Arab",
@@ -29,7 +35,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition",
         "machine translation"

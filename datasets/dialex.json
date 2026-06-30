@@ -1,6 +1,6 @@
 {
     "Name": "DiaLex",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algerian",
             "Dialect": "Algeria",
@@ -38,12 +38,15 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A Benchmark for Evaluating Multidialectal Arabic Word Embeddings",
     "Volume": 3070.0,
@@ -60,7 +63,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "embedding evaluation"
     ],

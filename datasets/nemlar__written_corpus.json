@@ -1,18 +1,26 @@
 {
     "Name": "NEMLAR: Written Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-W0042/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2006,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles"
+    ],
     "Domain": [
-        "other"
+        "religion",
+        "politics",
+        "news",
+        "science",
+        "sports",
+        "law"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The NEMLAR Written Corpus consists of about 500,000 words of Arabic text from 13 different categories, aiming to achieve a well-balanced corpus that offers a representation of the variety in syntactic, semantic and pragmatic features of modern Arabic language.",
     "Volume": 500000.0,
@@ -27,7 +35,8 @@
     "Host": "ELRA",
     "Access": "With-Fee",
     "Cost": "300.00€",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "lexicon analysis",
         "part of speech tagging"

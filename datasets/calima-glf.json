@@ -1,18 +1,21 @@
 {
     "Name": "CALIMA-GLF",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/unimorph/afb",
     "License": "CC BY-SA 3.0",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Gulf",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The dataset is part of the CALIMAGLF morphological analyzer, focusing on Gulf Arabic verbs. It includes over 2,600 verbal lemmas with associated paradigms and lexical entries. The verbs were derived from phonetic dictionary entries, annotated, and expanded into inflected forms, including orthographic variants.",
     "Volume": 2648.0,
@@ -29,7 +32,8 @@
     "Host": "CAMeL Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "part of speech tagging",
         "morphological analysis"

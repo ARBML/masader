@@ -1,18 +1,21 @@
 {
     "Name": "MA’AKS",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/sabudalfa/ArabicTextSentimentSwap",
     "License": "CC BY-SA 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "other",
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A novel Arabic parallel dataset for sentiment style transfer. It consists of 5k sentences in modern standard Arabic with positive/negative sentiments.",
@@ -22,7 +25,14 @@
     "Provider": [
         "KFUPM"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "HARD",
+        "HTL",
+        "RES",
+        "MOV",
+        "PROD",
+        "Arabic Word Embeddings Dataset"
+    ],
     "Paper Title": "MA’AKS: manually-curated parallel dataset for Arabic text sentiment swap",
     "Paper Link": "https://www.researchgate.net/publication/394575152_MA%27AKS_manually-curated_parallel_dataset_for_Arabic_text_sentiment_swap",
     "Script": "Arab",
@@ -30,7 +40,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

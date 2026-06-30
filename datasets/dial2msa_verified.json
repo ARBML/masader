@@ -1,6 +1,6 @@
 {
     "Name": "Dial2MSA-Verified",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "EGY",
             "Volume": 11299.0,
@@ -32,13 +32,15 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Parallel tweets in 4 dialects with verified MSA translations for neural MT evaluation",
     "Volume": 31887.0,
@@ -58,7 +60,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

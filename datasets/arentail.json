@@ -1,18 +1,21 @@
 {
     "Name": "ArEntail",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArEntail",
     "Link": "https://github.com/RashaMObeidat/ArEntail",
     "License": "unknown",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic NLI dataset called ArEntail, consisting of 6000 sentence pairs collected from news headlines and manually labeled to indicate whether an entailment relationship links the sentences or not without resorting to machine translation from English datasets",
     "Volume": 6000.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "natural language inference"
     ],

@@ -1,18 +1,21 @@
 {
     "Name": "WojoodFine",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://sina.birzeit.edu/wojood/",
     "License": "CC BY 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "WojoodFine is an extension of Wojood and consists of about 550K tokens (MSA and dialect) that are manually annotated with 21 entity types and four main entity types in Wojood (GPE, LOC, ORG, and FAC) are annotated with 31 new fine-grained subtypes. It covers multiple domains and was annotated with nested entities. The corpus contains about 75K entities and 22.5% of which are nested. A nested named entity recognition (NER) model based on BERT was trained (F1-score 92.29.4%).",
     "Volume": 550000.0,
@@ -27,10 +30,11 @@
     "Paper Link": "https://doi.org/10.18653/v1/2023.arabicnlp-1.25",
     "Script": "Arab-Latin",
     "Tokenized": true,
-    "Host": "CAMeL Resources",
+    "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "language modeling",
         "tokenization",

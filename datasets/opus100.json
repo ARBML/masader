@@ -1,18 +1,21 @@
 {
     "Name": "opus100",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/opus-100",
     "Link": "https://data.statmt.org/opus-100-corpus/v1.0/",
     "License": "unknown",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "OPUS-100 contains approximately 55M sentence pairs. Of the 99 language pairs, 44 have 1M sentence pairs of training data, 73 have at least 100k, and 95 have at least 10k.",
     "Volume": 1040000.0,
@@ -21,7 +24,9 @@
     "Provider": [
         "University of Edinburgh"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "OPUS"
+    ],
     "Paper Title": "Improving Massively Multilingual Neural Machine Translation and Zero-Shot Translation",
     "Paper Link": "https://doi.org/10.18653/v1/2020.acl-main.148",
     "Script": "Arab",
@@ -29,7 +34,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

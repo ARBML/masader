@@ -1,6 +1,6 @@
 {
     "Name": "Habibi",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Gulf",
             "Dialect": "Gulf",
@@ -44,12 +44,16 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "other",
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "art"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The corpus comprises more than 30,000 Arabic song lyrics in 6 Arabic dialects for singers from 18 different Arabic countries.",
     "Volume": 30072.0,
@@ -66,7 +70,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
