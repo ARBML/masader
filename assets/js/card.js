@@ -99,7 +99,7 @@ axios
             'Dialect',
             'Domain',
             'Form',
-            'Collection Style',
+            'Annotation Style',
             'Ethical Risks',
             'Provider',
             'Derived From',
@@ -107,8 +107,8 @@ axios
             'Tokenized',
             'Host',
             'Cost',
-            'Test Split',
-            'Subsets',
+            'Has Splits',
+            'Dialect Subsets',
         ];
 
         $('.loading-spinner').hide();
@@ -151,7 +151,7 @@ axios
                         if (i < hf_links.length - 1) value += '</br>';
                     }
                 } else value = linkuize(value, value);
-            } else if (element.title == 'Subsets') {
+            } else if (element.title == 'Dialect Subsets') {
                 if (row[element.title] != '') {
                     let subsets = row[element.title];
                     value = createSubsets(subsets);

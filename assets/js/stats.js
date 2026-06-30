@@ -277,7 +277,7 @@ function getCounts(array, sorting = true) {
 function extractDilects(data) {
     const entryDialects = [
         decodeDialect(String(data['Dialect'])),
-        ...data['Subsets'].map((d) => decodeDialect(d['Dialect'])),
+        ...data['Dialect Subsets'].map((d) => decodeDialect(d['Dialect'])),
     ];
 
     for (const d of entryDialects)
@@ -304,7 +304,7 @@ axios
             'Access',
             'Tasks',
             'Venue Type',
-            'Subsets',
+            'Dialect Subsets',
         ];
         headersWhiteList = headersWhiteList.concat([
             'Name',
@@ -316,7 +316,7 @@ axios
 
         $('.loading-spinner').hide();
 
-        const subsetsIdx = headersWhiteList.indexOf('Subsets');
+        const subsetsIdx = headersWhiteList.indexOf('Dialect Subsets');
 
         // Grabbing row's values
         dataset = [];

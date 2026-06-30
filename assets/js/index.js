@@ -184,9 +184,9 @@ async function fomratDetails(data, index) {
         '</span>' +
         '</div>' +
         ' <div class="grid grid-cols-2  ">' +
-        '<span class="text-gray-400">Collection Style</span>' +
+        '<span class="text-gray-400">Annotation Style</span>' +
         '<span class="text-gray-800">' +
-        data['Collection Style'] +
+        data['Annotation Style'] +
         '</span>' +
         '</div>' +
         ' <div class=" grid grid-cols-2 ">' +
@@ -220,9 +220,9 @@ async function fomratDetails(data, index) {
         '</span>' +
         '</div>' +
         ' <div class="grid grid-cols-2  ">' +
-        '<span class="text-gray-400">Test Split</span>' +
+        '<span class="text-gray-400">Has Splits</span>' +
         '<span class="text-gray-800">' +
-        data['Test Split'] +
+        data['Has Splits'] +
         '</span>' +
         '</div>' +
         '</div>' +
