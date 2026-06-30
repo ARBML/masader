@@ -1,6 +1,11 @@
 from glob import glob
 from collections import Counter
+from pathlib import Path
 import json
+import re
+
+ROOT = Path(__file__).resolve().parent
+DATASETS_DIR = ROOT / "datasets"
 
 json_files = glob("datasets/*.json")
 datasets = [json.load(open(f)) for f in json_files]
