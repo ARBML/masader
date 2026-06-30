@@ -6,5 +6,5 @@ nav:
           url: /chat
         - title: Stats
           url: /stats
-        - title: Contribute
+        - title: Add dataset
           url: https://moleform-production-38c3.up.railway.app/form
