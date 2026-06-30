@@ -27,6 +27,7 @@ function getIcon(text) {
     }
 }
 function itemize(text) {
+    if (text == null) text = '';
     tasks = text.split(',');
     output = '<ul class="list-group list-group-flush bg-transparent">';
     for (let i = 0; i < tasks.length; i++) {
@@ -40,7 +41,7 @@ function itemize(text) {
 }
 
 function badgeRender(text) {
-    text = text.toString().toLowerCase();
+    text = (text == null ? '' : text).toString().toLowerCase();
     if (text.toLowerCase() == 'free')
         return '<span class="text-sm font-medium  px-2.5 py-0.5" style="background-color: #00800030; color:green; font-weight:bold; border-radius:5px">Free</span>';
     else if (text == 'upon-request')
@@ -305,7 +306,7 @@ axios
             var host = row['Host'];
             if (host == 'other') host = 'External Link';
             let link_host = linkuize(host, row['Link']);
-            if (row['HF Link'] != '') {
+            if (row['HF Link']) {
                 if (row['HF Link'].includes(',')) {
                     hf_links = row['HF Link'].split(',');
                     for (i = 0; i < hf_links.length; i++) {
@@ -321,19 +322,17 @@ axios
                 1: index + 1,
                 2: linkuize(row['Name'], `card?id=${index + 1}`, false),
                 3: link_host,
-                4: row['Year'],
+                4: row['Year'] || '',
                 5: getCountry(
-                    row['Dialect'] != ''
+                    row['Dialect']
                         ? row['Dialect'].charAt(0).toUpperCase() +
                               row['Dialect'].slice(1)
                         : ''
                 ),
-                6: row['Volume'] != '' ? row['Volume'] : '',
-                7:
-                    row['Unit'] != ''
-                        ? row['Unit'].charAt(0).toUpperCase() +
-                          row['Unit'].slice(1)
-                        : '',
+                6: row['Volume'] ? row['Volume'] : '',
+                7: row['Unit']
+                    ? row['Unit'].charAt(0).toUpperCase() + row['Unit'].slice(1)
+                    : '',
                 8: linkuize(row['Paper Title'], row['Paper Link']),
                 9: badgeRender(row['Access']),
                 10: itemize(row['Tasks']),

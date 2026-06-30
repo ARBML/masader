@@ -11,7 +11,7 @@ function ethicalBadge(text) {
 }
 
 function accessBadge(text) {
-    text = text.toString().toLowerCase();
+    text = (text == null ? '' : text).toString().toLowerCase();
     if (text.toLowerCase() == 'free')
         return '<span class="text-sm font-medium  px-2.5 py-0.5" style="background-color: #00800030; color:green; font-weight:bold; border-radius:5px">Free</span>';
     else if (text == 'upon-request')
@@ -21,11 +21,12 @@ function accessBadge(text) {
 
 function setAttributes(attribute, element) {
     if (attribute == 'Cost') {
-        if (element[attribute] != '') return element[attribute];
+        if (element[attribute] != null && element[attribute] != '')
+            return element[attribute];
         else return '0$';
     } else if (attribute == 'Access') {
         return accessBadge(element[attribute]);
-    } else if (element[attribute] != '') {
+    } else if (element[attribute] != null && element[attribute] != '') {
         return element[attribute];
     }
 

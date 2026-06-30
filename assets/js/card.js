@@ -25,6 +25,7 @@ function createSubsets(subsetsValue) {
 }
 
 function itemize(text) {
+    if (text == null) text = '';
     tasks = text.split(',');
     output = '<ul class="list-group list-group-flush bg-transparent">';
     for (let i = 0; i < tasks.length; i++) {
@@ -126,7 +127,10 @@ axios
 
         for (let i = 0; i < headers.length; i++) {
             let element = headers[i];
-            let value = row[element.title] != '' ? row[element.title] : 'N/A';
+            let value =
+                row[element.title] != null && row[element.title] !== ''
+                    ? row[element.title]
+                    : 'N/A';
             // console.log(element.title, value);
             if (value == 'N/A') {
                 dataset.push({
