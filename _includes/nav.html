@@ -12,6 +12,9 @@
           {% if item.url contains '://' %}target="_blank" {% endif %}
         >
           {{ item.title }}
+          {% if item.badge %}
+          <span class="ml-1 align-super text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-full bg-[#F95959] text-white">{{ item.badge }}</span>
+          {% endif %}
         </a>
       </li>
       {% endfor %}
@@ -75,6 +78,9 @@
           class="capitalize font-medium"
         >
           {{ item.title }}
+          {% if item.badge %}
+          <span class="ml-1 align-super text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-full bg-[#F95959] text-white">{{ item.badge }}</span>
+          {% endif %}
         </a>
       </li>
       {% endfor %}

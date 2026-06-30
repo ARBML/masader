@@ -4,6 +4,7 @@ nav:
     tabs:
         - title: Chat
           url: /chat
+          badge: New
         - title: Stats
           url: /stats
         - title: Add dataset
