@@ -1,7 +1,7 @@
 // Global configuration for Masader application
 window.MasaderConfig = {
     // Base API URL for all dataset endpoints
-    API_BASE_URL: 'http://127.0.0.1:5000',
+    API_BASE_URL: 'https://web-production-25a2.up.railway.app',
 
     // Derived URLs for convenience
     get DATASETS_URL() {
