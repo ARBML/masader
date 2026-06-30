@@ -30,13 +30,24 @@
     ],
     "Derived From": [],
     "Paper Title": "Comparing TR-Classifier and KNN by using Reduced Sizes of Vocabularies",
+    "Paper Link": "https://hal.science/hal-01586533v1/file/Citala.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "sourceforge",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "topic classification"
+    ],
     "Venue Title": "CITALA",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Arabic Language Processing",
     "Authors": [
         "Mourad Abbas",
         "Kamel Smaili",
-        "and D. Berkani"
+        "D. Berkani"
     ],
     "Affiliations": [
         "CRSTDLA /Speech Processing Laboratory",

@@ -108,7 +108,7 @@ for file in glob("datasets/*.json"):
     data = json.load(open(file))
     data = {k.replace("_", " "): v for k, v in data.items()}
     data.pop("Added By", None)
-    for key in data.keys():
+    for key in schema:
         validate_keys(data, key, file)
         validate_options(data, key, file)
         validate_types(data, key, file)
