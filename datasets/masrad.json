@@ -1,52 +1,68 @@
 {
-    "Name": "MASRAD",
-    "Volume": 19405.0,
-    "Unit": "tokens",
-    "License": "unknown",
-    "Link": "https://github.com/mnasser-dru/MASRAD",
-    "HF_Link": "",
-    "Year": 2024,
-    "Domain": [
+    "Name": "Masrad",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/U4RASD/Masrad",
+    "Link": "https://huggingface.co/datasets/U4RASD/Masrad",
+    "License": "MIT License",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "history",
+        "education",
+        "religion",
+        "politics",
+        "science",
+        "culture",
+        "art",
+        "literature",
+        "law",
+        "society"
+    ],
     "Form": "text",
-    "Collection_Style": [
+    "Annotation Style": [
         "machine annotation",
         "human annotation"
     ],
-    "Description": "Terminology dataset for Arabic construction.",
-    "Ethical_Risks": "Low",
+    "Description": "The Masrad dataset contains 19,405 examples with features related to semantic similarity, lexical similarity, entity recognition, phonetic matching, and part-of-speech tagging for Arabic text.",
+    "Volume": 19405.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
     "Provider": [
         "Arab Center for Research and Policy Studies",
-        "Doha Institute for Policy and Studies"
+        "American University of Beirut"
     ],
-    "Derived_From": [],
-    "Paper_Title": "MASRAD: Arabic Terminology Management Corpora with Semi-Automatic Construction",
-    "Paper_Link": "http://arxiv.org/abs/2503.19211v2",
+    "Derived From": [],
+    "Paper Title": "Masrad: Arabic Terminology Management Corpora with Semi-Automatic Construction",
+    "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.629.pdf",
+    "Script": "Arab",
     "Tokenized": false,
-    "Host": "GitHub",
-    "Access": "Upon-Request",
+    "Host": "other",
+    "Access": "Free",
     "Cost": "",
-    "Test_Split": true,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "other"
+        "semantic similarity",
+        "part of speech tagging",
+        "lexicon analysis",
+        "named entity recognition"
     ],
-    "Venue_Title": "arXiv",
-    "Venue_Type": "preprint",
-    "Venue_Name": "",
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Mahdi Nasser",
-        "Laura Sayyah",
+        "Laura Sayah",
         "Fadi A. Zaraket"
     ],
     "Affiliations": [
         "Arab Center for Research and Policy Studies",
-        "Doha Institute for Policy and Studies"
+        "American University of Beirut"
     ],
-    "Abstract": "This paper introduces MASRAD, a large dataset of parallel foreign-Arabic terms sourced from academic books, along with MASRAD-Ex, a semi-automatic construction framework. The dataset aids terminology management, translation consistency, and cross-lingual text processing in Arabic.",
-    "Subsets": [],
-    "Dialect": "Modern Standard Arabic",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Abstract": "This paper presents Masrad (i.e. \u201cglossary\u201d in Arabic), a terminology dataset for Arabic terminology management, and a method with supporting tools for its semi-automatic construction. The entries in Masrad are (f, a) pairs of foreign (non-Arabic) terms f, appearing in specialized, academic and field-specific books next to their Arabic counterparts. Masrad-Ex systematically extracts these pairs as a first step to construct Masrad. Masrad helps improve term consistency in academic translations and specialized Arabic documents, and automate cross-lingual text processing. Masrad-Ex leverages translated terms organically occurring in Arabic books, and considers several candidate pairs for each term phrase. The candidate Arabic terms occur next to the foreign terms, and vary in length. Masrad-Ex computes lexicographic, phonetic, morphological, and semantic similarity metrics for each candidate pair, and uses heuristic, machine learning, and post-processing approaches to decide the best candidate. We make Masrad available to the interested research community. The best performing Masrad-Ex approach achieved 90.5% precision and 92.4% recall.",
+    "Added By": "Zaid Alyafeai"
 }
