@@ -35,7 +35,8 @@
     "Has Splits": false,
     "Partial": true,
     "Tasks": [
-        "speech recognition"
+        "speech recognition",
+        "speaker identification"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
