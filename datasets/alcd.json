@@ -4,7 +4,7 @@
     "HF Link": "",
     "Link": "https://www.kaggle.com/datasets/sohaasiri/arabic-lega-case-dataset",
     "License": "CC BY 4.0",
-    "Year": 2025,
+    "Year": 2026,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
@@ -15,7 +15,7 @@
     ],
     "Form": "text",
     "Annotation Style": [
-        "machine annotation"
+        "human annotation"
     ],
     "Description": "Arabic legal case dataset for NLP tasks.",
     "Volume": 3170.0,
@@ -28,7 +28,7 @@
     "Paper Title": "Legal case documents: A comprehensive dataset for Arabic natural language processing research and applications",
     "Paper Link": "https://doi.org/10.1016/j.dib.2025.112429",
     "Script": "Arab",
-    "Tokenized": true,
+    "Tokenized": false,
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
