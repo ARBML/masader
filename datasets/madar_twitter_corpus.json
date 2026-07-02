@@ -1,6 +1,6 @@
 {
     "Name": "MADAR Twitter Corpus",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Saudi Arabia",
             "Dialect": "Saudi Arabia",
@@ -134,21 +134,26 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A  large-scale collection of parallel sentences built to cover the dialects of 25 cities from the Arab World",
-    "Volume": 2980.0,
+    "Volume": 2989.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [
         "NYU Abu Dhabi"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "BTEC"
+    ],
     "Paper Title": "Fine-Grained Arabic Dialect Identification",
     "Paper Link": "https://aclanthology.org/C18-1113.pdf",
     "Script": "Arab",
@@ -156,12 +161,13 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "dialect identification"
     ],
-    "Venue Title": "",
+    "Venue Title": "COLING",
     "Venue Type": "conference",
     "Venue Name": "International Conference on Computational Linguistics",
     "Authors": [
@@ -172,6 +178,6 @@
     "Affiliations": [
         "Carnegie Mellon University in Qatar;Carnegie Mellon University in Qatar;New York University Abu Dhabi"
     ],
-    "Abstract": "Previous work on the problem of Arabic Dialect Identification typically targeted coarse-grained\r\nfive dialect classes plus Standard Arabic (6-way classification). This paper presents the first\r\nresults on a fine-grained dialect classification task covering 25 specific cities from across the Arab\r\nWorld, in addition to Standard Arabic \u2013 a very challenging task. We build several classification\r\nsystems and explore a large space of features. Our results show that we can identify the exact\r\ncity of a speaker at an accuracy of 67.9% for sentences with an average length of 7 words (a 9%\r\nrelative error reduction over the state-of-the-art technique for Arabic dialect identification) and\r\nreach more than 90% when we consider 16 words. We also report on additional insights from a\r\ndata analysis of similarity and difference across Arabic dialects",
+    "Abstract": "Previous work on the problem of Arabic Dialect Identification typically targeted coarse-grained\r\nfive dialect classes plus Standard Arabic (6-way classification). This paper presents the first\r\nresults on a fine-grained dialect classification task covering 25 specific cities from across the Arab\r\nWorld, in addition to Standard Arabic – a very challenging task. We build several classification\r\nsystems and explore a large space of features. Our results show that we can identify the exact\r\ncity of a speaker at an accuracy of 67.9% for sentences with an average length of 7 words (a 9%\r\nrelative error reduction over the state-of-the-art technique for Arabic dialect identification) and\r\nreach more than 90% when we consider 16 words. We also report on additional insights from a\r\ndata analysis of similarity and difference across Arabic dialects",
     "Added By": "Raed Alharbi"
 }

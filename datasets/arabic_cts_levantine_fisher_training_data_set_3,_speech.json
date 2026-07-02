@@ -1,18 +1,21 @@
 {
     "Name": "Arabic CTS Levantine Fisher Training Data Set 3, Speech",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2005S07",
     "License": "LDC User Agreement",
     "Year": 2005,
     "Language": "ar",
     "Dialect": "Levant",
+    "Source": [
+        "telephone conversations"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This corpus contains 322 audio files of Arabic telephone conversations in 2-channel SPHERE ulaw format, sampled at 8 kHz.",
     "Volume": 50.0,
@@ -29,14 +32,18 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Hubert Jin"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

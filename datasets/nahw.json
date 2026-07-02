@@ -1,0 +1,56 @@
+{
+    "Name": "Nahw",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/qcri/nahw-arabic-grammar-benchmark/",
+    "License": "Apache-2.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "web pages",
+        "LLM"
+    ],
+    "Domain": [
+        "education",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Nahw is a comprehensive benchmark for evaluating Arabic grammar understanding in large language models. It includes multiple-choice grammar questions (Nahw-MCQ), annotated passages for grammatical error detection, correction, and explanation (Nahw-Passage), and synthetic training data.",
+    "Volume": 5100.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Qatar Computing Research Institute"
+    ],
+    "Derived From": [],
+    "Paper Title": "Nahw: A Comprehensive Arabic Grammar Benchmark",
+    "Paper Link": "https://aclanthology.org/2026.eacl-long.296.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "multiple choice question answering"
+    ],
+    "Venue Title": "EACL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the European Chapter of the Association for Computational Linguistics",
+    "Authors": [
+        "Hamdy Mubarak",
+        "Majd Hawasly",
+        "Abubakr Mohamed"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "HBKU"
+    ],
+    "Abstract": "Grammar comprehension is a critical capability for large language models (LLMs) to achieve fluency in a target language. In low-resource settings, such as the case with Arabic, limited availability of high-quality data can lead to significant gaps in grammatical understanding, making systematic evaluation essential. We introduce Nahw, a comprehensive benchmark for Arabic grammar that covers both theoretical knowledge and practical applications, including grammatical error detection, correction, and explanation. We evaluate a range of LLMs on these tasks and find that many models still exhibit substantial deficiencies in Arabic grammar comprehension, with GPT-4o achieving a score of 67% on average over all tasks, while the best performing Arabic model in our experiment (ALLaM-7B) achieving 42%. Our experiments also demonstrate that while fine-tuning with synthetic data can improve performance, it does not match the effectiveness of training on natural, high-quality data.",
+    "Added By": "Zaid Alyafeai"
+}

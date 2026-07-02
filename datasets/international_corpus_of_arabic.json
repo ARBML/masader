@@ -1,22 +1,35 @@
 {
     "Name": "International Corpus of Arabic",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://www.bibalex.org/ica/ar/",
     "License": "unknown",
     "Year": 2007,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "news articles",
+        "books"
+    ],
     "Domain": [
-        "other"
+        "sports",
+        "religion",
+        "society",
+        "science",
+        "literature",
+        "law",
+        "poetry",
+        "economics",
+        "art"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "metadata-derived",
+        "human annotation"
     ],
     "Description": "There are two points of view about the need for corpora. The first one says that there can not be any corpora, however large, that contain information about all of the areas of any language lexicon and grammar of that language. The second point of view is that every corpus, however small, has taught the person facts that could not be imagined finding out about in any other way.",
-    "Volume": 0.0,
-    "Unit": "sentences",
+    "Volume": 100000000.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
         "Alexandria University"
@@ -29,19 +42,23 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
-    "Venue Title": "",
+    "Venue Title": "ESOLEC",
     "Venue Type": "conference",
-    "Venue Name": "7th international conference on language engineering, Cairo, Egypt",
+    "Venue Name": "International Conference on Language Engineering",
     "Authors": [
         "Sameh Alansary",
         "Magdy Nagi",
         "Noha Adly"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Bibliotheca Alexandrina",
+        "Alexandria University"
+    ],
     "Abstract": "This paper focuses on three axes. The first ax is gives a survey of the importance of corpora in language studies e.g. lexicography, grammar, sem antics, Natural Language Processing and other areas. The second axis demonstrates how the A rabic language lacks textual resources, such as corpora and tools for corpus analysis and t he effected of this lack on the quality of Arabic language applications. There are rarely succ essful trials in compiling Arabic corpora, therefore, the third axis presents the technical de sign of the International Corpus of Arabic (ICA), a newly established representative corpus of Arabic that is intended to cover the Arabic language as being used all over the Arab world. The corpus is planned to support various Arabic studies that depends on authentic data, in a ddition to building Arabic Natural Language Processing Applications.",
     "Added By": "Abdelrahman Rezk"
 }

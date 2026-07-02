@@ -1,14 +1,14 @@
 {
     "Name": "WMT24++",
-    "Subsets": [
+    "Dialect Subsets": [
         {
-            "Name": "ar_EG",
+            "Name": "en-ar_EG",
             "Volume": 998.0,
             "Unit": "sentences",
             "Dialect": "Egypt"
         },
         {
-            "Name": "ar_SA",
+            "Name": "en-ar_SA",
             "Volume": 998.0,
             "Unit": "sentences",
             "Dialect": "Saudi Arabia"
@@ -20,15 +20,18 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Extended WMT24 benchmark covering 55 languages/dialects with human references and post-edits for evaluating MT and LLMs.",
-    "Volume": 1996.0,
+    "Volume": 998.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
     "Provider": [
@@ -45,7 +48,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

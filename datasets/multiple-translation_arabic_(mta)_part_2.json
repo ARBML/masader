@@ -1,18 +1,22 @@
 {
     "Name": "Multiple-Translation Arabic (MTA) Part 2",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2005T05",
     "License": "LDC User Agreement",
     "Year": 2005,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "All source data was drawn from January and February 2003. Here's a breakdown of the data amounts by source contained in this corpus:",
     "Volume": 100.0,
@@ -29,14 +33,17 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Xiaoyi Ma"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

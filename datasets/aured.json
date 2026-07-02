@@ -1,0 +1,59 @@
+{
+    "Name": "AuRED",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/bigIR/AuRED",
+    "Link": "https://github.com/Fatima-Haouari/AuRED",
+    "License": "unknown",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media",
+        "public datasets"
+    ],
+    "Domain": [
+        "news",
+        "politics"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic rumor verification dataset using authority tweets.",
+    "Volume": 34000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "bigIR"
+    ],
+    "Derived From": [
+        "AuFIN",
+        "AuSTR"
+    ],
+    "Paper Title": "AuRED: Enabling Arabic Rumor Verification using Evidence from Authorities over Twitter",
+    "Paper Link": "https://aclanthology.org/2024.arabicnlp-1.3.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "fact checking"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Fatima Haouari",
+        "Tamer Elsayed",
+        "Reem Suwaileh"
+    ],
+    "Affiliations": [
+        "Qatar University",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "Diverging from the trend of the previous rumor verification studies, we introduce the new task of rumor verification using evidence that are exclusively captured from authorities, i.e., entities holding the right and knowledge to verify a corresponding information. To enable research on this task for Arabic low-resourced language, we construct and release the first Authority-Rumor-Evidence Dataset (AuRED). The dataset comprises 160 rumors expressed in tweets and 692 Twitter timelines of authorities containing about 34k tweets. Additionally, we explore how existing evidence retrieval and claim verification models for fact-checking perform on our task under both the cross-lingual zero-shot and in-domain fine-tuning setups. Our experiments show that although evidence retrieval models perform relatively well on the tasks establishing strong baselines, there is still a big room for improvement. However, existing claim verification models perform poorly on the task no matter how good the retrieval performance is. The results also show that stance detection can be useful for evidence retrieval. Moreover, existing fact-checking datasets showed a potential in transfer learning to our task, however, further investigation using different datasets and setups is required.",
+    "Added By": "Zaid Alyafeai"
+}

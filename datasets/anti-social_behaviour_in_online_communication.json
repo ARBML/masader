@@ -1,25 +1,29 @@
 {
     "Name": "Anti-Social Behaviour in Online Communication",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/offensive_language_arabic",
     "Link": "https://onedrive.live.com/?authkey=!ACDXj_ZNcZPqzy0&id=6EF6951FBF8217F9!105&cid=6EF6951FBF8217F9",
     "License": "unknown",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "society",
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "a corpus of 15,050 labelled YouTube comments in Arabic",
     "Volume": 15050.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [
-        "Limrick Uni"
+        "University of Limerick"
     ],
     "Derived From": [],
     "Paper Title": "Detection of Anti-Social Behaviour\r\nin Online Communication in\r\nArabic",
@@ -29,22 +33,21 @@
     "Host": "OneDrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "offensive language detection"
     ],
-    "Venue Title": "ACLING",
+    "Venue Title": "ACLing",
     "Venue Type": "conference",
-    "Venue Name": "nternational Conference on AI in Computational Linguistics",
+    "Venue Name": "International Conference on AI in Computational Linguistics",
     "Authors": [
         "Azalden Alakrot",
         "Liam Murray",
         "Nikola S. Nikolov"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "University of Limerick"
     ],
     "Abstract": "Abstract Warning: this paper contains a range of words which may cause offence. In recent years, many studies target anti-social behaviour such as offensive language and cyberbullying in online communication. Typically, these studies collect data from various reachable sources, the majority of the datasets being in English. However, to the best of our knowledge, there is no dataset collected from the YouTube platform targeting Arabic text and overall there are only a few datasets of Arabic text, collected from other social platforms for the purpose of offensive language detection. Therefore, in this paper we contribute to this field by presenting a dataset of YouTube comments in Arabic, specifically designed to be used for the detection of offensive language in a machine learning scenario. Our dataset contains a range of offensive language and flaming in the form of YouTube comments. We document the labelling process we have conducted, taking into account the difference in the Arab dialects and the diversity of perception of offensive language throughout the Arab world. Furthermore, statistical analysis of the dataset is presented, in order to make it ready for use as a training dataset for predictive modeling.",
     "Added By": ""

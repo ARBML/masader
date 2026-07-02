@@ -1,17 +1,20 @@
 {
     "Name": "M-ABSA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Multilingual-NLP/M-ABSA",
     "Link": "https://huggingface.co/datasets/Multilingual-NLP/M-ABSA",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A multilingual parallel dataset for aspect-based sentiment analysis with 7 domains and 21 languages.",
@@ -32,19 +35,20 @@
         "MIT OCW"
     ],
     "Paper Title": "M-ABSA: A Multilingual Dataset for Aspect-Based Sentiment Analysis",
-    "Paper Link": "https://arxiv.org/pdf/2502.11824",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.emnlp-main.128",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Chengyan Wu",
         "Bolei Ma",

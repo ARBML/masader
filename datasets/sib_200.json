@@ -1,79 +1,75 @@
 {
     "Name": "SIB-200",
-    "Subsets": [
-  {
-    "Name": "arb_Arab",
-    "Volume": 1430,
-    "Unit": "sentences",
-    "Dialect": "Modern Standard Arabic"
-  },
-  {
-    "Name": "acm_Arab",
-    "Volume": 1430,
-    "Unit": "sentences",
-    "Dialect": "Iraq"
-  },
-  {
-    "Name": "acq_Arab",
-    "Volume": 1430,
-    "Unit": "sentences",
-    "Dialect": "Yemen"
-  },
-  {
-    "Name": "aeb_Arab",
-    "Volume": 1430,
-    "Unit": "sentences",
-    "Dialect": "Tunisia"
-  },
-  {
-    "Name": "ajp_Arab",
-    "Volume": 1430,
-    "Unit": "sentences",
-    "Dialect": "Levant"
-  },
-  {
-    "Name": "apc_Arab",
-    "Volume": 1430,
-    "Unit": "sentences",
-    "Dialect": "Levant"
-  },
-  {
-    "Name": "ars_Arab",
-    "Volume": 1430,
-    "Unit": "sentences",
-    "Dialect": "Saudi Arabia"
-  },
-  {
-    "Name": "ary_Arab",
-    "Volume": 1430,
-    "Unit": "sentences",
-    "Dialect": "Morocco"
-  },
-  {
-    "Name": "arz_Arab",
-    "Volume": 1430,
-    "Unit": "sentences",
-    "Dialect": "Egypt"
-  }
-]
-,
+    "Dialect Subsets": [
+        {
+            "Name": "arb_Arab",
+            "Volume": 1430,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "acm_Arab",
+            "Volume": 1430,
+            "Unit": "sentences",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "acq_Arab",
+            "Volume": 1430,
+            "Unit": "sentences",
+            "Dialect": "Yemen"
+        },
+        {
+            "Name": "aeb_Arab",
+            "Volume": 1430,
+            "Unit": "sentences",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "ajp_Arab",
+            "Volume": 1430,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "ars_Arab",
+            "Volume": 1430,
+            "Unit": "sentences",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "ary_Arab",
+            "Volume": 1430,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "arz_Arab",
+            "Volume": 1430,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        }
+    ],
     "HF Link": "https://huggingface.co/datasets/Davlan/sib200_14classes",
     "Link": "https://github.com/dadelani/SIB-200",
     "License": "CC BY-SA 4.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets",
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
     "Description": "A large-scale open-source benchmark dataset for topic classification in 200+ languages and dialects, based on Flores-200.",
-    "Volume": 1004.0,
+    "Volume": 11440.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [
@@ -92,13 +88,14 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "topic classification"
     ],
-    "Venue Title": "ACL 2023",
+    "Venue Title": "ACL",
     "Venue Type": "conference",
-    "Venue Name": "61st Annual Meeting of the Association for Computational Linguistics",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
         "David Ifeoluwa Adelani",
         "Hannah Liu",

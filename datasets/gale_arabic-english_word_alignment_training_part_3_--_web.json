@@ -1,18 +1,21 @@
 {
     "Name": "GALE Arabic-English Word Alignment Training Part 3 -- Web",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2014T14",
     "License": "LDC User Agreement",
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release consists of Arabic source web data collected by LDC. The distribution by genre, words, character tokens and segments appears below:",
     "Volume": 7332.0,
@@ -29,14 +32,14 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "information retrieval",
         "information retrieval",
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

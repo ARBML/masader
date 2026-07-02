@@ -1,21 +1,24 @@
 {
     "Name": "DOUBLE-BENCH",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Episoode/Double-Bench",
     "Link": "https://huggingface.co/datasets/Episoode/Double-Bench",
     "License": "CC BY-NC 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets",
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "machine annotation",
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "machine annotation",
+        "LLM annotation"
     ],
     "Description": "A large-scale multilingual and multimodal benchmark for evaluating Retrieval-Augmented Generation (RAG) systems on document understanding tasks.",
     "Volume": 233.0,
@@ -26,7 +29,11 @@
         "Huazhong University of Science and Technology",
         "University of Maryland"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "DocVQA",
+        "MMLongBench-Doc",
+        "SlideVQA"
+    ],
     "Paper Title": "ARE WE ON THE RIGHT WAY FOR ASSESSING DOCUMENT RETRIEVAL-AUGMENTED GENERATION?",
     "Paper Link": "https://arxiv.org/pdf/2508.03644",
     "Script": "Arab",
@@ -34,7 +41,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "retrieval-augmented generation"
     ],

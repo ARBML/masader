@@ -1,18 +1,21 @@
 {
     "Name": "CQA-MD: SemEval-2016 Task 3",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/CQA_MD_ar",
     "Link": "https://alt.qcri.org/semeval2016/task3/index.php?id=data-and-tools",
     "License": "unknown",
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "It includes a TRAIN/DEV split with reliable double-checked DEV (1,281 original questions, and 37,795 potentially related question-answer pairs) + unannotated (163,383 question--answer pairs)",
     "Volume": 45164.0,
@@ -29,16 +32,17 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "semEval",
-    "Venue Type": "conference",
+    "Venue Title": "SemEval",
+    "Venue Type": "workshop",
     "Venue Name": "International Workshop on Semantic Evaluation",
     "Authors": [
         "Preslav Nakov",
-        "Llu\u00b4\u0131s Marquez",
+        "Llu´ıs Marquez",
         "Alessandro Moschitti",
         "`\nWalid Magdy",
         "Hamdy Mubarak",
@@ -47,8 +51,8 @@
     "Affiliations": [
         "ALT Research Group",
         "Qatar Computing Research Institute",
-        "HBKU"
+        "Hamad Bin Khalifa University"
     ],
-    "Abstract": "This paper describes the SemEval\u20132016\nTask 3 on Community Question Answering, which we offered in English and Arabic. For English, we had three subtasks: Question\u2013Comment Similarity (subtask\nA), Question\u2013Question Similarity (B), and\nQuestion\u2013External Comment Similarity (C).\nFor Arabic, we had another subtask: Rerank\nthe correct answers for a new question (D).\nEighteen teams participated in the task, submitting a total of 95 runs (38 primary and 57\ncontrastive) for the four subtasks. A variety\nof approaches and features were used by the\nparticipating systems to address the different\nsubtasks, which are summarized in this paper.\nThe best systems achieved an official score\n(MAP) of 79.19, 76.70, 55.41, and 45.83 in\nsubtasks A, B, C, and D, respectively. These\nscores are significantly better than those for\nthe baselines that we provided. For subtask A,\nthe best system improved over the 2015 winner by 3 points absolute in terms of Accuracy",
+    "Abstract": "This paper describes the SemEval–2016\nTask 3 on Community Question Answering, which we offered in English and Arabic. For English, we had three subtasks: Question–Comment Similarity (subtask\nA), Question–Question Similarity (B), and\nQuestion–External Comment Similarity (C).\nFor Arabic, we had another subtask: Rerank\nthe correct answers for a new question (D).\nEighteen teams participated in the task, submitting a total of 95 runs (38 primary and 57\ncontrastive) for the four subtasks. A variety\nof approaches and features were used by the\nparticipating systems to address the different\nsubtasks, which are summarized in this paper.\nThe best systems achieved an official score\n(MAP) of 79.19, 76.70, 55.41, and 45.83 in\nsubtasks A, B, C, and D, respectively. These\nscores are significantly better than those for\nthe baselines that we provided. For subtask A,\nthe best system improved over the 2015 winner by 3 points absolute in terms of Accuracy",
     "Added By": "Zaid Alyafeai"
 }

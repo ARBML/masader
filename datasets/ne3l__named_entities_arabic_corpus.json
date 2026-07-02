@@ -1,18 +1,21 @@
 {
     "Name": "NE3L: named entities Arabic corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-W0078/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The NE3L project (Named Entities 3 Languages) consisted in annotating several corpora with different languages with named entities. Text format data were extracted from newspapers and deal with various topics. 3 different languages were annotated: Arabic, Chinese and Russian.",
     "Volume": 103363.0,
@@ -26,13 +29,14 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "5,000.00\u20ac",
-    "Test Split": false,
+    "Cost": "5,000.00€",
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

@@ -1,0 +1,58 @@
+{
+    "Name": "MURAD",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/riotu-lab/MURAD",
+    "Link": "https://github.com/riotu-lab/RD-creation-library-RDCL",
+    "License": "CC BY 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "books"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation",
+        "LLM annotation"
+    ],
+    "Description": "Open lexical dataset with 96,243 Arabic word-definition pairs.",
+    "Volume": 96243.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "RIOTU Lab"
+    ],
+    "Derived From": [],
+    "Paper Title": "MURAD: A Large-Scale Multi-Domain Unified Reverse Arabic Dictionary Dataset",
+    "Paper Link": "https://arxiv.org/pdf/2601.21512v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "lexicon analysis"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Serry Sibaee",
+        "Yasser Alhabashi",
+        "Nadia Sibai",
+        "Yara Farouk",
+        "Adel Ammar",
+        "Sawsan AlHalawani",
+        "Wadii Boulila"
+    ],
+    "Affiliations": [
+        "Prince Sultan University"
+    ],
+    "Abstract": "Arabic is a linguistically and culturally rich language with a vast vocabulary that spans scientific, religious, and literary domains. Yet, large-scale lexical datasets linking Arabic words to precise definitions remain limited. We present MURAD (Multi-domain Unified Reverse Arabic Dictionary), an open lexical dataset with 96,243 word–definition pairs. The data come from trusted reference works and educational sources. Extraction used a hybrid pipeline integrating direct text parsing, optical character recognition, and automated reconstruction. This ensures accuracy and clarity. Each record aligns a target word with its standardized Arabic definition and metadata that identifies the source domain. The dataset covers terms from linguistics, Islamic studies, mathematics, physics, psychology, and engineering. It supports computational linguistics and lexicographic research. Applications include reverse dictionary modeling, semantic retrieval, and educational tools. By releasing this resource, we aim to advance Arabic natural language processing and promote reproducible research on Arabic lexical semantics.",
+    "Added By": "Zaid Alyafeai"
+}

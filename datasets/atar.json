@@ -1,20 +1,24 @@
 {
     "Name": "ATAR",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Arabizi_Transliteration",
     "Link": "https://github.com/bashartalafha/Arabizi-Transliteration",
     "License": "Apache-1.0",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "social media",
+        "web pages"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "Arabizi transliteration",
+    "Description": "the first large-scale 'Arabizi to Arabic script' parallel corpus focusing on the Jordanian dialect and consisting of more than 25k pairs carefully created and inspected by native speakers to ensure highest quality",
     "Volume": 2743.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
@@ -29,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "transliteration"
     ],
@@ -39,13 +44,12 @@
     "Authors": [
         "Bashar Talafha",
         "Analle Abuammar",
-        "M. Al-Ayyoub"
+        "Mahmoud Al-Ayyoub"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Jordan University of Science and Technology",
+        "University of Southampton"
     ],
-    "Abstract": "A non-standard romanization of Arabic script, known as Arbizi, is widely used in Arabic online and SMS/chat communities. However, since state-of-the-art tools and applications for Arabic NLP expects Arabic to be written in Arabic script, handling contents written in Arabizi requires a special attention either by building customized tools or by transliterating them into Arabic script. The latter approach is the more common one and this work presents two significant contributions in this direction. The first one is to collect and publicly release the first large-scale \u201cArabizi to Arabic script\u201d parallel corpus focusing on the Jordanian dialect and consisting of more than 25 k pairs carefully created and inspected by native speakers to ensure highest quality. Second, we present Atar, an attention-based encoder-decoder model for Arabizi transliteration. Training and testing this model on our dataset yields impressive accuracy (79%) and BLEU score (88.49).",
+    "Abstract": "A non-standard romanization of Arabic script, known as Arbizi, is widely used in Arabic online and SMS/chat communities. However, since state-of-the-art tools and applications for Arabic NLP expects Arabic to be written in Arabic script, handling contents written in Arabizi requires a special attention either by building customized tools or by transliterating them into Arabic script. The latter approach is the more common one and this work presents two significant contributions in this direction. The first one is to collect and publicly release the first large-scale “Arabizi to Arabic script” parallel corpus focusing on the Jordanian dialect and consisting of more than 25 k pairs carefully created and inspected by native speakers to ensure highest quality. Second, we present Atar, an attention-based encoder-decoder model for Arabizi transliteration. Training and testing this model on our dataset yields impressive accuracy (79%) and BLEU score (88.49).",
     "Added By": ""
 }

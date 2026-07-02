@@ -1,6 +1,6 @@
 {
     "Name": "M2Lingual",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Yemeni",
             "Volume": 2558.0,
@@ -44,13 +44,16 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "LLM",
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Fully-synthetic multi-turn multilingual instruction-tuning dataset with 175K conversations across 70 languages and 19 NLP tasks.",
     "Volume": 16007.0,
@@ -64,19 +67,20 @@
         "Aya Collection"
     ],
     "Paper Title": "M2Lingual: Enhancing Multilingual, Multi-Turn Instruction Alignment in Large Language Models",
-    "Paper Link": "https://arxiv.org/pdf/2406.16783",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.naacl-long.489",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "NAACL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the North American Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Rishabh Maheshwary",
         "Vikas Yadav",

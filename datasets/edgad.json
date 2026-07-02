@@ -1,18 +1,22 @@
 {
     "Name": "EDGAD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/shery91/Egyptian-Dialect-Gender-Annotated-Dataset",
     "License": "unknown",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general",
+        "society"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Egyptian Dialect Gender Annotated Dataset (EDGAD) obtained from Twitter as well as a proposed text classification solution for the Gender Identification (GI) problem. The dataset consists of 70,000 tweets per gender",
     "Volume": 140000.0,
@@ -27,9 +31,10 @@
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
-    "Access": "Free",
+    "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "gender identification"
     ],
@@ -39,12 +44,11 @@
     "Authors": [
         "Shereen Hussein",
         "Mona Farouk",
-        "E. Hemayed"
+        "Elsayed Hemayed"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Cairo University",
+        "Zewail City of Science and Technology"
     ],
     "Abstract": "Abstract Despite the widespread of social media among all age groups in Arabic countries, the research directed towards Author Profiling (AP) is still in its early stages. This paper provides an Egyptian Dialect Gender Annotated Dataset (EDGAD) obtained from Twitter as well as a proposed text classification solution for the Gender Identification (GI) problem. The dataset consists of 70,000 tweets per gender. In text classification, a Mixed Feature Vector (MFV) with different stylometric and Egyptian Arabic Dialect (EAD) language-specific features is proposed, in addition to N-Gram Feature Vector (NFV). Ensemble weighted average is applied to the Random Forest (RF) with MFV and Logistic Regression (LR) with NFV. The achieved gender identification accuracy is 87.6%.",
     "Added By": "Zaid Alyafeai"

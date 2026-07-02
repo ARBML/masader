@@ -1,18 +1,21 @@
 {
     "Name": "UDP (UDP-NYUAD)",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/universal_dependencies/viewer/ar_nyuad",
     "Link": "https://github.com/UniversalDependencies/UD_Arabic-NYUAD",
     "License": "CC BY-SA 4.0",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles"
+    ],
     "Domain": [
-        "other"
+        "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The treebank consists of 19,738 sentences (738889 tokens), and its domain is mainly newswire.",
     "Volume": 738889.0,
@@ -36,7 +39,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "morphological analysis",
         "dependency parsing",
@@ -51,9 +55,8 @@
         "Daniel Zeman"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "New York University Abu Dhabi",
+        "Charles University"
     ],
     "Abstract": "We describe the process of creating NUDAR, a Universal Dependency treebank for Arabic. We present the conversion from the Penn Arabic Treebank to the Universal Dependency syntactic representation through an intermediate dependency representation. We discuss the challenges faced in the conversion of the trees, the decisions we made to solve them, and the validation of our conversion. We also present initial parsing results on NUDAR.",
     "Added By": "Maraim Masoud"

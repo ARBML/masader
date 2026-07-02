@@ -1,18 +1,21 @@
 {
     "Name": "RSAC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/asooft/Sentiment-Analysis-Hotel-Reviews-Dataset",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "reviews"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "This dataset contains 6318 hotel reviews collected from the Booking.com website. The reviews are written in both standard and dialectical Arabic and manually annotated as either positive or negative.",
     "Volume": 8425.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "review classification"
@@ -44,11 +48,8 @@
         "Ahmed R. Galal"
     ],
     "Affiliations": [
-        "Computer Science Department",
-        "Faculty of Science",
         "Minia University",
-        "Minia",
-        "Egypt"
+        "Minia University"
     ],
     "Abstract": "This paper presents a novel approach for enhancing Arabic sentiment analysis using nine machine learning classifiers on a dataset of hotel reviews. It aims to improve classification accuracy with various pre-processing and feature extraction techniques.",
     "Added By": "Maryam Al Emadi"

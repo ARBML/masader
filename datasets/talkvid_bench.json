@@ -1,18 +1,22 @@
 {
     "Name": "TalkVid-bench",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/FreedomIntelligence/TalkVid",
     "Link": "https://huggingface.co/datasets/FreedomIntelligence/TalkVid",
     "License": "CC BY-NC 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "videos",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation",
+        "human annotation"
     ],
     "Description": "Large-scale high-quality 1244-hour video dataset of 7,729 speakers for audio-driven talking-head synthesis with diverse demographics and languages",
     "Volume": 14.0,
@@ -26,10 +30,11 @@
     "Paper Link": "https://arxiv.org/pdf/2508.13618",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "GitHub",
+    "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "video generation"
     ],

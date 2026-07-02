@@ -1,0 +1,68 @@
+{
+    "Name": "ArAIEval Subtask 1A",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://gitlab.com/araieval/araieval_arabicnlp24/-/tree/main/task1",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media",
+        "news articles",
+        "public datasets"
+    ],
+    "Domain": [
+        "politics",
+        "society",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Part of the propaganda detection task for classification of persuasion in tweets. ",
+    "Volume": 3189.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "AraFacts"
+    ],
+    "Paper Title": "ArAIEval Shared Task: Persuasion Techniques and Disinformation Detection in Arabic Text",
+    "Paper Link": "https://arxiv.org/pdf/2311.03179v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitLab",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "propaganda detection"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Maram Hasanain",
+        "Firoj Alam",
+        "Hamdy Mubarak",
+        "Samir Abdaljalil",
+        "Wajdi Zaghouani",
+        "Preslav Nakov",
+        "Giovanni Da San Martino",
+        "AbedAlhakim Freihat"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "Hamad Bin Khalifa University",
+        "Mohamed bin Zayed University of Artificial Intelligence",
+        "University of Padova",
+        "University of Trento"
+    ],
+    "Abstract": "We present an overview of the ArAIEval shared task, organized as part of the first Arabic NLP shared tasks conference co-located with EMNLP 2023. ArAIEval offers two tasks over Arabic text: (i) persuasion technique detection, focusing on identifying persuasion techniques in tweets and news articles, and (ii) disinformation detection in binary and multiclass setups over tweets. A total of 20 teams participated in the final evaluation phase, with 14 and 16 teams participating in Tasks 1 and 2, respectively. Across both tasks, we observed that fine-tuning transformer models such as AraBERT was at the core of the majority of the participating systems. We provide a description of the task setup, including a description of the dataset construction and the evaluation setup. We further give a brief overview of the participating systems. All datasets and evaluation scripts from the shared task are released to the research community. We hope this will enable further research on these important tasks in Arabic.",
+    "Added By": "Zaid Alyafeai"
+}

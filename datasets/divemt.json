@@ -1,17 +1,20 @@
 {
     "Name": "DivEMT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/GroNLP/divemt",
     "Link": "https://github.com/gsarti/divemt",
     "License": "GPL-3.0",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "DivEMT is the first publicly available post-editing study of Neural Machine Translation (NMT) over a typologically diverse set of six target languages (Arabic, Dutch, Italian, Turkish, Ukrainian, Vietnamese).",
@@ -25,19 +28,20 @@
         "FLORES-101"
     ],
     "Paper Title": "DivEMT: Neural Machine Translation Post-Editing Effort Across Typologically Diverse Languages",
-    "Paper Link": "https://arxiv.org/pdf/2205.12215",
+    "Paper Link": "https://aclanthology.org/2022.emnlp-main.532",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Gabriele Sarti",
         "Arianna Bisazza",

@@ -1,18 +1,21 @@
 {
     "Name": "CALLHOME Egyptian Arabic Speech",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC97S45",
     "License": "LDC User Agreement",
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Egypt",
+    "Source": [
+        "telephone conversations"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "All calls, which lasted up to 30 minutes, originated in North America and were placed to locations overseas (typically Egypt). Most participants called family members or close friends.",
     "Volume": 120.0,
@@ -29,14 +32,19 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Alexandra Canavan",
+        "George Zipperlen",
+        "David Graff"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

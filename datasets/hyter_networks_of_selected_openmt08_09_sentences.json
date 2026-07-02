@@ -1,18 +1,22 @@
 {
     "Name": "HyTER Networks of Selected OpenMT08/09 Sentences",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2014T09",
     "License": "LDC User Agreement",
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles",
+        "web pages"
+    ],
     "Domain": [
-        "news articles"
+        "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The source material is comprised of Arabic and Chinese newswire and web data collected by LDC in 2007. Annotators created meaning-equivalent annotations under three annotation protocols. In the first protocol, foreign language native speakers built English networks starting from foreign language sentences. In the second, English native speakers built English networks from the best translation of a foreign language sentence as identified by NIST (National Institute of Standards and Technology). In the third protocol, English native speakers built English networks starting from the best translation, but those annotators also had access to three additional, independently produced human translations. Networks created by different annotators for each sentence were combined and evaluated.",
     "Volume": 102.0,
@@ -29,14 +33,18 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "150.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Markus Dreyer",
+        "Daniel Marcu"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

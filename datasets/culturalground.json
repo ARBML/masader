@@ -1,20 +1,22 @@
 {
     "Name": "CulturalGround",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/neulab/CulturalGround",
     "Link": "https://huggingface.co/datasets/neulab/CulturalGround",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "culture"
+    ],
     "Form": "images",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "22 million multilingual image-question-answer triplets covering 39 languages and 42 countries.",
     "Volume": 346263.0,
@@ -25,19 +27,20 @@
     ],
     "Derived From": [],
     "Paper Title": "Grounding Multilingual Multimodal LLMs With Cultural Knowledge",
-    "Paper Link": "https://arxiv.org/pdf/2508.07414",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.emnlp-main.1232",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "JeandeDieu Nyandwi",
         "Yueqi Song",

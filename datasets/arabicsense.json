@@ -1,19 +1,22 @@
 {
     "Name": "ArabicSense",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Kamyar-zeinalipour/ArabicSense",
     "Link": "https://github.com/EL-Amrany/Arabic-Commonsense-Reasoning",
     "License": "MIT License",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
     ],
     "Description": "A synthetic commonsense reasoning benchmark in Arabic covering validation and explanation tasks.",
     "Volume": 5650.0,
@@ -33,13 +36,14 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "commonsense reasoning"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Name": "arXiv",
     "Authors": [
         "Salima Lamsiyah",
         "Kamyar Zeinalipour",

@@ -1,18 +1,21 @@
 {
     "Name": "Arabic Newswire English Translation Collection",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009T22",
     "License": "LDC User Agreement",
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "the 49 translations for this AFP subset are not included in this release, resulting in a total 1,682 translations for the 1,731 source stories.",
     "Volume": 1731.0,
@@ -29,14 +32,18 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "syntactic parsing"
+        "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Xiaoyi Ma",
+        "Dalal Zakhary"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

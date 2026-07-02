@@ -1,20 +1,25 @@
 {
     "Name": "GALE Arabic-English Word Alignment -- Broadcast Training Part 1",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2014T19",
     "License": "LDC User Agreement",
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles",
+        "TV channels"
+    ],
     "Domain": [
-        "other"
+        "news",
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "This release consists of Arabic source broadcast news and broadcast conversation data collected by LDC from 2007-2009. The distribution by genre, words, tokens and segments appears below:",
+    "Description": "GALE Arabic-English Word Alignment -- Broadcast Training Part 1 was developed by the Linguistic Data Consortium (LDC) and contains 267,257 tokens of word aligned Arabic and English parallel text enriched with linguistic tags.",
     "Volume": 11341.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
@@ -29,14 +34,13 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "information retrieval",
-        "information retrieval",
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

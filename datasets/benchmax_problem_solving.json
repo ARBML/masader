@@ -1,17 +1,20 @@
 {
     "Name": "BenchMAX_Problem_Solving",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Problem_Solving",
     "Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Problem_Solving",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "science"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "BenchMAX_Problem_Solving is a dataset of BenchMAX, sourcing from LiveCodeBench_v4, which evaluates the code generation capability for solving multilingual competitive code problems.",
@@ -25,19 +28,20 @@
         "LiveCodeBench"
     ],
     "Paper Title": "BenchMAX: A Comprehensive Multilingual Evaluation Suite for Large Language Models",
-    "Paper Link": "https://arxiv.org/pdf/2502.07346",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-emnlp.909",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "code generation"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Xu Huang",
         "Wenhao Zhu",

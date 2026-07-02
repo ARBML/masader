@@ -1,20 +1,24 @@
 {
     "Name": "Le Monde Diplomatique: Arabic tagged corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-W0049/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2009,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles"
+    ],
     "Domain": [
-        "other"
+        "news",
+        "politics"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "This corpus contains 102,960 vowelized, lemmatized and tagged words (",
+    "Description": "This corpus contains 102,960 vowelised, lemmatised and tagged words (58 texts from Le Monde Diplomatique Arabic)",
     "Volume": 102960.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
@@ -26,14 +30,15 @@
     "Tokenized": true,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "400.00\u20ac",
-    "Test Split": false,
+    "Cost": "400.00€",
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "grammatical analysis",
         "morphological analysis"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

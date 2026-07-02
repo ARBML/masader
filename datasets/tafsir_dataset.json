@@ -1,17 +1,21 @@
 {
     "Name": "Tafsir Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://aiwg.de/beta_version_open_tafsir_database",
     "License": "unknown",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "religion",
+        "literature"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A multi-task dataset for Named Entity Recognition and Topic Modeling on Classical Arabic Quranic exegesis (Tafsir Al-Tabari).",
@@ -29,20 +33,21 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "named entity recognition",
         "topic classification"
     ],
     "Venue Title": "COLING",
-    "Venue Type": "workshop",
+    "Venue Type": "conference",
     "Venue Name": "International Conference on Computational Linguistics",
     "Authors": [
         "Sajawel Ahmed",
         "Rob van der Goot",
         "Misbahur Rehman",
         "Carl Kruse",
-        "\u00d6mer \u00d6zsoy",
+        "Ömer Özsoy",
         "Alexander Mehler",
         "Gemma Roig"
     ],

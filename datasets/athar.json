@@ -1,18 +1,24 @@
 {
     "Name": "ATHAR",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/mohamed-khalil/ATHAR",
     "Link": "https://hf.co/datasets/mohamed-khalil/ATHAR",
     "License": "CC BY-SA 4.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "books"
+    ],
     "Domain": [
-        "other"
+        "literature",
+        "religion",
+        "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "metadata-derived",
+        "human annotation"
     ],
     "Description": "The ATHAR dataset comprises 66,000 translation pairs from Classical Arabic to English. It spans a wide array of subjects, aiming to enhance the development of NLP models specialized in Classical Arabic. This dataset addresses the gap in translation resources for Classical Arabic and is useful for fine-tuning large language models (LLMs) to improve their performance in handling ancient texts.",
     "Volume": 66000.0,
@@ -35,22 +41,21 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Name": "arXiv",
     "Authors": [
         "Mohammed Khalil",
         "Mohammed Sabry"
     ],
     "Affiliations": [
         "Independent Researcher",
-        "ADAPT/DCU",
-        "Dublin",
-        "Ireland"
+        "ADAPT/DCU"
     ],
     "Abstract": "ATHAR is a dataset comprising 66,000 high-quality translation pairs from Classical Arabic to English, aimed at improving NLP and machine translation systems. The dataset covers a broad range of Classical Arabic texts, including science, philosophy, and history. Evaluations on state-of-the-art language models indicate that fine-tuning with this dataset significantly improves translation accuracy.",
     "Added By": "Maryam Al Emadi"

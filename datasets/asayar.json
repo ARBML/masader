@@ -1,18 +1,21 @@
 {
     "Name": "ASAYAR",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://vcar.github.io/ASAYAR/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Morocco",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The ASAYAR dataset is the first public dataset for Arabic and Latin scene text detection in highway traffic panels. It includes over 1800 annotated images and can be used to develop and evaluate models for traffic sign detection and text detection in Arabic and French.",
     "Volume": 1800.0,
@@ -29,19 +32,20 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "scene text detection"
     ],
-    "Venue Title": "",
+    "Venue Title": "ITS",
     "Venue Type": "journal",
     "Venue Name": "IEEE Transactions on Intelligent Transportation Systems",
     "Authors": [
-        "M. Akallouch",
-        "K. S. Boujemaa",
-        "A. Bouhoute",
-        "K. Fardousse",
-        "I. Berrada"
+        "Mohammed Akallouch",
+        "Kaoutar S. Boujemaa",
+        "Afaf Bouhoute",
+        "Khalid Fardousse",
+        "Ismail Berrada"
     ],
     "Affiliations": [
         "Sidi Mohamed Ben Abdellah University - Fez Morocco"

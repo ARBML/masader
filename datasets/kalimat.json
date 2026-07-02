@@ -1,18 +1,21 @@
 {
     "Name": "KALIMAT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/kalimat_articles",
     "Link": "https://sourceforge.net/projects/kalimat/",
     "License": "custom",
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "20,291 Arabic articles collected from the Omani newspaper Alwatan",
     "Volume": 20291.0,
@@ -29,7 +32,8 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "topic classification",
         "summarization",
@@ -42,12 +46,11 @@
     "Venue Name": "",
     "Authors": [
         "Mahmoud El-Haj",
-        "R. Koulali"
+        "Rim Koulali"
     ],
     "Affiliations": [
-        "Lancaster University",
-        ""
+        "Lancaster University"
     ],
-    "Abstract": "Resources, such as corpora, are important for researchers working on Arabic Natural Language Processing (NLP) (Al-Sulaiti et al. 2006). For this reason we came up with the idea of generating an Arabic multipurpose corpus, which we call KALIMAT (Arabic transliteration of \u201cWORDS\u201d). The automatically created corpus could benefit researchers working on different Arabic NLP areas. In our work on Arabic we developed, enhanced and tested many Arabic NLP tools. We tuned these tools to provide high quality results. The tools include auto-summarisers, Part of Speech Tagger, Morphological Analyser and Named Entity Recognition (NER). We ran these tools using the same document collection. We provide the output corpus freely for researchers to evaluate their work and to run experiments for different Arabic NLP purposes using one corpus.",
+    "Abstract": "Resources, such as corpora, are important for researchers working on Arabic Natural Language Processing (NLP) (Al-Sulaiti et al. 2006). For this reason we came up with the idea of generating an Arabic multipurpose corpus, which we call KALIMAT (Arabic transliteration of “WORDS”). The automatically created corpus could benefit researchers working on different Arabic NLP areas. In our work on Arabic we developed, enhanced and tested many Arabic NLP tools. We tuned these tools to provide high quality results. The tools include auto-summarisers, Part of Speech Tagger, Morphological Analyser and Named Entity Recognition (NER). We ran these tools using the same document collection. We provide the output corpus freely for researchers to evaluate their work and to run experiments for different Arabic NLP purposes using one corpus.",
     "Added By": ""
 }

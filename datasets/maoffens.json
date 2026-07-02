@@ -1,18 +1,20 @@
 {
     "Name": "MAOffens ",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Randa/MAOffens",
     "Link": "https://huggingface.co/datasets/Randa/MAOffens",
     "License": "CC BY-NC 2.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "society"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": " The first MA dataset for offensive language detection",
@@ -30,18 +32,19 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "fake news detection"
     ],
     "Venue Title": "CCIS",
     "Venue Type": "journal",
-    "Venue Name": " Communications in Computer and Information Science",
+    "Venue Name": "Communications in Computer and Information Science",
     "Authors": [
         "Randa Zarnoufi",
         "Mohammed Hajhouj",
         "Walid Bachri",
-        " Hamid Jaafar",
+        "Hamid Jaafar",
         "Mounia Abik "
     ],
     "Affiliations": [

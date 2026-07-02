@@ -1,17 +1,21 @@
 {
     "Name": "xSID - (X) Slot and Intent Detection",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/SEACrowd/xsid",
     "Link": "https://github.com/mainlp/xsid",
     "License": "CC BY-SA 4.0",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "social media"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "An evaluation dataset of intent classification and slot detection",
@@ -19,7 +23,9 @@
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [],
-    "Derived From": [],
+    "Derived From": [
+        "Snips Data"
+    ],
     "Paper Title": "From Masked Language Modeling to Translation: Non-English Auxiliary Tasks Improve Zero-shot Spoken Language Understanding",
     "Paper Link": "https://aclanthology.org/2021.naacl-main.197.pdf",
     "Script": "Arab",
@@ -27,15 +33,33 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
-        "intent classification"
+        "intent detection"
     ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
-    "Venue Name": "Associations of computation linguistics",
-    "Authors": [],
-    "Affiliations": [],
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
+    "Authors": [
+        "Rob van der Goot",
+        "Ibrahim Sharaf",
+        "Aizhan Imankulova",
+        "Ahmet Üstün",
+        "Marija Stepanović",
+        "Alan Ramponi",
+        "Siti Oryza Khairunnisa",
+        "Mamoru Komachi",
+        "Barbara Plank"
+    ],
+    "Affiliations": [
+        "IT University of Copenhagen",
+        "Factmata",
+        "Tokyo Metropolitan University",
+        "University of Groningen",
+        "University of Trento",
+        "Fondazione The Microsoft Research–University of Trento Centre for Computational and Systems Biology (COSBI)"
+    ],
     "Abstract": "The lack of publicly available evaluation data for low-resource languages limits progress in Spoken Language Understanding (SLU). As key tasks like intent classification and slot filling require abundant training data, it is desirable to reuse existing data in high-resource languages to develop models for low-resource scenarios. We introduce XSID, a new benchmark for cross-lingual (X) Slot and Intent Detection in 13 languages from 6 language families, including a very low-resource dialect. To tackle the challenge, we propose a joint learning approach, with English SLU training data and non-English auxiliary tasks from raw text, syntax and translation for transfer. We study two setups which differ by type and language coverage of the pre-trained embeddings. Our results show that jointly learning the main tasks with masked language modeling is effective for slots, while machine translation transfer works best for intent classification",
     "Added By": "Amr Keleg"
 }

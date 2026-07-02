@@ -1,0 +1,58 @@
+{
+    "Name": "SAMER Corpus",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/CAMeL-Lab/samer-arabic-readability",
+    "License": "MIT License",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "books"
+    ],
+    "Domain": [
+        "education"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Dataset for Arabic readability assessment",
+    "Volume": 20358.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "CAMeL Lab"
+    ],
+    "Derived From": [
+        "SAMER Arabic Text Simplification Corpus"
+    ],
+    "Paper Title": "Strategies for Arabic Readability Modeling",
+    "Paper Link": "https://aclanthology.org/2024.arabicnlp-1.5.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "readability assessment"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Juan Piñeros Liberato",
+        "Bashar Alhafni",
+        "Muhamed AlKhalil",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "Computational Approaches to Modeling Language Lab",
+        "New York University Abu Dhabi"
+    ],
+    "Abstract": "Automatic readability assessment is relevant to building NLP applications for education, content analysis, and accessibility. However, Arabic readability assessment is a challenging task due to Arabic’s morphological richness and limited readability resources. In this paper, we present a set of experimental results on Arabic readability assessment using a diverse range of approaches, from rule-based methods to Arabic pretrained language models. We report our results on a newly created corpus at different textual granularity levels (words and sentence fragments). Our results show that combining different techniques yields the best results, achieving an overall macro F1 score of 86.7 at the word level and 87.9 at the fragment level on a blind test set. We make our code, data, and pretrained models publicly available.",
+    "Added By": "Zaid alyafeai"
+}

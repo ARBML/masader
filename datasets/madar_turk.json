@@ -1,0 +1,58 @@
+{
+    "Name": "MADAR-Turk",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "http://resources.camel-lab.com/",
+    "License": "custom",
+    "Year": 2023,
+    "Language": "multilingual",
+    "Dialect": "Syria",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "First dataset for Syrian Arabic-Turkish machine translation sourced from MADAR.",
+    "Volume": 2000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "CAMeL Lab"
+    ],
+    "Derived From": [
+        "MADAR corpus"
+    ],
+    "Paper Title": "Benchmarking Dialectal Arabic-Turkish Machine Translation",
+    "Paper Link": "https://aclanthology.org/2023.mtsummit-research.22.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "CAMeL Resources",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "MT Summit",
+    "Venue Type": "conference",
+    "Venue Name": "Machine Translation Summit",
+    "Authors": [
+        "Hasan Alkheder",
+        "Houda Bouamor",
+        "Nizar Habash",
+        "Ahmet Zengin"
+    ],
+    "Affiliations": [
+        "Sakarya University",
+        "Carnegie Mellon University Qatar",
+        "New York University Abu Dhabi"
+    ],
+    "Abstract": "Due to the significant influx of Syrian refugees in Turkey in recent years, the Syrian Arabic dialect has become increasingly prevalent in certain regions of Turkey. Developing a machine translation system between Turkish and Syrian Arabic would be crucial in facilitating communication between the Turkish and Syrian communities in these regions, which can have a positive impact on various domains such as politics, trade, and humanitarian aid. Such a system would also contribute positively to the growing Arab-focused tourism industry in Turkey. In this paper we present the first research effort exploring translation between Syrian Arabic and Turkish. We use a set of 2,000 parallel sentences from the MADAR corpus containing 25 different city dialects from different cities across the Arab world, in addition to Modern Standard Arabic (MSA), English, and French. Additionally, we explore the translation performance into Turkish from other Arabic dialects and compare the results to the performance achieved when translating from Syrian Arabic. We build our MADAR-Turk dataset by manually translating the set of 2,000 sentences from the Damascus dialect of Syria to Turkish with the help of two native Arabic speakers from Syria who are also highly fluent in Turkish. We evaluate the quality of the translations and report the results achieved. We make this first-of-a-kind dataset publicly available to support research in machine translation between these important but less studied language pairs.",
+    "Added By": "Zaid Alyafeai"
+}

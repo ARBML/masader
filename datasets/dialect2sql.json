@@ -1,0 +1,57 @@
+{
+    "Name": "Dialect2SQL",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/salmane11/Dialect2SQL",
+    "Link": "https://huggingface.co/datasets/salmane11/Dialect2SQL",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Morocco",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
+    ],
+    "Description": "Moroccan Darija text-to-SQL dataset, 9428 pairs.",
+    "Volume": 9428.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Mohammed VI Polytechnic University"
+    ],
+    "Derived From": [
+        "BIRD"
+    ],
+    "Paper Title": "Dialect2SQL: A Novel Text-to-SQL Dataset for Arabic Dialects with a Focus on Moroccan Darija",
+    "Paper Link": "https://arxiv.org/pdf/2501.11498",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "text-to-SQL generation"
+    ],
+    "Venue Title": "WACL",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Arabic Corpus Linguistics",
+    "Authors": [
+        "Salmane Chafik",
+        "Saad Ezzini",
+        "Ismail Berrada"
+    ],
+    "Affiliations": [
+        "Mohammed VI Polytechnic University",
+        "King Fahd University of Petroleum and Minerals"
+    ],
+    "Abstract": "The task of converting natural language questions (NLQs) into executable SQL queries, known as text-to-SQL, has gained significant interest in recent years, as it enables non-technical users to interact with relational databases. Many benchmarks, such as SPIDER and WikiSQL, have contributed to the development of new models and the evaluation of their performance. In addition, other datasets, like SEDE and BIRD, have introduced more challenges and complexities to better map real-world scenarios. However, these datasets primarily focus on high-resource languages such as English and Chinese. In this work, we introduce Dialect2SQL, the first large-scale, cross-domain text-to-SQL dataset in an Arabic dialect. It consists of 9,428 NLQ-SQL pairs across 69 databases in various domains. Along with SQL-related challenges such as long schemas, dirty values, and complex queries, our dataset also incorporates the complexities of the Moroccan dialect, which is known for its diverse source languages, numerous borrowed words, and unique expressions. This demonstrates that our dataset will be a valuable contribution to both the text-to-SQL community and the development of resources for low-resource languages.",
+    "Added By": "Zaid Alyafeai"
+}

@@ -1,6 +1,6 @@
 {
     "Name": "SemEval-2025 Task 11 Track A",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "arq",
             "Volume": 1901.0,
@@ -20,11 +20,14 @@
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "This dataset contains the data for SemEval 2025 Task 11: Bridging the Gap in Text-Based Emotion Detection - Track A, organized as language-specific configurations.",
@@ -43,7 +46,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "emotion classification"
     ],
@@ -77,21 +81,22 @@
         "Imperial College London",
         "Bayero University Kano",
         "Cardiff University",
-        "DSFSI, University of Pretoria",
+        "University of Pretoria",
         "University of Hamburg",
-        "University of G\u00f6ttingen",
+        "University of Göttingen",
         "Uppsala University",
         "University of Melbourne",
-        "Instituto Polit\u00e9cnico Nacional",
+        "Instituto Politécnico Nacional",
         "Wollo University",
         "Northeastern University",
         "IIIT Hyderabad",
         "University of Alberta",
         "MILA",
         "McGill University",
-        "Canada CIFAR AI Chair",
         "MBZUAI",
-        "LIACC, FEUP, University of Porto",
+        "LIACC",
+        "FEUP",
+        "University of Porto",
         "Sailplane AI",
         "Bahir Dar University",
         "Santa Clara University",

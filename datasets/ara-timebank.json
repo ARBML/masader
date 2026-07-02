@@ -1,27 +1,32 @@
 {
     "Name": "ARA-TimeBank",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/nafaa5/Arabic-event-timex-gazetteers-",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "enriched Arabic corpus, called \u201cARA-TimeBank\u201d, for events, temporal expressions and temporal relations based on the new Arabic TimeML.",
+    "Description": "enriched Arabic corpus, called “ARA-TimeBank”, for events, temporal expressions and temporal relations based on the new Arabic TimeML.",
     "Volume": 1000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "Arabic TimeML"
+    ],
     "Paper Title": "Enrichment of Arabic TimeML Corpus",
     "Paper Link": "https://link.springer.com/chapter/10.1007/978-3-030-63007-2_51",
     "Script": "Arab",
@@ -29,23 +34,22 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "event detection"
     ],
     "Venue Title": "ICCCI",
     "Venue Type": "conference",
-    "Venue Name": "international scientific conference for research in the field of Computational Collective Intelligence",
+    "Venue Name": "International Conference on Computational Collective Intelligence",
     "Authors": [
         "Nafaa Haffar",
         "Emna Hkiri",
-        "M. Zrigui"
+        "Mounir Zrigui"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "University of Monastir"
     ],
-    "Abstract": "Automatic temporal information extraction is an important task for many natural language processing systems. This task requires thorough knowledge of the ontological and grammatical characteristics of temporal information in the text as well as annotated linguistic resources of the temporal entities. Before creating the resources or developing the system, it is first necessary to define a structured schema which describes how to annotate temporal entities. In this paper, we present a revised version of Arabic TimeML, and we propose an enriched Arabic corpus, called \u201cARA-TimeBank\u201d, for events, temporal expressions and temporal relations based on the new Arabic TimeML. We describe our methodology which combines a pre-annotation phase with manuel validation and verification. ARA-TimeBank is the first corpus constructed for Arabic, which meets the needs of TimeML and addresses the limitations of existing Arabic TimeBank.",
+    "Abstract": "Automatic temporal information extraction is an important task for many natural language processing systems. This task requires thorough knowledge of the ontological and grammatical characteristics of temporal information in the text as well as annotated linguistic resources of the temporal entities. Before creating the resources or developing the system, it is first necessary to define a structured schema which describes how to annotate temporal entities. In this paper, we present a revised version of Arabic TimeML, and we propose an enriched Arabic corpus, called “ARA-TimeBank”, for events, temporal expressions and temporal relations based on the new Arabic TimeML. We describe our methodology which combines a pre-annotation phase with manuel validation and verification. ARA-TimeBank is the first corpus constructed for Arabic, which meets the needs of TimeML and addresses the limitations of existing Arabic TimeBank.",
     "Added By": "Zaid Alyafeai"
 }

@@ -1,18 +1,22 @@
 {
     "Name": "GALE Phase 4 Arabic Broadcast Conversation Parallel Sentences",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2016T11",
     "License": "LDC User Agreement",
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "TV channels"
+    ],
     "Domain": [
-        "other"
+        "news",
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "GALE Phase 4 Arabic Broadcast Conversation Parallel Sentences includes 170 source-translation document pairs, comprising 44,064 words (Arabic source) of translated data. Data is drawn from 45 distinct Arabic broadcast conversation (BC) sources. BC programming is more interactive than traditional broadcast news sources and may include talk shows, interviews, call-in programs and roundtables.",
     "Volume": 44064.0,
@@ -29,14 +33,19 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Song Chen",
+        "Gary Krug",
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

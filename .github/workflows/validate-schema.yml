@@ -1,0 +1,28 @@
+name: Validate dataset schema
+
+on:
+    pull_request:
+        paths:
+            - 'datasets/**'
+            - 'schema.json'
+            - 'validate_schema.py'
+    push:
+        branches: [main]
+        paths:
+            - 'datasets/**'
+            - 'schema.json'
+            - 'validate_schema.py'
+
+jobs:
+    validate-schema:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-python@v5
+              with:
+                  python-version: '3.12'
+            - run: pip install requests tqdm
+            - name: Validate all dataset JSON files
+              run: python validate_schema.py
+              env:
+                  USE_LOCAL_SCHEMA: 'true'

@@ -1,18 +1,20 @@
 {
     "Name": "sentiment dataset of Algerian dialect ",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://sourceforge.net/projects/alg-dialect-sentiment-dataset/",
     "License": "unknown",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Annotated comments/posts in Algerian Arabizi from Facebook pages, collected via APIs/Facepager & Google Forms.",
@@ -30,13 +32,14 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],
     "Venue Title": "IC3K",
     "Venue Type": "conference",
-    "Venue Name": "Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
+    "Venue Name": "International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
     "Authors": [
         "Asma Chader",
         "Dihia Lanasri",

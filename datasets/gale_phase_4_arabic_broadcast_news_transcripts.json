@@ -1,18 +1,23 @@
 {
     "Name": "GALE Phase 4 Arabic Broadcast News Transcripts",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2018T14",
     "License": "LDC User Agreement",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "TV channels",
+        "news articles"
+    ],
     "Domain": [
-        "other"
+        "news",
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The transcript files are in plain-text, tab-delimited format (TDF) with UTF-8 encoding, and the transcribed data totals 204,735 tokens. The transcripts were created with the LDC tool XTrans, which supports manual transcription and annotation of audio recordings. XTrans is available from the following link, https://www.ldc.upenn.edu/language-resources/tools/xtrans/downloads.",
     "Volume": 204735.0,
@@ -29,14 +34,20 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Meghan Glenn",
+        "Haejoong Lee",
+        "Stephanie Strassel",
+        "Kazuaki Maeda"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -1,18 +1,21 @@
 {
     "Name": "DocLang",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/monkt/doclang",
     "Link": "https://huggingface.co/datasets/monkt/doclang",
     "License": "unknown",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "images",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A multilingual document type classification dataset for identifying various document and visual content types. The dataset contains 13,200 images across 11 languages, with 1,200 images per language.",
     "Volume": 1200.0,
@@ -29,9 +32,10 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "other"
+        "document type classification"
     ],
     "Venue Title": "",
     "Venue Type": "other",

@@ -1,6 +1,6 @@
 {
     "Name": "Twt15DA_Lists",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Yemeni",
             "Dialect": "Yemen",
@@ -98,16 +98,18 @@
     "Year": 2021,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "The annotated dialectal Arabic corpus (Twt15DA) is collected from Twitter and consists of 311,785 tweets containing 3,858,459 words in total. They randomly selected a sample of 75 tweets per country, 1125 tweets in total, and conducted a manual dialect identification task by native speakers.",
-    "Volume": 311785.0,
+    "Volume": 312829.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
@@ -121,19 +123,18 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],
-    "Venue Title": "Cambridge University Press",
+    "Venue Title": "NLE",
     "Venue Type": "journal",
-    "Venue Name": "Natural Language Engineering (2021), Cambridge University Press",
+    "Venue Name": "Natural Language Engineering",
     "Authors": [
         "Maha J. Althobaiti"
     ],
     "Affiliations": [
-        "Department of Computer Science",
-        "College of Computers and Information Technology",
         "Taif University"
     ],
     "Abstract": "The wide usage of multiple spoken Arabic dialects on social networking sites stimulates increasing interest in Natural Language Processing (NLP) for dialectal Arabic (DA). Arabic dialects represent true linguistic diversity and differ from modern standard Arabic (MSA). In fact, the complexity and variety of these dialects make it insufficient to build one NLP system that is suitable for all of them. In comparison with MSA, the available datasets for various dialects are generally limited in terms of size, genre and scope. In this article, we present a novel approach that automatically develops an annotated country-level dialectal Arabic corpus and builds lists of words that encompass 15 Arabic dialects. The algorithm uses an iterative procedure consisting of two main components: automatic creation of lists for dialectal words and automatic creation of annotated Arabic dialect identification corpus. To our knowledge, our study is the first of its kind to examine and analyse the poor performance of the MSA part-of-speech tagger on dialectal Arabic contents and to exploit that in order to extract the dialectal words. The pointwise mutual information association measure and the geographical frequency of word occurrence online are used to classify dialectal words. The annotated dialectal Arabic corpus (Twt15DA), built using our algorithm, is collected from Twitter and consists of 311,785 tweets containing 3,858,459 words in total. We randomly selected a sample of 75 tweets per country, 1125 tweets in total, and conducted a manual dialect identification task by native speakers. The results show an average inter-annotator agreement score equal to 64%, which reflects satisfactory agreement considering the overlapping features of the 15 Arabic dialects.",

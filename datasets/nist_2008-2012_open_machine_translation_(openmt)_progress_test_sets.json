@@ -1,18 +1,22 @@
 {
     "Name": "NIST 2008-2012 Open Machine Translation (OpenMT) Progress Test Sets",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2013T07",
     "License": "LDC User Agreement",
     "Year": 2013,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "web pages",
+        "news articles"
+    ],
     "Domain": [
-        "web pages"
+        "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release contains 2,748 documents with corresponding source and reference files, the latter of which contains four independent human reference translations of the source data. The source data is comprised of Arabic and Chinese newswire and web data collected by LDC in 2007. The table below displays statistics by source, genre, documents, segments and source tokens.",
     "Volume": 2748.0,
@@ -29,12 +33,13 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "150.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

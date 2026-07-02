@@ -1,71 +1,74 @@
 {
     "Name": "Casablanca",
-    "Subsets": [
+    "Dialect Subsets": [
         {
-            "Name": "Algerian",
+            "Name": "Algeria",
             "Volume": 4.63,
             "Unit": "hours",
             "Dialect": "Algeria"
         },
         {
-            "Name": "Egyptian",
+            "Name": "Egypt",
             "Volume": 7.07,
             "Unit": "hours",
             "Dialect": "Egypt"
         },
         {
-            "Name": "Emirati",
-            "Volume": 6.0,
-            "Unit": "hours",
-            "Dialect": "United Arab Emirates"
-        },
-        {
-            "Name": "Jordanian",
+            "Name": "Jordan",
             "Volume": 6.0,
             "Unit": "hours",
             "Dialect": "Jordan"
         },
         {
-            "Name": "Mauritanian",
+            "Name": "Mauritania",
             "Volume": 5.83,
             "Unit": "hours",
             "Dialect": "Mauritania"
         },
         {
-            "Name": "Moroccan",
+            "Name": "Morocco",
             "Volume": 6.25,
             "Unit": "hours",
             "Dialect": "Morocco"
         },
         {
-            "Name": "Palestinian",
+            "Name": "Palestine",
             "Volume": 6.05,
             "Unit": "hours",
             "Dialect": "Palestine"
         },
         {
-            "Name": "Yemeni",
-            "Volume": 6.05,
+            "Name": "UAE",
+            "Volume": 6.0,
+            "Unit": "hours",
+            "Dialect": "United Arab Emirates"
+        },
+        {
+            "Name": "Yemen",
+            "Volume": 6.06,
             "Unit": "hours",
             "Dialect": "Yemen"
         }
     ],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/Casablanca",
-    "Link": "https://huggingface.co/datasets/UBC-NLP/Casablanca",
+    "Link": "https://www.dlnlp.ai/speech/casablanca",
     "License": "CC BY-NC-ND 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
-        "TV Channels"
+        "TV channels"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
-    "Description": "The largest fully supervised Arabic dialect speech dataset with 48 hours of human-transcribed audio covering 8 dialects and multiple annotation layers.",
-    "Volume": 47.89,
+    "Description": "Arabic speech dataset with eight dialects.",
+    "Volume": 48.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
@@ -73,20 +76,21 @@
     ],
     "Derived From": [],
     "Paper Title": "Casablanca: Data and Models for Multidialectal Arabic Speech Recognition",
-    "Paper Link": "https://arxiv.org/pdf/2410.04527",
+    "Paper Link": "https://doi.org/10.18653/v1/2024.emnlp-main.1211",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition",
         "dialect identification"
     ],
-    "Venue Title": "arxiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Bashar Talafha",
         "Karima Kadaoui",
@@ -103,7 +107,7 @@
         "Fakhraddin Alwajih",
         "Abdelrahman Mohamed",
         "Abdellah El Mekki",
-        "ElMoatez Billah Nagoudi",
+        "El Moatez Billah Nagoudi",
         "Saadia Benelhadj",
         "Hamzah A. Alsayadi",
         "Walid Al-Dhabyani",
@@ -122,9 +126,9 @@
         "Birzeit University",
         "JUST",
         "INSEA",
-        "Universit\u00e9 de Nouakchott",
+        "Université de Nouakchott",
         "ESI",
-        "Ain Shams Univ.",
+        "Ain Shams University",
         "Technische Hochschule Mittelhessen",
         "UM6P",
         "TEK-UP",

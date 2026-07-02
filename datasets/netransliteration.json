@@ -1,20 +1,23 @@
 {
     "Name": "NETransliteration",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/NETransliteration",
     "Link": "https://github.com/steveash/NETransliteration-COLING2018",
     "License": "MIT License",
     "Year": 2018,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "general"
     ],
-    "Description": "data files mined from wikidata",
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation"
+    ],
+    "Description": "new multilingual named entity transliteration datasets based on Wikidata",
     "Volume": 145186.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
@@ -29,20 +32,21 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "transliteration",
         "named entity recognition"
     ],
     "Venue Title": "COLING",
-    "Venue Type": "preprint",
+    "Venue Type": "conference",
     "Venue Name": "International Conference on Computational Linguistics",
     "Authors": [
         "Yuval Merhav",
         "Stephen Ash"
     ],
     "Affiliations": [
-        "Amazon Alexa AI; Amazon AWS AI"
+        "Amazon"
     ],
     "Abstract": "We analyze some of the fundamental design challenges that impact the development of a multilingual state-of-the-art named entity transliteration system, including curating bilingual named entity datasets and evaluation of multiple transliteration methods. We empirically evaluate the transliteration task using the traditional weighted finite state transducer (WFST) approach against two neural approaches: the encoder-decoder recurrent neural network method and the recent, non-sequential Transformer method. In order to improve availability of bilingual named entity transliteration datasets, we release personal name bilingual dictionaries mined from Wikidata for English to Russian, Hebrew, Arabic, and Japanese Katakana. Our code and dictionaries are publicly available.",
     "Added By": "Zaid Alyafeai"

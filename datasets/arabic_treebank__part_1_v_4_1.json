@@ -1,18 +1,21 @@
 {
     "Name": "Arabic Treebank: Part 1 v 4.1",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2010T13",
     "License": "LDC User Agreement",
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "ATB1 v 4.1 contains a total of 145,386 tokens before clitics are split, and 167,280 tokens after clitics are separated for the treebank annotation.",
     "Volume": 145386.0,
@@ -29,15 +32,24 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "4,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "information retrieval",
-        "information retrieval"
+        "part of speech tagging"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Seth Kulick",
+        "Fatma Gaddeche",
+        "Wigdan Mekki",
+        "Sondos Krouna",
+        "Basma Bouziri",
+        "Wajdi Zaghouani"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

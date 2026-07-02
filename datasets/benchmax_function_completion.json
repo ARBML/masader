@@ -1,19 +1,22 @@
 {
     "Name": "BenchMAX_Function_Completion",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Function_Completion",
     "Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Function_Completion",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "science"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "machine annotation",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "BenchMAX_Function_Completion is a dataset of BenchMAX, sourcing from humanevalplus, which evaluates the code generation capability in multilingual scenarios.",
     "Volume": 164.0,
@@ -26,19 +29,20 @@
         "humanevalplus"
     ],
     "Paper Title": "BenchMAX: A Comprehensive Multilingual Evaluation Suite for Large Language Models",
-    "Paper Link": "https://arxiv.org/pdf/2502.07346",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-emnlp.909",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "other"
+        "code generation"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Xu Huang",
         "Wenhao Zhu",

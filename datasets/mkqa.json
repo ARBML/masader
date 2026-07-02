@@ -1,17 +1,20 @@
 {
     "Name": "MKQA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/apple/mkqa",
     "Link": "https://github.com/apple/ml-mkqa",
     "License": "CC BY-SA 3.0",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "10k question-answer pairs aligned across 26 typologically diverse languages",
@@ -25,27 +28,26 @@
         "Natural Questions"
     ],
     "Paper Title": "MKQA: A Linguistically Diverse Benchmark for\r\nMultilingual Open Domain Question Answering",
-    "Paper Link": "https://arxiv.org/pdf/2007.15207.pdf",
+    "Paper Link": "https://doi.org/10.1162/tacl_a_00433",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "ArXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "ArXiv",
+    "Venue Title": "TACL",
+    "Venue Type": "journal",
+    "Venue Name": "Transactions of the Association for Computational Linguistics",
     "Authors": [
-        "S. Longpre",
+        "Shayne Longpre",
         "Yi Lu",
         "Joachim Daiber"
     ],
     "Affiliations": [
-        "",
-        "",
         "Apple"
     ],
     "Abstract": "Progress in cross-lingual modeling depends on challenging, realistic, and diverse evaluation sets. We introduce Multilingual Knowledge Questions and Answers (MKQA), an open-domain question answering evaluation set comprising 10k question-answer pairs aligned across 26 typologically diverse languages (260k question-answer pairs in total). The goal of this dataset is to provide a challenging benchmark for question answering quality across a wide set of languages. Answers are based on a language-independent data representation, making results comparable across languages and independent of language-specific passages. With 26 languages, this dataset supplies the widest range of languages to-date for evaluating question answering. We benchmark state-of-the-art extractive question answering baselines, trained on Natural Questions, including Multilingual BERT, and XLM-RoBERTa, in zero shot and translation settings. Results indicate this dataset is challenging, especially in low-resource languages.",

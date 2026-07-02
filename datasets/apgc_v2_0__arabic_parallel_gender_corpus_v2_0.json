@@ -1,20 +1,23 @@
 {
     "Name": "APGC v2.0: Arabic Parallel Gender Corpus v2.0",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://camel.abudhabi.nyu.edu/arabic-parallel-gender-corpus/",
     "License": "custom",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "The Arabic Parallel Gender Corpus v2.0 (APGC v2.0) is designed to support research on gender bias and personalization in natural language processing applications working on Arabic. It expands on Habash et al. (2019)\u2019s Arabic Parallel Gender Corpus (APGC v1.0) by adding 2nd person targets as well increasing the total number of sentences over 6.5 times, reaching over 590K words.",
+    "Description": "The Arabic Parallel Gender Corpus v2.0 (APGC v2.0) is designed to support research on gender bias and personalization in natural language processing applications working on Arabic. It expands on Habash et al. (2019)’s Arabic Parallel Gender Corpus (APGC v1.0) by adding 2nd person targets as well increasing the total number of sentences over 6.5 times, reaching over 590K words.",
     "Volume": 80326.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
@@ -25,19 +28,20 @@
         "APGC v1.0"
     ],
     "Paper Title": "The Arabic Parallel Gender Corpus 2.0: Extensions and Analyses",
-    "Paper Link": "https://arxiv.org/pdf/2110.09216.pdf",
+    "Paper Link": "https://aclanthology.org/2022.lrec-1.199",
     "Script": "Arab",
     "Tokenized": true,
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "gender identification"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Bashar Alhafni and Nizar Habash and Houda Bouamor."
     ],

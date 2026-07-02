@@ -1,18 +1,21 @@
 {
     "Name": "Arabic_Wikipedia_20230101_bots",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_bots",
     "Link": "https://hf.co/datasets/SaiedAlshahrani/Arabic_Wikipedia_20230101_bots",
     "License": "MIT License",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "Arabic_Wikipedia_20230101_bots is a dataset created using the Arabic Wikipedia articles, including the bot-generated articles, downloaded on the 1st of January 2023, and processed to train an Arabic RoBERTa model.",
     "Volume": 1000000.0,
@@ -31,13 +34,14 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
-    "Venue Title": "ArabicNLP 2023",
+    "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
-    "Venue Name": "The First Arabic Natural Language Processing Conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Saied Alshahrani",
         "Norah Alshahrani",

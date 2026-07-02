@@ -1,17 +1,20 @@
 {
     "Name": "XStoryCloze",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/juletxara/xstory_cloze",
     "Link": "https://huggingface.co/datasets/juletxara/xstory_cloze",
     "License": "CC BY-SA 4.0",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "XStoryCloze consists of the professionally translated version of the English StoryCloze dataset (Spring 2016 version) to 10 non-English languages. This dataset is released by Meta AI.",
@@ -25,19 +28,20 @@
         "StoryCloze"
     ],
     "Paper Title": "Few-shot Learning with Multilingual Generative Language Models",
-    "Paper Link": "https://arxiv.org/pdf/2112.10668",
+    "Paper Link": "https://doi.org/10.18653/v1/2022.emnlp-main.616",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "commonsense reasoning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Xi Victoria Lin",
         "Todor Mihaylov",
@@ -53,7 +57,7 @@
         "Sam Shleifer",
         "Punit Singh Koura",
         "Vishrav Chaudhary",
-        "Brian O\u2019Horo",
+        "Brian O’Horo",
         "Jeff Wang",
         "Luke Zettlemoyer",
         "Zornitsa Kozareva",

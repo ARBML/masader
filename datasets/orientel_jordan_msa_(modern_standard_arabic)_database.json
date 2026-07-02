@@ -1,18 +1,21 @@
 {
     "Name": "OrienTel Jordan MSA (Modern Standard Arabic) database",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-S0290/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2008,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "telephone conversations"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The OrienTel Jordan MSA (Modern Standard Arabic) database comprises 556 Jordanian speakers (288 males, 268 females) recorded over the Jordanian fixed and mobile telephone network.",
     "Volume": 28356.0,
@@ -26,13 +29,14 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "15,000.00\u20ac",
-    "Test Split": false,
+    "Cost": "15,000.00€",
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

@@ -1,18 +1,21 @@
 {
     "Name": "Egyptian_Arabic_Wikipedia_20230101",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/SaiedAlshahrani/Egyptian_Arabic_Wikipedia_20230101",
     "Link": "https://hf.co/datasets/SaiedAlshahrani/Egyptian_Arabic_Wikipedia_20230101",
     "License": "MIT License",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Egyptian_Arabic_Wikipedia_20230101 is a dataset created using the Egyptian Arabic Wikipedia articles, downloaded on the 1st of January 2023, and processed to train an Egyptian Arabic RoBERTa model.",
     "Volume": 728000.0,
@@ -31,13 +34,14 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
-    "Venue Title": "ArabicNLP 2023",
+    "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
-    "Venue Name": "The First Arabic Natural Language Processing Conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Saied Alshahrani",
         "Norah Alshahrani",

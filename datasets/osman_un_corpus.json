@@ -1,41 +1,47 @@
 {
     "Name": "OSMAN UN Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/osman_readability",
     "Link": "https://github.com/drelhaj/OsmanReadability",
     "License": "unknown",
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "commentary"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
-    "Description": "Arabic readability",
+    "Description": "It is a dataset of 73,000 parallel English and Arabic paragraphs from the United Nations (UN) corpus",
     "Volume": 73000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [
         "Lancaster University"
     ],
-    "Derived From": [],
-    "Paper Title": "OSMAN \u2013 A Novel Arabic Readability Metric",
+    "Derived From": [
+        "United Nations Parallel Corpus"
+    ],
+    "Paper Title": "OSMAN – A Novel Arabic Readability Metric",
     "Paper Link": "https://aclanthology.org/L16-1038.pdf",
     "Script": "Arab-Latin",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "readability assessment"
     ],
-    "Venue Title": "European Language Resources Association (ELRA)",
+    "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "European Language Resources Association (ELRA)",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Mahmoud El-Ha",
         "Paul Rayson"
@@ -43,6 +49,6 @@
     "Affiliations": [
         "Lancaster University"
     ],
-    "Abstract": "We present OSMAN (Open Source Metric for Measuring Arabic Narratives) - a novel open source Arabic readability metric and tool. It allows researchers to calculate readability for Arabic text with and without diacritics. OSMAN is a modified version of the conventional readability formulas such as Flesch and Fog. In our work we introduce a novel approach towards counting short, long and stress syllables in Arabic which is essential for judging readability of Arabic narratives. We also introduce an additional factor called \u201cFaseeh\u201d which considers aspects of script usually dropped in informal Arabic writing. To evaluate our methods we used Spearman\u2019s correlation metric to compare text readability for 73,000 parallel sentences from English and Arabic UN documents. The Arabic sentences were written with the absence of diacritics and in order to count the number of syllables we added the diacritics in using an open source tool called Mishkal. The results show that OSMAN readability formula correlates well with the English ones making it a useful tool for researchers and educators working with Arabic tex",
+    "Abstract": "We present OSMAN (Open Source Metric for Measuring Arabic Narratives) - a novel open source Arabic readability metric and tool. It allows researchers to calculate readability for Arabic text with and without diacritics. OSMAN is a modified version of the conventional readability formulas such as Flesch and Fog. In our work we introduce a novel approach towards counting short, long and stress syllables in Arabic which is essential for judging readability of Arabic narratives. We also introduce an additional factor called “Faseeh” which considers aspects of script usually dropped in informal Arabic writing. To evaluate our methods we used Spearman’s correlation metric to compare text readability for 73,000 parallel sentences from English and Arabic UN documents. The Arabic sentences were written with the absence of diacritics and in order to count the number of syllables we added the diacritics in using an open source tool called Mishkal. The results show that OSMAN readability formula correlates well with the English ones making it a useful tool for researchers and educators working with Arabic tex",
     "Added By": "Emad A. Alghamdi"
 }

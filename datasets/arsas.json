@@ -1,18 +1,21 @@
 {
     "Name": "ArSAS",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArSAS",
     "Link": "https://homepages.inf.ed.ac.uk/wmagdy/resources.htm",
     "License": "unknown",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A set of 21K Arabic tweets labeled for 4 classes of sentiment and 6 classes of speech-act",
     "Volume": 21000.0,
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],
@@ -43,7 +47,6 @@
     ],
     "Affiliations": [
         "University of British Columbia",
-        "",
         "The University of Edinburgh"
     ],
     "Abstract": "Speech acts are the type of communicative acts within a conversation. Speech act recognition (aka classification) has been an active research in recent years. However, much less attention was directed towards this task in Arabic due to the lack of resources for training an Arabic speech-act classifier. In this paper we present ArSAS , an Arabic corpus of tweets annotated for the tasks of speech-act recognition and sentiment analysis. A large set of 21k Arabic tweets covering multiple topics were collected, prepared and annotated for six different classes of speech-act labels, such as expression, assertion, and question. In addition, the same set of tweets were also annotated with four classes of sentiment. We aim to have this corpus promoting the research in both speech-act recognition and sentiment analysis tasks for Arabic language.",

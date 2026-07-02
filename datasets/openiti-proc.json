@@ -1,18 +1,23 @@
 {
     "Name": "OpenITI-proc",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://zenodo.org/record/2535593#.YWh7FS8RozU",
     "License": "CC BY 4.0",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "books",
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "history",
+        "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "A linguistically annotated version of the OpenITI corpus, with annotations for lemmas, POS tags, parse trees, and morphological segmentation",
     "Volume": 1500000000.0,
@@ -31,7 +36,8 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
@@ -41,11 +47,18 @@
     "Authors": [
         "Yonatan Belinkov",
         "Alexander Magidow",
-        "Alberto Barr\u00f3n-Cede\u00f1o",
+        "Alberto Barrón-Cedeño",
         "Avi Shmidman",
         "Maxim Romanov"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "MIT Computer Science and Artificial Intelligence Laboratory",
+        "University of Rhode Island",
+        "Qatar Computing Research Institute",
+        "Hamad Bin Khalifa University",
+        "Bar-Ilan University",
+        "University of Vienna"
+    ],
     "Abstract": "Arabic is a widely-spoken language with a long and rich history, but existing corpora and language technology focus mostly on modern Arabic and its varieties. Therefore, studying the history of the language has so far been mostly limited to manual analyses on a small scale. In this work, we present a large-scale historical corpus of the written Arabic language, spanning 1400 years. We describe our efforts to clean and process this corpus using Arabic NLP tools, including the identification of reused text. We study the history of the Arabic language using a novel automatic periodization algorithm, as well as other techniques. Our findings confirm the established division of written Arabic into Modern Standard and Classical Arabic, and confirm other established periodizations, while suggesting that written Arabic may be divisible into still further periods of development.",
     "Added By": "Yonatan Belinkov"
 }

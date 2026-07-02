@@ -1,17 +1,20 @@
 {
     "Name": "Phoneme-UD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/suchirsalhan/Phonemized-UD",
     "Link": "https://huggingface.co/datasets/suchirsalhan/Phonemized-UD",
     "License": "MIT License",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "education"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A phonemic dataset of child-directed and child-produced speech across 31 languages.",
@@ -25,21 +28,22 @@
         "Universal Dependencies."
     ],
     "Paper Title": "IPA CHILDES & G2P+: Feature-Rich Resources for Cross-Lingual Phonology and Phonemic Language Modeling",
-    "Paper Link": "https://arxiv.org/pdf/2504.03036",
+    "Paper Link": "https://aclanthology.org/2025.conll-1.33",
     "Script": "Latin",
     "Tokenized": true,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "spoken language modeling"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "CoNLL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Computational Natural Language Learning",
     "Authors": [
-        "Z\u00e9bulon Goriely",
+        "Zébulon Goriely",
         "Paula Buttery"
     ],
     "Affiliations": [

@@ -1,18 +1,22 @@
 {
     "Name": "Arabic Speech Commands Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Speech_Commands_Dataset",
     "Link": "https://github.com/abdulkaderghandoura/arabic-speech-commands-dataset",
     "License": "CC BY 4.0",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "studio recordings",
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This dataset is designed to help train simple machine learning models that serve educational and research purposes in the speech recognition domain",
     "Volume": 3.0,
@@ -29,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
@@ -42,10 +47,10 @@
         "Oumayma Al Dakkak"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Syrian Virtual University",
+        "Innopolis University",
+        "Higher Institute for Applied Sciences and Technology"
     ],
-    "Abstract": "The introduction of the Google Speech Commands dataset accelerated research and resulted in a variety of new deep learning approaches that address keyword spotting tasks. The main contribution of this work is the building of an Arabic Speech Commands dataset, a counterpart to Google\u2019s dataset. Our dataset consists of 12000 instances, collected from 30 contributors, and grouped into 40 keywords. We also report different experiments to benchmark this dataset using classical machine learning and deep learning approaches, the best of which is a Convolutional Neural Network with Mel-Frequency Cepstral Coefficients that achieved an accuracy of 98%. Additionally, we point out some key ideas to be considered in such tasks.",
+    "Abstract": "The introduction of the Google Speech Commands dataset accelerated research and resulted in a variety of new deep learning approaches that address keyword spotting tasks. The main contribution of this work is the building of an Arabic Speech Commands dataset, a counterpart to Google’s dataset. Our dataset consists of 12000 instances, collected from 30 contributors, and grouped into 40 keywords. We also report different experiments to benchmark this dataset using classical machine learning and deep learning approaches, the best of which is a Convolutional Neural Network with Mel-Frequency Cepstral Coefficients that achieved an accuracy of 98%. Additionally, we point out some key ideas to be considered in such tasks.",
     "Added By": ""
 }

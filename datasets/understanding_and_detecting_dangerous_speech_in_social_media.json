@@ -1,21 +1,25 @@
 {
     "Name": "Understanding and Detecting Dangerous Speech in Social Media",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Dangerous_Dataset",
     "Link": "https://github.com/UBC-NLP/Arabic-Dangerous-Dataset",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "society",
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Dangerous speech detection",
-    "Volume": 5000.0,
+    "Volume": 5011.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
     "Provider": [
@@ -23,19 +27,20 @@
     ],
     "Derived From": [],
     "Paper Title": "Understanding and Detecting Dangerous Speech in Social Media",
-    "Paper Link": "https://arxiv.org/pdf/2005.06608.pdf",
+    "Paper Link": "https://aclanthology.org/2020.osact-1.6",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "hate speech detection"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Title": "OSACT",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
     "Authors": [
         "Ali Alshehri",
         "El Moatez Billah Nagoudi",

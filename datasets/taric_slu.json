@@ -1,17 +1,20 @@
 {
     "Name": "TARIC-SLU",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://demo-lia.univ-avignon.fr/taric-dataset/",
     "License": "CC BY-NC 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Tunisian railway-transport conversations annotated with dialogue acts and slots for SLU benchmarking.",
@@ -21,7 +24,7 @@
     "Provider": [
         "LIA, Avignon University",
         "Elyadata",
-        "LTCI, T\u00e9l\u00e9com Paris",
+        "LTCI, Télécom Paris",
         "Mila-Quebec AI Institute"
     ],
     "Derived From": [
@@ -34,20 +37,21 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "Language Resources and Evaluation Conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Salima Mdhaffar",
         "Fethi Bougares",
         "Renato De Mori",
         "Salah Zaiem",
         "Mirco Ravanelli",
-        "Yannick Est\u00e8ve"
+        "Yannick Estève"
     ],
     "Affiliations": [
         "Avignon University",

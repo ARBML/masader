@@ -1,0 +1,57 @@
+{
+    "Name": "ArPoMeme",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://forms.gle/W7xpLt7io326bR3A6",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "politics"
+    ],
+    "Form": "images",
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
+    ],
+    "Description": "Arabic multimodal dataset for political ideology and polarization",
+    "Volume": 7300.0,
+    "Unit": "images",
+    "Ethical Risks": "High",
+    "Provider": [
+        "MARSAD Lab"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArPoMeme: An Annotated Arabic Multimodal Dataset for Political Ideology and Polarization",
+    "Paper Link": "https://arxiv.org/pdf/2605.20967v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "stance detection"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Kais Attia",
+        "Md. Rafiul Biswas",
+        "Fadhl Eryani"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University",
+        "University of Tübingen"
+    ],
+    "Abstract": "Memes have become a prominent medium of political communication in the Arab world, reflecting how humor, imagery, and text interact to express ideological and cultural positions. Despite the centrality of memes to online political discourse, there is a lack of systematically curated resources for analyzing their multimodal and ideological dimensions in Arabic. This paper presents ArPoMeme, a large-scale dataset of approximately 7,300 Arabic political memes categorized by ideological orientation, including Leftist, Islamist, Pan-Arabist, and Satirical perspectives. The dataset captures the diversity of Arabic meme ecosystems by grounding classification in the self-identification of public Facebook pages and groups that produce and disseminate these memes. To ensure both scale and accuracy, we designed a semi-automated data collection pipeline combining Playwright-based Facebook scraping with Google Drive synchronization, followed by text extraction using the Qwen2.5-VL-7B vision–language model. The extracted text was manually verified and annotated for three polarization dimensions: Us vs. Them framing, Hostility toward out-groups, and Calls to action. Annotation was conducted through a custom Streamlit-based interface supporting distributed labeling, real-time tracking, and version control. The resulting dataset links visual content, textual messages, and ideological orientation, enabling fine-grained analysis of political antagonism, mobilization, and humor. Quantitative analysis of the annotated corpus reveals strong asymmetries in antagonistic framing across ideological groups, with Islamist and satirical memes exhibiting the highest levels of hostility and mobilization cues. The dataset and the annotation tool offers a reproducible and publicly available resource for studying Arabic political discourse, multimodal ideology detection, and polarization dynamics.",
+    "Added By": "Zaid Alyafeai"
+}

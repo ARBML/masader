@@ -1,19 +1,22 @@
 {
     "Name": "HumanEval-XL",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/floatai/HumanEval-XL",
     "Link": "https://github.com/FloatAI/humaneval-xl",
     "License": "Apache-2.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "HumanEval-XL is a massively multilingual code generation benchmark connecting 23 natural languages and 12 programming languages.",
     "Volume": 80.0,
@@ -26,19 +29,20 @@
         "HumanEval"
     ],
     "Paper Title": "HumanEval-XL: A Multilingual Code Generation Benchmark for Cross-lingual Natural Language Generalization",
-    "Paper Link": "https://arxiv.org/pdf/2402.16694",
+    "Paper Link": "https://aclanthology.org/2024.lrec-main.735",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "code generation"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "LREC-COLING",
+    "Venue Type": "conference",
+    "Venue Name": "Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
     "Authors": [
         "Qiwei Peng",
         "Yekun Chai",

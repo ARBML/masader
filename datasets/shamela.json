@@ -1,18 +1,24 @@
 {
     "Name": "Shamela",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/OpenArabic/",
     "License": "unknown",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "books",
+        "web crawls"
+    ],
     "Domain": [
-        "books"
+        "religion",
+        "literature",
+        "history"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "a large-scale, historical corpus of Arabic of about 1 billion\r\nwords from diverse periods of time",
     "Volume": 6100.0,
@@ -31,7 +37,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
@@ -46,11 +53,12 @@
         "Moshe Koppel"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "MIT Computer Science and Artificial Intelligence Laboratory",
+        "University of Rhode Island",
+        "The Humboldt Chair of Digital Humanities",
+        "Leipzig University",
+        "Bar-Ilan University",
+        "Dicta"
     ],
     "Abstract": "Arabic is a widely-spoken language with a rich and long history spanning more than fourteen centuries. Yet existing Arabic corpora largely focus on the modern period or lack sufficient diachronic information. We develop a large-scale, historical corpus of Arabic of about 1 billion words from diverse periods of time. We clean this corpus, process it with a morphological analyzer, and enhance it by detecting parallel passages and automatically dating undated texts. We demonstrate its utility with selected case-studies in which we show its application to the digital humanities.",
     "Added By": "Zaid Alyafeai"

@@ -1,21 +1,24 @@
 {
     "Name": "Database of Foreign Names in Arabic",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-L0124/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This database covers non-Arabic names, their Arabic equivalents, and Arabic script variants for each name (with the most important variant given first).",
-    "Volume": 0.0,
+    "Volume": 25000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [],
@@ -26,13 +29,14 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "3,750.00\u20ac",
-    "Test Split": false,
+    "Cost": "3,750.00€",
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

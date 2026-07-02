@@ -1,18 +1,21 @@
 {
     "Name": "MoArLex",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/Mohabyoussef09/MoArLex",
     "License": "CC BY 3.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "MoArLex is a large-scale Arabic sentiment lexicon developed by expanding an existing seed lexicon, NileULex, using word embeddings from AraVec (trained on Arabic Twitter data). The lexicon includes sentiment words commonly used in social media, including various forms of dialectal Arabic and even misspelled or emphasized words typical of social media communication. It covers positive, negative, and strong positive/negative sentiment labels.",
     "Volume": 36775.0,
@@ -31,19 +34,19 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],
     "Venue Title": "ACLing",
     "Venue Type": "conference",
-    "Venue Name": "4th International Conference on Arabic Computational Linguistics",
+    "Venue Name": "International Conference on AI in Computational Linguistics",
     "Authors": [
         "Mohab Youssef and Samhaa R. El-Beltagy"
     ],
     "Affiliations": [
-        "Nile University",
-        "Egypt"
+        "Nile University"
     ],
     "Abstract": "MoArLex presents a novel approach to building a large-scale Arabic sentiment lexicon by automatically expanding an existing seed lexicon (NileULex) using word embeddings. The lexicon is designed to be used for sentiment analysis tasks on Arabic social media data and includes dialectal and colloquial terms commonly used in online communication. It demonstrates high accuracy compared to lexicons generated through machine translation and other automated methods.",
     "Added By": "Maryam Al Emadi"

@@ -1,20 +1,24 @@
 {
     "Name": "AFRD: Arabic Fake Reviews Detection",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Noor0/AFRD_Arabic-Fake-Reviews-Detection",
     "Link": "https://github.com/NoorAmer0/AFRD-arabic-fake-reviews-dataset",
     "License": "CC BY 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Saudi Arabia",
+    "Source": [
+        "reviews",
+        "manual construction"
+    ],
     "Domain": [
-        "reviews"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "Arabic Fake Reviews Detection (AFRD) is the first gold-standard dataset comprised of three domains, namely, hotel, restaurant, and product domains. Each domain has a set of attributes, the reviewer\u2019s age, the reviewer\u2019s gender, the service name, the review\u2019s text, the rating, the text\u2019s polarity, and the review\u2019s class. The overall balanced dataset is consisted of 1728 reviews, 310 reviews for the hotel domain, 714 reviews for the restaurant domain, and 704 reviews for the product domain, the two classes in each domain are balanced. However, there are unbalanced version with 1958 reviews.",
+    "Description": "Arabic Fake Reviews Detection (AFRD) is the first gold-standard dataset comprised of three domains, namely, hotel, restaurant, and product domains. Each domain has a set of attributes, the reviewer’s age, the reviewer’s gender, the service name, the review’s text, the rating, the text’s polarity, and the review’s class. The overall balanced dataset is consisted of 1728 reviews, 310 reviews for the hotel domain, 714 reviews for the restaurant domain, and 704 reviews for the product domain, the two classes in each domain are balanced. However, there are unbalanced version with 1958 reviews.",
     "Volume": 1958.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
@@ -29,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "dialect identification",
@@ -38,7 +43,7 @@
     ],
     "Venue Title": "JKSU",
     "Venue Type": "journal",
-    "Venue Name": "Journal of King Saud University - Computer and Information Sciences",
+    "Venue Name": "Journal of King Saud University",
     "Authors": [
         "Nour Qandos",
         "Ghadir Hamad",
@@ -47,7 +52,9 @@
         "Waad Alharbi",
         "Arwa A. Albelaihi"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Qassim University"
+    ],
     "Abstract": "Fake reviews in e-commerce can lead to customer deception and financial losses. Despite the importance of fake reviews detection, studies for Arabic language are scarce due to the lack of comprehensive datasets. This study addresses this gap by introducing a full-gold standard dataset, the Arabic Fake Reviews Detection (AFRD), across hotels, restaurants, and product domains. To identify the most effective model for each domain in the context of fake review detection, this research employed Bi-LSTM, Bi-GRU, CNN+Bi-LSTM, and CNN+Bi-GRU models. These models were then used in a cascading approach called Multiscale Cascaded domain-based (MCDB), which transfers knowledge from one domain to enhance results in other domains. Experimental results demonstrated that the MCDB approach improved the results of the models by 2.09% to 7.8% in terms of accuracy. The introduced dataset can be used to build effective models for Arabic e-commerce platforms, in addition to further Natural Language Processing applications. This study demonstrates that leveraging domain-specific datasets in a cascading manner can significantly improve performance, holding substantial implications for future research in problems with limited-size datasets.",
     "Added By": "Nour Qandos"
 }

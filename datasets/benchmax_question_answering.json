@@ -1,17 +1,20 @@
 {
     "Name": "BenchMAX_Question_Answering",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Question_Answering",
     "Link": "https://huggingface.co/datasets/LLaMAX/BenchMAX_Question_Answering",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "BenchMAX_Question_Answering is a dataset of BenchMAX for evaluating the long-context capability of LLMs in multilingual scenarios. The subtasks are similar to the subtasks in RULER. The data is sourcing from UN Parallel Corpus and xquad.",
@@ -26,19 +29,20 @@
         "xquad"
     ],
     "Paper Title": "BenchMAX: A Comprehensive Multilingual Evaluation Suite for Large Language Models",
-    "Paper Link": "https://arxiv.org/pdf/2502.07346",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-emnlp.909",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Xu Huang",
         "Wenhao Zhu",

@@ -1,18 +1,22 @@
 {
     "Name": "Language Understanding Annotation Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009T10",
     "License": "LDC User Agreement",
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles",
+        "TV channels"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The resulting corpus contains over 9000 words of English text (6949 words) and Arabic text (2183 words) annotated for committed belief, event and entity coreference, dialog acts and temporal relations.",
     "Volume": 2183.0,
@@ -29,14 +33,23 @@
     "Host": "LDC",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "coreference resolution"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mona Diab",
+        "Bonnie Dorr",
+        "Lori Levin",
+        "Teruko Mitamura",
+        "Rebecca Passonneau",
+        "Owen Rambow",
+        "Lance Ramshaw"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

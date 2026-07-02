@@ -1,18 +1,22 @@
 {
     "Name": "SAD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/SAD",
     "Link": "http://www.cs.stir.ac.uk/~lss/arabic/",
     "License": "unknown",
     "Year": 2014,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "studio recordings",
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The Arabic speech corpus for isolated words contains 9992 utterances of 20 words spoken by 50 native male Arabic speakers.",
     "Volume": 6.0,
@@ -29,7 +33,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
@@ -37,12 +42,11 @@
     "Venue Type": "conference",
     "Venue Name": "International Conference on Artificial Neural Networks",
     "Authors": [
-        "A. Alalshekmubarak",
+        "Abdulrahman Alalshekmubarak",
         "Leslie S. Smith"
     ],
     "Affiliations": [
-        "",
-        ""
+        "University of Stirling"
     ],
     "Abstract": "Designing noise-resilient systems is a major challenge in the field of automated speech recognition (ASR). These systems are crucial for real-world applications where high levels of noise tend to be present. We introduce a noise robust system based on Echo State Networks and Extreme Kernel machines which we call ESNEKM. To evaluate the performance of the proposed system, we used our recently released public Arabic speech dataset and the well-known spoken Arabic digits (SAD) dataset. Different feature extraction methods considered in this study include mel-frequency cepstral coefficients (MFCCs), perceptual linear prediction (PLP) and RASTA- perceptual linear prediction. These extracted features were fed to the ESNEKM and the result compared with a baseline hidden Markov model (HMM), so that nine models were compared in total. ESNEKM models outperformed HMM models under all the feature extraction methods, noise levels, and noise types. The best performance was obtained by the model that combined RASTA-PLP with ESNEKM.",
     "Added By": "Zaid Alyafeai"

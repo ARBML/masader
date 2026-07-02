@@ -1,0 +1,55 @@
+{
+    "Name": "AuSTR",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/Fatima-Haouari/AuSTR",
+    "License": "unknown",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media",
+        "public datasets"
+    ],
+    "Domain": [
+        "politics"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Stance dataset for authorities in Arabic tweets.",
+    "Volume": 409.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "Qatar University"
+    ],
+    "Derived From": [
+        "AraFacts"
+    ],
+    "Paper Title": "Detecting Stance of Authorities towards Rumors in Arabic Tweets: A Preliminary Study",
+    "Paper Link": "https://arxiv.org/pdf/2301.05863v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "stance detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Fatima Haouari",
+        "Tamer Elsayed"
+    ],
+    "Affiliations": [
+        "Qatar University"
+    ],
+    "Abstract": "A myriad of studies addressed the problem of rumor verification in Twitter by either utilizing evidence from the propagation networks or external evidence from the Web. However, none of these studies exploited evidence from trusted authorities. In this paper, we define the task of detecting the stance of authorities towards rumors in tweets, i.e., whether a tweet from an authority agrees, disagrees, or is unrelated to the rumor. We believe the task is useful to augment the sources of evidence utilized by existing rumor verification systems. We construct and release the first Authority STance towards Rumors (AuSTR) dataset, where evidence is retrieved from authority timelines in Arabic Twitter. Due to the relatively limited size of our dataset, we study the usefulness of existing datasets for stance detection in our task. We show that existing datasets are somewhat useful for the task; however, they are clearly insufficient, which motivates the need to augment them with annotated data constituting stance of authorities from Twitter.",
+    "Added By": "Zaid Alyafeai"
+}

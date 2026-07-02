@@ -1,18 +1,21 @@
 {
     "Name": "AQQAC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AQQAC",
     "Link": "https://archive.researchdata.leeds.ac.uk/464/1/AAQQAC.XML",
     "License": "CC BY 4.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "books"
+    ],
     "Domain": [
-        "other"
+        "religion"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "QQAC is a collection of approximately 2224 questions and answers about Al-Al-Quran. Each question and answer is annotated with the question ID, question word (particles), chapter number, verse number, question topic, question type, Al-Quran ontology concepts (Alqahtani & Atwell, 2018) and question source. The aim of this corpus is to provide a Question-Answering taxonomy for questions about Al-Quran.",
     "Volume": 1224.0,
@@ -29,18 +32,21 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "",
+    "Venue Title": "other",
     "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [
         "Alqahtani",
         "Mohammad and Atwell"
     ],
-    "Affiliations": [],
-    "Abstract": "AQQAC is a collection of approximately 2224 questions and answers about Al-Al-Quran. Each question and answer is annotated with the question ID, question word (particles), chapter number, verse number, question topic, question type, Al-Quran ontology concepts (Alqahtani & Atwell, 2018) and question source. The aim of this corpus is to provide a Question-Answering taxonomy for questions about Al-Quran. Additionally, this corpus might be used as a data set for testing and evaluating Islamic IR systems. The text of Al-Quran questions and answers were extracted from trusted two islamic sources: (1000 Su'al Wa Jawab Fi ALKORAN) was compiled by the famous Islamic scholar Ashur (2001). This book contains 1000 questions and answers about Al-Quran written in the Arabic language. Islam \u2013 Al-Quran and Tafseer is a website about Al-Quran that includes a description and a translation of Al-Quran and the reciting rules, the \u201cTajweed\u201d. Additionally, this website has approximately 1224 questions and answers about Al-Quran in the Arabic language extracted from the Altabari Tafseer. Currently, this dataset contains 1224 annotated question-answers and the missing data that hasn\u2019t been shared is due to copyright concerns.",
+    "Affiliations": [
+        "University of Leeds"
+    ],
+    "Abstract": "AQQAC is a collection of approximately 2224 questions and answers about Al-Al-Quran. Each question and answer is annotated with the question ID, question word (particles), chapter number, verse number, question topic, question type, Al-Quran ontology concepts (Alqahtani & Atwell, 2018) and question source. The aim of this corpus is to provide a Question-Answering taxonomy for questions about Al-Quran. Additionally, this corpus might be used as a data set for testing and evaluating Islamic IR systems. The text of Al-Quran questions and answers were extracted from trusted two islamic sources: (1000 Su'al Wa Jawab Fi ALKORAN) was compiled by the famous Islamic scholar Ashur (2001). This book contains 1000 questions and answers about Al-Quran written in the Arabic language. Islam – Al-Quran and Tafseer is a website about Al-Quran that includes a description and a translation of Al-Quran and the reciting rules, the “Tajweed”. Additionally, this website has approximately 1224 questions and answers about Al-Quran in the Arabic language extracted from the Altabari Tafseer. Currently, this dataset contains 1224 annotated question-answers and the missing data that hasn’t been shared is due to copyright concerns.",
     "Added By": "Abdelrahman Rezk"
 }

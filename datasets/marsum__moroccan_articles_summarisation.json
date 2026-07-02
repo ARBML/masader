@@ -1,25 +1,28 @@
 {
     "Name": "MArSUM: Moroccan Articles Summarisation",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/MArSum",
     "Link": "https://github.com/KamelGaanoun/MoroccanSummarization",
     "License": "CC BY 4.0",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "MArSUM is the first open corpus destinated for Moroccan dialect text summarization. The articles are retrieved from the GOUD.ma website and filtered to retain only Moroccan dialect. We have compiled a corpus of almost 20k articles with their titles.",
     "Volume": 20000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
-        "INSEA-Morocco (Institut Nationale de Statistiques et d'Economie Appliqu\u00e9e)"
+        "INSEA-Morocco (Institut Nationale de Statistiques et d'Economie Appliquée)"
     ],
     "Derived From": [],
     "Paper Title": "Automatic Text Summarization for Moroccan Arabic Dialect Using an Artificial Intelligence Approach",
@@ -29,11 +32,12 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "summarization"
     ],
-    "Venue Title": "CBI'22",
+    "Venue Title": "CBI",
     "Venue Type": "conference",
     "Venue Name": "International Conference of Business Intelligence",
     "Authors": [

@@ -1,18 +1,21 @@
 {
     "Name": "PSL-STEM",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/fidaakh/STEM_data",
     "Link": "https://huggingface.co/datasets/fidaakh/STEM_data",
     "License": "unknown",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Palestine",
+    "Source": [
+        "studio recordings"
+    ],
     "Domain": [
-        "other"
+        "education",
+        "science"
     ],
     "Form": "images",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Dataset of 41 mathematical gesture classes in Palestinian Sign Language for hard-of-hearing education.",
@@ -30,13 +33,14 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sign language recognition"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Name": "arXiv",
     "Authors": [
         "Fidaa khandaqji",
         "Huthaifa I. Ashqar",

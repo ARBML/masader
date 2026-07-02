@@ -1,6 +1,6 @@
 {
     "Name": "PALM",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Egypt",
             "Volume": 1480.0,
@@ -146,16 +146,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A culturally inclusive and linguistically diverse Arabic instruction dataset covering all 22 Arab countries in both MSA and dialectal Arabic.",
-    "Volume": 17411.0,
+    "Volume": 17971.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
@@ -163,19 +165,20 @@
     ],
     "Derived From": [],
     "Paper Title": "Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs",
-    "Paper Link": "https://arxiv.org/pdf/2503.00151",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.acl-long.1579",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
         "Fakhraddin Alwajih",
         "Abdellah El Mekki",

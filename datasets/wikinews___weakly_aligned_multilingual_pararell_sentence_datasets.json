@@ -1,20 +1,22 @@
 {
     "Name": "Wikinews - weakly aligned multilingual pararell sentence datasets",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Fumika/Wikinews-multilingual",
     "Link": "https://huggingface.co/datasets/Fumika/Wikinews-multilingual",
     "License": "CC BY 2.5",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "news articles",
         "wikipedia"
     ],
+    "Domain": [
+        "news"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Multilingual aligned news articles from WikiNews in 34 languages.",
     "Volume": 73.0,
@@ -25,20 +27,21 @@
     ],
     "Derived From": [],
     "Paper Title": "Linear Cross-Lingual Mapping of Sentence Embeddings",
-    "Paper Link": "https://arxiv.org/pdf/2305.14256",
+    "Paper Link": "https://doi.org/10.18653/v1/2024.findings-acl.486",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "cross-lingual information retrieval",
         "language modeling"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Association for Computational Linguistics",
     "Authors": [
         "Oleg Vasilyev",
         "Fumika Isono",

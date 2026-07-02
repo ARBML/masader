@@ -1,18 +1,21 @@
 {
     "Name": "POLYGLOT-NER",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://www3.cs.stonybrook.edu/~polyglot/ner2/",
     "License": "unknown",
     "Year": 2014,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "Polyglot-NER A training dataset automatically generated from Wikipedia and Freebase the task of named entity recognition. The dataset contains the basic Wikipedia based training data for 40 languages we have (with coreference resolution) for the task of named entity recognition. The details of the procedure of generating them is outlined in Section 3 of the paper (https://arxiv.org/pdf/1410.3791). Each config contains the data corresponding to a different language. For example, \"es\" includes only spanish examples.",
     "Volume": 10000144.0,
@@ -23,19 +26,20 @@
     ],
     "Derived From": [],
     "Paper Title": "POLYGLOT-NER: Massive Multilingual Named Entity Recognition",
-    "Paper Link": "https://arxiv.org/pdf/1410.3791.pdf",
+    "Paper Link": "https://doi.org/10.1137/1.9781611974010.66",
     "Script": "Arab-Latin",
     "Tokenized": true,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Title": "SDM",
+    "Venue Type": "conference",
+    "Venue Name": "SIAM International Conference on Data Mining",
     "Authors": [
         "Rami Al-Rfou",
         "Vivek Kulkarni",

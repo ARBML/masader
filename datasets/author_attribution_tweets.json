@@ -1,18 +1,21 @@
 {
     "Name": "Author Attribution Tweets",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Author_Attribution_Tweets",
     "Link": "https://fada.birzeit.edu/handle/20.500.11889/6743",
     "License": "unknown",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "consists of 71,397 tweets for 45 authors for MSA collected from twitter.",
     "Volume": 71397.0,
@@ -29,11 +32,12 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "authorship attribution"
     ],
-    "Venue Title": "",
+    "Venue Title": "other",
     "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [
@@ -43,18 +47,7 @@
         "ADNAN YAHYA"
     ],
     "Affiliations": [
-        "Department of Electrical and Computer Engineering",
-        "Birzeit University",
-        "Palestine",
-        "Department of Electrical and Computer Engineering",
-        "Birzeit University",
-        "Palestine",
-        "Department of Electrical and Computer Engineering",
-        "Birzeit University",
-        "Palestine",
-        "Department of Electrical and Computer Engineering",
-        "Birzeit University",
-        "Palestine"
+        "Birzeit University"
     ],
     "Abstract": "Text data, including short texts, constitute a major share of web content. The availability of this data to billions of users triggers\nfrequent plagiarism attacks. Authorship Attribution (AA) seeks to identify the most probable author of a given text based on similarity\nto the writing style of potential authors. In this paper, we approach AA as a writing style profile generation process, where we group\ntext instances for each author into a single profile. We use Twitter as the source for our short Modern Standard Arabic (MSA) texts.\nNumerous experiments with various training approaches, tools and features allowed us to settle on a text representation method that\nrelies on text concatenation of Arabic tweets to form chunks, which are then duplicated to reach a precalculated length. These chunks\nare used to train machine learning models for our 45 author profiles. This allowed us to achieve accuracies up to 99%, which compares\nfavorably with the best results reported in the literature",
     "Added By": "Zaid Alyafeai"

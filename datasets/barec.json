@@ -1,21 +1,24 @@
 {
     "Name": "BAREC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/CAMeL-Lab/BAREC-Corpus-v1.0",
     "Link": "http://barec.camel-lab.com",
     "License": "CC BY-SA 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "public datasets",
         "LLM",
         "web pages",
         "wikipedia"
     ],
+    "Domain": [
+        "education"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A large-scale, fine-grained Arabic readability corpus with 69K sentences across 19 levels, covering diverse genres and education stages.",
@@ -34,19 +37,20 @@
         "LK Hadith Corpus"
     ],
     "Paper Title": "A Large and Balanced Corpus for Fine-grained Arabic Readability Assessment",
-    "Paper Link": "https://arxiv.org/pdf/2502.13520",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-acl.842",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "readability assessment"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Association for Computational Linguistics",
     "Authors": [
         "Khalid N. Elmadani",
         "Nizar Habash",

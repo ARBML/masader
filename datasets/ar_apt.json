@@ -1,0 +1,57 @@
+{
+    "Name": "Ar-APT",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/Saleh-Almohaimeed/Ar-APT",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "LLM annotation"
+    ],
+    "Description": "Datasets for AI-generated and AI-polished Arabic text detection.",
+    "Volume": 16400.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Saud University",
+        "Institution of Public Administration"
+    ],
+    "Derived From": [],
+    "Paper Title": "AI Text Detectors and the Misclassification of Slightly Polished Arabic Text",
+    "Paper Link": "https://arxiv.org/pdf/2511.16690v2",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "AI-generated text detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Saleh Almohaimeed",
+        "Saad Almohaimeed",
+        "Mousa Jari",
+        "Khaled A. Alobaid",
+        "Fahad Alotaibi"
+    ],
+    "Affiliations": [
+        "King Saud University",
+        "Institution of Public Administration"
+    ],
+    "Abstract": "Many AI detection models have been developed to counter the presence of articles created by artificial intelligence (AI). However, if a human-authored article is slightly polished by AI, a shift will occur in the borderline decision of these AI detection models, leading them to consider it as AI-generated article. This misclassification may result in falsely accusing authors of AI plagiarism and harm the credibility of AI detectors. In English, some efforts were made to meet this challenge, but not in Arabic. In this paper, we generated two datasets. The first dataset contains 800 Arabic articles, half AI-generated and half human-authored. We used it to evaluate 14 Large Language models (LLMs) and commercial AI detectors to assess their ability in distinguishing between human-authored and AI-generated articles. The best 8 models were chosen to act as detectors for our primary concern, which is whether they would consider slightly polished human-authored text as AI-generated. The second dataset, Ar-APT, contains 400 Arabic human-authored articles polished by 10 LLMs using 4 polishing settings, totaling 16400 samples. We use it to evaluate the 8 nominated models and determine whether slight polishing will affect their performance. The results reveal that all AI detectors incorrectly attribute a significant number of articles to AI. The best performing LLM, Claude-4 Sonnet, achieved 83.51%, its performance decreased to 57.63% for articles slightly polished by LLaMA-3. Whereas the best performing commercial model, originality.AI, achieves 92% accuracy, dropped to 12% for articles slightly polished by Mistral or Gemma-3.",
+    "Added By": "Zaid Alyafeai"
+}

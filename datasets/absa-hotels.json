@@ -1,18 +1,21 @@
 {
     "Name": "ABSA-Hotels",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/msmadi/ABSA-Hotels",
     "License": "MIT License",
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "reviews"
+    ],
     "Domain": [
-        "web pages"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Around 15,562 Hotels' reviews were thoroughly reviewed by this research authors and a subset of 2,291 reviews were selected. The original dataset has been collected from well known Hotels' booking websites such as Booking.com, TripAdvisor.com.",
     "Volume": 24028.0,
@@ -27,12 +30,13 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "review classification"
     ],
     "Venue Title": "SemEval",
-    "Venue Type": "conference",
+    "Venue Type": "workshop",
     "Venue Name": "International Workshop on Semantic Evaluation",
     "Authors": [
         "Maria Pontiki",
@@ -43,18 +47,36 @@
         "Mohammad AL-Smadi",
         "Mahmoud Al-Ayyoub",
         "Yanyan Zhao",
-        "Bing Qin5",
-        "Orph\u00e9e De Clercq",
-        "V\u00e9ronique Hoste",
+        "Bing Qin",
+        "Orphée De Clercq",
+        "Véronique Hoste",
         "Marianna Apidianaki",
         "Xavier Tannier",
         "Natalia Loukachevitch",
         "Evgeny Kotelnikov",
         "Nuria Bel",
-        "Salud Mar\u00eda Jim\u00e9nez-Zafra",
-        "G\u00fcl\u015fen Eryi\u011fit"
+        "Salud María Jiménez-Zafra",
+        "Gülşen Eryiğit"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Institute for Language and Speech Processing",
+        "Athena R.C.",
+        "Athens University of Economics and Business",
+        "University of York",
+        "Jordan University of Science and Technology",
+        "Harbin Institute of Technology",
+        "LT3",
+        "Ghent University",
+        "LIMSI",
+        "CNRS",
+        "Univ. Paris-Sud",
+        "Université Paris-Saclay",
+        "Lomonosov Moscow State University",
+        "Vyatka State University",
+        "Universitat Pompeu Fabra",
+        "Universidad de Jaén",
+        "Istanbul Technical University"
+    ],
     "Abstract": "This paper describes the SemEval 2016 shared\ntask on Aspect Based Sentiment Analysis\n(ABSA), a continuation of the respective tasks\nof 2014 and 2015. In its third year, the task\nprovided 19 training and 20 testing datasets\nfor 8 languages and 7 domains, as well as a\ncommon evaluation procedure. From these\ndatasets, 25 were for sentence-level and 14 for\ntext-level ABSA; the latter was introduced for\nthe first time as a subtask in SemEval. The task\nattracted 245 submissions from 29 teams.",
     "Added By": "Zaid Alyafeai"
 }

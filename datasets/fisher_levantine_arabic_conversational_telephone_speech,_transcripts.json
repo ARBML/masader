@@ -1,18 +1,21 @@
 {
     "Name": "Fisher Levantine Arabic Conversational Telephone Speech, Transcripts",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2007T04",
     "License": "LDC User Agreement",
     "Year": 2007,
     "Language": "ar",
     "Dialect": "Levant",
+    "Source": [
+        "telephone conversations"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Fisher Levantine Arabic Conversational Telephone Speech, Transcripts contains transcripts for 279 telephone conversations. The majority of the speakers are from Jordan, Lebanon and Palestine.",
     "Volume": 279.0,
@@ -29,14 +32,20 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Tim Buckwalter",
+        "David Graff",
+        "Hubert Jin"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -1,18 +1,20 @@
 {
     "Name": "TunArTTS",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/elyadata/TunArTTS",
     "License": "CC BY-NC 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Tunisia",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First speech corpus for Tunisian Arabic TTS with 3+ hours of male speaker audio",
@@ -32,13 +34,14 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "text to speech"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": " Language Resources and Evaluation Conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Imen Laouirine",
         "Rami Kammoun",

@@ -1,0 +1,68 @@
+{
+    "Name": "ASRCS",
+    "Dialect Subsets": [
+        {
+            "Name": "Egyptian Arabic-English",
+            "Volume": 300.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Saudi Arabic-English",
+            "Volume": 300.0,
+            "Unit": "sentences",
+            "Dialect": "Saudi Arabia"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/Perle-ai/ASR_Code_Switch",
+    "Link": "https://huggingface.co/datasets/Perle-ai/ASR_Code_Switch",
+    "License": "MIT License",
+    "Year": 2026,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Source": [
+        "studio recordings"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "audio",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "A curated benchmark of 1,200 code-switching utterances (300 per language pair) for evaluating commercial ASR systems on multilingual speech with intra-sentential language switching.",
+    "Volume": 600.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Perle AI"
+    ],
+    "Derived From": [],
+    "Paper Title": "Benchmarking Commercial ASR Systems on Code-Switching Speech: Arabic, Persian, and German",
+    "Paper Link": "https://arxiv.org/pdf/2605.19069v3.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Sajjad Abdoli",
+        "Ghassan Al-Sumaidaee",
+        "Clayton W. Taylor",
+        "Ahmad ElShiekh",
+        "Ahmed Rashad"
+    ],
+    "Affiliations": [
+        "Perle AI"
+    ],
+    "Abstract": "Code-switching—the natural alternation between two languages within a single utterance—remains one of the most challenging and under-studied conditions for automatic speech recognition (ASR). We present a benchmark evaluating five commercial ASR providers across four language pairs: Egyptian Arabic–English, Saudi Arabic (Najdi/Hijazi)–English, Persian (Farsi)–English, and German–English, comprising 300 samples per pair selected by a two-stage pipeline combining heuristic filtering with a GPT-4o and Gemini 1.5 Pro ensemble scorer, reducing LLM costs by ≈91%. We evaluate on both WER and BERTScore, showing that while both metrics agree on the ordinal ranking of systems for all Arabic and Persian pairs (τ =1.0), WER inflates the magnitude of quality gaps by approximately 3× by penalising semantically correct transliteration choices. ElevenLabs Scribe v2 achieves the lowest WER (13.2% overall) and leads on BERTScore (0.936 overall). Difficulty-stratified analysis reveals performance gaps masked by aggregate averages, and BERT embedding projections confirm semantic proximity between reference and hypothesis despite surface-level script differences. The dataset is publicly available at https://huggingface.co/datasets/Perle-ai/ASR_Code_Switch.",
+    "Added By": "Zaid Alyafeai"
+}

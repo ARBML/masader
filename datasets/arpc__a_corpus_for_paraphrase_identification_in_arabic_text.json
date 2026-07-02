@@ -1,18 +1,21 @@
 {
     "Name": "ARPC: A Corpus for Paraphrase Identification in Arabic Text",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://ieee-dataport.org/documents/arpc-corpus-paraphrase-identification-arabic-text#files",
     "License": "unknown",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "ArPC is an Arabic paraphrase identification corpus. It consists of 1331 sentence pairs along with their binary score that indicates weather the pairs are paraphrase or not. The corpus has been manually annotated by three Arabic native speakers.",
     "Volume": 1331.0,
@@ -25,14 +28,15 @@
     "Script": "Arab",
     "Tokenized": false,
     "Host": "other",
-    "Access": "With-Fee",
+    "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "paraphrase identification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

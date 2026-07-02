@@ -1,17 +1,21 @@
 {
     "Name": "FineWeb2-HQ",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/epfml/FineWeb2-HQ",
     "Link": "https://huggingface.co/datasets/epfml/FineWeb2-HQ",
     "License": "ODC-By",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
+        "web crawls",
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "A filtered subset of CommonCrawl focusing on 20 languages including Arabic with 127B tokens.",
@@ -31,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
@@ -40,7 +45,7 @@
     "Venue Name": "arXiv",
     "Authors": [
         "Bettina Messmer",
-        "Vinko Sabol\u010dec",
+        "Vinko Sabolčec",
         "Martin Jaggi"
     ],
     "Affiliations": [

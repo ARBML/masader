@@ -1,18 +1,21 @@
 {
     "Name": "Arabic ALA LC  Romanization",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ALA_LC_Romanization",
     "Link": "https://github.com/CAMeL-Lab/Arabic_ALA-LC_Romanization",
     "License": "unknown",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "parallel Arabic and Romanized bibliographic entries",
     "Volume": 107439.0,
@@ -21,7 +24,11 @@
     "Provider": [
         "NYU Abu Dhabi"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "LC",
+        "UMICH",
+        "ACO"
+    ],
     "Paper Title": "Automatic Romanization of Arabic Bibliographic Records",
     "Paper Link": "https://aclanthology.org/2021.wanlp-1.23.pdf",
     "Script": "Arab-Latin",
@@ -29,7 +36,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
@@ -41,8 +49,8 @@
         "Nizar Habash"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Computational Approaches to Modelling Language (CAMeL) Lab",
+        "New York University Abu Dhabi"
     ],
     "Abstract": "International library standards require cataloguers to tediously input Romanization of their catalogue records for the benefit of library users without specific language expertise. In this paper, we present the first reported results on the task of automatic Romanization of undiacritized Arabic bibliographic entries. This complex task requires the modeling of Arabic phonology, morphology, and even semantics. We collected a 2.5M word corpus of parallel Arabic and Romanized bibliographic entries, and benchmarked a number of models that vary in terms of complexity and resource dependence. Our best system reaches 89.3% exact word Romanization on a blind test set. We make our data and code publicly available.",
     "Added By": ""

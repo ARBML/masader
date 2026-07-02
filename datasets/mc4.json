@@ -1,18 +1,21 @@
 {
     "Name": "mC4",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/legacy-datasets/mc4",
     "Link": "https://www.tensorflow.org/datasets/catalog/c4#c4multilingual_nights_stay",
     "License": "CC BY 4.0",
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "A colossal, cleaned version of Common Crawl's web crawl corpus.",
     "Volume": 53256040.0,
@@ -31,7 +34,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
@@ -50,8 +54,8 @@
         "Peter J. Liu"
     ],
     "Affiliations": [
-        "Goolge; Goolge; Goolge; Goolge; Goolge; Goolge; Goolge;"
+        "Goolge"
     ],
-    "Abstract": "Transfer learning, where a model is first pre-trained on a data-rich task before being finetuned on a downstream task, has emerged as a powerful technique in natural language\nprocessing (NLP). The effectiveness of transfer learning has given rise to a diversity of\napproaches, methodology, and practice. In this paper, we explore the landscape of transfer\nlearning techniques for NLP by introducing a unified framework that converts all text-based\nlanguage problems into a text-to-text format. Our systematic study compares pre-training\nobjectives, architectures, unlabeled data sets, transfer approaches, and other factors on\ndozens of language understanding tasks. By combining the insights from our exploration\nwith scale and our new \u201cColossal Clean Crawled Corpus\u201d, we achieve state-of-the-art results\non many benchmarks covering summarization, question answering, text classification, and\nmore. To facilitate future work on transfer learning for NLP, we release our data set,\npre-trained models, and code",
+    "Abstract": "Transfer learning, where a model is first pre-trained on a data-rich task before being finetuned on a downstream task, has emerged as a powerful technique in natural language\nprocessing (NLP). The effectiveness of transfer learning has given rise to a diversity of\napproaches, methodology, and practice. In this paper, we explore the landscape of transfer\nlearning techniques for NLP by introducing a unified framework that converts all text-based\nlanguage problems into a text-to-text format. Our systematic study compares pre-training\nobjectives, architectures, unlabeled data sets, transfer approaches, and other factors on\ndozens of language understanding tasks. By combining the insights from our exploration\nwith scale and our new “Colossal Clean Crawled Corpus”, we achieve state-of-the-art results\non many benchmarks covering summarization, question answering, text classification, and\nmore. To facilitate future work on transfer learning for NLP, we release our data set,\npre-trained models, and code",
     "Added By": "Zaid Alyafeai"
 }

@@ -1,18 +1,21 @@
 {
     "Name": "ClArTTS: An Open-Source Classical Arabic Text-to-Speech Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/MBZUAI/ClArTTS",
     "Link": "https://hf.co/datasets/MBZUAI/ClArTTS",
     "License": "CC BY 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "books"
+    ],
     "Domain": [
-        "other"
+        "literature"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "ClArTTS is a speech Classical Arabic corpus designed for E2E TTS systems. The speech is extracted from a LibriVox audiobook, which is then processed, segmented, and manually transcribed and annotated. It contains about 12 hours of speech from a single male speaker sampled at 40100 Hz.",
     "Volume": 12.0,
@@ -31,17 +34,18 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
-    "Venue Title": "INTERSPEECH",
+    "Venue Title": "Interspeech",
     "Venue Type": "conference",
-    "Venue Name": "Interspeech",
+    "Venue Name": "Conference of the International Speech Communication Association",
     "Authors": [
         "Ajinkya Kulkarni",
         "Atharva Kulkarni",
-        "Sara Abedalmon\u2019em Mohammad Shatnawi",
+        "Sara Abedalmon’em Mohammad Shatnawi",
         "Hanan Aldarmaki"
     ],
     "Affiliations": [

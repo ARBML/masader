@@ -1,20 +1,24 @@
 {
     "Name": "infopankki v1",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/opus_infopankki",
-    "Link": "https://opus.nlpl.eu/infopankki-v1.php",
+    "Link": "https://opus.nlpl.eu/infopankki/corpus/version/infopankki",
     "License": "unknown",
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
-    "Description": "A parallel corpus of 12 languages, 66 bitexts.",
+    "Description": "A parallel corpus of 12 languages, 66 bitexts for machine translation",
     "Volume": 63000.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
@@ -29,18 +33,19 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "Language Resources and Evaluation Conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Jorg Tiedemann"
     ],
     "Affiliations": [
-        "Department of Linguistics and Philology Uppsala University"
+        "Uppsala University"
     ],
     "Abstract": "This paper presents the current status of OPUS, a growing language resource of parallel corpora and related tools. The focus in OPUS\nis to provide freely available data sets in various formats together with basic annotation to be useful for applications in computational\nlinguistics, translation studies and cross-linguistic corpus studies. In this paper, we report about new data sets and their features,\nadditional annotation tools and models provided from the website and essential interfaces and on-line services included in the project.",
     "Added By": "Zaid Alyafeai"

@@ -1,6 +1,6 @@
 {
     "Name": "QADI Arabic",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "AE",
             "Dialect": "United Arab Emirates",
@@ -116,15 +116,18 @@
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "general"
     ],
-    "Description": "Dialects dataset",
-    "Volume": 540590.0,
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": " QCRI Arabic Dialects Identification (QADI) is a Country-level Arabic dialects identification (DI) dataset.",
+    "Volume": 543893.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [
@@ -132,19 +135,20 @@
     ],
     "Derived From": [],
     "Paper Title": "Arabic Dialect Identification in the Wild",
-    "Paper Link": "https://arxiv.org/pdf/2005.06557.pdf",
+    "Paper Link": "https://www.aclweb.org/anthology/2021.wanlp-1.1/",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": true,
     "Tasks": [
         "dialect identification"
     ],
-    "Venue Title": "ArXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "ArXiv",
+    "Venue Title": "WANLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Arabic Natural Language Processing Workshop",
     "Authors": [
         "Ahmed Abdelali",
         "Hamdy Mubarak",
@@ -153,11 +157,7 @@
         "Kareem Darwish"
     ],
     "Affiliations": [
-        "",
-        "",
-        "University Of D\u00fcsseldorf;Computational Linguistics",
-        "",
-        ""
+        "University Of Düsseldorf;Computational Linguistics"
     ],
     "Abstract": "We present QADI, an automatically collected dataset of tweets belonging to a wide range of country-level Arabic dialects -covering 18 different countries in the Middle East and North Africa region. Our method for building this dataset relies on applying multiple filters to identify users who belong to different countries based on their account descriptions and to eliminate tweets that are either written in Modern Standard Arabic or contain inappropriate language. The resultant dataset contains 540k tweets from 2,525 users who are evenly distributed across 18 Arab countries. Using intrinsic evaluation, we show that the labels of a set of randomly selected tweets are 91.5% accurate. For extrinsic evaluation, we are able to build effective country-level dialect identification on tweets with a macro-averaged F1-score of 60.6% across 18 classes.",
     "Added By": ""

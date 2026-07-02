@@ -1,18 +1,21 @@
 {
     "Name": "MADCAT Phase 1 Training Set",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2012T15",
     "License": "LDC User Agreement",
     "Year": 2012,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release includes 9,693 annotation files in MADCAT XML format (.madcat.xml) along with their corresponding scanned image files in TIFF format.",
     "Volume": 9693.0,
@@ -29,15 +32,23 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "optical character recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "David Lee",
+        "Safa Ismael",
+        "Stephen Grimes",
+        "Dave Doermann",
+        "Stephanie Strassel",
+        "Song Chen"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -1,22 +1,26 @@
 {
     "Name": "Arabic Treebank: Part 4 v 1.0 (MPG Annotation)",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2005T30",
     "License": "LDC User Agreement",
     "Year": 2005,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "treebanks",
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "The following table gives a breakdown of the data contained in the entire Arabic Treebank project, with discrepancies between versions for Parts 1 and 3. The fields include source, number of stories, total number of tokens, number of tokens after clitic separation, and number of Arabic word tokens after punctuation, numbers, and latin strings have been taken out. The totals given at the bottom are calculated from the latest versions where discrepencies exist, and do not include tokens after clitic separation since that number is missing from Part 4.",
-    "Volume": 2231.0,
-    "Unit": "documents",
+    "Description": "Arabic Treebank: Part 4 v 1.0 (MPG Annotation) was developed by the Linguistic Data Consortium (LDC) and contains approximately 150,000 Arabic word tokens with annotation on part of speech (POS), gloss, and word segmentation.",
+    "Volume": 150000.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -29,14 +33,21 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "information retrieval"
+        "part of speech tagging"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Tim Buckwalter",
+        "Hubert Jin",
+        "Wigdan Mekki"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

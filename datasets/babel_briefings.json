@@ -1,20 +1,24 @@
 {
     "Name": "BABEL BRIEFINGS",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/felixludos/babel-briefings",
     "Link": "https://www.kaggle.com/datasets/felixludos/babel-briefings",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "news",
+        "general"
     ],
-    "Description": "Multilingual headlines corpus spanning August 2020\u2013November 2021, drawn from global press via News API.",
+    "Form": "text",
+    "Annotation Style": [
+        "none"
+    ],
+    "Description": "Multilingual headlines corpus spanning August 2020–November 2021, drawn from global press via News API.",
     "Volume": 178854.0,
     "Unit": "documents",
     "Ethical Risks": "Low",
@@ -23,22 +27,23 @@
     ],
     "Derived From": [],
     "Paper Title": "A diverse Multilingual News Headlines Dataset from around the World",
-    "Paper Link": "https://arxiv.org/pdf/2403.19352",
+    "Paper Link": "https://doi.org/10.18653/v1/2024.naacl-short.55",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "NAACL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the North American Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Felix Leeb",
-        "Bernhard Sch\u00f6lkopf"
+        "Bernhard Schölkopf"
     ],
     "Affiliations": [
         "Max Planck Institute for Intelligent Systems"

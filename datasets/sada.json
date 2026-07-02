@@ -1,17 +1,20 @@
 {
     "Name": "SADA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://www.kaggle.com/datasets/sdaiancai/sada2022",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "TV channels"
+    ],
     "Domain": [
-        "TV Channels"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "668h of Saudi-dialect Arabic TV broadcasts for ASR (train 637.7h, dev 13.4h, test 16.6h).",
@@ -29,7 +32,8 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
@@ -39,7 +43,7 @@
     "Authors": [
         "Sadeen Alharbi",
         "Areeb Alowisheq",
-        "Zolt\u00e1n T\u00fcske",
+        "Zoltán Tüske",
         "Kareem Darwish",
         "Abdullah Alrajeh",
         "Abdulmajeed Alrowithi",
@@ -54,9 +58,9 @@
         "Yaser Alonaizan"
     ],
     "Affiliations": [
-        "National Center for Artificial Intelligence (NCAI), Saudi Data and Artificial Intelligence Authority (SDAIA)",
+        "Saudi Data and Artificial Intelligence Authority (SDAIA)",
         "Applications Technology (AppTek)",
-        "aiXplain Inc."
+        "aiXplain"
     ],
     "Abstract": "Arabic is among the most challenging languages in the world. Unfortunately, the scarcity of Arabic datasets makes studies in Arabic speech technology demanding. This paper introduces SADA, the Saudi Audio Dataset for Arabic, with 668 hours of high-quality audios suitable for supervised training. The audio recordings were sourced from 57 television shows provided by the Saudi Broadcasting Authority. The audio covers both read and spontaneous speaking styles in various genres. The National Center for Artificial Intelligence in Saudi Arabia transcribed and prepared the data for training and processing. The recordings are in Arabic. Most are in Saudi dialects, while other Arabic dialects include Yemeni, Egyptian, and Levantine. The dataset is split into training, validation, and testing sets to enhance its usage. The validation and testing sets contain 10 hours of audio segments each. Besides giving a detailed description of the dataset, wide range of speech recognition experiments using standard tools are also presented.",
     "Added By": "Zaid Alyafeai"

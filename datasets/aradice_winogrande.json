@@ -1,6 +1,6 @@
 {
     "Name": " AraDiCE-WinoGrande ",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "WinoGrande-egy",
             "Volume": 1270.0,
@@ -26,11 +26,14 @@
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -45,19 +48,20 @@
         "WinoGrande"
     ],
     "Paper Title": "ARADICE: Benchmarks for Dialectal and Cultural Capabilities in LLMs",
-    "Paper Link": "https://arxiv.org/pdf/2409.11404",
+    "Paper Link": "https://aclanthology.org/2025.coling-main.283/",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "fill-in-the blank"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "COLING",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Computational Linguistics",
     "Authors": [
         "Basel Mousi",
         "Nadir Durrani",
@@ -74,6 +78,6 @@
         "University of New Brunswick",
         "American University of Sharjah"
     ],
-    "Abstract": "Arabic, with its rich diversity of dialects, re-\nmains significantly underrepresented in Large\nLanguage Models, particularly in dialectal vari-\nations. We address this gap by introducing\nseven synthetic datasets in dialects alongside\nModern Standard Arabic (MSA), created us-\ning Machine Translation (MT) combined with\nhuman post-editing. We present AraDiCE, a\nbenchmark for Arabic Dialect and Cultural\nEvaluation. We evaluate LLMs on dialect com-\nprehension and generation, focusing specifi-\ncally on low-resource Arabic dialects. Addi-\ntionally, we introduce the first-ever fine-grained\nbenchmark designed to evaluate cultural aware-\nness across the Gulf, Egypt, and Levant re-\ngions, providing a novel dimension to LLM\nevaluation. Our findings demonstrate that while\nArabic-specific models like Jais and AceGPT\noutperform multilingual models on dialectal\ntasks, significant challenges persist in dialect\nidentification, generation, and translation. This\nwork contributes \u224845K post-edited samples, a\ncultural benchmark, and highlights the impor-\ntance of tailored training to improve LLM per-\nformance in capturing the nuances of diverse\nArabic dialects and cultural contexts. We have\nreleased the dialectal translation models and\nbenchmarks developed in this study.",
+    "Abstract": "Arabic, with its rich diversity of dialects, re-\nmains significantly underrepresented in Large\nLanguage Models, particularly in dialectal vari-\nations. We address this gap by introducing\nseven synthetic datasets in dialects alongside\nModern Standard Arabic (MSA), created us-\ning Machine Translation (MT) combined with\nhuman post-editing. We present AraDiCE, a\nbenchmark for Arabic Dialect and Cultural\nEvaluation. We evaluate LLMs on dialect com-\nprehension and generation, focusing specifi-\ncally on low-resource Arabic dialects. Addi-\ntionally, we introduce the first-ever fine-grained\nbenchmark designed to evaluate cultural aware-\nness across the Gulf, Egypt, and Levant re-\ngions, providing a novel dimension to LLM\nevaluation. Our findings demonstrate that while\nArabic-specific models like Jais and AceGPT\noutperform multilingual models on dialectal\ntasks, significant challenges persist in dialect\nidentification, generation, and translation. This\nwork contributes ≈45K post-edited samples, a\ncultural benchmark, and highlights the impor-\ntance of tailored training to improve LLM per-\nformance in capturing the nuances of diverse\nArabic dialects and cultural contexts. We have\nreleased the dialectal translation models and\nbenchmarks developed in this study.",
     "Added By": "Zaid Alyafeai"
 }

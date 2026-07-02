@@ -1,18 +1,21 @@
 {
     "Name": "AutoTweet",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AutoTweet",
     "Link": "https://www.dropbox.com/s/amnv06boef2vn4k/Autotweet-Dataset-v1.0.zip?dl=0",
     "License": "unknown",
     "Year": 2015,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "classification of Arabic tweets into automated or manual.",
     "Volume": 3503.0,
@@ -29,21 +32,22 @@
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "gender identification"
     ],
     "Venue Title": "AIRS",
     "Venue Type": "conference",
-    "Venue Name": "Conference on Alliance of Information and Referral Systems",
+    "Venue Name": "Asia Information Retrieval Societies Conference",
     "Authors": [
-        "H. Almerekhi",
-        "T. Elsayed"
+        "Hind Almerekhi",
+        "Tamer Elsayed"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Qatar Computing Research Institute",
+        "Qatar University"
     ],
-    "Abstract": "Recently, Twitter, one of the most widely-known social media platforms, got infiltrated by several automation programs, commonly known as \u201cbots\u201d. Bots can be easily abused to spread spam and hinder information extraction applications by posting lots of automatically-generated tweets that occupy a good portion of the continuous stream of tweets. This problem heavily affects users in the Arab region due to the recent developing political events as automated tweets can disturb communication and waste time needed in filtering such tweets.",
+    "Abstract": "Recently, Twitter, one of the most widely-known social media platforms, got infiltrated by several automation programs, commonly known as “bots”. Bots can be easily abused to spread spam and hinder information extraction applications by posting lots of automatically-generated tweets that occupy a good portion of the continuous stream of tweets. This problem heavily affects users in the Arab region due to the recent developing political events as automated tweets can disturb communication and waste time needed in filtering such tweets.",
     "Added By": "Zaid Alyafeai"
 }

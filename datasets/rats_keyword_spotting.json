@@ -1,18 +1,21 @@
 {
     "Name": "RATS Keyword Spotting",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2017S20",
     "License": "LDC User Agreement",
     "Year": 2017,
     "Language": "multilingual",
     "Dialect": "Levant",
+    "Source": [
+        "telephone conversations"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The source audio consists of conversational telephone speech recordings collected by LDC: (1) data collected for the RATS program from Levantine Arabic and Farsi speakers; and (2) material from Levantine Arabic QT Training Data Set 5, Speech (LDC2006S29) and CALLFRIEND Farsi Second Edition Speech (LDC2014S01).",
     "Volume": 400.0,
@@ -29,14 +32,21 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "7,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "keyphrase extraction"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "David Graff",
+        "Xiaoyi Ma",
+        "Stephanie Strassel",
+        "Kevin Walker",
+        "Karen Jones"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

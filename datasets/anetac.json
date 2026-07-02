@@ -1,18 +1,21 @@
 {
     "Name": "ANETAC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ANETAC",
-    "Link": "https://github.com/MohamedHadjAmeur/ANETAC",
+    "Link": "https://github.com/HadjAmeur/ANETAC-Dataset",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "English-Arabic named entity transliteration and classification dataset",
     "Volume": 79924.0,
@@ -22,15 +25,21 @@
         "USTHB University",
         "University of Salford"
     ],
-    "Derived From": [],
-    "Paper Title": "Automatic Identification and Verification",
+    "Derived From": [
+        "United Nations",
+        "OpenSubtitles",
+        "News Commentary",
+        "IWSLT2016"
+    ],
+    "Paper Title": "ANETAC: Arabic Named Entity Transliteration and Classification Dataset",
     "Paper Link": "https://arxiv.org/pdf/1907.03110.pdf",
     "Script": "Arab-Latin",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "named entity recognition",
         "transliteration"
@@ -39,7 +48,7 @@
     "Venue Type": "conference",
     "Venue Name": "Conference and Labs of the Evaluation Forum",
     "Authors": [
-        "Alberto Barr\u00f3n-Cede\u00f1o",
+        "Alberto Barrón-Cedeño",
         "Tamer Elsayed",
         "Preslav Nakov",
         "Giovanni Da San Martino",
@@ -53,18 +62,7 @@
         "Zien Sheikh Ali"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "Qatar Computing Research Institute",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Qatar Computing Research Institute"
     ],
     "Abstract": "We present an overview of the third edition of the CheckThat! Lab at CLEF 2020. The lab featured five tasks in two different languages: English and Arabic. The first four tasks compose the full pipeline of claim verification in social media: Task 1 on check-worthiness estimation, Task 2 on retrieving previously fact-checked claims, Task 3 on evidence retrieval, and Task 4 on claim verification. The lab is completed with Task 5 on check-worthiness estimation in political debates and speeches. A total of 67 teams registered to participate in the lab (up from 47 at CLEF 2019), and 23 of them actually submitted runs (compared to 14 at CLEF 2019). Most teams used deep neural networks based on BERT, LSTMs, or CNNs, and achieved sizable improvements over the baselines on all tasks. Here we describe the tasks setup, the evaluation results, and a summary of the approaches used by the participants, and we discuss some lessons learned. Last but not least, we release to the research community all datasets from the lab as well as the evaluation scripts, which should enable further research in the important tasks of check-worthiness estimation and automatic claim verification.",
     "Added By": ""

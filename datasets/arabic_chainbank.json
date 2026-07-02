@@ -1,0 +1,57 @@
+{
+    "Name": "Arabic ChainBank",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/CAMeL-Lab/ArabicChainBank",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation"
+    ],
+    "Description": "Graph network for Arabic derivational morphology.",
+    "Volume": 23333.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "CAMeL Lab"
+    ],
+    "Derived From": [
+        "CamelMorph v1.0"
+    ],
+    "Paper Title": "A Derivational Chain Bank for Modern Standard Arabic",
+    "Paper Link": "https://arxiv.org/pdf/2410.20463v2.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "morphological analysis"
+    ],
+    "Venue Title": "AbjadNLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on NLP for Languages Using Arabic Script",
+    "Authors": [
+        "Reham Marzouk",
+        "Sondos Krouna",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "New York University",
+        "Alexandria University",
+        "Carthage University"
+    ],
+    "Abstract": "We introduce the new concept of an Arabic Derivational Chain Bank (CHAINBANK) to leverage the relationship between form and meaning in modeling Arabic derivational morphology. We constructed a knowledge graph network of abstract patterns and their derivational relations, and aligned it with the lemmas of the CAMELMORPH morphological analyzer database. This process produced chains of derived words' lemmas linked to their corresponding single lemma bases through derivational relations, encompassing 23,333 derivational connections. The CHAINBANK is publicly available.",
+    "Added By": "Zaid Alyafeai"
+}

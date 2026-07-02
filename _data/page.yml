@@ -2,7 +2,10 @@ nav:
     logo: /assets/images/logo.png
     title: Arabic NLP Data Catalouge
     tabs:
+        - title: Chat
+          url: /chat
+          badge: New
         - title: Stats
           url: /stats
-        - title: Contribute
-          url: https://moleform-production-38c3.up.railway.app
+        - title: Add dataset
+          url: https://moleform-production-38c3.up.railway.app/form

@@ -1,18 +1,21 @@
 {
     "Name": "GALE Phase 3 and 4 Arabic Broadcast News Parallel Text",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2015T07",
     "License": "LDC User Agreement",
     "Year": 2015,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "TV channels"
+    ],
     "Domain": [
-        "other"
+        "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "GALE Phase 3 and 4 Arabic Broadcast News Parallel Text includes 86 source-translation document pairs, comprising 325,538 words of Arabic source text and its English translation. Data is drawn from 28 distinct Arabic programs broadcast between 2007 and 2008 from Abu Dhabi TV, a television station based in Abu Dhabi, United Arab Emirates; Al Alam News Channel, based in Iran; Al Arabiya, a news television station based in Dubai; Al Baghdadya, an Iraqi broadcaster; Alhurra, a U.S.-government funded regional broadcaster; Al Iraqiyah, an Iraqi television station; Aljazeera, a regional broadcaster located in Doha, Qatar; Al Ordiniyah, a national broadcast station in Jordan; Al Sharqiya, an Iraqi broadcast programmer; Dubai TV, a broadcast station in the United Arab Emirates; Kuwait TV, a national broadcast station based in Kuwait; Lebanese Broadcasting Corporation, a Lebanese television station; Oman TV, a national broadcaster located in the Sultanate of Oman; Radio Sawa, a U.S.-government funded regional broadcaster; Saudi TV, a national television station based in Saudi Arabia; and Syria TV, the national television station in Syria. Broadcast news programming consists of news programs focusing principally on current events.",
     "Volume": 325538.0,
@@ -29,14 +32,19 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Song Chen",
+        "Gary Krug",
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

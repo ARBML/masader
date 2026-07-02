@@ -1,18 +1,21 @@
 {
     "Name": "PAN Arabic Intrinsic Plagiarism Detection Shared Task Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://zenodo.org/record/6609196#.YqTYvNrMLIV",
     "License": "CC BY 4.0",
     "Year": 2015,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "Each part of the corpus (training and test) consists mainly of 2 datasets: textual files and XML files. The textual files represent the suspicious documents i.e., the documents that contain artificial plagiarism; and the XML files are the plagiarism annotation i.e. they provide for each plagiarized passage its starting offset in the suspicious document and its length (offset and length are both expressed in characters). A suspicious document file and its plagiarism annotation file share the same name.",
     "Volume": 2048.0,
@@ -21,8 +24,7 @@
     "Provider": [
         "MISC Lab. Constantine 2 university",
         "PRHLT",
-        "Universitat Polit\u00e8cnica de Val\u00e8ncia",
-        ""
+        "Universitat Politècnica de València"
     ],
     "Derived From": [],
     "Paper Title": "A New Corpus for the Evaluation of Arabic Intrinsic Plagiarism Detection.",
@@ -32,23 +34,23 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "plagiarism detection"
     ],
-    "Venue Title": "CLEF 2013",
+    "Venue Title": "CLEF",
     "Venue Type": "conference",
-    "Venue Name": "International Conference of the Cross-Language Evaluation Forum for European Languages",
+    "Venue Name": "Conference and Labs of the Evaluation Forum",
     "Authors": [
         "Imene Bensalem",
         "Paolo Rosso",
         "Salim Chikhi"
     ],
     "Affiliations": [
-        "\u00b9MISC Lab. Constantine 2 university",
-        "Algeria  PRHLT",
-        "Universitat Polit\u00e8cnica de Val\u00e8ncia",
-        "Spain"
+        "¹MISC Lab. Constantine 2 university",
+        "Constantine 2 University",
+        "Universitat Politècnica de València"
     ],
     "Abstract": "The present paper introduces the first corpus for the evaluation of Arabic intrinsic plagiarism detection. The corpus consists of 1024 artificial suspicious documents in which 2833 plagiarism cases have been inserted automatically from source documents.",
     "Added By": "Kamel GAANOUN"

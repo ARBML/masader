@@ -1,19 +1,21 @@
 {
     "Name": "BLEND",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/nayeon212/BLEnD",
     "Link": "https://github.com/nlee0212/BLEnD",
     "License": "CC BY-SA 4.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Algeria",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "culture"
     ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A benchmark for LLMs on everyday cultural knowledge across 16 countries/regions in 13 languages.",
     "Volume": 2600.0,
@@ -22,7 +24,7 @@
     "Provider": [
         "KAIST",
         "Cardiff University",
-        "Universit\u00e4t Hamburg",
+        "Universität Hamburg",
         "Bahir Dar University",
         "NAVER AI Lab",
         "Imperial College London"
@@ -35,13 +37,14 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],
     "Venue Title": "NeurIPS",
     "Venue Type": "conference",
-    "Venue Name": "Neural Information Processing Systems",
+    "Venue Name": "Conference on Neural Information Processing Systems",
     "Authors": [
         "Junho Myung",
         "Nayeon Lee",
@@ -53,8 +56,8 @@
         "Eunsu Kim",
         "Carla Perez-Almendros",
         "Abinew Ali Ayele",
-        "V\u00edctor Guti\u00e9rrez-Basulto",
-        "Yazm\u00edn Ib\u00e1\u00f1ez-Garc\u00eda",
+        "Víctor Gutiérrez-Basulto",
+        "Yazmín Ibáñez-García",
         "Hwaran Lee",
         "Shamsuddeen Hassan Muhammad",
         "Kiwoong Park",
@@ -69,7 +72,7 @@
     "Affiliations": [
         "KAIST",
         "Cardiff University",
-        "Universit\u00e4t Hamburg",
+        "Universität Hamburg",
         "Bahir Dar University",
         "NAVER AI Lab",
         "Imperial College London"

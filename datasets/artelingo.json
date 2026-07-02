@@ -1,17 +1,20 @@
 {
     "Name": "ArtELingo",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/youssef101/artelingo",
     "Link": "https://www.artelingo.org",
     "License": "unknown",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "art"
+    ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Multilingual emotion and caption dataset for 80k WikiArt images in Arabic, Chinese, English and Spanish.",
@@ -26,19 +29,20 @@
         "WikiArt"
     ],
     "Paper Title": "ArtELingo: A Million Emotion Annotations of WikiArt with Emphasis on Diversity over Language and Culture",
-    "Paper Link": "https://arxiv.org/pdf/2211.10780",
+    "Paper Link": "https://doi.org/10.18653/v1/2022.emnlp-main.600",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "emotion classification"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Youssef Mohamed",
         "Mohamed Abdelfattah",
@@ -49,10 +53,10 @@
         "Mohamed Elhoseiny"
     ],
     "Affiliations": [
-        "KAUST",
+        "King Abdullah University of Science and Technology",
         "University of Notre Dame",
         "Northeastern University"
     ],
-    "Abstract": "This paper introduces ArtELingo, a new benchmark and dataset designed to encourage work on diversity across languages and cultures. Following ArtEmis, a collection of 80k artworks from WikiArt with 0.45M emotion labels and English-only captions, ArtELingo adds another 0.79M annotations in Arabic and Chinese, plus 4.8K in Spanish to evaluate \u201ccultural-transfer\u201d performance. More than 51K artworks have 5 annotations or more in 3 languages. This diversity makes it possible to study similarities and differences across languages and cultures. Further, we investigate captioning tasks, and find diversity improves the performance of baseline models. ArtELingo is publicly available with standard splits and baseline models. We hope our work will help ease future research on multilinguality and culturally-aware AI.",
+    "Abstract": "This paper introduces ArtELingo, a new benchmark and dataset designed to encourage work on diversity across languages and cultures. Following ArtEmis, a collection of 80k artworks from WikiArt with 0.45M emotion labels and English-only captions, ArtELingo adds another 0.79M annotations in Arabic and Chinese, plus 4.8K in Spanish to evaluate “cultural-transfer” performance. More than 51K artworks have 5 annotations or more in 3 languages. This diversity makes it possible to study similarities and differences across languages and cultures. Further, we investigate captioning tasks, and find diversity improves the performance of baseline models. ArtELingo is publicly available with standard splits and baseline models. We hope our work will help ease future research on multilinguality and culturally-aware AI.",
     "Added By": "Zaid Alyafeai"
 }

@@ -1,17 +1,20 @@
 {
     "Name": "HowWN",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/lukasellinger/homonym-mcl-wic",
     "Link": "https://huggingface.co/datasets/lukasellinger/homonym-mcl-wic",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The ML-WiC dataset was constructed to target homonyms with multiple distinct senses. The dataset from Martelli et al. (2021) was designed for Multilingual and Cross-lingual Word-in-Context Disambiguation (MCL-WiC)",
@@ -25,22 +28,23 @@
         "ML-WiC"
     ],
     "Paper Title": "Simplifications are Absolutists: How Simplified Language Reduces Word Sense Awareness in LLM-Generated Definitions",
-    "Paper Link": "https://arxiv.org/pdf/2507.11981",
+    "Paper Link": "https://aclanthology.org/2025.ranlp-1.42/",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "word sense disambiguation"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "RANLP",
+    "Venue Type": "conference",
+    "Venue Name": "Recent Advances in Natural Language Processing",
     "Authors": [
         "Lukas Ellinger",
-        "Miriam Ansch\u00fctz",
+        "Miriam Anschütz",
         "Georg Groh"
     ],
     "Affiliations": [

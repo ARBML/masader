@@ -1,18 +1,21 @@
 {
     "Name": "CC-100",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/statmt/cc100",
     "Link": "https://data.statmt.org/cc-100/",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "monolingual datasets from Common Crawl for a variety of languages",
     "Volume": 7132000.0,
@@ -31,19 +34,20 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "Language Resources and Evaluation Conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Guillaume Wenzek",
         "Marie-Anne Lachaux",
         "Alexis Conneau",
         "Vishrav Chaudhary",
-        "Francisco Guzm\u00e1n",
+        "Francisco Guzmán",
         "Armand Joulin",
         "Edouard Grave"
     ],

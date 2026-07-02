@@ -1,17 +1,20 @@
 {
     "Name": "WinoMT (MT_Gender)",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/mt_gender_ar",
     "Link": "https://github.com/gabrielStanovsky/mt_gender",
     "License": "MIT License",
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Evaluating Gender Bias in Machine Translation",
@@ -21,7 +24,10 @@
     "Provider": [
         "Multiple Institutions"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "Winogender",
+        "WinoBias"
+    ],
     "Paper Title": "Evaluating Gender Bias in Machine Translation",
     "Paper Link": "https://arxiv.org/pdf/1906.00591.pdf",
     "Script": "Arab",
@@ -29,23 +35,24 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
-    "Venue Name": "Assofications of computation linguisitcs",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
         "Gabriel Stanovsky",
         "Noah A. Smith",
         "Luke Zettlemoyer"
     ],
     "Affiliations": [
-        "Allen Institute for Artificial Intelligence;University of Washington",
-        "",
-        "University of Washington;Facebook"
+        "Allen Institute for Artificial Intelligence",
+        "University of Washington",
+        "Facebook"
     ],
-    "Abstract": "We present the first challenge set and evaluation protocol for the analysis of gender bias in machine translation (MT). Our approach uses two recent coreference resolution datasets composed of English sentences which cast participants into non-stereotypical gender roles (e.g., \u201cThe doctor asked the nurse to help her in the operation\u201d). We devise an automatic gender bias evaluation method for eight target languages with grammatical gender, based on morphological analysis (e.g., the use of female inflection for the word \u201cdoctor\u201d). Our analyses show that four popular industrial MT systems and two recent state-of-the-art academic MT models are significantly prone to gender-biased translation errors for all tested target languages. Our data and code are publicly available at https://github.com/gabrielStanovsky/mt_gender.",
+    "Abstract": "We present the first challenge set and evaluation protocol for the analysis of gender bias in machine translation (MT). Our approach uses two recent coreference resolution datasets composed of English sentences which cast participants into non-stereotypical gender roles (e.g., “The doctor asked the nurse to help her in the operation”). We devise an automatic gender bias evaluation method for eight target languages with grammatical gender, based on morphological analysis (e.g., the use of female inflection for the word “doctor”). Our analyses show that four popular industrial MT systems and two recent state-of-the-art academic MT models are significantly prone to gender-biased translation errors for all tested target languages. Our data and code are publicly available at https://github.com/gabrielStanovsky/mt_gender.",
     "Added By": "Maraim Masoud"
 }

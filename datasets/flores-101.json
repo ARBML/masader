@@ -1,18 +1,22 @@
 {
     "Name": "FLORES-101",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/gsarti/flores_101",
-    "Link": "https://github.com/facebookresearch/flores/tree/master/floresv1/data",
+    "Link": "https://github.com/facebookresearch/flores",
     "License": "CC BY-SA 4.0",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Low Resource MT Benchmark",
     "Volume": 3100000.0,
@@ -31,13 +35,14 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
-    "Venue Title": "ArXiv",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "ArXiv",
+    "Venue Name": "arXiv",
     "Authors": [
         "Naman Goyal",
         "Cynthia Gao",
@@ -46,19 +51,11 @@
         "Da Ju",
         "Sanjan Krishnan",
         "Marc'Aurelio Ranzato",
-        "Francisco Guzm\u00e1n",
+        "Francisco Guzmán",
         "Angela Fan"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        "Facebook AI Research",
-        "",
-        "",
-        "",
-        ""
+        "Facebook AI Research"
     ],
     "Abstract": "One of the biggest challenges hindering progress in low-resource and multilingual machine translation is the lack of good evaluation benchmarks. Current evaluation benchmarks either lack good coverage of low-resource languages, consider only restricted domains, or are low quality because they are constructed using semi-automatic procedures. In this work, we introduce the FLORES-101 evaluation benchmark, consisting of 3001 sentences extracted from English Wikipedia and covering a variety of different topics and domains. These sentences have been translated in 101 languages by professional translators through a carefully controlled process. The resulting dataset enables better assessment of model quality on the long tail of low-resource languages, including the evaluation of many-to-many multilingual translation systems, as all translations are multilingually aligned. By publicly releasing such a highquality and high-coverage dataset, we hope to foster progress in the machine translation community and beyond.",
     "Added By": "Maraim Masoud"

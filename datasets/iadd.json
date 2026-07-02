@@ -1,6 +1,6 @@
 {
     "Name": "IADD",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
             "Volume": 14426.0,
@@ -38,6 +38,12 @@
             "Dialect": "Modern Standard Arabic"
         },
         {
+            "Name": "Levantine",
+            "Volume": 6900.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
             "Name": "Tunisia",
             "Volume": 11998.0,
             "Unit": "sentences",
@@ -66,6 +72,12 @@
             "Volume": 10829.0,
             "Unit": "sentences",
             "Dialect": "Lebanon"
+        },
+        {
+            "Name": "Maghrebi",
+            "Volume": 359.0,
+            "Unit": "sentences",
+            "Dialect": "North Africa"
         }
     ],
     "HF Link": "https://huggingface.co/datasets/evageon/IADD",
@@ -74,12 +86,15 @@
     "Year": 2022,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "Integrated dataset for Arabic dialect identification with 135k texts from 5 regions and 9 countries.",
     "Volume": 135804.0,
@@ -102,7 +117,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],

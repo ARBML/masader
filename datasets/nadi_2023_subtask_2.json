@@ -1,6 +1,6 @@
 {
     "Name": "NADI 2023 Subtask 2",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Egyptian",
             "Volume": 600.0,
@@ -32,15 +32,17 @@
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
-    "Description": "Country-level Arabic dialect tweets from 18 countries for dialect identification; parallel Egyptian/Emirati/Jordanian/Palestinian\u2192MSA sentences for MT.",
+    "Description": "Country-level Arabic dialect tweets from 18 countries for dialect identification; parallel Egyptian/Emirati/Jordanian/Palestinian→MSA sentences for MT.",
     "Volume": 2400.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
@@ -58,13 +60,14 @@
     "Host": "CodaLab",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],
     "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
-    "Venue Name": " Arabic Natural Language Processing Conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Muhammad Abdul-Mageed",
         "AbdelRahim Elmadany",

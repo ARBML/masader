@@ -1,0 +1,58 @@
+{
+    "Name": "AMFDS",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://drive.google.com/drive/folders/1mRefmN4Yzy60Uh7z3B6cllyyOXaxQrgg?usp=sharing",
+    "License": "unknown",
+    "Year": 2020,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "wikipedia"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "images",
+    "Annotation Style": [
+        "machine annotation"
+    ],
+    "Description": "Custom Arabic OCR dataset with 18 fonts from Wikipedia.",
+    "Volume": 2160000.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Abdullah II School for Information Technology",
+        "The University of Jordan",
+        "Princess Sumayah School for Technology"
+    ],
+    "Derived From": [],
+    "Paper Title": "A Hybrid Deep Learning Model for Arabic Text Recognition",
+    "Paper Link": "https://arxiv.org/pdf/2009.01987v1",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Gdrive",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "IJACSA",
+    "Venue Type": "journal",
+    "Venue Name": "International Journal of Advanced Computer Science and Applications",
+    "Authors": [
+        "Mohammad Fasha",
+        "Bassam Hammo",
+        "Nadim Obeid",
+        "Jabir AlWidian"
+    ],
+    "Affiliations": [
+        "King Abdullah II School for Information Technology",
+        "The University of Jordan",
+        "Princess Sumayah School for Technology"
+    ],
+    "Abstract": "Arabic text recognition is a challenging task because of the cursive nature of Arabic writing system, its joint writing scheme, the large number of ligatures and many other challenges. Deep Learning DL models achieved significant progress in numerous domains including computer vision and sequence modelling. This paper presents a model that can recognize Arabic text that was printed using multiple font types including fonts that mimic Arabic handwritten scripts. The proposed model employs a hybrid DL network that can recognize Arabic printed text without the need for character segmentation. The model was tested on a custom dataset comprised of over two million word samples that were generated using 18 different Arabic font types. The objective of the testing process was to assess the model capability in recognizing a diverse set of Arabic fonts representing a varied cursive styles. The model achieved good results in recognizing characters and words and it also achieved promising results in recognizing characters when it was tested on unseen data. The prepared model, the custom datasets and the toolkit for generating similar datasets are made publicly available, these tools can be used to prepare models for recognizing other font types as well as to further extend and enhance the performance of the proposed model.",
+    "Added By": "Zaid Alyafeai"
+}

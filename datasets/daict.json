@@ -1,18 +1,21 @@
 {
     "Name": "DAICT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://www.hbku.edu.qa/en/DAICT",
     "License": "custom",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The dataset includes 5,588 tweets -- written in both MSA and dialectual Arabic -- manually annotated by two professional linguistics from HBKU",
     "Volume": 5588.0,
@@ -29,7 +32,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "irony detection"
     ],
@@ -38,15 +42,12 @@
     "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Ines Abbes",
-        "W. Zaghouani",
+        "Wajdi Zaghouani",
         "Omaima El-Hardlo",
         "Faten Ashour"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        ""
+        "Hamad Bin Khalifa University"
     ],
     "Abstract": "Identifying irony in user-generated social media content has a wide range of applications; however to date Arabic content has received limited attention. To bridge this gap, this study builds a new open domain Arabic corpus annotated for irony detection. We query Twitter using irony-related hashtags to collect ironic messages, which are then manually annotated by two linguists according to our working definition of irony. Challenges which we have encountered during the annotation process reflect the inherent limitations of Twitter messages interpretation, as well as the complexity of Arabic and its dialects. Once published, our corpus will be a valuable free resource for developing open domain systems for automatic irony recognition in Arabic language and its dialects in social media text.",
     "Added By": "Zaid Alyafeai"

@@ -1,18 +1,21 @@
 {
     "Name": "Arabic Textual Entailment Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArabicTE",
     "Link": "http://www.cs.man.ac.uk/~ramsay/ArabicTE/",
     "License": "unknown",
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This dataset contains 600 Arabic premise:hypothesis pairs.",
     "Volume": 600.0,
@@ -22,14 +25,15 @@
         "Multiple Institutions"
     ],
     "Derived From": [],
-    "Paper Title": "Natural Language Inference for Arabic Using Extended Tree\r\nEdit Distance with Subtrees",
-    "Paper Link": "https://arxiv.org/ftp/arxiv/papers/1402/1402.0578.pdf",
+    "Paper Title": "Natural Language Inference for Arabic Using Extended Tree Edit Distance with Subtrees",
+    "Paper Link": "https://arxiv.org/pdf/1402.0578",
     "Script": "Latin",
     "Tokenized": false,
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "natural language inference"
     ],
@@ -38,11 +42,11 @@
     "Venue Name": "Journal of Artificial Intelligence Research",
     "Authors": [
         "Maytham Alabbas",
-        "A. Ramsay"
+        "Allan Ramsay"
     ],
     "Affiliations": [
-        "",
-        ""
+        "University of Basrah",
+        "University of Manchester"
     ],
     "Abstract": "Many natural language processing (NLP) applications require the computation of similarities between pairs of syntactic or semantic trees. Many researchers have used tree edit distance for this task, but this technique suffers from the drawback that it deals with single node operations only. We have extended the standard tree edit distance algorithm to deal with subtree transformation operations as well as single nodes. The extended algorithm with subtree operations, TED+ST, is more effective and flexible than the standard algorithm, especially for applications that pay attention to relations among nodes (e.g. in linguistic trees, deleting a modifier subtree should be cheaper than the sum of deleting its components individually). We describe the use of TED+ST for checking entailment between two Arabic text snippets. The preliminary results of using TED+ST were encouraging when compared with two string-based approaches and with the standard algorithm.",
     "Added By": "Zaid Alyafeai"

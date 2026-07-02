@@ -1,18 +1,22 @@
 {
     "Name": "INCLUDE-lite",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/CohereLabs/include-lite-44",
     "Link": "https://huggingface.co/datasets/CohereForAI/include-base-44",
     "License": "Apache-2.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "public datasets"
     ],
+    "Domain": [
+        "education",
+        "science"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "It contains 11,095 4-option multiple-choice-questions (MCQ) extracted from academic and professional exams, covering 57 topics, including regional knowledge.",
@@ -26,19 +30,20 @@
         "ArabicMMLU"
     ],
     "Paper Title": "Evaluating Multilingual Language Understanding with Regional Knowledge",
-    "Paper Link": "https://arxiv.org/pdf/2411.19799",
+    "Paper Link": "https://openreview.net/forum?id=k3gCieTXeY",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ICLR",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Learning Representations",
     "Authors": [
         "Angelika Romanou",
         "Negar Foroutan",

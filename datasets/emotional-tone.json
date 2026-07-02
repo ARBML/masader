@@ -1,27 +1,32 @@
 {
     "Name": "Emotional-Tone",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/emotone-ar-cicling2017/emotone_ar",
     "Link": "https://github.com/AmrMehasseb/Emotional-Tone",
     "License": "unknown",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "social media"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "general"
     ],
-    "Description": "emotion detection dataset",
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Dataset of 10065 tweets in Arabic for Emotion detection in Arabic text",
     "Volume": 10065.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [
         "Nile University"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "NileULex"
+    ],
     "Paper Title": "Emotional Tone Detection in Arabic Tweets",
     "Paper Link": "https://www.researchgate.net/profile/Samhaa-El-Beltagy/publication/320271778_Emotional_Tone_Detection_in_Arabic_Tweets/links/59d9f0a5458515a5bc2b1d8a/Emotional-Tone-Detection-in-Arabic-Tweets.pdf",
     "Script": "Arab",
@@ -29,7 +34,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "emotion classification"
     ],
@@ -38,11 +44,10 @@
     "Venue Name": "International Conference on Computational Linguistics and Intelligent Text Processing",
     "Authors": [
         "Amr Al-Khatib",
-        "S. El-Beltagy"
+        "Samhaa El-Beltagy"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Nile University"
     ],
     "Abstract": "Emotion detection in Arabic text is an emerging research area, but the efforts in this new field have been hindered by the very limited availability of Arabic datasets annotated with emotions. In this paper, we review work that has been carried out in the area of emotion analysis in Arabic text. We then present an Arabic tweet dataset that we have built to serve this task. The efforts and methodologies followed to collect, clean, and annotate our dataset are described and preliminary experiments carried out on this dataset for emotion detection are presented. The results of these experiments are provided as a benchmark for future studies and comparisons with other emotion detection models. The best results over a set of eight emotions were obtained using a complement Naive Bayes algorithm with an overall accuracy of 68.12%.",
     "Added By": ""

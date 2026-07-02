@@ -1,17 +1,21 @@
 {
     "Name": "MYC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/MouadJb/MYC",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Morocco",
+    "Source": [
+        "social media",
+        "commentary"
+    ],
     "Domain": [
-        "social media"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Moroccan YouTube sentiment dataset with 20k balanced Arabic/Latin comments.",
@@ -29,13 +33,14 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Name": "arXiv",
     "Authors": [
         "JBEL MOUAD",
         "JABRANE MOURAD",

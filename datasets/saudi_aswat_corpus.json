@@ -1,0 +1,59 @@
+{
+    "Name": "Saudi Aswat Corpus",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://falak.ksaa.gov.sa/corpora",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Saudi Arabia",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "audio",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Corpus of spontaneous Saudi Arabic speech that covers multiple regions in Saudi ",
+    "Volume": 2500.0,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Salman Global Academy for Arabic Language"
+    ],
+    "Derived From": [],
+    "Paper Title": "Saudi ASWAT: A Large-Scale Corpus of Spontaneous Saudi Arabic Speech",
+    "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.124.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "Free",
+    "Has Splits": false,
+    "Partial": true,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": [
+        "Abdullah I. Alharbi",
+        "Afrah A. Altamimi",
+        "Muneera Alhoshan",
+        "Amal Almazrua Halah Munif Alharbi",
+        "Bayan M. Almuqhim",
+        "Hawra Aljasim",
+        "Abdulrahman Alosaimy",
+        "Yahya A. Asiri",
+        "Abdullah Alfaifi"
+    ],
+    "Affiliations": [
+        "King Salman Global Academy for Arabic Language"
+    ],
+    "Abstract": "Spontaneous Arabic speech is scarce in current corpora, and it is not well represented. This poses a limitation in visibility of spontaneous Arabic to automatic speech recognition (ASR), speaker diarization, and sociolinguistic research. The Saudi ASWAT project fills a major gap by creating the first nationwide corpus of natural Saudi speech, where data has been recorded and transcribed under a systematic methodology and ecologically valid conditions. The corpus aims to collect 2,500 hours of natural conversations from a diverse range of participants. These has been selected from five major Saudi regional varieties, Najdi (Central), Eastern, Hijazi (Western), Northern, and Southern, covering more than fifty five local varieties. Speech has been recorded by trained fieldworkers using participants own devices to reflect real-life variation. The annotated data incorporate a variety of speaker demographics, regional vocabularies which differ from the standard lexicon, and structured metadata. TF\u2013IDF profiling shows regional differences in a range of performing words. Data also represent balanced age and gender sampling to support studies of intergenerational and sociophonetic variation. Saudi ASWAT provides the most linguistically diverse resources of Saudi Arabia to date. Additionally, it establishes an ethical governed framework for Arabic speech data creation to enable advances in both computational modeling and linguistic research.",
+    "Added By": "Zaid Alyafeai"
+}

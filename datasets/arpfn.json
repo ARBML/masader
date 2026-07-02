@@ -1,0 +1,57 @@
+{
+    "Name": "ArPFN",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://gitlab.com/bigirqu/ArPFN",
+    "License": "unknown",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "news",
+        "society"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "1546-user Arabic Twitter dataset for fake news.",
+    "Volume": 1546.0,
+    "Unit": "tokens",
+    "Ethical Risks": "High",
+    "Provider": [
+        "bigIR"
+    ],
+    "Derived From": [
+        "ArCOV19-Rumors",
+        "AraFacts"
+    ],
+    "Paper Title": "Detecting Users Prone to Spread Fake News on Arabic Twitter",
+    "Paper Link": "https://aclanthology.org/2022.osact-1.2.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitLab",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "text classification"
+    ],
+    "Venue Title": "OSACT",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
+    "Authors": [
+        "Zien Sheikh Ali",
+        "Abdulaziz Al-Ali",
+        "Tamer Elsayed"
+    ],
+    "Affiliations": [
+        "Qatar University"
+    ],
+    "Abstract": "The spread of misinformation has become a major concern to our society, and social media is one of its main culprits. Evidently, health misinformation related to vaccinations has slowed down global efforts to fight the COVID-19 pandemic. Studies have shown that fake news spreads substantially faster than real news on social media networks. One way to limit this fast dissemination is by assessing information sources in a semi-automatic way. To this end, we aim to identify users who are prone to spread fake news in Arabic Twitter. Such users play an important role in spreading misinformation and identifying them has the potential to control the spread. We construct an Arabic dataset on Twitter users, which consists of 1,546 users, of which 541 are prone to spread fake news (based on our definition). We use features extracted from users’ recent tweets, e.g., linguistic, statistical, and profile features, to predict whether they are prone to spread fake news or not. To tackle the classification task, multiple learning models are employed and evaluated. Empirical results reveal promising detection performance, where an F1 score of 0.73 was achieved by the logistic regression model. Moreover,when tested on a benchmark English dataset, our approach has outperformed the current state-of-the-art for this task.",
+    "Added By": "Zaid Alyafeai"
+}

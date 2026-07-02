@@ -1,18 +1,20 @@
 {
-    "Name": "WanJuan\u00b7SiLu Multimodal Multilingual Corpus (Audio)",
-    "Subsets": [],
+    "Name": "WanJuan·SiLu Multimodal Multilingual Corpus (Audio)",
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/opendatalab/WanJuanSiLu-Multimodal-5Languages",
     "Link": "https://huggingface.co/datasets/opendatalab/WanJuanSiLu-Multimodal-5Languages",
     "License": "CC BY 4.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Dual ASR verification of audio ensures ultra-high quality: This dataset uses audio-text data transcribed from the main streaming video media platform, cross-validated by Google and Microsoft dual commercial ASR engines to ensure high-precision text annotation, and combined with environmental noise elimination technology to improve sound quality",
@@ -30,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],

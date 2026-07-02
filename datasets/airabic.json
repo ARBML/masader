@@ -1,19 +1,22 @@
 {
     "Name": "AIRABIC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/Hamed1Hamed/AIRABIC",
     "License": "CC BY 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Arabic benchmark dataset for evaluating AI-generated text detectors, containing 500 human-written and 500 AI-generated passages with and without diacritics.",
     "Volume": 1000.0,
@@ -30,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "AI-generated text detection"
     ],
@@ -44,6 +48,6 @@
     "Affiliations": [
         "University of Bridgeport"
     ],
-    "Abstract": "In the rapid expansion of Large Language Models\n(LLMs), such as ChatGPT, AI-generated text detection models\nhave made substantial advancements, marking meaningful\nprogress in several research and industrial applications.\nHowever, the performance of these models in the Semitic\nlanguages\u2019 context, especially regarding diacritic usage,\ncontinues to be inadequately explored. One of these Semitic\nlanguages that is still commonly used is Arabic language. To\nstudy the performance of the recent AI-generated text detection\nmodels on the Arabic language, this paper introduces the\nAIRABIC dataset, a combination of 1000 examples\nencompassing 500 human-written passages from 41 unique\nsources and an equal number of AI-generated texts from the\nOpenAI\u2019s Generative Pre-trained Transformer version 3.5\n(GPT-3.5 Turbo ChatGPT). This study focuses on the\nperformance evaluation of two prominent AI-generated text\ndetectors, GPTZero and OpenAI's Text Classifier. Our findings\nreveal that GPTZero achieves an overall accuracy rate of\n62.6%, while the OpenAI Text Classifier exhibits a 50% rate of\nbiased categorizations when analyzing human-written text.\nFurther analysis shows the design gaps of these detectors,\nespecially for identifying human-written Arabic text, mainly\nwhen diacritics are involved. The detection accuracy for human-\nwritten texts with diacritics is as low as 30% for GPTZero and\n0% for the OpenAI Text Classifier. Results also show the\npotential of diacritics to reduce the detectors\u2019 accuracy and the",
+    "Abstract": "In the rapid expansion of Large Language Models\n(LLMs), such as ChatGPT, AI-generated text detection models\nhave made substantial advancements, marking meaningful\nprogress in several research and industrial applications.\nHowever, the performance of these models in the Semitic\nlanguages’ context, especially regarding diacritic usage,\ncontinues to be inadequately explored. One of these Semitic\nlanguages that is still commonly used is Arabic language. To\nstudy the performance of the recent AI-generated text detection\nmodels on the Arabic language, this paper introduces the\nAIRABIC dataset, a combination of 1000 examples\nencompassing 500 human-written passages from 41 unique\nsources and an equal number of AI-generated texts from the\nOpenAI’s Generative Pre-trained Transformer version 3.5\n(GPT-3.5 Turbo ChatGPT). This study focuses on the\nperformance evaluation of two prominent AI-generated text\ndetectors, GPTZero and OpenAI's Text Classifier. Our findings\nreveal that GPTZero achieves an overall accuracy rate of\n62.6%, while the OpenAI Text Classifier exhibits a 50% rate of\nbiased categorizations when analyzing human-written text.\nFurther analysis shows the design gaps of these detectors,\nespecially for identifying human-written Arabic text, mainly\nwhen diacritics are involved. The detection accuracy for human-\nwritten texts with diacritics is as low as 30% for GPTZero and\n0% for the OpenAI Text Classifier. Results also show the\npotential of diacritics to reduce the detectors’ accuracy and the",
     "Added By": "Zaid Alyafeai"
 }

@@ -1,18 +1,21 @@
 {
     "Name": "language identification",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/papluca/language-identification",
     "Link": "https://hf.co/datasets/papluca/language-identification",
     "License": "unknown",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "The Language Identification dataset is a collection of 90k samples consisting of text passages and corresponding language label.",
     "Volume": 3500.0,
@@ -20,7 +23,9 @@
     "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
-        "XNLI"
+        "XNLI",
+        "STSb Multi MT",
+        "Multilingual Amazon Reviews Corpus"
     ],
     "Paper Title": "",
     "Paper Link": "",
@@ -29,12 +34,13 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "language identification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

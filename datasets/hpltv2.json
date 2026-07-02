@@ -1,18 +1,22 @@
 {
     "Name": "HPLTv2",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
     "Link": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
     "License": "CC0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
+        "web crawls",
         "web pages"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "HPLT v2 is a large-scale multilingual dataset offering 8 T tokens across 193 languages, extracted with a quality-controlled pipeline from Internet Archive & CommonCrawl.",
     "Volume": 82670000.0,
@@ -32,48 +36,49 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
-    "Venue Name": "Association for Computational Linguistics",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
         "Laurie Burchell",
         "Ona de Gibert",
         "Nikolay Arefyev",
         "Mikko Aulamo",
-        "Marta Ba\u00f1\u00f3n",
+        "Marta Bañón",
         "Pinzhen Chen",
         "Mariia Fedorova",
         "Liane Guillou",
         "Barry Haddow",
-        "Jan Haji\u010d",
-        "Jind\u0159ich Helcl",
+        "Jan Hajič",
+        "Jindřich Helcl",
         "Erik Henriksson",
         "Mateusz Klimaszewski",
         "Ville Komulainen",
         "Andrey Kutuzov",
-        "Joona Kyt\u00f6niemi",
+        "Joona Kytöniemi",
         "Veronika Laippala",
-        "Petter M\u00e6hlum",
+        "Petter Mæhlum",
         "Bhavitvya Malik",
         "Farrokh Mehryary",
         "Vladislav Mikhailov",
         "Nikita Moghe",
         "Amanda Myntti",
-        "Dayy\u00e1n O\u2019Brien",
+        "Dayyán O’Brien",
         "Stephan Oepen",
         "Proyag Pal",
         "Jousia Piha",
         "Sampo Pyysalo",
-        "Gema Ram\u00edrez-S\u00e1nchez",
+        "Gema Ramírez-Sánchez",
         "David Samuel",
         "Pavel Stepachev",
-        "J\u00f6rg Tiedemann",
-        "Du\u0161an Vari\u0161",
-        "Tereza Vojt\u011bchov\u00e1",
+        "Jörg Tiedemann",
+        "Dušan Variš",
+        "Tereza Vojtěchová",
         "Jaume Zaragoza-Bernabeu"
     ],
     "Affiliations": [

@@ -1,47 +1,54 @@
 {
     "Name": "AraSum Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AraSum",
     "Link": "https://github.com/ppke-nlpg/AraSum",
     "License": "unknown",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news",
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "AraSum corpus is a monolingual corpus for abstractive text summarization for the Arabic language. The AraSum corpus contains 49604 articles and their corresponding leads. AraSum files are in .csv format.",
     "Volume": 49604.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
-        "P\u00e1zm\u00e1ny P\u00e9ter Catholic University Faculty of Information Technology and Bionics"
+        "Pázmány Péter Catholic University"
     ],
     "Derived From": [],
-    "Paper Title": "",
-    "Paper Link": "",
+    "Paper Title": "Cross-lingual Fine-tuning for Abstractive Arabic Text Summarization",
+    "Paper Link": "https://aclanthology.org/2021.ranlp-1.74/",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "summarization"
     ],
-    "Venue Title": "",
+    "Venue Title": "RANLP",
     "Venue Type": "conference",
-    "Venue Name": "",
+    "Venue Name": "Recent Advances in Natural Language Processing",
     "Authors": [
         "Mram Kahla",
-        "Zijian Gy\u0151z\u0151 Yang",
-        "Attila Nov\u00e1k"
+        "Zijian Győző Yang",
+        "Attila Novák"
     ],
-    "Affiliations": [],
-    "Abstract": "",
+    "Affiliations": [
+        "Pázmány Péter Catholic University"
+    ],
+    "Abstract": "While abstractive summarization in certain languages, like English, has already reached fairly good results due to the availability of trend-setting resources, like the CNN/Daily Mail dataset, and considerable progress in generative neural models, progress in abstractive summarization for Arabic, the fifth most-spoken language globally, is still in baby shoes. While some resources for extractive summarization have been available for some time, in this paper, we present the first corpus of human-written abstractive news summaries in Arabic, hoping to lay the foundation of this line of research for this important language. The dataset consists of more than 21 thousand items. We used this dataset to train a set of neural abstractive summarization systems for Arabic by fine-tuning pre-trained language models such as multilingual BERT, AraBERT, and multilingual BART-50. As the Arabic dataset is much smaller than e.g. the CNN/Daily Mail dataset, we also applied cross-lingual knowledge transfer to significantly improve the performance of our baseline systems. The setups included two M-BERT-based summarization models originally trained for Hungarian/English and a similar system based on M-BART-50 originally trained for Russian that were further fine-tuned for Arabic. Evaluation of the models was performed in terms of ROUGE, and a manual evaluation of fluency and adequacy of the models was also performed.",
     "Added By": "Mram Kahla"
 }

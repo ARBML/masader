@@ -1,21 +1,62 @@
 {
     "Name": "TEAD",
-    "Subsets": [],
+    "Dialect Subsets": [
+        {
+            "Name": "Maghrebi",
+            "Volume": 1702347,
+            "Unit": "documents",
+            "Dialect": "North Africa"
+        },
+        {
+            "Name": "Egypt",
+            "Volume": 2070320,
+            "Unit": "documents",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 1523121,
+            "Unit": "documents",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "Iraqi",
+            "Volume": 75622,
+            "Unit": "documents",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "Levant",
+            "Volume": 320155,
+            "Unit": "documents",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "Others",
+            "Volume": 335645,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        }
+    ],
     "HF Link": "https://hf.co/datasets/arbml/TEAD",
     "Link": "https://github.com/HSMAabdellaoui/TEAD",
     "License": "GPL-3.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation",
+        "human annotation"
     ],
     "Description": "dataset for Arabic Sentiment Analysis",
-    "Volume": 6000000.0,
+    "Volume": 6027210.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
     "Provider": [
@@ -29,21 +70,22 @@
     "Host": "GitHub",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "Computaci\u00f3n y Sistemas",
+    "Venue Title": "Computación y Sistemas",
     "Venue Type": "journal",
-    "Venue Name": "Computaci\u00f3n y Sistemas",
+    "Venue Name": "Computación y Sistemas",
     "Authors": [
         "Houssem Abdellaoui",
-        "M. Zrigui"
+        "Mounir Zrigui"
     ],
     "Affiliations": [
-        "",
-        ""
+        "National Higher Engineering School of Tunis",
+        "University of Monastir"
     ],
-    "Abstract": "Our paper presents a distant supervision algorithm for automatically collecting and labeling \u2018TEAD\u2019, a dataset for Arabic Sentiment Analysis (SA), using emojis and sentiment lexicons. The data was gathered from Twitter during the period between the 1st of June and the 30th of November 2017. Although the idea of using emojis to collect and label training data for SA, is not novel, getting this approach to work for Arabic dialect was very challenging. We ended up with more than 6 million tweets labeled as Positive, Negative or Neutral. We present the algorithm used to deal with mixed-content tweets (Modern Standard Arabic MSA and Dialect Arabic DA). We also provide properties and statistics of the dataset along side experiments results. Our try outs covered a wide range of standard classifiers proved to be efficient for sentiment classification problem.",
+    "Abstract": "Our paper presents a distant supervision algorithm for automatically collecting and labeling ‘TEAD’, a dataset for Arabic Sentiment Analysis (SA), using emojis and sentiment lexicons. The data was gathered from Twitter during the period between the 1st of June and the 30th of November 2017. Although the idea of using emojis to collect and label training data for SA, is not novel, getting this approach to work for Arabic dialect was very challenging. We ended up with more than 6 million tweets labeled as Positive, Negative or Neutral. We present the algorithm used to deal with mixed-content tweets (Modern Standard Arabic MSA and Dialect Arabic DA). We also provide properties and statistics of the dataset along side experiments results. Our try outs covered a wide range of standard classifiers proved to be efficient for sentiment classification problem.",
     "Added By": ""
 }

@@ -1,18 +1,21 @@
 {
     "Name": "AFEWC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AFEWC",
     "Link": "https://sourceforge.net/projects/crlcl/",
     "License": "CC BY-NC 2.0",
     "Year": 2013,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "a multilingual comparable text articles in Arabic, French, and English languages",
     "Volume": 40290.0,
@@ -29,7 +32,8 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
@@ -42,9 +46,7 @@
         "Kamel Sma"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Université de Lorraine"
     ],
     "Abstract": "Parallel corpora are not available for all domains and languages, but statistical methods in multilingual research domains require huge parallel/comparable corpora. Comparable corpora can be used when the parallel is not sufficient or not available for specific domains and languages. In this paper, we propose a method to extract all comparable articles from Wikipedia for multiple languages based on interlanguge links. We also extract comparable articles from Euro News website. We also present two comparability measures (CM) to compute the degree of comparability of multilingual articles. We extracted about 40K and 34K comparable articles from Wikipedia and Euro News respectively in three languages including Arabic, French, and English. Experimental results of comparability measures show that our measure can capture the comparability of multilingual corpora and allow to retrieve articles from different language concerning the same topic.",
     "Added By": "Zaid Alyafeai"

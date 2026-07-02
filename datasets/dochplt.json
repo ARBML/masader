@@ -1,18 +1,22 @@
 {
     "Name": "DocHPLT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/HPLT/DocHPLT",
     "Link": "https://huggingface.co/datasets/HPLT/DocHPLT",
     "License": "CC0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "web crawls"
+    ],
     "Domain": [
-        "public datasets"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "Largest publicly available document-level translation dataset with 124M aligned document pairs across 50 languages paired with English.",
     "Volume": 2196334.0,
@@ -31,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
@@ -39,12 +44,12 @@
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
     "Authors": [
-        "Dayy\u00e1n O\u2019Brien",
+        "Dayyán O’Brien",
         "Bhavitvya Malik",
         "Ona de Gibert",
         "Pinzhen Chen",
         "Barry Haddow",
-        "J\u00f6rg Tiedemann"
+        "Jörg Tiedemann"
     ],
     "Affiliations": [
         "University of Edinburgh",

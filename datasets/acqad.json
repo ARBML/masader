@@ -1,18 +1,21 @@
 {
     "Name": "ACQAD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/acqad_multihop,https://hf.co/datasets/arbml/acqad_comparison",
     "Link": "https://www.kaggle.com/datasets/abdellahhamouda/acqad-dataset",
     "License": "unknown",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "ACQAD, contains more than 118k questions, covering both comparison and multi-hop types. Each question-answer pair is decomposed into a set of single-hop questions, allowing QA systems to reduce question complexity and explain the reasoning steps.",
     "Volume": 118841.0,
@@ -30,13 +33,14 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "0",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],
     "Venue Title": "ICCSAITCS",
     "Venue Type": "conference",
-    "Venue Name": ". International Conference on Cyber Security, Artificial Intelligence and Theoretical Computer Science",
+    "Venue Name": "International Conference on Cyber Security, Artificial Intelligence and Theoretical Computer Science",
     "Authors": [
         "Abdellah HAMOUDA SIDHOUM",
         "M'Hamed MATAOUI",

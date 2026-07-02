@@ -1,18 +1,21 @@
 {
     "Name": "NArabizi treebank",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://parsiti.github.io/NArabizi/",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Algeria",
+    "Source": [
+        "news articles"
+    ],
     "Domain": [
-        "other"
+        "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "fully annotated in morpho-syntax\r\nand Universal Dependency syntax, with full\r\ntranslation at both the word and the sentence\r\nlevels",
     "Volume": 1500.0,
@@ -20,7 +23,7 @@
     "Ethical Risks": "Low",
     "Provider": [
         "Inria",
-        "Sorbonne Universit\u00e9"
+        "Sorbonne Université"
     ],
     "Derived From": [],
     "Paper Title": "Building a User-Generated Content North-African\nArabizi Treebank: Tackling Hell",
@@ -30,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "part of speech tagging",
         "dependency parsing",
@@ -38,26 +42,20 @@
     ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
-    "Venue Name": "Assofications of computation linguisitcs",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
-        "Djam\u00e9 Seddah",
+        "Djamé Seddah",
         "Farah Essaidi",
         "Amal Fethi",
         "Matthieu Futeral",
-        "Benjamin M\u00fcller",
-        "Pedro Javier Ortiz Su\u00e1rez",
-        "B. Sagot",
+        "Benjamin Müller",
+        "Pedro Javier Ortiz Suárez",
+        "Benoît Sagot",
         "Abhishek Srivastava"
     ],
     "Affiliations": [
-        "Inria;Sorbonne Universit\u00e9",
-        "",
-        "",
-        "",
-        "",
-        "Inria;Sorbonne Universit\u00e9",
-        "",
-        ""
+        "Inria",
+        "Sorbonne Université"
     ],
     "Abstract": "We introduce the first treebank for a romanized user-generated content variety of Algerian, a North-African Arabic dialect known for its frequent usage of code-switching. Made of 1500 sentences, fully annotated in morpho-syntax and Universal Dependency syntax, with full translation at both the word and the sentence levels, this treebank is made freely available. It is supplemented with 50k unlabeled sentences collected from Common Crawl and web-crawled data using intensive data-mining techniques. Preliminary experiments demonstrate its usefulness for POS tagging and dependency parsing. We believe that what we present in this paper is useful beyond the low-resource language community. This is the first time that enough unlabeled and annotated data is provided for an emerging user-generated content dialectal language with rich morphology and code switching, making it an challenging test-bed for most recent NLP approaches.",
     "Added By": "Zaid Alyafeai"

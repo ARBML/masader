@@ -1,17 +1,20 @@
 {
     "Name": "QADT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/obadx/qdat",
     "Link": "https://www.kaggle.com/datasets/annealdahi/quran-recitation",
     "License": "MIT License",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "books"
+    ],
     "Domain": [
-        "other"
+        "religion"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The audio files are manually annotated by expert to show the correctness of the Reciting the Quran with Tajwid according to three rules of recitation of Quran.",
@@ -29,7 +32,8 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
@@ -42,7 +46,7 @@
         "Yusra Faisal"
     ],
     "Affiliations": [
-        " Mosul University"
+        "Mosul University"
     ],
     "Abstract": "Dataset are considered as an important part of any audio research and an important resource for speech processing. Availability of dataset in speech processing field is important. The effort and time needed to build a complete good dataset are very long. The available public dataset in Arabic language are very little. This paper presents the \"QDAT\" dataset of audio Arabic speech files. The audio files are manually annotated by expert to show the correctness of the Reciting the Quran with Tajwid according to three rules of recitation of Quran. The dataset can be used for training and classification models based on machine learning and deep learning algorithms",
     "Added By": "Zaid Alyafeai"

@@ -1,18 +1,21 @@
 {
     "Name": "Election Questions - Arabic Translation",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/fr3on/election-questions-arabic",
     "Link": "https://huggingface.co/datasets/fr3on/election-questions-arabic",
     "License": "MIT License",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "politics"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "High-quality Arabic translation using Google's MADLAD-400 model for https://huggingface.co/datasets/Anthropic/election_questions",
     "Volume": 1486.0,
@@ -29,12 +32,13 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "safety evaluation"
     ],
     "Venue Title": "",
-    "Venue Type": "preprint",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
         "Ahmed Mardi"

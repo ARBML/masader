@@ -1,0 +1,61 @@
+{
+    "Name": "morphems_without_borders",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/YaraAlakeel/morphems_without_borders",
+    "License": "MIT License",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation"
+    ],
+    "Description": "A datasets to control evaluation of Arabic derivational morphology across multiple tasks",
+    "Volume": 130.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Yara Alakeel",
+        "Chatrine Qwaider",
+        "Hanan Aldarmaki",
+        "Sawsan Alqahtani"
+    ],
+    "Derived From": [
+        "Arabic Billion Words corpus"
+    ],
+    "Paper Title": "Morphemes Without Borders: Evaluating Root–Pattern Morphology in Arabic Tokenizers and LLMs",
+    "Paper Link": "https://arxiv.org/pdf/2603.15773v1.pdf",
+    "Script": "Arab",
+    "Tokenized": true,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "morphological analysis"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": [
+        "Yara Alakeel",
+        "Chatrine Qwaider",
+        "Hanan Aldarmaki",
+        "Sawsan Alqahtani"
+    ],
+    "Affiliations": [
+        "SDAIA",
+        "MBZUAI",
+        "PNU"
+    ],
+    "Abstract": "This work investigates how effectively large language models (LLMs) and their tokenization schemes represent and generate Arabic root-pattern morphology, probing whether they capture genuine morphological structure or rely on surface memorization. Arabic morphological system provides a rich testbed for analyzing how LLMs handle complex, non-concatenative forms and how tokenization choices influence this process. Our study begins with an evaluation of morphological fidelity across Arabic and multilingual tokenizers against gold-standard segmentation, followed by an analysis of LLM performance in productive root-pattern generation using a newly developed test set. Our findings across seven Arabic-centric and multilingual LLMs and their respective tokenizers reveal that tokenizer morphological alignment is not necessary nor sufficient for morphological generation, which questions the role of morphological tokenization in downstream performance.",
+    "Added By": "Zaid Alyafeai"
+}

@@ -1,18 +1,22 @@
 {
     "Name": "XTREME-R UDPOS",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/izhx/xtreme-r-udpos",
     "Link": "https://sites.research.google/xtreme",
     "License": "custom",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "treebanks"
+    ],
     "Domain": [
-        "public datasets"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "UD-POS employed the part-of-speech tagging data from the Universal Dependencies v2.7 treebanks",
     "Volume": 1680.0,
@@ -25,19 +29,20 @@
         "Universal Dependencies"
     ],
     "Paper Title": "XTREME-R: Towards More Challenging and Nuanced Multilingual Evaluation",
-    "Paper Link": "https://arxiv.org/pdf/2104.07412",
+    "Paper Link": "https://doi.org/10.18653/v1/2021.emnlp-main.802",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "part of speech tagging"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Sebastian Ruder",
         "Noah Constant",

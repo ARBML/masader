@@ -1,25 +1,29 @@
 {
     "Name": "2018 NIST Speaker Recognition Evaluation Test Set",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2020S04",
     "License": "LDC User Agreement",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "Tunisia",
+    "Source": [
+        "telephone conversations"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The telephone speech data was drawn from the Call My Net 2 (CMN2) collection conducted by LDC in Tunisia in which Tunisian Arabic speakers called friends or relatives who agreed to record their telephone conversations lasting between 8-10 minutes. The speech segments include PSTN (public switched telephone network) and VOIP (voice over IP) data.",
     "Volume": 396.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
-        "LDC"
+        "LDC",
+        "NIST"
     ],
     "Derived From": [],
     "Paper Title": "",
@@ -29,14 +33,23 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "750.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speaker identification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Craig Greenberg",
+        "Omid Sadjadi",
+        "Elliot Singer",
+        "Kevin Walker",
+        "Karen Jones",
+        "Jonathan Wright",
+        "Stephanie Strassel"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -1,17 +1,20 @@
 {
     "Name": "MM-EVAL",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/prometheus-eval/MM-Eval",
     "Link": "https://huggingface.co/datasets/prometheus-eval/MM-Eval",
     "License": "CC BY-SA 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Multilingual meta-evaluation benchmark for evaluating Large-Language-Model judges across 18 core languages and 122 consistency-test languages.",
@@ -39,7 +42,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "safety evaluation",
         "hallucination detection",
@@ -56,8 +60,8 @@
         "Mano Aslan",
         "Vu Trong Kim",
         "Shayekh Bin Islam",
-        "Jaume Prats-Cristi\u00e0",
-        "Luc\u00eda Tormo-Ba\u00f1uelos",
+        "Jaume Prats-Cristià",
+        "Lucía Tormo-Bañuelos",
         "Seungone Kim"
     ],
     "Affiliations": [
@@ -69,6 +73,6 @@
         "Bangladesh University of Engineering and Technology",
         "Carnegie Mellon University"
     ],
-    "Abstract": "As Large Language Models (LLMs) produce fluent content in many languages, it becomes critical to verify whether LLM-based evaluators\u2014trained mainly on English\u2014can reliably judge non-English outputs. Existing meta-evaluation benchmarks are English-centric. We introduce MM-EVAL, a multilingual benchmark with five core subsets (covering 18 languages) and a Language-Consistency subset (122 languages) that tests fairness and absolute-score consistency rather than only ranking accuracy. Experiments on 12 evaluator LLMs reveal large accuracy drops in low-resource languages and unfair score assignments. MM-EVAL correlates significantly with Best-of-N rankings, validating its utility for developing robust multilingual evaluators. We release data and code.",
+    "Abstract": "As Large Language Models (LLMs) produce fluent content in many languages, it becomes critical to verify whether LLM-based evaluators—trained mainly on English—can reliably judge non-English outputs. Existing meta-evaluation benchmarks are English-centric. We introduce MM-EVAL, a multilingual benchmark with five core subsets (covering 18 languages) and a Language-Consistency subset (122 languages) that tests fairness and absolute-score consistency rather than only ranking accuracy. Experiments on 12 evaluator LLMs reveal large accuracy drops in low-resource languages and unfair score assignments. MM-EVAL correlates significantly with Best-of-N rankings, validating its utility for developing robust multilingual evaluators. We release data and code.",
     "Added By": "Zaid Alyafeai"
 }

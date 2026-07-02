@@ -1,18 +1,21 @@
 {
     "Name": "2003 NIST Rich Transcription Evaluation Data",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2007S10",
     "License": "LDC User Agreement",
     "Year": 2007,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "TV channels"
+    ],
     "Domain": [
-        "other"
+        "news"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The BN datasets were selected from TDT-4 sources collected in February 2001. The evaluation excerpts were transcribed to the nearest story boundary. The English BN dataset is approximately three hours long and is composed of 30-minute excerpts from six different broadcasts. The Mandarin Chinese BN dataset is approximately one hour long, consisting of 12-minute excerpts from five different broadcasts. The Arabic BN dataset is also approximately one hour long and contains 30-minute excerpts from two different broadcasts.",
     "Volume": 1.0,
@@ -29,14 +32,22 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Jonathan G. Fiscus",
+        "George R. Doddington",
+        "Audrey Le",
+        "Greg Sanders",
+        "Mark Przybocki",
+        "David Pallett"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

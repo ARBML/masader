@@ -1,18 +1,21 @@
 {
     "Name": "JHSC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/mcnzzpgrdj/2",
     "License": "CC BY 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Jordan",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "society",
+        "politics"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -32,7 +35,8 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "offensive language detection",
         "sentiment analysis"
@@ -52,8 +56,8 @@
     "Affiliations": [
         "Princess Sumaya University for Technology",
         "Jordan University of Science and Technology",
-        "SAE Institute, Luminus Technical University College"
+        "Luminus Technical University College"
     ],
-    "Abstract": "This paper presents a new large-scale, publicly available Arabic hate-speech dataset consisting of 403,688 Jordanian-dialect tweets categorized into four sentiment classes based on the presence and intensity of hate speech. The dataset is constructed by systematically collecting tweets from Twitter between 2014 and 2022, followed by rigorous pre-processing and manual annotation. Machine-learning and deep-learning classifiers (TF-IDF, Word2Vec, AraBERT) are evaluated for detecting hate speech, demonstrating the dataset\u2019s utility in Arabic and Jordanian-dialect NLP research.",
+    "Abstract": "This paper presents a new large-scale, publicly available Arabic hate-speech dataset consisting of 403,688 Jordanian-dialect tweets categorized into four sentiment classes based on the presence and intensity of hate speech. The dataset is constructed by systematically collecting tweets from Twitter between 2014 and 2022, followed by rigorous pre-processing and manual annotation. Machine-learning and deep-learning classifiers (TF-IDF, Word2Vec, AraBERT) are evaluated for detecting hate speech, demonstrating the dataset’s utility in Arabic and Jordanian-dialect NLP research.",
     "Added By": "Zaid Alyafeai"
 }

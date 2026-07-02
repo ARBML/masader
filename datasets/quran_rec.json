@@ -1,20 +1,22 @@
 {
     "Name": "Quran REC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/obadx/recitation-segmentation-augmented",
     "Link": "https://huggingface.co/datasets/obadx/recitation-segmentation-augmented",
     "License": "MIT License",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "religion"
+    ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
-        "machine annotation",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "Annotated audio dataset of expert Quranic recitations aligned with phonetic tags for Tajweed rules.",
     "Volume": 847.99,
@@ -24,14 +26,15 @@
         "Ain Shams University"
     ],
     "Derived From": [],
-    "Paper Title": "Automatic Pronunciation Error Detection and Correction of the Holy Quran\u2019s Learners Using Deep Learning",
+    "Paper Title": "Automatic Pronunciation Error Detection and Correction of the Holy Quran’s Learners Using Deep Learning",
     "Paper Link": "https://arxiv.org/pdf/2509.00094",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
@@ -39,8 +42,8 @@
     "Venue Type": "conference",
     "Venue Name": "IEEE International Conference on Intelligent Computing and Systems",
     "Authors": [
-        "Abdullah Abdelfttah Mahmoud",
-        "I. Khalil",
+        "Abdullah Mahmoud",
+        "Mahmoud I. Khalil",
         "Hazem Abbas"
     ],
     "Affiliations": [

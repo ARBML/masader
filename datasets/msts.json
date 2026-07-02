@@ -1,26 +1,28 @@
 {
     "Name": "MSTS",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/felfri/MSTS",
     "Link": "https://github.com/paul-rottger/msts-multimodal-safety",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A multilingual multimodal safety test suite for vision-language models.",
     "Volume": 400.0,
     "Unit": "sentences",
     "Ethical Risks": "High",
     "Provider": [
-        "Instituto de Telecomunica\u00e7\u00f5es"
+        "Instituto de Telecomunicações"
     ],
     "Derived From": [],
     "Paper Title": "MSTS: A Multimodal Safety Test Suite for Vision-Language Models",
@@ -30,15 +32,16 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "safety evaluation"
     ],
-    "Venue Title": "arXiv preprint",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
     "Venue Name": "arXiv",
     "Authors": [
-        "Paul R\u00f6ttger",
+        "Paul Röttger",
         "Giuseppe Attanasio",
         "Felix Friedrich",
         "Janis Goldzycher",
@@ -51,7 +54,7 @@
         "Jieun Han",
         "Dirk Hovy",
         "Seogyeong Jeong",
-        "Paloma Jereti\u010d",
+        "Paloma Jeretič",
         "Flor Miriam Plaza-del-Arco",
         "Donya Rooein",
         "Patrick Schramowski",
@@ -63,13 +66,13 @@
     ],
     "Affiliations": [
         "Bocconi University",
-        "Instituto de Telecomunica\u00e7\u00f5es",
+        "Instituto de Telecomunicações",
         "TU Darmstadt",
         "Hessian.AI",
         "University of Zurich",
         "Google DeepMind",
         "WalledAI",
-        "King\u2019s College London",
+        "King’s College London",
         "Imperial College London",
         "Clarkson University",
         "Lawrence Berkeley National Laboratory",

@@ -1,18 +1,21 @@
 {
     "Name": "ALR: Arabic Laptop Reviews dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/bashartalafha/Arabic-Laptop-Reviews-ALR-Dataset",
     "License": "unknown",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "reviews"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic  Laptops Reviews  (ALR) dataset focuses on laptops reviews written in Arabic",
     "Volume": 1753.0,
@@ -31,13 +34,14 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],
     "Venue Title": "ACIT",
     "Venue Type": "conference",
-    "Venue Name": "international Arab Conference on Information Technology",
+    "Venue Name": "International Arab Conference on Information Technology",
     "Authors": [
         "Mahmoud Al-Ayyoub",
         "Amal Gigieh",
@@ -51,6 +55,6 @@
         "Al-Balqa' Applied UniversityAl-Buraimi University College",
         "Texas A&M University-San Antonio"
     ],
-    "Abstract": "Sentiment Analysis  (SA) is one of the hottest research areas in Natural Language Processing (NLP) with  vast commercial as well as academic applications. One of the most interesting versions of SA is called Aspect-Based SA (ABSA). Currently, most of the researchers focus on English text. Other languages such as Arabic have received less attention. To the best of our knowledge, only few papers have addressed ABSA of Arabic reviews and they have all been applied on only three datasets. In  this work, we demonstrate  our efforts  to build  the Arabic  Laptops Reviews  (ALR) dataset,  which focuses on laptops reviews written in Arabic. To make it easy to use, the ALR dataset is prepared according to the annotation scheme of SemEval16-Task5. The annotation scheme considers two problems: aspect category prediction and sentiment polarity label prediction. It also comes with an evaluation procedure that extracts n-grams\u2019 features and employs a Support Vector Machine (SVM) classifier in order to allow researchers to gauge and compare the performance of their systems. The evaluation results show that there is a lot of room for improvements in the performance of the SVM classifier for the aspect category prediction problem. As for the sentiment polarity label prediction, SVM\u2019s accuracy is actually high.",
+    "Abstract": "Sentiment Analysis  (SA) is one of the hottest research areas in Natural Language Processing (NLP) with  vast commercial as well as academic applications. One of the most interesting versions of SA is called Aspect-Based SA (ABSA). Currently, most of the researchers focus on English text. Other languages such as Arabic have received less attention. To the best of our knowledge, only few papers have addressed ABSA of Arabic reviews and they have all been applied on only three datasets. In  this work, we demonstrate  our efforts  to build  the Arabic  Laptops Reviews  (ALR) dataset,  which focuses on laptops reviews written in Arabic. To make it easy to use, the ALR dataset is prepared according to the annotation scheme of SemEval16-Task5. The annotation scheme considers two problems: aspect category prediction and sentiment polarity label prediction. It also comes with an evaluation procedure that extracts n-grams’ features and employs a Support Vector Machine (SVM) classifier in order to allow researchers to gauge and compare the performance of their systems. The evaluation results show that there is a lot of room for improvements in the performance of the SVM classifier for the aspect category prediction problem. As for the sentiment polarity label prediction, SVM’s accuracy is actually high.",
     "Added By": "Wafaa Mohammed"
 }

@@ -1,19 +1,21 @@
 {
     "Name": "AASL",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/pain/AASL",
     "Link": "https://kaggle.com/datasets/59761a7132888de252ded8443ced1c7fb21ad28be5598f1f6ca43c663c32b40b",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The first publicly available RGB dataset of Arabic sign language alphabets with 7,857 labelled images collected from 200+ participants.",
     "Volume": 7857.0,
@@ -32,20 +34,21 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sign language recognition"
     ],
-    "Venue Title": "viXra",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "viXra",
+    "Venue Name": "arXiv",
     "Authors": [
         "Muhammad Al-Barham",
         "Adham Alsharkawi",
         "Musa Al-Yaman",
         "Mohammad Al-Fetyani",
         "Ashraf Elnagar",
-        "Ahmad Abu Sa\u2019aleek",
+        "Ahmad Abu Sa’aleek",
         "Mohammad Al-Odat"
     ],
     "Affiliations": [

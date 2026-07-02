@@ -1,17 +1,20 @@
 {
     "Name": "Dialectal Arabic Code-Switching Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Dialectal_Speech_Code_Switching",
     "Link": "https://github.com/qcri/Arabic_speech_code_switching",
     "License": "MIT License",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Egypt",
+    "Source": [
+        "TV channels"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "The dataset studies code-switching between Egyptian and modern standard Arabic in broadcast domain.",
@@ -31,21 +34,25 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "codeswitch detection"
     ],
-    "Venue Title": "",
+    "Venue Title": "Interspeech",
     "Venue Type": "conference",
-    "Venue Name": "",
+    "Venue Name": "Conference of the International Speech Communication Association",
     "Authors": [
-        "Chowdhury",
-        "Shammur Absar  and Samih",
-        "Younes and Eldesouki",
-        "Mohamed and Ali",
-        "Ahmed"
+        "Shammur A Chowdhury",
+        "Younes Samih",
+        "Mohamed Eldesouki",
+        "Ahmed Ali"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "Hamad Bin Khalifa University",
+        "Concordia University"
+    ],
     "Abstract": "The intra-utterance code-switching (CS) is defined as the alternation between two or more languages within the same utterance. Despite the fact that spoken dialectal code-switching (DCS) is more challenging than CS, it remains largely unexplored. In this study, we describe a method to build the first spoken DCS corpus. The corpus is annotated at the token-level minding both linguistic and acoustic cues for dialectal Arabic. For detailed analysis, we study Arabic automatic speech recognition (ASR), Arabic dialect identification (ADI), and natural language processing (NLP) modules for the DCS corpus. Our results highlight the importance of lexical information for discriminating the DCS labels. We observe that the performance of different models is highly dependent on the degree of code-mixing at the token-level as well as its complexity at the utterance-level.",
     "Added By": "Nouamane Tazi"
 }

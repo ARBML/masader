@@ -1,18 +1,22 @@
 {
     "Name": "NetDC Arabic BNSC: Broadcast News Speech Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-S0157/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2007,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "TV channels"
+    ],
     "Domain": [
-        "other"
+        "news",
+        "politics"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The database contains ca. 22.5 hours of broadcast news speech recorded from Radio Orient (France) during a 3-month period between November 2001 and January 2002 (37 broadcast news, including 32 from the 5.55 pm news and 5 from the 10.55 pm news, with about 90 distinct speakers identified)",
     "Volume": 22.5,
@@ -28,13 +32,14 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "200.00\u20ac",
-    "Test Split": false,
+    "Cost": "200.00€",
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

@@ -1,18 +1,23 @@
 {
     "Name": "TED TALKS IWSLT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/IWSLT/ted_talks_iwslt",
     "Link": "https://drive.google.com/u/0/uc?id=1Cz1Un9p8Xn9IpEMMrg2kXSDt0dnjxc4z&export=download",
     "License": "CC BY-NC 4.0",
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "TV channels",
+        "subtitles",
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The Web Inventory Talk is a collection of the original Ted talks and their translated version. The translations are available in more than 109+ languages, though the distribution is not uniform.",
     "Volume": 19670000.0,
@@ -31,7 +36,8 @@
     "Host": "Gdrive",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
@@ -44,8 +50,7 @@
         "Marcello Federico"
     ],
     "Affiliations": [
-        "FBK \u2013 Fondazione Bruno Kessler Trento",
-        "Italy"
+        "FBK – Fondazione Bruno Kessler Trento"
     ],
     "Abstract": "We describe here a Web inventory named\nWIT3\nthat offers access to a collection of\ntranscribed and translated talks. The core\nof WIT3\nis the TED Talks corpus, that\nbasically redistributes the original content\npublished by the TED Conference website (http://www.ted.com). Since 2007,\nthe TED Conference, based in California,\nhas been posting all video recordings of\nits talks together with subtitles in English\nand their translations in more than 80 languages. Aside from its cultural and social relevance, this content, which is published under the Creative Commons BYNC-ND license, also represents a precious\nlanguage resource for the machine translation research community, thanks to its size,\nvariety of topics, and covered languages.\nThis effort repurposes the original content\nin a way which is more convenient for machine translation researchers.",
     "Added By": "Zaid Alyafeai"

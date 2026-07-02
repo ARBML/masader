@@ -1,18 +1,20 @@
 {
     "Name": "ArabicSA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://www.saifmohammad.com/WebPages/ArabicSA.html",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Arabic Emoticon Lexicon: Contains Arabic words and phrases frequently used on Twitter with sentiment annotation based on co-occurrence with positive and negative seed words. Arabic Hashtag Lexicon: Annotated with sentiment based on commonly used Arabic hashtags from Twitter. Arabic Hashtag Lexicon (dialectal): Focuses on dialectal Arabic words. BBN Blog Posts Sentiment Corpus: Contains Levantine dialect social media posts, manually annotated for sentiment. Syria Tweets Sentiment Corpus: A collection of tweets from Syria, manually annotated for sentiment.",
@@ -24,7 +26,7 @@
     ],
     "Derived From": [
         "Twitter API",
-        "BBN Arabic-Dialect\u2013English Parallel Text"
+        "BBN Arabic-Dialect–English Parallel Text"
     ],
     "Paper Title": "Sentiment Lexicons for Arabic Social Media",
     "Paper Link": "https://aclanthology.org/L16-1006.pdf",
@@ -33,13 +35,14 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "LREC (Language Resources and Evaluation Conference), NAACL",
+    "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "Language Resources and Evaluation Conference (LREC), North American Chapter of the Association for Computational Linguistics (NAACL)",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Saif M. Mohammad\nMohammad Salameh\nSvetlana Kiritchenko"
     ],

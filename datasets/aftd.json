@@ -1,0 +1,61 @@
+{
+    "Name": "AFTD",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/zeydferhat/functional_text_dimensions_for_arabic_text_classification",
+    "Link": "https://huggingface.co/datasets/zeydferhat/functional_text_dimensions_for_arabic_text_classification",
+    "License": "Apache-2.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "web pages"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "(AFTD Corpus) is introduced as a curated collection of Arabic documents aimed at evaluating text classification methodologies using the Functional Text Dimensions (FTD) approach.",
+    "Volume": 3400.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Biskra"
+    ],
+    "Derived From": [],
+    "Paper Title": "Functional Text Dimensions for Arabic Text Classification",
+    "Paper Link": "https://aclanthology.org/2024.arabicnlp-1.29.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "topic classification"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Zeyd Ferhat",
+        "Abir Betka",
+        "Barka Riyadh",
+        "Selma Boutiba",
+        "Zineddine S. Kahhoul",
+        "Mohamed Lakhdar Tiar",
+        "Habiba Dahmani",
+        "Ahmed Abdelali"
+    ],
+    "Affiliations": [
+        "University of Biskra",
+        "University of M'sila",
+        "University of El-Oued",
+        "SDAIA"
+    ],
+    "Abstract": "Text classification is of paramount importance in a wide range of applications, including information retrieval, extraction and sentiment analysis. The challenge of classifying and labelling text genres, especially in web-based corpora, has received considerable attention. The frequent absence of unambiguous genre information complicates the identification of text types. To address these issues, the Functional Text Dimensions (FTD) method has been introduced to provide a universal set of categories for text classification. This study presents the Arabic Functional Text Dimensions Corpus (AFTD Corpus), a carefully curated collection of documents for evaluating text classification in Arabic. The AFTD Corpus which we are making available to the community, consists of 3400 documents spanning 17 different text categories. Through a comprehensive evaluation using traditional machine learning and neural models, we assess the effectiveness of the FTD approach in the Arabic context. CAMeL-BERT, a state-of-the-art model, achieved an impressive F1 score of 0.81 on our corpus. This research highlights the potential of the FTD method for improving text classification, especially for Arabic content, and underlines the importance of robust classification models in web applications.",
+    "Added By": "Zaid Alyafeai"
+}

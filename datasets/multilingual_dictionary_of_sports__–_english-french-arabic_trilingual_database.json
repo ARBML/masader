@@ -1,18 +1,21 @@
 {
-    "Name": "Multilingual Dictionary of Sports: \u2013 English-French-Arabic trilingual database",
-    "Subsets": [],
+    "Name": "Multilingual Dictionary of Sports: – English-French-Arabic trilingual database",
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-T0372_04/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "sports"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This dictionary was produced within the French national project EuRADic (European and Arabic Dictionaries and Corpora), as part of the Technolangue programme funded by the French Ministry of Industry.",
     "Volume": 40000.0,
@@ -28,13 +31,14 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "200.00\u20ac",
-    "Test Split": false,
+    "Cost": "200.00€",
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dictionary"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

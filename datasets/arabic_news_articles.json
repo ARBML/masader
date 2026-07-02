@@ -1,18 +1,21 @@
 {
     "Name": "Arabic news articles",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://webz.io/free-datasets/arabic-news-articles/",
     "License": "unknown",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Arabic news articles dataset crawled from the Webz.io API Language category",
     "Volume": 236383.0,
@@ -29,12 +32,13 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "topic classification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
         "Webz.io API"

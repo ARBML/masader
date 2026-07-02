@@ -1,21 +1,25 @@
 {
     "Name": "OntoNotes Release 3.0",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2009T24",
     "License": "LDC User Agreement",
     "Year": 2009,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles",
+        "TV channels"
+    ],
     "Domain": [
-        "news articles"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Each data directory has been stored as a Gnu Zipped Tar File (.tgz) due to the complexity and depth of each directory and the limitations of the ISO CD9660 file system for CD and DVD media. These directories may be easily unpacked using the Unix command line or using utilities such as StuffIt or WinZip under Windows.",
-    "Volume": 200000.0,
+    "Volume": 16000000.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
@@ -29,14 +33,30 @@
     "Host": "LDC",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Ralph Weischedel",
+        "Sameer Pradhan",
+        "Lance Ramshaw",
+        "Kaufman",
+        "Michelle Franchini",
+        "Mohammed El-Bachouti",
+        "Nianwen Xue",
+        "Martha Palmer",
+        "Mitchell Marcus",
+        "Ann Taylor",
+        "Craig Greenberg",
+        "Eduard Hovy",
+        "Robert Belvin",
+        "Ann Houston"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

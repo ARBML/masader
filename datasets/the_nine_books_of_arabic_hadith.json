@@ -1,18 +1,21 @@
 {
     "Name": "The Nine Books Of Arabic Hadith",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Hadith",
     "Link": "https://github.com/abdelrahmaan/Hadith-Data-Sets",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "books"
+    ],
     "Domain": [
-        "other"
+        "religion"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "There are two files of Hadith, the first one for all hadith With Tashkil and Without Tashkel from the Nine Books that are 62,169 Hadith. The second one it Hadith pre-processing data, which is applyed normalization and removeing stop words and lemmatization on it",
     "Volume": 62169.0,
@@ -27,12 +30,13 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "diacritization"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

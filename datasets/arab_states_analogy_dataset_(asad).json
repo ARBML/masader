@@ -1,18 +1,21 @@
 {
     "Name": "Arab States Analogy Dataset (ASAD)",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/SaiedAlshahrani/ASAD",
     "Link": "https://github.com/SaiedAlshahrani/performance-implications/tree/main/Word-Representation-Evals/ASAD",
     "License": "MIT License",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "ASAD is a word analogy dataset created using 20 Arab States with their corresponding capital cities, nationalities, currencies, and on which continents they are located, consisting of four sets: country-capital set, country-currency set, country-nationality set, and country-continent set. Each set has 380 word analogies, and the total number of word analogies in the ASAD dataset is 1520. This dataset is used to evaluate Arabic Word Embedding Models (WEMs).",
     "Volume": 1520.0,
@@ -29,13 +32,14 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "embedding evaluation"
     ],
-    "Venue Title": "ArabicNLP 2023",
+    "Venue Title": "ArabicNLP",
     "Venue Type": "conference",
-    "Venue Name": "The First Arabic Natural Language Processing Conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Saied Alshahrani",
         "Norah Alshahrani",

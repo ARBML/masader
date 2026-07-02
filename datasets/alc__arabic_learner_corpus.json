@@ -1,20 +1,23 @@
 {
     "Name": "ALC: Arabic Learner Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2015S10",
     "License": "custom",
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "education"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "comprises a\r\ncollection of texts written by learners of Arabic in\r\nSaudi Arabia",
+    "Description": "comprises a collection of texts written by learners of Arabic in\r\nSaudi Arabia",
     "Volume": 1.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
@@ -29,7 +32,8 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "25 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
@@ -38,12 +42,9 @@
     "Venue Name": "",
     "Authors": [
         "Ayg Alfaifi",
-        "E. Atwell"
+        "Eric Atwell"
     ],
-    "Affiliations": [
-        "",
-        ""
-    ],
+    "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

@@ -1,18 +1,21 @@
 {
     "Name": "Wojood",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://ontology.birzeit.edu/Wojood/",
     "License": "custom",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Wojood consists of about 550K tokens (MSA and dialect) that are manually annotated with 21 entity types (e.g., person, organization, location, event, date, etc). It covers multiple domains and was annotated with nested entities. The corpus contains about 75K entities and 22.5% of which are nested.",
     "Volume": 550464.0,
@@ -24,19 +27,20 @@
     ],
     "Derived From": [],
     "Paper Title": "Wojood: Nested Arabic Named Entity Corpus and Recognition using BERT",
-    "Paper Link": "https://arxiv.org/pdf/2205.09651.pdf",
+    "Paper Link": "https://aclanthology.org/2022.lrec-1.387",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Mustafa Jarrar",
         "Mohammed Khalilia",
@@ -45,6 +49,6 @@
     "Affiliations": [
         "Birzeit University"
     ],
-    "Abstract": "This paper presents Wojood, a corpus for Arabic nested Named Entity Recognition (NER). Nested entities occur when one\nentity mention is embedded inside another entity mention. Wojood consists of about 550K Modern Standard Arabic (MSA) and\ndialect tokens that are manually annotated with 21 entity types including person, organization, location, event and date. More\nimportantly, the corpus is annotated with nested entities instead of the more common flat annotations. The data contains about\n75K entities and 22.5% of which are nested. The inter-annotator evaluation of the corpus demonstrated a strong agreement\nwith Cohen\u2019s Kappa of 0.979 and an F1-score of 0.976. To validate our data, we used the corpus to train a nested NER model\nbased on multi-task learning using the pre-trained AraBERT (Arabic BERT). The model achieved an overall micro F1-score of\n0.884. Our corpus, the annotation guidelines, the source code and the pre-trained model are publicly available.",
+    "Abstract": "This paper presents Wojood, a corpus for Arabic nested Named Entity Recognition (NER). Nested entities occur when one\nentity mention is embedded inside another entity mention. Wojood consists of about 550K Modern Standard Arabic (MSA) and\ndialect tokens that are manually annotated with 21 entity types including person, organization, location, event and date. More\nimportantly, the corpus is annotated with nested entities instead of the more common flat annotations. The data contains about\n75K entities and 22.5% of which are nested. The inter-annotator evaluation of the corpus demonstrated a strong agreement\nwith Cohen’s Kappa of 0.979 and an F1-score of 0.976. To validate our data, we used the corpus to train a nested NER model\nbased on multi-task learning using the pre-trained AraBERT (Arabic BERT). The model achieved an overall micro F1-score of\n0.884. Our corpus, the annotation guidelines, the source code and the pre-trained model are publicly available.",
     "Added By": "Zaid Alyafeai"
 }

@@ -1,0 +1,490 @@
+:root {
+    --masader-red: #f95959;
+    --masader-red-dark: #e04b4b;
+    --chat-bg: #fff8f0;
+    --chat-border: rgba(0, 0, 0, 0.1);
+}
+
+/* ----------------------------------------------------------------------- */
+/* Shared message styles (used by both the page and the floating widget)   */
+/* ----------------------------------------------------------------------- */
+.masader-chat-thread {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.masader-msg {
+    display: flex;
+    width: 100%;
+}
+
+.masader-msg__bubble {
+    max-width: 85%;
+    padding: 0.75rem 1rem;
+    border-radius: 14px;
+    line-height: 1.55;
+    font-size: 0.95rem;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+}
+
+.masader-msg--user {
+    justify-content: flex-end;
+}
+
+.masader-msg--user .masader-msg__bubble {
+    background: var(--masader-red);
+    color: #fff;
+    border-bottom-right-radius: 4px;
+}
+
+.masader-msg--bot {
+    justify-content: flex-start;
+}
+
+.masader-msg--bot .masader-msg__bubble {
+    background: #fff;
+    color: #1f2937;
+    border: 1px solid var(--chat-border);
+    border-bottom-left-radius: 4px;
+}
+
+.masader-msg__bubble p {
+    margin: 0 0 0.5rem;
+}
+.masader-msg__bubble p:last-child {
+    margin-bottom: 0;
+}
+.masader-msg__bubble a {
+    color: var(--masader-red);
+    font-weight: 600;
+    text-decoration: underline;
+}
+.masader-msg__bubble code {
+    background: rgba(0, 0, 0, 0.06);
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+    font-size: 0.85em;
+}
+.masader-msg__bubble ul,
+.masader-msg__bubble ol {
+    margin: 0.25rem 0 0.5rem;
+    padding-left: 1.25rem;
+}
+
+.masader-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.5rem 0;
+    font-size: 0.85rem;
+    display: block;
+    overflow-x: auto;
+}
+.masader-table th,
+.masader-table td {
+    border: 1px solid var(--chat-border);
+    padding: 0.4rem 0.6rem;
+    text-align: left;
+    white-space: nowrap;
+}
+.masader-table thead th {
+    background: rgba(249, 89, 89, 0.08);
+    font-weight: 700;
+    color: #1f2937;
+}
+.masader-table tbody tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+/* Dataset citation cards */
+.masader-datasets {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.masader-dataset-card {
+    display: block;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid var(--chat-border);
+    border-radius: 10px;
+    background: #fffdfb;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.masader-dataset-card:hover {
+    border-color: var(--masader-red);
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+.masader-dataset-card__name {
+    font-weight: 700;
+    color: var(--masader-red);
+    font-size: 0.9rem;
+}
+.masader-dataset-card__meta {
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-top: 0.15rem;
+}
+.masader-dataset-card__desc {
+    font-size: 0.8rem;
+    color: #374151;
+    margin-top: 0.3rem;
+}
+
+/* Typing indicator */
+.masader-typing {
+    display: inline-flex;
+    gap: 4px;
+    align-items: center;
+}
+.masader-typing span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--masader-red);
+    opacity: 0.4;
+    animation: masader-bounce 1.2s infinite ease-in-out;
+}
+.masader-typing span:nth-child(2) {
+    animation-delay: 0.15s;
+}
+.masader-typing span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+@keyframes masader-bounce {
+    0%,
+    80%,
+    100% {
+        transform: scale(0.7);
+        opacity: 0.4;
+    }
+    40% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.masader-error {
+    color: #b91c1c;
+    font-size: 0.85rem;
+}
+
+/* Suggestion chips */
+.masader-suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.masader-suggestion {
+    border: 1px solid var(--chat-border);
+    background: #fffdfb;
+    color: #374151;
+    border-radius: 999px;
+    padding: 0.4rem 0.85rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease;
+}
+.masader-suggestion:hover {
+    border-color: var(--masader-red);
+    color: var(--masader-red);
+}
+
+/* ----------------------------------------------------------------------- */
+/* Composer (input row), shared                                            */
+/* ----------------------------------------------------------------------- */
+.masader-composer {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-end;
+}
+.masader-composer textarea {
+    flex: 1;
+    resize: none;
+    border: 2px solid var(--chat-border);
+    border-radius: 12px;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    max-height: 140px;
+    outline: none;
+    font-family: inherit;
+}
+.masader-composer textarea:focus {
+    border-color: var(--masader-red);
+}
+.masader-send {
+    background: var(--masader-red);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s ease;
+}
+.masader-send:hover {
+    background: var(--masader-red-dark);
+}
+.masader-send:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Dedicated /chat page layout                                             */
+/* ----------------------------------------------------------------------- */
+.masader-chat-page {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 12rem);
+}
+.masader-chat-page__header {
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+.masader-chat-page__header h1 {
+    font-weight: 800;
+    font-size: 1.9rem;
+    color: #1f2937;
+}
+.masader-chat-page__header p {
+    color: #6b7280;
+    margin-top: 0.25rem;
+}
+.masader-chat-page__thread {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    background: var(--chat-bg);
+    border: 1px solid var(--chat-border);
+    border-radius: 16px;
+    margin-bottom: 1rem;
+}
+.masader-chat-page__composer {
+    position: sticky;
+    bottom: 0;
+}
+
+/* Clear-chat toolbar (dedicated page) */
+.masader-chat-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.5rem;
+}
+.masader-clear-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: transparent;
+    border: 1px solid var(--chat-border);
+    color: #6b7280;
+    border-radius: 8px;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease;
+}
+.masader-clear-btn:hover {
+    border-color: var(--masader-red);
+    color: var(--masader-red);
+}
+
+/* Clear button inside the widget header */
+#masader-widget-clear {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    opacity: 0.85;
+}
+#masader-widget-clear:hover {
+    opacity: 1;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Temporary activity-log panel (debug)                                    */
+/* ----------------------------------------------------------------------- */
+.masader-log-panel {
+    border: 1px dashed var(--chat-border);
+    border-radius: 12px;
+    background: #1e1e2e;
+    color: #e5e7eb;
+    margin-bottom: 1rem;
+    font-size: 0.78rem;
+    overflow: hidden;
+}
+.masader-log-panel > summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+    font-weight: 600;
+    color: #cbd5e1;
+    list-style: none;
+    user-select: none;
+}
+.masader-log-panel__title {
+    flex-shrink: 0;
+}
+.masader-log-panel__usage {
+    margin-left: auto;
+    color: #a5b4fc;
+    font-weight: 600;
+    font-size: 0.68rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 55%;
+}
+.masader-log-panel > summary::-webkit-details-marker {
+    display: none;
+}
+.masader-log-panel__tag {
+    display: inline-block;
+    margin-left: 0.4rem;
+    padding: 0.05rem 0.4rem;
+    border-radius: 999px;
+    background: rgba(249, 89, 89, 0.25);
+    color: #fca5a5;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.masader-log {
+    max-height: 180px;
+    overflow-y: auto;
+    padding: 0.4rem 0.8rem 0.6rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    line-height: 1.5;
+}
+.masader-log__lines {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+.masader-log__line {
+    display: flex;
+    gap: 0.5rem;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+.masader-log__time {
+    color: #6b7280;
+    flex-shrink: 0;
+}
+.masader-log__level {
+    flex-shrink: 0;
+    font-weight: 700;
+    color: #60a5fa;
+}
+.masader-log__line--warning .masader-log__level {
+    color: #fbbf24;
+}
+.masader-log__line--error .masader-log__level,
+.masader-log__line--critical .masader-log__level {
+    color: #f87171;
+}
+.masader-log__msg {
+    color: #e5e7eb;
+}
+.masader-log-panel--widget {
+    margin: 0 0.75rem 0.5rem;
+}
+.masader-log-panel--widget .masader-log {
+    max-height: 110px;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Floating widget                                                         */
+/* ----------------------------------------------------------------------- */
+.masader-fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--masader-red);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(249, 89, 89, 0.45);
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: transform 0.15s ease, background 0.15s ease;
+}
+.masader-fab:hover {
+    transform: scale(1.06);
+    background: var(--masader-red-dark);
+}
+
+.masader-widget {
+    position: fixed;
+    bottom: 88px;
+    right: 20px;
+    width: min(400px, calc(100vw - 40px));
+    height: min(600px, calc(100vh - 120px));
+    background: var(--chat-bg);
+    border: 1px solid var(--chat-border);
+    border-radius: 16px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 1000;
+}
+.masader-widget.is-open {
+    display: flex;
+}
+.masader-widget__header {
+    background: var(--masader-red);
+    color: #fff;
+    padding: 0.85rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.masader-widget__header h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.masader-widget__header button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+    opacity: 0.85;
+}
+.masader-widget__header button:hover {
+    opacity: 1;
+}
+.masader-widget__thread {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+}
+.masader-widget__composer {
+    padding: 0.75rem;
+    border-top: 1px solid var(--chat-border);
+    background: #fff;
+}

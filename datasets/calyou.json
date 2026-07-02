@@ -1,18 +1,22 @@
 {
     "Name": "CALYOU",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/CAYLOU",
     "Link": "https://github.com/abidikarima/CALYOU",
     "License": "unknown",
     "Year": 2017,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation",
+        "metadata-derived"
     ],
     "Description": "A Comparable Spoken Algerian Corpus Harvested from YouTube",
     "Volume": 5190.0,
@@ -29,22 +33,21 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
-    "Venue Title": "INTERSPEECH",
+    "Venue Title": "Interspeech",
     "Venue Type": "conference",
     "Venue Name": "Conference of the International Speech Communication Association",
     "Authors": [
-        "K. Abidi",
-        "M. Menacer",
-        "Kamel Sma\u00efli"
+        "Karima Abidi",
+        "Mohamed Menacer",
+        "Kamel Smaïli"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Ecole Supérieure d’Informatique"
     ],
     "Abstract": "This paper addresses the issue of comparability of comments \n extracted from Youtube. The comments concern spoken \n Algerian which could be either local Arabic, Modern Standard \n Arabic or French. This diversity of expression arises a huge \n number of problems concerning the data processing. In this \n article, several methods of alignment will be proposed and \n tested. The method which permits to best align is Word2Vec-based \n approach that will be used iteratively. This recurrent \n call of Word2Vec allows to improve significantly the results \n of comparability. In fact, a dictionary-based approach leads \n to a Recall of 4, while our approach allows to get a Recall of \n 33 at rank 1. Thanks to this approach, we built from Youtube \n CALYOU, a Comparable Corpus of the spoken Algerian.",
     "Added By": "Zaid Alyafeai"

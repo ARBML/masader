@@ -1,22 +1,24 @@
 {
     "Name": "PalmX-GC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/palmx_2025_subtask1_culture",
     "Link": "https://huggingface.co/datasets/UBC-NLP/palmx_2025_subtask1_culture",
     "License": "custom",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets",
         "web pages"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated"
+    "Domain": [
+        "culture"
     ],
-    "Description": "PalmX-GC evaluates a model\u2019s grasp of general Arab culture\u2014customs, history, geography, arts, cuisine, notable figures, and everyday life across the 22 Arab League countries. Every item is written in Modern Standard Arabic (MSA). The dataset powers Subtask 1 of the PalmX 2025 shared task.",
+    "Form": "text",
+    "Annotation Style": [
+        "LLM annotation"
+    ],
+    "Description": "PalmX-GC evaluates a model’s grasp of general Arab culture—customs, history, geography, arts, cuisine, notable figures, and everyday life across the 22 Arab League countries. Every item is written in Modern Standard Arabic (MSA). The dataset powers Subtask 1 of the PalmX 2025 shared task.",
     "Volume": 4500.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
@@ -27,19 +29,20 @@
         "Palm"
     ],
     "Paper Title": "PalmX 2025: The First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture",
-    "Paper Link": "https://arxiv.org/pdf/2509.02550",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.arabicnlp-sharedtasks.107",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "multiple choice question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Fakhraddin Alwajih",
         "Abdellah El Mekki",

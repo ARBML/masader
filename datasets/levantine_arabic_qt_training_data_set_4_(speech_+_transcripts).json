@@ -1,18 +1,21 @@
 {
     "Name": "Levantine Arabic QT Training Data Set 4 (Speech + Transcripts)",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2005S14",
     "License": "LDC User Agreement",
     "Year": 2005,
     "Language": "ar",
     "Dialect": "Levant",
+    "Source": [
+        "telephone conversations"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Levantine Arabic QT Training Data Set 4 (Speech + Transcripts) was developed by the Linguistic Data Consortium (LDC) and contains approximately 138 hours of conversational telephone speech in Levantine Arabic and the associated transcripts.",
     "Volume": 138.0,
@@ -29,13 +32,14 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,000$",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition",
         "text to speech"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
         "Mohamed Maamouri",

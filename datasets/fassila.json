@@ -1,21 +1,22 @@
 {
     "Name": "FASSILA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/amincoding/FASSILA",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Algeria",
-    "Domain": [
+    "Source": [
         "social media",
         "commentary"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "human annotation",
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This corpus comprises 10,087 sentences, encompassing over 19,497 unique words in Algerian Dialect, and addresses the significant lack of linguistic resources in the language and covers seven distinct domains.",
     "Volume": 10087.0,
@@ -32,14 +33,15 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "fake news detection",
         "sentiment analysis"
     ],
-    "Venue Title": "Inteligencia Artifical",
+    "Venue Title": "Inteligencia Artificial",
     "Venue Type": "journal",
-    "Venue Name": "Inteligencia Artifical",
+    "Venue Name": "Inteligencia Artificial",
     "Authors": [
         "Amin Abdedaiem",
         "Abdelhalim Hafedh Dahou",
@@ -49,6 +51,6 @@
         "Ahmed Draia University",
         "Leibniz Institute for the Social Sciences"
     ],
-    "Abstract": "Social media has become an integral part of people\u2019s lives, resulting in a constant flow of information. However, a concerning trend has emerged with the rapid spread of fake news, attributed to the lack of verification mechanisms. Fake news has far-reaching consequences, influencing public opinion, disrupting democracy, fueling\nsocial tensions, and impacting various domains such as health, environment, and the economy. In order to identify fake news with data sparsity, especially with low resources languages such as Arabic and its dialects, we propose a few-shot learning fake news detection model based on sentence transformer fine-tuning, utilizing no crafted prompts and language model with few parameters. The experimental results prove that the proposed method can achieve higher performances with fewer news samples. This approach provided 71% F1 score on the Algerian dialect fake news dataset and 70% F1 score on the Modern Standard Arabic (MSA) version of the same dataset, which proves that the approach can work on the standard Arabic and its dialects. Therefore, the proposed model can identify fake news in several domains concerning the Algerian community such as politics, COVID-19, tourism, e-commerce, sport, accidents, and car prices.",
+    "Abstract": "Social media has become an integral part of people’s lives, resulting in a constant flow of information. However, a concerning trend has emerged with the rapid spread of fake news, attributed to the lack of verification mechanisms. Fake news has far-reaching consequences, influencing public opinion, disrupting democracy, fueling\nsocial tensions, and impacting various domains such as health, environment, and the economy. In order to identify fake news with data sparsity, especially with low resources languages such as Arabic and its dialects, we propose a few-shot learning fake news detection model based on sentence transformer fine-tuning, utilizing no crafted prompts and language model with few parameters. The experimental results prove that the proposed method can achieve higher performances with fewer news samples. This approach provided 71% F1 score on the Algerian dialect fake news dataset and 70% F1 score on the Modern Standard Arabic (MSA) version of the same dataset, which proves that the approach can work on the standard Arabic and its dialects. Therefore, the proposed model can identify fake news in several domains concerning the Algerian community such as politics, COVID-19, tourism, e-commerce, sport, accidents, and car prices.",
     "Added By": "Abdelhalim Hafedh Dahou"
 }

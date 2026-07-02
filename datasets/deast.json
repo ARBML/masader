@@ -1,18 +1,21 @@
 {
     "Name": "DEAST",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
-    "Link": "https://doi.org/10.5281/zenodo.17754563",
+    "Link": "https://zenodo.org/records/17754563",
     "License": "CC BY-SA 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "science"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Parallel English-Arabic corpus of 33k thesis titles in 13 scientific domains for machine translation.",
     "Volume": 33000.0,
@@ -23,14 +26,15 @@
         "Prince Sattam Bin Abdulaziz University"
     ],
     "Derived From": [],
-    "Paper Title": "DEAST: A dataset for English\u2013Arabic scientific translation and vice versa",
+    "Paper Title": "DEAST: A dataset for English–Arabic scientific translation and vice versa",
     "Paper Link": "https://www.sciencedirect.com/science/article/pii/S2352340925010947",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],

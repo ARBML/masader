@@ -1,96 +1,20 @@
 {
-    "Name": " nanobeir-multilingual ",
-    "Subsets": [
-        {
-            "Name": "NanoArguAna",
-            "Volume": 50.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "NanoClimateFever",
-            "Volume": 148.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "NanoDBPedia",
-            "Volume": 1160.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "NanoFever",
-            "Volume": 57.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "NanoFiQA2018",
-            "Volume": 123.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "NanoHotpotQA",
-            "Volume": 100.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "NanoMSMARCO",
-            "Volume": 50.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "NanoNFCorpus",
-            "Volume": 2520.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "NanoNQ",
-            "Volume": 50.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "NanoTouche2020",
-            "Volume": 932.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "NanoSciFact",
-            "Volume": 56.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "NanoSCIDOCS",
-            "Volume": 244.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "NanoQuoraRetrieval",
-            "Volume": 70.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
+    "Name": "nanobeir-multilingual ",
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/lightonai/nanobeir-multilingual",
     "Link": "https://huggingface.co/datasets/lightonai/nanobeir-multilingual",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "This multilingual collection is derived from the original English NanoBEIR datasets, which are smaller versions of BEIR datasets.",
@@ -101,14 +25,15 @@
     "Derived From": [
         "NanoBEIR"
     ],
-    "Paper Title": "NanoBeir-Multilingual: Multilingual version of NanoBeir for quick evaluation.",
+    "Paper Title": "",
     "Paper Link": "",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "information retrieval"
     ],

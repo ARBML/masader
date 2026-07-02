@@ -1,0 +1,57 @@
+{
+    "Name": "SudSenti",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/mustafa20999/Sudanese-Arabic-Sentiment-Datasets",
+    "License": "unknown",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "Sudan",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "A sudanese dataset collected from Facebook and Youtube annotated with sentiment analysis",
+    "Volume": 11109.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "Northwest University"
+    ],
+    "Derived From": [],
+    "Paper Title": "A DEEP CNN ARCHITECTURE WITH NOVEL POOLING LAYER APPLIED TO TWO SUDANESE ARABIC SENTIMENT DATASETS",
+    "Paper Link": "https://arxiv.org/pdf/2201.12664v1.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Mustafa Mhamed",
+        "Richard Sutcliffe",
+        "Xia Sun",
+        "Jun Feng",
+        "Eiad Almekhlafi",
+        "Ephrem Afele Retta"
+    ],
+    "Affiliations": [
+        "Northwest University",
+        "University of Essex"
+    ],
+    "Abstract": "Arabic sentiment analysis has become an important research field in recent years. Initially, work focused on Modern Standard Arabic (MSA), which is the most widely-used form. Since then, work has been carried out on several different dialects, including Egyptian, Levantine and Moroccan. Moreover, a number of datasets have been created to support such work. However, up until now, less work has been carried out on Sudanese Arabic, a dialect which has 32 million speakers. In this paper, two new publicly available datasets are introduced, the 2-Class Sudanese Sentiment Dataset (SudSenti2) and the 3-Class Sudanese Sentiment Dataset (SudSenti3). Furthermore, a CNN architecture, SCM, is proposed, comprising five CNN layers together with a novel pooling layer, MMA, to extract the best features. This SCM+MMA model is applied to SudSenti2 and SudSenti3 with accuracies of 92.75% and 84.39%. Next, the model is compared to other deep learning classifiers and shown to be superior on these new datasets. Finally, the proposed model is applied to the existing Saudi Sentiment Dataset and to the MSA Hotel Arabic Review Dataset with accuracies 85.55% and 90.01%.",
+    "Added By": "Zaid Alyafeai"
+}

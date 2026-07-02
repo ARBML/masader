@@ -1,20 +1,25 @@
 {
     "Name": "ArSenL",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/ArSenL",
     "Link": "http://oma-project.com/ArSenL/download_intro",
     "License": "custom",
     "Year": 2014,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "inherited annotation",
+        "human annotation",
+        "machine annotation"
     ],
-    "Description": "large scale\r\nStandard Arabic sentiment lexicon (ArSenL) using a combination of existing resources: ESWN, Arabic WordNet, and\r\nthe Standard Arabic Morphological Analyzer (SAMA)",
+    "Description": "large scale Standard Arabic sentiment lexicon (ArSenL) using a combination of existing resources: ESWN, Arabic WordNet, and\r\nthe Standard Arabic Morphological Analyzer (SAMA)",
     "Volume": 28760.0,
     "Unit": "tokens",
     "Ethical Risks": "Low",
@@ -22,7 +27,10 @@
         "AUB",
         "NYUAD"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "ESWN",
+        "Arabic WordNet"
+    ],
     "Paper Title": "A Large Scale Arabic Sentiment Lexicon\r\nfor Arabic Opinion Mining",
     "Paper Link": "https://aclanthology.org/W14-3623.pdf",
     "Script": "Latin",
@@ -30,7 +38,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "part of speech tagging",
         "sentiment analysis"
@@ -40,18 +49,15 @@
     "Venue Name": "Arabic Natural Language Processing Workshop",
     "Authors": [
         "Gilbert Badaro",
-        "R. Baly",
-        "Hazem M. Hajj",
+        "Ramy Baly",
+        "Hazem Hajj",
         "Nizar Habash",
-        "W. El-Hajj"
+        "Wassim El-Hajj"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "American University of Beirut",
+        "New York University Abu Dhabi"
     ],
-    "Abstract": "Most opinion mining methods in English rely successfully on sentiment lexicons, such as English SentiWordnet (ESWN). While there have been efforts towards building Arabic sentiment lexicons, they suffer from many deficiencies: limited size, unclear usability plan given Arabic\u2019s rich morphology, or nonavailability publicly. In this paper, we address all of these issues and produce the first publicly available large scale Standard Arabic sentiment lexicon (ArSenL) using a combination of existing resources: ESWN, Arabic WordNet, and the Standard Arabic Morphological Analyzer (SAMA). We compare and combine two methods of constructing this lexicon with an eye on insights for Arabic dialects and other low resource languages. We also present an extrinsic evaluation in terms of subjectivity and sentiment analysis.",
+    "Abstract": "Most opinion mining methods in English rely successfully on sentiment lexicons, such as English SentiWordnet (ESWN). While there have been efforts towards building Arabic sentiment lexicons, they suffer from many deficiencies: limited size, unclear usability plan given Arabic’s rich morphology, or nonavailability publicly. In this paper, we address all of these issues and produce the first publicly available large scale Standard Arabic sentiment lexicon (ArSenL) using a combination of existing resources: ESWN, Arabic WordNet, and the Standard Arabic Morphological Analyzer (SAMA). We compare and combine two methods of constructing this lexicon with an eye on insights for Arabic dialects and other low resource languages. We also present an extrinsic evaluation in terms of subjectivity and sentiment analysis.",
     "Added By": "Zaid Alyafeai"
 }

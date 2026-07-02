@@ -1,18 +1,20 @@
 {
     "Name": "WILDCHAT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/allenai/WildChat-1M",
     "Link": "https://wildchat.allen.ai",
     "License": "ODC-By",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "LLM"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "One million user-ChatGPT interaction logs collected with explicit consent, featuring multi-turn multilingual conversations enriched with demographic metadata for studying real-world chatbot usage.",
@@ -30,7 +32,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],

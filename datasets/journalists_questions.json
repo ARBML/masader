@@ -1,17 +1,20 @@
 {
     "Name": "journalists_questions",
-    "Subsets": [],
-    "HF Link": "https://hf.co/datasets/mkqa",
-    "Link": "http://qufaculty.qu.edu.qa/telsayed/datasets/",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/community-datasets/journalists_questions",
+    "Link": "https://www.dropbox.com/scl/fi/0r3mrx1npf1gi0d1zbhzu/ArQAT-JQ-Dataset-v1.0.zip?rlkey=fhigh3hpjvp4ptpyj780kqo9c&e=1&dl=0",
     "License": "unknown",
     "Year": 2016,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "crowdsorucing to collect\r\nbinary annotations for 10K of the potential question tweets\r\nbased on whether they truly contain questions or not",
@@ -29,24 +32,23 @@
     "Host": "Dropbox",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": true,
     "Tasks": [
         "question answering"
     ],
     "Venue Title": "ICWSM",
     "Venue Type": "conference",
-    "Venue Name": "International Conference on Web and Social Media",
+    "Venue Name": "International AAAI Conference on Web and Social Media",
     "Authors": [
         "Maram Hasanain",
         "Mossaab Bagdouri",
-        "T. Elsayed",
+        "Tamer Elsayed",
         "D. Oard"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        ""
+        "Qatar University",
+        "University of Maryland"
     ],
     "Abstract": "Social media platforms are a major source of information for both the general public and for journalists. Journalists use Twitter and other social media services to gather story ideas, to find eyewitnesses, and for a wide range of other purposes. One way in which journalists use Twitter is to ask questions. This paper reports on an empirical investigation of questions asked by Arab journalists on Twitter. The analysis begins with the development of an ontology of question types, proceeds to human annotation of training and test data, and concludes by reporting the level of accuracy that can be achieved with automated classification techniques. The results show good classifier effectiveness for high prevalence question types, but that obtaining sufficient training data for lower prevalence question types can be challenging.",
     "Added By": ""

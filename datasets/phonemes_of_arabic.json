@@ -1,18 +1,21 @@
 {
     "Name": "Phonemes of Arabic",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2020S13",
     "License": "LDC User Agreement",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "studio recordings"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic has three short vowels, three long vowels and 28 consonants. Speakers recorded all sounds and repeated each sound three times. Each speaker also recorded 24 Arabic words with a specified consonant-vowel pattern and repeated each word three times.",
     "Volume": 1.0,
@@ -29,15 +32,20 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "250.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition",
         "language identification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Alshaari",
+        "Hussien ElHarati",
+        "Veton Kepuska"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

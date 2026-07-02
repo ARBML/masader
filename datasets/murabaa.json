@@ -1,0 +1,74 @@
+{
+    "Name": "Murabaa",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/alelm-lab/Murabaa/",
+    "License": "CC BY-NC-ND 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "inherited annotation"
+    ],
+    "Description": "Comprehensive platform for Arabic morphology resources that combines eight dictionaries",
+    "Volume": 717380.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Mohammed V University in Rabat"
+    ],
+    "Derived From": [
+        "Taj al-Arus",
+        "Lisan al-Arab",
+        "El Jihad et al. (2018) Arabic verb database",
+        "List of Arabic Broken Plurals (Attia et al., 2011)",
+        "Elghamry (2010) broken plural lexicon",
+        "Neme (2020) broken plural collection",
+        "Ouamer et al. (2022) broken plural model",
+        "Jamal Al-Zawain et al. (2023) morphological patterns",
+        "Abu El-Khair (2017) stop words lists",
+        "Medhat et al. (2014) stop words list",
+        "Alajmi et al. (2012) stop words list",
+        "Stop Words Project Balucha (2014)",
+        "Zerrouki Taha (2012) stop words generator"
+    ],
+    "Paper Title": "Murabaa: A comprehensive Resource Platform for Arabic Morphology",
+    "Paper Link": "https://aclanthology.org/2026.abjadnlp-1.47.pdf",
+    "Script": "Arab",
+    "Tokenized": true,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "lemmatization",
+        "stemming",
+        "morphological analysis"
+    ],
+    "Venue Title": "AbjadNLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on NLP for Languages Using Arabic Script",
+    "Authors": [
+        "Karim Bouzoubaa",
+        "Driss Namly",
+        "Abdelhamid Jihad",
+        "Rachida Tajmout",
+        "Jamal Ezzouaine",
+        "Hakima Khamar"
+    ],
+    "Affiliations": [
+        "Mohammadia School of Engineers",
+        "Euro-Mediterranean and Ibero-American Studies",
+        "Mohammed V University in Rabat"
+    ],
+    "Abstract": "Arabic language faces technical and cultural challenges, including a lack of high-quality resources and the prevalence of regional dialects, which hinders the development of effective language processing systems. Therefore, the \"Murabaa\" platform was developed to transform Arabic linguistic knowledge into integrated digital resources. The platform aims to provide accurate digital content and promote the use of Arabic in various fields to bridge the gap between tradition and modernity by offering integrated linguistic resources for developing advanced research tools. The platform provides eight accurate dictionaries in the form of a website and a web application, contributing to the digitization of knowledge and its representation within the framework of standard lexical markup. In this study, we also conduct a quantitative comparison of the resources against similar ones to assess the quality of the linguistic knowledge they provide.",
+    "Added By": "Zaid Alyafeai"
+}

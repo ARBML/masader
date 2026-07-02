@@ -4,22 +4,20 @@
         "answer_min": 1,
         "answer_max": 5
     },
-    "Volume": {
-        "answer_type": "float",
-        "answer_min": 0
+    "Dialect_Subsets": {
+        "answer_type": "list[dict[Name, Volume, Unit, Dialect]]",
+        "answer_min": 0,
+        "answer_max": 29
     },
-    "Unit": {
-        "answer_type": "str",
-        "answer_min": 1,
-        "answer_max": 1,
-        "options": [
-            "tokens",
-            "sentences",
-            "documents",
-            "images",
-            "videos",
-            "hours"
-        ]
+    "HF_Link": {
+        "answer_type": "url",
+        "answer_min": 0,
+        "answer_max": 1
+    },
+    "Link": {
+        "answer_type": "url",
+        "answer_min": 0,
+        "answer_max": 1
     },
     "License": {
         "answer_type": "str",
@@ -55,12 +53,13 @@
             "CC BY-NC-SA 4.0",
             "CC BY-NC 4.0",
             "CC0",
+            "CC BY 2.5",
             "CDLA-Permissive-1.0",
             "CDLA-Permissive-2.0",
             "GPL-1.0",
             "GPL-2.0",
             "GPL-3.0",
-            "LDC User Agreement for Non-Members",
+            "LDC User Agreement",
             "LGPL-2.0",
             "LGPL-3.0",
             "MIT License",
@@ -70,29 +69,63 @@
             "ODC-By",
             "AFL-3.0",
             "CDLA-SHARING-1.0",
+            "BigScience RAIL License",
+            "DbCL",
             "unknown",
             "custom"
         ]
-    },
-    "Link": {
-        "answer_type": "url",
-        "answer_min": 0,
-        "answer_max": 1
-    },
-    "HF_Link": {
-        "answer_type": "url",
-        "answer_min": 0,
-        "answer_max": 1
     },
     "Year": {
         "answer_type": "year",
         "answer_min": 1900,
         "answer_max": 2025
     },
-    "Domain": {
+    "Language": {
+        "answer_type": "str",
+        "answer_min": 1,
+        "answer_max": 1,
+        "options": ["ar", "multilingual"]
+    },
+    "Dialect": {
+        "answer_type": "str",
+        "answer_min": 1,
+        "answer_max": 1,
+        "options": [
+            "Classical Arabic",
+            "Modern Standard Arabic",
+            "United Arab Emirates",
+            "Bahrain",
+            "Djibouti",
+            "Algeria",
+            "Egypt",
+            "Iraq",
+            "Jordan",
+            "Comoros",
+            "Kuwait",
+            "Lebanon",
+            "Libya",
+            "Morocco",
+            "Mauritania",
+            "Oman",
+            "Palestine",
+            "Qatar",
+            "Saudi Arabia",
+            "Sudan",
+            "Somalia",
+            "South Sudan",
+            "Syria",
+            "Tunisia",
+            "Yemen",
+            "Levant",
+            "North Africa",
+            "Gulf",
+            "mixed"
+        ]
+    },
+    "Source": {
         "answer_type": "list[str]",
         "answer_min": 1,
-        "answer_max": 12,
+        "answer_max": 17,
         "options": [
             "social media",
             "news articles",
@@ -102,33 +135,61 @@
             "wikipedia",
             "web pages",
             "public datasets",
-            "TV Channels",
+            "TV channels",
             "captions",
             "LLM",
+            "telephone conversations",
+            "studio recordings",
+            "subtitles",
+            "treebanks",
+            "web crawls",
+            "manual construction",
             "other"
+        ]
+    },
+    "Domain": {
+        "answer_type": "list[str]",
+        "answer_min": 1,
+        "answer_max": 13,
+        "options": [
+            "religion",
+            "health",
+            "news",
+            "education",
+            "science",
+            "literature",
+            "finance",
+            "law",
+            "politics",
+            "culture",
+            "society",
+            "crisis",
+            "sports",
+            "economics",
+            "technology",
+            "art",
+            "general",
+            "poetry",
+            "history"
         ]
     },
     "Form": {
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": [
-            "text",
-            "audio",
-            "images",
-            "videos"
-        ]
+        "options": ["text", "audio", "images", "videos"]
     },
-    "Collection_Style": {
+    "Annotation_Style": {
         "answer_type": "list[str]",
         "answer_min": 1,
-        "answer_max": 6,
+        "answer_max": 5,
         "options": [
-            "crawling",
             "human annotation",
             "machine annotation",
-            "manual curation",
-            "LLM generated",
+            "LLM annotation",
+            "metadata-derived",
+            "inherited annotation",
+            "none",
             "other"
         ]
     },
@@ -137,15 +198,29 @@
         "answer_min": 0,
         "answer_max": 50
     },
-    "Ethical_Risks": {
+    "Volume": {
+        "answer_type": "float",
+        "answer_min": 0
+    },
+    "Unit": {
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
         "options": [
-            "Low",
-            "Medium",
-            "High"
+            "tokens",
+            "sentences",
+            "documents",
+            "conversations",
+            "images",
+            "videos",
+            "hours"
         ]
+    },
+    "Ethical_Risks": {
+        "answer_type": "str",
+        "answer_min": 1,
+        "answer_max": 1,
+        "options": ["Low", "Medium", "High"]
     },
     "Provider": {
         "answer_type": "list[str]",
@@ -166,6 +241,12 @@
         "answer_type": "url",
         "answer_min": 1,
         "answer_max": 1
+    },
+    "Script": {
+        "answer_type": "str",
+        "answer_min": 1,
+        "answer_max": 1,
+        "options": ["Arab", "Latin", "Arab-Latin"]
     },
     "Tokenized": {
         "answer_type": "bool",
@@ -203,18 +284,19 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": [
-            "Free",
-            "Upon-Request",
-            "With-Fee"
-        ]
+        "options": ["Free", "Upon-Request", "With-Fee"]
     },
     "Cost": {
         "answer_type": "str",
         "answer_min": 0,
         "answer_max": 1
     },
-    "Test_Split": {
+    "Has_Splits": {
+        "answer_type": "bool",
+        "answer_min": 1,
+        "answer_max": 1
+    },
+    "Partial": {
         "answer_type": "bool",
         "answer_min": 1,
         "answer_max": 1
@@ -293,7 +375,7 @@
             "fact checking",
             "misinformation detection",
             "word sense disambiguation",
-            "trolls detection",
+            "troll detection",
             "entity retrieval",
             "semantic role labeling",
             "syntactic parsing",
@@ -320,6 +402,36 @@
             "information extraction",
             "spam detection",
             "diacritization",
+            "hallucination detection",
+            "deepfake detection",
+            "instruction following",
+            "multimodal evaluation",
+            "preference optimization",
+            "gender bias detection",
+            "bias detection",
+            "code generation",
+            "humor detection",
+            "AI-generated text detection",
+            "video generation",
+            "answerable questions detection",
+            "propaganda detection",
+            "retrieval-augmented generation",
+            "LLM judge evaluation",
+            "spoken language modeling",
+            "table to text",
+            "disease identification",
+            "agentic AI evaluation",
+            "knowledge graphs",
+            "visual question answering",
+            "educational value of web documents",
+            "event linking",
+            "hashtag prediction",
+            "document type classification",
+            "spoken term detection",
+            "function calling",
+            "mental health detection",
+            "knowledge editing",
+            "multiword expression identification",
             "other"
         ]
     },
@@ -332,12 +444,7 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1,
-        "options": [
-            "preprint",
-            "workshop",
-            "conference",
-            "journal"
-        ]
+        "options": ["preprint", "workshop", "conference", "journal", "other"]
     },
     "Venue_Name": {
         "answer_type": "str",
@@ -358,65 +465,5 @@
         "answer_type": "str",
         "answer_min": 1,
         "answer_max": 1000
-    },
-    "Subsets": {
-        "answer_type": "list[dict[Name, Volume, Unit, Dialect]]",
-        "answer_min": 0,
-        "answer_max": 29
-    },
-    "Dialect": {
-        "answer_type": "str",
-        "answer_min": 1,
-        "answer_max": 1,
-        "options": [
-            "Classical Arabic",
-            "Modern Standard Arabic",
-            "United Arab Emirates",
-            "Bahrain",
-            "Djibouti",
-            "Algeria",
-            "Egypt",
-            "Iraq",
-            "Jordan",
-            "Comoros",
-            "Kuwait",
-            "Lebanon",
-            "Libya",
-            "Morocco",
-            "Mauritania",
-            "Oman",
-            "Palestine",
-            "Qatar",
-            "Saudi Arabia",
-            "Sudan",
-            "Somalia",
-            "South Sudan",
-            "Syria",
-            "Tunisia",
-            "Yemen",
-            "Levant",
-            "North Africa",
-            "Gulf",
-            "mixed"
-        ]
-    },
-    "Language": {
-        "answer_type": "str",
-        "answer_min": 1,
-        "answer_max": 1,
-        "options": [
-            "ar",
-            "multilingual"
-        ]
-    },
-    "Script": {
-        "answer_type": "str",
-        "answer_min": 1,
-        "answer_max": 1,
-        "options": [
-            "Arab",
-            "Latin",
-            "Arab-Latin"
-        ]
     }
 }

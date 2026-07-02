@@ -1,18 +1,21 @@
 {
     "Name": "BOLT Egyptian Arabic Treebank - Discussion Forum",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2018T23",
     "License": "LDC User Agreement",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Egypt",
-    "Domain": [
+    "Source": [
         "commentary"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release contains 440,448 tokens before clitics were split and 508,548 tree tokens after clitics were split for treebank annotation. The source material is web discussion forums collected by LDC from various sources.",
     "Volume": 440448.0,
@@ -29,15 +32,23 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "4,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "machine translation",
-        "information retrieval"
+        "part of speech tagging",
+        "morphological analysis"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Seth Kulick",
+        "Sondos Krouna",
+        "Dalila Tabassi",
+        "Michael Ciul"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

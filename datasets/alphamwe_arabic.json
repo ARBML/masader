@@ -1,0 +1,83 @@
+{
+    "Name": "AlphaMWE-Arabic",
+    "Dialect Subsets": [
+        {
+            "Name": "MSA",
+            "Volume": 2700.0,
+            "Unit": "tokens",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Tunisian",
+            "Volume": 2495.0,
+            "Unit": "tokens",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 2055.0,
+            "Unit": "tokens",
+            "Dialect": "Egypt"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://github.com/aaronlifenghan/AlphaMWE",
+    "License": "CC BY-SA 4.0",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "Arabic parallel corpus with MWE annotations",
+    "Volume": 7250.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Tours",
+        "University of Sfax",
+        "University of Stuttgart",
+        "University of Manchester"
+    ],
+    "Derived From": [
+        "AlphaMWE",
+        "PARSEME"
+    ],
+    "Paper Title": "AlphaMWE-Arabic: Arabic Edition of Multilingual Parallel Corpora with Multiword Expression Annotations",
+    "Paper Link": "https://aclanthology.org/2023.ranlp-1.50.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "multiword expression identification"
+    ],
+    "Venue Title": "RANLP",
+    "Venue Type": "conference",
+    "Venue Name": "Recent Advances in Natural Language Processing",
+    "Authors": [
+        "Najet Hadj Mohamed",
+        "Malak Rassem",
+        "Lifeng Han",
+        "Goran Nenadic"
+    ],
+    "Affiliations": [
+        "University of Tours",
+        "University of Sfax",
+        "University of Stuttgart",
+        "University of Manchester"
+    ],
+    "Abstract": "Multiword Expressions (MWEs), such as “a cheap shot” (a cruel verbal attack) or “take it with a grain of salt” (regard something as exaggerated), have been a bottleneck for Natural Language Understanding (NLU) and Natural Language Generation (NLG) tasks due to their idiomaticity, ambiguity, and non-compositionality. Bilingual parallel corpora introducing MWE annotations are very scarce which set another challenge for current Natural Language Processing (NLP) systems, especially in a multilingual setting. This work presents AlphaMWE-Arabic, an Arabic edition of the AlphaMWE parallel corpus with a MWE annotations. We introduce how we created this corpus including machine translation (MT), post-editing, and annotations for both standard and dialectal varieties, i.e. Tunisian and Egyptian Arabic. We analyse the MT errors when they meet MWEs-related content, both quantitatively using the human-in-the-loop metric HOPE and qualitatively. We report the current state-of-the-art MT systems are far from reaching human parity performances. We expect our bilingual English-Arabic corpus will be an asset for multilingual research on MWEs such as translation and localisation, as well as for monolingual settings including the study of Arabic-specific lexicography and phrasal verbs on MWEs. Our corpus and experimental data are available at https://github.com/aaronlifenghan/AlphaMWE",
+    "Added By": "Zaid Alyafeai"
+}

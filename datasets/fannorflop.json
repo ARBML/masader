@@ -1,19 +1,22 @@
 {
     "Name": "FannOrFlop",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/omkarthawakar/FannOrFlop",
     "Link": "https://huggingface.co/datasets/omkarthawakar/FannOrFlop",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
+        "books",
         "web pages"
     ],
+    "Domain": [
+        "poetry"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "A curated Arabic poetry benchmark with explanations for evaluating LLMs across 12 historical eras and 14 poetic genres.",
     "Volume": 6984.0,
@@ -24,19 +27,20 @@
     ],
     "Derived From": [],
     "Paper Title": "Fann or Flop: A Multigenre, Multiera Benchmark for Arabic Poetry Understanding in LLMs",
-    "Paper Link": "https://arxiv.org/pdf/2505.18152",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.emnlp-main.1023",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Wafa Alghallabi",
         "Ritesh Thawkar",

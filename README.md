@@ -15,15 +15,16 @@ The first online catalogue for Arabic NLP datasets. This catalogue contains more
 
 -   `No.` dataset number
 -   `Name` name of the dataset
--   `Subsets` subsets of the datasets
+-   `Dialect Subsets` subsets of the datasets
 -   `Link` direct link to the dataset or instructions on how to download it
 -   `License` license of the dataset
 -   `Year` year of the publishing the dataset/paper
 -   `Language` ar or multilingual
 -   `Dialect` region Levant, country ar-EGY: (Arabic (Egypt)) or type Modern Standard Arabic
--   `Domain` social media, news articles, reviews, commentary, books, transcribed audio or other
--   `Form` text, audio or sign language
--   `Collection style` crawling, crawling and annotation (translation), crawling and annotation (other), machine translation, human translation, human curation or other
+-   `Source` social media, news articles, reviews, commentary, books, transcribed audio or other
+-   `Domain` subject domain: religion, health, news, education, science, literature, finance, law, politics, culture, society, crisis, sports, economics, technology, art, general, poetry or history
+-   `Form` text, audio, images or videos
+-   `Annotation Style` human annotation, machine annotation, LLM annotation, metadata-derived, inherited annotation, none or other
 -   `Description` short statement describing the dataset
 -   `Volume` the size of the dataset in numbers
 -   `Unit` unit of the volume, could be tokens, sentences, documents, MB, GB, TB, hours or other
@@ -36,7 +37,7 @@ The first online catalogue for Arabic NLP datasets. This catalogue contains more
 -   `Host` the host website for the data i.e GitHub
 -   `Access` the data is either free, upon-request or with-fee.
 -   `Cost` cost of the data is with-fee.
--   `Test split` does the data contain test split: Yes or No
+-   `Has Splits` does the data contain test split: Yes or No
 -   `Tasks` the tasks included in the dataset spearated by comma
 -   `Evaluation Set` the data included in the evaluation suit by BigScience
 -   `Venue Title` the venue title i.e ACL
@@ -68,12 +69,12 @@ which gives the following output
  'Affiliations': ',The Islamic University of Gaza,,',
  'Authors': 'Chatrine Qwaider,Motaz Saad,S. Chatzikyriakidis,Simon Dobnik',
  'Citations': '25.0',
- 'Collection Style': 'crawling,annotation',
+ 'Annotation Style': 'human annotation',
  'Cost': '',
  'Derived From': '',
  'Description': 'the first Levantine Dialect Corpus (SDC) covering data from the four dialects spoken in Palestine, Jordan, Lebanon and Syria.',
  'Dialect': 'Levant',
- 'Domain': 'social media',
+ 'Domain': ['general'],
  'Ethical Risks': 'Medium',
  'Form': 'text',
  'Host': 'GitHub',
@@ -85,7 +86,8 @@ which gives the following output
  'Paper Title': 'Shami: A Corpus of Levantine Arabic Dialects',
  'Provider': 'Multiple institutions ',
  'Script': 'Arab',
- 'Subsets': [{'Dialect': 'Jordan',
+ 'Source': 'social media',
+ 'Dialect Subsets': [{'Dialect': 'Jordan',
    'Name': 'Jordanian',
    'Unit': 'sentences',
    'Volume': '32,078'},
@@ -102,7 +104,7 @@ which gives the following output
    'Unit': 'sentences',
    'Volume': '16,304'}],
  'Tasks': 'dialect identification',
- 'Test Split': 'No',
+ 'Has Splits': 'No',
  'Tokenized': 'No',
  'Unit': 'sentences',
  'Venue Name': 'International Conference on Language Resources and Evaluation',
@@ -129,7 +131,7 @@ which gives the following output
 
 Note: Navigate to the publishing source for MASADER site. For more information about publishing sources, [see](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites).
 
-## Web Service 
+## Web Service
 
 Masader depends on a set of end points provided by our [web service](https://github.com/ARBML/masader-webservice).
 
@@ -141,10 +143,11 @@ To contribute to the project development, please visit [contributing instruction
 
 ## Collaborative Work
 
-Masader was developed in 2021 as part of the [BigScience project for open research 🌸](https://bigscience.huggingface.co/), a year-long initiative targeting the study of large langauge models and datasets. In 2022, Masader was furthere developed by the arbml team and community. 
+Masader was developed in 2021 as part of the [BigScience project for open research 🌸](https://bigscience.huggingface.co/), a year-long initiative targeting the study of large langauge models and datasets. In 2022, Masader was furthere developed by the arbml team and community.
 
 ## Citation
-If you use Masader in research please cite the following papers. 
+
+If you use Masader in research please cite the following papers.
 
 ```
 @misc{alyafeai2021masader,

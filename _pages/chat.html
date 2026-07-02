@@ -1,0 +1,41 @@
+---
+permalink: /chat
+layout: default
+head_links:
+- /assets/css/chat.css
+foot_scripts:
+- /assets/js/chat.js
+- /assets/js/chatPage.js
+---
+
+<div class="masader-chat-page">
+  <div class="masader-chat-page__header">
+    <h1>Ask Masader</h1>
+    <p>Chat with the Arabic NLP data catalogue &mdash; discover datasets, compare them, and get answers with sources.</p>
+  </div>
+
+  <div class="masader-chat-toolbar">
+    <button id="chat-clear" type="button" class="masader-clear-btn">
+      <i class="fa-solid fa-trash-can"></i> Clear chat
+    </button>
+  </div>
+
+  <div id="chat-thread" class="masader-chat-page__thread masader-chat-thread"></div>
+
+  <details class="masader-log-panel" open>
+    <summary>
+      <span class="masader-log-panel__title">Activity log <span class="masader-log-panel__tag">debug</span></span>
+      <span class="masader-log-panel__usage"></span>
+    </summary>
+    <div id="chat-log" class="masader-log"></div>
+  </details>
+
+  <div class="masader-chat-page__composer">
+    <div class="masader-composer">
+      <textarea id="chat-input" rows="1" placeholder="Ask about Arabic NLP datasets..."></textarea>
+      <button id="chat-send" class="masader-send" aria-label="Send">
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+</div>

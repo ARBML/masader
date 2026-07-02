@@ -1,18 +1,21 @@
 {
     "Name": "DODA: Darija Open Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/darija",
     "Link": "https://github.com/darija-open-dataset/dataset",
     "License": "MIT License",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Morocco",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "more than 10,000  words",
     "Volume": 10000.0,
@@ -23,28 +26,26 @@
     ],
     "Derived From": [],
     "Paper Title": "Moroccan Dialect -Darija- Open Dataset",
-    "Paper Link": "https://arxiv.org/ftp/arxiv/papers/2103/2103.09687.pdf",
+    "Paper Link": "https://arxiv.org/pdf/2103.09687",
     "Script": "Arab-Latin",
     "Tokenized": true,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "transliteration",
         "machine translation"
     ],
-    "Venue Title": "ArXiv",
+    "Venue Title": "arXiv",
     "Venue Type": "preprint",
-    "Venue Name": "ArXiv",
+    "Venue Name": "arXiv",
     "Authors": [
         "Aissam Outchakoucht",
         "Hamza Es-Samaali"
     ],
-    "Affiliations": [
-        "",
-        ""
-    ],
-    "Abstract": "Nowadays, we are witnessing an unprecedented growth of IT products and services. Yet, in order for many of these solutions to flourish and be viable in a given society, they need to \u00ab understand \u00bb and be able to communicate to some extent using native languages. However, it turns out that step 0 in any serious engagement with Natural Language Processing (NLP) consists of translating the vocabulary to the widely used and most documented language in this field, namely English.",
+    "Affiliations": [],
+    "Abstract": "Nowadays, we are witnessing an unprecedented growth of IT products and services. Yet, in order for many of these solutions to flourish and be viable in a given society, they need to « understand » and be able to communicate to some extent using native languages. However, it turns out that step 0 in any serious engagement with Natural Language Processing (NLP) consists of translating the vocabulary to the widely used and most documented language in this field, namely English.",
     "Added By": "Mustafa Ghaleb"
 }

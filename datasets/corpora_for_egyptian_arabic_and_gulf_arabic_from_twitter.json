@@ -1,6 +1,6 @@
 {
     "Name": "Corpora for Egyptian Arabic and Gulf Arabic from Twitter",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "GLF",
             "Dialect": "Gulf",
@@ -20,12 +20,15 @@
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "An evenly balanced dataset of Arabic dialects, Egyptian and Gulf using a variety of dialectal terms.",
     "Volume": 300000.0,
@@ -40,11 +43,12 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],
-    "Venue Title": "",
+    "Venue Title": "other",
     "Venue Type": "preprint",
     "Venue Name": "",
     "Authors": [

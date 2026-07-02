@@ -1,17 +1,20 @@
 {
     "Name": "2M-BELEBELE",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/facebook/2M-Belebele",
     "Link": "https://github.com/facebookresearch/belebele",
     "License": "CC BY-SA 4.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Multilingual speech and ASL comprehension dataset extending BELEBELE to 75 languages.",
@@ -27,21 +30,22 @@
         "FLORES-200"
     ],
     "Paper Title": "2M-BELEBELE: Highly Multilingual Speech and American Sign Language Comprehension Dataset",
-    "Paper Link": "https://arxiv.org/pdf/2412.08274",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-acl.569",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
-        "Marta R. Costa-juss\u00e0",
+        "Marta R. Costa-jussà",
         "Bokai Yu",
         "Pierre Andrews",
         "Belen Alastruey",
@@ -53,8 +57,8 @@
         "Carleigh Wood"
     ],
     "Affiliations": [
-        "FAIR, Meta"
+        "Meta"
     ],
-    "Abstract": "We introduce the first highly multilingual speech and American Sign Language (ASL) comprehension dataset by extending BELEBELE. Our dataset covers 74 spoken languages at the intersection of BELEBELE and FLEURS, and one sign language (ASL). We evaluate 2M-BELEBELE dataset for both 5-shot and zero-shot settings and across languages, the speech comprehension accuracy is \u2248 2-3% average lower compared to reading comprehension.",
+    "Abstract": "We introduce the first highly multilingual speech and American Sign Language (ASL) comprehension dataset by extending BELEBELE. Our dataset covers 74 spoken languages at the intersection of BELEBELE and FLEURS, and one sign language (ASL). We evaluate 2M-BELEBELE dataset for both 5-shot and zero-shot settings and across languages, the speech comprehension accuracy is ≈ 2-3% average lower compared to reading comprehension.",
     "Added By": "Zaid Alyafeai"
 }

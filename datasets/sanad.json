@@ -1,18 +1,28 @@
 {
     "Name": "SANAD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/SANAD",
     "Link": "https://data.mendeley.com/datasets/57zpx667y9/2",
     "License": "CC BY 4.0",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news",
+        "finance",
+        "sports",
+        "culture",
+        "technology",
+        "politics",
+        "health",
+        "religion"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "textual data collected from three news portals",
     "Volume": 194797.0,
@@ -29,22 +39,21 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "topic classification"
     ],
-    "Venue Title": "Data in brief",
+    "Venue Title": "Data in Brief",
     "Venue Type": "journal",
-    "Venue Name": "Data in brief",
+    "Venue Name": "Data in Brief",
     "Authors": [
         "Omar Einea",
         "Ashraf Elnagar",
         "Ridhwan Al Debsi"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "University of Sharjah"
     ],
     "Abstract": "Text Classification is one of the most popular Natural Language Processing (NLP) tasks. Text classification (aka categorization) is an active research topic in recent years. However, much less attention was directed towards this task in Arabic, due to the lack of rich representative resources for training an Arabic text classifier. Therefore, we introduce a large Single-labeled Arabic News Articles Dataset (SANAD) of textual data collected from three news portals. The dataset is a large one consisting of almost 200k articles distributed into seven categories that we offer to the research community on Arabic computational linguistics. We anticipate that this rich dataset would make a great aid for a variety of NLP tasks on Modern Standard Arabic (MSA) textual data, especially for single label text classification purposes. We present the data in raw form. SANAD is composed of three main datasets scraped from three news portals, which are AlKhaleej, AlArabiya, and Akhbarona. SANAD is made public and freely available at https://data.mendeley.com/datasets/57zpx667y9.",
     "Added By": ""

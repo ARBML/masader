@@ -1,20 +1,22 @@
 {
     "Name": "XRAG",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/AmazonScience/XRAG",
     "Link": "https://huggingface.co/datasets/AmazonScience/XRAG",
     "License": "CC BY-NC 4.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
     ],
     "Description": "XRAG is a cross-lingual RAG benchmark covering German, Spanish, Chinese, and Arabic questions with English retrieval documents.",
     "Volume": 1500.0,
@@ -25,19 +27,20 @@
     ],
     "Derived From": [],
     "Paper Title": "XRAG: Cross-lingual Retrieval-Augmented Generation",
-    "Paper Link": "https://arxiv.org/pdf/2505.10089",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-emnlp.849",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "retrieval-augmented generation"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Wei Liu",
         "Sony Trenous",

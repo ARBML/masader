@@ -1,18 +1,23 @@
 {
     "Name": "Mega-COV",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/echen102/COVID-19-TweetIDs",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "health",
+        "society",
+        "crisis"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "A Billion-Scale Dataset of 100+ Languages for COVID-19",
     "Volume": 45000000.0,
@@ -29,13 +34,14 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": true,
     "Tasks": [
         "fact checking"
     ],
     "Venue Title": "EACL",
     "Venue Type": "conference",
-    "Venue Name": "European Chapter of the Association for Computational Linguistics",
+    "Venue Name": "Conference of the European Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Muhammad Abdul-Mageed",
         "AbdelRahim Elmadany",
@@ -44,11 +50,8 @@
         "Rannie Lin"
     ],
     "Affiliations": [
-        "",
         "University of British Columbia",
-        "",
-        "The University of British Columbia",
-        ""
+        "The University of British Columbia"
     ],
     "Abstract": "We describe Mega-COV, a billion-scale dataset from Twitter for studying COVID-19. The dataset is diverse (covers 268 countries), longitudinal (goes as back as 2007), multilingual (comes in 100+ languages), and has a significant number of location-tagged tweets (~169M tweets). We release tweet IDs from the dataset. We also develop two powerful models, one for identifying whether or not a tweet is related to the pandemic (best F1=97%) and another for detecting misinformation about COVID-19 (best F1=92%). A human annotation study reveals the utility of our models on a subset of Mega-COV. Our data and models can be useful for studying a wide host of phenomena related to the pandemic. Mega-COV and our models are publicly available.",
     "Added By": "Mustafa Ghaleb"

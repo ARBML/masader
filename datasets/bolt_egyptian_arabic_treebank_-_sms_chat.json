@@ -1,18 +1,21 @@
 {
     "Name": "BOLT Egyptian Arabic Treebank - SMS/Chat",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2021T17",
     "License": "LDC User Agreement",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Egypt",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release contains 349,414 tokens before clitics were split and 435,677 tree tokens after clitics were split for treebank annotation. The source data was collected by LDC from its collection platform or by donation and was manually reviewed to exclude material not in the target language or with sensitive content. Originally written in Arabizi (or Romanized/Latin characters) script, the source data was transliterated to Arabic script and manually corrected prior to treebank annotation.",
     "Volume": 349414.0,
@@ -29,15 +32,23 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "3,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "information retrieval",
-        "machine translation"
+        "part of speech tagging",
+        "morphological analysis"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Seth Kulick",
+        "Sondos Krouna",
+        "Dalila Tabassi",
+        "Michael Ciul"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

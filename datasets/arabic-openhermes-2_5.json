@@ -1,17 +1,20 @@
 {
     "Name": "Arabic-OpenHermes-2.5",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/2A2I/Arabic-OpenHermes-2.5",
     "Link": "https://hf.co/datasets/2A2I/Arabic-OpenHermes-2.5",
     "License": "Apache-2.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "LLM"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Arabic-OpenHermes-2.5 is a carefully curated dataset extracted / translated from the OpenHermes-2.5 collection provided by teknium.",
@@ -29,12 +32,13 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

@@ -1,22 +1,26 @@
 {
     "Name": "GALE Phase 2 Arabic Broadcast News Transcripts Part 1",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2014T17",
     "License": "LDC User Agreement",
     "Year": 2014,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "TV channels",
+        "news articles"
+    ],
     "Domain": [
-        "other"
+        "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The transcript files are in plain-text, tab-delimited format (TDF) with UTF-8 encoding, and the transcribed data totals 897,868 tokens. The transcripts were created with the LDC-developed transcription tool, XTrans, a multi-platform, multilingual, multi-channel transcription tool that supports manual transcription and annotation of audio recordings. XTrans is available from the following link, https://www.ldc.upenn.edu/language-resources/tools/xtrans.",
-    "Volume": 897868.0,
-    "Unit": "tokens",
+    "Volume": 165.0,
+    "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -29,14 +33,20 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Meghan Glenn",
+        "Haejoong Lee",
+        "Stephanie Strassel",
+        "Kazuaki Maeda"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

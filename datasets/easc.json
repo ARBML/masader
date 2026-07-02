@@ -1,18 +1,21 @@
 {
     "Name": "EASC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/EASC",
     "Link": "https://sourceforge.net/projects/easc-corpus/",
     "License": "CC BY-SA 3.0",
     "Year": 2010,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "153 Arabic articles and 765 human-generated extractive summaries of those articles",
     "Volume": 153.0,
@@ -29,7 +32,8 @@
     "Host": "sourceforge",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "summarization"
     ],
@@ -39,12 +43,11 @@
     "Authors": [
         "Mahmoud El-Haj",
         "Udo Kruschwitz",
-        "C. Fox"
+        "Chris Fox"
     ],
     "Affiliations": [
         "Lancaster University",
-        "University of Regensburg",
-        ""
+        "University of Regensburg"
     ],
     "Abstract": "This paper describes the creation of a human-generated corpus of extractive Arabic summaries of a selection of Wikipedia and Arabic newspaper articles using Mechanical Turk?an online workforce. The purpose of this exercise was two-fold. First, it addresses a shortage of relevant data for Arabic natural language processing. Second, it demonstrates the application of Mechanical Turk to the problem of creating natural language resources. The paper also reports on a number of evaluations we have performed to compare the collected summaries against results obtained from a variety of automatic summarisation systems.",
     "Added By": ""

@@ -1,18 +1,25 @@
 {
     "Name": "CamelTB: Camel Treebank 1.0",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://treebank.camel-lab.com/",
     "License": "custom",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "books",
+        "treebanks"
+    ],
     "Domain": [
-        "books"
+        "religion",
+        "literature",
+        "news",
+        "poetry"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "the Camel Treebank (CAMELTB) is a 188K word open-source dependency treebank of Modern Standard and Classical Arabic. It includes 13 sub-corpora comprising selections of texts from pre-Islamic poetry to social media online commentaries, and covering a range of genres from religious and philosophical texts to news, novels, and student essays.",
     "Volume": 242000.0,
@@ -29,7 +36,8 @@
     "Host": "CAMeL Resources",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "part of speech tagging",
         "morphological analysis",
@@ -37,7 +45,7 @@
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "Language Resources and Evaluation Conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Nizar Habash",
         "Muhammed AbuOdeh",

@@ -1,6 +1,6 @@
 {
     "Name": "MAC",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "MSA",
             "Volume": 9640.0,
@@ -20,13 +20,15 @@
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media",
         "reviews"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "An open and free Moroccan Arabic corpus of 18000 sentiment-annotated tweets plus a 30k-word lexicon.",
@@ -45,7 +47,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],
@@ -57,9 +60,9 @@
         "Jamal Kharroubi"
     ],
     "Affiliations": [
-        "Univ. Littoral Cote d\u2019Opale Calais",
+        "Univ. Littoral Cote d’Opale Calais",
         "USMBA"
     ],
-    "Abstract": "The proliferation of social media has allowed Internet users to post their views and opinions online. This generated a vast amount of raw data in informal ways. For many organizations and individuals, this data is vital for providing insight into future decisions. Preprocessed corpora are considered as the basic requirement for the development and evaluation of opinion mining (OM) systems. However, the vast majority of corpora intended for OM research are not large and free for the researchers\u2019 community. This lack of free and large OM corpora represents a major obstacle for promoting research on sentiment analysis systems, especially for rich and complex languages as the Moroccan Arabic (MA) one. To overcome this gap, this paper presents a new contribution to the MA resources. A free and large Moroccan Arabic corpus consisting of 18000 manually labeled tweets resulting in a lexicon-dictionary of 30000 words labeled as positive, negative and neutral. To the best of our knowledge, MAC (Moroccan Arabic Corpus) is the first open and largest MA corpus for sentiment analysis. It is pioneer by its size, its quality given by the consistency of the native annotators (IAA=0.9), and its accessibility to the research community. The MAC is benchmarked for forthcoming works through an exploratory data analysis carried out using the two-sentiment analysis approaches for polarity classification as well as language identification. In addition, the MAC corpus along with the necessary code to explore it have been released.",
+    "Abstract": "The proliferation of social media has allowed Internet users to post their views and opinions online. This generated a vast amount of raw data in informal ways. For many organizations and individuals, this data is vital for providing insight into future decisions. Preprocessed corpora are considered as the basic requirement for the development and evaluation of opinion mining (OM) systems. However, the vast majority of corpora intended for OM research are not large and free for the researchers’ community. This lack of free and large OM corpora represents a major obstacle for promoting research on sentiment analysis systems, especially for rich and complex languages as the Moroccan Arabic (MA) one. To overcome this gap, this paper presents a new contribution to the MA resources. A free and large Moroccan Arabic corpus consisting of 18000 manually labeled tweets resulting in a lexicon-dictionary of 30000 words labeled as positive, negative and neutral. To the best of our knowledge, MAC (Moroccan Arabic Corpus) is the first open and largest MA corpus for sentiment analysis. It is pioneer by its size, its quality given by the consistency of the native annotators (IAA=0.9), and its accessibility to the research community. The MAC is benchmarked for forthcoming works through an exploratory data analysis carried out using the two-sentiment analysis approaches for polarity classification as well as language identification. In addition, the MAC corpus along with the necessary code to explore it have been released.",
     "Added By": "Zaid Alyafeai"
 }

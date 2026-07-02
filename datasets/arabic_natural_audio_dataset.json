@@ -1,20 +1,23 @@
 {
     "Name": "Arabic Natural Audio Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://data.mendeley.com/datasets/xm232yxf7t/1",
     "License": "CC BY 4.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "TV channels"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
-    "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Form": "videos",
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "This is the  first Arabic Natural Audio Dataset (ANAD) developed to recognize 3 discrete emotions: Happy,angry, and surprised.",
+    "Description": "This is the first Arabic Natural Audio Dataset (ANAD) developed to recognize 3 discrete emotions: Happy,angry, and surprised.",
     "Volume": 1384.0,
     "Unit": "hours",
     "Ethical Risks": "Medium",
@@ -29,11 +32,12 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "emotion classification"
     ],
-    "Venue Title": "",
+    "Venue Title": "AICSP",
     "Venue Type": "journal",
     "Venue Name": "Analog Integrated Circuits and Signal Processing",
     "Authors": [
@@ -42,7 +46,11 @@
         "Lama Hamandi",
         "Rached Zantout"
     ],
-    "Affiliations": [],
-    "Abstract": "Automatic emotion recognition from speech signals without linguistic cues has been an important emerging research area. Integrating emotions in human\u2013computer interaction is of great importance to effectively simulate real life scenarios. Research has been focusing on recognizing emotions from acted speech while little work was done on natural real life\nutterances. English, French, German and Chinese corpora were used for that purpose while no natural Arabic corpus was found to date. In this paper, emotion recognition in Arabic spoken data is studied for the first time. A realistic speech corpus from Arabic TV shows is collected. The videos are labeled by their perceived emotions; namely happy, angry or\nsurprised. Prosodic features are extracted and thirty-five classification methods are applied. Results are analyzed in this paper and conclusions and future recommendations are identified.",
+    "Affiliations": [
+        "Beirut Arab University",
+        "American University of Beirut",
+        "Rafik Hariri University"
+    ],
+    "Abstract": "Automatic emotion recognition from speech signals without linguistic cues has been an important emerging research area. Integrating emotions in human–computer interaction is of great importance to effectively simulate real life scenarios. Research has been focusing on recognizing emotions from acted speech while little work was done on natural real life\nutterances. English, French, German and Chinese corpora were used for that purpose while no natural Arabic corpus was found to date. In this paper, emotion recognition in Arabic spoken data is studied for the first time. A realistic speech corpus from Arabic TV shows is collected. The videos are labeled by their perceived emotions; namely happy, angry or\nsurprised. Prosodic features are extracted and thirty-five classification methods are applied. Results are analyzed in this paper and conclusions and future recommendations are identified.",
     "Added By": "Abdelrahman Rezk"
 }

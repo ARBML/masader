@@ -1,0 +1,65 @@
+{
+    "Name": "ArBN",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/dru-ac/ArBNTopic",
+    "Link": "https://huggingface.co/datasets/dru-ac/ArBNTopic",
+    "License": "unknown",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "books",
+        "news articles",
+        "public datasets"
+    ],
+    "Domain": [
+        "culture",
+        "finance",
+        "health",
+        "politics",
+        "religion",
+        "sports",
+        "technology",
+        "art",
+        "literature"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "metadata-derived"
+    ],
+    "Description": "Arabic dataset for topic classification",
+    "Volume": 19784.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Arab Center for Research and Policy Studies"
+    ],
+    "Derived From": [
+        "SANAD"
+    ],
+    "Paper Title": "Arabic Topic Classification in the Generative and AutoML Era",
+    "Paper Link": "https://aclanthology.org/2023.arabicnlp-1.32.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "topic classification"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Doha Albared",
+        "Hadi Hamoud",
+        "Fadi A. Zaraket"
+    ],
+    "Affiliations": [
+        "Arab Center for Research and Policy Studies"
+    ],
+    "Abstract": "Abstract less, these models are built from the ground up, demanding large datasets and several days of training. Most recent models for Arabic topic classification leveraged fine-tuning existing pre-trained transformer models and targeted a limited number of categories. More recently, advances in automated ML and generative models introduced novel potentials for the task. While these approaches work for English, it is a question of whether they perform well for low-resourced languages; Arabic in particular. This paper presents (i) ArBNTopic; a novel Arabic dataset with an extended 14-topic class set covering modern books from social sciences and humanities along with newspaper articles, and (ii) a set of topic classifiers built from it. We fine-tuned an open LLM model to build ArGTC. We compared its performance against the best models built with Vertex AI (Google), AutoML(H2O), and AutoTrain(HuggingFace). ArGTC outperformed the VertexAi and AutoML models, and was reasonably similar to the AutoTrain model.",
+    "Added By": "Zaid alyafeai"
+}

@@ -1,18 +1,22 @@
 {
     "Name": "Goud-sum",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Goud/Goud-sum",
     "Link": "https://github.com/issam9/goud-summarization-dataset",
     "License": "unknown",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news",
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "Goud-sum contains 158k articles and their headlines extracted from Goud.ma news website. The articles are written in the Arabic script. All headlines are in Moroccan Darija, while articles may be in Moroccan Darija, in Modern Standard Arabic, or a mix of both (code-switched Moroccan Darija).",
     "Volume": 158000.0,
@@ -27,13 +31,14 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "summarization"
     ],
-    "Venue Title": "ICLR",
+    "Venue Title": "AfricaNLP",
     "Venue Type": "workshop",
-    "Venue Name": "International Conference on Learning Representations",
+    "Venue Name": "Workshop on African Natural Language Processing",
     "Authors": [
         "Abderrahmane Issam",
         "Khalil Mrini"

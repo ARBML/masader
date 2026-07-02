@@ -1,18 +1,23 @@
 {
     "Name": "KUNUZ",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://jarir.tn/kunuzcorpus",
     "License": "CC BY-NC-ND 4.0",
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "books"
+    ],
     "Domain": [
-        "other"
+        "religion",
+        "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "KUNUZ is an XMLized version of Sahih Albukhari, the most authentic hadith book.",
     "Volume": 7563.0,
@@ -29,7 +34,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "named entity recognition",
@@ -44,9 +50,7 @@
         "Souheila Ben Guirat"
     ],
     "Affiliations": [
-        "LISI: Laboratory of Computer science for industrial systems",
-        "Carthage University",
-        "Tunisia"
+        "Carthage University"
     ],
     "Abstract": "Corpora   are   important   resources   for   several   applications   in   Information   Retrieval   (IR)   and   Knowledge   Extraction    (KE).    Arabic    is    a    low    resourced    language    characterized  by  its  complex  morphology.  Furthermore,  most  existent  Arabic  language  resources  focus  on  Modern  Standard  Arabic  (MSA).  This  paper  describes  KUNUZ  a  multi-purpose  test  collection  composed  of  voweled  and  structured  classical  Arabic documents. Its goal is to provide a unique benchmark for assessing  applications  in  several  areas  of  document  engineering  including IR, document classification and information extraction. The  documents  are  also  translated  in  English  to  allow  Arabic-English cross-lingual IR and machine translation. As far as IR is concerned, we follow the standard topic development and results sampling  used  in  international  campaigns.  The  paper,  describes  the  process  of  topic  development,  results  pooling  and  relevance  judgment.  It  also  analyses  the  results  of  some  processing  tools  and IR models used in the runs. In order to enhance the results of our  experiments,  we  also  proposed  to  combine  the  results  based  on   a   meta-search   approach   using   Support   Vector   Machines   (SVM) classification.",
     "Added By": "Jezia Zakraoui"

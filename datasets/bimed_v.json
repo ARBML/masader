@@ -1,19 +1,22 @@
 {
     "Name": "BiMed-V",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/MBZUAI/BiMed-V-1.6M",
     "Link": "https://huggingface.co/datasets/MBZUAI/BiMed-V-1.6M",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2024,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "health"
+    ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "Bilingual medical text dataset for training a medical multimodal model, containing 1.6M instructional samples in Arabic and English.",
     "Volume": 1600000.0,
@@ -31,19 +34,20 @@
         "BiMediXv1"
     ],
     "Paper Title": "BiMediX2: Bio-Medical Expert LMM for Diverse Medical Modalities",
-    "Paper Link": "https://arxiv.org/pdf/2412.07769",
+    "Paper Link": "https://aclanthology.org/2025.findings-emnlp.756",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Sahal Shaji Mullappilly",
         "Mohammed Irfan Kurpath",
@@ -59,7 +63,7 @@
     ],
     "Affiliations": [
         "Mohamed Bin Zayed University of Artificial Intelligence",
-        "Link\u00f6ping University",
+        "Linköping University",
         "Shaikh Tahnoon bin Mohammed Medical City",
         "Tawam Hospital",
         "Sheikh Shakhbout Medical City",

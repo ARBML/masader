@@ -1,18 +1,21 @@
 {
     "Name": "IDAT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/multilingual_irony",
     "Link": "https://github.com/bilalghanem/multilingual_irony",
     "License": "GPL-3.0",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "written in\r\nModern Standard Arabic but also in different Arabic language varieties\r\nincluding Egypt, Gulf, Levantine and Maghrebi dialects",
     "Volume": 5030.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": true,
     "Tasks": [
         "irony detection"
     ],
@@ -39,16 +43,17 @@
     "Authors": [
         "Bilal Ghanem",
         "Jihen Karoui",
-        "F. Benamara",
-        "V\u00e9ronique Moriceau",
-        "P. Rosso"
+        "Farah Benamara",
+        "Véronique Moriceau",
+        "Paolo Rosso"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "PRHLT Research Center",
+        "Universitat Politècnica de València",
+        "AUSY R&D",
+        "Paris",
+        "IRIT-CNRS",
+        "Université de Toulouse"
     ],
     "Abstract": "This overview paper describes the first shared task on irony detection for the Arabic language. The task consists of a binary classification of tweets as ironic or not using a dataset composed of 5, 030 Arabic tweets about different political issues and events related to the Middle East and the Maghreb. Tweets in our dataset are written in Modern Standard Arabic but also in different Arabic language varieties including Egypt, Gulf, Levantine and Maghrebi dialects. Eighteen teams registered to the task among which ten submitted their runs. The methods of participants ranged from feature-based to neural networks using either classical machine learning techniques or ensemble methods. The best performing system achieved F-score value of 0.844, showing that classical feature-based models outperform the neural ones.",
     "Added By": "Zaid Alyafeai"

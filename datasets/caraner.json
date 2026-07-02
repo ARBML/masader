@@ -1,18 +1,22 @@
 {
     "Name": "CAraNER",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/kacst-ncdaai/caraner",
     "License": "unknown",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles"
+    ],
     "Domain": [
-        "news articles",
-        "public datasets"
+        "health",
+        "news",
+        "crisis"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "COVID-19 Arabic named entity corpus extracted from Saudi newspapers",
@@ -33,7 +37,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "named entity recognition"
     ],

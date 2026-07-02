@@ -1,18 +1,22 @@
 {
-    "Name": "Arabic news dataset about Hajj",
-    "Subsets": [],
+    "Name": "ArPiS",
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Haneen84/Arabic_news/tree/main",
     "Link": "https://hf.co/datasets/Haneen84/Arabic_news/tree/main",
     "License": "unknown",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news",
+        "religion"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "more than 2k articles about Hajj",
     "Volume": 2000.0,
@@ -27,21 +31,24 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis",
         "information retrieval"
     ],
-    "Venue Title": "2023 1st International Conference on Advanced Innovations in Smart Cities",
+    "Venue Title": "ICAISC",
     "Venue Type": "conference",
-    "Venue Name": "2023 1st International Conference on Advanced Innovations in Smart Cities",
+    "Venue Name": "International Conference on Advanced Innovations in Smart Cities",
     "Authors": [
-        "Al-Barhamtoshy",
-        "Hassanin & Himdi",
-        "Hanen & Alyahya",
-        "Mohamad."
+        "Hassanin M. Al-Barhamtoshy",
+        "Hanen T. Himdi",
+        "Mohamad Alyahya"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "King Abdulaziz University",
+        "University of Jeddah"
+    ],
     "Abstract": "",
     "Added By": "Hanen Himdi"
 }

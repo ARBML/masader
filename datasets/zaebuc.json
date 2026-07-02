@@ -1,18 +1,21 @@
 {
     "Name": "ZAEBUC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://sites.google.com/view/zaebuc/home",
     "License": "CC BY-NC 4.0",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "education"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "the corpus is an annotated Arabic-English bilingual writer corpus comprising short essays by first-year university students at Zayed University in the United Arab Emirates.",
     "Volume": 33300.0,
@@ -20,8 +23,7 @@
     "Ethical Risks": "Medium",
     "Provider": [
         "NYU Abu Dhabi",
-        "Zayed University",
-        "UAE"
+        "Zayed University"
     ],
     "Derived From": [],
     "Paper Title": "ZAEBUC: An annotated Arabic-English bilingual writer corpus",
@@ -31,7 +33,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling",
         "language identification",
@@ -40,18 +43,14 @@
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "European Language Resources Association (ELRA)",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Nizar Habash",
         "David Palfreyman"
     ],
     "Affiliations": [
         "New York University Abu Dhabi",
-        "Abu Dhabi",
-        "UAE",
-        "Zayed University",
-        "Abu Dhabi",
-        "UAE"
+        "Zayed University"
     ],
     "Abstract": "We present ZAEBUC, an annotated Arabic-English bilingual writer corpus comprising short essays by first-year university students at Zayed University in the United Arab Emirates. We describe and discuss the various guidelines and pipeline processes we followed to create the annotations and quality check them. The annotations include spelling and grammar correction, morphological tokenization, Part-of-Speech tagging, lemmatization, and Common European Framework of Reference (CEFR) ratings. All of the annotations are done on Arabic and English texts using consistent guidelines as much as possible, with tracked alignments among the different annotations, and to the original raw texts. For morphological tokenization, POS tagging, and lemmatization, we use existing automatic annotation tools followed by manual correction. We also present various measurements and correlations with preliminary insights drawn from the data and annotations. The publicly available ZAEBUC corpus and its annotations are intended to be the stepping stones for additional annotations.",
     "Added By": "Jezia Zakraoui"

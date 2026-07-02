@@ -1,17 +1,20 @@
 {
     "Name": "OGC_Energy_Arabic",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/racineai/OGC_Energy_Arabic",
     "Link": "https://huggingface.co/datasets/racineai/OGC_Energy_Arabic",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
+    "Domain": [
+        "finance"
+    ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "OGC_Energy_Arabic is a curated multimodal dataset focused on Arabic energy sector documents, including reports, financial statements, technical documentation, and industry analyses. It combines text and image data extracted from real energy-related PDFs to support tasks such as RAG DSE, question answering, document search, and vision-language model training in Arabic.",
@@ -29,12 +32,13 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],
     "Venue Title": "",
-    "Venue Type": "preprint",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
         "Yumeng YE"

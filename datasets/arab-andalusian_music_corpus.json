@@ -1,41 +1,54 @@
 {
     "Name": "Arab-Andalusian music corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://zenodo.org/record/1291776#.YqTFeHZBxD9",
     "License": "CC BY-NC 4.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "studio recordings"
+    ],
     "Domain": [
-        "other"
+        "art",
+        "culture"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
-    "Description": "The following files are available for 164 concert recordings (overall playable time more than 125 hours):",
+    "Description": "164 concert recordings (overall playable time more than 125 hours)",
     "Volume": 125.0,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
-    "Paper Title": "",
-    "Paper Link": "",
+    "Paper Title": "Nawba Recognition for Arab-Andalusian Music Using Templates From Music Scores",
+    "Paper Link": "https://zenodo.org/records/1257388#.Wyeb9J9fjCI",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
-    "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Title": "other",
+    "Venue Type": "preprint",
     "Venue Name": "",
-    "Authors": [],
-    "Affiliations": [],
-    "Abstract": "",
+    "Authors": [
+        "Niccolò Pretto",
+        "Bari¸s Bozkurt",
+        "Rafael Caro Repetto",
+        "Xavier Serra"
+    ],
+    "Affiliations": [
+        "University of Padova",
+        "Universitat Pompeu Fabra"
+    ],
+    "Abstract": "The Arab-Andalusian music is performed through nawab¯at(plural of nawba), suites of instrumental and vocal pieces ordered according to their metrical pattern in a sequence of increasing tempo. This study presents for the first time in literature a system for automatic recognition of nawba for audio recordings of the Moroccan tradition of Arab-Andalusian music. The proposed approach relies on template matching applied to pitch distributions computed from audio recordings. The templates have been created using a data-driven approach, utilizing a score collection categorized into nawab¯at. This methodology has been tested on a dataset of 58 hours of music: a set of 77 recordings in eleven nawab¯at from the Arab-Andalusian corpus collected within the CompMusic project and stored in Dunya platform. An accuracy of 75% on the nawba recognition task is reported using Euclidean distance (L2) as distance metric in the template matching.",
     "Added By": "Zaid Alyafeai"
 }

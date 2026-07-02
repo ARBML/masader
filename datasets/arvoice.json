@@ -1,18 +1,20 @@
 {
     "Name": "ArVoice",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/MBZUAI/ArVoice",
     "Link": "https://huggingface.co/datasets/MBZUAI/ArVoice",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "studio recordings"
+    ],
     "Domain": [
-        "public datasets"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation",
         "machine annotation"
     ],
@@ -29,20 +31,21 @@
         "Khaleej Corpus"
     ],
     "Paper Title": "ArVoice: A Multi-Speaker Dataset for Arabic Speech Synthesis",
-    "Paper Link": "https://arxiv.org/pdf/2504.21677",
+    "Paper Link": "https://doi.org/10.21437/Interspeech.2025-1550",
     "Script": "Arab",
     "Tokenized": true,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "text to speech",
         "speech recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Title": "Interspeech",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the International Speech Communication Association",
     "Authors": [
         "Hawau Olamide Toyin",
         "Rufael Marew",

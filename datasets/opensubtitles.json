@@ -1,18 +1,21 @@
 {
     "Name": "OpenSubtitles",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/open_subtitles",
-    "Link": "https://opus.nlpl.eu/OpenSubtitles.php",
+    "Link": "https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles",
     "License": "unknown",
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "subtitles"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "This is a new collection of translated movie subtitles from http://www.opensubtitles.org/.",
     "Volume": 83600000.0,
@@ -29,13 +32,14 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "Language Resources Evaluation Conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Pierre Lison",
         "Jorg Tiedemann"

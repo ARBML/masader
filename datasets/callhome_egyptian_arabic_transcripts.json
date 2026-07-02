@@ -1,18 +1,21 @@
 {
     "Name": "CALLHOME Egyptian Arabic Transcripts",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC97T19",
     "License": "LDC User Agreement",
     "Year": 2002,
     "Language": "ar",
     "Dialect": "Egypt",
+    "Source": [
+        "telephone conversations"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "The transcripts are timestamped by speaker turn for alignment with the speech signal and are provided in standard orthography.",
     "Volume": 120.0,
@@ -29,14 +32,28 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,000.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Hassan Gadalla",
+        "Hanaa Kilany",
+        "Howaida Arram",
+        "Ashraf Yacoub",
+        "Alaa El-Habashi",
+        "Amr Shalaby",
+        "Krisjanis Karins",
+        "Everett Rowson",
+        "Robert MacIntyre",
+        "Paul Kingsbury",
+        "David Graff",
+        "Cynthia McLemore"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

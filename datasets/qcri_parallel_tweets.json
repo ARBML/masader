@@ -1,20 +1,24 @@
 {
     "Name": "QCRI Parallel Tweets",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/alt-qsri/tweets_ar_en_parallel",
     "Link": "https://alt.qcri.org/resources/bilingual_corpus_of_parallel_tweets",
     "License": "Apache-2.0",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "general"
     ],
-    "Description": "bilingual corpus of Arabic-English parallel tweets and a list of Twitter accounts who post Arabic-English",
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "metadata-derived"
+    ],
+    "Description": "A bilingual corpus of Arabic-English parallel tweets and a list of Twitter accounts who post Arabic-English",
     "Volume": 166000.0,
     "Unit": "sentences",
     "Ethical Risks": "Medium",
@@ -29,7 +33,8 @@
     "Host": "QCRI Resources",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
@@ -42,10 +47,8 @@
         "Ahmed Abdelali"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Qatar Computing Research Institute"
     ],
-    "Abstract": "In a bid to reach a larger and more diverse audience, Twitter users often post parallel tweets\u2014tweets that contain the same content but are written in different languages. Parallel tweets can be an important resource for developing machine translation (MT) systems among other natural language processing (NLP) tasks. In this paper, we introduce a generic method for collecting parallel tweets. Using this method, we collect a bilingual corpus of English-Arabic parallel tweets and a list of Twitter accounts who post English-Arabictweets regularly. Since our method is generic, it can also be used for collecting parallel tweets that cover less-resourced languages such as Serbian and Urdu. Additionally, we annotate a subset of Twitter accounts with their countries of origin and topic of interest, which provides insights about the population who post parallel tweets. This latter information can also be useful for author profiling tasks.",
+    "Abstract": "In a bid to reach a larger and more diverse audience, Twitter users often post parallel tweets—tweets that contain the same content but are written in different languages. Parallel tweets can be an important resource for developing machine translation (MT) systems among other natural language processing (NLP) tasks. In this paper, we introduce a generic method for collecting parallel tweets. Using this method, we collect a bilingual corpus of English-Arabic parallel tweets and a list of Twitter accounts who post English-Arabictweets regularly. Since our method is generic, it can also be used for collecting parallel tweets that cover less-resourced languages such as Serbian and Urdu. Additionally, we annotate a subset of Twitter accounts with their countries of origin and topic of interest, which provides insights about the population who post parallel tweets. This latter information can also be useful for author profiling tasks.",
     "Added By": ""
 }

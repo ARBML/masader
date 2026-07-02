@@ -1,18 +1,24 @@
 {
     "Name": "AOC-ALDi",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/AOC_ALDi",
     "Link": "https://github.com/AMR-KELEG/ALDi/raw/master/data/AOC-ALDi.tar.gz",
     "License": "MIT License",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "commentary",
+        "news articles",
+        "public datasets"
+    ],
     "Domain": [
-        "commentary"
+        "news",
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Comments to news articles with a continuous level of dialectness score between 0 and 1.",
     "Volume": 127835.0,
@@ -31,13 +37,14 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],
     "Venue Title": "EMNLP",
     "Venue Type": "conference",
-    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Amr Keleg",
         "Sharon Goldwater",

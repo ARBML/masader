@@ -1,19 +1,21 @@
 {
     "Name": "Arabic Punctuation Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/CBT,https://hf.co/datasets/arbml/ABC,https://hf.co/datasets/arbml/SSAC_UNPC",
     "Link": "https://data.mendeley.com/datasets/2pkxckwgs3/1",
     "License": "CC BY 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This is a curated dataset, specifically designed to facilitate the study of punctuation. It has undergone rigorous manual annotation and verification on the basis of sentence structure, with sentence boundaries clearly marked.",
     "Volume": 12183000.0,
@@ -31,7 +33,8 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "punctuation detection"
     ],
@@ -44,6 +47,6 @@
         "Ashraf Elnagar",
         "Esra Yaghi"
     ],
-    "Abstract": "Arabic, unlike many languages, suffers from punctuation inconsistency, posing a significant obstacle for Natural Language Processing (NLP). To address this, we present the Arabic Punctuation Dataset (APD), a large collection of annotated Modern Standard Arabic texts designed to train machine learning models in sentence boundary identification and punctuation prediction. APD leverages the \u201ctheme-rheme completion\u201d principle, a grammatical feature closely linked to consistent punctuation placement. It consists of an annotated collection of Modern Standard Arabic (MSA) texts that encompass 312 million words in approximately 12 million sentences. It comprises three diverse components: Arabic Book Chapters (ABC): Manually annotated, non-fiction, book excerpts, constituting a gold-standard reference. Complete Book Translations (CBT): Parallel English\u2013Arabic book translations with aligned sentence endings, ideal for machine translation training. Scrambled Sentences from the Arabic Component of the United Nations Parallel Corpus (SSAC-UNPC): Jumbled sentences for model training in automatic punctuation restoration. Beyond NLP, APD serves as a valuable resource for linguistics research, language learning, and real-time subtitling. Its authentic, grammar-based approach can enhance the readability and clarity of machine-generated text, opening doors for various applications such as automatic speech recognition, text summarization, and machine translation.",
+    "Abstract": "Arabic, unlike many languages, suffers from punctuation inconsistency, posing a significant obstacle for Natural Language Processing (NLP). To address this, we present the Arabic Punctuation Dataset (APD), a large collection of annotated Modern Standard Arabic texts designed to train machine learning models in sentence boundary identification and punctuation prediction. APD leverages the “theme-rheme completion” principle, a grammatical feature closely linked to consistent punctuation placement. It consists of an annotated collection of Modern Standard Arabic (MSA) texts that encompass 312 million words in approximately 12 million sentences. It comprises three diverse components: Arabic Book Chapters (ABC): Manually annotated, non-fiction, book excerpts, constituting a gold-standard reference. Complete Book Translations (CBT): Parallel English–Arabic book translations with aligned sentence endings, ideal for machine translation training. Scrambled Sentences from the Arabic Component of the United Nations Parallel Corpus (SSAC-UNPC): Jumbled sentences for model training in automatic punctuation restoration. Beyond NLP, APD serves as a valuable resource for linguistics research, language learning, and real-time subtitling. Its authentic, grammar-based approach can enhance the readability and clarity of machine-generated text, opening doors for various applications such as automatic speech recognition, text summarization, and machine translation.",
     "Added By": "Zaid Alyafeai"
 }

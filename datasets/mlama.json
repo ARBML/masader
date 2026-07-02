@@ -1,17 +1,20 @@
 {
     "Name": "mLAMA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/cis-lmu/m_lama",
     "Link": "https://github.com/norakassner/mlama",
     "License": "CC BY-NC-SA 4.0",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Multilingual LAMA dataset for probing factual knowledge in mBERT across 53 languages.",
@@ -25,23 +28,24 @@
         "LAMA"
     ],
     "Paper Title": "Multilingual LAMA: Investigating Knowledge in Multilingual Pretrained Language Models",
-    "Paper Link": "https://arxiv.org/pdf/2102.00894",
+    "Paper Link": "https://doi.org/10.18653/v1/2021.eacl-main.284",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "fill-in-the blank"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EACL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the European Chapter of the Association for Computational Linguistics",
     "Authors": [
         "Nora Kassner",
         "Philipp Dufter",
-        "Hinrich Sch\u00fctze"
+        "Hinrich Schütze"
     ],
     "Affiliations": [
         "LMU-Munich"

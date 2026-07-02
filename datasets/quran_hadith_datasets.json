@@ -1,19 +1,22 @@
 {
     "Name": "Quran Hadith Datasets",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Quran_Hadith",
     "Link": "https://github.com/ShathaTm/Quran_Hadith_Datasets",
     "License": "unknown",
     "Year": 2022,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "books"
+    ],
     "Domain": [
-        "other"
+        "religion",
+        "literature"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The datasets showcase the related and non-related pairs of Quran-Quran and Quran-Hadith. It has Classical Arabic and English translated verses and teachings.",
     "Volume": 20360.0,
@@ -22,19 +25,20 @@
     "Provider": [],
     "Derived From": [],
     "Paper Title": "Challenging the Transformer-based models with a Classical Arabic dataset: Quran and Hadith",
-    "Paper Link": "",
+    "Paper Link": "https://aclanthology.org/2022.lrec-1.157/",
     "Script": "Arab-Latin",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "semantic similarity"
     ],
-    "Venue Title": "",
+    "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "Language Resources and Evaluation Conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Shatha Altammami",
         "Eric Atwell"

@@ -1,0 +1,55 @@
+{
+    "Name": "Arabic-Clue-Instruct",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Kamyar-zeinalipour/Arabic-Clue-Instruct",
+    "Link": "https://github.com/KamyarZeinalipour/Arabic-Text-to-Crosswords",
+    "License": "unknown",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "wikipedia"
+    ],
+    "Domain": [
+        "education"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
+    ],
+    "Description": "Dataset for Arabic educational crosswords",
+    "Volume": 14497.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Siena"
+    ],
+    "Derived From": [],
+    "Paper Title": "From Arabic Text to Puzzles: LLM-Driven Development of Arabic Educational Crosswords",
+    "Paper Link": "https://aclanthology.org/2025.loreslm-1.36/",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "text generation"
+    ],
+    "Venue Title": "loreslm",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Language Models for Low-Resource Languages",
+    "Authors": [
+        "Kamyar Zeinalipour",
+        "Mohamed Zaky Saad",
+        "Marco Maggini",
+        "Marco Gori"
+    ],
+    "Affiliations": [
+        "University of Siena"
+    ],
+    "Abstract": "We present an Arabic crossword puzzle generator from a given text that utilizes advanced language models such as GPT-4-Turbo, GPT-3.5-Turbo and Llama3-8B-Instruct, specifically developed for educational purposes, with over 50,000 entries encompassing text, answers, clues, and categories.",
+    "Added By": "Zaid Alyafeai"
+}

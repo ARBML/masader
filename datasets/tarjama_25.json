@@ -1,0 +1,57 @@
+{
+    "Name": "Tarjama-25",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Misraj/Tarjama-25",
+    "Link": "https://huggingface.co/datasets/Misraj/Tarjama-25",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "web pages"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "Bidirectional Arabic-English translation benchmark.",
+    "Volume": 5000.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Misraj AI"
+    ],
+    "Derived From": [],
+    "Paper Title": "Mutarjim: Advancing Bidirectional Arabic-English Translation with a Small Language Model",
+    "Paper Link": "http://arxiv.org/pdf/2505.17894v2.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Khalil Hennara",
+        "Muhammad Hreden",
+        "Mohamed Motasim Hamed",
+        "Zeina Aldallal",
+        "Sara Chrouf",
+        "Safwan AlModhayan"
+    ],
+    "Affiliations": [
+        "Misraj AI"
+    ],
+    "Abstract": "We introduce Mutarjim, a compact yet powerful language model for bidirectional Arabic-English translation. While large-scale LLMs have shown impressive progress in natural language processing tasks, including machine translation, smaller models. Leveraging this insight, we developed Mutarjim based on Kuwain-1.5B Hennara et al. [2025], a language model tailored for both Arabic and English. Despite its modest size, Mutarjim outperforms much larger models on several established benchmarks, achieved through an optimized two-phase training approach and a carefully curated, high-qualitytrainingcorpus.. ExperimentalresultsshowthatMutarjimrivalsmodelsupto20times largerwhilesignificantlyreducingcomputationalcostsandtrainingrequirements. Wealsointroduce Tarjama-25, a new benchmark designed to overcome limitations in existing Arabic-English benchmarking datasets, such as domain narrowness, short sentence lengths, and English-source bias. Tarjama-25 comprises 5,000 expert-reviewed sentence pairs and spans a wide range of domains, offering a more comprehensive and balanced evaluation framework. Notably, Mutarjim achieves state-of-the-art performance on the English-to-Arabic task in Tarjama-25, surpassing even significantly larger and proprietary models like GPT-4o mini. We publicly release Tarjama-25 to support future research and advance the evaluation of Arabic-English translation systems.",
+    "Added By": "Zaid Alyafeai"
+}

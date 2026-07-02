@@ -1,18 +1,20 @@
 {
     "Name": "TRAD Arabic-English Mailing lists Parallel corpus - Test set",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-W0106/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2016,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "This is a parallel corpus of 10,000 words in Arabic and 2 reference translations in English. The source texts are emails collected from Wikiar-I, a mailing list for discussions about the Arabic Wikipedia. The collected emails are dated from 2010 to 2012.  The translation has been conducted by two different translation teams following a strict protocol aimed at producing high quality translations.",
@@ -27,13 +29,14 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "300.00\u20ac",
-    "Test Split": false,
+    "Cost": "300.00€",
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

@@ -1,18 +1,21 @@
 {
     "Name": "MPOLD: Multi Platforms Offensive Language Dataset",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/MPOLD",
     "Link": "https://github.com/shammur/Arabic-Offensive-Multi-Platform-SocialMedia-Comment-Dataset",
     "License": "Apache-2.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "society"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Arabic Offensive Comments dataset from Multiple Social Media Platforms",
     "Volume": 400.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "offensive language detection"
     ],
@@ -37,20 +41,16 @@
     "Venue Type": "conference",
     "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
-        "S. A. Chowdhury",
+        "Shammur Chowdhury",
         "Hamdy Mubarak",
         "Ahmed Abdelali",
-        "Soon-Gyo Jung",
-        "B. Jansen",
-        "Joni O. Salminen"
+        "Soon-gyo Jung",
+        "Bernard J. Jansen",
+        "Joni Salminen"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Qatar Computing Research Institute",
+        "Hamad Bin Khalifa University"
     ],
     "Abstract": "Access to social media often enables users to engage in conversation with limited accountability. This allows a user to share their opinions and ideology, especially regarding public content, occasionally adopting offensive language. This may encourage hate crimes or cause mental harm to targeted individuals or groups. Hence, it is important to detect offensive comments in social media platforms. Typically, most studies focus on offensive commenting in one platform only, even though the problem of offensive language is observed across multiple platforms. Therefore, in this paper, we introduce and make publicly available a new dialectal Arabic news comment dataset, collected from multiple social media platforms, including Twitter, Facebook, and YouTube. We follow two-step crowd-annotator selection criteria for low-representative language annotation task in a crowdsourcing platform. Furthermore, we analyze the distinctive lexical content along with the use of emojis in offensive comments. We train and evaluate the classifiers using the annotated multi-platform dataset along with other publicly available data. Our results highlight the importance of multiple platform dataset for (a) cross-platform, (b) cross-domain, and (c) cross-dialect generalization of classifier performance.",
     "Added By": ""

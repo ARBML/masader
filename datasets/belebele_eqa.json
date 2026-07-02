@@ -1,0 +1,68 @@
+{
+    "Name": "BELEBELE-EQA",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/mbzuai-nlp/MultiChoice2ExtractiveQA",
+    "License": "CC BY-SA 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Parallel extractive QA dataset for English and Arabic derived from BELEBELE.",
+    "Volume": 415.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "MBZUAI"
+    ],
+    "Derived From": [
+        "BELEBELE"
+    ],
+    "Paper Title": "From Multiple-Choice to Extractive QA: A Case Study for English and Arabic",
+    "Paper Link": "https://arxiv.org/pdf/2404.17342v2.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "COLING",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Computational Linguistics",
+    "Authors": [
+        "Teresa Lynn",
+        "Malik H. Altakrori",
+        "Samar M. Magdy",
+        "Rocktim Jyoti Das",
+        "Chenyang Lyu",
+        "Mohamed Nasr",
+        "Younes Samih",
+        "Kirill Chirkunov",
+        "Alham Fikri Aji",
+        "Preslav Nakov",
+        "Shantanu Godbole",
+        "Salim Roukos",
+        "Radu Florian",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "Mohamed bin Zayed University of Artificial Intelligence",
+        "IBM Research AI",
+        "New York University Abu Dhabi"
+    ],
+    "Abstract": "The rapid evolution of Natural Language Processing (NLP) has favoured major languages such as English, leaving a significant gap for many others due to limited resources. This is especially evident in the context of data annotation, a task whose importance cannot be underestimated, but which is time-consuming and costly. Thus, any dataset for resource-poor languages is precious, in particular when it is task-specific. Here, we explore the feasibility of repurposing an existing multilingual dataset for a new NLP task: we repurpose a subset of the BELEBELE dataset (Bandarkar et al., 2023), which was created for the task of multiple-choice question answering, to be suitable for extractive question answering in the style of machine reading comprehension. We present annotation guidelines and a parallel EQA dataset for English and Modern Standard Arabic (MSA). We also present QA evaluation results for several monolingual and cross-lingual QA pairs including English, MSA, and five Arabic dialects. We aim to help others adapt our approach for the remaining 120 BELEBELE language variants, many of which are deemed under-resourced. We also provide a thorough analysis and share insights to deepen understanding of the challenges and opportunities in NLP task reformulation.",
+    "Added By": "Zaid alyafeai"
+}

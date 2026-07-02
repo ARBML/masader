@@ -1,18 +1,21 @@
 {
     "Name": "CATT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Bisher/CATT_benchmark",
     "Link": "https://github.com/abjadai/catt",
     "License": "Apache-2.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Manually diacritized Arabic news sentences for evaluating Arabic Text Diacritization.",
     "Volume": 742.0,
@@ -23,19 +26,20 @@
     ],
     "Derived From": [],
     "Paper Title": "CATT: Character-based Arabic Tashkeel Transformer",
-    "Paper Link": "https://arxiv.org/pdf/2407.03236",
+    "Paper Link": "https://doi.org/10.18653/v1/2024.arabicnlp-1.21",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "diacritization"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Faris Alasmary",
         "Orjuwan Zaafarani",

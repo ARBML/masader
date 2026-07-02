@@ -1,0 +1,114 @@
+{
+    "Name": "CAAMT",
+    "Dialect Subsets": [
+        {
+            "Name": "ALG",
+            "Volume": 6400.0,
+            "Unit": "sentences",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "EGY",
+            "Volume": 6400.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "GLF",
+            "Volume": 6400.0,
+            "Unit": "sentences",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "MAR",
+            "Volume": 6400.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "NOR-LEV",
+            "Volume": 6400.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "STH-LEV",
+            "Volume": 6400.0,
+            "Unit": "sentences",
+            "Dialect": "North Africa"
+        },
+        {
+            "Name": "IRQ",
+            "Volume": 6400.0,
+            "Unit": "sentences",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "LBY",
+            "Volume": 6400.0,
+            "Unit": "sentences",
+            "Dialect": "Libya"
+        },
+        {
+            "Name": "GEN",
+            "Volume": 6400.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/Senju2/context-aware-arabic-to-english-model-with-register",
+    "Link": "https://huggingface.co/datasets/Senju2/context-aware-arabic-to-english-model-with-register",
+    "License": "MIT License",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "57.6k parallel Arabic dialect MT dataset.",
+    "Volume": 6400.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of Toledo",
+        "Claremont Graduate University"
+    ],
+    "Derived From": [
+        "OPUS",
+        "Tatoeba"
+    ],
+    "Paper Title": "Context-Aware Dialectal Arabic Machine Translation with Interactive Region and Register Selection",
+    "Paper Link": "https://arxiv.org/pdf/2604.06456v1.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Afroza Nowshin",
+        "Prithweeraj Acharjee Porag",
+        "Haziq Jeelani",
+        "Fayeq Jeelani Syed"
+    ],
+    "Affiliations": [
+        "University of Toledo",
+        "Claremont Graduate University"
+    ],
+    "Abstract": "Current Machine Translation (MT) systems for Arabic often struggle to account for dialectal diversity, frequently homogenizing dialectal inputs into Modern Standard Arabic (MSA) and offering limited user control over the target vernacular. In this work, we propose a context-aware and steerable framework for dialectal Arabic MT that explicitly models regional and sociolinguistic variation. Our primary technical contribution is a Rule-Based Data Augmentation (RBDA) pipeline that expands a 3,000-sentence seed corpus into a balanced 57,000-sentence parallel dataset, covering eight regional varieties eg., Egyptian, Levantine, Gulf, etc. By fine-tuning an mT5-base model conditioned on lightweight metadata tags, our approach enables controllable generation across dialects and social registers in the translation output. Through a combination of automatic evaluation and qualitative analysis, we observe an apparent accuracy-fidelity trade-off: high-resource baselines such as NLLB (No Language Left Behind) achieve higher aggregate BLEU scores (13.75) by defaulting toward the MSA mean, while exhibiting limited dialectal specificity. In contrast, our model achieves lower BLEU scores (8.19) but produces outputs that align more closely with the intended regional varieties. Supporting qualitative evaluation, including an LLM-assisted cultural authenticity analysis, suggests improved dialectal alignment compared to baseline systems (4.80/5 vs. 1.0/5). These findings highlight the limitations of standard MT metrics for dialect-sensitive tasks and motivate the need for evaluation practices that better reflect linguistic diversity in Arabic MT.",
+    "Added By": "Zaid Alyafeai"
+}

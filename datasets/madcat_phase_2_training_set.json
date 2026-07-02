@@ -1,18 +1,22 @@
 {
     "Name": "MADCAT Phase 2 Training Set",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2013T09",
     "License": "LDC User Agreement",
     "Year": 2013,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
-        "news articles"
+    "Source": [
+        "news articles",
+        "web pages"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "other"
+    "Domain": [
+        "general"
+    ],
+    "Form": "images",
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This release includes 27,814 annotation files in both GEDI XML and MADCAT XML formats (gedi.xml and madcat.xml) along with their corresponding scanned image files in TIFF format. The annotation results in GEDI XML output files include ground truth annotations and source transcripts.",
     "Volume": 27814.0,
@@ -29,15 +33,22 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "2,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "optical character recognition",
-        "machine translation"
+        "optical character recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "David Lee",
+        "Safa Ismael",
+        "Dave Doermann",
+        "Stephanie Strassel",
+        "Song Chen",
+        "Stephen Grimes"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

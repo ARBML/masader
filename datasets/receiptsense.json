@@ -1,19 +1,22 @@
 {
     "Name": "ReceiptSense",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/abdoelsayed/CORU",
     "Link": "https://github.com/Update-For-Integrated-Business-AI/CORU",
     "License": "MIT License",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "finance"
     ],
     "Form": "images",
-    "Collection Style": [
-        "machine annotation",
-        "human annotation"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "A multilingual OCR dataset for Arabic-English receipt understanding with 20k annotated receipts, 30k OCR images, and 10k item-level annotations.",
     "Volume": 20000.0,
@@ -30,7 +33,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "optical character recognition",
         "question answering"

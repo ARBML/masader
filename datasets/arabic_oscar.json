@@ -1,18 +1,21 @@
 {
     "Name": "Arabic OSCAR",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/oscar-corpus/oscar",
     "Link": "https://oscar-corpus.com/",
     "License": "CC0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "web crawls"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "a huge multilingual corpus obtained by language classification and filtering of the Common Crawl",
     "Volume": 8117162828.0,
@@ -31,22 +34,22 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
-    "Venue Name": "Assofications of computation linguisitcs",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
-        "Pedro Javier Ortiz Su\u00e1rez",
-        "L. Romary",
-        "Beno\u00eet Sagot"
+        "Pedro Javier Ortiz Suárez",
+        "Laurent Romary",
+        "Benoît Sagot"
     ],
     "Affiliations": [
-        "Inria;Sorbonne Universit\u00e9",
-        "",
-        ""
+        "Inria",
+        "Sorbonne Université"
     ],
     "Abstract": "We use the multilingual OSCAR corpus, extracted from Common Crawl via language classification, filtering and cleaning, to train monolingual contextualized word embeddings (ELMo) for five mid-resource languages. We then compare the performance of OSCAR-based and Wikipedia-based ELMo embeddings for these languages on the part-of-speech tagging and parsing tasks. We show that, despite the noise in the Common-Crawl-based OSCAR data, embeddings trained on OSCAR perform much better than monolingual embeddings trained on Wikipedia. They actually equal or improve the current state of the art in tagging and parsing for all five languages. In particular, they also improve over multilingual Wikipedia-based contextual embeddings (multilingual BERT), which almost always constitutes the previous state of the art, thereby showing that the benefit of a larger, more diverse corpus surpasses the cross-lingual benefit of multilingual embedding architectures.",
     "Added By": ""

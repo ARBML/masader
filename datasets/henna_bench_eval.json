@@ -1,0 +1,58 @@
+{
+    "Name": "Henna Bench Eval",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/UBC-NLP/Henna-Bench-Eval",
+    "Link": "https://huggingface.co/datasets/UBC-NLP/Henna-Bench-Eval",
+    "License": "unknown",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "web pages"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "images",
+    "Annotation Style": [
+        "LLM annotation"
+    ],
+    "Description": "Arabic multimodal LLMs and benchmarks",
+    "Volume": 1132.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "UBC-NLP"
+    ],
+    "Derived From": [],
+    "Paper Title": "Peacock: A Family of Arabic Multimodal Large Language Models and Benchmarks",
+    "Paper Link": "https://arxiv.org/pdf/2403.01031v2.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "question answering",
+        "instruction following",
+        "image captioning"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Fakhraddin Alwajih",
+        "El Moatez Billah Nagoudi",
+        "Gagan Bhatia",
+        "Abdelrahman Mohamed",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "University of British Columbia",
+        "InvertibleAI"
+    ],
+    "Abstract": "Multimodal large language models (MLLMs) have proven effective in a wide range of tasks requiring complex reasoning and linguistic comprehension. However, due to a lack of high-quality multimodal resources in languages other than English, success of MLLMs remains relatively limited to English-based settings. This poses significant challenges in developing comparable models for other languages, including even those with large speaker populations such as Arabic. To alleviate this challenge, we introduce a comprehensive family of Arabic MLLMs, dubbed \\textit{Peacock}, with strong vision and language capabilities. Through comprehensive qualitative and quantitative analysis, we demonstrate the solid performance of our models on various visual reasoning tasks and further show their emerging dialectal potential. Additionally, we introduce ~\\textit{Henna}, a new benchmark specifically designed for assessing MLLMs on aspects related to Arabic culture, setting the first stone for culturally-aware Arabic this http URL GitHub repository for the \\textit{Peacock} project is available at \\url{this https URL}.",
+    "Added By": "Zaid Alyafeai"
+}

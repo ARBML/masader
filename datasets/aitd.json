@@ -1,0 +1,58 @@
+{
+    "Name": "AITD",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/shammur/Arabic_news_text_classification_datasets",
+    "License": "CC BY 4.0",
+    "Year": 2020,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation"
+    ],
+    "Description": "A weakly annotated dataset for the most common tweet category. ",
+    "Volume": 115692.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
+    "Paper Title": "Improving Arabic Text Categorization Using Transformer Training Diversification",
+    "Paper Link": "https://aclanthology.org/2020.wanlp-1.21.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "text classification",
+        "topic classification"
+    ],
+    "Venue Title": "WANLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Arabic Natural Language Processing Workshop",
+    "Authors": [
+        "Shammur Chowdhury",
+        "Ahmed Abdelali",
+        "Kareem Darwish",
+        "Soon-gyo Jung",
+        "Joni Salminen",
+        "Bernard J Jansen"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "Automatic categorization of short texts, such as news headlines and social media posts, has many applications ranging from content analysis to recommendation systems. In this paper, we use such text categorization i.e., labeling the social media posts to categories like ‘sports’, ‘politics’, ‘human-rights’ among others, to showcase the efficacy of models across different sources and varieties of Arabic. In doing so, we show that diversifying the training data, whether by using diverse training data for the specific task (an increase of 21% macro F1) or using diverse data to pre-train a BERT model (26% macro F1), leads to overall improvements in classification effectiveness. In our work, we also introduce two new Arabic text categorization datasets, where the first is composed of social media posts from a popular Arabic news channel that cover Twitter, Facebook, and YouTube, and the second is composed of tweets from popular Arabic accounts. The posts in the former are nearly exclusively authored in modern standard Arabic (MSA), while the tweets in the latter contain both MSA and dialectal Arabic.",
+    "Added By": "Zaid Alyafeai"
+}

@@ -1,18 +1,21 @@
 {
     "Name": "Open-R1-Mulitlingual-SFT",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/amphora/Open-R1-Mulitlingual-SFT",
     "Link": "https://huggingface.co/datasets/amphora/Open-R1-Mulitlingual-SFT",
     "License": "MIT License",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "Open-R1-Mulitlingual-SFT is a curated dataset designed for multilingual supervised fine-tuning. The source data comprises multiple datasets containing original prompts and responses, which were subsequently translated into 14 languages using GPT-4o.",
     "Volume": 8960.0,
@@ -28,19 +31,20 @@
         "Bespoke-Stratos-17k"
     ],
     "Paper Title": "Linguistic Generalizability of Test-Time Scaling in Mathematical Reasoning",
-    "Paper Link": "https://arxiv.org/pdf/2502.17407",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.acl-long.699",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
         "Guijin Son",
         "Jiwoo Hong",

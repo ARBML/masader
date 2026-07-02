@@ -1,20 +1,23 @@
 {
     "Name": "ALHD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://doi.org/10.5281/zenodo.17249602",
     "License": "CC BY-NC 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "public datasets",
-        "LLM"
+        "LLM",
+        "web crawls"
+    ],
+    "Domain": [
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "LLM generated"
+    "Annotation Style": [
+        "LLM annotation"
     ],
     "Description": "A large-scale Arabic dataset for detecting human vs LLM-generated texts, with 405k samples across 3 genres (news, social media, reviews) and MSA + multiple dialects.",
     "Volume": 405456.0,
@@ -38,12 +41,13 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "AI-generated text detection"
     ],
     "Venue Title": "Information Sciences",
-    "Venue Type": "preprint",
+    "Venue Type": "journal",
     "Venue Name": "Information Sciences",
     "Authors": [
         "Ali Khairallah",

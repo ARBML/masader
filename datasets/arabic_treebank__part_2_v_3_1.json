@@ -1,18 +1,22 @@
 {
     "Name": "Arabic Treebank: Part 2 v 3.1",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2011T09",
     "License": "LDC User Agreement",
     "Year": 2011,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles",
+        "treebanks"
+    ],
     "Domain": [
-        "news articles"
+        "news"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "ATB2 v 3.1 contains a total of 144,199 source tokens before clitics are split, and 169,319 tree tokens after clitics are separated for the treebank annotation. Source texts were selected from Ummah Press news archives covering the period from July 2001 through September 2002.",
     "Volume": 501.0,
@@ -29,14 +33,24 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "4,500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "information retrieval"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Mohamed Maamouri",
+        "Ann Bies",
+        "Seth Kulick",
+        "Fatma Gaddeche",
+        "Wigdan Mekki",
+        "Sondos Krouna",
+        "Basma Bouziri",
+        "Wajdi Zaghouani"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -1,19 +1,22 @@
 {
     "Name": "AraMix",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/AdaMLLab/AraMix",
     "Link": "https://huggingface.co/datasets/AdaMLLab/AraMix",
     "License": "custom",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "web pages",
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "a deduplicated Arabic pretraining corpus",
     "Volume": 178000000000.0,
@@ -38,7 +41,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

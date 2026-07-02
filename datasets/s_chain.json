@@ -1,20 +1,23 @@
 {
     "Name": "S-Chain",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/leduckhai/S-Chain",
     "Link": "https://huggingface.co/datasets/leduckhai/S-Chain",
     "License": "Apache-2.0",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "health"
+    ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
-    "Description": "Expert-annotated medical images with structured visual chain-of-thought for Alzheimer\u2019s MRI analysis across 16 languages.",
+    "Description": "Expert-annotated medical images with structured visual chain-of-thought for Alzheimer’s MRI analysis across 16 languages.",
     "Volume": 12300.0,
     "Unit": "images",
     "Ethical Risks": "Low",
@@ -22,7 +25,7 @@
         "University of Toronto"
     ],
     "Derived From": [
-        "OASIS Cross-Sectional Alzheimer\u2019s Disease Dataset"
+        "OASIS Cross-Sectional Alzheimer’s Disease Dataset"
     ],
     "Paper Title": "S-Chain: Structured Visual Chain-of-Thought for Medicine",
     "Paper Link": "https://arxiv.org/pdf/2510.22728",
@@ -31,7 +34,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],

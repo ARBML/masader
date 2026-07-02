@@ -1,18 +1,23 @@
 {
     "Name": "News Commentary",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/Helsinki-NLP/news_commentary",
-    "Link": "https://opus.nlpl.eu/News-Commentary.php",
+    "Link": "https://opus.nlpl.eu/News-Commentary/corpus/version/News-Commentary",
     "License": "unknown",
     "Year": 2012,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "news articles",
+        "commentary"
+    ],
     "Domain": [
-        "news articles"
+        "news",
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "inherited annotation"
     ],
     "Description": "A parallel corpus of News Commentaries provided by WMT for training SMT",
     "Volume": 200000.0,
@@ -31,19 +36,19 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "Language Resources and Evaluation Conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Jorg Tiedemann"
     ],
     "Affiliations": [
-        "Department of Linguistics and Philology Uppsala University",
-        "Uppsala/Sweden"
+        "Uppsala University"
     ],
     "Abstract": "This paper presents the current status of OPUS, a growing language resource of parallel corpora and related tools. The focus in OPUS\nis to provide freely available data sets in various formats together with basic annotation to be useful for applications in computational\nlinguistics, translation studies and cross-linguistic corpus studies. In this paper, we report about new data sets and their features,\nadditional annotation tools and models provided from the website and essential interfaces and on-line services included in the project.",
     "Added By": "Zaid Alyafeai"

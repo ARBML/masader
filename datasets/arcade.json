@@ -1,118 +1,118 @@
 {
     "Name": "ARCADE",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "Algeria",
-            "Volume": 866.0,
-            "Unit": "sentences",
+            "Volume": 7.2,
+            "Unit": "hours",
             "Dialect": "Algeria"
         },
         {
             "Name": "Bahrain",
-            "Volume": 447.0,
-            "Unit": "sentences",
+            "Volume": 3.7,
+            "Unit": "hours",
             "Dialect": "Bahrain"
         },
         {
             "Name": "Qatar",
-            "Volume": 341.0,
-            "Unit": "sentences",
+            "Volume": 2.8,
+            "Unit": "hours",
             "Dialect": "Qatar"
         },
         {
             "Name": "Egypt",
-            "Volume": 247.0,
-            "Unit": "sentences",
+            "Volume": 2.1,
+            "Unit": "hours",
             "Dialect": "Egypt"
         },
         {
             "Name": "Sudan",
-            "Volume": 244.0,
-            "Unit": "sentences",
+            "Volume": 3.5,
+            "Unit": "hours",
             "Dialect": "Sudan"
         },
         {
             "Name": "KSA",
-            "Volume": 211.0,
-            "Unit": "sentences",
+            "Volume": 1.8,
+            "Unit": "hours",
             "Dialect": "Saudi Arabia"
         },
         {
             "Name": "UAE",
-            "Volume": 182.0,
-            "Unit": "sentences",
+            "Volume": 1.5,
+            "Unit": "hours",
             "Dialect": "United Arab Emirates"
         },
         {
             "Name": "Palestine",
-            "Volume": 165.0,
-            "Unit": "sentences",
+            "Volume": 1.4,
+            "Unit": "hours",
             "Dialect": "Palestine"
         },
         {
             "Name": "Morocco",
-            "Volume": 162.0,
-            "Unit": "sentences",
+            "Volume": 1.4,
+            "Unit": "hours",
             "Dialect": "Morocco"
         },
         {
             "Name": "Yemen",
-            "Volume": 136.0,
-            "Unit": "sentences",
+            "Volume": 1.2,
+            "Unit": "hours",
             "Dialect": "Yemen"
         },
         {
             "Name": "Iraq",
-            "Volume": 129.0,
-            "Unit": "sentences",
+            "Volume": 1.1,
+            "Unit": "hours",
             "Dialect": "Iraq"
         },
         {
             "Name": "Syria",
-            "Volume": 110.0,
-            "Unit": "sentences",
+            "Volume": 0.9,
+            "Unit": "hours",
             "Dialect": "Syria"
         },
         {
             "Name": "Libya",
-            "Volume": 82.0,
-            "Unit": "sentences",
+            "Volume": 0.7,
+            "Unit": "hours",
             "Dialect": "Libya"
         },
         {
             "Name": "Somalia",
-            "Volume": 63.0,
-            "Unit": "sentences",
+            "Volume": 0.525,
+            "Unit": "hours",
             "Dialect": "Somalia"
         },
         {
             "Name": "Kuwait",
-            "Volume": 63.0,
-            "Unit": "sentences",
+            "Volume": 0.525,
+            "Unit": "hours",
             "Dialect": "Kuwait"
         },
         {
             "Name": "Jordan",
-            "Volume": 62.0,
-            "Unit": "sentences",
+            "Volume": 0.517,
+            "Unit": "hours",
             "Dialect": "Jordan"
         },
         {
             "Name": "Lebanon",
-            "Volume": 43.0,
-            "Unit": "sentences",
+            "Volume": 0.483,
+            "Unit": "hours",
             "Dialect": "Lebanon"
         },
         {
             "Name": "Oman",
-            "Volume": 29.0,
-            "Unit": "sentences",
+            "Volume": 0.242,
+            "Unit": "hours",
             "Dialect": "Oman"
         },
         {
             "Name": "Tunisia",
-            "Volume": 20.0,
-            "Unit": "sentences",
+            "Volume": 0.167,
+            "Unit": "hours",
             "Dialect": "Tunisia"
         }
     ],
@@ -122,16 +122,18 @@
     "Year": 2025,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "TV channels"
+    ],
     "Domain": [
-        "TV Channels"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "crawling",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "First Arabic speech dataset with city-level dialect granularity from radio streams.",
-    "Volume": 31.6,
+    "Volume": 31.7,
     "Unit": "hours",
     "Ethical Risks": "Low",
     "Provider": [
@@ -145,7 +147,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification",
         "emotion classification"
@@ -171,9 +174,9 @@
         "Wadii Boulila"
     ],
     "Affiliations": [
-        "Tuwaiq Academy, Riyadh, Saudi Arabia",
-        "Robotics and Internet-of-Things Laboratory, Prince Sultan University, Riyadh, Saudi Arabia",
-        "Higher School of Communication of Tunis, Ariana, Tunisia"
+        "Tuwaiq Academy",
+        "Prince Sultan University",
+        "Higher School of Communication of Tunis"
     ],
     "Abstract": "The Arabic language is characterized by a rich tapestry of regional dialects that differ substantially in phonetics and lexicon, reflecting the geographic and cultural diversity of its speakers. Despite the availability of many multi-dialect datasets, mapping speech to fine-grained dialect sources, such as cities, remains underexplored. We present ARCADE (Arabic Radio Corpus for Audio Dialect Evaluation), the first Arabic speech dataset designed explicitly with city-level dialect granularity. The corpus comprises Arabic radio speech collected from streaming services across the Arab world. Our data pipeline captures 30-second segments from verified radio streams, encompassing both Modern Standard Arabic (MSA) and diverse dialectal speech. To ensure reliability, each clip was annotated by one to three native Arabic reviewers who assigned rich metadata, including emotion, speech type, dialect category, and a validity flag for dialect identification tasks. The resulting corpus comprises 6,907 annotations and 3,790 unique audio segments spanning 58 cities across 19 countries. These fine-grained annotations enable robust multi-task learning, serving as a benchmark for city-level dialect tagging. We detail the data collection methodology, assess audio quality, and provide a comprehensive analysis of label distributions.",
     "Added By": "Zaid Alyafeai"

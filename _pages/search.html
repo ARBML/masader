@@ -2,7 +2,9 @@
 permalink: /search
 layout: default
 foot_scripts:
+- https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js
 - https://pagination.js.org/dist/2.1.5/pagination.min.js
+- /assets/js/utils/fuzzySearch.js
 - /assets/js/search.js
 ---
 
@@ -143,7 +145,7 @@ foot_scripts:
       <section class="col-span-7 flex flex-col gap-3">
         <label class="px-3 border-2 border-black/25 bg-black/[.02] rounded-md flex items-center">
           <input class="focus:outline-none w-full py-2 bg-transparent" type="text" name="name"
-            placeholder="Search through datasets" />
+            placeholder="Search datasets (fuzzy matching)" />
           <i class="fa-solid fa-magnifying-glass text-black/25"></i>
         </label>
         <div class="flex items-center gap-3">

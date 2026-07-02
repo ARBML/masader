@@ -1,17 +1,20 @@
 {
     "Name": "Arabizi-Morocco",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/nilechat-arabizi-mor",
     "Link": "https://huggingface.co/datasets/UBC-NLP/nilechat-arabizi-mor",
     "License": "CC BY-NC 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Morocco",
-    "Domain": [
+    "Source": [
         "public datasets"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "Arabizi-Morocco is a substantial dataset specifically developed to foster the creation and improvement of language models for the Moroccan Arabic dialect (Darija). This resource consists of a converted Moroccan Arabic dialect in Arabic script to Arabizi from a sample taken from both https://huggingface.co/datasets/UBC-NLP/fineweb-edu-Morocco and https://huggingface.co/datasets/UBC-NLP/LHV-Morocco.",
@@ -32,7 +35,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling"
     ],

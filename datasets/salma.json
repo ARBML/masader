@@ -1,18 +1,22 @@
 {
     "Name": "SALMA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://sina.birzeit.edu/salma/",
     "License": "unknown",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "web pages",
+        "public datasets"
+    ],
     "Domain": [
-        "web pages"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "SALMA corpus is part of the Wojood corpus (Jarrar et al., 2022), and was collected from 33 online media sources written in Modern Standard Arabic (MSA) and covering general topics.",
     "Volume": 34000.0,
@@ -32,7 +36,8 @@
     "Host": "other",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "word sense disambiguation"
     ],

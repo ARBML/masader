@@ -1,18 +1,21 @@
 {
     "Name": "TDT5 Topics and Annotations",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2006T19",
     "License": "LDC User Agreement",
     "Year": 2006,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "A total of 250 topics, numbered 55001 - 55250, were annotated by LDC using a search guided annotation technique. Details of the annotation process are described in the annotation task definition.",
     "Volume": 104.0,
@@ -29,15 +32,13 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "500.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "information retrieval",
-        "language modeling",
-        "machine translation",
         "topic classification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

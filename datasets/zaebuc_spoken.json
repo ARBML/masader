@@ -1,0 +1,64 @@
+{
+    "Name": "ZAEBUC-Spoken",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "http://www.zaebuc.org",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "audio",
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "ZAEBUC Spoken Corpus is a multilingual, multidialectal Arabic-English speech corpus.",
+    "Volume": 12.0,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "CAMeL Lab"
+    ],
+    "Derived From": [
+        "ZAEBUC"
+    ],
+    "Paper Title": "ZAEBUC-Spoken: A Multilingual Multidialectal Arabic-English Speech Corpus",
+    "Paper Link": "https://arxiv.org/pdf/2403.18182v1.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": true,
+    "Host": "CAMeL Resources",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "speech recognition",
+        "morphological analysis",
+        "dialect identification",
+        "part of speech tagging"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": [
+        "Injy Hamed",
+        "Fadhl Eryani",
+        "David Palfreyman",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi",
+        "University of Stuttgart",
+        "University of Tübingen",
+        "United Arab Emirates University",
+        "Zayed University"
+    ],
+    "Abstract": "We present ZAEBUC-Spoken, a multilingual multidialectal Arabic-English speech corpus. The corpus comprises twelve hours of Zoom meetings involving multiple speakers role-playing a work situation where Students brainstorm ideas for a certain topic and then discuss it with an Interlocutor. The meetings cover different topics and are divided into phases with different language setups. The corpus presents a challenging set for automatic speech recognition (ASR), including two languages (Arabic and English) with Arabic spoken in multiple variants (Modern Standard Arabic, Gulf Arabic, and Egyptian Arabic) and English used with various accents. Adding to the complexity of the corpus, there is also code-switching between these languages and dialects. As part of our work, we take inspiration from established sets of transcription guidelines to present a set of guidelines handling issues of conversational speech, code-switching and orthography of both languages. We further enrich the corpus with two layers of annotations; (1) dialectness level annotation for the portion of the corpus where mixing occurs between different variants of Arabic, and (2) automatic morphological annotations, including tokenization, lemmatization, and part-of-speech tagging.",
+    "Added By": "Zaid Alyafeai"
+}

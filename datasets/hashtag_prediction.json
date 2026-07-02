@@ -1,19 +1,21 @@
 {
     "Name": "Hashtag Prediction",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Twitter/HashtagPrediction",
     "Link": "https://github.com/xinyangz/TwHIN-BERT",
     "License": "CC BY 4.0",
     "Year": 2023,
     "Language": "multilingual",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The hashtag prediction dataset is a multilingual classification dataset. Separate datasets are given for different languages",
     "Volume": 60176.0,
@@ -30,9 +32,10 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": true,
     "Tasks": [
-        "other"
+        "hashtag prediction"
     ],
     "Venue Title": "arXiv",
     "Venue Type": "preprint",

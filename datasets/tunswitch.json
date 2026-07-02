@@ -1,19 +1,24 @@
 {
     "Name": "TunSwitch CS",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/tunis-ai/TunSwitch",
     "Link": "https://zenodo.org/record/8370566",
     "License": "CC BY 4.0",
     "Year": 2023,
     "Language": "ar",
     "Dialect": "Tunisia",
+    "Source": [
+        "public datasets",
+        "manual construction"
+    ],
     "Domain": [
-        "social media",
-        "public datasets"
+        "general",
+        "culture",
+        "society"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "A corpus of Tunisian Arabic speech with code-switching, including spontaneous and read speech from radio shows and podcasts.",
     "Volume": 8.55,
@@ -26,19 +31,20 @@
         "Tunisiya"
     ],
     "Paper Title": "Leveraging Data Collection and Unsupervised Learning for Code-Switched Tunisian Arabic Automatic Speech Recognition",
-    "Paper Link": "https://arxiv.org/pdf/2309.11327",
+    "Paper Link": "https://doi.org/10.1109/ICASSP48485.2024.10445734",
     "Script": "Arab-Latin",
     "Tokenized": false,
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ICASSP",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Acoustics, Speech and Signal Processing",
     "Authors": [
         "Ahmed Amine Ben Abdallah",
         "Ata Kabboudi",
@@ -49,7 +55,7 @@
         "Tunis Business School",
         "University of Michigan-Dearborn",
         "Abshore",
-        "LTCI, T\u00e9l\u00e9com Paris, Institut Polytechnique de Paris"
+        "Institut Polytechnique de Paris"
     ],
     "Abstract": "Crafting an effective Automatic Speech Recognition (ASR) solution for dialects demands innovative approaches that not only address the data scarcity issue but also navigate the intricacies of linguistic diversity. In this paper, we address the aforementioned ASR challenge, focusing on the Tunisian dialect. First, textual and audio data is collected and in some cases annotated. Second, we explore self-supervision, semi-supervision and few-shot code-switching approaches to push the state-of-the-art on different Tunisian test sets; covering different acoustic, linguistic and prosodic conditions. Finally, and given the absence of conventional spelling, we produce a human evaluation of our transcripts to avoid the noise coming from spelling inadequacies in our testing references. Our models, allowing to transcribe audio samples in a linguistic mix involving Tunisian Arabic, English and French, and all the data used during training and testing are released for public use and further improvements.\n",
     "Added By": "Zaid Alyafeai"

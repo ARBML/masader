@@ -1,17 +1,20 @@
 {
     "Name": "xquad_r",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/xquad_r",
     "Link": "https://github.com/google-research-datasets/lareqa",
     "License": "CC BY 4.0",
     "Year": 2020,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "wikipedia"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "machine annotation"
     ],
     "Description": "XQuAD-R is a retrieval version of the XQuAD dataset (a cross-lingual extractive QA dataset). Like XQuAD, XQUAD-R is an 11-way parallel dataset, where each question appears in 11 different languages and has 11 parallel correct answers across the languages",
@@ -25,20 +28,21 @@
         "XQuAD dataset"
     ],
     "Paper Title": "LAReQA: Language-agnostic answer retrieval from a multilingual pool",
-    "Paper Link": "https://arxiv.org/pdf/2004.05484.pdf",
+    "Paper Link": "https://doi.org/10.18653/v1/2020.emnlp-main.477",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "information retrieval",
         "question answering"
     ],
-    "Venue Title": "arxiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Uma Roy",
         "Noah Constant",
@@ -50,6 +54,6 @@
     "Affiliations": [
         "Google Research"
     ],
-    "Abstract": "We present LAReQA, a challenging new benchmark for language-agnostic answer retrieval from a multilingual candidate pool. Unlike previous cross-lingual tasks, LAReQA tests for \u201cstrong\u201d cross-lingual alignment, requiring semantically related cross-language pairs to be closer in representation space than unrelated same-language pairs. Building on multilingual BERT (mBERT), we study different strategies for achieving strong alignment. We find that augmenting training data via machine translation is effective, and improves significantly over using mBERT out-of-the-box. Interestingly, the embedding baseline that performs the best on LAReQA falls short of competing baselines on zero-shot variants of our task that only target \u201cweak\u201d alignment. This finding underscores our claim that language agnostic retrieval is a substantively new kind of cross-lingual evaluation.",
+    "Abstract": "We present LAReQA, a challenging new benchmark for language-agnostic answer retrieval from a multilingual candidate pool. Unlike previous cross-lingual tasks, LAReQA tests for “strong” cross-lingual alignment, requiring semantically related cross-language pairs to be closer in representation space than unrelated same-language pairs. Building on multilingual BERT (mBERT), we study different strategies for achieving strong alignment. We find that augmenting training data via machine translation is effective, and improves significantly over using mBERT out-of-the-box. Interestingly, the embedding baseline that performs the best on LAReQA falls short of competing baselines on zero-shot variants of our task that only target “weak” alignment. This finding underscores our claim that language agnostic retrieval is a substantively new kind of cross-lingual evaluation.",
     "Added By": "Wafaa Mohammed"
 }

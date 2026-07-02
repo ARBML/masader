@@ -1,12 +1,6 @@
 {
     "Name": "PADIC",
-    "Subsets": [
-        {
-            "Name": "ALG",
-            "Dialect": "Algeria",
-            "Volume": 6400.0,
-            "Unit": "sentences"
-        },
+    "Dialect Subsets": [
         {
             "Name": "ANB",
             "Dialect": "Algeria",
@@ -44,21 +38,28 @@
     "Year": 2015,
     "Language": "ar",
     "Dialect": "mixed",
+    "Source": [
+        "manual construction",
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a Parallel Arabic DIalect Corpus we built from scratch,",
-    "Volume": 32000.0,
+    "Volume": 6400.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],
-    "Derived From": [],
+    "Derived From": [
+        "ANB corpus",
+        "ALG corpus"
+    ],
     "Paper Title": "Machine Translation Experiments on PADIC:\r\nA Parallel Arabic DIalect Corpus",
     "Paper Link": "https://aclanthology.org/Y15-1004.pdf",
     "Script": "Arab-Latin",
@@ -66,7 +67,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
@@ -75,17 +77,18 @@
     "Venue Name": "Pacific Asia Conference on Language, Information and Computation",
     "Authors": [
         "Karima Meftouh",
-        "S. Harrat",
-        "S. Jamoussi",
+        "Salima Harrat",
+        "Salma Jamoussi",
         "Mourad Abbas",
-        "Kamel Sma\u00efli"
+        "Kamel Smaili"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Badji Mokhtar University, Annaba",
+        "Ecole Supérieure d’Informatique (ESI)",
+        "ENSB",
+        "MIRACL",
+        "CRSTDLA",
+        "LORIA"
     ],
     "Abstract": "We present in this paper PADIC, a Parallel Arabic DIalect Corpus we built from scratch, then we conducted experiments on crossdialect Arabic machine translation. PADIC is composed of dialects from both the Maghreb and the Middle-East. Each dialect has been aligned with Modern Standard Arabic (MSA). Three dialects from Maghreb are concerned by this study: two from Algeria, one from Tunisia, and two dialects from the MiddleEast (Syria and Palestine). PADIC has been built from scratch because the lack of dialect resources. In fact, Arabic dialects in Arab world in general are used in daily life conversations but they are not written. At the best of our knowledge, PADIC, up to now, is the largest corpus in the community working on dialects and especially those concerning Maghreb. PADIC is composed of 6400 sentences for each of the 5 concerned dialects and MSA. We conducted cross-lingual machine translation experiments between all the language pairs. For translating to MSA we interpolated the corresponding Language Model (LM) with a large Arabic corpus based LM. We also studied the impact of language model smoothing techniques on the results of machine translation because this corpus, even it is the largest one, it still very small in comparison to those used for translation of natural languages.",
     "Added By": ""

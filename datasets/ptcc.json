@@ -1,18 +1,22 @@
 {
     "Name": "PTCC",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/AMR-KELEG/PTCC",
     "Link": "https://hf.co/datasets/AMR-KELEG/PTCC",
     "License": "MIT License",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Tunisia",
+    "Source": [
+        "web pages"
+    ],
     "Domain": [
-        "other"
+        "law",
+        "politics"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "a corpus of 149 articles extracted from the 2014 Tunisian Consititution written in Modern Standard Arabic and Tunisian Arabic.",
     "Volume": 149.0,
@@ -27,14 +31,15 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation",
         "language modeling",
         "dialect identification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
         "Amr Keleg"

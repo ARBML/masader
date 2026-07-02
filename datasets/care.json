@@ -1,17 +1,22 @@
 {
     "Name": "CARE",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/geyang627/CARE",
     "Link": "https://github.com/Guochry/CARE",
     "License": "MIT License",
     "Year": 2025,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "culture",
+        "society",
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "A multilingual human preference dataset featuring 3,490 culture-specific QA pairs (31.7k rated responses) in Arabic, Chinese, and Japanese, curated via native annotators to enhance cultural awareness in language models.",
@@ -23,20 +28,21 @@
     ],
     "Derived From": [],
     "Paper Title": "CARE: Multilingual Human Preference Learning for Cultural Awareness",
-    "Paper Link": "https://arxiv.org/pdf/2504.05154",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.emnlp-main.1669",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "instruction tuning",
         "preference optimization"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Geyang Guo",
         "Tarek Naous",

@@ -1,6 +1,6 @@
 {
     "Name": "ArPod",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "KSA",
             "Dialect": "Saudi Arabia",
@@ -44,12 +44,15 @@
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "web pages"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "The corpus has a duration of 8.1 hours sampled at 16 kHz and coded on 16 bits. The considered languages are: MSA, English; whereas the dialects are: Syrian, Saudi Arabic, Egyptian, and Lebanese. 70% of this dataset had been used for training, and the remaining for the test phase.",
     "Volume": 7.82,
@@ -64,7 +67,8 @@
     "Host": "kaggle",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],
@@ -78,7 +82,7 @@
     ],
     "Affiliations": [
         "USTHB University",
-        "Algeria; CRSTDLA;CRSTDLA"
+        "CRSTDLA"
     ],
     "Abstract": "In this paper, we present ArPod, a new Arabic speech\ncorpus made of Arabic audio podcasts. We built this\ndataset, mainly for both speech-based multi-lingual and\nmulti-dialectal identification tasks. It includes two languages: Modern Standard Arabic (MSA) and English,\nand four Arabic dialects: Saudi, Egyptian, Lebanese\nand Syrian. A set of supervised classifiers have been\nused: Support Vector Machines (SVM), Multi Layer\nPerceptron (MLP), K-Nearest Neighbors (KNN), Extratrees and Convolutional Neural Networks (CNN),\nusing acoustic and spectral features. For both tasks,\nSVM yielded encouraging results and outperformed the\nother classifiers. Language Identification, Dialect\nIdentification, CNN, Acoustic features, spectral features, SVM, Arabic Podcast",
     "Added By": "Zaid Alyafeai"

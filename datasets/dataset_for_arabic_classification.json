@@ -1,18 +1,25 @@
 {
     "Name": "DataSet for Arabic Classification",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/DataSet_Arabic_Classification",
     "Link": "https://data.mendeley.com/datasets/v524p5dhpj/2",
     "License": "CC BY 4.0",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "sports",
+        "politics",
+        "culture",
+        "economics",
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "metadata-derived"
     ],
     "Description": "DataSet for Arabic text classification. The dataset, as mentioned by the author's description has been collected semi-automatically.",
     "Volume": 111700.0,
@@ -30,12 +37,13 @@
     "Host": "Mendeley Data",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "topic classification"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [
         "mohamed BINIZ"

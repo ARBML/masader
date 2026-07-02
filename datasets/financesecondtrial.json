@@ -1,20 +1,23 @@
 {
     "Name": "financesecondtrial",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/omar-emad/financesecondtrial",
     "Link": "https://huggingface.co/datasets/omar-emad/financesecondtrial",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "LLM"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "LLM generated"
+    "Domain": [
+        "finance"
     ],
-    "Description": "A synthetic dataset created using Llama 3",
+    "Form": "text",
+    "Annotation Style": [
+        "LLM annotation"
+    ],
+    "Description": "A synthetic dataset created using Llama 3 for finance",
     "Volume": 30.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
@@ -27,7 +30,8 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],

@@ -1,0 +1,70 @@
+{
+    "Name": "SAHM",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/SahmBenchmark",
+    "Link": "https://github.com/mbzuai-nlp/SAHM",
+    "License": "CC BY-NC 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "books"
+    ],
+    "Domain": [
+        "finance"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
+    ],
+    "Description": "SAHM, a comprehensive benchmark for evaluating Arabic financial reasoning across di- verse, real-world tasks spanning Islamic finance, accounting, and market analysis",
+    "Volume": 14380.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "MBZUAI"
+    ],
+    "Derived From": [],
+    "Paper Title": "SAHM: A Benchmark for Arabic Financial and Shari’ah-Compliant Reasoning",
+    "Paper Link": "https://arxiv.org/pdf/2604.19098v2.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "question answering",
+        "multiple choice question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Rania Elbadry",
+        "Sarfraz Ahmad",
+        "Ahmed Heakl",
+        "Dani Bouch",
+        "Momina Ahsan",
+        "Muhra AlMahri",
+        "Marwa Elsaid Khalil",
+        "Yuxia Wang",
+        "Salem Lahlou",
+        "Sophia Ananiadou",
+        "Veselin Stoyanov",
+        "Jimin Huang",
+        "Xueqing Peng",
+        "Preslav Nakov",
+        "Zhuohan Xie"
+    ],
+    "Affiliations": [
+        "MBZUAI",
+        "INSAIT",
+        "The University of Manchester",
+        "The FinAI"
+    ],
+    "Abstract": "Arabic benchmarks remain limited in scope: ArBanking77 (Jarrar et al., 2023) addresses only English financial NLP has advanced rapidly through benchmarks targeting earnings analysis, market sentiment, tabular reasoning, and financial question answering, yet Arabic financial NLP remains virtually nonexistent, despite 422 million speakers, $4.9 trillion in Gulf sovereign wealth, and a $4–5 trillion Islamic finance industry requiring specialized Shari’ah compliance over instruments like sukuk, murabaha, and takaful. We introduce SAHM, the first Arabic financial benchmark spanning seven tasks: AAOIFI standards QA, fatwa-based QA/MCQ, accounting and business exams, financial sentiment analysis, extractive summarization, and event-cause reasoning, comprising 14,380 expert-verified instances from authentic regulatory, juristic, and corporate sources. Evaluating 20 LLMs, we find Arabic fluency does not imply financial reasoning: models achieving 91% on recognition tasks drop sharply on generation, and event-cause reasoning exposes the widest performance gap (1.89–9.84/10). We release the benchmark and dataset to support trustworthy Arabic financial assistants.",
+    "Added By": "Zaid Alyafeai"
+}

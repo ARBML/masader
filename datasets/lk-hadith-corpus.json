@@ -1,18 +1,24 @@
 {
     "Name": "LK-Hadith-Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/LK_Hadith",
     "Link": "https://github.com/ShathaTm/LK-Hadith-Corpus",
     "License": "unknown",
     "Year": 2019,
     "Language": "multilingual",
     "Dialect": "Classical Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "religion",
+        "culture",
+        "law",
+        "education"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "a bilingual parallel corpus of Islamic Hadith",
     "Volume": 39038.0,
@@ -22,22 +28,29 @@
         "King Saud University"
     ],
     "Derived From": [],
-    "Paper Title": "The Arabic\u2013English Parallel Corpus of Authentic Hadith",
+    "Paper Title": "The Arabic–English Parallel Corpus of Authentic Hadith",
     "Paper Link": "https://www.researchgate.net/publication/341359917_The_Arabic-English_Parallel_Corpus_of_Authentic_Hadith",
     "Script": "Arab-Latin",
     "Tokenized": true,
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "machine translation"
     ],
     "Venue Title": "IJASAT",
     "Venue Type": "journal",
     "Venue Name": "International Journal on Islamic Applications in Computer Science And Technologies",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Shatha Altammami",
+        "Eric Atwell",
+        "Mohammad Ammar Alsalka"
+    ],
+    "Affiliations": [
+        "Unversity of Leeds"
+    ],
     "Abstract": "We present a bilingual parallel corpus of Islamic Hadith, which is the set of narratives reporting different aspects of the prophet Muhammad's life.  The  Hadith collection  is  extracted  from  the  six  canonical Hadith books which possess unique linguistic features and patterns that are automatically extracted and annotated  using  a  domain-specific  tool  for  Hadith segmentation.  In  this  article,  we  present  the methodology of creating the corpus of 39,038 annotated Hadiths which will be freely available for the research community.",
     "Added By": "Mustafa Ghaleb"
 }

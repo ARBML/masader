@@ -1,0 +1,203 @@
+{
+    "Name": "Alexandria",
+    "Dialect Subsets": [
+        {
+            "Name": "PSE",
+            "Volume": 5391.0,
+            "Unit": "documents",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "LBN",
+            "Volume": 3655.0,
+            "Unit": "documents",
+            "Dialect": "Lebanon"
+        },
+        {
+            "Name": "SAU",
+            "Volume": 3413.0,
+            "Unit": "documents",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "OMN",
+            "Volume": 2834.0,
+            "Unit": "documents",
+            "Dialect": "Oman"
+        },
+        {
+            "Name": "SYR",
+            "Volume": 2569.0,
+            "Unit": "documents",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "MRT",
+            "Volume": 2457.0,
+            "Unit": "documents",
+            "Dialect": "Mauritania"
+        },
+        {
+            "Name": "JOR",
+            "Volume": 2429.0,
+            "Unit": "documents",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "YEM",
+            "Volume": 1704.0,
+            "Unit": "documents",
+            "Dialect": "Yemen"
+        },
+        {
+            "Name": "EGY",
+            "Volume": 1700.0,
+            "Unit": "documents",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "MAR",
+            "Volume": 1522.0,
+            "Unit": "documents",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "TUN",
+            "Volume": 1422.0,
+            "Unit": "documents",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "LBY",
+            "Volume": 374.0,
+            "Unit": "documents",
+            "Dialect": "Libya"
+        },
+        {
+            "Name": "SDN",
+            "Volume": 345.0,
+            "Unit": "documents",
+            "Dialect": "Sudan"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/UBC-NLP/alexandria",
+    "Link": "https://github.com/UBC-NLP/Alexandria",
+    "License": "CC BY-NC-ND 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
+    ],
+    "Description": "A multi-domain dialectal Arabic machine translation dataset covering 13 countries and 11 domains.",
+    "Volume": 29815.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "UBC-NLP"
+    ],
+    "Derived From": [],
+    "Paper Title": "Alexandria: A Multi-Domain Dialectal Arabic Machine Translation Dataset for Culturally Inclusive and Linguistically Diverse LLMs",
+    "Paper Link": "https://arxiv.org/pdf/2601.13099v2.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "instruction tuning"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Abdellah ElMekki",
+        "Samar M. Magdy",
+        "Houdaifa Atou",
+        "Ruwa AbuHweidi",
+        "Baraah Qawasmeh",
+        "Omer Nacar",
+        "Thikra Al-hibiri",
+        "Razan Saadie",
+        "Hamzah Alsayadi",
+        "Nadia Ghezaiel Hammouda",
+        "Alshama Alkhazimi",
+        "Aya Hamod",
+        "Al-Yas Al-Ghafri",
+        "Wesam El-Sayed",
+        "Asila Alsharji",
+        "Mohamad Ballout",
+        "Anas Belfathi",
+        "Karim Ghaddar",
+        "Serry Sibaee",
+        "Alaa Aoun",
+        "Areej Asiri",
+        "Lina Abureesh",
+        "Ahlam Bashiti",
+        "Majdal Yousef",
+        "Abdulaziz Hafiz",
+        "Yehdih Mohamed",
+        "Emira Hamedtou",
+        "Brakehe Brahim",
+        "Rahaf Alhamouri",
+        "Youssef Nafea",
+        "Aya ElAatar",
+        "Walid Al-Dhabyani",
+        "Emhemed Hamed",
+        "Sara Shatnawi",
+        "Fakhraddin Alwajih",
+        "Khalid Elkhidir",
+        "Ashwag Alasmari",
+        "Abdurrahman Gerrio",
+        "Omar Alshahri",
+        "Abdel Rahim A. Elmadany",
+        "Ismail Berrada",
+        "Amir Azad Adli Alkathiri",
+        "Fadi A. Zaraket",
+        "Mustafa Jarrar",
+        "Yahya Mohamed ElHadj",
+        "Hassan Alhuzali",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "The University of British Columbia",
+        "Mohammed VI Polytechnic University",
+        "Birzeit University",
+        "Western Michigan University",
+        "Tuwaiq Academy",
+        "King Khalid University",
+        "American University of Beirut",
+        "Ibb University",
+        "University of Hail",
+        "University of Technology and Applied Sciences",
+        "Arab Open University",
+        "Minia University",
+        "Nantes University",
+        "Prince Sultan University",
+        "Umm Al-Qura University",
+        "University of Nouakchott",
+        "Fatabyyano",
+        "Independent Researcher",
+        "Hadhramout University",
+        "Cairo University",
+        "Misurata University",
+        "Al-Balqa Applied University",
+        "University of Khartoum",
+        "Sultan Qaboos Higher Centre for Culture and Science",
+        "Arab Center for Research and Policy Studies",
+        "Hamad Bin Khalifa University",
+        "Institut Supérieur du Numérique"
+    ],
+    "Abstract": "Arabic is a highly diglossic language where most daily communication occurs in regional dialects rather than Modern Standard Arabic (MSA). Despite this, machine translation (MT) systems often generalize poorly to dialectal input, limiting their utility for millions of speakers. We introduce Alexandria, a large-scale, community-driven, human-translated dataset designed to bridge this gap. Alexandria covers 13 Arab countries and 11 high-impact domains, including health, education, and agriculture. Unlike previous resources, Alexandria provides unprecedented granularity by associating contributions with city-of-origin metadata, capturing authentic local varieties beyond coarse regional labels. The dataset consists of parallel English-Dialectal Arabic multi-turn conversational scenarios annotated with speaker-addressee gender configurations, enabling the study of gender-conditioned variation in dialectal use. Comprising 107K total turns, Alexandria serves as both a training resource and as a rigorous benchmark for evaluating MT and Large Language Models (LLMs). Our automatic and human evaluation benchmarks the current capabilities of Arabic-aware LLMs in translating across diverse Arabic dialects and sub-dialects while exposing significant persistent challenges. The Alexandria dataset, the creation prompts, the translation and revision guidelines, and the evaluation code are publicly available in the following repository: https://github.com/UBC-NLP/Alexandria.",
+    "Added By": "Zaid Alyafeai"
+}

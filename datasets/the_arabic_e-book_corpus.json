@@ -1,18 +1,22 @@
 {
     "Name": "The Arabic E-Book Corpus",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/arabic_ebook_corpus",
     "Link": "https://snd.se/en/catalogue/dataset/preview/eed46fe0-dfeb-442b-8a71-74d952e006c2/1#",
     "License": "CC BY 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books"
     ],
+    "Domain": [
+        "literature",
+        "poetry"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "none"
     ],
     "Description": "The Arabic E-Book Corpus is a freely available collection of 1,745 books (81.5 million words) published in by the Hindawi foundation between 2008 and 2024. The books are of various genres, including non-fiction, novels, children's literature, poetry, and plays. The corpus is provided in two versions: html and unformatted plain text. The latter version will be appropriate for most purposes.",
     "Volume": 81500000.0,
@@ -27,7 +31,8 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "language modeling",
         "topic classification",
@@ -36,8 +41,12 @@
     "Venue Title": "Data in Brief",
     "Venue Type": "journal",
     "Venue Name": "Data in Brief",
-    "Authors": [],
-    "Affiliations": [],
+    "Authors": [
+        "Andreas Hallberg"
+    ],
+    "Affiliations": [
+        "University of Gothenburg"
+    ],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"
 }

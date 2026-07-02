@@ -1,6 +1,6 @@
 {
     "Name": "AOC",
-    "Subsets": [
+    "Dialect Subsets": [
         {
             "Name": "MSA",
             "Dialect": "Modern Standard Arabic",
@@ -20,15 +20,18 @@
     "Year": 2011,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a 52M-word monolingual dataset rich in dialectal content",
-    "Volume": 108000.0,
+    "Volume": 108173.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
     "Provider": [
@@ -42,20 +45,20 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dialect identification"
     ],
     "Venue Title": "ACL",
     "Venue Type": "conference",
-    "Venue Name": "Assofications of computation linguisitcs",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
     "Authors": [
-        "Omar Zaidan",
+        "Omar F. Zaidan",
         "Chris Callison-Burch"
     ],
     "Affiliations": [
-        "",
-        ""
+        "Johns Hopkins University"
     ],
     "Abstract": "The written form of Arabic, Modern Standard Arabic (MSA), differs quite a bit from the spoken dialects of Arabic, which are the true \"native\" languages of Arabic speakers used in daily life. However, due to MSA's prevalence in written form, almost all Arabic datasets have predominantly MSA content. We present the Arabic Online Commentary Dataset, a 52M-word monolingual dataset rich in dialectal content, and we describe our long-term annotation effort to identify the dialect level (and dialect itself) in each sentence of the dataset. So far, we have labeled 108K sentences, 41% of which as having dialectal content. We also present experimental results on the task of automatic dialect identification, using the collected labels for training and evaluation.",
     "Added By": ""

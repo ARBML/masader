@@ -1,18 +1,25 @@
 {
     "Name": "WojoodGaza",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://sina.birzeit.edu/wojood/",
     "License": "CC BY 4.0",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "news articles"
     ],
+    "Domain": [
+        "news",
+        "politics",
+        "finance",
+        "law",
+        "health"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "It is an extestion of Wojood. It is about the ongoing Israeli War on Gaza, based on the assumption that discourse about recent global events will involve mentions from different data distributions. The dataset is collected from five news domains related to the War (Health, Economics, Finance, Politics, and Law). It consists of 60k tokens, divided into a test set (50k) and a development set (10k), with the domains evenly distributed.y. It is manually annotated with fine-grained named entities, following the same annotation guidelines as WojoodFine.",
     "Volume": 60000.0,
@@ -24,21 +31,22 @@
     ],
     "Derived From": [],
     "Paper Title": "WojoodNER 2024: The Second Arabic Named Entity Recognition Shared Task.",
-    "Paper Link": "https://arxiv.org/pdf/2407.09936",
+    "Paper Link": "https://doi.org/10.18653/v1/2024.arabicnlp-1.101",
     "Script": "Arab-Latin",
     "Tokenized": true,
-    "Host": "CAMeL Resources",
+    "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "language modeling",
         "tokenization",
         "named entity recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
     "Authors": [
         "Mustafa Jarrar",
         "Nagham Hamad",
@@ -47,7 +55,11 @@
         "AbdelRahim Elmadany",
         "Muhammad Abdul-Mageed"
     ],
-    "Affiliations": [],
+    "Affiliations": [
+        "Birzeit University",
+        "The University of British Columbia",
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
     "Abstract": "We present WojoodNER-2024, the second Arabic Named Entity Recognition (NER) Shared Task. In WojoodNER-2024, we focus on fine-grained Arabic NER. We provided participants with a new Arabic fine-grained NER dataset called wojoodfine, annotated with subtypes of entities. WojoodNER-2024 encompassed three subtasks: (i) Closed-Track Flat Fine-Grained NER, (ii) Closed-Track Nested Fine-Grained NER, and (iii) an Open-Track NER for the Israeli War on Gaza. A total of 43 unique teams registered for this shared task. Five teams participated in the Flat Fine-Grained Subtask, among which two teams tackled the Nested Fine-Grained Subtask and one team participated in the Open-Track NER Subtask. The winning teams achieved F-1 scores of 91% and 92% in the Flat Fine-Grained and Nested Fine-Grained Subtasks, respectively. The sole team in the Open-Track Subtask achieved an F-1 score of 73.7%.",
     "Added By": "Tymaa Hammouda"
 }

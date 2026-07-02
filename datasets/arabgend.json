@@ -1,0 +1,56 @@
+{
+    "Name": "ArabGend",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/asas-ai/ArabGend",
+    "Link": "https://alt.qcri.org/resources/ArabGend.zip",
+    "License": "unknown",
+    "Year": 2022,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "society",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Dataset of 167K Arabic Twitter accounts labeled for gender and location.",
+    "Volume": 167000.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArabGend: Gender Analysis and Inference on Arabic Twitter",
+    "Paper Link": "https://aclanthology.org/2022.wnut-1.14.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "QCRI Resources",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "gender identification",
+        "gender bias detection"
+    ],
+    "Venue Title": "W-NUT",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on Noisy User-generated Text",
+    "Authors": [
+        "Hamdy Mubarak",
+        "Shammur Absar Chowdhury",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "Gender analysis of Twitter can reveal important socio-cultural differences between male and female users. There has been a significant effort to analyze and automatically infer gender in the past for most widely spoken languages’ content, however, to our knowledge very limited work has been done for Arabic. In this paper, we evaluate an extensive analysis of differences between male and female users in the Arabic Twitter-sphere. We study differences in user engagement, topics of interest, and the gender gap in professions. Along with gender analysis, we also propose a method to infer gender by utilizing usernames, profile pictures, tweets, and networks of friends. In order to do so, we manually annotated gender and locations for ∼167K Twitter accounts associated with ∼92K user location, which we make publicly available. Our proposed gender inference method achieves an F1 score of 82.1% (47.3% higher than the majority baseline). We also developed a demo and made it publicly available.",
+    "Added By": "Zaid Alyafeai"
+}

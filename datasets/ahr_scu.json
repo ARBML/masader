@@ -1,18 +1,21 @@
 {
     "Name": "AHR-SCU",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/AHR-OCR2024/Arabic-Handwriting-Recognition",
     "License": "MIT License",
     "Year": 2024,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "manual construction"
+    ],
     "Domain": [
-        "public datasets"
+        "general"
     ],
     "Form": "images",
-    "Collection Style": [
-        "manual curation",
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Segmented and re-labeled Arabic handwritten text images derived from KHATT for training OCR models",
@@ -32,13 +35,14 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "optical character recognition"
     ],
-    "Venue Title": "GitHub",
+    "Venue Title": "other",
     "Venue Type": "preprint",
-    "Venue Name": "GitHub",
+    "Venue Name": "",
     "Authors": [
         "Ayman Saber Gad",
         "Ahmed Taha Ahmed Abd El Rahim",

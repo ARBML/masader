@@ -1,22 +1,27 @@
 {
     "Name": "BOLT Egyptian Arabic Co-reference -- Discussion Forum, SMS/Chat, and Conversational Telephone Speech",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalog.ldc.upenn.edu/LDC2021T14",
     "License": "LDC User Agreement",
     "Year": 2021,
     "Language": "ar",
     "Dialect": "Egypt",
+    "Source": [
+        "commentary",
+        "telephone conversations"
+    ],
     "Domain": [
-        "commentary"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
     ],
     "Description": "DF data was collected from the web using a combination of manual and automatic processes. SMS/Chat material was donated or collected via live platforms. CTS data was taken from LDC's Egyptian Arabic CALLHOME and CALLFRIEND telephone collections.",
-    "Volume": 0.0,
-    "Unit": "sentences",
+    "Volume": 602513.0,
+    "Unit": "tokens",
     "Ethical Risks": "Low",
     "Provider": [
         "LDC"
@@ -29,14 +34,22 @@
     "Host": "LDC",
     "Access": "With-Fee",
     "Cost": "1,250.00 $",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "coreference resolution"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
-    "Authors": [],
+    "Authors": [
+        "Nitin Agarwal",
+        "Michelle Francini",
+        "Michelle Kappler",
+        "Linnea Micciulla",
+        "Sameer Pradhan",
+        "Lance Ramshaw"
+    ],
     "Affiliations": [],
     "Abstract": "",
     "Added By": "Zaid Alyafeai"

@@ -1,18 +1,21 @@
 {
     "Name": "EveryAyah",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/tarteel-ai/everyayah",
     "Link": "https://hf.co/datasets/tarteel-ai/everyayah",
     "License": "MIT License",
     "Year": 2022,
     "Language": "ar",
     "Dialect": "Classical Arabic",
+    "Source": [
+        "books"
+    ],
     "Domain": [
-        "other"
+        "religion"
     ],
     "Form": "audio",
-    "Collection Style": [
-        "manual curation"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "This dataset is a collection of Quranic verses and their transcriptions, with diacritization, by different reciters.",
     "Volume": 127400.0,
@@ -29,12 +32,13 @@
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

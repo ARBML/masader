@@ -1,17 +1,20 @@
 {
     "Name": "ESCWA",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/QCRI/escwa",
     "Link": "https://huggingface.co/datasets/QCRI/escwa",
     "License": "CC BY-NC 4.0",
     "Year": 2021,
     "Language": "multilingual",
     "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "audio",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation"
     ],
     "Description": "Eight-hour multilingual speech corpus collected from two days of United Nations ESCWA meetings in 2019, focusing on intrasentential Arabic-English code-switching.",
@@ -25,19 +28,20 @@
         "MGB-2"
     ],
     "Paper Title": "Arabic Code-Switching Speech Recognition using Monolingual Data",
-    "Paper Link": "https://arxiv.org/pdf/2107.01573",
+    "Paper Link": "https://doi.org/10.21437/Interspeech.2021-2231",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Upon-Request",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "speech recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Interspeech",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the International Speech Communication Association",
     "Authors": [
         "AhmedAli",
         "ShammurChowdhury",

@@ -1,18 +1,21 @@
 {
     "Name": "SemEval-2017 Task 4",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/SemEval_2017_ar_subtask_A",
     "Link": "https://alt.qcri.org/semeval2017/task4/index.php?id=data-and-tools",
     "License": "unknown",
     "Year": 2017,
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "a large accessible benchmark dataset containing over 70,000 tweets\nacross two languages",
     "Volume": 70000.0,
@@ -29,22 +32,24 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "SEMEVAL",
+    "Venue Title": "SemEval",
     "Venue Type": "workshop",
     "Venue Name": "International Workshop on Semantic Evaluation",
     "Authors": [
         "Sara Rosenthal",
-        "N. Farra",
+        "Noura Farra",
         "Preslav Nakov"
     ],
     "Affiliations": [
-        "",
-        "",
-        ""
+        "Qatar Computing Research Institute",
+        "Hamad bin Khalifa University",
+        "Columbia University",
+        "IBM"
     ],
     "Abstract": "This paper describes the fifth year of the Sentiment Analysis in Twitter task. SemEval-2017 Task 4 continues with a rerun of the subtasks of SemEval-2016 Task 4, which include identifying the overall sentiment of the tweet, sentiment towards a topic with classification on a two-point and on a five-point ordinal scale, and quantification of the distribution of sentiment towards a topic across a number of tweets: again on a two-point and on a five-point ordinal scale. Compared to 2016, we made two changes: (i) we introduced a new language, Arabic, for all subtasks, and (ii) we made available information from the profiles of the Twitter users who posted the target tweets. The task continues to be very popular, with a total of 48 teams participating this year.",
     "Added By": "Mustafa Ghaleb"

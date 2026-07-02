@@ -1,22 +1,24 @@
 {
     "Name": "Tibyan",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
-    "Link": "https://doi.org/10.5281/zenodo.14623621",
+    "Link": "https://zenodo.org/records/14623621",
     "License": "CC BY 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "books",
         "LLM"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling",
-        "machine annotation",
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "machine annotation",
+        "LLM annotation"
     ],
     "Description": "A balanced and comprehensive Arabic grammatical error correction corpus created using ChatGPT consisting of 600K tokens.",
     "Volume": 6191.0,
@@ -27,7 +29,7 @@
         "Saudi Electronic University"
     ],
     "Derived From": [
-        "A7\u2019ta corpus",
+        "A7’ta corpus",
         "QALB-14",
         "QALB-15"
     ],
@@ -38,11 +40,12 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "grammatical error correction"
     ],
-    "Venue Title": "PeerJ Computer Science",
+    "Venue Title": "PeerJ Comput. Sci.",
     "Venue Type": "journal",
     "Venue Name": "PeerJ Computer Science",
     "Authors": [

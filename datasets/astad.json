@@ -1,18 +1,21 @@
 {
     "Name": "ASTAD",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/arbml/Sentiment_Analysis_Tweets",
     "Link": "https://github.com/motazsaad/arabic-sentiment-analysis",
     "License": "Apache-2.0",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "mixed",
-    "Domain": [
+    "Source": [
         "social media"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "machine annotation"
     ],
     "Description": "It contains 58K Arabic tweets (47K training, 11K test) tweets annotated in positive and negative labels",
     "Volume": 58000.0,
@@ -29,7 +32,8 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": true,
+    "Has Splits": true,
+    "Partial": false,
     "Tasks": [
         "sentiment analysis"
     ],
@@ -38,17 +42,13 @@
     "Venue Name": "Workshop on Open-Source Arabic Corpora and Processing Tools",
     "Authors": [
         "Kathrein Abu Kwaik",
-        "S. Chatzikyriakidis",
+        "Stergios Chatzikyriakidis",
         "Simon Dobnik",
         "Motaz Saad",
         "Richard Johansson"
     ],
     "Affiliations": [
-        "",
-        "",
-        "",
-        "The Islamic University of Gaza",
-        ""
+        "The Islamic University of Gaza"
     ],
     "Abstract": "As the number of social media users increases, they express their thoughts, needs, socialise and publish their opinions reviews. For good social media sentiment analysis, good quality resources are needed, and the lack of these resources is particularly evident for languages other than English, in particular Arabic. The available Arabic resources lack of from either the size of the corpus or the quality of the annotation. In this paper, we present an Arabic Sentiment Analysis Corpus collected from Twitter, which contains 36K tweets labelled into positive and negative. We employed distant supervision and self-training approaches into the corpus to annotate it. Besides, we release an 8K tweets manually annotated as a gold standard. We evaluated the corpus intrinsically by comparing it to human classification and pre-trained sentiment analysis models, Moreover, we apply extrinsic evaluation methods exploiting sentiment analysis task and achieve an accuracy of 86%.",
     "Added By": "Zaid Alyafeai"

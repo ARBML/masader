@@ -1,20 +1,23 @@
 {
     "Name": "Arabic Infectious Disease Ontology",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "http://www.research.lancs.ac.uk/portal/en/datasets/arabic-infectious-disease-ontology(39dbef60-ae9b-4405-99c8-35a41e95a3e0).html",
     "License": "unknown",
     "Year": 2020,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "web pages"
     ],
-    "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Domain": [
+        "health"
     ],
-    "Description": "This file contains an Arabic Infectious Disease Ontology to include Non-Standard Terminology. The Arabic Infectious Disease Ontology is written in the Arabic language, and is the first ontology in Arabic specialising in the infectious disease domain. It contains 11 classes, 21 object properties, 11 datatype properties, and 215 individual concepts.",
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation"
+    ],
+    "Description": "The Arabic Infectious Disease Ontology is written in the Arabic language, and is the first ontology in Arabic specialising in the infectious disease domain. It contains 11 classes, 21 object properties, 11 datatype properties, and 215 individual concepts.",
     "Volume": 215.0,
     "Unit": "sentences",
     "Ethical Risks": "Low",
@@ -29,13 +32,14 @@
     "Host": "other",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "dictionary"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
-    "Venue Name": "Language Resources and Evaluation Conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
     "Authors": [
         "Lama Alsudias",
         "Paul Rayson"

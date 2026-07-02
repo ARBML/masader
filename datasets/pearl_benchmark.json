@@ -1,20 +1,23 @@
 {
     "Name": "PEARL Benchmark",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/UBC-NLP/PEARL",
     "Link": "https://huggingface.co/datasets/UBC-NLP/PEARL",
     "License": "CC BY-NC-ND 4.0",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia",
         "LLM"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "images",
-    "Collection Style": [
+    "Annotation Style": [
         "human annotation",
-        "LLM generated"
+        "LLM annotation"
     ],
     "Description": "The PEARL Benchmark is a meticulously curated subset of 6,301 high-quality Question/Answer pairs derived from the larger PEARL dataset. ",
     "Volume": 6301.0,
@@ -25,19 +28,20 @@
     ],
     "Derived From": [],
     "Paper Title": "Pearl: A Multimodal Culturally-Aware Arabic Instruction Dataset",
-    "Paper Link": "https://arxiv.org/pdf/2505.21979",
+    "Paper Link": "https://doi.org/10.18653/v1/2025.findings-emnlp.1254",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "Findings of EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Fakhraddin Alwajih",
         "Samar M. Magdy",
@@ -81,13 +85,13 @@
         "The University of British Columbia",
         "Prince Sultan University",
         "Tuwaiq Academy",
-        "KFUPM",
+        "King Fahd University of Petroleum and Minerals",
         "Cairo University",
         "Hadhramout University",
         "Misr University for Science & Technology",
         "Taibah University",
         "QafzaTech",
-        "KAUST",
+        "King Abdullah University of Science and Technology",
         "University of Nouakchott",
         "Imam Abdulrahman Bin Faisal University",
         "Hamad Bin Khalifa University",

@@ -1,18 +1,21 @@
 {
     "Name": "Database of Arab Names",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://catalogue.elra.info/en-us/repository/browse/ELRA-L0122/",
     "License": "Non Commercial Use - ELRA END USER",
     "Year": 2019,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
     "Domain": [
-        "other"
+        "general"
     ],
     "Form": "text",
-    "Collection Style": [
-        "other"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "Very comprehensive database of Arabic personal names and name variants mapped to the original Arabic script with a large variety of supplementary information. The database consists of 6,500,000 terms.",
     "Volume": 6500000.0,
@@ -26,13 +29,14 @@
     "Tokenized": false,
     "Host": "ELRA",
     "Access": "With-Fee",
-    "Cost": "11,250.00\u20ac",
-    "Test Split": false,
+    "Cost": "11,250.00€",
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "part of speech tagging"
     ],
     "Venue Title": "",
-    "Venue Type": "conference",
+    "Venue Type": "other",
     "Venue Name": "",
     "Authors": [],
     "Affiliations": [],

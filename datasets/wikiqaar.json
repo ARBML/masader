@@ -1,18 +1,21 @@
 {
     "Name": "WikiQAar",
-    "Subsets": [],
+    "Dialect Subsets": [],
     "HF Link": "https://hf.co/datasets/qcri/wiki_qa_ar",
     "Link": "https://github.com/qcri/WikiQAar",
     "License": "unknown",
     "Year": 2018,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
-    "Domain": [
+    "Source": [
         "wikipedia"
     ],
+    "Domain": [
+        "general"
+    ],
     "Form": "text",
-    "Collection Style": [
-        "crawling"
+    "Annotation Style": [
+        "human annotation"
     ],
     "Description": "WIKIQAar is a bilingual English--Arabic Question Answering corpus built on top of WIKIQA",
     "Volume": 3047.0,
@@ -31,20 +34,20 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Test Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
         "question answering"
     ],
     "Venue Title": "EMNLP",
     "Venue Type": "conference",
-    "Venue Name": "Empirical Methods in Natural Language Processing",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
     "Authors": [
         "Yi Yang",
         "Wen-tau Yih Christopher Meek"
     ],
     "Affiliations": [
         "Georgia Institute of Technology",
-        "Microsoft",
         "Microsoft"
     ],
     "Abstract": "We describe the WIKIQA dataset, a new\npublicly available set of question and sentence pairs, collected and annotated for research on open-domain question answering. Most previous work on answer sentence selection focuses on a dataset created using the TREC-QA data, which\nincludes editor-generated questions and\ncandidate answer sentences selected by\nmatching content words in the question.\nWIKIQA is constructed using a more natural process and is more than an order of\nmagnitude larger than the previous dataset.\nIn addition, the WIKIQA dataset also includes questions for which there are no\ncorrect sentences, enabling researchers to\nwork on answer triggering, a critical component in any QA system. We compare\nseveral systems on the task of answer sentence selection on both datasets and also\ndescribe the performance of a system on\nthe problem of answer triggering using the\nWIKIQA dataset.",
