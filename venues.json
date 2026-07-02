@@ -957,5 +957,10 @@
         "name": "IEEE Spoken Language Technology Workshop",
         "type": "workshop",
         "aliases": []
+    },
+    "Computation": {
+        "name": "Computation",
+        "type": "journal",
+        "aliases": []
     }
 }
