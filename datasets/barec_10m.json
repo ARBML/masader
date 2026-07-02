@@ -67,8 +67,7 @@
     "Partial": false,
     "Tasks": [
         "morphological analysis",
-        "lexicon analysis",
-        "retrieval-augmented generation"
+        "lexicon analysis"
     ],
     "Venue Title": "LREC",
     "Venue Type": "conference",
