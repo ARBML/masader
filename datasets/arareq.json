@@ -1,0 +1,62 @@
+{
+    "Name": "AraREQ",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://docs.google.com/forms/d/e/1FAIpQLSc5_BS12CQ4FHWBn_TC7xTOReB3NtXcnFnPUfHIswDu9-hQ8w/viewform",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "technology"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation",
+        "LLM annotation",
+        "human annotation"
+    ],
+    "Description": "A large-scale Arabic dataset for requirement-level conflict detection and resolution.",
+    "Volume": 448.0,
+    "Unit": "documents",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Birzeit University"
+    ],
+    "Derived From": [
+        "PURE",
+        "WorldVista",
+        "OPENCOSS",
+        "UAV"
+    ],
+    "Paper Title": "AraREQ: A Dataset and End-to-End system for Conflict Detection and Resolution in Software Requirements",
+    "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.553.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": [
+        "Tymaa Hammouda",
+        "Alaa Aljabari",
+        "Nagham Hamad",
+        "Mustafa Jarrar"
+    ],
+    "Affiliations": [
+        "Birzeit University",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "Conflict detection in software requirements is essential for ensuring specification consistency, improving project efficiency, and ensuring overall software quality. Despite its importance, research on this task, particularly for Arabic, remains limited due to the scarcity of annotated data and linguistic challenges. To address this gap, we introduce AraREQ, a large-scale Arabic dataset for requirement-level conflict detection and resolution. The dataset is constructed through a semi-automated Arabization process using Large Language Models (LLMs), followed by manual augmentation to address class imbalance. The final dataset comprises 27K Arabic requirement pairs. We benchmark four state-of-the-art LLMs under zero-shot and few-shot settings, establishing the first comprehensive evaluation for Arabic requirements conflict detection. Experimental results show that few-shot prompting consistently improves performance, particularly on the minority conflict class, demonstrating the effectiveness of example-based prompting. Finally, we introduce an end-to-end system that automatically detects potential conflicts in Arabic software requirements and generates resolution suggestions. All datasets, codes, and the end-to-end system are open-source and available at: https://sina.birzeit.edu/ArReqConflicts/",
+    "Added By": "Zaid Alyafeai"
+}
