@@ -4,7 +4,7 @@
     "HF Link": "",
     "Link": "https://www.kaggle.com/datasets/sohaasiri/arabic-lega-case-dataset",
     "License": "DbCL",
-    "Year": 2025,
+    "Year": 2026,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
@@ -17,16 +17,16 @@
     "Annotation Style": [
         "metadata-derived"
     ],
-    "Description": "3170 Saudi Arabic legal case documents cleaned for NLP research.",
+    "Description": "Arabic legal case dataset for NLP collected from a government body in Saudi Arabia ",
     "Volume": 3170.0,
     "Unit": "documents",
-    "Ethical Risks": "Medium",
+    "Ethical Risks": "Low",
     "Provider": [
         "King Abdulaziz University"
     ],
     "Derived From": [],
-    "Paper Title": "Legal Case Documents: A Comprehensive Dataset for Arabic Natural Language Processing Research and Applications",
-    "Paper Link": "https://www.sciencedirect.com/science/article/pii/S2352340925011424",
+    "Paper Title": "Legal case documents: A comprehensive dataset for Arabic natural language processing research and applications",
+    "Paper Link": "https://doi.org/10.1016/j.dib.2025.112429",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "kaggle",
@@ -35,7 +35,7 @@
     "Has Splits": false,
     "Partial": false,
     "Tasks": [
-        "question answering"
+        "text classification"
     ],
     "Venue Title": "Data in Brief",
     "Venue Type": "journal",
@@ -48,6 +48,6 @@
     "Affiliations": [
         "King Abdulaziz University"
     ],
-    "Abstract": "The legal sector remains distinctive due to the complex language structure and specialized terminology of legal data. This complexity offers considerable contextual information, which demands natural language processing (NLP). The availability of high-quality and well-structured legal datasets is essential for advancing NLP research and applications within the legal field. However, a gap exists within the Arabic legal NLP owing to insufficient research and datasets. To address this gap, we aim to propose an Arabic legal case dataset containing cases, case summaries, relevant keywords, and case categories. The legal case data were obtained from the Board of Grievances website in Saudi Arabia and include 3170 cases distributed across 47 classes. The number of words in these cases varies significantly, ranging from about 100 to nearly 30,000 words per case. Moreover, the number of pages varies, ranging from one page to 80 pages per case. Therefore, this dataset supports various NLP applications, including text categorization, data extraction, sentiment analysis, and summarization, thereby improving task efficiency and decision accuracy in the legal profession.",
+    "Abstract": "The legal sector remains distinctive due to the complex language structure and specialized terminology of legal data. This complexity offers considerable contextual information, which demands natural language processing (NLP). The availability of high-quality and well-structured legal datasets is essential for advancing NLP research and applications within the legal field. However, a gap exists within the Arabic legal NLP owing to insufficient research and datasets. To address this gap, we aim to propose an Arabic legal case dataset containing cases, case summaries, relevant keywords, and case categories. The legal case data were obtained from the Board of Grievances website in Saudi Arabia and include 3170 cases distributed across 47 classes. The number of words in these cases varies significantly, ranging from about 100 to nearly 30000 words per case. Moreover, the number of pages varies, ranging from one page to 80 pages per case. Therefore, this dataset supports various NLP applications, including text categorization, data extraction, sentiment analysis, and summarization, thereby improving task efficiency and decision accuracy in the legal profession.",
     "Added By": "Zaid Alyafeai"
 }
