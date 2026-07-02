@@ -1,0 +1,83 @@
+{
+    "Name": "ARB",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/MBZUAI/ARB",
+    "Link": "https://huggingface.co/datasets/MBZUAI/ARB",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "web pages",
+        "manual construction",
+        "LLM"
+    ],
+    "Domain": [
+        "science",
+        "culture",
+        "education",
+        "health",
+        "history"
+    ],
+    "Form": "images",
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
+    ],
+    "Description": "ARB is the first benchmark focused on step-by-step reasoning in Arabic cross both textual and visual modalities, covering 11 diverse domains spanning science, culture, OCR, and historical interpretation.",
+    "Volume": 1355.0,
+    "Unit": "images",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "MBZUAI"
+    ],
+    "Derived From": [
+        "VRC-Bench",
+        "NaBirds-CoT",
+        "CAMEL-Bench",
+        "EXams-V",
+        "TimeTravel",
+        "AgriCLIP",
+        "ARCH",
+        "Seg-Zero",
+        "PathVQA",
+        "CDChat",
+        "I2D"
+    ],
+    "Paper Title": "ARB: A Comprehensive Arabic Multimodal Reasoning Benchmark",
+    "Paper Link": "http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.723.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "multimodal evaluation",
+        "visual question answering",
+        "image captioning"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": [
+        "Sara Ghaboura",
+        "Shubham Patle",
+        "Ketan More",
+        "Wafa Alghallabi",
+        "Omkar Thawakar",
+        "Jorma Laaksonen",
+        "Hisham Cholakkal",
+        "Salman Khan",
+        "Rao Anwer"
+    ],
+    "Affiliations": [
+        "Mohamed bin Zayed University of AI",
+        "Aalto University",
+        "Australian National University"
+    ],
+    "Abstract": "As Large Multimodal Models (LMMs) become more capable, there is growing interest in evaluating their rea-\nsoning processes alongside their final outputs. However, most existing benchmarks remain focused on English,\noverlooking languages with rich linguistic and cultural depth such as Arabic. To address this gap, we introduce\nthe Comprehensive Arabic Multimodal Reasoning Benchmark (ARB), the first benchmark designed to evaluate\nstep-by-step reasoning in Arabic across both textual and visual modalities. ARB covers 11 diverse domains\nand over 40 subfields, including visual reasoning, optical character recognition, scientific analysis, and cultural\ninterpretation. It comprises 2,219 multimodal samples paired with over 8K human-curated reasoning steps and\ncorresponding actions, verified through a human-in-the-loop process. We evaluated 15 state-of-the-art open- and\nclosed-source LMMs and found persistent challenges in coherence, faithfulness, and cultural grounding. ARB\nprovides a structured framework for diagnosing multimodal reasoning in underrepresented languages, marking a\ncritical step toward inclusive, transparent, and culturally aware AI systems. The benchmark 1, rubric, and evaluation\nsuite2 are publicly available",
+    "Added By": "Zaid Alyafeai"
+}
