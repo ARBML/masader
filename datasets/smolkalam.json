@@ -1,19 +1,6 @@
 {
     "Name": "SmolKalam",
-    "Dialect Subsets": [
-        {
-            "Name": "SmolKalam (SeedX ranked)",
-            "Volume": 1777275.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        },
-        {
-            "Name": "SmolKalam (Gemma3 ranked)",
-            "Volume": 1545742.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/SultanR/smolkalam",
     "Link": "https://huggingface.co/datasets/SultanR/smolkalam",
     "License": "Apache-2.0",
