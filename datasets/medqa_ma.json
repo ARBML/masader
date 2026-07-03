@@ -9,14 +9,15 @@
     "Dialect": "Morocco",
     "Source": [
         "web pages",
-        "books"
+        "books",
+        "social media"
     ],
     "Domain": [
         "health"
     ],
     "Form": "text",
     "Annotation Style": [
-        "metadata-derived",
+        "machine annotation",
         "human annotation"
     ],
     "Description": "This dataset constitutes the first large-scale collection of medical question\u2013answer pairs in Moroccan Arabic,",
