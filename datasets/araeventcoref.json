@@ -1,0 +1,62 @@
+{
+    "Name": "AraEventCoref",
+    "Dialect Subsets": [
+        {
+            "Name": "AraEventCoref",
+            "Volume": 1381.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/AldawsariNLP/AraEventCoref",
+    "Link": "https://doi.org/10.5281/zenodo.11391166",
+    "License": "Apache-2.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "news"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "The dataset consists of  50 Arabic news articles from the SANAD dataset annotated with Arabic event coreference relation. The annotation is in CoNLL format. ",
+    "Volume": 1381.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Prince Sattam bin Abdulaziz University"
+    ],
+    "Derived From": [
+        "SANAD"
+    ],
+    "Paper Title": "AraEventCoref: An Arabic Event Coreference Dataset and LLM Benchmarks",
+    "Paper Link": "https://doi.org/10.1145/3743047",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "coreference resolution",
+        "information extraction"
+    ],
+    "Venue Title": "TALLIP",
+    "Venue Type": "journal",
+    "Venue Name": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "Authors": [
+        "Mohammed Aldawsari",
+        "Omer Dawood"
+    ],
+    "Affiliations": [
+        "Prince Sattam bin Abdulaziz University"
+    ],
+    "Abstract": "Event coreference resolution is a critical task in Natural Language Processing (NLP), enabling applications such as information extraction, text summarization, and question answering. However, resolving event coreference in Arabic presents unique challenges due to the language\u2019s rich morphology, complex syntax, and lack of annotated resources. This article introduces AraEventCoref, the first publicly available Arabic event coreference dataset, comprising 50 annotated news articles with 1,381 events and 159 coreference chains. The dataset\u2019s annotation agreement achieved a CoNLL score of 75.8%, ensuring high reliability across B3, MUC, and CEAF metrics. Additionally, event triggers were annotated with an inter-annotator agreement of 96% using Cohen\u2019s Kappa, further validating dataset quality. To establish benchmarks, we developed a fine-tuned CamelBERT-msa model as a strong baseline and evaluated state-of-the-art Arabic large language models (LLMs) using both bilingual and Arabic-only prompts.",
+    "Added By": "Zaid Alyafeai"
+}
