@@ -1,52 +1,70 @@
 {
     "Name": "SmolKalam",
-    "Volume": 1500000.0,
-    "Unit": "documents",
-    "License": "unknown",
-    "Link": "https://github.com/SultanR/smolkalam",
-    "HF_Link": "",
+    "Dialect Subsets": [
+        {
+            "Name": "SmolKalam (SeedX ranked)",
+            "Volume": 1777275.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "SmolKalam (Gemma3 ranked)",
+            "Volume": 1545742.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/SultanR/smolkalam",
+    "Link": "https://huggingface.co/datasets/SultanR/smolkalam",
+    "License": "Apache-2.0",
     "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
     "Domain": [
-        "other"
+        "science",
+        "technology",
+        "general"
     ],
     "Form": "text",
-    "Collection_Style": [
-        "LLM generated"
+    "Annotation Style": [
+        "machine annotation",
+        "LLM annotation"
     ],
-    "Description": "Quality-filtered Arabic SFT dataset for post-training.",
-    "Ethical_Risks": "Low",
+    "Description": "Large-scale Arabic SFT dataset with reasoning and tool-calling.",
+    "Volume": 1790478.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
     "Provider": [
-        "King Abdullah University of Science and Technology"
+        "KAUST"
     ],
-    "Derived_From": [
-        "SmolTalk2"
+    "Derived From": [
+        "Smoltalk2",
+        "OpenThoughts"
     ],
-    "Paper_Title": "SmolKalam: Ensemble Quality-Filtered Translation at Scale for High Quality Arabic Post-Training Data",
-    "Paper_Link": "https://arxiv.org/pdf/2511.18411v1",
+    "Paper Title": "SmolKalam: Ensemble Quality-Filtered Translation at Scale for High Quality Arabic Post-Training Data",
+    "Paper Link": "https://arxiv.org/pdf/2511.18411.pdf",
+    "Script": "Arab",
     "Tokenized": false,
-    "Host": "GitHub",
+    "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
-    "Test_Split": false,
+    "Has Splits": false,
+    "Partial": false,
     "Tasks": [
-        "instruction following",
         "instruction tuning"
     ],
-    "Venue_Title": "Preprint",
-    "Venue_Type": "preprint",
-    "Venue_Name": "arXiv",
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
     "Authors": [
         "Sultan AlRashed",
         "Chadi Helwe",
         "Francesco Orabona"
     ],
-    "Affiliations": [
-        "King Abdullah University of Science and Technology"
-    ],
-    "Abstract": "Although the community has tackled the acquisition of high-quality Arabic pre-training data, we still lack large-scale, multi-turn Arabic datasets that include reasoning and tool calling. Naive translation can work at the pretraining scale, but post-training demands much higher quality, which requires a stricter approach to dataset curation. In this work, we introduce SmolKalam, a translation of Smol talk 2 that uses a multi-model ensemble translation pipeline, applies quality filtering, and examines effective translation techniques for traditional decoder-only models through ablations.",
-    "Subsets": [],
-    "Dialect": "Modern Standard Arabic",
-    "Language": "ar",
-    "Script": "Arab",
-    "Added_By": "qwen/qwen3.6-35b-a3b"
+    "Affiliations": [],
+    "Abstract": "Although the community has tackled the acquisition of high-quality Arabic pre-training data, we still lack large-scale, multi-turn Arabic datasets that include reasoning and tool calling. Naive translation can work at the pretraining scale, but post-training demands much higher quality, which requires a stricter approach to dataset curation. In this work, we introduce SmolKalam, a translation of Smoltalk2 that uses a multi-model ensemble translation pipeline, applies quality filtering, and examines effective translation techniques for traditional decoder-only models through ablations.",
+    "Added By": "Zaid Alyafeai"
 }
