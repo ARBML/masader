@@ -1,13 +1,6 @@
 {
     "Name": "AraEventCoref",
-    "Dialect Subsets": [
-        {
-            "Name": "AraEventCoref",
-            "Volume": 1381.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/AldawsariNLP/AraEventCoref",
     "Link": "https://doi.org/10.5281/zenodo.11391166",
     "License": "Apache-2.0",
