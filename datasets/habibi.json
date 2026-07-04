@@ -45,7 +45,6 @@
     "Language": "ar",
     "Dialect": "mixed",
     "Source": [
-        "other",
         "web crawls"
     ],
     "Domain": [

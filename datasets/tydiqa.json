@@ -8,7 +8,6 @@
     "Language": "multilingual",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "other",
         "web crawls"
     ],
     "Domain": [
