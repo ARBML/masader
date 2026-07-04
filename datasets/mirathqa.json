@@ -1,0 +1,59 @@
+{
+    "Name": "MirathQA",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/7jhycpbdpw/4",
+    "License": "CC BY 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "books",
+        "web pages"
+    ],
+    "Domain": [
+        "religion",
+        "law"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "metadata-derived"
+    ],
+    "Description": "A dataset for evaluating LLMs on Hanbali Islamic inheritance reasoning tasks.",
+    "Volume": 1394.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Saud University"
+    ],
+    "Derived From": [],
+    "Paper Title": "MirathQA: A dataset for evaluating large language models on Hanbali Islamic inheritance reasoning tasks",
+    "Paper Link": "https://doi.org/10.1016/j.dib.2026.112589",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "question answering",
+        "multiple choice question answering"
+    ],
+    "Venue Title": "Data in Brief",
+    "Venue Type": "journal",
+    "Venue Name": "Data in Brief",
+    "Authors": [
+        "Ameera Almasoud",
+        "Sharefah Al-Ghamdi",
+        "Reem Alqifari",
+        "Noof Alfear",
+        "Hend Al-Khalifa"
+    ],
+    "Affiliations": [
+        "King Saud University"
+    ],
+    "Abstract": "Islamic inheritance (Muw\u0101r\u012bth/\u0645\u0648\u0627\u0631\u064a\u062b) refers to the distribution of a deceased person's estate among qualified heirs in accordance with Sharia laws derived from the Qur\u2019an and Sunnah. This dataset focuses specifically on the Hanbali school of jurisprudence (\u0627\u0644\u0645\u0630\u0647\u0628 \u0627\u0644\u062d\u0646\u0628\u0644\u064a), one of the four major Sunni schools, which has distinct rulings on residuary heirs (ta\u02bfs\u012bb/\u0627\u0644\u062a\u0639\u0635\u064a\u0628) and blocking mechanisms (al-\u1e25ajb/\u0627\u0644\u062d\u062c\u0628). Despite recent advances, Arabic large language models (LLMs) often struggle with tasks requiring exact arithmetic, multi-step reasoning, and strict adherence to domain-specific rules. These challenges are particularly evident in Islamic inheritance law (\u02bfilm al-far\u0101\u02bei\u1e0d/\u0639\u0644\u0645 \u0627\u0644\u0641\u0631\u0627\u0626\u0636), where case resolution demands sequential rule application, identification of heirs and blocked heirs (\u1e25ijb/\u062d\u062c\u0628), handling of proportional reduction (\u02bfawl/\u0639\u0648\u0644) and return (radd/\u0631\u062f), and accounting for juristic differences. The lack of well-structured Arabic datasets further restricts systematic evaluation in this area. To address this gap, we introduce the MirathQA, comprising over 1394 questions derived from 242 real-life inheritance cases collected from different Arabic sources. Each case includes a textual description, verified solution, heirs and their corresponding shares, and annotations for blocked or modified heirs. Additional multiple-choice and true/false questions assess reasoning skills such as exclusion and proportional reduction. The dataset is divided into training (70%), validation (15%), and test (15%) splits at the case level to prevent leakage and ensure reproducibility. It is also provided in both CSV and Excel formats. This resource establishes a benchmark for evaluating Arabic LLM reasoning, while also serving education, interdisciplinary research, and legal AI applications.",
+    "Added By": "Zaid Alyafeai"
+}

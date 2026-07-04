@@ -1,0 +1,59 @@
+{
+    "Name": "ArabiCCR",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/np538c95yy/2",
+    "License": "CC BY 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "web pages"
+    ],
+    "Domain": [
+        "law",
+        "finance"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "metadata-derived"
+    ],
+    "Description": "Commercial Arabic court rulings dataset from the official Saudi Ministry of Justice ",
+    "Volume": 12806.0,
+    "Unit": "documents",
+    "Ethical Risks": "Medium",
+    "Provider": [
+        "University of Ha\u2019il",
+        "Khafji University College",
+        "University of Jeddah"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArabiCCR: A commercial Arabic ruling court cases dataset with judicial decisions",
+    "Paper Link": "https://doi.org/10.1016/j.dib.2026.112844",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "Data in Brief",
+    "Venue Type": "journal",
+    "Venue Name": "Data in Brief",
+    "Authors": [
+        "Talal Alharbi",
+        "Tuwailaa Alshammari",
+        "Nadiyah Almutairi",
+        "Mohammed Alahmadi"
+    ],
+    "Affiliations": [
+        "University of Ha\u2019il",
+        "Khafji University College",
+        "University of Jeddah"
+    ],
+    "Abstract": "This paper presents a dataset of commercial court rulings\nin Saudi Arabia collected from the official Saudi Ministry\nof Justice website and recently made publicly available. The\ndataset consists of judicial decisions written in Arabic, in-\ncluding case narratives, legal reasoning, and final rulings. Al-\nthough the original corpus includes multiple case types, this\nwork focuses specifically on commercial cases which repre-\nsent the majority of the data.\nThe dataset was systematically extracted, cleaned, and\nanonymized by the redaction of personal names to support\nethical use and reproducible analysis. It provides a valuable\nresource for research in Arabic legal text processing and ju-\ndicial reasoning. The dataset can support a wide range of\napplications in natural language processing and artificial in-\ntelligence, including text classification, information extrac-\ntion, judgment ruling prediction, and predictive modeling.\nThe dataset can also be used to enable comparative stud-\nies between traditional machine learning and deep learn-\ning approaches. The dataset is publicly available at: https:\n//data.mendeley.com/datasets/np538c95yy/2",
+    "Added By": "Zaid Alyafeai"
+}
