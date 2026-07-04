@@ -1,0 +1,59 @@
+{
+    "Name": "Telco-GAIA",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/kaust-generative-ai/telco-gaia",
+    "Link": "https://huggingface.co/datasets/kaust-generative-ai/telco-gaia",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2026,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "technology"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "A GAIA-style benchmark for AI agents operating over a real telecom operator's website snapshot plus a synthetic customer database. 100 tasks across 7 categories: Pricing, Miscellaneous, Images, Web Archives, PDF, PDF Visual, Database.",
+    "Volume": 35.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "KAUST",
+        "STC"
+    ],
+    "Derived From": [],
+    "Paper Title": "Telco-GAIA: Bilingual Benchmark for Agents in Telecom Domain",
+    "Paper Link": "https://arxiv.org/",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "agentic AI evaluation"
+    ],
+    "Venue Title": "other",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Dmitrii Khizbullin",
+        " Zaid Alyafeai",
+        "Abdelrahman Eldesokey",
+        "Nourah AlSultan",
+        "Raghad Alshalan",
+        "Bernard Ghanem",
+        "David R. Pugh"
+    ],
+    "Affiliations": [
+        "KAUST",
+        "STC"
+    ],
+    "Abstract": "We introduce Telco-GAIA, a bilingual, multi-\nmodal benchmark for evaluating tool-using\nagents on the data of a real-world telecommu-\nnications operator. Telco-GAIA comprises 100\nhuman-verified question-answering tasks, in\nEnglish and Arabic, that each demand multi-\nhop reasoning (4.2 hops on average) over three\nheterogeneous sources: a static website snap-\nshot (HTML, images, and linked PDFs), a\nsynthetic relational SQL database, and exter-\nnal web archives, spanning text, image, and\ntabular modalities. The benchmark is de-\nlivered as a sandboxed Docker environment\nand scored by normalized exact string match-\ning, making evaluation objective, deterministic,\nand reproducible over time without any LLM-\nas-a-Judge. Evaluating a purpose-built refer-\nence agent across twelve commercial and open\nLLMs, we find Telco-GAIA challenging: even\nthe strongest model solves only 71% of tasks;\nunder a moderate cost budget, this falls to about\n40%, and the visually grounded categories re-\nmain the weakest, where the average backend\nscores below 30%, leaving substantial head-\nroom in document and image understanding.\nTelco-GAIA offers a rigorous, reproducible\ntestbed for enterprise agents and a template\nfor constructing closed-domain benchmarks.",
+    "Added By": "Zaid Alyafeai"
+}
