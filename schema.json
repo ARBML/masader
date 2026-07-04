@@ -185,6 +185,7 @@
         "answer_max": 5,
         "options": [
             "human annotation",
+            "human validation",
             "machine annotation",
             "LLM annotation",
             "metadata-derived",
