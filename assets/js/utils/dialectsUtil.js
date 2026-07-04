@@ -42,6 +42,8 @@ function countryCodeMapper(code) {
         IQ: 'Iraq',
         SD: 'Sudan',
         YE: 'Yeman',
+        KM: 'Comoros',
+        SS: 'South Sudan',
     };
     return map[code];
 }

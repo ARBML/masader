@@ -11,9 +11,10 @@ titles = {
     Access: 'Accessability of datasets',
     Tasks: 'Top 20 tasks in the published Arabic NLP datasets',
     Domain: 'Domains in Arabic NLP datasets',
+    Source: 'Sources of Arabic NLP datasets',
     License: 'Linceses used in Arabic NLP datasets',
     Form: 'Text vs Spoken datasets',
-    Dialects: 'Percetnages of the resources with respect of each country',
+    Dialects: 'Number of resources with respect of each country',
     // 'Dialects Groups': 'Distribution of the resources with respect of each Dialect',
     Venue: 'Venues used to publish NLP datasets',
     'Ethical Risks': 'Ethical risks of Arabic NLP datasets',
@@ -21,7 +22,39 @@ titles = {
 };
 
 function decodeDialect(dialect) {
-    return dialect.split(':')[0].split('-')[1];
+    if (!dialect) return undefined;
+    const dialectToCode = {
+        'Modern Standard Arabic': 'MSA',
+        'Classical Arabic': 'CLS',
+        Egypt: 'EG',
+        'Saudi Arabia': 'SA',
+        'United Arab Emirates': 'AE',
+        Qatar: 'QA',
+        Kuwait: 'KW',
+        Oman: 'OM',
+        Bahrain: 'BH',
+        Yemen: 'YE',
+        Iraq: 'IQ',
+        Syria: 'SY',
+        Lebanon: 'LB',
+        Jordan: 'JO',
+        Palestine: 'PS',
+        Sudan: 'SD',
+        Tunisia: 'TN',
+        Algeria: 'DZ',
+        Morocco: 'MA',
+        Mauritania: 'MR',
+        Libya: 'LY',
+        Somalia: 'SO',
+        Djibouti: 'DJ',
+        Levant: 'LEV',
+        'North Africa': 'NOR',
+        Gulf: 'GLF',
+        mixed: 'mixed',
+        Comoros: 'KM',
+        'South Sudan': 'SS',
+    };
+    return dialectToCode[String(dialect).trim()];
 }
 
 function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
@@ -34,7 +67,11 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
             if (['other', 'unknown', ''].includes(data[index][idx])) continue;
         }
 
-        if (headersWhiteList[idx] == 'Tasks') {
+        if (
+            headersWhiteList[idx] == 'Tasks' ||
+            headersWhiteList[idx] == 'Domain' ||
+            headersWhiteList[idx] == 'Source'
+        ) {
             let tasks = data[index][idx].split(',');
             for (let index = 0; index < tasks.length; index++) {
                 series.push(tasks[index].trim());
@@ -132,6 +169,55 @@ function groupedBar(canvas) {
     myChart = new Chart(canvas, config);
 }
 
+function createDialectVolumeBarChart(groupData, canvas) {
+    let countriesDataset = {};
+    for (const c in groupData) countriesDataset[c] = groupData[c].length;
+
+    let labels = Object.keys(countriesDataset).map((code) =>
+        countryCodeMapper(code)
+    );
+    let counts = Object.values(countriesDataset);
+
+    [counts, labels] = sortArrays([counts, labels]);
+
+    const chartdata = {
+        labels: labels,
+        datasets: [
+            {
+                axis: 'y',
+                label: 'Dialects',
+                data: counts,
+                backgroundColor: palette('tol-dv', counts.length).map(function (
+                    hex
+                ) {
+                    return '#' + hex;
+                }),
+            },
+        ],
+    };
+
+    var config = {
+        type: 'bar',
+        data: chartdata,
+        options: {
+            indexAxis: 'y',
+            plugins: {
+                autocolors: {
+                    mode: 'data',
+                },
+                title: {
+                    display: true,
+                    text: titles['Dialects'],
+                },
+                legend: {
+                    display: false,
+                },
+            },
+        },
+    };
+    myChart = new Chart(canvas, config);
+}
+
 function createChartContaier(title) {
     const container = document.createElement('div');
     container.id = `${title}-container`;
@@ -158,12 +244,12 @@ function createChartContaier(title) {
 
     if (title === 'Venue') groupedBar(canvas);
     else if (title === 'Dialects')
-        createDialectVolumePieChart(
+        createDialectVolumeBarChart(
             getCountriesSubset(dialectedEntries),
             canvas
         );
     // else if (title === 'Dialects Groups')
-    //   createDialectVolumePieChart(getDialectsSubset(dialectedEntries), canvas);
+    //   createDialectVolumeBarChart(getDialectsSubset(dialectedEntries), canvas);
     else if (title === 'Year')
         plotBar(title, canvas, (sorting = false), (truncate = 30));
     else plotBar(title, canvas);
@@ -297,6 +383,7 @@ axios
             'Language',
             'Dialect',
             'Domain',
+            'Source',
             'Form',
             'Ethical Risks',
             'Script',
