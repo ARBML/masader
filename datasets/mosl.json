@@ -1,0 +1,55 @@
+{
+    "Name": "MoSL",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/23phgyt3mt/1",
+    "License": "CC BY 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Morocco",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "videos",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "The MoSL (Moroccan Sign Language) dataset consists of 2,199 videos representing isolated Moroccan Sign Language (MoSL) signs",
+    "Volume": 2199.0,
+    "Unit": "videos",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Shorouk Association for the Deaf and Hard of Hearing"
+    ],
+    "Derived From": [],
+    "Paper Title": "A dataset for Moroccan sign language recognition and translation",
+    "Paper Link": "https://doi.org/10.1016/j.dib.2025.112395",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "sign language recognition"
+    ],
+    "Venue Title": "Data in Brief",
+    "Venue Type": "journal",
+    "Venue Name": "Data in Brief",
+    "Authors": [
+        "Ben Zaid Fatima",
+        "Benaddy Mohamed",
+        "Boukdir Abdelbasset",
+        "El Meslouhi Othmane"
+    ],
+    "Affiliations": [
+        "Ibno Zohr University Agadir",
+        "Cadi Ayad University Marrakech"
+    ],
+    "Abstract": "This paper introduces a new dataset of Moroccan Sign Language (MoSL) that aims for use in sign language recognition and translation research. The dataset has been created by recording 2199 word-level isolated signs by nine native signers in MP4 video format. It covers a broad spectrum of lexical categories like letters, numbers, pronouns, as well as frequently used day-to- day words. Sign language being a visual-gestural means of communication holds not just linguistic importance but also a cultural as well as regional identity. A language like MoSL that holds such significance constitutes a low-resource language with digital representation that can be scraped barely on currently available linguistic datasets. A solution towards this shortage in publicly available resources was found by offering systematically annotated as well as video file-organized datasets by means of an online repository. MoSL dataset thus counts as a useful dataset that can further computer vision as well as natural language processing task-oriented apps in sign language research leading towards more inclusive communication tools for deaf as well as hard-of-hearing populations.",
+    "Added By": "Zaid Alyafeai"
+}
