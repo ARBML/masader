@@ -962,5 +962,10 @@
         "name": "Computation",
         "type": "journal",
         "aliases": []
+    },
+    "Research Square": {
+        "name": "Research Square",
+        "type": "preprint",
+        "aliases": []
     }
 }
