@@ -72,7 +72,7 @@ def normalize_venue(value):
 
 def load_venues():
     data = json.loads(VENUES_FILE.read_text(encoding="utf-8"))
-    return data["venues"]
+    return data
 
 
 def _links(data):
@@ -239,11 +239,13 @@ def main():
 
     venues = load_venues()
     title_lookup = {}  # normalized Venue Title (or alias) -> reference entry
-    for entry in venues:
-        for surface in [entry["title"], *entry.get("aliases", [])]:
+    for canonical_title, entry in venues.items():
+        # The dict key is the canonical title; aliases are listed in the entry.
+        enriched = {**entry, "title": canonical_title}
+        for surface in [canonical_title, *entry.get("aliases", [])]:
             k = normalize_venue(surface)
             if k:
-                title_lookup.setdefault(k, entry)
+                title_lookup.setdefault(k, enriched)
     ctx = {"venue_title_lookup": title_lookup}
 
     findings = []  # {"file", "check", "message"}
