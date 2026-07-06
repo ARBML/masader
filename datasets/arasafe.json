@@ -63,9 +63,7 @@
     "Provider": [
         "QCRI"
     ],
-    "Derived From": [
-        "ArabicQA"
-    ],
+    "Derived From": [],
     "Paper Title": "AraSafe: Benchmarking Safety in Arabic LLMs",
     "Paper Link": "https://aclanthology.org/2025.findings-emnlp.529.pdf",
     "Script": "Arab",
