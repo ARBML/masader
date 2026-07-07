@@ -23,9 +23,7 @@
     ],
     "Form": "text",
     "Annotation Style": [
-        "human annotation",
-        "machine annotation",
-        "LLM annotation"
+        "human annotation"
     ],
     "Description": "A comprehensive dataset of 5,799 Arabic questions for evaluating Large Language Model safety.",
     "Volume": 5799.0,
