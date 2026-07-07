@@ -1,0 +1,60 @@
+{
+    "Name": "OntologyRAG-Q",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/sazani/OntologyRAG-Q",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Classical Arabic",
+    "Source": [
+        "books",
+        "manual construction",
+        "LLM"
+    ],
+    "Domain": [
+        "religion"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "LLM annotation",
+        "human validation",
+        "human annotation"
+    ],
+    "Description": "an annotated Tafsir ontology, a dataset of approximately 4,200 question-answer pairs, and a collection of 15 structured Tafsir books available in two formats",
+    "Volume": 4199.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "KFUPM"
+    ],
+    "Derived From": [],
+    "Paper Title": "OntologyRAG-Q: Resource Development and Benchmarking for Retrieval-Augmented Question Answering in Qur\u2019anic Tafsir",
+    "Paper Link": "https://aclanthology.org/2025.emnlp-main.784.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "question answering",
+        "retrieval-augmented generation"
+    ],
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
+    "Authors": [
+        "Sadam Al-Azani",
+        "Maad Alowifeer",
+        "Alhanoof Alhunief",
+        "Ahmed Abdelali"
+    ],
+    "Affiliations": [
+        "KFUPM",
+        "HUMAIN"
+    ],
+    "Abstract": "This paper introduces essential resources for Qur\u2019anic studies: an annotated Tafsir ontology, a dataset of approximately 4,200 question-answer pairs, and a collection of 15 structured Tafsir books available in two formats. We present a comprehensive framework for handling sensitive Qur\u2019anic Tafsir data that spans the entire pipeline from dataset construction through evaluation and error analysis. Our work establishes new benchmarks for retrieval and question-answering tasks on Qur\u2019anic content, comparing performance across state-of-the-art embedding models and large language models (LLMs). We introduce OntologyRAG-Q, a novel retrieval-augmented generation approach featuring our custom Ayat-Ontology chunking method that segments Tafsir content at the verse level using ontology-driven structure. Benchmarking reveals strong performance across various LLMs, with GPT-4 achieving the highest results, followed closely by ALLaM. Expert evaluations show our system achieves 69.52% accuracy and 74.36% correctness overall, though multi-hop and context-dependent questions remain challenging. Our analysis demonstrates that answer position within documents significantly impacts retrieval performance, and among the evaluation metrics tested, BERT-recall and BERT-F1 correlate most strongly with expert assessments. The resources developed in this study are publicly available at https://github.com/sazani/OntologyRAG-Q.git.",
+    "Added By": "Zaid Alyafeai"
+}
