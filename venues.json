@@ -967,5 +967,10 @@
         "name": "Research Square",
         "type": "preprint",
         "aliases": []
+    },
+    "Electronics": {
+        "name": "Electronics",
+        "type": "journal",
+        "aliases": []
     }
 }
