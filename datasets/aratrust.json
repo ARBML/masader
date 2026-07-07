@@ -1,0 +1,72 @@
+{
+    "Name": "AraTrust",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/asas-ai/AraTrust",
+    "Link": "https://huggingface.co/datasets/asas-ai/AraTrust",
+    "License": "MIT License",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "web pages",
+        "LLM",
+        "books"
+    ],
+    "Domain": [
+        "health",
+        "politics",
+        "society",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation",
+        "LLM annotation"
+    ],
+    "Description": "The first comprehensive trustworthiness benchmark for Arabic LLMs.",
+    "Volume": 522.0,
+    "Unit": "sentences",
+    "Ethical Risks": "High",
+    "Provider": [
+        "ASAS AI"
+    ],
+    "Derived From": [
+        "Arabic Hate Speech dataset"
+    ],
+    "Paper Title": "AraTrust: An Evaluation of Trustworthiness for LLMs in Arabic",
+    "Paper Link": "https://aclanthology.org/2025.coling-main.579.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "multiple choice question answering",
+        "safety evaluation"
+    ],
+    "Venue Title": "COLING",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Computational Linguistics",
+    "Authors": [
+        "Emad A. Alghamdi",
+        "Reem I. Masoud",
+        "Deema Alnuhait",
+        "Afnan Y. Alomairi",
+        "Ahmed Ashraf",
+        "Mohamed Zaytoon"
+    ],
+    "Affiliations": [
+        "ASAS AI",
+        "King Abdulaziz University",
+        "University College London",
+        "University of Illinois Urbana-Champaign",
+        "King Fahd University of Petroleum and Minerals",
+        "Alexandria University"
+    ],
+    "Abstract": "The swift progress and widespread acceptance\nof artificial intelligence (AI) systems highlight\na pressing requirement to comprehend both the\ncapabilities and potential risks associated with\nAI. Given the linguistic complexity, cultural\nrichness, and underrepresented status of Ara-\nbic in AI research, there is a pressing need to\nfocus on Large Language Models (LLMs) per-\nformance and safety for Arabic related tasks.\nDespite some progress in their development,\nthere is a lack of comprehensive trustworthi-\nness evaluation benchmarks which presents a\nmajor challenge in accurately assessing and im-\nproving the safety of LLMs when prompted in\nArabic. In this paper, we introduce AraTrust 1,\nthe first comprehensive trustworthiness bench-\nmark for LLMs in Arabic. AraTrust comprises\n522 human-written multiple-choice questions\naddressing diverse dimensions related to truth-\nfulness, ethics, privacy, illegal activities, men-\ntal health, physical health, unfairness, and\noffensive language. We evaluated a set of\nLLMs against our benchmark to assess their\ntrustworthiness. GPT-4 was the most trustwor-\nthy LLM, while open-source models, particu-\nlarly AceGPT 7B and Jais 13B, struggled to\nachieve a score of 60% in our benchmark.",
+    "Added By": "Zaid Alyafeai"
+}

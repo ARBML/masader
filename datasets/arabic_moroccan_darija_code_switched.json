@@ -1,0 +1,69 @@
+{
+    "Name": "Arabic-Moroccan Darija Code-Switched ",
+    "Dialect Subsets": [
+        {
+            "Name": "Moroccan Darija",
+            "Volume": 76732.0,
+            "Unit": "tokens",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Modern Standard Arabic",
+            "Volume": 109025.0,
+            "Unit": "tokens",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/samihyounes/Moroccan-Codeswitching",
+    "Link": "https://huggingface.co/datasets/samihyounes/Moroccan-Codeswitching",
+    "License": "Apache-2.0",
+    "Year": 2016,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "web pages",
+        "commentary"
+    ],
+    "Domain": [
+        "politics",
+        "religion",
+        "sports",
+        "economics"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic-Moroccan Darija Code-Switched Corpus from blogs and forums.",
+    "Volume": 222881.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "University of D\u00fcsseldorf"
+    ],
+    "Derived From": [],
+    "Paper Title": "An Arabic-Moroccan Darija Code-Switched Corpus",
+    "Paper Link": "https://aclanthology.org/L16-1658.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "codeswitch detection"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": [
+        "Younes Samih",
+        "Wolfgang Maier"
+    ],
+    "Affiliations": [
+        "Institute for Language and Information, University of D\u00fcsseldorf"
+    ],
+    "Abstract": "In multilingual communities, speakers often switch between languages or dialects within the same context. This phenomenon is called code-switching. It can be observed, e.g., in the Arab world, where Modern Standard Arabic and Dialectal Arabic coexist. Recently, the computational treatment of code-switching has received attention. Just as other natural language processing tasks, this task requires annotated linguistic resources. In our work, we turn to a particular under-resourced Arabic Dialect, Moroccan Darija. While other dialects such as Egyptian Arabic have received their share of attention, very limited effort has been devoted to the development of basic linguistic resources that would support a computational treatment of Darija. Motivated by these considerations, we describe our effort in the development and annotation of a large scale corpus collected from Moroccan social media sources, namely blogs and internet discussion forums. It has been annotated on token-level by three Darija native speakers. Crowd-sourcing has not been used. The final corpus has a size of 223k tokens. It is, to our knowledge, currently the largest resource of its kind.",
+    "Added By": "Zaid Alyafeai"
+}
