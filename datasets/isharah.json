@@ -1,0 +1,64 @@
+{
+    "Name": "Isharah",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://snalyami.github.io/Isharah_CSLR/",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Saudi Arabia",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "finance",
+        "education",
+        "health",
+        "general"
+    ],
+    "Form": "videos",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Large-scale multi-scene Saudi Sign Language dataset for continuous sign language recognition.",
+    "Volume": 30000.0,
+    "Unit": "videos",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Fahd University of Petroleum & Minerals"
+    ],
+    "Derived From": [
+        "CSL-Daily",
+        "SIGNUM",
+        "Continuous GrSL"
+    ],
+    "Paper Title": "Isharah: A Large-Scale Multi-Scene Dataset for Continuous Sign Language Recognition",
+    "Paper Link": "https://arxiv.org/pdf/2506.03615.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "sign language recognition"
+    ],
+    "Venue Title": "TMM",
+    "Venue Type": "journal",
+    "Venue Name": "IEEE Transactions on Multimedia",
+    "Authors": [
+        "Sarah Alyami",
+        "Hamzah Luqman",
+        "Sadam Al-Azani",
+        "Maad Alowaifeer",
+        "Yazeed Alharbi",
+        "Yaser Alonaizan"
+    ],
+    "Affiliations": [
+        "King Fahd University of Petroleum & Minerals",
+        "SDAIA"
+    ],
+    "Abstract": "Current benchmarks for sign language recognition (SLR) focus mainly on isolated SLR, while there are limited datasets for continuous SLR (CSLR), which recognizes sequences of signs in a video. Additionally, existing CSLR datasets are collected in controlled settings, which restricts their effectiveness in building robust real-world CSLR systems. To address these limitations, we present Isharah, a large multi-scene dataset for CSLR. It is the first dataset of its type and size that has been collected in an unconstrained environment using signers' smartphone cameras. This setup resulted in high variations of recording settings, camera distances, angles, and resolutions. This variation helps with developing sign language understanding models capable of handling the variability and complexity of real-world scenarios. The dataset consists of 30,000 video clips performed by 18 deaf and professional signers. Additionally, the dataset is linguistically rich as it provides a gloss-level annotation for all dataset's videos, making it useful for developing CSLR and sign language translation (SLT) systems. This paper also introduces multiple sign language understanding benchmarks, including signer-independent and unseen-sentence CSLR, along with gloss-based and gloss-free SLT. The Isharah dataset is available on https://snalyami.github.io/Isharah_CSLR/",
+    "Added By": "Zaid Alyafeai"
+}
