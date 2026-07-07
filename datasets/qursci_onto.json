@@ -1,0 +1,60 @@
+{
+    "Name": "QurSci-Onto",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/Ebad-urRehman/QurSci-Onto",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Classical Arabic",
+    "Source": [
+        "books"
+    ],
+    "Domain": [
+        "religion"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation"
+    ],
+    "Description": "A hierarchical ontology and dataset for scientific exegesis (Tafsir Ilmi) in the Quran.",
+    "Volume": 194.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "KFUPM"
+    ],
+    "Derived From": [],
+    "Paper Title": "QurSci-Onto: A Hierarchical Ontology and Dataset for Scientific Exegesis in the Quran",
+    "Paper Link": "https://aclanthology.org/2026.abjadnlp-1.22.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "information retrieval",
+        "question answering",
+        "text classification",
+        "retrieval-augmented generation"
+    ],
+    "Venue Title": "AbjadNLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on NLP for Languages Using Arabic Script",
+    "Authors": [
+        "Ibad-ur-Rehman Rashid",
+        "Junaid Hussain",
+        "Sadam Al-Azani"
+    ],
+    "Affiliations": [
+        "Government Post Graduate College Mansehra",
+        "Hazara University",
+        "SDAIA-KFUPM Joint Research Center for Artificial Intelligence",
+        "King Fahd University of Petroleum & Minerals"
+    ],
+    "Abstract": "This paper introduces resources for the computational study of scientific exegesis (Tafsir Ilmi): a structured ontology, a curated dataset of 194 scientifically relevant Quranic verses linked to 260 exegetical records from two authoritative Tafsir books, and an annotation framework that organizes scientific references by topic and sequential context. Existing Quranic resources treat verses as unstructured text, losing the logical order and causal relationships of scientific concepts documented in exegesis. To address this, we present QurSci-Onto, a three-layer ontology that categorizes verses by scientific domain, links them to authoritative Tafsir, and provides a framework for representing sequential processes through stage-based annotations. Our dataset includes page-level citations and covers 8 major scientific topics across 73 nodes. While the full corpus is tagged with broad categories and scientific topics, a specialized subset features granular node-level mappings to capture complex scientific narratives. We release QurSci-Onto as a foundational resource for Arabic semantic NLP and demonstrate that it enables significant improvements in semantic retrieval and enables multi-hop sequential reasoning capabilities over unstructured baselines.",
+    "Added By": "Zaid Alyafeai"
+}
