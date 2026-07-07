@@ -71,7 +71,7 @@
     "Host": "GitHub",
     "Access": "Free",
     "Cost": "",
-    "Has Splits": true,
+    "Has Splits": false,
     "Partial": false,
     "Tasks": [
         "safety evaluation"
