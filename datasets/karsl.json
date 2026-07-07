@@ -1,0 +1,57 @@
+{
+    "Name": "KArSL",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://hamzah-luqman.github.io/KArSL/",
+    "License": "unknown",
+    "Year": 2021,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "studio recordings"
+    ],
+    "Domain": [
+        "health",
+        "religion",
+        "society",
+        "general"
+    ],
+    "Form": "videos",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic Sign Language database with 502 signs. Each signer repeated each sign 50 times, which resulted in a total of 75,300 samples of the whole database (502 \u00d7 3 \u00d7 50)",
+    "Volume": 75300.0,
+    "Unit": "videos",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "KFUPM"
+    ],
+    "Derived From": [],
+    "Paper Title": "KArSL: Arabic Sign Language Database",
+    "Paper Link": "https://dl.acm.org/doi/pdf/10.1145/3423420",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "sign language recognition"
+    ],
+    "Venue Title": "TALLIP",
+    "Venue Type": "journal",
+    "Venue Name": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "Authors": [
+        "Alaaddin I. Sidig",
+        "Hamzah Luqman",
+        "Sabri Mahmoud",
+        "Mohamed Mohandes"
+    ],
+    "Affiliations": [
+        "King Fahd University of Petroleum and Minerals"
+    ],
+    "Abstract": "Sign language is the major means of communication for the deaf community. It uses body language and\ngestures such as hand shapes, lib patterns, and facial expressions to convey a message. Sign language is\ngeography-specific, as it differs from one country to another. Arabic Sign language is used in all Arab coun-\ntries. The availability of a comprehensive benchmarking database for ArSL is one of the challenges of the\nautomatic recognition of Arabic Sign language. This article introduces KArSL database for ArSL, consisting\nof 502 signs that cover 11 chapters of ArSL dictionary. Signs in KArSL database are performed by three profes-\nsional signers, and each sign is repeated 50 times by each signer. The database is recorded using state-of-art\nmulti-modal Microsoft Kinect V2. We also propose three approaches for sign language recognition using this\ndatabase. The proposed systems are Hidden Markov Models, deep learning images\u2019 classification model ap-\nplied on an image composed of shots of the video of the sign, and attention-based deep learning captioning\nsystem. Recognition accuracies of these systems indicate their suitability for such a large number of Arabic\nsigns. The techniques are also tested on a publicly available database. KArSL database will be made freely\navailable for interested researchers.",
+    "Added By": "Zaid Alyafeai"
+}
