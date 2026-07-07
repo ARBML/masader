@@ -1,0 +1,52 @@
+{
+    "Name": "mArSL",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://hamzah-luqman.github.io/marsl/",
+    "License": "unknown",
+    "Year": 2021,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "studio recordings"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "videos",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "A multi-modality Arabic Sign Language dataset with manual and non-manual gestures.",
+    "Volume": 6748.0,
+    "Unit": "videos",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "King Fahd University of Petroleum and Minerals"
+    ],
+    "Derived From": [],
+    "Paper Title": "Towards Hybrid Multimodal Manual and Non-Manual Arabic Sign Language Recognition: mArSL Database and Pilot Study",
+    "Paper Link": "https://www.mdpi.com/2079-9292/10/14/1739/pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "sign language recognition"
+    ],
+    "Venue Title": "Electronics",
+    "Venue Type": "journal",
+    "Venue Name": "Electronics",
+    "Authors": [
+        "Hamzah Luqman",
+        "El-Sayed M. El-Alfy"
+    ],
+    "Affiliations": [
+        "King Fahd University of Petroleum and Minerals"
+    ],
+    "Abstract": "Sign languages are the main visual communication medium between hard-hearing people and their societies. Similar to spoken languages, they are not universal and vary from region to region, but they are relatively under-resourced. Arabic sign language (ArSL) is one of these languages that has attracted increasing attention in the research community. However, most of the existing and available works on sign language recognition systems focus on manual gestures, ignoring other non-manual information needed for other language signals such as facial expressions. One of the main challenges of not considering these modalities is the lack of suitable datasets. In this paper, we propose a new multi-modality ArSL dataset that integrates various types of modalities. It consists of 6748 video samples of fifty signs performed by four signers and collected using Kinect V2 sensors. This dataset will be freely available for researchers to develop and benchmark their techniques for further advancement of the field. In addition, we evaluated the fusion of spatial and temporal features of different modalities, manual and non-manual, for sign language recognition using the state-of-the-art deep learning techniques. This fusion boosted the accuracy of the recognition system at the signer-independent mode by 3.6% compared with manual gestures.",
+    "Added By": "Zaid Alyafeai"
+}
