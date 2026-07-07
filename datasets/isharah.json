@@ -1,13 +1,6 @@
 {
     "Name": "Isharah",
-    "Dialect Subsets": [
-        {
-            "Name": "Isharah",
-            "Volume": 30000.0,
-            "Unit": "sentences",
-            "Dialect": "Saudi Arabia"
-        }
-    ],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://snalyami.github.io/Isharah_CSLR/",
     "License": "unknown",
@@ -51,9 +44,9 @@
     "Tasks": [
         "sign language recognition"
     ],
-    "Venue Title": "arXiv",
-    "Venue Type": "preprint",
-    "Venue Name": "arXiv",
+    "Venue Title": "TMM",
+    "Venue Type": "journal",
+    "Venue Name": "IEEE Transactions on Multimedia",
     "Authors": [
         "Sarah Alyami",
         "Hamzah Luqman",
