@@ -972,5 +972,10 @@
         "name": "Electronics",
         "type": "journal",
         "aliases": []
+    },
+    "TMM": {
+        "name": "IEEE Transactions on Multimedia",
+        "type": "journal",
+        "aliases": []
     }
 }
