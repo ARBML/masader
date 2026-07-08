@@ -116,7 +116,7 @@
     "Paper Link": "https://arxiv.org/pdf/2605.00119.pdf",
     "Script": "Arab",
     "Tokenized": false,
-    "Host": "other",
+    "Host": "HuggingFace",
     "Access": "Free",
     "Cost": "",
     "Has Splits": false,
