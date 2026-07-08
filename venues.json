@@ -977,5 +977,10 @@
         "name": "IEEE Transactions on Multimedia",
         "type": "journal",
         "aliases": []
+    },
+    "AEJ": {
+        "name": "Alexandria Engineering Journal",
+        "type": "journal",
+        "aliases": []
     }
 }
