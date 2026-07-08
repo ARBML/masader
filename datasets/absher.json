@@ -1,43 +1,6 @@
 {
     "Name": "Absher",
-    "Dialect Subsets": [
-        {
-            "Name": "Central",
-            "Volume": 5652.0,
-            "Unit": "sentences",
-            "Dialect": "Saudi Arabia"
-        },
-        {
-            "Name": "Western",
-            "Volume": 5262.0,
-            "Unit": "sentences",
-            "Dialect": "Saudi Arabia"
-        },
-        {
-            "Name": "Southern",
-            "Volume": 2682.0,
-            "Unit": "sentences",
-            "Dialect": "Saudi Arabia"
-        },
-        {
-            "Name": "Northern",
-            "Volume": 414.0,
-            "Unit": "sentences",
-            "Dialect": "Saudi Arabia"
-        },
-        {
-            "Name": "Eastern",
-            "Volume": 216.0,
-            "Unit": "sentences",
-            "Dialect": "Saudi Arabia"
-        },
-        {
-            "Name": "General",
-            "Volume": 4338.0,
-            "Unit": "sentences",
-            "Dialect": "Saudi Arabia"
-        }
-    ],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Renad10/Absher-Benchmark",
     "Link": "https://github.com/renad-01/Absher-Benchmark",
     "License": "CC BY 4.0",
