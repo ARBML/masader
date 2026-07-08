@@ -1,0 +1,59 @@
+{
+    "Name": "HalluVerse25",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/sabdalja/HalluVerse3",
+    "Link": "https://huggingface.co/datasets/sabdalja/HalluVerse3",
+    "License": "CC BY-NC 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "wikipedia"
+    ],
+    "Domain": [
+        "politics",
+        "culture",
+        "science",
+        "art"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "LLM annotation",
+        "human validation",
+        "human annotation"
+    ],
+    "Description": "Fine-grained multilingual LLM hallucination dataset for English, Arabic, and Turkish.",
+    "Volume": 828.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [],
+    "Paper Title": "HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations",
+    "Paper Link": "https://arxiv.org/pdf/2503.07833.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "hallucination detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Samir Abdaljalil",
+        "Hasan Kurban",
+        "Erchin Serpedin"
+    ],
+    "Affiliations": [
+        "Texas A&M University",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "Large Language Models (LLMs) are increasingly used in various contexts, yet remain prone to generating non-factual content, commonly referred to as \u201challucinations\u201d. The literature categorizes hallucinations into several types, including entity-level, relation-level, and sentence-level hallucinations. However, existing hallucination datasets often fail to capture fine-grained hallucinations in multilingual settings. In this work, we introduce HalluVerse25, a multilingual LLM hallucination dataset that categorizes fine-grained hallucinations in English, Arabic, and Turkish. Our dataset construction pipeline uses an LLM to inject hallucinations into factual biographical sentences, followed by a rigorous human annotation process to ensure data quality. We evaluate several LLMs on HalluVerse25, providing valuable insights into how proprietary models perform in detecting LLM-generated hallucinations across different contexts.",
+    "Added By": "Zaid Alyafeai"
+}
