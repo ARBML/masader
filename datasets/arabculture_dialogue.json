@@ -1,0 +1,156 @@
+{
+    "Name": "ArabCulture-Dialogue",
+    "Dialect Subsets": [
+        {
+            "Name": "Algeria",
+            "Volume": 271.0,
+            "Unit": "conversations",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "Libya",
+            "Volume": 239.0,
+            "Unit": "conversations",
+            "Dialect": "Libya"
+        },
+        {
+            "Name": "Morocco",
+            "Volume": 276.0,
+            "Unit": "conversations",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Tunisia",
+            "Volume": 250.0,
+            "Unit": "conversations",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Egypt",
+            "Volume": 265.0,
+            "Unit": "conversations",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Sudan",
+            "Volume": 256.0,
+            "Unit": "conversations",
+            "Dialect": "Sudan"
+        },
+        {
+            "Name": "Jordan",
+            "Volume": 290.0,
+            "Unit": "conversations",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "Lebanon",
+            "Volume": 255.0,
+            "Unit": "conversations",
+            "Dialect": "Lebanon"
+        },
+        {
+            "Name": "Palestine",
+            "Volume": 273.0,
+            "Unit": "conversations",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "Syria",
+            "Volume": 279.0,
+            "Unit": "conversations",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "KSA",
+            "Volume": 261.0,
+            "Unit": "conversations",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "UAE",
+            "Volume": 283.0,
+            "Unit": "conversations",
+            "Dialect": "United Arab Emirates"
+        },
+        {
+            "Name": "Yemen",
+            "Volume": 273.0,
+            "Unit": "conversations",
+            "Dialect": "Yemen"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/Almheiri/ArabCulture-Dialogue",
+    "Link": "https://huggingface.co/datasets/Almheiri/ArabCulture-Dialogue",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "manual construction",
+        "LLM",
+        "public datasets"
+    ],
+    "Domain": [
+        "culture",
+        "art",
+        "society"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation",
+        "LLM annotation"
+    ],
+    "Description": "Parallel MSA-dialect cultural dialogue dataset covering 13 Arab countries across 12 topics.",
+    "Volume": 3471.0,
+    "Unit": "conversations",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "MBZUAI"
+    ],
+    "Derived From": [
+        "ArabCulture"
+    ],
+    "Paper Title": "Cultural Benchmarking of LLMs in Standard and Dialectal Arabic Dialogues",
+    "Paper Link": "https://arxiv.org/pdf/2605.00119.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "dialogue generation",
+        "instruction tuning"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Muhammad Dehan Al Kautsar",
+        "Saeed Almheiri",
+        "Momina Ahsan",
+        "Bilal Elbouardi",
+        "Younes Samih",
+        "Sarfraz Ahmad",
+        "Amr Keleg",
+        "Omar El Herraoui",
+        "Kareem Elzeky",
+        "Abed Alhakim Freihat",
+        "Mohamed Anwar",
+        "Zhuohan Xie",
+        "Junhong Liang",
+        "Mohammad Rustom Al Nasar",
+        "Preslav Nakov",
+        "Fajri Koto"
+    ],
+    "Affiliations": [
+        "Mohamed bin Zayed University of Artificial Intelligence",
+        "IBM Research AI",
+        "American University in the Emirates"
+    ],
+    "Abstract": "There is a significant gap in evaluating cultural reasoning in LLMs using conversational datasets that capture culturally rich and dialectal contexts. Most Arabic benchmarks focus on short text snippets in Modern Standard Arabic (MSA), overlooking the cultural nuances that naturally arise in dialogues. To address this gap, we introduce ArabCulture-Dialogue, a culturally grounded conversational dataset covering 13 Arabic-speaking countries, in both MSA and each country\u2019s respective dialect, spanning 12 daily-life topics and 54 fine-grained subtopics. We utilize the dataset to form three benchmarking tasks: (i) multiple-choice cultural reasoning, (ii) machine translation between MSA and dialects, and (iii) dialect-steering generation. Our experiments indicate that the performance gap between MSA and Arabic dialects still exists, whereby the models perform worse on all three tasks in the dialectal setup, compared to the MSA one.",
+    "Added By": "Zaid Alyafeai"
+}
