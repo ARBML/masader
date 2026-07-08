@@ -1,13 +1,6 @@
 {
     "Name": "MAWARITH",
-    "Dialect Subsets": [
-        {
-            "Name": "MAWARITH",
-            "Volume": 12500.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://gitlab.com/nlpresearcher/mawarith",
     "License": "unknown",
