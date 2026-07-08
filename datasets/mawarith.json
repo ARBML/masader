@@ -1,0 +1,70 @@
+{
+    "Name": "MAWARITH",
+    "Dialect Subsets": [
+        {
+            "Name": "MAWARITH",
+            "Volume": 12500.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://gitlab.com/nlpresearcher/mawarith",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "law",
+        "religion"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation",
+        "LLM annotation"
+    ],
+    "Description": "Large-scale annotated dataset of 12,500 Arabic inheritance cases for legal reasoning.",
+    "Volume": 12500.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Hamad Bin Khalifa University",
+        "Nazarbayev University"
+    ],
+    "Derived From": [],
+    "Paper Title": "MAWARITH: A Dataset and Benchmark for Legal Inheritance Reasoning with LLMs",
+    "Paper Link": "https://arxiv.org/pdf/2603.07539.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitLab",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Abdessalam Bouchekif",
+        "Shahd Gaben",
+        "Samer Rashwani",
+        "Somaya Eltanbouly",
+        "Mutaz Al-Khatib",
+        "Heba Sbahi",
+        "Mohammed Ghaly",
+        "Emad Mohamed"
+    ],
+    "Affiliations": [
+        "Hamad Bin Khalifa University",
+        "Nazarbayev University"
+    ],
+    "Abstract": "Islamic inheritance law (u02bfilm al-mawu0101ru012bth) is challenging for large language models because solving inheritance cases requires complex, structured, multi-step reasoning and the correct application of juristic rules to compute heirsu2019 shares. We introduce MAWARITH, a large-scale annotated dataset of 12,500 Arabic inheritance cases for training and evaluating models on the full reasoning chain: (i) identifying eligible heirs, (ii) applying blocking (u1e25ajb) and allocation rules, and (iii) computing exact inheritance shares. To the best of our knowledge, MAWARITH is the first Arabic corpus and benchmark designed for end-to-end Islamic inheritance reasoning. Unlike prior datasets that restrict inheritance case solving to multiple-choice questions, MAWARITH supports the full reasoning chain and provides step-by-step solutions with justifications grounded in classical juristic sources and established inheritance rules, as well as exact share calculations. This enables models to learn how to generate detailed, step-by-step responses to user queries that reflect real-world Islamic inheritance cases. To evaluate models beyond final-answer accuracy, we propose MIR-E (Mawarith Inheritance Reasoning Evaluation), a weighted multi-stage metric that scores key reasoning stages and captures error propagation across the pipeline. We evaluate six large language models in a zero-shot setting. A commercial model achieves about 90%, whereas all evaluated open-source models remain below 50%. Our error analysis identifies recurring failure patterns, including scenario misinterpretation, errors in heir identification, errors in share allocation, and missing or incorrect application of key inheritance rules such as u02bfawl and radd. The MAWARITH dataset is publicly available at https://gitlab.com/nlpresearcher/mawarith.",
+    "Added By": "Zaid Alyafeai"
+}
