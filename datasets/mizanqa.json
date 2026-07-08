@@ -1,0 +1,55 @@
+{
+    "Name": "MizanQA",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/adlbh/MizanQA-v0",
+    "Link": "https://huggingface.co/datasets/adlbh/MizanQA-v0",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Morocco",
+    "Source": [
+        "web pages"
+    ],
+    "Domain": [
+        "law"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human validation",
+        "machine annotation",
+        "human annotation"
+    ],
+    "Description": "MizanQA is the first benchmark designed to evaluate large language models (LLMs) on Moroccan legal question answering tasks.",
+    "Volume": 1769.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Mohammed VI Polytechnic University"
+    ],
+    "Derived From": [],
+    "Paper Title": "MizanQA: Benchmarking Large Language Models on Moroccan Legal Question Answering",
+    "Paper Link": "https://aclanthology.org/2026.eacl-industry.10.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "question answering",
+        "multiple choice question answering"
+    ],
+    "Venue Title": "EACL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the European Chapter of the Association for Computational Linguistics",
+    "Authors": [
+        "Adil Bahaj",
+        "Mounir Ghogho"
+    ],
+    "Affiliations": [
+        "Mohammed VI Polytechnic University"
+    ],
+    "Abstract": "The rapid advancement of large language models (LLMs) has significantly propelled progress in natural language processing (NLP). However, their effectiveness in specialized, low-resourced domains\u2014such as Arabic legal contexts\u2014remains limited. This paper introduces MizanQA, a benchmark designed to evaluate LLMs on Moroccan legal question answering (QA) tasks, characterised by rich linguistic and legal complexity. The dataset draws on Modern Standard Arabic, Islamic Maliki jurisprudence, Moroccan customary law, and French legal influences. Comprising over 1,700 multiple-choice questions, including multi-answer formats, MizanQA captures the nuances of authentic legal reasoning. Benchmarking experiments with multilingual and Arabic-focused LLMs reveal substantial performance gaps, highlighting the need for tailored evaluation metrics and culturally grounded, domain-specific LLM development.",
+    "Added By": "Zaid Alyafeai"
+}
