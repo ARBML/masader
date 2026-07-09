@@ -1,13 +1,6 @@
 {
     "Name": "AraHalluEval",
-    "Dialect Subsets": [
-        {
-            "Name": "Subset (XLSum)",
-            "Volume": 100.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
+    "Dialect Subsets": [],
     "HF Link": "",
     "Link": "https://github.com/aishaalansari57/AraHalluEval",
     "License": "unknown",
