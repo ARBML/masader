@@ -1,0 +1,58 @@
+{
+    "Name": "AraHalluEval",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/aishaalansari57/AraHalluEval",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "A fine-grained hallucination evaluation framework for Arabic LLMs covering GQA and summarization.",
+    "Volume": 400.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "KFUPM"
+    ],
+    "Derived From": [
+        "Tydiqa-goldp-ar",
+        "TruthfulQA",
+        "XLSum"
+    ],
+    "Paper Title": "AraHalluEval: A Fine-grained Hallucination Evaluation Framework for Arabic LLMs",
+    "Paper Link": "https://aclanthology.org/2025.arabicnlp-main.12.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "question answering",
+        "summarization",
+        "hallucination detection"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Aisha Alansari",
+        "Hamzah Luqman"
+    ],
+    "Affiliations": [
+        "KFUPM"
+    ],
+    "Abstract": "Recently, extensive research on the hallucination of the large language models (LLMs) has mainly focused on the English language. Despite the growing number of multilingual and Arabic-specific LLMs, evaluating LLMs\u2019 hallucination in the Arabic context remains relatively underexplored. The knowledge gap is particularly pressing given Arabic\u2019s widespread use across many regions and its importance in global communication and media. This paper presents the first comprehensive hallucination evaluation of Arabic and multilingual LLMs on two critical Arabic natural language generation tasks: generative question answering (GQA) and summarization. This study evaluates a total of 12 LLMs, including 4 Arabic pre-trained models, 4 multilingual models, and 4 reasoning-based models. To assess the factual consistency and faithfulness of LLMs\u2019 outputs, we developed a fine-grained hallucination evaluation framework consisting of 12 fine-grained hallucination indicators that represent the varying characteristics of each task. The results reveal that factual hallucinations are more prevalent than faithfulness errors across all models and tasks. Notably, the Arabic pre-trained model Allam consistently demonstrates lower hallucination rates than multilingual models and a comparative performance with reasoning-based models. The code is available at: https://github.com/aishaalansari57/AraHalluEval",
+    "Added By": "Zaid Alyafeai"
+}
