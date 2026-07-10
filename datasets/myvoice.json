@@ -1,0 +1,52 @@
+{
+    "Name": "MyVoice",
+    "Volume": 0.0,
+    "Unit": "hours",
+    "License": "unknown",
+    "Link": "https://myvoice.arabicspeech.org/",
+    "HF_Link": "",
+    "Year": 2023,
+    "Domain": [
+        "other"
+    ],
+    "Form": "audio",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "Crowdsourcing platform for Arabic speech collection.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Qatar Computing Research Institute",
+        "HBKU"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "MyVoice: Arabic Speech Resource Collaboration Platform",
+    "Paper_Link": "https://arxiv.org/pdf/2308.02503v1.pdf",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "other",
+    "Venue_Name": "",
+    "Authors": [
+        "Yousseif Elshahawy",
+        "Yassine ElKheir",
+        "Shammur Absar Chowdhury",
+        "Ahmed Ali"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "HBKU"
+    ],
+    "Abstract": "We introduce MyVoice, a crowdsourcing platform designed to collect Arabic speech to enhance dialectal speech technologies. This platform offers an opportunity to design large dialectal speech datasets; and makes them publicly available. MyVoice allows contributors to select city/country-level fine-grained dialect and record the displayed utterances. Users can switch roles between contributors and annotators. The platform incorporates a quality assurance system that filters out low-quality and spurious recordings before sending them for validation. During the validation phase, contributors can assess the quality of recordings, annotate them, and provide feedback which is then reviewed by administrators. Furthermore, the platform offers flexibility to admin roles to add new data or tasks beyond dialectal speech and word collection, which are displayed to contributors. Thus, enabling collaborative efforts in gathering diverse and large Arabic speech data.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
