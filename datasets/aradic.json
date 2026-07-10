@@ -1,0 +1,50 @@
+{
+    "Name": "AraDIC",
+    "Volume": 486175.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/mahmouddaif/AraDIC",
+    "HF_Link": "",
+    "Year": 2019,
+    "Domain": [
+        "wikipedia",
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling"
+    ],
+    "Description": "Image-based Arabic text classification framework",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Hosei University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss",
+    "Paper_Link": "https://aclanthology.org/2020.acl-srw.29.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "text classification"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
+    "Authors": [
+        "Mahmoud Daif",
+        "Shunsuke Kitada",
+        "Hitoshi Iyatomi"
+    ],
+    "Affiliations": [
+        "Hosei University"
+    ],
+    "Abstract": "Classical and some deep learning techniques for Arabic text classification often depend on complex morphological analysis, word segmentation, and hand-crafted feature engineering. These could be eliminated by using character-level features. We propose a novel end-to-end Arabic document classification framework, Arabic document image-based classifier (AraDIC), inspired by the work on image-based character embeddings. AraDIC consists of an image-based character encoder and a classifier. They are trained in an end-to-end fashion using the class balanced loss to deal with the long-tailed data distribution problem. To evaluate the effectiveness of AraDIC, we created and published two datasets, the Arabic Wikipedia title (AWT) dataset and the Arabic poetry (AraP) dataset. To the best of our knowledge, this is the first image-based character embedding framework addressing the problem of Arabic text classification. We also present the first deep learning-based text classifier widely evaluated on modern standard Arabic, colloquial Arabic and classical Arabic. AraDIC shows performance improvement over classical and deep learning baselines by 12.29% and 23.05% for the micro and macro F-score, respectively.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
