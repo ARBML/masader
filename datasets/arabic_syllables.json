@@ -1,0 +1,56 @@
+{
+    "Name": "arabic-syllables",
+    "Volume": 46244.0,
+    "Unit": "tokens",
+    "License": "unknown",
+    "Link": "unknown",
+    "HF_Link": "unknown",
+    "Year": 2026,
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "IPA dataset of Arabic syllables from Wiktionary.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Stony Brook University",
+        "NYU Abu Dhabi"
+    ],
+    "Derived_From": [
+        "Wiktionary"
+    ],
+    "Paper_Title": "Syllable Structures Across Arabic Varieties",
+    "Paper_Link": "https://aclanthology.org/2026.vardial-1.21.pdf",
+    "Tokenized": false,
+    "Host": "unknown",
+    "Access": "Free",
+    "Cost": "0",
+    "Test_Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "VarDial",
+    "Venue_Type": "workshop",
+    "Venue_Name": "VarDial",
+    "Authors": [
+        "Abdelrahim Qaddoumi",
+        "Jordan Kodner",
+        "Salam Khalifa",
+        "Ellen Broselow",
+        "Owen Rambow"
+    ],
+    "Affiliations": [
+        "Stony Brook University",
+        "NYU Abu Dhabi"
+    ],
+    "Abstract": "Word da.ras.ha # dar.ras # drUs # dars Structure Cv.CvC.Cv # CvC.CvC # CCVC # CvCC This study compares the syllable structures of nine Arabic varieties from Wiktionary, using a computational syllabifier. It further investigates methods for learning syllable boundaries in unsyllabified words transcribed in the International Phonetic Alphabet (IPA). The syllabification algorithm is evaluated under three conditions: (i) Default, employing fixed rules; (ii) Joint, learning onsets and codas across all varieties collectively; and (iii) Per-variety, learning onsets and codas specific to each variety. Results indicate that the default configuration yields the highest accuracy, ranging from 97.05% to 100%. The per-variety approach achieves 90.64% to 100% accuracy, while the joint approach ranges from 84.63% to 94.74%. Across-variety analysis using Jensen-Shannon divergence reveals three principal groupings: Egyptian, Hejazi, and Modern Standard Arabic are closely related; Levantine and Gulf varieties constitute a second cluster; and Juba Arabic, Maltese, and Moroccan emerge as outliers. A cleaned dataset encompassing all nine varieties is also provided.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Latin",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
