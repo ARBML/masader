@@ -982,5 +982,10 @@
         "name": "The New Horizons in Computational Linguistics for Religious Texts",
         "type": "workshop",
         "aliases": []
+    },
+    "AEJ": {
+        "name": "Alexandria Engineering Journal",
+        "type": "journal",
+        "aliases": []
     }
 }

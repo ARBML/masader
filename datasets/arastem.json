@@ -1,0 +1,65 @@
+{
+    "Name": "AraSTEM",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/rn4zbzg8z2/5",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "web pages",
+        "books",
+        "LLM"
+    ],
+    "Domain": [
+        "science",
+        "technology",
+        "health",
+        "education"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "LLM annotation",
+        "metadata-derived",
+        "human validation"
+    ],
+    "Description": "Arabic multiple-choice question benchmark for evaluating LLMs in STEM subjects.",
+    "Volume": 11637.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "American University of Beirut"
+    ],
+    "Derived From": [],
+    "Paper Title": "AraSTEM: A Native Arabic Multiple Choice Question Benchmark for Evaluating LLMs Knowledge In STEM Subjects",
+    "Paper Link": "https://arxiv.org/pdf/2501.00559.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "multiple choice question answering"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Ahmad Mustapha",
+        "Hadi Al-Khansa",
+        "Hadi Al-Mubasher",
+        "Aya Mourad",
+        "Ranam Hamoud",
+        "Hasan El-Husseini",
+        "Marwah Al-Sakkaf",
+        "Mariette Awad"
+    ],
+    "Affiliations": [
+        "American University of Beirut"
+    ],
+    "Abstract": "Large Language Models (LLMs) have shown remarkable capabilities, not only in generating human-like text, but also in acquiring knowledge. This highlights the need to go beyond the typical Natural Language Processing downstream benchmarks and assess the various aspects of LLMs including knowledge and reasoning. Numerous benchmarks have been developed to evaluate LLMs knowledge, but they predominantly focus on the English language. Given that many LLMs are multilingual, relying solely on benchmarking English knowledge is insufficient. To address this issue, we introduce AraSTEM, a new Arabic multiple-choice question dataset aimed at evaluating LLMs knowledge in STEM subjects. The dataset spans a range of topics at different levels which requires models to demonstrate a deep understanding of scientific Arabic in order to achieve high accuracy. Our findings show that publicly available models of varying sizes struggle with this dataset, and underscores the need for more localized language models. The dataset is freely accessible on Hugging Face.",
+    "Added By": "Zaid Alyafeai"
+}

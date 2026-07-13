@@ -1,0 +1,62 @@
+{
+    "Name": "Muradif",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/U4RASD/Muradif",
+    "Link": "https://huggingface.co/datasets/U4RASD/Muradif",
+    "License": "CC BY-SA 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "treebanks"
+    ],
+    "Domain": [
+        "religion",
+        "education"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "metadata-derived"
+    ],
+    "Description": "A synonym-based benchmark that tests whether distinct lexical items with similar or iden- tical semantics are mapped to proximal embedding representations",
+    "Volume": 38554.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Arab Center for Research and Policy Studies"
+    ],
+    "Derived From": [
+        "Arabic ontology dataset"
+    ],
+    "Paper Title": "NeoAraBERT: A Modern Foundation Model for Arabic Embeddings with Diacritics-Aware Tokenization and POS-Targeted Masking",
+    "Paper Link": "https://aclanthology.org/2026.findings-acl.1293.pdf",
+    "Script": "Arab",
+    "Tokenized": true,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "semantic similarity",
+        "retrieval-augmented generation"
+    ],
+    "Venue Title": "Findings of ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Association for Computational Linguistics",
+    "Authors": [
+        "Chadi Abou Chakra",
+        "Hadi Hamoud",
+        "Osama Rakan Al Mraikhat",
+        "Qusai Abu Obaida",
+        "Mohamad Ballout",
+        "Fadi A. Zaraket"
+    ],
+    "Affiliations": [
+        "Arab Center for Research and Policy Studies",
+        "American University of Beirut"
+    ],
+    "Abstract": "We present NeoAraBERT, a state-of-the-art open-source Arabic text-embedding model built on the NeoBERT architecture. We pre-train NeoAraBERT on diverse open-source and internal datasets covering modern standard, classical, and dialectal Arabic. We guided our design choices with Arabic tailored ablation studies including text normalization, light stemming, and diacritics-aware tokenization handling. We also performed more general POS-aware token masking and learning-rate scheduling ablation studies. We benchmarked NeoAraBERT against five top-performing Arabic models on 23 tasks, including a novel synonym-based task, 'Muradif', that directly assesses embedding quality with no additional fine-tuning. NeoAraBERT variants (MSA, dialectal, and mixed) rank first in 18 tasks, second in two, third in two, and fourth in one task. They show strong performance on classical and modern standard Arabic, substantial margins of improvement (>7%) in two tasks, and a +2.75% improvement on average across all tasks. Our code and links to checkpoints for our model variants are available on our website  https://acr.ps/neoarabert",
+    "Added By": "Zaid Alyafeai"
+}
