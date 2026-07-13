@@ -977,5 +977,10 @@
         "name": "IEEE Transactions on Multimedia",
         "type": "journal",
         "aliases": []
+    },
+    "COLING-Rel": {
+        "name": "The New Horizons in Computational Linguistics for Religious Texts",
+        "type": "workshop",
+        "aliases": []
     }
 }
