@@ -20,7 +20,6 @@
     "Description": "668h of Saudi-dialect Arabic TV broadcasts for ASR (train 637.7h, dev 13.4h, test 16.6h).",
     "Volume": 667.7,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "SDAIA"
     ],

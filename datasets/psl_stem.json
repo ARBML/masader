@@ -21,7 +21,6 @@
     "Description": "Dataset of 41 mathematical gesture classes in Palestinian Sign Language for hard-of-hearing education.",
     "Volume": 41.0,
     "Unit": "videos",
-    "Ethical Risks": "Low",
     "Provider": [
         "Arab American University"
     ],

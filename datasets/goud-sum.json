@@ -21,7 +21,6 @@
     "Description": "Goud-sum contains 158k articles and their headlines extracted from Goud.ma news website. The articles are written in the Arabic script. All headlines are in Moroccan Darija, while articles may be in Moroccan Darija, in Modern Standard Arabic, or a mix of both (code-switched Moroccan Darija).",
     "Volume": 158000.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "GOUD.MA: A NEWS ARTICLE DATASET FOR SUMMARIZATION IN MOROCCAN DARIJA",

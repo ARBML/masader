@@ -21,7 +21,6 @@
     "Description": "15k Arabic book pages paired with Markdown for OCR training",
     "Volume": 15216.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Ain Shams University"
     ],

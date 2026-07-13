@@ -46,7 +46,6 @@
     "Description": "A publicly available corpus of Arabic job advertisements collected from Egypt, Jordan, Saudi Arabia, and the UAE.",
     "Volume": 8546.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Vin University",
         "Lancaster University"

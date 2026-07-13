@@ -22,7 +22,6 @@
     "Description": "extension of NArabizi treebank by adding to annotations.",
     "Volume": 1500.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Oslo"
     ],

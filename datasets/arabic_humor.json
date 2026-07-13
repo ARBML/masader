@@ -20,7 +20,6 @@
     "Description": "Arabic humor detection dataset with 10039 tweets in dialectal and MSA Arabic annotated as Humor vs Non-Humor.",
     "Volume": 10039.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "iwan-org"
     ],

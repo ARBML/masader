@@ -22,7 +22,6 @@
     "Description": "We provide XL-HeadTags, a large-scale news headline and tags generation dataset. The dataset consists of 20 languages across six diverse language families. It contains 415K news headline-article pairs with auxiliary information such as image captions, topic words",
     "Volume": 6922.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
         "XL-Sum",

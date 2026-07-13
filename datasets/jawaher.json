@@ -141,7 +141,6 @@
     "Description": "A multidialectal benchmark of Arabic proverbs for evaluating LLMs' cultural understanding.",
     "Volume": 10037.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of British Columbia"
     ],

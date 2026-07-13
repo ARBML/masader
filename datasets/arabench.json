@@ -117,7 +117,6 @@
     "Description": "an evaluation suite for dialectal Arabic to English machine translation",
     "Volume": 130226.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

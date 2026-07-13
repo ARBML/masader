@@ -27,7 +27,6 @@
     "Description": "Arabic multiple-choice question benchmark for evaluating LLMs in STEM subjects.",
     "Volume": 11637.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "American University of Beirut"
     ],

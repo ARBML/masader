@@ -20,7 +20,6 @@
     "Description": "Multilingual hallucination evaluation dataset with 30 languages.",
     "Volume": 667.0,
     "Unit": "documents",
-    "Ethical Risks": "High",
     "Provider": [
         "University of Würzburg",
         "University of Hamburg"

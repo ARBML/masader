@@ -21,7 +21,6 @@
     "Description": "A high-quality multilingual medical dataset covering 50 languages for democratizing medical LLMs.",
     "Volume": 18700000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [
         "FreedomIntelligence"
     ],

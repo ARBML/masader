@@ -20,7 +20,6 @@
     "Description": "Wikipedia dataset containing cleaned articles of all languages. The datasets are built from the Wikipedia dump (https://dumps.wikimedia.org/) with one split per language.",
     "Volume": 1151628.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Wikimedia"
     ],

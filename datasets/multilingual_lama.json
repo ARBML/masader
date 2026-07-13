@@ -20,7 +20,6 @@
     "Description": "multilingual version of lama.  The underlying idea of LAMA is to query knowledge from pretrained LMs using templates without any finetuning",
     "Volume": 19354.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "LMU Munich"
     ],

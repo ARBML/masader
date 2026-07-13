@@ -21,7 +21,6 @@
     "Description": "Segmented and re-labeled Arabic handwritten text images derived from KHATT for training OCR models",
     "Volume": 108619.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Suez Canal University"
     ],

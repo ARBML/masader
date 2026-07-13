@@ -22,7 +22,6 @@
     "Description": "The corpus consists of about 9.6K words/tokens collected from Facebook, blog posts and traditional poems. The corpus was annotated as an extension to Curras and following the same annotation methodology to form a Levantine Corpus.",
     "Volume": 10000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "SinaLab",
         "Birzeit University"

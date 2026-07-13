@@ -21,7 +21,6 @@
     "Description": "An Arabic diacriticized corpus using data from the old Maktaba Shamela website",
     "Volume": 1305.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Independent"
     ],

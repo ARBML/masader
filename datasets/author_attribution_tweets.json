@@ -20,7 +20,6 @@
     "Description": "consists of 71,397 tweets for 45 authors for MSA collected from twitter.",
     "Volume": 71397.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Birzeit University"
     ],

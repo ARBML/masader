@@ -23,7 +23,6 @@
     "Description": "The KACST Arabic corpus comprises more than 700 million words from the pre-Islamic era to the present day (a period covering more than 1,500 years), collected from 10 diverse mediums.",
     "Volume": 7000000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [
         "KACST"
     ],

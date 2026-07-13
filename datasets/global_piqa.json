@@ -100,7 +100,6 @@
     "Description": "A physical commonsense reasoning benchmark covering 116 language varieties, constructed by 335 native researchers worldwide.",
     "Volume": 1300.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "UCSanDiego",
         "EleutherAI"

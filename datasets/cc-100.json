@@ -20,7 +20,6 @@
     "Description": "monolingual datasets from Common Crawl for a variety of languages",
     "Volume": 7132000.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Facebook"
     ],

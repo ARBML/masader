@@ -21,7 +21,6 @@
     "Description": "This dataset is designed to help train simple machine learning models that serve educational and research purposes in the speech recognition domain",
     "Volume": 3.0,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

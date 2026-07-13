@@ -21,7 +21,6 @@
     "Description": "SAHM, a comprehensive benchmark for evaluating Arabic financial reasoning across di- verse, real-world tasks spanning Islamic finance, accounting, and market analysis",
     "Volume": 14380.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "MBZUAI"
     ],

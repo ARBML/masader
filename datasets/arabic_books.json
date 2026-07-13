@@ -21,7 +21,6 @@
     "Description": "A large scale dataset of 1.1 billion Arabic tokens extracted from over 8500 books using nougat models.",
     "Volume": 8500.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Ain Shams University"
     ],

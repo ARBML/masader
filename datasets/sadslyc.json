@@ -20,7 +20,6 @@
     "Description": "First Saudi song-lyrics corpus covering five Saudi dialects (Najdi, Hijazi, Shamali, Janoubi, Shargawi).",
     "Volume": 31358.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Leeds",
         "Birmingham City University",

@@ -20,7 +20,6 @@
     "Description": "10k Arabic sentiment tweets classified into four classes subjective positive, subjective negative, subjective mixed, and objective",
     "Volume": 10006.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Cairo University"
     ],

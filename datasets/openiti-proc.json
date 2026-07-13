@@ -22,7 +22,6 @@
     "Description": "A linguistically annotated version of the OpenITI corpus, with annotations for lemmas, POS tags, parse trees, and morphological segmentation",
     "Volume": 1500000000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

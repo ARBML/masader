@@ -21,7 +21,6 @@
     "Description": "Multilingual Assessment of Gender Bias in Image Generation with controlled prompts in nine languages.",
     "Volume": 624.0,
     "Unit": "images",
-    "Ethical Risks": "Medium",
     "Provider": [
         "TU Darmstadt"
     ],

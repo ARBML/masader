@@ -21,7 +21,6 @@
     "Description": "Multi-dialect Arabic cyberbullying corpus of 4,505 annotated tweets spanning gaming, sports, news, and celebrity topics.",
     "Volume": 4505.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "University of Jordan"
     ],

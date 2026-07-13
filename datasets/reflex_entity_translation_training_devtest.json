@@ -20,7 +20,6 @@
     "Description": "Please use this link for a sample.",
     "Volume": 67500.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

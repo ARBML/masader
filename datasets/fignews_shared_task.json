@@ -21,7 +21,6 @@
     "Description": "Multilingual Facebook posts about the Israel-Gaza war annotated for bias and propaganda.",
     "Volume": 25960.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Northwestern University in Qatar",
         "Birzeit University",

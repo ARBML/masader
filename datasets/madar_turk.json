@@ -20,7 +20,6 @@
     "Description": "First dataset for Syrian Arabic-Turkish machine translation sourced from MADAR.",
     "Volume": 2000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "CAMeL Lab"
     ],

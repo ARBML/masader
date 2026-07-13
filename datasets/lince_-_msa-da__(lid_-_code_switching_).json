@@ -20,7 +20,6 @@
     "Description": "Twitter data and 9 entity types to establish a new dataset for code-switched NER\r\nbenchmarks.",
     "Volume": 11241.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Multiple Institutions"
     ],

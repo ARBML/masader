@@ -21,7 +21,6 @@
     "Description": "120 documents with 1312 segments, output from 17 machine translation systems.",
     "Volume": 1312.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "NIST"
     ],

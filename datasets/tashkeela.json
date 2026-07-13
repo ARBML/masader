@@ -40,7 +40,6 @@
     "Description": "Arabic discritization Corpus, Resource, Arabic vocalized texts",
     "Volume": 75637622.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "ESI"
     ],

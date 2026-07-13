@@ -23,7 +23,6 @@
     "Description": "a large-scale, historical corpus of Arabic of about 1 billion\r\nwords from diverse periods of time",
     "Volume": 6100.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

@@ -75,7 +75,6 @@ which gives the following output
  'Description': 'the first Levantine Dialect Corpus (SDC) covering data from the four dialects spoken in Palestine, Jordan, Lebanon and Syria.',
  'Dialect': 'Levant',
  'Domain': ['general'],
- 'Ethical Risks': 'Medium',
  'Form': 'text',
  'Host': 'GitHub',
  'Language': 'ar',

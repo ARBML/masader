@@ -20,7 +20,6 @@
     "Description": "This dataset is composed of 12000 question pairs labelled with 1 for semantically similar questions and 0 for semantically different",
     "Volume": 15712.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Mawdoo3"
     ],

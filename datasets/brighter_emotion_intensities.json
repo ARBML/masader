@@ -22,7 +22,6 @@
     "Description": "The BRIGHTER Emotion Intensities dataset is a comprehensive multi-language emotion intensity dataset with separate configurations for each language. It represents one of the largest human-annotated emotion datasets across multiple languages, providing numerical intensity scores for emotions.",
     "Volume": 1903.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Imperial College London"
     ],

@@ -22,7 +22,6 @@
     "Description": "AraBabyTalk-EGY is an enriched release of the Egyptian Arabic CHILDES corpus that opens the child-adult interactions genre to modern Arabic NLP research. ",
     "Volume": 26000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "CAMeL Lab"
     ],

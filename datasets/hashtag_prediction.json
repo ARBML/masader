@@ -20,7 +20,6 @@
     "Description": "The hashtag prediction dataset is a multilingual classification dataset. Separate datasets are given for different languages",
     "Volume": 60176.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Twitter"
     ],

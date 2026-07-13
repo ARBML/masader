@@ -21,7 +21,6 @@
     "Description": "Balanced coverage of multiple fields: high-quality image-text data from Wikipedia, Wikiquote, encyclopedia and mainstream media news from eight language countries;",
     "Volume": 220000.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Shanghai Artificial Intelligence Laboratory"
     ],

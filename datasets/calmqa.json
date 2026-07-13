@@ -20,7 +20,6 @@
     "Description": "Multilingual long-form question-answering dataset with 51.7K culturally specific questions across 23 languages.",
     "Volume": 5018.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Texas at Austin",
         "New York University",

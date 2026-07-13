@@ -22,7 +22,6 @@
     "Description": "The transcript files are in plain-text, tab-delimited format (TDF) with UTF-8 encoding, and the transcribed data totals 721,846 tokens. The transcripts were created with the LDC tool, XTrans, which supports manual transcription and annotation of audio recordings. XTrans is available from the following link,  https://www.ldc.upenn.edu/language-resources/tools/xtrans.",
     "Volume": 721846.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

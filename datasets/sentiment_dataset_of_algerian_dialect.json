@@ -20,7 +20,6 @@
     "Description": "Annotated comments/posts in Algerian Arabizi from Facebook pages, collected via APIs/Facepager & Google Forms.",
     "Volume": 11760.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "LCSI"
     ],

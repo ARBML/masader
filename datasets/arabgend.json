@@ -21,7 +21,6 @@
     "Description": "Dataset of 167K Arabic Twitter accounts labeled for gender and location.",
     "Volume": 167000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [
         "QCRI"
     ],

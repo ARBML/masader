@@ -21,7 +21,6 @@
     "Description": "12-hour Egyptian Arabic-English code-switched spontaneous speech corpus with transcriptions and speaker metadata.",
     "Volume": 12.0,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "The German University in Cairo",
         "University of Stuttgart"

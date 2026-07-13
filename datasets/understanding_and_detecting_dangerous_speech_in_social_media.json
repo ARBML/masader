@@ -21,7 +21,6 @@
     "Description": "Dangerous speech detection",
     "Volume": 5011.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "The University of British Columbia"
     ],

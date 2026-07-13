@@ -20,7 +20,6 @@
     "Description": "Annotated Arabic Sign Language Letters Dataset (ArSL21L) consisting of 14202 images of 32 letter signs with various back- grounds collected from 50 people.",
     "Volume": 14202.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Al Ain University"
     ],

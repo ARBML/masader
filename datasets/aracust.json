@@ -20,7 +20,6 @@
     "Description": "Saudi Telecom Tweets corpus for sentiment analysis",
     "Volume": 20000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Durham University",
         "Princess Nourah bint Abdulrahman University"

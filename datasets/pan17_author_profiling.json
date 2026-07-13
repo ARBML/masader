@@ -20,7 +20,6 @@
     "Description": "We provide you with a training data set that consists of Twitter tweets in English, Spanish, Portuguese and Arabic, labeled with gender and language variety.",
     "Volume": 4000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Bauhaus-Universität Weimar"
     ],

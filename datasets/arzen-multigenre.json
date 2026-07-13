@@ -24,7 +24,6 @@
     "Description": "parallel dataset of Egyptian Arabic song lyrics, novels, and TV show subtitles that are manually translated and aligned with their English counterparts.",
     "Volume": 25557.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "ArzEn-MultiGenre: An aligned parallel dataset of Egyptian Arabic song lyrics, novels, and subtitles, with English translations",

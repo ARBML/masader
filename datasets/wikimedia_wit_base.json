@@ -22,7 +22,6 @@
     "Description": "Wikimedia's version of the Wikipedia-based Image Text (WIT) Dataset, a large multimodal multilingual dataset.",
     "Volume": 6477255.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Google"
     ],

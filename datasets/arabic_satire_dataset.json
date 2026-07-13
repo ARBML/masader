@@ -22,7 +22,6 @@
     "Description": "500 Arabic news and 500 Arabic satire articles",
     "Volume": 1000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "Comprehensive Study of Arabic Satirical Article Classification",

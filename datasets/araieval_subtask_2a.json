@@ -24,7 +24,6 @@
     "Description": "Part of the propaganda detection task for classification of disinformation in tweets. ",
     "Volume": 19991.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "QCRI"
     ],

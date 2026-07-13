@@ -21,7 +21,6 @@
     "Description": "CCAligned consists of parallel or comparable web-document pairs in 137 languages aligned with English. These web-document pairs were constructed by performing language identification on raw web-documents, and ensuring corresponding language codes were corresponding in the URLs of web documents.",
     "Volume": 1219374.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

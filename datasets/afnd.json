@@ -20,7 +20,6 @@
     "Description": "AFND consists of 606912 public news articles that were scraped from 134 public news websites of 19 different Arab countries over a 6-month period using Python scripts.",
     "Volume": 606912.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

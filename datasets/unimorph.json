@@ -21,7 +21,6 @@
     "Description": "167 languages have been annotated according to the UniMorph schema.",
     "Volume": 140003.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Johns Hopkins University"
     ],

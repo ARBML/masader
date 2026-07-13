@@ -217,12 +217,6 @@
             "hours"
         ]
     },
-    "Ethical_Risks": {
-        "answer_type": "str",
-        "answer_min": 1,
-        "answer_max": 1,
-        "options": ["Low", "Medium", "High"]
-    },
     "Provider": {
         "answer_type": "list[str]",
         "answer_min": 0,

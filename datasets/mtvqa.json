@@ -20,7 +20,6 @@
     "Description": "The dataset is oriented toward visual question answering of multilingual text scenes in nine languages, including Korean, Japanese, Italian, Russian, Deutsch, French, Thai, Arabic, and Vietnamese.",
     "Volume": 818.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Bytedance"
     ],

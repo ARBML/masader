@@ -21,7 +21,6 @@
     "Description": "Dataset for Arabic readability assessment",
     "Volume": 20358.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "CAMeL Lab"
     ],

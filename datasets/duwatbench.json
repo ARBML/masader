@@ -20,7 +20,6 @@
     "Description": "DuwatBench is a comprehensive benchmark for evaluating LMMs on Arabic calligraphy recognition. Arabic calligraphy represents one of the richest visual traditions of the Arabic language, blending linguistic meaning with artistic form. ",
     "Volume": 1272.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "MBZUAI-ORYX"
     ],

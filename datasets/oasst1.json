@@ -20,7 +20,6 @@
     "Description": "Crowdsourced multilingual assistant-style conversations with quality annotations for LLM alignment training",
     "Volume": 666.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "LAION-AI"
     ],

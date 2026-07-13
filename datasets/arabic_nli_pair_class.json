@@ -20,7 +20,6 @@
     "Description": "Arabic translations of SNLI/MultiNLI for semantic similarity and NLI tasks.",
     "Volume": 981382.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Prince Sultan University"
     ],

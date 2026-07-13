@@ -21,7 +21,6 @@
     "Description": "A parallel corpus of 12 languages, 66 bitexts for machine translation",
     "Volume": 63000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "OPUS"
     ],

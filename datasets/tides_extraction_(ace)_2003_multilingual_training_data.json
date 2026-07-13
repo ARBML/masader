@@ -20,7 +20,6 @@
     "Description": "Annotations for this corpus were produced by Linguistic Data Consortium to support the following tasks broken down by language:",
     "Volume": 206.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

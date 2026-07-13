@@ -20,7 +20,6 @@
     "Description": "WIKIQAar is a bilingual English--Arabic Question Answering corpus built on top of WIKIQA",
     "Volume": 3047.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

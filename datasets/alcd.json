@@ -20,7 +20,6 @@
     "Description": "Arabic legal case dataset for NLP collected from a government body in Saudi Arabia ",
     "Volume": 3170.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "King Abdulaziz University"
     ],

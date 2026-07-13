@@ -20,7 +20,6 @@
     "Description": "This release contains 243,117 source tokens before clitics were split, and 308,996 tree tokens after clitics were separated for treebank annotation. The source material is weblogs collected by LDC from various sources.",
     "Volume": 243117.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Pennsylvania"
     ],

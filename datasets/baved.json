@@ -20,7 +20,6 @@
     "Description": "Basic Arabic Vocal Emotions Dataset (BAVED) is a datasetthat contains an arabic words spelled in diffrent levels of emotions recorded in an audio/wav format",
     "Volume": 1935.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "",

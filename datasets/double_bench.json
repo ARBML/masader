@@ -23,7 +23,6 @@
     "Description": "A large-scale multilingual and multimodal benchmark for evaluating Retrieval-Augmented Generation (RAG) systems on document understanding tasks.",
     "Volume": 233.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "South China University of Technology",
         "Huazhong University of Science and Technology",

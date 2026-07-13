@@ -20,7 +20,6 @@
     "Description": "The source data in this release consists of discussion forum threads harvested from the Internet by LDC using a combination of manual and automatic processes. The full source data collection is released as BOLT Arabic Discussion Forums (LDC2018T10).",
     "Volume": 2651.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

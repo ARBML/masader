@@ -20,7 +20,6 @@
     "Description": "Dataset of 300 annotated images of handwritten Arabic Maghrebi script manuscripts for layout analysis and handwritten text recognition.",
     "Volume": 300.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Université Paris Sciences & Lettres"
     ],

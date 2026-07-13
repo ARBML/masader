@@ -21,7 +21,6 @@
     "Description": "the first Arabic Prop2Hate-Meme dataset which explore the intersection of propaganda and hate in memes using a multi-agent LLM-based framework.",
     "Volume": 3061.0,
     "Unit": "images",
-    "Ethical Risks": "High",
     "Provider": [
         "QCRI"
     ],

@@ -20,7 +20,6 @@
     "Description": "Cross-lingual name tagging and linking for 282 languages",
     "Volume": 30000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "The university of Melbourne"
     ],

@@ -20,7 +20,6 @@
     "Description": "This dataset is mainly a compilation of several available datasets and a sampling of 100k rows (99999 to be exact).",
     "Volume": 99999.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Abed Khooli"
     ],

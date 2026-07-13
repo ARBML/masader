@@ -22,7 +22,6 @@
     "Description": "Arabic multimodal dataset for sentiment analysis and emotion recognition with 1037 samples across audio, text, and visual modalities",
     "Volume": 4.8,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Amar Telidji Laghouat",
         "Universitè de Ghardaia",

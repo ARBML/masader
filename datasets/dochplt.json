@@ -21,7 +21,6 @@
     "Description": "Largest publicly available document-level translation dataset with 124M aligned document pairs across 50 languages paired with English.",
     "Volume": 2196334.0,
     "Unit": "documents",
-    "Ethical Risks": "High",
     "Provider": [
         "HPLT"
     ],

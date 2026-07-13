@@ -20,7 +20,6 @@
     "Description": "This dataset contains 600 Arabic premise:hypothesis pairs.",
     "Volume": 600.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

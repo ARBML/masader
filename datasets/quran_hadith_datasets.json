@@ -21,7 +21,6 @@
     "Description": "The datasets showcase the related and non-related pairs of Quran-Quran and Quran-Hadith. It has Classical Arabic and English translated verses and teachings.",
     "Volume": 20360.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "Challenging the Transformer-based models with a Classical Arabic dataset: Quran and Hadith",

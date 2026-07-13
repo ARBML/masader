@@ -22,7 +22,6 @@
     "Description": "Benchmark for Judeo-Arabic transliteration.",
     "Volume": 46529.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "CAMeL Lab"
     ],

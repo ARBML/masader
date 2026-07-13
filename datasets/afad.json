@@ -20,7 +20,6 @@
     "Description": "A curated corpus of authentic and synthetic Arabic speech designed to advance research on Arabic deepfake and spoofed-speech detection.",
     "Volume": 23.3,
     "Unit": "hours",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Purdue University"
     ],
@@ -51,6 +50,6 @@
     "Affiliations": [
         "Purdue University"
     ],
-    "Abstract": "As generative speech synthesis produces near-human synthetic voices and reliance on online media grows, robust audio-deepfake detection is essential to fight misuse and misinformation. In this study, we introduce the Arabic Fake Audio Dataset for Modern Standard Arabic (AFAD-MSA), a curated corpus of authentic and synthetic Arabic speech designed to advance research on Arabic deepfake and spoofed-speech detection. The synthetic subset is generated with four state-of-the-art proprietary text-to-speech and voice-conversion models. Rich metadata\u2014covering speaker attributes and generation information\u2014is provided to support reproducibility and benchmarking. To establish reference performance, we trained three AASIST models and compared their performance to two baseline transformer detectors (Wav2Vec 2.0 and Whisper). On the AFAD-MSA test split, AASIST-2 achieved perfect accuracy, surpassing the baseline models. However, its performance declined under cross-dataset evaluation. These results underscore the importance of data construction. Detectors generalize best when exposed to diverse attack types. In addition, continual or contrastive training that interleaves bonafide speech with large, heterogeneous spoofed corpora will further improve detectors\u2019 robustness.",
+    "Abstract": "As generative speech synthesis produces near-human synthetic voices and reliance on online media grows, robust audio-deepfake detection is essential to fight misuse and misinformation. In this study, we introduce the Arabic Fake Audio Dataset for Modern Standard Arabic (AFAD-MSA), a curated corpus of authentic and synthetic Arabic speech designed to advance research on Arabic deepfake and spoofed-speech detection. The synthetic subset is generated with four state-of-the-art proprietary text-to-speech and voice-conversion models. Rich metadata—covering speaker attributes and generation information—is provided to support reproducibility and benchmarking. To establish reference performance, we trained three AASIST models and compared their performance to two baseline transformer detectors (Wav2Vec 2.0 and Whisper). On the AFAD-MSA test split, AASIST-2 achieved perfect accuracy, surpassing the baseline models. However, its performance declined under cross-dataset evaluation. These results underscore the importance of data construction. Detectors generalize best when exposed to diverse attack types. In addition, continual or contrastive training that interleaves bonafide speech with large, heterogeneous spoofed corpora will further improve detectors’ robustness.",
     "Added By": "Zaid Alyafeai"
 }

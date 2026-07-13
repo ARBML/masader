@@ -145,7 +145,6 @@
     "Description": "Tarab is a large-scale Arabic creative-text corpus that unifies song lyrics and poetry in a single verse-level representation. It contains 2,557,311 verses and 13,509,336 tokens, spanning Classical Arabic, MSA, and six major regional dialect groups, and covering both modern countries and historical eras.",
     "Volume": 2557311.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Vin University"
     ],

@@ -20,7 +20,6 @@
     "Description": "Balanced image dataset of all seven banknote denominations of the sixth issue of Saudi Arabian currency.",
     "Volume": 1330.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Umm Al-Qura University"
     ],

@@ -20,7 +20,6 @@
     "Description": "ArPC is an Arabic paraphrase identification corpus. It consists of 1331 sentence pairs along with their binary score that indicates weather the pairs are paraphrase or not. The corpus has been manually annotated by three Arabic native speakers.",
     "Volume": 1331.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "",

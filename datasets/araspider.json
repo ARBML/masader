@@ -21,7 +21,6 @@
     "Description": "AraSpider is a translated version of the Spider dataset, which is commonly used for semantic parsing and text-to-SQL generation. The dataset includes 200 databases across 138 domains with 10,181 questions and 5,693 unique complex SQL queries. This study assesses multilingual models for Arabic text-to-SQL tasks and uses techniques like back translation and prompt engineering to improve the models' accuracy in handling Arabic inputs.",
     "Volume": 10181.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

@@ -20,7 +20,6 @@
     "Description": "Large Arabic AES dataset with trait annotations.",
     "Volume": 7859.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "bigIR"
     ],

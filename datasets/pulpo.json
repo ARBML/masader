@@ -21,7 +21,6 @@
     "Description": "PULPO, the Prolific Unannotated Literary Poetry Corpus, is a set of multilingual corpora of verses and stanzas with over 95M words",
     "Volume": 256000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "ALBERTI, a Multilingual Domain Specific Language Model for Poetry Analysis",

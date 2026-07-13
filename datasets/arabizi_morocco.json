@@ -20,7 +20,6 @@
     "Description": "Arabizi-Morocco is a substantial dataset specifically developed to foster the creation and improvement of language models for the Moroccan Arabic dialect (Darija). This resource consists of a converted Moroccan Arabic dialect in Arabic script to Arabizi from a sample taken from both https://huggingface.co/datasets/UBC-NLP/fineweb-edu-Morocco and https://huggingface.co/datasets/UBC-NLP/LHV-Morocco.",
     "Volume": 1450337.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "UBC-NLP"
     ],

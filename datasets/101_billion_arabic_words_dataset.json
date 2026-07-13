@@ -20,7 +20,6 @@
     "Description": "The 101 Billion Arabic Words Dataset is curated by the Clusterlab team and consists of 101 billion words extracted and cleaned from web content, specifically targeting Arabic text. This dataset is intended for use in natural language processing applications, particularly in training and fine-tuning Large Language Models (LLMs) capable of understanding and generating Arabic text.",
     "Volume": 101000000000.0,
     "Unit": "tokens",
-    "Ethical Risks": "High",
     "Provider": [
         "Clusterlab"
     ],

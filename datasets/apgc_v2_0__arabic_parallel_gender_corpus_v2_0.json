@@ -20,7 +20,6 @@
     "Description": "The Arabic Parallel Gender Corpus v2.0 (APGC v2.0) is designed to support research on gender bias and personalization in natural language processing applications working on Arabic. It expands on Habash et al. (2019)’s Arabic Parallel Gender Corpus (APGC v1.0) by adding 2nd person targets as well increasing the total number of sentences over 6.5 times, reaching over 590K words.",
     "Volume": 80326.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "NYU Abu Dhabi"
     ],

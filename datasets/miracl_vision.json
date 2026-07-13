@@ -20,7 +20,6 @@
     "Description": "Multilingual visual document retrieval benchmark extending MIRACL with Wikipedia page images for 18 languages.",
     "Volume": 75444.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "NVIDIA"
     ],

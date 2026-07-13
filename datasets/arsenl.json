@@ -22,7 +22,6 @@
     "Description": "large scale Standard Arabic sentiment lexicon (ArSenL) using a combination of existing resources: ESWN, Arabic WordNet, and\r\nthe Standard Arabic Morphological Analyzer (SAMA)",
     "Volume": 28760.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "AUB",
         "NYUAD"

@@ -22,7 +22,6 @@
     "Description": "Arabic multidialectal dataset for misogynistic language",
     "Volume": 9833.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "The ORSAM Center for Middle Eastern Studies",
         "University of Alberta"

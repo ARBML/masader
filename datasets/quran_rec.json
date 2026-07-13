@@ -21,7 +21,6 @@
     "Description": "Annotated audio dataset of expert Quranic recitations aligned with phonetic tags for Tajweed rules.",
     "Volume": 847.99,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "Ain Shams University"
     ],

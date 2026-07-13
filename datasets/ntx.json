@@ -20,7 +20,6 @@
     "Description": "A multi-lingual benchmark dataset covering temporal and numerical expression recognition and normalization in 14 languages including Arabic.",
     "Volume": 1762.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Microsoft Research Asia"
     ],

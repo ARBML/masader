@@ -22,7 +22,6 @@
     "Description": "First open-source literary corpus of Sa'idi Egyptian Arabic (SEA), containing 4 million words from novels and poetry.",
     "Volume": 413.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Illinois Urbana-Champaign",
         "New York University Abu Dhabi"

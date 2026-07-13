@@ -23,7 +23,6 @@
     "Description": "Arabic COVID-19 Twitter dataset that covers the period from 27th of January till 5th of May 2021.",
     "Volume": 3140158.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Qatar University"
     ],

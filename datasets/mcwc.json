@@ -21,7 +21,6 @@
     "Description": "The “Multilingual Corpus of World’s Constitutions” (MCWC) is a rich resource available in English, Arabic, and Spanish, encompassing constitutions from various nations. This corpus serves as a vital asset for the NLP community, facilitating advanced research in constitutional analysis, machine translation, and cross-lingual legal studies.",
     "Volume": 236156.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "The Multilingual Corpus of World’s Constitutions (MCWC)",

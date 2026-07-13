@@ -20,7 +20,6 @@
     "Description": "A labeled dataset of Egyptian Arabic Wikipedia articles extracted from Wikipedia dumps 2024-01-01, along with their metadata.",
     "Volume": 755665.0,
     "Unit": "documents",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Clarkson University"
     ],

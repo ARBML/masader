@@ -20,7 +20,6 @@
     "Description": "Mawqif is the first Arabic dataset that can be used for target-specific stance detection. This is a multi-label dataset where each data point is annotated for stance, sentiment, and sarcasm.",
     "Volume": 4121.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "Mawqif: A Multi-label Arabic Dataset for Target-specific Stance Detection",

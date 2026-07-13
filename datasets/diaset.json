@@ -20,7 +20,6 @@
     "Description": "Annotated Arabic conversational dataset for SA and NER in Palestinian dialect",
     "Volume": 644800.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Reichman University",
         "Ben-Gurion University of the Negev"

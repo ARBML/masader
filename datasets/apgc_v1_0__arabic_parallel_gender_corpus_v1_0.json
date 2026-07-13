@@ -20,7 +20,6 @@
     "Description": "a corpus designed to support research on gender bias in natural language processing applications working on Arabic",
     "Volume": 12000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

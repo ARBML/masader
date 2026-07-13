@@ -45,7 +45,6 @@
     "Description": "Parallel tweets in 4 dialects with verified MSA translations for neural MT evaluation",
     "Volume": 31887.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "University of Manchester",
         "King Abdulaziz University"

@@ -22,7 +22,6 @@
     "Description": "An Arabic instruction-tuning dataset of 500k samples created by combining synthetic and human-crafted data.",
     "Volume": 500000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Clusterlab"
     ],

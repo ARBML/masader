@@ -20,7 +20,6 @@
     "Description": "The dataset was collected using Twitter API and it consists of 19,810 tweets, 8,089 of them are labeled as ironic tweets.",
     "Volume": 19810.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "King Saud University"
     ],

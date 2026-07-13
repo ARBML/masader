@@ -22,7 +22,6 @@
     "Description": "More than 40K of verses with their meters",
     "Volume": 47124.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "kfupm"
     ],

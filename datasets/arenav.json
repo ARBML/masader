@@ -20,7 +20,6 @@
     "Description": "First large-scale Arabic-English audio-visual deepfake dataset with intra-utterance code-switching and dialectal variation.",
     "Volume": 287280.0,
     "Unit": "videos",
-    "Ethical Risks": "High",
     "Provider": [
         "MBZUAI",
         "Monash University"

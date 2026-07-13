@@ -54,7 +54,6 @@
     "Description": "Arabic Poetry IFT is a template dataset for Arabic poetry understanding and co-creation. It supports four task families: generation, continuation, revision/restoration, and multiple-choice analysis. ",
     "Volume": 3285.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "MBZUAI"
     ],

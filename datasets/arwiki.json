@@ -20,7 +20,6 @@
     "Description": "This dataset is extracted using wikiextractor tool, from Wikipedia Arabic pages.",
     "Volume": 1136455.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "CALM"
     ],

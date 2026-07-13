@@ -100,7 +100,6 @@
     "Description": "A multi-domain dialectal Arabic machine translation dataset covering 13 countries and 11 domains.",
     "Volume": 29815.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "UBC-NLP"
     ],

@@ -21,7 +21,6 @@
     "Description": "Arabic news sentences annotated for subjectivity detection",
     "Volume": 3661.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "QCRI"
     ],

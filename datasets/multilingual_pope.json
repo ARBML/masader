@@ -20,7 +20,6 @@
     "Description": "Object hallucination benchmark translated into Arabic and other languages.",
     "Volume": 27000.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Harbin Institute of Technology",
         "Peng Cheng Laboratory",

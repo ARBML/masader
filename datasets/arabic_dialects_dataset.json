@@ -51,7 +51,6 @@
     "Description": "Dataset of Arabic dialects for GULF, EGYPT, LEVANT, TONESIAN Arabic dialects in addition to MSA.",
     "Volume": 16494.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Lancaster University"
     ],

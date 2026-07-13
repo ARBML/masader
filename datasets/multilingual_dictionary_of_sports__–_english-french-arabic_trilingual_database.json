@@ -20,7 +20,6 @@
     "Description": "This dictionary was produced within the French national project EuRADic (European and Arabic Dictionaries and Corpora), as part of the Technolangue programme funded by the French Ministry of Industry.",
     "Volume": 40000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "French Ministry of Industry"
     ],

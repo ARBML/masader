@@ -21,7 +21,6 @@
     "Description": "SALMA corpus is part of the Wojood corpus (Jarrar et al., 2022), and was collected from 33 online media sources written in Modern Standard Arabic (MSA) and covering general topics.",
     "Volume": 34000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "SinaLab",
         "Birzeit University"

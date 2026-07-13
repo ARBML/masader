@@ -22,7 +22,6 @@
     "Description": "A large-scale Arabic dataset for requirement-level conflict detection and resolution.",
     "Volume": 448.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Birzeit University"
     ],

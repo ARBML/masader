@@ -21,7 +21,6 @@
     "Description": "The PhraseBank consists of 2,000 phrases in 28 languages (Arabic, Chinese, Croatian, Czech, Danish, Dutch, American English, British English, Farsi, Finnish, French, German, Greek, Hindi, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Iberian), Portuguese (Brazilian), Russian, Spanish (Iberian), Spanish (Latin American), Swedish, Thai, Turkish, Vietnamese). Phrases are organised under 12 main topics and 67 subtopics. Covered topics are: talking to people, getting around, accommodation, shopping, leisure, communications, practicalities, health and beauty, eating and drinking, time.",
     "Volume": 2000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "ELRA"
     ],

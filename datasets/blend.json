@@ -20,7 +20,6 @@
     "Description": "A benchmark for LLMs on everyday cultural knowledge across 16 countries/regions in 13 languages.",
     "Volume": 2600.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "KAIST",
         "Cardiff University",

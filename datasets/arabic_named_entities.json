@@ -20,7 +20,6 @@
     "Description": "Extracted approximately 45,000 Arabic NEs and built the largest, most mature and well-structured Arabic NE lexical resource to date",
     "Volume": 45000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

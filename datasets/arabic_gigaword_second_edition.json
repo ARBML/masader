@@ -20,7 +20,6 @@
     "Description": "The following table contains information for this corpus, broken down by source. The information includes source codes represented in the corpus as well as their codes from the first edition, the collection span and number of documents new to this edition, the number of documents total, and the K-words (thousands of words) for each source. Ummah Press is a new source included in the second edition and therefore has no first edition info.",
     "Volume": 1591983.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

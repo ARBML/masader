@@ -23,7 +23,6 @@
     "Description": "The first Arabic dataset for rumors verification in Twitter",
     "Volume": 9414.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Qatar University"
     ],

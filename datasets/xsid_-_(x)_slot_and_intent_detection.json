@@ -21,7 +21,6 @@
     "Description": "An evaluation dataset of intent classification and slot detection",
     "Volume": 800.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
         "Snips Data"

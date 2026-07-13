@@ -20,7 +20,6 @@
     "Description": "Balanced spoken Arabic digit dataset (numbers 0-10) for teaching machine learning without coding, including wav files and generated tabular features/spectrograms.",
     "Volume": 935.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Umm Al-Qura University"
     ],

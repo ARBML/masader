@@ -20,7 +20,6 @@
     "Description": "The benchmark contains 57,444 student responses across 6 datasets from 3 languages (English, Portuguese, Arabic), covering ISCED levels 1, 2, 3, 6, and 7.",
     "Volume": 2132.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
         "AR-ASAG"

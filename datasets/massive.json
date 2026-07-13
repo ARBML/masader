@@ -20,7 +20,6 @@
     "Description": "1M parallel, labeled virtual-assistant utterances in 51 languages for NLU tasks with train/dev/test splits.",
     "Volume": 19521.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Amazon"
     ],

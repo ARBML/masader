@@ -20,7 +20,6 @@
     "Description": "ALARB is a 13K-case Arabic legal reasoning benchmark from Saudi commercial courts.",
     "Volume": 13344.0,
     "Unit": "documents",
-    "Ethical Risks": "Medium",
     "Provider": [
         "THIQAH",
         "KAUST"

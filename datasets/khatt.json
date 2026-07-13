@@ -20,7 +20,6 @@
     "Description": "Open Arabic offline handwritten text database consisting of 1000 forms written by 1000 distinct writers scanned at 200–600 dpi.",
     "Volume": 9327.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "KFUPM"
     ],

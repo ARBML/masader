@@ -21,7 +21,6 @@
     "Description": "Mapping Arabic Twitter user locations to countries",
     "Volume": 28000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

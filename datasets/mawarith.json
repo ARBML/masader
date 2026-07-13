@@ -23,7 +23,6 @@
     "Description": "Large-scale annotated dataset of 12,500 Arabic inheritance cases for legal reasoning.",
     "Volume": 12500.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Hamad Bin Khalifa University",
         "Nazarbayev University"

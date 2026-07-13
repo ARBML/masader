@@ -20,7 +20,6 @@
     "Description": "The AR-AES dataset is the first publicly available resource designed to support research in Automated Essay Scoring (AES) for the Arabic language. It includes 2,046 manually graded essay responses collected from undergraduate students at Umm Al-Qura University in Makkah, Saudi Arabia, across a range of academic disciplines and essay types.",
     "Volume": 2046.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Umm Al-Qura University"
     ],

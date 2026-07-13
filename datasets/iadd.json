@@ -99,7 +99,6 @@
     "Description": "Integrated dataset for Arabic dialect identification with 135k texts from 5 regions and 9 countries.",
     "Volume": 135804.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Cadi Ayyad University"
     ],

@@ -22,7 +22,6 @@
     "Description": "An Algerian dialect dataset annotated for both sentiment (9,000 tweets), emotion (about 5,000 tweets) and extra-linguistic information including author profiling (age and gender)",
     "Volume": 14000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "An Algerian Corpus and an Annotation Platform for Opinion and Emotion Analysis",

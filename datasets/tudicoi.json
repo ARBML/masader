@@ -20,7 +20,6 @@
     "Description": "The corpus consists of 434 1465 staff utterances and 1615 client utterances",
     "Volume": 127.0,
     "Unit": "conversations",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Sfax"
     ],

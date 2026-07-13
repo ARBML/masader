@@ -21,7 +21,6 @@
     "Description": "a large-scale dataset comprising 1.65 million cross-lingual article-summary samples in 1500+ language-pairs",
     "Volume": 72795.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

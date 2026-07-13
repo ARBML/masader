@@ -21,7 +21,6 @@
     "Description": "Context-free Arabic emoji sentiment lexicon.",
     "Volume": 1069.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Birmingham"
     ],

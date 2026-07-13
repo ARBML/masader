@@ -20,7 +20,6 @@
     "Description": "The dataset includes 5,588 tweets -- written in both MSA and dialectual Arabic -- manually annotated by two professional linguistics from HBKU",
     "Volume": 5588.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Hamad Bin Khalifa University"
     ],

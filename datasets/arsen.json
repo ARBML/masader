@@ -23,7 +23,6 @@
     "Description": "Arabic COVID-19 sentiment analysis benchmark.",
     "Volume": 10193.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Huaibei Normal University",
         "University College Dublin",

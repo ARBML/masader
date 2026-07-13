@@ -24,7 +24,6 @@
     "Description": "A 620K-word multi-genre corpus of Bahraini Arabic with written texts and spoken transcripts, automatically morphologically annotated.",
     "Volume": 620301.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Bahrain",
         "New York University Abu Dhabi",

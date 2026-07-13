@@ -22,7 +22,6 @@
     "Description": "A multi-class Arabic hate-speech corpus of Jordanian-dialect tweets labeled for hate speech presence.",
     "Volume": 403688.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Princess Sumaya University for Technology",
         "Jordan University of Science and Technology"

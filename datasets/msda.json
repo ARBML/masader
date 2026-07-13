@@ -21,7 +21,6 @@
     "Description": "tweets anotated for sentiment  analysis and topic detection",
     "Volume": 50000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "MSDA-UM6P"
     ],

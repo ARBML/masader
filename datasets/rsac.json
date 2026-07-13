@@ -20,7 +20,6 @@
     "Description": "This dataset contains 6318 hotel reviews collected from the Booking.com website. The reviews are written in both standard and dialectical Arabic and manually annotated as either positive or negative.",
     "Volume": 8425.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Minia University"
     ],

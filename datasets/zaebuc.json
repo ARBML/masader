@@ -20,7 +20,6 @@
     "Description": "the corpus is an annotated Arabic-English bilingual writer corpus comprising short essays by first-year university students at Zayed University in the United Arab Emirates.",
     "Volume": 33300.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [
         "NYU Abu Dhabi",
         "Zayed University"

@@ -21,7 +21,6 @@
     "Description": "The resulting corpus contains over 9000 words of English text (6949 words) and Arabic text (2183 words) annotated for committed belief, event and entity coreference, dialog acts and temporal relations.",
     "Volume": 2183.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

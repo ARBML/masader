@@ -46,7 +46,6 @@
     "Description": "Cross-dialectal NER dataset for Arabic",
     "Volume": 33515.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "LIPN"
     ],

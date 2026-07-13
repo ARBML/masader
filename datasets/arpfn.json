@@ -21,7 +21,6 @@
     "Description": "1546-user Arabic Twitter dataset for fake news.",
     "Volume": 1546.0,
     "Unit": "tokens",
-    "Ethical Risks": "High",
     "Provider": [
         "bigIR"
     ],

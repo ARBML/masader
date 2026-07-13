@@ -34,7 +34,6 @@
     "Description": "SadeedDiac-25 is a comprehensive and linguistically diverse benchmark specifically designed for evaluating Arabic diacritization models. It unifies Modern Standard Arabic (MSA) and Classical Arabic (CA) in a single dataset, addressing key limitations in existing benchmarks.",
     "Volume": 1200.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Misraj"
     ],

@@ -28,7 +28,6 @@
     "Description": "ARB is the first benchmark focused on step-by-step reasoning in Arabic cross both textual and visual modalities, covering 11 diverse domains spanning science, culture, OCR, and historical interpretation.",
     "Volume": 1355.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "MBZUAI"
     ],

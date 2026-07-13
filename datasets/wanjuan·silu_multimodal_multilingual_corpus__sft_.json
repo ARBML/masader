@@ -21,7 +21,6 @@
     "Description": "Cultural adversarial samples: Contains culturally relevant question-answer pairs designed by local residents to detect cultural bias in models",
     "Volume": 23000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Shanghai Artificial Intelligence Laboratory"
     ],

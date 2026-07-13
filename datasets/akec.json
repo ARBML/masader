@@ -21,7 +21,6 @@
     "Description": "The corpus consists in 160 arabic documents and their keyphrases.",
     "Volume": 160.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Udine",
         "University of Sheffield"

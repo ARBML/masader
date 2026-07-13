@@ -21,7 +21,6 @@
     "Description": "A corpus of Arabic short tweets in the tourism domain annotated for sentiment analysis in positive, negative, and neutral classes.",
     "Volume": 2293.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "King AbdulAziz University",
         "Edinburgh Napier University",

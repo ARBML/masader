@@ -22,7 +22,6 @@
     "Description": "Multilingual audio-video open-set deepfake detection benchmark with over 60K real and fake videos across eight languages, including Arabic.",
     "Volume": 9861.0,
     "Unit": "videos",
-    "Ethical Risks": "High",
     "Provider": [
         "University of Bucharest"
     ],

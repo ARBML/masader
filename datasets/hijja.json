@@ -20,7 +20,6 @@
     "Description": "Arabic handwritten letters dataset written by children aged 7–12",
     "Volume": 47434.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "King Saud University"
     ],

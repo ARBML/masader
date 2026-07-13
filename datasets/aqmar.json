@@ -20,7 +20,6 @@
     "Description": "This is a 74,000-token corpus of 28 Arabic Wikipedia articles hand-annotated for named entities.",
     "Volume": 74000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "CMU"
     ],

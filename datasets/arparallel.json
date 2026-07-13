@@ -20,7 +20,6 @@
     "Description": "The first monolingual parallel corpus of Arabic generated automatically from translating a bilingual English-French corpus. It can be used to train sequence-to-sequence models for paraphrasing, machine translation, text simplification, and other language generation tasks.",
     "Volume": 100000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Carnegie Mellon University"
     ],

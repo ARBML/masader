@@ -24,7 +24,6 @@
     "Description": "text readability for 73,000 parallel sentences from English and Arabic UN documents",
     "Volume": 73000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Lancaster University"
     ],

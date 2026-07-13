@@ -20,7 +20,6 @@
     "Description": "Open-R1-Mulitlingual-SFT is a curated dataset designed for multilingual supervised fine-tuning. The source data comprises multiple datasets containing original prompts and responses, which were subsequently translated into 14 languages using GPT-4o.",
     "Volume": 8960.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Yonsei University",
         "OneLineAI",

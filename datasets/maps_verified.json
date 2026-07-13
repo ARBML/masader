@@ -21,7 +21,6 @@
     "Description": "Multilingual agentic AI benchmark suite extending 4 English benchmarks into 11 languages plus English, yielding 9 660 task instances for performance & security evaluation.",
     "Volume": 277.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Fujitsu Research of Europe"
     ],

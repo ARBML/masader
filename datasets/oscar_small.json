@@ -21,9 +21,7 @@
     "Description": "a processed version of and smaller subset of OSCAR",
     "Volume": 408438.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
-    "Provider": [
-    ],
+    "Provider": [],
     "Derived From": [
         "OSCAR"
     ],

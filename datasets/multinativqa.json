@@ -58,7 +58,6 @@
     "Description": "Multilingual native QA dataset with ~64k manually annotated pairs in seven languages covering 18 topics from nine regions.",
     "Volume": 49248.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

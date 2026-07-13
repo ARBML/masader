@@ -20,7 +20,6 @@
     "Description": "The corpus contains 17,573 tweets labelled with four labels for sentiment: positive, negative, neutral and mixed",
     "Volume": 17573.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "KSU"
     ],

@@ -20,7 +20,6 @@
     "Description": "Arabic_Wikipedia_20230101_bots is a dataset created using the Arabic Wikipedia articles, including the bot-generated articles, downloaded on the 1st of January 2023, and processed to train an Arabic RoBERTa model.",
     "Volume": 1000000.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Clarkson University"
     ],

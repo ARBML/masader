@@ -20,7 +20,6 @@
     "Description": "Multilingual reward-model evaluation benchmark with 2.87k preference instances across 23 languages.",
     "Volume": 2870.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "CohereLabs"
     ],

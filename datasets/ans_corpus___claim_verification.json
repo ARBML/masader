@@ -20,7 +20,6 @@
     "Description": "corpus comes in two perspectives: a version consisting of 4,547 true and false claims and a version consisting of 3,786 pairs (claim, evidence).",
     "Volume": 3786.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Latynt"
     ],

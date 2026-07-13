@@ -20,7 +20,6 @@
     "Description": "A multimodal Emotion Recognition Dataset for Moroccan Arabic, contain 5288 data items that express one of the four emotions: Happy, Sad, Angry, and Neutral, expressed in four different modalities: audio, text, spectrogram, and Mel-spectrogram images",
     "Volume": 1322.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Sidi Mohamed Ben Abdellah University"
     ],

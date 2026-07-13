@@ -22,7 +22,6 @@
     "Description": "Preparing the source data involved four stages of work: data scouting, data harvesting, formatting and data selection.",
     "Volume": 264.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

@@ -21,7 +21,6 @@
     "Description": "First Arabic dataset with 10K LLM-generated sentences annotated for factuality.",
     "Volume": 10000.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "QCRI"
     ],

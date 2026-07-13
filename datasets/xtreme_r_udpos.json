@@ -21,7 +21,6 @@
     "Description": "UD-POS employed the part-of-speech tagging data from the Universal Dependencies v2.7 treebanks",
     "Volume": 1680.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "DeepMind"
     ],

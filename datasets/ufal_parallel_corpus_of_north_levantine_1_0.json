@@ -20,7 +20,6 @@
     "Description": "120,600 multiparallel sentences in English, French, German, Greek, Spanish, and Standard Arabic selected from the OpenSubtitles2018 corpus [1] and manually translated into the North Levantine Arabic language.",
     "Volume": 120600.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "Multi-Parallel Corpus of North Levantine Arabic",

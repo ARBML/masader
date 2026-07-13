@@ -20,7 +20,6 @@
     "Description": "Multilingual translation of Hellaswag in 31 languages",
     "Volume": 9180.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Oregon",
         "Adobe Research"

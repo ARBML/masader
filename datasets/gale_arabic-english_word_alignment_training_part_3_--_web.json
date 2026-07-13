@@ -20,7 +20,6 @@
     "Description": "This release consists of Arabic source web data collected by LDC. The distribution by genre, words, character tokens and segments appears below:",
     "Volume": 7332.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

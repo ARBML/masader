@@ -20,7 +20,6 @@
     "Description": "Sentiment Analysis dataset collected from Twitter. It contains people's opinions on Sudanese Ridesharing companies.",
     "Volume": 2116.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "University of Khartoum"
     ],

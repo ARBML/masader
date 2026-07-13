@@ -22,7 +22,6 @@
     "Description": "This is a context-sensitive Arabic sentiment lexicon of 1034 emoji, extracted from 144,196 tweets in existing Arabic datasets.",
     "Volume": 1034.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Jazan University",
         "University of Birmingham"

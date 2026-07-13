@@ -22,7 +22,6 @@
     "Description": "Arabic rumor verification dataset using authority tweets.",
     "Volume": 34000.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "bigIR"
     ],

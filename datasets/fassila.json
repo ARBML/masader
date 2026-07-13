@@ -21,7 +21,6 @@
     "Description": "This corpus comprises 10,087 sentences, encompassing over 19,497 unique words in Algerian Dialect, and addresses the significant lack of linguistic resources in the language and covers seven distinct domains.",
     "Volume": 10087.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Ahmed Draia University"
     ],

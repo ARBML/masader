@@ -20,7 +20,6 @@
     "Description": "contains around 6 million tokens representing different genres, as\nWikipedia is considered an open domain",
     "Volume": 6000000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Essex"
     ],

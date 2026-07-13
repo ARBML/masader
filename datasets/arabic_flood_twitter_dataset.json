@@ -21,7 +21,6 @@
     "Description": "It includes 4,037 human-labelled Arabic Twitter messages for four high-risk flood events that occurred in 2018",
     "Volume": 4037.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Multiple Institutions"
     ],

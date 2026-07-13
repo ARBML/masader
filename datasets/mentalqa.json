@@ -22,7 +22,6 @@
     "Description": "Annotated Arabic corpus for questions and answers on mental healthcare.",
     "Volume": 1000.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Umm Al-Qura University",
         "King Khalid University",

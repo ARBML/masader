@@ -21,7 +21,6 @@
     "Description": "contains 4.5 million tweets and covers both modern standard Arabic and some of the Arabic dialects",
     "Volume": 4500000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Multiple Institutions"
     ],

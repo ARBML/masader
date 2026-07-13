@@ -71,7 +71,6 @@
     "Description": "A large-scale open-source benchmark dataset for topic classification in 200+ languages and dialects, based on Flores-200.",
     "Volume": 11440.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "University College London",
         "Masakhane",

@@ -34,7 +34,6 @@
     "Description": "A parallel sentiment dataset of 10K Amazon reviews in English, Modern Standard Arabic, and Bahraini dialects.",
     "Volume": 10000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Brunel University London"
     ],

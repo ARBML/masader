@@ -20,7 +20,6 @@
     "Description": "Handwritten document images with multiply oriented and curved text lines for text line segmentation.",
     "Volume": 30.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Ben-Gurion University"
     ],

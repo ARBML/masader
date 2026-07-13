@@ -20,7 +20,6 @@
     "Description": "This dataset is a merge of 98k questions and their respective answers as written by different authors on Askfm.",
     "Volume": 98000.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "",

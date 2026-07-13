@@ -21,7 +21,6 @@
     "Description": "Combined MLMA and L-HSAB datasets",
     "Volume": 5790.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Indian Institute of Technology Kharagpur"
     ],

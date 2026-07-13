@@ -21,7 +21,6 @@
     "Description": "FloDusTA is a dataset of annotated tweets collected for the purpose of developing an event detection system. The dataset contains tweets written in both the MSA and Saudi dialect. Labels are: flood, dust storm, traffic accident, and non-event.",
     "Volume": 8998.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Umm Al-Qura University - Saudi Arabia"
     ],

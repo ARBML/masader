@@ -21,7 +21,6 @@
     "Description": "ANT Corpus, which is collected from RSS Feeds.",
     "Volume": 6005.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

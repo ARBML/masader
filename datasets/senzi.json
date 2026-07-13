@@ -20,7 +20,6 @@
     "Description": "by translating, annotating, and transliterating\r\nother resources to have an initial set of 2K sentiment words. We expanded it to 24.6K sentiment\r\nwords by importing inflectional and orthographic\r\nforms using word embeddings",
     "Volume": 24600.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Multiple Institutions"
     ],

@@ -21,7 +21,6 @@
     "Description": "Multilingual multimodal exam benchmark with 20,911 multiple-choice questions across 18 languages and 14 subjects.",
     "Volume": 382.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Cohere For AI"
     ],

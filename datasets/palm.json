@@ -159,7 +159,6 @@
     "Description": "A culturally inclusive and linguistically diverse Arabic instruction dataset covering all 22 Arab countries in both MSA and dialectal Arabic.",
     "Volume": 17971.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "UBC-NLP"
     ],

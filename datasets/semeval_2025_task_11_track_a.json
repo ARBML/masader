@@ -33,7 +33,6 @@
     "Description": "This dataset contains the data for SemEval 2025 Task 11: Bridging the Gap in Text-Based Emotion Detection - Track A, organized as language-specific configurations.",
     "Volume": 4590.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Imperial College London",
         "Cardiff University"

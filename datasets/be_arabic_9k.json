@@ -20,7 +20,6 @@
     "Description": "A large-scale benchmark dataset of over 9000 high-quality scanned images from Arabic books for document layout analysis and text extraction.",
     "Volume": 9000.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Boston University"
     ],

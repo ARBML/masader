@@ -21,7 +21,6 @@
     "Description": "Bidirectional Arabic-English translation benchmark.",
     "Volume": 5000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Misraj AI"
     ],

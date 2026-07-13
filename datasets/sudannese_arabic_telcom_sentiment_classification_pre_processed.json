@@ -20,7 +20,6 @@
     "Description": "it is pre processed dataset from Twitter about Telecom companies in Sudan, it labelled by 3 different labels from different age, gender and background",
     "Volume": 5349.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "University of Khartoum"
     ],

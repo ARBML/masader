@@ -22,7 +22,6 @@
     "Description": "A 100K-word human post-edited English-to-Arabic machine-translation corpus created from Wikinews articles.",
     "Volume": 100000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Carnegie Mellon University in Qatar",
         "New York University Abu Dhabi",

@@ -24,7 +24,6 @@
     "Description": "The multi-modal Arabic corpus contains 6 million Arabic words selected from various sources covering old Arabic, religious texts, traditional language, modern language, different specialisations and very modern material from online “chat rooms.”",
     "Volume": 6000000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

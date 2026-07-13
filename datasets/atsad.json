@@ -22,7 +22,6 @@
     "Description": "Arabic Twitter sentiment analysis dataset containing 36k tweets labeled positive or negative using distant supervision.",
     "Volume": 18173.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "University of Gothenburg",
         "Islamic University of Gaza"

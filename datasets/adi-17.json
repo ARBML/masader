@@ -123,7 +123,6 @@
     "Description": "dialect identification of speech from YouTube to one of the 17 dialects",
     "Volume": 3032.4,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

@@ -23,7 +23,6 @@
     "Description": "Bilingual (Arabic/English) COVID-19 Twitter dataset for misleading information detection",
     "Volume": 3263000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "University of Victoria"
     ],

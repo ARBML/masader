@@ -21,7 +21,6 @@
     "Description": "Electromyography dataset of 18,716 gesture files capturing 28 Arabic alphabet handshapes and 10 digits via the Myo armband.",
     "Volume": 18716.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Tunis"
     ],

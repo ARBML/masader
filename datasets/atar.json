@@ -21,7 +21,6 @@
     "Description": "the first large-scale 'Arabizi to Arabic script' parallel corpus focusing on the Jordanian dialect and consisting of more than 25k pairs carefully created and inspected by native speakers to ensure highest quality",
     "Volume": 2743.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

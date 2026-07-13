@@ -20,7 +20,6 @@
     "Description": "A sentence-aligned parallel English–Arabic corpus of healthcare texts encompassing patient information leaflets and educational materials.",
     "Volume": 51671.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "University of Sharjah"
     ],

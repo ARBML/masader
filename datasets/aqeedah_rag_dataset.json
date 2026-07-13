@@ -21,7 +21,6 @@
     "Description": "A curated Arabic Islamic theology (Aqeedah) dataset with pre-computed FAISS embeddings, designed for advanced Retrieval-Augmented Generation (RAG) applications in Islamic scholarly research.",
     "Volume": 5419.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Najran University"
     ],

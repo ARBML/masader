@@ -23,7 +23,6 @@
     "Description": "A manually annotated Arabic memes dataset of ~6K images for propaganda detection, compiled from Facebook, Instagram, Pinterest and Twitter.",
     "Volume": 5725.0,
     "Unit": "images",
-    "Ethical Risks": "High",
     "Provider": [
         "QCRI"
     ],

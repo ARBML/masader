@@ -20,7 +20,6 @@
     "Description": "8 carefully selected and previously\r\npublished tasks",
     "Volume": 0.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Mawdoo3"
     ],

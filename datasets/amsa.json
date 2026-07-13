@@ -20,7 +20,6 @@
     "Description": "2000 Arabic medical documents from Arabic medical websites and the Arab Medical Encyclopedia, 10-class disease classification.",
     "Volume": 2000.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "ITMO University"
     ],

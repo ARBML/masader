@@ -20,7 +20,6 @@
     "Description": "A total of 250 topics, numbered 55001 - 55250, were annotated by LDC using a search guided annotation technique. Details of the annotation process are described in the annotation task definition.",
     "Volume": 104.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

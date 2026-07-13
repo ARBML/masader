@@ -20,7 +20,6 @@
     "Description": "The An-Nahar Lebanon Newspaper Text Corpus comprises articles in standard Arabic from 1995 to 2000 (6 years) stored as HTML files on CDRom media. Each year contains 45 000 articles and 24 million words.",
     "Volume": 45000.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "",

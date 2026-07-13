@@ -26,7 +26,6 @@
     "Description": "A dataset in Arabic language for automatic keyphrase extraction algorithms",
     "Volume": 400.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "KFUPM"
     ],

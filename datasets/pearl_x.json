@@ -22,7 +22,6 @@
     "Description": "PEARL-X (PEARL eXtension) is a specialized benchmark designed to evaluate nuanced cultural understanding by focusing on shared cultural concepts that manifest differently across various Arab contexts.",
     "Volume": 367.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "UBC-NLP"
     ],

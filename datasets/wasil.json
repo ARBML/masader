@@ -58,7 +58,6 @@
     "Description": "WASIL is a dataset of in-the-wild Arabic spoken interactions with an LLM-based assistant. The dataset contains ∼9K turns (9,304 turns from 93 users), spans multiple dialects and countries, and includes explicit user feedback on assistant responses, including like or dislike signals and scalar scores.",
     "Volume": 2213.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

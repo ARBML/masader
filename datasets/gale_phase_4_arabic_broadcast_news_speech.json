@@ -21,7 +21,6 @@
     "Description": "The recordings in this release feature news broadcasts focusing principally on current events from the following sources: Abu Dhabi TV, a television station based in Abu Dhabi, United Arab Emirates; Al Arabiya, a news television station based in Dubai; Al Baghdadya , an Iraqi broadcast programmer; Alhurra, a U.S. government-funded regional broadcaster; Al Iraqiyah, an Iraqi television station; Aljazeera , a regional broadcaster located in Doha, Qatar; Al Ordiniyah, a national broadcast station in Jordan; Kuwait TV, a national broadcast station based in Kuwait; Radio Sawa, a U.S. government-funded regional broadcaster; Saudi TV, a national television station based in Saudi Arabia; Syria TV, the national television station in Syria; and Yemen TV, a television station based in Yemen.",
     "Volume": 37.0,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

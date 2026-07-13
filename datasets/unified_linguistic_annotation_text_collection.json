@@ -20,7 +20,6 @@
     "Description": "It consists of two datasets, the Language Understanding Annotation Corpus from the Johns Hopkins Center of Excellence in Human Language Technology and ACE Reflex Entity Translation Training Dev/Test developed by LDC.",
     "Volume": 24683.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

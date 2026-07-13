@@ -24,7 +24,6 @@
     "Description": "Tiny QA Benchmark++ (TQB++) is an ultra-lightweight evaluation suite designed to expose critical failures in Large Language Model (LLM) systems within seconds.",
     "Volume": 50.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Comet ML, Inc."
     ],

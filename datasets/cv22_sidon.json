@@ -20,7 +20,6 @@
     "Description": "This dataset hosts a release of Mozilla Common Voice 22 restored with the Sidon speech restoration model.",
     "Volume": 49500.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "SaruLab"
     ],

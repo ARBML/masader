@@ -20,7 +20,6 @@
     "Description": "LHV-Morocco is a substantial dataset specifically developed to foster the creation and improvement of language models for the Moroccan Arabic dialect. This resource was created through controlled generation using a teacher LLM (CohereLabs/c4ai-command-r-plus-08-2024) to generate diverse texts reflecting specific cultural heritage concepts and local persona descriptions. This integrates:",
     "Volume": 761041.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "UBC-NLP"
     ],

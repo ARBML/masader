@@ -20,7 +20,6 @@
     "Description": "Levantine Arabic QT Training Data Set 5, Speech was developed by the Linguistic Data Consortium (LDC) and contains 1,660 calls totalling approximately 250 hours of telephone conversation in Levantine Arabic. These calls were collected between 2003 and 2005.",
     "Volume": 250.0,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

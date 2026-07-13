@@ -21,7 +21,6 @@
     "Description": "BenchMAX_Science is a dataset of BenchMAX, sourcing from GPQA, which evaluates the natural science reasoning capability in multilingual scenarios.",
     "Volume": 448.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Nanjing University"
     ],

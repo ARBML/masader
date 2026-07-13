@@ -57,7 +57,6 @@
     "Description": "A multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants.",
     "Volume": 5400.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Meta AI"
     ],

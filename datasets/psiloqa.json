@@ -20,7 +20,6 @@
     "Description": "Multilingual span-level hallucination detection dataset with 14 languages, automatically annotated using GPT-4o.",
     "Volume": 2072.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Skoltech"
     ],

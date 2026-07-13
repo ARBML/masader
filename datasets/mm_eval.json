@@ -20,7 +20,6 @@
     "Description": "Multilingual meta-evaluation benchmark for evaluating Large-Language-Model judges across 18 core languages and 122 consistency-test languages.",
     "Volume": 278.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Yonsei University",
         "KAIST",

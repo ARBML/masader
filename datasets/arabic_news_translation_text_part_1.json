@@ -20,7 +20,6 @@
     "Description": "Arabic News Translation Text Part 1 was produced by the Linguistic Data Consortium (LDC) and contains 1,526 Arabic news stories and their English translations, totaling approximately 441,000 Arabic words and 581,000 English words.",
     "Volume": 1526.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

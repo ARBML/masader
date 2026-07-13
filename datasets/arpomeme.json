@@ -21,7 +21,6 @@
     "Description": "Arabic multimodal dataset for political ideology and polarization",
     "Volume": 7300.0,
     "Unit": "images",
-    "Ethical Risks": "High",
     "Provider": [
         "MARSAD Lab"
     ],

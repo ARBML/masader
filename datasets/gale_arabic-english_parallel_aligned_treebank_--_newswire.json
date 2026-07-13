@@ -21,7 +21,6 @@
     "Description": "The source data consists of Arabic newswire from the Lebanese publication An Nahar collected by LDC in 2002. All data is encoded as UTF-8. A count of files, words, tokens and segments is below.",
     "Volume": 7711.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

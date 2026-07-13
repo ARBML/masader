@@ -21,7 +21,6 @@
     "Description": "A multi-speaker Modern Standard Arabic (MSA) speech corpus with diacritized transcriptions for multi-speaker speech synthesis, voice conversion, and deepfake detection.",
     "Volume": 83.52,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "MBZUAI"
     ],

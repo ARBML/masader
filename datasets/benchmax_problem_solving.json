@@ -20,7 +20,6 @@
     "Description": "BenchMAX_Problem_Solving is a dataset of BenchMAX, sourcing from LiveCodeBench_v4, which evaluates the code generation capability for solving multilingual competitive code problems.",
     "Volume": 713.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Nanjing University"
     ],

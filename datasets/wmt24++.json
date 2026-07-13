@@ -33,7 +33,6 @@
     "Description": "Extended WMT24 benchmark covering 55 languages/dialects with human references and post-edits for evaluating MT and LLMs.",
     "Volume": 998.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Google",
         "Unbabel"

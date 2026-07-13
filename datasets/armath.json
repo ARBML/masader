@@ -21,7 +21,6 @@
     "Description": "There are 6000 samples and 883 templates. A template is an equation once the variables have been replaced with ordered placeholders.",
     "Volume": 6000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "KAUST"
     ],

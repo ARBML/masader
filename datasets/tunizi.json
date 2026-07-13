@@ -21,7 +21,6 @@
     "Description": "first Tunisian Arabizi Dataset including 3K sentences, balanced, covering different topics, preprocessed and annotated as positive and negative",
     "Volume": 3000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "iCompass"
     ],

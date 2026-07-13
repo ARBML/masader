@@ -20,7 +20,6 @@
     "Description": "A parallel corpus of KDE4 localization files (v.2).  92 languages, 4,099 bitexts",
     "Volume": 700000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "OPUS"
     ],

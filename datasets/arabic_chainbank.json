@@ -20,7 +20,6 @@
     "Description": "Graph network for Arabic derivational morphology.",
     "Volume": 23333.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "CAMeL Lab"
     ],

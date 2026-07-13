@@ -20,7 +20,6 @@
     "Description": "Public benchmark for Arabic language understanding",
     "Volume": 588200.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "The University of British Columbia",
         "MBZUAI"

@@ -23,7 +23,6 @@
     "Description": "First publicly available dataset of real-world Arabic handwriting in historic manuscripts and calligraphy, containing 5,031 image-text pairs across five calligraphic styles.",
     "Volume": 5031.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "KU Leuven",
         "Lebanese American University",

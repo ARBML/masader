@@ -20,7 +20,6 @@
     "Description": "135M parallel sentences for 1620 different language pairs, out of which only 34M are aligned with English",
     "Volume": 4435.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "JHU",
         "Facebook"

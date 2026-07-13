@@ -23,7 +23,6 @@
     "Description": "The ATHAR dataset comprises 66,000 translation pairs from Classical Arabic to English. It spans a wide array of subjects, aiming to enhance the development of NLP models specialized in Classical Arabic. This dataset addresses the gap in translation resources for Classical Arabic and is useful for fine-tuning large language models (LLMs) to improve their performance in handling ancient texts.",
     "Volume": 66000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "ADAPT/DCU",
         "Dublin",

@@ -75,7 +75,6 @@
     "Description": "57.6k parallel Arabic dialect MT dataset.",
     "Volume": 6400.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Toledo",
         "Claremont Graduate University"

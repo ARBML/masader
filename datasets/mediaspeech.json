@@ -22,7 +22,6 @@
     "Description": "an open-source 10-hour ASR system evaluation\r\ndataset NTR MediaSpeech for 4 languages: Spanish, French,\r\nTurkish and Arabic",
     "Volume": 10.0,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

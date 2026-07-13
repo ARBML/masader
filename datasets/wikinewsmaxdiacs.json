@@ -22,7 +22,6 @@
     "Description": "A new version of WikiNews that was manually extended for maximal diacritization",
     "Volume": 16215.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "CAMeL-Lab"
     ],

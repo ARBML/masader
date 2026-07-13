@@ -20,7 +20,6 @@
     "Description": "multilingually aligned for 20 languages, i.e. 20 monolingual corpora and 190 parallel corpora",
     "Volume": 154301.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

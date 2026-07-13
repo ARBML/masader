@@ -20,7 +20,6 @@
     "Description": "For an example of the data into this corpus, please listen to this audio sample (wav format).",
     "Volume": 985.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

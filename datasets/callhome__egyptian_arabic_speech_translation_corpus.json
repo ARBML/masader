@@ -20,7 +20,6 @@
     "Description": "three-way parallel dataset of Egyptian Arabic Speech, transcriptions and English translations",
     "Volume": 39213.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Multiple Institutions"
     ],

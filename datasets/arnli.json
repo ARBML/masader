@@ -21,7 +21,6 @@
     "Description": "Arabic NLI dataset for natural language inference collected by translating and re-annotating English and Arabic datasets. ",
     "Volume": 6366.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Arab International University"
     ],

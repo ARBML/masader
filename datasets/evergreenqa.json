@@ -20,7 +20,6 @@
     "Description": "Multilingual evergreen/mutable question–answer dataset with 4.757 human-curated examples across 7 languages.",
     "Volume": 4757.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Skoltech",
         "AIRI",

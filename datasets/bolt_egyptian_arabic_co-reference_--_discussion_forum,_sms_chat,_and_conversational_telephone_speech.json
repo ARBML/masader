@@ -22,7 +22,6 @@
     "Description": "DF data was collected from the web using a combination of manual and automatic processes. SMS/Chat material was donated or collected via live platforms. CTS data was taken from LDC's Egyptian Arabic CALLHOME and CALLFRIEND telephone collections.",
     "Volume": 602513.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

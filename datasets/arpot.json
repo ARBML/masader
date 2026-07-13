@@ -22,7 +22,6 @@
     "Description": "First syntactic treebank for Classical Arabic poetry collected from adab and aldiwan.",
     "Volume": 35459.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "King Saud University"
     ],

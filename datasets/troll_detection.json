@@ -20,9 +20,7 @@
     "Description": "Trolls detection in Tweets",
     "Volume": 128.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
-    "Provider": [
-    ],
+    "Provider": [],
     "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",

@@ -58,7 +58,6 @@
     "Description": "Fully-synthetic multi-turn multilingual instruction-tuning dataset with 175K conversations across 70 languages and 19 NLP tasks.",
     "Volume": 16007.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "ServiceNow"
     ],

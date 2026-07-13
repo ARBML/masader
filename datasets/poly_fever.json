@@ -21,7 +21,6 @@
     "Description": "A multilingual fact-verification benchmark with claims translated from English to 11 languages for hallucination detection in LLMs.",
     "Volume": 77973.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of North Texas",
         "Argonne National Laboratory"

@@ -23,7 +23,6 @@
     "Description": "Moroccan Arabic speech extracted from 93 YouTube videos distributed across seven genres: comedy, cooking, family/children, fashion, drama, sports, and science clips.",
     "Volume": 14.0,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

@@ -23,7 +23,6 @@
     "Description": "The dataset was built from 23 carefully selected YouTube videos covering the Gaza genocide (2023– 2024)",
     "Volume": 10000.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Marsad Lab"
     ],

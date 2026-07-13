@@ -24,7 +24,6 @@
     "Description": "categorize memes as either propagandistic or non-propagandistic",
     "Volume": 3062.0,
     "Unit": "images",
-    "Ethical Risks": "High",
     "Provider": [
         "QCRI"
     ],

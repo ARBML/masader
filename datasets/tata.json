@@ -20,7 +20,6 @@
     "Description": "TaTA was created by transcribing figures and accompanying text in bilingual reports by the Demographic and Health Surveys Program, followed by professional translation to make the dataset fully parallel",
     "Volume": 8700.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Google Research"
     ],

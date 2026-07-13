@@ -21,7 +21,6 @@
     "Description": "It is a comprehensive archive of newswire text data that has been acquired from Arabic news sources by LDC at the University of Pennsylvania.",
     "Volume": 3346167.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

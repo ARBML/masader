@@ -22,7 +22,6 @@
     "Description": "GALE Arabic-English Word Alignment -- Broadcast Training Part 1 was developed by the Linguistic Data Consortium (LDC) and contains 267,257 tokens of word aligned Arabic and English parallel text enriched with linguistic tags.",
     "Volume": 11341.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

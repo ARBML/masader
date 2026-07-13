@@ -20,7 +20,6 @@
     "Description": "BenchMAX_Question_Answering is a dataset of BenchMAX for evaluating the long-context capability of LLMs in multilingual scenarios. The subtasks are similar to the subtasks in RULER. The data is sourcing from UN Parallel Corpus and xquad.",
     "Volume": 1190.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Nanjing University"
     ],

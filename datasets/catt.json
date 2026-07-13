@@ -20,7 +20,6 @@
     "Description": "Manually diacritized Arabic news sentences for evaluating Arabic Text Diacritization.",
     "Volume": 742.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Abjad Ltd."
     ],

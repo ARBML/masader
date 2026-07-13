@@ -20,7 +20,6 @@
     "Description": "We provide you with a training data set that consists of Twitter users labeled with gender. For each author, a total of 100 tweets and 10 images are provided. Authors are grouped by the language of their tweets: English, Arabic and Spanish.",
     "Volume": 250000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Bauhaus-Universität Weimar"
     ],

@@ -20,7 +20,6 @@
     "Description": "The ASAYAR dataset is the first public dataset for Arabic and Latin scene text detection in highway traffic panels. It includes over 1800 annotated images and can be used to develop and evaluate models for traffic sign detection and text detection in Arabic and French.",
     "Volume": 1800.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Sidi Mohamed Ben Abdellah University - Fez Morocco"
     ],

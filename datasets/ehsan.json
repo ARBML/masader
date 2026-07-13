@@ -21,7 +21,6 @@
     "Description": "Arabic aspect-based sentiment dataset for healthcare reviews from Saudi hospitals.",
     "Volume": 6000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Newcastle University"
     ],

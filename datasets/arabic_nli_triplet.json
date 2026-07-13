@@ -20,7 +20,6 @@
     "Description": "The Arabic Version of SNLI and MultiNLI datasets. (Triplet Subset)",
     "Volume": 571043.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Prince Sultan University"
     ],

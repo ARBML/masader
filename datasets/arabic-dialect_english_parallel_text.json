@@ -33,7 +33,6 @@
     "Description": "it uses crowdsourcing to cheaply and quickly build LevantineEnglish and Egyptian-English parallel corpora, consisting of 1.1M words and 380k words, respectively.",
     "Volume": 176164.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

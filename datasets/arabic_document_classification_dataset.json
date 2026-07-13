@@ -28,7 +28,6 @@
     "Description": "The dataset contains nine major disciplines: Art, Literature, Religion, Politics, Law, Economy, Sport, Health, and Technology.",
     "Volume": 2700.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

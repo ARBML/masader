@@ -20,7 +20,6 @@
     "Description": "a huge multilingual corpus obtained by language classification and filtering of the Common Crawl",
     "Volume": 8117162828.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Inria"
     ],

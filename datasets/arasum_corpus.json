@@ -21,7 +21,6 @@
     "Description": "AraSum corpus is a monolingual corpus for abstractive text summarization for the Arabic language. The AraSum corpus contains 49604 articles and their corresponding leads. AraSum files are in .csv format.",
     "Volume": 49604.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Pázmány Péter Catholic University"
     ],

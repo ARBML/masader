@@ -20,7 +20,6 @@
     "Description": "The dataset includes both “correct” and “wrong” non-artificial pronunciations. The pronunciations are from nine pupils aged from 5 to 8 years; each of them uttered a set of 16 sequences (words or group of words). The chosen words included some difficulties to learners such as the long vowels and the words written with more than one connected component.",
     "Volume": 143.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University Badji Mokhtar"
     ],

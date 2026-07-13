@@ -21,7 +21,6 @@
     "Description": "First Arabic corpus integrating stance detection and fact checking with sentence-level rationales.",
     "Volume": 3042.0,
     "Unit": "documents",
-    "Ethical Risks": "Medium",
     "Provider": [
         "QCRI"
     ],

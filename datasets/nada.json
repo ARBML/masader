@@ -25,7 +25,6 @@
     "Description": "NADA corpus is collected from two existing corpora,\r\nwhich are Diab Dataset DAA corpus and OSAC corpus.",
     "Volume": 13066.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

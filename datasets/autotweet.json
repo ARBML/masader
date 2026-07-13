@@ -20,7 +20,6 @@
     "Description": "classification of Arabic tweets into automated or manual.",
     "Volume": 3503.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Qatar University"
     ],

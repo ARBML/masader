@@ -20,7 +20,6 @@
     "Description": "Arabic Offensive Comments dataset from Multiple Social Media Platforms",
     "Volume": 400.0,
     "Unit": "documents",
-    "Ethical Risks": "Medium",
     "Provider": [
         "QCRI"
     ],

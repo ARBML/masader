@@ -20,7 +20,6 @@
     "Description": "This is a raw text from Arabic daily newspapers collected over a year between 2004 and 2005. Each file is compiled as cleaned raw text from documents that are separated by two blank lines.",
     "Volume": 28.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "",

@@ -20,7 +20,6 @@
     "Description": "6 official languages of the UN, consisting of around 300 million words per language",
     "Volume": 65156.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "DFKI"
     ],

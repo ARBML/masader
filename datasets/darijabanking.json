@@ -34,7 +34,6 @@
     "Description": "A Moroccan Darija and MSA dataset for banking intent detection with 3600 sentences across 24 intents.",
     "Volume": 3600.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "OCPSolutions",
         "UM6P College of Computing",

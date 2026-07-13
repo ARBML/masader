@@ -30,7 +30,6 @@
     "Description": "Arabic dataset for topic classification",
     "Volume": 19784.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Arab Center for Research and Policy Studies"
     ],

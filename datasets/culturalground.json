@@ -21,7 +21,6 @@
     "Description": "22 million multilingual image-question-answer triplets covering 39 languages and 42 countries.",
     "Volume": 346263.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Carnegie Mellon University"
     ],

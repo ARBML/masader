@@ -21,7 +21,6 @@
     "Description": "First Tunisian Arabic-English speech translation corpus.",
     "Volume": 28.65,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "ELYADATA",
         "Laboratoire Informatique d'Avignon"

@@ -21,7 +21,6 @@
     "Description": "This release consists of Arabic source newswire collected by LDC in 2004 - 2006 and 2008. The distribution by genre, words, character tokens and segments appears below:",
     "Volume": 5349.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

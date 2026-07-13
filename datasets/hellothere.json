@@ -20,7 +20,6 @@
     "Description": "Dialogue corpus with 317 multi-turn conversations between users and Time-Offset Interaction Application avatars.",
     "Volume": 317.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "CAMeL Lab"
     ],

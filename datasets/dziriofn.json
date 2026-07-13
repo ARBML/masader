@@ -21,7 +21,6 @@
     "Description": "Offensive language corpus for Algerian Arabic collected from Facebook.",
     "Volume": 8749.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Université 8 Mai 1945, Guelma"
     ],

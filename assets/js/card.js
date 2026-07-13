@@ -7,14 +7,6 @@ function recaptchaChange() {
     else document.getElementById('grecaptcha-submit').disabled = true;
 }
 
-function ethicalBadge(text) {
-    text = text.toLowerCase();
-    if (text == 'low') return '<span class="badge bg-success">Low</span>';
-    else if (text == 'medium')
-        return '<span class="badge bg-warning">Medium</span>';
-    else return '<span class="badge bg-danger text-light">High</span>';
-}
-
 function createSubsets(subsetsValue) {
     let result = '<table><tbody>';
     subsetsValue.forEach((subset) => {
@@ -101,7 +93,6 @@ axios
             'Domain',
             'Form',
             'Annotation Style',
-            'Ethical Risks',
             'Provider',
             'Derived From',
             'Script',
@@ -139,12 +130,7 @@ axios
                 });
                 continue;
             }
-            if (element.title == 'Ethical Risks') {
-                value = ethicalBadge(value); // calling "ethicalBadge" function to put some style to the value
-            } else if (
-                element.title == 'Link' ||
-                element.title == 'Paper Link'
-            ) {
+            if (element.title == 'Link' || element.title == 'Paper Link') {
                 value = linkuize(value, value);
             } else if (element.title == 'HF Link') {
                 if (value.includes(',')) {

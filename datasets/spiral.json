@@ -20,7 +20,6 @@
     "Description": "SPIRAL is a corpus dedicated to the detection and correction of spelling errors in MSA Arabic texts.",
     "Volume": 248441892.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "Automatic Building of a Large Arabic Spelling Error Corpus",

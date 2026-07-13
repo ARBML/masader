@@ -20,7 +20,6 @@
     "Description": "Arabic-English transliteration dataset mined from Wikipedia.",
     "Volume": 15898.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Google"
     ],

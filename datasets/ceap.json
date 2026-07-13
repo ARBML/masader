@@ -22,7 +22,6 @@
     "Description": "It contains 50 TXT files recording poetry composition by various authors from 6th and 7th c. It was derived from two corpora: King Saud University Classical Arabic Corpus (KSUCAC) created by the team led by Maha S. Alrabiah (2014), and a corpus prepared by Abeer Alsheddi (2016).",
     "Volume": 50.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
         "KSUCAC"

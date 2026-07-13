@@ -135,7 +135,6 @@
     "Description": "First Arabic speech dataset with city-level dialect granularity from radio streams.",
     "Volume": 31.7,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         " RIOTU Lab"
     ],

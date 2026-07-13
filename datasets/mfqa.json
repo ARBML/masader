@@ -20,7 +20,6 @@
     "Description": "MQA is a Multilingual corpus of Questions and Answers (MQA) parsed from the Common Crawl. Questions are divided in two types: Frequently Asked Questions (FAQ) and Community Question Answering (CQA).",
     "Volume": 3017456.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Antwerp"
     ],

@@ -20,7 +20,6 @@
     "Description": "The first manually-created multilingual jailbreak dataset designed to evaluate safety vulnerabilities of large language models across 10 languages under intentional and unintentional attack scenarios.",
     "Volume": 315.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Alibaba"
     ],
