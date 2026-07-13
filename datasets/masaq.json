@@ -1,0 +1,63 @@
+{
+    "Name": "MASAQ",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://data.mendeley.com/datasets/9yvrzxktmr/2",
+    "License": "CC BY 3.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Classical Arabic",
+    "Source": [
+        "public datasets",
+        "books"
+    ],
+    "Domain": [
+        "religion"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "The Morphologically-Annotated and Syntactically-Annotated Quran (MASAQ) dataset presents significant potential applications across domains.",
+    "Volume": 131930.0,
+    "Unit": "tokens",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Multiple Institutions"
+    ],
+    "Derived From": [
+        "Tanzil Project"
+    ],
+    "Paper Title": "MASAQ Parser: A Fine-grained MorphoSyntactic Analysis for the Quran",
+    "Paper Link": "https://aclanthology.org/2025.clrel-1.7.pdf",
+    "Script": "Arab",
+    "Tokenized": true,
+    "Host": "Mendeley Data",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "morphological analysis"
+    ],
+    "Venue Title": "COLING-Rel",
+    "Venue Type": "workshop",
+    "Venue Name": "New Horizons in Computational Linguistics for Religious Texts",
+    "Authors": [
+        "Majdi Sawalha",
+        "Faisal Al-Shagri",
+        "Sane Yagi",
+        "Abdullah T. AlShdaifat",
+        "Bassam Hammo"
+    ],
+    "Affiliations": [
+        "The University of Jordan",
+        "Al-Ain University",
+        "Amazon",
+        "University of Sharjah",
+        "Mohamed bin Zayed University for Humanities",
+        "Princess Sumaya University for Technology"
+    ],
+    "Abstract": "This paper introduces the Morphological and Syntactical analysis for the Quran text. In this research we have constructed the MASAQ dataset, a comprehensive resource designed to address the scarcity of annotated Quranic Arabic corpora and facilitate the development of advanced Natural Language Processing (NLP) models. The Quran, being a cornerstone of classical Arabic, presents unique challenges for NLP due to its sacred nature and complex linguistic features. MASAQ provides a detailed syntactic and morphological annotation of the entire Quranic text that includes more than 131K morphological entries and 123K instances of syntactic functions, covering a wide range of grammatical roles and relationships. MASAQ\u2019s unique features include a comprehensive tagset of 72 syntactic roles, detailed morphological analysis, and context-specific annotations. This dataset is particularly valuable for tasks such as dependency parsing, grammar checking, machine translation, and text summarization. The potential applications of MASAQ are vast, ranging from pedagogical uses in teaching Arabic grammar to developing sophisticated NLP tools. By providing a high-quality, syntactically annotated dataset, MASAQ aims to advance the field of Arabic NLP, enabling more accurate and more efficient language processing tools. The dataset is made available under the Creative Commons Attribution 3.0 License, ensuring compliance with ethical guidelines and respecting the integrity of the Quranic text.",
+    "Added By": "Zaid Alyafeai"
+}
