@@ -25,12 +25,11 @@
     "Description": "Native-written Palestinian Levantine conversational question-answer pairs (50) with English glosses and domain labels; written by a first-language speaker and reviewed line-by-line. No scraping, machine translation, or synthetic generation.",
     "Volume": 50.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "4factors"
     ],
     "Derived From": [],
-    "Paper Title": "4FACTORS \u2014 Palestinian Levantine Conversational Sample",
+    "Paper Title": "4FACTORS — Palestinian Levantine Conversational Sample",
     "Paper Link": "https://huggingface.co/datasets/4factors/arabic-palestinian-levantine-sample",
     "Script": "Arab",
     "Tokenized": false,
