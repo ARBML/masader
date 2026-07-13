@@ -21,7 +21,6 @@
     "Description": "A dataset of 2000 tweets originating from Syria",
     "Volume": 2000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Multiple Institutions"
     ],

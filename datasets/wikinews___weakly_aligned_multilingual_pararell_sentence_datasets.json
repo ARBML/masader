@@ -21,7 +21,6 @@
     "Description": "Multilingual aligned news articles from WikiNews in 34 languages.",
     "Volume": 73.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Primer Technologies Inc."
     ],

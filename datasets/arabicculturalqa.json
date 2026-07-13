@@ -52,7 +52,6 @@
     "Description": "ArabicCulturalQA is the first cross-dialectal Arabic cultural QA benchmark with parallel multiple-choice (MCQ) and open-ended (OEQ) formats across Modern Standard Arabic (MSA), English, Egyptian, Levantine, Gulf, and Maghrebi.",
     "Volume": 44845.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

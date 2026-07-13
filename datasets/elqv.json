@@ -21,7 +21,6 @@
     "Description": "a dataset that consists of a collection of the Quran verses annotated with emotion classes. ",
     "Volume": 2100.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Qassim University"
     ],

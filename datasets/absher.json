@@ -23,12 +23,11 @@
     "Description": "Absher is a culturally grounded benchmark designed to evaluate the ability of Large Language Models (LLMs) to understand Saudi Arabic dialects and their associated cultural knowledge",
     "Volume": 18564.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "King Khalid University"
     ],
     "Derived From": [],
-    "Paper Title": "From Words to Proverbs: Evaluating LLMs\u2019 Linguistic and Cultural Competence in Saudi Dialects with Absher",
+    "Paper Title": "From Words to Proverbs: Evaluating LLMs’ Linguistic and Cultural Competence in Saudi Dialects with Absher",
     "Paper Link": "https://arxiv.org/pdf/2507.10216.pdf",
     "Script": "Arab",
     "Tokenized": false,

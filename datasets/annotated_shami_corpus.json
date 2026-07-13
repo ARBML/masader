@@ -21,7 +21,6 @@
     "Description": "Subsection of the Lebanese portion of the Shami Corpus annotated for spelling standardization (CODA), morphological segmentation and tagging, and spontaneous orthography taxonomy tagging.",
     "Volume": 10000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [],
     "Derived From": [
         "Shami Corpus"

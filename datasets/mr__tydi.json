@@ -21,7 +21,6 @@
     "Description": "Mr. TYDI is constructed from TYDI, a question answering dataset covering\r\neleven typologically diverse languages",
     "Volume": 16573.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Waterloo"
     ],

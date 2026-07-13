@@ -20,7 +20,6 @@
     "Description": "BenchMAX_Model-based is a dataset of BenchMAX, sourcing from m-ArenaHard, which evaluates the instruction following capability via model-based judgment.",
     "Volume": 500.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Nanjing University"
     ],

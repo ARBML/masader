@@ -35,7 +35,6 @@
     "Description": "The BRIGHTER Emotion Categories dataset is a comprehensive multi-language, multi-label emotion classification dataset with separate configurations for each language. It represents one of the largest human-annotated emotion datasets across multiple languages.",
     "Volume": 6671.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Imperial College London"
     ],

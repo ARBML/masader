@@ -21,7 +21,6 @@
     "Description": "Arabic text diacritization extension dataset that is should be used for training only. This dataset is an extension of the dataset provided here: https://github.com/AliOsm/arabic-text-diacritization, and both of them were derived from the same source, which is Tashkeela dataset.",
     "Volume": 533000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Jordan University of Science and Technology (JUST)"
     ],

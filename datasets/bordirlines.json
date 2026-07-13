@@ -21,7 +21,6 @@
     "Description": "Multilingual RAG benchmark for 49 languages focusing on territorial disputes.",
     "Volume": 544.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Pennsylvania"
     ],

@@ -20,7 +20,6 @@
     "Description": "This is a new collection of translated movie subtitles from http://www.opensubtitles.org/.",
     "Volume": 83600000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "OPUS"
     ],

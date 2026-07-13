@@ -20,7 +20,6 @@
     "Description": "contains many datasets from different benchmarks like XNLI, TYDiQA, etc.",
     "Volume": 0.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Google"
     ],

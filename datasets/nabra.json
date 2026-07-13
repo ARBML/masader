@@ -20,7 +20,6 @@
     "Description": "a corpora of Syrian Arabic dialects with morphological annotations.",
     "Volume": 60000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [
         "SinaLab",
         "Birzeit University"

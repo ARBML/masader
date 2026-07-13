@@ -20,7 +20,6 @@
     "Description": "Synthetic Arabic AES dataset with CEFR annotations",
     "Volume": 3040.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "MBZUAI"
     ],

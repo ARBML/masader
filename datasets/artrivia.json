@@ -20,7 +20,6 @@
     "Description": "10,045 question-answer-passages triplets extracted from Wikipedia passages",
     "Volume": 10045.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "ArTrivia: Harvesting Arabic Wikipedia to Build A New Arabic Question Answering Dataset",

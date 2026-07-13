@@ -20,7 +20,6 @@
     "Description": "It includes a TRAIN/DEV split with reliable double-checked DEV (1,281 original questions, and 37,795 potentially related question-answer pairs) + unannotated (163,383 question--answer pairs)",
     "Volume": 45164.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

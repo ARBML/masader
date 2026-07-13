@@ -20,7 +20,6 @@
     "Description": "Multilingual parallel dataset for 50 languages created for training the X-ALMA translation model, containing preference data and high-quality parallel sentences.",
     "Volume": 7720.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Microsoft",
         "Johns Hopkins University",

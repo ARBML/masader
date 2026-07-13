@@ -20,7 +20,6 @@
     "Description": "It contains 58K Arabic tweets (47K training, 11K test) tweets annotated in positive and negative labels",
     "Volume": 58000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Multiple Institutions"
     ],

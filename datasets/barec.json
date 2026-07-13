@@ -24,7 +24,6 @@
     "Description": "A large-scale, fine-grained Arabic readability corpus with 69K sentences across 19 levels, covering diverse genres and education stages.",
     "Volume": 69441.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "CaMeL-Lab"
     ],

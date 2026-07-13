@@ -22,7 +22,6 @@
     "Description": "a 732-hour clean Arabic speech dataset for ASR pre-training and finetuning",
     "Volume": 732.0,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "Tahakom"
     ],

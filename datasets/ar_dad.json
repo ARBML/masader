@@ -20,7 +20,6 @@
     "Description": "A large Arabic audio dataset of 15,810 clips from 30 Quran reciters plus 397 imitation clips from 12 skilled imitators, organized by chapter and verse for speaker-identification and imitation-detection tasks.",
     "Volume": 15810.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Sharjah"
     ],

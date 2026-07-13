@@ -21,7 +21,6 @@
     "Description": "A filtered subset of CommonCrawl focusing on 20 languages including Arabic with 127B tokens.",
     "Volume": 380138261.0,
     "Unit": "documents",
-    "Ethical Risks": "Medium",
     "Provider": [
         "EPFL"
     ],

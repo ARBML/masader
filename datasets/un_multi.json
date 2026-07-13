@@ -20,7 +20,6 @@
     "Description": "This is a collection of translated documents from the United Nations.",
     "Volume": 300000000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "UN"
     ],

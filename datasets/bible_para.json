@@ -21,7 +21,6 @@
     "Description": "This is a multilingual parallel corpus created from translations of the Bible",
     "Volume": 2800000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "OPUS"
     ],

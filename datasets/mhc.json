@@ -20,7 +20,6 @@
     "Description": "a suite of functional tests for multilingual hate speech detection models",
     "Volume": 3577.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Rewire"
     ],

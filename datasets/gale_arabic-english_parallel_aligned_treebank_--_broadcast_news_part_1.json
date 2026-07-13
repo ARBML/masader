@@ -23,7 +23,6 @@
     "Description": "The source data consists of Arabic broadcast news programming collected by LDC in 2005 and 2006 from Alhurra, Aljazeera and Dubai TV.",
     "Volume": 115826.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

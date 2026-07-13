@@ -20,7 +20,6 @@
     "Description": "153 Arabic articles and 765 human-generated extractive summaries of those articles",
     "Volume": 153.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Essex"
     ],

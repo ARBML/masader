@@ -23,7 +23,6 @@
     "Description": "Large-scale Arabic SFT dataset with reasoning and tool-calling.",
     "Volume": 1790478.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "KAUST"
     ],

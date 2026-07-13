@@ -18,7 +18,6 @@
         "art",
         "technology",
         "economics"
-
     ],
     "Form": "text",
     "Annotation Style": [
@@ -27,7 +26,6 @@
     "Description": "The Ultimate Arabic News Dataset is a collection of single-label modern Arabic texts that are used in news websites and press articles.",
     "Volume": 381000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Yalova Universitesi"
     ],

@@ -23,7 +23,6 @@
     "Description": "Collected to prevent\r\nspreading of rumors and misinformation about\r\nthe virus or bad cures",
     "Volume": 8000.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "QCRI"
     ],

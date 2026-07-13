@@ -21,7 +21,6 @@
     "Description": "This corpus contains 102,960 vowelised, lemmatised and tagged words (58 texts from Le Monde Diplomatique Arabic)",
     "Volume": 102960.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "",

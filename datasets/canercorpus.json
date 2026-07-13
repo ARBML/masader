@@ -21,7 +21,6 @@
     "Description": "It is freely available and manual annotation by human experts, containing more than 7,000 Hadiths",
     "Volume": 72108.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Universiti Kebangsaan"
     ],

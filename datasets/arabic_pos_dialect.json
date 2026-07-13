@@ -45,7 +45,6 @@
     "Description": "includes tweets in Egyptian, Levantine, Gulf, and Maghrebi, with 350 tweets for each dialect with appropriate train/test/development splits for 5-fold cross validation",
     "Volume": 1400.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "QCRI"
     ],

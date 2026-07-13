@@ -21,7 +21,6 @@
     "Description": "About 17k user comments manually annotated to positive and negative polarities. This corpus is collected from Facebook users comments written on official pages of Tunisian radios and TV channels",
     "Volume": 17000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Vienna"
     ],

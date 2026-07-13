@@ -21,7 +21,6 @@
     "Description": "A large-scale multilingual non-parallel news corpus compiled from five sources covering 77 languages and 19 scripts.",
     "Volume": 50948.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Mannheim",
         "University of Würzburg"

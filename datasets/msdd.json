@@ -20,7 +20,6 @@
     "Description": "It is extracted and filtered from the Common Crawl dumps and uniquely preserves the structural integrity of web content by providing markdown output. ",
     "Volume": 23000000.0,
     "Unit": "documents",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Misraj"
     ],

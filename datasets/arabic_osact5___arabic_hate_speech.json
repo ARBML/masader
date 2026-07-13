@@ -21,7 +21,6 @@
     "Description": "Fine-Grained Hate Speech Detection on Arabic Twitter",
     "Volume": 10157.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "QCRI"
     ],

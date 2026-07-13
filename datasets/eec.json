@@ -21,7 +21,6 @@
     "Description": "Multilingual test sets for bias measurement in English, Arabic, and Spanish.",
     "Volume": 8038.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Columbia University"
     ],

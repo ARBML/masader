@@ -21,7 +21,6 @@
     "Description": "This dataset contains 24,495 line images of Arabic handwriting and the corresponding text. The images are Manuscripts from the 19th to 21st century.",
     "Volume": 24495.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "Muharaf: Manuscripts of Handwritten Arabic Dataset for Cursive Text Recognition",

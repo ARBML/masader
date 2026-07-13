@@ -20,7 +20,6 @@
     "Description": "Sense-annotated dataset for Arabic, containing 1,440 sentences and 34K tokens",
     "Volume": 1440.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Birzeit University"
     ],

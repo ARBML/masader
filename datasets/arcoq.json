@@ -22,7 +22,6 @@
     "Description": "ARCOQ is the first Arabic dataset of 500 closest-opposite (antonym) multiple-choice questions for Arabic systems evaluation.",
     "Volume": 500.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Cairo University"
     ],

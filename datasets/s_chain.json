@@ -20,7 +20,6 @@
     "Description": "Expert-annotated medical images with structured visual chain-of-thought for Alzheimer’s MRI analysis across 16 languages.",
     "Volume": 12300.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Toronto"
     ],

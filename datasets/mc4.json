@@ -20,7 +20,6 @@
     "Description": "A colossal, cleaned version of Common Crawl's web crawl corpus.",
     "Volume": 53256040.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Google"
     ],

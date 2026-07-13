@@ -22,7 +22,6 @@
     "Description": "largest Arabic dataset for offensive, fine-grained hate speech, vulgar and violence content",
     "Volume": 12698.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "QCRI"
     ],

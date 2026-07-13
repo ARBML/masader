@@ -25,7 +25,6 @@
     "Description": "Darija-SFT-Mixture is a dataset consisting of 458K instruction samples, by consolidating existing Darija language resources, creating novel datasets both manually and synthetically, and translating English instructions under strict quality control",
     "Volume": 458285.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "MBZUAI"
     ],

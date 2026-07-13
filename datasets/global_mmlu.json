@@ -22,7 +22,6 @@
     "Description": "A multilingual multiple-choice benchmark covering 42 languages with culturally-sensitive and culturally-agnostic subsets.",
     "Volume": 14285.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Cohere For AI"
     ],

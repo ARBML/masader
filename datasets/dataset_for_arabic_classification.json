@@ -24,7 +24,6 @@
     "Description": "DataSet for Arabic text classification. The dataset, as mentioned by the author's description has been collected semi-automatically.",
     "Volume": 111700.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Universite Sultan Moulay Slimane de Beni-Mellal",
         "Universite Chouaib Doukkali Faculte des Sciences"

@@ -20,7 +20,6 @@
     "Description": "Multilingual translation of the 500-question Arena-Hard-Auto dataset.",
     "Volume": 500.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Cohere For AI"
     ],

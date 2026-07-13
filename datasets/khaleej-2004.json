@@ -23,7 +23,6 @@
     "Description": "Extracted from the daily Arabic news paper Akhbar al Khaleej, it includes 5120 news articles corresponding to 2,855,069 words covering four topics sport, local news, international news and economy",
     "Volume": 5690.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "INRIA"
     ],

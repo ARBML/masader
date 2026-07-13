@@ -20,7 +20,6 @@
     "Description": "Named entities (person,organisation and location) Arabic-English Pairs Person 27480 Organization 17237 Location 4036 Overall Arabic-English Pairs 48753",
     "Volume": 48753.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Latice Laboratory"
     ],

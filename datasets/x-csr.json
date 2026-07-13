@@ -20,7 +20,6 @@
     "Description": "automatically translate the original CSQA and CODAH datasets, which only have English versions, to 15 other languages, forming development and test sets for studying X-CSR",
     "Volume": 1300.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Southern California"
     ],

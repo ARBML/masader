@@ -24,7 +24,6 @@
     "Description": "alyah is a manually curated evaluation benchmark for assessing the performance of Arabic large language models on the Emirati dialect.",
     "Volume": 1173.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "TII"
     ],
@@ -57,6 +56,6 @@
     "Affiliations": [
         "TII"
     ],
-    "Abstract": "Despite Arabic being one of the most widely spoken languages globally, most existing benchmarks focus on Modern Standard Arabic, which differs substantially from how Arabic is used in daily life. Dialects\u2014particularly Gulf and Emirati Arabic\u2014remain underrepresented in evaluation settings, leading to blind spots in real-world model performance. Alyah was created to address this gap by providing a high-quality, dialect-focused benchmark grounded in authentic Emirati usage. The goal is to support the development and evaluation of models that better serve users in the UAE and contribute to more inclusive Arabic language technology.",
+    "Abstract": "Despite Arabic being one of the most widely spoken languages globally, most existing benchmarks focus on Modern Standard Arabic, which differs substantially from how Arabic is used in daily life. Dialects—particularly Gulf and Emirati Arabic—remain underrepresented in evaluation settings, leading to blind spots in real-world model performance. Alyah was created to address this gap by providing a high-quality, dialect-focused benchmark grounded in authentic Emirati usage. The goal is to support the development and evaluation of models that better serve users in the UAE and contribute to more inclusive Arabic language technology.",
     "Added By": "Zaid Alyafeai"
 }

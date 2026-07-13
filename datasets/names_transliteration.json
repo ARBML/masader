@@ -20,7 +20,6 @@
     "Description": "containing names in arabic characters and associated names in latin characters (english)",
     "Volume": 118047.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
         "ANETAC dataset",

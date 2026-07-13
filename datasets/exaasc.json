@@ -20,7 +20,6 @@
     "Description": "General target-based Arabic stance-detection corpus built from Twitter source tweets and their replies, covering ~200 targets.",
     "Volume": 9566.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Exa Company"
     ],

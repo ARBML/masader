@@ -20,7 +20,6 @@
     "Description": "Arabic translations of ZsRE and Counterfact benchmarks for knowledge editing analysis.",
     "Volume": 2140.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

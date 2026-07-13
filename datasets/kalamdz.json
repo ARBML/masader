@@ -20,7 +20,6 @@
     "Description": "8 major Algerian Arabic sub-dialects with 4881\r\nspeakers and more than 104.4 hours segmented in utterances of at least 6 s",
     "Volume": 104.0,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "Laboratoire d’informatique et Mathématiques\r\nUniversité"
     ],

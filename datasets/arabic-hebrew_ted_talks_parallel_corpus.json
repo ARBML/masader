@@ -20,7 +20,6 @@
     "Description": "This dataset consists of 2023 TED talks with aligned Arabic and Hebrew subtitles. Sentences were rebuilt and aligned using English as a pivot to improve accuracy, offering a valuable resource for Arabic-Hebrew machine translation tasks.",
     "Volume": 225000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Fondazione Bruno Kessler (FBK)"
     ],

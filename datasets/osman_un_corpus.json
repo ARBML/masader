@@ -20,7 +20,6 @@
     "Description": "It is a dataset of 73,000 parallel English and Arabic paragraphs from the United Nations (UN) corpus",
     "Volume": 73000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Lancaster University"
     ],

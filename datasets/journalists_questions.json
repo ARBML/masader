@@ -20,7 +20,6 @@
     "Description": "crowdsorucing to collect\r\nbinary annotations for 10K of the potential question tweets\r\nbased on whether they truly contain questions or not",
     "Volume": 10000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Qatar University"
     ],

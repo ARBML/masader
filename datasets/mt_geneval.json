@@ -20,7 +20,6 @@
     "Description": "The MT-GenEval benchmark evaluates gender translation accuracy on English -> {Arabic, French, German, Hindi, Italian, Portuguese, Russian, Spanish}. ",
     "Volume": 1890.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Amazon Research"
     ],

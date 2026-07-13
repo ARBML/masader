@@ -21,7 +21,6 @@
     "Description": "Moral judgments of 19 LLMs on 3,991 contemporary political figures in 6 UN languages.",
     "Volume": 43000.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Ghent University",
         "Public University of Navarre"

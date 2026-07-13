@@ -20,7 +20,6 @@
     "Description": "enriched Arabic corpus, called “ARA-TimeBank”, for events, temporal expressions and temporal relations based on the new Arabic TimeML.",
     "Volume": 1000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

@@ -51,7 +51,6 @@
     "Description": "This will be divided across the five major Arabic dialects; Egyptian (EGY), Levantine (LAV), Gulf (GLF), North African (NOR), and Modern Standard Arabic (MSA)",
     "Volume": 71.7,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

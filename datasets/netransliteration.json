@@ -20,7 +20,6 @@
     "Description": "new multilingual named entity transliteration datasets based on Wikidata",
     "Volume": 145186.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Amazon"
     ],

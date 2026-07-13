@@ -20,7 +20,6 @@
     "Description": "The NE3L project (Named Entities 3 Languages) consisted in annotating several corpora with different languages with named entities. Text format data were extracted from newspapers and deal with various topics. 3 different languages were annotated: Arabic, Chinese and Russian.",
     "Volume": 103363.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "",

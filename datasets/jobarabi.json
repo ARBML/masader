@@ -20,7 +20,6 @@
     "Description": "Arabic job announcements corpus from social media",
     "Volume": 20528.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "MARSAD Lab"
     ],

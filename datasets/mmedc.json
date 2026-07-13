@@ -23,7 +23,6 @@
     "Description": "a multilingual medical corpus with 25.5 billion tokens",
     "Volume": 640000000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Shanghai Jiao Tong University",
         "Westlake University"

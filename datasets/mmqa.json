@@ -20,7 +20,6 @@
     "Description": "MMQA is a multilingual and multicultural long-form question-answering dataset, which originated as a subset of the MM-Eval benchmark. MMQA features long-form question-answer pairs that inquire about culture-related contexts in seven languages: Bengali, Korean, Catalan, Basque, Spanish, Vietnamese, and Arabic. The dataset is designed to evaluate the ability of models to generate detailed, culturally informed answers across diverse languages and contexts.",
     "Volume": 330.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Yonsei University",
         "KAIST",

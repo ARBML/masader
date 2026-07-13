@@ -20,7 +20,6 @@
     "Description": "A gazetteer of entities curated from Wikipedia.",
     "Volume": 68355.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "Automatically Developing a Fine-grained Arabic Named Entity Corpus and Gazetteer by utilizing Wikipedia",

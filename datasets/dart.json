@@ -51,7 +51,6 @@
     "Description": "Dialectal Arabic Tweets",
     "Volume": 24280.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Qatar University"
     ],

@@ -21,7 +21,6 @@
     "Description": "A multilingual OCR dataset for Arabic-English receipt understanding with 20k annotated receipts, 30k OCR images, and 10k item-level annotations.",
     "Volume": 20000.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "DISCO"
     ],

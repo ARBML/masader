@@ -21,7 +21,6 @@
     "Description": "A Dataset for Arabic Why Question Answering System",
     "Volume": 3205.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

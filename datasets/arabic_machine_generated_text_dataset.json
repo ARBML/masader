@@ -21,7 +21,6 @@
     "Description": "The dataset addresses the need for comprehensive Arabic machine-generated text resources, enabling research in detection systems, stylometric analysis, and cross-model generalization studies.",
     "Volume": 8388.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "KFUPM-JRCAI"
     ],

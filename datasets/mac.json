@@ -34,7 +34,6 @@
     "Description": "An open and free Moroccan Arabic corpus of 18000 sentiment-annotated tweets plus a 30k-word lexicon.",
     "Volume": 18000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "LISIC Laboratory",
         "LSIA Laboratory"

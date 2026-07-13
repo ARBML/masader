@@ -21,7 +21,6 @@
     "Description": "Small Multilingual Pretraining Copora used in the ICML 2025 Paper: Banyan: Improved Representation Learning with Explicit Structure",
     "Volume": 600000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Edinburgh"
     ],

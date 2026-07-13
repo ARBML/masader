@@ -22,7 +22,6 @@
     "Description": "Palestinian Arabic lexicon collected through manual curation and field surveys.",
     "Volume": 36302.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "CAMEL Lab"
     ],

@@ -28,7 +28,6 @@
     "Description": "collecting the largest free\r\naccessible Arabic corpus, OSAC, which contains about\r\n18M words and about 0.5M district keywords.",
     "Volume": 22429.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Islamic University of Gaza"
     ],

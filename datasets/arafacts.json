@@ -22,7 +22,6 @@
     "Description": "consists of 6,222 claims\r\nalong with their factual labels and additional\r\nmetadata, such as fact-checking article content,\r\ntopical category, and links to posts or Web\r\npages spreading the claim",
     "Volume": 6222.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Qatar University"
     ],

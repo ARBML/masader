@@ -20,7 +20,6 @@
     "Description": "MegaWika 2 is an improved multilingual text dataset containing a structured view of Wikipedia articles, the web sources they cite, source text quality estimates, article text translations, and additional article enrichments",
     "Volume": 1000000.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "JHU-CLSP"
     ],

@@ -22,7 +22,6 @@
     "Description": "This dataset contains Arabic meme images with explanations for propaganda detection.",
     "Volume": 5721.0,
     "Unit": "images",
-    "Ethical Risks": "High",
     "Provider": [
         "QCRI"
     ],

@@ -20,7 +20,6 @@
     "Description": "Queries in MSA and Palestinian Arabic annotated for their intent (77 classes)",
     "Volume": 31404.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "SinaLab",
         "Birzeit University"

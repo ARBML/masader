@@ -20,7 +20,6 @@
     "Description": "English-Arabic named entity transliteration and classification dataset",
     "Volume": 79924.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "USTHB University",
         "University of Salford"

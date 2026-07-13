@@ -20,7 +20,6 @@
     "Description": "This database covers non-Arabic names, their Arabic equivalents, and Arabic script variants for each name (with the most important variant given first).",
     "Volume": 25000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "",

@@ -20,7 +20,6 @@
     "Description": "The first publicly available RGB dataset of Arabic sign language alphabets with 7,857 labelled images collected from 200+ participants.",
     "Volume": 7857.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Sharjah",
         "University of Jordan",

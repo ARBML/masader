@@ -20,7 +20,6 @@
     "Description": "NER for five different target languages\r\n— Spanish, Dutch, German, Arabic and Finnish",
     "Volume": 2687.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

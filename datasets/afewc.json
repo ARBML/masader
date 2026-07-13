@@ -20,7 +20,6 @@
     "Description": "a multilingual comparable text articles in Arabic, French, and English languages",
     "Volume": 40290.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "INRIA"
     ],

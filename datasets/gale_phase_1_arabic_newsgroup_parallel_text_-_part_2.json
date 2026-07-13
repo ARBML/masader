@@ -21,7 +21,6 @@
     "Description": "contains a total of 145,000 words (263 files) of Arabic newsgroup text and its translation selected from thirty-five sources.",
     "Volume": 263.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

@@ -22,7 +22,6 @@
     "Description": "A dataset containing over 9000 Arabic poems labeled by three emotion classes.",
     "Volume": 9000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "American University of Sharjah"
     ],

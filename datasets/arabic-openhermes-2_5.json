@@ -20,7 +20,6 @@
     "Description": "Arabic-OpenHermes-2.5 is a carefully curated dataset extracted / translated from the OpenHermes-2.5 collection provided by teknium.",
     "Volume": 982000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "2A2I"
     ],

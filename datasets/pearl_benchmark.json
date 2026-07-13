@@ -22,7 +22,6 @@
     "Description": "The PEARL Benchmark is a meticulously curated subset of 6,301 high-quality Question/Answer pairs derived from the larger PEARL dataset. ",
     "Volume": 6301.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "UBC-NLP"
     ],

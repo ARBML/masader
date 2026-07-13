@@ -22,7 +22,6 @@
     "Description": "This release consists of Arabic source broadcast news and broadcast conversation data collected by LDC from 2007-2009. The distribution by genre, words, tokens and segments appears below:",
     "Volume": 11693.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

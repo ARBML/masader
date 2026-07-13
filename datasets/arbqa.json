@@ -20,7 +20,6 @@
     "Description": "The generated dataset comprised around 6,000 QA pairs, and the context was used to create a question and answer based on each legal article",
     "Volume": 6000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Petra",
         "University of Jordan",

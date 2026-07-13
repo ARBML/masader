@@ -57,7 +57,6 @@
     "Description": " dataset of 180 culturally specific questions by hiring native an- notators from the Gulf, Egypt, and the Levant re- gions to generate seed questions centered on cultural and country-specific themes",
     "Volume": 180.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

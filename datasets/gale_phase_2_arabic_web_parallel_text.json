@@ -21,7 +21,6 @@
     "Description": "GALE Phase 2 Arabic Web Parallel Text includes 60 source-translation document pairs, comprising 42,089 words of Arabic source text and its English translation. Data was drawn from various Arabic weblog and newsgroup sources.",
     "Volume": 42089.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

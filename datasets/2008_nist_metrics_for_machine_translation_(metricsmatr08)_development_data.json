@@ -20,7 +20,6 @@
     "Description": "The MetricsMATR08 development data set released here is reflective of the test data set only to a degree; the evaluation data set contains more varied data -- from more genres, more source languages, more systems and different evaluations -- than this development data set. There are also more types of human assessments for the test data. The MetricsMATR08 test data remains unseen to allow for repeated use as test data.",
     "Volume": 249.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "NIST"
     ],

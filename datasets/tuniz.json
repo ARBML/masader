@@ -20,7 +20,6 @@
     "Description": "Parallel Tunisian Arabic dataset with translation.",
     "Volume": 100.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "National Engineering School of Tunis"
     ],

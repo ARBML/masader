@@ -20,7 +20,6 @@
     "Description": "This dataset contains high-quality video recordings of Egyptian people speaking on a range of topics. It is curated for AI research in speech recognition, multimodal analysis, topic understanding, and spoken-language modeling.",
     "Volume": 13.0,
     "Unit": "videos",
-    "Ethical Risks": "Low",
     "Provider": [
         "KartosAI"
     ],

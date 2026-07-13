@@ -20,7 +20,6 @@
     "Description": "All calls, which lasted up to 30 minutes, originated in North America and were placed to locations overseas (typically Egypt). Most participants called family members or close friends.",
     "Volume": 120.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

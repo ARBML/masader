@@ -21,7 +21,6 @@
     "Description": "A multi-task dataset for Named Entity Recognition and Topic Modeling on Classical Arabic Quranic exegesis (Tafsir Al-Tabari).",
     "Volume": 51704.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Goethe University Frankfurt"
     ],

@@ -20,7 +20,6 @@
     "Description": "MoArLex is a large-scale Arabic sentiment lexicon developed by expanding an existing seed lexicon, NileULex, using word embeddings from AraVec (trained on Arabic Twitter data). The lexicon includes sentiment words commonly used in social media, including various forms of dialectal Arabic and even misspelled or emphasized words typical of social media communication. It covers positive, negative, and strong positive/negative sentiment labels.",
     "Volume": 36775.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Nile University"
     ],

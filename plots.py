@@ -127,12 +127,6 @@ def stats_venue_type(datasets):
     return "Venue type", Counter(field_values(datasets, "Venue Type")), {}
 
 
-def stats_ethical_risks(datasets):
-    return "Ethical risks", Counter(field_values(datasets, "Ethical Risks")), {
-        "order": ("Low", "Medium", "High"),
-    }
-
-
 def stats_host(datasets, top=10):
     return f"Top {top} hosts", Counter(field_values(datasets, "Host")), {
         "top": top,
@@ -258,11 +252,6 @@ def render_venue_type(datasets, *, as_table=False, as_plot=False):
     show_counter(title, counter, as_table=as_table, as_plot=as_plot, **opts)
 
 
-def render_ethical_risks(datasets, *, as_table=False, as_plot=False):
-    title, counter, opts = stats_ethical_risks(datasets)
-    show_counter(title, counter, as_table=as_table, as_plot=as_plot, **opts)
-
-
 def render_host(datasets, *, as_table=False, as_plot=False):
     title, counter, opts = stats_host(datasets)
     show_counter(title, counter, as_table=as_table, as_plot=as_plot, **opts)
@@ -360,7 +349,6 @@ PLOTS = {
     "language": render_language,
     "venue": render_venue,
     "venue-type": render_venue_type,
-    "ethical-risks": render_ethical_risks,
     "host": render_host,
     "year": render_year,
     "machine-generated": render_machine_generated,

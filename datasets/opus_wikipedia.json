@@ -20,7 +20,6 @@
     "Description": "This is a corpus of parallel sentences extracted from Wikipedia",
     "Volume": 1000000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "OPUS"
     ],

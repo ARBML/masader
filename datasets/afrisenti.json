@@ -33,7 +33,6 @@
     "Description": "Twitter sentiment analysis benchmark for 14 African languages with 110k+ labeled tweets",
     "Volume": 12824.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Masakhane NLP"
     ],

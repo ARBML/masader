@@ -22,7 +22,6 @@
     "Description": "Documents describing the annotation guidelines and the routines for deriving various views of the data from the database are included in the documentation directory of this release. The annotation is provided both in separate text files for each annotation layer (Treebank, PropBank, word sense, etc.) and in the form of an integrated relational database (ontonotes-v4.0.sql.gz) with a Python API to provide convenient cross-layer access.",
     "Volume": 300000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

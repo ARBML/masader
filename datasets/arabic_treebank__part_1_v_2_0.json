@@ -20,7 +20,6 @@
     "Description": "Arabic Treebank: Part 1 v 2.0 was developed by the Linguistic Data Consortium (LDC) and contains approximately 140,000 tokens of Arabic text with part-of-speech (POS) and treebank annotation.",
     "Volume": 140000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

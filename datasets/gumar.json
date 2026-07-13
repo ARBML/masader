@@ -70,7 +70,6 @@
     "Description": "a large-scale corpus of Gulf Arabic consisting of 110 million words from 1,200 forum novels",
     "Volume": 1235.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "NYU Abu Dhabi"
     ],

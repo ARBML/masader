@@ -21,7 +21,6 @@
     "Description": "Dataset for Arabic educational crosswords",
     "Volume": 14497.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Siena"
     ],

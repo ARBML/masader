@@ -24,7 +24,6 @@
     "Description": "Watan-2004 corpus contains about 20000 articles talking about the six following topics \"categories\":  Culture, Religion, Economy, Local News, International News and sports.  In this corpus, punctuation has been omitted intentionally in order to make it useful for Language Modeling.",
     "Volume": 20000.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "INRIA"
     ],

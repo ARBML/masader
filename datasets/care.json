@@ -22,7 +22,6 @@
     "Description": "A multilingual human preference dataset featuring 3,490 culture-specific QA pairs (31.7k rated responses) in Arabic, Chinese, and Japanese, curated via native annotators to enhance cultural awareness in language models.",
     "Volume": 3490.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Georgia Institute of Technology"
     ],

@@ -22,7 +22,6 @@
     "Description": "1K open-domain dialectal utterance-response pairs, manually translated from an English dataset (DailyDialogue), and adapted to three different Arabic dialects.",
     "Volume": 1000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
         "DailyDialogue"

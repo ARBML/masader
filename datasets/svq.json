@@ -45,7 +45,6 @@
     "Description": "Simple Voice Questions (SVQ) is a set of short audio questions recorded in 26 locales across 17 languages under multiple audio conditions.",
     "Volume": 67.52,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "Google"
     ],

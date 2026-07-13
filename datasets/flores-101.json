@@ -21,7 +21,6 @@
     "Description": "Low Resource MT Benchmark",
     "Volume": 3100000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Facebook"
     ],

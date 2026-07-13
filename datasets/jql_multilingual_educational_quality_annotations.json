@@ -21,7 +21,6 @@
     "Description": "Human-annotated ground-truth dataset for multilingual educational content quality scoring.",
     "Volume": 511.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Lamarr Institute",
         "Fraunhofer IAIS",

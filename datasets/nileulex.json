@@ -20,7 +20,6 @@
     "Description": "Egyptian Arabic and Modern Standard Arabic sentiment words and their polarity",
     "Volume": 5953.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Nile University"
     ],

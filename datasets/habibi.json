@@ -57,7 +57,6 @@
     "Description": "The corpus comprises more than 30,000 Arabic song lyrics in 6 Arabic dialects for singers from 18 different Arabic countries.",
     "Volume": 30072.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Lancaster University"
     ],

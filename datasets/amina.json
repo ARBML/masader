@@ -20,7 +20,6 @@
     "Description": "A large-scale integral Arabic news dataset with 1.85M articles from 9 newspapers.",
     "Volume": 1850000.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Alexandria University"
     ],

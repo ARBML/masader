@@ -20,7 +20,6 @@
     "Description": "BenchMAX_Math is a dataset of BenchMAX, sourcing from MGSM, which evaluates the math reasoning capability in multilingual scenarios.",
     "Volume": 258.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Nanjing University"
     ],

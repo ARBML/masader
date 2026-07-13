@@ -22,7 +22,6 @@
     "Description": "Multilingual red-teaming prompts in 8 languages distinguishing global vs local harms.",
     "Volume": 900.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Cohere For AI"
     ],

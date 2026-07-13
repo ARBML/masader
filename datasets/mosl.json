@@ -20,7 +20,6 @@
     "Description": "The MoSL (Moroccan Sign Language) dataset consists of 2,199 videos representing isolated Moroccan Sign Language (MoSL) signs",
     "Volume": 2199.0,
     "Unit": "videos",
-    "Ethical Risks": "Low",
     "Provider": [
         "Shorouk Association for the Deaf and Hard of Hearing"
     ],

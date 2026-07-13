@@ -20,7 +20,6 @@
     "Description": "BenchMAX_Multiple_Functions is a dataset of BenchMAX, sourcing from Nexus. This dataset evaluates the tool use capability in multilingual senarios, which requires a model to call the correct function given the user query and multiple functions.",
     "Volume": 318.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Nanjing University"
     ],

@@ -40,7 +40,6 @@
     "Description": "Arabic parallel corpus with MWE annotations",
     "Volume": 7250.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Tours",
         "University of Sfax",

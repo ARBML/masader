@@ -21,7 +21,6 @@
     "Description": "A preliminary annotated NER dataset for Algerian in Latin (NArabizi), Arabic, and code-switched scripts built atop the NArabizi treebank extension.",
     "Volume": 19258.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Bergen"
     ],

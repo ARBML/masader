@@ -21,7 +21,6 @@
     "Description": "we conducted empirical research to understand the errors in ANERcorp, correct them and propose a cleaner version of the dataset named CLEANANERCorp. CLEANANERCorp will serve the research community as a more accurate and consistent benchmark",
     "Volume": 150000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "IWAN"
     ],

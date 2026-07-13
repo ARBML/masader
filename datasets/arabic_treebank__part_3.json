@@ -20,7 +20,6 @@
     "Description": "This dataset is a collection of 300,00 Arabic tokens with their syntactic treebank annotation and annotation on part of speech (POS), gloss, and word segmentation.",
     "Volume": 300000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

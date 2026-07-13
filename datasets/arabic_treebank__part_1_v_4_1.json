@@ -20,7 +20,6 @@
     "Description": "ATB1 v 4.1 contains a total of 145,386 tokens before clitics are split, and 167,280 tokens after clitics are separated for the treebank annotation.",
     "Volume": 145386.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

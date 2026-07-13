@@ -20,7 +20,6 @@
     "Description": "The Arabic dictionary of inflected words consists of a list of 6 million inflected forms, fully vowelized, generated in compliance with the grammatical rules of Arabic and tagged with grammatical information which includes POS and grammatical features, including number, gender, case, definiteness, tense, mood and compatibility with clitic agglutination.",
     "Volume": 6000000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "",

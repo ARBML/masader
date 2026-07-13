@@ -21,7 +21,6 @@
     "Description": "An extension of the ADI-17 dataset with MSA,  Tunisian, and Bahraini dataset. ",
     "Volume": 3556.0,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "Elyadata"
     ],

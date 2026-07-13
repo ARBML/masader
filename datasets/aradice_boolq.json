@@ -40,7 +40,6 @@
     "Description": "The dataset consists of post-edited versions of various benchmark datasets, curated for validation in cultural and dialectal contexts relevant to Arabic.",
     "Volume": 2952.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

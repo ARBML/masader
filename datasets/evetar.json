@@ -20,7 +20,6 @@
     "Description": "a crawl of 355M Arabic tweets and covers 50 significant events",
     "Volume": 3550000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Qatar University"
     ],

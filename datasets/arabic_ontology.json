@@ -20,7 +20,6 @@
     "Description": "An Arabic Wordnet with ontologically-clean content. Classification of the meanings of the Arabic terms, based on state-of-art science, rather than on speakers' naïve knowledge.",
     "Volume": 30000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "SinaLab",
         "Birzeit University"

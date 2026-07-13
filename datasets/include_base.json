@@ -22,7 +22,6 @@
     "Description": "A large-scale multilingual benchmark of 197k MCQs from regional exams to test regional knowledge.",
     "Volume": 582.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "CohereForAI"
     ],

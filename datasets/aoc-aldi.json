@@ -23,7 +23,6 @@
     "Description": "Comments to news articles with a continuous level of dialectness score between 0 and 1.",
     "Volume": 127835.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Edinburgh"
     ],

@@ -20,7 +20,6 @@
     "Description": "The dataset is part of the CALIMAGLF morphological analyzer, focusing on Gulf Arabic verbs. It includes over 2,600 verbal lemmas with associated paradigms and lexical entries. The verbs were derived from phonetic dictionary entries, annotated, and expanded into inflected forms, including orthographic variants.",
     "Volume": 2648.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "NYU Abu Dhabi"
     ],

@@ -21,7 +21,6 @@
     "Description": "Bilingual dataset of Arabic and English social media posts annotated for emotions and hope speech.",
     "Volume": 27456.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Northwestern University in Qatar",
         "Hamad Bin Khalifa University"

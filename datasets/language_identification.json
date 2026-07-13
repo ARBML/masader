@@ -20,7 +20,6 @@
     "Description": "The Language Identification dataset is a collection of 90k samples consisting of text passages and corresponding language label.",
     "Volume": 3500.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
         "XNLI",

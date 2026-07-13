@@ -21,7 +21,6 @@
     "Description": "An Arabic Twitter-based mental-illness focused sentiment dataset automatically annotated via transfer learning.",
     "Volume": 3500.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "King Abdulaziz University",
         "Edinburgh Napier University"

@@ -23,7 +23,6 @@
     "Description": "A synthetic Arabic parallel paraphrase dataset generated via back-translation to advance NLP applications like MT, summarization and sentiment analysis.",
     "Volume": 1010.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "King Saud University"
     ],

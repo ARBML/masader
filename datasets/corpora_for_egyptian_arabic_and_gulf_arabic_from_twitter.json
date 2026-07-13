@@ -33,7 +33,6 @@
     "Description": "An evenly balanced dataset of Arabic dialects, Egyptian and Gulf using a variety of dialectal terms.",
     "Volume": 300000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "Building Datasets for Dialect Classifiers using Twitter",

@@ -20,7 +20,6 @@
     "Description": "rich and publicly available Arabic corpus called Moroccan Sentiment Analysis Corpus (MSAC)",
     "Volume": 2000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Ibn Tofail University"
     ],

@@ -147,7 +147,6 @@
     "Description": "The data for the shared task covers a total of 100 provinces from 21 Arab countries and are collected from the Twitter domain",
     "Volume": 30957.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Multiple Institutions"
     ],

@@ -20,7 +20,6 @@
     "Description": "The first hierarchical Arabic classification dataset derived from Wikipedia with up-to-date domain-annotated articles",
     "Volume": 6027.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "University Centre -SALHI Ahmed"
     ],

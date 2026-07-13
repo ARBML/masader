@@ -20,7 +20,6 @@
     "Description": "Twitter-based annotated dataset that is balanced multi-language 'in-the-wild' sentiment dataset",
     "Volume": 287578.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "",

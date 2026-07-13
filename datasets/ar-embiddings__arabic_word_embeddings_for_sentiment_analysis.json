@@ -25,7 +25,6 @@
     "Description": "A large corpus for generating Arabic word embeddings from multiple sources such as news articles, consumer reviews, Quran text, and tweets. The embeddings are used to perform sentiment analysis in both Standard and Dialectal Arabic without relying on hand-crafted features. The embeddings are applied to several binary classifiers to detect subjectivity and sentiment in Arabic texts.",
     "Volume": 190000000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Pace University"
     ],

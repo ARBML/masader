@@ -20,7 +20,6 @@
     "Description": "Evaluation benchmark for Arabic LLMs.",
     "Volume": 33236.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "TII"
     ],

@@ -20,7 +20,6 @@
     "Description": "Custom Arabic OCR dataset with 18 fonts from Wikipedia.",
     "Volume": 2160000.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "King Abdullah II School for Information Technology",
         "The University of Jordan",

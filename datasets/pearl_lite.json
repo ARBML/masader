@@ -22,7 +22,6 @@
     "Description": "PEARL-LITE is a lightweight, smaller subset of the main PEARL benchmark. It is designed for users who need to perform quick evaluations or faster iteration cycles without using the full benchmark dataset. ",
     "Volume": 893.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "UBC-NLP"
     ],

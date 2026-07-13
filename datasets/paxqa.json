@@ -22,7 +22,6 @@
     "Description": "A synthetic Arabic-English cross-lingual QA dataset generated with parallel corpora and alignment-based translation.",
     "Volume": 593.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Pennsylvania"
     ],

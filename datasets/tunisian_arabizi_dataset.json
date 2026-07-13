@@ -20,7 +20,6 @@
     "Description": "A large Tunisian Arabizi dialectal sentiment analysis dataset containing 100k comments",
     "Volume": 100000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "iCompass"
     ],

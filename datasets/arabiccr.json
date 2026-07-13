@@ -21,9 +21,8 @@
     "Description": "Commercial Arabic court rulings dataset from the official Saudi Ministry of Justice ",
     "Volume": 12806.0,
     "Unit": "documents",
-    "Ethical Risks": "Medium",
     "Provider": [
-        "University of Ha\u2019il",
+        "University of Ha’il",
         "Khafji University College",
         "University of Jeddah"
     ],
@@ -50,7 +49,7 @@
         "Mohammed Alahmadi"
     ],
     "Affiliations": [
-        "University of Ha\u2019il",
+        "University of Ha’il",
         "Khafji University College",
         "University of Jeddah"
     ],

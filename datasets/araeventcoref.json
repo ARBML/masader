@@ -20,7 +20,6 @@
     "Description": "The dataset consists of  50 Arabic news articles from the SANAD dataset annotated with Arabic event coreference relation. The annotation is in CoNLL format. ",
     "Volume": 1381.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Prince Sattam bin Abdulaziz University"
     ],
@@ -50,6 +49,6 @@
     "Affiliations": [
         "Prince Sattam bin Abdulaziz University"
     ],
-    "Abstract": "Event coreference resolution is a critical task in Natural Language Processing (NLP), enabling applications such as information extraction, text summarization, and question answering. However, resolving event coreference in Arabic presents unique challenges due to the language\u2019s rich morphology, complex syntax, and lack of annotated resources. This article introduces AraEventCoref, the first publicly available Arabic event coreference dataset, comprising 50 annotated news articles with 1,381 events and 159 coreference chains. The dataset\u2019s annotation agreement achieved a CoNLL score of 75.8%, ensuring high reliability across B3, MUC, and CEAF metrics. Additionally, event triggers were annotated with an inter-annotator agreement of 96% using Cohen\u2019s Kappa, further validating dataset quality. To establish benchmarks, we developed a fine-tuned CamelBERT-msa model as a strong baseline and evaluated state-of-the-art Arabic large language models (LLMs) using both bilingual and Arabic-only prompts.",
+    "Abstract": "Event coreference resolution is a critical task in Natural Language Processing (NLP), enabling applications such as information extraction, text summarization, and question answering. However, resolving event coreference in Arabic presents unique challenges due to the language’s rich morphology, complex syntax, and lack of annotated resources. This article introduces AraEventCoref, the first publicly available Arabic event coreference dataset, comprising 50 annotated news articles with 1,381 events and 159 coreference chains. The dataset’s annotation agreement achieved a CoNLL score of 75.8%, ensuring high reliability across B3, MUC, and CEAF metrics. Additionally, event triggers were annotated with an inter-annotator agreement of 96% using Cohen’s Kappa, further validating dataset quality. To establish benchmarks, we developed a fine-tuned CamelBERT-msa model as a strong baseline and evaluated state-of-the-art Arabic large language models (LLMs) using both bilingual and Arabic-only prompts.",
     "Added By": "Zaid Alyafeai"
 }

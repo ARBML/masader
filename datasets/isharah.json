@@ -23,7 +23,6 @@
     "Description": "Large-scale multi-scene Saudi Sign Language dataset for continuous sign language recognition.",
     "Volume": 30000.0,
     "Unit": "videos",
-    "Ethical Risks": "Low",
     "Provider": [
         "King Fahd University of Petroleum & Minerals"
     ],

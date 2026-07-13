@@ -90,7 +90,6 @@ axios
             'Form',
             'Volume',
             'Unit',
-            'Ethical Risks',
             'Script',
             'Access',
             'Tasks',

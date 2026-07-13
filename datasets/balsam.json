@@ -22,7 +22,6 @@
     "Description": "Pooling resources and expertise to create high-quality datasets tailored for AI testing, covering diverse domains and various Arabic dialects to enhance the robustness and versatility of LLMs.",
     "Volume": 52000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "KSAA"
     ],

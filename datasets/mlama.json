@@ -20,7 +20,6 @@
     "Description": "Multilingual LAMA dataset for probing factual knowledge in mBERT across 53 languages.",
     "Volume": 37498.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "CIS, LMU Munich"
     ],

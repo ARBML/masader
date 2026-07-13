@@ -20,7 +20,6 @@
     "Description": "Our dataset is an amalgamation of several filtered datasets, the total number of rows for all datasets was 4,731,600 which was reduced to 2,141,146 rows after filtering. The dataset was collected to fine a pretraind model, the model forced a number of contrains on us discussed in the following section.",
     "Volume": 2410000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "riotu-lab"
     ],

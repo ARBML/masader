@@ -22,7 +22,6 @@
     "Description": "The Arabic HAQA dataset of Hadith sharif answers that contains 1598 records and 1359 questions.",
     "Volume": 1598.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "King Abdulaziz University",
         "University of Leeds"

@@ -22,7 +22,6 @@
     "Description": "Public dataset for Arabic Wikipedia proper nouns.",
     "Volume": 3362.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "CAMeL-Lab"
     ],

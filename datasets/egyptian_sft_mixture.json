@@ -21,7 +21,6 @@
     "Description": "An LLM family for Egyptian Arabic supporting both Arabic and Latin scripts.",
     "Volume": 1853126.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "MBZUAI"
     ],

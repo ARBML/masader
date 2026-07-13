@@ -20,7 +20,6 @@
     "Description": "There are two files of Hadith, the first one for all hadith With Tashkil and Without Tashkel from the Nine Books that are 62,169 Hadith. The second one it Hadith pre-processing data, which is applyed normalization and removeing stop words and lemmatization on it",
     "Volume": 62169.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "",

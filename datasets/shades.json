@@ -20,7 +20,6 @@
     "Description": "Multilingual dataset of stereotypes across 16 languages and 37 regions to evaluate bias in LLMs.",
     "Volume": 304.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models",

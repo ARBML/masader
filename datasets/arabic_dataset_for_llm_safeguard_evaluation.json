@@ -28,7 +28,6 @@
     "Description": "A comprehensive dataset of 5,799 Arabic questions for evaluating Large Language Model safety.",
     "Volume": 5799.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "MBZUAI"
     ],

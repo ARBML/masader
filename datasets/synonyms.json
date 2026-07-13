@@ -21,7 +21,6 @@
     "Description": "A set of 500 synsets (extracted from the Arabic Wordnet). Each synset is enriched with a list of candidate synonyms. The total number is 3K candidates.",
     "Volume": 300000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "SinaLab",
         "Birzeit University"

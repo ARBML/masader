@@ -21,7 +21,6 @@
     "Description": "LMD in a separate task supports developing precise models capable of accurately resolving Location Mentions (LMs) within microblogs and linking them to toponyms in geo-positioning databases",
     "Volume": 2869.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Birzeit University"
     ],

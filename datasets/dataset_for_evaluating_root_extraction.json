@@ -20,7 +20,6 @@
     "Description": "This dataset contains data to evaluate the roots extracted by Arabic stemmers and morphological analyzers.",
     "Volume": 2962.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
         "OpenITI project"

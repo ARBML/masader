@@ -24,7 +24,6 @@
     "Description": "Dataset for Arabic subjectivity classification combined by levering existing Arabic datasets.",
     "Volume": 77916.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Université de Ghardaia",
         "Ziane Achour University",

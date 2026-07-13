@@ -20,7 +20,6 @@
     "Description": "ArTest was built on top of ArabicWeb'16 Web collection. If you are interested in getting the collection, please check our ArabicWeb16 Website",
     "Volume": 10529.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
         "ArabicWeb16"

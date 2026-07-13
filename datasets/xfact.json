@@ -21,7 +21,6 @@
     "Description": "X-FACT is a multilingual dataset for fact-checking with real world claims. The dataset contains short statments in 25 languages with top five evidence documents retrieved by performing google search with claim statements. ",
     "Volume": 2090.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Utah"
     ],

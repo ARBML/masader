@@ -20,7 +20,6 @@
     "Description": "One million user-ChatGPT interaction logs collected with explicit consent, featuring multi-turn multilingual conversations enriched with demographic metadata for studying real-world chatbot usage.",
     "Volume": 11919.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Allen Institute for Artificial Intelligence"
     ],

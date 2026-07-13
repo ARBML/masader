@@ -22,7 +22,6 @@
     "Description": "Multilingual WEAT dataset for evaluating bias across 24 languages including Arabic.",
     "Volume": 6.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "George Mason University"
     ],

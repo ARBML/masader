@@ -21,7 +21,6 @@
     "Description": "The Tatoeba Translation Challenge is a multilingual data set of machine translation benchmarks derived from user-contributed translations collected by Tatoeba.org and provided as parallel corpus from OPUS. This dataset includes test and development data sorted by language pair. It includes test sets for hundreds of language pairs and is continuously updated. Please, check the version number tag to refer to the release that your are using.",
     "Volume": 1064096596.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Language Technology at the University of Helsinki"
     ],

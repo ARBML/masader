@@ -20,7 +20,6 @@
     "Description": "The Sadeed dataset is a large, high-quality Arabic diacritized corpus optimized for training and evaluating Arabic diacritization models.",
     "Volume": 1045183.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Misraj"
     ],

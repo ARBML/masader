@@ -21,7 +21,6 @@
     "Description": "Misraj-DocOCR is a curated, expert-verified benchmark for Arabic document OCR with an emphasis on structure preservation (Markdown/HTML tables, lists, footnotes, math, watermarks, multi-column, marginalia, etc.).",
     "Volume": 400.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Misraj"
     ],

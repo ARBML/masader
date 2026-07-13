@@ -20,7 +20,6 @@
     "Description": "Multilingual open-access scholarly document dataset harvested from the French HAL repository.",
     "Volume": 92.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Inria"
     ],

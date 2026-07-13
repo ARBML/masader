@@ -28,7 +28,6 @@
     "Description": "The first comprehensive trustworthiness benchmark for Arabic LLMs.",
     "Volume": 522.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "ASAS AI"
     ],

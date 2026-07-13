@@ -24,7 +24,6 @@
     "Description": "Identify the propagandistic content from multigenre (tweet and news paragraphs from  news articles) text.",
     "Volume": 19621.0,
     "Unit": "documents",
-    "Ethical Risks": "High",
     "Provider": [
         "QCRI"
     ],

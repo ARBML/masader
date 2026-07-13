@@ -20,7 +20,6 @@
     "Description": "A dataset for Modern Standard and Dialectal Arabic emotion detection focused at Robert Plutchik’s 8 basic emotion types",
     "Volume": 7000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "University of British Columbia"
     ],

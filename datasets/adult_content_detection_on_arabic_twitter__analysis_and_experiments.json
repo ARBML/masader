@@ -20,7 +20,6 @@
     "Description": "Adult Content Detection on Arabic Twitter",
     "Volume": 50000.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "QCRI"
     ],

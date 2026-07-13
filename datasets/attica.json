@@ -20,7 +20,6 @@
     "Description": "Arabic text-based traffic panels detection dataset with 1215 images.",
     "Volume": 1215.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "Sidi Mohamed Ben Abdellah University"
     ],

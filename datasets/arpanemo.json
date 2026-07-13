@@ -24,7 +24,6 @@
     "Description": "Manually annotated Arabic online posts on COVID-19 for fine-grained emotion recognition, covering 11 emotion labels.",
     "Volume": 11128.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Taif University"
     ],

@@ -20,7 +20,6 @@
     "Description": "A multilingual multimodal safety test suite for vision-language models.",
     "Volume": 400.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Instituto de Telecomunicações"
     ],

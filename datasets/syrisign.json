@@ -20,7 +20,6 @@
     "Description": "SyriSign dataset was specifically created for translating Arabic text within the domain of local news and public announcements, with a focus on the Syrian dialect Sign language. ",
     "Volume": 1500.0,
     "Unit": "videos",
-    "Ethical Risks": "Low",
     "Provider": [
         "Arab International University"
     ],

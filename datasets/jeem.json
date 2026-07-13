@@ -45,7 +45,6 @@
     "Description": "Benchmark for VLMs visual understanding across four Arabic dialects",
     "Volume": 2178.0,
     "Unit": "images",
-    "Ethical Risks": "Low",
     "Provider": [
         "TolokaAI"
     ],

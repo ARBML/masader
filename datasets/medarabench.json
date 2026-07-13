@@ -20,7 +20,6 @@
     "Description": "Large-Scale Arabic Medical Question Answering Dataset and Benchmark",
     "Volume": 24883.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "New York University Abu Dhabi"
     ],

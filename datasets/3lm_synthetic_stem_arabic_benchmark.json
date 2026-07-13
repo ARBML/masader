@@ -21,7 +21,6 @@
     "Description": "The 3LM Synthetic STEM dataset contains 1,744 automatically generated MCQs in Arabic covering STEM subjects: Biology, Chemistry, Physics, Mathematics, and General Science. ",
     "Volume": 1744.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Technology Innovation Institute"
     ],

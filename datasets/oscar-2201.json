@@ -20,7 +20,6 @@
     "Description": "OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the ungoliant architecture. Data is distributed by language in both original and deduplicated form.",
     "Volume": 8718929.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
         "Common Crawl"

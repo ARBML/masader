@@ -20,7 +20,6 @@
     "Description": "by using distant supervision techniques on Arabic tweets, and by translating English sentiment lexicons into Arabic using a freely available statistical machine translation system",
     "Volume": 176364.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Multiple Institutions"
     ],

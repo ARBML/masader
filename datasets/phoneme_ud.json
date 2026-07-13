@@ -20,7 +20,6 @@
     "Description": "A phonemic dataset of child-directed and child-produced speech across 31 languages.",
     "Volume": 21600.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Cambridge"
     ],

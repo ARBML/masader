@@ -20,7 +20,6 @@
     "Description": "Multilabel Arabic hate speech tweet dataset.",
     "Volume": 10000.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Northwestern University in Qatar",
         "Hamad Bin Khalifa University"

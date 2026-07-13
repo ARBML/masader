@@ -21,7 +21,6 @@
     "Description": "2006 CoNLL Shared Task - Arabic & Czech consists of Arabic and Czech dependency treebanks used as part of the CoNLL 2006 shared task on multi-lingual dependency parsing.",
     "Volume": 113500.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Charles University"
     ],

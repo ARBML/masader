@@ -21,7 +21,6 @@
     "Description": "Classical Arabic Dictionary consists of approximately one hundred million words of Arabic collected from texts dating between 431 and 1104 CE, principally books and essays, along with word occurrences, source documents and related metadata.",
     "Volume": 1138616.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

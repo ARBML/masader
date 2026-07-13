@@ -20,7 +20,6 @@
     "Description": "The source data is Arabic, Chinese and English language broadcast programming collected in November 2004 from the following sources: Lebanese Broadcasting Corp. (Arabic); China Central TV and New Tang Dynasty TV (Chinese); and CNN and MSNBC/NBC (English).",
     "Volume": 0.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "NIST"
     ],

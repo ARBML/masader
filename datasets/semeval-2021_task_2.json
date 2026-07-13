@@ -20,7 +20,6 @@
     "Description": "the first entirely manually-curated WiC-style dataset in five European and non-European languages, namely Arabic, Chinese, English, French and Russian.",
     "Volume": 2000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Sapienza University of Rome"
     ],

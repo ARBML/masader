@@ -58,7 +58,6 @@
     "Description": "dataset for Arabic Sentiment Analysis",
     "Volume": 6027210.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Multiple Institutions"
     ],

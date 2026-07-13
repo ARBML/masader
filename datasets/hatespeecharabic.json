@@ -21,7 +21,6 @@
     "Description": "A multilabel Arabic hate speech corpus of 10,000 tweets annotated for offensive content and hate targets.",
     "Volume": 10000.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Northwestern University in Qatar",
         "Hamad Bin Khalifa University"

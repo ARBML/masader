@@ -21,7 +21,6 @@
     "Description": "Machine-translated Arabic version of HuggingFace’s FineWeb-Edu dataset.",
     "Volume": 202379768558.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "KAUST",
         "SDAIA"

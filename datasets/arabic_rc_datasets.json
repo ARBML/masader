@@ -20,7 +20,6 @@
     "Description": "Arabic Reading Comprehension Benchmarks Created Semiautomatically",
     "Volume": 2862.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "PSUT"
     ],

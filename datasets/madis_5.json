@@ -54,7 +54,6 @@
     "Description": "Multi-domain Arabic dialect speech benchmark with ~12 hours spanning radio, TV dramas, TEDx, theater content.",
     "Volume": 4854.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Saarland University"
     ],

@@ -20,7 +20,6 @@
     "Description": "A weakly annotated dataset for the most common tweet category. ",
     "Volume": 115692.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

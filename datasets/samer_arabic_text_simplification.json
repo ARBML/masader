@@ -21,7 +21,6 @@
     "Description": "First manually annotated Arabic parallel corpus for text simplification targeting school-aged learners, with 159K words from 15 Arabic fiction novels.",
     "Volume": 159265.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "CAMeL Lab"
     ],

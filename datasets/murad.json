@@ -21,7 +21,6 @@
     "Description": "Open lexical dataset with 96,243 Arabic word-definition pairs.",
     "Volume": 96243.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "RIOTU Lab"
     ],

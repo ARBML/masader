@@ -20,7 +20,6 @@
     "Description": "The Arabic Depth Mini Dataset (ADMD) is a compact yet highly challenging dataset designed to evaluate Arabic language models across diverse domains. It consists of 490 carefully curated questions spanning 10 major domains and 42 topics. ",
     "Volume": 490.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Prince Sultan University"
     ],

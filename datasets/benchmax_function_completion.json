@@ -21,7 +21,6 @@
     "Description": "BenchMAX_Function_Completion is a dataset of BenchMAX, sourcing from humanevalplus, which evaluates the code generation capability in multilingual scenarios.",
     "Volume": 164.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Nanjing University"
     ],

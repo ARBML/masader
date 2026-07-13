@@ -21,7 +21,6 @@
     "Description": "A dataset of 1266 tweets by two Arabic native speakers into five types of sources: academic, media, government, health professional, and public.",
     "Volume": 1266.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Lancaster University"
     ],

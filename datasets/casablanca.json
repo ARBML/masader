@@ -70,7 +70,6 @@
     "Description": "Arabic speech dataset with eight dialects.",
     "Volume": 48.0,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "UBC-NLP"
     ],

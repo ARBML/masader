@@ -20,7 +20,6 @@
     "Description": "ArEEG_Words dataset is a novel EEG dataset recorded from 22 participants with mean age of 22 years (5 female, 17 male) using a 14-channel Emotiv Epoc X device. ",
     "Volume": 15360.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "Arab International University"
     ],

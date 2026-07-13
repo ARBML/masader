@@ -21,7 +21,6 @@
     "Description": "Dataset derived from the General Aptitude Test (GAT) for evaluating LLMs' mathematical reasoning and language comprehension.",
     "Volume": 7016.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "King Saud University"
     ],

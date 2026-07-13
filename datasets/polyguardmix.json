@@ -20,7 +20,6 @@
     "Description": "Multilingual safety detection dataset with 1.91M prompts and responses in 17 languages including Arabic.",
     "Volume": 100041.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Carnegie Mellon University"
     ],

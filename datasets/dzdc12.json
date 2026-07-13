@@ -20,7 +20,6 @@
     "Description": "DZDC12 is a multi-purpose parallel corpus crawled from facebook",
     "Volume": 2400.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Université 8 Mai 1945 Guelma"
     ],

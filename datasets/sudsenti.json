@@ -20,7 +20,6 @@
     "Description": "A sudanese dataset collected from Facebook and Youtube annotated with sentiment analysis",
     "Volume": 11109.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Northwest University"
     ],

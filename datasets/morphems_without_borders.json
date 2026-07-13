@@ -20,7 +20,6 @@
     "Description": "A datasets to control evaluation of Arabic derivational morphology across multiple tasks",
     "Volume": 130.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Yara Alakeel",
         "Chatrine Qwaider",

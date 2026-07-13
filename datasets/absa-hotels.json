@@ -20,7 +20,6 @@
     "Description": "Around 15,562 Hotels' reviews were thoroughly reviewed by this research authors and a subset of 2,291 reviews were selected. The original dataset has been collected from well known Hotels' booking websites such as Booking.com, TripAdvisor.com.",
     "Volume": 24028.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "SemEval-2016 Task 5: Aspect Based Sentiment Analysis",

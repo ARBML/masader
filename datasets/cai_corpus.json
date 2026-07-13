@@ -24,7 +24,6 @@
     "Description": "Parallel corpus of 130 children’s stories translated from Modern Standard Arabic to Egyptian (Cairo) dialect.",
     "Volume": 130.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [
         "Arabic Children's Corpus"

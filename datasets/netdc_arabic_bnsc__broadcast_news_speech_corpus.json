@@ -21,7 +21,6 @@
     "Description": "The database contains ca. 22.5 hours of broadcast news speech recorded from Radio Orient (France) during a 3-month period between November 2001 and January 2002 (37 broadcast news, including 32 from the 5.55 pm news and 5 from the 10.55 pm news, with about 90 distinct speakers identified)",
     "Volume": 22.5,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "ELDA"
     ],

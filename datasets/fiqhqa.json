@@ -20,7 +20,6 @@
     "Description": "A benchmark dataset of 960 Islamic question-answer pairs covering rulings from the four major Sunni schools of thought in Arabic and English.",
     "Volume": 960.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Mohamed Bin Zayed University of AI"
     ],

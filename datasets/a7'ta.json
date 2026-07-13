@@ -22,7 +22,6 @@
     "Description": "The data contains 300 documents, 445 erroneous sentences and their error-free counterparts, and a total of 3,532 words.",
     "Volume": 300.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "King Saud University"
     ],

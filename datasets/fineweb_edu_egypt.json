@@ -20,7 +20,6 @@
     "Description": "fineweb-edu-Egypt is a substantial dataset specifically developed to foster the creation and improvement of language models for the Egyptian Arabic dialect. This resource consists of a machine-translated version of the renowned FineWeb-Edu dataset.",
     "Volume": 5521803.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "UBC-NLP"
     ],

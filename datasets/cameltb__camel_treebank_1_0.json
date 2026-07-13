@@ -24,7 +24,6 @@
     "Description": "the Camel Treebank (CAMELTB) is a 188K word open-source dependency treebank of Modern Standard and Classical Arabic. It includes 13 sub-corpora comprising selections of texts from pre-Islamic poetry to social media online commentaries, and covering a range of genres from religious and philosophical texts to news, novels, and student essays.",
     "Volume": 242000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "NYU Abu Dhabi"
     ],

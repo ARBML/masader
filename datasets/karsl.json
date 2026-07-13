@@ -20,10 +20,9 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "Arabic Sign Language database with 502 signs. Each signer repeated each sign 50 times, which resulted in a total of 75,300 samples of the whole database (502 \u00d7 3 \u00d7 50)",
+    "Description": "Arabic Sign Language database with 502 signs. Each signer repeated each sign 50 times, which resulted in a total of 75,300 samples of the whole database (502 × 3 × 50)",
     "Volume": 75300.0,
     "Unit": "videos",
-    "Ethical Risks": "Low",
     "Provider": [
         "KFUPM"
     ],
@@ -52,6 +51,6 @@
     "Affiliations": [
         "King Fahd University of Petroleum and Minerals"
     ],
-    "Abstract": "Sign language is the major means of communication for the deaf community. It uses body language and\ngestures such as hand shapes, lib patterns, and facial expressions to convey a message. Sign language is\ngeography-specific, as it differs from one country to another. Arabic Sign language is used in all Arab coun-\ntries. The availability of a comprehensive benchmarking database for ArSL is one of the challenges of the\nautomatic recognition of Arabic Sign language. This article introduces KArSL database for ArSL, consisting\nof 502 signs that cover 11 chapters of ArSL dictionary. Signs in KArSL database are performed by three profes-\nsional signers, and each sign is repeated 50 times by each signer. The database is recorded using state-of-art\nmulti-modal Microsoft Kinect V2. We also propose three approaches for sign language recognition using this\ndatabase. The proposed systems are Hidden Markov Models, deep learning images\u2019 classification model ap-\nplied on an image composed of shots of the video of the sign, and attention-based deep learning captioning\nsystem. Recognition accuracies of these systems indicate their suitability for such a large number of Arabic\nsigns. The techniques are also tested on a publicly available database. KArSL database will be made freely\navailable for interested researchers.",
+    "Abstract": "Sign language is the major means of communication for the deaf community. It uses body language and\ngestures such as hand shapes, lib patterns, and facial expressions to convey a message. Sign language is\ngeography-specific, as it differs from one country to another. Arabic Sign language is used in all Arab coun-\ntries. The availability of a comprehensive benchmarking database for ArSL is one of the challenges of the\nautomatic recognition of Arabic Sign language. This article introduces KArSL database for ArSL, consisting\nof 502 signs that cover 11 chapters of ArSL dictionary. Signs in KArSL database are performed by three profes-\nsional signers, and each sign is repeated 50 times by each signer. The database is recorded using state-of-art\nmulti-modal Microsoft Kinect V2. We also propose three approaches for sign language recognition using this\ndatabase. The proposed systems are Hidden Markov Models, deep learning images’ classification model ap-\nplied on an image composed of shots of the video of the sign, and attention-based deep learning captioning\nsystem. Recognition accuracies of these systems indicate their suitability for such a large number of Arabic\nsigns. The techniques are also tested on a publicly available database. KArSL database will be made freely\navailable for interested researchers.",
     "Added By": "Zaid Alyafeai"
 }

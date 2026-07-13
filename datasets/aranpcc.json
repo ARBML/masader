@@ -28,7 +28,6 @@
     "Description": "the corpus is a large Arabic newspaper COVID-19 corpus, automatically collected from 88 Arabic newspapers from 12 Arab countries.",
     "Volume": 7277525.0,
     "Unit": "documents",
-    "Ethical Risks": "Medium",
     "Provider": [
         "KACST"
     ],

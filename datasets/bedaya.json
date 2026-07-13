@@ -20,7 +20,6 @@
     "Description": "Historical Arabic NER dataset based on Ibn Kathir book.",
     "Volume": 20500.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Haifa"
     ],

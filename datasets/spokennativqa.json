@@ -20,7 +20,6 @@
     "Description": "First multilingual culturally-aligned spoken QA dataset with ~33k real user questions/answers in Arabic and English for evaluating LLMs in conversational spoken settings.",
     "Volume": 988.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

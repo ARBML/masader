@@ -22,7 +22,6 @@
     "Description": "First auto-annotated Arabic Reddit mental health dataset.",
     "Volume": 100.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "George Washington University"
     ],

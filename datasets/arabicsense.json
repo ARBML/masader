@@ -21,7 +21,6 @@
     "Description": "A synthetic commonsense reasoning benchmark in Arabic covering validation and explanation tasks.",
     "Volume": 5650.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Luxembourg",
         "University of Siena"

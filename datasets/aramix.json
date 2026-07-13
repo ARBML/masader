@@ -21,7 +21,6 @@
     "Description": "a deduplicated Arabic pretraining corpus",
     "Volume": 178000000000.0,
     "Unit": "tokens",
-    "Ethical Risks": "High",
     "Provider": [
         "King Abdullah University of Science and Technology (KAUST)"
     ],

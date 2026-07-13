@@ -23,7 +23,6 @@
     "Description": "Arabic Daily Comunication Corpus (ADCC) is daily conversations written text in Modern Standard Arabic which was collected from different resources.",
     "Volume": 4000000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [],
     "Derived From": [
         "Corpus of Contemporary Arabic",

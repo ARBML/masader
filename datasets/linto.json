@@ -22,7 +22,6 @@
     "Description": "Audio & textual datasets for Tunisian Arabic ASR with code-switching, augmentation and normalization.",
     "Volume": 373.17,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "LINAGORA"
     ],

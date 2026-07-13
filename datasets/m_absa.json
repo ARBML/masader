@@ -20,7 +20,6 @@
     "Description": "A multilingual parallel dataset for aspect-based sentiment analysis with 7 domains and 21 languages.",
     "Volume": 14116.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "LMU Munich",
         "South China Normal University"

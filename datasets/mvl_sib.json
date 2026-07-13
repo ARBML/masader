@@ -20,7 +20,6 @@
     "Description": "Massively multilingual vision-language benchmark for cross-modal topical matching across 205 languages.",
     "Volume": 3012.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Würzburg",
         "University of Hamburg"

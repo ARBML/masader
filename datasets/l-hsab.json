@@ -21,7 +21,6 @@
     "Description": "Arabic Levantine Hate Speech and Abusive Language Dataset",
     "Volume": 5851.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Multiple Institutions"
     ],

@@ -22,7 +22,6 @@
     "Description": "Updated Classical Arabic poetry dataset (APD2020) covering five eras scraped from Adab.com, cleaned, made publicly available via Kaggle",
     "Volume": 86061.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Sharjah"
     ],

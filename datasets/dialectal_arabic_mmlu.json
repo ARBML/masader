@@ -57,7 +57,6 @@
     "Description": "Dialectal-Arabic-MMLU is a large-scale, human-translated dataset from MMLU-Redux into 5 major dialects: Syrian, Egyptian, Emirati, Saudi, and Moroccan. ",
     "Volume": 18810.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "MBZUAI"
     ],

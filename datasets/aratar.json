@@ -21,7 +21,6 @@
     "Description": "The first and largest Arabic corpus annotated for fine-grained hate speech type and target detection with multi-label classification.",
     "Volume": 11219.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "The University of Manchester",
         "University of Jeddah"

@@ -20,7 +20,6 @@
     "Description": "Datasets for AI-generated and AI-polished Arabic text detection.",
     "Volume": 16400.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "King Saud University",
         "Institution of Public Administration"

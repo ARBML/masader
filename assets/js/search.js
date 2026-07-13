@@ -2,14 +2,6 @@ const request = axios.create({
     baseURL: window.MasaderConfig.API_BASE_URL,
 });
 
-function ethicalBadge(text) {
-    text = text.toLowerCase();
-    if (text == 'low') return '<span class="badge bg-success">Low</span>';
-    else if (text == 'medium')
-        return '<span class="badge bg-warning">Medium</span>';
-    else return '<span class="badge bg-danger text-light">High</span>';
-}
-
 function accessBadge(text) {
     text = (text == null ? '' : text).toString().toLowerCase();
     if (text.toLowerCase() == 'free')
@@ -76,7 +68,6 @@ const entries = [
     'Unit',
     'Volume',
     'Year',
-    'Ethical Risks',
     'Id',
     'Paper Link',
 ];
@@ -192,13 +183,7 @@ form.addEventListener('submit', (event) => {
                 html += '</div>';
                 for (let attribute in element) {
                     if (
-                        [
-                            'Id',
-                            'Ethical Risks',
-                            'Paper Link',
-                            'Link',
-                            'Name',
-                        ].includes(attribute)
+                        ['Id', 'Paper Link', 'Link', 'Name'].includes(attribute)
                     )
                         continue;
                     html += "<div class='flex justify-between gap-3'>";
@@ -210,12 +195,6 @@ form.addEventListener('submit', (event) => {
                     html += '</div>';
                 }
                 html += '</div>';
-
-                html += "<div class='flex justify-between'>";
-                html += `<span class='capitalize font-bold'> Ethical Risks ${ethicalBadge(
-                    element['Ethical Risks']
-                )} </span>`;
-                html += '<div/>';
 
                 html += "<div class='gap-2 flex'>";
                 html += `<a class='capitalize font-bold text-primary' target='_blank' href='./card?id=${element['Id']}'>details</a>`;

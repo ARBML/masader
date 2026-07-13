@@ -20,7 +20,6 @@
     "Description": "This publication contains 20 sphere files encoded in two channel interleaved mulaw with a sampling rate of 8 KHz, for a total of 424,160,000 bytes (405 Mbytes) of sphere data. The sphere headers have been modified from the original Evaluation data by the addition of sample checksums to the CALLHOME data files.",
     "Volume": 20.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

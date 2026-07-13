@@ -22,7 +22,6 @@
     "Description": "AraCovid19-SSD is a manually annotated Arabic COVID-19 sarcasm and sentiment detection dataset containing 5,162 tweets.",
     "Volume": 5162.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "Research Centre on Scientific and Technical Information (CERIST)"
     ],

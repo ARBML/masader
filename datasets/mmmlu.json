@@ -25,7 +25,6 @@
     "Description": "Translated the MMLU’s test set into 14 languages using professional human translators.",
     "Volume": 14000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "openai"
     ],

@@ -21,7 +21,6 @@
     "Description": "Moroccan Darija text-to-SQL dataset, 9428 pairs.",
     "Volume": 9428.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Mohammed VI Polytechnic University"
     ],

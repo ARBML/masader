@@ -20,7 +20,6 @@
     "Description": "it creates a new Affect in Tweets dataset of more than 22,000 tweets such\nthat subsets are annotated for a number of emotion dimensions.",
     "Volume": 22000.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Multiple Institutions"
     ],

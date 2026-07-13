@@ -21,7 +21,6 @@
     "Description": "Moroccan YouTube sentiment dataset with 20k balanced Arabic/Latin comments.",
     "Volume": 20000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "University Sultan Moulay Slimane"
     ],

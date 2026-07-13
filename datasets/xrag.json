@@ -21,7 +21,6 @@
     "Description": "XRAG is a cross-lingual RAG benchmark covering German, Spanish, Chinese, and Arabic questions with English retrieval documents.",
     "Volume": 1500.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Amazon AGI"
     ],

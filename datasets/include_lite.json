@@ -22,7 +22,6 @@
     "Description": "It contains 11,095 4-option multiple-choice-questions (MCQ) extracted from academic and professional exams, covering 57 topics, including regional knowledge.",
     "Volume": 250.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "CohereForAI"
     ],

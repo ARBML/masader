@@ -42,7 +42,6 @@
     "Description": "A dataset for automatic Arabic story generation containing MSA and two dialects.",
     "Volume": 3000.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "UBC-NLP"
     ],

@@ -20,7 +20,6 @@
     "Description": "Multilingual and Multi-Aspect Hate Speech Analysis",
     "Volume": 3354.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "HKUST"
     ],

@@ -51,7 +51,6 @@
     "Description": "a corpus composed of about 6400 sentences of dialects from both the Maghreb and the middle east",
     "Volume": 8244.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Loris Fr"
     ],

@@ -21,7 +21,6 @@
     "Description": "Within the AraDiCE collection, this particular subset is designated as ArabicMMLU - Egyptian Dialect.",
     "Volume": 14459.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "QCRI"
     ],

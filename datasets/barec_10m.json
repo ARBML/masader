@@ -37,7 +37,6 @@
     "Description": "A 10-million-word balanced multi-domain Arabic corpus integrating 45 sub-corpora, annotated for morphology, syntax, and readability across diverse genres and readership levels.",
     "Volume": 10077169.0,
     "Unit": "tokens",
-    "Ethical Risks": "Low",
     "Provider": [
         "CAMeL Lab"
     ],
@@ -83,6 +82,6 @@
         "University of Turin",
         "Zayed University"
     ],
-    "Abstract": "We present BAREC-10M, an expanded version of the Balanced Arabic Readability Evaluation Corpus (BAREC). This new release extends the original 1M-word corpus to 10 million words and broadens its scope to include balanced multi-domain coverage annotated for morphology, syntax, and readability. The corpus integrates 45 sub-corpora drawn from diverse sources, including news, educational materials, literature, children\u2019s texts, and religious discourse. Each text is labeled for domain, readership level, and genre, and automatically analyzed using state-of-the-art morphological and syntactic tools. To enhance coverage of underrepresented varieties, we manually digitized and included children\u2019s materials, magazines, and curriculum-based content. The resulting dataset provides a balanced resource for studying Arabic linguistic variation across styles, audiences, and levels of complexity.",
+    "Abstract": "We present BAREC-10M, an expanded version of the Balanced Arabic Readability Evaluation Corpus (BAREC). This new release extends the original 1M-word corpus to 10 million words and broadens its scope to include balanced multi-domain coverage annotated for morphology, syntax, and readability. The corpus integrates 45 sub-corpora drawn from diverse sources, including news, educational materials, literature, children’s texts, and religious discourse. Each text is labeled for domain, readership level, and genre, and automatically analyzed using state-of-the-art morphological and syntactic tools. To enhance coverage of underrepresented varieties, we manually digitized and included children’s materials, magazines, and curriculum-based content. The resulting dataset provides a balanced resource for studying Arabic linguistic variation across styles, audiences, and levels of complexity.",
     "Added By": "Zaid Alyafeai"
 }

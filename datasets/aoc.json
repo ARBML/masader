@@ -33,7 +33,6 @@
     "Description": "a 52M-word monolingual dataset rich in dialectal content",
     "Volume": 108173.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Johns Hopkins University"
     ],

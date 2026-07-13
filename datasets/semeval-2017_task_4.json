@@ -20,7 +20,6 @@
     "Description": "a large accessible benchmark dataset containing over 70,000 tweets\nacross two languages",
     "Volume": 70000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Multiple Institutions"
     ],

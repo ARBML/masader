@@ -20,7 +20,6 @@
     "Description": "It consists of 118 hours of conversational telephone speech segments in the following languages and dialects: Arabic (Egyptian colloquial), Bengali, Min Nan Chinese, Wu Chinese, Taiwan Mandarin, Cantonese, Russian, Mexican Spanish, Thai, Urdu, and Tamil.",
     "Volume": 118.0,
     "Unit": "hours",
-    "Ethical Risks": "Low",
     "Provider": [
         "NIST"
     ],

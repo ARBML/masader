@@ -22,7 +22,6 @@
     "Description": "1657 k verses of poems and prose to develop neural networks to classify and diacritize Arabic poetry",
     "Volume": 1831770.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "The University of Jordan"
     ],

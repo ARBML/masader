@@ -20,7 +20,6 @@
     "Description": "a collection of parallel sentences covering the dialects of 25 cities from the Arab World",
     "Volume": 14000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "NYU Abu Dhabi"
     ],

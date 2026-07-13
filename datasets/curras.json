@@ -20,7 +20,6 @@
     "Description": "Curras: a dataset for Palestinian Arabic with rich metadata including POS tagging, lemma, stem, and other",
     "Volume": 56700.0,
     "Unit": "tokens",
-    "Ethical Risks": "Medium",
     "Provider": [
         "SinaLab",
         "Birzeit University"

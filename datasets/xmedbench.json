@@ -21,7 +21,6 @@
     "Description": "A multilingual medical corpus covering six most widely spoken languages including Arabic.",
     "Volume": 1090.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "FreedomIntelligence"
     ],

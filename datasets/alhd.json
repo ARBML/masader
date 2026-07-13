@@ -22,7 +22,6 @@
     "Description": "A large-scale Arabic dataset for detecting human vs LLM-generated texts, with 405k samples across 3 genres (news, social media, reviews) and MSA + multiple dialects.",
     "Volume": 405456.0,
     "Unit": "documents",
-    "Ethical Risks": "High",
     "Provider": [
         "Queen Mary University of London"
     ],

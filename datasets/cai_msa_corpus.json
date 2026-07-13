@@ -35,7 +35,6 @@
     "Description": "A parallel corpus of 130 children's stories in Modern Standard Arabic and Egyptian (Cairo) dialect.",
     "Volume": 130.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "University of Leeds"
     ],

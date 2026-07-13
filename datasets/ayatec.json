@@ -21,7 +21,6 @@
     "Description": "QA on the Holy Qur’an Dataset",
     "Volume": 207.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Qatar University"
     ],

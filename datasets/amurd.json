@@ -21,7 +21,6 @@
     "Description": "Multilingual dataset for receipt extraction",
     "Volume": 47720.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "DISCOAI"
     ],

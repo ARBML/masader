@@ -21,7 +21,6 @@
     "Description": "Stance dataset for authorities in Arabic tweets.",
     "Volume": 409.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Qatar University"
     ],

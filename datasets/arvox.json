@@ -20,7 +20,6 @@
     "Description": "designed for Multilingual and Arabic Dialect Identification",
     "Volume": 635.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "A Language Identification System Based on Voxforge Speech Corpus",

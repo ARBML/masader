@@ -20,7 +20,6 @@
     "Description": "Human Annotated Arabic Dataset of Book Reviews for Aspect Based Sentiment Analysis",
     "Volume": 2389.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "JUST"
     ],

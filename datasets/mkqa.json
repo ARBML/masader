@@ -20,7 +20,6 @@
     "Description": "10k question-answer pairs aligned across 26 typologically diverse languages",
     "Volume": 10000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Apple"
     ],

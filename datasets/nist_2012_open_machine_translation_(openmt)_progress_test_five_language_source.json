@@ -21,7 +21,6 @@
     "Description": "This release consists of 20 files, four for each of the five languages, presented in XML with an included DTD. The four files are source and reference data from the same source data in the following two styles:",
     "Volume": 4.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "LDC"
     ],

@@ -20,7 +20,6 @@
     "Description": "check-worthiness datasets",
     "Volume": 7500.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "Overview of CheckThat! 2020 Arabic:",

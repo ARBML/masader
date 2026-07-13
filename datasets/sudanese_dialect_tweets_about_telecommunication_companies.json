@@ -20,7 +20,6 @@
     "Description": "Sentiment Analysis dataset written in Sudanese Arabic Dialect",
     "Volume": 4712.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [
         "University of Khartoum"
     ],

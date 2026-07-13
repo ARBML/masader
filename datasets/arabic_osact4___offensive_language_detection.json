@@ -21,7 +21,6 @@
     "Description": "OSACT4 Shared Task on Offensive Language Detection",
     "Volume": 8000.0,
     "Unit": "sentences",
-    "Ethical Risks": "High",
     "Provider": [],
     "Derived From": [],
     "Paper Title": "Overview of OSACT4 Arabic Offensive Language Detection Shared Task",

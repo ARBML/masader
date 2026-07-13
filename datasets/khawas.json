@@ -20,7 +20,6 @@
     "Description": "a corpus containing more than two million words and a corpora processing tool that is specifically designed for Arabic",
     "Volume": 2910.0,
     "Unit": "documents",
-    "Ethical Risks": "Low",
     "Provider": [
         "Multiple Institutions"
     ],

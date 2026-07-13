@@ -69,7 +69,6 @@
     "Description": "This datasets is related to NADI-2015 Subtask-2: Multidialectal Arabic ASR.",
     "Volume": 25600.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "UBC-NLP"
     ],

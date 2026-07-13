@@ -20,7 +20,6 @@
     "Description": "question answering dataset covering 11 typologically diverse languages with 200K question-answer pairs",
     "Volume": 25893.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Google"
     ],

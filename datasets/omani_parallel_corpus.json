@@ -20,7 +20,6 @@
     "Description": "Parallel Omani Arabic-English MT dataset",
     "Volume": 2595.0,
     "Unit": "sentences",
-    "Ethical Risks": "Medium",
     "Provider": [
         "Sultan Qaboos University"
     ],

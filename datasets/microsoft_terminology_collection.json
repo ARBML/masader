@@ -20,7 +20,6 @@
     "Description": "The Microsoft Terminology Collection can be used to develop localized versions of applications that integrate with Microsoft products. It can also be used to integrate Microsoft terminology into other terminology collections or serve as a base IT glossary for language development in the nearly 100 languages available. Terminology is provided in .tbx format, an industry standard for terminology exchange.",
     "Volume": 20000.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Microsoft"
     ],

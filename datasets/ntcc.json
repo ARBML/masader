@@ -21,7 +21,6 @@
     "Description": "An annotated Arabic corpus of ~470 sentences from Nakba short stories for topic classification.",
     "Volume": 470.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Palestine Technical University-Kadoorie",
         "University Rovira i Virgili",

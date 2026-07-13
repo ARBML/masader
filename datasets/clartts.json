@@ -20,7 +20,6 @@
     "Description": "A single-speaker classical Arabic Text-to-Speech corpus of 12 hours manually transcribed from a LibriVox audiobook.",
     "Volume": 9705.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "MBZUAI"
     ],
