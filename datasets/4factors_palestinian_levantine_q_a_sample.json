@@ -1,0 +1,56 @@
+{
+    "Name": "4FACTORS Palestinian Levantine Q&A Sample",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/4factors/arabic-palestinian-levantine-sample",
+    "Link": "https://huggingface.co/datasets/4factors/arabic-palestinian-levantine-sample",
+    "License": "CC BY-NC 4.0",
+    "Year": 2026,
+    "Language": "multilingual",
+    "Dialect": "Palestine",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "general",
+        "society",
+        "sports",
+        "health",
+        "culture",
+        "education"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Native-written Palestinian Levantine conversational question-answer pairs (50) with English glosses and domain labels; written by a first-language speaker and reviewed line-by-line. No scraping, machine translation, or synthetic generation.",
+    "Volume": 50.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "4factors"
+    ],
+    "Derived From": [],
+    "Paper Title": "4FACTORS \u2014 Palestinian Levantine Conversational Sample",
+    "Paper Link": "https://huggingface.co/datasets/4factors/arabic-palestinian-levantine-sample",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "other",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Andrej Poljanc"
+    ],
+    "Affiliations": [
+        "4factors"
+    ],
+    "Abstract": "A public demonstration sample of 50 native-written question-answer pairs in spoken Palestinian Levantine Arabic, each with an English gloss and a domain label. Written from scratch by a first-language Palestinian speaker and reviewed line-by-line against a checklist; both pre- and post-review file versions are retained for auditable provenance. No scraping, no machine translation, no synthetic generation. Larger sets and other Arabic varieties are available on commission with full IP transfer.",
+    "Added By": "Andrej Poljanc"
+}
