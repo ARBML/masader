@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "Multilingual and Multi-Aspect Hate Speech Analysis",
+    "Description": "Multilingual hate speech dataset with multi-aspect annotations covering Arabic and other languages for fine-grained hate analysis.",
     "Volume": 3354.0,
     "Unit": "sentences",
     "Provider": [

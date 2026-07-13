@@ -17,7 +17,7 @@
     "Annotation Style": [
         "none"
     ],
-    "Description": "There are 319 files, totalling approximately 1.1GB in compressed form (4348 MB uncompressed, and 391619 Kwords).",
+    "Description": "Arabic Gigaword is a large Arabic newswire corpus of news articles from diverse sources for language modeling and information retrieval.",
     "Volume": 1256719.0,
     "Unit": "documents",
     "Provider": [

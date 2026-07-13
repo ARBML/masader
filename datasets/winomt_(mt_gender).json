@@ -17,7 +17,7 @@
     "Annotation Style": [
         "machine annotation"
     ],
-    "Description": "Evaluating Gender Bias in Machine Translation",
+    "Description": "WinoMT benchmark for evaluating gender bias in machine translation using Winogender and WinoBias sentence pairs in Arabic.",
     "Volume": 3888.0,
     "Unit": "sentences",
     "Provider": [

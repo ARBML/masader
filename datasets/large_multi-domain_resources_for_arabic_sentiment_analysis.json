@@ -17,7 +17,7 @@
     "Annotation Style": [
         "metadata-derived"
     ],
-    "Description": "Large Multi-Domain Resources for Arabic Sentiment Analysis",
+    "Description": "Multi-domain Arabic sentiment analysis resources with 45K+ annotated reviews across diverse topics and domains.",
     "Volume": 45498.0,
     "Unit": "sentences",
     "Provider": [

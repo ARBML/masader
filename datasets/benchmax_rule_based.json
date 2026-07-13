@@ -18,7 +18,7 @@
         "human annotation",
         "machine annotation"
     ],
-    "Description": "BenchMAX_Domain_Translation is a dataset of BenchMAX, which evaluates the translation capability on specific domains.",
+    "Description": "BenchMAX_Rule-based is a BenchMAX subset sourced from IFEval, evaluating multilingual instruction-following via rule-based verifiable constraints.",
     "Volume": 429.0,
     "Unit": "sentences",
     "Provider": [

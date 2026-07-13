@@ -18,7 +18,7 @@
         "machine annotation",
         "human annotation"
     ],
-    "Description": "A Dataset for Arabic Why Question Answering System",
+    "Description": "DAWQAS contains 3,205 Arabic why-question answer pairs scraped from websites, with rhetorical relation annotations for why-QA research.",
     "Volume": 3205.0,
     "Unit": "sentences",
     "Provider": [

@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "This publication contains 20 sphere files encoded in two channel interleaved mulaw with a sampling rate of 8 KHz, for a total of 424,160,000 bytes (405 Mbytes) of sphere data. The sphere headers have been modified from the original Evaluation data by the addition of sample checksums to the CALLHOME data files.",
+    "Description": "1997 HUB5 Arabic Evaluation speech data with 20 two-channel telephone conversations for Arabic speech recognition benchmarking.",
     "Volume": 20.0,
     "Unit": "documents",
     "Provider": [

@@ -19,7 +19,7 @@
     "Annotation Style": [
         "inherited annotation"
     ],
-    "Description": "The source data in this release consists of Arabic newswire and broadcast programming collected by LDC from various news and broadcast providers.",
+    "Description": "ARL Arabic Dependency Treebank with dependency-annotated Arabic newswire and broadcast text for parsing research.",
     "Volume": 0.0,
     "Unit": "tokens",
     "Provider": [

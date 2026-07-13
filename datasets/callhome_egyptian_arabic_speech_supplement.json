@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "There are 20 data files in sphere format. The files are 8 KHz shorten-compressed two-channel mulaw. 12 of the files were recorded from domestic phone calls (both parties living in the continental U.S.), while the other eight are overseas calls (a participant in the U.S. called a friend or relative in Egypt or some other overseas country).",
+    "Description": "Supplemental Egyptian Arabic CALLHOME telephone speech recordings of 20 conversations for conversational speech recognition.",
     "Volume": 8.0,
     "Unit": "hours",
     "Provider": [

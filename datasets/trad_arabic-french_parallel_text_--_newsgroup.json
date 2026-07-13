@@ -18,7 +18,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "This release consists of 398 segments (translation units) from 17 documents. The source data is Arabic newsgroup text collected and translated into English by the Linguistic Data Consortium for the DARPA GALE (Global Autonomous Language Exploitation) program. Information about the ELDA translation team, translation guidelines and validation results is contained in the documentation accompanying this release.",
+    "Description": "TRAD Arabic-French parallel newsgroup text with 398 translation segments for machine translation research.",
     "Volume": 10000.0,
     "Unit": "tokens",
     "Provider": [

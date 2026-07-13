@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "This release contains 153,171 tokens before clitics were split and 182,965 tree tokens after clitics were split for treebank annotation. The source data was selected from conversational telephone speech collected by LDC for the CALLHOME project that was transcribed and segmented into sentence units.",
+    "Description": "BOLT Egyptian Arabic Treebank of CALLHOME telephone speech transcripts with syntactic annotations for parsing research.",
     "Volume": 153171.0,
     "Unit": "tokens",
     "Provider": [

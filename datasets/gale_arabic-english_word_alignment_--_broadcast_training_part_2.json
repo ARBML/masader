@@ -19,7 +19,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "This release consists of Arabic source broadcast news and broadcast conversation data collected by LDC from 2007-2009. The distribution by genre, words, tokens and segments appears below:",
+    "Description": "GALE Arabic-English word-aligned broadcast news and conversation text (Part 2) for machine translation research.",
     "Volume": 11693.0,
     "Unit": "sentences",
     "Provider": [

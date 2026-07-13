@@ -18,7 +18,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "Annoated subset from ASAD on six speech act categories.",
+    "Description": "Annotated subset of ASAD covering six speech act categories in cleaned Arabic social media text.",
     "Volume": 22352.0,
     "Unit": "sentences",
     "Provider": [

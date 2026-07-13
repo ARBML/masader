@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "Human Annotated Arabic Dataset of Book Reviews for Aspect Based Sentiment Analysis",
+    "Description": "HAAD provides 2,389 human-annotated Arabic book reviews with aspect-level sentiment labels for aspect-based sentiment analysis.",
     "Volume": 2389.0,
     "Unit": "sentences",
     "Provider": [

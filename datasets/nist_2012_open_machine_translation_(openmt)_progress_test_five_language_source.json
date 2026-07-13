@@ -18,7 +18,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "This release consists of 20 files, four for each of the five languages, presented in XML with an included DTD. The four files are source and reference data from the same source data in the following two styles:",
+    "Description": "NIST 2012 OpenMT progress test set with five-language source texts including Arabic for translation evaluation.",
     "Volume": 4.0,
     "Unit": "documents",
     "Provider": [

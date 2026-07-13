@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "There are 40 data files. Each of the 20 calls has transcripts in two formats: .txt and .scr.",
+    "Description": "Supplemental Egyptian Arabic CALLHOME telephone conversation transcripts in .txt and .scr formats for conversational ASR.",
     "Volume": 40.0,
     "Unit": "documents",
     "Provider": [

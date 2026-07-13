@@ -17,7 +17,7 @@
     "Annotation Style": [
         "inherited annotation"
     ],
-    "Description": "The Language Identification dataset is a collection of 90k samples consisting of text passages and corresponding language label.",
+    "Description": "Multilingual language identification dataset with 3,500 labeled text passages derived from XNLI and other public corpora.",
     "Volume": 3500.0,
     "Unit": "sentences",
     "Provider": [],

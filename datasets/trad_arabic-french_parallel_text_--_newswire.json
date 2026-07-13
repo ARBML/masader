@@ -18,7 +18,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "This release consists of 813 segments (translations units) from 74 documents. The source data is Arabic newswire text collected and translated into English by LDC. Information about the ELDA translation team, translation guidelines and validation results is contained in the documentation accompanying this release.",
+    "Description": "TRAD Arabic-French parallel newswire text with 813 translation segments for machine translation research.",
     "Volume": 813.0,
     "Unit": "sentences",
     "Provider": [

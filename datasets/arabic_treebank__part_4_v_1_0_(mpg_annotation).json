@@ -18,7 +18,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "Arabic Treebank: Part 4 v 1.0 (MPG Annotation) was developed by the Linguistic Data Consortium (LDC) and contains approximately 150,000 Arabic word tokens with annotation on part of speech (POS), gloss, and word segmentation.",
+    "Description": "Arabic Treebank Part 4 v1.0 with MPG morphological and syntactic annotations of Arabic newswire text.",
     "Volume": 150000.0,
     "Unit": "tokens",
     "Provider": [

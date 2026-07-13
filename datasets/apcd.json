@@ -18,7 +18,7 @@
     "Annotation Style": [
         "metadata-derived"
     ],
-    "Description": "A dataset of Arabic poetry containing 1,831,770 along with there meters.",
+    "Description": "APCD is a dataset of 1.8M Arabic poetry lines annotated with their poetic meters for meter classification research.",
     "Volume": 1831770.0,
     "Unit": "sentences",
     "Provider": [

@@ -17,7 +17,7 @@
     "Annotation Style": [
         "machine annotation"
     ],
-    "Description": "A massively multilingual benchmark for spoken language understanding covering 102 languages for utterance classification and 92 languages for multiple-choice QA from spoken paragraphs.",
+    "Description": "Belebele-Fleurs extends BeleBele into a spoken SLU benchmark with multilingual multiple-choice listening comprehension QA from speech.",
     "Volume": 387.0,
     "Unit": "sentences",
     "Provider": [

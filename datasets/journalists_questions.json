@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "crowdsorucing to collect\r\nbinary annotations for 10K of the potential question tweets\r\nbased on whether they truly contain questions or not",
+    "Description": "Arabic Twitter dataset of 10K tweets with crowdsourced binary annotations indicating whether each tweet contains a genuine question.",
     "Volume": 10000.0,
     "Unit": "sentences",
     "Provider": [

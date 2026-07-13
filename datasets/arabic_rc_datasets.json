@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "Arabic Reading Comprehension Benchmarks Created Semiautomatically",
+    "Description": "Semiautomatically created Arabic reading comprehension benchmarks with question-answer pairs derived from TREC-style passages.",
     "Volume": 2862.0,
     "Unit": "sentences",
     "Provider": [

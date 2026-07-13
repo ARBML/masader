@@ -17,7 +17,7 @@
     "Annotation Style": [
         "machine annotation"
     ],
-    "Description": "Multilingual safety detection dataset with 1.91M prompts and responses in 17 languages including Arabic.",
+    "Description": "PolyGuardPrompts is a high-quality multilingual safety benchmark with 29K prompt-response pairs for evaluating LLM safety guardrails.",
     "Volume": 1725.0,
     "Unit": "sentences",
     "Provider": [

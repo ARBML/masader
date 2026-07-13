@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": " The first MA dataset for offensive language detection",
+    "Description": "MAOffens is the first Moroccan Arabic dataset for offensive language detection in social media text.",
     "Volume": 23000.0,
     "Unit": "sentences",
     "Provider": [

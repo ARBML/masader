@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "This release consists of Arabic source web data collected by LDC. The distribution by genre, words, character tokens and segments appears below:",
+    "Description": "GALE Arabic-English word-aligned Arabic web text (Part 3) for machine translation research.",
     "Volume": 7332.0,
     "Unit": "sentences",
     "Provider": [

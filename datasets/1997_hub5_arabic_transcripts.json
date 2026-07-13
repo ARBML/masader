@@ -17,7 +17,7 @@
     "Annotation Style": [
         "inherited annotation"
     ],
-    "Description": "There are 40 data files. Each of the 20 calls has transcripts in two formats: .txt and .scr.",
+    "Description": "Transcripts of 20 Arabic telephone conversations from the 1997 HUB5 evaluation, in .txt and .scr formats for ASR research.",
     "Volume": 20.0,
     "Unit": "documents",
     "Provider": [

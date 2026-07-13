@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "This release consists of Egyptian Arabic source text message and chat conversations collected using two methods: new collection via LDC's collection platform, and donation of SMS or chat archives from BOLT collection participants. The source data is released as BOLT Egyptian Arabic SMS/Chat and Transliteration (LDC2017T07).",
+    "Description": "BOLT Egyptian Arabic-English word-aligned SMS and chat conversations for machine translation research.",
     "Volume": 74814.0,
     "Unit": "sentences",
     "Provider": [

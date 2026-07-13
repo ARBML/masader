@@ -19,7 +19,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "This release consists of Arabic source newswire and web data collected by LDC in 2006 - 2008. The distribution by genre, words, character tokens and segments appears below:",
+    "Description": "GALE Arabic-English word-aligned newswire and web text (Part 1) for machine translation research.",
     "Volume": 12806.0,
     "Unit": "sentences",
     "Provider": [

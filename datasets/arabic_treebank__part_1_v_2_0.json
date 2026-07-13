@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "Arabic Treebank: Part 1 v 2.0 was developed by the Linguistic Data Consortium (LDC) and contains approximately 140,000 tokens of Arabic text with part-of-speech (POS) and treebank annotation.",
+    "Description": "Arabic Treebank Part 1 v2.0 with POS and syntactic annotations of Arabic newswire for parsing research.",
     "Volume": 140000.0,
     "Unit": "tokens",
     "Provider": [

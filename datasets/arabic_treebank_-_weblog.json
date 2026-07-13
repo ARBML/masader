@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "This release contains 243,117 source tokens before clitics were split, and 308,996 tree tokens after clitics were separated for treebank annotation. The source material is weblogs collected by LDC from various sources.",
+    "Description": "Arabic Treebank Weblog with syntactic annotations of Arabic weblog text collected from various web sources.",
     "Volume": 243117.0,
     "Unit": "tokens",
     "Provider": [

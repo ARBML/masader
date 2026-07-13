@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "Audio was recorded in each participant's home. Audio is presented as 16-bit 16 kHz flac compressed wav. In addition to speech files and metadata about the speakers, timeless label files and automatic time segmentation alignment files are included. Text is presented as UTF-8 plain text.",
+    "Description": "KSUEmotions is an Arabic emotional speech corpus from King Saud University with emotion labels for speech and emotion recognition.",
     "Volume": 5.0,
     "Unit": "hours",
     "Provider": [

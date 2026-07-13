@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "This is the first Arabic Natural Audio Dataset (ANAD) developed to recognize 3 discrete emotions: Happy,angry, and surprised.",
+    "Description": "ANAD is the first Arabic natural audio dataset for recognizing happy, angry, and surprised emotions from TV broadcast audio.",
     "Volume": 1384.0,
     "Unit": "hours",
     "Provider": [

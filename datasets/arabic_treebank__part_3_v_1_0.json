@@ -17,7 +17,7 @@
     "Annotation Style": [
         "human annotation"
     ],
-    "Description": "Arabic Treebank: Part 3 v 1.0 was developed by the Linguistic Data Consortium (LDC) and contains approximately 300,000 Arabic word tokens with part of speech (POS) annotation that includes complete vocalization with case endings, lemma IDs, and more specific POS tags for verbs and particles.",
+    "Description": "Arabic Treebank Part 3 v1.0 with approximately 300K tokens of syntactic treebank annotation for Arabic parsing.",
     "Volume": 300000.0,
     "Unit": "tokens",
     "Provider": [
