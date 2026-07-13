@@ -17,7 +17,7 @@ titles = {
     Dialects: 'Number of resources with respect of each country',
     // 'Dialects Groups': 'Distribution of the resources with respect of each Dialect',
     Venue: 'Venues used to publish NLP datasets',
-    'Ethical Risks': 'Ethical risks of Arabic NLP datasets',
+    Provider: 'Top 10 providers of Arabic NLP datasets',
     Script: 'Scripts of writing Arabic NLP datasets',
 };
 
@@ -63,6 +63,12 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
     for (let index = 0; index < data.length; index++) {
         if (data[index][idx] === undefined) continue;
 
+        if (
+            headersWhiteList[idx] == 'Provider' &&
+            ['', 'undefined', 'null'].includes(data[index][idx].trim())
+        )
+            continue;
+
         if (ignoreOther) {
             if (['other', 'unknown', ''].includes(data[index][idx])) continue;
         }
@@ -76,6 +82,14 @@ function getSeries(data, idx, ignoreOther = true, subsetsIdx = -1) {
             for (let index = 0; index < tasks.length; index++) {
                 series.push(tasks[index].trim());
             }
+        } else if (headersWhiteList[idx] == 'Provider') {
+            const providers = new Set(
+                data[index][idx]
+                    .split(',')
+                    .map((provider) => provider.trim())
+                    .filter(Boolean)
+            );
+            series.push(...providers);
         } else if (headersWhiteList[idx] == 'Dialect') {
             let dialect =
                 data[index][idx] != 'other'
@@ -252,6 +266,7 @@ function createChartContaier(title) {
     //   createDialectVolumeBarChart(getDialectsSubset(dialectedEntries), canvas);
     else if (title === 'Year')
         plotBar(title, canvas, (sorting = false), (truncate = 30));
+    else if (title === 'Provider') plotBar(title, canvas, true, 10, true);
     else plotBar(title, canvas);
 
     return container;
@@ -259,7 +274,13 @@ function createChartContaier(title) {
 
 Chart.defaults.plugins.labels = {};
 
-function plotBar(col, canvas, sorting = true, truncate = 20) {
+function plotBar(
+    col,
+    canvas,
+    sorting = true,
+    truncate = 20,
+    horizontal = false
+) {
     let idx = headersWhiteList.indexOf(col);
     let series = getSeries(dataset, idx);
 
@@ -292,6 +313,7 @@ function plotBar(col, canvas, sorting = true, truncate = 20) {
         type: 'bar',
         data: chartdata,
         options: {
+            indexAxis: horizontal ? 'y' : 'x',
             plugins: {
                 autocolors: {
                     mode: 'data',
@@ -385,7 +407,7 @@ axios
             'Domain',
             'Source',
             'Form',
-            'Ethical Risks',
+            'Provider',
             'Script',
             'Host',
             'Access',
