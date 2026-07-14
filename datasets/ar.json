@@ -1,0 +1,56 @@
+{
+    "Name": "ar",
+    "Volume": 1015.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/Kaitelfqih/Gold-standard-Terminology-Translation-Evaluation-Data-Set",
+    "HF_Link": "",
+    "Year": 2023,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "Arabic legal MT eval dataset.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "University of Naples L\u2019Orientale"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "On the Evaluation of Terminology Translation Errors in NMT and PB-SMT",
+    "Paper_Link": "https://aclanthology.org/2023.contents-1.4.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue_Title": "BUCC",
+    "Venue_Type": "workshop",
+    "Venue_Name": "BUCC",
+    "Authors": [
+        "Khadija Ait ElFqih",
+        "Johanna Monti"
+    ],
+    "Affiliations": [
+        "UNIOR NLP Research Group, University of Naples \u2018L\u2019Orientale\u2019"
+    ],
+    "Abstract": "In the translation process, terminological resources are used to solve translation problems, so information on terminological equivalence is crucial to make the most appropriate choices in terms of translation. In the context of Machine translation, indeed, neural models have improved the state-of-the-art in Machine Translation considerably in recent years. However, they still underperform in domain-specific fields and in under-resourced languages. This is particularly evident in translating legal terminology for Arabic, where current Machine Translation outputs do not adhere to the contextual, linguistic, cultural, and terminological constraints posed by translating legal terms in Arabic. In this paper, we conduct a comparative qualitative evaluation and comprehensive error analysis on legal terminology translation in Phrase-Based Statistical Machine Translation and Neural Machine Translation in two language pairs: Arabic-English, Arabic-French. We propose an error typology taking the legal terminology translation from Arabic into account. We demonstrate our findings highlighting the strengths and weaknesses of both approaches in the area of legal terminology translation for Arabic. We also introduce a multilingual gold standard dataset that we developed using our Arabic legal corpus. This dataset serves as a reliable benchmark and/or reference during the evaluation process to decide the degree of adequacy and fluency of the Phrase-Based Statistical Machine Translation and Neural Machine Translation systems.",
+    "Subsets": [
+        {
+            "Name": "Arabic",
+            "Volume": 1015.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "multilingual",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
