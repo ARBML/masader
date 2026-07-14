@@ -22,7 +22,7 @@
     "Volume": 80.0,
     "Unit": "documents",
     "Provider": [
-        "Baidu Inc."
+        "Baidu"
     ],
     "Derived From": [
         "HumanEval"

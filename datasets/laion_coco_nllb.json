@@ -21,9 +21,7 @@
     "Description": "106k image-caption pairs from LAION-COCO with captions translated into 201 languages using NLLB.",
     "Volume": 106246.0,
     "Unit": "images",
-    "Provider": [
-        "Alexander Visheratin"
-    ],
+    "Provider": [],
     "Derived From": [
         "LAION COCO"
     ],

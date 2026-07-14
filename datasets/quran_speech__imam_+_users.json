@@ -20,9 +20,7 @@
     "Description": "7 full Quran recitations + 18K filtered user recitation",
     "Volume": 61000.0,
     "Unit": "sentences",
-    "Provider": [
-        "quran.ksu.edu.sa + tarteel.io"
-    ],
+    "Provider": [],
     "Derived From": [],
     "Paper Title": "",
     "Paper Link": "",

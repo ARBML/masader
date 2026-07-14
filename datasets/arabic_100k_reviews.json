@@ -20,11 +20,10 @@
     "Description": "This dataset is mainly a compilation of several available datasets and a sampling of 100k rows (99999 to be exact).",
     "Volume": 99999.0,
     "Unit": "documents",
-    "Provider": [
-        "Abed Khooli"
-    ],
+    "Provider": [],
     "Derived From": [
-        "The hotels and book reviews are a subset of [HARD](HARD: https://github.com/elnagara/HARD-Arabic-Dataset ) and BRAD. The rest were selected from hadyelsahar with a little over 100 airlines reviews collected manually."
+        "HARD",
+        "BRAD"
     ],
     "Paper Title": "",
     "Paper Link": "",

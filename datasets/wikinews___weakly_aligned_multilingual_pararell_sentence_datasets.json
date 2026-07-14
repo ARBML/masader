@@ -22,7 +22,7 @@
     "Volume": 73.0,
     "Unit": "documents",
     "Provider": [
-        "Primer Technologies Inc."
+        "Primer"
     ],
     "Derived From": [],
     "Paper Title": "Linear Cross-Lingual Mapping of Sentence Embeddings",

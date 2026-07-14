@@ -101,7 +101,7 @@
     "Volume": 1300.0,
     "Unit": "sentences",
     "Provider": [
-        "UCSanDiego",
+        "UC San Diego",
         "EleutherAI"
     ],
     "Derived From": [

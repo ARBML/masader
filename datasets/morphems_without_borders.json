@@ -21,10 +21,7 @@
     "Volume": 130.0,
     "Unit": "documents",
     "Provider": [
-        "Yara Alakeel",
-        "Chatrine Qwaider",
-        "Hanan Aldarmaki",
-        "Sawsan Alqahtani"
+        "SDAIA"
     ],
     "Derived From": [
         "Arabic Billion Words corpus"

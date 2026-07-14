@@ -20,9 +20,7 @@
     "Description": "more than 10,000  words",
     "Volume": 10000.0,
     "Unit": "tokens",
-    "Provider": [
-        "Unknown"
-    ],
+    "Provider": [],
     "Derived From": [],
     "Paper Title": "Moroccan Dialect -Darija- Open Dataset",
     "Paper Link": "https://arxiv.org/pdf/2103.09687",

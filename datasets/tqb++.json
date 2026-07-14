@@ -25,7 +25,7 @@
     "Volume": 50.0,
     "Unit": "sentences",
     "Provider": [
-        "Comet ML, Inc."
+        "Comet ML"
     ],
     "Derived From": [],
     "Paper Title": "Tiny QA Benchmark++: Ultra-Lightweight, Synthetic Multilingual Dataset Generation & Smoke-Tests for Continuous LLM Evaluation",
