@@ -21,7 +21,7 @@
     "Volume": 1000.0,
     "Unit": "hours",
     "Provider": [
-        "Appswave"
+        "AppsWave"
     ],
     "Derived From": [],
     "Paper Title": "MASC: Massive Arabic Speech Corpus",

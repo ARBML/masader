@@ -21,10 +21,10 @@
     "Volume": 6.0,
     "Unit": "hours",
     "Provider": [
-        "LIA, Avignon University",
+        "Avignon University",
         "Elyadata",
         "LTCI, Télécom Paris",
-        "Mila-Quebec AI Institute"
+        "Mila"
     ],
     "Derived From": [
         "TARIC"

@@ -22,7 +22,7 @@
     "Volume": 5000.0,
     "Unit": "sentences",
     "Provider": [
-        "Misraj AI"
+        "Misraj"
     ],
     "Derived From": [],
     "Paper Title": "Mutarjim: Advancing Bidirectional Arabic-English Translation with a Small Language Model",

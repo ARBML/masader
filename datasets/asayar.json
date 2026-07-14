@@ -21,7 +21,7 @@
     "Volume": 1800.0,
     "Unit": "images",
     "Provider": [
-        "Sidi Mohamed Ben Abdellah University - Fez Morocco"
+        "Sidi Mohamed Ben Abdellah University"
     ],
     "Derived From": [],
     "Paper Title": "ASAYAR: A Dataset for Arabic-Latin Scene Text Localization in Highway Traffic Panels",

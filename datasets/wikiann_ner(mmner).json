@@ -21,7 +21,7 @@
     "Volume": 30000.0,
     "Unit": "tokens",
     "Provider": [
-        "The university of Melbourne"
+        "University of Melbourne"
     ],
     "Derived From": [],
     "Paper Title": "Massively Multilingual Transfer for NER",

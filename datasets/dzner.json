@@ -22,7 +22,7 @@
     "Volume": 220000.0,
     "Unit": "tokens",
     "Provider": [
-        " Ahmed Draia ADRAR University"
+        "Ahmed Draia University"
     ],
     "Derived From": [],
     "Paper Title": "DzNER: A Large Algerian Named Entity Recognition Dataset",

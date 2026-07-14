@@ -34,7 +34,7 @@
     "Volume": 12824.0,
     "Unit": "sentences",
     "Provider": [
-        "Masakhane NLP"
+        "Masakhane"
     ],
     "Derived From": [],
     "Paper Title": "AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages",

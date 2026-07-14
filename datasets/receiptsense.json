@@ -22,7 +22,7 @@
     "Volume": 20000.0,
     "Unit": "images",
     "Provider": [
-        "DISCO"
+        "DISCO AI"
     ],
     "Derived From": [],
     "Paper Title": "ReceiptSense: Beyond Traditional OCR - A Dataset for Receipt Understanding",
