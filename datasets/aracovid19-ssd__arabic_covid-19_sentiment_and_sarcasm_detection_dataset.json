@@ -23,7 +23,7 @@
     "Volume": 5162.0,
     "Unit": "sentences",
     "Provider": [
-        "Research Centre on Scientific and Technical Information (CERIST)"
+        "CERIST"
     ],
     "Derived From": [],
     "Paper Title": "ARACOVID19-SSD: ARABIC COVID-19 SENTIMENT AND SARCASM DETECTION DATASET",

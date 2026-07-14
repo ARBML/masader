@@ -22,7 +22,7 @@
     "Volume": 8388.0,
     "Unit": "documents",
     "Provider": [
-        "KFUPM-JRCAI"
+        "KFUPM"
     ],
     "Derived From": [],
     "Paper Title": "The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large Language Models Text",

@@ -21,7 +21,7 @@
     "Volume": 3888.0,
     "Unit": "sentences",
     "Provider": [
-        "Multiple Institutions"
+        "Allen AI"
     ],
     "Derived From": [
         "Winogender",

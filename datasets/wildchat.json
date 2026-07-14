@@ -21,7 +21,7 @@
     "Volume": 11919.0,
     "Unit": "sentences",
     "Provider": [
-        "Allen Institute for Artificial Intelligence"
+        "Allen AI"
     ],
     "Derived From": [],
     "Paper Title": "WILDCHAT: 1M ChatGPT Interaction Logs in the Wild",

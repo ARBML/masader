@@ -34,7 +34,7 @@
     "Volume": 3.0,
     "Unit": "hours",
     "Provider": [
-        "ArabicSpeech"
+        "Humain"
     ],
     "Derived From": [
         "NatiQ",

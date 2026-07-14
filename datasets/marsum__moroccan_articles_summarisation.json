@@ -21,7 +21,7 @@
     "Volume": 20000.0,
     "Unit": "sentences",
     "Provider": [
-        "INSEA-Morocco (Institut Nationale de Statistiques et d'Economie Appliquée)"
+        "INSEA-Morocco"
     ],
     "Derived From": [],
     "Paper Title": "Automatic Text Summarization for Moroccan Arabic Dialect Using an Artificial Intelligence Approach",

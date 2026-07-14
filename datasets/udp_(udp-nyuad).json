@@ -21,8 +21,8 @@
     "Volume": 738889.0,
     "Unit": "tokens",
     "Provider": [
-        "Multiple Institutions",
-        "NYU Abu Dhabi"
+        "CAMeL Lab",
+        "Charles University"
     ],
     "Derived From": [
         "The NYUAD Arabic UD treebank is based on the Penn Arabic Treebank (PATB)",
