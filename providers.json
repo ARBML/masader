@@ -1,0 +1,982 @@
+{
+    "AUB": {
+        "aliases": [
+            "American University of Beirut",
+            "American University of Beirut a subcontractor"
+        ]
+    },
+    "Ahmed Draia University": {
+        "aliases": [" Ahmed Draia ADRAR University"]
+    },
+    "Alexandria University": {
+        "aliases": ["Alexu"]
+    },
+    "Birzeit University": {
+        "aliases": ["birzeit university"]
+    },
+    "Ben-Gurion University": {
+        "aliases": ["Ben-Gurion University of the Negev"]
+    },
+    "ByteDance": {
+        "aliases": ["Bytedance"]
+    },
+    "CAMeL Lab": {
+        "aliases": ["CAMEL Lab", "CAMeL-Lab", "CaMeL-Lab"]
+    },
+    "Carnegie Mellon University in Qatar": {
+        "aliases": ["Carnegie Mellon University Qatar"]
+    },
+    "Charles University": {
+        "aliases": ["Charles University in Prague"]
+    },
+    "CMU": {
+        "aliases": ["Carnegie Mellon University"]
+    },
+    "Cohere Labs": {
+        "aliases": ["CohereLabs", "Cohere For AI", "CohereForAI"]
+    },
+    "Elyadata": {
+        "aliases": ["ELYADATA"]
+    },
+    "AppsWave": {
+        "aliases": ["AppsWave for Information Technology", "Appswave"]
+    },
+    "ASAS AI": {
+        "aliases": ["ASASAI Lab"]
+    },
+    "FBK": {
+        "aliases": [
+            "FBK – Fondazione Bruno Kessler",
+            "Fondazione Bruno Kessler",
+            "Fondazione Bruno Kessler (FBK)"
+        ]
+    },
+    "HBKU": {
+        "aliases": ["Hamad Bin Khalifa University"]
+    },
+    "Inria": {
+        "aliases": ["INRIA"]
+    },
+    "Imam Mohammad Ibn Saud Islamic University": {
+        "aliases": [
+            "Al-Imam Mohammad Ibn Saud Islamic University",
+            "Imam Mohammad Bin Saud University"
+        ]
+    },
+    "Institute of Public Administration": {
+        "aliases": ["Institution of Public Administration"]
+    },
+    "IWAN": {
+        "aliases": ["iwan-org"]
+    },
+    "JHU": {
+        "aliases": ["Johns Hopkins University"]
+    },
+    "JUST": {
+        "aliases": [
+            "Jordan University of Science and Technology",
+            "Jordan University of Science and Technology (JUST)"
+        ]
+    },
+    "KACST": {
+        "aliases": ["King Abdulaziz City for Science and Technology"]
+    },
+    "KAUST": {
+        "aliases": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ]
+    },
+    "KFUPM": {
+        "aliases": [
+            "King Fahd University of Petroleum & Minerals",
+            "King Fahd University of Petroleum and Minerals",
+            "kfupm"
+        ]
+    },
+    "King Abdulaziz University": {
+        "aliases": ["King AbdulAziz University"]
+    },
+    "KSAA": {
+        "aliases": [
+            "King Salman Global Academy for Arabic Language",
+            "King Salman Global Academy for Arabic Language (KSAA)"
+        ]
+    },
+    "KSU": {
+        "aliases": ["King Saud University", "King Saud University Riyadh"]
+    },
+    "MARSAD Lab": {
+        "aliases": ["Marsad Lab"]
+    },
+    "Masakhane": {
+        "aliases": ["Masakhane NLP"]
+    },
+    "MBZUAI": {
+        "aliases": [
+            "Mohamed Bin Zayed University of AI",
+            "Mohamed Bin Zayed University of Artificial Intelligence"
+        ]
+    },
+    "MBZUAI-ORYX": {
+        "aliases": []
+    },
+    "Meta AI": {
+        "aliases": ["MetaAI"]
+    },
+    "Mila": {
+        "aliases": ["Mila-Quebec AI Institute"]
+    },
+    "Misraj": {
+        "aliases": ["Misraj AI"]
+    },
+    "Mosul University": {
+        "aliases": [" Mosul University"]
+    },
+    "Mozilla": {
+        "aliases": ["mozilla"]
+    },
+    "NYU Abu Dhabi": {
+        "aliases": [
+            "New York University Abu Dhabi",
+            "NYU Abu Dhabi University",
+            "NYUAD"
+        ]
+    },
+    "NYU": {
+        "aliases": ["New York University"]
+    },
+    "OpenAI": {
+        "aliases": ["openai"]
+    },
+    "Palestine Technical University-Kadoorie": {
+        "aliases": ["Palestine Technical University–Kadoorie"]
+    },
+    "Prince Sattam bin Abdulaziz University": {
+        "aliases": ["Prince Sattam Bin Abdulaziz University"]
+    },
+    "PSUT": {
+        "aliases": [
+            "Princess Sumaya University for Technology",
+            "Princess Sumayah School for Technology"
+        ]
+    },
+    "QCRI": {
+        "aliases": ["Qatar Computing Research Institute"]
+    },
+    "RIOTU Lab": {
+        "aliases": [" RIOTU Lab", "riotu-lab"]
+    },
+    "Sidi Mohamed Ben Abdellah University": {
+        "aliases": ["Sidi Mohamed Ben Abdellah University - Fez Morocco"]
+    },
+    "Sultan Moulay Slimane University": {
+        "aliases": [
+            "Universite Sultan Moulay Slimane de Beni-Mellal",
+            "University Sultan Moulay Slimane"
+        ]
+    },
+    "TII": {
+        "aliases": ["Technology Innovation Institute"]
+    },
+    "UBC": {
+        "aliases": [
+            "The University of British Columbia",
+            "University of British Columbia"
+        ]
+    },
+    "UM6P": {
+        "aliases": [
+            "Mohammed VI Polytechnic University",
+            "UM6P College of Computing"
+        ]
+    },
+    "UN": {
+        "aliases": ["United Nations"]
+    },
+    "Université Amar Telidji Laghouat": {
+        "aliases": [
+            "University of Amar Telidji Laghouat",
+            "Université Amar Telidji"
+        ]
+    },
+    "DISCO AI": {
+        "aliases": ["DISCO", "DISCOAI"]
+    },
+    "Avignon University": {
+        "aliases": ["Laboratoire Informatique d'Avignon"]
+    },
+    "Université 8 Mai 1945 Guelma": {
+        "aliases": ["Université 8 Mai 1945, Guelma"]
+    },
+    "Université de Ghardaia": {
+        "aliases": ["Universitè de Ghardaia"]
+    },
+    "University of Jordan": {
+        "aliases": ["Jordan University", "The University of Jordan"]
+    },
+    "University of Groningen": {
+        "aliases": ["University of Gronigen"]
+    },
+    "University of Hamburg": {
+        "aliases": ["Universität Hamburg"]
+    },
+    "University of Leeds": {
+        "aliases": ["Leeds University"]
+    },
+    "University of Manchester": {
+        "aliases": ["The University of Manchester"]
+    },
+    "University of Melbourne": {
+        "aliases": ["The university of Melbourne"]
+    },
+    "University of Sharjah": {
+        "aliases": ["Sharjah University"]
+    },
+    "University of Southampton": {
+        "aliases": ["SOUTHAMPTON University"]
+    },
+    "University of Tokyo": {
+        "aliases": ["Tokyo University"]
+    },
+    "Umm Al-Qura University": {
+        "aliases": ["Umm Al-Qura University - Saudi Arabia"]
+    },
+    "USTHB": {
+        "aliases": ["USTHB Algeria", "USTHB University"]
+    },
+    "Ziane Achour University of Djelfa": {
+        "aliases": ["Ziane Achour University"]
+    },
+    "LightOn AI": {
+        "aliases": ["lightonai"]
+    },
+    "UC San Diego": {
+        "aliases": ["UCSanDiego"]
+    },
+    "Universiti Kebangsaan Malaysia": {
+        "aliases": ["Universiti Kebangsaan"]
+    },
+    "Badji Mokhtar University": {
+        "aliases": ["University Badji Mokhtar"]
+    },
+    "University of Monastir": {
+        "aliases": ["Monastir University - Tunisia"]
+    },
+    "LORIA": {
+        "aliases": ["LORIA France"]
+    },
+    "Baidu": {
+        "aliases": ["Baidu Inc."]
+    },
+    "Comet ML": {
+        "aliases": ["Comet ML, Inc."]
+    },
+    "Primer": {
+        "aliases": ["Primer Technologies Inc."]
+    },
+    "Huawei": {
+        "aliases": ["Huawei Technologies Co., Ltd"]
+    },
+    "University of Ha'il": {
+        "aliases": ["University of Ha’il"]
+    },
+    "VinUniversity": {
+        "aliases": ["Vin University"]
+    },
+    "Chouaib Doukkali University": {
+        "aliases": ["Universite Chouaib Doukkali Faculte des Sciences"]
+    },
+    "ORSAM Center for Middle Eastern Studies": {
+        "aliases": ["The ORSAM Center for Middle Eastern Studies"]
+    },
+    "Laboratoire d’informatique et Mathématiques, Amar Telidji University of Laghouat": {
+        "aliases": ["Laboratoire d’informatique et Mathématiques\r\nUniversité"]
+    },
+    "2A2I": {
+        "aliases": []
+    },
+    "4factors": {
+        "aliases": []
+    },
+    "Abdelhamid Mehri Constantine 02 University": {
+        "aliases": []
+    },
+    "Abdelmalek Essaâdi University": {
+        "aliases": []
+    },
+    "Abjad Ltd.": {
+        "aliases": []
+    },
+    "Adobe Research": {
+        "aliases": []
+    },
+    "Ain Shams University": {
+        "aliases": []
+    },
+    "Al Ain University": {
+        "aliases": []
+    },
+    "Alconost": {
+        "aliases": []
+    },
+    "Alexandra Institute": {
+        "aliases": []
+    },
+    "Alibaba": {
+        "aliases": []
+    },
+    "Allen AI": {
+        "aliases": []
+    },
+    "Amazon": {
+        "aliases": []
+    },
+    "Amazon AGI": {
+        "aliases": []
+    },
+    "Amazon Research": {
+        "aliases": []
+    },
+    "American University of Sharjah": {
+        "aliases": []
+    },
+    "Appen Pty Ltd": {
+        "aliases": []
+    },
+    "Apple": {
+        "aliases": []
+    },
+    "Arab American University": {
+        "aliases": []
+    },
+    "Arab Center for Research and Policy Studies": {
+        "aliases": []
+    },
+    "Arab International University": {
+        "aliases": []
+    },
+    "ARBML": {
+        "aliases": []
+    },
+    "Argonne National Laboratory": {
+        "aliases": []
+    },
+    "Bauhaus-Universität Weimar": {
+        "aliases": []
+    },
+    "BBN Technologies": {
+        "aliases": []
+    },
+    "Benha University": {
+        "aliases": []
+    },
+    "bigIR": {
+        "aliases": []
+    },
+    "BigScience": {
+        "aliases": []
+    },
+    "Bloomberg L.P.": {
+        "aliases": []
+    },
+    "Boston University": {
+        "aliases": []
+    },
+    "Bouira University": {
+        "aliases": []
+    },
+    "Brunel University London": {
+        "aliases": []
+    },
+    "Cadi Ayyad University": {
+        "aliases": []
+    },
+    "Cairo University": {
+        "aliases": []
+    },
+    "CALM": {
+        "aliases": []
+    },
+    "Camel AI": {
+        "aliases": []
+    },
+    "Cardiff University": {
+        "aliases": []
+    },
+    "CERIST": {
+        "aliases": []
+    },
+    "CIS, LMU Munich": {
+        "aliases": []
+    },
+    "Claremont Graduate University": {
+        "aliases": []
+    },
+    "Clarkson University": {
+        "aliases": []
+    },
+    "Clusterlab": {
+        "aliases": []
+    },
+    "CogniSAL": {
+        "aliases": []
+    },
+    "Columbia University": {
+        "aliases": []
+    },
+    "DeepMind": {
+        "aliases": []
+    },
+    "DFKI": {
+        "aliases": []
+    },
+    "Durham University": {
+        "aliases": []
+    },
+    "Edinburgh Napier University": {
+        "aliases": []
+    },
+    "ELDA": {
+        "aliases": []
+    },
+    "EleutherAI": {
+        "aliases": []
+    },
+    "ELRA": {
+        "aliases": []
+    },
+    "EMP Algeria": {
+        "aliases": []
+    },
+    "EPFL": {
+        "aliases": []
+    },
+    "ESI": {
+        "aliases": []
+    },
+    "European Commission": {
+        "aliases": []
+    },
+    "Exa Company": {
+        "aliases": []
+    },
+    "Facebook": {
+        "aliases": []
+    },
+    "Facebook AI": {
+        "aliases": []
+    },
+    "Fraunhofer IAIS": {
+        "aliases": []
+    },
+    "FreedomIntelligence": {
+        "aliases": []
+    },
+    "French Ministry of Industry": {
+        "aliases": []
+    },
+    "Fujitsu Research of Europe": {
+        "aliases": []
+    },
+    "George Mason University": {
+        "aliases": []
+    },
+    "George Washington University": {
+        "aliases": []
+    },
+    "Georgia Institute of Technology": {
+        "aliases": []
+    },
+    "Ghent University": {
+        "aliases": []
+    },
+    "Goethe University Frankfurt": {
+        "aliases": []
+    },
+    "Google": {
+        "aliases": []
+    },
+    "Google Research": {
+        "aliases": []
+    },
+    "Helwan University": {
+        "aliases": []
+    },
+    "HKUST": {
+        "aliases": []
+    },
+    "HPLT": {
+        "aliases": []
+    },
+    "Humain": {
+        "aliases": []
+    },
+    "Ibn Tofail University": {
+        "aliases": []
+    },
+    "iCompass": {
+        "aliases": []
+    },
+    "Imperial College London": {
+        "aliases": []
+    },
+    "Independent": {
+        "aliases": []
+    },
+    "Indian Institute of Technology Kharagpur": {
+        "aliases": []
+    },
+    "INSEA-Morocco": {
+        "aliases": []
+    },
+    "Instituto de Telecomunicações": {
+        "aliases": []
+    },
+    "Islamic University of Gaza": {
+        "aliases": []
+    },
+    "Islamic University of Madinah": {
+        "aliases": []
+    },
+    "ITMO University": {
+        "aliases": []
+    },
+    "Jazan University": {
+        "aliases": []
+    },
+    "JHU-CLSP": {
+        "aliases": []
+    },
+    "Jouf University": {
+        "aliases": []
+    },
+    "KartosAI": {
+        "aliases": []
+    },
+    "King Khalid University": {
+        "aliases": []
+    },
+    "LAION-AI": {
+        "aliases": []
+    },
+    "Lancaster University": {
+        "aliases": []
+    },
+    "Language Technology at the University of Helsinki": {
+        "aliases": []
+    },
+    "Latice Laboratory": {
+        "aliases": []
+    },
+    "Latynt": {
+        "aliases": []
+    },
+    "LCSI": {
+        "aliases": []
+    },
+    "LDC": {
+        "aliases": []
+    },
+    "Lebanese International University": {
+        "aliases": []
+    },
+    "Lebanese University": {
+        "aliases": []
+    },
+    "LINAGORA": {
+        "aliases": []
+    },
+    "LIPN": {
+        "aliases": []
+    },
+    "LISIC Laboratory": {
+        "aliases": []
+    },
+    "LMU Munich": {
+        "aliases": []
+    },
+    "Loris Fr": {
+        "aliases": []
+    },
+    "LSIA Laboratory": {
+        "aliases": []
+    },
+    "Manouba University": {
+        "aliases": []
+    },
+    "Mawdoo3": {
+        "aliases": []
+    },
+    "Max Planck Institute for Intelligent Systems": {
+        "aliases": []
+    },
+    "Microsoft": {
+        "aliases": []
+    },
+    "Microsoft Research Asia": {
+        "aliases": []
+    },
+    "Minia University": {
+        "aliases": []
+    },
+    "Mohammed First University": {
+        "aliases": []
+    },
+    "Mohammed V University in Rabat": {
+        "aliases": []
+    },
+    "Monash University": {
+        "aliases": []
+    },
+    "Monkt": {
+        "aliases": []
+    },
+    "MSDA-UM6P": {
+        "aliases": []
+    },
+    "Multiple Institutions": {
+        "aliases": []
+    },
+    "Najran University": {
+        "aliases": []
+    },
+    "NAMAA": {
+        "aliases": []
+    },
+    "Nanjing University": {
+        "aliases": []
+    },
+    "National Engineering School of Tunis": {
+        "aliases": []
+    },
+    "National Research Council Canada (NRC)": {
+        "aliases": []
+    },
+    "Naver Labs": {
+        "aliases": []
+    },
+    "Nazarbayev University": {
+        "aliases": []
+    },
+    "Newcastle University": {
+        "aliases": []
+    },
+    "Nile University": {
+        "aliases": []
+    },
+    "NIST": {
+        "aliases": []
+    },
+    "Northwest University": {
+        "aliases": []
+    },
+    "Northwestern University in Qatar": {
+        "aliases": []
+    },
+    "NVIDIA": {
+        "aliases": []
+    },
+    "OPUS": {
+        "aliases": []
+    },
+    "OrienTel": {
+        "aliases": []
+    },
+    "Pace University": {
+        "aliases": []
+    },
+    "Perle AI": {
+        "aliases": []
+    },
+    "Prince Mohammad Bin Fahd University": {
+        "aliases": []
+    },
+    "Prince Sultan University": {
+        "aliases": []
+    },
+    "Princess Nourah bint Abdulrahman University": {
+        "aliases": []
+    },
+    "Public University of Navarre": {
+        "aliases": []
+    },
+    "Purdue University": {
+        "aliases": []
+    },
+    "Pázmány Péter Catholic University": {
+        "aliases": []
+    },
+    "Qassim University": {
+        "aliases": []
+    },
+    "Qatar University": {
+        "aliases": []
+    },
+    "Queen Mary University of London": {
+        "aliases": []
+    },
+    "racine.ai": {
+        "aliases": []
+    },
+    "Reichman University": {
+        "aliases": []
+    },
+    "Rewire": {
+        "aliases": []
+    },
+    "Saarland University": {
+        "aliases": []
+    },
+    "Sapienza University of Rome": {
+        "aliases": []
+    },
+    "SaruLab": {
+        "aliases": []
+    },
+    "Saudi Electronic University": {
+        "aliases": []
+    },
+    "SDAIA": {
+        "aliases": []
+    },
+    "ServiceNow": {
+        "aliases": []
+    },
+    "Shanghai Artificial Intelligence Laboratory": {
+        "aliases": []
+    },
+    "Shanghai Jiao Tong University": {
+        "aliases": []
+    },
+    "Shorouk Association for the Deaf and Hard of Hearing": {
+        "aliases": []
+    },
+    "SinaLab": {
+        "aliases": []
+    },
+    "Skoltech": {
+        "aliases": []
+    },
+    "Sorbonne Université": {
+        "aliases": []
+    },
+    "South China Normal University": {
+        "aliases": []
+    },
+    "SpeechBrain": {
+        "aliases": []
+    },
+    "Stanford University": {
+        "aliases": []
+    },
+    "Stony Brook University": {
+        "aliases": []
+    },
+    "Suez Canal University": {
+        "aliases": []
+    },
+    "Sultan Qaboos University": {
+        "aliases": []
+    },
+    "Tahakom": {
+        "aliases": []
+    },
+    "Taif University": {
+        "aliases": []
+    },
+    "Tarteel AI": {
+        "aliases": []
+    },
+    "Technical University of Munich": {
+        "aliases": []
+    },
+    "The German University in Cairo": {
+        "aliases": []
+    },
+    "THIQAH": {
+        "aliases": []
+    },
+    "TolokaAI": {
+        "aliases": []
+    },
+    "TU Darmstadt": {
+        "aliases": []
+    },
+    "Tunis Business School": {
+        "aliases": []
+    },
+    "Twitter": {
+        "aliases": []
+    },
+    "UBC-NLP": {
+        "aliases": []
+    },
+    "Unbabel": {
+        "aliases": []
+    },
+    "Univ. Grenoble Alpes": {
+        "aliases": []
+    },
+    "Universal Dependencies(UD)": {
+        "aliases": []
+    },
+    "University Centre -SALHI Ahmed": {
+        "aliases": []
+    },
+    "University of Alberta": {
+        "aliases": []
+    },
+    "University of Antwerp": {
+        "aliases": []
+    },
+    "University of Bergen": {
+        "aliases": []
+    },
+    "University of Birmingham": {
+        "aliases": []
+    },
+    "University of Biskra": {
+        "aliases": []
+    },
+    "University of Bridgeport": {
+        "aliases": []
+    },
+    "University of Bucharest": {
+        "aliases": []
+    },
+    "University of Cambridge": {
+        "aliases": []
+    },
+    "University of Canterbury": {
+        "aliases": []
+    },
+    "University of Central Florida": {
+        "aliases": []
+    },
+    "University of Constantine 3": {
+        "aliases": []
+    },
+    "University of Düsseldorf": {
+        "aliases": []
+    },
+    "University of Edinburgh": {
+        "aliases": []
+    },
+    "University of Essex": {
+        "aliases": []
+    },
+    "University of Geneva": {
+        "aliases": []
+    },
+    "University of Gothenburg": {
+        "aliases": []
+    },
+    "University of Haifa": {
+        "aliases": []
+    },
+    "University of Helsinki": {
+        "aliases": []
+    },
+    "University of Illinois Urbana-Champaign": {
+        "aliases": []
+    },
+    "University of Jeddah": {
+        "aliases": []
+    },
+    "University of Khartoum": {
+        "aliases": []
+    },
+    "University of Limerick": {
+        "aliases": []
+    },
+    "University of Luxembourg": {
+        "aliases": []
+    },
+    "University of Mannheim": {
+        "aliases": []
+    },
+    "University of North Texas": {
+        "aliases": []
+    },
+    "University of Oregon": {
+        "aliases": []
+    },
+    "University of Oslo": {
+        "aliases": []
+    },
+    "University of Pennsylvania": {
+        "aliases": []
+    },
+    "University of Salford": {
+        "aliases": []
+    },
+    "University of Sfax": {
+        "aliases": []
+    },
+    "University of Sheffield": {
+        "aliases": []
+    },
+    "University of Siena": {
+        "aliases": []
+    },
+    "University of Southern California": {
+        "aliases": []
+    },
+    "University of Stirling": {
+        "aliases": []
+    },
+    "University of Stuttgart": {
+        "aliases": []
+    },
+    "University of Technology Sydney": {
+        "aliases": []
+    },
+    "University of Toledo": {
+        "aliases": []
+    },
+    "University of Toronto": {
+        "aliases": []
+    },
+    "University of Tunis": {
+        "aliases": []
+    },
+    "University of Udine": {
+        "aliases": []
+    },
+    "University of Utah": {
+        "aliases": []
+    },
+    "University of Victoria": {
+        "aliases": []
+    },
+    "University of Waikato": {
+        "aliases": []
+    },
+    "University of Waterloo": {
+        "aliases": []
+    },
+    "University of Würzburg": {
+        "aliases": []
+    },
+    "University of York": {
+        "aliases": []
+    },
+    "Université Paris Sciences & Lettres": {
+        "aliases": []
+    },
+    "Webz.io API": {
+        "aliases": []
+    },
+    "Westlake University": {
+        "aliases": []
+    },
+    "Wikimedia": {
+        "aliases": []
+    },
+    "Yalova Universitesi": {
+        "aliases": []
+    },
+    "Zayed University": {
+        "aliases": []
+    }
+}
