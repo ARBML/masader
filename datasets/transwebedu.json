@@ -21,9 +21,7 @@
     "Volume": 311.35,
     "Unit": "tokens",
     "Provider": [
-        "University College London",
-        "Together AI",
-        "Mila, McGill University"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "FineWeb-Edu"

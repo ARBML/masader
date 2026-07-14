@@ -21,14 +21,7 @@
     "Volume": 7.6,
     "Unit": "hours",
     "Provider": [
-        "Coqui",
-        "Factored",
-        "Google",
-        "Harvard University",
-        "Intel",
-        "Landing AI",
-        "NVIDIA",
-        "University of Michigan"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "Common Voice dataset"

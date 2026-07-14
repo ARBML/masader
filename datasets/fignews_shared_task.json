@@ -22,13 +22,7 @@
     "Volume": 25960.0,
     "Unit": "sentences",
     "Provider": [
-        "Northwestern University in Qatar",
-        "Birzeit University",
-        "NYU Abu Dhabi",
-        "Carnegie Mellon University in Qatar",
-        "Google",
-        "CMU",
-        "Newgiza University"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "The FIGNEWS Shared Task on News Media Narratives",

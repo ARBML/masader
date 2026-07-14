@@ -22,10 +22,7 @@
     "Volume": 212500.0,
     "Unit": "tokens",
     "Provider": [
-        "Center for Computational Linguistics",
-        "Institute of Formal and Applied Linguistics",
-        "Institute of Comparative Linguistics",
-        "Charles University"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "Arabic Gigaword",

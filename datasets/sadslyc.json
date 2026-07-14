@@ -21,9 +21,7 @@
     "Volume": 31358.0,
     "Unit": "sentences",
     "Provider": [
-        "University of Leeds",
-        "Birmingham City University",
-        "University of Hafr AlBatin"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "SADSLyC: A Corpus for Saudi Arabian Multi-dialect Identification through Song Lyrics",

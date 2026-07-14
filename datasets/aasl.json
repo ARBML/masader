@@ -21,9 +21,7 @@
     "Volume": 7857.0,
     "Unit": "images",
     "Provider": [
-        "University of Sharjah",
-        "University of Jordan",
-        "AppsWave"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "RGB Arabic Alphabets Sign Language Dataset",

@@ -72,10 +72,7 @@
     "Volume": 11440.0,
     "Unit": "sentences",
     "Provider": [
-        "University College London",
-        "Masakhane",
-        "University of Toronto",
-        "Amazon Alexa AI"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "Flores-200"

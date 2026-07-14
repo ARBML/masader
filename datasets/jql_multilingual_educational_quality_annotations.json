@@ -22,11 +22,7 @@
     "Volume": 511.0,
     "Unit": "documents",
     "Provider": [
-        "Lamarr Institute",
-        "Fraunhofer IAIS",
-        "DFKI",
-        "Hessian AI",
-        "TU Darmstadt"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "Fineweb-Edu"

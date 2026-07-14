@@ -35,10 +35,7 @@
     "Volume": 3600.0,
     "Unit": "sentences",
     "Provider": [
-        "OCPSolutions",
-        "UM6P",
-        "National Institute of Posts and Telecoms",
-        "Lancaster University"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "Banking77",

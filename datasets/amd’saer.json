@@ -23,9 +23,7 @@
     "Volume": 4.8,
     "Unit": "hours",
     "Provider": [
-        "Amar Telidji University of Laghouat",
-        "Université de Ghardaia",
-        "Ziane Achour University of Djelfa"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "AMSA"

@@ -22,10 +22,7 @@
     "Volume": 158.6,
     "Unit": "hours",
     "Provider": [
-        "LDC",
-        "NIST",
-        "LIMSI-CNRS",
-        "Dublin City University"
+        "LDC"
     ],
     "Derived From": [],
     "Paper Title": "",

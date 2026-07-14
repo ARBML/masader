@@ -21,9 +21,7 @@
     "Volume": 776.0,
     "Unit": "sentences",
     "Provider": [
-        "University of Würzburg",
-        "University of Cambridge",
-        "Mila"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "Fleurs",

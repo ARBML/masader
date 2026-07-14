@@ -21,9 +21,7 @@
     "Volume": 100.0,
     "Unit": "tokens",
     "Provider": [
-        "Fayoum University",
-        "Nahdat Misr AI",
-        "American University in Cairo"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "ASMDD: Arabic Speech Mispronunciation Detection Dataset",

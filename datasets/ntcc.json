@@ -22,9 +22,7 @@
     "Volume": 470.0,
     "Unit": "sentences",
     "Provider": [
-        "Palestine Technical University-Kadoorie",
-        "University Rovira i Virgili",
-        "Al-Zaytona University of Science and Technology"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "Arabic Topic Classification Corpus of the Nakba Short Stories",

@@ -24,9 +24,7 @@
     "Volume": 615.0,
     "Unit": "sentences",
     "Provider": [
-        "King Abdulaziz University",
-        "University of Jeddah",
-        "University of the West of England"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "AraTable: Benchmarking LLMs’ Reasoning and Understanding of Arabic Tabular Data",

@@ -24,9 +24,7 @@
     "Volume": 5031.0,
     "Unit": "images",
     "Provider": [
-        "KU Leuven",
-        "Lebanese American University",
-        "intervu.ai"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "HICMA: The Handwriting Identification for Calligraphy and Manuscripts in Arabic Dataset",

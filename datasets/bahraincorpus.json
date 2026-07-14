@@ -25,9 +25,7 @@
     "Volume": 620301.0,
     "Unit": "tokens",
     "Provider": [
-        "University of Bahrain",
-        "NYU Abu Dhabi",
-        "Stony Brook University"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "Gumar Corpus"

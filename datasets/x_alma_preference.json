@@ -21,9 +21,7 @@
     "Volume": 7720.0,
     "Unit": "sentences",
     "Provider": [
-        "Microsoft",
-        "JHU",
-        "Amazon"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "X-ALMA: Plug & Play Modules and Adaptive Rejection for Quality Translation at Scale",

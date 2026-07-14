@@ -21,9 +21,7 @@
     "Volume": 6000.0,
     "Unit": "sentences",
     "Provider": [
-        "University of Petra",
-        "University of Jordan",
-        "University of Zarqa"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "Parameter Efficient Fine Tuning Llama 3.1 for Answering Arabic Legal Questions: A Case Study on Jordanian Laws",

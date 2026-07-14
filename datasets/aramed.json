@@ -21,9 +21,7 @@
     "Volume": 137293.0,
     "Unit": "sentences",
     "Provider": [
-        "King Khalid University",
-        "Imam Mohammad Ibn Saud Islamic University",
-        "KSAA"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "AraMed: Arabic Medical Question Answering using Pretrained Transformer Language Models",

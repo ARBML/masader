@@ -21,9 +21,7 @@
     "Volume": 5018.0,
     "Unit": "sentences",
     "Provider": [
-        "University of Texas at Austin",
-        "NYU",
-        "University of Massachusetts Amherst"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "CaLMQA: Exploring culturally specific long-form question answering across 23 languages",

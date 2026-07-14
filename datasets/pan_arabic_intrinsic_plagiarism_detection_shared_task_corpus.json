@@ -21,9 +21,7 @@
     "Volume": 2048.0,
     "Unit": "documents",
     "Provider": [
-        "MISC Lab. Constantine 2 university",
-        "PRHLT",
-        "Universitat Politècnica de València"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "A New Corpus for the Evaluation of Arabic Intrinsic Plagiarism Detection.",

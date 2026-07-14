@@ -21,9 +21,7 @@
     "Volume": 1753.0,
     "Unit": "sentences",
     "Provider": [
-        "JUST",
-        "Al-Balqa' Applied UniversityAl-Buraimi University College",
-        "Texas A&M University-San Antonio"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "Aspect-Based Sentiment Analysis of Arabic Laptop Reviews",

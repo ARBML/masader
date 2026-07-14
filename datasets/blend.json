@@ -21,12 +21,7 @@
     "Volume": 2600.0,
     "Unit": "sentences",
     "Provider": [
-        "KAIST",
-        "Cardiff University",
-        "University of Hamburg",
-        "Bahir Dar University",
-        "NAVER AI Lab",
-        "Imperial College London"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "BLEND: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages",

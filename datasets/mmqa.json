@@ -21,13 +21,7 @@
     "Volume": 330.0,
     "Unit": "sentences",
     "Provider": [
-        "Yonsei University",
-        "KAIST",
-        "OneLineAI",
-        "Barcelona Supercomputing Center",
-        "ArtfulMedia",
-        "Bangladesh University of Engineering and Technology",
-        "CMU"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "MM-EVAL"

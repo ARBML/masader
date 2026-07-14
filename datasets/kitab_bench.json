@@ -22,10 +22,7 @@
     "Volume": 200.0,
     "Unit": "images",
     "Provider": [
-        "MBZUAI",
-        "MontaAI",
-        "Linköping University",
-        "Australian National University"
+        "MBZUAI-ORYX"
     ],
     "Derived From": [
         "KHATT",

@@ -24,10 +24,7 @@
     "Volume": 10193.0,
     "Unit": "sentences",
     "Provider": [
-        "Huaibei Normal University",
-        "University College Dublin",
-        "Georgia Institute of Technology",
-        "Wuhu Institute of Technology"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "AROT-COV23"

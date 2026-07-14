@@ -21,11 +21,7 @@
     "Volume": 4757.0,
     "Unit": "sentences",
     "Provider": [
-        "Skoltech",
-        "AIRI",
-        "HSE University",
-        "MTS AI",
-        "MIPT"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "Will It Still Be True Tomorrow? Multilingual Evergreen Question Classification to Improve Trustworthy QA",

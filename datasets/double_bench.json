@@ -24,9 +24,7 @@
     "Volume": 233.0,
     "Unit": "documents",
     "Provider": [
-        "South China University of Technology",
-        "Huazhong University of Science and Technology",
-        "University of Maryland"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "DocVQA",

@@ -21,10 +21,7 @@
     "Volume": 6.0,
     "Unit": "hours",
     "Provider": [
-        "Avignon University",
-        "Elyadata",
-        "LTCI, Télécom Paris",
-        "Mila"
+        "Elyadata"
     ],
     "Derived From": [
         "TARIC"

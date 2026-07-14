@@ -21,9 +21,7 @@
     "Volume": 8960.0,
     "Unit": "sentences",
     "Provider": [
-        "Yonsei University",
-        "OneLineAI",
-        "KAIST AI"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "OpenThoughts-114k",

@@ -23,9 +23,7 @@
     "Volume": 1000.0,
     "Unit": "sentences",
     "Provider": [
-        "Umm Al-Qura University",
-        "King Khalid University",
-        "KSU"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "MentalQA: An Annotated Arabic Corpus for Questions and Answers of Mental Healthcare",

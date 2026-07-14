@@ -21,9 +21,7 @@
     "Volume": 2160000.0,
     "Unit": "images",
     "Provider": [
-        "King Abdullah II School for Information Technology",
-        "University of Jordan",
-        "PSUT"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "A Hybrid Deep Learning Model for Arabic Text Recognition",

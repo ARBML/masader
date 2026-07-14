@@ -22,9 +22,7 @@
     "Volume": 12806.0,
     "Unit": "documents",
     "Provider": [
-        "University of Ha'il",
-        "Khafji University College",
-        "University of Jeddah"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "ArabiCCR: A commercial Arabic ruling court cases dataset with judicial decisions",

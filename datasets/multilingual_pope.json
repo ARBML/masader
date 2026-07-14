@@ -21,10 +21,7 @@
     "Volume": 27000.0,
     "Unit": "images",
     "Provider": [
-        "Harbin Institute of Technology",
-        "Peng Cheng Laboratory",
-        "Central South University",
-        "Huawei"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "POPE"

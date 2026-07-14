@@ -22,9 +22,7 @@
     "Volume": 2293.0,
     "Unit": "sentences",
     "Provider": [
-        "King Abdulaziz University",
-        "Edinburgh Napier University",
-        "Nanyang Technological University"
+        "Multiple Institutions"
     ],
     "Derived From": [],
     "Paper Title": "Arabic Short-Text Dataset for Sentiment Analysis of Tourism and Leisure Events",

@@ -41,10 +41,7 @@
     "Volume": 7250.0,
     "Unit": "tokens",
     "Provider": [
-        "University of Tours",
-        "University of Sfax",
-        "University of Stuttgart",
-        "University of Manchester"
+        "Multiple Institutions"
     ],
     "Derived From": [
         "AlphaMWE",
