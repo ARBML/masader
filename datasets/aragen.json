@@ -1,0 +1,61 @@
+{
+    "Name": "AraGen",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://huggingface.co/spaces/inceptionai/AraGen-Leaderboard",
+    "License": "unknown",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "AraGen (AraGen-12-24) is a 279-question generative-tasks evaluation benchmark for Arabic LLMs covering question answering, orthographic and grammatical analysis, reasoning, and safety. It was released with the 3C3H evaluation measure and is part of a dynamic leaderboard with rotating three-month blind test sets.",
+    "Volume": 279.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "Inception",
+        "MBZUAI"
+    ],
+    "Derived From": [],
+    "Paper Title": "Rethinking LLM Evaluation with 3C3H: AraGen Benchmark and Leaderboard",
+    "Paper Link": "https://huggingface.co/blog/leaderboard-3c3h-aragen",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "question answering",
+        "grammatical error correction",
+        "safety evaluation",
+        "text generation"
+    ],
+    "Venue Title": "other",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Ali El Filali",
+        "Neha Sengupta",
+        "Arwa Abouelseoud",
+        "Preslav Nakov",
+        "Clémentine Fourrier"
+    ],
+    "Affiliations": [
+        "Inception",
+        "MBZUAI",
+        "Hugging Face"
+    ],
+    "Abstract": "AraGen is a generative-tasks benchmark and leaderboard for Arabic large language models, built around 3C3H, a new evaluation measure for natural language generation. The benchmark comprises 279 custom, mainly human-verified questions spanning four tasks: question answering about Arabic and the Arab world, orthographic and grammatical analysis, reasoning, and safety, with single-turn, conversational, and follow-up interaction formats. The accompanying 3C3H measure scores model responses across six dimensions (Correctness, Completeness, Conciseness, Helpfulness, Honesty, and Harmlessness) using an LLM-as-judge. The leaderboard uses a dynamic strategy in which each test set stays private for a three-month blind-testing cycle before being publicly released and replaced, mitigating data contamination while keeping the evaluation current.",
+    "Added By": "Kareem Tadros"
+}
