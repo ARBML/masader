@@ -21,7 +21,7 @@
     "Volume": 2870.0,
     "Unit": "sentences",
     "Provider": [
-        "CohereLabs"
+        "Cohere Labs"
     ],
     "Derived From": [
         "RewardBench",

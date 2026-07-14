@@ -46,10 +46,10 @@
     "Volume": 2400.0,
     "Unit": "sentences",
     "Provider": [
-        "University of British Columbia",
+        "UBC",
         "MBZUAI",
         "Carnegie Mellon University in Qatar",
-        "New York University Abu Dhabi"
+        "NYU Abu Dhabi"
     ],
     "Derived From": [],
     "Paper Title": "NADI 2023: The Fourth Nuanced Arabic Dialect Identification Shared Task",

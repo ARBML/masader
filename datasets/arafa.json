@@ -31,7 +31,7 @@
     "Volume": 181976.0,
     "Unit": "sentences",
     "Provider": [
-        "American University of Beirut"
+        "AUB"
     ],
     "Derived From": [],
     "Paper Title": "ARAFA: An LLM Generated Arabic Fact-Checking Dataset",

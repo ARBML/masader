@@ -23,7 +23,7 @@
     "Volume": 900.0,
     "Unit": "sentences",
     "Provider": [
-        "Cohere For AI"
+        "Cohere Labs"
     ],
     "Derived From": [],
     "Paper Title": "The Multilingual Alignment Prism: Aligning Global and Local Preferences to Reduce Harm",

@@ -23,7 +23,7 @@
     "Volume": 1769.0,
     "Unit": "sentences",
     "Provider": [
-        "Mohammed VI Polytechnic University"
+        "UM6P"
     ],
     "Derived From": [],
     "Paper Title": "MizanQA: Benchmarking Large Language Models on Moroccan Legal Question Answering",

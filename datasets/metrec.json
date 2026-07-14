@@ -23,7 +23,7 @@
     "Volume": 47124.0,
     "Unit": "sentences",
     "Provider": [
-        "kfupm"
+        "KFUPM"
     ],
     "Derived From": [],
     "Paper Title": "MetRec: A dataset for meter classification of arabic poetry",

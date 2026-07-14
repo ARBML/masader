@@ -21,7 +21,7 @@
     "Volume": 40290.0,
     "Unit": "documents",
     "Provider": [
-        "INRIA"
+        "Inria"
     ],
     "Derived From": [],
     "Paper Title": "Extracting Comparable Articles from Wikipedia and Measuring their\nComparabilities",

@@ -22,7 +22,7 @@
     "Volume": 685.0,
     "Unit": "sentences",
     "Provider": [
-        "Cohere For AI"
+        "Cohere Labs"
     ],
     "Derived From": [
         "MMLU"

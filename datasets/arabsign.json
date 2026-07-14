@@ -21,7 +21,7 @@
     "Volume": 10.2,
     "Unit": "hours",
     "Provider": [
-        "King Fahd University of Petroleum and Minerals"
+        "KFUPM"
     ],
     "Derived From": [],
     "Paper Title": "ArabSign: A Multi-modality Dataset and Benchmark for Continuous Arabic Sign Language Recognition",

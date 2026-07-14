@@ -21,7 +21,7 @@
     "Volume": 7000.0,
     "Unit": "sentences",
     "Provider": [
-        "University of British Columbia"
+        "UBC"
     ],
     "Derived From": [],
     "Paper Title": "Enabling Deep Learning of Emotion With First-Person Seed Expressions",

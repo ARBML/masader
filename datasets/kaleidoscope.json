@@ -22,7 +22,7 @@
     "Volume": 382.0,
     "Unit": "sentences",
     "Provider": [
-        "Cohere For AI"
+        "Cohere Labs"
     ],
     "Derived From": [],
     "Paper Title": "Kaleidoscope: In-language Exams for Massively Multilingual Vision Evaluation",

@@ -21,7 +21,7 @@
     "Volume": 100000.0,
     "Unit": "sentences",
     "Provider": [
-        "Carnegie Mellon University"
+        "CMU"
     ],
     "Derived From": [
         "Europarl-v7 English-French parallel corpus"

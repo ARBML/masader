@@ -28,7 +28,7 @@
     "Volume": 11637.0,
     "Unit": "sentences",
     "Provider": [
-        "American University of Beirut"
+        "AUB"
     ],
     "Derived From": [],
     "Paper Title": "AraSTEM: A Native Arabic Multiple Choice Question Benchmark for Evaluating LLMs Knowledge In STEM Subjects",

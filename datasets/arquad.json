@@ -21,7 +21,7 @@
     "Volume": 16020.0,
     "Unit": "sentences",
     "Provider": [
-        "Jordan University of Science and Technology"
+        "JUST"
     ],
     "Derived From": [],
     "Paper Title": "ArQuAD: An Expert-Annotated Arabic Machine Reading Comprehension Dataset",

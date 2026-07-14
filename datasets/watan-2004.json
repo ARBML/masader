@@ -25,7 +25,7 @@
     "Volume": 20000.0,
     "Unit": "documents",
     "Provider": [
-        "INRIA"
+        "Inria"
     ],
     "Derived From": [],
     "Paper Title": "Comparing TR-Classifier and KNN by using Reduced Sizes of Vocabularies",

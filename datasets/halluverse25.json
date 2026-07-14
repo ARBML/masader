@@ -26,7 +26,7 @@
     "Volume": 828.0,
     "Unit": "sentences",
     "Provider": [
-        "Hamad Bin Khalifa University"
+        "HBKU"
     ],
     "Derived From": [],
     "Paper Title": "HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations",

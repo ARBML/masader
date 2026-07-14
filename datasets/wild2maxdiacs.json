@@ -22,7 +22,7 @@
     "Volume": 6000.0,
     "Unit": "tokens",
     "Provider": [
-        "CAMeL-Lab"
+        "CAMeL Lab"
     ],
     "Derived From": [
         "WikiNews",

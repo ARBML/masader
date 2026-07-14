@@ -22,7 +22,7 @@
     "Volume": 346263.0,
     "Unit": "images",
     "Provider": [
-        "Carnegie Mellon University"
+        "CMU"
     ],
     "Derived From": [],
     "Paper Title": "Grounding Multilingual Multimodal LLMs With Cultural Knowledge",

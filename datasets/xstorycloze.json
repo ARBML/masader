@@ -21,7 +21,7 @@
     "Volume": 1870.0,
     "Unit": "sentences",
     "Provider": [
-        "MetaAI"
+        "Meta AI"
     ],
     "Derived From": [
         "StoryCloze"

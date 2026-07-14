@@ -21,7 +21,7 @@
     "Volume": 4000.0,
     "Unit": "sentences",
     "Provider": [
-        "American University of Beirut"
+        "AUB"
     ],
     "Derived From": [],
     "Paper Title": "ArSentD-LEV: A Multi-Topic Corpus for Target-based Sentiment Analysis in Arabic Levantine Tweets",

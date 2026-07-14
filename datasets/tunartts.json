@@ -21,7 +21,7 @@
     "Volume": 3.0,
     "Unit": "hours",
     "Provider": [
-        "ELYADATA"
+        "Elyadata"
     ],
     "Derived From": [
         "Derja.Ninja"

@@ -21,7 +21,7 @@
     "Volume": 500.0,
     "Unit": "sentences",
     "Provider": [
-        "Cohere For AI"
+        "Cohere Labs"
     ],
     "Derived From": [
         "Arena-Hard-Auto"

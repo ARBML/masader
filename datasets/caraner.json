@@ -23,8 +23,8 @@
     "Volume": 55389.0,
     "Unit": "tokens",
     "Provider": [
-        "King Abdulaziz City for Science and Technology",
-        "King Saud University"
+        "KACST",
+        "KSU"
     ],
     "Derived From": [
         "AraNPCC"

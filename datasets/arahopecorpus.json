@@ -24,7 +24,7 @@
     "Volume": 10000.0,
     "Unit": "sentences",
     "Provider": [
-        "Marsad Lab"
+        "MARSAD Lab"
     ],
     "Derived From": [],
     "Paper Title": "AraHopeCorpus: Annotation Guidelines and Dataset for Hope Speech in Arabic Social Media Crisis Discourse",

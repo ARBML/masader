@@ -23,7 +23,7 @@
     "Volume": 45000000.0,
     "Unit": "sentences",
     "Provider": [
-        "University of British Columbia"
+        "UBC"
     ],
     "Derived From": [],
     "Paper Title": "Mega-COV: A Billion-Scale Dataset of 100+ Languages for COVID-19",

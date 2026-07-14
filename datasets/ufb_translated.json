@@ -21,7 +21,7 @@
     "Volume": 10000.0,
     "Unit": "sentences",
     "Provider": [
-        "CohereLabs"
+        "Cohere Labs"
     ],
     "Derived From": [
         "UltraFeedback Binarized"

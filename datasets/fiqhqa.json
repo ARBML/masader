@@ -21,7 +21,7 @@
     "Volume": 960.0,
     "Unit": "sentences",
     "Provider": [
-        "Mohamed Bin Zayed University of AI"
+        "MBZUAI"
     ],
     "Derived From": [],
     "Paper Title": "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious Questions",

@@ -21,7 +21,7 @@
     "Volume": 450.0,
     "Unit": "sentences",
     "Provider": [
-        "CohereLabs"
+        "Cohere Labs"
     ],
     "Derived From": [
         "m-ArenaHard-v2.0 "

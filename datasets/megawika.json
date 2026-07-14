@@ -22,7 +22,7 @@
     "Volume": 5000000.0,
     "Unit": "documents",
     "Provider": [
-        "Johns Hopkins University"
+        "JHU"
     ],
     "Derived From": [],
     "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",

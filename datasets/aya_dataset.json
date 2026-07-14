@@ -21,7 +21,7 @@
     "Volume": 14250.0,
     "Unit": "sentences",
     "Provider": [
-        "Cohere For AI"
+        "Cohere Labs"
     ],
     "Derived From": [],
     "Paper Title": "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",

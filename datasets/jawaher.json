@@ -142,7 +142,7 @@
     "Volume": 10037.0,
     "Unit": "sentences",
     "Provider": [
-        "University of British Columbia"
+        "UBC"
     ],
     "Derived From": [],
     "Paper Title": "Jawaher: A Multidialectal Dataset of Arabic Proverbs for LLM Benchmarking",

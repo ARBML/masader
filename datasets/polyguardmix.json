@@ -21,7 +21,7 @@
     "Volume": 100041.0,
     "Unit": "sentences",
     "Provider": [
-        "Carnegie Mellon University"
+        "CMU"
     ],
     "Derived From": [
         "WildGuardMix",

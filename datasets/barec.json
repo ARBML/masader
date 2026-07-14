@@ -25,7 +25,7 @@
     "Volume": 69441.0,
     "Unit": "sentences",
     "Provider": [
-        "CaMeL-Lab"
+        "CAMeL Lab"
     ],
     "Derived From": [
         "ArabicMMLU",

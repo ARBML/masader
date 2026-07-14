@@ -23,7 +23,7 @@
     "Volume": 250.0,
     "Unit": "sentences",
     "Provider": [
-        "CohereForAI"
+        "Cohere Labs"
     ],
     "Derived From": [
         "ArabicMMLU"

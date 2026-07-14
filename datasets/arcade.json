@@ -136,7 +136,7 @@
     "Volume": 31.7,
     "Unit": "hours",
     "Provider": [
-        " RIOTU Lab"
+        "RIOTU Lab"
     ],
     "Derived From": [],
     "Paper Title": "ARCADE: A City-Scale Corpus for Fine-Grained Arabic Dialect Tagging",

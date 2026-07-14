@@ -23,8 +23,8 @@
     "Volume": 403688.0,
     "Unit": "sentences",
     "Provider": [
-        "Princess Sumaya University for Technology",
-        "Jordan University of Science and Technology"
+        "PSUT",
+        "JUST"
     ],
     "Derived From": [],
     "Paper Title": "Hate speech detection in the Arabic language: corpus design, construction, and evaluation",

@@ -21,7 +21,7 @@
     "Volume": 12000.0,
     "Unit": "sentences",
     "Provider": [
-        "Jordan University of Science and Technology"
+        "JUST"
     ],
     "Derived From": [
         "SemEval-2020 ComVE"

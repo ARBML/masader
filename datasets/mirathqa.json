@@ -24,7 +24,7 @@
     "Volume": 1394.0,
     "Unit": "sentences",
     "Provider": [
-        "King Saud University"
+        "KSU"
     ],
     "Derived From": [],
     "Paper Title": "MirathQA: A dataset for evaluating large language models on Hanbali Islamic inheritance reasoning tasks",

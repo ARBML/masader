@@ -24,7 +24,7 @@
     "Volume": 1010.0,
     "Unit": "sentences",
     "Provider": [
-        "King Saud University"
+        "KSU"
     ],
     "Derived From": [
         "Arabic-Paraphrasing-Benchmark",

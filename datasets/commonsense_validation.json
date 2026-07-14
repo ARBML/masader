@@ -21,7 +21,7 @@
     "Volume": 12000.0,
     "Unit": "sentences",
     "Provider": [
-        "Jordan University"
+        "University of Jordan"
     ],
     "Derived From": [
         "ComVE"

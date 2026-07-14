@@ -21,7 +21,7 @@
     "Volume": 6000.0,
     "Unit": "sentences",
     "Provider": [
-        "Jordan University of Science and Technology"
+        "JUST"
     ],
     "Derived From": [],
     "Paper Title": "ArEntail: manually-curated Arabic natural language inference dataset from news headlines",

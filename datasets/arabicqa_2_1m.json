@@ -21,7 +21,7 @@
     "Volume": 2410000.0,
     "Unit": "sentences",
     "Provider": [
-        "riotu-lab"
+        "RIOTU Lab"
     ],
     "Derived From": [
         "InstAr-500k",

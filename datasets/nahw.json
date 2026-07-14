@@ -23,7 +23,7 @@
     "Volume": 5100.0,
     "Unit": "sentences",
     "Provider": [
-        "Qatar Computing Research Institute"
+        "QCRI"
     ],
     "Derived From": [],
     "Paper Title": "Nahw: A Comprehensive Arabic Grammar Benchmark",
