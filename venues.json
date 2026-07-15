@@ -987,5 +987,10 @@
         "name": "Alexandria Engineering Journal",
         "type": "journal",
         "aliases": []
+    },
+    "SynData4GenAI": {
+        "name": "Synthetic Data’s Transformative Role in Foundational Speech Models",
+        "type": "workshop",
+        "aliases": []
     }
 }
