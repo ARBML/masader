@@ -1,0 +1,63 @@
+{
+    "Name": "WojoodRelations",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://sina.birzeit.edu/relations/",
+    "License": "CC BY 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "news",
+        "history",
+        "politics",
+        "finance",
+        "health",
+        "culture",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation"
+    ],
+    "Description": "Largest Arabic Relation Extraction corpus with 40 relation types and nested entities.",
+    "Volume": 14689.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Birzeit University",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [
+        "Wojood"
+    ],
+    "Paper Title": "WojoodRelations: Arabic Relation Extraction Corpus and Modeling",
+    "Paper Link": "https://aclanthology.org/2025.emnlp-main.1741.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "relation extraction"
+    ],
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
+    "Authors": [
+        "Alaa Aljabari",
+        "Mohammed Khalilia",
+        "Mustafa Jarrar"
+    ],
+    "Affiliations": [
+        "Birzeit University",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "Relation extraction (RE) is a core task in natural language processing, crucial for semantic understanding, knowledge graph construction, and enhancing downstream applications. Existing work on Arabic RE remains limited due to the language\u2019s rich morphology and syntactic complexity, and the lack of large, high-quality datasets. In this paper, we present WojoodRelations, the largest and most diverse Arabic RE corpus to date, containing over 33K sentences (~550K tokens) annotated with ~15K relation triples across 40 relation types. The corpus is built on top of Wojood NER dataset with manual relation annotations carried out by expert annotators, achieving a Cohen\u2019s \u03ba of 0.92, indicating high reliability. In addition, we propose two methods: NLI-RE, which formulates RE as a binary natural language inference problem using relation-aware templates, and GPT-Joint, a few-shot LLM framework for joint entity and RE via relation-aware retrieval. Finally, we benchmark the dataset using both supervised models and in-context learning with LLMs. Supervised models achieve 92.89% F1 for RE, while LLMs obtain 72.73% F1 for joint entity and RE. These results establish strong baselines, highlight key challenges, and provide a foundation for advancing Arabic RE research.",
+    "Added By": "Zaid Alyafeai"
+}
