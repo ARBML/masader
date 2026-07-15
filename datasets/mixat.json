@@ -1,0 +1,53 @@
+{
+    "Name": "Mixat",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/mbzuai-nlp/mixat",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "United Arab Emirates",
+    "Source": [
+        "other"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "audio",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "15-hour Emirati Arabic-English code-switched speech corpus derived from two public podcasts featuring native Emirati speakers, with manual transcriptions. Designed to address the shortcomings of existing ASR systems on bilingual Emirati speech.",
+    "Volume": 15.0,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "MBZUAI"
+    ],
+    "Derived From": [],
+    "Paper Title": "Mixat: A Data Set of Bilingual Emirati-English Speech",
+    "Paper Link": "https://aclanthology.org/2024.sigul-1.26.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "speech recognition",
+        "codeswitch detection"
+    ],
+    "Venue Title": "LREC-COLING",
+    "Venue Type": "conference",
+    "Venue Name": "Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
+    "Authors": [
+        "Maryam Khalifa Al Ali",
+        "Hanan Aldarmaki"
+    ],
+    "Affiliations": [
+        "MBZUAI"
+    ],
+    "Abstract": "Mixat is a dataset of Emirati speech code-mixed with English, developed to address the limitations of current speech recognition resources when applied to bilingual Emirati speakers who frequently switch between their local dialect and English. It comprises 15 hours of speech drawn from two public podcasts featuring native Emirati speakers, one of which consists of conversations between a host and a guest, capturing code-switching in both formal and natural conversational settings. The authors describe the data collection and annotation process and evaluate several pre-trained Arabic and multilingual ASR systems on the data, highlighting their weaknesses on this low-resource dialectal variety and on code-switched speech in general.",
+    "Added By": "Kareem Tadros"
+}
