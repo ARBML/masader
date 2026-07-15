@@ -8,7 +8,7 @@
     "Language": "multilingual",
     "Dialect": "Saudi Arabia",
     "Source": [
-        "other"
+        "TV Channels"
     ],
     "Domain": [
         "general"
@@ -29,19 +29,18 @@
     "Paper Link": "https://www.isca-archive.org/syndata4genai_2024/alharbi24_syndata4genai.html",
     "Script": "Arab-Latin",
     "Tokenized": false,
-    "Host": "HuggingFace",
+    "Host": "Kaggle",
     "Access": "Free",
     "Cost": "",
     "Has Splits": false,
     "Partial": false,
     "Tasks": [
         "speech recognition",
-        "language identification",
         "codeswitch detection"
     ],
-    "Venue Title": "other",
-    "Venue Type": "preprint",
-    "Venue Name": "",
+    "Venue Title": "SynData4GenAI",
+    "Venue Type": "workshop",
+    "Venue Name": "Synthetic Data’s Transformative Role in Foundational Speech Models",
     "Authors": [
         "Sadeen Alharbi",
         "Raghad Aloraini",
