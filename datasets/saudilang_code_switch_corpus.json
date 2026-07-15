@@ -1,0 +1,58 @@
+{
+    "Name": "Saudilang Code-Switch Corpus (SCC)",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/SDAIANCAI/Saudilang-Code-Switch-Corpus",
+    "Link": "https://www.kaggle.com/datasets/sdaiancai/saudilang-code-switch-corpus-scc",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2024,
+    "Language": "multilingual",
+    "Dialect": "Saudi Arabia",
+    "Source": [
+        "TV channels"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "audio",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "The Saudilang Code-Switch Corpus (SCC) is a 4.45-hour transcribed audio evaluation dataset of informal Saudi Arabic speech with code-switching to English, drawn from three episodes of the 'Thmanyah' YouTube podcast (covering investment, restaurants, and entrepreneurship) and transcribed by the National Center for Artificial Intelligence at SDAIA. It is designed primarily as an out-of-domain test set for code-switching ASR, language identification, and code-switch detection.",
+    "Volume": 4.45,
+    "Unit": "hours",
+    "Ethical Risks": "Low",
+    "Provider": [
+        "SDAIA"
+    ],
+    "Derived From": [],
+    "Paper Title": "Leveraging LLM for Augmenting Textual Data in Code-Switching ASR: Arabic as an Example",
+    "Paper Link": "https://www.isca-archive.org/syndata4genai_2024/alharbi24_syndata4genai.html",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "kaggle",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "speech recognition",
+        "codeswitch detection"
+    ],
+    "Venue Title": "SynData4GenAI",
+    "Venue Type": "workshop",
+    "Venue Name": "Synthetic Data’s Transformative Role in Foundational Speech Models",
+    "Authors": [
+        "Sadeen Alharbi",
+        "Raghad Aloraini",
+        "Reem BinMuqbil",
+        "Ahmed Ali",
+        "Saiful Bari",
+        "Areeb Alowisheq",
+        "Yaser Alonaizan"
+    ],
+    "Affiliations": [
+        "SDAIA"
+    ],
+    "Abstract": "Intra-utterance code-switching is common in spoken language and poses significant challenges for automatic speech recognition systems, a problem compounded for Arabic by its many dialects and by the scarcity of transcribed code-switched data. This work uses large language models to generate Arabic-English code-switched textual data to enhance code-switching ASR systems, and introduces the Saudilang Code-Switch Corpus (SCC), an evaluation dataset of Saudi Arabic code-switched with English. Using the generated data yields a relative reduction in perplexity of over 8% and an average relative decrease of 5.5% in word error rate on two ecologically valid code-switching evaluation sets.",
+    "Added By": "Kareem Tadros"
+}
