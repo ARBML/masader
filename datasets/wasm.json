@@ -1,0 +1,44 @@
+{
+    "Name": "WASM",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/MagedSaeed/wasm",
+    "Link": "https://link.springer.com/article/10.1007/s13369-023-08567-1",
+    "License": "MIT License",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "inherited annotation"
+    ],
+    "Description": "Arabic dataset for twitter hashtags recommendation, generation, and classification",
+    "Volume": 101099.0,
+    "Unit": "sentences",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "WASM: A Dataset for Hashtag Recommendation for Arabic Tweets",
+    "Paper Link": "https://link.springer.com/article/10.1007/s13369-023-08567-1",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "topic classification"
+    ],
+    "Venue Title": "other",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "As one of the largest microblogging websites in the world, Twitter generates a huge amount of information daily. The massive size of the generated data increases the difficulty for humans to follow and receive information relevant to their interests. Therefore, Twitter allows users to annotate and categorize their tweets using appropriate hashtags. However, finding an appropriate hashtag for a tweet is not always straightforward. Furthermore, many users violate the hashtag flow by posting irrelevant content to the hashtag topic. These problems increase the need for a hashtag recommendation and classification system. This topic has received considerable attention from researchers in some languages, such as English and Chinese. However, this problem has not yet been explored for the Arabic language owing to the lack of datasets. In this study, we bridge this gap by proposing WASM, an Arabic Twitter hashtag recommendation dataset consisting of more than 100,000 tweets annotated with 87 hashtags. The proposed dataset is subjected to several rounds of automatic and manual filtrations to ensure that it is suitable for tasks related to tweets and hashtags. Further, we propose three systems for hashtag recommendation and classification. Each of these systems approaches the task differently by considering it as classification, generation, and named entity recognition problems. The results obtained using these systems are promising and can be used to benchmark the WASM dataset. The data and code are available at https://github.com/Hamzah-Luqman/wasm.",
+    "Added By": "MagedSaeed"
+}
