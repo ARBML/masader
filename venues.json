@@ -992,5 +992,10 @@
         "name": "Synthetic Data’s Transformative Role in Foundational Speech Models",
         "type": "workshop",
         "aliases": []
+    },
+    "AJSE": {
+        "name": "Arabian Journal for Science and Engineering",
+        "type": "journal",
+        "aliases": []
     }
 }
