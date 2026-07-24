@@ -53,5 +53,5 @@
         "New York University Abu Dhabi"
     ],
     "Abstract": "Automated Essay Scoring (AES) plays a crucial role in assessing language learners’ writingquality, reducing grading workload, and providing real-time feedback. The lack of annotatedessay datasets inhibits the development of Arabic AES systems. This paper leverages LargeLanguage Models (LLMs) and Transformermodels to generate synthetic Arabic essays forAES. We prompt an LLM to generate essaysacross the Common European Framework ofReference (CEFR) proficiency levels and introduce and compare two approaches to errorinjection. We create a dataset of 3,040 annotated essays with errors injected using our twomethods. Additionally, we develop a BERTbased Arabic AES system calibrated to CEFRlevels. Our experimental results demonstratethe effectiveness of our synthetic dataset in improving Arabic AES performance. We makeour code and data publicly available.",
-    "Added By": "Zaid Ayafeai"
+    "Added By": "Zaid Alyafeai"
 }

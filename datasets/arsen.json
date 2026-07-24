@@ -58,5 +58,5 @@
         "Wuhu Institute of Technology"
     ],
     "Abstract": "Sentiment analysis is pivotal in Natural Language Processing for understanding opinions and emotions in text. While advancements in Sentiment analysis for English are notable, Arabic Sentiment Analysis (ASA) lags, despite the growing Arabic online user base. Existing ASA benchmarks are often outdated and lack comprehensive evaluation capabilities for state-of-the-art models. To bridge this gap, we introduce ArSen, a meticulously annotated COVID-19-themed Arabic dataset, and the IFDHN, a novel model incorporating fuzzy logic for enhanced sentiment classification. ArSen provides a contemporary, robust benchmark, and IFDHN achieves state-of-the-art performance on ASA tasks. Comprehensive evaluations demonstrate the efficacy of IFDHN using the ArSen dataset, highlighting future research directions in ASA.",
-    "Added By": "Zaid alayfeai"
+    "Added By": "Zaid Alyafeai"
 }
