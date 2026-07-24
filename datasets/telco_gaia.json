@@ -20,14 +20,13 @@
     "Description": "A GAIA-style benchmark for AI agents operating over a real telecom operator's website snapshot plus a synthetic customer database. 100 tasks across 7 categories: Pricing, Miscellaneous, Images, Web Archives, PDF, PDF Visual, Database.",
     "Volume": 35.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "KAUST",
         "STC"
     ],
     "Derived From": [],
     "Paper Title": "Telco-GAIA: Bilingual Benchmark for Agents in Telecom Domain",
-    "Paper Link": "https://arxiv.org/",
+    "Paper Link": "https://arxiv.org/pdf/2607.20510",
     "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
