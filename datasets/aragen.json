@@ -2,7 +2,7 @@
     "Name": "AraGen",
     "Dialect Subsets": [],
     "HF Link": "",
-    "Link": "https://huggingface.co/spaces/inceptionai/AraGen-Leaderboard",
+    "Link": "https://huggingface.co/datasets/inceptionai/AraGen",
     "License": "unknown",
     "Year": 2024,
     "Language": "ar",
@@ -15,12 +15,12 @@
     ],
     "Form": "text",
     "Annotation Style": [
-        "human annotation"
+        "human annotation",
+        "human validation"
     ],
     "Description": "AraGen (AraGen-12-24) is a 279-question generative-tasks evaluation benchmark for Arabic LLMs covering question answering, orthographic and grammatical analysis, reasoning, and safety. It was released with the 3C3H evaluation measure and is part of a dynamic leaderboard with rotating three-month blind test sets.",
     "Volume": 279.0,
     "Unit": "sentences",
-    "Ethical Risks": "Low",
     "Provider": [
         "Inception",
         "MBZUAI"
@@ -49,7 +49,7 @@
         "Neha Sengupta",
         "Arwa Abouelseoud",
         "Preslav Nakov",
-        "Clémentine Fourrier"
+        "Cl\u00e9mentine Fourrier"
     ],
     "Affiliations": [
         "Inception",
