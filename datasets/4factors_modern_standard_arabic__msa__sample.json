@@ -15,7 +15,8 @@
     ],
     "Form": "text",
     "Annotation Style": [
-        "human annotation"
+        "human annotation",
+        "human validation"
     ],
     "Description": "Native-written, human-verified Modern Standard Arabic: 50 formal sentences (news/official-statement register) with English glosses and domain labels. No scraping, machine translation, or synthetic generation.",
     "Volume": 50.0,
@@ -26,7 +27,7 @@
     "Derived From": [],
     "Paper Title": "4FACTORS Modern Standard Arabic (MSA) Sample",
     "Paper Link": "https://www.4factors.ch/arabic-nlp-training-data/",
-    "Script": "Arab-Latin",
+    "Script": "Arab",
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Upon-Request",
