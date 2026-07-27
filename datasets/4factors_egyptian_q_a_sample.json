@@ -1,0 +1,52 @@
+{
+    "Name": "4FACTORS Egyptian Q&A Sample",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/4factors/arabic-egyptian-sample",
+    "Link": "https://huggingface.co/datasets/4factors/arabic-egyptian-sample",
+    "License": "CC BY-NC 4.0",
+    "Year": 2026,
+    "Language": "multilingual",
+    "Dialect": "Egypt",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "general",
+        "society",
+        "health"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Native-written Egyptian Arabic conversational question-answer pairs (50) with English glosses and domain labels; written by a first-language Egyptian speaker and reviewed for personal data, copyright and linguistic diversity. No scraping, machine translation, or synthetic generation.",
+    "Volume": 50.0,
+    "Unit": "sentences",
+    "Provider": [
+        "4factors"
+    ],
+    "Derived From": [],
+    "Paper Title": "4FACTORS \u2014 Egyptian Conversational Sample",
+    "Paper Link": "https://doi.org/10.5281/zenodo.21380048",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue Title": "other",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Andrej Poljanc"
+    ],
+    "Affiliations": [
+        "4factors"
+    ],
+    "Abstract": "A public demonstration sample of 50 native-written question-answer pairs in spoken (colloquial) Egyptian Arabic, each with an English gloss and a domain label. Written from scratch by a first-language Egyptian speaker under a brief that forbids copying, translating and AI generation, then passed through two documented review passes \u2014 one for personal data and copyright, one measured for linguistic diversity. Both pre- and post-review file versions are retained for auditable provenance. Part of a three-variety corpus (MSA, Palestinian Levantine, Egyptian) archived on Zenodo under DOI 10.5281/zenodo.21380048. Larger sets and other Arabic varieties are available on commission with full IP transfer.",
+    "Added By": "ap-4factors"
+}
