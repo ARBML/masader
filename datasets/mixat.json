@@ -8,10 +8,10 @@
     "Language": "multilingual",
     "Dialect": "United Arab Emirates",
     "Source": [
-        "other"
+        "podcasts"
     ],
     "Domain": [
-        "general"
+        "sports", "finance", "science", "technology", "health"
     ],
     "Form": "audio",
     "Annotation Style": [
@@ -42,7 +42,7 @@
     "Venue Type": "conference",
     "Venue Name": "Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
     "Authors": [
-        "Maryam Khalifa Al Ali",
+        "Maryam Al Ali",
         "Hanan Aldarmaki"
     ],
     "Affiliations": [
