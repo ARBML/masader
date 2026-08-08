@@ -1,0 +1,72 @@
+{
+    "Name": "Arab Voices",
+    "Volume": 4799.6,
+    "Unit": "hours",
+    "License": "unknown",
+    "Link": "https://github.com/UBC-NLP/arab_voices",
+    "HF_Link": "unknown",
+    "Year": 2025,
+    "Domain": [
+        "web pages",
+        "telephone conversations",
+        "TV channels",
+        "public datasets",
+        "social media"
+    ],
+    "Form": "audio",
+    "Collection_Style": [
+        "crawling",
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "A standardized ecosystem for assembling heterogeneous DA corpora into a consistent format, with harmonized metadata that supports comparison across datasets.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "The University of British Columbia"
+    ],
+    "Derived_From": [
+        "ArVoice",
+        "ArzEn",
+        "CALLHOME",
+        "CommonVoice",
+        "FLEURS",
+        "GALE",
+        "MASC",
+        "MGB2",
+        "MGB3",
+        "MGB5",
+        "QASR",
+        "SADA"
+    ],
+    "Paper_Title": "Arab Voices: Mapping Standard and Dialectal Arabic Speech",
+    "Paper_Link": "https://arxiv.org/pdf/2601.13319v2.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "Free",
+    "Test_Split": true,
+    "Tasks": [
+        "speech recognition",
+        "dialect identification",
+        "other"
+    ],
+    "Venue_Title": "unknown",
+    "Venue_Type": "unknown",
+    "Venue_Name": "unknown",
+    "Authors": [
+        "Peter Sullivan",
+        "Abdelrahim Elmadany",
+        "Alcides Alcoba Inzarte",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "The University of British Columbia",
+        "Canada Research Chair in NLP and ML"
+    ],
+    "Abstract": "Standard Arabic (MSA) has relatively robust computational support, the diverse spoken varieties of Dialectal Arabic (DA) speech data vary widely in domain coverage, dialect labeling practices, and recording conditions, complicating cross-dataset comparison and model evaluation. To characterize this landscape, we conduct a computational analysis of linguistic \u201cdialectness\u201d alongside objective proxies of audio quality on the training splits of widely used DA corpora. We find substantial heterogeneity both in acoustic conditions and in the strength and consistency of dialectal signals across datasets, underscoring the need for standardized characterization beyond coarse labels. To reduce fragmentation and support reproducible evaluation, we introduce ArabVoices, a standardized framework for DA ASR. ArabVoices provides unified access to 31 datasets spanning 14 dialects, with harmonized metadata and evaluation utilities. We further benchmark a range of recent ASR systems, establishing strong baselines for modern DA ASR.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
