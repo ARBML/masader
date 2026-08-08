@@ -1,0 +1,58 @@
+{
+    "Name": "OSACT",
+    "Volume": 10000.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://alt.qcri.org/resources/OSACT2020-shared-Task-CodaLab-Train-Dev-Test.zip",
+    "HF_Link": "",
+    "Year": 2019,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Arabic offensive tweets dataset.",
+    "Ethical_Risks": "High",
+    "Provider": [
+        "Qatar Computing Research Institute",
+        "HBKU",
+        "\u00d6zye\u011fin University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Arabic Offensive Language on Twitter: Analysis and Experiments",
+    "Paper_Link": "https://aclanthology.org/2021.wanlp-1.13.pdf",
+    "Tokenized": true,
+    "Host": "CodaLab",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "offensive language detection",
+        "text classification",
+        "hate speech detection"
+    ],
+    "Venue_Title": "unknown",
+    "Venue_Type": "other",
+    "Venue_Name": "",
+    "Authors": [
+        "Hamdy Mubarak",
+        "Ammar Rashed",
+        "Kareem Darwish",
+        "Younes Samih",
+        "Ahmed Abdelali"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "HBKU",
+        "\u00d6zye\u011fin University"
+    ],
+    "Abstract": "A large dataset. Since our methodology does not use a seed list of offensive words, it is not biased by topic, target, or dialect. Using our methodology, we tagged a 10,000 Arabic tweet dataset for offensiveness, where offensive tweets account for roughly 19% of the tweets. Further, we labeled tweets as vulgar or hate speech. To date, this is the largest available dataset, which we plan to make publicly available along with annotation guidelines. We use this dataset to characterize Arabic offensive language to ascertain the topics, dialects, and users\u2019 gender that are most associated with the use of offensive language. Though we suspect that there are common features that span different languages and cultures, some characteristics of Arabic offensive language are language and culture specific. Thus, we conduct a thorough analysis of how Arab users use offensive language. Next, we use the dataset to train strong Arabic offensive language classifiers using state-of-the-art representations and classification techniques. Specifically, we experiment with static and contextualized embeddings for representation along with a variety of classifiers such as Transformer-based and Support Vector Machine (SVM) classifiers. The contributions of this paper areas follows: \u2022 We built the largest Arabic offensive language dataset to date that is also labeled for vulgar language and hate speech and is not biased by topic or dialect. We describe the methodology for building it along with annotation guidelines. \u2022 We performed thorough analysis to describe the peculiarities of Arabic offensive language. \u2022 We experimented with SOTA classification techniques to provide strong results on detecting offensive language.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
