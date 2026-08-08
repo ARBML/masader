@@ -1,0 +1,54 @@
+{
+    "Name": "Ashar",
+    "Volume": 254630.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/ARBML/Ashaar",
+    "HF_Link": "https://huggingface.co/datasets/arbml/Ashaar_dataset",
+    "Year": 2023,
+    "Domain": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "manual curation"
+    ],
+    "Description": "Framework for Arabic poetry analysis and generation.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "King Fahd University of Petroleum and Minerals"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Ashaar: Automatic Analysis and Generation of Arabic Poetry Using Deep Learning Approaches",
+    "Paper_Link": "https://arxiv.org/pdf/2307.06218v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "meter classification",
+        "diacritization",
+        "text classification",
+        "authorship attribution",
+        "language modeling"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
+    "Authors": [
+        "Zaid Alyafeai",
+        "Maged S. Al-Shaibani",
+        "Moataz Ahmed"
+    ],
+    "Affiliations": [
+        "King Fahd University of Petroleum and Minerals"
+    ],
+    "Abstract": "Rhymed poetry was first introduced and theorized by al-Farahidi (711\u2013786 A.D.) who categorized every poem into one of 15 different classes, later extended to 16, called meters or Buhur as pronounced in Arabic. These meters govern how each poem should be constructed with specific rules called Arud or Arudi Style. The main constructs of Arud could be represented using Tafeelata as plural or Tafeelah as singular for easier memorization. Such constructs could be used to define how to create each meter using a finite set of rules. Another important part of Arabic poetry is Qafiyah which refers to the end rhyme pattern or the rhymes scheme used in the poem. The construction of meters depends on diacritics which are special symbols assigned to each letter in the poem. These diacritics are categorized as either harakah or sukun. Analyzing poems usually needs expertise in the field to figure out the consistent meter and find out issues if there are any. Poets, nevertheless, have an intrinsic ability to construct poems from a specific meter without the need to consult experts. Recently, in the modern era, many poets were influenced by western culture resulting in a new form of poetry called prose poetry. Prose poetry is loose in terms of rules but has some structure and rhythm although not in a strict format. Modern poets used poetry as a medium to express various emotions and feelings. Prose poetry is similar to English poetry in the way it is constructed but, due to its long history, Arabic poetry is richer in terms of metaphors and symbolism. In this paper, we present a framework called Ashaar, which encompasses a collection of datasets and pre-trained models designed specifically for the analysis and generation of Arabic poetry. The pipeline established within our proposed approach encompasses various aspects of poetry, such as meter, theme, and era classification. It also incorporates automatic poetry diacritization, enabling more intricate analyses like automated extraction of the Arudi style. Additionally, we explore the feasibility of generating conditional poetry through the pre-training of a character-based GPT model. Furthermore, as part of this endeavor, we provide three datasets: one for poetry generation, another for diacritization, and a third for Arudi-style prediction. These datasets aim to facilitate research and development in the field of Arabic poetry by enabling researchers and enthusiasts to delve into the nuances of this rich literary tradition.",
+    "Subsets": [],
+    "Dialect": "Classical Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
