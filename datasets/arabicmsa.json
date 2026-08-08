@@ -1,0 +1,59 @@
+{
+    "Name": "ArabicMSA",
+    "Volume": 318.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/belgats/Arabic-Multimodal-Dataset/",
+    "HF_Link": "",
+    "Year": 2023,
+    "Domain": [
+        "social media",
+        "TV channels"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Arabic multimodal dataset for sentiment analysis.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Universit\u00e9 Amar Telidji",
+        "Universit\u00e9 de Ghardaia",
+        "Universit\u00e9 Ziane Achour - Djelfa"
+    ],
+    "Derived_From": [
+        "MOSEI",
+        "CMU-MOSI"
+    ],
+    "Paper_Title": "Towards Arabic Multimodal Dataset for Sentiment Analysis",
+    "Paper_Link": "https://arxiv.org/pdf/2306.06322v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "conference",
+    "Venue_Name": "",
+    "Authors": [
+        "Abdelhamid Haouhat",
+        "Slimane Bellaouar",
+        "Attia Nehar",
+        "Hadda Cherroun"
+    ],
+    "Affiliations": [
+        "Universit\u00e9 Amar Telidji",
+        "Universit\u00e9 de Ghardaia",
+        "Universit\u00e9 Ziane Achour - Djelfa"
+    ],
+    "Abstract": "Multimodal Sentiment Analysis (MSA) has recently become a centric research direction for many real-world applications. This proliferation is due to the fact that opinions are central to almost all human activities and are key influencers of our behaviors. In addition, the recent deployment of Deep Learning-based (DL) models has proven their high efficiency to a wide range of Western languages. In contrast, Arabic DL-based multimodal sentiment analysis (MSA) is still in its infantile stage due, mainly, to the lack of standard datasets. In this paper, our investigation is twofold. First, we design a pipeline that helps building our Arabic Multimodal dataset leveraging both state-of-the-art transformers and feature extraction tools within word alignment techniques. Thereafter, we validate our dataset using state-of-the-art transformer-based model dealing with multimodality. Despite the small size of the outcome dataset, experiments show that Arabic multimodality is very promising.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
