@@ -1,0 +1,55 @@
+{
+    "Name": "fanar",
+    "Volume": 468000.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://huggingface.co/collections/QCRI/fanarguard",
+    "HF_Link": "https://huggingface.co/collections/QCRI/fanarguard",
+    "Year": 2026,
+    "Domain": [
+        "public datasets",
+        "LLM",
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "machine annotation",
+        "human annotation",
+        "LLM generated"
+    ],
+    "Description": "Bilingual moderation filter for Arabic.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Qatar Computing Research Institute"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "FanarGuard: A Culturally-Aware Moderation Filter for Arabic Language Models",
+    "Paper_Link": "https://aclanthology.org/2026.eacl-long.368.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "safety evaluation",
+        "other"
+    ],
+    "Venue_Title": "EACL",
+    "Venue_Type": "conference",
+    "Venue_Name": "EACL 2026",
+    "Authors": [
+        "Masoomali Fatehkia",
+        "Enes Altinisik",
+        "Husrev Taha Sencar"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "HBKU"
+    ],
+    "Abstract": "Content moderation filters are a critical safeguard against alignment failures in language models. Yet most existing filters focus narrowly on general safety and overlook cultural context. In this work, we introduce FanarGuard, a bilingual moderation filter that evaluates both safety and cultural alignment in Arabic and English. We construct a dataset of over 468K prompt and response pairs, drawn from synthetic and public datasets, scored by a panel of LLM judges on harmlessness and cultural awareness, and use it to train two filter variants. To rigorously evaluate cultural alignment, we further develop the first benchmark targeting Arabic cultural contexts, comprising over 1K norm-sensitive prompts with LLM-generated responses annotated by human raters. Results show that FanarGuard achieves stronger agreement with human annotations than inter-annotator reliability, while matching the performance of state-of-the-art filters on safety benchmarks. These findings highlight the importance of integrating cultural awareness into moderation and establish FanarGuard as a practical step toward more context-sensitive safeguards.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
