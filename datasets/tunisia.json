@@ -1,0 +1,80 @@
+{
+    "Name": "Tunisia",
+    "Volume": 1673.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/fbougares/Tunisian-Sub-Dialects-Corpus",
+    "HF_Link": "",
+    "Year": 2019,
+    "Domain": [
+        "social media",
+        "TV channels"
+    ],
+    "Form": "audio",
+    "Collection_Style": [
+        "crawling",
+        "manual curation"
+    ],
+    "Description": "Tunisian sub-dialects corpus",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "FLAH Manouba",
+        "Sfax Universit\u00e9",
+        "Le Mans Universit\u00e9"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Text and Speech-based Tunisian Arabic Sub-Dialects Identification",
+    "Paper_Link": "https://aclanthology.org/2020.lrec-1.787.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "dialect identification"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "",
+    "Venue_Name": "",
+    "Authors": [
+        "Najla Ben Abdallah",
+        "Sameh Kchaou",
+        "Fethi BOUGARES"
+    ],
+    "Affiliations": [
+        "FLAH Manouba",
+        "Sfax Universit\u00e9",
+        "Le Mans Universit\u00e9"
+    ],
+    "Abstract": "Dialect IDentification (DID) is a challenging task, and it becomes more complicated when it is about the identification of dialects that belong to the same country. Indeed, dialects of the same country are closely related and exhibit a significant overlapping at the phonetic and lexical levels. In this paper, we present our first results on a dialect classification task covering four sub-dialects spoken in Tunisia. We use the term 'sub-dialect' to refer to the dialects belonging to the same country. We conducted our experiments aiming to discriminate between Tunisian sub-dialects belonging to four different cities: namely Tunis, Sfax, Sousse and Tataouine. A spoken corpus of 1673 utterances is collected, transcribed and freely distributed. We used this corpus to build several speech- and text-based DID systems. Our results confirm that, at this level of granularity, dialects are much better distinguishable using the speech modality. Indeed, we were able to reach an F-1 score of 93.75% using our best speech-based identification system while the F-1 score is limited to 54.16% using text-based DID on the same test set.",
+    "Subsets": [
+        {
+            "Name": "Sfax",
+            "Volume": 298.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "Tunis",
+            "Volume": 411.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "Sousse",
+            "Volume": 626.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "Tataouine",
+            "Volume": 338.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
