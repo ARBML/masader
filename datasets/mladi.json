@@ -1,0 +1,58 @@
+{
+    "Name": "MLADI",
+    "Volume": 100000.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://mohamedalaa9.github.io/lahjatbert/",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "machine annotation",
+        "LLM generated"
+    ],
+    "Description": "Multi-label dataset for Arabic Dialect Identification.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Derived_From": [
+        "NADI2020",
+        "NADI2021",
+        "NADI2023"
+    ],
+    "Paper_Title": "Curriculum Learning and Pseudo-Labeling Improve the Generalization of Multi-Label Arabic Dialect Identification Models",
+    "Paper_Link": "https://arxiv.org/pdf/2602.12937v2.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "0",
+    "Test_Split": true,
+    "Tasks": [
+        "dialect identification",
+        "text classification"
+    ],
+    "Venue_Title": "ArabicNLP",
+    "Venue_Type": "conference",
+    "Venue_Name": "Second Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Ali Mekky",
+        "Mohamed El Zeftawy",
+        "Lara Hassan",
+        "Amr Keleg",
+        "Preslav Nakov"
+    ],
+    "Affiliations": [
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Abstract": "Dialects are often modeled as a single-label classification task for a long time, recent work has argued that Arabic Dialect Identification (ADI) should be framed as a multi-label classification task. However, ADI remains constrained by the availability of its training data. By analyzing models trained on single-label ADI datasets, we show that the false negatives in Multi-Label Arabic Dialect Identification (MLADI) lies in the selection of negative samples, as many sentences treated as negative could be acceptable in multiple dialects. To address these issues, we construct a multi-label dataset by generating automatic multi-label annotations using GPT-4o and binary dialect acceptability classifiers, with aggregation guided by the Arabic Level of Dialectness (ALDi). Afterward, we train a BERT-based multi-label classifier using curriculum learning strategies aligned with dialectal complexity and label cardinality. On the MLADI leaderboard, our best-performing LAHJATBERT model achieves a macro F1 of 0.69, compared to 0.55 for the strongest previously reported system. Code and data are available at https://mohamedalaa9.github.io/lahjatbert/.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
