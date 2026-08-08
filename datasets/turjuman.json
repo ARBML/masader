@@ -1,0 +1,51 @@
+{
+    "Name": "turjuman",
+    "Volume": 0.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/UBC-NLP/turjuman",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling"
+    ],
+    "Description": "Neural MT toolkit for Arabic",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "University of British Columbia"
+    ],
+    "Derived_From": [
+        "OPUS"
+    ],
+    "Paper_Title": "TURJUMAN: A Public Toolkit for Neural Arabic Machine Translation",
+    "Paper_Link": "https://aclanthology.org/2022.osact-1.1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue_Title": "ACL",
+    "Venue_Type": "conference",
+    "Venue_Name": "ACL",
+    "Authors": [
+        "ElmoatezBillahNagoudi",
+        "AbdelRahimElmadany",
+        "MuhammadAbdul-Mageed"
+    ],
+    "Affiliations": [
+        "The University of British Columbia"
+    ],
+    "Abstract": "We present TURJUMAN, a neural toolkit for translating from 20 languages into Modern Standard Arabic (MSA). TURJUMAN exploits the recently-introduced text-to-text Transformer AraT5 model, endowing it with a powerful ability to decode into Arabic. The toolkit offers the possibility of employing a number of diverse decoding methods, making it suited for acquiring paraphrases for the MSA translations as an added value. To train TURJUMAN, we sample from publicly available parallel data employing a simple semantic similarity method to ensure data quality. This allows us to prepare and release AraOPUS-20, a new machine translation benchmark. We publicly release our translation toolkit (TURJUMAN) as well as our benchmark dataset (AraOPUS-20).",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
