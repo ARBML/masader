@@ -1,0 +1,53 @@
+{
+    "Name": "ALPS",
+    "Volume": 531.0,
+    "Unit": "sentences",
+    "License": "CC BY 4.0",
+    "Link": "unknown",
+    "HF_Link": "unknown",
+    "Year": 2025,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "human annotation",
+        "manual curation"
+    ],
+    "Description": "Expert-curated Arabic NLP challenge set",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Independent Researchers"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "ALPS: A Diagnostic Challenge Set for Arabic Linguistic & Pragmatic Reasoning",
+    "Paper_Link": "https://arxiv.org/pdf/2602.17054v1.pdf",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "multiple choice question answering",
+        "semantic role labeling",
+        "word sense disambiguation",
+        "linguistic acceptability",
+        "text classification"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Hussein S. Al-Olimat",
+        "Ahmad Alshareef"
+    ],
+    "Affiliations": [
+        "Independent Researchers"
+    ],
+    "Abstract": "While recent Arabic NLP benchmarks focus on scale, they often rely on synthetic or translated data which may benefit from deeper linguistic verification. We introduce ALPS (Arabic Linguistic & Pragmatic Suite), a native, expert-curated diagnostic challenge set probing Deep Semantics and Pragmatics, capabilities that complement specialized large-scale benchmarks. While broad-coverage benchmarks prioritize scale and multi-task coverage, ALPS targets the depth of linguistic understanding through 531 rigorously crafted questions across 15 tasks and 47 subtasks. We developed the dataset with deep expertise in Arabic linguistics, guaranteeing cultural authenticity and eliminating translation artifacts. Evaluating 23 diverse models (commercial, open-source, and Arabic-native) against a single-pass human performance (avg. 84.6% accuracy) and an expert-adjudicated oracle (99.2%), we reveal a critical dissociation: models achieve high fluency but fail on fundamental morpho-syntactic dependencies, with elevated error rates on morpho-syntactic dependencies (36.5% across diacritics-reliant tasks) compared to compositional semantics. While top commercial models (Gemini-3-flash at 94.2%) surpass the average single human, a substantial gap persists between commercial giants and Arabic-native models, with the best Arabic-specific model (Jais-2-70B at 83.6%) approaching but not matching human performance.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
