@@ -1,0 +1,56 @@
+{
+    "Name": "Dolphin",
+    "Volume": 40.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://dolphin.dlnlp.ai/",
+    "HF_Link": "",
+    "Year": 2023,
+    "Domain": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "manual curation"
+    ],
+    "Description": "Benchmark for Arabic NLG evaluation",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "The University of British Columbia",
+        "MBZUAI"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "A Challenging and Diverse Benchmark for Arabic NLG",
+    "Paper_Link": "https://aclanthology.org/2023.findings-emnlp.98.pdf",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "machine translation",
+        "text summarization",
+        "question answering",
+        "dialogue generation",
+        "grammatical error correction"
+    ],
+    "Venue_Title": "EMNLP",
+    "Venue_Type": "conference",
+    "Venue_Name": "EMNLP",
+    "Authors": [
+        "ElMoatez Billah Nagoudi",
+        "Abdel Rahim Elmadany",
+        "Ahmed Oumar El-Shangiti",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "The University of British Columbia",
+        "MBZUAI"
+    ],
+    "Abstract": "We present Dolphin, a novel benchmark that addresses the need for a natural language generation (NLG) evaluation framework dedicated to the wide collection of Arabic languages and varieties. The proposed benchmark encompasses a broad range of 13 different NLG tasks, including dialogue generation, question answering, machine translation, summarization, among others. Dolphin comprises a substantial corpus of 40 diverse and representative public datasets across 50 test splits, carefully curated to reflect real-world scenarios and the linguistic richness of Arabic. It sets a new standard for evaluating the performance and generalization capabilities of Arabic and multilingual models, promising to enable researchers to push the boundaries of current methodologies.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
