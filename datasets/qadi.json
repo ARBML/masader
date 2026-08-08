@@ -1,0 +1,56 @@
+{
+    "Name": "QADI",
+    "Volume": 540000.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "http://alt.qcri.org/resources/qadi/",
+    "HF_Link": "",
+    "Year": 2020,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "manual annotation"
+    ],
+    "Description": "540k Arabic tweets covering 18 dialects.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Qatar Computing Research Institute",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "QADI: Arabic Dialect Identification in the Wild",
+    "Paper_Link": "https://aclanthology.org/2021.wanlp-1.1.pdf",
+    "Tokenized": false,
+    "Host": "QCRI Resources",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "dialect identification",
+        "text classification",
+        "author profiling"
+    ],
+    "Venue_Title": "Unknown",
+    "Venue_Type": "conference",
+    "Venue_Name": "",
+    "Authors": [
+        "Ahmed Abdelali",
+        "Hamdy Mubarak",
+        "Younes Samih",
+        "Sabit Hassan",
+        "Kareem Darwish"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "Proper dialect identification is important for a variety of Arabic NLP applications. In this paper, we present a method for rapidly constructing a tweet dataset containing a wide range of country-level Arabic dialects \u2014covering 18 different countries in the Middle East and North Africa region. Our method relies on applying multiple filters to identify users who belong to different countries based on their account descriptions and to eliminate tweets that either write mainly in Modern Standard Arabic or mostly use vulgar language. The resultant dataset contains 540k tweets from 2,525 users who are evenly distributed across 18 Arab countries. Using intrinsic evaluation, we show that the labels of a set of randomly selected tweets are 91.5% accurate. For extrinsic evaluation, we are able to build effective country-level dialect identification on tweets with a macro-averaged F1-score of 60.6% across 18 classes.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
