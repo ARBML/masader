@@ -1,0 +1,56 @@
+{
+    "Name": "PARSEME",
+    "Volume": 1847.0,
+    "Unit": "sentences",
+    "License": "CC BY 4.0",
+    "Link": "https://gitlab.com/parseme/parseme_corpus_ar",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "Annotated Arabic VMWE corpus.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "PARSEME"
+    ],
+    "Derived_From": [
+        "Prague Arabic Dependency Treebank"
+    ],
+    "Paper_Title": "Annotation d\u2019expressions polylexicales verbales en arabe : validation d\u2019une proc\u00e9dure d\u2019annotation multilingue",
+    "Paper_Link": "https://aclanthology.org/2022.jeptalnrecital-taln.27.pdf",
+    "Tokenized": true,
+    "Host": "GitLab",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "TALN",
+    "Venue_Type": "conference",
+    "Venue_Name": "TALN",
+    "Authors": [
+        "Najet Hadj Mohamed",
+        "Cherifa Ben Khelil",
+        "Agata Savary",
+        "Iskandar Keskes",
+        "Jean-Yves Antoine",
+        "Lamia Belguith Hadrich"
+    ],
+    "Affiliations": [
+        "LIFAT",
+        "MIRACL",
+        "LISN"
+    ],
+    "Abstract": "This paper describes our efforts to extend the PARSEME framework to Modern Standard Arabic. The applicability of the PARSEME guidelines was tested by measuring the inter-annotator agreement in the early annotation stage. A subset of 1062 sentences from the Prague Arabic Dependency Treebank PADT was selected and annotated by two Arabic native speakers independently. Following their annotations, a new Arabic corpus with over 1250 annotated VMWEs has been built.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
