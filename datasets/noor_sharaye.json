@@ -34,16 +34,16 @@
     "Access": "Free",
     "Cost": "",
     "Has Splits": false,
-    "Partial": false,
+    "Partial": true,
     "Tasks": [
         "morphological analysis",
         "stemming",
         "part of speech tagging",
         "lemmatization"
     ],
-    "Venue Title": "AAAI",
-    "Venue Type": "conference",
-    "Venue Name": "AAAI Conference on Artificial Intelligence",
+    "Venue Title": "JOHD",
+    "Venue Type": "journal",
+    "Venue Name": "Journal of Open Humanities Data",
     "Authors": [
         "Azal Alaswaad",
         "Behrouz Minaei-Bidgoli"
