@@ -1,0 +1,56 @@
+{
+    "Name": "Noor-Sharaye",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://zenodo.org/records/21481222",
+    "License": "CC BY 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Classical Arabic",
+    "Source": [
+        "books"
+    ],
+    "Domain": [
+        "religion",
+        "history"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation"
+    ],
+    "Description": "The dataset is a morphologically annotated Classical Arabic corpus containing word forms, stems, lemmas, roots, part-of-speech tags, and affix information.",
+    "Volume": 205000.0,
+    "Unit": "tokens",
+    "Provider": [
+        "Iran University of Science & Technology"
+    ],
+    "Derived From": [],
+    "Paper Title": "Noor-Sharaye v.1. A Benchmark Dataset of Complex Words for Evaluating Arabic Analyzers",
+    "Paper Link": "https://reference-global.com/download/article/10.5334/johd.572.pdf",
+    "Script": "Arab",
+    "Tokenized": true,
+    "Host": "zenodo",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": true,
+    "Tasks": [
+        "morphological analysis",
+        "stemming",
+        "part of speech tagging",
+        "lemmatization"
+    ],
+    "Venue Title": "JOHD",
+    "Venue Type": "journal",
+    "Venue Name": "Journal of Open Humanities Data",
+    "Authors": [
+        "Azal Alaswaad",
+        "Behrouz Minaei-Bidgoli"
+    ],
+    "Affiliations": [
+        "Iran University of Science & Technology"
+    ],
+    "Abstract": "The Noor-Sharaye dataset is a morphologically annotated Classical Arabic corpus containing approximately 205,000 word instances extracted from 17 different Classical Arabic books, including Quranic, Fiqh, Hadith, and historical texts. Each token is enriched with detailed linguistic annotations such as stem, lemma, root, part-of-speech tags, segmentation, grammatical case, gender, number, and affix-level features, designed to capture the complex morphological structure of Classical Arabic. The data are encoded in UTF-8 XLS, XML, and JSON formats for broad compatibility. This resource supports stemming, root extraction, morphological analysis, and benchmarking of AI-based models in Arabic Natural Language Processing.",
+    "Added By": "Zaid Alyafeai"
+}
