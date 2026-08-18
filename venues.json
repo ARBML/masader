@@ -997,5 +997,10 @@
         "name": "Arabian Journal for Science and Engineering",
         "type": "journal",
         "aliases": []
+    },
+    "JOHD": {
+        "name": "Journal of Open Humanities Data",
+        "type": "journal",
+        "aliases": []
     }
 }
