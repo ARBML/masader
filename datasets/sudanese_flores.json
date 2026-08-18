@@ -21,8 +21,7 @@
     "Language": "ar",
     "Dialect": "Sudan",
     "Source": [
-        "public datasets",
-        "manual construction"
+        "public datasets"
     ],
     "Domain": [
         "general"
