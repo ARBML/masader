@@ -30,10 +30,7 @@
     "Provider": [
         "Sorbonne Universit\u00e9"
     ],
-    "Derived From": [
-        "Wojood",
-        "OntoNotes"
-    ],
+    "Derived From": [],
     "Paper Title": "AdabNer: Arabic Digital Archive Books with Nested Entity Recognition",
     "Paper Link": "https://aclanthology.org/2026.acl-long.1541.pdf",
     "Script": "Arab",
