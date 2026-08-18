@@ -1,0 +1,63 @@
+{
+    "Name": "AdabNer",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://doi.org/10.5281/zenodo.19468385",
+    "License": "custom",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "books"
+    ],
+    "Domain": [
+        "history",
+        "literature",
+        "politics",
+        "science",
+        "culture",
+        "general",
+        "society"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "First large-scale nested NER dataset for MSA literary texts.",
+    "Volume": 876000.0,
+    "Unit": "tokens",
+    "Provider": [
+        "Sorbonne Universit\u00e9"
+    ],
+    "Derived From": [
+        "Wojood",
+        "OntoNotes"
+    ],
+    "Paper Title": "AdabNer: Arabic Digital Archive Books with Nested Entity Recognition",
+    "Paper Link": "https://aclanthology.org/2026.acl-long.1541.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "zenodo",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "named entity recognition"
+    ],
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
+    "Authors": [
+        "Aya Mourad",
+        "Mustafa Jarrar"
+    ],
+    "Affiliations": [
+        "Sorbonne Universit\u00e9",
+        "Hamad Bin Khalifa University",
+        "Birzeit University"
+    ],
+    "Abstract": "Most studies on Arabic Named Entity Recognition (NER) have focused on news texts and social media posts, while the large and rich corpus of literary Arabic books has been under-represented. We introduce AdabNer, the first large-scale nested NER dataset for Modern Standard Arabic (MSA) literary texts, comprising the first 6,000 words annotated from each of 138 books spanning ten literary genres, including history, biography, literary criticism, and travel literature, and covering works from the 1880s to the 2020s. The corpus comprises about 876K tokens, manually annotated using a nested 21 entity tag annotation scheme, yielding 78,530 entity mentions, 18.96% of which are nested. We fine-tuned five pre-trained Arabic BERT encoders in two settings: stratified and leave-book-out, achieving F1 scores of 0.86 and 0.83 with AraBERTv2, respectively. We also evaluated five large language models through few-shot in-context learning, including open-source models and the closed-source Gemini 3 Pro, with Gemini 3 Pro achieving the highest LLM F1 score of 0.59. Supervised results degraded under out-of-domain evaluation; however, joint multi-domain training reduced this gap to less than a 1% F1 loss, demonstrating that domain-diverse training data is key to robust Arabic NER, though broader validation beyond the experiments reported is needed. AdabNer and its annotation guidelines are publicly available.",
+    "Added By": "Zaid Alyafeai"
+}
