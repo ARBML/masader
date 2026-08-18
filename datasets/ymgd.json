@@ -1,0 +1,59 @@
+{
+    "Name": "YMGD",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://doi.org/10.5281/zenodo.19543208",
+    "License": "CC BY 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Yemen",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "culture",
+        "art"
+    ],
+    "Form": "audio",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "A benchmark for Arabic Yemeni musical traditions with five genres.",
+    "Volume": 1150.0,
+    "Unit": "sentences",
+    "Provider": [
+        "IBB University"
+    ],
+    "Derived From": [],
+    "Paper Title": "YMGD: A yemeni music genres database with audio recordings, mel-spectrograms, and metadata",
+    "Paper Link": "https://doi.org/10.1016/j.dib.2026.112859",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "zenodo",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "dialect identification"
+    ],
+    "Venue Title": "Data in Brief",
+    "Venue Type": "journal",
+    "Venue Name": "Data in Brief",
+    "Authors": [
+        "Eiad AL-Mekhlafi",
+        "Moeen AL-Makhlafi",
+        "Saher Qaida",
+        "Ahmed Asqeina",
+        "Ahmed Alawadhia",
+        "Nawaf Q. Othman"
+    ],
+    "Affiliations": [
+        "IBB University",
+        "National University",
+        "Wuhan College",
+        "Xian Fanyi University"
+    ],
+    "Abstract": "The Yemeni Music Genres Dataset (YMGD) is the first curated benchmark for Arabic Yemeni musical traditions, comprising a balanced collection of five genres, Sana'ani, Hadhrami, Tihami, Lahji, and Adeni, with 230 audio recordings per class, each standardized to 30 s. In addition to the audio content, the dataset includes comprehensive metadata for each track, including artist name, genre label, and title, enabling structured analysis and reproducibility. The dataset was manually collected from publicly available sources, primarily YouTube, and subsequently annotated by domain experts in Yemeni music to ensure high labeling fidelity. Inter-annotator agreement was quantified using Fleiss\u2019 Kappa, yielding a score of 0.85, indicating strong consistency and reliability in the annotation process. This dataset provides a robust foundation for a wide range of research applications, including music information retrieval, the development and evaluation of machine learning models for genre classification, recommendation systems, and computational cultural analysis. By combining expert validation with balanced representation and standardized preprocessing, it establishes a high-quality benchmark resource for both research and educational use in low-resource musical domains. The dataset will be accessible at the following link: https://doi.org/10.5281/zenodo.19543208",
+    "Added By": "Zaid Alyafeai"
+}
