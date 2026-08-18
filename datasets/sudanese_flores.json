@@ -1,0 +1,69 @@
+{
+    "Name": "Sudanese-Flores",
+    "Dialect Subsets": [
+        {
+            "Name": "Sudanese",
+            "Volume": 2009.0,
+            "Unit": "sentences",
+            "Dialect": "Sudan"
+        },
+        {
+            "Name": "MSA",
+            "Volume": 2009.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/McGill-NLP/Sudanese-Flores",
+    "Link": "https://huggingface.co/datasets/McGill-NLP/Sudanese-Flores",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Sudan",
+    "Source": [
+        "public datasets",
+        "manual construction"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation"
+    ],
+    "Description": "An extension of the popular Flores+ machine translation (MT) benchmark to the Sudanese Arabic dialect.",
+    "Volume": 2009.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Mila"
+    ],
+    "Derived From": [
+        "Flores+"
+    ],
+    "Paper Title": "Sudanese-Flores: Extending Flores+ to Sudanese Arabic Dialect",
+    "Paper Link": "https://aclanthology.org/2026.africanlp-main.25.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "machine translation"
+    ],
+    "Venue Title": "AfricaNLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on African Natural Language Processing",
+    "Authors": [
+        "Hadia Mohmmedosman Ahmed Samil",
+        "David Ifeoluwa Adelani"
+    ],
+    "Affiliations": [
+        "Mila-Quebec AI Institute",
+        "McGill University"
+    ],
+    "Abstract": "In this work, we introduce Sudanese-Flores, an extension of the popular Flores+ machine translation (MT) benchmark to the Sudanese Arabic dialect. We translate both the DEV and DEVTEST splits of the Modern Standard Arabic dataset into the corresponding Sudanese dialect, resulting in a total of 2,009 sentences. While the dialect was recently introduced in Google Translate, there are no available benchmark in this dialect despite it being spoken by over 40 million people. Our evaluation on GPT-4.1, Gemini 2.5 Flash, and open-weight models (LLaMA-3.3 70B and Qwen-3 80B) showed that while the performance from English to Arabic is impressive (more than 23 BLEU), they struggle on Sudanese dialect (less than 11 BLEU) in zero-shot settings. In the few-shot scenario, we achieved only a slight improvement in performance.",
+    "Added By": "Zaid Alyafeai"
+}
