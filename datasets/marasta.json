@@ -1,0 +1,86 @@
+{
+    "Name": "MARASTA",
+    "Dialect Subsets": [
+        {
+            "Name": "Egypt",
+            "Volume": 974.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Maghreb",
+            "Volume": 1303.0,
+            "Unit": "sentences",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 1105.0,
+            "Unit": "sentences",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "Levant",
+            "Volume": 1275.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://zenodo.org/records/18536173",
+    "License": "CC BY 4.0",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media",
+        "web pages"
+    ],
+    "Domain": [
+        "politics",
+        "society",
+        "sports",
+        "culture"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "A multi-dialectal Arabic cross-domain stance corpus",
+    "Volume": 4657.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Carnegie Mellon University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [],
+    "Paper Title": "MARASTA: A Multi-dialectal Arabic Cross-domain Stance Corpus",
+    "Paper Link": "https://aclanthology.org/2024.lrec-main.964.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "zenodo",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "stance detection"
+    ],
+    "Venue Title": "LREC-COLING",
+    "Venue Type": "conference",
+    "Venue Name": "Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
+    "Authors": [
+        "Anis Charfi",
+        "Mabrouka Bessghaier",
+        "Andria Atalla",
+        "Raghda Akasheh",
+        "Sara Al-Emadi",
+        "Wajdi Zaghouani"
+    ],
+    "Affiliations": [
+        "Carnegie Mellon University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "This paper introduces a cross-domain and multi-dialectal stance corpus for Arabic that includes four regions in the Arab World and covers the main Arabic dialect groups. Our corpus consists of 4657 sentences manually annotated with each sentence\u2019s stance towards a specific topic. For each region, we collected sentences related to two controversial topics. We annotated each sentence by at least two annotators to indicate if its stance favors the topic, is against it, or is neutral. Our corpus is well-balanced concerning dialect and stance. Approximately half of\nthe sentences are in Modern Standard Arabic (MSA) for each region, and the other half is in the region\u2019s respective dialect. We conducted several machine-learning experiments for stance detection using our new corpus. Our most successful model is the Multi-Layer Perceptron (MLP), using Unigram or TF-IDF extracted features, which yielded an F1-score of 0.66 and an accuracy score of 0.66. Compared with the most similar state-of-the-art dataset, our dataset outperformed in specific stance classes, particularly \u201dneutral\u201d and \u201dagainst\u201d",
+    "Added By": "Zaid Alyafeai"
+}
