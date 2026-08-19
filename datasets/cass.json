@@ -36,7 +36,7 @@
     "Host": "zenodo",
     "Access": "Free",
     "Cost": "",
-    "Has Splits": true,
+    "Has Splits": false,
     "Partial": false,
     "Tasks": [
         "semantic similarity"
@@ -50,7 +50,7 @@
         "Dany El Feghali"
     ],
     "Affiliations": [
-        "American University of Beriut"
+        "American University of Beirut"
     ],
     "Abstract": "Arabic Semantic Textual Similarity (STS) research has been limited by the lack of\nlarge-scale, high-quality evaluation resources. We address this gap with the Com-\nprehensive Arabic Semantic Similarity (CASS) dataset, comprising 3,048 manu-\nally annotated sentence pairs with fine-grained similarity scores (0\u20135) spanning six\nsemantic categories and 42 subcategories. CASS is four times larger than existing\nArabic STS datasets and provides structured taxonomic coverage supporting sys-\ntematic model evaluation. We validate CASS by evaluating 21 large language mod-\nels, including commercial systems, large open-source models, and Arabic-specific\nsystems. Fine-tuning on CASS achieves state-of-the-art performance, with Fanar 9B\nreaching 0.93 Spearman correlation, exceeding GPT-4o\u2019s zero-shot baseline (0.90).\nCross-dataset experiments demonstrate CASS\u2019s superior generalization, with mod-\nels trained on CASS outperforming those trained on smaller benchmarks by 2\u201310%.\nLearning curve analysis indicates that approximately 500\u20131,000 high-quality Arabic\npairs provide favorable cost-benefit trade-offs based on experiments with four rep-\nresentative models, while bilingual training provides gains in low-resource settings.\nCASS establishes essential infrastructure for Arabic STS research and applications\nin education, legal technology, and content moderation.",
     "Added By": "Zaid Alyafeai"
