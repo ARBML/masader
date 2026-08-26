@@ -1,0 +1,63 @@
+{
+    "Name": "HalluTruthQA-4K",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/Bekhouche/HalluTruthQA-4K",
+    "Link": "https://huggingface.co/datasets/Bekhouche/HalluTruthQA-4K",
+    "License": "CC BY-NC-ND 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets",
+        "manual construction"
+    ],
+    "Domain": [
+        "religion",
+        "history",
+        "science",
+        "geography"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation",
+        "LLM annotation"
+    ],
+    "Description": "Expert-annotated Arabic hallucination detection corpus across four domains.",
+    "Volume": 4000.0,
+    "Unit": "sentences",
+    "Provider": [],
+    "Derived From": [
+        "HalluTruthQA"
+    ],
+    "Paper Title": "HalluTruthQA-4K: A Fine-Grained Corpus and Annotation Process for Arabic Hallucination Detection and Truth Verification",
+    "Paper Link": "https://arxiv.org/pdf/2608.03966.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "hallucination detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Salah Eddine Bekhouche",
+        "Abdessalam Bouchekif",
+        "Hichem Telli",
+        "Mohammed-En-Nadhir Zighem",
+        "Abdenour Hadid"
+    ],
+    "Affiliations": [
+        "University of the Basque Country",
+        "Hamad Bin Khalifa University",
+        "University of Biskra",
+        "Universiti Malaysia Kelantan"
+    ],
+    "Abstract": "Large language models can generate fluent answers, yet factual errors remain challenging to detect, localize, explain, and verify. Existing Arabic hallucination benchmarks typically focus on response-level judgments, with limited support for identifying the exact erroneous content, explaining why it is incorrect, or identifying the correct factual answer. We introduce HalluTruthQA-4K, an expert-annotated extension of the HalluTruthQA benchmark, expanding the corpus from 2,400 to 4,000 Arabic question answering (QA) instances across four knowledge-intensive domains: Islamic knowledge, history, science, and geography. Each instance contains an Arabic question, a model-generated response, a verified reference answer, and six candidate answers consisting of one correct answer and five plausible distractors. For hallucinated responses, the corpus additionally provides character-level hallucination spans and human-written explanations. The resulting corpus contains 1,789 hallucinated and 2,211 non-hallucinated responses, with 2,419 annotated erroneous spans. These annotations support four main evaluation tasks: binary hallucination detection, hallucination span localization, explanation generation and evaluation, and multiple-choice factual verification (MCQ). We describe the corpus construction and quality-control process, including controlled response generation, expert annotation, independent verification, and adjudication. By providing multiple levels of factual error annotation within the same QA instances, HalluTruthQA-4K enables fine-grained evaluation of factual reliability in Arabic LLMs. The corpus is publicly available on Hugging Face.",
+    "Added By": "Zaid Alyafeai"
+}
