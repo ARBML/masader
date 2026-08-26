@@ -1,0 +1,50 @@
+{
+    "Name": "Tadabur",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/FaisaI/tadabur",
+    "Link": "https://github.com/fherran/tadabur",
+    "License": "CC BY-NC 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Classical Arabic",
+    "Source": [
+        "web pages"
+    ],
+    "Domain": [
+        "religion"
+    ],
+    "Form": "audio",
+    "Annotation Style": [
+        "LLM annotation",
+        "metadata-derived",
+        "machine annotation"
+    ],
+    "Description": "Tadabur is a large-scale, high-diversity Qur'anic speech dataset designed to advance research in Qur'anic Automatic Speech Recognition (ASR), reciter modeling, tajw\u012bd-aware speech processing, and prosodic analysis. ",
+    "Volume": 1400.0,
+    "Unit": "hours",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "Tadabur: A Large-Scale Quran Audio Dataset",
+    "Paper Link": "https://arxiv.org/pdf/2604.18932.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "speech recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Faisal Alherran"
+    ],
+    "Affiliations": [
+        "Independent Researcher"
+    ],
+    "Abstract": "Despite growing interest in Quranic data research, existing Quran datasets remain limited in both scale and diversity. To address this gap, we present Tadabur, a large-scale Quran audio dataset. Tadabur comprises more than 1400+ hours of recitation audio from over 600 distinct reciters, providing substantial variation in recitation styles, vocal characteristics, and recording conditions. This diversity makes Tadabur a comprehensive and representative resource for Quranic speech research and analysis. By significantly expanding both the total duration and variability of available Quran data, Tadabur aims to support future research and facilitate the development of standardized Quranic speech benchmarks.",
+    "Added By": "Zaid Alyafeai"
+}
