@@ -1,22 +1,15 @@
 {
     "Name": "SARD",
-    "Dialect Subsets": [
-        {
-            "Name": "SARD",
-            "Volume": 689700000.0,
-            "Unit": "tokens",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
-    "HF Link": "https://huggingface.co/collections/riotu-lab/sard-large-scale-synthetic-arabic-ocr-dataset-68204eae3ccd1e0216fb68ca",
-    "Link": "https://github.com/riotu-lab/text2image",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/riotu-lab/SARD",
+    "Link": "https://github.com/riotu-lab/sard",
     "License": "unknown",
     "Year": 2025,
     "Language": "ar",
     "Dialect": "Modern Standard Arabic",
     "Source": [
-        "manual construction",
-        "web pages"
+        "web pages",
+        "books"
     ],
     "Domain": [
         "culture",
@@ -28,13 +21,14 @@
     ],
     "Form": "images",
     "Annotation Style": [
-        "metadata-derived"
+        "metadata-derived",
+        "LLM annotation"
     ],
     "Description": "Large-scale synthetic Arabic book-style OCR data",
-    "Volume": 689700000.0,
-    "Unit": "tokens",
+    "Volume": 2621075.0,
+    "Unit": "images",
     "Provider": [
-        "Prince Sultan University"
+        "riotu-lab"
     ],
     "Derived From": [],
     "Paper Title": "SARD: A Large-Scale Synthetic Arabic OCR Dataset for Book-Style Text Recognition",
@@ -43,8 +37,8 @@
     "Tokenized": false,
     "Host": "HuggingFace",
     "Access": "Free",
-    "Cost": "0",
-    "Has Splits": true,
+    "Cost": "",
+    "Has Splits": false,
     "Partial": false,
     "Tasks": [
         "optical character recognition"
