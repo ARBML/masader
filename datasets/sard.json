@@ -1,0 +1,67 @@
+{
+    "Name": "SARD",
+    "Dialect Subsets": [
+        {
+            "Name": "SARD",
+            "Volume": 689700000.0,
+            "Unit": "tokens",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/collections/riotu-lab/sard-large-scale-synthetic-arabic-ocr-dataset-68204eae3ccd1e0216fb68ca",
+    "Link": "https://github.com/riotu-lab/text2image",
+    "License": "unknown",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction",
+        "web pages"
+    ],
+    "Domain": [
+        "culture",
+        "religion",
+        "literature",
+        "news",
+        "society",
+        "general"
+    ],
+    "Form": "images",
+    "Annotation Style": [
+        "metadata-derived"
+    ],
+    "Description": "Large-scale synthetic Arabic book-style OCR data",
+    "Volume": 689700000.0,
+    "Unit": "tokens",
+    "Provider": [
+        "Prince Sultan University"
+    ],
+    "Derived From": [],
+    "Paper Title": "SARD: A Large-Scale Synthetic Arabic OCR Dataset for Book-Style Text Recognition",
+    "Paper Link": "https://arxiv.org/pdf/2505.24600.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "0",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "optical character recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Omer Nacar",
+        "Yasser Al-Habashi",
+        "Serry Sibaee",
+        "Adel Ammar",
+        "Wadii Boulila"
+    ],
+    "Affiliations": [
+        "Prince Sultan University"
+    ],
+    "Abstract": "Arabic Optical Character Recognition (OCR) is essential for converting vast amounts of Arabic print media into digital formats. However, training modern OCR models, especially powerful vision-language models, is hampered by the lack of large, diverse, and well-structured datasets that mimic real-world book layouts. Existing Arabic OCR datasets often focus on isolated words or lines or are limited in scale, typographic variety, or structural complexity found in books. To address this significant gap, we introduce SARD (Large-Scale Synthetic Arabic OCR Dataset). SARD is a massive, synthetically generated dataset specifically designed to simulate book-style documents. It comprises 843,622 document images containing 690 million words, rendered across ten distinct Arabic fonts to ensure broad typographic coverage. Unlike datasets derived from scanned documents, SARD is free from real-world noise and distortions, offering a clean and controlled environment for model training.",
+    "Added By": "google/gemini-3-flash-preview"
+}
