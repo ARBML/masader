@@ -1,0 +1,69 @@
+{
+    "Name": "MemeLens",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/QCRI/MemeLens",
+    "Link": "https://github.com/MohamedBayan/MemeLens",
+    "License": "CC BY-NC 4.0",
+    "Year": 2026,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Source": [
+        "public datasets",
+        "social media"
+    ],
+    "Domain": [
+        "politics",
+        "society",
+        "culture",
+        "art"
+    ],
+    "Form": "images",
+    "Annotation Style": [
+        "inherited annotation"
+    ],
+    "Description": "A unified multilingual multitask vision-language resource with 38 meme datasets and 20 tasks.",
+    "Volume": 8208.0,
+    "Unit": "images",
+    "Provider": [
+        "QCRI"
+    ],
+    "Derived From": [
+        "Prop2Hate",
+        "ArMeme"
+    ],
+    "Paper Title": "MemeLens: Multilingual Multitask VLMs for Memes",
+    "Paper Link": "https://arxiv.org/pdf/2601.12539.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "propaganda detection",
+        "hate speech detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Ali Ezzat Shahroor",
+        "Mohamed Bayan Kmainasi",
+        "Abul Hasnat",
+        "Dimitar Dimitrov",
+        "Giovanni Da San Martino",
+        "Preslav Nakov",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "Blackbird.AI",
+        "APAVI.AI",
+        "Sofia University",
+        "University of Padova",
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Abstract": "Memes are a dominant medium for online communication and manipulation because meaning emerges from interactions between embedded text, imagery, and cultural context. Existing meme research is distributed across tasks (hate, misogyny, propaganda, sentiment, humour) and languages, which limits cross-domain generalization. To address this gap we propose MEMELENS, a unified multilingual and multitask explanation-enhanced Vision Language Model (VLM) for meme understanding. We consolidate 38 public meme datasets, filter and map dataset-specific labels into a shared taxonomy of 20 tasks spanning harm, targets, figurative/pragmatic intent, and affect. We present a comprehensive empirical analysis across modeling paradigms, task categories, and datasets. Our findings suggest that robust meme understanding requires multimodal training, exhibits substantial variation across semantic categories, and remains sensitive to over-specialization when models are fine-tuned on individual datasets rather than trained in a unified setting. We make the experimental resources, model and datasets publicly available to the community.",
+    "Added By": "Zaid Alyafeai"
+}
