@@ -1,0 +1,55 @@
+{
+    "Name": "FINERWEB",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/whoisjones/fiNERweb",
+    "Link": "https://github.com/whoisjones/fiNERweb",
+    "License": "MIT License",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "LLM annotation",
+        "machine annotation"
+    ],
+    "Description": "A large-scale multilingual synthetic NER dataset.",
+    "Volume": 2498.0,
+    "Unit": "documents",
+    "Provider": [
+        "Humboldt Universit\u00e4t zu Berlin"
+    ],
+    "Derived From": [
+        "FineWeb-2"
+    ],
+    "Paper Title": "FINERWEB: Datasets and Artifacts for Scalable Multilingual Named Entity Recognition",
+    "Paper Link": "https://arxiv.org/pdf/2512.13884.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "named entity recognition"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Jonas Golde",
+        "Patrick Haller",
+        "Alan Akbik"
+    ],
+    "Affiliations": [
+        "Humboldt Universit\u00e4t zu Berlin"
+    ],
+    "Abstract": "Recent multilingual named entity recognition (NER) work has shown that large language models (LLMs) can provide effective synthetic supervision, yet such datasets have mostly appeared as by-products of broader experiments rather than as systematic, reusable resources. We introduce FINERWEB, a dataset-creation pipeline that scales the teacher\u2013student paradigm to 91 languages and 25 scripts. Building on FineWeb-Edu, our approach trains regression models to identify NER-relevant passages and annotates them with multilingual LLMs, resulting in about 225k passages with 235k distinct entity labels. Our experiments show that the regression model achieves more than 84 F1, and that models trained on FINERWEB obtain comparable or improved performance in zero shot transfer settings on English, Thai, and Swahili, despite being trained on 19x less data than strong baselines. In addition, we assess annotation quality using LLM-as-a-judge and observe consistently high scores for both faithfulness (3.99/5) and completeness (4.05/5), indicating reliable and informative annotations. Further, we release the dataset with both English labels and translated label sets in the respective target languages because we observe that the performance of current state-of-the-art models drops by 0.02\u20130.09 F1 when evaluated using target language labels instead of English ones. We release FINERWEB together with all accompanying artifacts to the research community in order to facilitate more effective student-teacher training for multilingual named entity recognition.",
+    "Added By": "Zaid Alyafeai"
+}
