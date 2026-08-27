@@ -1,0 +1,70 @@
+{
+    "Name": "HalluTruthQA",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://gitlab.com/nlpresearcher/HalluTruthQA",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "science",
+        "religion",
+        "history",
+        "geography"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation",
+        "LLM annotation"
+    ],
+    "Description": "A fine-grained Arabic QA hallucination benchmark.",
+    "Volume": 2400.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [],
+    "Paper Title": "HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic QA",
+    "Paper Link": "https://arxiv.org/pdf/2607.20219.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitLab",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "hallucination detection"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Abdessalam Bouchekif",
+        "Mohammed-En-Nadhir Zighem",
+        "Salah Eddine Bekhouche",
+        "Hichem Telli",
+        "Somaya Eltanbouly",
+        "Shahd Gaben",
+        "Heba Sbahi",
+        "Samer Rashwani",
+        "Mutaz Al-Khatib",
+        "Emad Mohamed",
+        "Mohammed Ghaly",
+        "Abdenour Hadid"
+    ],
+    "Affiliations": [
+        "Hamad Bin Khalifa University",
+        "University of Biskra",
+        "University of Basque Country",
+        "Nazarbayev University",
+        "Universiti Malaysia Kelantan"
+    ],
+    "Abstract": "Large language models (LLMs) can generate fluent Arabic answers, yet factual errors remain difficult to detect, localize, explain, and verify. Existing hallucination benchmarks often provide response-level labels, with limited support for identifying the exact erroneous content, explaining why it is incorrect, or selecting the correct factual answer. We introduce HalluTruthQA, a fine-grained benchmark for hallucination evaluation in Arabic question answering. The benchmark contains 2,400 expert-curated examples across four knowledge-intensive domains: Islamic knowledge, history, science, and geography. Each example pairs an Arabic question and a model-generated answer with a verified reference answer, a binary hallucination label, and six candidate answers for factual verification. Hallucinated answers additionally include character-level erroneous spans, human-written explanations, and macro- and micro-level hallucination types. We evaluate four open-source LLMs, ALLaM-7B, Falcon-H1R-7B, Qwen3-32B, and SILMA, in a zero-shot setting across hallucination detection, span-level localization, factual verification, and explanation evaluation. Results show that these tasks capture different abilities: no single model performs best across all tasks. The best scores are 0.880 Macro-F1 for detection, 0.516 F1-Sp for localization, 0.852 LO-Score for factual verification, and 0.644 for explanation evaluation. These findings show that hallucination evaluation should move beyond response-level detection toward the localization, verification, and explanation of factual errors.",
+    "Added By": "Zaid Alyafeai"
+}
