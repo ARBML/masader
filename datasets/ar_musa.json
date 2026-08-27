@@ -1,19 +1,6 @@
 {
     "Name": "Ar-MuSA",
-    "Dialect Subsets": [
-        {
-            "Name": "Egyptian",
-            "Volume": 8700.0,
-            "Unit": "sentences",
-            "Dialect": "Egypt"
-        },
-        {
-            "Name": "MSA",
-            "Volume": 8700.0,
-            "Unit": "sentences",
-            "Dialect": "Modern Standard Arabic"
-        }
-    ],
+    "Dialect Subsets": [],
     "HF Link": "https://huggingface.co/datasets/Skhaled/Ar-MUSA",
     "Link": "https://huggingface.co/datasets/Skhaled/Ar-MUSA",
     "License": "AFL-3.0",
@@ -50,7 +37,7 @@
     "Tasks": [
         "sentiment analysis"
     ],
-    "Venue Title": "IJIES",
+    "Venue Title": "INASS",
     "Venue Type": "journal",
     "Venue Name": "International Journal of Intelligent Engineering and Systems",
     "Authors": [
