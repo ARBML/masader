@@ -1,0 +1,70 @@
+{
+    "Name": "Ar-MuSA",
+    "Dialect Subsets": [
+        {
+            "Name": "Egyptian",
+            "Volume": 8700.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "MSA",
+            "Volume": 8700.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/Skhaled/Ar-MUSA",
+    "Link": "https://huggingface.co/datasets/Skhaled/Ar-MUSA",
+    "License": "AFL-3.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Egypt",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "videos",
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "Arabic Multimodal Sentiment Analysis benchmark dataset.",
+    "Volume": 8700.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Nile University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Ar-MuSA: A Multimodal Benchmark Dataset and Evaluation Framework for Arabic Sentiment Analysis",
+    "Paper Link": "https://doi.org/10.22266/ijies2025.0531.03",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "sentiment analysis"
+    ],
+    "Venue Title": "IJIES",
+    "Venue Type": "journal",
+    "Venue Name": "International Journal of Intelligent Engineering and Systems",
+    "Authors": [
+        "Salma Khaled",
+        "Mohamed E. Ragab",
+        "Ahmed K. Helmy",
+        "Walaa Medhat",
+        "Ensaf Hussein Mohamed"
+    ],
+    "Affiliations": [
+        "Nile University",
+        "Helwan University",
+        "Banha University"
+    ],
+    "Abstract": "Multimodal Sentiment Analysis (MuSA) has emerged as an important research domain within the realm of Artificial Intelligence (AI). Due to recent progress in the Deep Learning (DL) models and techniques, this technology has achieved high levels of performance. It has great potential for both application and research investigation. However, in the realm of Arabic MuSA, the lack of comprehensive resources poses as a challenge in the advancement in this area. To reduce this gap, this paper proposes an open-source Arabic MuSA that includes text, audio, and visual elements. Unlike existing datasets, which emphasize one modality, our corpus facilitates a comprehensive sentiment understanding by capturing intermodal connections. To validate the dataset, we fine-tune state-of-the-art models, including MarBERT, HuBERT, MobileNet, Qwen2, and ensemble-based approaches, for sentiment classification across different modalities. Our results demonstrate that multimodal approaches outperforms uni-modal ones in some cases especially with audios and images modalities. MarBERT achieved an F1-score of 0.71% on text-based sentiment classification. While audio and image modalities alone performed poorly (F1-scores of 0.39% and 0.45%, respectively), combining them with text substantially improved performance, with audio-text fusion reaching 0.67% and image-text fusion achieving 0.46%. Additionally, the ensemble model combining text, audio, and image modalities achieved F1-score of 60%.",
+    "Added By": "Zaid Alyafeai"
+}
