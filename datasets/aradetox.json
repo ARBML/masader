@@ -1,0 +1,94 @@
+{
+    "Name": "AraDetox",
+    "Volume": 84000.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/ArabicNLP-UK/AraDetox",
+    "HF_Link": "",
+    "Year": 2024,
+    "Source": [
+        "social media"
+    ],
+    "Form": "text",
+    "Domain": [
+        "politics",
+        "society"
+    ],
+    "Annotation_Style": [
+        "LLM annotation",
+        "human validation"
+    ],
+    "Description": "Large-scale multi-dialect Arabic detoxification dataset containing 10,500 harmful social-media posts and 84,000 detoxified rewrites.",
+    "Provider": [
+        "VinUniversity",
+        "Lancaster University"
+    ],
+    "Derived_From": [
+        "Arabic Hate Speech Superset",
+        "T-HSAB",
+        "JHSC",
+        "MLMA",
+        "L-HSAB",
+        "OSACT",
+        "Let-Mi",
+        "Saudi Tweets",
+        "AraCOVID19-MFH",
+        "Brothers",
+        "Alsafari et al."
+    ],
+    "Partial": false,
+    "Paper_Title": "AraDetox: A Multi-Dialect Arabic Detoxification Dataset",
+    "Paper_Link": "https://arxiv.org/pdf/2608.22894v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has_Splits": true,
+    "Tasks": [
+        "offensive language detection",
+        "text generation",
+        "sentiment analysis",
+        "dialect identification"
+    ],
+    "Venue_Title": "N/A",
+    "Venue_Type": "N/A",
+    "Venue_Name": "",
+    "Authors": [
+        "Mo El-Haj"
+    ],
+    "Affiliations": [
+        "VinUniversity",
+        "Lancaster University"
+    ],
+    "Abstract": "Arabic harmful-language detection has received considerable attention, yet Arabic text detoxification remains underexplored. We introduce AraDetox, a multi-dialect Arabic detoxification dataset comprising 10,500 harmful social-media posts and 84,000 detoxified rewrites generated using GPT-5 and Gemini 2.5 Flash across Modern Standard Arabic, Gulf, Levantine, and Egyptian Arabic. The generated outputs were assessed through human evaluation and automatic analyses of lexical change, semantic preservation, sentiment, and dialectal style. Results show that detoxification is primarily a meaning-preserving rewriting task: substantial lexical and structural reformulation is accompanied by consistently high semantic similarity. Human evaluation confirms successful harmful-language removal while largely preserving the original meaning. Dialectal analyses further indicate that the generated variants exhibit measurable stylistic alignment with reference Arabic dialect corpora. Comparison with existing resources highlights two complementary approaches to detoxification: minimal-edit lexical substitution and meaning-preserving reformulation. Our findings demonstrate that large-scale Arabic detoxification resources can be constructed through LLM-assisted generation and human verification.",
+    "Dialect_Subsets": [
+        {
+            "Name": "Modern Standard Arabic",
+            "Volume": 42000.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Gulf Arabic",
+            "Volume": 42000.0,
+            "Unit": "documents",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "Levantine Arabic",
+            "Volume": 42000.0,
+            "Unit": "documents",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "Egyptian Arabic",
+            "Volume": 42000.0,
+            "Unit": "documents",
+            "Dialect": "Egypt"
+        }
+    ],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
