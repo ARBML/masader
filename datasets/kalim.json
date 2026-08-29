@@ -1,0 +1,54 @@
+{
+    "Name": "KALIM",
+    "Volume": 497.0,
+    "Unit": "images",
+    "License": "unknown",
+    "Link": "https://github.com/bouchalhakim/KALIMA_Dataset.git",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "books"
+    ],
+    "Form": "images",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "Historical handwritten Arabic word dataset.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "University of Tamanghasset",
+        "University of Bejaia",
+        "CERIST"
+    ],
+    "Derived_From": [
+        "RASM2019"
+    ],
+    "Paper_Title": "Arabic Handwritten Text Line Dataset",
+    "Paper_Link": "https://arxiv.org/pdf/2312.07573v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "optical character recognition",
+        "word detection"
+    ],
+    "Venue_Title": "TAMARICS",
+    "Venue_Type": "workshop",
+    "Venue_Name": "TAMARICS",
+    "Authors": [
+        "H. Bouchal",
+        "A. Belaid"
+    ],
+    "Affiliations": [
+        "LIMED Laboratory, University of Bejaia",
+        "CERIST, Bejaia, Algeria"
+    ],
+    "Abstract": "Segmentation of Arabic manuscripts into lines of text and words is an important step to make recognition systems more efficient and accurate. The problem of segmentation into text lines is solved since there are carefully annotated dataset dedicated to this task. However, To the best of our knowledge, there are no dataset annotating the word position of Arabic texts. In this paper, we present a new dataset specifically designed for historical Arabic script in which we annotate position in word level.",
+    "Subsets": [],
+    "Dialect": "Classical Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
