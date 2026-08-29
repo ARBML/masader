@@ -1,0 +1,63 @@
+{
+    "Name": "AraMS",
+    "Volume": 28600.0,
+    "Unit": "documents",
+    "License": "CC BY-NC-SA 4.0",
+    "Link": "https://doi.org/10.5281/zenodo.22095333",
+    "HF_Link": "",
+    "Year": 2024,
+    "Source": [
+        "books"
+    ],
+    "Form": "text",
+    "Domain": [
+        "history"
+    ],
+    "Annotation_Style": [
+        "LLM annotation",
+        "human annotation"
+    ],
+    "Description": "Historical Arabic manuscript dataset with line annotations.",
+    "Provider": [
+        "Higher School of Computer Science (ESI-SBA)"
+    ],
+    "Derived_From": [
+        "Muharaf"
+    ],
+    "Partial": false,
+    "Paper_Title": "RefLAM: A Reference-Grounded Line Annotation Pipeline for Historical Arabic Manuscripts",
+    "Paper_Link": "https://arxiv.org/pdf/2608.25140v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has_Splits": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
+    "Authors": [
+        "Mohamed Guechaoui",
+        "Mohamed Diaa Zellagui",
+        "Souleyman Chaib",
+        "Sahraoui Dhelim"
+    ],
+    "Affiliations": [
+        "Higher School of Computer Science (ESI-SBA), Sidi Bel Abbes, Algeria"
+    ],
+    "Abstract": "The Arab-Islamic manuscript traditions span more than a millennium and cover medicine, astronomy, mathematics, philosophy, and jurisprudence. A large fraction of this corpus has never been rendered machine-readable. Photographic digitisation largely solved; the unsolved problem is transcription at scale. Handwritten-text recognition (HTR) models are data hungry, yet line-level labelled corpora for Arabic manuscripts remain scarce. Producing line-level OCR training data conventionally requires three expensive manual stages: page segmentation, transcription, and quality verification. For historical Arabic manuscripts, four well-documented difficulties compound this cost: high script variability (Naskh, Ruq\u2018ah, Thuluth, Maghrebi), degraded scan quality, non-linear two-zone reading order (main body plus margins), and diacritisation inconsistency. We measure the cumulative manual annotation rate directly: a trained annotator completes roughly 40 lines per hour, including line detection, transcription, and bounding-box drawing\u2014 a rate at which a single 600-page volume consumes the better part of a year. We address this bottleneck with RefLAM, which exploits two resources that, for many classical Arabic texts, already exist independently of manuscript images: (1) a vision-capable MLLM that produces structured, layout-tagged OCR from a single zero-shot call; and (2) a clean ground-truth transcription\u2014 typically a fully diacritised scholarly edition. Neither resource alone solves the problem: MLLM output is fluent but unreliable; the reference text is reliable but not localised to any page image. RefLAM fuses them via diacritic-agnostic fuzzy alignment, attaching a confidence score to every line and triaging human review accordingly. RefLAM is best read as an instance of weak (distant) supervision: an noisy labelling source (MLLM OCR) is reconciled against a reliable but unlocalised one (the reference transcription) until the labels are both accurate and grounded in the page; section 2 places the pipeline in that literature. The alignment stage has one property we lean on throughout: a maximal similarity score is not a heuristic signal but a provable guarantee of character-for-character normalised-string identity (proposition 1). We noticed the pattern before we proved it \u2014 during page-level review of the earliest books, no perfect-scoring line was ever found to be wrong\u2014and the proof then explained the observation. This confidence-100 rule is what makes the fast review path safe; it is an enabling property of the alignment stage, not a contribution that competes with the pipeline itself. Although we instantiate and validate RefLAM on Arabic manuscripts, the pipeline places no Arabic-specific requirement beyond the normalisation operator of definition 1; in principle it should transfer to any historical script for which clean digital transcriptions exist.",
+    "Dialect_Subsets": [
+        {
+            "Name": "AraMS",
+            "Volume": 28600.0,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        }
+    ],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
