@@ -1,0 +1,57 @@
+{
+    "Name": "CHAIN",
+    "Volume": 23333.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/CAMeL-Lab/ArabicChainBank",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "manual curation",
+        "machine annotation"
+    ],
+    "Description": "A knowledge graph for Arabic derivational morphology.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "CAMeL Lab",
+        "NYU Abu Dhabi",
+        "Alexandria University",
+        "Carthage University"
+    ],
+    "Derived_From": [
+        "CAMELMORPH"
+    ],
+    "Paper_Title": "A Derivational Chain Bank for Modern Standard Arabic",
+    "Paper_Link": "https://arxiv.org/pdf/2410.20463v2",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Reham Marzouk",
+        "Sondos Krouna",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "CAMeL Lab, NYU Abu Dhabi",
+        "IGSR, Alexandria University",
+        "ISLT, Carthage University"
+    ],
+    "Abstract": "We introduce the new concept of an Arabic Derivational Chain Bank (CHAINBANK) to leverage the relationship between form and meaning in modeling Arabic derivational morphology. We constructed a knowledge graph network of abstract patterns and their derivational relations, and aligned it with the lemmas of the CAMELMORPH morphological analyzer database. This process produced chains of derived words\u2019 lemmas linked to their corresponding single lemma bases through derivational relations, encompassing 23,333 derivational connections. The CHAINBANK is publicly available.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
