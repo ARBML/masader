@@ -1,0 +1,66 @@
+{
+    "Name": "iSarc",
+    "Volume": 9370.0,
+    "Unit": "sentences",
+    "License": "unknown",
+    "Link": "https://github.com/mosab-shaheen/iSarcasm-SemEval-2022-Task-6",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "manual curation"
+    ],
+    "Description": "Dataset for sarcasm detection in English and Arabic.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "Indian Institute of Technology Kanpur"
+    ],
+    "Derived_From": [
+        "SemEval-2018 Task 3",
+        "ArSarcasm-v2",
+        "Twitter API"
+    ],
+    "Paper_Title": "Plumeria at SemEval-2022 Task 6: Sarcasm Detection for English and Arabic Using Transformers and Data Augmentation",
+    "Paper_Link": "https://aclanthology.org/2022.semeval-1.130.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "SemEval-2022",
+    "Venue_Type": "workshop",
+    "Venue_Name": "International Workshop on Semantic Evaluation",
+    "Authors": [
+        "Mosab Shaheen",
+        "Shubham Kumar Nigam"
+    ],
+    "Affiliations": [
+        "Indian Institute of Technology Kanpur"
+    ],
+    "Abstract": "The paper describes our submission to SemEval-2022 Task 6 on sarcasm detection and its five subtasks for English and Arabic. Sarcasm conveys a meaning which contradicts the literal meaning, and it is mainly found on social networks. It has a significant role in understanding the intention of the user. For detecting sarcasm, we used deep learning techniques based on transformers due to its success in the field of Natural Language Processing (NLP) without the need for feature engineering. The datasets were taken from tweets. We created new datasets by augmenting with external data or by using word embeddings and repetition of instances.",
+    "Subsets": [
+        {
+            "Name": "English",
+            "Volume": 4868.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "Arabic",
+            "Volume": 4502.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "Dialect": "mixed",
+    "Language": "multilingual",
+    "Script": "Arab-Latin",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
