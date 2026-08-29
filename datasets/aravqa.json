@@ -1,0 +1,70 @@
+{
+    "Name": "AraVQA",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/mbzuai-nlp/AraVQA",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "wikipedia",
+        "LLM"
+    ],
+    "Domain": [
+        "history",
+        "science",
+        "society",
+        "health",
+        "sports",
+        "technology",
+        "religion",
+        "economics",
+        "art",
+        "literature",
+        "education",
+        "law"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "LLM annotation",
+        "human validation"
+    ],
+    "Description": "Arabic Factoid Visual Question Answering dataset",
+    "Volume": 50757.0,
+    "Unit": "sentences",
+    "Provider": [
+        "IBM Research AI",
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Derived From": [
+        "Arabic Wikipedia"
+    ],
+    "Paper Title": "AraVQA: Building a New Arabic Factoid Visual Question Answering Dataset from Wikipedia",
+    "Paper Link": "https://aclanthology.org/2026.acl-long.91.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "0",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "visual question answering"
+    ],
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
+    "Authors": [
+        "Sultan Alrowili",
+        "Younes Samih",
+        "Abed Alhakim Freihat",
+        "Mathan Kumar Eswaran"
+    ],
+    "Affiliations": [
+        "IBM Research AI",
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Abstract": "The development of large-scale Visual Question Answering (VQA) datasets has traditionally relied on resource-intensive manual annotation. In addition, most of the existing Arabic VQA datasets focus on culturally-specific and dialect-aware domains. To address these limitations, we propose a new pipeline that leverages Wikipedia template tags to extract the relevant information for each image, which is subsequently utilized by the Large Language Model (LLM) to synthetically generate a new visual question answering dataset. Using this pipeline, we have constructed AraVQA, the most comprehensive Arabic Factoid Visual Question Answering dataset, containing more than 50,000 questions and covering over 20 varied primary subjects within Arabic general knowledge. Our detailed analysis shows that our dataset can serve as a post-training dataset to enhance the performance of existing Visual Language Models (VLMs) on Arabic VQA tasks. Furthermore, we present a novel benchmark, derived from our dataset and validated through manual annotation, that poses more challenges to Arabic VLMs than existing Arabic VQA datasets.",
+    "Added By": "google/gemini-3-flash-preview"
+}
