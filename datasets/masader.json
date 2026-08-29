@@ -1,0 +1,67 @@
+{
+    "Name": "Masader",
+    "Volume": 200.0,
+    "Unit": "tokens",
+    "License": "unknown",
+    "Link": "https://arbml.github.io/masader/",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "social media",
+        "news articles",
+        "books",
+        "reviews",
+        "wikipedia",
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "manual curation",
+        "machine annotation"
+    ],
+    "Description": "Catalogue of 200 Arabic NLP datasets",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "QCRI",
+        "Qatar University",
+        "NYU Abu Dhabi",
+        "Nile University"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "Masader: Metadata Sourcing for Arabic Text and Speech Data Resources",
+    "Paper_Link": "https://aclanthology.org/2022.lrec-1.681.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "machine translation",
+        "sentiment analysis",
+        "dialect identification",
+        "topic classification",
+        "named entity recognition",
+        "speech recognition"
+    ],
+    "Venue_Title": "LREC",
+    "Venue_Type": "conference",
+    "Venue_Name": "LREC",
+    "Authors": [
+        "Zaid Alyafeai",
+        "Maraim Masoud",
+        "Mustafa Ghaleb",
+        "Maged S. Al-shaibani"
+    ],
+    "Affiliations": [
+        "ICS, King Fahd University of Petroleum and Minerals (KFUPM)",
+        "Independent Researcher",
+        "Interdisciplinary Research Center for Intelligent Secure Systems (IRC-ISS), KFUPM"
+    ],
+    "Abstract": "The NLP pipeline has evolved dramatically in the last few years. The first step in the pipeline is to find suitable annotated datasets to evaluate the tasks we are trying to solve. Unfortunately, most of the published datasets lack metadata annotations that describe their attributes. Not to mention, the absence of a public catalogue that indexes all the publicly available datasets related to specific regions or languages. When we consider low-resourced dialectical languages, for example, this issue becomes more prominent. In this paper, we create Masader, the largest public catalogue for Arabic NLP datasets, which consists of 200 datasets annotated with 25 attributes. Furthermore, we develop a metadata annotation strategy that could be extended to other languages. We also make remarks and highlight some issues about the current status of Arabic NLP datasets and suggest recommendations to address them.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
