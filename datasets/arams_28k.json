@@ -1,0 +1,57 @@
+{
+    "Name": "AraMS-28k",
+    "Volume": 28600.0,
+    "Unit": "sentences",
+    "License": "CC BY-NC-SA 4.0",
+    "Link": "https://doi.org/10.5281/zenodo.22095333",
+    "HF_Link": "unknown",
+    "Year": 2025,
+    "Source": [
+        "books"
+    ],
+    "Form": "text",
+    "Domain": [
+        "history",
+        "religion",
+        "general"
+    ],
+    "Annotation_Style": [
+        "LLM annotation",
+        "human annotation",
+        "human validation"
+    ],
+    "Description": "Public line-level dataset for historical Arabic HTR",
+    "Provider": [
+        "Higher School of Computer Science (ESI-SBA)"
+    ],
+    "Derived_From": [],
+    "Partial": false,
+    "Paper_Title": "AraMS-28k: The Largest Publicly Released Line-Level Dataset of Historical Arabic Manuscripts with Margin and Insertion-Anchor Annotations",
+    "Paper_Link": "https://arxiv.org/pdf/2608.26921v1.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has_Splits": true,
+    "Tasks": [
+        "handwriting recognition"
+    ],
+    "Venue_Title": "unknown",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Mohamed Guechaoui",
+        "Mohamed Diaa Zellagui",
+        "Souleyman Chaib",
+        "Sahraoui Dhelim"
+    ],
+    "Affiliations": [
+        "Higher School of Computer Science (ESI-SBA)"
+    ],
+    "Abstract": "We introduce AraMS-28k, the largest publicly released line-level dataset of genuine historical Arabic manuscripts, comprising 14 books, 3,043 pages, and 28,600 annotated text lines. Thirteen books are hand-copied manuscripts spanning three script traditions\u2013Naskh, Ruq\u2018ah, and Maghrebi\u2013and one is a lithographed printed edition included to broaden format diversity. Each line is labelled as main-text or margin, and margin lines that have an unambiguous attachment point in the main text are further annotated with an insertion anchor, recovering the manuscript\u2019s true non-linear reading order at line-level granularity\u2013to our knowledge the first such annotation released for a historical Arabic manuscript corpus. Because reference transcriptions are fully vocalised while manuscript hands are typically undiacritised, we release both the raw diacritised transcription and a diacritic-normalised counterpart for every line. The dataset was constructed with RefLAM[1], a reference-grounded annotation pipeline that aligns multimodal-LLM OCR against independently sourced clean transcriptions and routes every line through human review, combining automatic verification with expert oversight. We describe the construction and quality-control process, present the annotation schema, report dataset statistics at both the corpus and per-book level, and provide baseline HTR results using Kraken and HATFormer, including across-script generalisation gradient from in-distribution pages to a fully unseen books. AraMS-28k is released with page images, line-level annotations, and fixed train/val/test splits under CC BY-NC-SA 4.0 to support reproducible research on Arabic manuscript recognition, layout analysis, and reading-order recovery.",
+    "Dialect_Subsets": [],
+    "Dialect": "Classical Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
