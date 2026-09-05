@@ -1,0 +1,74 @@
+{
+    "Name": "EDRAC",
+    "Volume": 499.0,
+    "Unit": "documents",
+    "License": "CC BY-NC-SA 4.0",
+    "Link": "https://huggingface.co/datasets/MBZUAI/EDRAC",
+    "HF_Link": "https://huggingface.co/datasets/MBZUAI/EDRAC",
+    "Year": 2025,
+    "Source": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Domain": [
+        "general"
+    ],
+    "Annotation_Style": [
+        "LLM annotation",
+        "human validation"
+    ],
+    "Description": "Multi-dialectal Arabic reading comprehension benchmark.",
+    "Provider": [
+        "Mohamed bin Zayed University of Artificial Intelligence",
+        "New York University Abu Dhabi",
+        "IBM Research AI",
+        "Qassim University"
+    ],
+    "Derived_From": [],
+    "Partial": false,
+    "Paper_Title": "EDRAC: Benchmarking Arabic Dialect Reading Comprehension",
+    "Paper_Link": "https://arxiv.org/pdf/2609.01113v1.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has_Splits": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Noor Abo Mokh",
+        "Kirill Chirkunov",
+        "Teresa Lynn",
+        "Nizar Habash",
+        "Reham Marzouk",
+        "Malik H. Altakrori",
+        "Younes Samih",
+        "Muhammed AbuOdeh",
+        "Nour Rabih",
+        "Rahaf Alshahrani",
+        "Hamad Alshehhi",
+        "Hamdan Al-Ali",
+        "Muhra Almahri",
+        "Besher Hassan",
+        "Mohamed Anwar",
+        "AbedAlhakim Freihat",
+        "Preslav Nakov",
+        "Alham Fikri Aji"
+    ],
+    "Affiliations": [
+        "Mohamed bin Zayed University of Artificial Intelligence",
+        "New York University Abu Dhabi",
+        "IBM Research AI",
+        "Qassim University"
+    ],
+    "Abstract": "Traditionally, large DA datasets are either a translation of existing English datasets or collected from social media resources (e.g., Bouamor et al. (2018) compared to Modern Standard Arabic (MSA), and Khered et al. (2025)). However, translations typically do not carry culturally relevant content, while social media sources do not reflect real-life conversations, spoken interactions, or natural use of the language, as speakers often alter their speech style while writing user-generated content (Eisenstein, 2013; Sanguinetti et al., 2020). Consequently, constructing such a dataset requires transcribing audio of natural spoken interactions. For the task of dialectal machine reading comprehension (MRC), available resources are limited to multiple-choice question answering (MCQA) tasks (e.g., Belebele (Bandarkar et al., 2024) and Dialectal Arabic MMLU (Altakrori et al., 2026)). To date, Generative QA benchmarking for DA remains unexplored. Tasks such as MCQA rely on pre-defined options while EDRAC is an open-ended Question Answering task allowing for free-form descriptive, explanatory answers that often require reasoning. We address these gaps by presenting EDRAC (Evaluation of Dialectal Arabic Reading And Comprehension), a high-quality multi-dialectal MRC and Generative QA benchmark dataset for Arabic that covers Egyptian, Moroccan, Emirati, Syrian and Saudi dialects. In our curation of reading comprehension passages, we leveraged transcripts of YouTube videos, covering a variety of genres, to capture the daily interactions and natural flow of the dialects. We initially generated 10 QA pairs per passage; after final review, the released dataset contains 4,977 QA pairs across 499 passages. Furthermore, we outlined the process of automatically generating these QA pairs using Large Language Models (LLMs) with a human-in-the-loop approach. Our contributions can be summarized as follows: We introduce EDRAC, the first large-scale benchmark for Dialectal Arabic Generative QA across five major dialects: Egyptian (EGY), Emirati (UAE), Moroccan (MOR), and Syrian (SYR), and Saudi (KSA), built from naturally occurring spoken interactions. We propose a scalable human-LLM pipeline for dialectal QA generation and validation, combining self-refinement, LLM-based evaluation, and human verification to produce high quality, culturally grounded QA pairs. We present the first comprehensive evaluation of Arabic-centric and multilingual LLMs on Dialectal Arabic Generative QA, revealing major gaps in dialectal fidelity and establishing a benchmark for future research.",
+    "Dialect_Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
