@@ -1,0 +1,67 @@
+{
+    "Name": "Nuha",
+    "Volume": 1501000.0,
+    "Unit": "hours",
+    "License": "unknown",
+    "Link": "https://github.com/Natural-Language-Processing-Elm/Nuha_Speech_Benchmark",
+    "HF_Link": "",
+    "Year": 2024,
+    "Source": [
+        "TV channels",
+        "public datasets",
+        "LLM",
+        "studio recordings"
+    ],
+    "Form": "audio",
+    "Domain": [
+        "general"
+    ],
+    "Annotation_Style": [
+        "LLM annotation",
+        "machine annotation"
+    ],
+    "Description": "General-purpose Arabic speech-LLM dataset.",
+    "Provider": [
+        "Elm Company"
+    ],
+    "Derived_From": [
+        "SADA",
+        "CommonVoice",
+        "MGB-2",
+        "MASC",
+        "CoVoST-v2",
+        "ADI-17"
+    ],
+    "Partial": false,
+    "Paper_Title": "Nuha-Speech: Building General-Purpose Arabic Speech-LLMs",
+    "Paper_Link": "https://arxiv.org/pdf/2609.11892v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has_Splits": true,
+    "Tasks": [
+        "speech recognition",
+        "automatic speech translation",
+        "speech question answering",
+        "dialect identification",
+        "speech emotion recognition"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Yingzhi Wang",
+        "Reem Alhazzani",
+        "Muhammad Alqurishi"
+    ],
+    "Affiliations": [
+        "Elm Company"
+    ],
+    "Abstract": "To fill this gap, we propose Nuha-Speech, a comprehensive effort aimed at building general-purpose Arabic speech LLMs via dataset construction, model training, and benchmark development. By combining public and curated datasets, we assembled a training dataset of 1.5 million Arabic speech instruction-following samples. This dataset spans core speech tasks covering both speech understanding and speech paralinguistics. Moreover, we leveraged mostly publicly available datasets and transparent, reproducible curation strategies, facilitating dataset replication by the research community. We then used this dataset to fine-tune three Qwen-Omni model variants at different parameter scales, aiming to equip them with full Arabic comprehension capabilities. Finally, we constructed test sets for all involved tasks, adopted different evaluation metrics to form a multi-task benchmark, and evaluated models in both pre- and post-fine-tuning settings. The results demonstrate that the fine-tuned models achieved clear improvements across all listed tasks.",
+    "Dialect_Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
