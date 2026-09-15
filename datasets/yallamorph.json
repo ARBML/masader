@@ -1,0 +1,60 @@
+{
+    "Name": "YallaMorph",
+    "Volume": 663804.0,
+    "Unit": "tokens",
+    "License": "unknown",
+    "Link": "https://github.com/CAMeL-Lab/YallaMorph",
+    "HF_Link": "",
+    "Year": 2025,
+    "Source": [
+        "public datasets",
+        "manual construction"
+    ],
+    "Form": "text",
+    "Domain": [
+        "general"
+    ],
+    "Annotation_Style": [
+        "human annotation"
+    ],
+    "Description": "Large-scale benchmark for Arabic morphological generation.",
+    "Provider": [
+        "New York University Abu Dhabi",
+        "Stony Brook University",
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Derived_From": [
+        "CamelMorph MSA"
+    ],
+    "Partial": false,
+    "Paper_Title": "YallaMorph: A Benchmark for Evaluating Arabic Morphological Generation in Large Language Models",
+    "Paper_Link": "https://arxiv.org/pdf/2609.10153v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has_Splits": false,
+    "Tasks": [
+        "text generation"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Mahmoud Reda",
+        "Salam Khalifa",
+        "Reham Marzouk",
+        "Nizar Habash"
+    ],
+    "Affiliations": [
+        "New York University Abu Dhabi",
+        "Stony Brook University",
+        "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    "Abstract": "Arabic morphology remains challenging for large language models, since fluent generation does not guarantee accurate morphosyntactic control. Existing Arabic evaluations mainly target downstream tasks and do not directly test controlled morphological generation from explicit lexical and feature-based input. We introduce YallaMorph, a large-scale benchmark for Arabic morphological generation covering verbs, nouns, adjectives, their cliticized forms, and invalid configurations. We evaluate multilingual and Arabic-oriented LLMs under diacritized and undiacritized settings over 600K benchmark entries. Results show that Arabic morphological generation remains difficult, especially for cliticized, unseen, and morphologically rare forms.",
+    "Dialect_Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
