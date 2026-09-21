@@ -1,0 +1,66 @@
+{
+    "Name": "AraMIP",
+    "Volume": 300.0,
+    "Unit": "sentences",
+    "License": "CC BY-NC 4.0",
+    "Link": "https://github.com/AraMIP/AraMIP",
+    "HF_Link": "",
+    "Year": 2026,
+    "Source": [
+        "public datasets"
+    ],
+    "Form": "text",
+    "Domain": [
+        "general"
+    ],
+    "Annotation_Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic metaphor annotation guide based on MIPVU",
+    "Provider": [
+        "SOAS University of London",
+        "Bielefeld University",
+        "University of Groningen",
+        "German Research Center for Artificial Intelligence (DFKI)",
+        "Technical University of Berlin"
+    ],
+    "Derived_From": [
+        "MIPVU",
+        "BAREC-10M"
+    ],
+    "Partial": true,
+    "Paper_Title": "AraMIP: Extending MIPVU Towards Metaphor Identification in Arabic",
+    "Paper_Link": "https://arxiv.org/pdf/2609.17235v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "0",
+    "Has_Splits": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "LREC 2026",
+    "Venue_Type": "conference",
+    "Venue_Name": "Fifteenth Language Resources and Evaluation Conference",
+    "Authors": [
+        "Mandar Marathe",
+        "Manar Ali",
+        "Sara Nabhani",
+        "Raia AbuAhmad",
+        "Ibrahim Baroud",
+        "Omar Momen"
+    ],
+    "Affiliations": [
+        "SOAS University of London",
+        "Bielefeld University",
+        "University of Groningen",
+        "German Research Center for Artificial Intelligence (DFKI)",
+        "Technical University of Berlin"
+    ],
+    "Abstract": "Metaphor research has gained increasing attention due to its relevance to linguistic creativity, language use, cognitive processes, and related areas. While many efforts have been devoted to metaphor identification and annotation in English and other languages, Arabic remains under-resourced in this area. In this work, we propose the Arabic Metaphor Identification Procedure (AraMIP), a novel guideline for Arabic metaphor annotation. AraMIP builds on the widely used Metaphor Identification Procedure Vrije Universiteit (MIPVU) framework, incorporating adaptations that account for the language-specific properties of Arabic. We distinguish three major types of Arabic figurative language: isti\u2018a\u00afra (metaphor), kina\u00afya (metonymy/indirect expression), and tashb\u00af\u0131h (simile) and annotate a pilot dataset of 300 sentences (5277 words). Our analysis reveals key challenges specific to Arabic, including morphological complexity, inconsistencies in dictionary sense ordering, and the absence of standardized contextual materials for annotators. This work contributes a first step toward standardized Arabic figurative instances and facilitates the development of larger annotated resources, thereby supporting future research on figurative language in Arabic.",
+    "Dialect_Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
