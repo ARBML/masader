@@ -15,7 +15,7 @@
         "religion",
         "health"
     ],
-    "Form": "text",
+    "Form": "images",
     "Annotation Style": [
         "LLM annotation",
         "human annotation",
