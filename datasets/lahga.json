@@ -1,0 +1,182 @@
+{
+    "Name": "Lahga",
+    "Dialect Subsets": [
+        {
+            "Name": "Egypt",
+            "Volume": 2565.0,
+            "Unit": "tokens",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Levant",
+            "Volume": 2603.0,
+            "Unit": "tokens",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "Palestine",
+            "Volume": 1301.0,
+            "Unit": "tokens",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "Syria",
+            "Volume": 33.0,
+            "Unit": "tokens",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "Lebanon",
+            "Volume": 32.0,
+            "Unit": "tokens",
+            "Dialect": "Lebanon"
+        },
+        {
+            "Name": "Jordan",
+            "Volume": 25.0,
+            "Unit": "tokens",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "Iraq",
+            "Volume": 2410.0,
+            "Unit": "tokens",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 2674.0,
+            "Unit": "tokens",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "Kuwait",
+            "Volume": 12.0,
+            "Unit": "tokens",
+            "Dialect": "Kuwait"
+        },
+        {
+            "Name": "Bahrain",
+            "Volume": 2.0,
+            "Unit": "tokens",
+            "Dialect": "Bahrain"
+        },
+        {
+            "Name": "United Arab Emirates",
+            "Volume": 6.0,
+            "Unit": "tokens",
+            "Dialect": "United Arab Emirates"
+        },
+        {
+            "Name": "Oman",
+            "Volume": 2.0,
+            "Unit": "tokens",
+            "Dialect": "Oman"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "Volume": 1978.0,
+            "Unit": "tokens",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "Yemen",
+            "Volume": 1123.0,
+            "Unit": "tokens",
+            "Dialect": "Yemen"
+        },
+        {
+            "Name": "Sudan",
+            "Volume": 1306.0,
+            "Unit": "tokens",
+            "Dialect": "Sudan"
+        },
+        {
+            "Name": "North Africa",
+            "Volume": 5.0,
+            "Unit": "tokens",
+            "Dialect": "North Africa"
+        },
+        {
+            "Name": "Morocco",
+            "Volume": 2722.0,
+            "Unit": "tokens",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Algeria",
+            "Volume": 2169.0,
+            "Unit": "tokens",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "Tunisia",
+            "Volume": 2526.0,
+            "Unit": "tokens",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Libya",
+            "Volume": 1087.0,
+            "Unit": "tokens",
+            "Dialect": "Libya"
+        },
+        {
+            "Name": "Mauritania",
+            "Volume": 491.0,
+            "Unit": "tokens",
+            "Dialect": "Mauritania"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/lahga/arabic-dialects",
+    "Link": "https://lahga.fyi/data",
+    "License": "CC BY-SA 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "manual construction",
+        "public datasets",
+        "LLM"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation",
+        "inherited annotation"
+    ],
+    "Description": "Open collaborative dictionary of spoken Arabic: each Modern Standard Arabic headword lists the forms the dialects use for it, each attributed to one variety, with usage notes and example sentences. More than half of the forms were drafted by a language model; those not yet confirmed by a speaker are flagged.",
+    "Volume": 25072.0,
+    "Unit": "tokens",
+    "Provider": [
+        "Lahga"
+    ],
+    "Derived From": [
+        "Maknuune",
+        "Wiktionary"
+    ],
+    "Paper Title": "",
+    "Paper Link": "",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "dictionary",
+        "lexicon analysis",
+        "machine translation"
+    ],
+    "Venue Title": "",
+    "Venue Type": "other",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "",
+    "Added By": "Yasser Maslout-Siegfried"
+}
