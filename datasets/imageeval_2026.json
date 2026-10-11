@@ -1,0 +1,75 @@
+{
+    "Name": "ImageEval 2026",
+    "Volume": 5200.0,
+    "Unit": "images",
+    "License": "CC BY-NC-SA 4.0",
+    "Link": "https://imageeval2026.github.io/",
+    "HF_Link": "",
+    "Year": 2026,
+    "Source": [
+        "public datasets"
+    ],
+    "Form": "images",
+    "Domain": [
+        "culture"
+    ],
+    "Annotation_Style": [
+        "human annotation"
+    ],
+    "Description": "Culturally grounded Arabic multimodal evaluation shared task",
+    "Provider": [
+        "Texas A&M University",
+        "Qatar Computing Research Institute",
+        "Birzeit University",
+        "Hamad Bin Khalifa University",
+        "University of Toronto"
+    ],
+    "Derived_From": [
+        "OASIS",
+        "M2CQA"
+    ],
+    "Partial": false,
+    "Paper_Title": "ImageEval 2026: Culturally Grounded Arabic Multimodal Evaluation",
+    "Paper_Link": "https://arxiv.org/pdf/2608.30475v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has_Splits": true,
+    "Tasks": [
+        "question answering",
+        "text generation"
+    ],
+    "Venue_Title": "ANLP",
+    "Venue_Type": "conference",
+    "Venue_Name": "Fourth Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Samir Abdaljalil",
+        "Hunzalah Hassan Bhatti",
+        "Ahlam Bashiti",
+        "Farina Amir",
+        "Md Arid Hasan",
+        "Basel Mousi",
+        "Nadir Durrani",
+        "Fahim Dalvi",
+        "Zien Sheikh Ali",
+        "Erchin Serpedin",
+        "Hasan Kurban",
+        "Mustafa Jarrar",
+        "Shammur Absar Chowdhury",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Texas A&M University",
+        "Qatar Computing Research Institute",
+        "Birzeit University",
+        "Hamad Bin Khalifa University",
+        "University of Toronto"
+    ],
+    "Abstract": "To address this limitation, culture-centered benchmarks such as CulturalVQA (Nayak et al., 2024), CVQA (Romero et al., 2024), SEA-VQA (Urailertprasert et al., 2024), and OA-SIS (Alam et al., 2025b) broaden evaluation to culturally situated concepts, including artifacts, food, clothing, practices, landmarks, and regional identities. Results on these benchmarks show that VLMs continue to struggle with culturally grounded understanding, highlighting an important distinction: multilingual coverage does not necessarily translate into cultural understanding. These challenges are also closely related to multimodal hallucination, where models generate plausible responses that are not sufficiently grounded in the visual input (Chen et al., 2026). In culturally situated settings, a model may rely on linguistic or cultural associations to infer an answer even when the image provides insufficient evidence. Distinguishing genuine visual understanding from such associative reasoning becomes particularly difficult when incorrect alternatives are themselves culturally plausible. Consequently, answer accuracy alone may not capture visual grounding, and evaluation should assess whether models distinguish visually supported answers from plausible but unsupported alternatives (Mousi et al., 2026b, a). Arabic provides an important setting for examining these issues because systems must handle MSA and regional dialects while grounding predictions in culturally specific content (Al-Khalifa et al., 2025). Dallah (Alwajih et al., 2024) highlights the importance of dialect-aware Arabic multimodal modeling, while CAMEL-Bench (Ghaboura et al., 2025) shows remaining gaps in Arabic multimodal performance. However, evaluation of culturally grounded VQA and hallucination across Arabic varieties remains limited, particularly for settings where questions are presented in spoken rather than written form.",
+    "Dialect_Subsets": [],
+    "Dialect": "mixed",
+    "Language": "multilingual",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
