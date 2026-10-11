@@ -1,0 +1,63 @@
+{
+    "Name": "PROBEL",
+    "Volume": 47734.0,
+    "Unit": "sentences",
+    "License": "CC BY-NC-SA 4.0",
+    "Link": "https://huggingface.co/collections/QCRI/media-integrity-intelligence",
+    "HF_Link": "https://huggingface.co/collections/QCRI/media-integrity-intelligence",
+    "Year": 2025,
+    "Source": [
+        "news articles",
+        "social media"
+    ],
+    "Form": "text",
+    "Domain": [
+        "news",
+        "politics",
+        "society",
+        "crisis"
+    ],
+    "Annotation_Style": [
+        "human annotation"
+    ],
+    "Description": "Arabic-English propaganda detection resource",
+    "Provider": [
+        "Qatar Computing Research Institute",
+        "University of Padova"
+    ],
+    "Derived_From": [
+        "PropXplain"
+    ],
+    "Partial": false,
+    "Paper_Title": "ProBel: Propaganda Detection with Techniques, Spans, and Explanations",
+    "Paper_Link": "https://arxiv.org/pdf/2608.22388v1.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "0",
+    "Has_Splits": true,
+    "Tasks": [
+        "propaganda detection",
+        "text classification"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Mohamed Bayan Kmainasi",
+        "Ali Ezzat Shahroor",
+        "Elisa Sartori",
+        "Giovanni Da San Martino",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "University of Padova"
+    ],
+    "Abstract": "Propaganda detection includes several related prediction levels, ranging from sentence-level decisions to technique classification and span identification. We present ProBel an Arabic and English resource that aligns binary labels, multi-label annotations over 23 propaganda techniques grouped into six coarse categories, technique-labeled spans, and reference explanations for the same news sentences. It includes a substantially larger English collection and supports matched binary, coarse-grained, multi-label, and span-level tasks in both languages.",
+    "Dialect_Subsets": [],
+    "Dialect": "mixed",
+    "Language": "multilingual",
+    "Script": "Arab-Latin",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
