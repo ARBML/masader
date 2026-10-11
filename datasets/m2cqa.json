@@ -1,0 +1,61 @@
+{
+    "Name": "M2CQA",
+    "Volume": 10150.0,
+    "Unit": "images",
+    "License": "unknown",
+    "Link": "https://huggingface.co/datasets/QCRI/M2CQA-S",
+    "HF_Link": "https://huggingface.co/datasets/QCRI/M2CQA-S",
+    "Year": 2024,
+    "Source": [
+        "web pages"
+    ],
+    "Form": "text",
+    "Domain": [
+        "culture"
+    ],
+    "Annotation_Style": [
+        "machine annotation",
+        "human validation"
+    ],
+    "Description": "A multimodal benchmark for contrastive reasoning.",
+    "Provider": [
+        "Qatar Computing Research Institute",
+        "HBKU"
+    ],
+    "Derived_From": [
+        "OASIS",
+        "M2CQA"
+    ],
+    "Partial": false,
+    "Paper_Title": "Said Aloud, Read Different: Cross-Modal Instability in Multimodal Models",
+    "Paper_Link": "https://arxiv.org/pdf/2608.27135v1.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has_Splits": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue_Title": "arXiv",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Basel Mousi",
+        "Fahim Dalvi",
+        "Shammur Chowdhury",
+        "Firoj Alam",
+        "Nadir Durrani"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "HBKU",
+        "Qatar"
+    ],
+    "Abstract": "Multimodal foundation models are increasingly used in speech-first assistants that must interpret spoken queries and produce visually grounded decisions. Yet it remains unclear whether semantically equivalent queries yield consistent judgments across modality (text vs. speech) and language (English vs. Arabic). We introduce a speech-augmented visually grounded contrastive triplet benchmark spanning 10,150 culturally grounded images from 18 MENA countries, where each image is paired with one supported statement and two plausible but unsupported alternatives. We define contrastive instability as the conditional rate at which a model fails to resolve all statements within a triplet, isolating fragmented reasoning from complete failure. Evaluating recent multimodal models under text and speech in English and Arabic, we find that modality and language shifts introduce substantial triplet-level inconsistencies that are not fully captured by aggregate accuracy, with speech amplifying partial failures. We make the benchmark publicly available to the community.",
+    "Dialect_Subsets": [],
+    "Dialect": "mixed",
+    "Language": "multilingual",
+    "Script": "Latin",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
