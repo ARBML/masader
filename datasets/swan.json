@@ -1,0 +1,75 @@
+{
+    "Name": "Swan",
+    "Volume": 12500000.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/UBC-NLP/swan",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "news articles",
+        "wikipedia",
+        "web pages",
+        "social media",
+        "LLM",
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "human annotation",
+        "LLM generated",
+        "manual curation"
+    ],
+    "Description": "A family of dialect-aware, Arabic-centric, cross-lingual, and cross-cultural embedding models and benchmarks.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "The University of British Columbia",
+        "MBZUAI",
+        "PSU",
+        "InvertibleAI"
+    ],
+    "Derived_From": [
+        "ORBERTv2",
+        "ArMistral",
+        "MARCO",
+        "ORCA"
+    ],
+    "Paper_Title": "Swan and ArabicMTEB: Dialect-Aware, Arabic-Centric, Cross-Lingual, and Cross-Cultural Embedding Models and Benchmarks",
+    "Paper_Link": "https://arxiv.org/pdf/2411.01192v3.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "semantic similarity",
+        "information retrieval",
+        "question answering",
+        "language modeling",
+        "dialect identification",
+        "cross-lingual information retrieval",
+        "other"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "preprint",
+    "Venue_Name": "",
+    "Authors": [
+        "Gagan Bhatia",
+        "El Moatez Billah Nagoudi",
+        "Abdellah El Mekki",
+        "Fakhraddin Alwajih",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "The University of British Columbia",
+        "MBZUAI",
+        "PSU",
+        "InvertibleAI"
+    ],
+    "Abstract": "We introduce Swan, a family of embedding models centered on Arabic, designed for both small-scale and large-scale applications. Swan comprises two variants: Swan-Small, built on ARBERTv2, and Swan-Large, based on ArMistral, a pretrained Arabic large language model. To evaluate our models we propose a comprehensive benchmark suite, dubbed ArabicMTEB, that assesses cross-lingual, multi-dialectal, multi-domain, and multi-cultural Arabic text embedding performance. ArabicMTEB covers tasks, covering clustering, retrieval, reranking, classification, semantic similarity, pair classification, cross-lingual retrieval, and bitext mining. Swan-Large achieves state-of-the-art results, outperforming Multilingual-E5-large in most Arabic tasks, while Swan-Small consistently surpasses Multilingual-E5-base. Our extensive evaluations show that Swan models are both dialectally and culturally aware, achieving strong performance across diverse Arabic domains while maintaining significant cost efficiency. This work significantly advances the field of Arabic language modelling and provides valuable resources for future research and applications in Arabic NLP.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
