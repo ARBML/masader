@@ -1,0 +1,58 @@
+{
+    "Name": "clima500-Instruct",
+    "Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/mbzuai-oryx/Clima500",
+    "Link": "https://github.com/mbzuai-oryx/ClimateGPT",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2023,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Domain": [
+        "public datasets",
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection Style": [
+        "LLM generated",
+        "human annotation"
+    ],
+    "Description": "Climate change Arabic LLM dataset",
+    "Volume": 506426.0,
+    "Unit": "sentences",
+    "Ethical Risks": "Low",
+    "Provider": [],
+    "Derived From": [
+        "CCMRC",
+        "ClimaBench"
+    ],
+    "Paper Title": "Arabic Mini-ClimateGPT : A Climate Change and Sustainability Tailored Arabic LLM",
+    "Paper Link": "https://aclanthology.org/2023.findings-emnlp.941.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test Split": true,
+    "Tasks": [
+        "question answering",
+        "instruction tuning"
+    ],
+    "Venue Title": "EMNLP Findings",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of Empirical Methods in Natural Language Processing Conference",
+    "Authors": [
+        "Sahal Shaji Mullappilly",
+        "Abdelrahman Shaker",
+        "Omkar Thawkar",
+        "Hisham Cholakkal",
+        "Rao Muhammad Anwer",
+        "Salman Khan",
+        "Fahad Shahbaz Khan"
+    ],
+    "Affiliations": [
+        "Mohamed bin Zayed University of Artificial Intelligence",
+        "Link\u00f6ping University"
+    ],
+    "Abstract": "Climate change is one of the most significant challenges we face together as a society. Creating awareness and educating policy makers the wide-ranging impact of climate change is an essential step towards a sustainable future. Recently, Large Language Models (LLMs) like ChatGPT and Bard have shown impressive conversational abilities and excel in a wide variety of NLP tasks. While these models are close-source, recently alternative open-source LLMs such as Stanford Alpaca and Vicuna have shown promising results. However, these open-source models are not specifically tailored for climate related domain specific information and also struggle to generate meaningful responses in other languages such as, Arabic. To this end, we propose a light-weight Arabic Mini-ClimateGPT that is built on an open-source LLM and is specifically fine-tuned on a conversational-style instruction tuning curated Arabic dataset Clima500-Instruct with over 500k instructions about climate change and sustainability. Further, our model also utilizes a vector embedding based retrieval mechanism during inference. We validate our proposed model through quantitative and qualitative evaluations on climate-related queries. Our model surpasses the baseline LLM in 88.3% of cases during ChatGPT-based evaluation. Furthermore, our human expert evaluation reveals an 81.6% preference for our model\u2019s responses over multiple popular open-source models. Our open-source demos, models and curated instruction sets are available here : https://github.com/mbzuai-oryx/ClimateGPT",
+    "Added By": "Zaid Alyafeai"
+}
