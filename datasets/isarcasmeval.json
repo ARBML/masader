@@ -1,0 +1,61 @@
+{
+    "Name": "iSarcasmEval",
+    "Volume": 20050.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/ShubhamKumarNigam/iSarcasm-SemEval-2022-Task-6",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "social media"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "Dataset for sarcasm detection in English and Arabic using transformers and data augmentation.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "SemEval Organizers"
+    ],
+    "Derived_From": [
+        "SemEval-2018 Task 3",
+        "ArSarcasm-v2"
+    ],
+    "Paper_Title": "Plumeria at SemEval-2022 Task 6: Robust Approaches for Sarcasm Detection for English and Arabic Using Transformers and Data Augmentation",
+    "Paper_Link": "https://arxiv.org/pdf/2203.04111v1",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "text classification",
+        "sarcasm detection"
+    ],
+    "Venue_Title": "SemEval-2022",
+    "Venue_Type": "workshop",
+    "Venue_Name": "The 16th International Workshop on Semantic Evaluation",
+    "Authors": [
+        "Shubham Kumar Nigam",
+        "Mosab Shaheen"
+    ],
+    "Affiliations": [
+        "Indian Institute of Technology Kanpur"
+    ],
+    "Abstract": "This paper describes our submission to SemEval-2022 Task 6 on sarcasm detection and its five subtasks for English and Arabic. Sarcasm conveys a meaning which contradicts the literal meaning, and it is mainly found on social networks. It has a significant role in understanding the intention of the user. For detecting sarcasm, we used deep learning techniques based on transformers due to its success in the field of Natural Language Processing (NLP) without the need for feature engineering. The datasets were taken from tweets. We created new datasets by augmenting with external data or by using word embeddings and repetition of instances. Experiments were done on the datasets with different types of preprocessing because it is crucial in this task. The rank of our team was consistent across four subtasks (fourth rank in three subtasks and sixth rank in one subtask); whereas other teams might be in the top ranks for some subtasks but rank drastically less in other subtasks. This implies the robustness and stability of the models and the techniques we used.",
+    "Subsets": [
+        {
+            "Name": "Arabic",
+            "Volume": 20050.0,
+            "Unit": "documents",
+            "Dialect": "mixed"
+        }
+    ],
+    "Dialect": "mixed",
+    "Language": "multilingual",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
