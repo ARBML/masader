@@ -1,0 +1,51 @@
+{
+    "Name": "AraLB",
+    "Volume": 5778.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/wangk0b/Self_Improving_ARA_LONG_Doc.git",
+    "HF_Link": "",
+    "Year": 2025,
+    "Domain": [
+        "other"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "machine annotation",
+        "LLM generated"
+    ],
+    "Description": "Large-scale Arabic benchmark for long-context QA",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Humain"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "A-SEA3L-QA: Arabic Long-Context QA Workflow",
+    "Paper_Link": "http://arxiv.org/pdf/2509.02864v1.pdf",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": false,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue_Title": "",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Kesen Wang",
+        "Daulet Toibazar",
+        "Pedro J. Moreno"
+    ],
+    "Affiliations": [
+        "Humain"
+    ],
+    "Abstract": "We present an end-to-end, self-evolving adversarial workflow for long-context Question-Answer (QA) Generation in Arabic. By orchestrating multiple specialized LVLMs: a question generator, an evaluator, and a swarm of answer generators, our system iteratively refines its own performance without any human intervention. Starting from raw, multi-page Arabic documents across diverse domains, the question generator produces fine-grained, context-aware queries to be tackled by the answer generator swarm, and the evaluator assesses and feeds back quality metrics. This closed-loop cycle enables continuous learning: low-confidence outputs trigger automated re-generation and model updates, progressively enhancing question difficulty and relevance. Moreover, we set the quality metrics as a tunable hyperparameter, enabling question generation at controllable and customizable difficulty levels. We release AraLongBench, a large-scale Arabic benchmark of single- and multi-page challenges spanning hundreds of pages, and demonstrate that our self-evolving workflow substantially outperforms static pipelines, markedly boosting the long-context comprehension capabilities of leading Arabic Large Vision Language Models (LVLMs). Lastly, we also meticulously architect a fully automated agentic workflow for long-context Arabic document collection.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
