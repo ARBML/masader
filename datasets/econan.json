@@ -1,0 +1,64 @@
+{
+    "Name": "econan",
+    "Volume": 43750.0,
+    "Unit": "sentences",
+    "License": "CC BY-NC-ND 4.0",
+    "Link": "https://huggingface.co/datasets/KhloudJ/E-CONAN",
+    "HF_Link": "https://huggingface.co/datasets/KhloudJ/E-CONAN",
+    "Year": 2024,
+    "Source": [
+        "news articles",
+        "books"
+    ],
+    "Form": "text",
+    "Domain": [
+        "news",
+        "education",
+        "general"
+    ],
+    "Annotation_Style": [
+        "human validation",
+        "inherited annotation"
+    ],
+    "Description": "Arabic NLI datasets for benchmarking.",
+    "Provider": [
+        "Higher Institute for Applied Sciences and Technology",
+        "Arab International University"
+    ],
+    "Derived_From": [
+        "ArNLI",
+        "SNLI",
+        "XNLI",
+        "AnsStance",
+        "ArEntail"
+    ],
+    "Partial": false,
+    "Paper_Title": "E-CONAN (Entailment, CONtradition And Neutral) Benchmarks: Arabic Textual Entailment and Natural Inference Datasets.",
+    "Paper_Link": "https://arxiv.org/pdf/2609.11334v1.pdf",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "unknown",
+    "Has_Splits": false,
+    "Tasks": [
+        "natural language inference"
+    ],
+    "Venue_Title": "IEEE Access",
+    "Venue_Type": "journal",
+    "Venue_Name": "IEEE Access",
+    "Authors": [
+        "Khloud AL Jallad",
+        "Nada Ghneim",
+        "Ghaida Rebdawi"
+    ],
+    "Affiliations": [
+        "Higher Institute for Applied Sciences and Technology",
+        "Arab International University"
+    ],
+    "Abstract": "Natural Language Inference (NLI), processes pairs of sentences to extract their semantic relations. NLI has been a hot research topic, integrated as a main component in other NLP applications, from morphological spelling correction tasks to higher-level tasks such as machine translation and information extraction. Despite significant advancements in textual inference across various languages all around the world, Arabic language still suffers from limited resources in this domain, specifically, when it comes to the scarcity of robust well-constructed benchmarks necessary for effective model tuning and generalization. To address this gap, this paper introduces E-CONAN benchmarks that are composed of sentences pairs from various sources: (1) automatically-translated pairs, (2) human-validated machine-translated pairs, (3) hand-crafted pairs from teaching Arabic as foreign language books, and (4) headlines pairs from different news channels containing rumors. E-CONAN contains two benchmark datasets, E-CONAN-2, a 2-way dataset (RTE) and E-CONAN-3, a 3-way dataset (NLI). Additionally, we have used E-CONAN benchmarks to evaluate 9 state-of-the-art multilingual pretrained models using zero-shot classification. Models were evaluated across the ArNLI, XNLI, and E-CONAN datasets. Results show that E-CONAN is a potentially valuable resource for evaluating model generalization and even for fine-tuning pre-trained models. Its diverse composition, derived from a combination of sources, offers a broader and more robust assessment compared to XNLI and ArNLI. Furthermore, results show that mDeBERTa model, pre-trained on 100 languages and fine-tuned on a combination of four machine-translated datasets, demonstrated superior performance on all datasets. It achieved accuracies of 71% and 86% on the E-CONAN-3 and XNLI datasets, respectively, outperforming all other evaluated models. In addition, we have evaluated 5 LLMs on E-CONAN-3 dataset. Best results were achieved by Gemma with an accuracy of 68%. Analyzing these results showed that most errors were between neutral and contradiction classes, thus we calculated results after reformulating E-CONAN-3 using 2-way labeling. Best results are achieved by Gemma and Qwen with an accuracy of 95%, 94% respectively. Moreover, we incorporated MARBERT as a representative Arabic-specific baseline and conducted performance evaluation comparison to demonstrate how Arabic-specific models scale against cross-lingual and LLM-based approaches on the E-CONAN benchmarks. Furthermore, we conducted detailed qualitative and quantitative error analysis to analyze frequent error patterns. Results show that while pretrained models are often misled by lexical overlap, LLMs are often misled by topical familiarity. E-CONAN benchmarks will be publicly available, we hope that it will enrich research community in Arabic textual entailment and natural language inference.",
+    "Dialect_Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
