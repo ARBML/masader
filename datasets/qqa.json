@@ -1,0 +1,51 @@
+{
+    "Name": "QQA",
+    "Volume": 1093.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://gitlab.com/bigirqu/quranqa",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "books"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "Benchmark dataset for Quran QA.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "QQATeam"
+    ],
+    "Derived_From": [],
+    "Paper_Title": "QQATeam at Qura\u00b4n QA 2022: Fine-Tunning Arabic QA Models for Qura\u00b4n QA Task",
+    "Paper_Link": "https://aclanthology.org/2022.osact-1.16.pdf",
+    "Tokenized": true,
+    "Host": "GitLab",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "question answering"
+    ],
+    "Venue_Title": "OSACT5",
+    "Venue_Type": "workshop",
+    "Venue_Name": "LREC 2022",
+    "Authors": [
+        "Basem H. Ahmed",
+        "Motaz K. Saad",
+        "Eshrag A. Refaee"
+    ],
+    "Affiliations": [
+        "Alaqsa University",
+        "The Islamic University of Gaza",
+        "Jazan University"
+    ],
+    "Abstract": "The problem of auto-extraction of reliable answers from a reference text like a constitution or holy book is a real challenge for the natural languages research community. Qura\u00b4n is the holy book of Islam and the primary source of legislation for millions of Muslims around the world, which can trigger the curiosity of non-Muslims to find answers about various topics from the Qura\u00b4n. Previous work on Question Answering (Q&A) from Qura\u00b4n is scarce and lacks the benchmark of previously developed systems on a testbed to allow meaningful comparison and identify developments and challenges. This work presents an empirical investigation of our participation in the Qura\u00b4n QA shared task (2022) that utilizes a benchmark dataset of 1,093 tuples of question-Qura\u00b4n passage pairs. The dataset comprises Qura\u00b4n verses, questions and several ranked possible answers. This paper describes the approach we follow with our participation in the shared task and summarises our main findings. Our system attained the best score at 0.63 pRR and 0.59 F1 on the development set and 0.56 pRR and 0.51 F1 on the test set. The best results of the Exact Match (EM) score at 0.34 indicate the difficulty of the task and the need for more future work to tackle this challenging task.",
+    "Subsets": [],
+    "Dialect": "Classical Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
