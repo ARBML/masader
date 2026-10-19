@@ -1,0 +1,66 @@
+{
+    "Name": "Diacc",
+    "Volume": 75.0,
+    "Unit": "documents",
+    "License": "CC BY-NC-ND 4.0",
+    "Link": "https://doi.org/10.1162/colia00456",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "news articles",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "human annotation"
+    ],
+    "Description": "Partial Arabic diacritization dataset.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "Tel Aviv University",
+        "College of Management Academic Studies",
+        "Basis Technology"
+    ],
+    "Derived_From": [
+        "Tashkeela",
+        "Arabic Treebank Part 3 v1.0"
+    ],
+    "Paper_Title": "How Much Does Lookahead Matter for Disambiguation? Partial Arabic Diacritization Case Study",
+    "Paper_Link": "https://aclanthology.org/2022.cl-4.20.pdf",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "machine translation",
+        "other"
+    ],
+    "Venue_Title": "Computational Linguistics",
+    "Venue_Type": "journal",
+    "Venue_Name": "CompLing",
+    "Authors": [
+        "Saeed Esmail",
+        "Kfir Bar",
+        "Nachum Dershowitz"
+    ],
+    "Affiliations": [
+        "Tel Aviv University",
+        "College of Management Academic Studies",
+        "Basis Technology"
+    ],
+    "Abstract": "We suggest a model for partial diacritization of deep orthographies focusing on Arabic to resolve ambiguity and improve readability. Our partial diacritizer restores short vowels only when they aid readability during reading. We use two neural networks: one for full sentences and one for reading-order text, retaining vowels only where they disagree. For evaluation, we prepared a new dataset of Arabic texts with full and partial vowelization. Our partial diacritizer improves translation quality compared to total absence or random selection. We also study the benefit of knowing following text toward short vowel restoration during reading, measuring how much lookahead helps resolve reading ambiguities.",
+    "Subsets": [
+        {
+            "Name": "Tweets",
+            "Volume": 75.0,
+            "Unit": "documents",
+            "Dialect": "Modern Standard Arabic"
+        }
+    ],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
