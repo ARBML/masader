@@ -1,0 +1,67 @@
+{
+    "Name": "ARGEN",
+    "Volume": 0.0,
+    "Unit": "tokens",
+    "License": "unknown",
+    "Link": "https://github.com/UBC-NLP/araT5",
+    "HF_Link": "",
+    "Year": 2022,
+    "Domain": [
+        "social media",
+        "news articles",
+        "books",
+        "wikipedia",
+        "public datasets"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "crawling",
+        "machine annotation",
+        "manual curation"
+    ],
+    "Description": "ARGEN benchmark for Arabic generation.",
+    "Ethical_Risks": "Medium",
+    "Provider": [
+        "The University of British Columbia"
+    ],
+    "Derived_From": [
+        "UN Parallel Corpus",
+        "IWSLT Corpus",
+        "AraBench",
+        "EASC",
+        "WikiLingua",
+        "OPUS"
+    ],
+    "Paper_Title": "AraT5: Text-to-Text Transformers for Arabic Language Generation",
+    "Paper_Link": "https://aclanthology.org/2022.acl-long.47.pdf",
+    "Tokenized": true,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "machine translation",
+        "summarization",
+        "question answering",
+        "paraphrase identification",
+        "transliteration",
+        "text generation"
+    ],
+    "Venue_Title": "ACL",
+    "Venue_Type": "conference",
+    "Venue_Name": "ACL 2022",
+    "Authors": [
+        "El Moatez Billah Nagoudi",
+        "Abdel Rahim Elmadany",
+        "Muhammad Abdul-Mageed"
+    ],
+    "Affiliations": [
+        "The University of British Columbia"
+    ],
+    "Abstract": "Transfer learning with a unified Transformer framework (T5) that converts all language problems into a text-to-text format was recently proposed as a simple and effective transfer learning approach. Although a multilingual version of the T5 model (mT5) was also introduced, it is not clear how well it can fare on non-English tasks involving diverse data. To investigate this question, we apply mT5 on a language with a wide variety of dialects\u2013Arabic. For evaluation, we introduce a novel benchmark for ARabic language GENeration (ARGEN), covering seven important tasks. For model comparison, we pre-train three powerful Arabic T5-style models and evaluate them on ARGEN. Unlike models such as BERT, which are based on encoders only, the T5 model is an encoder-decoder that can naturally be employed for natural language generation. Although the T5 model, originally pre-trained for English, was recently extended to the multilingual setting as mT5, it is not clear how suited it is to individual languages (and varieties of these languages). In addition, systematic issues have been discovered in multilingual corpora on which language models have been trained. In absence of comparisons with monolingual pre-trained language models that served different non-English contexts, it remains unknown how multilingual models really fare against language-specific models. In this work, we offer the first comparison of the mT5 model to similar encoder-decoder models dedicated to Arabic. We choose Arabic as our context due to its large set of diverse varieties as well as its wide use on social media. Our work aims at uncovering the extent to which mT5 can serve Arabic\u2019s different varieties. Our work also meets an existing need for pre-trained Transformer-based sequence-to-sequence models. In other words, while several BERT-based models have been pre-trained for Arabic, no such attempts have been made to create sequence-to-sequence models that we know of. Another motivation for our work is absence of an evaluation benchmark for Arabic language generation tasks. Apart from machine translation where researchers are starting to propose benchmarks such as AraBench, there are no benchmarks that can be used to methodically measure Arabic natural language generation performance.",
+    "Subsets": [],
+    "Dialect": "mixed",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
