@@ -1,0 +1,63 @@
+{
+    "Name": "MultiProSE",
+    "Volume": 8000.0,
+    "Unit": "documents",
+    "License": "unknown",
+    "Link": "https://github.com/xxx/xxx",
+    "HF_Link": "",
+    "Year": 2024,
+    "Domain": [
+        "news articles"
+    ],
+    "Form": "text",
+    "Collection_Style": [
+        "human annotation"
+    ],
+    "Description": "First multi-label Arabic dataset for propaganda, sentiment, and emotion detection.",
+    "Ethical_Risks": "Low",
+    "Provider": [
+        "King Saud University",
+        "Majmaah University",
+        "Imam Mohammad Ibn Saud Islamic University",
+        "Alfaisal University"
+    ],
+    "Derived_From": [
+        "ArPro"
+    ],
+    "Paper_Title": "MultiProSE: A Multi-label Arabic Dataset for Propaganda, Sentiment, and Emotion Detection",
+    "Paper_Link": "unknown",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Test_Split": true,
+    "Tasks": [
+        "sentiment analysis",
+        "emotion classification",
+        "other"
+    ],
+    "Venue_Title": "unknown",
+    "Venue_Type": "preprint",
+    "Venue_Name": "arXiv",
+    "Authors": [
+        "Lubna Al-Henaki",
+        "Hend Al-Khalifa",
+        "Abdulmalik Al-Salman",
+        "Hajar Alqubayshi",
+        "Hind Al-Twailay",
+        "Gheeda Alghamdi",
+        "Hawra Aljasim"
+    ],
+    "Affiliations": [
+        "King Saud University",
+        "Majmaah University",
+        "Imam Mohammad Ibn Saud Islamic University",
+        "Alfaisal University"
+    ],
+    "Abstract": "Propaganda is a form of persuasion that has been used throughout history with the intention goal of influencing people's opinions through rhetorical and psychological persuasion techniques for determined ends. Although Arabic ranked as the fourth most-used language on the internet, resources for propaganda detection in languages other than English, especially Arabic, remain extremely limited. To address this gap, the first Arabic dataset for Multi-label Propaganda, Sentiment and Emotion (MultiProSE) has been introduced. MultiProSE is an open-source extension of the existing Arabic propaganda dataset, ArPro, with the addition of sentiment and emotion annotations for each text. This dataset comprises 8,000 annotated news articles, which is the largest propaganda dataset to date. For each task, several baselines have been developed using large language models (LLMs), such as GPT-4o-mini, and pre-trained language models (PLMs), including three BERT-based models. The dataset, annotation guidelines, and source code are all publicly released to facilitate future research and development in Arabic language models and contribute to a deeper understanding of how various opinion dimensions interact in news media.",
+    "Subsets": [],
+    "Dialect": "Modern Standard Arabic",
+    "Language": "ar",
+    "Script": "Arab",
+    "Added_By": "qwen/qwen3.6-35b-a3b"
+}
