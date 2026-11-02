@@ -1,0 +1,70 @@
+{
+    "Name": "Kirill",
+    "Dialect Subsets": [
+        {
+            "Name": "Egyptian",
+            "Volume": 510.0,
+            "Unit": "hours",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Saudi",
+            "Volume": 356.0,
+            "Unit": "hours",
+            "Dialect": "Saudi Arabia"
+        },
+        {
+            "Name": "General Arabic",
+            "Volume": 639.0,
+            "Unit": "hours",
+            "Dialect": "Classical Arabic"
+        },
+        {
+            "Name": "Unspecified",
+            "Volume": 440.0,
+            "Unit": "hours",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/bitmanagerai-speech-lab/darbuka_arabic_tts_dataset",
+    "Link": "https://huggingface.co/datasets/bitmanagerai-speech-lab/darbuka_arabic_tts_dataset",
+    "License": "custom",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "other"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "audio",
+    "Annotation Style": [
+        "machine annotation"
+    ],
+    "Description": "Darbuka Arabic brings together Arabic speech, automatic transcripts, and audio-quality measurements for speech recognition and text-to-speech research, with a focus on Egyptian and Saudi speech.",
+    "Volume": 0.0,
+    "Unit": "hours",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "Darbuka Arabic: A Large-Scale Dataset for Arabic Speech Research",
+    "Paper Link": "https://huggingface.co/bitmanagerai-speech-lab",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "speech recognition",
+        "text to speech"
+    ],
+    "Venue Title": "other",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "Darbuka Arabic is an Arabic speech dataset comprising 943,731 clips and approximately 1,944 hours of audio, with a focus on Egyptian and Saudi speech. Each 2\u201320-second clip includes transcriptions from three ASR models, a PriorityROVER consensus transcript, quality measurements, dialect labels, and source provenance. Of the total audio duration, 98.01% achieves a predicted DistillMOS score of at least 3.0, and 83.59% exhibits inter-ASR consistency of at least 80%. Distributed as streamable WebDataset shards with accompanying analytical metadata, Darbuka Arabic supports ASR research and TTS data preparation through flexible inspection and subset selection.",
+    "Added By": "Kirill Borodin"
+}
