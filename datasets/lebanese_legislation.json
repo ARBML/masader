@@ -1,0 +1,49 @@
+{
+    "Name": "Lebanese Legislation",
+    "Dialect Subsets": [],
+    "HF Link": "https://huggingface.co/datasets/taktekhq/lebanese-legislation",
+    "Link": "https://lebaneselegislation.com/data/",
+    "License": "custom",
+    "Year": 2026,
+    "Language": "multilingual",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "web pages"
+    ],
+    "Domain": [
+        "law"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation"
+    ],
+    "Description": "Lebanese laws, decrees and decisions with their articles, court rulings and Official Gazette issues from 1904 to today, in Arabic and French, with amendment, repeal and citation links between texts.",
+    "Volume": 103117.0,
+    "Unit": "documents",
+    "Provider": [
+        "Taktek",
+        "Centre for Research and Studies in Legal Informatics, Lebanese University"
+    ],
+    "Derived From": [],
+    "Paper Title": "",
+    "Paper Link": "",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "information retrieval",
+        "retrieval-augmented generation",
+        "language modeling"
+    ],
+    "Venue Title": "other",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "Lebanese Legislation collects 103,117 Lebanese laws, decrees and decisions with 389,078 articles, 47,657 court rulings and 6,851 Official Gazette issues, from 1904 to today. Texts are in Arabic, and in French where published, and come from the Centre for Research and Studies in Legal Informatics at the Lebanese University. Amendment, repeal and citation links connect the texts. The data is released as Parquet tables on Hugging Face, with a JSON API and an MCP server, and the code is MIT licensed.",
+    "Added By": "Taktek"
+}
