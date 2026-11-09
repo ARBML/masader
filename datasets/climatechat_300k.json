@@ -1,0 +1,62 @@
+{
+    "Name": "ClimateChat-300K",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://zenodo.org/records/18824386",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2025,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "science",
+        "politics",
+        "society",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation",
+        "human validation"
+    ],
+    "Description": "Large-scale dataset of Facebook posts about climate change collected via CrowdTangle.",
+    "Volume": 299329.0,
+    "Unit": "documents",
+    "Provider": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [],
+    "Paper Title": "ClimateChat-300K: A Multi-Modal Facebook Dataset for Understanding Diverse Perspectives in Climate Communication",
+    "Paper Link": "https://arxiv.org/pdf/2502.13143",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "zenodo",
+    "Access": "Upon-Request",
+    "Cost": "Free",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "sentiment analysis",
+        "topic classification",
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Md. Rafiul Biswas",
+        "Mabrouka Bessghaier",
+        "Shimaa Ibrahim",
+        "George Mikros"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "We present ClimateChat-300K, a large-scale dataset of 299,329 public Facebook posts about climate change collected between May 2020 and May 2024 through the CrowdTangle platform. The dataset contains 41 metadata features including post content, engagement metrics, and page attributes, covering material from more than 26,000 global pages. Each post includes rich contextual information such as language, timestamp, page category, and interaction counts, enabling comprehensive analyses of public discourse around climate communication. Using topic modeling and sentiment analysis, we identify ten main themes grouped into five domains: policy, activism, cooperation, science, and conservation. The results reveal that emotional tone, post format, and page identity strongly influence audience engagement, with visually rich and emotionally charged content receiving the highest levels of interaction. The dataset also demonstrates how online discussions evolved in response to major events such as international climate summits and the COVID-19 pandemic period. ClimateChat-300K provides an open resource for reproducible and interdisciplinary research on polarization, misinformation, and the dynamics of digital climate discourse. By releasing this dataset, we aim to support transparent, data-driven research and contribute to a deeper understanding of how public engagement with climate issues develops across time, geography, and institutional contexts.",
+    "Added By": "google/gemini-3-flash-preview"
+}
