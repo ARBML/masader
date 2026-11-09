@@ -1,0 +1,119 @@
+{
+    "Name": "AWSC",
+    "Dialect Subsets": [
+        {
+            "Name": "Egypt",
+            "Volume": 75676.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Tunisia",
+            "Volume": 18132.0,
+            "Unit": "sentences",
+            "Dialect": "Tunisia"
+        },
+        {
+            "Name": "Iraq",
+            "Volume": 17932.0,
+            "Unit": "sentences",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "Algeria",
+            "Volume": 16257.0,
+            "Unit": "sentences",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "Syria",
+            "Volume": 14344.0,
+            "Unit": "sentences",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "Morocco",
+            "Volume": 13433.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Palestine",
+            "Volume": 13316.0,
+            "Unit": "sentences",
+            "Dialect": "Palestine"
+        },
+        {
+            "Name": "Jordan",
+            "Volume": 10646.0,
+            "Unit": "sentences",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "Libya",
+            "Volume": 6560.0,
+            "Unit": "sentences",
+            "Dialect": "Libya"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://tinyurl.com/4ke5jwyw",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "society",
+        "politics",
+        "culture",
+        "religion",
+        "news",
+        "law"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "metadata-derived",
+        "machine annotation"
+    ],
+    "Description": "Arabic posts on women's empowerment from Facebook.",
+    "Volume": 0.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Audience Engagement with Arabic Women\u2019s Social Empowerment and Wellbeing: A Decadal Corpus",
+    "Paper Link": "https://aclanthology.org/2026.lrec-1.523/",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "Free",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "sentiment analysis",
+        "topic classification",
+        "emotion detection"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Md. Rafiul Biswas",
+        "Mabrouka Bessghaier",
+        "Shimaa Ibrahim",
+        "George Mikros"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "This paper presents the Arabic Women and Society Corpus, a ten-year collection of 252,487 public Arabic Facebook posts related to women\u2019s empowerment and social wellbeing. The corpus was collected from 51,660 pages across 77 countries between 2013 and 2024, resulting in more than 267 million user interactions. Each post includes engagement metrics such as shares, comments, and emotional reactions, providing a unique view of audience sentiment and social attention. The data were processed using an automated pipeline with language identification, normalization, and metadata cleaning to ensure reliability and reproducibility. The corpus enables large-scale analysis of gender discourse, social reform, and emotional engagement across Arabic dialects. It supports research in Arabic natural language processing, computational social science, and digital communication studies. The dataset and accompanying documentation will be released under request for research use.",
+    "Added By": "google/gemini-3-flash-preview"
+}
