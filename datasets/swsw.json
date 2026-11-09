@@ -1,0 +1,44 @@
+{
+    "Name": "swsw",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "swsw",
+    "License": "custom",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "other"
+    ],
+    "Domain": [
+        "geography"
+    ],
+    "Form": "audio",
+    "Annotation Style": [
+        "other"
+    ],
+    "Description": "",
+    "Volume": 0.0,
+    "Unit": "hours",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "wsws",
+    "Paper Link": "https://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.876.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": true,
+    "Host": "other",
+    "Access": "With-Fee",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": true,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "IEEE Access",
+    "Venue Type": "journal",
+    "Venue Name": "IEEE Access",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "ssws",
+    "Added By": "wsw"
+}
