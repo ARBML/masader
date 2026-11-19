@@ -2,7 +2,7 @@
     "Name": "Abed Al hakim",
     "Dialect Subsets": [],
     "HF Link": "",
-    "Link": "",
+    "Link": "https://github.com/mbzuai-nlp/AraVQA",
     "License": "Apache-2.0",
     "Year": 2026,
     "Language": "ar",
@@ -13,7 +13,7 @@
     "Domain": [
         "general"
     ],
-    "Form": "videos",
+    "Form": "text",
     "Annotation Style": [
         "other"
     ],
