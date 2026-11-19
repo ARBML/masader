@@ -1,0 +1,44 @@
+{
+    "Name": "Abed Al hakim",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/mbzuai-nlp/AraVQA",
+    "License": "Apache-2.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "other"
+    ],
+    "Domain": [
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "other"
+    ],
+    "Description": "",
+    "Volume": 0.0,
+    "Unit": "hours",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "AraVQA: Building a New Arabic Factoid Visual Question Answering Dataset from Wikipedia",
+    "Paper Link": "https://aclanthology.org/2026.acl-long.91.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "With-Fee",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "other"
+    ],
+    "Venue Title": "ACL",
+    "Venue Type": "conference",
+    "Venue Name": "Annual Meeting of the Association for Computational Linguistics",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "The development of large-scale Visual Ques-\ntion Answering (VQA) datasets has tradition-\nally relied on resource-intensive manual anno-\ntation. In addition, most of the existing Arabic\nVQA datasets focus on culturally-specific and\ndialect-aware domains. To address these limita-\ntions, we propose a new pipeline that leverages\nWikipedia template tags to extract the relevant\ninformation for each image, which is subse-\nquently utilized by the Large Language Model\n(LLM) to synthetically generate a new visual\nquestion answering dataset. Using this pipeline,\nwe have constructed AraVQA, the most com-\nprehensive Arabic Factoid Visual Question An-\nswering dataset, containing more than 50,000\nquestions and covering over 20 varied primary\nsubjects within Arabic general knowledge. Our\ndetailed analysis shows that our dataset can\nserve as a post-training dataset to enhance the\nperformance of existing Visual Language Mod-\nels (VLMs) on Arabic VQA tasks. Further-\nmore, we present a novel benchmark, derived\nfrom our dataset and validated through manual\nannotation, that poses more challenges to Ara-\nbic VLMs than existing Arabic VQA datasets.",
+    "Added By": "Abed Al hakim"
+}
