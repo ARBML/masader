@@ -1,0 +1,111 @@
+{
+    "Name": "AraStress",
+    "Dialect Subsets": [
+        {
+            "Name": "Egypt",
+            "Volume": 10145595.0,
+            "Unit": "hours",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Syria",
+            "Volume": 8431479.0,
+            "Unit": "hours",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "Algeria",
+            "Volume": 3483686.0,
+            "Unit": "hours",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "Iraq",
+            "Volume": 3153400.0,
+            "Unit": "hours",
+            "Dialect": "Iraq"
+        },
+        {
+            "Name": "Libya",
+            "Volume": 2289129.0,
+            "Unit": "hours",
+            "Dialect": "Libya"
+        },
+        {
+            "Name": "Morocco",
+            "Volume": 1898005.0,
+            "Unit": "hours",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "United Arab Emirates",
+            "Volume": 1586999.0,
+            "Unit": "hours",
+            "Dialect": "United Arab Emirates"
+        },
+        {
+            "Name": "Jordan",
+            "Volume": 1388720.0,
+            "Unit": "hours",
+            "Dialect": "Jordan"
+        },
+        {
+            "Name": "Palestine",
+            "Volume": 1185471.0,
+            "Unit": "hours",
+            "Dialect": "Palestine"
+        }
+    ],
+    "HF Link": "",
+    "Link": "",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "health",
+        "society",
+        "religion"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "metadata-derived"
+    ],
+    "Description": "Large-scale Arabic corpus for psychological stress research from Facebook.",
+    "Volume": 175862.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar"
+    ],
+    "Derived From": [],
+    "Paper Title": "From Posts to Pressure: An Arabic Dataset about Stress and Mental-Health Monitoring",
+    "Paper Link": "https://aclanthology.org/2026.abjadnlp-1.50.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "Free",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "mental health detection",
+        "text classification",
+        "other"
+    ],
+    "Venue Title": "AbjadNLP",
+    "Venue Type": "workshop",
+    "Venue Name": "Workshop on NLP for Languages Using Arabic Script",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Eman Sedqy Shlkamy",
+        "Mabrouka Bessghaier"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar"
+    ],
+    "Abstract": "How do Arabic-speaking communities express and engage with psychological stress on social media? We introduce AraStress, the first large-scale Arabic corpus dedicated to psychological stress research, comprising 175,862 public social media posts from 2020 to 2024, covering pandemic and post-pandemic periods. It fills a significant gap in Arabic mental-health NLP resources focused on stress, enabling large-scale analysis of related expressions. Unlike prior work focusing primarily on Twitter and depression or suicidality, AraStress addresses the critical gap in stress-focused resources. Our lexicon-based analysis reveals that stress-related posts elicit predominantly affective engagement and exhibit a hybrid lexical framing that integrates religious and therapeutic language. AraStress provides a foundational resource for culturally grounded computational models of stress detection and digital wellbeing in Arabic-speaking communities.",
+    "Added By": "google/gemini-3-flash-preview"
+}
