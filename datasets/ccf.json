@@ -1,0 +1,64 @@
+{
+    "Name": "CCF",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://zenodo.org/records/18367526",
+    "License": "CC BY 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "politics",
+        "society",
+        "news",
+        "science",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation",
+        "LLM annotation",
+        "human validation"
+    ],
+    "Description": "Longitudinal climate change discourse on Facebook",
+    "Volume": 299329.0,
+    "Unit": "documents",
+    "Provider": [
+        "Hamad Bin Khalifa University",
+        "Northwestern University in Qatar"
+    ],
+    "Derived From": [],
+    "Paper Title": "Longitudinal Trends in Global Climate Change Discourse on Facebook",
+    "Paper Link": "https://dl.acm.org/doi/pdf/10.1145/3774904.3793026",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "zenodo",
+    "Access": "Upon-Request",
+    "Cost": "Free",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "sentiment analysis",
+        "topic classification",
+        "stance detection"
+    ],
+    "Venue Title": "WWW",
+    "Venue Type": "conference",
+    "Venue Name": "The ACM Web Conference 2026",
+    "Authors": [
+        "Md. Rafiul Biswas",
+        "Mabrouka Bessghaier",
+        "Shimaa Ibrahim",
+        "George Mikros",
+        "Wajdi Zaghouani"
+    ],
+    "Affiliations": [
+        "Hamad Bin Khalifa University",
+        "Northwestern University in Qatar"
+    ],
+    "Abstract": "Climate change discourse on social media plays a major role in shaping public engagement, the spread of misinformation, and policy advocacy. We analyze 299,329 climate-related public Facebook posts collected from 26,731 pages between May 2020 and May 2024. Using a stratified sample of 50,000 posts, we examine topic prevalence, sentiment, stance, and engagement through transformer-based models, ensemble sentiment analysis, and LLM-assisted topic labeling. We identify 15 recurring climate topics, with International Cooperation, Environmental Justice, and Agriculture Climate dominating discourse. Posting activity and sentiment exhibit strong event-driven dynamics, with pronounced spikes around major milestones such as COP26, COP27, and IPCC report releases. Overall sentiment is predominantly positive (55.8%), particularly for solution-oriented topics, while impact-focused topics display higher negative sentiment. Stance analysis reveals a dominant neutral positioning (90.1%) and limited explicit opposition, suggesting an assumed-consensus environment within climate-focused Facebook spaces. Posting activity is heavily concentrated in English-speaking countries, with the United States accounting for 43% of pages, followed by Australia, the United Kingdom, and India. Finally, sentiment patterns significantly predict engagement, with emotionally charged content attracting higher interaction levels. Together, these findings highlight how emotional framing, institutional influence, and geographic disparities shape climate communication on Facebook.",
+    "Added By": "google/gemini-3-flash-preview"
+}
