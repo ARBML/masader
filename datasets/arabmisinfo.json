@@ -1,0 +1,62 @@
+{
+    "Name": "ArabMisinfo",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://forms.gle/YUFdA16R6HkSZjp88",
+    "License": "custom",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media",
+        "news articles"
+    ],
+    "Domain": [
+        "news",
+        "politics",
+        "health",
+        "economics",
+        "science"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "LLM annotation",
+        "metadata-derived"
+    ],
+    "Description": "Arabic Facebook corpus for misinformation analysis.",
+    "Volume": 274837.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArabMisinfo: A Decade-Long Arabic Facebook Corpus for Misinformation Discourse and Engagement Analysis",
+    "Paper Link": "https://aclanthology.org/2026.findings-aacl.192/",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "misinformation detection",
+        "text classification",
+        "fact checking",
+        "stance detection"
+    ],
+    "Venue Title": "IJCNLP-AACL",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Association for Computational Linguistics: IJCNLP-AACL 2026",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Manar Bidani",
+        "Mabrouka Bessghaier"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Independent Researcher"
+    ],
+    "Abstract": "We present ArabMisinfo, a corpus of 274,837 public Facebook Page posts in Arabic spanning 2014\u20132024 and focused on news and public affairs. Each record includes page-level metadata, UTC timestamps, link domains, and platform-native engagement signals (likes, comments, shares, and the seven post-2016 reaction types). We accompany the corpus with reproducible diagnostics for engagement and polarization, the Polarization Index (PI), Share-to-Like Anomaly (SLA), Risk Triage Index (RTI), and Engagement Pattern Residuals (EPR). To address the absence of content-level labels, we contribute a discourse role annotation of 10,000 posts (3.6% of the corpus) using Fanar-C-2-27B, classifying each post into one of six roles. The annotation reveals that Arabic Facebook misinformation discourse is dominated by counter-information activity: 30.6% of posts are Rumor Denial or Official Correction, outpacing Unverified Claim posts (12.3%) by a 2.5:1 ratio, while 19.3% represent incidental keyword matches, directly quantifying the sampling noise introduced by keyword-based collection. To comply with platform terms and copyright, we publicly release Post IDs, Page IDs, and full metadata and derived indices; message text is available only under a research data-use agreement (DUA). ArabMisinfo enables engagement-aware analyses of Arabic misinformation ecosystems and, to our knowledge, provides the first discourse-role-annotated Arabic Facebook corpus at this scale.",
+    "Added By": "google/gemini-3-flash-preview"
+}
