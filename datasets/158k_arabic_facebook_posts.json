@@ -1,0 +1,86 @@
+{
+    "Name": "158k Arabic Facebook posts",
+    "Dialect Subsets": [
+        {
+            "Name": "Egyptian",
+            "Volume": 0.0,
+            "Unit": "tokens",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Levantine",
+            "Volume": 0.0,
+            "Unit": "tokens",
+            "Dialect": "Levant"
+        },
+        {
+            "Name": "Gulf",
+            "Volume": 0.0,
+            "Unit": "tokens",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "Maghrebi",
+            "Volume": 0.0,
+            "Unit": "tokens",
+            "Dialect": "North Africa"
+        }
+    ],
+    "HF Link": "",
+    "Link": "",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "society",
+        "politics",
+        "economics",
+        "law",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "metadata-derived"
+    ],
+    "Description": "A corpus of Arabic Facebook posts spanning women's discourse and engagement metrics.",
+    "Volume": 158000.0,
+    "Unit": "documents",
+    "Provider": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [],
+    "Paper Title": "Learning to Engage: Modeling Topic-Sensitive Reactions in Arabic Women\u2019s Online Discourse",
+    "Paper Link": "https://aclanthology.org/2026.findings-eacl.253.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "0",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "text classification",
+        "sentiment analysis",
+        "other"
+    ],
+    "Venue Title": "EACL",
+    "Venue Type": "conference",
+    "Venue Name": "Conference of the European Chapter of the Association for Computational Linguistics",
+    "Authors": [
+        "Mabrouka Bessghaier",
+        "Md. Rafiul Biswas",
+        "Shimaa Amer Ibrahim",
+        "Wajdi Zaghouani"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "Predicting how audiences react to Arabic social media posts requires reasoning beyond textual sentiment: reactions emerge from collective interpretation moderated by engagement dynamics and topical context. We present a multi-task learning framework that jointly learns (i) audience reaction classification (Love, Haha, Angry, Sad, Care, Wow), (ii) engagement magnitude regression (six reactions, comments, shares), and (iii) non-engagement detection. On a corpus of 158k Arabic Facebook posts spanning women\u2019s rights, gender debates, and economic empowerment, our model achieves a test macro-F1 of 72.4 and weighted-F1 of 89.1.",
+    "Added By": "google/gemini-3-flash-preview"
+}
