@@ -1,0 +1,61 @@
+{
+    "Name": "AI-S",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://forms.gle/YUFdA16R6HkSZjp88",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "technology",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation"
+    ],
+    "Description": "Cross-platform AI-sustainability discourse dataset",
+    "Volume": 52102.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [],
+    "Paper Title": "AI-Sustainability Discourse Across Social Media: Sentiment, Topics, and Engagement on LinkedIn, X, and Bluesky",
+    "Paper Link": "https://aclanthology.org/2026.findings-aacl.152.pdf",
+    "Script": "Latin",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "0",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "sentiment analysis",
+        "topic classification",
+        "other"
+    ],
+    "Venue Title": "IJCNLP-AACL",
+    "Venue Type": "conference",
+    "Venue Name": "Findings of the Association for Computational Linguistics: IJCNLP-AACL 2026",
+    "Authors": [
+        "Kholoud Khalil Aldous",
+        "Md. Rafiul Biswas",
+        "Mabrouka Bessghaier",
+        "Shimaa Ibrahim",
+        "Kais Attia",
+        "Wajdi Zaghouani"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University",
+        "Independent Researcher"
+    ],
+    "Abstract": "We present the first cross-platform computational analysis of AI-sustainability discourse across LinkedIn, X, and Bluesky, using 52,102 posts collected over 15 months. Combining RoBERTa-based sentiment classification with BERTopic topic modeling, we identify 36 topics and compare sentiment, topic distributions, and engagement across platforms. Overall, 43.98% of posts are positive, 40.16% neutral, and 15.86% negative. Sentiment varies by topic rather than by platform: corporate and AI-potential themes are mostly positive, while resource-cost topics carry the highest negative sentiment. Topic distributions differ significantly across platforms: LinkedIn focuses on corporate sustainability, X on hardware and cryptocurrency, and Bluesky on environmental resource costs. Niche topics consistently attract more engagement than high-volume ones. These findings have implications for how organizations and policymakers communicate about AI-sustainability, as topic framing and platform audience composition shape public discourse more than platform selection alone. We release the annotated dataset to support future research.",
+    "Added By": "google/gemini-3-flash-preview"
+}
