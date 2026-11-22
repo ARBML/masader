@@ -1,0 +1,58 @@
+{
+    "Name": "AraCosmetic",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://tinyurl.com/4ke5jwyw",
+    "License": "custom",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "health",
+        "culture",
+        "society"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "metadata-derived",
+        "machine annotation",
+        "human validation"
+    ],
+    "Description": "Arabic Facebook corpus of cosmetic discourse.",
+    "Volume": 116132.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar"
+    ],
+    "Derived From": [],
+    "Paper Title": "AraCosmetic: Building and Analysing an Arabic Facebook Corpus of Cosmetic Discourse",
+    "Paper Link": "https://doi.org/10.1007/978-981-92-6913-6_10",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "Free",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "text classification",
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Manar Bidani",
+        "Mabrouka Bessghaier"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Independent Researcher"
+    ],
+    "Abstract": "We introduce AraCosmetic, a domain-refined Arabic Facebook corpus containing 116,132 posts published by 16,141 public pages between September 2021 and August 2024. The corpus was constructed through a two-stage pipeline. Posts were first collected using the polysemous seed term \u201c\u0632\u064a\u0641\u062d\u062a\u201d and then filtered with a cosmetic-domain lexicon that distinguishes cosmetic-related \u201cstimulation\u201d from off-domain motivational uses. This process retained 42.1% of the original collection. Descriptive analyses show highly concentrated engagement. Posts containing one to three hashtags have a modest 2.4% mean-engagement advantage over posts without hashtags, while posts combining a URL with video have a 212.4% advantage. The relationship between post length and hashtag use varies across the corpus. The corpus is available upon request to support future research on advertising-claim detection, body-image discourse analysis, and consumer-protection NLP.",
+    "Added By": "google/gemini-3-flash-preview"
+}
