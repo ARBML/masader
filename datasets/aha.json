@@ -1,0 +1,82 @@
+{
+    "Name": "AHA",
+    "Dialect Subsets": [
+        {
+            "Name": "AHA-MEMES Gold",
+            "Volume": 5000.0,
+            "Unit": "images",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "AHA-MEMES Silver",
+            "Volume": 66297.0,
+            "Unit": "images",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "https://huggingface.co/collections/QCRI/media-integrity-intelligence",
+    "Link": "https://github.com/MohamedBayan/AHA-Memes",
+    "License": "CC BY-NC-SA 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "politics",
+        "culture",
+        "society",
+        "religion"
+    ],
+    "Form": "images",
+    "Annotation Style": [
+        "human annotation",
+        "LLM annotation"
+    ],
+    "Description": "Fine-grained multimodal benchmark for understanding hate in Arabic memes.",
+    "Volume": 5000.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Qatar Computing Research Institute",
+        "APAVI.AI",
+        "Hamad Bin Khalifa University",
+        "Northwestern University in Qatar"
+    ],
+    "Derived From": [
+        "ArMeme"
+    ],
+    "Paper Title": "AHA-MEMES: A Fine-Grained Multimodal Benchmark for Understanding Hate in Arabic Memes",
+    "Paper Link": "https://aclanthology.org/2026.arabicnlp-main.27.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "0",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "hate speech detection",
+        "text classification",
+        "other"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Mohamed Bayan Kmainasi",
+        "Ali Ezzat Shahroor",
+        "Abul Hasnat",
+        "Md. Rafiul Biswas",
+        "Wajdi Zaghouani",
+        "Firoj Alam"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "APAVI.AI",
+        "Hamad Bin Khalifa University",
+        "Northwestern University in Qatar"
+    ],
+    "Abstract": "Hateful memes are a growing form of multimodal online harm, where hostile intent is often conveyed through the joint interpretation of images, text, cultural references, and implicit targets. While hateful meme detection has advanced in high-resource languages, Arabic remains underexplored, with existing meme resources focusing mainly on propaganda or coarse harmful-content labels. We introduce AHA-MEMES, which is, to our knowledge, the first large Arabic hateful meme benchmark with fine-grained, multi-label annotations. The dataset includes 5K manually annotated memes across hateful and non-hateful categories using a taxonomy that captures hate types, i.e., attack strategies. We further provide ~66K silver-labeled memes to support future studies. We benchmark text-only, image-only, and late-fusion multimodal models, as well as few-shot in-context learning (ICL) and open- and closed-weight Vision-Language Models (VLMs) under zero-shot and fine-tuning settings.",
+    "Added By": "google/gemini-3-flash-preview"
+}
