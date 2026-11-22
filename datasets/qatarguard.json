@@ -1,0 +1,67 @@
+{
+    "Name": "QatarGuard",
+    "Dialect Subsets": [
+        {
+            "Name": "QatarGuard",
+            "Volume": 3289.0,
+            "Unit": "sentences",
+            "Dialect": "Qatar"
+        }
+    ],
+    "HF Link": "https://huggingface.co/QCRI/Fanar-2-27B-Instruct",
+    "Link": "https://forms.gle/YUFdA16R6HkSZjp88",
+    "License": "custom",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "society",
+        "health",
+        "education",
+        "culture"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation"
+    ],
+    "Description": "A Qatari Arabic dialect safety evaluation dataset.",
+    "Volume": 3289.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [],
+    "Paper Title": "QatarGuard: A Culturally-Aware Safety Benchmark for Arabic and Multilingual LLMs",
+    "Paper Link": "https://aclanthology.org/2026.findings-emnlp.1710.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "Free",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "safety evaluation",
+        "other"
+    ],
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Kholoud Khalil Aldous",
+        "Md. Rafiul Biswas",
+        "Mohammed Abdelkreem"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "We introduce QatarGuard, an Arabic safety evaluation dataset containing 3,289 human curated prompts across eleven categories: Self-Harm, Violence, Child Exploitation, Vulgar Language, Radicalization, Sexual Language, Racist Content, Regulated Goods and Illegal Activities, Education, Family, and Health. We evaluate how safely five large language models respond to prompts: 299 from the Self-Harm category and 450 from three additional categories: Radicalization, Sexual Language, and Violence. The models tested include four commercial models (Claude 4.5 Sonnet, GPT-4.1, GPT-3.5 Turbo, and Google Gemini 2.5 Flash Lite) and one open-source Arabic-centric model (Fanar-2-27B-Instruct). We use GPT-5 as an automated judge, supported by manual review, to identify failure modes specific to Qatari Arabic dialect. For Self-Harm, unsafe response rates ranged from 2.34% (Gemini 2.5 Flash Lite) to 6.02% (GPT-3.5 Turbo), with Fanar-2-27B-Instruct at 4.35%. Across the other three categories, results varied more widely, from 2.91% to 13.48%. Sexual Language was the most challenging category, where even the best-performing model gave unsafe responses to 5.3% of prompts. Our findings show that Arabic dialect influences model behavior in safety-sensitive contexts, and that overall safety scores hide weaknesses in specific categories. This shows why LLM evaluations need to account for both dialect and safety category. The dataset is available for non-commercial research upon request. Content Warning: This paper contains examples of harmful Arabic content included solely for research illustration.",
+    "Added By": "google/gemini-3-flash-preview"
+}
