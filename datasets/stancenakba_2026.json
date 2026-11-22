@@ -1,0 +1,75 @@
+{
+    "Name": "StanceNakba 2026",
+    "Dialect Subsets": [
+        {
+            "Name": "Subtask B",
+            "Volume": 577.0,
+            "Unit": "sentences",
+            "Dialect": "Gulf"
+        },
+        {
+            "Name": "Subtask B",
+            "Volume": 628.0,
+            "Unit": "sentences",
+            "Dialect": "Levant"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://www.codabench.org/",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "politics",
+        "society"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation",
+        "metadata-derived"
+    ],
+    "Description": "Shared task on actor and topic-aware stance detection related to the Palestinian-Israeli conflict.",
+    "Volume": 2606.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [
+        "MARASTA"
+    ],
+    "Paper Title": "StanceNakba Shared Task: Actor and Topic-Aware Stance Detection in Public Discourse",
+    "Paper Link": "https://www.lrec-conf.org/proceedings/lrec2026/workshops/nakbanlp/pdf/2026.nakbanlp-1.8.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "CodaLab",
+    "Access": "Free",
+    "Cost": "0",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "stance detection"
+    ],
+    "Venue Title": "LREC-COLING",
+    "Venue Type": "conference",
+    "Venue Name": "Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
+    "Authors": [
+        "Kholoud K. Aldous",
+        "Md Rafiul Biswas",
+        "Mabrouka Bessghaier",
+        "Shimaa Ibrahim",
+        "Kais Attia",
+        "Wajdi Zaghouani"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "We present StanceNakba 2026, a shared task on stance detection in polarized social media discourse related to the Palestinian-Israeli conflict, organized as part of Nakba-NLP 2026 at LREC-COLING 2026. The task introduces two subtasks: Subtask A (Actor-Level Stance Detection), which classifies English social media posts as Pro-Palestine, Pro-Israel, or Neutral; and Subtask B (Cross-Topic Stance Detection), which identifies Favor, Against, or Neither stances in Arabic posts toward two conflict-related topics, normalization with Israel and refugee presence in Jordan. The task is grounded in an annotated dataset of 2,606 social media posts. A total of 7 teams participated in Subtask A and 6 teams in Subtask B. Participating systems primarily fine-tuned Arabic and multilingual transformer-based models, including MARBERT, AraBERT, and DeBERTa-v3 variants, with several teams employing cross-validation, ensemble methods, and topic-conditioned architectures.",
+    "Added By": "google/gemini-3-flash-preview"
+}
