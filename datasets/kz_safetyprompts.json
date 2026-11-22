@@ -1,0 +1,60 @@
+{
+    "Name": "KZ-SafetyPrompts",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "",
+    "License": "CC BY-NC 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "health",
+        "education",
+        "society",
+        "politics",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "machine annotation"
+    ],
+    "Description": "Kazakh safety evaluation prompt dataset for LLMs.",
+    "Volume": 5717.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [],
+    "Paper Title": "KZ-SafetyPrompts: A Kazakh Safety Evaluation Prompt Dataset for Large Language Models",
+    "Paper Link": "https://www.lrec-conf.org/proceedings/lrec2026/workshops/sigul/pdf/2026.sigul-1.12.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "Free",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "safety evaluation"
+    ],
+    "Venue Title": "SIGUL",
+    "Venue Type": "workshop",
+    "Venue Name": "SIGUL 2026 Joint Workshop",
+    "Authors": [
+        "Mabrouka Bessghaier",
+        "Md. Rafiul Biswas",
+        "Shimaa Amer Ibrahim",
+        "Wajdi Zaghouani"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "Kazakh is underrepresented in resources for evaluating the safety behavior of large language models. We present KZ-SafetyPrompts, a Kazakh prompt dataset for safety evaluation across eleven categories covering common risk areas such as self-harm, violence, child exploitation, sexual content, racist content, radicalization, and regulated goods or illegal activities. The dataset contains 5,717 prompts written natively in Kazakh (Cyrillic), organized by category, with English translations for cross-lingual analysis. Prompts resemble realistic user queries, often in a teen or child style, and are phrased as intent prompts without procedural instructions. We document the writing protocol, labeling procedures (including borderline-case decision rules), and quality-control steps (schema standardization, completeness checks, and deduplication). We also align the categories with widely used safety taxonomies to support integration with existing evaluation pipelines. Baseline results with GPT-4o show an overall refusal rate of 28.2%, varying from 5.5% to 53.8% across categories, indicating that Kazakh prompts expose category-specific safety gaps not captured by English-only evaluation.",
+    "Added By": "google/gemini-3-flash-preview"
+}
