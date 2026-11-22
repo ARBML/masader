@@ -1,0 +1,67 @@
+{
+    "Name": "AlbanianLLMSafety",
+    "Dialect Subsets": [
+        {
+            "Name": "Standard Albanian",
+            "Volume": 2951.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://forms.gle/YUFdA16R6HkSZjp88",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "society",
+        "health",
+        "education",
+        "law",
+        "politics",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "First safety evaluation dataset for LLMs in Albanian with 2,951 prompts across 11 categories.",
+    "Volume": 2951.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar"
+    ],
+    "Derived From": [],
+    "Paper Title": "AlbanianLLMSafety: A Safety Evaluation Dataset for Large Language Models in Albanian",
+    "Paper Link": "https://www.lrec-conf.org/proceedings/lrec2026/workshops/sigul/pdf/2026.sigul-1.7.pdf",
+    "Script": "Latin",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "0",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "safety evaluation",
+        "toxicity detection",
+        "hate speech detection",
+        "offensive language detection"
+    ],
+    "Venue Title": "SIGUL",
+    "Venue Type": "workshop",
+    "Venue Name": "SIGUL 2026 Joint Workshop",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Kholoud K. Aldous",
+        "Isra Fejzullaj"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar"
+    ],
+    "Abstract": "Safety evaluation of Large Language Models (LLMs) has largely focused on high-resource languages, leaving low-resource languages critically underserved. We present AlbanianLLMSafety, the first publicly available safety evaluation dataset for LLMs in Albanian, a linguistically distinct low-resource language with approximately 7.5 million speakers across Albania, Kosovo, North Macedonia, and the diaspora. The dataset contains 2,951 prompts spanning 11 safety categories, including self-harm, violence, racist content, child exploitation, and radicalization, with an average of 268 prompts per category. Each prompt is provided in Albanian with an English reference translation and a detailed category label. This resource addresses a significant gap in safety evaluation infrastructure for low-resource languages and provides an essential benchmark for developing safer, more inclusive LLMs. The dataset will be provided upon request to support safety evaluation, fine-tuning, red-teaming, and guardrail development for Albanian-speaking communities.",
+    "Added By": "google/gemini-3-flash-preview"
+}
