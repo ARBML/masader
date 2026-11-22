@@ -1,0 +1,79 @@
+{
+    "Name": "AraHeritage",
+    "Dialect Subsets": [
+        {
+            "Name": "Egypt",
+            "Volume": 23459217.0,
+            "Unit": "hours",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Algeria",
+            "Volume": 8406289.0,
+            "Unit": "hours",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "ArabicFemale",
+            "Volume": 5139.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://tinyurl.com/4ke5jwyw",
+    "License": "custom",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "history",
+        "culture",
+        "news",
+        "sports",
+        "politics",
+        "religion"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "metadata-derived"
+    ],
+    "Description": "A large-scale Arabic Facebook corpus of historical and cultural heritage discourse.",
+    "Volume": 290390.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar"
+    ],
+    "Derived From": [],
+    "Paper Title": "AraHeritage: Exploring Historical and Cultural Heritage Discourse on Arabic Facebook",
+    "Paper Link": "https://arxiv.org/pdf/2410.15830",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "Free",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "topic classification",
+        "sentiment analysis",
+        "other"
+    ],
+    "Venue Title": "arXiv",
+    "Venue Type": "preprint",
+    "Venue Name": "arXiv",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Manar Bidani",
+        "Mabrouka Bessghaier"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Independent Researcher"
+    ],
+    "Abstract": "We introduce AraHeritage, a large-scale Arabic-dominant Facebook corpus of historical and cultural heritage discourse comprising 290,390 public posts collected between June 22 and August 7, 2024. The corpus was constructed through hashtag-based collection using five heritage-oriented seed terms: \u062e\u064a\ufead\u0627\u062a (history), \ufe99\ufe8d\u0631\u062a (heritage), \u064a\u062e\u064a\ufead\u0627\u062a (historical), \u0645\u064a\u062f\u0642 (ancient/old), and \u064a\u0636\u0627\u0645\u0644\ufe8d (the past). Analysis reveals that Arabic heritage discourse on Facebook is not a monothematic domain but a hybrid communicative space in which historical and cultural content coexists with sports-driven engagement, tourism references, and political commentary. Photo posts dominate total interaction by volume, while Native Video records the highest mean engagement among the major formats and link-based posts underperform. Engagement is geographically concentrated, with Egypt and Algeria accounting for the largest single-country shares. The corpus provides a high-resolution snapshot of Arabic digital heritage communication and supports research in related studies.",
+    "Added By": "google/gemini-3-flash-preview"
+}
