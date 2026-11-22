@@ -1,0 +1,77 @@
+{
+    "Name": "ar",
+    "Dialect Subsets": [
+        {
+            "Name": "Deadpool",
+            "Volume": 3150.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "Wonder Woman",
+            "Volume": 1331.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "ArabicFemale",
+            "Volume": 5139.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://tinyurl.com/4ke5jwyw",
+    "License": "custom",
+    "Year": 2024,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "art",
+        "culture",
+        "society"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation",
+        "human validation"
+    ],
+    "Description": "Arabic Facebook posts discussing gender narratives",
+    "Volume": 4481.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar"
+    ],
+    "Derived From": [],
+    "Paper Title": "From Script to Feed: Gender Representation in Hollywood Films and Arabic Social Media Discourse",
+    "Paper Link": "https://doi.org/10.1007/978-981-92-6910-5_38",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "0",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "lexicon analysis",
+        "text classification",
+        "other"
+    ],
+    "Venue Title": "other",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Manar Bidani",
+        "Mabrouka Bessghaier"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Independent Researcher"
+    ],
+    "Abstract": "How do public Arabic-language Facebook pages discuss the gender narratives of Hollywood films? Focusing on Wonder Woman and Deadpool, this exploratory case study combines computational linguistics and media analysis to compare narrative-level gender representation with the vocabulary of online public-page discourse. We adopt a multi-layer analytical framework integrating (i) engagement and reaction analysis of Facebook posts, (ii) post-level contextual analysis of gendered framing in Arabic social media text across three context windows, and (iii) an analysis of character agency, lexical framing, and speaker-turn share in the original film scripts. Data were collected via the CrowdTangle API from thousands of posts published by diverse public pages. Descriptive analyses vary by film and category. In Wonder Woman, female and male characters have similar agency scores and nearly equal speaker-turn shares, whereas Deadpool shows a pronounced gender gap in speaker-turn share and a smaller difference in agency scores. This contrast is not mirrored by a consistent pattern in public-page vocabulary. As a focused two-film case study, the analysis characterizes differences between the script and public-page layers descriptively rather than as evidence of a causal relationship, and the results are consistent with accounts of glocalization in which globally circulated media narratives are locally recontextualized.",
+    "Added By": "google/gemini-3-flash-preview"
+}
