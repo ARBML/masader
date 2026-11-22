@@ -1,0 +1,79 @@
+{
+    "Name": "Nakba",
+    "Dialect Subsets": [
+        {
+            "Name": "ArabicMale",
+            "Volume": 17329.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "FacebookArabic",
+            "Volume": 5563.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "ArabicFemale",
+            "Volume": 5139.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "",
+    "Link": "",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "multilingual",
+    "Dialect": "mixed",
+    "Source": [
+        "social media"
+    ],
+    "Domain": [
+        "history",
+        "politics",
+        "society"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation",
+        "metadata-derived"
+    ],
+    "Description": "Bilingual dataset of Social media posts about the 1948 Palestinian Nakba",
+    "Volume": 28031.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Hamad Bin Khalifa University",
+        "Northwestern University in Qatar"
+    ],
+    "Derived From": [],
+    "Paper Title": "Nakba Discourse 2025: A Bilingual Social Media Dataset for Collective Trauma Analysis",
+    "Paper Link": "https://www.lrec-conf.org/proceedings/lrec2026/workshops/nakbanlp/pdf/2026.nakbanlp-1.3.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "Free",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "sentiment analysis",
+        "dialect identification",
+        "stance detection",
+        "propaganda detection",
+        "other"
+    ],
+    "Venue Title": "LREC",
+    "Venue Type": "conference",
+    "Venue Name": "International Conference on Language Resources and Evaluation",
+    "Authors": [
+        "Esra\u2019a Sharqawi",
+        "Wajdi Zaghouani"
+    ],
+    "Affiliations": [
+        "Hamad Bin Khalifa University",
+        "Northwestern University in Qatar"
+    ],
+    "Abstract": "We introduce Nakba Discourse 2025, a bilingual full-year social media dataset capturing Arabic and English discourse about the 1948 Palestinian Nakba across Twitter/X and Facebook from January to December 2025. The corpus contains 70,312 unique posts organized into intersecting sub-corpora by language, sentiment, gender, geography, and platform, with engagement metadata and automatically extracted rhetorical features. Analyses reveal systematic variation in engagement and framing across communities. Per-post engagement is highest in Israel and UK subsets (50.62 and 49.08 average likes respectively), while Arabic-language discourse shows markedly lower per-post engagement. Sentiment distribution is strongly skewed, with negative sentiment posts outnumbering positive ones at an 11:1 ratio (54,424 vs. 4,827 posts). Despite dramatic variation in absolute engagement levels, virality rates remain structurally constant at approximately 10% across all Twitter/X sub-corpora, regardless of language, gender, or geography, pointing to platform-level amplification regularities. Gender analysis reveals that women achieve proportional virality equal to men despite producing roughly one-third the volume of posts. Temporal patterns align with cultural calendars, including Thursday peaks associated with Jumu\u2019ah across Arabic and female subsets, and Sunday peaks in English-language subsets reflecting Western media cycles. The dataset will be released for research use and supports multilingual stance detection, virality modeling, rhetorical analysis, and computational studies of digital political memory.",
+    "Added By": "google/gemini-3-flash-preview"
+}
