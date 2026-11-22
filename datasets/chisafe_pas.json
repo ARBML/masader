@@ -1,0 +1,55 @@
+{
+    "Name": "ChiSafe-PAS",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://forms.gle/YUFdA16R6HkSZjp88",
+    "License": "CC BY-NC 4.0",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "health",
+        "politics",
+        "society"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "A human-annotated multi-domain benchmark for high-stakes LLM safety evaluation in Chinese.",
+    "Volume": 1897.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar"
+    ],
+    "Derived From": [],
+    "Paper Title": "Beyond English and Evasion: A Human-Annotated Multi-Domain Benchmark for High-Stakes LLM Safety Evaluation in Chinese",
+    "Paper Link": "https://www.lrec-conf.org/proceedings/lrec2026/workshops/resourceful/pdf/2026.resourceful-1.16.pdf",
+    "Script": "Arab-Latin",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "safety evaluation",
+        "text classification"
+    ],
+    "Venue Title": "RESOURCEFUL",
+    "Venue Type": "workshop",
+    "Venue Name": "The Fourth Workshop on the Role of Resources in the Age of Large Language Models",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Kholoud K. Aldous",
+        "Yicheng Gao"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar"
+    ],
+    "Abstract": "When Large Language Models (LLMs) are deployed in Chinese-language settings, a troubling pattern emerges: safety systems that work well in English breakdown. These systems struggle to cross linguistic and cultural boundaries, leaving models exposed to adversarial prompts that exploit Chinese-specific evasion techniques, including Pinyin romanization, character decomposition, internet slang, and hedging tone. To address this gap, we introduce ChiSafe-PAS (Chinese Safety Pilot Annotation Set), a human-annotated benchmark of 1,897 adversarial Chinese prompts spanning four high-stakes domains: self-harm and violence, drug and illicit trade, fraud, and satire. Of these, 1,544 entries carry complete gold-standard annotations: a 3-class response label (REFUSE, SAFE-REDIRECT, RESPOND), a nine-category obfuscation taxonomy, a risk-level rating, and annotator rationale. We describe the dataset design, annotation process, and obfuscation taxonomy in detail. Our primary goal is practical: to give the research community a high-quality, culturally grounded resource for benchmarking LLM safety alignment. In doing so, we engage three broader tensions in the field: the blurring boundary between training and evaluation data, the need for domain coverage grounded in real-world risk, and the limits of scale as a substitute for cultural expertise.",
+    "Added By": "google/gemini-3-flash-preview"
+}
