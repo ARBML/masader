@@ -1,0 +1,92 @@
+{
+    "Name": "ArGuard",
+    "Dialect Subsets": [
+        {
+            "Name": "Track A (Memes)",
+            "Volume": 5000.0,
+            "Unit": "images",
+            "Dialect": "mixed"
+        },
+        {
+            "Name": "Track B (Prompts)",
+            "Volume": 27047.0,
+            "Unit": "sentences",
+            "Dialect": "mixed"
+        }
+    ],
+    "HF Link": "https://huggingface.co/datasets/QCRI/AHA-MEMES",
+    "Link": "https://araieval.github.io/ArGuard2026/",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "social media",
+        "web pages",
+        "public datasets",
+        "LLM"
+    ],
+    "Domain": [
+        "general",
+        "society",
+        "politics",
+        "culture"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation",
+        "metadata-derived"
+    ],
+    "Description": "Shared task dataset for harmful content detection in Arabic memes and LLM prompts.",
+    "Volume": 32047.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Qatar Computing Research Institute",
+        "Hamad Bin Khalifa University",
+        "Northwestern University in Qatar",
+        "APAVI.AI"
+    ],
+    "Derived From": [
+        "AHA-Memes",
+        "ArabicDialectSafety",
+        "AraSafe"
+    ],
+    "Paper Title": "ARGUARD SHARED TASK: Harmful Content Detection in Arabic Memes and LLM Prompts",
+    "Paper Link": "https://araieval.github.io/ArGuard2026/",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "HuggingFace",
+    "Access": "Free",
+    "Cost": "0",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "text classification",
+        "hate speech detection",
+        "offensive language detection",
+        "safety evaluation",
+        "other"
+    ],
+    "Venue Title": "ArabicNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Arabic Natural Language Processing Conference",
+    "Authors": [
+        "Firoj Alam",
+        "Md. Rafiul Biswas",
+        "Mohamed Bayan Kmainasi",
+        "Ali Ezzat Shahroor",
+        "Hamdy Mubarak",
+        "George Mikros",
+        "Abul Hasnat",
+        "Wajdi Zaghouani"
+    ],
+    "Affiliations": [
+        "Qatar Computing Research Institute",
+        "Hamad Bin Khalifa University",
+        "Northwestern University in Qatar",
+        "APAVI.AI"
+    ],
+    "Abstract": "Harmful content appears in diverse forms, ranging from multimodal memes targeting protected groups to textual prompts designed to elicit unsafe responses from large language models. However, existing Arabic resources typically study these settings separately and often rely on coarse-grained labels. We introduce ArGuard, a shared task on harmful content detection in Arabic memes and LLM prompts. ArGuard consists of two tracks: Track A focuses on multimodal hate detection in Arabic memes, while Track B addresses harmful prompt detection for Arabic LLM safety evaluation. Overall, 58 teams registered for the shared task, 35 participated in the final evaluation phase, and 27 submitted system-description papers. Participating systems explored a range of approaches, including fine-tuning encoder- and decoder-based models such as AraBERT, Jais, and Qwen2-VL. The best-performing systems achieved macro-F1 scores of 0.823 on Subtask A1, 0.419 on Subtask A2, 0.984 on Subtask B1, and 0.790 on Subtask B2.",
+    "Added By": "google/gemini-3-flash-preview"
+}
