@@ -1,0 +1,98 @@
+{
+    "Name": "ArabicDialectSafety",
+    "Dialect Subsets": [
+        {
+            "Name": "Modern Standard Arabic",
+            "Volume": 11619.0,
+            "Unit": "sentences",
+            "Dialect": "Modern Standard Arabic"
+        },
+        {
+            "Name": "Syrian",
+            "Volume": 5190.0,
+            "Unit": "sentences",
+            "Dialect": "Syria"
+        },
+        {
+            "Name": "Egyptian",
+            "Volume": 2264.0,
+            "Unit": "sentences",
+            "Dialect": "Egypt"
+        },
+        {
+            "Name": "Moroccan",
+            "Volume": 2393.0,
+            "Unit": "sentences",
+            "Dialect": "Morocco"
+        },
+        {
+            "Name": "Algerian",
+            "Volume": 984.0,
+            "Unit": "sentences",
+            "Dialect": "Algeria"
+        },
+        {
+            "Name": "Palestinian",
+            "Volume": 1601.0,
+            "Unit": "sentences",
+            "Dialect": "Palestine"
+        }
+    ],
+    "HF Link": "",
+    "Link": "https://forms.gle/YUFdA16R6HkSZjp88",
+    "License": "unknown",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "mixed",
+    "Source": [
+        "manual construction"
+    ],
+    "Domain": [
+        "society",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation",
+        "human validation"
+    ],
+    "Description": "Human-curated Arabic safety dataset across six varieties with harm categories.",
+    "Volume": 24051.0,
+    "Unit": "sentences",
+    "Provider": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Derived From": [],
+    "Paper Title": "ArabicDialectSafety: A Dialect-Aware Benchmark for Arabic Content Safety Classification",
+    "Paper Link": "https://aclanthology.org/2026.findings-emnlp.1726.pdf",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "other",
+    "Access": "Upon-Request",
+    "Cost": "Free",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "text classification",
+        "toxicity detection",
+        "hate speech detection",
+        "safety evaluation",
+        "dialect identification"
+    ],
+    "Venue Title": "EMNLP",
+    "Venue Type": "conference",
+    "Venue Name": "Conference on Empirical Methods in Natural Language Processing",
+    "Authors": [
+        "Wajdi Zaghouani",
+        "Md. Rafiul Biswas",
+        "Kholoud Khalil Aldous",
+        "Mabrouka Bessghaier"
+    ],
+    "Affiliations": [
+        "Northwestern University in Qatar",
+        "Hamad Bin Khalifa University"
+    ],
+    "Abstract": "We present ARABICDIALECTSAFETY, a human-curated Arabic safety dataset of 24,051 prompts spanning six Arabic varieties: Modern Standard Arabic, Syrian, Egyptian, Algerian, Palestinian, and Moroccan annotated with both dialect labels and seven fine-grained harm categories. We introduce a dual-task evaluation framework covering binary safe/unsafe detection and granular harm classification across dialects. Benchmarking seven supervised and generative models, we find that fine-tuned MARBERTv2 achieves the strongest performance (0.95 binary and 0.90 granular Macro-F1), substantially outperforming prompted frontier LLMs, including Arabic-specialized models. Our dialect ablations show that explicit dialect conditioning improves performance only when integrated at the representation layer rather than through prompt-level cues. Per-dialect analysis further reveals substantial disparities between high-resource and Maghrebi varieties, highlighting persistent challenges in dialect-equitable Arabic safety evaluation. Finally, we evaluate seven frontier LLMs as response generators on harmful dialectal Arabic prompts and find that unsafe generation rates remain below 5%, although human validation suggests these estimates are conservative. We release the dataset and code upon acceptance to support future research on dialect-aware Arabic safety evaluation.",
+    "Added By": "google/gemini-3-flash-preview"
+}
