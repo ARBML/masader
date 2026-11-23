@@ -1,0 +1,44 @@
+{
+    "Name": "Abdullah N. Alsaleh",
+    "Dialect Subsets": [],
+    "HF Link": "https://github.com/AlsalehAbdullah/QuranRel",
+    "Link": "https://github.com/AlsalehAbdullah/QuranRel",
+    "License": "custom",
+    "Year": 2025,
+    "Language": "ar",
+    "Dialect": "Classical Arabic",
+    "Source": [
+        "web crawls"
+    ],
+    "Domain": [
+        "religion"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "Semantic Similarity of the Holy Quran that is based on a highly regarded Quranic exegesis book \u0623\u0636\u0648\u0627\u0621 \u0627\u0644\u0628\u064a\u0627\u0646 \u0641\u064a \u062a\u0641\u0633\u064a\u0631 \u0627\u0644\u0642\u0631\u0622\u0646 \u0628\u0627\u0644\u0642\u0631\u0622\u0646 by Alsheikh Mohammed Alshinqiti.",
+    "Volume": 12937.0,
+    "Unit": "documents",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "Transformer-based Semantic Similarity Exploration on the Holy Quran",
+    "Paper Link": "https://etheses.whiterose.ac.uk/id/eprint/37334/2/ALSALEH_Abdullah_Thesis.pdf",
+    "Script": "Latin",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "0",
+    "Has Splits": true,
+    "Partial": false,
+    "Tasks": [
+        "semantic similarity"
+    ],
+    "Venue Title": "other",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "the thesis highlights the need for a new semantic similarity corpus of the Holy Quran, grounded in a Quranic exegesis that interprets the Quran through the Quran itself. These contributions advance the field of NLP for the Holy Quran in particular and Classical Arabic in general, providing tools and resources that open new pathways for the computational linguistics of religious text.",
+    "Added By": "Abdullah N. Alsaleh"
+}
