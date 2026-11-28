@@ -1,0 +1,46 @@
+{
+    "Name": "Shadi Abudalfa",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/sabudalfa/ArabicTextSentimentSwap",
+    "License": "custom",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "public datasets"
+    ],
+    "Domain": [
+        "news",
+        "society",
+        "general"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "human annotation"
+    ],
+    "Description": "",
+    "Volume": 0.0,
+    "Unit": "sentences",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "Ma'aks: manually-curated parallel dataset for Arabic text sentiment swap",
+    "Paper Link": "https://link.springer.com/article/10.1007/s10579-025-09895-4",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "text generation"
+    ],
+    "Venue Title": "other",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "The advancement of NLP has made significant strides in sentiment style transfer, modifying the linguistic style of a text while preserving its content. However, most existing datasets are non-parallel and focus on English, neglecting low-resource languages like Arabic. The lack of comprehensive Arabic parallel datasets has hindered the development and evaluation of robust sentiment transfer models for Arabic. To address this, we introduce MA\u2019AKS, a novel Arabic parallel dataset for sentiment style transfer. MA\u2019AKS consists of 5k sentences in modern standard Arabic with positive/negative sentiments. Each sentence is meticulously annotated to ensure high-quality parallel sentiment pairs, supporting both supervised and unsupervised learning. To benchmark the dataset, we evaluated AceGPT, JAIS, and Llama-3 LLMs on Arabic sentiment transfer with different learning settings, including zero-shot, few-shot, and fine-tuning. By publicly releasing MA\u2019AKS, annotation guidelines, and experiment code, we aim to advance research on Arabic sentiment transfer and contribute to the NLP community.",
+    "Added By": "Shadi Abudalfa"
+}
