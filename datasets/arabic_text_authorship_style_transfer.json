@@ -1,0 +1,44 @@
+{
+    "Name": "Arabic Text Authorship Style Transfer",
+    "Dialect Subsets": [],
+    "HF Link": "",
+    "Link": "https://github.com/sabudalfa/ArabicTextAuthorshipStyleTransfer/tree/main/Datasets/StyleTransfer",
+    "License": "custom",
+    "Year": 2026,
+    "Language": "ar",
+    "Dialect": "Modern Standard Arabic",
+    "Source": [
+        "books"
+    ],
+    "Domain": [
+        "literature"
+    ],
+    "Form": "text",
+    "Annotation Style": [
+        "machine annotation"
+    ],
+    "Description": "",
+    "Volume": 0.0,
+    "Unit": "sentences",
+    "Provider": [],
+    "Derived From": [],
+    "Paper Title": "Arabic-based Agent for Authorship Style Transfer",
+    "Paper Link": "https://dl.acm.org/doi/10.1145/3806046",
+    "Script": "Arab",
+    "Tokenized": false,
+    "Host": "GitHub",
+    "Access": "Free",
+    "Cost": "",
+    "Has Splits": false,
+    "Partial": false,
+    "Tasks": [
+        "text generation"
+    ],
+    "Venue Title": "other",
+    "Venue Type": "preprint",
+    "Venue Name": "",
+    "Authors": [],
+    "Affiliations": [],
+    "Abstract": "Authorship style transfer focuses on modifying text to align with a specific author\u2019s writing style while maintaining its original meaning. In this study, we investigate this task in the context of Arabic text. To the best of our knowledge, this is the first work addressing authorship style transfer in the Arabic domain. Our approach begins with the construction of a novel Arabic parallel dataset for this task. Subsequently, we adapt a set of language models to evaluate how well they can recognize authorship and rewrite input text in the stylistic voice of a target author without altering the underlying semantics. The evaluation includes three large language models (LLMs) alongside one non-LLM Arabic-specific model, allowing us to demonstrate that the presented framework remains effective across different model architectures. As an outcome of this research, we introduce an Arabic language agent capable of performing authorship style transfer with competitive results.",
+    "Added By": "Shadi Abudalfa"
+}
